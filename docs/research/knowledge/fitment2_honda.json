@@ -1,0 +1,1715 @@
+{
+ "slice": "parts fitment pass 2 (Honda): OEM part-number interchange by part group, US catalogue check of pass-1 numbers",
+ "platform": {
+  "make": "Honda",
+  "models": [],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "models_covered": [
+   "CRF250R",
+   "CRF250RX",
+   "CRF450R",
+   "CRF450RX"
+  ]
+ },
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://www.motosport.com/oem-parts/honda/2020/crf250r",
+  "https://www.motosport.com/oem-parts/honda/2020/crf250rx",
+  "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+  "https://www.motosport.com/oem-parts/honda/2020/crf450rx",
+  "https://www.motosport.com/oem-parts/honda/2021/crf250r",
+  "https://www.motosport.com/oem-parts/honda/2021/crf250rx",
+  "https://www.motosport.com/oem-parts/honda/2021/crf450r",
+  "https://www.motosport.com/oem-parts/honda/2021/crf450rx",
+  "https://www.motosport.com/oem-parts/honda/2022/crf250r",
+  "https://www.motosport.com/oem-parts/honda/2022/crf250rx",
+  "https://www.motosport.com/oem-parts/honda/2022/crf450r",
+  "https://www.motosport.com/oem-parts/honda/2022/crf450rx",
+  "https://www.motosport.com/oem-parts/honda/2023/crf250r",
+  "https://www.motosport.com/oem-parts/honda/2023/crf250rx",
+  "https://www.motosport.com/oem-parts/honda/2023/crf450r",
+  "https://www.motosport.com/oem-parts/honda/2023/crf450rx",
+  "https://www.motosport.com/oem-parts/honda/2024/crf250r",
+  "https://www.motosport.com/oem-parts/honda/2024/crf250rx",
+  "https://www.motosport.com/oem-parts/honda/2024/crf450r",
+  "https://www.motosport.com/oem-parts/honda/2024/crf450rx",
+  "https://www.motosport.com/oem-parts/honda/2025/crf250r",
+  "https://www.motosport.com/oem-parts/honda/2025/crf250rx",
+  "https://www.motosport.com/oem-parts/honda/2025/crf450r",
+  "https://www.motosport.com/oem-parts/honda/2025/crf450rx",
+  "https://www.motosport.com/oem-parts/honda/2026/crf250r",
+  "https://www.motosport.com/oem-parts/honda/2026/crf250rx",
+  "https://www.motosport.com/oem-parts/honda/2026/crf450r",
+  "https://www.motosport.com/oem-parts/honda/2026/crf450rx"
+ ],
+ "records": [
+  {
+   "id": "fit2-honda-chassis",
+   "domain": "chassis",
+   "topic": "frame, subframe and swingarm interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, frame, subframe and swingarm, by OEM part number. Main frame: 50010-K95-A60 on CRF250R 2020-2021; 50010-K95-A70 on CRF250RX 2020-2021; 50010-MKE-A70 on CRF450R 2020; 50010-MKE-A80 on CRF450RX 2020; 50010-MKE-AA0 on CRF450R 2020; 50010-MKE-AB0 on CRF450RX 2020; 50010-MKE-AF0 on CRF450R, CRF450RX 2021-2022, CRF250R, CRF250RX 2022-2024 and 2 more numbers (see values). Subframe (rear frame): 50200-K95-A40 on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021; 50200-MKE-AF0 on CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024; 50200-K95-AG0 on CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026. Swingarm: 52200-MKE-AA0 on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021; 52200-MKE-AF0 on CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024; 52200-K95-AG0 on CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "main frame": {
+     "50010-K95-A60": "FRAME SET | CRF250R 2020-2021",
+     "50010-K95-A70": "FRAME SET | CRF250RX 2020-2021",
+     "50010-MKE-A70": "FRAME SET | CRF450R 2020",
+     "50010-MKE-A80": "FRAME SET | CRF450RX 2020",
+     "50010-MKE-AA0": "FRAME SET | CRF450R 2020",
+     "50010-MKE-AB0": "FRAME SET | CRF450RX 2020",
+     "50010-MKE-AF0": "FRAME SET | CRF450R, CRF450RX 2021-2022, CRF250R, CRF250RX 2022-2024",
+     "50010-MKE-AS0": "FRAME SET | CRF450R, CRF450RX 2023-2024",
+     "50010-K95-AG0": "FRAME SET | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026"
+    },
+    "subframe (rear frame)": {
+     "50200-K95-A40": "FRAME, RR. | CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021",
+     "50200-MKE-AF0": "FRAME, RR. | CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024",
+     "50200-K95-AG0": "FRAME, RR. | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026"
+    },
+    "swingarm": {
+     "52200-MKE-AA0": "SWINGARM SUB-ASSY., RR. | CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021",
+     "52200-MKE-AF0": "SWINGARM SUB-ASSY., RR. | CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024",
+     "52200-K95-AG0": "SWINGARM SUB, RR. | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-linkage",
+   "domain": "chassis",
+   "topic": "rear linkage arms interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): 52465-MKE-A00 on CRF250R, CRF250RX 2020-2021; 52465-MKE-A70 on CRF450R, CRF450RX 2020; 52475-MKE-A60 on CRF250R, CRF250RX 2020-2021; 52475-MKE-A70 on CRF450R, CRF450RX 2020; 52485-MKE-A60 on CRF250R, CRF250RX 2020-2021; 52485-MKE-A70 on CRF450R, CRF450RX 2020; 52465-MKE-AF0 on CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024 and 4 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "linkage arms (relay arm, pull rod, cushion arm)": {
+     "52465-MKE-A00": "ARM SUB-ASSY., CUSHION | CRF250R, CRF250RX 2020-2021",
+     "52465-MKE-A70": "ARM SUB-ASSY., CUSHION | CRF450R, CRF450RX 2020",
+     "52475-MKE-A60": "ROD SUB-ASSY., R. CUSHION CONNECTING | CRF250R, CRF250RX 2020-2021",
+     "52475-MKE-A70": "ROD SUB-ASSY., R. CUSHION CONNECTING | CRF450R, CRF450RX 2020",
+     "52485-MKE-A60": "ROD SUB-ASSY., L. CUSHION CONNECTING | CRF250R, CRF250RX 2020-2021",
+     "52485-MKE-A70": "ROD SUB-ASSY., L. CUSHION CONNECTING | CRF450R, CRF450RX 2020",
+     "52465-MKE-AF0": "ARM SUB-ASSY., CUSHION | CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024",
+     "52475-MKE-AF0": "ROD SUB-ASSY., R. CUSHION CONNECTING | CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024",
+     "52485-MKE-AF0": "ROD SUB-ASSY., L. CUSHION CONNECTING | CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024",
+     "52465-K95-AG0": "ARM SUB-ASSY. | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026",
+     "52475-K95-AG0": "ROD SUB-ASSY. | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-clamps",
+   "domain": "chassis",
+   "topic": "triple clamps and handlebar mounts interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, triple clamps and handlebar mounts, by OEM part number. Top triple clamp: 53300-MKE-A70 on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021; 53300-MKE-AF0 on CRF450R, CRF450RX 2021-2022, CRF250R, CRF250RX 2022; 53300-K95-AC0 on CRF450R, CRF250R, CRF450RX, CRF250RX 2023-2024; 53300-K95-AG0 on CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026. Bottom triple clamp (steering stem): 53219-MKE-A00 on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021; 53219-MKE-AF0 on CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024; 53219-K95-AG0 on CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026. Handlebar and bar mounts: 53100-MKE-A70 (HANDLEBAR) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026; 53131-MKE-A70 (HOLDER, HANDLE (UPPER)) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024; 53132-MKE-A70 (HOLDER, HANDLE (LOWER)) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "top triple clamp": {
+     "53300-MKE-A70": "BRIDGE, FORK TOP | CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021",
+     "53300-MKE-AF0": "BRIDGE, FORK TOP | CRF450R, CRF450RX 2021-2022, CRF250R, CRF250RX 2022",
+     "53300-K95-AC0": "BRIDGE, FORK TOP | CRF450R, CRF250R, CRF450RX, CRF250RX 2023-2024",
+     "53300-K95-AG0": "BRIDGE, FORK TOP | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026"
+    },
+    "bottom triple clamp (steering stem)": {
+     "53219-MKE-A00": "STEM SUB-ASSY., STEERING | CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021",
+     "53219-MKE-AF0": "STEM SUB-ASSY., STEERING | CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024",
+     "53219-K95-AG0": "STEM SUB-ASSY., STRG | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026"
+    },
+    "handlebar and bar mounts": {
+     "53100-MKE-A70": "HANDLEBAR | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "53131-MKE-A70": "HOLDER, HANDLE (UPPER) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024",
+     "53132-MKE-A70": "HOLDER, HANDLE (LOWER) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-pegs",
+   "domain": "chassis",
+   "topic": "footpegs and footpeg brackets interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, footpegs and footpeg brackets, by OEM part number. Footpegs and footpeg brackets: 50610-MEN-B10 on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026; 50611-K95-A50 on CRF450RX, CRF250RX 2020-2026; 50611-MEN-B10 on CRF450R, CRF250R 2020-2026; 50660-MKE-A70 on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026; 50670-MKE-A70 on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "footpegs and footpeg brackets": {
+     "50610-MEN-B10": "BRACKET, R. STEP | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "50611-K95-A50": "BRACKET, L. STEP (NOT AVAILABLE) | CRF450RX, CRF250RX 2020-2026",
+     "50611-MEN-B10": "BRACKET, L. STEP | CRF450R, CRF250R 2020-2026",
+     "50660-MKE-A70": "ARM, R. STEP | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "50670-MKE-A70": "ARM, L. STEP | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-wheels",
+   "domain": "chassis",
+   "topic": "wheels, hubs, axles and rim sizes interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, wheels, hubs, axles and rim sizes, by OEM part number. Front wheel, hub and axle: 44301-MEN-000 on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024; 44635-MKE-A60 on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026; 44650-MKE-A70 on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021; 44650-MKE-AF0 on CRF450R, CRF450RX 2021-2026, CRF250R, CRF250RX 2022-2026 (+1 more in values). Rear wheel, hub and axle: 42301-KRN-A30 on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026; 42635-MKE-A60 on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021; 42650-K95-A40 on CRF250R 2020-2021; 42650-MKE-A70 on CRF450R 2020 (+6 more in values). Rim sizes: 42701-K95-A41 (RIM, RR. WHEEL (19X1.85)) on CRF250R 2020-2021; 42701-MKE-A71 (RIM, RR. WHEEL (19X2.15)) on CRF450R 2020; 42701-MKE-A81 (RIM, RR. WHEEL (18X2.15)) on CRF450RX 2020, CRF250RX 2020-2021; 44701-MKE-A71 (RIM, FR. WHEEL (21X1.60)) on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021 (+4 more in values). Same number = same part, it swaps; different number = different part.",
+   "values": {
+    "front wheel, hub and axle": {
+     "44301-MEN-000": "AXLE, FR. WHEEL | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024",
+     "44635-MKE-A60": "HUB SUB-ASSY., FR. | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "44650-MKE-A70": "WHEEL SUB-ASSY., FR. | CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021",
+     "44650-MKE-AF0": "WHEEL SUB-ASSY., FR. | CRF450R, CRF450RX 2021-2026, CRF250R, CRF250RX 2022-2026",
+     "44301-K95-AG0": "AXLE, FR. WHEEL | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026"
+    },
+    "rear wheel, hub and axle": {
+     "42301-KRN-A30": "AXLE, RR. WHEEL | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "42635-MKE-A60": "HUB SUB-ASSY., RR. | CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021",
+     "42650-K95-A40": "WHEEL SUB-ASSY., RR. | CRF250R 2020-2021",
+     "42650-MKE-A70": "WHEEL SUB-ASSY., RR. | CRF450R 2020",
+     "42650-MKE-A80": "WHEEL SUB-ASSY., RR. | CRF450RX 2020, CRF250RX 2020-2021",
+     "42635-MKE-AF0": "HUB SUB-ASSY., RR. | CRF450R, CRF450RX 2021-2026, CRF250R, CRF250RX 2022-2026",
+     "42650-MKE-AF0": "WHEEL SUB-ASSY., RR. | CRF450R 2021-2026",
+     "42650-MKE-AG0": "WHEEL SUB-ASSY., RR. | CRF450RX 2021-2026, CRF250RX 2025-2026",
+     "42650-K95-AA0": "WHEEL SUB-ASSY., RR. | CRF250R 2022-2026",
+     "42650-K95-AB0": "WHEEL SUB-ASSY., RR. | CRF250RX 2022-2024"
+    },
+    "rim sizes": {
+     "42701-K95-A41": "RIM, RR. WHEEL (19X1.85) | CRF250R 2020-2021",
+     "42701-MKE-A71": "RIM, RR. WHEEL (19X2.15) | CRF450R 2020",
+     "42701-MKE-A81": "RIM, RR. WHEEL (18X2.15) | CRF450RX 2020, CRF250RX 2020-2021",
+     "44701-MKE-A71": "RIM, FR. WHEEL (21X1.60) | CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021",
+     "42701-MKE-AF1": "RIM, RR. WHEEL (19X2.15) | CRF450R 2021-2026",
+     "42701-MKE-AG1": "RIM, RR. WHEEL (18X2.15) | CRF450RX 2021-2026, CRF250RX 2022-2026",
+     "44701-MKE-AF1": "RIM, FR. WHEEL (21X1.60) | CRF450R, CRF450RX 2021-2026, CRF250R, CRF250RX 2022-2026",
+     "42701-K95-AA1": "RIM, RR. (19X1.85) | CRF250R 2022-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-bearings",
+   "domain": "maintenance",
+   "topic": "wheel, swingarm/linkage and steering-head bearings and seals (sizes) interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, wheel, swingarm/linkage and steering-head bearings and seals (sizes), by OEM part number. Wheel bearings and wheel seals: 41231-KZ4-J20 (RETAINER, RR. WHEEL BEARING) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026; 91051-KZ4-J21 (BEARING, RADIAL BALL (69052RS)) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026 (+4 more in values). Swingarm pivot and linkage bearings and seals: 91051-KRN-A31 (BEARING, RADIAL BALL (608UU)) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026; 91051-KSC-003 (BEARING, NEEDLE (20X26X15)) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026 (+8 more in values). Steering head bearings: 53214-KZ3-861 (DUST SEAL, STEERING HEAD (ARAI)) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026; 53214-KZ4-701 (DUST SEAL, STEERING HEAD (ARAI)) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026 (+1 more in values). Same number = same part, it swaps; different number = different part.",
+   "values": {
+    "wheel bearings and wheel seals": {
+     "41231-KZ4-J20": "RETAINER, RR. WHEEL BEARING | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "91051-KZ4-J21": "BEARING, RADIAL BALL (69052RS) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "91052-KZ4-J21": "BEARING, RADIAL BALL (6905RS) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "91062-MAC-681": "BEARING, RADIAL BALL (6904) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "91201-KS6-004": "OIL SEAL (26X37X7) (ARAI) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "91251-KZ4-J21": "DUST SEAL (32X43X7) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026"
+    },
+    "swingarm pivot and linkage bearings and seals": {
+     "91051-KRN-A31": "BEARING, RADIAL BALL (608UU) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "91051-KSC-003": "BEARING, NEEDLE (20X26X15) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "91071-MJ0-004": "BEARING, NEEDLE (THOMPSON) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "91072-KZ3-861": "BEARING, NEEDLE THRUST | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "91074-KRN-711": "BEARING, NEEDLE (19X26X13) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "91251-MKE-A01": "DUST SEAL (30X37X3) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "91252-MKE-A01": "DUST SEAL (22X29X3) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "91254-MKE-A01": "DUST SEAL (20X27X4) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024",
+     "91262-KZ3-731": "DUST SEAL (25X32X4) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "91351-KRN-711": "DUST SEAL (17.5X26X3) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026"
+    },
+    "steering head bearings": {
+     "53214-KZ3-861": "DUST SEAL, STEERING HEAD (ARAI) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "53214-KZ4-701": "DUST SEAL, STEERING HEAD (ARAI) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "91015-KZ4-701": "BEARING, HEAD PIPE (TOYO) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-discs",
+   "domain": "chassis",
+   "topic": "brake discs interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, brake discs, by OEM part number. Front brake disc: 45351-KRN-A90 (DISK, FR. BRAKE) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024; 45351-K95-AG1 (DISK, FR. BRAKE) on CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026. Rear brake disc: 43351-KRN-A90 (DISK, RR. BRAKE) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024; 43351-K95-AG1 (DISK, RR. BRAKE) on CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "front brake disc": {
+     "45351-KRN-A90": "DISK, FR. BRAKE | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024",
+     "45351-K95-AG1": "DISK, FR. BRAKE | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026"
+    },
+    "rear brake disc": {
+     "43351-KRN-A90": "DISK, RR. BRAKE | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024",
+     "43351-K95-AG1": "DISK, RR. BRAKE | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-pads",
+   "domain": "maintenance",
+   "topic": "brake pads interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, brake pads, by OEM part number. Front brake pads: 45105-MY6-415 on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026. Rear brake pads: 06435-KRN-712 on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024; 06435-MKE-AA1 on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "front brake pads": {
+     "45105-MY6-415": "PAD SET, FR. | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026"
+    },
+    "rear brake pads": {
+     "06435-KRN-712": "PAD SET, RR. | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024",
+     "06435-MKE-AA1": "PAD SET, RR. | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-brakes",
+   "domain": "chassis",
+   "topic": "brake calipers and master cylinders interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, brake calipers and master cylinders, by OEM part number. Front brake caliper: 45150-MKE-A71 on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024; 45150-K95-AG1 on CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026. Rear brake caliper: 43150-MKE-A01 on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026. Front brake master cylinder: 45510-KRN-A91 on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026. Rear brake master cylinder: 43500-KZ4-J43 on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "front brake caliper": {
+     "45150-MKE-A71": "CALIPER SUB-ASSY., L. FR. | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024",
+     "45150-K95-AG1": "CALIPER SUB-ASSY. | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026"
+    },
+    "rear brake caliper": {
+     "43150-MKE-A01": "CALIPER SUB-ASSY., RR. (MSDS) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026"
+    },
+    "front brake master cylinder": {
+     "45510-KRN-A91": "MASTER CYLINDER SUB-ASSY., FR. BRAKE (NISSIN) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026"
+    },
+    "rear brake master cylinder": {
+     "43500-KZ4-J43": "MASTER CYLINDER ASSY., RR. BRAKE (NISSIN) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-body",
+   "domain": "chassis",
+   "topic": "fenders, side covers, seat and fuel tank interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, fenders, side covers, seat and fuel tank, by OEM part number. Front fender: 61110-MKE-A00ZA on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021; 61110-MKE-AF0ZA on CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024 (+1 more in values). Rear fender: 80010-MKE-A00ZA on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021; 80010-MKE-307ZB on CRF450R, CRF450RX 2021-2026, CRF250R, CRF250RX 2022-2026. Side covers / number plates: 83510-MKE-A00ZA on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021; 83610-MKE-A00ZA on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021 (+8 more in values). Seat: 77100-MKE-A02ZA on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021; 77100-MKE-AF1ZA on CRF450R, CRF450RX 2021-2022, CRF250R, CRF250RX 2022 (+1 more in values). Fuel tank: 17510-MKE-A00 on CRF450R 2020, CRF250R 2020-2021; 17510-MKE-A10 on CRF450RX 2020, CRF250RX 2020-2021 (+3 more in values). Same number = same part, it swaps; different number = different part.",
+   "values": {
+    "front fender": {
+     "61110-MKE-A00ZA": "FENDER ASSY., FR. | CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021",
+     "61110-MKE-AF0ZA": "FENDER ASSY., FR. | CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024",
+     "61200-K95-AG0ZA": "FDR, FR. | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026"
+    },
+    "rear fender": {
+     "80010-MKE-A00ZA": "FENDER SET, RR. | CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021",
+     "80010-MKE-307ZB": "FENDER SET, RR. | CRF450R, CRF450RX 2021-2026, CRF250R, CRF250RX 2022-2026"
+    },
+    "side covers / number plates": {
+     "83510-MKE-A00ZA": "COVER, R. SIDE | CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021",
+     "83610-MKE-A00ZA": "COVER, L. SIDE | CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021",
+     "83510-MKE-AF0ZB": "COVER, R. SIDE (UPPER) | CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024",
+     "83610-MKE-AF0ZB": "COVER, L. SIDE (UPPER) | CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024",
+     "83710-MKE-AF0": "COVER, R. SIDE (LOWER) | CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024",
+     "83810-MKE-AF0": "COVER, L. SIDE (LOWER) | CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024",
+     "83510-K95-AG0ZA": "COVER A, R. | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026",
+     "83610-K95-AG0ZA": "COVER A, L. | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026",
+     "83710-K95-AG0": "COVER B, R. SIDE | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026",
+     "83810-K95-AG0": "COVER B, L. SIDE | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026"
+    },
+    "seat": {
+     "77100-MKE-A02ZA": "SEAT (TYPE1) | CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021",
+     "77100-MKE-AF1ZA": "SEAT (TYPE1) | CRF450R, CRF450RX 2021-2022, CRF250R, CRF250RX 2022",
+     "77100-K95-AC2ZA": "SEAT COMP (TYPE1) | CRF450R, CRF250R, CRF450RX, CRF250RX 2023-2026"
+    },
+    "fuel tank": {
+     "17510-MKE-A00": "TANK, FUEL | CRF450R 2020, CRF250R 2020-2021",
+     "17510-MKE-A10": "TANK, FUEL | CRF450RX 2020, CRF250RX 2020-2021",
+     "17500-MKE-AF0": "TANK ASSY., FUEL | CRF450R 2021-2024, CRF250R 2022-2024",
+     "17510-MKE-AG0": "TANK, FUEL | CRF450RX 2021-2026, CRF250RX 2022-2026",
+     "17500-K95-AG0": "TANK ASSY., FUEL | CRF450R, CRF250R 2025-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-radiators",
+   "domain": "chassis",
+   "topic": "radiators interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, radiators, by OEM part number. Radiators: 19100-K95-A60 on CRF250R 2020-2021; 19100-K95-A70 on CRF250RX 2020-2021; 19100-MKE-A00 on CRF450R 2020; 19100-MKE-A10 on CRF450RX 2020; 19150-K95-A20 on CRF250R 2020-2021; 19150-K95-A50 on CRF250RX 2020-2021; 19150-MKE-A00 on CRF450R 2020 and 5 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "radiators": {
+     "19100-K95-A60": "RADIATOR ASSY., R. | CRF250R 2020-2021",
+     "19100-K95-A70": "RADIATOR ASSY., R. | CRF250RX 2020-2021",
+     "19100-MKE-A00": "RADIATOR ASSY., R. | CRF450R 2020",
+     "19100-MKE-A10": "RADIATOR ASSY., R. | CRF450RX 2020",
+     "19150-K95-A20": "RADIATOR ASSY., L. | CRF250R 2020-2021",
+     "19150-K95-A50": "RADIATOR ASSY., L. | CRF250RX 2020-2021",
+     "19150-MKE-A00": "RADIATOR ASSY., L. | CRF450R 2020",
+     "19150-MKE-A10": "RADIATOR ASSY., L. | CRF450RX 2020",
+     "19100-MKE-AF0": "RADIATOR ASSY., R. | CRF450R, CRF450RX 2021-2026",
+     "19150-MKE-AF0": "RADIATOR ASSY., L. | CRF450R, CRF450RX 2021-2026",
+     "19100-K95-AA0": "RADIATOR ASSY., R. | CRF250R, CRF250RX 2022-2026",
+     "19150-K95-AA0": "RADIATOR ASSY., L. | CRF250R, CRF250RX 2022-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-exhaust",
+   "domain": "engine_mods",
+   "topic": "exhaust header and silencer interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, exhaust header and silencer, by OEM part number. Exhaust header and silencer: 18300-K95-A60 on CRF250R, CRF250RX 2020-2021; 18300-MKE-A70 on CRF450R, CRF450RX 2020; 18320-MKE-A70 on CRF450R, CRF450RX 2020; 18400-K95-A60 on CRF250R, CRF250RX 2020-2021; 18400-MKE-A70 on CRF450R, CRF450RX 2020; 18300-MKE-AF0 on CRF450R, CRF450RX 2021-2022; 18320-MKE-AF0 on CRF450R, CRF450RX 2021-2022 and 8 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "exhaust header and silencer": {
+     "18300-K95-A60": "MUFFLER ASSY., R. | CRF250R, CRF250RX 2020-2021",
+     "18300-MKE-A70": "MUFFLER ASSY., R. | CRF450R, CRF450RX 2020",
+     "18320-MKE-A70": "PIPE, EX. | CRF450R, CRF450RX 2020",
+     "18400-K95-A60": "MUFFLER ASSY., L. | CRF250R, CRF250RX 2020-2021",
+     "18400-MKE-A70": "MUFFLER ASSY., L. | CRF450R, CRF450RX 2020",
+     "18300-MKE-AF0": "MUFFLER ASSY. | CRF450R, CRF450RX 2021-2022",
+     "18320-MKE-AF0": "PIPE, EX. | CRF450R, CRF450RX 2021-2022",
+     "18300-K95-AA0": "MUFFLER ASSY. | CRF250R, CRF250RX 2022-2024",
+     "18320-K95-AA0": "PIPE, EX. | CRF250R, CRF250RX 2022-2024",
+     "18300-MKE-AS0": "MUFFLER ASSY. | CRF450R, CRF450RX 2023-2024",
+     "18320-MKE-AS0": "PIPE, EX. | CRF450R, CRF450RX 2023-2024",
+     "18300-K95-AG0": "MUFFLER ASSY. | CRF250R, CRF250RX 2025-2026",
+     "18300-MKE-BD0": "MUFFLER ASSY. | CRF450R, CRF450RX 2025-2026",
+     "18320-K95-AG0": "PIPE, EX. | CRF250R, CRF250RX 2025-2026",
+     "18320-MKE-BD0": "PIPE, EX. | CRF450R, CRF450RX 2025-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-ecu",
+   "domain": "ecu_electronics",
+   "topic": "engine control unit (ECU / CDI) interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, engine control unit (ECU / CDI), by OEM part number. Engine control unit: 38770-K95-A61 on CRF250R 2020-2021; 38770-K95-A71 on CRF250RX 2020-2021; 38770-MKE-AA1 on CRF450R 2020; 38770-MKE-AB1 on CRF450RX 2020; 38770-MKE-AG2 on CRF450RX 2021-2022; 38770-K95-AA1 on CRF250R 2022-2023; 38770-K95-AB1 on CRF250RX 2022-2023 and 8 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "engine control unit": {
+     "38770-K95-A61": "PGM-FI UNIT | CRF250R 2020-2021",
+     "38770-K95-A71": "PGM-FI UNIT | CRF250RX 2020-2021",
+     "38770-MKE-AA1": "PGM-FI UNIT | CRF450R 2020",
+     "38770-MKE-AB1": "PGM-FI UNIT | CRF450RX 2020",
+     "38770-MKE-AG2": "PGM-FI UNIT | CRF450RX 2021-2022",
+     "38770-K95-AA1": "PGM-FI UNIT | CRF250R 2022-2023",
+     "38770-K95-AB1": "PGM-FI UNIT | CRF250RX 2022-2023",
+     "38770-MKE-AS1": "PGM-FI UNIT | CRF450R 2023",
+     "38770-MKE-AT1": "PGM-FI UNIT | CRF450RX 2023",
+     "38770-K95-AE1": "PGM-FI UNIT | CRF250R 2024",
+     "38770-K95-AF1": "PGM-FI UNIT | CRF250RX 2024",
+     "38770-K95-AG1": "PGM-FI UNIT | CRF250R 2025-2026",
+     "38770-K95-AH1": "PGM-FI UNIT | CRF250RX 2025-2026",
+     "38770-MKE-BD1": "PGM-FI UNIT | CRF450R 2025-2026",
+     "38770-MKE-BP1": "PGM-FI UNIT | CRF450RX 2025-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market). Engine control unit not found in the catalogue for CRF450R 2021-2022, 2024, CRF450RX 2024 (unknown, not 'does not exist')."
+  },
+  {
+   "id": "fit2-honda-chain",
+   "domain": "drivetrain",
+   "topic": "chain size and length, sprocket tooth counts interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, chain size and length, sprocket tooth counts, by OEM part number. Drive chain (size and length): 40530-KRN-A31 (CHAIN, DRIVE (DID520DMA4-114RB) (DAIDO) (STANDARD LINK 114L)) on CRF450R 2020; 40540-K95-A41 (CHAIN, DRIVE (DID520DMS-120RB) (STANDARD LINK 114L)) on CRF250R 2020-2026; 40540-K95-A51 (CHAIN, DRIVE (DID520MXV5-120ZB) (STANDARD LINK 114L)) on CRF250RX 2020-2026 (+3 more in values). Rear sprocket tooth counts: 41201-MKE-A70 (SPROCKET, FINAL DRIVEN (49T)) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026; 41202-MKE-A00 (SPROCKET, FINAL DRIVEN (48T)) on CRF450R 2020-2026, CRF250R, CRF250RX 2020-2021; 41203-MKE-A00 (SPROCKET, FINAL DRIVEN (50T)) on CRF450R, CRF450RX 2020-2026, CRF250R, CRF250RX 2022-2026 (+1 more in values). Front (countershaft) sprocket: 23801-K95-A20 (SPROCKET, DRIVE (13T)) on CRF250R, CRF250RX 2020-2021; 23802-MEN-730 (SPROCKET, DRIVE (13T)) on CRF450R, CRF450RX 2020-2026, CRF250R, CRF250RX 2022-2026. Same number = same part, it swaps; different number = different part.",
+   "values": {
+    "drive chain (size and length)": {
+     "40530-KRN-A31": "CHAIN, DRIVE (DID520DMA4-114RB) (DAIDO) (STANDARD LINK 114L) | CRF450R 2020",
+     "40540-K95-A41": "CHAIN, DRIVE (DID520DMS-120RB) (STANDARD LINK 114L) | CRF250R 2020-2026",
+     "40540-K95-A51": "CHAIN, DRIVE (DID520MXV5-120ZB) (STANDARD LINK 114L) | CRF250RX 2020-2026",
+     "40540-KRN-A32": "CHAIN, DRIVE (RK520TXZ-120RJ) (RK EXCEL) (STANDARD LINK 114L) | CRF450R 2020",
+     "40540-MKE-A12": "CHAIN, DRIVE (RK520EXU-120-LJFZ) (RK) (STANDARD LINK 114L) | CRF450RX 2020-2026",
+     "40540-MKE-AF1": "CHAIN, DRIVE (DID520DM2-120RB) (DAIDO) (STANDARD LINK 114L) | CRF450R 2021-2026"
+    },
+    "rear sprocket tooth counts": {
+     "41201-MKE-A70": "SPROCKET, FINAL DRIVEN (49T) | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "41202-MKE-A00": "SPROCKET, FINAL DRIVEN (48T) | CRF450R 2020-2026, CRF250R, CRF250RX 2020-2021",
+     "41203-MKE-A00": "SPROCKET, FINAL DRIVEN (50T) | CRF450R, CRF450RX 2020-2026, CRF250R, CRF250RX 2022-2026",
+     "41204-MKE-A10": "SPROCKET, FINAL DRIVEN (51T) | CRF250R, CRF250RX 2022-2026, CRF450RX 2020-2026"
+    },
+    "front (countershaft) sprocket": {
+     "23801-K95-A20": "SPROCKET, DRIVE (13T) | CRF250R, CRF250RX 2020-2021",
+     "23802-MEN-730": "SPROCKET, DRIVE (13T) | CRF450R, CRF450RX 2020-2026, CRF250R, CRF250RX 2022-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-clutch",
+   "domain": "drivetrain",
+   "topic": "clutch plates and springs interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, clutch plates and springs, by OEM part number. Clutch friction plates: 22201-K95-A20 (DISK, CLUTCH FRICTION) on CRF250R, CRF250RX 2020-2026; 22201-MBN-670 (DISK, CLUTCH FRICTION) on CRF450R, CRF450RX 2020-2024; 22201-MEN-670 (DISK B, CLUTCH FRICTION) on CRF450R, CRF450RX 2020-2026; 22201-MEN-A10 (DISK, CLUTCH FRICTION) on CRF450R, CRF450RX 2020-2024 (+4 more in values). Clutch steel plates: 22321-KF0-770 (PLATE, CLUTCH) on CRF250R, CRF250RX 2020-2026. Clutch springs: 22125-MBN-670 (SEAT, JUDDER SPRING) on CRF450R, CRF450RX 2020-2026; 22125-MJL-D30 (SEAT, JUDDER SPRING) on CRF250R, CRF250RX 2020-2026; 22401-K95-A60 (SPRING, CLUTCH) on CRF250R, CRF250RX 2020-2021; 22401-MEN-A80 (SPRING, CLUTCH) on CRF450R, CRF450RX 2020 (+4 more in values). Same number = same part, it swaps; different number = different part.",
+   "values": {
+    "clutch friction plates": {
+     "22201-K95-A20": "DISK, CLUTCH FRICTION | CRF250R, CRF250RX 2020-2026",
+     "22201-MBN-670": "DISK, CLUTCH FRICTION | CRF450R, CRF450RX 2020-2024",
+     "22201-MEN-670": "DISK B, CLUTCH FRICTION | CRF450R, CRF450RX 2020-2026",
+     "22201-MEN-A10": "DISK, CLUTCH FRICTION | CRF450R, CRF450RX 2020-2024",
+     "22202-K95-A20": "DISK B, CLUTCH FRICTION | CRF250R, CRF250RX 2020-2026",
+     "22203-K95-A20": "DISK, CLUTCH FRICTION | CRF250R, CRF250RX 2020-2026",
+     "22202-MKE-BD0": "DISK, CL FRICTION | CRF450R, CRF450RX 2025-2026",
+     "22203-MKE-BD0": "DISK B, CL FRICTION | CRF450R, CRF450RX 2025-2026"
+    },
+    "clutch steel plates": {
+     "22321-KF0-770": "PLATE, CLUTCH | CRF250R, CRF250RX 2020-2026"
+    },
+    "clutch springs": {
+     "22125-MBN-670": "SEAT, JUDDER SPRING | CRF450R, CRF450RX 2020-2026",
+     "22125-MJL-D30": "SEAT, JUDDER SPRING | CRF250R, CRF250RX 2020-2026",
+     "22401-K95-A60": "SPRING, CLUTCH | CRF250R, CRF250RX 2020-2021",
+     "22401-MEN-A80": "SPRING, CLUTCH | CRF450R, CRF450RX 2020",
+     "22402-MBN-670": "SPRING, JUDDER | CRF450R, CRF450RX 2020-2026",
+     "22402-MJL-D31": "SPRING, JUDDER | CRF250R, CRF250RX 2020-2026",
+     "22401-MKE-AF0": "SPRING, CLUTCH | CRF450R, CRF450RX 2021-2026",
+     "22401-K95-AA0": "SPRING, CLUTCH | CRF250R, CRF250RX 2022-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market). Clutch steel plates not found in the catalogue for CRF450R, CRF450RX 2020-2026 (unknown, not 'does not exist')."
+  },
+  {
+   "id": "fit2-honda-airfilter",
+   "domain": "maintenance",
+   "topic": "air filter element interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, air filter element, by OEM part number. Air filter element: 17213-K95-A60 on CRF250R, CRF250RX 2020-2021; 17213-MKE-A00 on CRF450R, CRF450RX 2020; 17213-MKE-AF0 on CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024; 17213-K95-AG0 on CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "air filter element": {
+     "17213-K95-A60": "ELEMENT, AIR CLEANER | CRF250R, CRF250RX 2020-2021",
+     "17213-MKE-A00": "ELEMENT, AIR CLEANER | CRF450R, CRF450RX 2020",
+     "17213-MKE-AF0": "ELEMENT, AIR CLEANER | CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024",
+     "17213-K95-AG0": "ELEMENT, AIR CLEANER | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-oilfilter",
+   "domain": "maintenance",
+   "topic": "oil filter interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, oil filter, by OEM part number. Oil filter: 15421-MKE-A70 on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "oil filter": {
+     "15421-MKE-A70": "SCREEN, OIL FILTER | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-plug",
+   "domain": "maintenance",
+   "topic": "spark plug interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, spark plug, by OEM part number. Spark plug: 31908-K95-A61 (SPARK PLUG (R0451B-9)) on CRF250R, CRF250RX 2020-2021; 31909-MEN-A31 (SPARK PLUG (SILMAR9A9S) (NGK)) on CRF450R, CRF450RX 2020-2026, CRF250R, CRF250RX 2022-2026; 31910-MEN-A31 (SPARK PLUG (SILMAR10A9S) (NGK)) on CRF450R, CRF450RX 2020-2022. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "spark plug": {
+     "31908-K95-A61": "SPARK PLUG (R0451B-9) | CRF250R, CRF250RX 2020-2021",
+     "31909-MEN-A31": "SPARK PLUG (SILMAR9A9S) (NGK) | CRF450R, CRF450RX 2020-2026, CRF250R, CRF250RX 2022-2026",
+     "31910-MEN-A31": "SPARK PLUG (SILMAR10A9S) (NGK) | CRF450R, CRF450RX 2020-2022"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-fork",
+   "domain": "suspension",
+   "topic": "fork units, fork springs and fork seals interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, fork units, fork springs and fork seals, by OEM part number. Fork legs (complete units): 51400-K95-A61 on CRF250R 2020-2021; 51400-K95-A71 on CRF250RX 2020-2021; 51400-MKE-AA1 on CRF450R 2020; 51400-MKE-AB1 on CRF450RX 2020 (+27 more in values). Fork springs: 51401-K95-A21 (SPRING, FR. FORK (4.4N/MM)) on CRF250RX 2020-2024; 51401-MKE-A61 (SPRING, FR. FORK (5.2N/MM)) on CRF450R 2020-2024; 51401-MKE-A71 (SPRING, FR. FORK (5.0N/MM)) on CRF450R 2020-2024, CRF250R 2020-2021, CRF450RX 2021-2024; 51402-MKE-A01 (SPRING, FR. FORK (4.6N/MM)) on CRF250R, CRF450RX, CRF250RX 2020-2024 (+8 more in values). Fork oil and dust seals (size): 51447-KRN-A91 (RING, OIL SEAL STOP) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026; 51490-KRN-A91 (SEAL SET, FR. FORK) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024; 91254-KRN-A91 (DUST SEAL) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024; 51490-K95-AG1 (SEAL SET, FR. FORK) on CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026 (+1 more in values). Same number = same part, it swaps; different number = different part.",
+   "values": {
+    "fork legs (complete units)": {
+     "51400-K95-A61": "FORK ASSY., R. FR. | CRF250R 2020-2021",
+     "51400-K95-A71": "FORK ASSY., R. FR. | CRF250RX 2020-2021",
+     "51400-MKE-AA1": "FORK ASSY., R. FR. | CRF450R 2020",
+     "51400-MKE-AB1": "FORK ASSY., R. FR. | CRF450RX 2020",
+     "51500-K95-A61": "FORK ASSY., L. FR. | CRF250R 2020-2021",
+     "51500-K95-A71": "FORK ASSY., L. FR. | CRF250RX 2020-2021",
+     "51500-MKE-AA1": "FORK ASSY., L. FR. | CRF450R 2020",
+     "51500-MKE-AB1": "FORK ASSY., L. FR. | CRF450RX 2020",
+     "51400-MKE-AF2": "FORK ASSY., R. FR. | CRF450R 2021-2022",
+     "51400-MKE-AG1": "FORK ASSY., R. FR. | CRF450RX 2021-2022",
+     "51400-MKE-AG2": "FORK ASSY., R. FR. | CRF450RX 2021-2022",
+     "51500-MKE-AF1": "FORK ASSY., L. FR. | CRF450R 2021-2022",
+     "51500-MKE-AF2": "FORK ASSY., L. FR. | CRF450R 2021-2022",
+     "51500-MKE-AG1": "FORK ASSY., L. FR. | CRF450RX 2021-2022",
+     "51500-MKE-AG2": "FORK ASSY., L. FR. | CRF450RX 2021-2022",
+     "51400-K95-AA1": "FORK ASSY., R. FR. | CRF250R 2022-2024",
+     "51400-K95-AB1": "FORK ASSY., R. FR. | CRF250RX 2022-2024",
+     "51500-K95-AA1": "FORK ASSY., L. FR. | CRF250R 2022-2024",
+     "51500-K95-AB1": "FORK ASSY., L. FR. | CRF250RX 2022-2024",
+     "51400-MKE-AS1": "FORK ASSY., R. FR. | CRF450R 2023-2024",
+     "51400-MKE-AT1": "FORK ASSY., R. FR. | CRF450RX 2023-2024",
+     "51500-MKE-AS1": "FORK ASSY., L. FR. | CRF450R 2023-2024",
+     "51500-MKE-AT1": "FORK ASSY., L. FR. | CRF450RX 2023-2024",
+     "51400-K95-AG1": "FORK ASSY., R. FR. | CRF250R 2025-2026",
+     "51400-K95-AH1": "FORK ASSY., R. FR. | CRF250RX 2025-2026",
+     "51400-MKE-BD1": "FORK ASSY., R. FR. | CRF450R 2025-2026",
+     "51400-MKE-BP1": "FORK ASSY., R. FR. | CRF450RX 2025-2026",
+     "51500-K95-AG1": "FORK ASSY., L. FR. | CRF250R 2025-2026",
+     "51500-K95-AH1": "FORK ASSY., L. FR. | CRF250RX 2025-2026",
+     "51500-MKE-BD1": "FORK ASSY., L. FR. | CRF450R 2025-2026",
+     "51500-MKE-BP1": "FORK ASSY., L. FR. | CRF450RX 2025-2026"
+    },
+    "fork springs": {
+     "51401-K95-A21": "SPRING, FR. FORK (4.4N/MM) | CRF250RX 2020-2024",
+     "51401-MKE-A61": "SPRING, FR. FORK (5.2N/MM) | CRF450R 2020-2024",
+     "51401-MKE-A71": "SPRING, FR. FORK (5.0N/MM) | CRF450R 2020-2024, CRF250R 2020-2021, CRF450RX 2021-2024",
+     "51402-MKE-A01": "SPRING, FR. FORK (4.6N/MM) | CRF250R, CRF450RX, CRF250RX 2020-2024",
+     "51402-MKE-A71": "SPRING, FR. FORK (4.8N/MM) | CRF450R, CRF250R, CRF250RX 2020-2021, CRF450RX 2020",
+     "51403-MKE-A01": "SPRING, FR. FORK (5.0N/MM) | CRF250R 2022-2024, CRF450RX 2020-2021",
+     "51401-MKE-A01": "SPRING, FR. FORK (4.8N/MM) | CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024",
+     "51401-K95-AH1": "SPRING (4.4N/MM) | CRF250RX 2025-2026",
+     "51401-MKE-BD1": "SPRING (5.2N/MM) | CRF450R 2025-2026",
+     "51402-K95-AG1": "SPRING (4.6N/MM) | CRF250R, CRF450RX, CRF250RX 2025-2026",
+     "51403-K95-AG1": "SPRING (4.8N/MM) | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026",
+     "51404-K95-AG1": "SPRING (5.0N/MM) | CRF450R, CRF250R, CRF450RX 2025-2026"
+    },
+    "fork oil and dust seals (size)": {
+     "51447-KRN-A91": "RING, OIL SEAL STOP | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026",
+     "51490-KRN-A91": "SEAL SET, FR. FORK | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024",
+     "91254-KRN-A91": "DUST SEAL | CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024",
+     "51490-K95-AG1": "SEAL SET, FR. FORK | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026",
+     "91254-K95-AG1": "DUST SEAL | CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-honda-shock",
+   "domain": "suspension",
+   "topic": "shock unit and shock springs interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R",
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, shock unit and shock springs, by OEM part number. Rear shock (complete unit): 52400-K95-A61 on CRF250R 2020-2021; 52400-K95-A71 on CRF250RX 2020-2021; 52400-MKE-AA1 on CRF450R 2020; 52400-MKE-AB1 on CRF450RX 2020 (+12 more in values). Shock springs: 52401-K95-A51 (SPRING, RR. SHOCK ABSORBER (50N/MM)) on CRF250R 2020-2021, 2025-2026, CRF250RX 2020-2026; 52401-KRN-A91 (SPRING, RR. SHOCK ABSORBER (52N/MM)) on CRF250R 2020-2021, 2025-2026, CRF450RX 2020, CRF250RX 2020-2021; 52401-MKE-A01 (SPRING, RR. SHOCK ABSORBER (56N/MM)) on CRF450R 2020; 52401-MKE-A61 (SPRING, RR. SHOCK ABSORBER (58N/MM)) on CRF450R 2020 (+8 more in values). Same number = same part, it swaps; different number = different part.",
+   "values": {
+    "rear shock (complete unit)": {
+     "52400-K95-A61": "CUSHION ASSY., RR. | CRF250R 2020-2021",
+     "52400-K95-A71": "CUSHION ASSY., RR. | CRF250RX 2020-2021",
+     "52400-MKE-AA1": "CUSHION ASSY., RR. | CRF450R 2020",
+     "52400-MKE-AB1": "CUSHION ASSY., RR. | CRF450RX 2020",
+     "52400-MKE-AF1": "CUSHION ASSY., RR. | CRF450R 2021-2022",
+     "52400-MKE-AF2": "CUSHION ASSY., RR. | CRF450R 2021-2022",
+     "52400-MKE-AG1": "CUSHION ASSY., RR. | CRF450RX 2021-2022",
+     "52400-MKE-AG2": "CUSHION ASSY., RR. | CRF450RX 2021-2022",
+     "52400-K95-AA1": "CUSHION ASSY., RR. | CRF250R 2022-2024",
+     "52400-K95-AB1": "CUSHION ASSY., RR. | CRF250RX 2022-2024",
+     "52400-MKE-AS1": "CUSHION ASSY., RR. | CRF450R 2023-2024",
+     "52400-MKE-AT1": "CUSHION ASSY., RR. | CRF450RX 2023-2024",
+     "52400-K95-AG1": "CUSHION ASSY., RR. | CRF250R 2025-2026",
+     "52400-K95-AH1": "CUSHION ASSY., RR. | CRF250RX 2025-2026",
+     "52400-MKE-BD1": "CUSHION ASSY., RR. | CRF450R 2025-2026",
+     "52400-MKE-BP1": "CUSHION ASSY., RR. | CRF450RX 2025-2026"
+    },
+    "shock springs": {
+     "52401-K95-A51": "SPRING, RR. SHOCK ABSORBER (50N/MM) | CRF250R 2020-2021, 2025-2026, CRF250RX 2020-2026",
+     "52401-KRN-A91": "SPRING, RR. SHOCK ABSORBER (52N/MM) | CRF250R 2020-2021, 2025-2026, CRF450RX 2020, CRF250RX 2020-2021",
+     "52401-MKE-A01": "SPRING, RR. SHOCK ABSORBER (56N/MM) | CRF450R 2020",
+     "52401-MKE-A61": "SPRING, RR. SHOCK ABSORBER (58N/MM) | CRF450R 2020",
+     "52402-K95-A51": "SPRING, RR. SHOCK ABSORBER (48N/MM) | CRF250R 2025-2026, CRF250RX 2020-2026",
+     "52402-KRN-A91": "SPRING, RR. SHOCK ABSORBER (54N/MM) | CRF450R, CRF450RX 2020, CRF250R 2020-2021",
+     "52403-KRN-A91": "SPRING, RR. SHOCK ABSORBER (50N/MM) | CRF450RX 2020",
+     "52401-MKE-AF1": "SPRING, RR. SHOCK ABSORBER (54N/MM) | CRF450R 2021-2026",
+     "52401-MKE-AG1": "SPRING, RR. SHOCK ABSORBER (48N/MM) | CRF250R 2022-2024, CRF450RX 2021-2026",
+     "52402-MKE-AF1": "SPRING, RR. SHOCK ABSORBER (52N/MM) | CRF450R 2021-2022, 2025-2026, CRF250R 2022-2024, CRF450RX 2021-2026",
+     "52402-MKE-AG1": "SPRING, RR. SHOCK ABSORBER (50N/MM) | CRF450R 2025-2026, CRF250R 2022-2024, CRF450RX 2021-2026",
+     "52403-MKE-AF1": "SPRING, RR. SHOCK ABSORBER (56N/MM) | CRF450R 2021-2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2020/crf450r",
+    "date": "2026-10-13"
+   },
+   "confidence": "high",
+   "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-usck-fith-001",
+   "domain": "chassis",
+   "topic": "US catalogue check: chassis generations (frame part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "US check of the first-pass record 'chassis generations (frame part numbers)' (fith-001, numbers from an Australian catalogue): all part numbers checked are also in the US parts catalogue for the same models (50010-MKE-AA0, 50010-MKE-AF0, 50010-MKE-AS0, 50010-K95-A60, 50010-K95-AG0). The interchange answer in that record holds for US bikes.",
+   "values": {
+    "checked": [
+     "50010-MKE-AA0",
+     "50010-MKE-AF0",
+     "50010-MKE-AS0",
+     "50010-K95-A60",
+     "50010-K95-AG0"
+    ],
+    "same_in_us": [
+     "50010-MKE-AA0",
+     "50010-MKE-AF0",
+     "50010-MKE-AS0",
+     "50010-K95-A60",
+     "50010-K95-AG0"
+    ],
+    "different_in_us": [],
+    "year_differences": [],
+    "us_years_covered": "2020-2026"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2024/crf450r",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "US catalogue years compared: 2020-2026. Market-specific parts (silencers, ECUs/CDIs, some brake masters) can differ between Australia and the US even when the chassis parts are the same world parts; buy those by the US number for a US bike."
+  },
+  {
+   "id": "fit2-usck-fith-002",
+   "domain": "chassis",
+   "topic": "US catalogue check: front wheel interchange",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "US check of the first-pass record 'front wheel interchange' (fith-002, numbers from an Australian catalogue): all part numbers checked are also in the US parts catalogue for the same models (44650-MKE-AF0, 44635-MKE-A60, 44301-MEN-000, 44301-K95-AG0, 45351-KRN-A90, 45351-K95-AG1). The interchange answer in that record holds for US bikes.",
+   "values": {
+    "checked": [
+     "44650-MKE-AF0",
+     "44635-MKE-A60",
+     "44301-MEN-000",
+     "44301-K95-AG0",
+     "45351-KRN-A90",
+     "45351-K95-AG1"
+    ],
+    "same_in_us": [
+     "44650-MKE-AF0",
+     "44635-MKE-A60",
+     "44301-MEN-000",
+     "44301-K95-AG0",
+     "45351-KRN-A90",
+     "45351-K95-AG1"
+    ],
+    "different_in_us": [],
+    "year_differences": [],
+    "us_years_covered": "2020-2026"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2024/crf450r",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "US catalogue years compared: 2020-2026. Market-specific parts (silencers, ECUs/CDIs, some brake masters) can differ between Australia and the US even when the chassis parts are the same world parts; buy those by the US number for a US bike."
+  },
+  {
+   "id": "fit2-usck-fith-003",
+   "domain": "chassis",
+   "topic": "US catalogue check: rear wheel interchange",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "US check of the first-pass record 'rear wheel interchange' (fith-003, numbers from an Australian catalogue): all part numbers checked are also in the US parts catalogue for the same models (42650-MKE-AF0, 42650-K95-AA0, 42301-KRN-A30, 43351-KRN-A90, 43351-K95-AG1). The interchange answer in that record holds for US bikes.",
+   "values": {
+    "checked": [
+     "42650-MKE-AF0",
+     "42650-K95-AA0",
+     "42301-KRN-A30",
+     "43351-KRN-A90",
+     "43351-K95-AG1"
+    ],
+    "same_in_us": [
+     "42650-MKE-AF0",
+     "42650-K95-AA0",
+     "42301-KRN-A30",
+     "43351-KRN-A90",
+     "43351-K95-AG1"
+    ],
+    "different_in_us": [],
+    "year_differences": [],
+    "us_years_covered": "2020-2026"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2024/crf450r",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "US catalogue years compared: 2020-2026. Market-specific parts (silencers, ECUs/CDIs, some brake masters) can differ between Australia and the US even when the chassis parts are the same world parts; buy those by the US number for a US bike."
+  },
+  {
+   "id": "fit2-usck-fith-004",
+   "domain": "drivetrain",
+   "topic": "US catalogue check: sprocket and chain",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "US check of the first-pass record 'sprocket and chain' (fith-004, numbers from an Australian catalogue): all part numbers checked are also in the US parts catalogue for the same models (40540-K95-A41, 40540-MKE-AF1, 41202-MKE-A00, 41203-MKE-A00, 41204-MKE-A10). The interchange answer in that record holds for US bikes.",
+   "values": {
+    "checked": [
+     "40540-K95-A41",
+     "40540-MKE-AF1",
+     "41202-MKE-A00",
+     "41203-MKE-A00",
+     "41204-MKE-A10"
+    ],
+    "same_in_us": [
+     "40540-K95-A41",
+     "40540-MKE-AF1",
+     "41202-MKE-A00",
+     "41203-MKE-A00",
+     "41204-MKE-A10"
+    ],
+    "different_in_us": [],
+    "year_differences": [],
+    "us_years_covered": "2020-2026"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2024/crf450r",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "US catalogue years compared: 2020-2026. Market-specific parts (silencers, ECUs/CDIs, some brake masters) can differ between Australia and the US even when the chassis parts are the same world parts; buy those by the US number for a US bike."
+  },
+  {
+   "id": "fit2-usck-fith-005",
+   "domain": "suspension",
+   "topic": "US catalogue check: fork and shock swap (whole units)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "US check of the first-pass record 'fork and shock swap (whole units)' (fith-005, numbers from an Australian catalogue): all part numbers checked are also in the US parts catalogue for the same models (51500-MKE-AF1, 51500-K95-AA1, 52400-MKE-AF2, 52400-K95-AA1). The interchange answer in that record holds for US bikes.",
+   "values": {
+    "checked": [
+     "51500-MKE-AF1",
+     "51500-K95-AA1",
+     "52400-MKE-AF2",
+     "52400-K95-AA1"
+    ],
+    "same_in_us": [
+     "51500-MKE-AF1",
+     "51500-K95-AA1",
+     "52400-MKE-AF2",
+     "52400-K95-AA1"
+    ],
+    "different_in_us": [],
+    "year_differences": [],
+    "us_years_covered": "2020-2026"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2024/crf450r",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "US catalogue years compared: 2020-2026. Market-specific parts (silencers, ECUs/CDIs, some brake masters) can differ between Australia and the US even when the chassis parts are the same world parts; buy those by the US number for a US bike."
+  },
+  {
+   "id": "fit2-usck-fith-006",
+   "domain": "chassis",
+   "topic": "US catalogue check: triple clamps and handlebar mounts",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "US check of the first-pass record 'triple clamps and handlebar mounts' (fith-006, numbers from an Australian catalogue): all part numbers checked are also in the US parts catalogue for the same models (53300-MKE-A70, 53219-MKE-AF0, 53100-MKE-A70). The interchange answer in that record holds for US bikes.",
+   "values": {
+    "checked": [
+     "53300-MKE-A70",
+     "53219-MKE-AF0",
+     "53100-MKE-A70"
+    ],
+    "same_in_us": [
+     "53300-MKE-A70",
+     "53219-MKE-AF0",
+     "53100-MKE-A70"
+    ],
+    "different_in_us": [],
+    "year_differences": [],
+    "us_years_covered": "2020-2026"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2024/crf450r",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "US catalogue years compared: 2020-2026. Market-specific parts (silencers, ECUs/CDIs, some brake masters) can differ between Australia and the US even when the chassis parts are the same world parts; buy those by the US number for a US bike."
+  },
+  {
+   "id": "fit2-usck-fith-007",
+   "domain": "chassis",
+   "topic": "US catalogue check: plastics, seat and subframe",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "US check of the first-pass record 'plastics, seat and subframe' (fith-007, numbers from an Australian catalogue): 7 of 8 part numbers checked are also in the US parts catalogue for the same models (61110-MKE-AF0ZA, 61200-K95-AG0ZA, 83610-MKE-AF0ZB, 77100-MKE-AF1ZA, 77100-K95-AC2ZA, 50200-MKE-AF0, 50200-K95-AG0). Different in the US catalogue: 80101-MKE-AF0ZB -> US no same-function number found. Year range differs: 83610-MKE-AF0ZB: AU 2025-2025, US 2021-2024.",
+   "values": {
+    "checked": [
+     "61110-MKE-AF0ZA",
+     "61200-K95-AG0ZA",
+     "83610-MKE-AF0ZB",
+     "80101-MKE-AF0ZB",
+     "77100-MKE-AF1ZA",
+     "77100-K95-AC2ZA",
+     "50200-MKE-AF0",
+     "50200-K95-AG0"
+    ],
+    "same_in_us": [
+     "61110-MKE-AF0ZA",
+     "61200-K95-AG0ZA",
+     "83610-MKE-AF0ZB",
+     "77100-MKE-AF1ZA",
+     "77100-K95-AC2ZA",
+     "50200-MKE-AF0",
+     "50200-K95-AG0"
+    ],
+    "different_in_us": [
+     "80101-MKE-AF0ZB -> US no same-function number found"
+    ],
+    "year_differences": [
+     "83610-MKE-AF0ZB: AU 2025-2025, US 2021-2024"
+    ],
+    "us_years_covered": "2020-2026"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2024/crf450r",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "US catalogue years compared: 2020-2026. Market-specific parts (silencers, ECUs/CDIs, some brake masters) can differ between Australia and the US even when the chassis parts are the same world parts; buy those by the US number for a US bike."
+  },
+  {
+   "id": "fit2-usck-fith-008",
+   "domain": "suspension",
+   "topic": "US catalogue check: swingarm and linkage",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "US check of the first-pass record 'swingarm and linkage' (fith-008, numbers from an Australian catalogue): all part numbers checked are also in the US parts catalogue for the same models (52200-MKE-AA0, 52200-MKE-AF0, 52200-K95-AG0, 52465-MKE-AF0, 52465-K95-AG0). The interchange answer in that record holds for US bikes.",
+   "values": {
+    "checked": [
+     "52200-MKE-AA0",
+     "52200-MKE-AF0",
+     "52200-K95-AG0",
+     "52465-MKE-AF0",
+     "52465-K95-AG0"
+    ],
+    "same_in_us": [
+     "52200-MKE-AA0",
+     "52200-MKE-AF0",
+     "52200-K95-AG0",
+     "52465-MKE-AF0",
+     "52465-K95-AG0"
+    ],
+    "different_in_us": [],
+    "year_differences": [],
+    "us_years_covered": "2020-2026"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2024/crf450r",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "US catalogue years compared: 2020-2026. Market-specific parts (silencers, ECUs/CDIs, some brake masters) can differ between Australia and the US even when the chassis parts are the same world parts; buy those by the US number for a US bike."
+  },
+  {
+   "id": "fit2-usck-fith-009",
+   "domain": "engine_mods",
+   "topic": "US catalogue check: exhaust (header and muffler)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "US check of the first-pass record 'exhaust (header and muffler)' (fith-009, numbers from an Australian catalogue): 6 of 10 part numbers checked are also in the US parts catalogue for the same models (18320-MKE-AF0, 18320-MKE-AS0, 18300-MKE-AS0, 18320-MKE-BD0, 18320-K95-AA0, 18320-K95-AG0). Different in the US catalogue: 18300-MKE-DF0 -> US 18300-MKE-A70 (CRF450R 2020), 18300-MKE-AF0 (CRF450R 2021-2022), 18300-MKE-AS0 (CRF450R 2023-2024), 18300-MKE-BD0 (CRF450R 2025-2026), 18300-K95-A60 (CRF250R 2020-2021); 18300-MKE-DD0 -> US 18300-MKE-A70 (CRF450R 2020), 18300-MKE-AF0 (CRF450R 2021-2022), 18300-MKE-AS0 (CRF450R 2023-2024), 18300-MKE-BD0 (CRF450R 2025-2026), 18300-K95-A60 (CRF250R 2020-2021); 18300-K95-DA0 -> US 18300-MKE-A70 (CRF450R 2020), 18300-MKE-AF0 (CRF450R 2021-2022), 18300-MKE-AS0 (CRF450R 2023-2024), 18300-MKE-BD0 (CRF450R 2025-2026), 18300-K95-A60 (CRF250R 2020-2021); 18300-K95-DG0 -> US 18300-MKE-A70 (CRF450R 2020), 18300-MKE-AF0 (CRF450R 2021-2022), 18300-MKE-AS0 (CRF450R 2023-2024), 18300-MKE-BD0 (CRF450R 2025-2026), 18300-K95-A60 (CRF250R 2020-2021).",
+   "values": {
+    "checked": [
+     "18320-MKE-AF0",
+     "18300-MKE-DF0",
+     "18320-MKE-AS0",
+     "18300-MKE-AS0",
+     "18320-MKE-BD0",
+     "18300-MKE-DD0",
+     "18320-K95-AA0",
+     "18300-K95-DA0",
+     "18320-K95-AG0",
+     "18300-K95-DG0"
+    ],
+    "same_in_us": [
+     "18320-MKE-AF0",
+     "18320-MKE-AS0",
+     "18300-MKE-AS0",
+     "18320-MKE-BD0",
+     "18320-K95-AA0",
+     "18320-K95-AG0"
+    ],
+    "different_in_us": [
+     "18300-MKE-DF0 -> US 18300-MKE-A70 (CRF450R 2020), 18300-MKE-AF0 (CRF450R 2021-2022), 18300-MKE-AS0 (CRF450R 2023-2024), 18300-MKE-BD0 (CRF450R 2025-2026), 18300-K95-A60 (CRF250R 2020-2021)",
+     "18300-MKE-DD0 -> US 18300-MKE-A70 (CRF450R 2020), 18300-MKE-AF0 (CRF450R 2021-2022), 18300-MKE-AS0 (CRF450R 2023-2024), 18300-MKE-BD0 (CRF450R 2025-2026), 18300-K95-A60 (CRF250R 2020-2021)",
+     "18300-K95-DA0 -> US 18300-MKE-A70 (CRF450R 2020), 18300-MKE-AF0 (CRF450R 2021-2022), 18300-MKE-AS0 (CRF450R 2023-2024), 18300-MKE-BD0 (CRF450R 2025-2026), 18300-K95-A60 (CRF250R 2020-2021)",
+     "18300-K95-DG0 -> US 18300-MKE-A70 (CRF450R 2020), 18300-MKE-AF0 (CRF450R 2021-2022), 18300-MKE-AS0 (CRF450R 2023-2024), 18300-MKE-BD0 (CRF450R 2025-2026), 18300-K95-A60 (CRF250R 2020-2021)"
+    ],
+    "year_differences": [],
+    "us_years_covered": "2020-2026"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2024/crf450r",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "US catalogue years compared: 2020-2026. Market-specific parts (silencers, ECUs/CDIs, some brake masters) can differ between Australia and the US even when the chassis parts are the same world parts; buy those by the US number for a US bike."
+  },
+  {
+   "id": "fit2-usck-fith-010",
+   "domain": "maintenance",
+   "topic": "US catalogue check: air filter and radiators",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "US check of the first-pass record 'air filter and radiators' (fith-010, numbers from an Australian catalogue): all part numbers checked are also in the US parts catalogue for the same models (17213-MKE-AF0, 17213-K95-AG0, 19150-MKE-AF0, 19150-K95-AA0). The interchange answer in that record holds for US bikes.",
+   "values": {
+    "checked": [
+     "17213-MKE-AF0",
+     "17213-K95-AG0",
+     "19150-MKE-AF0",
+     "19150-K95-AA0"
+    ],
+    "same_in_us": [
+     "17213-MKE-AF0",
+     "17213-K95-AG0",
+     "19150-MKE-AF0",
+     "19150-K95-AA0"
+    ],
+    "different_in_us": [],
+    "year_differences": [],
+    "us_years_covered": "2020-2026"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2024/crf450r",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "US catalogue years compared: 2020-2026. Market-specific parts (silencers, ECUs/CDIs, some brake masters) can differ between Australia and the US even when the chassis parts are the same world parts; buy those by the US number for a US bike."
+  },
+  {
+   "id": "fit2-usck-fith-011",
+   "domain": "chassis",
+   "topic": "US catalogue check: footpegs, pedals, levers and master cylinders",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "US check of the first-pass record 'footpegs, pedals, levers and master cylinders' (fith-011, numbers from an Australian catalogue): all part numbers checked are also in the US parts catalogue for the same models (50670-MKE-A70, 46510-MKE-A70, 24700-MKE-A00, 45510-KRN-A91, 45150-MKE-A71, 45150-K95-AG1). The interchange answer in that record holds for US bikes.",
+   "values": {
+    "checked": [
+     "50670-MKE-A70",
+     "46510-MKE-A70",
+     "24700-MKE-A00",
+     "45510-KRN-A91",
+     "45150-MKE-A71",
+     "45150-K95-AG1"
+    ],
+    "same_in_us": [
+     "50670-MKE-A70",
+     "46510-MKE-A70",
+     "24700-MKE-A00",
+     "45510-KRN-A91",
+     "45150-MKE-A71",
+     "45150-K95-AG1"
+    ],
+    "different_in_us": [],
+    "year_differences": [],
+    "us_years_covered": "2020-2026"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2024/crf450r",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "US catalogue years compared: 2020-2026. Market-specific parts (silencers, ECUs/CDIs, some brake masters) can differ between Australia and the US even when the chassis parts are the same world parts; buy those by the US number for a US bike."
+  },
+  {
+   "id": "fit2-usck-fith-012",
+   "domain": "ecu_electronics",
+   "topic": "US catalogue check: ECU: different, do not swap",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "US check of the first-pass record 'ECU: different, do not swap' (fith-012, numbers from an Australian catalogue): 0 of 2 part numbers checked are also in the US parts catalogue for the same models. Different in the US catalogue: 38770-MKE-DA1 -> US 38770-MKE-AA1 (CRF450R 2020), 38770-MKE-AF3 (CRF450R 2021-2022), 38770-MKE-AS1 (CRF450R 2023), 38770-MKE-B01 (CRF450R 2024), 38770-MKE-BD1 (CRF450R 2025-2026); 38770-K95-D61 -> US 38770-MKE-AA1 (CRF450R 2020), 38770-MKE-AF3 (CRF450R 2021-2022), 38770-MKE-AS1 (CRF450R 2023), 38770-MKE-B01 (CRF450R 2024), 38770-MKE-BD1 (CRF450R 2025-2026).",
+   "values": {
+    "checked": [
+     "38770-MKE-DA1",
+     "38770-K95-D61"
+    ],
+    "same_in_us": [],
+    "different_in_us": [
+     "38770-MKE-DA1 -> US 38770-MKE-AA1 (CRF450R 2020), 38770-MKE-AF3 (CRF450R 2021-2022), 38770-MKE-AS1 (CRF450R 2023), 38770-MKE-B01 (CRF450R 2024), 38770-MKE-BD1 (CRF450R 2025-2026)",
+     "38770-K95-D61 -> US 38770-MKE-AA1 (CRF450R 2020), 38770-MKE-AF3 (CRF450R 2021-2022), 38770-MKE-AS1 (CRF450R 2023), 38770-MKE-B01 (CRF450R 2024), 38770-MKE-BD1 (CRF450R 2025-2026)"
+    ],
+    "year_differences": [],
+    "us_years_covered": "2020-2026"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "MotoSport OEM parts fiche",
+    "url": "https://www.motosport.com/oem-parts/honda/2024/crf450r",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "US catalogue years compared: 2020-2026. Market-specific parts (silencers, ECUs/CDIs, some brake masters) can differ between Australia and the US even when the chassis parts are the same world parts; buy those by the US number for a US bike."
+  }
+ ]
+}

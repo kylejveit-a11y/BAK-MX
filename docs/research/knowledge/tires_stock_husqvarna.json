@@ -1,0 +1,2524 @@
+{
+ "slice": "stock tires from Husqvarna owner's manuals (gap fill)",
+ "platform": {
+  "make": "Husqvarna",
+  "models": [
+   "FC 250",
+   "FC 350",
+   "FC 450",
+   "FX 450",
+   "TC 50",
+   "TC 65",
+   "TC 85",
+   "TE 150",
+   "TE 250",
+   "TE 300",
+   "TX 300"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "researched": "2026-11-07",
+ "method": "Stock tires per roster bike-year where BAK had no stock tire size and model yet (checked against every docs/research/knowledge file on 2026-11-07). Read from the bike maker's owner's manual or spec page; printed values kept as printed, odd ones noted.",
+ "records": [
+  {
+   "id": "tire-stock-husqvarna-fc-250-2020",
+   "domain": "chassis",
+   "topic": "2020 Husqvarna FC 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Husqvarna's 2020 owner's manual lists 80/100-21 51M TT front and 110/90-19 62M TT rear for the FC 250, fitted with Dunlop Geomax MX3SF front and Dunlop Geomax MX3S rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/90-19 62M TT",
+    "front_tire": "Dunlop Geomax MX3SF",
+    "rear_tire": "Dunlop Geomax MX3S",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2020 (art. 3402335)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402335_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-250-2021",
+   "domain": "chassis",
+   "topic": "2021 Husqvarna FC 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 250"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual lists 80/100-21 51M TT front and 110/90-19 62M TT rear for the FC 250, fitted with Dunlop Geomax MX3SF front and Dunlop Geomax MX3S rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/90-19 62M TT",
+    "front_tire": "Dunlop Geomax MX3SF",
+    "rear_tire": "Dunlop Geomax MX3S",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2021 (art. 3402442)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402442_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-250-2022",
+   "domain": "chassis",
+   "topic": "2022 Husqvarna FC 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 owner's manual lists 80/100-21 51M TT front and 110/90-19 62M TT rear for the FC 250, fitted with Dunlop Geomax MX3SF front and Dunlop Geomax MX3S rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/90-19 62M TT",
+    "front_tire": "Dunlop Geomax MX3SF",
+    "rear_tire": "Dunlop Geomax MX3S",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2022 (art. 3402532)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402532_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-250-2023",
+   "domain": "chassis",
+   "topic": "2023 Husqvarna FC 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 owner's manual lists 80/100-21 51M TT front and 110/90-19 62M TT rear for the FC 250, fitted with Dunlop Geomax MX33F front and Dunlop Geomax MX33 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/90-19 62M TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax MX33",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 (art. 3402631)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-250-2024",
+   "domain": "chassis",
+   "topic": "2024 Husqvarna FC 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Husqvarna's 2024 owner's manual lists 80/100-21 51M TT front and 110/90-19 62M TT rear for the FC 250, fitted with Dunlop Geomax MX33F front and Dunlop Geomax MX33 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/90-19 62M TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax MX33",
+    "manual_row": "All standard models",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "Rockstar Edition: 80/100-21 51M TT / 110/90-19 62M TT, Dunlop Geomax MX34F / Dunlop Geomax MX34"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2024 (art. 3402713)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-250-2025",
+   "domain": "chassis",
+   "topic": "2025 Husqvarna FC 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Husqvarna's 2025 owner's manual lists 80/100-21 TL front and 110/90-19 TL rear for the FC 250, fitted with Dunlop Geomax MX34F front and rear; cold off-road pressure 1.0 bar front and rear.",
+   "values": {
+    "front_size": "80/100-21 TL",
+    "rear_size": "110/90-19 TL",
+    "front_tire": "Dunlop Geomax MX34F",
+    "rear_tire": "Dunlop Geomax MX34F",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar",
+    "cold_pressure_rear": "1.0 bar"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2025 (art. 3402803)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402803_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "The manual prints the tires as tubeless (TL) with no load index and names the rear as MX34F; recorded as printed."
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-250-2026",
+   "domain": "chassis",
+   "topic": "2026 Husqvarna FC 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 250"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Husqvarna's 2026 owner's manual lists 80/100-21 TL front and 110/90-19 TL rear for the FC 250, fitted with Dunlop Geomax MX34F front and Dunlop Geomax MX34 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 TL",
+    "rear_size": "110/90-19 TL",
+    "front_tire": "Dunlop Geomax MX34F",
+    "rear_tire": "Dunlop Geomax MX34",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2026 (art. 3402884)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402884_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "The manual prints both sizes as tubeless (TL) with no load index; recorded as printed."
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-250-2027",
+   "domain": "chassis",
+   "topic": "2027 Husqvarna FC 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 250"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2027 owner's manual lists 80/100-21 51M TT front and 110/90-19 62M TT rear for the FC 250, fitted with Dunlop Geomax MX34F front and Dunlop Geomax MX34 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/90-19 62M TT",
+    "front_tire": "Dunlop Geomax MX34F",
+    "rear_tire": "Dunlop Geomax MX34",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2027 (art. 3402945)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402945_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-350-2021",
+   "domain": "chassis",
+   "topic": "2021 Husqvarna FC 350: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 350"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual lists 80/100-21 51M TT front and 110/90-19 62M TT rear for the FC 350 (FC 350 EU, FC 350 US row), fitted with Dunlop Geomax MX3SF front and Dunlop Geomax MX3S rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/90-19 62M TT",
+    "front_tire": "Dunlop Geomax MX3SF",
+    "rear_tire": "Dunlop Geomax MX3S",
+    "manual_row": "FC 350 EU, FC 350 US",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2021 (art. 3402443)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402443_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-350-2022",
+   "domain": "chassis",
+   "topic": "2022 Husqvarna FC 350: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 350"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 owner's manual lists 80/100-21 51M TT front and 110/90-19 62M TT rear for the FC 350 (FC 350 EU, FC 350 US row), fitted with Dunlop Geomax MX3SF front and Dunlop Geomax MX3S rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/90-19 62M TT",
+    "front_tire": "Dunlop Geomax MX3SF",
+    "rear_tire": "Dunlop Geomax MX3S",
+    "manual_row": "FC 350 EU, FC 350 US",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2022 (art. 3402534)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402534_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-350-2024",
+   "domain": "chassis",
+   "topic": "2024 Husqvarna FC 350: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 350"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Husqvarna's 2024 owner's manual lists 80/100-21 51M TT front and 110/90-19 62M TT rear for the FC 350 (All FC models row), fitted with Dunlop Geomax MX33F front and Dunlop Geomax MX33 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/90-19 62M TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax MX33",
+    "manual_row": "All FC models",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2024 (art. 3402714)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402714_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-350-2025",
+   "domain": "chassis",
+   "topic": "2025 Husqvarna FC 350: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 350"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Husqvarna's 2025 owner's manual lists 80/100-21 51M TT front and 110/90-19 62M TT rear for the FC 350, fitted with Dunlop Geomax MX34F front and Dunlop Geomax MX34 rear; cold off-road pressure 1.0 bar front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/90-19 62M TT",
+    "front_tire": "Dunlop Geomax MX34F",
+    "rear_tire": "Dunlop Geomax MX34",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar",
+    "cold_pressure_rear": "1.0 bar"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2025 (art. 3402804)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402804_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-350-2027",
+   "domain": "chassis",
+   "topic": "2027 Husqvarna FC 350: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 350"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2027 owner's manual lists 80/100-21 51M TT front and 110/90-19 62M TT rear for the FC 350 (All FC models row), fitted with Dunlop Geomax MX34F front and Dunlop Geomax MX34 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/90-19 62M TT",
+    "front_tire": "Dunlop Geomax MX34F",
+    "rear_tire": "Dunlop Geomax MX34",
+    "manual_row": "All FC models",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2027 (art. 3402947)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402947_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-450-2020",
+   "domain": "chassis",
+   "topic": "2020 Husqvarna FC 450: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Husqvarna's 2020 owner's manual lists 80/100-21 51M TT front and 120/80-19 63M TT rear for the FC 450, fitted with Dunlop Geomax MX3SF front and Dunlop Geomax MX3S rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "120/80-19 63M TT",
+    "front_tire": "Dunlop Geomax MX3SF",
+    "rear_tire": "Dunlop Geomax MX3S",
+    "manual_row": "FC 450",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "ROCKSTAR EDITION: 80/100-21 51M TT / 120/80-19 63M TT, Dunlop Geomax MX33F / Dunlop Geomax MX33"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2020 (art. 3402354)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402354_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-450-2021",
+   "domain": "chassis",
+   "topic": "2021 Husqvarna FC 450: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 450"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual lists 80/100-21 51M TT front and 120/80-19 63M TT rear for the FC 450 (FC 450 EU, FC 450 US row), fitted with Dunlop Geomax MX3SF front and Dunlop Geomax MX3S rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "120/80-19 63M TT",
+    "front_tire": "Dunlop Geomax MX3SF",
+    "rear_tire": "Dunlop Geomax MX3S",
+    "manual_row": "FC 450 EU, FC 450 US",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "ROCKSTAR EDITION: 80/100-21 51M TT / 120/80-19 63M TT, Dunlop Geomax MX33F / Dunlop Geomax MX33"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2021 (art. 3402445)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-450-2024",
+   "domain": "chassis",
+   "topic": "2024 Husqvarna FC 450: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Husqvarna's 2024 owner's manual lists 80/100-21 51M TT front and 120/80-19 63M TT rear for the FC 450 (FC US row), fitted with Dunlop Geomax MX33F front and Dunlop Geomax MX33 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "120/80-19 63M TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax MX33",
+    "manual_row": "FC US",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "FC EU: 80/100-21 51M TT / 110/90-19 62M TT, Dunlop Geomax MX33F / Dunlop Geomax MX33",
+     "Rockstar Edition: 80/100-21 51M TT / 120/80-19 62M TT, Dunlop Geomax MX34F / Dunlop Geomax MX34"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2024 (art. 3402715)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402715_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-450-2025",
+   "domain": "chassis",
+   "topic": "2025 Husqvarna FC 450: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 450"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Husqvarna's 2025 owner's manual lists 80/100-21 TL front and 120/80-19 TL rear for the FC 450 (FC 450 US and Factory Edition row), fitted with Dunlop MX34F front and Dunlop MX34 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 TL",
+    "rear_size": "120/80-19 TL",
+    "front_tire": "Dunlop MX34F",
+    "rear_tire": "Dunlop MX34",
+    "manual_row": "FC 450 US and Factory Edition",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "FC 450 EU: 80/100-21 TL / 110/90-19 TL, Dunlop MX34F / Dunlop MX34"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2025 (art. 3402805)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "The manual prints both sizes as tubeless (TL) with no load index; recorded as printed."
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-450-2026",
+   "domain": "chassis",
+   "topic": "2026 Husqvarna FC 450: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 450"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Husqvarna's 2026 owner's manual lists 80/100-21 TL front and 110/90-19 TL rear for the FC 450 (EU row), fitted with Dunlop MX34F front and Dunlop MX34 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 TL",
+    "rear_size": "110/90-19 TL",
+    "front_tire": "Dunlop MX34F",
+    "rear_tire": "Dunlop MX34",
+    "manual_row": "EU",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "FACTORY EDITION: 80/100-21 TL / 120/80-19 TL, Dunlop MX34F / Dunlop MX34"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2026 (art. 3402886)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402886_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "The 2026 manual lists only an EU row (110/90-19) and a Factory Edition row (120/80-19); no US-specific row is printed."
+  },
+  {
+   "id": "tire-stock-husqvarna-fc-450-2027",
+   "domain": "chassis",
+   "topic": "2027 Husqvarna FC 450: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 450"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2027 owner's manual lists 80/100-21 51M TT front and 120/90-19 63M TT rear for the FC 450 (FC 450 US row), fitted with Dunlop Geomax MX34F front and Dunlop Geomax MX34 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "120/90-19 63M TT",
+    "front_tire": "Dunlop Geomax MX34F",
+    "rear_tire": "Dunlop Geomax MX34",
+    "manual_row": "FC 450 US",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "FC 450: 80/100-21 51M TT / 110/90-19 62M TT, Dunlop Geomax MX34F / Dunlop Geomax MX34"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2027 (art. 3402948)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402948_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "medium",
+   "notes": "The US row prints 120/90 - 19 63M; Dunlop lists the MX34 120/90-19 as 66M and the 120/80-19 as 63M, so the size or load index may be a misprint. Recorded as printed."
+  },
+  {
+   "id": "tire-stock-husqvarna-fx-450-2025",
+   "domain": "chassis",
+   "topic": "2025 Husqvarna FX 450: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FX 450"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Husqvarna's 2025 owner's manual lists 80/100-21 51M TL front and 110/100-18 TL rear for the FX 450, fitted with Dunlop MX33F front and Dunlop AT81 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TL",
+    "rear_size": "110/100-18 TL",
+    "front_tire": "Dunlop MX33F",
+    "rear_tire": "Dunlop AT81",
+    "manual_row": "FX 450",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2025 (art. 3402805)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "The manual prints TL (tubeless) for these sizes; recorded as printed."
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-50-2020",
+   "domain": "chassis",
+   "topic": "2020 Husqvarna TC 50: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 50"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Husqvarna's 2020 owner's manual lists 60/100-12 36M TT front and 2.75-10 38J TT rear for the TC 50, fitted with Maxxis Maxxcross SI front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-12 36M TT",
+    "rear_size": "2.75-10 38J TT",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "manual_row": "TC 50",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "TC 50 Mini: 2.50-10 33J TT / 2.75-10 38J TT, Maxxis Maxxcross SI / Maxxis Maxxcross SI"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2020 (art. 3402328)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402328_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-50-2021",
+   "domain": "chassis",
+   "topic": "2021 Husqvarna TC 50: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 50"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual lists 60/100-12 36M TT front and 2.75-10 38J TT rear for the TC 50, fitted with Maxxis Maxxcross SI front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-12 36M TT",
+    "rear_size": "2.75-10 38J TT",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "manual_row": "TC 50",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "TC 50 MINI: 2.50-10 33J TT / 2.75-10 38J TT, Maxxis Maxxcross SI / Maxxis Maxxcross SI"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2021 (art. 3402435)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402435_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-50-2022",
+   "domain": "chassis",
+   "topic": "2022 Husqvarna TC 50: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 50"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 owner's manual lists 60/100-12 36M TT front and 2.75-10 38J TT rear for the TC 50, fitted with Maxxis Maxxcross SI front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-12 36M TT",
+    "rear_size": "2.75-10 38J TT",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "manual_row": "TC 50",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "TC 50 MINI: 2.50-10 33J TT / 2.75-10 38J TT, Maxxis Maxxcross SI / Maxxis Maxxcross SI"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2022 (art. 3402525)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402525_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-50-2023",
+   "domain": "chassis",
+   "topic": "2023 Husqvarna TC 50: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 50"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 owner's manual lists 60/100-12 36J TT front and 2.75-10 38J TT rear for the TC 50, fitted with Maxxis Maxxcross MX-ST front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-12 36J TT",
+    "rear_size": "2.75-10 38J TT",
+    "front_tire": "Maxxis Maxxcross MX-ST",
+    "rear_tire": "Maxxis Maxxcross MX-ST",
+    "manual_row": "TC 50",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "TC 50 MINI: 60/100-10 33J TT / 2.75-10 38J TT, Maxxis Maxxcross MX-ST / Maxxis Maxxcross MX-ST"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 (art. 3402625)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402625_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-50-2024",
+   "domain": "chassis",
+   "topic": "2024 Husqvarna TC 50: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 50"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Husqvarna's 2024 owner's manual lists 60/100-12 36J TT front and 2.75-10 38J TT rear for the TC 50, fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-12 36J TT",
+    "rear_size": "2.75-10 38J TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2024 (art. 3402707)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402707_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-50-2025",
+   "domain": "chassis",
+   "topic": "2025 Husqvarna TC 50: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 50"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Husqvarna's 2025 owner's manual lists 60/100-12 36J TT front and 2.75-10 38J TT rear for the TC 50, fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-12 36J TT",
+    "rear_size": "2.75-10 38J TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2025 (art. 3402796)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402796_en_OM.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-50-2026",
+   "domain": "chassis",
+   "topic": "2026 Husqvarna TC 50: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 50"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Husqvarna's 2026 owner's manual lists 60/100-12 36J TT front and 2.75-10 38J TT rear for the TC 50, fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-12 36J TT",
+    "rear_size": "2.75-10 38J TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2026 (art. 3402877)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402877_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-50-2027",
+   "domain": "chassis",
+   "topic": "2027 Husqvarna TC 50: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 50"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2027 owner's manual lists 60/100-12 36J TT front and 2.75-10 38J TT rear for the TC 50, fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-12 36J TT",
+    "rear_size": "2.75-10 38J TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2027 (art. 3402937)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402937_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-65-2020",
+   "domain": "chassis",
+   "topic": "2020 Husqvarna TC 65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 65"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Husqvarna's 2020 owner's manual lists 60/100-14 M/C 30M TT front and 80/100-12 41M TT rear for the TC 65, fitted with Maxxis Maxxcross SI front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-14 M/C 30M TT",
+    "rear_size": "80/100-12 41M TT",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2020 (art. 3402329)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402329_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-65-2021",
+   "domain": "chassis",
+   "topic": "2021 Husqvarna TC 65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 65"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual lists 60/100-14 M/C 30M TT front and 80/100-12 41M TT rear for the TC 65, fitted with Maxxis Maxxcross SI front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-14 M/C 30M TT",
+    "rear_size": "80/100-12 41M TT",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2021 (art. 3402436)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402436_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-65-2022",
+   "domain": "chassis",
+   "topic": "2022 Husqvarna TC 65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 65"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 owner's manual lists 60/100-14 M/C 30M TT front and 80/100-12 41M TT rear for the TC 65, fitted with Maxxis Maxxcross SI front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-14 M/C 30M TT",
+    "rear_size": "80/100-12 41M TT",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2022 (art. 3402526)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402526_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-65-2023",
+   "domain": "chassis",
+   "topic": "2023 Husqvarna TC 65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 65"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 owner's manual lists 60/100-14 M/C 30M TT front and 80/100-12 41M TT rear for the TC 65, fitted with Maxxis Maxxcross MX-ST front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-14 M/C 30M TT",
+    "rear_size": "80/100-12 41M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST",
+    "rear_tire": "Maxxis Maxxcross MX-ST",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 (art. 3402626)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402626_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-65-2024",
+   "domain": "chassis",
+   "topic": "2024 Husqvarna TC 65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 65"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Husqvarna's 2024 owner's manual lists 60/100-14 M/C 30M TT front and 80/100-12 41M TT rear for the TC 65, fitted with Maxxis Maxxcross MX-ST front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-14 M/C 30M TT",
+    "rear_size": "80/100-12 41M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST",
+    "rear_tire": "Maxxis Maxxcross MX-ST",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2024 (art. 3402708)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402708_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-65-2025",
+   "domain": "chassis",
+   "topic": "2025 Husqvarna TC 65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 65"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Husqvarna's 2025 owner's manual lists 60/100-14 M/C 30M TT front and 80/100-12 41M TT rear for the TC 65, fitted with Maxxis Maxxcross MX-ST front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-14 M/C 30M TT",
+    "rear_size": "80/100-12 41M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST",
+    "rear_tire": "Maxxis Maxxcross MX-ST",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2025 (art. 3402797)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402797_en_OM.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-65-2026",
+   "domain": "chassis",
+   "topic": "2026 Husqvarna TC 65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 65"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Husqvarna's 2026 owner's manual lists 60/100-14 M/C 30M TT front and 80/100-12 41M TT rear for the TC 65, fitted with Maxxis Maxxcross MX-ST front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-14 M/C 30M TT",
+    "rear_size": "80/100-12 41M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST",
+    "rear_tire": "Maxxis Maxxcross MX-ST",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2026 (art. 3402878)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402878_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-65-2027",
+   "domain": "chassis",
+   "topic": "2027 Husqvarna TC 65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 65"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2027 owner's manual lists 60/100-14 M/C 30M TT front and 80/100-12 41M TT rear for the TC 65, fitted with Maxxis Maxxcross MX-ST front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-14 M/C 30M TT",
+    "rear_size": "80/100-12 41M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST",
+    "rear_tire": "Maxxis Maxxcross MX-ST",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2027 (art. 3402938)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402938_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-85-2020",
+   "domain": "chassis",
+   "topic": "2020 Husqvarna TC 85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 85"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Husqvarna's 2020 owner's manual lists 70/100-17 M/C 40M TT front and 90/100-14 M/C 49M TT rear for the TC 85 (TC 85 17/14 row), fitted with Maxxis Maxxcross SI front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 M/C 40M TT",
+    "rear_size": "90/100-14 M/C 49M TT",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "manual_row": "TC 85 17/14",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "TC 85 19/16: 70/100-19 M/C 42M TT / 90/100-16 M/C 52M TT, Maxxis Maxxcross SI / Maxxis Maxxcross SI"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2020 (art. 3402330)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402330_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-85-2021",
+   "domain": "chassis",
+   "topic": "2021 Husqvarna TC 85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 85"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual lists 70/100-17 M/C 40M TT front and 90/100-14 M/C 49M TT rear for the TC 85 (TC 85 17/14 row), fitted with Maxxis Maxxcross SI front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 M/C 40M TT",
+    "rear_size": "90/100-14 M/C 49M TT",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "manual_row": "TC 85 17/14",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "TC 85 19/16: 70/100-19 M/C 42M TT / 90/100-16 M/C 52M TT, Maxxis Maxxcross SI / Maxxis Maxxcross SI"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2021 (art. 3402437)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402437_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-85-2022",
+   "domain": "chassis",
+   "topic": "2022 Husqvarna TC 85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 85"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 owner's manual lists 70/100-17 M/C 40M TT front and 90/100-14 M/C 49M TT rear for the TC 85 (TC 85 17/14 row), fitted with Maxxis Maxxcross SI front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 M/C 40M TT",
+    "rear_size": "90/100-14 M/C 49M TT",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "manual_row": "TC 85 17/14",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "TC 85 19/16: 70/100-19 M/C 42M TT / 90/100-16 M/C 52M TT, Maxxis Maxxcross SI / Maxxis Maxxcross SI"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2022 (art. 3402527)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402527_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-85-2023",
+   "domain": "chassis",
+   "topic": "2023 Husqvarna TC 85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 85"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 owner's manual lists 70/100-17 M/C 40M TT front and 90/100-14 M/C 49M TT rear for the TC 85 (TC 85 17/14 row), fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 M/C 40M TT",
+    "rear_size": "90/100-14 M/C 49M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "TC 85 17/14",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "TC 85 19/16: 70/100-19 M/C 42M TT / 90/100-16 M/C 51M TT, Maxxis Maxxcross MX-ST+ / Maxxis Maxxcross MX-ST+"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 (art. 3402627)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402627_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-85-2024",
+   "domain": "chassis",
+   "topic": "2024 Husqvarna TC 85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 85"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Husqvarna's 2024 owner's manual lists 70/100-17 M/C 40M TT front and 90/100-14 M/C 49M TT rear for the TC 85 (TC 85 17/14 row), fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 M/C 40M TT",
+    "rear_size": "90/100-14 M/C 49M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "TC 85 17/14",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "TC 85 19/16: 70/100-19 M/C 42M TT / 90/100-16 M/C 51M TT, Maxxis Maxxcross MX-ST+ / Maxxis Maxxcross MX-ST+"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2024 (art. 3402709)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402709_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-85-2025",
+   "domain": "chassis",
+   "topic": "2025 Husqvarna TC 85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 85"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Husqvarna's 2025 owner's manual lists 70/100-17 M/C 40M TT front and 90/100-14 M/C 49M TT rear for the TC 85 (TC 85 17/14 row), fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 M/C 40M TT",
+    "rear_size": "90/100-14 M/C 49M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "TC 85 17/14",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "TC 85 19/16: 70/100-19 M/C 42M TT / 90/100-16 M/C 51M TT, Maxxis Maxxcross MX-ST+ / Maxxis Maxxcross MX-ST+"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2025 (art. 3402798)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402798_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-85-2026",
+   "domain": "chassis",
+   "topic": "2026 Husqvarna TC 85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 85"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Husqvarna's 2026 owner's manual lists 70/100-17 M/C 40M TT front and 90/100-14 M/C 49M TT rear for the TC 85 (TC 85 17/14 row), fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 M/C 40M TT",
+    "rear_size": "90/100-14 M/C 49M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "TC 85 17/14",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "TC 85 19/16: 70/100-19 M/C 42M TT / 90/100-16 M/C 51M TT, Maxxis Maxxcross MX-ST+ / Maxxis Maxxcross MX-ST+"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2026 (art. 3402879)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402879_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tc-85-2027",
+   "domain": "chassis",
+   "topic": "2027 Husqvarna TC 85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TC 85"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2027 owner's manual lists 70/100-17 M/C 40M TT front and 90/100-14 M/C 49M TT rear for the TC 85 (TC 85 17/14 row), fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 M/C 40M TT",
+    "rear_size": "90/100-14 M/C 49M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "TC 85 17/14",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "TC 85 19/16: 70/100-19 M/C 42M TT / 90/100-16 M/C 51M TT, Maxxis Maxxcross MX-ST+ / Maxxis Maxxcross MX-ST+"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2027 (art. 3402939)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402939_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-150-2020",
+   "domain": "chassis",
+   "topic": "2020 Husqvarna TE 150: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 150"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Husqvarna's 2020 owner's manual lists 90/90-21 M/C 54M M+S TT front and 140/80-18 M/C 70M M+S TT rear for the TE 150, fitted with Metzeler MCE 6 DAYS EXTREME front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "90/90-21 M/C 54M M+S TT",
+    "rear_size": "140/80-18 M/C 70M M+S TT",
+    "front_tire": "Metzeler MCE 6 DAYS EXTREME",
+    "rear_tire": "Metzeler MCE 6 DAYS EXTREME",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2020 (art. 3402338)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402338_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-150-2021",
+   "domain": "chassis",
+   "topic": "2021 Husqvarna TE 150: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 150"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual lists 90/90-21 M/C 54M M+S TT front and 140/80-18 M/C 70M M+S TT rear for the TE 150, fitted with Metzeler MCE 6 DAYS EXTREME front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "90/90-21 M/C 54M M+S TT",
+    "rear_size": "140/80-18 M/C 70M M+S TT",
+    "front_tire": "Metzeler MCE 6 DAYS EXTREME",
+    "rear_tire": "Metzeler MCE 6 DAYS EXTREME",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2021 (art. 3402446)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402446_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-150-2022",
+   "domain": "chassis",
+   "topic": "2022 Husqvarna TE 150: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 150"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 owner's manual lists 90/90-21 M/C 54R M+S TT front and 140/80-18 M/C 70R M+S TT rear for the TE 150, fitted with Michelin ENDURO MEDIUM front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "90/90-21 M/C 54R M+S TT",
+    "rear_size": "140/80-18 M/C 70R M+S TT",
+    "front_tire": "Michelin ENDURO MEDIUM",
+    "rear_tire": "Michelin ENDURO MEDIUM",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2022 (art. 3402537)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402537_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-150-2024",
+   "domain": "chassis",
+   "topic": "2024 Husqvarna TE 150: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 150"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Husqvarna's 2024 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the TE 150 (TE 150 US row), fitted with Dunlop Geomax MX33F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and 0.8 bar (12 psi) rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "TE 150 US",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "0.8 bar (12 psi)",
+    "other_variants_in_manual": [
+     "TE 150 EU: 90/90-21 M/C 54R M+S TT / 140/80-18 M/C 70R M+S TT, Michelin Enduro MEDIUM / Michelin Enduro MEDIUM"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2024 (art. 3402716)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402716_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-150-2025",
+   "domain": "chassis",
+   "topic": "2025 Husqvarna TE 150: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 150"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Husqvarna's 2025 owner's manual lists 80/100-21 M/C 51M M+S TT front and 110/100-18 M/C 64M M+S TT rear for the TE 150 (TE 150 US row), fitted with Dunlop MX33F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 M/C 51M M+S TT",
+    "rear_size": "110/100-18 M/C 64M M+S TT",
+    "front_tire": "Dunlop MX33F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "TE 150 US",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "All EU models: 90/90-21 M/C 54R M+S TT / 140/80-18 M/C 70R M+S TT, Maxxis Michelin Enduro Medium M/C S4R M+S / Maxxis Michelin Enduro Medium M7C"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2025 (art. 3402806)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402806_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-150-2026",
+   "domain": "chassis",
+   "topic": "2026 Husqvarna TE 150: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 150"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Husqvarna's 2026 owner's manual lists 80/100-21 M/C 51M M+S TT front and 110/100-18 M/C 64M M+S TT rear for the TE 150, fitted with Dunlop MX33F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 M/C 51M M+S TT",
+    "rear_size": "110/100-18 M/C 64M M+S TT",
+    "front_tire": "Dunlop MX33F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "TE 150",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2026 (art. 3402892)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402892_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-150-2027",
+   "domain": "chassis",
+   "topic": "2027 Husqvarna TE 150: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 150"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2027 owner's manual lists 80/100-21 M/C 51M M+S TT front and 110/100-18 M/C 64M M+S TT rear for the TE 150, fitted with Dunlop Geomax AT82 front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 M/C 51M M+S TT",
+    "rear_size": "110/100-18 M/C 64M M+S TT",
+    "front_tire": "Dunlop Geomax AT82",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "TE 150",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2027 (art. 3402950)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402950_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-250-2020",
+   "domain": "chassis",
+   "topic": "2020 Husqvarna TE 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Husqvarna's 2020 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the TE 250 (All US models row), fitted with Dunlop Geomax AT81F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax AT81F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "All US models",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "All EU models: 90/90-21 M/C 54M M+S TT / 140/80-18 M/C 70M M+S TT, Metzeler MCE 6 DAYS EXTREME / Metzeler MCE 6 DAYS EXTREME"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2020 (art. 3402407)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402407_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-250-2021",
+   "domain": "chassis",
+   "topic": "2021 Husqvarna TE 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 250"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the TE 250 (All US models row), fitted with Dunlop Geomax AT81F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax AT81F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "All US models",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "TE 250i EU, TE 300i EU: 90/90-21 M/C 54M M+S TT / 140/80-18 M/C 70M M+S TT, Metzeler MCE 6 DAYS EXTREME / Metzeler MCE 6 DAYS EXTREME"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2021 (art. 3402448)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402448_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-250-2022",
+   "domain": "chassis",
+   "topic": "2022 Husqvarna TE 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 owner's manual lists 90/90-21 54M TT front and 110/100-18 64M TT rear for the TE 250 (All US models row), fitted with Dunlop Geomax AT81F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "90/90-21 54M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax AT81F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "All US models",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "TE 250i CN: 80/100-21 M/C 51M TT / 140/80-18 M/C 70R TT, Maxxis Maxxcross M7311 / Maxxis Maxxcross M7314",
+     "All EU/AR models: 90/90-21 M/C 54R M+S TT / 140/80-18 M/C 70R M+S TT, Michelin Enduro Medium / Michelin Enduro Medium"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2022 (art. 3402538)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402538_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-250-2024",
+   "domain": "chassis",
+   "topic": "2024 Husqvarna TE 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Husqvarna's 2024 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the TE 250 (TE US row), fitted with Dunlop Geomax MX33F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and 0.8 bar (12 psi) rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "TE US",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "0.8 bar (12 psi)",
+    "other_variants_in_manual": [
+     "All EU/AR/CN models: 90/90-21 M/C 54R M+S TT / 140/80-18 M/C 70R M+S TT, Michelin Enduro Medium / Michelin Enduro Medium"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2024 (art. 3402717)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402717_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-250-2025",
+   "domain": "chassis",
+   "topic": "2025 Husqvarna TE 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Husqvarna's 2025 owner's manual lists 80/100-21 M/C 51M M+S TT front and 110/100-18 M/C 64M M+S TT rear for the TE 250 (All US models row), fitted with Dunlop Geomax MX33F front and Dunlop Geomax AT82 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 M/C 51M M+S TT",
+    "rear_size": "110/100-18 M/C 64M M+S TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax AT82",
+    "manual_row": "All US models",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "All EU/AR models: 90/90-21 M/C 54M M+S TT / 140/80-18 M/C 70R M+S TT, Michelin Enduro Medium / Michelin Enduro Medium"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2025 (art. 3402807)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402807_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-250-2026",
+   "domain": "chassis",
+   "topic": "2026 Husqvarna TE 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 250"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Husqvarna's 2026 owner's manual lists 80/100-21 M/C 51M M+S TT front and 110/100-18 M/C 64M M+S TT rear for the TE 250 (All US models row), fitted with Dunlop Geomax AT82F front and Dunlop Geomax AT82 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 M/C 51M M+S TT",
+    "rear_size": "110/100-18 M/C 64M M+S TT",
+    "front_tire": "Dunlop Geomax AT82F",
+    "rear_tire": "Dunlop Geomax AT82",
+    "manual_row": "All US models",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2026 (art. 3402893)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402893_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-300-2020",
+   "domain": "chassis",
+   "topic": "2020 Husqvarna TE 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Husqvarna's 2020 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the TE 300 (All US models row), fitted with Dunlop Geomax AT81F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax AT81F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "All US models",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "All EU models: 90/90-21 M/C 54M M+S TT / 140/80-18 M/C 70M M+S TT, Metzeler MCE 6 DAYS EXTREME / Metzeler MCE 6 DAYS EXTREME"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2020 (art. 3402407)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402407_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-300-2021",
+   "domain": "chassis",
+   "topic": "2021 Husqvarna TE 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the TE 300 (All US models row), fitted with Dunlop Geomax AT81F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax AT81F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "All US models",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "TE 250i EU, TE 300i EU: 90/90-21 M/C 54M M+S TT / 140/80-18 M/C 70M M+S TT, Metzeler MCE 6 DAYS EXTREME / Metzeler MCE 6 DAYS EXTREME",
+     "TE 300i ROCKSTAR EDITION EU: 90/90-21 M/C 54R M+S TT / 140/80-18 M/C 70R M+S TT, Michelin Enduro Medium / Michelin Enduro Medium"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2021 (art. 3402448)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402448_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-300-2022",
+   "domain": "chassis",
+   "topic": "2022 Husqvarna TE 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 owner's manual lists 90/90-21 54M TT front and 110/100-18 64M TT rear for the TE 300 (All US models row), fitted with Dunlop Geomax AT81F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "90/90-21 54M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax AT81F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "All US models",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "All EU/AR models: 90/90-21 M/C 54R M+S TT / 140/80-18 M/C 70R M+S TT, Michelin Enduro Medium / Michelin Enduro Medium"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2022 (art. 3402538)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402538_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-300-2024",
+   "domain": "chassis",
+   "topic": "2024 Husqvarna TE 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Husqvarna's 2024 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the TE 300 (TE US row), fitted with Dunlop Geomax MX33F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and 0.8 bar (12 psi) rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "TE US",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "0.8 bar (12 psi)",
+    "other_variants_in_manual": [
+     "All EU/AR/CN models: 90/90-21 M/C 54R M+S TT / 140/80-18 M/C 70R M+S TT, Michelin Enduro Medium / Michelin Enduro Medium"
+    ],
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2024 (art. 3402717)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402717_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-300-2025",
+   "domain": "chassis",
+   "topic": "2025 Husqvarna TE 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Husqvarna's 2025 owner's manual lists 80/100-21 M/C 51M M+S TT front and 110/100-18 M/C 64M M+S TT rear for the TE 300 (All US models row), fitted with Dunlop Geomax MX33F front and Dunlop Geomax AT82 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 M/C 51M M+S TT",
+    "rear_size": "110/100-18 M/C 64M M+S TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax AT82",
+    "manual_row": "All US models",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "All EU/AR models: 90/90-21 M/C 54M M+S TT / 140/80-18 M/C 70R M+S TT, Michelin Enduro Medium / Michelin Enduro Medium"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2025 (art. 3402807)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402807_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-300-2026",
+   "domain": "chassis",
+   "topic": "2026 Husqvarna TE 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Husqvarna's 2026 owner's manual lists 80/100-21 M/C 51M M+S TT front and 110/100-18 M/C 64M M+S TT rear for the TE 300 (All US models row), fitted with Dunlop Geomax AT82F front and Dunlop Geomax AT82 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 M/C 51M M+S TT",
+    "rear_size": "110/100-18 M/C 64M M+S TT",
+    "front_tire": "Dunlop Geomax AT82F",
+    "rear_tire": "Dunlop Geomax AT82",
+    "manual_row": "All US models",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "TE 300 PRO BR: 90/90-21 M/C 54M M+S TT / 140/80-18 M/C 70M M+S TT, Metzeler MCE 6 DAYS EXTREME / Metzeler MCE 6 DAYS EXTREME"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2026 (art. 3402893)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402893_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-te-300-2027",
+   "domain": "chassis",
+   "topic": "2027 Husqvarna TE 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2027 owner's manual lists 80/100-21 M/C 51M M+S TT front and 110/100-18 M/C 64M M+S TT rear for the TE 300 (All US models row), fitted with Dunlop Geomax AT82F front and Dunlop Geomax AT82 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 M/C 51M M+S TT",
+    "rear_size": "110/100-18 M/C 64M M+S TT",
+    "front_tire": "Dunlop Geomax AT82F",
+    "rear_tire": "Dunlop Geomax AT82",
+    "manual_row": "All US models",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "TE 300 PRO BR: 90/90-21 M/C 54M M+S TT / 140/80-18 M/C 70M M+S TT, Metzeler MCE 6 DAYS EXTREME / Metzeler MCE 6 DAYS EXTREME",
+     "All EU and AR models: 90/90-21 M/C 54R M+S TT / 140/80-18 M/C 70R M+S TT, Michelin Enduro Medium / Michelin Enduro Medium"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2027 (art. 3402951)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402951_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tx-300-2020",
+   "domain": "chassis",
+   "topic": "2020 Husqvarna TX 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TX 300"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Husqvarna's 2020 owner's manual lists 90/90-21 54M TT front and 110/100-18 64M TT rear for the TX 300, fitted with Dunlop Geomax AT81F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "90/90-21 54M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax AT81F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2020 (art. 3402334)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402334_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tx-300-2021",
+   "domain": "chassis",
+   "topic": "2021 Husqvarna TX 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TX 300"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual lists 90/90-21 54M TT front and 110/100-18 64M TT rear for the TX 300, fitted with Dunlop Geomax AT81F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "90/90-21 54M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax AT81F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2021 (art. 3402441)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402441_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tx-300-2022",
+   "domain": "chassis",
+   "topic": "2022 Husqvarna TX 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TX 300"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 owner's manual lists 90/90-21 54M TT front and 110/100-18 64M TT rear for the TX 300, fitted with Dunlop Geomax AT81F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "90/90-21 54M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax AT81F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2022 (art. 3402531)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402531_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tx-300-2023",
+   "domain": "chassis",
+   "topic": "2023 Husqvarna TX 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TX 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the TX 300 (All TX models row), fitted with Dunlop Geomax MX33F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "All TX models",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 (art. 3402630)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402630_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tx-300-2025",
+   "domain": "chassis",
+   "topic": "2025 Husqvarna TX 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TX 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Husqvarna's 2025 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the TX 300 (All TX models row), fitted with Dunlop Geomax MX33F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "All TX models",
+    "cold_pressure_front": "1.0 bar",
+    "cold_pressure_rear": "1.0 bar"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2025 (art. 3402802)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402802_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tx-300-2026",
+   "domain": "chassis",
+   "topic": "2026 Husqvarna TX 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TX 300"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Husqvarna's 2026 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the TX 300, fitted with Dunlop Geomax MX33F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "TX 300",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2026 (art. 3402883)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402883_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-husqvarna-tx-300-2027",
+   "domain": "chassis",
+   "topic": "2027 Husqvarna TX 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "TX 300"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2027 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the TX 300 (TX model row), fitted with Dunlop Geomax AT82F front and Dunlop AT82 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax AT82F",
+    "rear_tire": "Dunlop AT82",
+    "manual_row": "TX model",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2027 (art. 3402944)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402944_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  }
+ ]
+}

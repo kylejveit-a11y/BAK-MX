@@ -1,0 +1,564 @@
+{
+ "slice": "stock tires from Yamaha YZ65 / YZ85 owner's manuals (gap fill)",
+ "platform": {
+  "make": "Yamaha",
+  "models": [
+   "YZ65",
+   "YZ85"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "researched": "2026-11-07",
+ "method": "Stock tires per roster bike-year where BAK had no stock tire size and model yet (checked against every docs/research/knowledge file on 2026-11-07). Read from the bike maker's owner's manual or spec page; printed values kept as printed, odd ones noted.",
+ "records": [
+  {
+   "id": "tire-stock-yamaha-yz65-2020",
+   "domain": "chassis",
+   "topic": "2020 Yamaha YZ65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ65"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Yamaha's 2020 YZ65 owner's manual lists a 60/100-14 30M front and 80/100-12 41M rear, Maxxis Maxxcross SI front and rear (tube type), at 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "60/100-14 30M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ65 owner's manual 2020 (BR8-28199-11)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-11_02.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-yamaha-yz65-2021",
+   "domain": "chassis",
+   "topic": "2021 Yamaha YZ65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ65"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Yamaha's 2021 YZ65 owner's manual lists a 60/100-14 30M front and 80/100-12 41M rear, Maxxis Maxxcross SI front and rear (tube type), at 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "60/100-14 30M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ65 owner's manual 2021 (BR8-28199-12)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-12_02.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-yamaha-yz65-2022",
+   "domain": "chassis",
+   "topic": "2022 Yamaha YZ65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ65"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Yamaha's 2022 YZ65 owner's manual lists a 60/100-14 30M front and 80/100-12 41M rear, Maxxis Maxxcross SI front and rear (tube type), at 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "60/100-14 30M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ65 owner's manual 2022 (BR8-28199-13)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-13_02.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-yamaha-yz65-2023",
+   "domain": "chassis",
+   "topic": "2023 Yamaha YZ65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ65"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Yamaha's 2023 YZ65 owner's manual lists a 60/100-14 30M front and 80/100-12 41M rear, Maxxis Maxxcross SI front and rear (tube type), at 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "60/100-14 30M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ65 owner's manual 2023 (BR8-28199-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-yamaha-yz65-2024",
+   "domain": "chassis",
+   "topic": "2024 Yamaha YZ65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ65"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Yamaha's 2024 YZ65 owner's manual lists a 60/100-14 30M front and 80/100-12 41M rear, Maxxis Maxxcross SI front and rear (tube type), at 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "60/100-14 30M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ65 owner's manual 2024 (BR8-28199-15)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-15_02.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-yamaha-yz65-2025",
+   "domain": "chassis",
+   "topic": "2025 Yamaha YZ65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ65"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Yamaha's 2025 YZ65 owner's manual lists a 60/100-14 30M front and 80/100-12 41M rear, Maxxis Maxxcross SI front and rear (tube type), at 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "60/100-14 30M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ65 owner's manual 2025 (D99-28199-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D99-28199-10_02.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-yamaha-yz65-2026",
+   "domain": "chassis",
+   "topic": "2026 Yamaha YZ65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ65"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Yamaha's 2026 YZ65 owner's manual lists a 60/100-14 30M front and 80/100-12 41M rear, Maxxis Maxxcross SI front and rear (tube type), at 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "60/100-14 30M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ65 owner's manual 2026 (D99-28199-11)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D99-28199-11_02.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-yamaha-yz65-2027",
+   "domain": "chassis",
+   "topic": "2027 Yamaha YZ65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ65"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Yamaha's 2027 YZ65 owner's manual lists a 60/100-14 30M front and 80/100-12 41M rear, Maxxis Maxxcross SI front and rear (tube type), at 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "60/100-14 30M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ65 owner's manual 2027 (D99-28199-12)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D99-28199-12_02.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-yamaha-yz85-2020",
+   "domain": "chassis",
+   "topic": "2020 Yamaha YZ85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ85"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Yamaha's 2020 YZ85 owner's manual lists Dunlop Geomax MX3S tires (MX3SF front): 70/100-17 40M front and 90/100-14 49M rear on the YZ85; 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "70/100-17 40M",
+    "rear_size": "90/100-14 49M",
+    "front_tire": "Dunlop MX3SF",
+    "rear_tire": "Dunlop MX3S",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ85 owner's manual 2020 (B4B-28199-11)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-11_02.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-yamaha-yz85-2021",
+   "domain": "chassis",
+   "topic": "2021 Yamaha YZ85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ85"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Yamaha's 2021 YZ85 owner's manual lists Dunlop Geomax MX3S tires (MX3SF front): 70/100-17 40M front and 90/100-14 49M rear on the YZ85; 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "70/100-17 40M",
+    "rear_size": "90/100-14 49M",
+    "front_tire": "Dunlop MX3SF",
+    "rear_tire": "Dunlop MX3S",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ85 owner's manual 2021 (B4B-28199-12)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-12_02.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-yamaha-yz85-2022",
+   "domain": "chassis",
+   "topic": "2022 Yamaha YZ85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ85"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Yamaha's 2022 YZ85 owner's manual lists Dunlop Geomax MX3S tires (MX3SF front): 70/100-17 40M front and 90/100-14 49M rear on the YZ85, and 70/100-19 42M front and 90/100-16 52M rear on the big-wheel YZ85LW; 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "70/100-17 40M",
+    "rear_size": "90/100-14 49M",
+    "front_tire": "Dunlop MX3SF",
+    "rear_tire": "Dunlop MX3S",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)",
+    "front_size_LW": "70/100-19 42M",
+    "rear_size_LW": "90/100-16 52M"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ85 owner's manual 2022 (B4B-28199-1A)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-1A_02.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-yamaha-yz85-2023",
+   "domain": "chassis",
+   "topic": "2023 Yamaha YZ85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ85"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Yamaha's 2023 YZ85 owner's manual lists Dunlop Geomax MX3S tires (MX3SF front): 70/100-17 40M front and 90/100-14 49M rear on the YZ85, and 70/100-19 42M front and 90/100-16 52M rear on the big-wheel YZ85LW; 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "70/100-17 40M",
+    "rear_size": "90/100-14 49M",
+    "front_tire": "Dunlop MX3SF",
+    "rear_tire": "Dunlop MX3S",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)",
+    "front_size_LW": "70/100-19 42M",
+    "rear_size_LW": "90/100-16 52M"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ85 owner's manual 2023 (B4B-28199-1B)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-1B_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-yamaha-yz85-2024",
+   "domain": "chassis",
+   "topic": "2024 Yamaha YZ85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ85"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Yamaha's 2024 YZ85 owner's manual lists Dunlop Geomax MX3S tires (MX3SF front): 70/100-17 40M front and 90/100-14 49M rear on the YZ85, and 70/100-19 42M front and 90/100-16 52M rear on the big-wheel YZ85LW; 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "70/100-17 40M",
+    "rear_size": "90/100-14 49M",
+    "front_tire": "Dunlop MX3SF",
+    "rear_tire": "Dunlop MX3S",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)",
+    "front_size_LW": "70/100-19 42M",
+    "rear_size_LW": "90/100-16 52M"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ85 owner's manual 2024 (B4B-28199-15)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-15_02.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-yamaha-yz85-2025",
+   "domain": "chassis",
+   "topic": "2025 Yamaha YZ85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ85"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Yamaha's 2025 YZ85 owner's manual lists Dunlop Geomax MX3S tires (MX3SF front): 70/100-17 40M front and 90/100-14 49M rear on the YZ85, and 70/100-19 42M front and 90/100-16 52M rear on the big-wheel YZ85LW; 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "70/100-17 40M",
+    "rear_size": "90/100-14 49M",
+    "front_tire": "Dunlop MX3SF",
+    "rear_tire": "Dunlop MX3S",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)",
+    "front_size_LW": "70/100-19 42M",
+    "rear_size_LW": "90/100-16 52M"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ85 owner's manual 2025 (B4B-28199-16)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-16_02.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-yamaha-yz85-2026",
+   "domain": "chassis",
+   "topic": "2026 Yamaha YZ85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ85"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Yamaha's 2026 YZ85 owner's manual lists Dunlop Geomax MX3S tires (MX3SF front): 70/100-17 40M front and 90/100-14 49M rear on the YZ85, and 70/100-19 42M front and 90/100-16 52M rear on the big-wheel YZ85LW; 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "70/100-17 40M",
+    "rear_size": "90/100-14 49M",
+    "front_tire": "Dunlop MX3SF",
+    "rear_tire": "Dunlop MX3S",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)",
+    "front_size_LW": "70/100-19 42M",
+    "rear_size_LW": "90/100-16 52M"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ85 owner's manual 2026 (B4B-28199-17)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-17_02.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-yamaha-yz85-2027",
+   "domain": "chassis",
+   "topic": "2027 Yamaha YZ85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ85"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Yamaha's 2027 YZ85 owner's manual lists Dunlop Geomax MX3S tires (MX3SF front): 70/100-17 40M front and 90/100-14 49M rear on the YZ85, and 70/100-19 42M front and 90/100-16 52M rear on the big-wheel YZ85LW; 100 kPa (15 psi) cold front and rear; minimum tread depth 4.0 mm.",
+   "values": {
+    "front_size": "70/100-17 40M",
+    "rear_size": "90/100-14 49M",
+    "front_tire": "Dunlop MX3SF",
+    "rear_tire": "Dunlop MX3S",
+    "cold_pressure_front": "100 kPa (15 psi)",
+    "cold_pressure_rear": "100 kPa (15 psi)",
+    "minimum_tread_depth": "4.0 mm (0.16 in)",
+    "front_size_LW": "70/100-19 42M",
+    "rear_size_LW": "90/100-16 52M"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha YZ85 owner's manual 2027 (DA8-28199-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DA8-28199-10_02.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  }
+ ]
+}

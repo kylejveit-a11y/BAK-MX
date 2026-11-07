@@ -1,0 +1,647 @@
+{
+ "slice": "stock tires from Kawasaki KX65 / KX85 / KX112 owner's manuals (gap fill)",
+ "platform": {
+  "make": "Kawasaki",
+  "models": [
+   "KX112",
+   "KX65",
+   "KX85"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "researched": "2026-11-07",
+ "method": "Stock tires per roster bike-year where BAK had no stock tire size and model yet (checked against every docs/research/knowledge file on 2026-11-07). Read from the bike maker's owner's manual or spec page; printed values kept as printed, odd ones noted.",
+ "records": [
+  {
+   "id": "tire-stock-kawasaki-kx112-2022",
+   "domain": "chassis",
+   "topic": "2022 Kawasaki KX112: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX112"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Kawasaki's 2022 KX112 owner's manual lists a 70/100-19 42M front and 90/100-16 51M rear, Dunlop Geomax MX33F front and MX33 rear; cold pressure 100–125 kPa (14.5–18.1 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-19 42M",
+    "rear_size": "90/100-16 51M",
+    "front_tire": "Dunlop MX33F",
+    "rear_tire": "Dunlop MX33",
+    "cold_pressure": "100–125 kPa (14.5–18.1 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX112 owner's manual 2022 (99803-021)",
+    "url": "https://pws.ktivs.net/assets/manual-files/99803-0213-o5kx112anf-us-en-44e2150fc06874304a16d8cfa1d65a56/search.xml",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Kawasaki adds: lower pressure for wet, muddy, sandy or slippery tracks; higher on pebbly or hard tracks to prevent damage, at the cost of more skidding."
+  },
+  {
+   "id": "tire-stock-kawasaki-kx112-2023",
+   "domain": "chassis",
+   "topic": "2023 Kawasaki KX112: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX112"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Kawasaki's 2023 KX112 owner's manual lists a 70/100-19 42M front and 90/100-16 51M rear, Dunlop Geomax MX33F front and MX33 rear; cold pressure 100–125 kPa (14.5–18.1 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-19 42M",
+    "rear_size": "90/100-16 51M",
+    "front_tire": "Dunlop MX33F",
+    "rear_tire": "Dunlop MX33",
+    "cold_pressure": "100–125 kPa (14.5–18.1 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX112 owner's manual 2023 (99803-030)",
+    "url": "https://pws.ktivs.net/assets/manual-files/99803-0304-o5kx85cpf-us-en-321638c3053159040e760ab5da539c86/search.xml",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Kawasaki adds: lower pressure for wet, muddy, sandy or slippery tracks; higher on pebbly or hard tracks to prevent damage, at the cost of more skidding."
+  },
+  {
+   "id": "tire-stock-kawasaki-kx112-2024",
+   "domain": "chassis",
+   "topic": "2024 Kawasaki KX112: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX112"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Kawasaki's 2024 KX112 owner's manual lists a 70/100-19 42M front and 90/100-16 51M rear, Dunlop Geomax MX33F front and MX33 rear; cold pressure 100–125 kPa (14.5–18.1 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-19 42M",
+    "rear_size": "90/100-16 51M",
+    "front_tire": "Dunlop MX33F",
+    "rear_tire": "Dunlop MX33",
+    "cold_pressure": "100–125 kPa (14.5–18.1 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX112 owner's manual 2024 (99803-039)",
+    "url": "https://pws.ktivs.net/assets/manuals/99803-0399-o5kx85crf-us-en-500aa56a345979ea5fcb69d6095420d5/search.xml",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Kawasaki adds: lower pressure for wet, muddy, sandy or slippery tracks; higher on pebbly or hard tracks to prevent damage, at the cost of more skidding."
+  },
+  {
+   "id": "tire-stock-kawasaki-kx112-2025",
+   "domain": "chassis",
+   "topic": "2025 Kawasaki KX112: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX112"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Kawasaki's 2025 KX112 owner's manual lists a 70/100-19 42M front and 90/100-16 51M rear, Dunlop Geomax MX33F front and MX33 rear; cold pressure 100–125 kPa (14.5–18.1 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-19 42M",
+    "rear_size": "90/100-16 51M",
+    "front_tire": "Dunlop MX33F",
+    "rear_tire": "Dunlop MX33",
+    "cold_pressure": "100–125 kPa (14.5–18.1 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX112 owner's manual 2025 (99814-001)",
+    "url": "https://pws.ktivs.net/assets/manuals/99814-0013-o5kx85csf-us-en_ebook-a353d7c171c64e496761520e2bcbb207/search.xml",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Kawasaki adds: lower pressure for wet, muddy, sandy or slippery tracks; higher on pebbly or hard tracks to prevent damage, at the cost of more skidding."
+  },
+  {
+   "id": "tire-stock-kawasaki-kx112-2026",
+   "domain": "chassis",
+   "topic": "2026 Kawasaki KX112: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX112"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Kawasaki's 2026 KX112 owner's manual lists a 70/100-19 42M front and 90/100-16 51M rear, Dunlop Geomax MX34F front and MX34 rear; cold pressure 100–125 kPa (14.5–18.1 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-19 42M",
+    "rear_size": "90/100-16 51M",
+    "front_tire": "Dunlop MX34F",
+    "rear_tire": "Dunlop MX34",
+    "cold_pressure": "100–125 kPa (14.5–18.1 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX112 owner's manual 2026 (99814-018)",
+    "url": "https://pws.ktivs.net/assets/manuals/99814-0181-o5kx112btf-us-en_ebook-2dc4140bc3e7c4a0813614aec6ad0a17/search.xml",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Kawasaki adds: lower pressure for wet, muddy, sandy or slippery tracks; higher on pebbly or hard tracks to prevent damage, at the cost of more skidding."
+  },
+  {
+   "id": "tire-stock-kawasaki-kx65-2020",
+   "domain": "chassis",
+   "topic": "2020 Kawasaki KX65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX65"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Kawasaki's 2020 KX65 owner's manual lists a 60/100-14 30M front and 80/100-12 41M rear, Dunlop D756F front and Dunlop D756 rear, with an adjustable cold pressure range of 80–100 kPa (11–14 psi).",
+   "values": {
+    "front_size": "60/100-14 30M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Dunlop D756F",
+    "rear_tire": "Dunlop D756",
+    "cold_pressure_range": "80–100 kPa (11–14 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX65 owner's manual 2020 (99803-003)",
+    "url": "https://pws.ktivs.net/assets/manual-files/99803-0030-o5kx65alf-us-en-960aa4d53e2693a7630518c0ac310e89/search.xml",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-kawasaki-kx65-2021",
+   "domain": "chassis",
+   "topic": "2021 Kawasaki KX65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX65"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Kawasaki's 2021 KX65 owner's manual lists a 60/100-14 30M front and 80/100-12 41M rear, Dunlop D756F front and Dunlop D756 rear, with an adjustable cold pressure range of 80–100 kPa (11–14 psi).",
+   "values": {
+    "front_size": "60/100-14 30M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Dunlop D756F",
+    "rear_tire": "Dunlop D756",
+    "cold_pressure_range": "80–100 kPa (11–14 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX65 owner's manual 2021 (99803-012)",
+    "url": "https://pws.ktivs.net/assets/manual-files/99803-0129-o5kx65cmf-us-en-513871a8cb8b04fa0e68b05b1f90d939/search.xml",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-kawasaki-kx65-2022",
+   "domain": "chassis",
+   "topic": "2022 Kawasaki KX65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX65"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Kawasaki's 2022 KX65 owner's manual lists a 60/100-14 30M front and 80/100-12 41M rear, Dunlop D756F front and Dunlop D756 rear, with an adjustable cold pressure range of 80–100 kPa (11–14 psi).",
+   "values": {
+    "front_size": "60/100-14 30M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Dunlop D756F",
+    "rear_tire": "Dunlop D756",
+    "cold_pressure_range": "80–100 kPa (11–14 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX65 owner's manual 2022 (99803-021)",
+    "url": "https://pws.ktivs.net/assets/manual-files/99803-0218-o5kx65cnf-us-en-0b5517d9572dc5021b1abfaf5c59c08c/search.xml",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-kawasaki-kx65-2023",
+   "domain": "chassis",
+   "topic": "2023 Kawasaki KX65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX65"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Kawasaki's 2023 KX65 owner's manual lists a 60/100-14 30M front and 80/100-12 41M rear, Dunlop D756F front and Dunlop D756 rear, with an adjustable cold pressure range of 80–100 kPa (11–14 psi).",
+   "values": {
+    "front_size": "60/100-14 30M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Dunlop D756F",
+    "rear_tire": "Dunlop D756",
+    "cold_pressure_range": "80–100 kPa (11–14 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX65 owner's manual 2023 (99803-030)",
+    "url": "https://pws.ktivs.net/assets/manual-files/99803-0303-o5kx65cpf-us-en-a375a122299c7de54b88dd2cd6579284/search.xml",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-kawasaki-kx65-2024",
+   "domain": "chassis",
+   "topic": "2024 Kawasaki KX65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX65"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Kawasaki's 2024 KX65 owner's manual lists a 60/100-14 30M front and 80/100-12 41M rear, Dunlop D756F front and Dunlop D756 rear, with an adjustable cold pressure range of 80–100 kPa (11–14 psi).",
+   "values": {
+    "front_size": "60/100-14 30M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Dunlop D756F",
+    "rear_tire": "Dunlop D756",
+    "cold_pressure_range": "80–100 kPa (11–14 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX65 owner's manual 2024 (99803-039)",
+    "url": "https://pws.ktivs.net/assets/manuals/99803-0398-o5kx65crf-us-en-2a6600856678443bc703ceed3b2a50ee/search.xml",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-kawasaki-kx65-2025",
+   "domain": "chassis",
+   "topic": "2025 Kawasaki KX65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX65"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Kawasaki's 2025 KX65 owner's manual lists a 60/100-14 30M front and 80/100-12 41M rear, Dunlop D756F front and Dunlop D756 rear, with an adjustable cold pressure range of 80–100 kPa (11–14 psi).",
+   "values": {
+    "front_size": "60/100-14 30M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Dunlop D756F",
+    "rear_tire": "Dunlop D756",
+    "cold_pressure_range": "80–100 kPa (11–14 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX65 owner's manual 2025 (99814-001)",
+    "url": "https://pws.ktivs.net/assets/manuals/99814-0012-o5kx65csf-us-en_ebook-1e99c082fa3f56e5749648ce67cfa8c5/search.xml",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-kawasaki-kx65-2026",
+   "domain": "chassis",
+   "topic": "2026 Kawasaki KX65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX65"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Kawasaki's 2026 KX65 owner's manual lists a 60/100-14 29M front and 80/100-12 41M rear, Dunlop MX34F front and Dunlop MX34 rear, with an adjustable cold pressure range of 80–100 kPa (11–14 psi).",
+   "values": {
+    "front_size": "60/100-14 29M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Dunlop MX34F",
+    "rear_tire": "Dunlop MX34",
+    "cold_pressure_range": "80–100 kPa (11–14 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX65 owner's manual 2026 (99814-012)",
+    "url": "https://pws.ktivs.net/assets/manuals/99814-0120-o5kx65ctf-us-en_ebook-ee323f770cc3ac85467d16a1d30995d2/search.xml",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-kawasaki-kx65-2027",
+   "domain": "chassis",
+   "topic": "2027 Kawasaki KX65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX65"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Kawasaki's 2027 KX65 owner's manual lists a 60/100-14 29M front and 80/100-12 41M rear, Dunlop MX34F front and Dunlop MX34 rear, with an adjustable cold pressure range of 80–100 kPa (11–14 psi).",
+   "values": {
+    "front_size": "60/100-14 29M",
+    "rear_size": "80/100-12 41M",
+    "front_tire": "Dunlop MX34F",
+    "rear_tire": "Dunlop MX34",
+    "cold_pressure_range": "80–100 kPa (11–14 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX65 owner's manual 2027 (99814-023)",
+    "url": "https://pws.ktivs.net/assets/manuals/99814-0231-o5kx65cv-us-en_ebook-6b968ac1054914bb04f3d9462ae0a092/search.xml",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-kawasaki-kx85-2020",
+   "domain": "chassis",
+   "topic": "2020 Kawasaki KX85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX85"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Kawasaki's 2020 KX85 owner's manual lists a 70/100-17 40M front and 90/100-14 49M rear, Dunlop MX51F front and MX51 rear; the same manual gives the KX100 70/100-19 and 90/100-16. Cold pressure 100–125 kPa (14.5–18.1 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 40M",
+    "rear_size": "90/100-14 49M",
+    "front_tire": "Dunlop MX51F",
+    "rear_tire": "Dunlop MX51",
+    "cold_pressure": "100–125 kPa (14.5–18.1 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX85 owner's manual 2020 (99803-002)",
+    "url": "https://pws.ktivs.net/assets/manual-files/99803-0029-o5kx85clf-us-en-222d7e05d96b94e6505a578540228c64/search.xml",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Kawasaki adds: lower pressure for wet, muddy, sandy or slippery tracks; higher on pebbly or hard tracks to prevent damage, at the cost of more skidding."
+  },
+  {
+   "id": "tire-stock-kawasaki-kx85-2021",
+   "domain": "chassis",
+   "topic": "2021 Kawasaki KX85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX85"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Kawasaki's 2021 KX85 owner's manual lists a 70/100-17 40M front and 90/100-14 49M rear, Dunlop MX51F front and MX51 rear; the same manual gives the KX100 70/100-19 and 90/100-16. Cold pressure 100–125 kPa (14.5–18.1 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 40M",
+    "rear_size": "90/100-14 49M",
+    "front_tire": "Dunlop MX51F",
+    "rear_tire": "Dunlop MX51",
+    "cold_pressure": "100–125 kPa (14.5–18.1 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX85 owner's manual 2021 (99803-012)",
+    "url": "https://pws.ktivs.net/assets/manual-files/99803-0128-o5kx85cmf-us-en-c60f8057b858c4f976f737b319d94bf7/search.xml",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Kawasaki adds: lower pressure for wet, muddy, sandy or slippery tracks; higher on pebbly or hard tracks to prevent damage, at the cost of more skidding."
+  },
+  {
+   "id": "tire-stock-kawasaki-kx85-2022",
+   "domain": "chassis",
+   "topic": "2022 Kawasaki KX85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX85"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Kawasaki's 2022 KX85 owner's manual lists a 70/100-17 40M front and 90/100-14 49M rear, Dunlop Geomax MX33F front and MX33 rear; cold pressure 100–125 kPa (14.5–18.1 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 40M",
+    "rear_size": "90/100-14 49M",
+    "front_tire": "Dunlop MX33F",
+    "rear_tire": "Dunlop MX33",
+    "cold_pressure": "100–125 kPa (14.5–18.1 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX85 owner's manual 2022 (99803-021)",
+    "url": "https://pws.ktivs.net/assets/manual-files/99803-0217-o5kx85cnf-us-en-ef42670916fcf39c6b767ee7b4f9952b/search.xml",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Kawasaki adds: lower pressure for wet, muddy, sandy or slippery tracks; higher on pebbly or hard tracks to prevent damage, at the cost of more skidding."
+  },
+  {
+   "id": "tire-stock-kawasaki-kx85-2023",
+   "domain": "chassis",
+   "topic": "2023 Kawasaki KX85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX85"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Kawasaki's 2023 KX85 owner's manual lists a 70/100-17 40M front and 90/100-14 49M rear, Dunlop Geomax MX33F front and MX33 rear; cold pressure 100–125 kPa (14.5–18.1 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 40M",
+    "rear_size": "90/100-14 49M",
+    "front_tire": "Dunlop MX33F",
+    "rear_tire": "Dunlop MX33",
+    "cold_pressure": "100–125 kPa (14.5–18.1 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX85 owner's manual 2023 (99803-030)",
+    "url": "https://pws.ktivs.net/assets/manual-files/99803-0304-o5kx85cpf-us-en-321638c3053159040e760ab5da539c86/search.xml",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Kawasaki adds: lower pressure for wet, muddy, sandy or slippery tracks; higher on pebbly or hard tracks to prevent damage, at the cost of more skidding."
+  },
+  {
+   "id": "tire-stock-kawasaki-kx85-2024",
+   "domain": "chassis",
+   "topic": "2024 Kawasaki KX85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX85"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Kawasaki's 2024 KX85 owner's manual lists a 70/100-17 40M front and 90/100-14 49M rear, Dunlop Geomax MX33F front and MX33 rear; cold pressure 100–125 kPa (14.5–18.1 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 40M",
+    "rear_size": "90/100-14 49M",
+    "front_tire": "Dunlop MX33F",
+    "rear_tire": "Dunlop MX33",
+    "cold_pressure": "100–125 kPa (14.5–18.1 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX85 owner's manual 2024 (99803-039)",
+    "url": "https://pws.ktivs.net/assets/manuals/99803-0399-o5kx85crf-us-en-500aa56a345979ea5fcb69d6095420d5/search.xml",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Kawasaki adds: lower pressure for wet, muddy, sandy or slippery tracks; higher on pebbly or hard tracks to prevent damage, at the cost of more skidding."
+  },
+  {
+   "id": "tire-stock-kawasaki-kx85-2025",
+   "domain": "chassis",
+   "topic": "2025 Kawasaki KX85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX85"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Kawasaki's 2025 KX85 owner's manual lists a 70/100-17 40M front and 90/100-14 49M rear, Dunlop Geomax MX33F front and MX33 rear; cold pressure 100–125 kPa (14.5–18.1 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 40M",
+    "rear_size": "90/100-14 49M",
+    "front_tire": "Dunlop MX33F",
+    "rear_tire": "Dunlop MX33",
+    "cold_pressure": "100–125 kPa (14.5–18.1 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX85 owner's manual 2025 (99814-001)",
+    "url": "https://pws.ktivs.net/assets/manuals/99814-0013-o5kx85csf-us-en_ebook-a353d7c171c64e496761520e2bcbb207/search.xml",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Kawasaki adds: lower pressure for wet, muddy, sandy or slippery tracks; higher on pebbly or hard tracks to prevent damage, at the cost of more skidding."
+  },
+  {
+   "id": "tire-stock-kawasaki-kx85-2026",
+   "domain": "chassis",
+   "topic": "2026 Kawasaki KX85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX85"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Kawasaki's 2026 KX85 owner's manual lists Dunlop Geomax MX34 tires (MX34F front): 70/100-17 40M front and 90/100-14 49M rear on the small-wheel KX85, 70/100-19 42M and 90/100-16 51M on the big-wheel version; cold pressure 100–125 kPa (14.5–18.1 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 40M",
+    "rear_size": "90/100-14 49M",
+    "front_size_big_wheel": "70/100-19 42M",
+    "rear_size_big_wheel": "90/100-16 51M",
+    "front_tire": "Dunlop MX34F",
+    "rear_tire": "Dunlop MX34",
+    "cold_pressure": "100–125 kPa (14.5–18.1 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki KX85 owner's manual 2026 (99814-018)",
+    "url": "https://pws.ktivs.net/assets/manuals/99814-0182-o5kx85etf-us-en_ebook-890ee7783884019f4355edd47cccbd6f/search.xml",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Kawasaki adds: lower pressure for wet, muddy, sandy or slippery tracks; higher on pebbly or hard tracks to prevent damage, at the cost of more skidding."
+  }
+ ]
+}

@@ -6,7 +6,7 @@ import sys,json,hashlib,os,re,collections
 def h(s): return hashlib.sha256(s.encode()).hexdigest()
 LABEL={'ASO':'idle air screw {} turns open','PS':'pilot screw {} turns out','IJ':'idling jet {}','PJ':'pilot jet {}','SJ':'slow jet {}','NDL':'jet needle {}','JN':'jet needle {}','POS':'needle clip position {} from top','CLIP':'needle clip position {} from top','MJ':'main jet {}'}
 ORDER=['ASO','PS','IJ','PJ','SJ','NDL','JN','POS','CLIP','MJ']
-def clean(v): return re.sub(r'^(\d),(\d)$',r'\1.\2',v.replace('‑','-').strip())   # "1,5" printed once for 1.5 turns
+def clean(v): return re.sub(r'^(\d+),(\d)$',r'\1.\2',v.replace('‑','-').strip())   # "1,5" / "32,5" printed with a decimal comma
 def g(x): return f'{x:,.0f}' if float(x).is_integer() else f'{x:g}'
 def chart_for(name,model):
     n=name.lower()

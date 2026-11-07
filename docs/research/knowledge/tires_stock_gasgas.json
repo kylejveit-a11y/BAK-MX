@@ -1,0 +1,1428 @@
+{
+ "slice": "stock tires from GASGAS owner's manuals (gap fill)",
+ "platform": {
+  "make": "GasGas",
+  "models": [
+   "EC 250",
+   "EC 300",
+   "EX 250",
+   "EX 300",
+   "MC 250F",
+   "MC 350F",
+   "MC 450F",
+   "MC 50",
+   "MC 65",
+   "MC 85"
+  ],
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "researched": "2026-11-07",
+ "method": "Stock tires per roster bike-year where BAK had no stock tire size and model yet (checked against every docs/research/knowledge file on 2026-11-07). Read from the bike maker's owner's manual or spec page; printed values kept as printed, odd ones noted.",
+ "records": [
+  {
+   "id": "tire-stock-gasgas-ec-250-2025",
+   "domain": "chassis",
+   "topic": "2025 GasGas EC 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "EC 250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "GASGAS's 2025 owner's manual lists 80/100-21 M/C 51M M+S TT front and 110/100-18 M/C 64M M+S TT rear for the EC 250 (All US models row), fitted with Dunlop Geomax MX33F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar front and rear.",
+   "values": {
+    "front_size": "80/100-21 M/C 51M M+S TT",
+    "rear_size": "110/100-18 M/C 64M M+S TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "All US models",
+    "cold_pressure_front": "1.0 bar",
+    "cold_pressure_rear": "1.0 bar"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2025 (art. 3215225)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215225_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-ec-300-2021",
+   "domain": "chassis",
+   "topic": "2021 GasGas EC 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "EC 300"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "GASGAS's 2021 owner's manual lists 80/100-21 M/C 51M TT front and 110/100-18 M/C 64M TT rear for the EC 300 (EC 300 US row), fitted with Dunlop Geomax AT81F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 M/C 51M TT",
+    "rear_size": "110/100-18 M/C 64M TT",
+    "front_tire": "Dunlop Geomax AT81F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "EC 300 US",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "All EU models: 90/90-21 M/C 54R M+S TT / 140/80-18 M/C 70R M+S TT, Maxxis Maxx EnduPro / Maxxis Maxx EnduPro"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2021 (art. 3215011)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215011_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-ec-300-2025",
+   "domain": "chassis",
+   "topic": "2025 GasGas EC 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "EC 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "GASGAS's 2025 owner's manual lists 80/100-21 M/C 51M M+S TT front and 110/100-18 M/C 64M M+S TT rear for the EC 300 (All US models row), fitted with Dunlop Geomax MX33F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar front and rear.",
+   "values": {
+    "front_size": "80/100-21 M/C 51M M+S TT",
+    "rear_size": "110/100-18 M/C 64M M+S TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "All US models",
+    "cold_pressure_front": "1.0 bar",
+    "cold_pressure_rear": "1.0 bar",
+    "other_variants_in_manual": [
+     "EC 300 GP EU: 90/90-21 M/C 54M M+S TT / 140/80-18 M/C 70M M+S TT, Metzeler MCE 6 DAYS EXTREME / Metzeler MCE 6 DAYS EXTREME"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2025 (art. 3215225)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215225_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-ec-300-2026",
+   "domain": "chassis",
+   "topic": "2026 GasGas EC 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "EC 300"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "GASGAS's 2026 owner's manual lists 80/100-21 M/C 51M M+S TT front and 110/100-18 M/C 64M M+S TT rear for the EC 300 (EC 300 US row), fitted with Dunlop Geomax AT82F front and Dunlop Geomax AT82 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 M/C 51M M+S TT",
+    "rear_size": "110/100-18 M/C 64M M+S TT",
+    "front_tire": "Dunlop Geomax AT82F",
+    "rear_tire": "Dunlop Geomax AT82",
+    "manual_row": "EC 300 US",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "EC 300 EU: 90/90-21 M/C 54R M+S TT / 140/80-18 M/C 70R M+S TT, Maxxis Maxx Enduro / Maxxis Maxx Enduro"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2026 (art. 3215271)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3215271_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-ec-300-2027",
+   "domain": "chassis",
+   "topic": "2027 GasGas EC 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "EC 300"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "GASGAS's 2027 owner's manual lists 80/100-21 M/C 51M M+S TT front and 110/100-18 M/C 64M M+S TT rear for the EC 300 (US model row), fitted with Dunlop Geomax AT82F front and Dunlop Geomax AT82 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 M/C 51M M+S TT",
+    "rear_size": "110/100-18 M/C 64M M+S TT",
+    "front_tire": "Dunlop Geomax AT82F",
+    "rear_tire": "Dunlop Geomax AT82",
+    "manual_row": "US model",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "EU model: 90/90-21 M/C 54R M+S TT / 140/80-18 M/C 70R M+S TT, Maxxis Maxx Enduro / Maxxis Maxx Enduro"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2027 (art. 3215292)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3215292_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-ex-250-2022",
+   "domain": "chassis",
+   "topic": "2022 GasGas EX 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "EX 250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GASGAS's 2022 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the EX 250, fitted with Dunlop Geomax AT81F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax AT81F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2022 (art. 3215052)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215052_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-ex-250-2023",
+   "domain": "chassis",
+   "topic": "2023 GasGas EX 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "EX 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GASGAS's 2023 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the EX 250, fitted with Dunlop Geomax MX33F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2023 (art. 3215096)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215096_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-ex-250-2025",
+   "domain": "chassis",
+   "topic": "2025 GasGas EX 250: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "EX 250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "GASGAS's 2025 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the EX 250 (All EX models row), fitted with Dunlop Geomax MX33F front and Dunlop AT rear; cold off-road pressure 1.0 bar front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop AT",
+    "manual_row": "All EX models",
+    "cold_pressure_front": "1.0 bar",
+    "cold_pressure_rear": "1.0 bar"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2025 (art. 3215220)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215220_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-ex-300-2021",
+   "domain": "chassis",
+   "topic": "2021 GasGas EX 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "EX 300"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "GASGAS's 2021 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the EX 300, fitted with Dunlop Geomax AT81F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax AT81F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2021 (art. 3215018)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215018_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-ex-300-2022",
+   "domain": "chassis",
+   "topic": "2022 GasGas EX 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "EX 300"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GASGAS's 2022 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the EX 300, fitted with Dunlop Geomax AT81F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax AT81F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2022 (art. 3215052)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215052_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-ex-300-2023",
+   "domain": "chassis",
+   "topic": "2023 GasGas EX 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "EX 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GASGAS's 2023 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the EX 300, fitted with Dunlop Geomax MX33F front and Dunlop Geomax AT81 rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax AT81",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2023 (art. 3215096)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215096_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-ex-300-2025",
+   "domain": "chassis",
+   "topic": "2025 GasGas EX 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "EX 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "GASGAS's 2025 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the EX 300 (All EX models row), fitted with Dunlop Geomax MX33F front and Dunlop AT rear; cold off-road pressure 1.0 bar front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop AT",
+    "manual_row": "All EX models",
+    "cold_pressure_front": "1.0 bar",
+    "cold_pressure_rear": "1.0 bar"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2025 (art. 3215220)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215220_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-ex-300-2026",
+   "domain": "chassis",
+   "topic": "2026 GasGas EX 300: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "EX 300"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "GASGAS's 2026 owner's manual lists 80/100-21 51M TT front and 110/100-18 64M TT rear for the EX 300, fitted with Dunlop Geomax AT82F front and Dunlop AT82 rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/100-18 64M TT",
+    "front_tire": "Dunlop Geomax AT82F",
+    "rear_tire": "Dunlop AT82",
+    "manual_row": "EX 300",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2026 (art. 3215267)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3215267_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-250f-2021",
+   "domain": "chassis",
+   "topic": "2021 GasGas MC 250F: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 250F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "GASGAS's 2021 owner's manual lists 80/100-21 51M TT front and 100/90-19 57M TT rear for the MC 250F (MC row), fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "100/90-19 57M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "MC",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2021 (art. 3215009)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215009_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-250f-2025",
+   "domain": "chassis",
+   "topic": "2025 GasGas MC 250F: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "GASGAS's 2025 owner's manual lists 80/100-21 51M TT front and 110/90-19 62M TT rear for the MC 250F (All MC-F models row), fitted with Maxxis Maxxcross MX-ST front and rear; cold off-road pressure 1.0 bar front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/90-19 62M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST",
+    "rear_tire": "Maxxis Maxxcross MX-ST",
+    "manual_row": "All MC-F models",
+    "cold_pressure_front": "1.0 bar",
+    "cold_pressure_rear": "1.0 bar",
+    "other_variants_in_manual": [
+     "FACTORY EDITION: 80/100-21 51M TT / 110/90-19 62M TT, Dunlop MX34F / Dunlop MX34"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2025 (art. 3215221)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215221_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-250f-2026",
+   "domain": "chassis",
+   "topic": "2026 GasGas MC 250F: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 250F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "GASGAS's 2026 owner's manual lists 80/100-21 51M TT front and 110/90-19 57M TT rear for the MC 250F, fitted with Maxxis Maxxcross MX-ST front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/90-19 57M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST",
+    "rear_tire": "Maxxis Maxxcross MX-ST",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2026 (art. 3215268)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3215268_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "The manual prints the rear as 110/90 - 19 57M; 57M is the load index normally paired with 100/90-19. Recorded as printed."
+  },
+  {
+   "id": "tire-stock-gasgas-mc-350f-2025",
+   "domain": "chassis",
+   "topic": "2025 GasGas MC 350F: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 350F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "GASGAS's 2025 owner's manual lists 80/100-21 51M TT front and 110/90-19 62M TT rear for the MC 350F (MC row), fitted with Maxxis Maxxcross MX-ST front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "110/90-19 62M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST",
+    "rear_tire": "Maxxis Maxxcross MX-ST",
+    "manual_row": "MC",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2025 (art. 3215222)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215222_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-450f-2021",
+   "domain": "chassis",
+   "topic": "2021 GasGas MC 450F: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 450F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "GASGAS's 2021 owner's manual lists 80/100-21 51M TT front and 100/90-19 57M TT rear for the MC 450F (MC row), fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 51M TT",
+    "rear_size": "100/90-19 57M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "MC",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2021 (art. 3215010)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215010_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-450f-2025",
+   "domain": "chassis",
+   "topic": "2025 GasGas MC 450F: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "GASGAS's 2025 owner's manual lists 80/100-21 M/C 51M TT front and 100/90-19 M/C 57M TT rear for the MC 450F (MC-F standard model row), fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar front and rear.",
+   "values": {
+    "front_size": "80/100-21 M/C 51M TT",
+    "rear_size": "100/90-19 M/C 57M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "MC-F standard model",
+    "cold_pressure_front": "1.0 bar",
+    "cold_pressure_rear": "1.0 bar",
+    "other_variants_in_manual": [
+     "PRADO EDITION: 80/100-21 51M TT / 110/90-19 62M TT, Pirelli Scorpion MX32 Mid Soft / Pirelli Scorpion MX32 Mid Soft",
+     "FACTORY EDITION: 80/100-21 51M TT / 120/80-19 63M TT, Dunlop Geomax MX34 / Dunlop Geomax MX34"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2025 (art. 3215223)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215223_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "The standard MC 450F row prints a 100/90-19 rear; the Factory Edition row is 120/80-19 and the Prado Edition 110/90-19."
+  },
+  {
+   "id": "tire-stock-gasgas-mc-450f-2027",
+   "domain": "chassis",
+   "topic": "2027 GasGas MC 450F: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 450F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "GASGAS's 2027 owner's manual lists 80/100-21 M/C 51M TT front and 100/90-19 M/C 57M TT rear for the MC 450F, fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "80/100-21 M/C 51M TT",
+    "rear_size": "100/90-19 M/C 57M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2027 (art. 3215291)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3215291_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "medium",
+   "notes": "The manual prints a 100/90-19 rear for the MC 450F; recorded as printed."
+  },
+  {
+   "id": "tire-stock-gasgas-mc-50-2021",
+   "domain": "chassis",
+   "topic": "2021 GasGas MC 50: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 50"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "GASGAS's 2021 owner's manual lists 60/100-12 36M TT front and 2.75-10 38J TT rear for the MC 50, fitted with Maxxis Maxxcross SI front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-12 36M TT",
+    "rear_size": "2.75-10 38J TT",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2021 (art. 3215005)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215005_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-50-2022",
+   "domain": "chassis",
+   "topic": "2022 GasGas MC 50: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 50"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GASGAS's 2022 owner's manual lists 60/100-12 36M TT front and 2.75-10 38J TT rear for the MC 50, fitted with Maxxis Maxxcross SI front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-12 36M TT",
+    "rear_size": "2.75-10 38J TT",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2022 (art. 3215048)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215048_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-50-2023",
+   "domain": "chassis",
+   "topic": "2023 GasGas MC 50: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 50"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GASGAS's 2023 owner's manual lists 60/100-12 36J TT front and 2.75-10 38J TT rear for the MC 50, fitted with Maxxis Maxxcross MX-ST front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-12 36J TT",
+    "rear_size": "2.75-10 38J TT",
+    "front_tire": "Maxxis Maxxcross MX-ST",
+    "rear_tire": "Maxxis Maxxcross MX-ST",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2023 (art. 3215091)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215091_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-50-2024",
+   "domain": "chassis",
+   "topic": "2024 GasGas MC 50: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 50"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GASGAS's 2024 owner's manual lists 60/100-12 36J TT front and 2.75-10 38J TT rear for the MC 50, fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-12 36J TT",
+    "rear_size": "2.75-10 38J TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2024 (art. 3215154)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215154_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-50-2025",
+   "domain": "chassis",
+   "topic": "2025 GasGas MC 50: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 50"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "GASGAS's 2025 owner's manual lists 60/100-12 36J TT front and 2.75-10 38J TT rear for the MC 50, fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-12 36J TT",
+    "rear_size": "2.75-10 38J TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2025 (art. 3215214)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215214_en_OM.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-50-2026",
+   "domain": "chassis",
+   "topic": "2026 GasGas MC 50: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 50"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "GASGAS's 2026 owner's manual lists 60/100-12 36J TT front and 2.75-10 38J TT rear for the MC 50, fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-12 36J TT",
+    "rear_size": "2.75-10 38J TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2026 (art. 3215262)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3215262_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-50-2027",
+   "domain": "chassis",
+   "topic": "2027 GasGas MC 50: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 50"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "GASGAS's 2027 owner's manual lists 60/100-12 36J TT front and 2.75-10 38J TT rear for the MC 50, fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-12 36J TT",
+    "rear_size": "2.75-10 38J TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2027 (art. 3215282)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3215282_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-65-2021",
+   "domain": "chassis",
+   "topic": "2021 GasGas MC 65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 65"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "GASGAS's 2021 owner's manual lists 60/100-14 M/C 30M TT front and 80/100-12 41M TT rear for the MC 65, fitted with Maxxis Maxxcross SI front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-14 M/C 30M TT",
+    "rear_size": "80/100-12 41M TT",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2021 (art. 3215006)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215006_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-65-2022",
+   "domain": "chassis",
+   "topic": "2022 GasGas MC 65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 65"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GASGAS's 2022 owner's manual lists 60/100-14 M/C 30M TT front and 80/100-12 41M TT rear for the MC 65, fitted with Maxxis Maxxcross SI front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-14 M/C 30M TT",
+    "rear_size": "80/100-12 41M TT",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2022 (art. 3215049)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215049_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-65-2023",
+   "domain": "chassis",
+   "topic": "2023 GasGas MC 65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 65"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GASGAS's 2023 owner's manual lists 60/100-14 M/C 30M TT front and 80/100-12 41M TT rear for the MC 65, fitted with Maxxis Maxxcross MX-ST front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-14 M/C 30M TT",
+    "rear_size": "80/100-12 41M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST",
+    "rear_tire": "Maxxis Maxxcross MX-ST",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2023 (art. 3215092)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215092_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-65-2024",
+   "domain": "chassis",
+   "topic": "2024 GasGas MC 65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 65"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GASGAS's 2024 owner's manual lists 60/100-14 M/C 30M TT front and 80/100-12 41M TT rear for the MC 65, fitted with Maxxis Maxxcross MX-ST front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-14 M/C 30M TT",
+    "rear_size": "80/100-12 41M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST",
+    "rear_tire": "Maxxis Maxxcross MX-ST",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2024 (art. 3215155)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215155_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-65-2025",
+   "domain": "chassis",
+   "topic": "2025 GasGas MC 65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 65"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "GASGAS's 2025 owner's manual lists 60/100-14 M/C 30M TT front and 80/100-12 41M TT rear for the MC 65, fitted with Maxxis Maxxcross MX-ST front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-14 M/C 30M TT",
+    "rear_size": "80/100-12 41M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST",
+    "rear_tire": "Maxxis Maxxcross MX-ST",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "tire_age_rule": "change tires after 5 years at the latest, regardless of wear (manual)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2025 (art. 3215215)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215215_en_OM.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-65-2026",
+   "domain": "chassis",
+   "topic": "2026 GasGas MC 65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 65"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "GASGAS's 2026 owner's manual lists 60/100-14 M/C 30M TT front and 80/100-12 41M TT rear for the MC 65, fitted with Maxxis Maxxcross MX-ST front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-14 M/C 30M TT",
+    "rear_size": "80/100-12 41M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST",
+    "rear_tire": "Maxxis Maxxcross MX-ST",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2026 (art. 3215263)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3215263_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-65-2027",
+   "domain": "chassis",
+   "topic": "2027 GasGas MC 65: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 65"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "GASGAS's 2027 owner's manual lists 60/100-14 M/C 30M TT front and 80/100-12 41M TT rear for the MC 65, fitted with Maxxis Maxxcross MX-ST front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "60/100-14 M/C 30M TT",
+    "rear_size": "80/100-12 41M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST",
+    "rear_tire": "Maxxis Maxxcross MX-ST",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2027 (art. 3215283)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3215283_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-85-2021",
+   "domain": "chassis",
+   "topic": "2021 GasGas MC 85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 85"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "GASGAS's 2021 owner's manual lists 70/100-19 M/C 42M TT front and 90/100-16 M/C 52M TT rear for the MC 85, fitted with Maxxis Maxxcross SI front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-19 M/C 42M TT",
+    "rear_size": "90/100-16 M/C 52M TT",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "manual_row": "single row",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2021 (art. 3215007)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215007_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-85-2022",
+   "domain": "chassis",
+   "topic": "2022 GasGas MC 85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 85"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GASGAS's 2022 owner's manual lists 70/100-17 M/C 40M TT front and 90/100-14 M/C 49M TT rear for the MC 85 (MC 85 17/14 row), fitted with Maxxis Maxxcross SI front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 M/C 40M TT",
+    "rear_size": "90/100-14 M/C 49M TT",
+    "front_tire": "Maxxis Maxxcross SI",
+    "rear_tire": "Maxxis Maxxcross SI",
+    "manual_row": "MC 85 17/14",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "MC 85 19/16: 70/100-19 M/C 42M TT / 90/100-16 M/C 52M TT, Maxxis Maxxcross SI / Maxxis Maxxcross SI"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2022 (art. 3215050)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215050_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-85-2023",
+   "domain": "chassis",
+   "topic": "2023 GasGas MC 85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 85"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GASGAS's 2023 owner's manual lists 70/100-17 M/C 40M TT front and 90/100-14 M/C 49M TT rear for the MC 85 (MC 85 17/14 row), fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 M/C 40M TT",
+    "rear_size": "90/100-14 M/C 49M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "MC 85 17/14",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "MC 85 19/16: 70/100-19 M/C 42M TT / 90/100-16 M/C 52M TT, Maxxis Maxxcross MX-ST+ / Maxxis Maxxcross MX-ST+"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2023 (art. 3215093)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215093_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-85-2024",
+   "domain": "chassis",
+   "topic": "2024 GasGas MC 85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 85"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GASGAS's 2024 owner's manual lists 70/100-17 M/C 40M TT front and 90/100-14 M/C 49M TT rear for the MC 85 (MC 85 17/14 row), fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (15 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 M/C 40M TT",
+    "rear_size": "90/100-14 M/C 49M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "MC 85 17/14",
+    "cold_pressure_front": "1.0 bar (15 psi)",
+    "cold_pressure_rear": "1.0 bar (15 psi)",
+    "other_variants_in_manual": [
+     "MC 85 19/16: 70/100-19 M/C 42M TT / 90/100-16 M/C 52M TT, Maxxis Maxxcross MX-ST+ / Maxxis Maxxcross MX-ST+"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2024 (art. 3215156)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215156_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-85-2025",
+   "domain": "chassis",
+   "topic": "2025 GasGas MC 85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 85"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "GASGAS's 2025 owner's manual lists 70/100-17 M/C 40M TT front and 90/100-14 M/C 49M TT rear for the MC 85 (MC 85 17/14 row), fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 M/C 40M TT",
+    "rear_size": "90/100-14 M/C 49M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "MC 85 17/14",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "MC 85 19/16: 70/100-19 M/C 42M TT / 90/100-16 M/C 51M TT, Maxxis Maxxcross MX-ST+ / Maxxis Maxxcross MX-ST+"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2025 (art. 3215216)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215216_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-85-2026",
+   "domain": "chassis",
+   "topic": "2026 GasGas MC 85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 85"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "GASGAS's 2026 owner's manual lists 70/100-17 M/C 40M TT front and 90/100-14 M/C 49M TT rear for the MC 85 (MC 85 17/14 row), fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 M/C 40M TT",
+    "rear_size": "90/100-14 M/C 49M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "MC 85 17/14",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "MC 85 19/16: 70/100-19 M/C 42M TT / 90/100-16 M/C 51M TT, Maxxis Maxxcross MX-ST+ / Maxxis Maxxcross MX-ST+"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2026 (art. 3215264)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3215264_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-gasgas-mc-85-2027",
+   "domain": "chassis",
+   "topic": "2027 GasGas MC 85: stock tire sizes, models and cold pressure",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 85"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "GASGAS's 2027 owner's manual lists 70/100-17 M/C 40M TT front and 90/100-14 M/C 49M TT rear for the MC 85 (MC 85 17/14 row), fitted with Maxxis Maxxcross MX-ST+ front and rear; cold off-road pressure 1.0 bar (14.5 psi) front and rear.",
+   "values": {
+    "front_size": "70/100-17 M/C 40M TT",
+    "rear_size": "90/100-14 M/C 49M TT",
+    "front_tire": "Maxxis Maxxcross MX-ST+",
+    "rear_tire": "Maxxis Maxxcross MX-ST+",
+    "manual_row": "MC 85 17/14",
+    "cold_pressure_front": "1.0 bar (14.5 psi)",
+    "cold_pressure_rear": "1.0 bar (14.5 psi)",
+    "other_variants_in_manual": [
+     "MC 85 19/16: 70/100-19 M/C 42M TT / 90/100-16 M/C 51M TT, Maxxis Maxxcross MX-ST+ / Maxxis Maxxcross MX-ST+"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS owner's manual 2027 (art. 3215284)",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3215284_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  }
+ ]
+}

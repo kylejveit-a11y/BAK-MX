@@ -1,0 +1,255 @@
+{
+ "slice": "stock tires from Suzuki spec pages and owner's manuals (gap fill)",
+ "platform": {
+  "make": "Suzuki",
+  "models": [
+   "RM-Z250",
+   "RM-Z450"
+  ],
+  "years": [
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "researched": "2026-11-07",
+ "method": "Stock tires per roster bike-year where BAK had no stock tire size and model yet (checked against every docs/research/knowledge file on 2026-11-07). Read from the bike maker's owner's manual or spec page; printed values kept as printed, odd ones noted.",
+ "records": [
+  {
+   "id": "tire-stock-suzuki-rm-z250-2024",
+   "domain": "chassis",
+   "topic": "2024 Suzuki RM-Z250: stock tire sizes and models",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Suzuki lists the 2024 RM-Z250 with an 80/100-21 51M front and 100/90-19 57M rear (tube type) fitted with Dunlop Geomax MX33 tires; the 2024 owner's manual gives MX33F front and MX33 rear and a cold pressure range of 70–110 kPa (10–16 psi).",
+   "values": {
+    "front_size": "80/100-21 51M",
+    "rear_size": "100/90-19 57M",
+    "tire": "Dunlop Geomax MX33",
+    "front_tire": "Dunlop Geomax MX33F",
+    "rear_tire": "Dunlop Geomax MX33",
+    "cold_pressure_range": "70–110 kPa (10–16 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki Cycles US, 2024 RM-Z250 specifications",
+    "url": "https://suzukicycles.com/motocross/2024/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "2024 tire models and pressure also from Suzuki's 2024 RM-Z250 owner's manual 99011-46K55 (read from a copy in BAK's research store; no public URL recorded)."
+  },
+  {
+   "id": "tire-stock-suzuki-rm-z250-2025",
+   "domain": "chassis",
+   "topic": "2025 Suzuki RM-Z250: stock tire sizes and models",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Suzuki lists the 2025 RM-Z250 with an 80/100-21 51M front and 100/90-19 57M rear (tube type) fitted with Dunlop Geomax MX33 tires.",
+   "values": {
+    "front_size": "80/100-21 51M",
+    "rear_size": "100/90-19 57M",
+    "tire": "Dunlop Geomax MX33"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki Cycles US, 2025 RM-Z250 specifications",
+    "url": "https://suzukicycles.com/motocross/2025/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-suzuki-rm-z250-2026",
+   "domain": "chassis",
+   "topic": "2026 Suzuki RM-Z250: stock tire sizes and models",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Suzuki lists the 2026 RM-Z250 with an 80/100-21 51M front and 100/90-19 57M rear (tube type) fitted with Dunlop Geomax MX33 tires.",
+   "values": {
+    "front_size": "80/100-21 51M",
+    "rear_size": "100/90-19 57M",
+    "tire": "Dunlop Geomax MX33"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki Cycles US, 2026 RM-Z250 specifications",
+    "url": "https://suzukicycles.com/motocross/2026/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-suzuki-rm-z250-2027",
+   "domain": "chassis",
+   "topic": "2027 Suzuki RM-Z250: stock tire sizes and models",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Suzuki lists the 2027 RM-Z250 with an 80/100-21 51M front and 100/90-19 57M rear (tube type) fitted with Dunlop Geomax MX34 tires.",
+   "values": {
+    "front_size": "80/100-21 51M",
+    "rear_size": "100/90-19 57M",
+    "tire": "Dunlop Geomax MX34"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki Cycles US, 2027 RM-Z250 specifications",
+    "url": "https://suzukicycles.com/motocross/2027/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-suzuki-rm-z450-2024",
+   "domain": "chassis",
+   "topic": "2024 Suzuki RM-Z450: stock tire sizes and models",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Suzuki's 2024 RM-Z450 owner's manual lists an 80/100-21 51M front and 110/90-19 62M rear, Bridgestone Battlecross X30F front and X30R rear, at 70–110 kPa (10–16 psi) cold.",
+   "values": {
+    "front_size": "80/100-21 51M",
+    "rear_size": "110/90-19 62M",
+    "front_tire": "Bridgestone Battlecross X30F",
+    "rear_tire": "Bridgestone Battlecross X30R",
+    "cold_pressure_range": "70–110 kPa (10–16 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki RM-Z450 owner's manual 2024 (99011-37K56)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Read from a copy of the owner's manual in BAK's research store; Suzuki does not publish owner's manuals online (no public URL)."
+  },
+  {
+   "id": "tire-stock-suzuki-rm-z450-2025",
+   "domain": "chassis",
+   "topic": "2025 Suzuki RM-Z450: stock tire sizes",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Suzuki lists the 2025 RM-Z450 with an 80/100-21 51M front and 110/90-19 62M rear (tube type).",
+   "values": {
+    "front_size": "80/100-21 51M",
+    "rear_size": "110/90-19 62M"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki Cycles US, 2025 RM-Z450 specifications",
+    "url": "https://suzukicycles.com/motocross/2025/rm-z450",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-suzuki-rm-z450-2026",
+   "domain": "chassis",
+   "topic": "2026 Suzuki RM-Z450: stock tire sizes",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Suzuki lists the 2026 RM-Z450 with an 80/100-21 51M front and 110/90-19 62M rear (tube type).",
+   "values": {
+    "front_size": "80/100-21 51M",
+    "rear_size": "110/90-19 62M"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki Cycles US, 2026 RM-Z450 specifications",
+    "url": "https://suzukicycles.com/motocross/2026/rm-z450",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tire-stock-suzuki-rm-z450-2027",
+   "domain": "chassis",
+   "topic": "2027 Suzuki RM-Z450: stock tire sizes and models",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Suzuki lists the 2027 RM-Z450 with an 80/100-21 51M front and 110/90-19 62M rear (tube type), fitted with Bridgestone Battlecross X30 tires.",
+   "values": {
+    "front_size": "80/100-21 51M",
+    "rear_size": "110/90-19 62M",
+    "tire": "Bridgestone Battlecross X30"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki Cycles US, 2027 RM-Z450 specifications",
+    "url": "https://suzukicycles.com/motocross/2027/rm-z450",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "The 2027 RM-Z450 page also carries a paragraph about the RM-Z250's new Dunlop MX34 tires; the RM-Z450's own text names Bridgestone Battlecross X30."
+  }
+ ]
+}
