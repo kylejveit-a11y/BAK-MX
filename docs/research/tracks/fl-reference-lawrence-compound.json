@@ -1,0 +1,155 @@
+[
+ {
+  "id": "lawrence-compound-dade-city",
+  "name": "Lawrence compound (private training)",
+  "aliases": [
+   "Lawrence compound",
+   "the Lawrence compound",
+   "Lawrence's compound",
+   "Lawrence brothers compound",
+   "Lawrence facility",
+   "The Dog Pound",
+   "Dog Pound compound"
+  ],
+  "listed": false,
+  "state": "FL",
+  "city": "Dade City",
+  "county": "Pasco",
+  "address": null,
+  "lat": 28.3647,
+  "lng": -82.1959,
+  "elevation_ft": 118,
+  "types": [
+   "supercross",
+   "motocross",
+   "training"
+  ],
+  "access": "private",
+  "status": "open",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "private outdoor/motocross track (described in 2023 coverage with tabletops, braking bumps and ruts)",
+   "supercross-style practice track(s): the facility was built by Chad Reed, whose era coverage lists two replica supercross tracks; not confirmed how many the Lawrences run today",
+   "other on-site extras from the Reed era (paved/karting track, Daytona-style section) are not confirmed under the Lawrences"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Only one public source describes the dirt, and it is from the Chad Reed era (before the 2016 sale): it calls the outdoor track sandy and notes a well and water truck used to dial in traction. Nothing public describes the dirt since the Lawrences took over, whether any clay or imported dirt is used for the supercross track, or how it behaves wet versus dry. Treat 'sand' as a Reed-era, single-source indication, not a confirmed current fact.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [
+    "tabletops",
+    "braking bumps",
+    "ruts"
+   ],
+   "notes": "2023 coverage of a summer session describes the outdoor track as having tabletop jumps, braking bumps and ruts that break down as riders put laps in. Reed-era coverage describes a sandy outdoor loop of about a 2:30 lap time with a very large tabletop (around 125 ft), two supercross tracks built by former pro Mark Barnett, and a section modelled on the Daytona supercross. No public detail on the current SX track's whoops, rhythm lanes, starts or layout changes; 'jumps: big' rests on the Reed-era tabletop figure."
+  },
+  "conditions": {
+   "location_note": "Coordinates are the Dade City town centre, used only so the weather lookup works. They are NOT the property. The facility is private, tied to a family's home, and is not to be shown as a rideable track. Public coverage places it near Dade City in Pasco County, north of Tampa.",
+   "dry": "No public rider description. Given the sandy surface reported in the Reed era, expect sand-style behaviour (ruts that deepen and break down through a session), but this is not confirmed for the current tracks.",
+   "wet": "No public description of how it rides after rain.",
+   "late_day": "2023 coverage notes the ruts break down over a session, which riders have to plan lines around.",
+   "watering_prep": "Reed-era coverage: a well system and water truck were used to water for traction. Nothing public on current prep or how the SX track is built.",
+   "seasonal": "Dade City 1991-2020 normals: winter (Dec-Feb) highs about 72-75 F, lows about 49-52 F, roughly 2.8-3.3 in of rain a month; spring warms to about 84-90 F by Apr-May and is fairly dry (about 2.6-2.8 in). Summer (Jun-Sep) highs about 91-92 F, lows about 71-73 F, and it is the wet season at about 6.8-7.9 in a month (typical Florida afternoon thunderstorms); November is driest (2.2 in). Annual rain about 54 in. One 2023 report from a mid-August session had the temperature near 100 F with humidity around 80% before 10 a.m. Riders are on site through the supercross prep window: coverage shows it in use in December for SX prep. No public quotes compare winter versus summer riding there.",
+   "status_note": "Status 'open' means only that coverage shows it in use for private training (latest Dec 2025). Not open to the public."
+  },
+  "bike_setup": "Nothing public. The only related remark found: in early 2025 Darren Lawrence said that at their practice track the team found a setup they were happy with, with no details given.",
+  "rider_reports": [
+   {
+    "says": "ESPN visit on a mid-August morning: the brothers bought the facility, originally built by Chad Reed, in late 2022. The private MX track has tabletops, braking bumps and ruts that break down; temperature was near 100 F with about 80% humidity before 10 a.m. Riders call the facility 'The Dog Pound'.",
+    "source_url": "https://www.espn.com/auto/story/_/id/38440295",
+    "source_type": "article",
+    "date": "2023-09"
+   },
+   {
+    "says": "Local TV feature: the family moved its motocross operation from California to a compound in Pasco County; Hunter calls it relaxed and like home.",
+    "source_url": "https://fox13news.com/sports/lawrence-brothers-embrace-champa-bay-mentality-chasing-motocross-titles",
+    "source_type": "article",
+    "date": "2023-09"
+   },
+   {
+    "says": "Feature says the family bought Chad Reed's former multi-track facility just north of Tampa.",
+    "source_url": "https://www.motorsportmagazine.com/articles/motorcycles/the-most-dominant-rider-youve-never-heard-of-inside-the-genius-of-jett-lawrence/",
+    "source_type": "article",
+    "date": "2026-01"
+   },
+   {
+    "says": "Coverage from December 2025 shows the Dog Pound facility in Dade City in use for supercross-prep training. No track detail given.",
+    "source_url": "https://dirtsportsworld.com/2025/12/20/jett-lawrence-injured-in-training-crash/",
+    "source_type": "article",
+    "date": "2025-12"
+   },
+   {
+    "says": "Darren Lawrence says that at their practice track the team found a bike setup it was happy with before the 2025 SX season; no specifics.",
+    "source_url": "https://gatedrop.com/interview-darren-lawrence-talks-jett-hunter-the-start-of-the-sx-season-and-more/",
+    "source_type": "article",
+    "date": "2025-01"
+   },
+   {
+    "says": "Reed era: two supercross tracks built by Mark Barnett, a sandy outdoor track of about a 2:30 lap with a roughly 125 ft tabletop, a Daytona-style section, and a well plus water truck for traction.",
+    "source_url": "https://www.motoonline.com/au/the-matthes-report-13/",
+    "source_type": "article",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.espn.com/auto/story/_/id/38440295",
+    "title": "ESPN - Lawrence brothers feature (Sep 2023)",
+    "accessed": "2026-11-07"
+   },
+   {
+    "url": "https://fox13news.com/sports/lawrence-brothers-embrace-champa-bay-mentality-chasing-motocross-titles",
+    "title": "FOX 13 Tampa - Lawrence brothers embrace Champa Bay mentality (Sep 2023)",
+    "accessed": "2026-11-07"
+   },
+   {
+    "url": "https://www.motorsportmagazine.com/articles/motorcycles/the-most-dominant-rider-youve-never-heard-of-inside-the-genius-of-jett-lawrence/",
+    "title": "Motor Sport - Inside the genius of Jett Lawrence (Jan 2026)",
+    "accessed": "2026-11-07"
+   },
+   {
+    "url": "https://dirtsportsworld.com/2025/12/20/jett-lawrence-injured-in-training-crash/",
+    "title": "Dirt Sports World - Jett Lawrence injured in training crash (Dec 2025)",
+    "accessed": "2026-11-07"
+   },
+   {
+    "url": "https://gatedrop.com/interview-darren-lawrence-talks-jett-hunter-the-start-of-the-sx-season-and-more/",
+    "title": "GateDrop - Interview: Darren Lawrence (early 2025)",
+    "accessed": "2026-11-07"
+   },
+   {
+    "url": "https://www.motoonline.com/au/the-matthes-report-13/",
+    "title": "MotoOnline - The Matthes Report 13 (Reed compound, undated)",
+    "accessed": "2026-11-07"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Dade_City,_Florida",
+    "title": "Wikipedia - Dade City, Florida (elevation 118 ft)",
+    "accessed": "2026-11-07"
+   },
+   {
+    "url": "https://usclimatedata.com/climate/dade-city/florida/united-states/usfl0874",
+    "title": "US Climate Data - Dade City 1991-2020 normals",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil: only one undated Reed-era source calls the outdoor track sandy; nothing public on the current dirt, any clay or imported SX dirt, or how it rides wet, dry, hot or after rain.",
+   "SX track: no public detail on how many SX tracks are in use now, how they are built or prepped, or their whoops, rhythm, starts or surface.",
+   "Layout: speed and elevation change unknown; the 2:30 lap and 125 ft tabletop are Reed-era figures and may have changed.",
+   "Bike setup: nothing specific published (no stiffer-for-SX or sand-setup details).",
+   "No rider quotes comparing Florida winter (SX prep) with summer riding there; seasonal picture is climate normals plus one hot August report.",
+   "Status 'open' is based on coverage of training there (latest Dec 2025); current use not otherwise confirmed."
+  ]
+ }
+]
