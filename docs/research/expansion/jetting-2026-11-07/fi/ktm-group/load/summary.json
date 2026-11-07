@@ -1569,13 +1569,17 @@
  },
  {
   "i": 59,
-  "doc": "20_3214001_en_OM",
+  "doc": "23_3214639_en_OM",
   "make": "KTM",
-  "model": "250 XC",
-  "yr": 2020,
-  "carb": true,
-  "n": 3,
+  "model": "250 SX",
+  "yr": 2023,
+  "carb": false,
+  "n": 7,
   "paths": [
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
+   "Engine management / Mapping / exhaust control",
    "Fuel / Ethanol",
    "Fuel / Fuel standard",
    "Fuel / Fuels not to use"
@@ -1583,13 +1587,17 @@
  },
  {
   "i": 60,
-  "doc": "20_3214001_en_OM",
+  "doc": "23_3214639_en_OM",
   "make": "KTM",
-  "model": "300 XC",
-  "yr": 2020,
-  "carb": true,
-  "n": 3,
+  "model": "300 SX",
+  "yr": 2023,
+  "carb": false,
+  "n": 7,
   "paths": [
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
+   "Engine management / Mapping / exhaust control",
    "Fuel / Ethanol",
    "Fuel / Fuel standard",
    "Fuel / Fuels not to use"
@@ -1599,7 +1607,7 @@
   "i": 61,
   "doc": "23_3214639_en_OM",
   "make": "KTM",
-  "model": "250 SX",
+  "model": "250 XC",
   "yr": 2023,
   "carb": false,
   "n": 7,
@@ -1617,7 +1625,7 @@
   "i": 62,
   "doc": "23_3214639_en_OM",
   "make": "KTM",
-  "model": "300 SX",
+  "model": "300 XC",
   "yr": 2023,
   "carb": false,
   "n": 7,
@@ -1633,10 +1641,10 @@
  },
  {
   "i": 63,
-  "doc": "23_3214639_en_OM",
+  "doc": "24_3214833_en_OM",
   "make": "KTM",
-  "model": "250 XC",
-  "yr": 2023,
+  "model": "250 SX",
+  "yr": 2024,
   "carb": false,
   "n": 7,
   "paths": [
@@ -1651,10 +1659,10 @@
  },
  {
   "i": 64,
-  "doc": "23_3214639_en_OM",
+  "doc": "24_3214833_en_OM",
   "make": "KTM",
-  "model": "300 XC",
-  "yr": 2023,
+  "model": "300 SX",
+  "yr": 2024,
   "carb": false,
   "n": 7,
   "paths": [
@@ -1671,7 +1679,7 @@
   "i": 65,
   "doc": "24_3214833_en_OM",
   "make": "KTM",
-  "model": "250 SX",
+  "model": "250 XC",
   "yr": 2024,
   "carb": false,
   "n": 7,
@@ -1689,7 +1697,7 @@
   "i": 66,
   "doc": "24_3214833_en_OM",
   "make": "KTM",
-  "model": "300 SX",
+  "model": "300 XC",
   "yr": 2024,
   "carb": false,
   "n": 7,
@@ -1705,10 +1713,10 @@
  },
  {
   "i": 67,
-  "doc": "24_3214833_en_OM",
+  "doc": "25_3240042_en_OM",
   "make": "KTM",
-  "model": "250 XC",
-  "yr": 2024,
+  "model": "250 SX",
+  "yr": 2025,
   "carb": false,
   "n": 7,
   "paths": [
@@ -1723,10 +1731,10 @@
  },
  {
   "i": 68,
-  "doc": "24_3214833_en_OM",
+  "doc": "25_3240042_en_OM",
   "make": "KTM",
-  "model": "300 XC",
-  "yr": 2024,
+  "model": "300 SX",
+  "yr": 2025,
   "carb": false,
   "n": 7,
   "paths": [
@@ -1743,7 +1751,7 @@
   "i": 69,
   "doc": "25_3240042_en_OM",
   "make": "KTM",
-  "model": "250 SX",
+  "model": "250 XC",
   "yr": 2025,
   "carb": false,
   "n": 7,
@@ -1761,7 +1769,7 @@
   "i": 70,
   "doc": "25_3240042_en_OM",
   "make": "KTM",
-  "model": "300 SX",
+  "model": "300 XC",
   "yr": 2025,
   "carb": false,
   "n": 7,
@@ -1777,42 +1785,6 @@
  },
  {
   "i": 71,
-  "doc": "25_3240042_en_OM",
-  "make": "KTM",
-  "model": "250 XC",
-  "yr": 2025,
-  "carb": false,
-  "n": 7,
-  "paths": [
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
-   "Engine management / Mapping / exhaust control",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 72,
-  "doc": "25_3240042_en_OM",
-  "make": "KTM",
-  "model": "300 XC",
-  "yr": 2025,
-  "carb": false,
-  "n": 7,
-  "paths": [
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
-   "Engine management / Mapping / exhaust control",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 73,
   "doc": "26_3240233_en_BA",
   "make": "KTM",
   "model": "250 SX",
@@ -1827,7 +1799,7 @@
   ]
  },
  {
-  "i": 74,
+  "i": 72,
   "doc": "26_3240233_en_BA",
   "make": "KTM",
   "model": "300 SX",
@@ -1842,11 +1814,41 @@
   ]
  },
  {
-  "i": 75,
+  "i": 73,
   "doc": "26_3240233_en_BA",
   "make": "KTM",
   "model": "250 XC",
   "yr": 2026,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
+   "Engine management / Mapping / exhaust control"
+  ]
+ },
+ {
+  "i": 74,
+  "doc": "26_3240233_en_BA",
+  "make": "KTM",
+  "model": "300 XC",
+  "yr": 2026,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
+   "Engine management / Mapping / exhaust control"
+  ]
+ },
+ {
+  "i": 75,
+  "doc": "27_3240380_en_BA",
+  "make": "KTM",
+  "model": "250 XC",
+  "yr": 2027,
   "carb": false,
   "n": 4,
   "paths": [
@@ -1858,10 +1860,10 @@
  },
  {
   "i": 76,
-  "doc": "26_3240233_en_BA",
+  "doc": "27_3240380_en_BA",
   "make": "KTM",
   "model": "300 XC",
-  "yr": 2026,
+  "yr": 2027,
   "carb": false,
   "n": 4,
   "paths": [
@@ -1873,36 +1875,6 @@
  },
  {
   "i": 77,
-  "doc": "27_3240380_en_BA",
-  "make": "KTM",
-  "model": "250 XC",
-  "yr": 2027,
-  "carb": false,
-  "n": 4,
-  "paths": [
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
-   "Engine management / Mapping / exhaust control"
-  ]
- },
- {
-  "i": 78,
-  "doc": "27_3240380_en_BA",
-  "make": "KTM",
-  "model": "300 XC",
-  "yr": 2027,
-  "carb": false,
-  "n": 4,
-  "paths": [
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
-   "Engine management / Mapping / exhaust control"
-  ]
- },
- {
-  "i": 79,
   "doc": "23_3402631_en_OM",
   "make": "Husqvarna",
   "model": "FC 250",
@@ -1932,7 +1904,7 @@
   ]
  },
  {
-  "i": 80,
+  "i": 78,
   "doc": "24_3402713_en_OM",
   "make": "Husqvarna",
   "model": "FC 250",
@@ -1962,7 +1934,7 @@
   ]
  },
  {
-  "i": 81,
+  "i": 79,
   "doc": "25_3402803_en_BA",
   "make": "Husqvarna",
   "model": "FC 250",
@@ -1989,7 +1961,7 @@
   ]
  },
  {
-  "i": 82,
+  "i": 80,
   "doc": "26_3402884_en_BA",
   "make": "Husqvarna",
   "model": "FC 250",
@@ -2016,7 +1988,7 @@
   ]
  },
  {
-  "i": 83,
+  "i": 81,
   "doc": "27_3402945_en_BA",
   "make": "Husqvarna",
   "model": "FC 250",
@@ -2044,7 +2016,7 @@
   ]
  },
  {
-  "i": 84,
+  "i": 82,
   "doc": "23_3402632_en_OM",
   "make": "Husqvarna",
   "model": "FC 350",
@@ -2073,7 +2045,7 @@
   ]
  },
  {
-  "i": 85,
+  "i": 83,
   "doc": "24_3402714_en_OM",
   "make": "Husqvarna",
   "model": "FC 350",
@@ -2100,19 +2072,75 @@
    "Fuel / Ethanol",
    "Fuel / Fuel standard",
    "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 84,
+  "doc": "24_3402714_en_OM",
+  "make": "Husqvarna",
+  "model": "FX 350",
+  "yr": 2024,
+  "carb": false,
+  "n": 19,
+  "paths": [
+   "Engine management / Launch control / activation",
+   "Engine management / Launch control / activation conditions",
+   "Engine management / Launch control / after the start",
+   "Engine management / Launch control / cancels after",
+   "Engine management / Launch control / cancels when",
+   "Engine management / Launch control / re-arming",
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
+   "Engine management / Quickshifter / switch",
+   "Engine management / Throttle grip guide plate",
+   "Engine management / Traction control / at restart",
+   "Engine management / Traction control / function",
+   "Engine management / Traction control / switch",
+   "Engine management / Traction control / switching speed",
+   "Engine management / Traction control / while riding",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 85,
+  "doc": "25_3402804_en_BA",
+  "make": "Husqvarna",
+  "model": "FC 350",
+  "yr": 2025,
+  "carb": false,
+  "n": 16,
+  "paths": [
+   "Engine management / Launch control / activation",
+   "Engine management / Launch control / after the start",
+   "Engine management / Launch control / cancels after",
+   "Engine management / Launch control / cancels when",
+   "Engine management / Launch control / re-arming",
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
+   "Engine management / Quickshifter / switch",
+   "Engine management / Throttle grip guide plate",
+   "Engine management / Traction control / at restart",
+   "Engine management / Traction control / function",
+   "Engine management / Traction control / switch",
+   "Engine management / Traction control / switching speed",
+   "Engine management / Traction control / while riding",
+   "Fuel / Fuel standard"
   ]
  },
  {
   "i": 86,
-  "doc": "24_3402714_en_OM",
+  "doc": "25_3402804_en_BA",
   "make": "Husqvarna",
   "model": "FX 350",
-  "yr": 2024,
+  "yr": 2025,
   "carb": false,
-  "n": 19,
+  "n": 16,
   "paths": [
    "Engine management / Launch control / activation",
-   "Engine management / Launch control / activation conditions",
    "Engine management / Launch control / after the start",
    "Engine management / Launch control / cancels after",
    "Engine management / Launch control / cancels when",
@@ -2127,67 +2155,11 @@
    "Engine management / Traction control / switch",
    "Engine management / Traction control / switching speed",
    "Engine management / Traction control / while riding",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
+   "Fuel / Fuel standard"
   ]
  },
  {
   "i": 87,
-  "doc": "25_3402804_en_BA",
-  "make": "Husqvarna",
-  "model": "FC 350",
-  "yr": 2025,
-  "carb": false,
-  "n": 16,
-  "paths": [
-   "Engine management / Launch control / activation",
-   "Engine management / Launch control / after the start",
-   "Engine management / Launch control / cancels after",
-   "Engine management / Launch control / cancels when",
-   "Engine management / Launch control / re-arming",
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
-   "Engine management / Quickshifter / switch",
-   "Engine management / Throttle grip guide plate",
-   "Engine management / Traction control / at restart",
-   "Engine management / Traction control / function",
-   "Engine management / Traction control / switch",
-   "Engine management / Traction control / switching speed",
-   "Engine management / Traction control / while riding",
-   "Fuel / Fuel standard"
-  ]
- },
- {
-  "i": 88,
-  "doc": "25_3402804_en_BA",
-  "make": "Husqvarna",
-  "model": "FX 350",
-  "yr": 2025,
-  "carb": false,
-  "n": 16,
-  "paths": [
-   "Engine management / Launch control / activation",
-   "Engine management / Launch control / after the start",
-   "Engine management / Launch control / cancels after",
-   "Engine management / Launch control / cancels when",
-   "Engine management / Launch control / re-arming",
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
-   "Engine management / Quickshifter / switch",
-   "Engine management / Throttle grip guide plate",
-   "Engine management / Traction control / at restart",
-   "Engine management / Traction control / function",
-   "Engine management / Traction control / switch",
-   "Engine management / Traction control / switching speed",
-   "Engine management / Traction control / while riding",
-   "Fuel / Fuel standard"
-  ]
- },
- {
-  "i": 89,
   "doc": "26_3402885_en_BA",
   "make": "Husqvarna",
   "model": "FX 350",
@@ -2214,7 +2186,7 @@
   ]
  },
  {
-  "i": 90,
+  "i": 88,
   "doc": "27_3402947_en_BA",
   "make": "Husqvarna",
   "model": "FC 350",
@@ -2242,7 +2214,7 @@
   ]
  },
  {
-  "i": 91,
+  "i": 89,
   "doc": "27_3402947_en_BA",
   "make": "Husqvarna",
   "model": "FX 350",
@@ -2270,11 +2242,71 @@
   ]
  },
  {
-  "i": 92,
+  "i": 90,
   "doc": "23_3402633_en_OM",
   "make": "Husqvarna",
   "model": "FC 450",
   "yr": 2023,
+  "carb": false,
+  "n": 19,
+  "paths": [
+   "Engine management / Launch control / activation",
+   "Engine management / Launch control / activation conditions",
+   "Engine management / Launch control / after the start",
+   "Engine management / Launch control / cancels after",
+   "Engine management / Launch control / cancels when",
+   "Engine management / Launch control / re-arming",
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
+   "Engine management / Quickshifter / switch",
+   "Engine management / Throttle grip guide plate",
+   "Engine management / Traction control / at restart",
+   "Engine management / Traction control / function",
+   "Engine management / Traction control / switch",
+   "Engine management / Traction control / switching speed",
+   "Engine management / Traction control / while riding",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 91,
+  "doc": "23_3402633_en_OM",
+  "make": "Husqvarna",
+  "model": "FX 450",
+  "yr": 2023,
+  "carb": false,
+  "n": 19,
+  "paths": [
+   "Engine management / Launch control / activation",
+   "Engine management / Launch control / activation conditions",
+   "Engine management / Launch control / after the start",
+   "Engine management / Launch control / cancels after",
+   "Engine management / Launch control / cancels when",
+   "Engine management / Launch control / re-arming",
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
+   "Engine management / Quickshifter / switch",
+   "Engine management / Throttle grip guide plate",
+   "Engine management / Traction control / at restart",
+   "Engine management / Traction control / function",
+   "Engine management / Traction control / switch",
+   "Engine management / Traction control / switching speed",
+   "Engine management / Traction control / while riding",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 92,
+  "doc": "24_3402715_en_OM",
+  "make": "Husqvarna",
+  "model": "FC 450",
+  "yr": 2024,
   "carb": false,
   "n": 19,
   "paths": [
@@ -2301,10 +2333,10 @@
  },
  {
   "i": 93,
-  "doc": "23_3402633_en_OM",
+  "doc": "24_3402715_en_OM",
   "make": "Husqvarna",
   "model": "FX 450",
-  "yr": 2023,
+  "yr": 2024,
   "carb": false,
   "n": 19,
   "paths": [
@@ -2331,15 +2363,14 @@
  },
  {
   "i": 94,
-  "doc": "24_3402715_en_OM",
+  "doc": "25_3402805_en_BA",
   "make": "Husqvarna",
   "model": "FC 450",
-  "yr": 2024,
+  "yr": 2025,
   "carb": false,
-  "n": 19,
+  "n": 16,
   "paths": [
    "Engine management / Launch control / activation",
-   "Engine management / Launch control / activation conditions",
    "Engine management / Launch control / after the start",
    "Engine management / Launch control / cancels after",
    "Engine management / Launch control / cancels when",
@@ -2354,22 +2385,19 @@
    "Engine management / Traction control / switch",
    "Engine management / Traction control / switching speed",
    "Engine management / Traction control / while riding",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
+   "Fuel / Fuel standard"
   ]
  },
  {
   "i": 95,
-  "doc": "24_3402715_en_OM",
+  "doc": "25_3402805_en_BA",
   "make": "Husqvarna",
   "model": "FX 450",
-  "yr": 2024,
+  "yr": 2025,
   "carb": false,
-  "n": 19,
+  "n": 16,
   "paths": [
    "Engine management / Launch control / activation",
-   "Engine management / Launch control / activation conditions",
    "Engine management / Launch control / after the start",
    "Engine management / Launch control / cancels after",
    "Engine management / Launch control / cancels when",
@@ -2384,67 +2412,11 @@
    "Engine management / Traction control / switch",
    "Engine management / Traction control / switching speed",
    "Engine management / Traction control / while riding",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
+   "Fuel / Fuel standard"
   ]
  },
  {
   "i": 96,
-  "doc": "25_3402805_en_BA",
-  "make": "Husqvarna",
-  "model": "FC 450",
-  "yr": 2025,
-  "carb": false,
-  "n": 16,
-  "paths": [
-   "Engine management / Launch control / activation",
-   "Engine management / Launch control / after the start",
-   "Engine management / Launch control / cancels after",
-   "Engine management / Launch control / cancels when",
-   "Engine management / Launch control / re-arming",
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
-   "Engine management / Quickshifter / switch",
-   "Engine management / Throttle grip guide plate",
-   "Engine management / Traction control / at restart",
-   "Engine management / Traction control / function",
-   "Engine management / Traction control / switch",
-   "Engine management / Traction control / switching speed",
-   "Engine management / Traction control / while riding",
-   "Fuel / Fuel standard"
-  ]
- },
- {
-  "i": 97,
-  "doc": "25_3402805_en_BA",
-  "make": "Husqvarna",
-  "model": "FX 450",
-  "yr": 2025,
-  "carb": false,
-  "n": 16,
-  "paths": [
-   "Engine management / Launch control / activation",
-   "Engine management / Launch control / after the start",
-   "Engine management / Launch control / cancels after",
-   "Engine management / Launch control / cancels when",
-   "Engine management / Launch control / re-arming",
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
-   "Engine management / Quickshifter / switch",
-   "Engine management / Throttle grip guide plate",
-   "Engine management / Traction control / at restart",
-   "Engine management / Traction control / function",
-   "Engine management / Traction control / switch",
-   "Engine management / Traction control / switching speed",
-   "Engine management / Traction control / while riding",
-   "Fuel / Fuel standard"
-  ]
- },
- {
-  "i": 98,
   "doc": "26_3402886_en_BA",
   "make": "Husqvarna",
   "model": "FC 450",
@@ -2471,7 +2443,7 @@
   ]
  },
  {
-  "i": 99,
+  "i": 97,
   "doc": "27_3402948_en_BA",
   "make": "Husqvarna",
   "model": "FC 450",
@@ -2499,7 +2471,7 @@
   ]
  },
  {
-  "i": 100,
+  "i": 98,
   "doc": "27_3402948_en_BA",
   "make": "Husqvarna",
   "model": "FX 450",
@@ -2527,7 +2499,7 @@
   ]
  },
  {
-  "i": 101,
+  "i": 99,
   "doc": "23_3402629_en_OM",
   "make": "Husqvarna",
   "model": "TC 125",
@@ -2540,7 +2512,7 @@
   ]
  },
  {
-  "i": 102,
+  "i": 100,
   "doc": "24_3402711_en_OM",
   "make": "Husqvarna",
   "model": "TC 125",
@@ -2553,7 +2525,7 @@
   ]
  },
  {
-  "i": 103,
+  "i": 101,
   "doc": "25_3402801_en_BA",
   "make": "Husqvarna",
   "model": "TC 125",
@@ -2566,7 +2538,7 @@
   ]
  },
  {
-  "i": 104,
+  "i": 102,
   "doc": "26_3402882_en_BA",
   "make": "Husqvarna",
   "model": "TC 125",
@@ -2579,11 +2551,47 @@
   ]
  },
  {
-  "i": 105,
+  "i": 103,
   "doc": "23_3402630_en_OM",
   "make": "Husqvarna",
   "model": "TC 250",
   "yr": 2023,
+  "carb": false,
+  "n": 7,
+  "paths": [
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
+   "Engine management / Mapping / exhaust control",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 104,
+  "doc": "23_3402630_en_OM",
+  "make": "Husqvarna",
+  "model": "TX 300",
+  "yr": 2023,
+  "carb": false,
+  "n": 7,
+  "paths": [
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
+   "Engine management / Mapping / exhaust control",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 105,
+  "doc": "24_3402712_en_OM",
+  "make": "Husqvarna",
+  "model": "TC 250",
+  "yr": 2024,
   "carb": false,
   "n": 7,
   "paths": [
@@ -2598,10 +2606,10 @@
  },
  {
   "i": 106,
-  "doc": "23_3402630_en_OM",
+  "doc": "24_3402712_en_OM",
   "make": "Husqvarna",
   "model": "TX 300",
-  "yr": 2023,
+  "yr": 2024,
   "carb": false,
   "n": 7,
   "paths": [
@@ -2616,42 +2624,6 @@
  },
  {
   "i": 107,
-  "doc": "24_3402712_en_OM",
-  "make": "Husqvarna",
-  "model": "TC 250",
-  "yr": 2024,
-  "carb": false,
-  "n": 7,
-  "paths": [
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
-   "Engine management / Mapping / exhaust control",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 108,
-  "doc": "24_3402712_en_OM",
-  "make": "Husqvarna",
-  "model": "TX 300",
-  "yr": 2024,
-  "carb": false,
-  "n": 7,
-  "paths": [
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
-   "Engine management / Mapping / exhaust control",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 109,
   "doc": "25_3402802_en_BA",
   "make": "Husqvarna",
   "model": "TC 250",
@@ -2666,7 +2638,7 @@
   ]
  },
  {
-  "i": 110,
+  "i": 108,
   "doc": "25_3402802_en_BA",
   "make": "Husqvarna",
   "model": "TC 300",
@@ -2681,7 +2653,7 @@
   ]
  },
  {
-  "i": 111,
+  "i": 109,
   "doc": "25_3402802_en_BA",
   "make": "Husqvarna",
   "model": "TX 300",
@@ -2696,7 +2668,7 @@
   ]
  },
  {
-  "i": 112,
+  "i": 110,
   "doc": "26_3402883_en_BA",
   "make": "Husqvarna",
   "model": "TC 250",
@@ -2711,7 +2683,7 @@
   ]
  },
  {
-  "i": 113,
+  "i": 111,
   "doc": "26_3402883_en_BA",
   "make": "Husqvarna",
   "model": "TX 300",
@@ -2726,7 +2698,7 @@
   ]
  },
  {
-  "i": 114,
+  "i": 112,
   "doc": "27_3402944_en_BA",
   "make": "Husqvarna",
   "model": "TX 300",
@@ -2742,11 +2714,41 @@
   ]
  },
  {
-  "i": 115,
+  "i": 113,
   "doc": "23_3215097_en_OM",
   "make": "GasGas",
   "model": "MC 250F",
   "yr": 2023,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 114,
+  "doc": "23_3215097_en_OM",
+  "make": "GasGas",
+  "model": "EX 250F",
+  "yr": 2023,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 115,
+  "doc": "24_3215160_en_OM",
+  "make": "GasGas",
+  "model": "MC 250F",
+  "yr": 2024,
   "carb": false,
   "n": 4,
   "paths": [
@@ -2758,10 +2760,10 @@
  },
  {
   "i": 116,
-  "doc": "23_3215097_en_OM",
+  "doc": "24_3215160_en_OM",
   "make": "GasGas",
   "model": "EX 250F",
-  "yr": 2023,
+  "yr": 2024,
   "carb": false,
   "n": 4,
   "paths": [
@@ -2773,62 +2775,32 @@
  },
  {
   "i": 117,
-  "doc": "24_3215160_en_OM",
+  "doc": "25_3215221_en_BA",
   "make": "GasGas",
   "model": "MC 250F",
-  "yr": 2024,
+  "yr": 2025,
   "carb": false,
-  "n": 4,
+  "n": 2,
   "paths": [
    "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
+   "Fuel / Fuel standard"
   ]
  },
  {
   "i": 118,
-  "doc": "24_3215160_en_OM",
+  "doc": "25_3215221_en_BA",
   "make": "GasGas",
   "model": "EX 250F",
-  "yr": 2024,
+  "yr": 2025,
   "carb": false,
-  "n": 4,
+  "n": 2,
   "paths": [
    "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
+   "Fuel / Fuel standard"
   ]
  },
  {
   "i": 119,
-  "doc": "25_3215221_en_BA",
-  "make": "GasGas",
-  "model": "MC 250F",
-  "yr": 2025,
-  "carb": false,
-  "n": 2,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Fuel standard"
-  ]
- },
- {
-  "i": 120,
-  "doc": "25_3215221_en_BA",
-  "make": "GasGas",
-  "model": "EX 250F",
-  "yr": 2025,
-  "carb": false,
-  "n": 2,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Fuel standard"
-  ]
- },
- {
-  "i": 121,
   "doc": "26_3215268_en_BA",
   "make": "GasGas",
   "model": "MC 250F",
@@ -2841,7 +2813,7 @@
   ]
  },
  {
-  "i": 122,
+  "i": 120,
   "doc": "27_3215290_en_BA",
   "make": "GasGas",
   "model": "MC 250F",
@@ -2854,11 +2826,41 @@
   ]
  },
  {
-  "i": 123,
+  "i": 121,
   "doc": "23_3215099_en_OM",
   "make": "GasGas",
   "model": "MC 350F",
   "yr": 2023,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 122,
+  "doc": "23_3215099_en_OM",
+  "make": "GasGas",
+  "model": "EX 350F",
+  "yr": 2023,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 123,
+  "doc": "24_3215161_en_OM",
+  "make": "GasGas",
+  "model": "MC 350F",
+  "yr": 2024,
   "carb": false,
   "n": 4,
   "paths": [
@@ -2870,10 +2872,10 @@
  },
  {
   "i": 124,
-  "doc": "23_3215099_en_OM",
+  "doc": "24_3215161_en_OM",
   "make": "GasGas",
   "model": "EX 350F",
-  "yr": 2023,
+  "yr": 2024,
   "carb": false,
   "n": 4,
   "paths": [
@@ -2885,62 +2887,32 @@
  },
  {
   "i": 125,
-  "doc": "24_3215161_en_OM",
+  "doc": "25_3215222_en_BA",
   "make": "GasGas",
   "model": "MC 350F",
-  "yr": 2024,
+  "yr": 2025,
   "carb": false,
-  "n": 4,
+  "n": 2,
   "paths": [
    "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
+   "Fuel / Fuel standard"
   ]
  },
  {
   "i": 126,
-  "doc": "24_3215161_en_OM",
+  "doc": "25_3215222_en_BA",
   "make": "GasGas",
   "model": "EX 350F",
-  "yr": 2024,
+  "yr": 2025,
   "carb": false,
-  "n": 4,
+  "n": 2,
   "paths": [
    "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
+   "Fuel / Fuel standard"
   ]
  },
  {
   "i": 127,
-  "doc": "25_3215222_en_BA",
-  "make": "GasGas",
-  "model": "MC 350F",
-  "yr": 2025,
-  "carb": false,
-  "n": 2,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Fuel standard"
-  ]
- },
- {
-  "i": 128,
-  "doc": "25_3215222_en_BA",
-  "make": "GasGas",
-  "model": "EX 350F",
-  "yr": 2025,
-  "carb": false,
-  "n": 2,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Fuel standard"
-  ]
- },
- {
-  "i": 129,
   "doc": "23_3215100_en_OM",
   "make": "GasGas",
   "model": "MC 450F",
@@ -2951,6 +2923,39 @@
    "Engine management / Mapping / ADVANCED",
    "Engine management / Mapping / STANDARD",
    "Engine management / Mapping / change while riding",
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 128,
+  "doc": "23_3215100_en_OM",
+  "make": "GasGas",
+  "model": "EX 450F",
+  "yr": 2023,
+  "carb": false,
+  "n": 7,
+  "paths": [
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 129,
+  "doc": "24_3215162_en_OM",
+  "make": "GasGas",
+  "model": "MC 450F",
+  "yr": 2024,
+  "carb": false,
+  "n": 4,
+  "paths": [
    "Engine management / Throttle grip guide plate",
    "Fuel / Ethanol",
    "Fuel / Fuel standard",
@@ -2959,16 +2964,13 @@
  },
  {
   "i": 130,
-  "doc": "23_3215100_en_OM",
+  "doc": "24_3215162_en_OM",
   "make": "GasGas",
   "model": "EX 450F",
-  "yr": 2023,
+  "yr": 2024,
   "carb": false,
-  "n": 7,
+  "n": 4,
   "paths": [
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
    "Engine management / Throttle grip guide plate",
    "Fuel / Ethanol",
    "Fuel / Fuel standard",
@@ -2977,62 +2979,32 @@
  },
  {
   "i": 131,
-  "doc": "24_3215162_en_OM",
+  "doc": "25_3215223_en_BA",
   "make": "GasGas",
   "model": "MC 450F",
-  "yr": 2024,
+  "yr": 2025,
   "carb": false,
-  "n": 4,
+  "n": 2,
   "paths": [
    "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
+   "Fuel / Fuel standard"
   ]
  },
  {
   "i": 132,
-  "doc": "24_3215162_en_OM",
+  "doc": "25_3215223_en_BA",
   "make": "GasGas",
   "model": "EX 450F",
-  "yr": 2024,
+  "yr": 2025,
   "carb": false,
-  "n": 4,
+  "n": 2,
   "paths": [
    "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
+   "Fuel / Fuel standard"
   ]
  },
  {
   "i": 133,
-  "doc": "25_3215223_en_BA",
-  "make": "GasGas",
-  "model": "MC 450F",
-  "yr": 2025,
-  "carb": false,
-  "n": 2,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Fuel standard"
-  ]
- },
- {
-  "i": 134,
-  "doc": "25_3215223_en_BA",
-  "make": "GasGas",
-  "model": "EX 450F",
-  "yr": 2025,
-  "carb": false,
-  "n": 2,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Fuel standard"
-  ]
- },
- {
-  "i": 135,
   "doc": "26_3215269_en_BA",
   "make": "GasGas",
   "model": "MC 450F",
@@ -3045,7 +3017,7 @@
   ]
  },
  {
-  "i": 136,
+  "i": 134,
   "doc": "27_3215291_en_BA",
   "make": "GasGas",
   "model": "MC 450F",
@@ -3066,7 +3038,7 @@
   "skipped": "no fact found"
  },
  {
-  "i": 137,
+  "i": 135,
   "doc": "24_3215157_en_OM",
   "make": "GasGas",
   "model": "MC 125",
@@ -3079,7 +3051,7 @@
   ]
  },
  {
-  "i": 138,
+  "i": 136,
   "doc": "25_3215219_en_BA",
   "make": "GasGas",
   "model": "MC 125",
@@ -3092,7 +3064,7 @@
   ]
  },
  {
-  "i": 139,
+  "i": 137,
   "doc": "26_3215266_en_BA",
   "make": "GasGas",
   "model": "MC 125",
@@ -3105,7 +3077,7 @@
   ]
  },
  {
-  "i": 140,
+  "i": 138,
   "doc": "23_3215095_en_OM",
   "make": "GasGas",
   "model": "MC 250",
@@ -3119,21 +3091,7 @@
   ]
  },
  {
-  "i": 141,
-  "doc": "23_3215095_en_OM",
-  "make": "GasGas",
-  "model": "EX 300",
-  "yr": 2023,
-  "carb": true,
-  "n": 3,
-  "paths": [
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 142,
+  "i": 139,
   "doc": "24_3215158_en_OM",
   "make": "GasGas",
   "model": "MC 250",
@@ -3149,7 +3107,7 @@
   ]
  },
  {
-  "i": 143,
+  "i": 140,
   "doc": "24_3215158_en_OM",
   "make": "GasGas",
   "model": "EX 300",
@@ -3333,7 +3291,7 @@
   "skipped": "no fact found"
  },
  {
-  "i": 144,
+  "i": 141,
   "doc": "21_3214210_en_OM",
   "make": "KTM",
   "model": "250 SX",
@@ -3347,7 +3305,7 @@
   ]
  },
  {
-  "i": 145,
+  "i": 142,
   "doc": "22_3214412_en_OM",
   "make": "KTM",
   "model": "250 SX",
@@ -3361,11 +3319,56 @@
   ]
  },
  {
-  "i": 146,
+  "i": 143,
   "doc": "20_3214002_en_OM",
   "make": "KTM",
   "model": "250 XC",
   "yr": 2020,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 144,
+  "doc": "20_3214002_en_OM",
+  "make": "KTM",
+  "model": "300 XC",
+  "yr": 2020,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 145,
+  "doc": "21_3214211_en_OM",
+  "make": "KTM",
+  "model": "250 XC",
+  "yr": 2021,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 146,
+  "doc": "21_3214211_en_OM",
+  "make": "KTM",
+  "model": "300 XC",
+  "yr": 2021,
   "carb": false,
   "n": 4,
   "paths": [
@@ -3377,10 +3380,10 @@
  },
  {
   "i": 147,
-  "doc": "20_3214002_en_OM",
+  "doc": "22_3214413_en_OM",
   "make": "KTM",
-  "model": "300 XC",
-  "yr": 2020,
+  "model": "250 XC",
+  "yr": 2022,
   "carb": false,
   "n": 4,
   "paths": [
@@ -3392,10 +3395,10 @@
  },
  {
   "i": 148,
-  "doc": "21_3214211_en_OM",
+  "doc": "22_3214413_en_OM",
   "make": "KTM",
-  "model": "250 XC",
-  "yr": 2021,
+  "model": "300 XC",
+  "yr": 2022,
   "carb": false,
   "n": 4,
   "paths": [
@@ -3407,51 +3410,6 @@
  },
  {
   "i": 149,
-  "doc": "21_3214211_en_OM",
-  "make": "KTM",
-  "model": "300 XC",
-  "yr": 2021,
-  "carb": false,
-  "n": 4,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 150,
-  "doc": "22_3214413_en_OM",
-  "make": "KTM",
-  "model": "250 XC",
-  "yr": 2022,
-  "carb": false,
-  "n": 4,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 151,
-  "doc": "22_3214413_en_OM",
-  "make": "KTM",
-  "model": "300 XC",
-  "yr": 2022,
-  "carb": false,
-  "n": 4,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 152,
   "doc": "20_3402335_en_OM",
   "make": "Husqvarna",
   "model": "FC 250",
@@ -3479,7 +3437,7 @@
   ]
  },
  {
-  "i": 153,
+  "i": 150,
   "doc": "21_3402442_en_OM",
   "make": "Husqvarna",
   "model": "FC 250",
@@ -3507,7 +3465,7 @@
   ]
  },
  {
-  "i": 154,
+  "i": 151,
   "doc": "22_3402532_en_OM",
   "make": "Husqvarna",
   "model": "FC 250",
@@ -3535,11 +3493,95 @@
   ]
  },
  {
-  "i": 155,
+  "i": 152,
   "doc": "20_3402336_en_OM",
   "make": "Husqvarna",
   "model": "FC 350",
   "yr": 2020,
+  "carb": false,
+  "n": 17,
+  "paths": [
+   "Engine management / Launch control / activation",
+   "Engine management / Launch control / activation conditions",
+   "Engine management / Launch control / after the start",
+   "Engine management / Launch control / cancels after",
+   "Engine management / Launch control / cancels when",
+   "Engine management / Launch control / re-arming",
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
+   "Engine management / Throttle grip guide plate",
+   "Engine management / Traction control / at restart",
+   "Engine management / Traction control / function",
+   "Engine management / Traction control / switching speed",
+   "Engine management / Traction control / while riding",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 153,
+  "doc": "20_3402336_en_OM",
+  "make": "Husqvarna",
+  "model": "FX 350",
+  "yr": 2020,
+  "carb": false,
+  "n": 17,
+  "paths": [
+   "Engine management / Launch control / activation",
+   "Engine management / Launch control / activation conditions",
+   "Engine management / Launch control / after the start",
+   "Engine management / Launch control / cancels after",
+   "Engine management / Launch control / cancels when",
+   "Engine management / Launch control / re-arming",
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
+   "Engine management / Throttle grip guide plate",
+   "Engine management / Traction control / at restart",
+   "Engine management / Traction control / function",
+   "Engine management / Traction control / switching speed",
+   "Engine management / Traction control / while riding",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 154,
+  "doc": "21_3402443_en_OM",
+  "make": "Husqvarna",
+  "model": "FC 350",
+  "yr": 2021,
+  "carb": false,
+  "n": 17,
+  "paths": [
+   "Engine management / Launch control / activation",
+   "Engine management / Launch control / activation conditions",
+   "Engine management / Launch control / after the start",
+   "Engine management / Launch control / cancels after",
+   "Engine management / Launch control / cancels when",
+   "Engine management / Launch control / re-arming",
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
+   "Engine management / Throttle grip guide plate",
+   "Engine management / Traction control / at restart",
+   "Engine management / Traction control / function",
+   "Engine management / Traction control / switching speed",
+   "Engine management / Traction control / while riding",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 155,
+  "doc": "21_3402443_en_OM",
+  "make": "Husqvarna",
+  "model": "FX 350",
+  "yr": 2021,
   "carb": false,
   "n": 17,
   "paths": [
@@ -3564,10 +3606,10 @@
  },
  {
   "i": 156,
-  "doc": "20_3402336_en_OM",
+  "doc": "22_3402534_en_OM",
   "make": "Husqvarna",
-  "model": "FX 350",
-  "yr": 2020,
+  "model": "FC 350",
+  "yr": 2022,
   "carb": false,
   "n": 17,
   "paths": [
@@ -3592,10 +3634,10 @@
  },
  {
   "i": 157,
-  "doc": "21_3402443_en_OM",
+  "doc": "22_3402534_en_OM",
   "make": "Husqvarna",
-  "model": "FC 350",
-  "yr": 2021,
+  "model": "FX 350",
+  "yr": 2022,
   "carb": false,
   "n": 17,
   "paths": [
@@ -3620,10 +3662,10 @@
  },
  {
   "i": 158,
-  "doc": "21_3402443_en_OM",
+  "doc": "20_3402354_en_OM",
   "make": "Husqvarna",
-  "model": "FX 350",
-  "yr": 2021,
+  "model": "FC 450",
+  "yr": 2020,
   "carb": false,
   "n": 17,
   "paths": [
@@ -3648,10 +3690,10 @@
  },
  {
   "i": 159,
-  "doc": "22_3402534_en_OM",
+  "doc": "20_3402354_en_OM",
   "make": "Husqvarna",
-  "model": "FC 350",
-  "yr": 2022,
+  "model": "FX 450",
+  "yr": 2020,
   "carb": false,
   "n": 17,
   "paths": [
@@ -3676,10 +3718,10 @@
  },
  {
   "i": 160,
-  "doc": "22_3402534_en_OM",
+  "doc": "21_3402445_en_OM",
   "make": "Husqvarna",
-  "model": "FX 350",
-  "yr": 2022,
+  "model": "FC 450",
+  "yr": 2021,
   "carb": false,
   "n": 17,
   "paths": [
@@ -3704,10 +3746,10 @@
  },
  {
   "i": 161,
-  "doc": "20_3402354_en_OM",
+  "doc": "21_3402445_en_OM",
   "make": "Husqvarna",
-  "model": "FC 450",
-  "yr": 2020,
+  "model": "FX 450",
+  "yr": 2021,
   "carb": false,
   "n": 17,
   "paths": [
@@ -3732,90 +3774,6 @@
  },
  {
   "i": 162,
-  "doc": "20_3402354_en_OM",
-  "make": "Husqvarna",
-  "model": "FX 450",
-  "yr": 2020,
-  "carb": false,
-  "n": 17,
-  "paths": [
-   "Engine management / Launch control / activation",
-   "Engine management / Launch control / activation conditions",
-   "Engine management / Launch control / after the start",
-   "Engine management / Launch control / cancels after",
-   "Engine management / Launch control / cancels when",
-   "Engine management / Launch control / re-arming",
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
-   "Engine management / Throttle grip guide plate",
-   "Engine management / Traction control / at restart",
-   "Engine management / Traction control / function",
-   "Engine management / Traction control / switching speed",
-   "Engine management / Traction control / while riding",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 163,
-  "doc": "21_3402445_en_OM",
-  "make": "Husqvarna",
-  "model": "FC 450",
-  "yr": 2021,
-  "carb": false,
-  "n": 17,
-  "paths": [
-   "Engine management / Launch control / activation",
-   "Engine management / Launch control / activation conditions",
-   "Engine management / Launch control / after the start",
-   "Engine management / Launch control / cancels after",
-   "Engine management / Launch control / cancels when",
-   "Engine management / Launch control / re-arming",
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
-   "Engine management / Throttle grip guide plate",
-   "Engine management / Traction control / at restart",
-   "Engine management / Traction control / function",
-   "Engine management / Traction control / switching speed",
-   "Engine management / Traction control / while riding",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 164,
-  "doc": "21_3402445_en_OM",
-  "make": "Husqvarna",
-  "model": "FX 450",
-  "yr": 2021,
-  "carb": false,
-  "n": 17,
-  "paths": [
-   "Engine management / Launch control / activation",
-   "Engine management / Launch control / activation conditions",
-   "Engine management / Launch control / after the start",
-   "Engine management / Launch control / cancels after",
-   "Engine management / Launch control / cancels when",
-   "Engine management / Launch control / re-arming",
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
-   "Engine management / Throttle grip guide plate",
-   "Engine management / Traction control / at restart",
-   "Engine management / Traction control / function",
-   "Engine management / Traction control / switching speed",
-   "Engine management / Traction control / while riding",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 165,
   "doc": "22_3402535_en_OM",
   "make": "Husqvarna",
   "model": "FC 450",
@@ -3843,7 +3801,7 @@
   ]
  },
  {
-  "i": 166,
+  "i": 163,
   "doc": "22_3402535_en_OM",
   "make": "Husqvarna",
   "model": "FX 450",
@@ -3895,7 +3853,7 @@
   "skipped": "no fact found"
  },
  {
-  "i": 167,
+  "i": 164,
   "doc": "20_3402333_en_OM",
   "make": "Husqvarna",
   "model": "TC 250",
@@ -3909,7 +3867,7 @@
   ]
  },
  {
-  "i": 168,
+  "i": 165,
   "doc": "21_3402440_en_OM",
   "make": "Husqvarna",
   "model": "TC 250",
@@ -3923,7 +3881,7 @@
   ]
  },
  {
-  "i": 169,
+  "i": 166,
   "doc": "22_3402530_en_OM",
   "make": "Husqvarna",
   "model": "TC 250",
@@ -3937,7 +3895,7 @@
   ]
  },
  {
-  "i": 170,
+  "i": 167,
   "doc": "20_3402334_en_OM",
   "make": "Husqvarna",
   "model": "TX 300",
@@ -3952,7 +3910,7 @@
   ]
  },
  {
-  "i": 171,
+  "i": 168,
   "doc": "21_3402441_en_OM",
   "make": "Husqvarna",
   "model": "TX 300",
@@ -3967,7 +3925,7 @@
   ]
  },
  {
-  "i": 172,
+  "i": 169,
   "doc": "22_3402531_en_OM",
   "make": "Husqvarna",
   "model": "TX 300",
@@ -3982,7 +3940,7 @@
   ]
  },
  {
-  "i": 173,
+  "i": 170,
   "doc": "25_3402801_en_BA",
   "make": "Husqvarna",
   "model": "TC 150",
@@ -4011,7 +3969,7 @@
   "skipped": "no fact found"
  },
  {
-  "i": 174,
+  "i": 171,
   "doc": "22_3215074_en_OM",
   "make": "GasGas",
   "model": "MC 250",
@@ -4025,11 +3983,56 @@
   ]
  },
  {
-  "i": 175,
+  "i": 172,
   "doc": "21_3215009_en_OM",
   "make": "GasGas",
   "model": "MC 250F",
   "yr": 2021,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 173,
+  "doc": "21_3215009_en_OM",
+  "make": "GasGas",
+  "model": "EX 250F",
+  "yr": 2021,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 174,
+  "doc": "22_3215053_en_OM",
+  "make": "GasGas",
+  "model": "MC 250F",
+  "yr": 2022,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 175,
+  "doc": "22_3215053_en_OM",
+  "make": "GasGas",
+  "model": "EX 250F",
+  "yr": 2022,
   "carb": false,
   "n": 4,
   "paths": [
@@ -4041,51 +4044,6 @@
  },
  {
   "i": 176,
-  "doc": "21_3215009_en_OM",
-  "make": "GasGas",
-  "model": "EX 250F",
-  "yr": 2021,
-  "carb": false,
-  "n": 4,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 177,
-  "doc": "22_3215053_en_OM",
-  "make": "GasGas",
-  "model": "MC 250F",
-  "yr": 2022,
-  "carb": false,
-  "n": 4,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 178,
-  "doc": "22_3215053_en_OM",
-  "make": "GasGas",
-  "model": "EX 250F",
-  "yr": 2022,
-  "carb": false,
-  "n": 4,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 179,
   "doc": "22_3215054_en_OM",
   "make": "GasGas",
   "model": "MC 350F",
@@ -4100,7 +4058,7 @@
   ]
  },
  {
-  "i": 180,
+  "i": 177,
   "doc": "22_3215054_en_OM",
   "make": "GasGas",
   "model": "EX 350F",
@@ -4115,7 +4073,7 @@
   ]
  },
  {
-  "i": 181,
+  "i": 178,
   "doc": "21_3215019_en_OM",
   "make": "GasGas",
   "model": "EX 350F",
@@ -4130,7 +4088,7 @@
   ]
  },
  {
-  "i": 182,
+  "i": 179,
   "doc": "21_3215010_en_OM",
   "make": "GasGas",
   "model": "MC 450F",
@@ -4138,6 +4096,57 @@
   "carb": false,
   "n": 4,
   "paths": [
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 180,
+  "doc": "21_3215010_en_OM",
+  "make": "GasGas",
+  "model": "EX 450F",
+  "yr": 2021,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 181,
+  "doc": "22_3215055_en_OM",
+  "make": "GasGas",
+  "model": "MC 450F",
+  "yr": 2022,
+  "carb": false,
+  "n": 7,
+  "paths": [
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 182,
+  "doc": "22_3215055_en_OM",
+  "make": "GasGas",
+  "model": "EX 450F",
+  "yr": 2022,
+  "carb": false,
+  "n": 7,
+  "paths": [
+   "Engine management / Mapping / ADVANCED",
+   "Engine management / Mapping / STANDARD",
+   "Engine management / Mapping / change while riding",
    "Engine management / Throttle grip guide plate",
    "Fuel / Ethanol",
    "Fuel / Fuel standard",
@@ -4146,57 +4155,6 @@
  },
  {
   "i": 183,
-  "doc": "21_3215010_en_OM",
-  "make": "GasGas",
-  "model": "EX 450F",
-  "yr": 2021,
-  "carb": false,
-  "n": 4,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 184,
-  "doc": "22_3215055_en_OM",
-  "make": "GasGas",
-  "model": "MC 450F",
-  "yr": 2022,
-  "carb": false,
-  "n": 7,
-  "paths": [
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 185,
-  "doc": "22_3215055_en_OM",
-  "make": "GasGas",
-  "model": "EX 450F",
-  "yr": 2022,
-  "carb": false,
-  "n": 7,
-  "paths": [
-   "Engine management / Mapping / ADVANCED",
-   "Engine management / Mapping / STANDARD",
-   "Engine management / Mapping / change while riding",
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 186,
   "doc": "21_3215018_en_OM",
   "make": "GasGas",
   "model": "EX 300",
@@ -4211,11 +4169,56 @@
   ]
  },
  {
-  "i": 187,
+  "i": 184,
   "doc": "22_3215052_en_OM",
   "make": "GasGas",
   "model": "EX 250",
   "yr": 2022,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 185,
+  "doc": "22_3215052_en_OM",
+  "make": "GasGas",
+  "model": "EX 300",
+  "yr": 2022,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 186,
+  "doc": "23_3215096_en_OM",
+  "make": "GasGas",
+  "model": "EX 250",
+  "yr": 2023,
+  "carb": false,
+  "n": 4,
+  "paths": [
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 187,
+  "doc": "23_3215096_en_OM",
+  "make": "GasGas",
+  "model": "EX 300",
+  "yr": 2023,
   "carb": false,
   "n": 4,
   "paths": [
@@ -4227,51 +4230,6 @@
  },
  {
   "i": 188,
-  "doc": "22_3215052_en_OM",
-  "make": "GasGas",
-  "model": "EX 300",
-  "yr": 2022,
-  "carb": false,
-  "n": 4,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 189,
-  "doc": "23_3215096_en_OM",
-  "make": "GasGas",
-  "model": "EX 250",
-  "yr": 2023,
-  "carb": false,
-  "n": 4,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 190,
-  "doc": "23_3215096_en_OM",
-  "make": "GasGas",
-  "model": "EX 300",
-  "yr": 2023,
-  "carb": false,
-  "n": 4,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 191,
   "doc": "24_3215158_en_OM",
   "make": "GasGas",
   "model": "EX 250",
@@ -4295,7 +4253,7 @@
   "skipped": "no fact found"
  },
  {
-  "i": 192,
+  "i": 189,
   "doc": "20_3214006_en_OM",
   "make": "KTM",
   "model": "150 XC-W",
@@ -4309,7 +4267,7 @@
   ]
  },
  {
-  "i": 193,
+  "i": 190,
   "doc": "20_3214131_en_OM",
   "make": "KTM",
   "model": "250 XC-W",
@@ -4323,7 +4281,7 @@
   ]
  },
  {
-  "i": 194,
+  "i": 191,
   "doc": "20_3214131_en_OM",
   "make": "KTM",
   "model": "300 XC-W",
@@ -4337,7 +4295,7 @@
   ]
  },
  {
-  "i": 195,
+  "i": 192,
   "doc": "21_3214218_en_OM",
   "make": "KTM",
   "model": "150 XC-W",
@@ -4351,7 +4309,7 @@
   ]
  },
  {
-  "i": 196,
+  "i": 193,
   "doc": "21_3214220_en_OM",
   "make": "KTM",
   "model": "250 XC-W",
@@ -4365,7 +4323,7 @@
   ]
  },
  {
-  "i": 197,
+  "i": 194,
   "doc": "21_3214220_en_OM",
   "make": "KTM",
   "model": "300 XC-W",
@@ -4379,7 +4337,7 @@
   ]
  },
  {
-  "i": 198,
+  "i": 195,
   "doc": "22_3214420_en_OM",
   "make": "KTM",
   "model": "150 XC-W",
@@ -4393,7 +4351,7 @@
   ]
  },
  {
-  "i": 199,
+  "i": 196,
   "doc": "22_3214421_en_OM",
   "make": "KTM",
   "model": "250 XC-W",
@@ -4407,7 +4365,7 @@
   ]
  },
  {
-  "i": 200,
+  "i": 197,
   "doc": "22_3214421_en_OM",
   "make": "KTM",
   "model": "300 XC-W",
@@ -4421,7 +4379,7 @@
   ]
  },
  {
-  "i": 201,
+  "i": 198,
   "doc": "23_3214643_en_OM",
   "make": "KTM",
   "model": "150 XC-W",
@@ -4435,7 +4393,7 @@
   ]
  },
  {
-  "i": 202,
+  "i": 199,
   "doc": "23_3214644_en_OM",
   "make": "KTM",
   "model": "250 XC-W",
@@ -4449,7 +4407,7 @@
   ]
  },
  {
-  "i": 203,
+  "i": 200,
   "doc": "23_3214644_en_OM",
   "make": "KTM",
   "model": "300 XC-W",
@@ -4463,7 +4421,7 @@
   ]
  },
  {
-  "i": 204,
+  "i": 201,
   "doc": "23_3214649_en_OM",
   "make": "KTM",
   "model": "450 XCF-W",
@@ -4481,7 +4439,7 @@
   ]
  },
  {
-  "i": 205,
+  "i": 202,
   "doc": "24_3214837_en_OM",
   "make": "KTM",
   "model": "150 XC-W",
@@ -4497,7 +4455,7 @@
   ]
  },
  {
-  "i": 206,
+  "i": 203,
   "doc": "24_3214838_en_OM",
   "make": "KTM",
   "model": "250 XC-W",
@@ -4513,7 +4471,7 @@
   ]
  },
  {
-  "i": 207,
+  "i": 204,
   "doc": "24_3214838_en_OM",
   "make": "KTM",
   "model": "300 XC-W",
@@ -4529,7 +4487,7 @@
   ]
  },
  {
-  "i": 208,
+  "i": 205,
   "doc": "24_3214841_en_OM",
   "make": "KTM",
   "model": "450 XCF-W",
@@ -4549,7 +4507,7 @@
   ]
  },
  {
-  "i": 209,
+  "i": 206,
   "doc": "25_3240046_en_BA",
   "make": "KTM",
   "model": "150 XC-W",
@@ -4562,7 +4520,7 @@
   ]
  },
  {
-  "i": 210,
+  "i": 207,
   "doc": "25_3240047_en_BA",
   "make": "KTM",
   "model": "250 XC-W",
@@ -4575,7 +4533,7 @@
   ]
  },
  {
-  "i": 211,
+  "i": 208,
   "doc": "25_3240047_en_BA",
   "make": "KTM",
   "model": "300 XC-W",
@@ -4588,7 +4546,7 @@
   ]
  },
  {
-  "i": 212,
+  "i": 209,
   "doc": "25_3240051_en_BA",
   "make": "KTM",
   "model": "450 XCF-W",
@@ -4606,7 +4564,7 @@
   ]
  },
  {
-  "i": 213,
+  "i": 210,
   "doc": "26_3240237_en_BA",
   "make": "KTM",
   "model": "150 XC-W",
@@ -4619,7 +4577,7 @@
   ]
  },
  {
-  "i": 214,
+  "i": 211,
   "doc": "26_3240239_en_BA",
   "make": "KTM",
   "model": "250 XC-W",
@@ -4632,7 +4590,7 @@
   ]
  },
  {
-  "i": 215,
+  "i": 212,
   "doc": "26_3240239_en_BA",
   "make": "KTM",
   "model": "300 XC-W",
@@ -4645,7 +4603,7 @@
   ]
  },
  {
-  "i": 216,
+  "i": 213,
   "doc": "26_3240243_en_BA",
   "make": "KTM",
   "model": "450 XCF-W",
@@ -4658,7 +4616,7 @@
   ]
  },
  {
-  "i": 217,
+  "i": 214,
   "doc": "27_3240386_en_BA",
   "make": "KTM",
   "model": "150 XC-W",
@@ -4671,7 +4629,7 @@
   ]
  },
  {
-  "i": 218,
+  "i": 215,
   "doc": "27_3240387_en_BA",
   "make": "KTM",
   "model": "250 XC-W",
@@ -4684,7 +4642,7 @@
   ]
  },
  {
-  "i": 219,
+  "i": 216,
   "doc": "27_3240387_en_BA",
   "make": "KTM",
   "model": "300 XC-W",
@@ -4697,7 +4655,7 @@
   ]
  },
  {
-  "i": 220,
+  "i": 217,
   "doc": "27_3240391_en_BA",
   "make": "KTM",
   "model": "450 XCF-W",
@@ -4710,7 +4668,7 @@
   ]
  },
  {
-  "i": 221,
+  "i": 218,
   "doc": "20_3402338_en_OM",
   "make": "Husqvarna",
   "model": "TE 150",
@@ -4724,7 +4682,7 @@
   ]
  },
  {
-  "i": 222,
+  "i": 219,
   "doc": "20_3402407_en_OM",
   "make": "Husqvarna",
   "model": "TE 250",
@@ -4738,7 +4696,7 @@
   ]
  },
  {
-  "i": 223,
+  "i": 220,
   "doc": "20_3402407_en_OM",
   "make": "Husqvarna",
   "model": "TE 300",
@@ -4752,7 +4710,7 @@
   ]
  },
  {
-  "i": 224,
+  "i": 221,
   "doc": "21_3402446_en_OM",
   "make": "Husqvarna",
   "model": "TE 150",
@@ -4766,7 +4724,7 @@
   ]
  },
  {
-  "i": 225,
+  "i": 222,
   "doc": "21_3402448_en_OM",
   "make": "Husqvarna",
   "model": "TE 250",
@@ -4780,7 +4738,7 @@
   ]
  },
  {
-  "i": 226,
+  "i": 223,
   "doc": "21_3402448_en_OM",
   "make": "Husqvarna",
   "model": "TE 300",
@@ -4794,7 +4752,7 @@
   ]
  },
  {
-  "i": 227,
+  "i": 224,
   "doc": "22_3402537_en_OM",
   "make": "Husqvarna",
   "model": "TE 150",
@@ -4808,7 +4766,7 @@
   ]
  },
  {
-  "i": 228,
+  "i": 225,
   "doc": "22_3402538_en_OM",
   "make": "Husqvarna",
   "model": "TE 250",
@@ -4822,7 +4780,7 @@
   ]
  },
  {
-  "i": 229,
+  "i": 226,
   "doc": "22_3402538_en_OM",
   "make": "Husqvarna",
   "model": "TE 300",
@@ -4836,7 +4794,7 @@
   ]
  },
  {
-  "i": 230,
+  "i": 227,
   "doc": "23_3402634_en_OM",
   "make": "Husqvarna",
   "model": "TE 150",
@@ -4850,7 +4808,7 @@
   ]
  },
  {
-  "i": 231,
+  "i": 228,
   "doc": "23_3402635_en_OM",
   "make": "Husqvarna",
   "model": "TE 250",
@@ -4864,7 +4822,7 @@
   ]
  },
  {
-  "i": 232,
+  "i": 229,
   "doc": "23_3402635_en_OM",
   "make": "Husqvarna",
   "model": "TE 300",
@@ -4878,7 +4836,7 @@
   ]
  },
  {
-  "i": 233,
+  "i": 230,
   "doc": "24_3402716_en_OM",
   "make": "Husqvarna",
   "model": "TE 150",
@@ -4894,7 +4852,7 @@
   ]
  },
  {
-  "i": 234,
+  "i": 231,
   "doc": "24_3402717_en_OM",
   "make": "Husqvarna",
   "model": "TE 250",
@@ -4910,7 +4868,7 @@
   ]
  },
  {
-  "i": 235,
+  "i": 232,
   "doc": "24_3402717_en_OM",
   "make": "Husqvarna",
   "model": "TE 300",
@@ -4926,7 +4884,7 @@
   ]
  },
  {
-  "i": 236,
+  "i": 233,
   "doc": "25_3402806_en_BA",
   "make": "Husqvarna",
   "model": "TE 150",
@@ -4939,7 +4897,7 @@
   ]
  },
  {
-  "i": 237,
+  "i": 234,
   "doc": "25_3402807_en_BA",
   "make": "Husqvarna",
   "model": "TE 250",
@@ -4952,7 +4910,7 @@
   ]
  },
  {
-  "i": 238,
+  "i": 235,
   "doc": "25_3402807_en_BA",
   "make": "Husqvarna",
   "model": "TE 300",
@@ -4965,7 +4923,7 @@
   ]
  },
  {
-  "i": 239,
+  "i": 236,
   "doc": "26_3402892_en_BA",
   "make": "Husqvarna",
   "model": "TE 150",
@@ -4978,7 +4936,7 @@
   ]
  },
  {
-  "i": 240,
+  "i": 237,
   "doc": "26_3402893_en_BA",
   "make": "Husqvarna",
   "model": "TE 250",
@@ -4991,7 +4949,7 @@
   ]
  },
  {
-  "i": 241,
+  "i": 238,
   "doc": "26_3402893_en_BA",
   "make": "Husqvarna",
   "model": "TE 300",
@@ -5004,7 +4962,7 @@
   ]
  },
  {
-  "i": 242,
+  "i": 239,
   "doc": "27_3402950_en_BA",
   "make": "Husqvarna",
   "model": "TE 150",
@@ -5017,7 +4975,7 @@
   ]
  },
  {
-  "i": 243,
+  "i": 240,
   "doc": "27_3402951_en_BA",
   "make": "Husqvarna",
   "model": "TE 300",
@@ -5030,7 +4988,7 @@
   ]
  },
  {
-  "i": 244,
+  "i": 241,
   "doc": "23_3402639_en_OM",
   "make": "Husqvarna",
   "model": "FE 450",
@@ -5052,7 +5010,7 @@
   ]
  },
  {
-  "i": 245,
+  "i": 242,
   "doc": "24_3402721_en_OM",
   "make": "Husqvarna",
   "model": "FE 450",
@@ -5070,7 +5028,7 @@
   ]
  },
  {
-  "i": 246,
+  "i": 243,
   "doc": "25_3402811_en_BA",
   "make": "Husqvarna",
   "model": "FE 450",
@@ -5092,7 +5050,7 @@
   ]
  },
  {
-  "i": 247,
+  "i": 244,
   "doc": "26_3402897_en_BA",
   "make": "Husqvarna",
   "model": "FE 450",
@@ -5114,7 +5072,7 @@
   ]
  },
  {
-  "i": 248,
+  "i": 245,
   "doc": "21_3215011_en_OM",
   "make": "GasGas",
   "model": "EC 300",
@@ -5128,11 +5086,53 @@
   ]
  },
  {
-  "i": 249,
+  "i": 246,
   "doc": "22_3215056_en_OM",
   "make": "GasGas",
   "model": "EC 250",
   "yr": 2022,
+  "carb": false,
+  "n": 3,
+  "paths": [
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 247,
+  "doc": "22_3215056_en_OM",
+  "make": "GasGas",
+  "model": "EC 300",
+  "yr": 2022,
+  "carb": false,
+  "n": 3,
+  "paths": [
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 248,
+  "doc": "23_3215102_en_OM",
+  "make": "GasGas",
+  "model": "EC 250",
+  "yr": 2023,
+  "carb": false,
+  "n": 3,
+  "paths": [
+   "Fuel / Ethanol",
+   "Fuel / Fuel standard",
+   "Fuel / Fuels not to use"
+  ]
+ },
+ {
+  "i": 249,
+  "doc": "23_3215102_en_OM",
+  "make": "GasGas",
+  "model": "EC 300",
+  "yr": 2023,
   "carb": false,
   "n": 3,
   "paths": [
@@ -5143,10 +5143,10 @@
  },
  {
   "i": 250,
-  "doc": "22_3215056_en_OM",
+  "doc": "24_3215163_en_OM",
   "make": "GasGas",
-  "model": "EC 300",
-  "yr": 2022,
+  "model": "EC 250",
+  "yr": 2024,
   "carb": false,
   "n": 3,
   "paths": [
@@ -5157,10 +5157,10 @@
  },
  {
   "i": 251,
-  "doc": "23_3215102_en_OM",
+  "doc": "24_3215163_en_OM",
   "make": "GasGas",
-  "model": "EC 250",
-  "yr": 2023,
+  "model": "EC 300",
+  "yr": 2024,
   "carb": false,
   "n": 3,
   "paths": [
@@ -5171,74 +5171,32 @@
  },
  {
   "i": 252,
-  "doc": "23_3215102_en_OM",
+  "doc": "25_3215225_en_BA",
   "make": "GasGas",
-  "model": "EC 300",
-  "yr": 2023,
+  "model": "EC 250",
+  "yr": 2025,
   "carb": false,
-  "n": 3,
+  "n": 2,
   "paths": [
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Fuel standard"
   ]
  },
  {
   "i": 253,
-  "doc": "24_3215163_en_OM",
+  "doc": "25_3215225_en_BA",
   "make": "GasGas",
-  "model": "EC 250",
-  "yr": 2024,
+  "model": "EC 300",
+  "yr": 2025,
   "carb": false,
-  "n": 3,
+  "n": 2,
   "paths": [
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
+   "Engine management / Throttle grip guide plate",
+   "Fuel / Fuel standard"
   ]
  },
  {
   "i": 254,
-  "doc": "24_3215163_en_OM",
-  "make": "GasGas",
-  "model": "EC 300",
-  "yr": 2024,
-  "carb": false,
-  "n": 3,
-  "paths": [
-   "Fuel / Ethanol",
-   "Fuel / Fuel standard",
-   "Fuel / Fuels not to use"
-  ]
- },
- {
-  "i": 255,
-  "doc": "25_3215225_en_BA",
-  "make": "GasGas",
-  "model": "EC 250",
-  "yr": 2025,
-  "carb": false,
-  "n": 2,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Fuel standard"
-  ]
- },
- {
-  "i": 256,
-  "doc": "25_3215225_en_BA",
-  "make": "GasGas",
-  "model": "EC 300",
-  "yr": 2025,
-  "carb": false,
-  "n": 2,
-  "paths": [
-   "Engine management / Throttle grip guide plate",
-   "Fuel / Fuel standard"
-  ]
- },
- {
-  "i": 257,
   "doc": "26_3215271_en_BA",
   "make": "GasGas",
   "model": "EC 300",
@@ -5251,7 +5209,7 @@
   ]
  },
  {
-  "i": 258,
+  "i": 255,
   "doc": "27_3215292_en_BA",
   "make": "GasGas",
   "model": "EC 300",
@@ -5264,7 +5222,7 @@
   ]
  },
  {
-  "i": 259,
+  "i": 256,
   "doc": "24_3215169_en_OM",
   "make": "GasGas",
   "model": "EC 450F",
@@ -5282,7 +5240,7 @@
   ]
  },
  {
-  "i": 260,
+  "i": 257,
   "doc": "25_3215229_en_BA",
   "make": "GasGas",
   "model": "EC 450F",

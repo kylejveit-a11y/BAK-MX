@@ -33,13 +33,19 @@
  ],
  "records": [
   {
-   "id": "fit2-triumph-chassis-a",
+   "id": "fit2-triumph-chassis",
    "domain": "chassis",
    "topic": "frame, subframe and swingarm interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -74,95 +80,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market). Main frame not found in the catalogue for TF 250-E, TF 450-E 2026 (unknown, not 'does not exist'). Swingarm not found in the catalogue for TF 250-E, TF 450-E 2026 (unknown, not 'does not exist')."
   },
   {
-   "id": "fit2-triumph-chassis-b",
-   "domain": "chassis",
-   "topic": "frame, subframe and swingarm interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, frame, subframe and swingarm, by OEM part number. Main frame: T2074236 on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2078475 on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2078478 on TF 250-C, TF 450-C 2026. Subframe (rear frame): T2074959 on TF 250-X 2024-2026; T2075413 on TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2074963 on TF 250-E, TF 450-E 2026. Swingarm: T2051612 on TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "main frame": {
-     "T2074236": "Frame, MX, Spares, Vinless | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2078475": "Main Frame Assy, MX, Spares Includes Items 4, 13 & 15 | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2078478": "Main Frame Assy, XC, Spares Includes Items 4, 13 & 15 | TF 250-C, TF 450-C 2026"
-    },
-    "subframe (rear frame)": {
-     "T2074959": "Rear Subframe Assembly Includes Items 10 | TF 250-X 2024-2026",
-     "T2075413": "Rear Subframe Assembly Includes items 10 | TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2074963": "Rear Subframe Assembly Includes Items 10 | TF 250-E, TF 450-E 2026"
-    },
-    "swingarm": {
-     "T2051612": "Swingarm Assembly Short Contains items 2 to 15 inclusive | TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market). Main frame not found in the catalogue for TF 250-E, TF 450-E 2026 (unknown, not 'does not exist'). Swingarm not found in the catalogue for TF 250-E, TF 450-E 2026 (unknown, not 'does not exist')."
-  },
-  {
-   "id": "fit2-triumph-chassis-c",
-   "domain": "chassis",
-   "topic": "frame, subframe and swingarm interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, frame, subframe and swingarm, by OEM part number. Main frame: T2074236 on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2078475 on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2078478 on TF 250-C, TF 450-C 2026. Subframe (rear frame): T2074959 on TF 250-X 2024-2026; T2075413 on TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2074963 on TF 250-E, TF 450-E 2026. Swingarm: T2051612 on TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "main frame": {
-     "T2074236": "Frame, MX, Spares, Vinless | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2078475": "Main Frame Assy, MX, Spares Includes Items 4, 13 & 15 | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2078478": "Main Frame Assy, XC, Spares Includes Items 4, 13 & 15 | TF 250-C, TF 450-C 2026"
-    },
-    "subframe (rear frame)": {
-     "T2074959": "Rear Subframe Assembly Includes Items 10 | TF 250-X 2024-2026",
-     "T2075413": "Rear Subframe Assembly Includes items 10 | TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2074963": "Rear Subframe Assembly Includes Items 10 | TF 250-E, TF 450-E 2026"
-    },
-    "swingarm": {
-     "T2051612": "Swingarm Assembly Short Contains items 2 to 15 inclusive | TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market). Main frame not found in the catalogue for TF 250-E, TF 450-E 2026 (unknown, not 'does not exist'). Swingarm not found in the catalogue for TF 250-E, TF 450-E 2026 (unknown, not 'does not exist')."
-  },
-  {
-   "id": "fit2-triumph-linkage-a",
+   "id": "fit2-triumph-linkage",
    "domain": "chassis",
    "topic": "rear linkage arms interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -190,81 +120,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-linkage-b",
-   "domain": "chassis",
-   "topic": "rear linkage arms interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): T2051615 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2056900 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2057510 on TF 250-X 2024-2026, TF 250-C 2026; T2057511 on TF 450-X, TF 250-E, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "linkage arms (relay arm, pull rod, cushion arm)": {
-     "T2051615": "Rocker Suspension, Spares Contains Rocker & Items 9, 10, 11, 12, | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2056900": "Draglink Spares Contains Draglink & Items 5, 6 & 7 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2057510": "Rocker, Linkage | TF 250-X 2024-2026, TF 250-C 2026",
-     "T2057511": "Rocker, Linkage | TF 450-X, TF 250-E, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-linkage-c",
-   "domain": "chassis",
-   "topic": "rear linkage arms interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): T2051615 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2056900 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2057510 on TF 250-X 2024-2026, TF 250-C 2026; T2057511 on TF 450-X, TF 250-E, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "linkage arms (relay arm, pull rod, cushion arm)": {
-     "T2051615": "Rocker Suspension, Spares Contains Rocker & Items 9, 10, 11, 12, | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2056900": "Draglink Spares Contains Draglink & Items 5, 6 & 7 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2057510": "Rocker, Linkage | TF 250-X 2024-2026, TF 250-C 2026",
-     "T2057511": "Rocker, Linkage | TF 450-X, TF 250-E, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-clamps-a",
+   "id": "fit2-triumph-clamps",
    "domain": "chassis",
    "topic": "triple clamps and handlebar mounts interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -303,103 +171,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-clamps-b",
-   "domain": "chassis",
-   "topic": "triple clamps and handlebar mounts interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, triple clamps and handlebar mounts, by OEM part number. Top triple clamp: T2044585 on TF 250-X 2024-2026, TF 250-E, TF 250-C 2026; T2046411 on TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025. Bottom triple clamp (steering stem): T2044587 on TF 250-X 2024-2026, TF 250-C 2026; T2046421 on TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025; T2043937 on TF 250-E 2026; T2046423 on TF 450-E 2026. Handlebar and bar mounts: T2044314 (Handlebar Clamp, Upper) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2044787 (Handlebar, ACF) on TF 250-X 2024-2026, TF 450-X 2026; T2044920 (Handlebar Clamp, Lower, Linked) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2044797 (Handlebar, RC4 Flight) on TF 450-RC Edition 2025; T2044788 (Handlebar, EVO) on TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "top triple clamp": {
-     "T2044585": "Upper Yoke | TF 250-X 2024-2026, TF 250-E, TF 250-C 2026",
-     "T2046411": "Upper Yoke | TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "bottom triple clamp (steering stem)": {
-     "T2044587": "Lower Yoke Assembly | TF 250-X 2024-2026, TF 250-C 2026",
-     "T2046421": "Lower Yoke Assembly | TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2043937": "Lower Yoke Assy, Locking | TF 250-E 2026",
-     "T2046423": "Lower Yoke Assembly | TF 450-E 2026"
-    },
-    "handlebar and bar mounts": {
-     "T2044314": "Handlebar Clamp, Upper | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2044787": "Handlebar, ACF | TF 250-X 2024-2026, TF 450-X 2026",
-     "T2044920": "Handlebar Clamp, Lower, Linked | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2044797": "Handlebar, RC4 Flight | TF 450-RC Edition 2025",
-     "T2044788": "Handlebar, EVO | TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-clamps-c",
-   "domain": "chassis",
-   "topic": "triple clamps and handlebar mounts interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, triple clamps and handlebar mounts, by OEM part number. Top triple clamp: T2044585 on TF 250-X 2024-2026, TF 250-E, TF 250-C 2026; T2046411 on TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025. Bottom triple clamp (steering stem): T2044587 on TF 250-X 2024-2026, TF 250-C 2026; T2046421 on TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025; T2043937 on TF 250-E 2026; T2046423 on TF 450-E 2026. Handlebar and bar mounts: T2044314 (Handlebar Clamp, Upper) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2044787 (Handlebar, ACF) on TF 250-X 2024-2026, TF 450-X 2026; T2044920 (Handlebar Clamp, Lower, Linked) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2044797 (Handlebar, RC4 Flight) on TF 450-RC Edition 2025; T2044788 (Handlebar, EVO) on TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "top triple clamp": {
-     "T2044585": "Upper Yoke | TF 250-X 2024-2026, TF 250-E, TF 250-C 2026",
-     "T2046411": "Upper Yoke | TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "bottom triple clamp (steering stem)": {
-     "T2044587": "Lower Yoke Assembly | TF 250-X 2024-2026, TF 250-C 2026",
-     "T2046421": "Lower Yoke Assembly | TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2043937": "Lower Yoke Assy, Locking | TF 250-E 2026",
-     "T2046423": "Lower Yoke Assembly | TF 450-E 2026"
-    },
-    "handlebar and bar mounts": {
-     "T2044314": "Handlebar Clamp, Upper | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2044787": "Handlebar, ACF | TF 250-X 2024-2026, TF 450-X 2026",
-     "T2044920": "Handlebar Clamp, Lower, Linked | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2044797": "Handlebar, RC4 Flight | TF 450-RC Edition 2025",
-     "T2044788": "Handlebar, EVO | TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-pegs-a",
+   "id": "fit2-triumph-pegs",
    "domain": "chassis",
    "topic": "footpegs and footpeg brackets interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -430,87 +214,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-pegs-b",
-   "domain": "chassis",
-   "topic": "footpegs and footpeg brackets interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, footpegs and footpeg brackets, by OEM part number. Footpegs and footpeg brackets: T2074266 on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2082971 on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2082972 on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2083238 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2083239 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2083531 on TF 250-C 2026; T2084039 on TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "footpegs and footpeg brackets": {
-     "T2074266": "Footpeg Assembly Kit, Spares Comprises items 1, 2, 3, 4, 5, 6, 7 | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2082971": "Clevis, Footrest, RH | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2082972": "Clevis, Footrest, LH | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2083238": "Footrest, Cast, LHS | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2083239": "Footrest, Cast, RHS | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2083531": "Footpeg Assembly Kit, Spares Comprises all items plus Sidestand  | TF 250-C 2026",
-     "T2084039": "Clevis, Footrest, RH, EN | TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-pegs-c",
-   "domain": "chassis",
-   "topic": "footpegs and footpeg brackets interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, footpegs and footpeg brackets, by OEM part number. Footpegs and footpeg brackets: T2074266 on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2082971 on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2082972 on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2083238 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2083239 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2083531 on TF 250-C 2026; T2084039 on TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "footpegs and footpeg brackets": {
-     "T2074266": "Footpeg Assembly Kit, Spares Comprises items 1, 2, 3, 4, 5, 6, 7 | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2082971": "Clevis, Footrest, RH | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2082972": "Clevis, Footrest, LH | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2083238": "Footrest, Cast, LHS | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2083239": "Footrest, Cast, RHS | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2083531": "Footpeg Assembly Kit, Spares Comprises all items plus Sidestand  | TF 250-C 2026",
-     "T2084039": "Clevis, Footrest, RH, EN | TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-wheels-a",
+   "id": "fit2-triumph-wheels",
    "domain": "chassis",
    "topic": "wheels, hubs, axles and rim sizes interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -555,115 +271,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-wheels-b",
-   "domain": "chassis",
-   "topic": "wheels, hubs, axles and rim sizes interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, wheels, hubs, axles and rim sizes, by OEM part number. Front wheel, hub and axle: T2000692 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2009258 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025 (+1 more in values). Rear wheel, hub and axle: T2011135 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2015093 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025 (+3 more in values). Rim sizes: T2000880 (Rim Lock, 1.6 Inch) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2000968 (Rim Band, 21 Inch) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025 (+7 more in values). Same number = same part, it swaps; different number = different part.",
-   "values": {
-    "front wheel, hub and axle": {
-     "T2000692": "Spindle, Front Wheel | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2009258": "Hub, Sub Assy | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2009269": "Front Wheel Assy, 1.6 x 2.1 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "rear wheel, hub and axle": {
-     "T2011135": "Spindle, Rear Wheel | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2015093": "Hub, Sub Assy | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2015094": "Rear Wheel Assembly, 1.85 x 19 | TF 250-X 2024-2026",
-     "T2015046": "Rear Wheel Assembly, 2.15 x 19 | TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2015043": "Rear Wheel Assembly, 2.15 x 18 | TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026"
-    },
-    "rim sizes": {
-     "T2000880": "Rim Lock, 1.6 Inch | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2000968": "Rim Band, 21 Inch | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2005069": "Rim | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2010882": "Rim Lock, 1.85 Inch | TF 250-X 2024-2026",
-     "T2011143": "Rim, 1.85 x 19 | TF 250-X 2024-2026",
-     "T2011318": "Rim Band, 18-19 Inch | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2011138": "Rim, 1.85 x 19 | TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2011345": "Rim Lock, 2.15 Inch | TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2010978": "Rim, 2.15 x 18 | TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-wheels-c",
-   "domain": "chassis",
-   "topic": "wheels, hubs, axles and rim sizes interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, wheels, hubs, axles and rim sizes, by OEM part number. Front wheel, hub and axle: T2000692 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2009258 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025 (+1 more in values). Rear wheel, hub and axle: T2011135 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2015093 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025 (+3 more in values). Rim sizes: T2000880 (Rim Lock, 1.6 Inch) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2000968 (Rim Band, 21 Inch) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025 (+7 more in values). Same number = same part, it swaps; different number = different part.",
-   "values": {
-    "front wheel, hub and axle": {
-     "T2000692": "Spindle, Front Wheel | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2009258": "Hub, Sub Assy | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2009269": "Front Wheel Assy, 1.6 x 2.1 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "rear wheel, hub and axle": {
-     "T2011135": "Spindle, Rear Wheel | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2015093": "Hub, Sub Assy | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2015094": "Rear Wheel Assembly, 1.85 x 19 | TF 250-X 2024-2026",
-     "T2015046": "Rear Wheel Assembly, 2.15 x 19 | TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2015043": "Rear Wheel Assembly, 2.15 x 18 | TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026"
-    },
-    "rim sizes": {
-     "T2000880": "Rim Lock, 1.6 Inch | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2000968": "Rim Band, 21 Inch | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2005069": "Rim | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2010882": "Rim Lock, 1.85 Inch | TF 250-X 2024-2026",
-     "T2011143": "Rim, 1.85 x 19 | TF 250-X 2024-2026",
-     "T2011318": "Rim Band, 18-19 Inch | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2011138": "Rim, 1.85 x 19 | TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2011345": "Rim Lock, 2.15 Inch | TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2010978": "Rim, 2.15 x 18 | TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-bearings-a",
+   "id": "fit2-triumph-bearings",
    "domain": "maintenance",
    "topic": "wheel, swingarm/linkage and steering-head bearings and seals (sizes) interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -714,127 +334,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-bearings-b",
-   "domain": "maintenance",
-   "topic": "wheel, swingarm/linkage and steering-head bearings and seals (sizes) interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, wheel, swingarm/linkage and steering-head bearings and seals (sizes), by OEM part number. Wheel bearings and wheel seals: T2004252 (Bearing Kit, Front Wheel Comprises all items 5, 6, 7 & 9) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025 (+5 more in values). Swingarm pivot and linkage bearings and seals: T2051614 (Bearing Kit, Swingarm Contains items 6,7,11,12,13,14 & 15) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025 (+12 more in values). Steering head bearings: T2044356 (Bearing Kit, Headstock Also Contains 2 x T3800610) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025 (+3 more in values). Same number = same part, it swaps; different number = different part.",
-   "values": {
-    "wheel bearings and wheel seals": {
-     "T2004252": "Bearing Kit, Front Wheel Comprises all items 5, 6, 7 & 9 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2018737": "Bearing Kit, Rear Wheel Contains all items 6,7,8,9 & 21 - Not Il | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3600315": "Oil Seal, 26 38 x 7 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3600599": "Oil Seal, 32 x 47 x 6 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3800257": "Bearing, Ball, 25 x 47 x 12 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3800267": "Bearing, Ball, 20x 37 x 9 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "swingarm pivot and linkage bearings and seals": {
-     "T2051614": "Bearing Kit, Swingarm Contains items 6,7,11,12,13,14 & 15 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2051616": "Bearing Kit 1, Rocker Contains Items 15, 17, 18, 19 & 20 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2051617": "Bearing Kit 2, Rocker Contains Items 10, 11, 12 & 13 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2051619": "Bearing Kit, Droplink Contains Items 5, 6 & 7 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3600560": "Seal, 25 x 32 x 4 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3600570": "Seal, 25 x 32 x x 7 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3600580": "Seal, 30 x 37 x 4 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3600590": "Seal, 22 x 28 x 4 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3800199": "Bearing, Needle Roller, 20 x 26 x 20 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3800908": "Bearing, Drawn Cup, Hk 2220 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3803013": "Bearing, Thrust, 22 x 36 x 2.5 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3803014": "Bearing, Needle Roller, 22 x 28 x 12 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3803120": "Bearing, Needle Roller, 17 x 24 x 12 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "steering head bearings": {
-     "T2044356": "Bearing Kit, Headstock Also Contains 2 x T3800610 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3602516": "Seal, Headstock, Lower | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3602517": "Seal, Headstock, Upper | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3800610": "Bearing, Taper, 29 x 50, 292 x 14, 224 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-bearings-c",
-   "domain": "maintenance",
-   "topic": "wheel, swingarm/linkage and steering-head bearings and seals (sizes) interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, wheel, swingarm/linkage and steering-head bearings and seals (sizes), by OEM part number. Wheel bearings and wheel seals: T2004252 (Bearing Kit, Front Wheel Comprises all items 5, 6, 7 & 9) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025 (+5 more in values). Swingarm pivot and linkage bearings and seals: T2051614 (Bearing Kit, Swingarm Contains items 6,7,11,12,13,14 & 15) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025 (+12 more in values). Steering head bearings: T2044356 (Bearing Kit, Headstock Also Contains 2 x T3800610) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025 (+3 more in values). Same number = same part, it swaps; different number = different part.",
-   "values": {
-    "wheel bearings and wheel seals": {
-     "T2004252": "Bearing Kit, Front Wheel Comprises all items 5, 6, 7 & 9 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2018737": "Bearing Kit, Rear Wheel Contains all items 6,7,8,9 & 21 - Not Il | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3600315": "Oil Seal, 26 38 x 7 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3600599": "Oil Seal, 32 x 47 x 6 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3800257": "Bearing, Ball, 25 x 47 x 12 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3800267": "Bearing, Ball, 20x 37 x 9 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "swingarm pivot and linkage bearings and seals": {
-     "T2051614": "Bearing Kit, Swingarm Contains items 6,7,11,12,13,14 & 15 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2051616": "Bearing Kit 1, Rocker Contains Items 15, 17, 18, 19 & 20 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2051617": "Bearing Kit 2, Rocker Contains Items 10, 11, 12 & 13 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2051619": "Bearing Kit, Droplink Contains Items 5, 6 & 7 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3600560": "Seal, 25 x 32 x 4 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3600570": "Seal, 25 x 32 x x 7 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3600580": "Seal, 30 x 37 x 4 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3600590": "Seal, 22 x 28 x 4 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3800199": "Bearing, Needle Roller, 20 x 26 x 20 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3800908": "Bearing, Drawn Cup, Hk 2220 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3803013": "Bearing, Thrust, 22 x 36 x 2.5 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3803014": "Bearing, Needle Roller, 22 x 28 x 12 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3803120": "Bearing, Needle Roller, 17 x 24 x 12 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "steering head bearings": {
-     "T2044356": "Bearing Kit, Headstock Also Contains 2 x T3800610 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3602516": "Seal, Headstock, Lower | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3602517": "Seal, Headstock, Upper | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T3800610": "Bearing, Taper, 29 x 50, 292 x 14, 224 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-discs-a",
+   "id": "fit2-triumph-discs",
    "domain": "chassis",
    "topic": "brake discs interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -864,85 +376,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-discs-b",
-   "domain": "chassis",
-   "topic": "brake discs interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, brake discs, by OEM part number. Front brake disc: T2022346 (Front Disc, MX) on TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2025029 (Front Disc, EN) on TF 250-E, TF 450-E 2026. Rear brake disc: T2027974 (Rear Disc, MX) on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2025031 (Rear Disc, EN) on TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "front brake disc": {
-     "T2022346": "Front Disc, MX | TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2025029": "Front Disc, EN | TF 250-E, TF 450-E 2026"
-    },
-    "rear brake disc": {
-     "T2027974": "Rear Disc, MX | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2025031": "Rear Disc, EN | TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-discs-c",
-   "domain": "chassis",
-   "topic": "brake discs interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, brake discs, by OEM part number. Front brake disc: T2022346 (Front Disc, MX) on TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2025029 (Front Disc, EN) on TF 250-E, TF 450-E 2026. Rear brake disc: T2027974 (Rear Disc, MX) on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2025031 (Rear Disc, EN) on TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "front brake disc": {
-     "T2022346": "Front Disc, MX | TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2025029": "Front Disc, EN | TF 250-E, TF 450-E 2026"
-    },
-    "rear brake disc": {
-     "T2027974": "Rear Disc, MX | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2025031": "Rear Disc, EN | TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-pads-a",
+   "id": "fit2-triumph-pads",
    "domain": "maintenance",
    "topic": "brake pads interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -970,81 +416,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-pads-b",
-   "domain": "maintenance",
-   "topic": "brake pads interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, brake pads, by OEM part number. Front brake pads: T2022355 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Rear brake pads: T2022348 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "front brake pads": {
-     "T2022355": "Front Brake Pads Kit | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "rear brake pads": {
-     "T2022348": "Kit, Rear Brake Pad | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-pads-c",
-   "domain": "maintenance",
-   "topic": "brake pads interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, brake pads, by OEM part number. Front brake pads: T2022355 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Rear brake pads: T2022348 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "front brake pads": {
-     "T2022355": "Front Brake Pads Kit | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "rear brake pads": {
-     "T2022348": "Kit, Rear Brake Pad | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-brakes-a",
+   "id": "fit2-triumph-brakes",
    "domain": "chassis",
    "topic": "brake calipers and master cylinders interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -1079,95 +463,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-brakes-b",
-   "domain": "chassis",
-   "topic": "brake calipers and master cylinders interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, brake calipers and master cylinders, by OEM part number. Front brake caliper: T2025026 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Rear brake caliper: T2025028 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Front brake master cylinder: T2025023 on TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2027181 on TF 250-E, TF 450-E 2026. Rear brake master cylinder: T2025027 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "front brake caliper": {
-     "T2025026": "Front Caliper Assembly | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "rear brake caliper": {
-     "T2025028": "Rear Caliper Assembly | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "front brake master cylinder": {
-     "T2025023": "Front Master Cylinder Assy, MX | TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2027181": "Front Master Cylinder Assy, EN | TF 250-E, TF 450-E 2026"
-    },
-    "rear brake master cylinder": {
-     "T2025027": "Rear Master Cylinder | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-brakes-c",
-   "domain": "chassis",
-   "topic": "brake calipers and master cylinders interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, brake calipers and master cylinders, by OEM part number. Front brake caliper: T2025026 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Rear brake caliper: T2025028 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Front brake master cylinder: T2025023 on TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2027181 on TF 250-E, TF 450-E 2026. Rear brake master cylinder: T2025027 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "front brake caliper": {
-     "T2025026": "Front Caliper Assembly | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "rear brake caliper": {
-     "T2025028": "Rear Caliper Assembly | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "front brake master cylinder": {
-     "T2025023": "Front Master Cylinder Assy, MX | TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2027181": "Front Master Cylinder Assy, EN | TF 250-E, TF 450-E 2026"
-    },
-    "rear brake master cylinder": {
-     "T2025027": "Rear Master Cylinder | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-body-a",
+   "id": "fit2-triumph-body",
    "domain": "chassis",
    "topic": "fenders, side covers, seat and fuel tank interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -1225,141 +533,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market). Seat not found in the catalogue for TF 450-RC Edition 2025, TF 250-C, TF 450-C 2026 (unknown, not 'does not exist')."
   },
   {
-   "id": "fit2-triumph-body-b",
-   "domain": "chassis",
-   "topic": "fenders, side covers, seat and fuel tank interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, fenders, side covers, seat and fuel tank, by OEM part number. Front fender: T2313252 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Rear fender: T2310790 on TF 250-X 2024-2025; T2314149 on TF 250-X 2024-2025; T2313497 on TF 450-RC Edition 2025; T2313790 on TF 250-X, TF 450-X, TF 250-C, TF 450-C 2026 (+1 more in values). Side covers / number plates: T2310630 on TF 250-X 2024-2025; T2310631 on TF 250-X 2024-2025; T2312135 on TF 250-X 2024-2025; T2312136 on TF 250-X 2024-2025 (+13 more in values). Seat: T2310994 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E 2026. Fuel tank: T2402338 on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2405047 on TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026. Same number = same part, it swaps; different number = different part.",
-   "values": {
-    "front fender": {
-     "T2313252": "Front Mudguard | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "rear fender": {
-     "T2310790": "Rear Mudguard, Upper, MX > CB2068 | TF 250-X 2024-2025",
-     "T2314149": "Rear Mudguard, Upper, MX CB2069 > | TF 250-X 2024-2025",
-     "T2313497": "Rear Mudguard, Upper, MX | TF 450-RC Edition 2025",
-     "T2313790": "Rear Mudguard, Upper, MX | TF 250-X, TF 450-X, TF 250-C, TF 450-C 2026",
-     "T2313792": "Rear Mudguard, Upper, EN | TF 250-E, TF 450-E 2026"
-    },
-    "side covers / number plates": {
-     "T2310630": "Cover, Fuel Tank, LHS > CB2068 | TF 250-X 2024-2025",
-     "T2310631": "Cover, Fuel Tank, RHS > CB2068 | TF 250-X 2024-2025",
-     "T2312135": "Cover, Airbox, LH, Mldg > CB2068 | TF 250-X 2024-2025",
-     "T2312136": "Cover, Airbox, RH, Mldg > CB2068 | TF 250-X 2024-2025",
-     "T2313890": "Cover, Fuel Tank, LHS CB2069 > | TF 250-X 2024-2025",
-     "T2313891": "Cover, Fuel Tank, RHS CB2069 > | TF 250-X 2024-2025",
-     "T2314450": "Cover Panel, Air Filter Supplied with Bike - Not Fitted | TF 250-X 2024-2026, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026",
-     "T2314471": "Cover, Airbox, LH, Mldg CB2069 > | TF 250-X 2024-2025",
-     "T2314472": "Cover, Airbox, RH, Mldg CB2069 > | TF 250-X 2024-2025",
-     "T2313616": "Cover, Fuel Tank, LHS | TF 450-RC Edition 2025",
-     "T2313618": "Cover, Fuel Tank, RHS | TF 450-RC Edition 2025",
-     "T2313681": "Cover, Airbox, LH, Mldg | TF 450-RC Edition 2025",
-     "T2313683": "Cover, Airbox, RH, Mldg | TF 450-RC Edition 2025",
-     "T2313590": "Cover, Fuel Tank, LHS | TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026",
-     "T2313591": "Cover, Fuel Tanks, RHS | TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026",
-     "T2313663": "Cover, Airbox, LH, Mldg | TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026",
-     "T2313667": "Cover Airbox, RH, Mldg | TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026"
-    },
-    "seat": {
-     "T2310994": "Seat Assembly | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E 2026"
-    },
-    "fuel tank": {
-     "T2402338": "Fuel Tank, MX | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2405047": "Fuel Tank, EN | TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market). Seat not found in the catalogue for TF 450-RC Edition 2025, TF 250-C, TF 450-C 2026 (unknown, not 'does not exist')."
-  },
-  {
-   "id": "fit2-triumph-body-c",
-   "domain": "chassis",
-   "topic": "fenders, side covers, seat and fuel tank interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, fenders, side covers, seat and fuel tank, by OEM part number. Front fender: T2313252 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Rear fender: T2310790 on TF 250-X 2024-2025; T2314149 on TF 250-X 2024-2025; T2313497 on TF 450-RC Edition 2025; T2313790 on TF 250-X, TF 450-X, TF 250-C, TF 450-C 2026 (+1 more in values). Side covers / number plates: T2310630 on TF 250-X 2024-2025; T2310631 on TF 250-X 2024-2025; T2312135 on TF 250-X 2024-2025; T2312136 on TF 250-X 2024-2025 (+13 more in values). Seat: T2310994 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E 2026. Fuel tank: T2402338 on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2405047 on TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026. Same number = same part, it swaps; different number = different part.",
-   "values": {
-    "front fender": {
-     "T2313252": "Front Mudguard | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "rear fender": {
-     "T2310790": "Rear Mudguard, Upper, MX > CB2068 | TF 250-X 2024-2025",
-     "T2314149": "Rear Mudguard, Upper, MX CB2069 > | TF 250-X 2024-2025",
-     "T2313497": "Rear Mudguard, Upper, MX | TF 450-RC Edition 2025",
-     "T2313790": "Rear Mudguard, Upper, MX | TF 250-X, TF 450-X, TF 250-C, TF 450-C 2026",
-     "T2313792": "Rear Mudguard, Upper, EN | TF 250-E, TF 450-E 2026"
-    },
-    "side covers / number plates": {
-     "T2310630": "Cover, Fuel Tank, LHS > CB2068 | TF 250-X 2024-2025",
-     "T2310631": "Cover, Fuel Tank, RHS > CB2068 | TF 250-X 2024-2025",
-     "T2312135": "Cover, Airbox, LH, Mldg > CB2068 | TF 250-X 2024-2025",
-     "T2312136": "Cover, Airbox, RH, Mldg > CB2068 | TF 250-X 2024-2025",
-     "T2313890": "Cover, Fuel Tank, LHS CB2069 > | TF 250-X 2024-2025",
-     "T2313891": "Cover, Fuel Tank, RHS CB2069 > | TF 250-X 2024-2025",
-     "T2314450": "Cover Panel, Air Filter Supplied with Bike - Not Fitted | TF 250-X 2024-2026, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026",
-     "T2314471": "Cover, Airbox, LH, Mldg CB2069 > | TF 250-X 2024-2025",
-     "T2314472": "Cover, Airbox, RH, Mldg CB2069 > | TF 250-X 2024-2025",
-     "T2313616": "Cover, Fuel Tank, LHS | TF 450-RC Edition 2025",
-     "T2313618": "Cover, Fuel Tank, RHS | TF 450-RC Edition 2025",
-     "T2313681": "Cover, Airbox, LH, Mldg | TF 450-RC Edition 2025",
-     "T2313683": "Cover, Airbox, RH, Mldg | TF 450-RC Edition 2025",
-     "T2313590": "Cover, Fuel Tank, LHS | TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026",
-     "T2313591": "Cover, Fuel Tanks, RHS | TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026",
-     "T2313663": "Cover, Airbox, LH, Mldg | TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026",
-     "T2313667": "Cover Airbox, RH, Mldg | TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026"
-    },
-    "seat": {
-     "T2310994": "Seat Assembly | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E 2026"
-    },
-    "fuel tank": {
-     "T2402338": "Fuel Tank, MX | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2405047": "Fuel Tank, EN | TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market). Seat not found in the catalogue for TF 450-RC Edition 2025, TF 250-C, TF 450-C 2026 (unknown, not 'does not exist')."
-  },
-  {
-   "id": "fit2-triumph-radiators-a",
+   "id": "fit2-triumph-radiators",
    "domain": "chassis",
    "topic": "radiators interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -1387,81 +573,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-radiators-b",
-   "domain": "chassis",
-   "topic": "radiators interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, radiators, by OEM part number. Radiators: T2105030 on TF 250-X 2024-2025; T2105031 on TF 250-X 2024-2025; T2105040 on TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2105041 on TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "radiators": {
-     "T2105030": "Radiator Assy, RH, 28mm Core | TF 250-X 2024-2025",
-     "T2105031": "Radiator Assy, LH, 28mm Core | TF 250-X 2024-2025",
-     "T2105040": "Radiator Assy, RH, 28mm Core | TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2105041": "Radiator Assy, LH, 28mm Core | TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-radiators-c",
-   "domain": "chassis",
-   "topic": "radiators interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, radiators, by OEM part number. Radiators: T2105030 on TF 250-X 2024-2025; T2105031 on TF 250-X 2024-2025; T2105040 on TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2105041 on TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "radiators": {
-     "T2105030": "Radiator Assy, RH, 28mm Core | TF 250-X 2024-2025",
-     "T2105031": "Radiator Assy, LH, 28mm Core | TF 250-X 2024-2025",
-     "T2105040": "Radiator Assy, RH, 28mm Core | TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2105041": "Radiator Assy, LH, 28mm Core | TF 250-X, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-exhaust-a",
+   "id": "fit2-triumph-exhaust",
    "domain": "engine_mods",
    "topic": "exhaust header and silencer interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -1499,101 +623,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-exhaust-b",
-   "domain": "engine_mods",
-   "topic": "exhaust header and silencer interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, exhaust header and silencer, by OEM part number. Exhaust header and silencer: T2204970 on TF 250-X 2024-2025; T2205896 on TF 250-X 2024-2026, TF 250-E, TF 250-C 2026; T9601511 on TF 250-X 2024-2025; T9601512 on TF 250-X 2024-2025; T2205916 on TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025; T2208154 on TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025; T2205942 on TF 450-E 2026 and 7 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "exhaust header and silencer": {
-     "T2204970": "Silencer Assembly | TF 250-X 2024-2025",
-     "T2205896": "Header Pipe Assembly | TF 250-X 2024-2026, TF 250-E, TF 250-C 2026",
-     "T9601511": "Header Pipe, Titanium | TF 250-X 2024-2025",
-     "T9601512": "Silencer, Titanium | TF 250-X 2024-2025",
-     "T2205916": "Header Pipe Assembly | TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2208154": "Silencer Assembly | TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2205942": "Header Pipe Assembly US & CA Only | TF 450-E 2026",
-     "T2206112": "Header Pipe Assembly, EU5 All Except US & CA | TF 450-E 2026",
-     "T2206278": "Silencer Assy, EN US & CA Only | TF 450-E 2026",
-     "T2206633": "Silencer Assembly, EN US & CA Only | TF 250-E 2026",
-     "T2206644": "Silencer Assy, EN All Except US & CA | TF 250-E 2026",
-     "T2206926": "Header Pipe Assembly, EU5 All Except US & CA | TF 250-E 2026",
-     "T2208156": "Silencer Assembly, EN All Except US & CA | TF 450-E 2026",
-     "T2209937": "Silencer Assembly | TF 250-X, TF 250-C 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-exhaust-c",
-   "domain": "engine_mods",
-   "topic": "exhaust header and silencer interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, exhaust header and silencer, by OEM part number. Exhaust header and silencer: T2204970 on TF 250-X 2024-2025; T2205896 on TF 250-X 2024-2026, TF 250-E, TF 250-C 2026; T9601511 on TF 250-X 2024-2025; T9601512 on TF 250-X 2024-2025; T2205916 on TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025; T2208154 on TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025; T2205942 on TF 450-E 2026 and 7 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "exhaust header and silencer": {
-     "T2204970": "Silencer Assembly | TF 250-X 2024-2025",
-     "T2205896": "Header Pipe Assembly | TF 250-X 2024-2026, TF 250-E, TF 250-C 2026",
-     "T9601511": "Header Pipe, Titanium | TF 250-X 2024-2025",
-     "T9601512": "Silencer, Titanium | TF 250-X 2024-2025",
-     "T2205916": "Header Pipe Assembly | TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2208154": "Silencer Assembly | TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2205942": "Header Pipe Assembly US & CA Only | TF 450-E 2026",
-     "T2206112": "Header Pipe Assembly, EU5 All Except US & CA | TF 450-E 2026",
-     "T2206278": "Silencer Assy, EN US & CA Only | TF 450-E 2026",
-     "T2206633": "Silencer Assembly, EN US & CA Only | TF 250-E 2026",
-     "T2206644": "Silencer Assy, EN All Except US & CA | TF 250-E 2026",
-     "T2206926": "Header Pipe Assembly, EU5 All Except US & CA | TF 250-E 2026",
-     "T2208156": "Silencer Assembly, EN All Except US & CA | TF 450-E 2026",
-     "T2209937": "Silencer Assembly | TF 250-X, TF 250-C 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-ecu-a",
+   "id": "fit2-triumph-ecu",
    "domain": "ecu_electronics",
    "topic": "engine control unit (ECU / CDI) interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -1618,75 +660,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-ecu-b",
-   "domain": "ecu_electronics",
-   "topic": "engine control unit (ECU / CDI) interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, engine control unit (ECU / CDI), by OEM part number. Engine control unit: T1290625 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "engine control unit": {
-     "T1290625": "ECU, MX, EN, Spares | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-ecu-c",
-   "domain": "ecu_electronics",
-   "topic": "engine control unit (ECU / CDI) interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, engine control unit (ECU / CDI), by OEM part number. Engine control unit: T1290625 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "engine control unit": {
-     "T1290625": "ECU, MX, EN, Spares | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-chain-a",
+   "id": "fit2-triumph-chain",
    "domain": "drivetrain",
    "topic": "chain size and length, sprocket tooth counts interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -1724,101 +710,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-chain-b",
-   "domain": "drivetrain",
-   "topic": "chain size and length, sprocket tooth counts interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, chain size and length, sprocket tooth counts, by OEM part number. Drive chain (size and length): T2015057 (Chain, Final Drive, 520, 114L) on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2018738 (Chain and Sprocket Kit Contains item 16, item 17 & front sprocke) on TF 250-X 2024-2026, TF 450-X, TF 250-C 2026, TF 450-RC Edition 2025; T2015066 (Chain, Final Drive, Sealed, 114L) on TF 250-C, TF 450-C 2026; T2015073 (Chain, Final Drive, 116L, Sealed US & CA Only) on TF 250-E, TF 450-E 2026 (+1 more in values). Rear sprocket tooth counts: T2015061 (Rear Sprocket, 48T) on TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2015062 (Rear Sprocket, 51T US & CA Only) on TF 250-E, TF 450-E 2026; T2015063 (Rear Sprocket, 52T All Except US & CA) on TF 250-E, TF 450-E 2026. Front (countershaft) sprocket: T1180438 (Sprocket, Front, 13T) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T1180701 (Sprocket, Output, 14T All Expt CA & US) on TF 250-E, TF 450-E 2026. Same number = same part, it swaps; different number = different part.",
-   "values": {
-    "drive chain (size and length)": {
-     "T2015057": "Chain, Final Drive, 520, 114L | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2018738": "Chain and Sprocket Kit Contains item 16, item 17 & front sprocke | TF 250-X 2024-2026, TF 450-X, TF 250-C 2026, TF 450-RC Edition 2025",
-     "T2015066": "Chain, Final Drive, Sealed, 114L | TF 250-C, TF 450-C 2026",
-     "T2015073": "Chain, Final Drive, 116L, Sealed US & CA Only | TF 250-E, TF 450-E 2026",
-     "T2019353": "Chain, Final Drive, 118L, Sealed All Except US & CA | TF 250-E, TF 450-E 2026"
-    },
-    "rear sprocket tooth counts": {
-     "T2015061": "Rear Sprocket, 48T | TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2015062": "Rear Sprocket, 51T US & CA Only | TF 250-E, TF 450-E 2026",
-     "T2015063": "Rear Sprocket, 52T All Except US & CA | TF 250-E, TF 450-E 2026"
-    },
-    "front (countershaft) sprocket": {
-     "T1180438": "Sprocket, Front, 13T | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T1180701": "Sprocket, Output, 14T All Expt CA & US | TF 250-E, TF 450-E 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-chain-c",
-   "domain": "drivetrain",
-   "topic": "chain size and length, sprocket tooth counts interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, chain size and length, sprocket tooth counts, by OEM part number. Drive chain (size and length): T2015057 (Chain, Final Drive, 520, 114L) on TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025; T2018738 (Chain and Sprocket Kit Contains item 16, item 17 & front sprocke) on TF 250-X 2024-2026, TF 450-X, TF 250-C 2026, TF 450-RC Edition 2025; T2015066 (Chain, Final Drive, Sealed, 114L) on TF 250-C, TF 450-C 2026; T2015073 (Chain, Final Drive, 116L, Sealed US & CA Only) on TF 250-E, TF 450-E 2026 (+1 more in values). Rear sprocket tooth counts: T2015061 (Rear Sprocket, 48T) on TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2015062 (Rear Sprocket, 51T US & CA Only) on TF 250-E, TF 450-E 2026; T2015063 (Rear Sprocket, 52T All Except US & CA) on TF 250-E, TF 450-E 2026. Front (countershaft) sprocket: T1180438 (Sprocket, Front, 13T) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T1180701 (Sprocket, Output, 14T All Expt CA & US) on TF 250-E, TF 450-E 2026. Same number = same part, it swaps; different number = different part.",
-   "values": {
-    "drive chain (size and length)": {
-     "T2015057": "Chain, Final Drive, 520, 114L | TF 250-X 2024-2026, TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2018738": "Chain and Sprocket Kit Contains item 16, item 17 & front sprocke | TF 250-X 2024-2026, TF 450-X, TF 250-C 2026, TF 450-RC Edition 2025",
-     "T2015066": "Chain, Final Drive, Sealed, 114L | TF 250-C, TF 450-C 2026",
-     "T2015073": "Chain, Final Drive, 116L, Sealed US & CA Only | TF 250-E, TF 450-E 2026",
-     "T2019353": "Chain, Final Drive, 118L, Sealed All Except US & CA | TF 250-E, TF 450-E 2026"
-    },
-    "rear sprocket tooth counts": {
-     "T2015061": "Rear Sprocket, 48T | TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2015062": "Rear Sprocket, 51T US & CA Only | TF 250-E, TF 450-E 2026",
-     "T2015063": "Rear Sprocket, 52T All Except US & CA | TF 250-E, TF 450-E 2026"
-    },
-    "front (countershaft) sprocket": {
-     "T1180438": "Sprocket, Front, 13T | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T1180701": "Sprocket, Output, 14T All Expt CA & US | TF 250-E, TF 450-E 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-clutch-a",
+   "id": "fit2-triumph-clutch",
    "domain": "drivetrain",
    "topic": "clutch plates and springs interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -1856,101 +760,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market). Clutch steel plates not found in the catalogue for TF 250-X, TF 250-C 2026 (unknown, not 'does not exist'). Clutch springs not found in the catalogue for TF 250-E 2026 (unknown, not 'does not exist')."
   },
   {
-   "id": "fit2-triumph-clutch-b",
-   "domain": "drivetrain",
-   "topic": "clutch plates and springs interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, clutch plates and springs, by OEM part number. Clutch friction plates: T1170266 (Friction Disc, Clutch) on TF 250-X 2024-2025, TF 250-E 2026; T1170342 (Disc Set, Clutch) on TF 250-X 2024-2026, TF 250-E, TF 250-C 2026; T1170354 (Friction Disc, Clutch) on TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025; T1170383 (Disc Set, clutch Includes items 5, 6 and 30) on TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025. Clutch steel plates: T1170267 (Clutch Plate) on TF 250-X 2024-2025, TF 250-E 2026; T1170355 (Clutch Plate) on TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025; T1170356 (Clutch Plate) on TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025. Clutch springs: T1170269 (Spring, Belleville, clutch) on TF 250-X 2024-2026, TF 250-C 2026; T1171329 (Spring, Belleville, Clutch) on TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025; T1170358 (Spring, Belleville, Clutch) on TF 450-E 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "clutch friction plates": {
-     "T1170266": "Friction Disc, Clutch | TF 250-X 2024-2025, TF 250-E 2026",
-     "T1170342": "Disc Set, Clutch | TF 250-X 2024-2026, TF 250-E, TF 250-C 2026",
-     "T1170354": "Friction Disc, Clutch | TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T1170383": "Disc Set, clutch Includes items 5, 6 and 30 | TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "clutch steel plates": {
-     "T1170267": "Clutch Plate | TF 250-X 2024-2025, TF 250-E 2026",
-     "T1170355": "Clutch Plate | TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T1170356": "Clutch Plate | TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "clutch springs": {
-     "T1170269": "Spring, Belleville, clutch | TF 250-X 2024-2026, TF 250-C 2026",
-     "T1171329": "Spring, Belleville, Clutch | TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T1170358": "Spring, Belleville, Clutch | TF 450-E 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market). Clutch steel plates not found in the catalogue for TF 250-X, TF 250-C 2026 (unknown, not 'does not exist'). Clutch springs not found in the catalogue for TF 250-E 2026 (unknown, not 'does not exist')."
-  },
-  {
-   "id": "fit2-triumph-clutch-c",
-   "domain": "drivetrain",
-   "topic": "clutch plates and springs interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, clutch plates and springs, by OEM part number. Clutch friction plates: T1170266 (Friction Disc, Clutch) on TF 250-X 2024-2025, TF 250-E 2026; T1170342 (Disc Set, Clutch) on TF 250-X 2024-2026, TF 250-E, TF 250-C 2026; T1170354 (Friction Disc, Clutch) on TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025; T1170383 (Disc Set, clutch Includes items 5, 6 and 30) on TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025. Clutch steel plates: T1170267 (Clutch Plate) on TF 250-X 2024-2025, TF 250-E 2026; T1170355 (Clutch Plate) on TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025; T1170356 (Clutch Plate) on TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025. Clutch springs: T1170269 (Spring, Belleville, clutch) on TF 250-X 2024-2026, TF 250-C 2026; T1171329 (Spring, Belleville, Clutch) on TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025; T1170358 (Spring, Belleville, Clutch) on TF 450-E 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "clutch friction plates": {
-     "T1170266": "Friction Disc, Clutch | TF 250-X 2024-2025, TF 250-E 2026",
-     "T1170342": "Disc Set, Clutch | TF 250-X 2024-2026, TF 250-E, TF 250-C 2026",
-     "T1170354": "Friction Disc, Clutch | TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T1170383": "Disc Set, clutch Includes items 5, 6 and 30 | TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "clutch steel plates": {
-     "T1170267": "Clutch Plate | TF 250-X 2024-2025, TF 250-E 2026",
-     "T1170355": "Clutch Plate | TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T1170356": "Clutch Plate | TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025"
-    },
-    "clutch springs": {
-     "T1170269": "Spring, Belleville, clutch | TF 250-X 2024-2026, TF 250-C 2026",
-     "T1171329": "Spring, Belleville, Clutch | TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T1170358": "Spring, Belleville, Clutch | TF 450-E 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market). Clutch steel plates not found in the catalogue for TF 250-X, TF 250-C 2026 (unknown, not 'does not exist'). Clutch springs not found in the catalogue for TF 250-E 2026 (unknown, not 'does not exist')."
-  },
-  {
-   "id": "fit2-triumph-airfilter-a",
+   "id": "fit2-triumph-airfilter",
    "domain": "maintenance",
    "topic": "air filter element interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -1975,75 +797,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-airfilter-b",
-   "domain": "maintenance",
-   "topic": "air filter element interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, air filter element, by OEM part number. Air filter element: T2205329 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "air filter element": {
-     "T2205329": "Air Filter, Foam, Assy, Spares | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-airfilter-c",
-   "domain": "maintenance",
-   "topic": "air filter element interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, air filter element, by OEM part number. Air filter element: T2205329 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "air filter element": {
-     "T2205329": "Air Filter, Foam, Assy, Spares | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-oilfilter-a",
+   "id": "fit2-triumph-oilfilter",
    "domain": "maintenance",
    "topic": "oil filter interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -2068,75 +834,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-oilfilter-b",
-   "domain": "maintenance",
-   "topic": "oil filter interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, oil filter, by OEM part number. Oil filter: T1210378 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "oil filter": {
-     "T1210378": "Filter, Oil, Element | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-oilfilter-c",
-   "domain": "maintenance",
-   "topic": "oil filter interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, oil filter, by OEM part number. Oil filter: T1210378 on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "oil filter": {
-     "T1210378": "Filter, Oil, Element | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-plug-a",
+   "id": "fit2-triumph-plug",
    "domain": "maintenance",
    "topic": "spark plug interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -2163,79 +873,19 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-plug-b",
-   "domain": "maintenance",
-   "topic": "spark plug interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, spark plug, by OEM part number. Spark plug: T1150469 (Tube, Spark Plug) on TF 250-X 2024-2026, TF 250-E, TF 250-C 2026; T2504107 (Cap, Spark Plug) on TF 250-X 2024-2026, TF 250-E, TF 250-C 2026; T2504268 (Cap, Spark Plug) on TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "spark plug": {
-     "T1150469": "Tube, Spark Plug | TF 250-X 2024-2026, TF 250-E, TF 250-C 2026",
-     "T2504107": "Cap, Spark Plug | TF 250-X 2024-2026, TF 250-E, TF 250-C 2026",
-     "T2504268": "Cap, Spark Plug | TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-plug-c",
-   "domain": "maintenance",
-   "topic": "spark plug interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, spark plug, by OEM part number. Spark plug: T1150469 (Tube, Spark Plug) on TF 250-X 2024-2026, TF 250-E, TF 250-C 2026; T2504107 (Cap, Spark Plug) on TF 250-X 2024-2026, TF 250-E, TF 250-C 2026; T2504268 (Cap, Spark Plug) on TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "spark plug": {
-     "T1150469": "Tube, Spark Plug | TF 250-X 2024-2026, TF 250-E, TF 250-C 2026",
-     "T2504107": "Cap, Spark Plug | TF 250-X 2024-2026, TF 250-E, TF 250-C 2026",
-     "T2504268": "Cap, Spark Plug | TF 450-X, TF 450-E, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-fork-a",
+   "id": "fit2-triumph-fork",
    "domain": "suspension",
    "topic": "fork units, fork springs and fork seals interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
@@ -2283,207 +933,23 @@
    "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
   },
   {
-   "id": "fit2-triumph-fork-b",
-   "domain": "suspension",
-   "topic": "fork units, fork springs and fork seals interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, fork units, fork springs and fork seals, by OEM part number. Fork legs (complete units): T2043161 on TF 250-X 2024-2026; T2043162 on TF 250-X 2024-2026; T2046481 on TF 450-X 2026, TF 450-RC Edition 2025 (+5 more in values). Fork springs: T2048916 (Spring Kit, Front Fork, K4.5) on TF 250-X 2024-2026, TF 250-E, TF 450-E, TF 250-C 2026; T2048917 (Spring Kit, Front Fork, K4.6) on TF 250-X 2024-2026, TF 250-E, TF 450-E, TF 250-C 2026; T2048918 (Spring Kit, Front Fork, K4.7) on TF 250-X 2024-2026, TF 250-E, TF 450-E, TF 250-C 2026 (+6 more in values). Fork oil and dust seals (size): T2045317 (Oil Seal) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2045319 (Dust Seal) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2045341 (Fork Seal Kit Contains item 17 & 21) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same number = same part, it swaps; different number = different part.",
-   "values": {
-    "fork legs (complete units)": {
-     "T2043161": "Front Fork, LH, MX1 This part is coated with a high performance  | TF 250-X 2024-2026",
-     "T2043162": "Front Fork, RH, MX1 This part is coated with a high performance  | TF 250-X 2024-2026",
-     "T2046481": "Front Fork, LH This part is coated with a high performance anodi | TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2046482": "Front Fork, RH This part is coated with a high performance anodi | TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2043173": "Front Fork, LH, EN This part is coated with a high performance a | TF 250-E, TF 450-E 2026",
-     "T2043174": "Front Fork, RH, EN This part is coated with a high performance a | TF 250-E, TF 450-E 2026",
-     "T2045181": "Front Fork, LH, XC This part is coated with a high performance a | TF 250-C, TF 450-C 2026",
-     "T2045182": "Front Fork, RH, XC This part is coated with a high performance a | TF 250-C, TF 450-C 2026"
-    },
-    "fork springs": {
-     "T2048916": "Spring Kit, Front Fork, K4.5 | TF 250-X 2024-2026, TF 250-E, TF 450-E, TF 250-C 2026",
-     "T2048917": "Spring Kit, Front Fork, K4.6 | TF 250-X 2024-2026, TF 250-E, TF 450-E, TF 250-C 2026",
-     "T2048918": "Spring Kit, Front Fork, K4.7 | TF 250-X 2024-2026, TF 250-E, TF 450-E, TF 250-C 2026",
-     "T2048919": "Spring Kit, Front Fork, K4.8 | TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2048920": "Spring Kit, Front Fork, K4.9 | TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2048921": "Spring Kit, Front Fork, K5.0 | TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2048922": "Spring Kit, Front Fork, K5.1 | TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2048912": "Spring Kit, Front Fork, K4.2 | TF 250-E, TF 450-E 2026",
-     "T2048914": "Spring Kit, Front Fork, K4.4 | TF 250-E, TF 450-E 2026"
-    },
-    "fork oil and dust seals (size)": {
-     "T2045317": "Oil Seal | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2045319": "Dust Seal | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2045341": "Fork Seal Kit Contains item 17 & 21 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-fork-c",
-   "domain": "suspension",
-   "topic": "fork units, fork springs and fork seals interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, fork units, fork springs and fork seals, by OEM part number. Fork legs (complete units): T2043161 on TF 250-X 2024-2026; T2043162 on TF 250-X 2024-2026; T2046481 on TF 450-X 2026, TF 450-RC Edition 2025 (+5 more in values). Fork springs: T2048916 (Spring Kit, Front Fork, K4.5) on TF 250-X 2024-2026, TF 250-E, TF 450-E, TF 250-C 2026; T2048917 (Spring Kit, Front Fork, K4.6) on TF 250-X 2024-2026, TF 250-E, TF 450-E, TF 250-C 2026; T2048918 (Spring Kit, Front Fork, K4.7) on TF 250-X 2024-2026, TF 250-E, TF 450-E, TF 250-C 2026 (+6 more in values). Fork oil and dust seals (size): T2045317 (Oil Seal) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2045319 (Dust Seal) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2045341 (Fork Seal Kit Contains item 17 & 21) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same number = same part, it swaps; different number = different part.",
-   "values": {
-    "fork legs (complete units)": {
-     "T2043161": "Front Fork, LH, MX1 This part is coated with a high performance  | TF 250-X 2024-2026",
-     "T2043162": "Front Fork, RH, MX1 This part is coated with a high performance  | TF 250-X 2024-2026",
-     "T2046481": "Front Fork, LH This part is coated with a high performance anodi | TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2046482": "Front Fork, RH This part is coated with a high performance anodi | TF 450-X 2026, TF 450-RC Edition 2025",
-     "T2043173": "Front Fork, LH, EN This part is coated with a high performance a | TF 250-E, TF 450-E 2026",
-     "T2043174": "Front Fork, RH, EN This part is coated with a high performance a | TF 250-E, TF 450-E 2026",
-     "T2045181": "Front Fork, LH, XC This part is coated with a high performance a | TF 250-C, TF 450-C 2026",
-     "T2045182": "Front Fork, RH, XC This part is coated with a high performance a | TF 250-C, TF 450-C 2026"
-    },
-    "fork springs": {
-     "T2048916": "Spring Kit, Front Fork, K4.5 | TF 250-X 2024-2026, TF 250-E, TF 450-E, TF 250-C 2026",
-     "T2048917": "Spring Kit, Front Fork, K4.6 | TF 250-X 2024-2026, TF 250-E, TF 450-E, TF 250-C 2026",
-     "T2048918": "Spring Kit, Front Fork, K4.7 | TF 250-X 2024-2026, TF 250-E, TF 450-E, TF 250-C 2026",
-     "T2048919": "Spring Kit, Front Fork, K4.8 | TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2048920": "Spring Kit, Front Fork, K4.9 | TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2048921": "Spring Kit, Front Fork, K5.0 | TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2048922": "Spring Kit, Front Fork, K5.1 | TF 450-X, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2048912": "Spring Kit, Front Fork, K4.2 | TF 250-E, TF 450-E 2026",
-     "T2048914": "Spring Kit, Front Fork, K4.4 | TF 250-E, TF 450-E 2026"
-    },
-    "fork oil and dust seals (size)": {
-     "T2045317": "Oil Seal | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2045319": "Dust Seal | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2045341": "Fork Seal Kit Contains item 17 & 21 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-shock-a",
+   "id": "fit2-triumph-shock",
    "domain": "suspension",
    "topic": "shock unit and shock springs interchange (OEM part numbers)",
    "applies_to": {
     "make": "Triumph",
     "models": [
-     "TF 250-X"
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
     ],
     "years": [
      2024,
      2025,
-     2026
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, shock unit and shock springs, by OEM part number. Rear shock (complete unit): T2051711 on TF 250-X 2024-2026, TF 250-C, TF 450-C 2026; T2053015 on TF 450-RC Edition 2025; T2051628 on TF 250-E, TF 450-E 2026; T2054044 on TF 450-X 2026. Shock springs: T2051866 (Spring Kit, RSU, K52) on TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2051867 (Spring Kit, RSU, K54) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2051868 (Spring Kit, RSU, K56) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2051869 (Spring Kit, RSU, K58) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2051870 (Spring Kit, RSU, K60) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "rear shock (complete unit)": {
-     "T2051711": "Rear Suspension Unit | TF 250-X 2024-2026, TF 250-C, TF 450-C 2026",
-     "T2053015": "Rear Suspension Unit | TF 450-RC Edition 2025",
-     "T2051628": "Rear Suspension Unit | TF 250-E, TF 450-E 2026",
-     "T2054044": "Rear Suspension Unit | TF 450-X 2026"
-    },
-    "shock springs": {
-     "T2051866": "Spring Kit, RSU, K52 | TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2051867": "Spring Kit, RSU, K54 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2051868": "Spring Kit, RSU, K56 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2051869": "Spring Kit, RSU, K58 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2051870": "Spring Kit, RSU, K60 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-shock-b",
-   "domain": "suspension",
-   "topic": "shock unit and shock springs interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-RC Edition"
-    ],
-    "years": [
-     2025
-    ]
-   },
-   "statement": "Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026, shock unit and shock springs, by OEM part number. Rear shock (complete unit): T2051711 on TF 250-X 2024-2026, TF 250-C, TF 450-C 2026; T2053015 on TF 450-RC Edition 2025; T2051628 on TF 250-E, TF 450-E 2026; T2054044 on TF 450-X 2026. Shock springs: T2051866 (Spring Kit, RSU, K52) on TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2051867 (Spring Kit, RSU, K54) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2051868 (Spring Kit, RSU, K56) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2051869 (Spring Kit, RSU, K58) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025; T2051870 (Spring Kit, RSU, K60) on TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "rear shock (complete unit)": {
-     "T2051711": "Rear Suspension Unit | TF 250-X 2024-2026, TF 250-C, TF 450-C 2026",
-     "T2053015": "Rear Suspension Unit | TF 450-RC Edition 2025",
-     "T2051628": "Rear Suspension Unit | TF 250-E, TF 450-E 2026",
-     "T2054044": "Rear Suspension Unit | TF 450-X 2026"
-    },
-    "shock springs": {
-     "T2051866": "Spring Kit, RSU, K52 | TF 250-X 2024-2026, TF 450-X, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2051867": "Spring Kit, RSU, K54 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2051868": "Spring Kit, RSU, K56 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2051869": "Spring Kit, RSU, K58 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025",
-     "T2051870": "Spring Kit, RSU, K60 | TF 250-X 2024-2026, TF 450-X, TF 250-E, TF 450-E, TF 250-C, TF 450-C 2026, TF 450-RC Edition 2025"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "Triumph Waukesha OEM parts store",
-    "url": "https://www.triumphpartstore.com/us/catalog/TF250-X/2024/TF250-X/all",
-    "date": "2026-10-13"
-   },
-   "confidence": "high",
-   "notes": "Part numbers read from Authorized Triumph dealer OEM catalog (US) (US market)."
-  },
-  {
-   "id": "fit2-triumph-shock-c",
-   "domain": "suspension",
-   "topic": "shock unit and shock springs interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Triumph",
-    "models": [
-     "TF 450-X",
-     "TF 250-E",
-     "TF 450-E",
-     "TF 250-C",
-     "TF 450-C"
-    ],
-    "years": [
      2026
     ]
    },
