@@ -137,3 +137,7 @@ mode rows). Coupler colours are not stored (the colour / setting table is out of
 - Suzuki RM-Z: no public US owner's manual found in this pass; the tuning tool and coupler rows already on file come from
   Suzuki product pages.
 - Triumph: maps, traction, launch and quickshifter rows already on file.
+
+## Loaded (2026-11-07)
+All 366 payloads loaded with private.stage_manual_rows from the pinned commit bca7b6f0 (every hash matched): 544 carburetor
+chart rows and 2,624 fuel-injection rows; all 3,168 passed the evidence gate and were promoted to VERIFIED.
