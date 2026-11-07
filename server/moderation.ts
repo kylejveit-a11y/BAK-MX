@@ -4,7 +4,7 @@ import {HttpError,readJson,uuid} from './validation.ts';
 /** Report queue for administrators. Uses the service role after an explicit membership check;
  * every read and action is written to the admin access log. Removal hides content, it does not delete it. */
 const json=(data:unknown,status=200)=>new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
-const TABLE={post:'posts',comment:'post_comments',event:'events'} as const;
+const TABLE={post:'posts',comment:'post_comments',event:'events',track_report:'track_reports'} as const;
 export const resolveSchema=z.object({report_id:uuid,action:z.enum(['dismiss','remove_content']),note:z.string().trim().max(500).default('')}).strict();
 export async function handleModeration(req:Request,path:string,method:string,owner:string):Promise<Response|null>{
  if(path!=='/api/admin/reports')return null;

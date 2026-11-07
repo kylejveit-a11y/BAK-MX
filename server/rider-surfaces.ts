@@ -35,7 +35,7 @@ export const eventSchema=z.object({title:text(120),event_type:z.enum(EVENT_TYPES
 export const rsvpSchema=z.object({event_id:uuid,status:z.enum(['going','interested']),public:z.boolean().optional()}).strict();
 export const messageSchema=z.object({recipient_id:uuid,body:text(4000)}).strict();
 export const garageSharingSchema=z.object({bike_id:uuid,show_on_profile:z.boolean(),build_sheet_public:z.boolean().default(false),photo_ids:z.array(z.string().uuid()).max(8).default([])}).strict();
-export const reportSchema=z.object({target_type:z.enum(['post','comment','event','message','profile']),target_id:uuid,reason:text(1000)}).strict();
+export const reportSchema=z.object({target_type:z.enum(['post','comment','event','message','profile','track_report']),target_id:uuid,reason:text(1000)}).strict();
 export const feedbackSchema=z.object({category:z.enum(['bug','answer_quality','missing_data','idea','other']),body:text(4000),context:z.record(z.unknown()).default({})}).strict().refine(v=>JSON.stringify(v.context).length<=4000,{message:'Feedback context is too large'});
 const hours=z.number().finite().min(0).max(100000).nullable().default(null);
 export const setupLogSchema=z.object({bike_id:uuid,recorded_at:instant,track:optionalText(120),conditions:optionalText(200),engine_hours:hours,settings:z.record(z.union([z.string().max(200),z.number().finite(),z.null()])).default({}),change_made:optionalText(1000),result:z.enum(['better','worse','no_change','not_tested']).default('not_tested'),notes:optionalText(4000)}).strict().refine(v=>Object.keys(v.settings).length<=60,{message:'Too many settings in one entry'});
