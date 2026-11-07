@@ -1,0 +1,726 @@
+{
+ "slice": "rider fit and ergonomics: Honda handbook, Kawasaki and Triumph maker data, kids' bike sizes, seats and bar bends",
+ "platform": {
+  "make": "Honda",
+  "models": [
+   "125 SX",
+   "150 SX",
+   "250 SX",
+   "250 SX-F",
+   "350 SX-F",
+   "450 SX-F",
+   "50 SX",
+   "65 SX",
+   "CRF250R",
+   "CRF250RX",
+   "CRF450R",
+   "CRF450RX",
+   "KX112",
+   "KX250",
+   "KX250X",
+   "KX450",
+   "KX450X",
+   "KX65",
+   "KX85",
+   "TF 250-C",
+   "TF 250-E",
+   "TF 250-X",
+   "TF 450-C",
+   "TF 450-E",
+   "TF 450-RC Edition",
+   "TF 450-X",
+   "YZ65",
+   "YZ85"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "conflicts": [],
+ "not_found": [
+  {
+   "item": "Honda 2023-2027 CRF handbooks (lever, pedal, bar holder figures)",
+   "searched": "Honda US documentum CDN",
+   "result": "access denied to automated download; not worked around"
+  },
+  {
+   "item": "Husqvarna TC 50/65 and GasGas MC 50/65/85 seat heights",
+   "searched": "not in this pass",
+   "result": "gap"
+  },
+  {
+   "item": "CRF150R 2020-2027 seat height",
+   "searched": "Honda news (only a 2007 spec sheet found)",
+   "result": "gap"
+  }
+ ],
+ "sources": [
+  "https://api.triumphtechnicalinformation.com/handbooks/documents/697b08172114eb1a98f6704f/pdf",
+  "https://api.triumphtechnicalinformation.com/handbooks/documents/697b0a68aa5a3d37f2aa2ef0/pdf",
+  "https://api.triumphtechnicalinformation.com/handbooks/documents/697b112531d8347c29c5ce2b/pdf",
+  "https://api.triumphtechnicalinformation.com/handbooks/documents/697b1c4ec47604be99a352a4/pdf",
+  "https://api.triumphtechnicalinformation.com/handbooks/documents/6ab239eb1685389dfa339f9a/pdf",
+  "https://guam.kawasaki-la.com/en-la/motorcycle/kx/full-size-mx/kx-450",
+  "https://honda-moto.ro/wp-content/uploads/22-CRF250-Handbook-EN-Web.pdf",
+  "https://kawasaki.com/en-us/motorcycle/kx/kx-youth-mx/kx-112/2025-kx112",
+  "https://ktmdirect.co.uk/collections/ktm-50-sx-powerparts-accessories/products/lowering-kit-68mm-45412955044s",
+  "https://ktmdirect.co.uk/products/ktm-low-seat-15mm",
+  "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2025-kx65",
+  "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2025-kx85",
+  "https://www.ktm.com/en-us/models/motocross/2-stroke/2025-ktm-50-sx/technical-specifications.html",
+  "https://www.ktm.com/en-us/models/motocross/2-stroke/2025-ktm-65-sx/technical-specifications.html",
+  "https://www.renthal.com/moto/839-01-HA",
+  "https://www.triumphmotorcycles.com.au/motorcycles/off-road/motocross/tf-250-x-2024",
+  "https://www.yamahamotorsports.com/models/25-yz85/specs",
+  "https://yamahamotorsports.com/models/25-yz65/specs"
+ ],
+ "records": [
+  {
+   "id": "rfit-h-001",
+   "domain": "chassis",
+   "topic": "2022 CRF250R/RX: bar holder positions (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF250RX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Honda's 2022 CRF250R/RX handbook: the lower bar holders are offset 5 mm from their centre line, so turning them 180 degrees sets the bar 10 mm behind standard, and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions in all.",
+   "values": {
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "bar_positions": 4
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2022 CRF250R/CRF250RX Owner's Manual & Competition Handbook (62K95X10), European edition",
+    "url": "https://honda-moto.ro/wp-content/uploads/22-CRF250-Handbook-EN-Web.pdf",
+    "date": "2021-04"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-h-002",
+   "domain": "chassis",
+   "topic": "2022 CRF250R/RX: clutch, brake lever and pedal adjustment (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF250RX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Honda's 2022 CRF250R/RX handbook: clutch lever free play is 10-20 mm measured at the lever end; front brake lever position is set by turning the lever adjuster; brake pedal height is set by turning the rear master cylinder push rod within its standard length of 78.6-80.6 mm and locking it.",
+   "values": {
+    "clutch_lever_free_play_mm": "10-20",
+    "brake_pedal_push_rod_length_mm": "78.6-80.6",
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2022 CRF250R/CRF250RX Owner's Manual & Competition Handbook (62K95X10), European edition",
+    "url": "https://honda-moto.ro/wp-content/uploads/22-CRF250-Handbook-EN-Web.pdf",
+    "date": "2021-04"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-h-003",
+   "domain": "chassis",
+   "topic": "Renthal 839 Fatbar: the Honda CRF bend (dimensions)",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF450R",
+     "CRF250RX",
+     "CRF450RX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Renthal lists its 839 Fatbar as the bend for Honda CRF from 2018 (and Kawasaki KX from 2021): 802 mm wide, 91 mm high, 51 mm rise, 51 mm sweep, 131 mm clamping width, 200 mm control length, 28.6 mm clamp diameter. Renthal says Honda moved to this bend from its 2019 models.",
+   "values": {
+    "width_mm": 802,
+    "height_mm": 91,
+    "rise_mm": 51,
+    "sweep_mm": 51,
+    "clamp_width_mm": 131,
+    "control_length_mm": 200,
+    "clamp_diameter_mm": 28.6
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Renthal, 839 Fatbar product page and 2021 bend recommendations",
+    "url": "https://www.renthal.com/moto/839-01-HA",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Bar maker data. Renthal calls 839 the Honda CRF 2018+ bend; Honda does not publish its stock bar dimensions, so treat it as the matching aftermarket bend, not a Honda spec."
+  },
+  {
+   "id": "rfit-w-001",
+   "domain": "chassis",
+   "topic": "Renthal 839 Fatbar: the Kawasaki KX bend from 2021 (dimensions)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX450",
+     "KX250X",
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Renthal lists its 839 Fatbar for Kawasaki KX from 2021 (and Honda CRF from 2018): 802 mm wide, 91 mm high, 51 mm rise, 51 mm sweep, 131 mm clamping width, 200 mm control length.",
+   "values": {
+    "width_mm": 802,
+    "height_mm": 91,
+    "rise_mm": 51,
+    "sweep_mm": 51,
+    "clamp_width_mm": 131,
+    "control_length_mm": 200
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Renthal, 839 Fatbar product page and 2021 bend recommendations",
+    "url": "https://www.renthal.com/moto/839-01-HA",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Bar maker data, not a Kawasaki spec."
+  },
+  {
+   "id": "rfit-w-002",
+   "domain": "chassis",
+   "topic": "KX450: ERGO-FIT four bar positions and two footpeg positions",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026,
+     2027
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's KX450 page lists ERGO-FIT adjustable parts: four handlebar positions and two footpeg positions, to suit body size and preference, with medium-compound ODI lock-on grips.",
+   "values": {
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "grips": "ODI lock-on, medium compound"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki (Latin America) KX450 model page",
+    "url": "https://guam.kawasaki-la.com/en-la/motorcycle/kx/full-size-mx/kx-450",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "The page covers the current KX450 and lists 2023-2024 models; no millimetre figures given. Footpeg lowering amount (5 mm) is in record kx-092."
+  },
+  {
+   "id": "rfit-t-001",
+   "domain": "chassis",
+   "topic": "TF: rider-fit adjustments (owner's handbook)",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024
+    ],
+    "make": "Triumph"
+   },
+   "statement": "Triumph's handbook: bar height is set by rotating the bar in its clamp; the bar leaves the factory in the rear position and turning the lower clamps 180 degrees moves it 9 mm forward; front brake and clutch levers have span adjusters for hand size; brake pedal height is set with an adjuster screw, then the push rod is set for free play at the pedal; the shift pedal sits by an alignment mark on the shaft and can be moved a spline up or down.",
+   "values": {
+    "bar_forward_option_mm": 9,
+    "factory_bar_position": "rear",
+    "lever_span_adjusters": true,
+    "brake_pedal_height_adjuster": true,
+    "shift_pedal_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph Owner's Handbook TF250-X and TF450RC Edition (3850529-US-EN issue 1)",
+    "url": "https://api.triumphtechnicalinformation.com/handbooks/documents/697b08172114eb1a98f6704f/pdf",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-t-002",
+   "domain": "chassis",
+   "topic": "TF: rider-fit adjustments (owner's handbook)",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025,
+     2026
+    ],
+    "make": "Triumph"
+   },
+   "statement": "Triumph's handbook: bar height is set by rotating the bar within the degree markings on it; the bar leaves the factory in the rear position and turning the lower clamps 180 degrees moves it 9 mm forward; front brake and clutch levers have span adjusters for hand size; brake pedal height is set with an adjuster screw, then the push rod is set for 6-9 mm free play at the pedal tip; the shift pedal sits by an alignment mark on the shaft and can be moved a spline up or down.",
+   "values": {
+    "bar_forward_option_mm": 9,
+    "factory_bar_position": "rear",
+    "lever_span_adjusters": true,
+    "brake_pedal_height_adjuster": true,
+    "shift_pedal_spline_position": true,
+    "brake_pedal_free_play_mm": "6-9"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph Owner's Handbook TF250-X, TF450-X and TF450RC Edition (3850672-US-EN issue 1)",
+    "url": "https://api.triumphtechnicalinformation.com/handbooks/documents/697b0a68aa5a3d37f2aa2ef0/pdf",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-t-003",
+   "domain": "chassis",
+   "topic": "TF: rider-fit adjustments (owner's handbook)",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-X"
+    ],
+    "years": [
+     2027
+    ],
+    "make": "Triumph"
+   },
+   "statement": "Triumph's handbook: bar height is set by rotating the bar within the degree markings on it; the bar leaves the factory in the rear position and turning the lower clamps 180 degrees moves it 9 mm forward; front brake and clutch levers have span adjusters for hand size; brake pedal height is set with an adjuster screw, then the push rod is set for 6-9 mm free play at the pedal tip; the shift pedal sits by an alignment mark on the shaft and can be moved a spline up or down.",
+   "values": {
+    "bar_forward_option_mm": 9,
+    "factory_bar_position": "rear",
+    "lever_span_adjusters": true,
+    "brake_pedal_height_adjuster": true,
+    "shift_pedal_spline_position": true,
+    "brake_pedal_free_play_mm": "6-9"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph Owner's Handbook TF250-X and TF450-X (3850823-US-EN issue 1)",
+    "url": "https://api.triumphtechnicalinformation.com/handbooks/documents/6ab239eb1685389dfa339f9a/pdf",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-t-004",
+   "domain": "chassis",
+   "topic": "TF: rider-fit adjustments (owner's handbook)",
+   "applies_to": {
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ],
+    "make": "Triumph"
+   },
+   "statement": "Triumph's handbook: bar height is set by rotating the bar within the degree markings on it; the bar leaves the factory in the rear position and turning the lower clamps 180 degrees moves it 9 mm forward; front brake and clutch levers have span adjusters for hand size; brake pedal height is set with an adjuster screw, then the push rod is set for 6-9 mm free play at the pedal tip; the shift pedal sits by an alignment mark on the shaft and can be moved a spline up or down.",
+   "values": {
+    "bar_forward_option_mm": 9,
+    "factory_bar_position": "rear",
+    "lever_span_adjusters": true,
+    "brake_pedal_height_adjuster": true,
+    "shift_pedal_spline_position": true,
+    "brake_pedal_free_play_mm": "6-9"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph Owner's Handbook TF250-E and TF450-E (3850136-US-EN issue 1)",
+    "url": "https://api.triumphtechnicalinformation.com/handbooks/documents/697b112531d8347c29c5ce2b/pdf",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-t-005",
+   "domain": "chassis",
+   "topic": "TF: rider-fit adjustments (owner's handbook)",
+   "applies_to": {
+    "models": [
+     "TF 250-C",
+     "TF 450-C"
+    ],
+    "years": [
+     2026
+    ],
+    "make": "Triumph"
+   },
+   "statement": "Triumph's handbook: bar height is set by rotating the bar within the degree markings on it; the bar leaves the factory in the rear position and turning the lower clamps 180 degrees moves it 9 mm forward; front brake and clutch levers have span adjusters for hand size; brake pedal height is set with an adjuster screw, then the push rod is set for 6-9 mm free play at the pedal tip; the shift pedal sits by an alignment mark on the shaft and can be moved a spline up or down.",
+   "values": {
+    "bar_forward_option_mm": 9,
+    "factory_bar_position": "rear",
+    "lever_span_adjusters": true,
+    "brake_pedal_height_adjuster": true,
+    "shift_pedal_spline_position": true,
+    "brake_pedal_free_play_mm": "6-9"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph Owner's Handbook TF250-C and TF450-C (3850699-US-EN issue 1)",
+    "url": "https://api.triumphtechnicalinformation.com/handbooks/documents/697b1c4ec47604be99a352a4/pdf",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-t-010",
+   "domain": "chassis",
+   "topic": "TF 250-X: stock ProTaper ACF bar and width at the bars",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2026
+    ],
+    "make": "Triumph"
+   },
+   "statement": "Triumph fits ProTaper ACF bars (aluminium with a carbon core) and ODI half-waffle lock-on grips to the TF 250-X, and lists the bike 836 mm (32.9 in) wide at the handlebars with a 960 mm (37.8 in) seat height.",
+   "values": {
+    "stock_bar": "ProTaper ACF",
+    "grips": "ODI half-waffle lock-on",
+    "width_at_bars_mm": 836,
+    "seat_height_mm": 960
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph Motorcycles Australia TF 250-X (2024) page; Triumph MY26 TF 250-X press release",
+    "url": "https://www.triumphmotorcycles.com.au/motorcycles/off-road/motocross/tf-250-x-2024",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "836 mm is the bike width measured at the bars (levers included), not the bar width. 2025 not checked."
+  },
+  {
+   "id": "rfit-m-001",
+   "domain": "chassis",
+   "topic": "2025 50 SX: seat height and size (maker spec)",
+   "applies_to": {
+    "models": [
+     "50 SX"
+    ],
+    "years": [
+     2025
+    ],
+    "make": "KTM"
+   },
+   "statement": "KTM lists the 2025 50 SX at 653 mm seat height, 233 mm ground clearance and 42.5 kg without fuel, with a centrifugal (automatic) clutch.",
+   "values": {
+    "seat_height_mm": 653,
+    "ground_clearance_mm": 233,
+    "weight_no_fuel_kg": 42.5
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA, 2025 50 SX technical specifications",
+    "url": "https://www.ktm.com/en-us/models/motocross/2-stroke/2025-ktm-50-sx/technical-specifications.html",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-m-002",
+   "domain": "chassis",
+   "topic": "2025 65 SX: seat height and size (maker spec)",
+   "applies_to": {
+    "models": [
+     "65 SX"
+    ],
+    "years": [
+     2025
+    ],
+    "make": "KTM"
+   },
+   "statement": "KTM lists the 2025 65 SX at 730 mm seat height, 259 mm ground clearance and 53.5 kg without fuel, with a hydraulic multi-plate clutch.",
+   "values": {
+    "seat_height_mm": 730,
+    "ground_clearance_mm": 259,
+    "weight_no_fuel_kg": 53.5
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA, 2025 65 SX technical specifications",
+    "url": "https://www.ktm.com/en-us/models/motocross/2-stroke/2025-ktm-65-sx/technical-specifications.html",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-m-003",
+   "domain": "chassis",
+   "topic": "2025 YZ65: seat height and size (maker spec)",
+   "applies_to": {
+    "models": [
+     "YZ65"
+    ],
+    "years": [
+     2025
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "Yamaha lists the 2025 YZ65 at 29.7 in (754 mm) seat height, 44.9 in wheelbase and 134 lb wet, on 14/12 in wheels.",
+   "values": {
+    "seat_height_in": 29.7,
+    "seat_height_mm": 754,
+    "wet_weight_lb": 134
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2025 YZ65 specifications",
+    "url": "https://yamahamotorsports.com/models/25-yz65/specs",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-m-004",
+   "domain": "chassis",
+   "topic": "2025 YZ85: seat height and size (maker spec)",
+   "applies_to": {
+    "models": [
+     "YZ85"
+    ],
+    "years": [
+     2025
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "Yamaha lists the 2025 YZ85 (small wheel) at 33.1 in (841 mm) seat height, 49.4 in wheelbase and 161 lb wet, on 17/14 in wheels.",
+   "values": {
+    "seat_height_in": 33.1,
+    "seat_height_mm": 841,
+    "wet_weight_lb": 161
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2025 YZ85 specifications",
+    "url": "https://www.yamahamotorsports.com/models/25-yz85/specs",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-m-005",
+   "domain": "chassis",
+   "topic": "2025 KX65: seat height and size (maker spec)",
+   "applies_to": {
+    "models": [
+     "KX65"
+    ],
+    "years": [
+     2025
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki lists the 2025 KX65 at 29.9 in (759 mm) seat height, 44.1 in wheelbase and 132.2 lb curb weight, on 14/12 in wheels.",
+   "values": {
+    "seat_height_in": 29.9,
+    "seat_height_mm": 759,
+    "curb_weight_lb": 132.2
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki USA, 2025 KX65 spec sheet",
+    "url": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2025-kx65",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-m-006",
+   "domain": "chassis",
+   "topic": "2025 KX85: seat height and size (maker spec)",
+   "applies_to": {
+    "models": [
+     "KX85"
+    ],
+    "years": [
+     2025
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki lists the 2025 KX85 at 32.7 in (831 mm) seat height, 49.8 in wheelbase and 164.4 lb curb weight, on 17/14 in wheels, with ERGO-FIT adjustable parts.",
+   "values": {
+    "seat_height_in": 32.7,
+    "seat_height_mm": 831,
+    "curb_weight_lb": 164.4,
+    "ergo_fit": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki USA, 2025 KX85 spec sheet",
+    "url": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2025-kx85",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-m-007",
+   "domain": "chassis",
+   "topic": "2025 KX112: seat height and size (maker spec)",
+   "applies_to": {
+    "models": [
+     "KX112"
+    ],
+    "years": [
+     2025
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki lists the 2025 KX112 at 34.3 in (871 mm) seat height on 19/16 in wheels, with ERGO-FIT adjustable parts.",
+   "values": {
+    "seat_height_in": 34.3,
+    "seat_height_mm": 871,
+    "ergo_fit": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki USA, 2025 KX112 model page",
+    "url": "https://kawasaki.com/en-us/motorcycle/kx/kx-youth-mx/kx-112/2025-kx112",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-m-010",
+   "domain": "chassis",
+   "topic": "50 SX: KTM lowering kit (-68 mm)",
+   "applies_to": {
+    "models": [
+     "50 SX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ],
+    "make": "KTM"
+   },
+   "statement": "KTM PowerParts offers a lowering kit that drops the 2020-2023 50 SX by 68 mm so shorter riders can reach the ground.",
+   "values": {
+    "lowering_mm": 68,
+    "part_number": "45412955044S"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "KTM PowerParts listing (dealer catalogue)",
+    "url": "https://ktmdirect.co.uk/collections/ktm-50-sx-powerparts-accessories/products/lowering-kit-68mm-45412955044s",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Dealer listing of a KTM part; the kit is also listed for the SX-E 5."
+  },
+  {
+   "id": "rfit-k-900",
+   "domain": "chassis",
+   "topic": "KTM low seat (-15 mm), 2019-2022 SX / SX-F",
+   "applies_to": {
+    "models": [
+     "125 SX",
+     "150 SX",
+     "250 SX",
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ],
+    "make": "KTM"
+   },
+   "statement": "KTM PowerParts lists a low seat (79107940200) about 15 mm lower than stock for the 2019-2022 125/150/250 SX and 350/450 SX-F, and 2019-2021 250 SX-F.",
+   "values": {
+    "low_seat_drop_mm": 15,
+    "part_number": "79107940200"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "KTM PowerParts listing (dealer catalogue)",
+    "url": "https://ktmdirect.co.uk/products/ktm-low-seat-15mm",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "The 250 SX-F listing stops at 2021 on that page; 2022 250 SX-F fitment unconfirmed."
+  }
+ ]
+}

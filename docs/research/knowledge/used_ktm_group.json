@@ -1,0 +1,330 @@
+{
+ "slice": "Used-bike buying pass (2026-11-07): KTM, Husqvarna and GasGas VIN structure, the makers' electronic service record, and the Husqvarna composite subframe as a used-buyer check. Recalls are not repeated here; they live in issues_and_sx.json and the per-bike files and are raised by the recall guard.",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "125 SX",
+   "150 SX",
+   "250 SX",
+   "250 SX-F",
+   "300 SX",
+   "350 SX-F",
+   "450 SX-F",
+   "50 SX",
+   "65 SX",
+   "85 SX 17/14",
+   "85 SX 19/16",
+   "125 XC",
+   "250 XC",
+   "250 XC-F",
+   "300 XC",
+   "350 XC-F",
+   "450 XC-F",
+   "150 XC-W",
+   "250 XC-W",
+   "300 XC-W",
+   "450 XCF-W"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "records": [
+  {
+   "id": "used-ktm-001",
+   "domain": "identity",
+   "topic": "KTM-group VIN: what each position means (US filing)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "125 SX",
+     "150 SX",
+     "250 SX",
+     "250 SX-F",
+     "300 SX",
+     "350 SX-F",
+     "450 SX-F",
+     "50 SX",
+     "65 SX",
+     "85 SX 17/14",
+     "85 SX 19/16",
+     "125 XC",
+     "250 XC",
+     "250 XC-F",
+     "300 XC",
+     "350 XC-F",
+     "450 XC-F",
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "450 XCF-W",
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450",
+     "Husqvarna TC 125",
+     "Husqvarna TC 150",
+     "Husqvarna TC 250",
+     "Husqvarna TC 300",
+     "Husqvarna TC 50",
+     "Husqvarna TC 65",
+     "Husqvarna TC 85",
+     "Husqvarna FX 350",
+     "Husqvarna FX 450",
+     "Husqvarna TX 300",
+     "Husqvarna FE 450",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas MC 125",
+     "GasGas MC 250",
+     "GasGas MC 250F",
+     "GasGas MC 350F",
+     "GasGas MC 450F",
+     "GasGas MC 50",
+     "GasGas MC 65",
+     "GasGas MC 85",
+     "GasGas EX 250",
+     "GasGas EX 250F",
+     "GasGas EX 300",
+     "GasGas EX 350F",
+     "GasGas EX 450F",
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "GasGas EC 450F"
+    ],
+    "years": [
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM North America's VIN filing with the US regulator (September 2025) gives one world manufacturer code, VBK, for KTM AG, with Husqvarna and GasGas shown as brand prefixes in the model code. Positions 4-5 are the model code (competition codes such as SX, MX, XC, XW), 6 a power class, 7 the engine type (2 two-stroke, 4 four-stroke, 0 electric), 8 the usage type (3 = closed-course competition), 9 the check digit, 10 the model year, 11 the plant (M = Mattighofen, Austria), 12 an engine-capacity digit, and 13-17 the serial.",
+   "values": {
+    "wmi": "VBK (KTM AG)",
+    "positions": "1-3 WMI; 4-5 model code; 6 net power class; 7 engine type 2/4/0; 8 usage 0/3/E; 9 check digit; 10 model year; 11 plant (M = Mattighofen); 12 engine capacity; 13-17 serial",
+    "brand_prefixes": "HQV Husqvarna, GG GasGas, HSB Husaberg (in the model code)",
+    "used_buyer_check": "A KTM, Husqvarna or GasGas competition bike's VIN should start VBK, carry the year letter in position 10 and, per this filing, a 2 or 4 in position 7 that matches the engine."
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM North America Inc. VIN information submitted under 49 CFR 565 (NHTSA vPIC manufacturer file)",
+    "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/e221d4fc-fbbd-4590-bdda-e5bc5dbb2792",
+    "date": "2025-09-09"
+   },
+   "confidence": "high",
+   "notes": "Applied to 2026-2027 only because the filing is dated September 2025; earlier years very likely use the same scheme (CPSC recall notices for 2022-2025 KTM-group bikes quote the 10th character as the year) but the earlier filings were not read. The filing does not list the model-year letters itself; those come from 49 CFR 565.15 (L 2020 ... V 2027). Read 2026-11-07."
+  },
+  {
+   "id": "used-ktm-002",
+   "domain": "maintenance",
+   "topic": "electronic proof of service in the 2025 service schedules",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F",
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F",
+     "85 SX 17/14",
+     "85 SX 19/16",
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450",
+     "Husqvarna FX 350",
+     "Husqvarna FX 450",
+     "Husqvarna TC 125",
+     "Husqvarna TC 150",
+     "Husqvarna TC 250",
+     "Husqvarna TC 300",
+     "Husqvarna TX 300",
+     "GasGas MC 125",
+     "GasGas MC 250",
+     "GasGas MC 250F",
+     "GasGas MC 350F",
+     "GasGas MC 450F",
+     "GasGas EX 250",
+     "GasGas EX 250F",
+     "GasGas EX 300",
+     "GasGas EX 350F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 KTM, Husqvarna and GasGas owner's manual service schedules include a line to enter an electronic proof of service (KTM's wording: in the dealer portal) once after the first operating hour and at the 15, 45 and 90-hour services and every 24 months. When buying used, ask whether a dealer did those services: a dealer-serviced bike may have a digital service record a dealer can confirm.",
+   "values": {
+    "schedule_line": "Enter electronic proof of service (KTM: in the dealer portal)",
+    "when": "once after 1 operating hour; every 15, 45 and 90 operating hours; every 24 months",
+    "documents": "25_3240043/44/45_en_OM (KTM 250/350/450 SX-F and XC-F), 25_3240038_en_BA (KTM 85 SX), 25_3402801-805_en_BA (Husqvarna), 25_3215219-223_en_BA (GasGas)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 450 SX-F / 450 XC-F owner's manual 25_3240045_en_OM, service schedule",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240045_en_OM.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Schedule line read from the extracted 2025 manual tables kept in docs/research/expansion/gaps/ktm-torques (same CDN as the other KTM-group manuals in this repo). The manuals do not say who can see the record or whether a dealer can look it up by VIN for a buyer: that part is BAK's inference, stated as may. Not checked in pre-2025 manuals; 2026 manuals in a separate record."
+  },
+  {
+   "id": "used-ktm-003",
+   "domain": "maintenance",
+   "topic": "electronic proof of service in the 2026 service schedules",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "125 SX",
+     "125 XC",
+     "85 SX 17/14",
+     "85 SX 19/16",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "Husqvarna TX 300",
+     "GasGas MC 125",
+     "GasGas MC 250F",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 owner's manual service schedules for these KTM, Husqvarna and GasGas models also include entering an electronic proof of service once after the first operating hour, at the 15, 45 and 90-hour services and every 24 months, so a buyer can ask whether the bike was dealer-serviced and has that record.",
+   "values": {
+    "schedule_line": "Enter electronic proof of service",
+    "when": "once after one operating hour; every 15, 45 and 90 operating hours; every 24 months",
+    "documents": "26_3240232_en_BA (KTM 125 SX/XC), 26_3240229_en_BA (KTM 85 SX), 26_3402882/883_en_BA (Husqvarna), 26_3215266/268/269_en_BA (GasGas)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2026 125 SX / 125 XC owner's manual 26_3240232_en_BA, service schedule",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3240232_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Only the 2026 documents whose extracted tables show the line are listed; the line was not seen in the extracts for other 2026 models, which may mean the extract missed it rather than that the manual lacks it."
+  },
+  {
+   "id": "used-hq-001",
+   "domain": "known_issues",
+   "topic": "used Husqvarna: composite subframe cracks and seam gaps",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "Husqvarna FX 350",
+     "Husqvarna FX 450",
+     "Husqvarna TX 300",
+     "Husqvarna FE 450",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "Many Husqvarna owners report that the composite (plastic) subframe cracks after crashes, tip-overs or hard off-road use, and some report breaks without a crash; earlier owners also found the airbox seams separating, letting dirt past the filter. On a used Husqvarna, pull the seat and side panels, look for cracks around the mounting points and along the seams, and shine a light from the fender side into the airbox to spot gaps.",
+   "values": {
+    "check": "seat and side panels off; cracks at mounts and seams; light test into the airbox; dirt on the clean side of the filter",
+    "fix": "replacement composite subframe (a parts listing quoted in an owner thread, Nov 2020 - Feb 2021: about $210 plus shipping); sealant on seam gaps",
+    "years_reported": "seam gaps 2013-2016; cracks reported on 2017, 2019 TE 250i, 2020 FC 450, 2020 250F and 2020 TE 300"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum thread on Husqvarna subframes (2017 and 2020 posts)",
+    "url": "https://www.vitalmx.com/comment/3833801",
+    "date": "2020-09"
+   },
+   "confidence": "medium",
+   "notes": "About eleven posters in the first thread, agreeing with two owner-forum threads: https://www.cafehusky.com/threads/cracked-my-subframe-do-they-sell-aluminum-ones.91277 (2019 TE 250i, Nov 2020 - Feb 2021) and https://www.cafehusky.com/threads/my-subframe-is-coming-apart-better-check-yours.81998/page-2 (seam gaps 2013-2016, Oct 2015 - Sep 2017). A dealer in the first thread reported no subframe problems among ordinary customers, so this is mostly crash and hard-use damage. The 2022 FC 350/450 crack is already kg7-097 and is not repeated; the 2022 models below are in used-hq-002. 2023+ bikes not covered by these reports."
+  },
+  {
+   "id": "used-hq-002",
+   "domain": "known_issues",
+   "topic": "used Husqvarna 2022: composite subframe cracks",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 250",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "Husqvarna FX 350",
+     "Husqvarna FX 450",
+     "Husqvarna TX 300",
+     "Husqvarna FE 450",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Owners of this Husqvarna generation report composite subframe cracks after crashes and hard off-road use, and sometimes without a crash. On a used bike, take the seat and side panels off and look for cracks at the mounts and along the seams, and check the clean side of the air filter for dirt that got past a gap.",
+   "values": {
+    "check": "seat and side panels off; cracks at mounts and seams; dirt on the clean side of the filter"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum thread on Husqvarna subframes (2017 and 2020 posts)",
+    "url": "https://www.vitalmx.com/comment/3833801",
+    "date": "2020-09"
+   },
+   "confidence": "low",
+   "notes": "Extends the 2016-2021 owner reports (used-hq-001) to the 2022 carry-over models; the agreeing owner-forum report is https://www.cafehusky.com/threads/cracked-my-subframe-do-they-sell-aluminum-ones.91277 (2019 TE 250i). No 2022-specific report was read for these models. FC 350/450 2022 are covered by kg7-097."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "How common Husqvarna subframe breaks are",
+   "ids": [
+    "used-hq-001"
+   ],
+   "detail": "Owners in hard off-road racing report several a season; a dealer reported none among ordinary customers."
+  }
+ ],
+ "not_found": [
+  "A KTM-group statement that a dealer can show a buyer the electronic service record by VIN.",
+  "Pre-2025 KTM-group owner's manuals were not checked for the electronic proof of service line.",
+  "KTM-group VIN filings for model years before 2026 were not read."
+ ],
+ "sources": [
+  "https://vpic.nhtsa.dot.gov/mid/home/displayfile/e221d4fc-fbbd-4590-bdda-e5bc5dbb2792",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240045_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3240232_en_BA.pdf",
+  "https://www.vitalmx.com/comment/3833801",
+  "https://www.cafehusky.com/threads/cracked-my-subframe-do-they-sell-aluminum-ones.91277",
+  "https://www.cafehusky.com/threads/my-subframe-is-coming-apart-better-check-yours.81998/page-2"
+ ]
+}

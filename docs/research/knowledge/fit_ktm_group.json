@@ -1,0 +1,3719 @@
+{
+ "slice": "rider fit and ergonomics: bar positions, lever and pedal adjustment, KTM / Husqvarna / GasGas owner's manuals 2020-2027",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "GasGas EX 250",
+   "GasGas EX 250F",
+   "GasGas EX 300",
+   "GasGas EX 350F",
+   "GasGas EX 450F",
+   "GasGas MC 125",
+   "GasGas MC 150",
+   "GasGas MC 250",
+   "GasGas MC 250F",
+   "GasGas MC 300",
+   "GasGas MC 350F",
+   "GasGas MC 450F",
+   "Husqvarna FC 250",
+   "Husqvarna FC 350",
+   "Husqvarna FC 450",
+   "Husqvarna FX 350",
+   "Husqvarna FX 450",
+   "Husqvarna TC 125",
+   "Husqvarna TC 150",
+   "Husqvarna TC 250",
+   "Husqvarna TC 300",
+   "Husqvarna TX 300",
+   "KTM 125 SX",
+   "KTM 125 XC",
+   "KTM 150 SX",
+   "KTM 250 SX",
+   "KTM 250 SX-F",
+   "KTM 250 XC",
+   "KTM 250 XC-F",
+   "KTM 300 SX",
+   "KTM 300 XC",
+   "KTM 350 SX-F",
+   "KTM 350 XC-F",
+   "KTM 450 SX-F",
+   "KTM 450 XC-F",
+   "KTM 85 SX 17/14",
+   "KTM 85 SX 19/16"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "conflicts": [],
+ "not_found": [
+  {
+   "item": "50 SX / 65 SX, TC 50 / 65, MC 50 / 65 / 85 owner's manuals",
+   "searched": "local owner's-manual cache",
+   "result": "not in this pass"
+  },
+  {
+   "item": "stock handlebar bend dimensions for KTM-group bikes",
+   "searched": "maker spec pages and manuals",
+   "result": "makers list bar material/brand, not bend dimensions"
+  }
+ ],
+ "sources": [
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3213998_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3214000_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3214001_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3214002_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3214004_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3214032_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3214129_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402332_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402333_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402334_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402335_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402336_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402354_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214206_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214209_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214210_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214211_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214213_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214215_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214217_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215008_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215009_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215010_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215018_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215019_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402439_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402440_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402441_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402442_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402443_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214408_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214411_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214412_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214413_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214414_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214417_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214418_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215051_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215052_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215053_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215054_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215055_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215074_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402529_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402530_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402531_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402532_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402534_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402535_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3214636_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3214638_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3214639_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3214640_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215094_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215095_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215096_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215097_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215099_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215100_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402629_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402630_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402632_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402633_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3214830_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3214832_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3214833_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215157_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215158_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215160_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215161_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402711_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402712_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402714_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402715_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215219_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215220_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240038_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240041_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240042_en_OM.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402801_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402802_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402804_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3215266_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3215267_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3240229_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3240232_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3240233_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402882_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402883_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3215288_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3215289_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3215290_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3240375_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3240379_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3240380_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3240381_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402943_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402944_en_BA.pdf",
+  "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402945_en_BA.pdf"
+ ],
+ "records": [
+  {
+   "id": "rfit-k-001",
+   "domain": "chassis",
+   "topic": "2020 85 SX: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 85 SX 17/14",
+     "KTM 85 SX 19/16"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM's 2020 owner's manual for the 85 SX: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); the front brake lever screw sets free travel, which moves the pressure point closer to or away from the bar, rather than lever reach; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_screw_sets_free_travel": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2020 (85 SX), art. no. 3213998en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3213998_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-002",
+   "domain": "chassis",
+   "topic": "2020 125 SX / 150 SX: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 150 SX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM's 2020 owner's manual for the 125 SX / 150 SX: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2020 (125 SX 150 SX), art. no. 3214000en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3214000_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-003",
+   "domain": "chassis",
+   "topic": "2020 250 SX: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM's 2020 owner's manual for the 250 SX: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2020 (250 SX), art. no. 3214001en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3214001_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-004",
+   "domain": "chassis",
+   "topic": "2020 250 XC / 300 XC: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 XC",
+     "KTM 300 XC"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM's 2020 owner's manual for the 250 XC / 300 XC: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2020 (250 XC TPI 300 XC TPI), art. no. 3214002en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3214002_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-005",
+   "domain": "chassis",
+   "topic": "2020 350 SX-F / 350 XC-F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "KTM 350 XC-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM's 2020 owner's manual for the 350 SX-F / 350 XC-F: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2020 (350 SX-F 350 XC-F), art. no. 3214004en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3214004_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-006",
+   "domain": "chassis",
+   "topic": "2020 450 SX-F / 450 XC-F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 450 SX-F",
+     "KTM 450 XC-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM's 2020 owner's manual for the 450 SX-F / 450 XC-F: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2020 (450 SX-F 450 XC-F 450 SX-F CAIROLI 450 SX-F Factory Edition), art. no. 3214032en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3214032_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-007",
+   "domain": "chassis",
+   "topic": "2020 250 SX-F / 250 XC-F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "KTM 250 XC-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM's 2020 owner's manual for the 250 SX-F / 250 XC-F: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2020 (250 SX-F 250 XC-F 250 SX-F PRADO), art. no. 3214129en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3214129_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-008",
+   "domain": "chassis",
+   "topic": "2020 TC 125: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 125"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Husqvarna's 2020 owner's manual for the TC 125: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2020 (TC 125), art. no. 3402332en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402332_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-009",
+   "domain": "chassis",
+   "topic": "2020 TC 250: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Husqvarna's 2020 owner's manual for the TC 250: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2020 (TC 250), art. no. 3402333en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402333_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-010",
+   "domain": "chassis",
+   "topic": "2020 TX 300: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Husqvarna's 2020 owner's manual for the TX 300: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2020 (TX 300i), art. no. 3402334en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402334_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-011",
+   "domain": "chassis",
+   "topic": "2020 FC 250: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Husqvarna's 2020 owner's manual for the FC 250: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2020 (FC 250), art. no. 3402335en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402335_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-012",
+   "domain": "chassis",
+   "topic": "2020 FC 350 / FX 350: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350",
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Husqvarna's 2020 owner's manual for the FC 350 / FX 350: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2020 (FC 350 FX 350), art. no. 3402336en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402336_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-013",
+   "domain": "chassis",
+   "topic": "2020 FC 450 / FX 450: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 450",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Husqvarna's 2020 owner's manual for the FC 450 / FX 450: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2020 (FC 450 FX 450 FC 450 ROCKSTAR EDITION), art. no. 3402354en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402354_en_OM.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-014",
+   "domain": "chassis",
+   "topic": "2021 85 SX: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 85 SX 17/14",
+     "KTM 85 SX 19/16"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 owner's manual for the 85 SX: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); the front brake lever screw sets free travel, which moves the pressure point closer to or away from the bar, rather than lever reach; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_screw_sets_free_travel": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2021 (85 SX), art. no. 3214206en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214206_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-015",
+   "domain": "chassis",
+   "topic": "2021 125 SX / 150 SX / 125 XC: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 150 SX",
+     "KTM 125 XC"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 owner's manual for the 125 SX / 150 SX / 125 XC: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2021 (125 SX 150 SX 125 XC), art. no. 3214209en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214209_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-016",
+   "domain": "chassis",
+   "topic": "2021 250 SX: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 owner's manual for the 250 SX: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2021 (250 SX), art. no. 3214210en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214210_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-017",
+   "domain": "chassis",
+   "topic": "2021 250 XC / 300 XC: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 XC",
+     "KTM 300 XC"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 owner's manual for the 250 XC / 300 XC: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2021 (250 XC TPI 300 XC TPI), art. no. 3214211en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214211_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-018",
+   "domain": "chassis",
+   "topic": "2021 250 SX-F / 250 XC-F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "KTM 250 XC-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 owner's manual for the 250 SX-F / 250 XC-F: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2021 (250 SX-F 250 XC-F 250 SX-F TROY LEE DESIGNS), art. no. 3214213en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214213_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-019",
+   "domain": "chassis",
+   "topic": "2021 350 SX-F / 350 XC-F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "KTM 350 XC-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 owner's manual for the 350 SX-F / 350 XC-F: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2021 (350 SX-F 350 XC-F 350 XC-F KAILUB RUSSELL), art. no. 3214215en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214215_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-020",
+   "domain": "chassis",
+   "topic": "2021 450 SX-F / 450 XC-F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 450 SX-F",
+     "KTM 450 XC-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 owner's manual for the 450 SX-F / 450 XC-F: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2021 (450 SX-F 450 XC-F 450 SX-F FACTORY EDITION), art. no. 3214217en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214217_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-021",
+   "domain": "chassis",
+   "topic": "2021 MC 125: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "GasGas's 2021 owner's manual for the MC 125: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2021 (MC 125), art. no. 3215008en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215008_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-022",
+   "domain": "chassis",
+   "topic": "2021 MC 250F / EX 250F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "GasGas's 2021 owner's manual for the MC 250F / EX 250F: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2021 (MC 250F EX 250F), art. no. 3215009en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215009_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-023",
+   "domain": "chassis",
+   "topic": "2021 MC 450F / EX 450F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 450F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "GasGas's 2021 owner's manual for the MC 450F / EX 450F: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2021 (MC 450F EX 450F), art. no. 3215010en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215010_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-024",
+   "domain": "chassis",
+   "topic": "2021 EX 300: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas EX 300"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "GasGas's 2021 owner's manual for the EX 300: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2021 (EX 300), art. no. 3215018en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215018_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-025",
+   "domain": "chassis",
+   "topic": "2021 EX 350F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "GasGas's 2021 owner's manual for the EX 350F: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2021 (EX 350F), art. no. 3215019en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215019_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-026",
+   "domain": "chassis",
+   "topic": "2021 TC 125: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 125"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual for the TC 125: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2021 (TC 125), art. no. 3402439en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402439_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-027",
+   "domain": "chassis",
+   "topic": "2021 TC 250: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual for the TC 250: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2021 (TC 250), art. no. 3402440en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402440_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-028",
+   "domain": "chassis",
+   "topic": "2021 TX 300: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual for the TX 300: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2021 (TX 300i), art. no. 3402441en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402441_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-029",
+   "domain": "chassis",
+   "topic": "2021 FC 250: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual for the FC 250: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2021 (FC 250), art. no. 3402442en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402442_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-030",
+   "domain": "chassis",
+   "topic": "2021 FC 350 / FX 350: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350",
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual for the FC 350 / FX 350: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2021 (FC 350 FX 350), art. no. 3402443en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402443_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-031",
+   "domain": "chassis",
+   "topic": "2021 FC 450 / FX 450: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 450",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 owner's manual for the FC 450 / FX 450: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2021 (FC 450 FX 450 FC 450 ROCKSTAR EDITION), art. no. 3402445en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-032",
+   "domain": "chassis",
+   "topic": "2022 85 SX: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 85 SX 17/14",
+     "KTM 85 SX 19/16"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 owner's manual for the 85 SX: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); the front brake lever screw sets free travel, which moves the pressure point closer to or away from the bar, rather than lever reach; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_screw_sets_free_travel": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2022 (85 SX), art. no. 3214408en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214408_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-033",
+   "domain": "chassis",
+   "topic": "2022 125 SX / 150 SX / 125 XC: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 150 SX",
+     "KTM 125 XC"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 owner's manual for the 125 SX / 150 SX / 125 XC: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2022 (125 SX 150 SX 125 XC), art. no. 3214411en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214411_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-034",
+   "domain": "chassis",
+   "topic": "2022 250 SX: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 owner's manual for the 250 SX: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2022 (250 SX), art. no. 3214412en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214412_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-035",
+   "domain": "chassis",
+   "topic": "2022 250 XC / 300 XC: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 XC",
+     "KTM 300 XC"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 owner's manual for the 250 XC / 300 XC: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2022 (250 XC TPI 300 XC TPI), art. no. 3214413en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214413_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-036",
+   "domain": "chassis",
+   "topic": "2022 250 SX-F / 250 XC-F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "KTM 250 XC-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 owner's manual for the 250 SX-F / 250 XC-F: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2022 (250 SX-F 250 XC-F), art. no. 3214414en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214414_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-037",
+   "domain": "chassis",
+   "topic": "2022 350 SX-F / 350 XC-F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "KTM 350 XC-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 owner's manual for the 350 SX-F / 350 XC-F: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2022 (350 SX-F 350 XC-F 350 XC-F FACTORY EDITION), art. no. 3214417en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214417_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-038",
+   "domain": "chassis",
+   "topic": "2022 450 SX-F / 450 XC-F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 450 SX-F",
+     "KTM 450 XC-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 owner's manual for the 450 SX-F / 450 XC-F: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2022 (450 SX-F 450 XC-F), art. no. 3214418en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214418_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-039",
+   "domain": "chassis",
+   "topic": "2022 MC 125: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual for the MC 125: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2022 (MC 125), art. no. 3215051en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215051_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-040",
+   "domain": "chassis",
+   "topic": "2022 EX 250 / EX 300: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual for the EX 250 / EX 300: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2022 (EX 250 EX 300), art. no. 3215052en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215052_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-041",
+   "domain": "chassis",
+   "topic": "2022 MC 250F / EX 250F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual for the MC 250F / EX 250F: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2022 (MC 250F EX 250F), art. no. 3215053en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215053_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-042",
+   "domain": "chassis",
+   "topic": "2022 MC 350F / EX 350F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 350F",
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual for the MC 350F / EX 350F: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2022 (MC 350F EX 350F), art. no. 3215054en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215054_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-043",
+   "domain": "chassis",
+   "topic": "2022 MC 450F / EX 450F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 450F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual for the MC 450F / EX 450F: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2022 (MC 450F EX 450F MC 450F TROY LEE DESIGNS), art. no. 3215055en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215055_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-044",
+   "domain": "chassis",
+   "topic": "2022 MC 250: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual for the MC 250: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2022 (MC 250), art. no. 3215074en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215074_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-045",
+   "domain": "chassis",
+   "topic": "2022 TC 125: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 125"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 owner's manual for the TC 125: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2022 (TC 125), art. no. 3402529en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402529_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-046",
+   "domain": "chassis",
+   "topic": "2022 TC 250: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 owner's manual for the TC 250: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2022 (TC 250), art. no. 3402530en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402530_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-047",
+   "domain": "chassis",
+   "topic": "2022 TX 300: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 owner's manual for the TX 300: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2022 (TX 300i), art. no. 3402531en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402531_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-048",
+   "domain": "chassis",
+   "topic": "2022 FC 250: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 owner's manual for the FC 250: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2022 (FC 250), art. no. 3402532en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402532_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-049",
+   "domain": "chassis",
+   "topic": "2022 FC 350 / FX 350: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350",
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 owner's manual for the FC 350 / FX 350: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2022 (FC 350 FX 350), art. no. 3402534en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402534_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-050",
+   "domain": "chassis",
+   "topic": "2022 FC 450 / FX 450: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 450",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 owner's manual for the FC 450 / FX 450: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2022 (FC 450 FX 450), art. no. 3402535en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402535_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-051",
+   "domain": "chassis",
+   "topic": "2023 85 SX: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 85 SX 17/14",
+     "KTM 85 SX 19/16"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 owner's manual for the 85 SX: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); the front brake lever screw sets free travel, which moves the pressure point closer to or away from the bar, rather than lever reach; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_screw_sets_free_travel": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2023 (85 SX), art. no. 3214636en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3214636_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-052",
+   "domain": "chassis",
+   "topic": "2023 125 SX / 125 XC: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 125 XC"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 owner's manual for the 125 SX / 125 XC: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2023 (125 SX 125 XC), art. no. 3214638en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3214638_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-053",
+   "domain": "chassis",
+   "topic": "2023 250 SX / 300 SX / 250 XC / 300 XC: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "KTM 250 XC",
+     "KTM 300 XC"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 owner's manual for the 250 SX / 300 SX / 250 XC / 300 XC: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2023 (250 SX 300 SX 250 XC 300 XC), art. no. 3214639en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3214639_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-054",
+   "domain": "chassis",
+   "topic": "2023 250 SX-F / 250 XC-F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "KTM 250 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 owner's manual for the 250 SX-F / 250 XC-F: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2023 (250 SX-F 250 XC-F), art. no. 3214640en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3214640_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-055",
+   "domain": "chassis",
+   "topic": "2023 MC 125: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual for the MC 125: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2023 (MC 125), art. no. 3215094en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215094_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-056",
+   "domain": "chassis",
+   "topic": "2023 MC 250: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual for the MC 250: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2023 (MC 250), art. no. 3215095en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215095_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-057",
+   "domain": "chassis",
+   "topic": "2023 EX 250 / EX 300: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual for the EX 250 / EX 300: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2023 (EX 250 EX 300), art. no. 3215096en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215096_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-058",
+   "domain": "chassis",
+   "topic": "2023 MC 250F / EX 250F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual for the MC 250F / EX 250F: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2023 (MC 250F EX 250F), art. no. 3215097en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215097_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-059",
+   "domain": "chassis",
+   "topic": "2023 MC 350F / EX 350F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 350F",
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual for the MC 350F / EX 350F: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2023 (MC 350F EX 350F), art. no. 3215099en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215099_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-060",
+   "domain": "chassis",
+   "topic": "2023 MC 450F / EX 450F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 450F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual for the MC 450F / EX 450F: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2023 (MC 450F EX 450F), art. no. 3215100en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215100_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-061",
+   "domain": "chassis",
+   "topic": "2023 TC 125: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 125"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 owner's manual for the TC 125: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2023 (TC 125 TC 125 Heritage), art. no. 3402629en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402629_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-062",
+   "domain": "chassis",
+   "topic": "2023 TC 250 / TX 300: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250",
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 owner's manual for the TC 250 / TX 300: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2023 (TC 250 TC 250 Heritage TX 300 TX 300 Heritage), art. no. 3402630en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402630_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-063",
+   "domain": "chassis",
+   "topic": "2023 FC 250: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 owner's manual for the FC 250: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2023 (FC 250 FC 250 Heritage), art. no. 3402631en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-064",
+   "domain": "chassis",
+   "topic": "2023 FC 350 / FX 350: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350",
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 owner's manual for the FC 350 / FX 350: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2023 (FC 350 FX 350 FC 350 Heritage FX 350 Heritage), art. no. 3402632en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402632_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-065",
+   "domain": "chassis",
+   "topic": "2023 FC 450 / FX 450: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 450",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 owner's manual for the FC 450 / FX 450: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2023 (FC 450 FX 450 FC 450 Heritage FC 450 Rockstar Edition), art. no. 3402633en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402633_en_OM.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-066",
+   "domain": "chassis",
+   "topic": "2024 85 SX: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 85 SX 17/14",
+     "KTM 85 SX 19/16"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 owner's manual for the 85 SX: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); the front brake lever screw sets free travel, which moves the pressure point closer to or away from the bar, rather than lever reach; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_screw_sets_free_travel": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2024 (85 SX), art. no. 3214830en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3214830_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-067",
+   "domain": "chassis",
+   "topic": "2024 125 SX / 125 XC: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 125 XC"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 owner's manual for the 125 SX / 125 XC: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2024 (125 SX 125 XC), art. no. 3214832en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3214832_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-068",
+   "domain": "chassis",
+   "topic": "2024 250 SX / 300 SX / 250 XC / 300 XC: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "KTM 250 XC",
+     "KTM 300 XC"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 owner's manual for the 250 SX / 300 SX / 250 XC / 300 XC: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2024 (250 SX 300 SX 250 XC 300 XC), art. no. 3214833en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3214833_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-069",
+   "domain": "chassis",
+   "topic": "2024 MC 125: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual for the MC 125: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2024 (MC 125), art. no. 3215157en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215157_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-070",
+   "domain": "chassis",
+   "topic": "2024 MC 250 / EX 250 / EX 300: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual for the MC 250 / EX 250 / EX 300: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2024 (MC 250 EX 250 EX 300), art. no. 3215158en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215158_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-071",
+   "domain": "chassis",
+   "topic": "2024 MC 250F / EX 250F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual for the MC 250F / EX 250F: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2024 (MC 250F MC 250F Factory Edition EX 250F), art. no. 3215160en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215160_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-072",
+   "domain": "chassis",
+   "topic": "2024 MC 350F / EX 350F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 350F",
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual for the MC 350F / EX 350F: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2024 (MC 350F EX 350F), art. no. 3215161en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215161_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-073",
+   "domain": "chassis",
+   "topic": "2024 MC 450F / EX 450F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 450F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual for the MC 450F / EX 450F: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2024 (MC 450F EX 450F MC 450F FACTORY EDITION), art. no. 3215162en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-074",
+   "domain": "chassis",
+   "topic": "2024 TC 125: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 125"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Husqvarna's 2024 owner's manual for the TC 125: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2024 (TC 125), art. no. 3402711en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402711_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-075",
+   "domain": "chassis",
+   "topic": "2024 TC 250 / TX 300: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250",
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Husqvarna's 2024 owner's manual for the TC 250 / TX 300: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2024 (TC 250 TX 300), art. no. 3402712en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402712_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-076",
+   "domain": "chassis",
+   "topic": "2024 FC 250: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Husqvarna's 2024 owner's manual for the FC 250: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2024 (FC 250 FC 250 ROCKSTAR EDITION), art. no. 3402713en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-077",
+   "domain": "chassis",
+   "topic": "2024 FC 350 / FX 350: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350",
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Husqvarna's 2024 owner's manual for the FC 350 / FX 350: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2024 (FC 350 FX 350), art. no. 3402714en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402714_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-078",
+   "domain": "chassis",
+   "topic": "2024 FC 450 / FX 450: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 450",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Husqvarna's 2024 owner's manual for the FC 450 / FX 450: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2024 (FC 450 FX 450 FC 450 ROCKSTAR EDITION), art. no. 3402715en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402715_en_OM.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-079",
+   "domain": "chassis",
+   "topic": "2025 MC 125 / MC 150: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 125",
+     "GasGas MC 150"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "GasGas's 2025 owner's manual for the MC 125 / MC 150: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2025 (MC 125 MC 150), art. no. 3215219en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215219_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-080",
+   "domain": "chassis",
+   "topic": "2025 MC 250 / MC 300 / EX 250 / EX 300: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250",
+     "GasGas MC 300",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "GasGas's 2025 owner's manual for the MC 250 / MC 300 / EX 250 / EX 300: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2025 (MC 250 MC 300 EX 250 EX 300), art. no. 3215220en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215220_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-081",
+   "domain": "chassis",
+   "topic": "2025 85 SX: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 85 SX 17/14",
+     "KTM 85 SX 19/16"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's 2025 owner's manual for the 85 SX: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2025 (85 SX), art. no. 3240038en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240038_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-082",
+   "domain": "chassis",
+   "topic": "2025 125 SX / 125 XC / 150 SX: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 125 XC",
+     "KTM 150 SX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's 2025 owner's manual for the 125 SX / 125 XC / 150 SX: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2025 (125 SX 125 XC 150 SX), art. no. 3240041en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240041_en_OM.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-083",
+   "domain": "chassis",
+   "topic": "2025 250 SX / 300 SX / 250 XC / 300 XC: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "KTM 250 XC",
+     "KTM 300 XC"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's 2025 owner's manual for the 250 SX / 300 SX / 250 XC / 300 XC: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2025 (250 SX 300 SX 250 XC 300 XC), art. no. 3240042en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240042_en_OM.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-084",
+   "domain": "chassis",
+   "topic": "2025 TC 125 / TC 150: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 125",
+     "Husqvarna TC 150"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Husqvarna's 2025 owner's manual for the TC 125 / TC 150: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2025 (TC 125 TC 125 Heritage TC 150 TC 150 Heritage), art. no. 3402801en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402801_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-085",
+   "domain": "chassis",
+   "topic": "2025 TC 250 / TC 300 / TX 300: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250",
+     "Husqvarna TC 300",
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Husqvarna's 2025 owner's manual for the TC 250 / TC 300 / TX 300: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2025 (TC 250 TC 250 Heritage TC 300 TC 300 Heritage TX 300 TX 300 Heritage), art. no. 3402802en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402802_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-086",
+   "domain": "chassis",
+   "topic": "2025 FC 350 / FX 350: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350",
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Husqvarna's 2025 owner's manual for the FC 350 / FX 350: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2025 (FC 350 FC 350 Heritage FX 350 FX 350 Heritage), art. no. 3402804en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402804_en_BA.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-087",
+   "domain": "chassis",
+   "topic": "2026 MC 125: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "GasGas's 2026 owner's manual for the MC 125: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2026 (MC 125), art. no. 3215266en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3215266_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-088",
+   "domain": "chassis",
+   "topic": "2026 MC 250 / EX 300: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "GasGas's 2026 owner's manual for the MC 250 / EX 300: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2026 (MC 250 EX 300), art. no. 3215267en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3215267_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-089",
+   "domain": "chassis",
+   "topic": "2026 85 SX: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 85 SX 17/14",
+     "KTM 85 SX 19/16"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "KTM's 2026 owner's manual for the 85 SX: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the brake pedal tip can be bolted on in either of two hole positions; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "brake_pedal_tip_two_positions": true,
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2026 (85 SX), art. no. 3240229en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3240229_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-090",
+   "domain": "chassis",
+   "topic": "2026 125 SX / 125 XC: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 125 XC"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "KTM's 2026 owner's manual for the 125 SX / 125 XC: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2026 (125 SX 125 XC), art. no. 3240232en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3240232_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-091",
+   "domain": "chassis",
+   "topic": "2026 250 SX / 250 XC / 300 SX / 300 XC: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 250 XC",
+     "KTM 300 SX",
+     "KTM 300 XC"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "KTM's 2026 owner's manual for the 250 SX / 250 XC / 300 SX / 300 XC: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2026 (250 SX 250 XC 300 SX 300 XC), art. no. 3240233en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3240233_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-092",
+   "domain": "chassis",
+   "topic": "2026 TC 125: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 125"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Husqvarna's 2026 owner's manual for the TC 125: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2026 (TC 125), art. no. 3402882en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402882_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-093",
+   "domain": "chassis",
+   "topic": "2026 TC 250 / TX 300: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250",
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Husqvarna's 2026 owner's manual for the TC 250 / TX 300: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2026 (TC 250 TX 300), art. no. 3402883en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402883_en_BA.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-094",
+   "domain": "chassis",
+   "topic": "2027 MC 125: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "GasGas's 2027 owner's manual for the MC 125: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2027 (MC 125), art. no. 3215288en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3215288_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-095",
+   "domain": "chassis",
+   "topic": "2027 EX 300: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas EX 300"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "GasGas's 2027 owner's manual for the EX 300: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2027 (EX 300), art. no. 3215289en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3215289_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-096",
+   "domain": "chassis",
+   "topic": "2027 MC 250F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "GasGas's 2027 owner's manual for the MC 250F: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Owner's Manual 2027 (MC 250F), art. no. 3215290en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3215290_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-097",
+   "domain": "chassis",
+   "topic": "2027 85 SX: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 85 SX 17/14",
+     "KTM 85 SX 19/16"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "KTM's 2027 owner's manual for the 85 SX: the top clamp has two bar-mount holes 15 mm apart and the bar-mount holes sit 3.5 mm off centre, so the bar can go in four positions; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the brake pedal tip can be bolted on in either of two hole positions; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 4,
+    "top_clamp_hole_spacing_mm": 15.0,
+    "bar_mount_offset_mm": 3.5,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "brake_pedal_tip_two_positions": true,
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2027 (85 SX), art. no. 3240375en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3240375_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-k-098",
+   "domain": "chassis",
+   "topic": "2027 125 SX / 125 XC: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 125 XC"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "KTM's 2027 owner's manual for the 125 SX / 125 XC: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2027 (125 SX 125 XC), art. no. 3240379en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3240379_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-099",
+   "domain": "chassis",
+   "topic": "2027 250 SX / 250 XC / 300 SX / 300 XC: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 250 XC",
+     "KTM 300 SX",
+     "KTM 300 XC"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "KTM's 2027 owner's manual for the 250 SX / 250 XC / 300 SX / 300 XC: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2027 (250 SX 250 XC 300 SX 300 XC), art. no. 3240380en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3240380_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-100",
+   "domain": "chassis",
+   "topic": "2027 250 SX-F / 250 XC-F: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "KTM 250 XC-F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "KTM's 2027 owner's manual for the 250 SX-F / 250 XC-F: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2027 (250 SX-F 250 XC-F), art. no. 3240381en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3240381_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-101",
+   "domain": "chassis",
+   "topic": "2027 TC 125: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 125"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2027 owner's manual for the TC 125: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2027 (TC 125), art. no. 3402943en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402943_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-102",
+   "domain": "chassis",
+   "topic": "2027 TC 250 / TC 300 / TX 300: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250",
+     "Husqvarna TC 300",
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2027 owner's manual for the TC 250 / TC 300 / TX 300: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2027 (TC 250 TC 300 TX 300), art. no. 3402944en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402944_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  },
+  {
+   "id": "rfit-k-103",
+   "domain": "chassis",
+   "topic": "2027 FC 250: rider-fit adjustments (owner's manual)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2027 owner's manual for the FC 250: the bar-mount holes sit 3.5 mm off centre, so turning the mounts 180 degrees gives two bar positions about 7 mm apart fore-aft; the bar mounts can be fitted rigid or on rubber bushings; clutch lever reach is set to hand size with a hand-turned adjusting screw (limited range, never forced); front brake lever reach has its own hand-turned adjusting screw; the front brake lever must keep free travel of at least 3 mm; rear brake pedal height is set with a stop screw (limited range), then the push rod is reset so the pedal keeps 3-5 mm free travel; the shift lever can be refitted on the shaft splines to raise or lower it, as long as it touches nothing while shifting.",
+   "values": {
+    "bar_positions": 2,
+    "bar_mount_offset_mm": 3.5,
+    "bar_mount_rigid_or_rubber": true,
+    "clutch_lever_reach_adjuster": true,
+    "front_brake_lever_reach_adjuster": true,
+    "front_brake_lever_free_travel": ">= 3mm",
+    "brake_pedal_height_adjuster": true,
+    "brake_pedal_free_travel_mm": "3-5",
+    "shift_lever_spline_position": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Owner's Manual 2027 (FC 250), art. no. 3402945en",
+    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402945_en_BA.pdf",
+    "date": "2027"
+   },
+   "confidence": "high",
+   "notes": "Two-position figure is BAK arithmetic: a hole offset of x from centre moves the bar 2x when the mount is turned 180 degrees."
+  }
+ ]
+}

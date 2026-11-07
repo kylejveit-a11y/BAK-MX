@@ -1,0 +1,158 @@
+{
+ "slice": "Used-bike buying pass (2026-11-07): where the VIN and engine number are on Japanese-brand roster bikes, and the RM-Z450 shifting complaint as a used-buyer check. Suzuki had no known_issues records before this pass. Recalls are not repeated here.",
+ "platform": {
+  "make": "Kawasaki",
+  "models": [
+   "KX112",
+   "KX250",
+   "KX450",
+   "KX65",
+   "KX85",
+   "KX250X",
+   "KX450X"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "records": [
+  {
+   "id": "used-kaw-001",
+   "domain": "identity",
+   "topic": "Kawasaki: where the VIN is",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX112",
+     "KX250",
+     "KX450",
+     "KX65",
+     "KX85",
+     "KX250X",
+     "KX450X"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Kawasaki says the VIN on its motorcycles is stamped on the steering head, below the handlebars. On a used KX, read it there yourself and compare it, character by character, with the title or bill of sale; Kawasaki US VINs begin JKA or JKB.",
+   "values": {
+    "vin_location": "stamped on the steering head, below the handlebars",
+    "wmi": "JKA or JKB (seen in Kawasaki's own US VIN filings and recall VIN ranges)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki parts site, how to identify your vehicle (VIN finder)",
+    "url": "https://kpp.kawasaki.com/Vin-Finder",
+    "date": "accessed 2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "General Kawasaki motorcycle statement, not a KX-specific manual page. The engine-number location was not confirmed from a Kawasaki document in this pass. JKA/JKB prefixes appear in Kawasaki's 2019 VIN filings (on-road models, https://vpic.nhtsa.dot.gov/mid/home/displayfile/39cbd4aa-de4b-4320-b68a-6994c6512ec7) and in the 2025 KX450 recall VIN ranges in kawasaki.json."
+  },
+  {
+   "id": "used-yam-001",
+   "domain": "identity",
+   "topic": "Yamaha YZ: VIN on the steering head, model label on both sides",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The US regulator's notice for the 2022 YZ125 says the VIN is stamped on the frame steering head and the model number is printed on both sides of the bike. Yamaha's own older YZ450F owner's service manual (2016) puts the VIN on the right side of the frame and the engine serial number on the raised part of the right side of the engine.",
+   "values": {
+    "vin_location": "stamped on the frame steering head",
+    "model_label": "printed on both the right and left sides",
+    "engine_number_2016_yz450f": "stamped into the elevated part of the right side of the engine"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "CPSC recall notice 22-746 (Yamaha Motor Corporation USA), 2022 YZ125",
+    "url": "https://www.cpsc.gov/Recalls/2022/Yamaha-Recalls-Competition-Off-Road-Motorcycles-Due-to-Crash-Hazard-Recall-Alert",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Recorded against the only roster bike the notice names. The 2016 YZ450F manual page (https://www.manualslib.com/manual/1161595/Yamaha-Yz450f.html?page=19) is outside the roster years and is given for the engine number only. The notice quotes the VIN range as ***CE34C***000301-004096, so recall notices may quote only part of a VIN. The recall itself is ki6-013."
+  },
+  {
+   "id": "used-rmz-001",
+   "domain": "known_issues",
+   "topic": "used RM-Z450: missed shifts and false neutrals",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Owners of 2014-on RM-Z450s, including the 2018-on generation, report missed shifts and false neutrals, most often 2nd to 3rd under hard acceleration; several blame the short stock shift lever and fix it with a longer one, and one bike needed gears and shift forks replaced. On a used RM-Z450, shift through every gear under load on the test ride and ask whether the gearbox has been opened.",
+   "values": {
+    "test_ride": "hard upshifts 2-3 and 3-4 under load; downshifts; note any neutral between gears",
+    "owner_fixes": "longer or aftermarket shift lever (most common); stiffer shift-drum follower spring kit; one case needed 2nd-5th gears and shift forks"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum thread on 2018 RM-Z450 faults",
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Whats-wrong-with-a-2018-RMZ450,1357811",
+    "date": "2019-04"
+   },
+   "confidence": "low",
+   "notes": "Three posters agree in the 2019 thread (one friend's 2018 needed a transmission rebuild at 44 hours); a 2017 thread on 2014-2016 bikes agrees (https://vitalmx.com/forums/Tech-Help-Race-Shop,42/14-and-newer-RMZ450-shifting,1314043, Feb-Mar 2017) and calls the 2017 much better. Most 2018 owners in the 2019 thread reported no problems. No report read for 2020-2025 bikes specifically; applied to them because the engine and gearbox carried over, so confidence is low. Not a Suzuki bulletin."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "RM-Z450 shifting",
+   "ids": [
+    "used-rmz-001"
+   ],
+   "detail": "Several owners report false neutrals; most owners in the same thread report none, and one says the 2017 was much improved."
+  },
+  {
+   "topic": "Honda CRF450R engine number side",
+   "ids": [
+    "p6h-017"
+   ],
+   "detail": "Honda's 2020 CRF450R manual (p6h-017) puts the engine number on the right crankcase; an older CRF450R owner's manual edition read in this pass says the left crankcase. Not recorded as a new row; the used-bike module tells riders to use the manual for the exact year."
+  }
+ ],
+ "not_found": [
+  "Suzuki RM-Z owner's service manual page with the frame and engine serial locations (manual listings found, page text not readable).",
+  "Kawasaki KX engine-number location from a Kawasaki document.",
+  "Reliable Suzuki RM-Z250 2020-2027 weak spots: the per-year 'common issues' pages found were generic and in places wrong (one calls the fuel-injected 2021 RM-Z250 carbureted), so they were not used."
+ ],
+ "sources": [
+  "https://kpp.kawasaki.com/Vin-Finder",
+  "https://www.cpsc.gov/Recalls/2022/Yamaha-Recalls-Competition-Off-Road-Motorcycles-Due-to-Crash-Hazard-Recall-Alert",
+  "https://www.manualslib.com/manual/1161595/Yamaha-Yz450f.html?page=19",
+  "https://www.vitalmx.com/forums/Moto-Related,20/Whats-wrong-with-a-2018-RMZ450,1357811",
+  "https://vitalmx.com/forums/Tech-Help-Race-Shop,42/14-and-newer-RMZ450-shifting,1314043"
+ ]
+}
