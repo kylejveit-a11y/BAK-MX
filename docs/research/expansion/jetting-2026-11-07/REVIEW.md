@@ -110,14 +110,15 @@ engine-management sentences in GasGas EX/MC two-stroke 2025-2027 manuals) is sim
 Connectivity Unit Offroad section (the manual does not say whether it is fitted as standard or what it adjusts); no KTM-group
 manual names a tuning tool that changes fuel or ignition.
 
-### Yamaha (`fi/yamaha/`)
+### Yamaha (`fi/yamaha/`, 45 payloads, 239 rows)
 
 `scripts/manual-textlayer/yamaha_fi_facts.py`: maps 1 and 2 (identical as shipped, set with the Power Tuner app; map 2
 indicator), mode switch, launch control (function, activation, start gear, turns off in 3rd), Power Tuner (smartphone app over
 the CCU wireless network; settings designed for a standard vehicle), gasohol (ethanol up to 10%, methanol not recommended).
 Fuel grade and "E10 acceptable" were already verified for every Yamaha bike-year and are not repeated. No traction control
-section exists in these owner's service manuals. See `fi/yamaha/load/summary.json` for the WR250F / WR450F years that could
-be fetched (Yamaha's library answered 502 to most requests on 2026-11-07; nothing was worked around).
+section exists in these owner's service manuals. YZ250F / YZ450F / YZ250FX / YZ450FX 2020-2027 all have payloads; WR250F
+2025, WR450F 2022 and WR450F 2027 are missing because Yamaha's library answered 502 to every attempt (nothing was worked
+around); the WR manuals 2020-2023 print only the gasohol sentence of this set.
 
 ### Kawasaki (`fi/kawasaki/`, 25 payloads, 244 rows)
 
