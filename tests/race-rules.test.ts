@@ -20,6 +20,27 @@ const RULES_QUESTIONS=[
  'where does the transponder go',
  'arenacross classes rules',
  'tell me the race rules',
+ // Second pass: flags, starts, scoring, protests, entry, paddock, series.
+ 'what does the red cross flag mean in supercross',
+ 'can you pass under a yellow flag',
+ 'when does the gate drop after the 30 second card',
+ 'what is the penalty for jumping the gate',
+ 'how are motos scored',
+ 'who wins a tie in the overall',
+ 'how do the smx playoffs work',
+ 'how much is a protest fee',
+ 'what is the claiming rule',
+ 'do I need an AMA membership to race',
+ 'my son races tristar, does he need a minor release?',
+ 'can grandma take my daughter to race without me',
+ 'can I use a pit bike at mini o\'s',
+ 'what are the florida winter am classes',
+ 'what classes does partzilla arenacross have',
+ 'mxgp displacement rules',
+ 'wmx age requirement',
+ 'what happens if I cut the track',
+ 'how many road to supercross points do I need for a 250 license',
+ 'what are the hare scramble rules for spark arrestors',
 ];
 const NOT_RULES=[
  'front pushes in flat corners',
@@ -30,6 +51,12 @@ const NOT_RULES=[
  'my 85 bogs off the bottom',
  'when should I change my fork oil',
  'best tire pressure for sand',
+ 'how do I get better starts off the gate',
+ 'how do I jump a triple',
+ 'my bike is hard to start when hot',
+ 'how do I get a better holeshot',
+ 'can I run a bigger rear sprocket',
+ 'my bike stalls in the pits',
 ];
 const tokens=(o:unknown)=>Math.ceil(JSON.stringify(o).length/4);
 

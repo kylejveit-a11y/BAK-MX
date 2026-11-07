@@ -144,7 +144,7 @@ export const RACE_RULES:RaceRule[]=[
  // ── Entry, membership, minors and safety policy ──
  {id:'ama-membership',topic:'entry',applies:'Any AMA-sanctioned race',year:2026,source:AMA26,who:'all',core:true,kw:/member|one[- ]event|ama card/i,
   rule:'Every rider must be an AMA member or hold an AMA one-event pass; associate members cannot race. District organizations and series may require their own membership on top, and organizers may charge riders without it a different entry fee. Clubs may hold your AMA card while you are signed in.'},
- {id:'ama-minors',topic:'entry',applies:'Riders under 18 at AMA amateur and youth events',year:2026,source:AMA26,who:'amateur',core:true,kw:/minor|parent|guardian|notar\w*|consent|release|waiver|grandparent|uncle|aunt|without me|kid|son|daughter/i,
+ {id:'ama-minors',topic:'entry',applies:'Riders under 18 at AMA amateur and youth events',year:2026,source:AMA26,who:'amateur',core:true,kw:/minor|parent|guardian|notar\w*|consent|release|waiver|grandparent|grandma|grandpa|uncle|aunt|without (me|a parent|his (mom|dad)|her (mom|dad))/i,
   rule:'A rider under the age of majority in that state needs the written consent of a parent or legal guardian who is at the meet: they sign the release and entry form (youth: below the rider’s signature) and must stay on site the whole time the rider is there. Another adult may stand in only with a notarized statement from the parent or guardian giving them responsibility for that day; it is kept with the release.',
   means:'Grandparents, coaches or family friends taking a kid racing need that notarized letter. Series such as TriStar take the parent’s waiver online in advance.'},
  {id:'pro-minors',topic:'entry',applies:'Under-18 AMA Supercross license applicants',year:2026,source:SX,who:'pro',kw:/minor|parent|guardian|notar\w*|under 18|17[- ]year/i,
@@ -406,7 +406,7 @@ const STRONG=new RegExp('\\b('+[
  "career numbers?","national numbers?","license penalty points?","penalty points?",
  // entry, minors, safety
  "ama (membership|card)","one[- ]event pass","minor('?s)? (release|waiver)","parental consent","notari[sz]\\w*","release (form|waiver)","concussion (policy|rules?)",
- "lightning (rule|policy)",
+ "lightning (rule|policy)","(race|racing|ride|riding) without (me|a parent|(his|her|their) (parents?|mom|dad))","(grandma|grandpa|grandparents?|uncle|aunt|coach|a friend) (can |could )?(take|bring)s? (my|our|him|her|them)",
  // pits and series
  "pit vehicles?","pit (bike|cart)s? (allowed|rules?|permit)","paddock (rules?|speed)","fire extinguisher","mechanics? area","mini ?o'?s","winter ?am",
  "tristar","partzilla","mid[- ]?south","wmx","pro[- ]?am","pro sport","250 licen[cs]e","hare scrambles? rules?",
