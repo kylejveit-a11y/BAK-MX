@@ -61,7 +61,9 @@ def main():
     # which holds records for many states: only this state's records are read from it.
     files = sorted(glob.glob(os.path.join(DIR, f'{state.lower()}-*.json'))) + [f for f in (os.path.join(DIR, f'{state.lower()}.json'), os.path.join(DIR, 'nationals.json')) if os.path.exists(f)]
     for f in files:
-        if '-update-' in os.path.basename(f): continue
+        # <state>-reference-*.json: private facilities kept for Ask BAK reference only (tracks.listed=false); loaded on
+        # their own, never into the rider-facing track list.
+        if '-update-' in os.path.basename(f) or '-reference-' in os.path.basename(f): continue
         data = [r for r in json.load(open(f)) if os.path.basename(f) != 'nationals.json' or r.get('state') == state]
         for r in data:
             if r.get('id') in EXCLUDE:
