@@ -1,0 +1,42 @@
+/* Fuel plan (src/FuelPlan.tsx): a timed list on the dark metal panels, gate times in the bike accent, a red-flag box. */
+.fp-card .fp-next{color:#c9d1dd;font-weight:500}
+.fp-gates{display:flex;flex-direction:column;gap:8px}
+.fp-gate{display:grid;grid-template-columns:minmax(0,1fr) 120px auto auto;gap:8px;align-items:center}
+.fp-gate .hb-input{padding:9px 12px;font-size:15px}
+@media (max-width:480px){.fp-gate{grid-template-columns:minmax(0,1fr) 110px}.fp-gate .hb-link{justify-self:start}}
+.fp-toggles{display:flex;flex-wrap:wrap;gap:10px 20px}
+.fp-toggle{display:inline-flex;align-items:center;gap:10px;font-size:14px;color:#dfe5ef;cursor:pointer}
+.fp-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.fp-item{display:grid;grid-template-columns:86px minmax(0,1fr);gap:12px;padding:12px 0;border-top:1px solid #1a1e25}
+.fp-item:first-child{border-top:0}
+.fp-item.past{opacity:.45}
+.fp-when strong{display:block;font-family:var(--display);font-size:15px;color:var(--bike-accent,#7ea6ff)}
+.fp-when small{display:block;font-size:11.5px;color:#7d8593;line-height:1.35;margin-top:2px}
+.fp-body>*{margin:0}
+.fp-body>*+*{margin-top:5px}
+.fp-title{font-family:var(--display);font-weight:700;font-size:15.5px;color:#fff}
+.fp-tag{margin-left:8px;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#9aa2ae;border:1px solid #343a45;border-radius:6px;padding:1px 6px;vertical-align:2px}
+.fp-line{display:flex;gap:8px;align-items:baseline;font-size:14.5px;color:#e4e8ef;line-height:1.45}
+.fp-line svg{flex-shrink:0;color:var(--bike-accent,#7ea6ff);transform:translateY(2px)}
+.fp-line b{color:#fff}
+.fp-why{font-size:13px;color:#98a2b5;line-height:1.5}
+.fp-ceiling{font-size:12.5px;color:#f1d38a;line-height:1.45}
+.fp-ceiling.strong{padding:10px 12px;border:1px solid #4a4026;border-radius:10px;background:#17140c;margin:0}
+.fp-evidence{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:11.5px;color:#6f7784}
+.fp-badge{font-weight:700;letter-spacing:.04em;padding:2px 7px;border-radius:6px;font-size:10.5px;text-transform:uppercase}
+.fp-badge.ev{background:#12261a;color:#9fdcb3;border:1px solid #24492f}
+.fp-badge.xp{background:#1b1f28;color:#c3cad6;border:1px solid #333a47}
+.fp-detail{margin-top:6px}
+.fp-sweat{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px}
+.fp-safety{border:1px solid #7a3038;background:linear-gradient(180deg,#22100f,#170b0c);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.fp-safety>p{margin:0}
+.fp-safety-head{display:flex;gap:8px;align-items:center;font-family:var(--display);font-weight:700;color:#ffb4b9;font-size:14px}
+.fp-flags{font-size:13.5px;color:#f3d5d7;line-height:1.5}
+.fp-safety-911{font-size:13px;color:#ffd9dc;line-height:1.5}
+.fp-form .fp-row{display:flex;gap:10px}
+.fp-form .fp-row>*{flex:1;min-width:0}
+.fp-screen{display:flex;flex-direction:column;gap:8px}
+.fp-check{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:#dfe5ef;line-height:1.4}
+.fp-check input{margin-top:3px;accent-color:var(--bike-accent,#7ea6ff)}
+.fp-result{padding:12px 14px;border:1px solid var(--line-strong);border-radius:12px;background:#0d1015;display:flex;flex-direction:column;gap:6px}
+.fp-result>p{margin:0}

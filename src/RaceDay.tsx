@@ -15,6 +15,7 @@ import {createSubmission,finishCreate} from './createSubmission';
 import {RichText} from './RichText';
 import {BlockHead,Chip,Progress,Sheet,errorText,readLocal,writeLocal,timeOf,useRacePrepList} from './HomeBlocks';
 import {TrackReportCard} from './TrackReport';
+import {FuelPlanCard} from './FuelPlan';
 
 // ------------------------------------------------------------------ the race itself
 /** The rider's race for this bike, today or ahead, saved on this browser. A race that has passed reads as none. */
@@ -156,6 +157,7 @@ export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenC
   </div>
   {onNext&&race&&<NextUpCard race={race} labels={MOTOS} onSet={onNext}/>}
   <RaceSetupCard account={account} bike={bike} track={track} day={today()} onOpenChat={onOpenChat}/>
+  <FuelPlanCard account={account} race={race??{on:true,track,day:today()}} kind="race"/>
   <BikeNowCard bike={bike}/>
   <section className="panel hb-block"><div className="hb-block-head"><span className="eyebrow"><Zap size={15} style={{color:'var(--bike-accent)'}}/>QUICK ASK</span></div>
    <p className="hb-copy" style={{fontSize:13.5}}>Tap what the bike did. BAK answers in race mode: the one change to make, short and fast.</p>

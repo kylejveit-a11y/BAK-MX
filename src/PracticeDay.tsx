@@ -14,6 +14,7 @@ import {BlockHead,Chip,errorText,readLocal,writeLocal,timeOf} from './HomeBlocks
 import {BikeNowCard,NextUpCard,bikeSetup} from './RaceDay';
 import {RacePrepCard,RacePrepSheet} from './RacePrep';
 import {TrackReportCard} from './TrackReport';
+import {FuelPlanCard} from './FuelPlan';
 
 const storeKey=(bikeId:string)=>`practice-sessions:${bikeId}`;
 /** Today's sessions for this bike, kept on this browser. */
@@ -55,6 +56,7 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
    <p className="hb-copy" style={{fontSize:13.5}}>{COPY.askDetail}</p>
    <button type="button" className="button" onClick={()=>onAsk(practiceAskText({track,bike:bikeName,setup:bikeSetup(bike),sessions}))}>{COPY.ask}</button>
   </section>
+  <FuelPlanCard account={account} race={race} kind="practice"/>
   <RacePrepCard kind="practice" bike={bike} phase={sessions.length?'motos':'track'} onOpen={()=>setPrepOpen(true)}/>
   <RacePrepSheet kind="practice" open={prepOpen} onClose={()=>setPrepOpen(false)} bike={bike} startPhase={sessions.length?'motos':'track'}/>
   <section className="panel hb-block"><BlockHead title={`${COPY.logSession} · SESSION ${n}`}/>

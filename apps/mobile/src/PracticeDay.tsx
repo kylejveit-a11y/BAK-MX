@@ -18,6 +18,7 @@ import {success} from './haptics';
 import {BikeNowCard,NextUpCard,bikeSetup,useRaceActivity} from './HomeBlocks';
 import {RacePrepCard,RacePrepSheet} from './RacePrep';
 import {TrackReportCard} from './TrackReport';
+import {FuelPlanCard} from './FuelPlan';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 const time=(iso:string)=>new Date(iso).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
@@ -81,6 +82,7 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
    <Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>{COPY.askDetail}</Text>
    <Button title={COPY.ask} onPress={()=>onAsk(practiceAskText({track,bike:bikeName,setup:bikeSetup(bike),sessions}))}/>
   </Card>
+  <FuelPlanCard account={account} race={race} kind="practice"/>
   <RacePrepCard kind="practice" account={account} bike={bike} phase={sessions.length?'motos':'track'} onOpen={()=>setPrepOpen(true)}/>
   <RacePrepSheet kind="practice" visible={prepOpen} onClose={()=>setPrepOpen(false)} account={account} bike={bike} startPhase={sessions.length?'motos':'track'}/>
   <Card><Eyebrow>{COPY.logSession} · SESSION {n}</Eyebrow>

@@ -16,6 +16,7 @@ import {Pressable} from './Touch';
 import {Button,Card,Copy,Eyebrow,Icon,MetalMark,Notice,colors,tint,type IconName} from './ui';
 import {success} from './haptics';
 import {RacePrepCard,RacePrepSheet,useRacePrep,Progress} from './RacePrep';
+import {FuelPlanCard} from './FuelPlan';
 import {RACE_PHASES,phaseForDaysOut,type RacePhase} from '../../../shared/race-prep';
 import {advanceNextUp,checklistCount,clockText,countdownText,nextChecklistItem,nextUpDate,parseClock,parseNextUp} from '../../../shared/practice-day';
 import {endRaceActivity,setRaceStatus,setRaceWidget,syncRaceActivity} from './widgets/sync';
@@ -334,6 +335,7 @@ export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenC
   </View>
   {onNext&&<NextUpCard race={day} labels={MOTOS} onSet={onNext}/>}
   <RaceSetupCard account={account} bike={bike} track={track} day={today()} onOpenChat={onOpenChat}/>
+  <FuelPlanCard account={account} race={day} kind="race"/>
   <BikeNowCard bike={bike}/>
   <Card><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="bolt" size={16} color={colors.accent}/><Eyebrow>QUICK ASK</Eyebrow></View>
    <Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>Tap what the bike did. BAK answers in race mode: the one change to make, short and fast.</Text>
