@@ -2,6 +2,7 @@
 # URL: https://azwecdnepstoragewebsiteuploads.azureedge.net/<document>.pdf
 # status: loaded = technical data and service schedule on file; partial = see TEXT_LAYER_REVIEW_2026-10-10.md and TEXT_LAYER_REVIEW_2026-10-13.md; todo = published, not read yet
 # The model list is the cover of the manual; later years of a document may cover fewer models than earlier ones.
+# Optional 6th column: market of a variant the validity page prints without US/EU ("FX 350=WW"); its rows follow that variant's own notes ("All FX models"), not "All US models".
 make	models	year	document	status
 KTM	250 SX-F / 250 XC-F	2020	20_3214129_en_OM	loaded
 KTM	250 SX-F / 250 XC-F	2021	21_3214213_en_OM	loaded
@@ -46,7 +47,7 @@ Husqvarna	FC 250	2024	24_3402713_en_OM	partial
 Husqvarna	FC 250	2025	25_3402803_en_BA	partial
 Husqvarna	FC 250	2026	26_3402884_en_BA	partial
 Husqvarna	FC 250	2027	27_3402945_en_BA	loaded
-Husqvarna	FC 350 / FX 350	2023	23_3402632_en_OM	partial
+Husqvarna	FC 350 / FX 350	2023	23_3402632_en_OM	loaded	FX 350=WW
 Husqvarna	FC 350 / FX 350	2024	24_3402714_en_OM	loaded
 Husqvarna	FC 350 / FX 350	2025	25_3402804_en_BA	loaded
 Husqvarna	FC 350 / FX 350	2026	26_3402885_en_BA	loaded

@@ -11,8 +11,11 @@ def _attrs(model):
     m=re.match(rf'^({TYPE}) (\d+)(F?)$',model)
     if m: return m.group(2),m.group(1)+('-F' if m.group(3) else ''),None
     raise ValueError(model)
-def applies(note,model,region='US'):
+REGION='US'   # market of the variant being loaded; a document whose validity page prints the variant without a US/EU market
+              # (Husqvarna FX 350 2023: "FX 350 (F2201W6, F2201W8)" beside "FC 350 US") is built with that market instead
+def applies(note,model,region=None):
     """True/False if note is a validity note; None if it is ordinary text."""
+    if region is None: region=REGION
     t=note.strip()
     if t.startswith('(') and t.endswith(')'): t=t[1:-1]
     t=t.replace('\u2011','-').replace('\u00ad','-')

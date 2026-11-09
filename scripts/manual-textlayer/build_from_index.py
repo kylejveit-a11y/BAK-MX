@@ -21,7 +21,9 @@ def main():
     index,status,outdir=sys.argv[1:4]; only=set(sys.argv[4:]); os.makedirs(outdir,exist_ok=True); i=0; report=[]
     for line in open(index):
         if line.startswith('#'): continue
-        make,models,yr,doc,st=line.rstrip('\n').split('\t')[:5]
+        cols=line.rstrip('\n').split('\t'); make,models,yr,doc,st=cols[:5]
+        # optional 6th column: market of a variant whose validity-page entry carries no US/EU market, e.g. 'FX 350=WW'
+        regions=dict(x.split('=',1) for x in cols[5].split(' / ')) if len(cols)>5 and cols[5] else {}
         if st!=status or (only and doc not in only): continue
         path=doc+'.pdf'; sha=hashlib.sha256(open(path,'rb').read()).hexdigest()
         mod=td; rows=td.parse(path)
@@ -32,6 +34,7 @@ def main():
         for model in models.split(' / '):
             if not re.search(r'(?<![\w-])'+re.escape(model)+r'(?:i| TPI)?(?![\w-])',cover):
                 report.append({'i':None,'make':make,'model':model,'yr':yr,'doc':doc,'layout':'','n':0,'sched':0,'sched_problems':[],'secs':{},'damp':0,'dropped':[],'flagged':[],'notes':['NOT ON COVER: '+cover[:120]]}); continue
+            V.REGION=regions.get(model,'US')
             f,q=mod.facts(rows,model)
             # A bike that already has a reviewed table on file only receives suspension rows and the service schedule.
             # Tightening torques are kept as well (2026-10-30): the reviewed tables on file predate the torque reader,
