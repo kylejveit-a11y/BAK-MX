@@ -39,7 +39,7 @@ import {phaseForDaysOut} from '../../../shared/race-prep';
 import {upNext,type PlanItem} from '../../../shared/service-plan';
 import {bikeScope,chatScope,createRequestGate,selectedBikeId,validServiceDate,retryRequest,appendWorkshopContext} from './continuity';
 import {readProgress,writeProgress,useProgress,exportProgress,clearProgress} from './localProgress';
-import {AnswerNoteBar,ChatNoteBox,NotesList,PhotoCheckChips,photoCheckSource,useBikeNotes,useMoveDeviceNotes} from './TuningNotes';
+import {AnswerNoteBar,ChatNoteBox,NotesList,photoCheckSource,useBikeNotes,useMoveDeviceNotes} from './TuningNotes';
 import {photoCheck,type PhotoCheckId} from '../../../shared/tuning-notes';
 import {api,apiStream,apiQueued,configured,supabase,ApiError,currentStore} from './api';
 import {pending,withPending,isLocal,useConnection} from './offline';
@@ -352,7 +352,6 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
    <TextInput accessibilityLabel="Message BAK" multiline editable={!busy} value={draft} onChangeText={setDraft} maxLength={8000} placeholder={job.run?'Ask about this step, or type next / back':'What’s the bike doing?'} placeholderTextColor="#7d8593" style={{flex:1,color:colors.text,fontSize:16,lineHeight:21,maxHeight:130,paddingTop:9,paddingBottom:9}}/>
    <Pressable haptic="press" accessibilityRole="button" accessibilityLabel="Send to BAK" accessibilityState={{disabled:!canSend}} disabled={!canSend} onPress={submit} style={({pressed})=>[{width:38,height:38,borderRadius:19,backgroundColor:canSend?'transparent':'#23272f',alignItems:'center',justifyContent:'center'},canSend&&blueLift,pressed&&{transform:[{translateY:1}]}]}>{({pressed})=><>{canSend&&<BlueFace radius={19} pressed={pressed}/>}{busy?<ActivityIndicator size="small" color={colors.text}/>:<Icon name="arrowUp" size={20} color={canSend?'#ffffff':'#7d8593'} weight={2.2}/>}</>}</Pressable>
   </View>
-  {!busy&&!attached.length&&!uploading&&!job.run&&!draft.trim()&&<PhotoCheckChips line disabled={busy} onPick={id=>void runPhotoCheck(id)}/>}
  </View>:null;
  return <Page title="" footer={composer}>
  {/* The bike, chats and race mode live on the composer (like other chat apps), so the conversation gets the screen. */}
