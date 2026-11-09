@@ -19,7 +19,7 @@ import Svg,{Defs,LinearGradient,Rect,Stop} from 'react-native-svg';
  safeTop pads under the status bar on screens with no header; footer floats as a glass bar above the tab bar or keyboard.
  footerForAction: the footer is a form's primary button (Publish, Save). The fields stay in the page and keep their keyboard
  insets so each scrolls into view; the footer rides above the keyboard, and the tab bar can never cover it. */
-export function Page({title,children,safeTop=false,footer,footerForAction=false,scrollRef}:{title:string;children:React.ReactNode;safeTop?:boolean;footer?:React.ReactNode;footerForAction?:boolean;scrollRef?:React.Ref<ScrollView>}){
+export function Page({title,children,safeTop=false,footer,footerForAction=false,scrollRef,onContentSizeChange,onScrollBeginDrag}:{title:string;children:React.ReactNode;safeTop?:boolean;footer?:React.ReactNode;footerForAction?:boolean;scrollRef?:React.Ref<ScrollView>;onContentSizeChange?:(w:number,h:number)=>void;onScrollBeginDrag?:()=>void}){
  const insets=useSafeAreaInsets(),header=React.useContext(HeaderHeightContext)??0,inTabs=React.useContext(BottomTabBarHeightContext)!==undefined;
  const tabSpace=useTabSpace(),kb=useKeyboardHeight(),[footH,setFootH]=React.useState(0);
  const bottomChrome=inTabs?tabSpace:insets.bottom;
@@ -27,7 +27,7 @@ export function Page({title,children,safeTop=false,footer,footerForAction=false,
  // With an action footer the system adds the keyboard inset itself, so the content clears only the footer and the chrome.
  const contentBottom=footer?footH+(footerForAction?bottomChrome+10:footBottom):bottomChrome;
  return <View style={{flex:1,backgroundColor:colors.bg}}>
-  <ScrollView ref={scrollRef} keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets={!footer||footerForAction} scrollIndicatorInsets={{top:header,bottom:bottomChrome}}
+  <ScrollView ref={scrollRef} onContentSizeChange={onContentSizeChange} onScrollBeginDrag={onScrollBeginDrag} keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets={!footer||footerForAction} scrollIndicatorInsets={{top:header,bottom:bottomChrome}}
    contentContainerStyle={[s.page,{paddingTop:(safeTop?insets.top:header)+16,paddingBottom:contentBottom+28}]}>
    <OfflineLine/>
    {title?<PageTitle>{title}</PageTitle>:null}{children}
