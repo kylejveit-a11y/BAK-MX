@@ -20,6 +20,7 @@ import {FuelPlanCard} from './FuelPlan';
 import {RACE_PHASES,phaseForDaysOut,type RacePhase} from '../../../shared/race-prep';
 import {advanceNextUp,checklistCount,clockText,countdownText,nextChecklistItem,nextUpDate,parseClock,parseNextUp} from '../../../shared/practice-day';
 import {endRaceActivity,setRaceStatus,setRaceWidget,syncRaceActivity} from './widgets/sync';
+import {upNext,type PlanItem} from '../../../shared/service-plan';
 import {RichText} from './RichText';
 import {TrackReportCard} from './TrackReport';
 import {OFF_RACE as OFF,dayOf,today,activeRace,raceToday,daysToGo,whenText,QUICK,CHANGES,MOTOS,quickAskText,tryNextText,raceSetupTitle,raceSetupQuestion,raceSetupField,raceSetupKey,raceSetupStale,plain,knownTrack,trackSuggestions,trackPicks,isPractice,type RaceDay,type KnownTrack,type NextUp} from '../../../shared/race-day';
@@ -30,24 +31,11 @@ const when=(iso:string)=>new Date(iso).toLocaleDateString([],{weekday:'short',mo
 const time=(iso:string)=>new Date(iso).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
 
 // ------------------------------------------------------------------ layout
-export type HomeBlock='ask'|'bike'|'prep'|'service'|'setup'|'events'|'coaching'|'tools';
-export const HOME_BLOCKS:{id:HomeBlock;label:string;detail:string}[]=[
- {id:'ask',label:'Ask BAK',detail:'The question bar'},
- {id:'bike',label:'Your bike',detail:'Photo, hours and setup checklist'},
- {id:'prep',label:'Race prep',detail:'Your own checklist, week before to after'},
- {id:'service',label:'Service due',detail:'What’s due next, by hours'},
- {id:'setup',label:'Last setup change',detail:'What you changed and how it rode'},
- {id:'events',label:'Upcoming events',detail:'Your next ride days and races'},
- {id:'coaching',label:'Last coaching',detail:'Your latest fix and drill'},
- {id:'tools',label:'Shortcuts',detail:'Setup log, workshop, specs and more'},
-];
-type Layout={id:HomeBlock;on:boolean}[];
-const DEFAULT_LAYOUT:Layout=HOME_BLOCKS.map(b=>({id:b.id,on:true}));
-/** Saved order, with any block added in a later version appended (on) so riders always see new things once. */
+import {HOME_BLOCKS,DEFAULT_LAYOUT,migrateLayout,type HomeBlock,type Layout} from './homeLayout';
+export {HOME_BLOCKS,type HomeBlock};
 export function useHomeLayout(account:string){
- const [layout,setLayout]=useState<Layout>(()=>(()=>{const saved=readProgress<Layout|null>(account,'home-layout',null);if(!saved)return DEFAULT_LAYOUT;const known=saved.filter(b=>HOME_BLOCKS.some(h=>h.id===b.id));const out=[...known];DEFAULT_LAYOUT.forEach((d,i)=>{if(out.some(k=>k.id===d.id))return;const prev=DEFAULT_LAYOUT[i-1],at=prev?out.findIndex(k=>k.id===prev.id):-1;out.splice(at+1,0,d);});return out;})().map(b=>b.id==='tools'?{...b,on:true}:b));
- // Shortcuts is the way into Messages, Workshop, Specs and the logs, so it always stays on.
- const save=(next:Layout)=>{next=next.map(b=>b.id==='tools'?{...b,on:true}:b);setLayout(next);try{writeProgress(account,'home-layout',next);}catch{}};
+ const [layout,setLayout]=useState<Layout>(()=>migrateLayout(readProgress<{id:string;on:boolean}[]|null>(account,'home-layout',null)));
+ const save=(next:Layout)=>{setLayout(next);try{writeProgress(account,'home-layout',next);}catch{}};
  return {layout,save,reset:()=>save(DEFAULT_LAYOUT)};
 }
 
@@ -67,7 +55,7 @@ export function HomeEditor({visible,layout,onChange,onReset,onClose}:{visible:bo
      <View style={{flex:1,gap:2}}><Text style={{color:b.on?colors.text:'#7d8593',fontSize:16,fontWeight:'700'}}>{meta.label}</Text><Text style={{color:colors.muted,fontSize:12.5}}>{meta.detail}</Text></View>
      {arrow('chevronUp','Move up',i===0,()=>move(i,-1))}
      {arrow('chevronDown','Move down',i===layout.length-1,()=>move(i,1))}
-     {b.id==='tools'?<Text style={{color:colors.muted,fontSize:12.5,width:51,textAlign:'center'}}>Always on</Text>:<Switch value={b.on} onValueChange={v=>onChange(layout.map(x=>x.id===b.id?{...x,on:v}:x))} trackColor={{true:colors.primary,false:'#2a2f39'}} accessibilityLabel={`Show ${meta.label}`}/>}
+     <Switch value={b.on} onValueChange={v=>onChange(layout.map(x=>x.id===b.id?{...x,on:v}:x))} trackColor={{true:colors.primary,false:'#2a2f39'}} accessibilityLabel={`Show ${meta.label}`}/>
     </View>;})}
     <Pressable accessibilityRole="button" onPress={onReset} style={{paddingVertical:18}}><Text style={{color:colors.muted,fontSize:15}}>Reset to the standard layout</Text></Pressable>
    </ScrollView>
@@ -83,51 +71,43 @@ function BlockHead({title,action,onAction}:{title:string;action?:string;onAction
  </View>;
 }
 
-/** Service items with a "next due at hours" reminder, nearest first, against the bike's hours. */
-export function ServiceDueBlock({bike,onOpen}:{bike:Bike;onOpen:()=>void}){
- const [events,setEvents]=useState<ServiceEvent[]|null>(null);
- useFocusEffect(useCallback(()=>{api<ServiceEvent[]>(`/api/services?bike_id=${bike.id}`).then(setEvents).catch(()=>setEvents([]));},[bike.id]));
- if(!events)return null;
- // Latest entry per item decides when that item is next due.
- const latest=new Map<string,ServiceEvent>();for(const e of [...events].sort((a,b)=>b.performed_at.localeCompare(a.performed_at)))if(!latest.has(e.category))latest.set(e.category,e);
- const due=[...latest.values()].filter(e=>e.next_due_hours!=null).sort((a,b)=>(a.next_due_hours!)-(b.next_due_hours!)).slice(0,3);
- const hours=bike.engine_hours;
- return <Card><BlockHead title="SERVICE DUE" action="Service log" onAction={onOpen}/>
-  {!due.length&&<Copy>{events.length?'No reminders set. When you log a service, add when it’s next due and it shows here.':'Log your last oil change or filter, with when it’s next due, and it shows here.'}</Copy>}
-  {due.map(e=>{const left=hours!=null?Math.round((e.next_due_hours!-hours)*10)/10:null;const over=left!=null&&left<=0,soon=left!=null&&left>0&&left<=2;
-   return <View key={e.id} style={{flexDirection:'row',alignItems:'center',gap:10}}>
-    <View style={{width:8,height:8,borderRadius:4,backgroundColor:over?'#ef6b73':soon?'#e8c15a':'#5fbf7f'}}/>
-    <Text style={{flex:1,color:colors.text,fontSize:15.5,fontWeight:'600'}}>{e.category}</Text>
-    <Text style={{color:over?'#ef9aa1':colors.muted,fontSize:14,fontWeight:over?'700':'500'}}>{left==null?`at ${e.next_due_hours} h`:over?`${Math.abs(left)} h overdue`:`in ${left} h`}</Text>
-   </View>;})}
-  {due.length>0&&hours==null&&<Text style={{color:colors.muted,fontSize:12.5}}>Add the bike’s hours in Garage to count down.</Text>}
+/** The one thing worth a glance: a service that is actually due (a job never logged has no due state, so it never shows here),
+ *  else the next event the rider is going to, else the last setup change. Nothing shows when there is nothing to say. */
+export function UpNextBlock({bike,onService,onEvents,onSetup}:{bike:Bike;onService:()=>void;onEvents:()=>void;onSetup:()=>void}){
+ const [data,setData]=useState<{due:{key:string;category:string;left:number|null;at:number|null}[];event:RideEvent|null;log:SetupLog|null}|null>(null);
+ useFocusEffect(useCallback(()=>{let live=true;
+  Promise.all([
+   api<ServiceEvent[]>(`/api/services?bike_id=${bike.id}`).catch(()=>[] as ServiceEvent[]),
+   api<{items:PlanItem[]}>(`/api/service-plan?bike_id=${bike.id}`).then(r=>r.items).catch(()=>null),
+   api<RideEvent[]>('/api/events?scope=upcoming').catch(()=>[] as RideEvent[]),
+   api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`).catch(()=>[] as SetupLog[]),
+  ]).then(([events,plan,rides,logs])=>{if(!live)return;
+   // Due means a figure: overdue or within the next 10 hours. A reminder with no hours on the bike is not a due state.
+   const due=upNext(plan,events,bike.engine_hours,2).filter(d=>d.left!=null&&d.left<=10);
+   const going=rides.filter(e=>!e.canceled_at&&(e.my_rsvp==='going'||e.mine)).sort((a,b)=>a.starts_at.localeCompare(b.starts_at));
+   setData({due,event:going[0]??null,log:logs[0]??null});});
+  return()=>{live=false;};},[bike.id,bike.engine_hours]));
+ if(!data)return null;
+ if(data.due.length)return <Card><BlockHead title="UP NEXT" action="Service log" onAction={onService}/>
+  {data.due.map(d=>{const over=d.left!=null&&d.left<=0;return <View key={d.key} style={{flexDirection:'row',alignItems:'center',gap:10}}>
+   <View style={{width:8,height:8,borderRadius:4,backgroundColor:over?'#ef6b73':'#e8c15a'}}/>
+   <Text style={{flex:1,color:colors.text,fontSize:15.5,fontWeight:'600'}}>{d.category}</Text>
+   <Text style={{color:over?'#ef9aa1':colors.muted,fontSize:14,fontWeight:over?'700':'500'}}>{over?(d.left===0?'due now':`${Math.abs(d.left!)} h overdue`):`in ${d.left} h`}</Text>
+  </View>;})}
  </Card>;
-}
-
-export function LastSetupBlock({bike,onOpen}:{bike:Bike;onOpen:()=>void}){
- const [log,setLog]=useState<SetupLog|null|undefined>(undefined);
- useFocusEffect(useCallback(()=>{api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`).then(l=>setLog(l[0]??null)).catch(()=>setLog(null));},[bike.id]));
- if(!log)return null;
- const tone=log.result==='better'?'#7fd09a':log.result==='worse'?'#ef9aa1':colors.muted;
- return <Card><BlockHead title="LAST SETUP CHANGE" action="Setup log" onAction={onOpen}/>
+ if(data.event){const e=data.event;return <Card><BlockHead title="UP NEXT" action="Events" onAction={onEvents}/>
+  <Pressable accessibilityRole="button" onPress={onEvents} style={({pressed})=>({gap:2,opacity:pressed?0.7:1})}>
+   <Text style={{color:colors.text,fontSize:12.5,fontWeight:'700'}}>{EVENT_TYPE_LABELS[e.event_type]}{e.my_rsvp==='going'?' · You’re going':e.mine?' · Yours':''}</Text>
+   <Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{e.title}</Text>
+   <Text style={{color:colors.muted,fontSize:13.5}}>{when(e.starts_at)} · {time(e.starts_at)} · {e.location_name}</Text>
+  </Pressable>
+ </Card>;}
+ if(data.log){const log=data.log,tone=log.result==='better'?'#7fd09a':log.result==='worse'?'#ef9aa1':colors.muted;return <Card><BlockHead title="LAST SETUP CHANGE" action="Setup log" onAction={onSetup}/>
   <Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{log.change_made||'Setup recorded'}</Text>
   <Text style={{color:colors.muted,fontSize:13.5}}>{when(log.recorded_at)}{log.track?` · ${log.track}`:''}{log.conditions?` · ${log.conditions}`:''}</Text>
   <Text style={{color:tone,fontSize:14,fontWeight:'700'}}>{SETUP_RESULT_LABELS[log.result]}{log.notes?<Text style={{color:colors.muted,fontWeight:'400'}}> · {log.notes}</Text>:null}</Text>
- </Card>;
-}
-
-export function EventsBlock({onOpen}:{onOpen:()=>void}){
- const [events,setEvents]=useState<RideEvent[]|null>(null);
- useFocusEffect(useCallback(()=>{api<RideEvent[]>('/api/events?scope=upcoming').then(e=>setEvents(e.filter(x=>!x.canceled_at))).catch(()=>setEvents([]));},[]));
- if(!events?.length)return null;
- const mine=events.filter(e=>e.my_rsvp||e.mine),list=(mine.length?mine:events).slice(0,2);
- return <Card><BlockHead title={mine.length?'YOUR NEXT EVENTS':'UPCOMING EVENTS'} action="Events" onAction={onOpen}/>
-  {list.map(e=><Pressable key={e.id} accessibilityRole="button" onPress={onOpen} style={({pressed})=>({gap:2,opacity:pressed?0.7:1})}>
-   <Text style={{color:colors.text,fontSize:12.5,fontWeight:'700'}}>{EVENT_TYPE_LABELS[e.event_type]}{e.my_rsvp==='going'?' · You’re going':e.my_rsvp==='interested'?' · Interested':''}</Text>
-   <Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{e.title}</Text>
-   <Text style={{color:colors.muted,fontSize:13.5}}>{when(e.starts_at)} · {time(e.starts_at)} · {e.location_name}</Text>
-  </Pressable>)}
- </Card>;
+ </Card>;}
+ return null;
 }
 
 type Coached={fix:string;drill:string;at:string;media:{focus?:string}};
