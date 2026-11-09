@@ -1,0 +1,763 @@
+{
+ "grader": "A2",
+ "grades": [
+  {
+   "id": "q001",
+   "expert_take": "Set rider sag ~105 mm and check free sag first; then slide the fork tubes up in the clamps 2-3 mm and/or soften fork compression a couple clicks so the front sits down and holds the rut; body forward, outside peg, steady throttle.",
+   "overall": "C",
+   "correct": 3,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 3,
+   "flags": [],
+   "note": "Reasonable checks (sag, free sag, tire, steering play) but it steers him away from the fork-height change a pro would try first on a KX450 that turns wide and won't hold a rut (slide tubes up 2-3 mm and/or soften fork compression a couple clicks so the front sits into the rut); slowing rebound is a secondary lever.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q002",
+   "expert_take": "Depends what you want: more tube above the clamp = front lower, quicker turn-in but less straight-line stability; less = more stable, slower turning. Move 1-2 mm at a time and ask what problem he is trying to fix.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 5,
+   "flags": [],
+   "note": "Matches the anchor: both directions, 1-2 mm steps, the reference point check against Kawasaki's 0 mm standard, and asks what he is trying to fix.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q003",
+   "expert_take": "Bike profile says 2025 but he rides an 09 KX250F. Softer comp + slower rebound is a reasonable direction for a front that kicks back, but he changed two things at once; test one at a time, and an 09 fork likely needs fresh oil/service and springs checked for his weight.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [
+    "ignored_given_detail"
+   ],
+   "note": "Correct read of both changes and good one-at-a-time test, and it caught the 09 vs 2025 profile mismatch. A pro would also say an 09 fork almost certainly needs fresh oil/service and springs checked for his weight before chasing clicks.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q004",
+   "expert_take": "At 175 lb the stock YZ250F springs are close; set sag ~95 mm (Yamaha range 90-100) and check free sag, start from stock clickers, then if the rear kicks up add rebound damping (turn in) 2 clicks, if it feels dead/packs turn it out. Clarify what 'more rebound' means.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Stock settings, Yamaha sag range and the right rebound direction with a clarifying question. The hint that a 175 lb C rider may need firmer than stock springs is overcautious; stock YZ250F rates suit roughly that weight, a pro would say stock springs are likely fine.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q005",
+   "expert_take": "Yes: go back to the stock baseline fork height, set sag, then dial clickers, then fine-tune fork height last in 1-2 mm steps as a geometry trim.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Good order: reset to stock clickers, set sag, set balance/fork height, then fine-tune clickers; explains why leaving height to the very end can undo damping work. A pro would agree.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q006",
+   "expert_take": "Check sag 105 mm and free sag for spring; rough on acceleration chop usually means rebound too slow (packing) or too much HSC - try rebound 2 clicks faster and HSC 1/4 turn out, check linkage bearings.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct diagnosis split (first-hit harshness vs packing), stock settings, sag/static sag and tire pressure from the manual. It gives no first change to try; a pro would offer rebound 2 clicks faster or HSC 1/4 turn out as the default first test and mention linkage bearing service.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q007",
+   "expert_take": "105 mm is more sag than Yamaha's 90-100 mm; going to ~95-100 mm will lift the rear and help bottoming, but low + bottoming suggests the spring may be too soft for his weight (check free sag). Add HSC 1/4 turn in for g-outs once ride height is right.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Exactly the right answer: 105 mm is past Yamaha's 90-100 mm, go to 100 mm first, then HSC firmer in Yamaha's step if it still bottoms, and use free sag to check the spring.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q008",
+   "expert_take": "Both change ride height/head angle (fork tubes up in clamps or less sag = steeper, quicker steering, less stable). Fork height only changes front geometry; sag also changes where the shock works in its stroke, rear squat/traction and bump feel.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Clear table of what each direction feels like, notes sag also changes where the shock works, step sizes, and a sensible trail estimate (about 1.4 mm per 5 mm, which checks out geometrically).",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q009",
+   "expert_take": "22 mm is the stock KTM offset; offset changes steering trail more than harshness. Fix harshness with air pressure/compression/spring first; 24 mm quickens steering, 20 mm adds stability. Neither is a harshness cure.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct that offset doesn't cure harshness, gives the trail effect of each and a lean to 24 mm, plus fork damping tests and air check. A pro would put fork air pressure first as the main harshness lever on the XACT fork (drop 0.1-0.2 bar) rather than only 'check air'.",
+   "numbers_to_verify": [
+    {
+     "number": "Fork air 10.6 bar (154 psi) US standard for 2023 350 SX-F",
+     "what_you_think_it_should_be": "Plausible but not in cited_facts for this answer; confirm against the 2023 KTM 350 SX-F owner's manual"
+    }
+   ]
+  },
+  {
+   "id": "q010",
+   "expert_take": "Check steering head bearing tension, triple clamp and axle pinch bolt torque and fork alignment; tire pressure; handlebar choice/bend and softer grips or rubber-mounted bars; lighter springs on stock valving can feel harsh, soften compression.",
+   "overall": "C",
+   "correct": 3,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Good safety-first steering-head and fork alignment checks, but it skips the parts of his question a pro would answer directly: triple clamp/axle pinch and engine-mount bolt torque, tire pressure, and handlebar/grip/bar-mount choices to cut handlebar shock; lighter springs on stock valving can also feel harsh.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q011",
+   "expert_take": "KTM's rider sag is ~105 mm (check free sag ~35 mm); tall riders often run 105-108; heavier riders need a stiffer shock spring and more fork air - need his weight to pick a spring. Start at stock clickers.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 3,
+   "flags": [
+    "too_long"
+   ],
+   "note": "Gives KTM baseline, a tuner-tested comparison, weight-banded spring rates from the manual, keeps sag at 105 mm rather than adding sag for height, and asks his geared weight. Slightly long.",
+   "numbers_to_verify": [
+    {
+     "number": "Fork air 10.6 bar US standard and tuner 10.8 bar",
+     "what_you_think_it_should_be": "10.6 bar plausible but not among cited_facts; verify against 2023 350 SX-F manual"
+    }
+   ]
+  },
+  {
+   "id": "q012",
+   "expert_take": "If smoother landings mean he no longer bottoms and the fork feels harsh, yes he can drop fork air in small steps (~0.1-0.2 bar/2-3 psi) while watching for bottoming on mistakes; ask which bike/fork.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Sensible not-automatic answer with a small test step and the fork-vs-tire clarification. A pro would add that if he truly no longer bottoms and the fork rides high/harsh, dropping 0.1-0.2 bar is fine, and would ask which fork.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q013",
+   "expert_take": "Reasonable stopgap: re-set sag after the spring change (~105 mm) and check free sag, balance AER48 air pressure to the rear, start at manual stiff settings and adjust from ride feel; valving later if needed.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Fair interim baseline with the right follow-up (recheck sag and free sag, cold air pressure). Could have given the AER48 balance tip (front air vs rear sag) and noted that all-stiff settings often need compression backed off once springs are right.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q014",
+   "expert_take": "High static sag with correct race sag means very little rider sag between them - the spring is too stiff for him (or linkage/shock is binding or measurement is off). Recheck measurement, check linkage, likely go one rate softer.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct: high static sag at correct race sag means a spring that's too stiff, with good measurement and friction checks and the KTM 35 mm target.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q015",
+   "expert_take": "No single best: start with Yamaha's stock fork height and ~95-100 mm rider sag (Yamaha 90-100), then raise/lower fork 1-2 mm for track/turning.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 5,
+   "flags": [],
+   "note": "Gives a usable pick (100 mm sag, 5 mm tube) and how to tune from there. Fork height is labeled as a community starting point, not Yamaha's spec; a pro would have given the factory fork-height position for the 2023 YZ250 as the baseline.",
+   "numbers_to_verify": [
+    {
+     "number": "Fork height 5 mm tube above top clamp",
+     "what_you_think_it_should_be": "Labeled community; check the 2023 YZ250 manual's standard fork tube position"
+    }
+   ]
+  },
+  {
+   "id": "q016",
+   "expert_take": "Likely too stiff for 155 lb on an FC450 (stock is softer). Check with static sag: if it needs almost no preload for 105 mm race sag and free sag is high, go softer/stock.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 5,
+   "flags": [],
+   "note": "Direct yes, correct kg/mm to N/mm conversion, the Husqvarna weight chart, a pick for gear vs no gear, and the sag check.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q017",
+   "expert_take": "At 200 lb in gear for MX, 42 N/mm is soft; most go to ~45-48 N/mm shock and add fork air pressure. Check sag/preload to confirm.",
+   "overall": "B",
+   "correct": 5,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Right shock spring pick from KTM's chart and good sag check. For a 200 lb rider on a 300 XC with an XACT air fork doing MX, a pro would also say to raise fork air to keep the bike balanced with the stiffer rear.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q018",
+   "expert_take": "Bike profile says 2020 but he has a 2017 RX (2017-2018 near identical). At 170 lb stock springs are close; set Honda sag (~100-105 mm), start stock clickers and tune from there.",
+   "overall": "C",
+   "correct": 4,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 2,
+   "concise": 4,
+   "flags": [
+    "chatbot_voice"
+   ],
+   "note": "Handled the 2017 vs 2020 mismatch, but ends up generic sag/clicker advice with 'not confirmed here' hedging. A pro would say 2017 and 2018 RX are nearly the same, 170 lb is about right for stock springs, set Honda's sag and start at stock clickers.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q019",
+   "expert_take": "At 95-100 kg, YZ450F stock springs are usually one rate soft: step up shock one rate (~5.8 kg/mm) and fork ~5.0; confirm with sag/free sag.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 5,
+   "flags": [],
+   "note": "Stock and optional fork/shock rates from Yamaha, recommends one step firmer for 95-100 kg MX, confirms with sag. Exactly what a pro would say.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q020",
+   "expert_take": "No - if the travel o-ring is at the bottom after one lap, the fork is too soft (two rates down was too far) or oil level low. Go back up a rate, check oil height, add compression meanwhile.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct that two rates softer and using it all on ordinary bumps means too soft, go back one rate. A pro would also check fork oil height after the spring swap, since a low oil level after a respring is a common cause.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q021",
+   "expert_take": "Bike profile says 2025 but he has a 2018 (AER48 air fork). At 220 lb + gear he needs more fork air and a stiffer shock spring; front tuck under braking = fork diving: add air pressure, a couple clicks more comp, check rear sag is not too much, maybe less fork tube above clamp.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [
+    "ignored_given_detail"
+   ],
+   "note": "Good read (diving under braking, not geometry), correct direction on comp and air, flags the 2018 vs 2025 mismatch. A pro would give AER48 air pressure guidance for a 240 lb geared rider and a likely shock spring rate rather than deferring to selecting another build.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q022",
+   "expert_take": "Give stock KX250 rates and Kawasaki's optional rates and which weights they suit; ask/use rider weight; sag ~100-105.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 5,
+   "flags": [],
+   "note": "Stock and optional KX250 rates from the manual plus tester setups by weight and a sag check; answers a survey question well.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q023",
+   "expert_take": "Bottoming then packing on braking bumps = fork too soft/low in stroke and rebound too slow: check spring for weight and oil height, speed up rebound 2 clicks, add a little comp; headshake follows. Service if old oil.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 3,
+   "flags": [],
+   "note": "Reasonable diagnosis (blows through, then packs) and Yamaha-consistent firmer compression first, then faster rebound. It doesn't address the headshake directly or suggest checking fork oil level/service, which a pro would for a fork that bottoms on braking bumps.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q024",
+   "expert_take": "12 mm preload is on the high side; check free sag - if it is low/near zero and you need >~10 mm preload, go up one spring rate. Not dangerous, but it signals a soft spring.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 5,
+   "flags": [],
+   "note": "Correct: 12 mm is above Husqvarna's 8 mm standard, preload doesn't change rate, and static sag decides whether to go stiffer.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q025",
+   "expert_take": "Too little info: ask what 'rough' means; return clickers to Race Tech's setup sheet, verify sag and spring rate match their spec, check oil level/bleeding, and call Race Tech - they will re-valve if it is off.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Good order of checks (installation binding, tuner baseline, damping direction) and a clarifying question. A pro would add that a fresh revalve needs a few hours of break-in and to call Race Tech/the tuner with rider weight for a revalve check.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q026",
+   "expert_take": "Sounds harsh rear on landings/kick - set sag 105 and check free sag/spring for weight, soften HSC 1/4 turn if harsh on jumps or slow rebound if kicking; ask where it happens.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Good diagnostic split and the stock baseline with sag. It gives no first test and doesn't ask his weight; a pro would ask where it happens (landings vs bumps) and offer HSC 1/4 turn out or faster rebound as the matching first move.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q027",
+   "expert_take": "Common on new WP XACT air forks (seal friction/air balancing); not losing air is good. Re-set pressure on a stand, cycle the fork, and if it keeps sinking take it to a dealer under warranty.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Gives the right checks (cold pressure 10.5 bar, bleed the outer chambers) and a warranty route. 'Don't ride until checked' may be overcautious for a new XACT air fork where some settling is common, but it is not wrong to have the dealer look.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q028",
+   "expert_take": "Yes, the lowered (~10 mm) Husqvarna setup applied across the range; it helps shorter riders but reduces clearance/bottoming resistance; can be raised with KTM-length parts or revalve.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Uses published 2022 dimensions to show the TC 250 doesn't have the FC 450's shorter fork, explains the trade-off and gives a recommendation by rider type.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q029",
+   "expert_take": "Stock jetting is rich for slow trail riding: lean the needle one clip, consider one smaller pilot, set air screw, run a hotter plug (BR8EG), premix not too oily, check air filter and don't lug it.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 3,
+   "flags": [
+    "too_long"
+   ],
+   "note": "Covers the real fixes: one step hotter plug, keep Yamaha's premix, check choke and filter, lean the air screw, then pilot/needle/float. A bit long; the recall note is off-topic for the question.",
+   "numbers_to_verify": [
+    {
+     "number": "US recall naming 2022 YZ125 (YZ125N2L/YZ125N2ME) for unexpected shifting",
+     "what_you_think_it_should_be": "Not in cited_facts; verify against NHTSA/Yamaha recall records"
+    }
+   ]
+  },
+  {
+   "id": "q030",
+   "expert_take": "Loosen both carb boot clamps (intake and airbox) and twist the carb; if still tight, loosen the subframe/airbox or pull the carb out; take the top cap off to reach the needle.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Practical: loosen both boot clamps, don't strain cables, go in from the top for the needle or pull the carb out for jets, and the clamp torque on refit. Good answer, slightly over-cautioned.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q031",
+   "expert_take": "At 8000 ft run it lean: clip #1 or #2 (toward lean) and verify with a plug chop and how it pulls; start #2 and go to #1 if still rich.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [
+    "made_up_number"
+   ],
+   "note": "Gives a pick (clip 2 to start, then leaner) and correctly notes the #6 slide is richer and larger mains are odd at 8000 ft. The claim that the pilot sizes 'need to match the needle's straight diameter' is not a real rule; a pro would just say start #2, plug-chop, go #1 if rich. Asking for the needle code after already answering is fine.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q032",
+   "expert_take": "Need symptoms: what changed? At 2 hours, check plug, air filter, fuel/premix, power valve, reed; ask.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Right not to rejet blind; asks what actually happened, with plug checks and a stop warning if it locked or knocked. The stock jetting dump is not needed yet.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q033",
+   "expert_take": "Depends on bike; a needle/slide combo can cover that range with clip and pilot changes; ask bike and current main/pilot.",
+   "overall": "C",
+   "correct": 4,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 2,
+   "concise": 4,
+   "flags": [],
+   "note": "Asking for bike/carb is fair, and 30 F needing richer than 75 F is right. Generic: a pro would note that one needle/slide often covers that range if you change a clip position and the pilot between seasons.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q034",
+   "expert_take": "Need bike/current setting; generally at 5000 ft and 80 F lean out: main down 2-3 sizes, clip up one (leaner), pilot down one.",
+   "overall": "C",
+   "correct": 4,
+   "useful": 2,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 2,
+   "concise": 5,
+   "flags": [],
+   "note": "Right direction (leaner) and asks for the missing context, but gives no starting amounts; a pro would give the usual rule (main down 1-2 sizes, clip one leaner) while asking for the current setup.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q035",
+   "expert_take": "Hot stalling after hard motos on a KTM-family 250 four-stroke is classic tight intake valves; also check idle speed, coolant level/overheating, air filter, fuel pump. Check valves first.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 3,
+   "flags": [],
+   "note": "Good list with GasGas idle and valve specs. For a KTM-family 250 four-stroke that dies hot after hard motos, a pro would put tight intake valves first (very common), ahead of fuel delivery. The recall aside is off-topic.",
+   "numbers_to_verify": [
+    {
+     "number": "Press-reported rear-caliper recall covering 2022 MC 250F",
+     "what_you_think_it_should_be": "Not in cited_facts; verify against the GasGas/NHTSA recall listing"
+    }
+   ]
+  },
+  {
+   "id": "q036",
+   "expert_take": "Detonation on a two-stroke can kill a piston fast: stop riding hard, use higher-octane fuel, go richer on main/needle, check for air leaks, correct plug; get jets above stock.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Right to stop hard pulls, go richer (#180 main) not leaner, needle and plug from the manual. A pro would also say to run higher-octane fuel and confirm the premix right away, since octane is the fastest fix for detonation.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q037",
+   "expert_take": "KX couplers do physically switch ECU maps (fuel and ignition), not just throttle feel.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 5,
+   "flags": [],
+   "note": "Direct and correct: the coupler selects a different ECU map, colors from the manual, and the calibration kit for custom maps.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q038",
+   "expert_take": "Decel popping is usually lean at closed throttle or exhaust leak; check exhaust gaskets first; if adding fuel in Power Tuner leave ignition alone and only richen the cells where it pops a few %.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Exactly right: decel pop is not proof of lean, check exhaust leaks first, leave ignition alone and change fuel separately.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q039",
+   "expert_take": "Yes, Power Tuner fuel/ignition grid covers low-throttle/idle cells; idle is set somewhat rich for stability and cooling, but changes there should be small.",
+   "overall": "C",
+   "correct": 3,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [
+    "chatbot_voice"
+   ],
+   "note": "The second half (rich idle isn't a cooling strategy, the problem is no airflow) is right, but it hedges on idle mapping as 'not confirmed'. A pro would say yes, the Power Tuner fuel/ignition grid includes the closed-throttle/low-rpm cells around idle, so small changes there do affect idle.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q040",
+   "expert_take": "Most common cause of hard hot starting on RMZ450 is tight valves; check clearances; also starting technique (no throttle), fuel pump, compression.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [
+    "chatbot_voice"
+   ],
+   "note": "Valves first is correct for a hot no-start, with ignition and fuel next. It declines to give Suzuki's valve clearance figures and skips hot-start technique (no throttle when kicking a hot RM-Z450), which a pro would include.",
+   "numbers_to_verify": [
+    {
+     "number": "RM-Z450 valve clearances (not given)",
+     "what_you_think_it_should_be": "Intake about 0.10-0.20 mm, exhaust about 0.20-0.30 mm cold; verify against the 2022 RM-Z450 service manual"
+    }
+   ]
+  },
+  {
+   "id": "q041",
+   "expert_take": "Probably defaults to standard map; confirm with manual; better keep switch or use correct plug.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 5,
+   "flags": [],
+   "note": "Gives the usual answer (unplugged usually reproduces position I/performance) with a continuity test to confirm and advice to unplug and seal rather than cut. Fair.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q042",
+   "expert_take": "Sudden bog-and-die on a fuel injected KX450 points to fuel delivery (pump, filter, vent, kinked line) or electrical connector/kill switch; check FI light codes.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct suspects in the right order (fuel pump/vent, then electrical) and the recall check. A pro would also say to read the FI warning light codes and check the fuel pump strainer.",
+   "numbers_to_verify": [
+    {
+     "number": "Recall naming 2022 KX450/KX250 fuel pump",
+     "what_you_think_it_should_be": "Plausible (fuel pump recall exists); not in cited_facts, verify scope for US bikes"
+    }
+   ]
+  },
+  {
+   "id": "q043",
+   "expert_take": "Depends on brand: Yamaha Power Tuner, Kawasaki couplers/calibration kit, KTM map switch/Tuning tool, Honda HRC setting tool; ask which bike.",
+   "overall": "C",
+   "correct": 4,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 2,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct options in general terms, but a pro would name the brand tools straight away: Yamaha Power Tuner, Kawasaki KX FI Calibration Kit, Honda HRC setting tool, KTM/Husky/GasGas map switch and tuning tool, while asking the bike.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q044",
+   "expert_take": "110 race fuel with stock map gives nothing on a stock modern MX bike; benefit only with timing/map optimized; stick to the octane the manual specs.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 2,
+   "concise": 5,
+   "flags": [],
+   "note": "Correct points: octane alone doesn't need a map, oxygenated fuel may, and extra octane adds nothing a stock engine doesn't need. A pro would plainly say a stock MX bike gains nothing from 110 on the stock map and to run what the manual specifies.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q045",
+   "expert_take": "Too vague: ask where it bogs (off-idle, mid, top), hot/cold, recent changes; check plug, float, power valve, air leaks.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Good triage by when the bog happens, plug check with specs, and the right question. Not much more is possible from that message.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q046",
+   "expert_take": "Off-idle bog on a carbed 2-stroke = lean or rich at the pilot/slide range: read plug, adjust air screw 1/4 turn, try pilot one up, check float level and air filter.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct circuit (pilot/transition), checks choke/filter/boot first, wet vs dry read, Husqvarna air-screw baseline and quarter-turn test. A pro would also mention trying one pilot size and checking float height.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q047",
+   "expert_take": "Stutter on a carbed 150 SX is usually rich mid (needle clip) or float level; ask where; try lean the clip one, check float, power valve.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Fresh plug with KTM spec, warm-up, choke/filter, and asks where in the throttle range. A pro would also say a stutter on a carbed 150 is often the needle clip (try one leaner) or float height.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q048",
+   "expert_take": "Cold-only bog at tiny throttle is normal-ish (use choke/warm up); if it persists warm, go one pilot up or adjust air screw; don't rejet just for cold.",
+   "overall": "B",
+   "correct": 5,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Right: don't rejet for a cold-only bog, the pilot circuit rules barely open throttle, and check warm. Correctly decodes 'sharper' needle.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q049",
+   "expert_take": "40:1 is less oil than 32:1, so it won't extend top end life; ratio matters less than air filter, jetting and rpm; follow oil maker/bike maker ratio.",
+   "overall": "B",
+   "correct": 5,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct direction: 40:1 is less oil than 32:1 and won't add top-end life; follow the maker's ratio and inspection intervals. Could state that plainly with an example ratio.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q050",
+   "expert_take": "Honda does specify cleaning the oil strainer screen periodically; it is accessible (cited facts decide where), so do it at oil changes/periodic intervals.",
+   "overall": "C",
+   "correct": 3,
+   "useful": 3,
+   "safe": 4,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [
+    "chatbot_voice"
+   ],
+   "note": "Hedges ('not confirmed here') and leans toward agreeing it isn't routine. A pro would check Honda's maintenance schedule for the oil strainer screen interval and tell him to clean it as scheduled; if Honda lists an interval, this answer points the wrong way.",
+   "numbers_to_verify": [
+    {
+     "number": "CRF250R engine oil strainer screen cleaning interval",
+     "what_you_think_it_should_be": "Honda's maintenance schedule likely lists the oil strainer screen for periodic cleaning; verify against the 2022 CRF250R owner's manual"
+    }
+   ]
+  }
+ ]
+}

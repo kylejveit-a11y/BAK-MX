@@ -1,0 +1,313 @@
+[
+ {
+  "id": "q006",
+  "ok": true,
+  "topic": "suspension",
+  "bike": {
+   "manufacturer": "KTM",
+   "model": "350 SX-F",
+   "model_year": 2023,
+   "engine_hours": null,
+   "configuration": {}
+  },
+  "question": "Im having issues with the rear end feeling pretty rough on acceleration bumps and chop.",
+  "message_sent": "Im having issues with the rear end feeling pretty rough on acceleration bumps and chop.",
+  "rider_context": "Thread titled '2023 KTM 350 SXF or 2023 FC 350 handling issues?'; mid-to-hard track",
+  "prompt_version": "mx-engineering-84",
+  "ms": 21179,
+  "response": {
+   "kind": "setup",
+   "summary": "If the rear skips across the chop from the first bump, try two clicks softer on shock low-speed compression. If it gets rougher through the series, rebound may be too slow instead.",
+   "answer": "If the rear feels firm and skips across acceleration chop, **open shock low-speed compression two clicks from where it is now**. That lets the rear wheel follow the ground better; KTM’s standard is 15 clicks out, but count your current position before changing it.\n\nCheck the foundation before testing: KTM calls for **105 mm rider sag in full gear and 35 mm static sag**. Too little static sag with correct rider sag points to a spring that’s too soft—clickers won’t fix that.\n\nIf the first bumps feel good but the rear gets lower and harsher through the section, leave compression alone and **open shock rebound two clicks from its current position** instead; KTM’s standard is 15 out. That helps it recover between bumps. Don’t soften compression if it already squats heavily or bottoms.\n\nIs it rough from the first bump, or does it build through the series? Test only the matching change over the same section for a few laps, then compare with your original setting.",
+   "setup_changes": [
+    {
+     "setting": "Shock low-speed compression",
+     "change": "If harsh and skipping from the first bump, open two clicks from the current position.",
+     "expect": "Less chatter through the pegs and better rear-wheel contact under acceleration.",
+     "go_back_if": "The rear squats, wallows, bottoms more, or loses drive."
+    },
+    {
+     "setting": "Shock rebound",
+     "change": "Only if harshness builds through successive bumps, leave compression unchanged and open rebound two clicks from the current position.",
+     "expect": "The rear recovers between bumps instead of riding progressively lower.",
+     "go_back_if": "The rear becomes springy, kicks upward, or swaps more."
+    }
+   ],
+   "observations": [
+    "Rear feels rough over acceleration bumps and chop.",
+    "Current clicker positions and sag measurements are not stated."
+   ],
+   "systems": [
+    "Rear suspension"
+   ],
+   "hypotheses": [],
+   "unknowns": [
+    "Whether roughness starts immediately or builds through successive bumps.",
+    "Current rider sag, static sag, spring rate and clicker positions."
+   ],
+   "next_step": {
+    "action": "Record the current settings and verify sag, then test only the change matching the bump-by-bump behavior.",
+    "purpose": "Separate excessive compression firmness from rebound packing without changing both adjusters.",
+    "stop_conditions": [
+     "Visible suspension leakage, binding or bearing play: correct that before tuning.",
+     "Return to baseline if control or traction worsens."
+    ]
+   },
+   "evidence_ids": [
+    "2d502061-b635-b823-9c6b-8b5e0080f284",
+    "64fdead0-9692-c401-605c-e88559cc4904",
+    "72df8555-3c2f-0ce8-219f-7f6f51caf96a",
+    "045f29c4-70a2-6387-f934-3cc0d83877df"
+   ],
+   "specifications": [
+    {
+     "claim_id": "2d502061-b635-b823-9c6b-8b5e0080f284",
+     "value": "Shock absorber / Lowspeed compression damping / Standard: 15 clicks. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Counted counterclockwise (softer) from the adjuster turned clockwise to its stop or last click, as the adjustment section of the same manual describes."
+    },
+    {
+     "claim_id": "64fdead0-9692-c401-605c-e88559cc4904",
+     "value": "Shock absorber / Rebound damping / Standard: 15 clicks. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Counted counterclockwise (softer) from the adjuster turned clockwise to its stop or last click, as the adjustment section of the same manual describes."
+    },
+    {
+     "claim_id": "72df8555-3c2f-0ce8-219f-7f6f51caf96a",
+     "value": "Shock absorber / Riding sag: 105 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual."
+    },
+    {
+     "claim_id": "045f29c4-70a2-6387-f934-3cc0d83877df",
+     "value": "Shock absorber / Static sag: 35 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual."
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Rough rear over acceleration bumps and chop",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Standard shock low-speed compression: 15 clicks out",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "2d502061-b635-b823-9c6b-8b5e0080f284"
+     ]
+    },
+    {
+     "claim": "Standard shock rebound: 15 clicks out",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "64fdead0-9692-c401-605c-e88559cc4904"
+     ]
+    },
+    {
+     "claim": "Rider sag target: 105 mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "72df8555-3c2f-0ce8-219f-7f6f51caf96a"
+     ]
+    },
+    {
+     "claim": "Static sag target: 35 mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "045f29c4-70a2-6387-f934-3cc0d83877df"
+     ]
+    },
+    {
+     "claim": "Softer compression can improve compliance when the rear skips",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Slow rebound can cause progressive packing through repeated bumps",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Insufficient static sag at correct rider sag indicates soft spring",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [],
+   "confidence": "LIMITED",
+   "garage_updates": [],
+   "app_actions": [],
+   "references": []
+  },
+  "geared_weight_lb": null
+ },
+ {
+  "id": "q059",
+  "ok": true,
+  "topic": "maintenance",
+  "bike": null,
+  "question": "For those A riders specifically, what are your replacement intervals for say - top end, valves, bottom, clutch",
+  "message_sent": "For those A riders specifically, what are your replacement intervals for say - top end, valves, bottom, clutch",
+  "rider_context": "Posted in 'New 2023 YZ450F' thread; own bike not stated",
+  "prompt_version": "mx-engineering-84",
+  "ms": 11963,
+  "response": {
+   "kind": "answer",
+   "summary": "For A-class racing, plan replacements at or inside the maker’s race schedule—not extended recreational intervals. Piston hours can be scheduled; valves, bottom end and clutch also need measurement.",
+   "answer": "For **A-class race use, I’d budget at or inside the maker’s race schedule**, never stretch it because the engine still feels strong.\n\n| Component | Replacement planning |\n|---|---|\n| **Four-stroke top end** | Japanese makers’ race schedules commonly call for piston and rings around **12.5–15 hours**: Yamaha every fifth race, about 12.5 hours; Honda and Kawasaki every sixth race, about 15 hours. Race shops work at or inside those schedules. |\n| **Valves** | Follow the bike’s schedule plus clearance trends and leak-down results. Repeatedly tightening clearances mean investigate valve/seat wear—not keep shimming indefinitely. |\n| **Bottom end** | Follow the bike’s replacement schedule, backed by crank, rod and bearing measurements during teardown. Don’t wait for a knock. |\n| **Clutch** | Follow the schedule and measure plate thickness, steel-plate warp and spring condition; replace sooner for slipping, dragging or heat damage. |\n\nFor a **two-stroke top end**, use that bike’s race schedule and piston/cylinder measurements rather than borrowing the four-stroke hours above.\n\n**Which bike and year are we talking about?** Pick that build under the message box so we can pin down its exact race schedule.",
+   "setup_changes": [],
+   "observations": [],
+   "systems": [
+    "engine",
+    "clutch"
+   ],
+   "hypotheses": [],
+   "unknowns": [
+    "Bike model, year and engine type"
+   ],
+   "next_step": null,
+   "evidence_ids": [],
+   "specifications": [],
+   "claims": [
+    {
+     "claim": "A-class replacement planning stays within maker race schedules",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Japanese four-stroke race piston schedules commonly span 12.5–15 hours",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Valve clearance trends and leak-down guide valve condition assessment",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Bottom-end replacement follows schedules and component measurements",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Clutch inspection includes plate thickness, warp and spring condition",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [
+    "Exact model-year race replacement schedule and component service limits"
+   ],
+   "confidence": "LIMITED",
+   "garage_updates": [],
+   "app_actions": [],
+   "references": []
+  },
+  "geared_weight_lb": null
+ },
+ {
+  "id": "q075",
+  "ok": true,
+  "topic": "gearing",
+  "bike": {
+   "manufacturer": "Husqvarna",
+   "model": "FX 350",
+   "model_year": 2023,
+   "engine_hours": null,
+   "configuration": {}
+  },
+  "question": "Looking for recommendations on how to make my 2023 FX350 a little more tame and luggable for single track, hare scrambles and enduro riding. ... Also will I need a different chain guide vs stock for a bigger sprocket?",
+  "message_sent": "Looking for recommendations on how to make my 2023 FX350 a little more tame and luggable for single track, hare scrambles and enduro riding. ... Also will I need a different chain guide vs stock for a bigger sprocket?",
+  "rider_context": "Single track, hare scrambles, enduro; stock 47T rear 'wearing me out'",
+  "prompt_version": "mx-engineering-84",
+  "ms": 28793,
+  "response": {
+   "kind": "setup",
+   "summary": "For tight woods, pair smoother power delivery with slightly shorter gearing. The stock chain guide most likely works with a modestly larger rear sprocket, but check clearance before buying.",
+   "answer": "For single-track, hare scrambles and enduro, I’d start with **smoother power delivery and two more teeth on the rear**, rather than engine work.\n\n- **Map:** if your controls offer a softer map, try that first for less abrupt response. The exact map options and stock chain guide’s maximum sprocket size aren’t confirmed here.\n- **Gearing:** as common woods practice, go **two teeth larger than your current rear sprocket**, keeping the front unchanged. This lowers your speed in first gear and reduces clutch slipping. It makes slow riding easier—not the engine softer; wheel torque increases and gears run out sooner. Test this separately from the map change.\n- **For actual low-rpm tractability:** a compatible flywheel-weight kit is worth considering if it still stalls easily or responds too sharply. Added rotating inertia smooths rpm changes, but doesn’t add low-end torque. Skip an exhaust as the first purchase for this goal.\n\n**Chain guide:** most likely **no replacement needed for a modest increase**. Husqvarna lists rear sprockets from **47–52 teeth**, though that doesn’t establish guide clearance with every combination. Check the proposed sprocket against the stock guide’s clearance, chain length and axle-adjuster room; don’t buy a guide automatically.\n\nWhat front/rear tooth counts are fitted now? My starting pick is the modest rear-sprocket increase, not a smaller front.\n\n**Changes to try, one at a time:**\n- **Engine map, if equipped with selectable softer mapping:** Try the softer selectable map before changing gearing.\n- **Final-drive gearing:** Increase the rear sprocket by two teeth from its current size, retaining the current front sprocket; verify fit first.",
+   "setup_changes": [
+    {
+     "setting": "Engine map, if equipped with selectable softer mapping",
+     "change": "Try the softer selectable map before changing gearing.",
+     "expect": "Less abrupt response and easier traction control on slick, tight trails.",
+     "go_back_if": "Response becomes too flat or requires noticeably more clutch use."
+    },
+    {
+     "setting": "Final-drive gearing",
+     "change": "Increase the rear sprocket by two teeth from its current size, retaining the current front sprocket; verify fit first.",
+     "expect": "Lower first-gear ground speed and less clutch slipping in tight sections.",
+     "go_back_if": "Power feels too immediate or you run out of gears too quickly in faster sections."
+    }
+   ],
+   "observations": [
+    "Rider wants calmer, more tractable power for single-track, hare scrambles and enduro.",
+    "Current sprocket tooth counts and installed modifications are unspecified."
+   ],
+   "systems": [
+    "tuning",
+    "gearing",
+    "engine"
+   ],
+   "hypotheses": [],
+   "unknowns": [
+    "Current front and rear sprocket tooth counts.",
+    "Selectable mapping equipment and currently loaded ECU tune.",
+    "Stock chain-guide clearance with the intended sprocket."
+   ],
+   "next_step": {
+    "action": "If equipped, test the softer map on a familiar tight section before changing gearing.",
+    "purpose": "Separate smoother engine response from the effects of shorter gearing.",
+    "stop_conditions": [
+     "Do not run a gearing change with chain interference or insufficient adjustment room."
+    ]
+   },
+   "evidence_ids": [
+    "54659c3f-c356-78e0-4261-68751449fe21"
+   ],
+   "specifications": [
+    {
+     "claim_id": "54659c3f-c356-78e0-4261-68751449fe21",
+     "value": "Chassis / Available rear sprockets: 47, 48, 49, 50, 51, 52. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Available rear sprockets span 47–52 teeth",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "54659c3f-c356-78e0-4261-68751449fe21"
+     ]
+    },
+    {
+     "claim": "Shorter gearing lowers ground speed and increases wheel torque",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Two additional rear teeth are a modest woods adjustment",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Softer mapping can improve controllability on slick trails",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Added flywheel inertia smooths engine-speed changes",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Modest sprocket increases often retain the stock chain guide",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [
+    "Exact selectable engine-map options.",
+    "Maximum rear sprocket size compatible with the stock chain guide.",
+    "Verified flywheel-weight kit fitment."
+   ],
+   "confidence": "LIMITED",
+   "garage_updates": [],
+   "app_actions": [],
+   "references": []
+  },
+  "geared_weight_lb": null
+ }
+]

@@ -1,0 +1,786 @@
+{
+ "grader": "B2",
+ "grades": [
+  {
+   "id": "q051",
+   "expert_take": "Not normal; check engine mount bolts and torque, handlebar clamp/top-clamp bolts, wheel balance/bearings, and whether vibration changes with rpm vs speed. Rubber-mount or Fasst bars help; if it's rpm-linked and new, take it back under warranty (balancer).",
+   "overall": "B",
+   "correct": 4,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Sensible checks and good diagnostic question, and it confirms the 21+ CRF450R is known for bar/peg buzz. A pro would also say: torque all engine mounts and head stays to spec in the right order, check the bar-mount rubbers, and mention that many owners fix the stock buzz with rubber-mounted or different bars; the 'don't ride' line is more cautious than needed.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q052",
+   "expert_take": "Yes, take it seriously: run fresh premium/high-octane pump fuel (or race fuel), don't lug it, check jetting isn't lean and the spark plug, and inspect/replace piston if pinging. Detonation on these small 2T high-compression bikes is a known issue; tune rich and use good fuel.",
+   "overall": "C",
+   "correct": 4,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 2,
+   "concise": 4,
+   "flags": [
+    "asked_instead_of_answered"
+   ],
+   "note": "Treats a forum headline as if the rider's engine is damaged and leans on 'stop riding'. A pro would answer the actual question: KX112 detonation reports exist, so run fresh premium fuel at the right premix, don't jet it lean, read the plug, and check the piston crown at top-end time; it also dodged the premix ratio, which is in the manual.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q053",
+   "expert_take": "Piston/rings roughly every 40-50 h for amateur (KTM manual says piston at ~50 h or so for SX-F; check manual), valves check every 10-15 h and replace when clearance keeps closing; bottom end around 100-135 h. Delayed piston replacement can drop a valve/break piston; ask for maintenance records.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 3,
+   "flags": [],
+   "note": "Correct KTM intervals that match cited facts (piston 50 h, major 100 h, valves 30 h), honest about owner ranges and a clear buying recommendation. A pro might also add a leak-down test as the single best pre-purchase check.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q054",
+   "expert_take": "70 h is mid-life; ask for records, plan a top end (piston, rings, check valves) soon. Rebuild is DIY-doable with manual, torque wrench, measuring tools; valve shims/clearance and cam timing are where people mess up; consider leakdown test before buy.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 3,
+   "flags": [],
+   "note": "Kawasaki intervals match cited facts, it separates total hours from hours on the top end, and gives a realistic DIY verdict. Only gap is no leak-down number or a price figure for a top end, which a pro would use to set the offer.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q055",
+   "expert_take": "Check air filter/airbox for dirt, leakdown/compression, cold start, smoke, oil condition, valve clearance if possible, frame/footpeg wear, linkage/swingarm/steering bearings, wheel bearings, fork seals, sprockets/chain, radiator damage, clutch slip, hour meter vs wear, records.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 3,
+   "flags": [],
+   "note": "Strong, practical pre-purchase checklist with Kawasaki-cited intervals. A pro would add a leak-down/compression check, look at the drain plug and oil for metal, and check chain/sprocket and clutch-slip, though most is covered.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q056",
+   "expert_take": "Check valves now (Yamaha interval ~every race/ periodic check; check per manual), replace piston around 40-50 h depending on riding, timing chain check tensioner/stretch, not mandatory replace at 50 unless worn; change oil filter, check clutch.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 3,
+   "flags": [],
+   "note": "Valve specs and oil/filter intervals match cited facts and the direction (check valves, plan chain/tensioner and piston at 50 h) is right. But the timing-chain and piston '12.5 h replacement' intervals are presented as Yamaha's but are not in the cited facts; a pro would say inspect the chain/tensioner and replace if stretched or the tensioner is near its limit rather than state a replace interval from memory.",
+   "numbers_to_verify": [
+    {
+     "number": "Timing chain and tensioner replace every fifth race (~12.5 h)",
+     "what_you_think_it_should_be": "Not in cited facts; Yamaha table may list inspect rather than replace at this interval, verify"
+    },
+    {
+     "number": "Piston/rings/pin replace every fifth race (~12.5 h)",
+     "what_you_think_it_should_be": "Not in cited facts; verify against Yamaha maintenance table"
+    }
+   ]
+  },
+  {
+   "id": "q057",
+   "expert_take": "Within spec (0.13-0.18 is the spec range, not limit). 0.15 and 0.18 are fine; no adjustment needed. Note trend over time; tightening clearance is the concern, loose side is OK. Re-check next interval.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 5,
+   "flags": [],
+   "note": "Correctly uses KTM's cited 0.12-0.19 mm spec, tells the rider his remembered range was wrong, and says run it. A pro might add that loose exhaust is the safe direction and the one to watch is tightening over time, which it implies by saying to record and trend the readings.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q058",
+   "expert_take": "Need description of noise; at 35 h common Honda CRF250R noises: cam chain tensioner, valve tick (tight valves), clutch basket. Check valve clearance, tensioner, oil level; don't ride until diagnosed if knocking.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Can't diagnose a noise with no description; it gives useful location-based triage and correct cited clearances. A pro would also mention the common 250R culprits by sound (cam chain tensioner rattle on decel, clutch basket rattle at idle that stops with the lever pulled) to help the friend self-identify.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q059",
+   "expert_take": "Pro/A level: piston every 20-30 h (450) / 15-25 (250F), valves checked each top end, replace as needed, crank/bottom end ~60-100 h, clutch plates as needed every 15-30 h; depends on bike. Not one-size; manual intervals are for typical use.",
+   "overall": "C",
+   "correct": 3,
+   "useful": 2,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 1,
+   "concise": 4,
+   "flags": [
+    "missed_question"
+   ],
+   "note": "Rider asked for A-rider replacement intervals and got a table with no hours at all plus a redirect to the bike selector. A pro would give ballparks: 250F top end roughly 15-25 h and 450 roughly 20-40 h for A-level racing, valves checked every top end or 10 h, bottom end at every second or third top end, clutch by measurement.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q060",
+   "expert_take": "Decel tick on new CRF450R: likely cam chain/tensioner, valve clearance, or exhaust popping/ decompression; check valve clearance first, check cam chain tensioner. Under warranty, have dealer check. Note bike year mismatch 2018 vs 2020.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Handles the 2018 vs 2020 mismatch well and gives the right ordered checks. But it can't give the 2018 clearances and is more alarmed than a pro would be: a light decel tick on a CRF450R is often normal valvetrain/cam-chain noise or exhaust popping; the key step is a valve check, since clearances settle during break-in.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q061",
+   "expert_take": "Finger followers are somewhat noisier than bucket valvetrains, normal tick is common, but excessive noise means check clearance (DLC fingers, wear). Check against known-good bike.",
+   "overall": "C",
+   "correct": 3,
+   "useful": 2,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 1,
+   "concise": 4,
+   "flags": [
+    "asked_instead_of_answered"
+   ],
+   "note": "Hedges the main question. A pro would say plainly yes, finger-follower top ends are mechanically louder than bucket-and-shim designs and a steady tick is normal if clearances are in spec; worry only if it changes or gets louder.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q062",
+   "expert_take": "Some fine metallic paste on magnet plug is normal, especially early; chunks/flakes = stop and inspect. Check filter for material. Need hours info.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Right distinction between paste and flakes, Triumph oil/filter/screen intervals match cited facts, and it says to check filter and screens. A pro might add to compare the plug every change so a trend is visible, which is implied.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q063",
+   "expert_take": "Possible whine sources on new bike: cam chain and guides, primary gear, water pump, gearbox straight-cut gears; a whine that diminishes with break-in may be normal. Plastic slides whining unlikely; check tensioner.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 2,
+   "concise": 4,
+   "flags": [],
+   "note": "Good triage between engine-speed and road-speed noise and correctly says not to touch the tensioner. A pro would add that gear/primary whine and a new cam chain on fresh guides are common on new engines and usually quiet down after break-in, so the likely answer is yes, possibly, as long as it doesn't change or rattle.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q064",
+   "expert_take": "Triumph TF250-X recalls: NHTSA lookup by VIN; known recalls included... (fuel pump? rear brake? ). Check with dealer via VIN; don't guess.",
+   "overall": "B",
+   "correct": 3,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Very useful, specific list (switch cube, clutch update, ECU, tank washer) with VIN-check advice. The recall number and VIN range are stated as published but no cited fact backs them; they need checking before this is trusted.",
+   "numbers_to_verify": [
+    {
+     "number": "CPSC recall 25-144, VIN range BP6028-CC7868",
+     "what_you_think_it_should_be": "Uncited; verify against Triumph/CPSC recall notice"
+    }
+   ]
+  },
+  {
+   "id": "q065",
+   "expert_take": "GasGas MC250 2T break-in: follow manual ~ warm-up, varying rpm, 1 h easy then normal; check spokes, bolts, re-torque, grease linkage/steering bearings, set sag, check chain tension, coolant; premix ratio 1:60 per manual (KTM specify 1:60).",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Premix 1:60 and gear oil 0.8 l 15W/50 match cited facts; the caliper recall watch-out is valuable if correct. A pro would give the manual's actual break-in guidance (KTM-group 2T: avoid full throttle in the first hours, vary load, heat cycles) and add checking spokes, chain and bolts after the first ride.",
+   "numbers_to_verify": [
+    {
+     "number": "Front-caliper recall covering 2023-2025 GasGas MC",
+     "what_you_think_it_should_be": "Uncited; verify against the NHTSA/CPSC notice"
+    },
+    {
+     "number": "Gearbox oil change after 1 operating hour",
+     "what_you_think_it_should_be": "Not in cited facts; likely correct per KTM-group schedule, verify"
+    }
+   ]
+  },
+  {
+   "id": "q066",
+   "expert_take": "Oil change intervals per manual (e.g. 10-15 h for many 4T); 10 h is fine and conservative-ish; desert/dusty and heat warrant more frequent; filter each or every other change; clutch heat.",
+   "overall": "C",
+   "correct": 4,
+   "useful": 2,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 1,
+   "concise": 4,
+   "flags": [
+    "asked_instead_of_answered"
+   ],
+   "note": "Rider asked what others do; BAK only says don't stretch 10 h and redirects to the selector. A pro would say 10 h is reasonable for a 4T on track, many 250F racers do 5 h, the desert dust portion argues for shorter, and change the filter every second change, and clean the air filter every ride.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q067",
+   "expert_take": "Friction modifiers in ATF can cause clutch slip in wet clutch; JASO MA oil recommended. Some 2T run ATF successfully; ULV (low viscosity) with modifiers risks slipping and less gear protection. Not recommended.",
+   "overall": "C",
+   "correct": 3,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 1,
+   "concise": 3,
+   "flags": [],
+   "note": "Ends in the right place (avoid it) but softens the key point by saying friction modifiers aren't automatically bad. A pro would be blunt: friction modifiers are exactly what JASO MA/MA2 rules out because they make wet clutches slip and glaze; use an MA/MA2 oil. Some 2T owners run plain ATF in gearboxes, but not one with friction modifiers.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q068",
+   "expert_take": "KTM 250 SX-F 2025: engine oil + filter around every 10 h (manual), single oil (engine/gearbox share oil on 4T SX-F? KTM 4T uses one oil with two filters), air filter clean each ride, chain clean/lube each ride, valve check per manual, piston ~ 45-50 h... Check manual figures.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 2,
+   "flags": [
+    "too_long"
+   ],
+   "note": "Thorough and correct against cited KTM intervals (oil 15 h, air filter, 45/90 h services, coolant 24 months), and it answers the trans-oil confusion directly. It's long for a beginner; oil quantity and spec are not in the cited facts.",
+   "numbers_to_verify": [
+    {
+     "number": "Oil fill 1.0 l, SAE 10W-50 JASO MA2, sight glass check after 1 minute",
+     "what_you_think_it_should_be": "Not in cited facts; plausible, verify against KTM manual"
+    }
+   ]
+  },
+  {
+   "id": "q069",
+   "expert_take": "Fuel out of the carb bowl vent/overflow on a 2022 250 SX (carbureted): float needle not seating (dirt or wear), float height wrong or float sticking; normal briefly after the bike is laid over.",
+   "overall": "A",
+   "correct": 4,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Right diagnosis (float needle/seat, float height, drain screw) with a good check for upright vs. after tipping. A pro would say the same; might add cleaning the needle/seat and checking float height to spec as the actual fix.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q070",
+   "expert_take": "+1 front sprocket gives taller gearing (~7-8% ratio change on 13->14), more top speed in each gear, less pull; also moves wheel back slightly; equivalent ~3-4 teeth rear. Stock CRF250R 2022 13/49? Is that right? Check.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Gives the stock gearing and a sensible pick (49 rear before +1 front), with chain length from cited facts. Misses the actual numbers a pro would give: 13 to 14 front is about 7.7% taller while 50 to 49 rear is only 2%, so +1 front is a big jump that makes a 250F feel soft. It asks for current sprockets though stock is known.",
+   "numbers_to_verify": [
+    {
+     "number": "Stock 2022 CRF250R gearing 13/50",
+     "what_you_think_it_should_be": "Claimed published but not in cited facts; I believe 13/50 for 2022, verify"
+    }
+   ]
+  },
+  {
+   "id": "q071",
+   "expert_take": "14/53 on 2023 YZ450F (stock 13/49? actually stock 13/48?) ratio 3.79 vs stock ~3.69/3.77; similar ratio, longer chain/wheel further back = more stable; calmer feel from 14 front (smoother chain run) Wait—need cited stock.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Stock 13/49 matches cited fact and the math is right (14/53 about 0.4% shorter, 14/52 about 1.5% taller). Clear pick, fitment checks, and an honest note that the chassis effect is subjective; that is what a pro would say.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q072",
+   "expert_take": "Chain pull angle relative to swingarm pivot changes anti-squat; larger front sprocket raises upper chain run, changes chain force line, affecting squat. Also axle position (wheelbase) changes with different rear size/chain length. Bigger sprockets lower chain wear and reduce polygon effect.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct physics: chain pull, chain line versus swingarm pivot (anti-squat), and axle position/wheelbase. A pro would say the same; maybe more briefly.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q073",
+   "expert_take": "13/47 = 3.615 vs 14/50 = 3.571, so 13/47 is about 1.2% shorter and will feel nearly the same; smaller countershaft sprocket wears the chain a bit faster.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Stock 14/47 matches cited fact and the math is right (13/47 is about 1.2% shorter than 14/50). Clear yes and a good point that final drive doesn't close the 2-3 gap. A pro might add that a 13 front wears the chain and slider slightly faster.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q074",
+   "expert_take": "For sand/mud on 350: usually shorter gearing for snap (e.g., +1/+2 rear, e.g., 13/49 or 13/50), or 14/53 for similar ratio smoother; depends on stock (13/48?). Sand loads engine; many go +1 rear.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Uses cited stock 14/52, picks 14/53 for sand/deep mud, and separates slick mud correctly. A pro would also give the % (about 1.9% shorter), but the advice is right.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q075",
+   "expert_take": "Make FX350 luggable: gearing lower (bigger rear e.g. +1-2), map selection (soft map), flywheel weight, clutch control, tire pressure; chain guide fine for sprockets up to ~52 typically; check chain length.",
+   "overall": "C",
+   "correct": 3,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 1,
+   "concise": 2,
+   "flags": [
+    "asked_instead_of_answered",
+    "missed_question",
+    "too_long"
+   ],
+   "note": "Generic: 'milder map if fitted' and 'two teeth bigger than current' without using the FX350's own map switch/traction control or stock gearing, and asks for sprocket counts that stock already gives. Misses the biggest luggability fix a pro would name (flywheel weight), and the chain-guide question gets a non-answer instead of a typical max tooth count for the stock guide.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q076",
+   "expert_take": "Need context (what stock is? 150SX 2022 stock 13/48?), track and goal. 49 = more acceleration, 50 = more; each tooth ~2%. Ask what you're trying to fix.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Exact % changes (2.1% and 4.2%) with what each feels like and a clear pick, which matches the gearing anchor. Stock 13/48 is claimed published but only the 48/50/52 option list is cited.",
+   "numbers_to_verify": [
+    {
+     "number": "Stock 2022 150 SX gearing 13/48",
+     "what_you_think_it_should_be": "Not directly cited (48 in the sprocket list); likely correct, verify front tooth count"
+    }
+   ]
+  },
+  {
+   "id": "q077",
+   "expert_take": "Cheaper offset options: offset bushings? Some brands sell offset adapter kits / used triple clamps; can't change without clamps on most; can also change fork height or shock to change geometry. Rent/borrow.",
+   "overall": "B",
+   "correct": 5,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 2,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct direction (less offset = more trail), borrow/used clamps, and asks what the rider is trying to fix. A pro would also mention adjustable-offset aftermarket clamps (offset inserts) as a one-purchase way to test several offsets, and state the KX450's stock offset as the baseline.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q078",
+   "expert_take": "No — fork tube diameter, length, axle size, steering stem, triple clamp, front wheel/brake mounts all differ; CRF450R Showa 48mm vs KTM WP 48 XACT; would need custom triple clamps, axle spacers, brake caliper bracket; not worth it. Also 450 forks valved/sprung for heavier bike.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 3,
+   "flags": [],
+   "note": "Right verdict (custom conversion, keep the KTM forks) with cited KTM numbers. A pro would be more direct: no, it's not a bolt-on; the Honda has different tube diameters, a different axle and brake mount and stem, so you'd need custom clamps and a front wheel, and the 450 valving is wrong for a 150.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q079",
+   "expert_take": "At 220-230 lb need heavier springs: stock KX450 2020 fork springs (air fork? no, 2020 KX450 uses coil springs - 2019+ coil) maybe 0.50 kg/mm? shock 5.4/5.6 kg/mm -> ~0.52-0.54 fork and 5.8-6.0 shock. Use Race Tech spring calculator; buy from Race Tech, Factory Connection, MX Tech, suspension shops; consider revalve.",
+   "overall": "A",
+   "correct": 4,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Gives a starting fork rate, the cited stock and optional shock rates, a clear supplier pick, and the free-sag check. A pro would likely say a 225 lb rider needs a shock spring above the 56 N/mm option (around 58-60 N/mm), which BAK hints at but doesn't state.",
+   "numbers_to_verify": [
+    {
+     "number": "Fork spring 0.54 kg/mm for 209-231 lb",
+     "what_you_think_it_should_be": "Uncited tuner chart; plausible, verify"
+    }
+   ]
+  },
+  {
+   "id": "q080",
+   "expert_take": "KTM 350 SX-F full system for bottom: FMF Factory 4.1, Akrapovic, Yoshimura, Pro Circuit; stock exhaust is good; slip-on gives little; header/mid-pipe matters for bottom. Mapping too. Advise dyno charts.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Answers both full system and slip-on with a clear pick for the bottom-end goal, and flags the 2023 chassis fitment change. A pro would also say the stock 2023 KTM exhaust is already good down low and many gain more from a map/gearing change, and would mention Akrapovic (KTM PowerParts) as the other common option.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q081",
+   "expert_take": "MC450F exhaust: for non-rev rider pick system favouring bottom/mid (e.g. Akrapovic, FMF 4.1 RCT Megabomb header adds bottom/mid), possibly with mapping. Stock is decent. Specific dyno? avoid making it hit harder.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Good bottom-end pick with the airbox-cover tip, which is a real gain for a non-rev rider. The rear-caliper recall date and model range are not cited and need checking before that line goes out.",
+   "numbers_to_verify": [
+    {
+     "number": "August 2026 rear-caliper recall naming 2021-2024 MC 450F",
+     "what_you_think_it_should_be": "Uncited; verify against the recall notice"
+    }
+   ]
+  },
+  {
+   "id": "q082",
+   "expert_take": "HGS on 2019-22 KX450: known as strong midrange/top; claims power everywhere; honestly varies. Without firsthand, say dyno evidence and that it's typically louder.",
+   "overall": "C",
+   "correct": 4,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Honest that it can't confirm an HGS curve, and gives a direction (slip-on with stock header). A pro would answer from what's known of this generation: aftermarket full systems on the 19-22 KX450 mostly add midrange and top while low-end is often flat or slightly down, so 'everywhere' is unlikely, and stock-header slip-ons keep the low end.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q083",
+   "expert_take": "2025 YZ450F linkage/engine mounts on 2023-24: need to verify parts compatibility via part numbers; the 2025 changes included updated engine mounts and frame? and linkage; check part numbers.",
+   "overall": "B",
+   "correct": 3,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 3,
+   "flags": [],
+   "note": "Specific and useful (relay arm, not connecting rods; test one change at a time). Part numbers and spring rates are stated with no cited fact behind them; if wrong, the rider orders the wrong part.",
+   "numbers_to_verify": [
+    {
+     "number": "Relay arm 17D-2217A-00 to D02-2217A-00; connecting rod BR9-2217F-00-00",
+     "what_you_think_it_should_be": "Uncited part numbers; verify against Yamaha parts catalog"
+    },
+    {
+     "number": "Shock spring 56 N/mm (2025) vs 58 N/mm (2024)",
+     "what_you_think_it_should_be": "Uncited; verify against Yamaha manuals"
+    }
+   ]
+  },
+  {
+   "id": "q084",
+   "expert_take": "2025 YZ450F clutch inner hub change? Unsure; verify by part number; clutch basket issues on 2023-24 YZ450F (clutch wear/heat). Check part fiche.",
+   "overall": "C",
+   "correct": 4,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Confirms the premise but doesn't answer the drop-in question beyond 'check with the parts counter', which is the fitment-not-confirmed-no-pick pattern. A pro would say whether the 2025 hub supersedes the 23-24 part number, and add that heavier clutch springs or plates are the other common fade fix.",
+   "numbers_to_verify": [
+    {
+     "number": "Three times as many oil holes in the 2025 inner hub",
+     "what_you_think_it_should_be": "Uncited; verify"
+    }
+   ]
+  },
+  {
+   "id": "q085",
+   "expert_take": "KX250 2021-22 vs KX450 2019-22 clutch cover: likely different (different engines); check part numbers.",
+   "overall": "C",
+   "correct": 3,
+   "useful": 2,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 2,
+   "concise": 5,
+   "flags": [],
+   "note": "Only says don't assume. A pro would say these are different engines (250 vs 450 cases), so the clutch covers are almost certainly different part numbers, and the answer is no unless the part numbers match.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q086",
+   "expert_take": "Air Striker not necessary; stock Keihin PWK jetted correctly runs clean; AirStriker is easier to jet / bit crisper. Jetting matters more.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Clear no, uses the cited stock Mikuni TMX 38, and gives the right first steps (float, jetting, passages). The CDI recall mention is useful but uncited and needs checking.",
+   "numbers_to_verify": [
+    {
+     "number": "2022 150 SX in CDI recall involving connecting-rod failure",
+     "what_you_think_it_should_be": "Uncited; verify which model years are covered"
+    }
+   ]
+  },
+  {
+   "id": "q087",
+   "expert_take": "Husqvarna TC125 2023 has lowered suspension (~10mm shorter? Husky 2023 forks/shock shorter stroke). To match KTM-length forks, need KTM shock or linkage/ shock spacer, or slide forks up in clamps; KTM shock length longer. Swap to KTM shock or reinstall original spacer.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 3,
+   "flags": [],
+   "note": "Good use of cited dimensions (fork 940 vs 950, same shock length, 293 vs 300 travel) showing the difference is in linkage/travel. A pro would name the fix more directly (KTM-spec linkage pull rod and checking the Husky shock's internal travel limiter) instead of passing it to a tuner, and say whether forks only 10 mm longer even need a rear change.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q088",
+   "expert_take": "Look ahead / weight the front by sitting forward up on the tank with elbow up and outside peg pressure; one tip: eyes up to exit.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 3,
+   "concise": 5,
+   "flags": [],
+   "note": "One clear tip, the right one, plus a short drill. A pro would say exactly this.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q089",
+   "expert_take": "Ruts: sit forward, look through rut not at the front wheel, lean the bike into rut, inside leg up forward, steady throttle, outside peg pressure; enter slow and match lean to rut; 125 needs clutch to keep rpm.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Separates climbing out from tipping in, gives body position, 125-specific rev/clutch advice and a drill. That is what a pro coach would say.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q090",
+   "expert_take": "Standing: grip with knees, balls of feet on pegs, lean forward with elbows up, hips over pegs, hold bars loosely, lean into acceleration; practice drills; set bar/levers properly.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct technique (chest forward before the throttle, grip with legs, light hands) and a sensible drill.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q091",
+   "expert_take": "Inside foot forward is for balance/ safety and to allow sitting forward; front weight comes mainly from body position seated forward; foot near fender doesn't weight front.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Correctly says the foot helps a little but sitting forward does the work and the foot is mainly for clearance/balance. Matches what a pro would say.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q092",
+   "expert_take": "Dabbing is acceptable sometimes, but keep foot forward and off ground ideally; in deep ruts keep foot up near the fork; dabs should be quick and not drag (injury risk to knee).",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Right answer (a quick dab is fine; don't plant and pivot) with good injury warning and a drill.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q093",
+   "expert_take": "TC250 (4T? TC250 is 2T) vs 450: lighter, more agile, needs to be kept on pipe, less fatigue but more shifting; 450 has torque, easier starts, more power for less effort but heavier. Holeshots harder on 250 2T.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 3,
+   "flags": [],
+   "note": "Balanced comparison with Husqvarna-cited weight and service intervals and a clear pick. A pro might add cost per season numbers, but this is solid.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q094",
+   "expert_take": "65SX fouling plugs: jetting rich (needle clip, pilot jet), choke left on, premix ratio wrong, wrong plug heat range (NGK BR9ECMVX? stock), riding style (low rpm), air filter dirty, crank seal leaking trans oil. Check power valve? (65 no PV—has one? KTM 65 has exhaust valve). Check settings vs manual.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 3,
+   "flags": [],
+   "note": "Correct cited plug spec and a sensible order of checks (plug reading, choke, float level, then jetting). A pro would go straight to the likely jetting fixes on an SX65 that fouls every ride (needle clip down one, check pilot jet size, confirm 1:60 premix not richer) and the hotter-plug option.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q095",
+   "expert_take": "Lean signs: white/ash plug, pinging/detonation, high idle hang, overheating, surging at WOT, seizing sound; urgent: hanging idle (air leak), pinging, sluggish then cut out; stop and check.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 3,
+   "concise": 5,
+   "flags": [],
+   "note": "Right urgent signs (pinging under load, power loss with heat, tightening) and the hanging idle/surging warning. A pro might add a white/blistered plug and the piston crown as visual signs.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q096",
+   "expert_take": "YZ65 bog on quick throttle worse cold, better with choke = lean low (pilot/needle); fuel cold weather; raise needle clip one, richer pilot, check air screw; hold throttle in; new bike may be lean from factory for emissions.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct lean read from the choke clue, correct air-screw direction for a Keihin PWK28 (cited carb), small step and a check order. A pro would add going up a pilot jet size if the air screw ends up near fully in.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q097",
+   "expert_take": "Raising forks (more tube above clamp) lowers front; at 15mm vs stock 18 they've lowered it already? The rider wants front lower; raising forks to 23mm lowers front, quickens steering, risk of headshake. Sag 85 for KX85 normal? Recommended ~ 85-90mm maybe. Go step by step 2-3 mm; check static sag front. Year mismatch 2014 vs 2020.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 3,
+   "flags": [],
+   "note": "Uses the goal the rider gave (front sitting high), gets the direction right (more tube showing lowers the front), and steps 15 to 18 then 20 instead of jumping to 23. Asks for free sag, which is a fair next check.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q098",
+   "expert_take": "KTM 50 SX is the go-to; older ones had clutch issues; newer (2024+) improved; Cobra, Husqvarna TC50, GasGas MC50 same as KTM; Yamaha PW to KTM 50 big jump; auto clutch adjustments; consider gas Gas/Husky same bike. Yamaha doesn't sell a 50 2T race bike except PW.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 3,
+   "flags": [],
+   "note": "Sensible pick and buying checks with cited 2024 intervals. A pro would name the actual KTM 50 issues people talk about (centrifugal clutch adjustment/wear, and that the 2024+ model got a new chassis) instead of saying it can't confirm a problem year.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q099",
+   "expert_take": "Yes, lowering kits exist for KTM 50 SX (fork lowering kit and shock lowering), adjustable 'junior' models etc; KTM sells lowering for 50? Also 50 SX Factory or Mini version. Check with dealer.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Yes with the right methods (internal spacers, matched both ends, don't drop preload) and cited travel numbers. A pro would also mention that KTM/aftermarket suspension shops sell ready-made 50 SX lowering kits and that a lower seat is the cheap first step, which it does cover.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q100",
+   "expert_take": "Random dies on KX85: fuel cap vent blocked, fuel tap/flow, float sticking, kill switch wiring/ignition, CDI, air leak, clogged pilot; check cap vent first, then wiring.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Right diagnosis direction (intermittent ignition or fuel starvation, not jetting) with the kill-switch wire and tank vent as first checks and a good question about how it dies. A pro would also list the CDI/coil/stator and plug cap when hot, which it partly covers.",
+   "numbers_to_verify": []
+  }
+ ]
+}

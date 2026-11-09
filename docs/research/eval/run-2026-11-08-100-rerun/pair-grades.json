@@ -1,0 +1,258 @@
+[
+ {
+  "id": "q001",
+  "expert_take": "Measure rear sag (~105 mm) and free sag first; if the front climbs out of ruts under throttle slow fork rebound a click or two, if it pushes on entry while riding high soften fork compression a click; consider sliding forks up a few mm only after sag is right.",
+  "X_overall": "B",
+  "Y_overall": "B",
+  "better": "Y",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Both start with sag and a conditional rebound click matching the cited 12-out stock. Y adds a second branch (compression 1 out, stock 14 out cited) for the push-on-entry case, so it covers more of what the rider described."
+ },
+ {
+  "id": "q003",
+  "expert_take": "Softening comp to 14 out was a sensible move for kick; slowing rebound helps a fork that springs back but can pack in successive bumps. Isolate one change: put rebound back to 12 and test comp alone.",
+  "X_overall": "B",
+  "Y_overall": "B",
+  "better": "X",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Both give the same correct reading and the same isolation test. X is tighter and adds a next step (11 out); Y adds an extra 'baseline isn't confirmed here' hedge for no gain."
+ },
+ {
+  "id": "q006",
+  "expert_take": "Check sag 105/35, then soften shock compression (LSC first, or HSC for square-edge chop) 1-2 clicks; if it packs through the series, speed up rebound.",
+  "X_overall": "A",
+  "Y_overall": "C",
+  "better": "X",
+  "X_flags": [],
+  "Y_flags": [
+   "asked_instead_of_answered"
+  ],
+  "note": "X gives a concrete first change (LSC 2 clicks out) with the cited stock settings and sag. Y has the same diagnosis and an extra tire-pressure fact but finishes on a question with no clicker change to try."
+ },
+ {
+  "id": "q010",
+  "expert_take": "Check steering-head bearings, cable routing and fork alignment/clamp torque after the spring install first; then soften fork compression a couple of clicks and get a revalve baseline for the new springs, not flex parts.",
+  "X_overall": "B",
+  "Y_overall": "B",
+  "better": "same",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Nearly the same answer: mechanical binding check, alignment, then 2 clicks softer fork compression. X hedges clamp torques; Y points to the Race Tech baseline. Neither one is clearly better."
+ },
+ {
+  "id": "q018",
+  "expert_take": "For a 170 lb intermediate, set ~100-105 mm rider sag and check free sag, test 1-2 clicks at a time, and ask what he wants to improve; stock springs should be close at 170 lb.",
+  "X_overall": "C",
+  "Y_overall": "B",
+  "better": "Y",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Both hedge on 2017 settings. Y gives the sag range plus what more or less sag does and a 2-3 mm step, then asks for the goal (rubric A anchor style). X spends its question on R vs RX."
+ },
+ {
+  "id": "q021",
+  "expert_take": "At 220 lb the stock 2018 AER fork needs more air pressure and the rear likely needs a stiffer spring; if it dives under braking, add fork compression or air; if it packs in braking bumps, speed up rebound. Don't raise the forks.",
+  "X_overall": "B",
+  "Y_overall": "B",
+  "better": "same",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Almost identical: weight-based air/spring advice and two conditional branches with step size. Both are sound and specific, and both end on a diagnostic question after giving changes."
+ },
+ {
+  "id": "q026",
+  "expert_take": "Check sag 105/35 against the KTM spec, then for a first-hit spine punch soften HSC/LSC 1-2 clicks; if it packs through bumps, speed up rebound; if it bottoms, the spring is too soft.",
+  "X_overall": "C",
+  "Y_overall": "B",
+  "better": "Y",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Y gives the full cited stock baseline table (HSC 2 turns) and leak/linkage checks alongside the same diagnosis. X gives only sag and 'record your baseline'. Neither names a first clicker change."
+ },
+ {
+  "id": "q031",
+  "expert_take": "At 8,000 ft, 178/180 mains look large unless the kit maker says so; set the main first under load, start the clip mid-to-lean (#2, then #1 if rich), and confirm the NOZI needle fits.",
+  "X_overall": "B",
+  "Y_overall": "B",
+  "better": "Y",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Both lean #2 and get the clip direction right. X's claim that pilots must 'match the replacement needle's straight diameter' is technically dubious. Y warns not to use clip #1 to hide an oversized main, which is a better point."
+ },
+ {
+  "id": "q033",
+  "expert_take": "Can't judge without the carb; slide covers off-idle, needle the midrange, main full throttle; 30F needs richer, so set it up cold and lean out with the clip or main as it warms. Ask for the bike and carb.",
+  "X_overall": "B",
+  "Y_overall": "B",
+  "better": "same",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Equivalent answers with the right richer-when-cold direction and a safety stop. Asking for the bike is justified here because none is given."
+ },
+ {
+  "id": "q034",
+  "expert_take": "No context given: if this is jetting, 5,000 ft and 80F both call for leaner, roughly a main size or two and possibly a clip leaner than sea level; EFI compensates. Ask what setting he means.",
+  "X_overall": "B",
+  "Y_overall": "B",
+  "better": "same",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Both give the right lean direction and the EFI caveat, and ask a justified clarifying question. Neither gives a rough step size."
+ },
+ {
+  "id": "q035",
+  "expert_take": "Hot bog and stall after 20 min: check the tank vent and fuel pump/pressure, then hot idle (2,250-2,350) and valve clearances; the rear-caliper recall is a separate safety check.",
+  "X_overall": "A",
+  "Y_overall": "A",
+  "better": "Y",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Both cite the correct idle and valve figures and mention the recall. Y orders the causes with the symptoms that separate them (warm idle check, hard hot restart = valves). X takes a firmer stop-riding stance on the recall."
+ },
+ {
+  "id": "q036",
+  "expert_take": "Treat it as detonation: stop hard pulls, go up one main (178 to 180) if it happens at 3/4 to full throttle, check fuel octane and freshness, the plug, and the needle clip for midrange; never go leaner.",
+  "X_overall": "A",
+  "Y_overall": "B",
+  "better": "X",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "X gives a concrete first change (#180) and the needle direction with cited stock values. Y has the right direction and adds fuel and premix facts but names no jet size."
+ },
+ {
+  "id": "q039",
+  "expert_take": "Yes, Power Tuner lets you edit low-rpm, low-throttle fuel cells, but that isn't an idle mixture screw. Yamaha doesn't run it 'crazy rich' to cool it; idle heat comes from no airflow, so don't richen it to compensate.",
+  "X_overall": "B",
+  "Y_overall": "B",
+  "better": "Y",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Same content. Y answers 'yes' directly; X opens with 'isn't confirmed for your 2025' and 'no evidence here', which is weaker and slightly internal-sounding."
+ },
+ {
+  "id": "q040",
+  "expert_take": "EFI RM-Z450 that won't start hot: first try the hot-start technique (throttle closed, full deliberate kick), then check valve clearances cold (tight exhaust valves are classic), then hot ignition and fuel delivery.",
+  "X_overall": "B",
+  "Y_overall": "B",
+  "better": "X",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Both rank tight valves first and don't give the clearance figures. X adds the starting-technique check, which is the cheapest thing to try first."
+ },
+ {
+  "id": "q043",
+  "expert_take": "Depends on the bike: OEM tuning apps or couplers, mail-in ECU reflash, or a programmable aftermarket ECU; a map switch only selects existing maps. Ask which bike.",
+  "X_overall": "B",
+  "Y_overall": "B",
+  "better": "same",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Equivalent options lists with the same correct switch-vs-reflash distinction and a justified question about the bike."
+ },
+ {
+  "id": "q050",
+  "expert_take": "Correct: the internal screen isn't an every-change item; inspect it when it's exposed or when debris shows up. Honda's interval is oil and filter every ~15 h / 6 races.",
+  "X_overall": "B",
+  "Y_overall": "A",
+  "better": "Y",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Both confirm it and cite the right Honda interval. Y adds a useful 'metal in the oil means find the source' line and reads more directly. X is a bit more hedged."
+ },
+ {
+  "id": "q052",
+  "expert_take": "Only a concern if yours actually pings: check fuel quality/octane, premix ratio (32:1), lean jetting or air leaks, and overheating; stop riding if it's knocking.",
+  "X_overall": "B",
+  "Y_overall": "B",
+  "better": "Y",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Both are safe and correct. Y adds the cited 32:1 premix and warns against adding oil as a fix; X cites the carb model instead, which is less useful."
+ },
+ {
+  "id": "q059",
+  "expert_take": "Give typical A-rider ranges: 250F top end ~20-40 h, 450 ~30-60 h, 2T top ends 10-30 h, bottom ends 60-150 h, clutch plates when measured worn (often 10-30 h for hard users), valves checked on schedule.",
+  "X_overall": "C",
+  "Y_overall": "A",
+  "better": "Y",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Y actually answers with race-shop ranges, clearly labelled as not maker intervals, and they are plausible. X gives only how to manage each item and asks for the bike, so it doesn't answer the hours question."
+ },
+ {
+  "id": "q061",
+  "expert_take": "A light, even tick is normal on modern finger-follower engines (injector, cam chain, valvetrain), and they aren't inherently louder; a sudden change, a knock or a loud clatter needs checking.",
+  "X_overall": "B",
+  "Y_overall": "B",
+  "better": "same",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Essentially the same answer and safety line. Both ask for the bike."
+ },
+ {
+  "id": "q066",
+  "expert_take": "For a four-stroke, 10 hours is the upper end; many hard track riders do 5-8 h, and shorter with heavy clutch use or hot desert work. The two-stroke gearbox oil is different.",
+  "X_overall": "C",
+  "Y_overall": "B",
+  "better": "Y",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Y gives a lean (5-10 h, 5 h for hard use) labelled as general practice. X only says don't stretch it and asks for the bike."
+ },
+ {
+  "id": "q067",
+  "expert_take": "Avoid ULV ATF in a motorcycle wet clutch: friction modifiers can make plates slip and glaze, and low viscosity hurts shared gearbox protection; use a JASO MA-rated oil.",
+  "X_overall": "B",
+  "Y_overall": "B",
+  "better": "same",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Two near-identical, correct, well-reasoned answers. Neither names JASO MA/MA2 as the spec to look for."
+ },
+ {
+  "id": "q075",
+  "expert_take": "Use the softer map / traction control, go +1-2 on the rear, add flywheel weight or an auto-clutch for lugging, and maybe a throttle cam; the stock guide clears a modest +2.",
+  "X_overall": "B",
+  "Y_overall": "B",
+  "better": "Y",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Both lead with +2 rear and the milder map and give a sensible chain-guide answer. Y adds the throttle cam and clutch technique; neither mentions a flywheel weight, the classic luggability fix."
+ },
+ {
+  "id": "q082",
+  "expert_take": "Don't expect gains everywhere from a full system on this generation; slip-ons with the stock header usually keep better low end, so ask for a back-to-back dyno before buying.",
+  "X_overall": "B",
+  "Y_overall": "B",
+  "better": "Y",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Both say don't expect power everywhere and give a stock-header lean. Y adds the decel-popping finding and a clearer 'my call'. Neither has firsthand data, so neither is an A."
+ },
+ {
+  "id": "q084",
+  "expert_take": "Yes, the 2025 hub gained oil holes; it's likely a drop-in if Yamaha lists the 2025 boss as superseding the 23-24 part. Check the parts fiche for matching pressure plate or washers.",
+  "X_overall": "C",
+  "Y_overall": "B",
+  "better": "Y",
+  "X_flags": [],
+  "Y_flags": [],
+  "note": "Y gives a lean on fitment (likely drops in, same clutch architecture) plus the exact check. X hedges with 'wouldn't promise' and no lean. Y's 'testers found the earlier spring too soft' is uncited and should be verified."
+ },
+ {
+  "id": "q085",
+  "expert_take": "No: the KX250 and KX450 have different engines and the KX250 uses a cable clutch while the 450 is hydraulic, so the covers won't interchange; the 21 and 22 KX250 covers should match. Check part numbers.",
+  "X_overall": "C",
+  "Y_overall": "C",
+  "better": "X",
+  "X_flags": [
+   "wrong_fact"
+  ],
+  "Y_flags": [
+   "missed_question"
+  ],
+  "note": "X gives the right answer ('most likely no') but wrongly implies the KX250 shares the 450's hydraulic clutch; the 2021-22 KX250 is cable-actuated. Y only says 'don't assume' with no lean and skips the 21-vs-22 part."
+ }
+]

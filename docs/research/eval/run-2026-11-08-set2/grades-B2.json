@@ -1,0 +1,851 @@
+{
+ "grader": "B2",
+ "grades": [
+  {
+   "id": "s2-051",
+   "expert_take": "Clutch drag won't kill power but slip will; on a carbureted 2022 TC 250 check for a dragging brake, plugged/repacked pipe or spark arrestor, wrong jetting/choke, and whether the mechanical power valve opens (pull the cover, check governor/linkage) before anything else.",
+   "overall": "C",
+   "correct": 4,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 2,
+   "concise": 4,
+   "flags": [],
+   "note": "Sound slip-vs-drag logic, but nothing bike-specific: a pro would name dragging brakes, exhaust blockage, carb jetting on this carbureted engine and how to physically check the TC's power-valve governor and linkage.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-052",
+   "expert_take": "Those clearances (in inches) are tight on both sides, intake badly so; with 80% leakdown and sand on the piston it ingested dirt. Yes, full top end: valves/seats, piston, rings, measure cylinder, inspect bottom end and fix the airbox/filter seal.",
+   "overall": "C",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 3,
+   "bike_specific": 3,
+   "concise": 3,
+   "flags": [
+    "ignored_given_detail"
+   ],
+   "note": "Right call on teardown and tracing the sand, but refusing to read .006/.002 'without units' dodges the key evidence; a pro would say those inch readings are tight against Suzuki spec and point straight at the valves.",
+   "numbers_to_verify": [
+    {
+     "number": "RM-Z250 intake valve clearance",
+     "what_you_think_it_should_be": "about 0.10-0.20 mm (.004-.008 in)"
+    },
+    {
+     "number": "RM-Z250 exhaust valve clearance",
+     "what_you_think_it_should_be": "about 0.20-0.30 mm (.008-.012 in)"
+    }
+   ]
+  },
+  {
+   "id": "s2-053",
+   "expert_take": "At 125 hours you are past the KTM-platform 100-hour major (rod/crank/valves) service; the 95-hour top end didn't reset the bottom end. Do the bottom end now, keep oil at 10 hours, and 200 hours is realistic only with that work.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Matches what a pro would say and the service intervals match the cited schedule; it could state plainly that the bike is already 25 hours past the 100-hour major service.",
+   "numbers_to_verify": [
+    {
+     "number": "US drive-chain recall naming 2021 MC 450F",
+     "what_you_think_it_should_be": "verify against NHTSA/GasGas recall listing"
+    }
+   ]
+  },
+  {
+   "id": "s2-054",
+   "expert_take": "A light rattle at idle that goes away with the clutch pulled is typical KTM primary/basket backlash and normal; inspect basket damper rubbers and notching at 165 hours, worry only if it changes or gets loud.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Same as a pro's answer; it could have named the KTM basket damper rubbers and primary gear backlash as the usual source.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-055",
+   "expert_take": "Compression isn't a replacement schedule on small two-strokes; at 60 hours the KX65 piston is well overdue for a race kid (typically 15-30 hours), so do it now, and inspect/measure the KX85 too. Top ends are cheap compared with a broken piston.",
+   "overall": "B",
+   "correct": 5,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Right direction, but a pro would just say 60 hours is overdue and give a typical piston hour range rather than only 'inspect and measure'.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-056",
+   "expert_take": "Stock 2023 KX450 springs suit roughly 180-200 lb; at 200 lb Vet B stay stock or go one step up on the fork (5.1-5.2 N/mm) and match the shock (check sag about 105 mm before buying). The calculator likely has the wrong inputs.",
+   "overall": "B",
+   "correct": 5,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 3,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [
+    "missed_question"
+   ],
+   "note": "Fork rates match the cited Kawasaki values and the pick is sensible, but the rider asked about springs and the shock was never addressed; a pro would give the shock rate or a sag check too.",
+   "numbers_to_verify": [
+    {
+     "number": "5.1 N/mm fork spring as tester baseline near 200 lb",
+     "what_you_think_it_should_be": "plausible aftermarket step; not a Kawasaki option"
+    },
+    {
+     "number": "2023 KX450 stock shock spring",
+     "what_you_think_it_should_be": "not stated; likely around 54 N/mm, verify"
+    }
+   ]
+  },
+  {
+   "id": "s2-057",
+   "expert_take": "Don't swap in 450F springs blindly; check basket/hub notching, oil (JASO MA), plate thickness and spring length, and if it still slips fit a heavier spring kit listed for the YZ250. A 20-hour clutch on a non-feathering rider points to slip or bad oil.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "The figures match the cited Yamaha specs and the plan matches a pro's; a pro might also mention checking the cable and lever pivot for preload drag.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-058",
+   "expert_take": "Carbureted TC 250: get jetting right for your elevation/temp (stock tends rich), springs/fork air for your weight, FMF Fatty or similar pipe; the 300 kit adds torque but costs money, needs jetting and can bump you out of 250 classes.",
+   "overall": "B",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 2,
+   "flags": [
+    "too_long"
+   ],
+   "note": "The jetting table matches the cited chart and all four questions get a pick, but it's long; a pro would also mention guards, a gripper seat and a mid-sized silencer repack as cheap first mods.",
+   "numbers_to_verify": [
+    {
+     "number": "TC 250 2022 stock gearing 14/49",
+     "what_you_think_it_should_be": "verify; not in cited facts"
+    },
+    {
+     "number": "Piston replacement 20 h / 10 h sand",
+     "what_you_think_it_should_be": "verify against Husqvarna schedule"
+    },
+    {
+     "number": "Sag 105 mm rider / 35 mm static",
+     "what_you_think_it_should_be": "likely correct for WP; verify"
+    }
+   ]
+  },
+  {
+   "id": "s2-059",
+   "expert_take": "Bolt-ons (ECU tune, full system, airbox) on a 25 KX250 give maybe 1-3 hp and better midrange/overrev; it will still never pull like a 450. Add 1 rear tooth for corner exits. Matched ECU map is the key.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 3,
+   "flags": [],
+   "note": "Honest expectation-setting, a clear pick and the gearing matches the cited 13/50; a pro might add the rough % change of 13/51 (about 2% shorter).",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-060",
+   "expert_take": "At 240 lb you'll need stiffer springs both ends on a 450; ballpark fork about 5.2-5.4 N/mm and shock about 60-62 N/mm, set sag (about 105 mm) and confirm free sag. Spring for your weight now, not your target.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 2,
+   "concise": 4,
+   "flags": [],
+   "note": "Good ballparks and good advice to spring for current weight, but nothing Triumph-specific (fork type, stock rates); a pro would find the TF 450-X stock rates and say how far off they are.",
+   "numbers_to_verify": [
+    {
+     "number": "Heavy-rider fork range 5.0-5.4 N/mm",
+     "what_you_think_it_should_be": "plausible for 240 lb; probably 5.2-5.4"
+    },
+    {
+     "number": "Shock range 58-62 N/mm",
+     "what_you_think_it_should_be": "plausible; probably 60-62 at 240 lb"
+    }
+   ]
+  },
+  {
+   "id": "s2-061",
+   "expert_take": "At 190 lb the stock RM-Z250 springs are roughly right; get it serviced/set sag and maybe revalve the stiff fork. Pipe: Yoshimura or FMF full system, use the included couplers/ECU tuning. Inspect a leftover for storage age.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Good priorities and picks, but the stock spring rates and sag are presented as 'commonly reported' with no source; a pro would also mention the Suzuki fuel couplers and the fork's known harshness fix (revalve).",
+   "numbers_to_verify": [
+    {
+     "number": "2022 RM-Z250 stock fork spring 5.0 N/mm",
+     "what_you_think_it_should_be": "verify"
+    },
+    {
+     "number": "2022 RM-Z250 stock shock spring 52 N/mm",
+     "what_you_think_it_should_be": "verify; uncited"
+    },
+    {
+     "number": "Rider sag baseline 110 mm",
+     "what_you_think_it_should_be": "Suzuki manual likely ~100-110 mm; verify"
+    }
+   ]
+  },
+  {
+   "id": "s2-062",
+   "expert_take": "At about 215 geared, Vet A, go one or two steps up from the stock 4.7 fork springs (4.8-4.9 N/mm) and a stiffer shock spring (about 57-58 N/mm), then set sag 90-100 mm per Yamaha.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Fork pick and sag match the cited Yamaha figures, but no shock rate was given although the rider asked what people run; also the 56 N/mm stock shock is stated as Yamaha-published with no citation.",
+   "numbers_to_verify": [
+    {
+     "number": "2022 YZ250F stock shock spring 56 N/mm",
+     "what_you_think_it_should_be": "uncited; verify (2025 is cited as 54 N/mm)"
+    }
+   ]
+  },
+  {
+   "id": "s2-063",
+   "expert_take": "Start with a service plus correct springs for your weight and a proper sag/clicker setup (a few hundred dollars), then a revalve (~$800-1500 both ends) if needed. Tell me your weight and complaint.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct spending order with realistic budgets and stock rates that match the cited Kawasaki values; asking weight and complaint was needed here.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-064",
+   "expert_take": "For hardpack go to an intermediate-hard tire: Dunlop MX33/MX53, Pirelli MX32 Mid-Hard, Bridgestone X20 class; and run 12-13 psi. MX3S/MX34 are soft-intermediate.",
+   "overall": "A",
+   "correct": 4,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 5,
+   "flags": [],
+   "note": "Clear pick with the right logic and pressure from the cited manual; a pro might name one non-Dunlop alternative.",
+   "numbers_to_verify": [
+    {
+     "number": "Dunlop MX54 replaces MX53",
+     "what_you_think_it_should_be": "verify that the MX54 exists"
+    },
+    {
+     "number": "1.0 bar starting pressure",
+     "what_you_think_it_should_be": "cited; many riders run 12-13 psi on hardpack"
+    }
+   ]
+  },
+  {
+   "id": "s2-065",
+   "expert_take": "Hinson is a durable conventional clutch (basket/plates); TorqDrive adds plates/friction surfaces for capacity and a lighter pull, good for heavy clutch users. For a normal replacement, quality OEM-style plates or Hinson; TorqDrive if you abuse it.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "A sensible pick with clear reasoning; a pro would mention the TorqDrive's lighter pull and that Hinson's main value is a billet basket/hub, not just plates.",
+   "numbers_to_verify": [
+    {
+     "number": "US drive-chain recall naming 2021 FC 250",
+     "what_you_think_it_should_be": "verify; no cited fact"
+    }
+   ]
+  },
+  {
+   "id": "s2-066",
+   "expert_take": "Lowering links change the leverage ratio so the rear sits lower and the progression changes; shock stroke stays the same but wheel travel and bottoming change. If you don't need the height, go back to stock and reset sag.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "What a pro would say, with the travel figure matching the cited spec; adding that a lowering link typically makes the rear softer and more progressive early would complete it.",
+   "numbers_to_verify": [
+    {
+     "number": "2025 250 SX-F linkage hardware differs from 2023-2024",
+     "what_you_think_it_should_be": "verify; uncited"
+    },
+    {
+     "number": "105 mm rider / 35 mm static sag",
+     "what_you_think_it_should_be": "likely correct; verify"
+    }
+   ]
+  },
+  {
+   "id": "s2-067",
+   "expert_take": "Pipe: Yoshimura, FMF 4.1 or Pro Circuit all work with a map; tuning: Factory Connection, Enzo, Race Tech or a good local KYB tuner. At 225 geared you'll want about 4.9-5.0 fork and 57-58 N/mm shock springs.",
+   "overall": "B",
+   "correct": 5,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Good picks and the stock figures match the cited specs, but it says only 'go stiffer' without a spring rate for 225 lb, which a pro would give.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-068",
+   "expert_take": "You're not crazy; count the front and rear. 47 to 50 is about 6% shorter, not one tooth; for one tooth up from what you have, get a 48.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 5,
+   "flags": [],
+   "note": "Exactly the right math and pick (50/47 = 6.4%, 50/49 = 2.0%).",
+   "numbers_to_verify": [
+    {
+     "number": "KTM catalog part 7771015104730 = 47T for 2025-26 300 SX",
+     "what_you_think_it_should_be": "verify; uncited"
+    }
+   ]
+  },
+  {
+   "id": "s2-069",
+   "expert_take": "14/52 (3.71) is basically stock 13/48 (3.69); 14/51 is about 2% taller. If 2nd/3rd feel short, try 13/47 or 14/50, but also look at mapping and clutch use; half steps are subtle.",
+   "overall": "B",
+   "correct": 5,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 5,
+   "flags": [],
+   "note": "The math is correct and the follow-up question is good, but a pro would relate 14/52 to the stock 13/48 and mention 13-tooth alternatives for finer steps.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-070",
+   "expert_take": "Stock 14/50 is a good baseline; 14/51 for tight tracks, 14/49 for fast tracks; each rear tooth is about 2%, a front tooth about 7%.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 5,
+   "flags": [],
+   "note": "Matches the cited stock gearing and gives the % per tooth, which is what the anchor calls an A.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-071",
+   "expert_take": "Yes, a 13 front wraps the chain tighter (more articulation, more tension for the same torque) and wears chain, sprocket and guide faster; 14 with a bigger rear gives similar gearing with less wear.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 5,
+   "flags": [],
+   "note": "Exactly the pro answer; it could add that the 13 also wears the chain slider/guide more.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-072",
+   "expert_take": "Steel rears (Vortex steel, Supersprox Stealth, Renthal twin-ring) and a quality chain; ERT3 is a good non-sealed race chain, X-ring (DID ZVM-X, RK XW) lasts longer with less adjustment. Keep it clean and tensioned.",
+   "overall": "B",
+   "correct": 5,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 5,
+   "flags": [],
+   "note": "Correct but just affirms the rider's setup; a pro would offer a couple of other proven options (Supersprox Stealth, an X-ring chain) since the question was 'what holds up'.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-073",
+   "expert_take": "Give the published internal ratios for both from the manuals, plus primary and final drive.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 5,
+   "concise": 5,
+   "flags": [],
+   "note": "All ratios match the cited manual values; exactly what was asked.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-074",
+   "expert_take": "Stock 18 CRF450R is 13/49; 48 is about 2% taller, 50 is about 2% shorter. For semi-tight turns most go 50 to pull 3rd, or use 2nd with a smoother map; each tooth is about 2%.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Reasonable pick with the right trade-offs, but no % change and it refused to state the 2018 stock gearing that the rider's own options imply (49T); a pro would give both.",
+   "numbers_to_verify": [
+    {
+     "number": "2018 CRF450R stock final drive",
+     "what_you_think_it_should_be": "13/49 (verify)"
+    }
+   ]
+  },
+  {
+   "id": "s2-075",
+   "expert_take": "51T on stock 13/50 is about 2% shorter: a bit more pull in 3rd, slightly less top speed per gear and you'll hit overrev a touch sooner; with mods it's a common, good change.",
+   "overall": "B",
+   "correct": 5,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct pick and stock gearing match the cited fact, but no % figure (about 2% shorter), which the gearing anchor expects for an A.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-076",
+   "expert_take": "Second gear on a 250F, revs around 3/4 (or launch mode if the bike has it), sit forward over the tank, elbows up, watch the gate pin, release the clutch smoothly and get on the pegs; prep the rut.",
+   "overall": "B",
+   "correct": 5,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Solid technique; a pro would mention the launch control button if the bike has it and say to watch the gate latch/pin rather than the gate top.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-077",
+   "expert_take": "Stay centered and standing, steady throttle up the face, soft knees and elbows let the bike come up; don't chop or snap the throttle. If it still kicks, slow the shock rebound.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Matches the pro answer including the suspension-rebound caveat.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-078",
+   "expert_take": "Arm pump is mostly fixed by riding time and aerobic fitness plus relaxed grip and squeezing with legs; light forearm endurance work helps a little, heavy grip work doesn't. Check lever position.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Matches the pro answer; it could stress more strongly that seat time and cardio matter most.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-079",
+   "expert_take": "Put in a pump-fed sprinkler system (impact or big-gun sprinklers) zoned from a pond/tank or well, water the evening before and touch up; deep-rip/till so clay holds moisture and add organic/sandy material.",
+   "overall": "B",
+   "correct": 5,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Practical sprinkler plan and clay soak advice; a pro would add deep ripping/tilling so the clay holds water, and mention a used water truck or big-gun sprinklers.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-080",
+   "expert_take": "Second-moto struggles are fitness and adapting lines to the rough track; train race-length motos, relax arms, stand more, pick smoother lines, and set the suspension for rough tracks (slower rebound/softer compression as needed).",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Matches a pro's advice and the Yamaha figures match the cited specs.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-081",
+   "expert_take": "Scrubbing is faster when it lets you get back on the ground sooner without losing distance; it depends on the jump and what follows; over-jumping flat is slow.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct and well explained, with a sensible first drill.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-082",
+   "expert_take": "Figure-8s and cone drills on flat ground; brake upright, sit forward, outside peg, inside leg up, smooth throttle; repeat single corners.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Good drills that build on what the rider already does; it could add an inside-elbow-up/front-brake-to-turn cue.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-083",
+   "expert_take": "Yes, walk it: check start pad, jump faces/landings, ruts, soft spots, alternate lines.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 5,
+   "flags": [],
+   "note": "Short and right.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-084",
+   "expert_take": "At 118 lb he's heavy for a KX65; stiffer fork and shock springs are a must (stock is for ~70-90 lb kids), set sag about 1/3 of travel, and seriously think about an 85.",
+   "overall": "C",
+   "correct": 4,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 2,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct direction, but generic and hedged; a pro would say 118 lb is near the top of 65 size, name rough spring direction/rates and suggest he's ready for an 85.",
+   "numbers_to_verify": [
+    {
+     "number": "KX65 rider sag ~70 mm (65-75 mm)",
+     "what_you_think_it_should_be": "verify against Kawasaki KX65 manual"
+    },
+    {
+     "number": "Free sag 15-25 mm",
+     "what_you_think_it_should_be": "plausible; verify"
+    }
+   ]
+  },
+  {
+   "id": "s2-085",
+   "expert_take": "Kawasaki manual gives the shock spring, clicker and preload values; at 110 lb the stock 47 N/mm is about right, so a soft rear on a race-prepped bike is likely backed-off preload, softer spring or revalve. Set rider sag ~90 mm and check free sag.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "The figures match the cited Kawasaki values and the measuring steps are right; it could say the stock spring roughly suits 110 lb, so check preload first.",
+   "numbers_to_verify": [
+    {
+     "number": "KX85 rider sag 85-95 mm",
+     "what_you_think_it_should_be": "verify against Kawasaki manual"
+    },
+    {
+     "number": "Free sag 20-30 mm",
+     "what_you_think_it_should_be": "plausible"
+    }
+   ]
+  },
+  {
+   "id": "s2-086",
+   "expert_take": "At 114 lb a 125 two-stroke: lighter, cheaper top ends, teaches momentum; 250F has more torque and is more forgiving but heavier and expensive valve-train rebuilds. Two 125s for less is a good deal.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Clear pick with the right pros/cons, including softer springs for 114 lb.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-087",
+   "expert_take": "The LW has a longer swingarm, bigger wheels and (on many years) longer fork legs, so a conversion is a parts list, not wheels; usually cheaper to sell and buy an LW or move to a 112/125.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Good pick (trade for an LW), but hedged on the swingarm the rider already named; a pro would list the actual LW differences (swingarm, wheels, possibly fork) with confidence.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-088",
+   "expert_take": "Teach clutch on every shift at first, then clutchless upshifts with a brief throttle roll-off are fine; keep the clutch for downshifts, starts and stops.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "Matches what experienced moto parents and coaches say.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-089",
+   "expert_take": "Use the Husqvarna altitude chart row (main ~140ish at 5000 ft), premix per manual (1:40 for TC 85), quality synthetic oil; for enduro softer clickers, spring by weight, guards and gearing.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 2,
+   "flags": [
+    "too_long"
+   ],
+   "note": "Jetting, premix and spring bands all match the cited manual; complete but long for the format.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-090",
+   "expert_take": "Check the YZ65 power valve (YPVS) adjustment/operation, reed condition, then the needle clip (raise for low-mid), air screw and float height; share stock PWK28 jets and what's working at your elevation.",
+   "overall": "C",
+   "correct": 4,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [
+    "missed_question"
+   ],
+   "note": "The rider asked what jetting people run and got no jet sizes and no power-valve or reed check; a pro would give the stock pilot/needle/main and the YPVS check for a weak bottom end.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-091",
+   "expert_take": "Carbureted TC 250 in Texas: jet for heat and low elevation (lean a step from the base chart in summer), fork air for 185 lb (about 10-10.5 bar), shock spring per chart, sag 105 mm, stock clickers to start.",
+   "overall": "B",
+   "correct": 5,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 2,
+   "flags": [
+    "too_long"
+   ],
+   "note": "Well cited and bike-specific, but it skipped the 77-97\u00b0F row, which is the most relevant one for Texas, and the answer is long.",
+   "numbers_to_verify": [
+    {
+     "number": "Shock spring 42 N/mm for 165-187 lb",
+     "what_you_think_it_should_be": "cited (truncated); verify"
+    },
+    {
+     "number": "Map position II = soft",
+     "what_you_think_it_should_be": "verify"
+    }
+   ]
+  },
+  {
+   "id": "s2-092",
+   "expert_take": "First: fit/controls, springs for weight, guards and skid plate; keep stock power. Maps: stock both modes, try a smoother or more responsive preset in Power Tuner; aftermarket maps come from builders or shared files, not all in the app.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Answers all three questions sensibly and in Yamaha-specific terms.",
+   "numbers_to_verify": [
+    {
+     "number": "Power Tuner 'Responsive' preset",
+     "what_you_think_it_should_be": "verify preset name/existence"
+    },
+    {
+     "number": "Both handlebar map modes identical as shipped",
+     "what_you_think_it_should_be": "verify"
+    }
+   ]
+  },
+  {
+   "id": "s2-093",
+   "expert_take": "Springs/sag for your weight, tires for your dirt, bars/levers fit, guards and skid plate as needed; engine mods last.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "The right priority list for a generic question; asking the bike is reasonable.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-094",
+   "expert_take": "2021-24 CRF450R is known stiff/nervous; check sag (rider sag about 105-108 mm), put the fork tubes back to stock height, soften fork compression, select the smoother map for the low-end hit, and check linkage/bearings.",
+   "overall": "C",
+   "correct": 4,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 4,
+   "concise": 3,
+   "flags": [
+    "missed_question"
+   ],
+   "note": "Good safety and mechanical checks, but no concrete setup moves (sag check, fork height, clickers) and nothing on the power complaint (Honda map select or HRC settings); a pro would give those first.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-095",
+   "expert_take": "Service baseline (oil, filter, screens, valves check), check hours/history, suspension service, set WP air/sag for your weight, then guards/tires.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 5,
+   "concise": 4,
+   "flags": [],
+   "note": "Exactly the pro checklist, with intervals and capacities that match the cited KTM values.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-096",
+   "expert_take": "Stand/get light on the seat on exits, weight forward and on outside peg, loose arms, smooth throttle, a gear higher, pick a smoother line; if it keeps kicking, look at rebound.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Good live-race advice; it could add 'try a gear higher' for choppy exits.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-097",
+   "expert_take": "Check what changed: tire pressure, bead seating, wheel alignment and fork binding after the wheel install; then look at technique on the face (throttle chop) and shock rebound.",
+   "overall": "B",
+   "correct": 5,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Smart to start with the only change made, but a pro would also cover the throttle on the face and the shock rebound as common causes of losing control off jumps.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-098",
+   "expert_take": "Modern 450s make a few more hp and are lighter and much better handling, but a healthy 2013 isn't slow; a 350 is lighter-feeling and easier to manage but must be revved. Ride one back to back.",
+   "overall": "B",
+   "correct": 4,
+   "useful": 4,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "Correct and balanced, but vague on how much modern 450s actually improved; a pro would give rough hp/weight differences and note the 350 is almost the same scale weight.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-099",
+   "expert_take": "CRF250R for 140 lb casual: modern 250Fs have much more usable power; a 450 is more than needed and more tiring. Expect softer springs at 140.",
+   "overall": "A",
+   "correct": 5,
+   "useful": 5,
+   "safe": 5,
+   "rider_words": 5,
+   "bike_specific": 4,
+   "concise": 4,
+   "flags": [],
+   "note": "What a pro would say.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "s2-100",
+   "expert_take": "At 240 lb a 350 or a 450 in a mellow map is commonly recommended; a 250F has to be revved hard at that weight. For trails consider an off-road model. Springs for weight either way.",
+   "overall": "C",
+   "correct": 3,
+   "useful": 3,
+   "safe": 5,
+   "rider_words": 4,
+   "bike_specific": 3,
+   "concise": 4,
+   "flags": [],
+   "note": "The springing advice is good, but it skipped the 350 middle ground and steered a 240 lb rider to a 250F for MX; a pro would mention that modern 450 maps can be tamed and that a 350 suits this rider.",
+   "numbers_to_verify": []
+  }
+ ]
+}

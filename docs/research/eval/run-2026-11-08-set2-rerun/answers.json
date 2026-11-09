@@ -1,0 +1,2157 @@
+[
+ {
+  "id": "s2-002",
+  "ok": true,
+  "topic": "suspension",
+  "bike": {
+   "manufacturer": "Honda",
+   "model": "CRF250R",
+   "model_year": 2023,
+   "engine_hours": null,
+   "configuration": {
+    "geared_weight_lb": 170
+   }
+  },
+  "question": "I'm really struggling with the \"twitchy\" front end feel on my 2023 250. The front end feels so twitchy and has a tendency to tuck on corner entry or speed wobble on decel. ... Will 24mm OS triple clamps help?",
+  "message_sent": "I'm really struggling with the \"twitchy\" front end feel on my 2023 250. The front end feels so twitchy and has a tendency to tuck on corner entry or speed wobble on decel. ... Will 24mm OS triple clamps help?",
+  "rider_context": "~150 lb, intermediate (stated in a later reply); already had suspension revalved by local tech, tried forks flush in the clamps, tried adding more sag; stock springs",
+  "prompt_version": "mx-engineering-84",
+  "ms": 28152,
+  "response": {
+   "kind": "diagnosis",
+   "summary": "24 mm clamps may improve this Honda’s front-end feel, but check the deceleration wobble and front-to-rear balance before buying them.",
+   "answer": "**Yes—24 mm offset clamps are a reasonable upgrade for this generation, but they aren’t a guaranteed cure for tucking or deceleration wobble.** Several testers found longer-offset clamps improved its feel; twitchiness is a consistently reported complaint on the 2022–2024 chassis.\n\nThe important distinction: increasing offset from the reported stock **22 mm to 24 mm reduces trail**—about **2.2 mm**, calculated using a 27° steering angle. It doesn’t add stability by adding trail; the reported improvement is specific to how this chassis responds.\n\nBefore spending money:\n- Check steering-head and wheel-bearing play, front tire condition/bead seating, wheel true and fork binding. **Don’t ride through a pronounced speed wobble.**\n- At your **170 lb geared weight**, establish Honda’s **105 mm rider sag** baseline and measure free sag before changing springs.\n- Record fork settings. Honda’s stock baseline is **compression 12 clicks out; rebound 13 out**. Diving under braking suggests insufficient support; getting lower through successive braking bumps suggests rebound packing—opposite fixes.\n\n**My pick:** sort those checks first, then consider the 24 mm clamps if the nervous feel remains; verify the exact OS kit’s fitment for your 2023 CRF250R before buying.\n\nDoes the fork dive immediately under braking, or get progressively lower through braking bumps?",
+   "setup_changes": [],
+   "observations": [
+    "Rider reports corner-entry tucking and deceleration speed wobble.",
+    "Saved geared rider weight is 170 lb.",
+    "Current sag, fork height and clicker positions are unknown."
+   ],
+   "systems": [
+    "chassis",
+    "suspension",
+    "wheels"
+   ],
+   "hypotheses": [
+    {
+     "mechanism": "Mechanical looseness, tire irregularity or fork binding",
+     "explains": "Can produce wobble or inconsistent front grip independently of clamp offset.",
+     "confirm": "Engine-off inspection finds bearing play, tire distortion, wheel irregularity or restricted fork movement.",
+     "reject": "Relevant components are checked and operate correctly."
+    },
+    {
+     "mechanism": "Fork loses ride height under braking",
+     "explains": "Immediate dive or progressive rebound packing can promote entry tucking and nervous deceleration behavior.",
+     "confirm": "Immediate dive distinguishes insufficient support; worsening through successive bumps supports packing.",
+     "reject": "Fork maintains controlled ride height during the complaint."
+    }
+   ],
+   "unknowns": [
+    "Whether wobble is mild nervousness or pronounced bar oscillation.",
+    "Whether fork dive is immediate or builds through bumps.",
+    "Exact OS clamp model and fitment."
+   ],
+   "next_step": {
+    "action": "With the engine off and bike securely supported, inspect front tire, wheel and bearing condition, steering-head play and fork movement before another riding test.",
+    "purpose": "Exclude mechanical causes before tuning or purchasing clamps.",
+    "stop_conditions": [
+     "Loose, notchy or damaged bearings",
+     "Tire bulge, uneven seating or damaged wheel",
+     "Binding fork",
+     "Pronounced speed wobble remains unresolved"
+    ]
+   },
+   "evidence_ids": [
+    "a7fd714d-3670-4d40-95dd-1266991af86c",
+    "1694d4d1-8fdb-548c-922d-5cd0a10e69b5",
+    "0ab79b0e-4799-5184-8298-b4bcf5c786f5"
+   ],
+   "specifications": [
+    {
+     "claim_id": "a7fd714d-3670-4d40-95dd-1266991af86c",
+     "value": "Shock / Race sag / Standard (standard spring): 105 mm. Applies to the standard R model named in this handbook; other variants covered by the same handbook have different values. Stock OEM parts only. Race sag is the unloaded measurement minus the rider-aboard measurement with the bike at race weight, per the procedure on the cited page."
+    },
+    {
+     "claim_id": "1694d4d1-8fdb-548c-922d-5cd0a10e69b5",
+     "value": "Suspension / Fork / Compression damping standard: 12 clicks out from stiffest (first click is position 1). CRF250R from full hard (clockwise until it stops) both legs same position"
+    },
+    {
+     "claim_id": "0ab79b0e-4799-5184-8298-b4bcf5c786f5",
+     "value": "Suspension / Fork / Rebound damping standard: 13 clicks out from stiffest (first click is position 1). CRF250R from full hard (clockwise until it stops) both legs same position"
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Corner-entry tuck and deceleration wobble reported",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Geared rider weight 170 lb",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Longer-offset clamps reportedly improve this generation's front-end feel",
+     "tier": "COMMUNITY",
+     "evidence_ids": [
+      "K-h25-076|Honda|CRF250R|2023",
+      "K-h25-074|Honda|CRF250R|2023"
+     ]
+    },
+    {
+     "claim": "Two millimeters additional offset reduces calculated trail approximately 2.2 millimeters",
+     "tier": "ENGINEERING",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Standard rider sag 105 mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "a7fd714d-3670-4d40-95dd-1266991af86c"
+     ]
+    },
+    {
+     "claim": "Standard fork compression 12 clicks out",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "1694d4d1-8fdb-548c-922d-5cd0a10e69b5"
+     ]
+    },
+    {
+     "claim": "Standard fork rebound 13 clicks out",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "0ab79b0e-4799-5184-8298-b4bcf5c786f5"
+     ]
+    },
+    {
+     "claim": "Mechanical defects can mimic suspension and geometry problems",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Immediate dive and progressive packing require different damping corrections",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [
+    "Exact OS 24 mm clamp kit fitment.",
+    "Published static-sag target for this bike."
+   ],
+   "confidence": "LIMITED",
+   "garage_updates": [],
+   "app_actions": [],
+   "references": [
+    {
+     "title": "2023 Honda CRF250R: Set the suspension back to the standard baseline",
+     "url": "",
+     "attribution": "Honda",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers recording the current settings, fork air release, fork compression and rebound, shock high and low speed compression and rebound, measuring race sag at race weight, and when to change preload or spring. The preload change itself is in the shock spring preload guide.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    }
+   ]
+  },
+  "geared_weight_lb": 170
+ },
+ {
+  "id": "s2-005",
+  "ok": true,
+  "topic": "suspension",
+  "bike": {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2020,
+   "engine_hours": null,
+   "configuration": {
+    "geared_weight_lb": 195
+   }
+  },
+  "question": "Bought a 20 at the end of the season ... I now have .46 springs, lowered the oil 20 cc ... the fork compression is out all the way and so is the high speed compression on the shock. Wondered if anyone has any recommendations",
+  "message_sent": "Bought a 20 at the end of the season ... I now have .46 springs, lowered the oil 20 cc ... the fork compression is out all the way and so is the high speed compression on the shock. Wondered if anyone has any recommendations",
+  "rider_context": "175 lb without gear; 67-year-old former vet expert; natural-terrain track, no jumps; .46 fork springs, fork oil lowered 20 cc, shock spring down two sizes, Ride link added; tried stock and RacerX settings; shopping for .44 fork springs",
+  "prompt_version": "mx-engineering-84",
+  "ms": 27451,
+  "response": {
+   "kind": "setup",
+   "summary": "Don’t soften it further yet. At 195 lb, your softer fork springs, reduced oil and fully open compression could leave it riding too deep rather than curing harshness.",
+   "answer": "At **195 lb geared, I wouldn’t soften it further yet**. Your .46 kg/mm fork springs are about 4.5 N/mm—considerably softer than the consistently reported stock fork springs of 5.0 N/mm. You’ve already reduced the oil by 20 cc and opened both compression adjusters, so repeating those changes isn’t the next move.\n\nTesters consistently report harsh stock suspension on this generation, but going too soft can make it ride deep and feel harsh again.\n\n- **If the fork dives and rides deep:** turn fork compression **2 clicks in from fully open**, leaving everything else alone. Retest the same braking section; keep it only if support and comfort improve.\n- **If it barely moves and deflects:** check fork alignment and friction before buying softer springs. If it moves freely, a revalve is more useful than opening the clicker farther.\n- **Rear:** fully open high-speed compression can sacrifice hold-up. Measure rider and free sag before changing it; **110 mm rider sag** is a commonly reported baseline, not a confirmed Suzuki figure here.\n\nDoes it still feel stiff and barely move, or does it dive/squat and get harsh deeper in the travel? That distinction decides which direction to go.\n\n**Changes to try, one at a time:**\n- **Fork compression—only if diving and riding deep:** From fully open, turn 2 clicks in.",
+   "setup_changes": [
+    {
+     "setting": "Fork compression—only if diving and riding deep",
+     "change": "From fully open, turn 2 clicks in.",
+     "expect": "More braking support and less harshness from riding deep.",
+     "go_back_if": "Sharp impacts become worse without improving hold-up."
+    }
+   ],
+   "observations": [
+    "Rider weighs 195 lb geared.",
+    "Fork springs changed to .46 kg/mm.",
+    "Fork oil reduced by 20 cc.",
+    "Fork compression and shock high-speed compression are fully open.",
+    "The remaining handling symptom has not been described."
+   ],
+   "systems": [
+    "suspension"
+   ],
+   "hypotheses": [],
+   "unknowns": [
+    "Whether the suspension deflects with little travel or rides too deep.",
+    "Current rider sag and free sag.",
+    "Current valving and shock spring."
+   ],
+   "next_step": {
+    "action": "If the fork dives, test fork compression 2 clicks in from fully open over the same braking section.",
+    "purpose": "Determine whether insufficient hold-up is causing the harsh feel.",
+    "stop_conditions": [
+     "Return to the previous setting if impact harshness increases without better support.",
+     "Do not tune around binding, leakage or loose components."
+    ]
+   },
+   "evidence_ids": [],
+   "specifications": [],
+   "claims": [
+    {
+     "claim": "Rider weight and suspension changes",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Reported stock fork springs 5.0 N/mm",
+     "tier": "COMMUNITY",
+     "evidence_ids": [
+      "K-rmzc-250-04|Suzuki|RM-Z250|2020"
+     ]
+    },
+    {
+     "claim": "Reported rider sag baseline 110 mm",
+     "tier": "COMMUNITY",
+     "evidence_ids": [
+      "K-rmzc-250-06|Suzuki|RM-Z250|2020"
+     ]
+    },
+    {
+     "claim": ".46 kg/mm converts to approximately 4.5 N/mm",
+     "tier": "ENGINEERING",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Insufficient support can cause deep-stroke harshness",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Testers consistently report harsh stock suspension",
+     "tier": "COMMUNITY",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [
+    "Suzuki-published rider and static sag targets.",
+    "Suzuki-published suspension adjustment baselines."
+   ],
+   "confidence": "LIMITED",
+   "garage_updates": [
+    {
+     "type": "setting",
+     "system": "",
+     "brand": "",
+     "name": "",
+     "field": "fork_spring_rate",
+     "value": "0.46",
+     "current": ""
+    },
+    {
+     "type": "part",
+     "system": "suspension",
+     "brand": "",
+     "name": "Fork oil reduction",
+     "field": "",
+     "value": "Lowered the oil 20 cc",
+     "current": ""
+    }
+   ],
+   "app_actions": [],
+   "references": [
+    {
+     "title": "Factory Connection — Fork clamp and start-device attachment",
+     "url": "https://www.factoryconnection.com/Setup-gethelp",
+     "attribution": "Factory Connection",
+     "kind": "TESTER_OBSERVATION",
+     "limitations": [
+      "Use exact OEM clamp torque and component-maker ring instructions.",
+      "Inspect installation before compensating with damping changes."
+     ]
+    }
+   ]
+  },
+  "geared_weight_lb": 195
+ },
+ {
+  "id": "s2-014",
+  "ok": true,
+  "topic": "suspension",
+  "bike": {
+   "manufacturer": "Honda",
+   "model": "CRF450R",
+   "model_year": 2025,
+   "engine_hours": null,
+   "configuration": {}
+  },
+  "question": "The 2025 Honda crf450 has a hard, spiky feel in the chassis. ... I have been through extremes of adjustment out back (sag from 107-102, clickers from hard to soft etc) ... there almost has to be an uncontrolled wiggle in the frame or maybe the subframe?",
+  "message_sent": "The 2025 Honda crf450 has a hard, spiky feel in the chassis. ... I have been through extremes of adjustment out back (sag from 107-102, clickers from hard to soft etc) ... there almost has to be an uncontrolled wiggle in the frame or maybe the subframe?",
+  "rider_context": "Tried rear sag 102-107 mm and clickers from full hard to full soft; harshness felt even riding in the pits; compares to a 2022 KTM 450 SX-F (similar) and a 2025 Yamaha (none)",
+  "prompt_version": "mx-engineering-84",
+  "ms": 30300,
+  "response": {
+   "kind": "diagnosis",
+   "summary": "A hard, spiky chassis feel does not by itself point to uncontrolled frame flex. Since broad rear-setting changes haven’t cured it, check for mechanical play or binding before making more adjustments.",
+   "answer": "**I wouldn’t condemn the frame or subframe yet.** Sharp impact harshness and an actual chassis wiggle are different problems: looseness lets parts move, while binding or excessive damping transfers the hit straight into you.\n\nYou’ve already swept sag from **107–102 mm** and tried hard-to-soft rear clickers. That makes another blind rear adjustment a poor next move. A small number of owners report similar rear sharpness on the 2025, but that does not establish a frame defect.\n\n**Next: with the engine off and the bike securely supported, check for play and binding.** Have a helper move the rear wheel vertically and sideways while you watch the wheel bearings, swingarm pivot, linkage and shock mounts; then check the subframe for movement or cracks. Play suggests a loose mounting or worn bearing; sticky movement points toward friction rather than frame flex. Stop riding if anything is loose, cracked or knocking.\n\nFor the subframe mounting check, Honda specifies upper bolts **32 N·m (24 ft-lb)** and lower bolts **44 N·m (32 ft-lb)**. Don’t back chassis bolts below specification chasing compliance.\n\nI can guide the bearing checks: tap **Start a guided job**, then choose **Check the swingarm, linkage, steering and wheel bearings**; have a secure stand ready.\n\nAlso have Honda confirm whether the 2025–2026 handlebar-clamp recall remedy applies and has been completed.",
+   "setup_changes": [],
+   "observations": [
+    "Rider reports a hard, spiky chassis feel.",
+    "Sag adjustments from 107 to 102 mm and broad rear clicker changes have not cured the complaint.",
+    "No visible frame movement, crack or measured bearing play has been reported."
+   ],
+   "systems": [
+    "chassis",
+    "suspension",
+    "wheels"
+   ],
+   "hypotheses": [
+    {
+     "mechanism": "Loose mounting or worn bearing permits unintended movement.",
+     "explains": "A genuine wiggle, knocking or lateral movement under load.",
+     "confirm": "Locate relative movement at a mounting or bearing during an engine-off inspection.",
+     "reject": "No abnormal play is found throughout the inspected joints."
+    },
+    {
+     "mechanism": "Suspension or bearing friction transmits sharp impacts.",
+     "explains": "Spiky harshness that responds poorly to damping adjustments.",
+     "confirm": "Inspection finds sticky, notchy or restricted suspension movement.",
+     "reject": "Bearings and suspension move freely without binding."
+    },
+    {
+     "mechanism": "Impact transmission through suspension and chassis without structural looseness.",
+     "explains": "A sharp feel without measurable unwanted movement.",
+     "confirm": "Mechanical checks pass and the complaint correlates with sharp-edged impacts.",
+     "reject": "A loose, damaged or binding component is identified."
+    }
+   ],
+   "unknowns": [
+    "Whether the rider feels impact harshness or actual lateral movement.",
+    "Bearing, mounting and frame condition.",
+    "Installed suspension components, spring rates and service history."
+   ],
+   "next_step": {
+    "action": "Perform an engine-off chassis play and binding inspection with the bike securely supported.",
+    "purpose": "Separate structural or bearing movement from impact harshness before further tuning.",
+    "stop_conditions": [
+     "Unsafe support.",
+     "Loose mounting, abnormal bearing play or knocking.",
+     "Cracked frame, subframe or suspension component."
+    ]
+   },
+   "evidence_ids": [
+    "143b9ce2-6da4-59f5-a905-8659f6bbb9c2",
+    "42f07624-184d-5439-a067-9cbbe087bbaf"
+   ],
+   "specifications": [
+    {
+     "claim_id": "143b9ce2-6da4-59f5-a905-8659f6bbb9c2",
+     "value": "Rear frame lower bolt: 44 N·m. Use OEM installation procedure; torque alone is not a complete service instruction."
+    },
+    {
+     "claim_id": "42f07624-184d-5439-a067-9cbbe087bbaf",
+     "value": "Rear frame upper bolt: 32 N·m. Use OEM installation procedure; torque alone is not a complete service instruction."
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Broad rear adjustment sweep did not cure spiky feel",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Some owners report persistent rear sharpness",
+     "tier": "COMMUNITY",
+     "evidence_ids": [
+      "K-h45-083|Honda|CRF450R|2025"
+     ]
+    },
+    {
+     "claim": "Looseness and binding require checks before tuning",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Rear frame upper bolt torque",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "42f07624-184d-5439-a067-9cbbe087bbaf"
+     ]
+    },
+    {
+     "claim": "Rear frame lower bolt torque",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "143b9ce2-6da4-59f5-a905-8659f6bbb9c2"
+     ]
+    },
+    {
+     "claim": "Handlebar clamp recall warrants dealer remedy confirmation",
+     "tier": "COMMUNITY",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [],
+   "confidence": "LIMITED",
+   "garage_updates": [],
+   "app_actions": [],
+   "references": [
+    {
+     "title": "2025 Honda CRF450R: Pre-ride check",
+     "url": "",
+     "attribution": "Honda",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers tyres and wheels, oil, coolant, air filter, throttle, clutch, brakes, chain, fork air, suspension, key fasteners and a start-up check.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    },
+    {
+     "title": "2025 Honda CRF450R: After-wash check",
+     "url": "",
+     "attribution": "Honda",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers washing without forcing water past seals, drying and draining the airbox, the air filter, chain care, fork seal cleaning and air release, cable lubrication and a damage check.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    }
+   ]
+  },
+  "geared_weight_lb": null
+ },
+ {
+  "id": "s2-019",
+  "ok": true,
+  "topic": "suspension",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX250X",
+   "model_year": 2021,
+   "engine_hours": null,
+   "configuration": {
+    "geared_weight_lb": 205
+   }
+  },
+  "question": "just picked up my first ever KX and want to check/set sag. I'm 185lbs dry, slow vet, for mx only. The ring nuts aren't easily accessible especially with spanners. Anyone familiar with the KX rear shock provide some advice or tips in getting to and adjusting the rings?",
+  "message_sent": "just picked up my first ever KX and want to check/set sag. I'm 185lbs dry, slow vet, for mx only. The ring nuts aren't easily accessible especially with spanners. Anyone familiar with the KX rear shock provide some advice or tips in getting to and adjusting the rings?",
+  "rider_context": "185 lb without gear; slow vet; MX use only on a 2021 KX250XC/KX250X",
+  "prompt_version": "mx-engineering-84",
+  "ms": 26724,
+  "response": {
+   "kind": "answer",
+   "summary": "The KX250X preload rings are awkward to reach; unloading the spring helps, but proper hook-wrench access means removing the rear frame and airbox. Measure sag before dismantling anything.",
+   "answer": "On your **2021 KX250X, proper spanner access means removing the rear frame with the airbox**—there isn’t an easy external preload adjuster. Don’t chew up the rings trying to force a spanner into the gap.\n\n**Measure first:**\n1. Rear wheel off the ground: measure from the rear axle to a marked point directly above it.\n2. Bike on its wheels: settle the suspension and measure again without you aboard. The difference is static sag.\n3. Repeat with you in full gear, standing on the pegs, with a helper balancing the bike. The difference from fully extended is rider sag.\n\n**105 mm rider sag** is a tester-used starting point for this generation, not Kawasaki’s published target. As general guidance, look for roughly **30–40 mm static sag** afterward. Your 185 lb dry weight and saved 205 lb geared weight are consistent; check those measurements before replacing the standard **shock spring 54 N/mm**.\n\nFor access, Kawasaki’s procedure removes the seat, side covers, tank, muffler and battery, then disconnects the rear-frame wiring and intake duct before removing the rear frame/airbox. With the spring unloaded, loosen the locknut: turn the adjusting nut **down to add preload/reduce sag**, or **up to remove preload/increase sag**, then lock it firmly.\n\nKawasaki’s nut-position reference is **123.1 mm**, measured from the upper shock-pivot center; the permitted range is **120.6–132.6 mm**. That dimension isn’t spring length or sag.\n\nI can walk you through **Set the shock spring preload**—tap **Start a guided job** above the message box. Have a stand, hook wrenches, measuring tool and torque wrench ready.",
+   "setup_changes": [],
+   "observations": [
+    "Rider reports difficult access to the shock preload rings.",
+    "Rider weighs 185 lb without gear; saved geared weight is 205 lb.",
+    "Rider describes slow-vet pace and motocross-only use."
+   ],
+   "systems": [
+    "suspension"
+   ],
+   "hypotheses": [],
+   "unknowns": [
+    "Measured rider sag and static sag.",
+    "Currently fitted shock spring rate."
+   ],
+   "next_step": {
+    "action": "Measure and record rider sag and static sag before dismantling anything.",
+    "purpose": "Determine whether preload adjustment is needed and assess spring suitability.",
+    "stop_conditions": [
+     "Do not ride with the preload locknut loose.",
+     "Do not adjust beyond the permitted nut-position range."
+    ]
+   },
+   "evidence_ids": [
+    "027bc5ce-289a-5bfd-ad7b-63a1c058626e",
+    "5f2831e7-789f-5aa5-a74b-e8387b96b606",
+    "d960f4cb-0ae5-58f6-bbbb-7e5912b3cf66"
+   ],
+   "specifications": [
+    {
+     "claim_id": "027bc5ce-289a-5bfd-ad7b-63a1c058626e",
+     "value": "Rear shock / Spring rate (standard): K = 54 N/mm (K = 5.5 kgf/mm)."
+    },
+    {
+     "claim_id": "5f2831e7-789f-5aa5-a74b-e8387b96b606",
+     "value": "Rear shock / Spring preload adjusting nut adjustable range: 120.6 – 132.6 mm (4.748 – 5.220 in.). same range printed for K=52, K=54 and K=56 springs"
+    },
+    {
+     "claim_id": "d960f4cb-0ae5-58f6-bbbb-7e5912b3cf66",
+     "value": "Rear shock / Spring preload adjusting nut position (standard): 123.1 mm (4.846 in.). from the center of the upper rear shock absorber pivot point"
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Rear-frame removal provides preload-ring access",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "bak-kawasaki-shock-preload-v1-kx250x-2021-2024-kawasaki-kx250x-2021"
+     ]
+    },
+    {
+     "claim": "Unload spring before adjusting; lock rings afterward",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "bak-kawasaki-shock-preload-v1-kx250x-2021-2024-kawasaki-kx250x-2021"
+     ]
+    },
+    {
+     "claim": "Standard shock spring 54 N/mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "027bc5ce-289a-5bfd-ad7b-63a1c058626e"
+     ]
+    },
+    {
+     "claim": "Preload nut reference and permitted adjustment range",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "5f2831e7-789f-5aa5-a74b-e8387b96b606",
+      "d960f4cb-0ae5-58f6-bbbb-7e5912b3cf66"
+     ]
+    },
+    {
+     "claim": "Generation-specific tester starting point: 105 mm rider sag",
+     "tier": "COMMUNITY",
+     "evidence_ids": [
+      "K-p6h-091|Kawasaki|KX250X|2021"
+     ]
+    },
+    {
+     "claim": "Typical static sag screening range: 30–40 mm",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Sag measured relative to fully extended suspension",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Rider weight and motocross use",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [
+    "Kawasaki provides no numeric rider-sag or static-sag target here."
+   ],
+   "confidence": "SUPPORTED",
+   "garage_updates": [
+    {
+     "type": "setting",
+     "system": "",
+     "brand": "",
+     "name": "",
+     "field": "discipline",
+     "value": "mx only",
+     "current": ""
+    },
+    {
+     "type": "setting",
+     "system": "",
+     "brand": "",
+     "name": "",
+     "field": "skill_level",
+     "value": "slow vet",
+     "current": ""
+    }
+   ],
+   "app_actions": [],
+   "references": [
+    {
+     "title": "2021 Kawasaki KX250X: Set the shock spring preload",
+     "url": "",
+     "attribution": "Kawasaki",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers rear frame removal, measuring and setting the preload nut, locking it and refitting.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    },
+    {
+     "title": "2021 Kawasaki KX250X: Set the suspension back to the standard baseline",
+     "url": "",
+     "attribution": "Kawasaki",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers recording the old settings, setting fork and shock clickers to standard, checking springs, fork height and preload, tyre pressures and a sag reference.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    }
+   ]
+  },
+  "geared_weight_lb": 205
+ },
+ {
+  "id": "s2-022",
+  "ok": true,
+  "topic": "suspension",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ125",
+   "model_year": 2020,
+   "engine_hours": null,
+   "configuration": {}
+  },
+  "question": "I have an 06 yz125 that I'm trying to get tuned to my liking. What suspension settings are you using on your YZ125? Does anyone have a baseline setting that they use for the forks or shock?",
+  "message_sent": "I have an 06 yz125 that I'm trying to get tuned to my liking. What suspension settings are you using on your YZ125? Does anyone have a baseline setting that they use for the forks or shock?",
+  "rider_context": "Bike is a 2006 YZ125 (same 2005-2021 aluminum-frame generation; nearest in-range year used)",
+  "prompt_version": "mx-engineering-84",
+  "ms": 22331,
+  "response": {
+   "kind": "answer",
+   "summary": "For your 2006 YZ125, start with a general motocross baseline, then tune one adjuster at a time. Your Garage lists a 2020, so those factory settings should not be treated as your bike’s specifications.",
+   "answer": "For your **2006 YZ125**, I’d establish a neutral baseline before chasing clickers. Your Garage lists a 2020; the exact 2006 factory settings aren’t confirmed here, so these are **general motocross starting ranges**, not Yamaha’s published settings:\n\n| Setting | General starting point |\n|---|---|\n| Rider sag, wearing riding gear | 100–105 mm |\n| Fork compression, both legs | 10–14 clicks out |\n| Fork rebound, both legs | 10–14 clicks out |\n| Shock low-speed compression | 10–14 clicks out |\n| Shock rebound | 10–14 clicks out |\n\nRecord your existing settings first. Count outward from gently seated—never force an adjuster—and leave shock high-speed compression where it is until its correct baseline is established. If the suspension is revalved, use that tuner’s baseline instead.\n\nCheck free sag after setting rider sag: very little free sag suggests the shock spring is too soft. Springs come before damping adjustments.\n\nWhat’s your weight in riding gear, riding level, and usual terrain? Meanwhile, test the baseline on the same short loop, changing only one adjuster by 1–2 clicks at a time.",
+   "setup_changes": [],
+   "observations": [
+    "Rider identifies the bike as a 2006 YZ125; Garage identifies a 2020.",
+    "No current suspension settings, rider weight, or suspension modifications were stated."
+   ],
+   "systems": [
+    "suspension"
+   ],
+   "hypotheses": [],
+   "unknowns": [
+    "Actual installed fork, shock, springs, and valving",
+    "Rider weight, level, and terrain"
+   ],
+   "next_step": {
+    "action": "Record current damping positions and measure rider sag and free sag before testing adjustments.",
+    "purpose": "Establish a repeatable baseline and check shock spring suitability.",
+    "stop_conditions": [
+     "Suspension leakage, binding, or damaged adjusters"
+    ]
+   },
+   "evidence_ids": [],
+   "specifications": [],
+   "claims": [
+    {
+     "claim": "General motocross baseline ranges, not 2006 Yamaha specifications",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Very little free sag suggests an undersprung rear",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Revalved suspension should start from its tuner's baseline",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Rider states 2006; saved bike lists 2020",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [
+    "2006 YZ125 factory damping settings and sag targets",
+    "2006 YZ125 shock high-speed compression baseline"
+   ],
+   "confidence": "LIMITED",
+   "garage_updates": [],
+   "app_actions": [],
+   "references": [
+    {
+     "title": "2020 Yamaha YZ125: Restore the stock fork and shock damping baseline",
+     "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B0V-28199-11_02.pdf",
+     "attribution": "Yamaha",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "External stock fork and shock damping restoration with recorded original/final settings; no spring, internal service or full-bike rebuild coverage.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    },
+    {
+     "title": "2020 Yamaha YZ125: Set the suspension back to the standard baseline",
+     "url": "",
+     "attribution": "Yamaha",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers recording the old settings, fork and shock clickers to standard, preload, rider sag and tyre pressures.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    },
+    {
+     "title": "Factory Connection — Fork clamp and start-device attachment",
+     "url": "https://www.factoryconnection.com/Setup-gethelp",
+     "attribution": "Factory Connection",
+     "kind": "TESTER_OBSERVATION",
+     "limitations": [
+      "Use exact OEM clamp torque and component-maker ring instructions.",
+      "Inspect installation before compensating with damping changes."
+     ]
+    }
+   ]
+  },
+  "geared_weight_lb": null
+ },
+ {
+  "id": "s2-023",
+  "ok": true,
+  "topic": "suspension",
+  "bike": {
+   "manufacturer": "Husqvarna",
+   "model": "FC 350",
+   "model_year": 2025,
+   "engine_hours": null,
+   "configuration": {}
+  },
+  "question": "I can't for the life of me get this bar swapping sensation to go away when I'm on a rough track at high speeds. ... 17 fc350 kyb a kit front forks, bladder conversion on the rear with pro circuit linkage. ... What do you guys suggest?",
+  "message_sent": "I can't for the life of me get this bar swapping sensation to go away when I'm on a rough track at high speeds. ... 17 fc350 kyb a kit front forks, bladder conversion on the rear with pro circuit linkage. ... What do you guys suggest?",
+  "rider_context": "2017 FC 350 (previous generation, year left null); KYB A-kit forks, rear shock bladder conversion, Pro Circuit linkage; sprung and valved for his weight; fine at Englishtown, worse on harder-base track; short stature; had same issue on a 2015 YZ250F and 2014 CRF250R",
+  "prompt_version": "mx-engineering-84",
+  "ms": 23446,
+  "response": {
+   "kind": "diagnosis",
+   "summary": "High-speed bar swapping needs a chassis check before more suspension tuning. Work from your modified suspension’s tuner baseline, not stock FC 350 settings.",
+   "answer": "**Don’t keep testing it at full speed—bar swapping can turn into a tank-slapper.** First rule out looseness or binding before chasing clickers.\n\nYour Garage lists a 2025 FC 350; you described a **2017 FC 350 with KYB A-kit forks, a rear bladder conversion and Pro Circuit linkage**. I’m answering for that 2017 setup.\n\n1. With the engine off and bike securely supported, check steering-head play and notchiness, wheel-bearing play, loose spokes, tire damage and fork alignment. Don’t tighten the steering bearings to hide the shake.\n2. Verify the Pro Circuit linkage matches the bike and shock, and check its bearings move freely. That linkage changes rear ride height and leverage, so stock sag and shock settings aren’t automatically the right baseline.\n3. Get the suspension tuner’s baseline for those forks and converted shock, including your weight, spring rates and sag. Start there, one change at a time.\n\n**Does it start under acceleration, or when you roll off/brake?** Once mechanical checks pass: a high, deflecting front under power commonly wants slightly softer fork compression; a diving front under braking commonly wants firmer compression—the opposite fix.\n\nYou can save the fitted suspension parts with the button below.",
+   "setup_changes": [],
+   "observations": [
+    "Rider reports persistent bar swapping on rough tracks at high speed.",
+    "Rider describes a 2017 FC 350; selected Garage bike is a 2025.",
+    "Rider reports KYB A-kit forks, rear bladder conversion and Pro Circuit linkage."
+   ],
+   "systems": [
+    "chassis",
+    "suspension",
+    "wheels"
+   ],
+   "hypotheses": [
+    {
+     "mechanism": "Steering or wheel looseness, or fork binding",
+     "explains": "Uncontrolled steering movement or deflection across rough ground.",
+     "confirm": "Find bearing play, notchiness, loose spokes or restricted fork movement.",
+     "reject": "Verify steering, wheels and fork alignment are mechanically sound."
+    },
+    {
+     "mechanism": "Modified suspension balance or damping mismatch",
+     "explains": "Incorrect front loading or poor wheel recovery can initiate steering oscillation.",
+     "confirm": "Compare measured sag and settings with the tuner's baseline and identify acceleration versus braking onset.",
+     "reject": "Correct balance and damping do not change the symptom; investigate remaining chassis and tire causes."
+    }
+   ],
+   "unknowns": [
+    "Whether instability begins under acceleration or braking.",
+    "Mechanical condition, current sag, spring rates and tuner baseline.",
+    "Exact linkage and shock compatibility on the described 2017 bike."
+   ],
+   "next_step": {
+    "action": "Securely support the bike with the engine off and inspect steering, wheels and fork movement.",
+    "purpose": "Exclude mechanical causes before changing suspension settings.",
+    "stop_conditions": [
+     "Do not ride with loose, damaged, binding or notchy components.",
+     "Do not repeat high-speed runs to reproduce bar swapping."
+    ]
+   },
+   "evidence_ids": [],
+   "specifications": [],
+   "claims": [
+    {
+     "claim": "Rider describes 2017 bike with modified front and rear suspension",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Looseness and binding can mimic suspension instability",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Aftermarket linkage changes rear leverage and ride height",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Modified suspension requires the tuner's applicable baseline",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Acceleration and braking instability can require opposite damping changes",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [
+    "Applicable 2017 modified-suspension baseline and linkage setup instructions."
+   ],
+   "confidence": "LIMITED",
+   "garage_updates": [
+    {
+     "type": "part",
+     "system": "suspension",
+     "brand": "KYB",
+     "name": "A-kit front forks",
+     "field": "",
+     "value": "",
+     "current": ""
+    },
+    {
+     "type": "part",
+     "system": "suspension",
+     "brand": "",
+     "name": "Rear shock bladder conversion",
+     "field": "",
+     "value": "",
+     "current": ""
+    },
+    {
+     "type": "part",
+     "system": "suspension",
+     "brand": "Pro Circuit",
+     "name": "Linkage",
+     "field": "",
+     "value": "",
+     "current": ""
+    }
+   ],
+   "app_actions": [],
+   "references": []
+  },
+  "geared_weight_lb": null
+ },
+ {
+  "id": "s2-024",
+  "ok": true,
+  "topic": "suspension",
+  "bike": {
+   "manufacturer": "Husqvarna",
+   "model": "FC 250",
+   "model_year": 2020,
+   "engine_hours": null,
+   "configuration": {
+    "geared_weight_lb": 185
+   }
+  },
+  "question": "I just picked up a 2020 fc250 ... I am 185 pounds ... as i have been getting faster my suspension has just gotten worse ... i also dont know how to set sag on my own. What would you guys recommend",
+  "message_sent": "I just picked up a 2020 fc250 ... I am 185 pounds ... as i have been getting faster my suspension has just gotten worse ... i also dont know how to set sag on my own. What would you guys recommend",
+  "rider_context": "185 lb (180-190); fast beginner, ~2 years riding MX tracks in Texas; stock air fork; adjusts clickers and air pressure without a method; cannot set sag; quoted $1,500 for revalve + spring conversion",
+  "prompt_version": "mx-engineering-84",
+  "ms": 31973,
+  "response": {
+   "kind": "setup",
+   "summary": "Start by measuring sag and establishing a known baseline—not buying a revalve. At 185 lb geared, you’re near the top of Husqvarna’s stock shock-spring weight band.",
+   "answer": "Get the sag and fork air right before chasing clickers. Getting faster loads the suspension harder, so a setup that felt comfortable initially can start diving, riding low or bottoming.\n\nAt your saved **185 lb geared**, Husqvarna’s chart calls for a **shock spring 42 N/mm** for 165–187 lb. Don’t automatically replace it: sag will tell us whether it supports you. The stock fork uses air, not a main coil spring.\n\n### Measure sag\nYou need a stand, tape measure and a helper—a normal tape measure isn’t practical solo.\n1. Rear wheel hanging free: measure rear axle to the fender’s SAG mark. Record **A**.\n2. Bike upright on its wheels, nobody aboard: measure again, **B**. **A − B = static sag; target 35 mm (1.38 in).**\n3. Wearing your gear, sit normally with feet on the pegs, bounce and settle. Have your helper measure **C**. **A − C = rider sag; target 105 mm (4.13 in).**\n\nMore shock-spring preload reduces rider sag; less preload increases it. Preload adjustment requires a separate shock-removal job. With rider sag correct, substantially less than 35 mm static sag points toward a spring that’s too soft; the next chart rate is **shock spring 45 N/mm**, listed for 187–209 lb.\n\n### Establish the baseline\nRecord what’s there first; these are stock-component settings, not a revalve baseline.\n- **Sag:** bring rider sag to 105 mm, then check static sag against 35 mm to confirm the spring.\n- **Fork air:** establish **10.4 bar (151 psi)** cold, fork fully extended, after bleeding the outer chambers.\n- **Clickers:** fork compression/rebound **12/12 clicks out**; shock low-speed compression/rebound **15/15 clicks out**, high-speed compression **1.5 turns out**. Count from lightly seated—never force them.\n\nWhat does “worse” feel like: diving/bottoming, sharp hits through the bars, or the rear kicking? Until that’s clear, establish this baseline rather than guessing a damping direction. Retest one change at a time over the same section.\n\nFor a walkthrough, tap **Start a guided job** above the message box: “Set the suspension back to the standard baseline and check the sag.” Have a fork pump and screwdriver ready too; no parts are needed.\n\n**Changes to try, one at a time:**\n- **Rear sag:** Measure first; establish 105 mm rider sag, then check for 35 mm static sag.\n- **Fork air pressure:** Record current pressure, then establish the stock baseline of 10.4 bar (151 psi), cold with the fork fully extended.\n- **Stock suspension clicker baseline:** After recording current settings, establish fork compression/rebound 12/12 clicks out; shock low-speed compression/rebound 15/15 clicks out and high-speed…",
+   "setup_changes": [
+    {
+     "setting": "Rear sag",
+     "change": "Measure first; establish 105 mm rider sag, then check for 35 mm static sag.",
+     "expect": "A known rear ride height and a meaningful check of shock spring suitability.",
+     "go_back_if": "Correct rider sag leaves substantially incorrect static sag; address spring suitability rather than adding more preload."
+    },
+    {
+     "setting": "Fork air pressure",
+     "change": "Record current pressure, then establish the stock baseline of 10.4 bar (151 psi), cold with the fork fully extended.",
+     "expect": "A known fork spring baseline before judging damping.",
+     "go_back_if": "The fork still dives or deflects; identify which behavior occurs before changing pressure further."
+    },
+    {
+     "setting": "Stock suspension clicker baseline",
+     "change": "After recording current settings, establish fork compression/rebound 12/12 clicks out; shock low-speed compression/rebound 15/15 clicks out and high-speed compression 1.5 turns out.",
+     "expect": "A repeatable starting point for small, symptom-led changes.",
+     "go_back_if": "Suspension is revalved or converted; use that tuner's baseline instead."
+    }
+   ],
+   "observations": [
+    "Rider reports suspension feels worse as riding speed increases.",
+    "Saved geared rider weight is 185 lb.",
+    "Current sag, fork pressure, clickers and suspension modification status are unknown."
+   ],
+   "systems": [
+    "suspension"
+   ],
+   "hypotheses": [],
+   "unknowns": [
+    "Whether the complaint is diving, bottoming, harshness or kicking.",
+    "Actual rider and static sag.",
+    "Current settings and suspension tune identity."
+   ],
+   "next_step": {
+    "action": "Record current settings and measure rear rider and static sag with a helper.",
+    "purpose": "Establish spring suitability and chassis balance before damping changes.",
+    "stop_conditions": [
+     "Visible suspension leakage, binding or loose components: resolve before testing.",
+     "Never force adjusters against their stops."
+    ]
+   },
+   "evidence_ids": [
+    "00983053-16ca-2397-9457-4cf8ad72db43",
+    "115d7266-9523-8873-ac2b-f2a7f4992635",
+    "93b124e3-3e7c-21ba-fe45-2e2583cb4e41",
+    "ebdb411b-3d97-d4b5-b825-1099c271a4bb",
+    "ab273bc1-0735-13af-652f-05bd6e3abd0f",
+    "1c47d8fe-c8da-1bee-38d1-a6086b7c14d8",
+    "9c73d28d-4462-1ebc-579d-83f9d86ef73e",
+    "3a484941-dfb7-000c-5f9d-8c236dba9b16",
+    "d3f02e64-f0b9-8bc3-0627-5940e5d0a28d"
+   ],
+   "specifications": [
+    {
+     "claim_id": "00983053-16ca-2397-9457-4cf8ad72db43",
+     "value": "Shock absorber / Spring rate / Weight of rider: 75 … 85 kg (165 … 187 lb.): 42 N/mm (240 lb/in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+    },
+    {
+     "claim_id": "115d7266-9523-8873-ac2b-f2a7f4992635",
+     "value": "Fork / Compression damping / Standard: 12 clicks. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Counted counterclockwise (softer) from the adjuster turned clockwise to its stop or last click, as the adjustment section of the same manual describes."
+    },
+    {
+     "claim_id": "93b124e3-3e7c-21ba-fe45-2e2583cb4e41",
+     "value": "Shock absorber / Rebound damping / Standard: 15 clicks. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Counted counterclockwise (softer) from the adjuster turned clockwise to its stop or last click, as the adjustment section of the same manual describes."
+    },
+    {
+     "claim_id": "ebdb411b-3d97-d4b5-b825-1099c271a4bb",
+     "value": "Shock absorber / Riding sag: 105 mm (4.13 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual."
+    },
+    {
+     "claim_id": "ab273bc1-0735-13af-652f-05bd6e3abd0f",
+     "value": "Shock absorber / Static sag: 35 mm (1.38 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual."
+    },
+    {
+     "claim_id": "1c47d8fe-c8da-1bee-38d1-a6086b7c14d8",
+     "value": "Shock absorber / Spring rate / Weight of rider: 85 … 95 kg (187 … 209 lb.): 45 N/mm (257 lb/in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+    },
+    {
+     "claim_id": "9c73d28d-4462-1ebc-579d-83f9d86ef73e",
+     "value": "Fork / Rebound damping / Standard: 12 clicks. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Counted counterclockwise (softer) from the adjuster turned clockwise to its stop or last click, as the adjustment section of the same manual describes."
+    },
+    {
+     "claim_id": "3a484941-dfb7-000c-5f9d-8c236dba9b16",
+     "value": "Shock absorber / Lowspeed compression damping / Standard: 15 clicks. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Counted counterclockwise (softer) from the adjuster turned clockwise to its stop or last click, as the adjustment section of the same manual describes."
+    },
+    {
+     "claim_id": "d3f02e64-f0b9-8bc3-0627-5940e5d0a28d",
+     "value": "Shock absorber / Highspeed compression damping / Standard: 1.5 turns. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Counted counterclockwise (softer) from the adjuster turned clockwise to its stop or last click, as the adjustment section of the same manual describes."
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Saved geared rider weight is 185 lb",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Shock spring chart specifies 42 N/mm for 165–187 lb",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "00983053-16ca-2397-9457-4cf8ad72db43"
+     ]
+    },
+    {
+     "claim": "Next shock spring band specifies 45 N/mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "1c47d8fe-c8da-1bee-38d1-a6086b7c14d8"
+     ]
+    },
+    {
+     "claim": "Rider sag target 105 mm; static sag target 35 mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "ebdb411b-3d97-d4b5-b825-1099c271a4bb",
+      "ab273bc1-0735-13af-652f-05bd6e3abd0f"
+     ]
+    },
+    {
+     "claim": "Stock fork and shock damping baseline",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "115d7266-9523-8873-ac2b-f2a7f4992635",
+      "93b124e3-3e7c-21ba-fe45-2e2583cb4e41",
+      "9c73d28d-4462-1ebc-579d-83f9d86ef73e",
+      "3a484941-dfb7-000c-5f9d-8c236dba9b16",
+      "d3f02e64-f0b9-8bc3-0627-5940e5d0a28d"
+     ]
+    },
+    {
+     "claim": "Fork air baseline and sag measurement procedure",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "bak-ktmg4t-suspension-baseline-v1-mc250f-2023-mc350f-2023-fc250-2020-fc350-2020-husqvarna-fc-250-2020"
+     ]
+    },
+    {
+     "claim": "Low static sag at correct rider sag suggests soft spring",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Increasing pace increases suspension support demands",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [],
+   "confidence": "SUPPORTED",
+   "garage_updates": [],
+   "app_actions": [],
+   "references": [
+    {
+     "title": "2020 Husqvarna FC 250: Set the suspension back to the standard baseline and check the sag",
+     "url": "",
+     "attribution": "Husqvarna",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers setting the shock compression and rebound clickers to standard, measuring static and rider sag, setting the fork air pressure, and setting the fork clickers to standard.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    }
+   ]
+  },
+  "geared_weight_lb": 185
+ },
+ {
+  "id": "s2-038",
+  "ok": true,
+  "topic": "engine",
+  "bike": {
+   "manufacturer": "Honda",
+   "model": "CRF250R",
+   "model_year": 2025,
+   "engine_hours": null,
+   "configuration": {}
+  },
+  "question": "on my new 2025 CRF250 ... I have experienced a loss in power and a popping sound when I have blipped the throttle off of a lip. ... if I turn the bike off and try to ride again, the problem seems to go away.",
+  "message_sent": "on my new 2025 CRF250 ... I have experienced a loss in power and a popping sound when I have blipped the throttle off of a lip. ... if I turn the bike off and try to ride again, the problem seems to go away.",
+  "rider_context": "New bike; happens late in practice days; after it happens, revving gives pops and bogs; checked spark plug and put dielectric grease on connections",
+  "prompt_version": "mx-engineering-84",
+  "ms": 25800,
+  "response": {
+   "kind": "diagnosis",
+   "summary": "HSTC torque control could explain a brief cut when the rear wheel unloads off a lip, but power loss that persists until restarting needs fault diagnosis.",
+   "answer": "The first thing I’d separate is **traction-control intervention from an actual misfire**. Your 2025 CRF250R’s HSTC watches how quickly engine rpm rises and cuts torque through ignition and fueling. Blipping the throttle as the rear wheel unloads could trigger it, producing a brief stumble or popping sound.\n\nHowever, HSTC keeps its selected setting after restarting—switching the bike off doesn’t simply turn it off. If the bike stays down on power after landing, don’t dismiss that as normal traction control; an intermittent ignition, fueling or electrical fault becomes more likely.\n\n**First check:** stationary and safely off the track, note the HSTC selection and any PGM-FI warning indication before switching off. Photograph or video any flashes; don’t reproduce the problem over a jump. Persistent cutting or a warning indication on a new bike warrants a Honda dealer fault-code check before further riding.\n\nDoes the power return immediately after the lip, or stay reduced on flat ground until you restart? That distinction decides the next test.\n\nAlso have Honda check whether the handlebar-clamp recall applies to your VIN and whether the repair is complete; affected, unrepaired bikes should not be ridden.",
+   "setup_changes": [],
+   "observations": [
+    "Rider reports a new 2025 CRF250R.",
+    "Power loss and popping occur when blipping the throttle off a lip.",
+    "Rider reports the problem seems to disappear after switching off and riding again."
+   ],
+   "systems": [
+    "Traction control",
+    "Fuel injection",
+    "Ignition",
+    "Electrical"
+   ],
+   "hypotheses": [
+    {
+     "mechanism": "HSTC responds to rapid engine-rpm rise as the rear wheel unloads.",
+     "explains": "Brief torque reduction and altered combustion sound at the lip.",
+     "confirm": "Intervention coincides with unloading and power returns immediately once drive stabilizes.",
+     "reject": "Reduced power persists on flat ground until restarting."
+    },
+    {
+     "mechanism": "Intermittent ignition, fueling or electrical malfunction disrupts combustion.",
+     "explains": "Popping with sustained power loss that appears to clear after restarting.",
+     "confirm": "Warning indication or diagnostic testing identifies a fault during the complaint.",
+     "reject": "Behavior is conclusively isolated to normal HSTC intervention."
+    }
+   ],
+   "unknowns": [
+    "Whether power loss is momentary or persists after landing.",
+    "Current HSTC selection.",
+    "PGM-FI warning indication during the complaint."
+   ],
+   "next_step": {
+    "action": "Safely stop and record HSTC selection and any PGM-FI warning before switching off.",
+    "purpose": "Separate a brief control intervention from a persistent engine fault.",
+    "stop_conditions": [
+     "Do not reproduce the fault over jumps.",
+     "Stop riding if cutting persists, a warning appears with the complaint, or abnormal mechanical noise develops."
+    ]
+   },
+   "evidence_ids": [],
+   "specifications": [],
+   "claims": [
+    {
+     "claim": "HSTC controls torque using engine-rpm rise, ignition and injection",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "K-h25-059|Honda|CRF250R|2025"
+     ]
+    },
+    {
+     "claim": "HSTC selection persists after restarting",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "K-h25-059|Honda|CRF250R|2025"
+     ]
+    },
+    {
+     "claim": "Rear-wheel unloading may trigger HSTC intervention",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Persistent power loss requires separating fueling and ignition faults",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Lip-related popping and power loss seem cleared by restart",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Handlebar-clamp recall reported for 2025–2026 models",
+     "tier": "COMMUNITY",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [
+    "Exact US PGM-FI fault-code retrieval and interpretation procedure.",
+    "Official handlebar-clamp recall applicability and remedy status for this VIN."
+   ],
+   "confidence": "SUPPORTED",
+   "garage_updates": [],
+   "app_actions": [],
+   "references": [
+    {
+     "title": "2025 Honda CRF250R: Pre-ride check",
+     "url": "",
+     "attribution": "Honda",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers tyres and wheels, oil, coolant, air filter, throttle, clutch, brakes, chain, fork air, suspension, key fasteners and a start-up check.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    },
+    {
+     "title": "2025 Honda CRF250R: Check and adjust the clutch, inspect the clutch pack",
+     "url": "",
+     "attribution": "Honda",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers lever free play with both adjusters, the test ride, and opening the clutch to measure discs, plates and springs and rebuild the pack with the spring bolt torque. Does not cover clutch basket or hub work.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    }
+   ]
+  },
+  "geared_weight_lb": null
+ },
+ {
+  "id": "s2-052",
+  "ok": true,
+  "topic": "maintenance",
+  "bike": {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2020,
+   "engine_hours": null,
+   "configuration": {}
+  },
+  "question": "I picked up a 19 rmz250 for cheap ... 34 hours ... Exhaust: .006 L & R. Intake: .002ish L & R. Leak down test: 80% lost. sand sitting top of piston. ... What do the experts of Vital think? Full top end job?",
+  "message_sent": "I picked up a 19 rmz250 for cheap ... 34 hours ... Exhaust: .006 L & R. Intake: .002ish L & R. Leak down test: 80% lost. sand sitting top of piston. ... What do the experts of Vital think? Full top end job?",
+  "rider_context": "Bought cheap with 34 hours; previous owner rode mud and sand; dirty airbox, unoiled air filter; valve clearances exhaust .006 in, intake ~.002 in; 80% leak-down; cylinder plating looks worn, crank solid. Bike is a 2019 RM-Z250 (same 2019+ generation; nearest in-range year used)",
+  "prompt_version": "mx-engineering-84",
+  "ms": 27632,
+  "response": {
+   "kind": "diagnosis",
+   "summary": "Plan on a head-off inspection and likely top-end rebuild—not just a piston swap. Reported 80% leakage plus sand inside the cylinder warrants keeping the engine stopped.",
+   "answer": "**Yes—budget for a full top-end inspection, including the head, not just a piston and rings.** At a reported 34 hours, sand ingestion matters more than the hour count.\n\n- Your exhaust readings, **.006 in each = 0.152 mm**, and intakes, **about .002 in each = 0.051 mm**, put the intakes suspiciously tight. The exact 2019 clearance specifications aren't confirmed here; both tight intakes can indicate valves wearing into their seats, not simply a need for reshimming.\n- **80% leak-down loss is severe if the test was valid.** Incorrect compression-TDC positioning or decompressor interference can distort it. Air at the intake points toward intake valves; exhaust toward exhaust valves; crankcase toward rings/cylinder.\n- Sand on the piston suggests intake contamination, although debris introduced during disassembly is another possibility. Inspect the filter seal, cage, boot and clean side of the intake before cleaning away the clues.\n\n**Don't start or crank it with loose sand inside.** Have the head, valves/seats, piston, rings and cylinder inspected and measured; inspect the oil/filter for contamination before deciding whether the bottom end also needs opening. Don't order a piston-only kit yet.\n\nYour Garage lists a 2020; you described a 2019—use the confirmed year when ordering parts and checking limits.",
+   "setup_changes": [],
+   "observations": [
+    "Rider describes a purchased 2019 RM-Z250 with 34 hours.",
+    "Both exhaust clearances reported as .006 inch.",
+    "Both intake clearances reported as approximately .002 inch.",
+    "Leak-down test reportedly showed 80% loss.",
+    "Sand reportedly present on top of the piston.",
+    "Selected Garage bike is a 2020 RM-Z250."
+   ],
+   "systems": [
+    "engine",
+    "intake",
+    "lubrication"
+   ],
+   "hypotheses": [
+    {
+     "mechanism": "Ingested sand abrasively wears rings, cylinder and valve sealing surfaces.",
+     "explains": "Sand inside the cylinder and potentially severe sealing loss.",
+     "confirm": "Contamination downstream of the filter, scored cylinder or piston, and measured sealing-component wear.",
+     "reject": "Sand was introduced only during disassembly and inspected sealing components remain within applicable limits."
+    },
+    {
+     "mechanism": "Valve recession reduces clearance and can prevent complete valve seating.",
+     "explains": "Both small intake clearance readings and possible leakage through the intake.",
+     "confirm": "Clearances below the exact year's specification and inspection showing valve or seat wear.",
+     "reject": "Correct clearances and sound valve sealing with leakage isolated elsewhere."
+    },
+    {
+     "mechanism": "Incorrect test positioning or decompressor interference exaggerates measured leakage.",
+     "explains": "The reported 80% loss may not accurately isolate worn components.",
+     "confirm": "Review of the test identifies an open valve or incorrect compression-TDC positioning.",
+     "reject": "Correctly performed testing still demonstrates severe leakage."
+    }
+   ],
+   "unknowns": [
+    "Whether sand entered during operation or disassembly.",
+    "Leak-down test positioning, decompressor state and leakage location.",
+    "Confirmed model year and exact-year inspection limits."
+   ],
+   "next_step": {
+    "action": "With the engine off and cool, inspect and document the filter sealing surfaces and clean-side intake for sand before cleaning or further teardown.",
+    "purpose": "Identify the contamination path while preserving clues and avoiding further abrasive damage.",
+    "stop_conditions": [
+     "Do not start or crank the engine with loose sand inside.",
+     "Prevent loose intake debris from falling into the engine."
+    ]
+   },
+   "evidence_ids": [],
+   "specifications": [],
+   "claims": [
+    {
+     "claim": "Reported sand, valve clearances, leakage and 34 hours",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Selected year differs from rider-described year",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Inch conversions use 25.4 millimeters per inch",
+     "tier": "ENGINEERING",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Valid 80% leakage indicates severe cylinder sealing loss",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Sand ingestion can damage valves, rings and cylinder",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Valve recession can reduce intake clearances",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Test positioning and decompression can affect leakage interpretation",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [
+    "2019 RM-Z250 valve-clearance specifications.",
+    "2019 leak-down procedure and acceptance criteria.",
+    "2019 valve, piston, ring and cylinder inspection limits."
+   ],
+   "confidence": "LIMITED",
+   "garage_updates": [],
+   "app_actions": [],
+   "references": []
+  },
+  "geared_weight_lb": null
+ },
+ {
+  "id": "s2-056",
+  "ok": true,
+  "topic": "parts",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX450",
+   "model_year": 2023,
+   "engine_hours": null,
+   "configuration": {
+    "geared_weight_lb": 200
+   }
+  },
+  "question": "I just picked up a 2023 and I'm just under 200 lbs, Vet B rider. ... I tried using the Racetech spring calculator but it's telling me to go softer on the forks ... What springs are you guys using that are near my size?",
+  "message_sent": "I just picked up a 2023 and I'm just under 200 lbs, Vet B rider. ... I tried using the Racetech spring calculator but it's telling me to go softer on the forks ... What springs are you guys using that are near my size?",
+  "rider_context": "Just under 200 lb, Vet B; stock suspension; Race Tech calculator suggested softer fork springs, which he doubts",
+  "prompt_version": "mx-engineering-84",
+  "ms": 24596,
+  "response": {
+   "kind": "answer",
+   "summary": "For a roughly 200 lb Vet B rider, fork springs of 5.1 N/mm are a sensible common starting point—not softer than stock. Check rear sag before buying a shock spring.",
+   "answer": "For your size and Vet B pace, I’d start with **fork springs 5.1 N/mm**, not softer. That’s a commonly tested outdoor-MX choice for this generation; Kawasaki’s stock fork springs are **5.0 N/mm**.\n\nTesters consistently find this fork short on braking support. Several favor stiffer springs, while others keep stock springs and revalve—so the calculator’s softer recommendation isn’t automatically wrong, but it wouldn’t be my first move for you.\n\n- **Fork:** 5.1 N/mm for support without giving away much comfort. Kawasaki’s optional **fork springs 5.2 N/mm** are the firmer choice for harder charging, repeated bottoming or bigger landings.\n- **Shock:** start by checking the stock **shock spring 54 N/mm**. Use **105 mm rider sag** as a commonly tested starting point, not a Kawasaki-published sag target. Around **30–40 mm free sag** is general tuning guidance; substantially less with rider sag correct points toward needing the next stiffer shock spring.\n\nWhat rider sag and free sag do you measure? Free sag is with you off and the bike on its wheels. Get those before ordering the rear spring, then confirm balance and bottoming on a familiar section.",
+   "setup_changes": [],
+   "observations": [
+    "Rider reports just under 200 lb and Vet B pace.",
+    "Saved geared rider weight is 200 lb.",
+    "Rider reports the Race Tech calculator recommends softer fork springs."
+   ],
+   "systems": [
+    "suspension"
+   ],
+   "hypotheses": [],
+   "unknowns": [
+    "Currently fitted spring rates",
+    "Rider sag and free sag",
+    "Existing suspension modifications"
+   ],
+   "next_step": {
+    "action": "Measure rider sag in full gear and free sag with the rider off.",
+    "purpose": "Determine whether the current shock spring needs to be stiffer before ordering.",
+    "stop_conditions": []
+   },
+   "evidence_ids": [
+    "d9303e34-80da-58be-ae91-89313c9ce60f",
+    "a499515b-2203-54ab-ab93-ccd7ad2a48be",
+    "dbaa9158-1155-5318-8a87-cdddff2e3e00"
+   ],
+   "specifications": [
+    {
+     "claim_id": "d9303e34-80da-58be-ae91-89313c9ce60f",
+     "value": "Front fork / Spring rate (standard): 5.0 N/mm (0.51 kgf/mm)."
+    },
+    {
+     "claim_id": "a499515b-2203-54ab-ab93-ccd7ad2a48be",
+     "value": "Front fork / Optional spring, hard: 5.2 N/mm (K = 0.53 kgf/mm)."
+    },
+    {
+     "claim_id": "dbaa9158-1155-5318-8a87-cdddff2e3e00",
+     "value": "Rear shock / Spring rate (standard): K = 54 N/mm (K = 5.5 kgf/mm)."
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Stock fork springs 5.0 N/mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "d9303e34-80da-58be-ae91-89313c9ce60f"
+     ]
+    },
+    {
+     "claim": "Optional harder fork springs 5.2 N/mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "a499515b-2203-54ab-ab93-ccd7ad2a48be"
+     ]
+    },
+    {
+     "claim": "Stock shock spring 54 N/mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "dbaa9158-1155-5318-8a87-cdddff2e3e00"
+     ]
+    },
+    {
+     "claim": "Tested fork spring starting point 5.1 N/mm",
+     "tier": "COMMUNITY",
+     "evidence_ids": [
+      "K-jp5-042|Kawasaki|KX450|2023",
+      "K-kx-114|Kawasaki|KX450|2023"
+     ]
+    },
+    {
+     "claim": "Common tested rider sag 105 mm",
+     "tier": "COMMUNITY",
+     "evidence_ids": [
+      "K-jp5-042|Kawasaki|KX450|2023",
+      "K-kx-114|Kawasaki|KX450|2023"
+     ]
+    },
+    {
+     "claim": "Some owners favor revalving with stock fork springs",
+     "tier": "COMMUNITY",
+     "evidence_ids": [
+      "K-jg8-054|Kawasaki|KX450|2023"
+     ]
+    },
+    {
+     "claim": "General free sag check approximately 30–40 mm",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Insufficient free sag suggests too-soft shock spring",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Rider near 200 lb, Vet B pace",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [
+    "Kawasaki provides no numerical rider-weight spring chart or sag targets here."
+   ],
+   "confidence": "LIMITED",
+   "garage_updates": [
+    {
+     "type": "setting",
+     "system": "",
+     "brand": "",
+     "name": "",
+     "field": "race_class",
+     "value": "Vet B",
+     "current": ""
+    }
+   ],
+   "app_actions": [],
+   "references": [
+    {
+     "title": "2023 Kawasaki KX450: Set the suspension back to the standard baseline",
+     "url": "",
+     "attribution": "Kawasaki",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers recording the old settings, setting fork and shock clickers to standard, checking springs, fork height and preload, tyre pressures and a sag reference.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    }
+   ]
+  },
+  "geared_weight_lb": 200
+ },
+ {
+  "id": "s2-060",
+  "ok": true,
+  "topic": "parts",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2025,
+   "engine_hours": null,
+   "configuration": {
+    "geared_weight_lb": 240
+   }
+  },
+  "question": "Going to pick up my TF-450X next tuesday. ... Im 240, and working down to 220. Im C class on an MX track and B/A class in desert. ... Does anyone know the typical ranging of spring rates?",
+  "message_sent": "Going to pick up my TF-450X next tuesday. ... Im 240, and working down to 220. Im C class on an MX track and B/A class in desert. ... Does anyone know the typical ranging of spring rates?",
+  "rider_context": "240 lb (working down to 220); C class MX, B/A class desert; ordered fork and shock springs, went with .52 fork springs and may need .54",
+  "prompt_version": "mx-engineering-84",
+  "ms": 23333,
+  "response": {
+   "kind": "answer",
+   "summary": "At 240 lb, plan on stiffer springs at both ends. A general fork starting range is 5.0–5.2 N/mm; choose the shock spring from rider and free sag rather than weight alone.",
+   "answer": "At **240 lb**, I’d budget for stiffer springs at both ends—even working down to **220 lb**. The exact 2025 TF 450-X spring chart and optional rates aren’t confirmed here.\n\n- **Fork:** common practice for a full-size 450 at your weight is to consider **fork springs around 5.0–5.2 N/mm**, not a Triumph-published recommendation. Your B/A desert pace points toward the firmer end for fast hits and whoops; C-class MX favors keeping enough compliance for braking bumps. Confirm available rates and fitment before ordering.\n- **Shock:** expect to go stiffer than the standard spring, but select the rate by sag. As general guidance—not Triumph’s specification—start around **105 mm rider sag**, then check free sag with you off the bike. Roughly **30–40 mm free sag** is a useful screening range; too little free sag with rider sag correct means the spring is too soft.\n\nSpring it for your current weight, not your target weight. When you reach 220 lb, recheck sag before buying another set. Correct springs don’t automatically mean you need a revalve.",
+   "setup_changes": [],
+   "observations": [
+    "Rider weighs 240 lb and is working toward 220 lb.",
+    "Rider describes C-class motocross and B/A-class desert pace.",
+    "Bike pickup is planned for next Tuesday; sag measurements are not available."
+   ],
+   "systems": [
+    "suspension"
+   ],
+   "hypotheses": [],
+   "unknowns": [
+    "Installed fork and shock spring rates",
+    "Rider sag and free sag after pickup"
+   ],
+   "next_step": {
+    "action": "After pickup, measure rider sag in full gear and free sag before ordering the shock spring.",
+    "purpose": "Determine whether the installed shock spring needs excessive preload for your weight.",
+    "stop_conditions": []
+   },
+   "evidence_ids": [],
+   "specifications": [],
+   "claims": [
+    {
+     "claim": "Current weight 240 lb; target weight 220 lb",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "C-class motocross and B/A-class desert pace",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "General fork spring consideration range: 5.0–5.2 N/mm",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "General sag screening: 105 mm rider, 30–40 mm free",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Insufficient free sag at correct rider sag indicates soft spring",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Fast desert riding generally needs greater suspension support",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [
+    "2025 TF 450-X spring chart, optional rates, and published sag targets"
+   ],
+   "confidence": "LIMITED",
+   "garage_updates": [
+    {
+     "type": "setting",
+     "system": "",
+     "brand": "",
+     "name": "",
+     "field": "race_class",
+     "value": "C class on an MX track and B/A class in desert",
+     "current": ""
+    }
+   ],
+   "app_actions": [],
+   "references": []
+  },
+  "geared_weight_lb": 240
+ },
+ {
+  "id": "s2-062",
+  "ok": true,
+  "topic": "parts",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ250F",
+   "model_year": 2022,
+   "engine_hours": null,
+   "configuration": {
+    "geared_weight_lb": 215
+   }
+  },
+  "question": "Hey I have a 2022 yz250f I am needing to re-spring. 195lbs no gear Vet A. YZ250F Spring rates, whats your setup? What are you guys running?",
+  "message_sent": "Hey I have a 2022 yz250f I am needing to re-spring. 195lbs no gear Vet A. YZ250F Spring rates, whats your setup? What are you guys running?",
+  "rider_context": "195 lb without gear, Vet A; stock springs",
+  "prompt_version": "mx-engineering-84",
+  "ms": 23632,
+  "response": {
+   "kind": "answer",
+   "summary": "For your 195 lb without gear and Vet A pace, I’d start with 4.9 N/mm fork springs. Expect to go stiffer on the shock too, but check free sag before choosing its rate.",
+   "answer": "For **195 lb without gear, Vet A**, my starting pick is **fork springs 4.9 N/mm**—a common-practice recommendation, not a Yamaha weight-chart figure. With roughly 15–20 lb of gear, you’re around 210–215 lb ready to ride.\n\n- **Fork:** Yamaha’s stock fork springs are 4.7 N/mm; 4.9 N/mm is an available Yamaha option. The extra support should reduce braking dive and keep you out of the deep stroke without relying on excessive compression damping.\n- **Shock:** Yamaha’s stock shock spring is 56 N/mm. At your weight and pace, I’d expect to move stiffer, but free sag decides that—not weight alone. Set rider sag at **100 mm**, the upper end of Yamaha’s **90–100 mm** target, then measure free sag with you off and the bike on its wheels. Very little free sag means the spring needs too much preload and is too soft.\n\nYamaha doesn’t give a rider-weight spring chart for this bike. What free sag do you get with rider sag set at 100 mm? That measurement will settle the shock choice before you buy.",
+   "setup_changes": [],
+   "observations": [
+    "Rider reports 195 lb without gear and Vet A pace.",
+    "Saved geared rider weight is 215 lb.",
+    "Current spring rates and sag measurements are not stated."
+   ],
+   "systems": [
+    "suspension"
+   ],
+   "hypotheses": [],
+   "unknowns": [
+    "Current fitted spring rates.",
+    "Free sag with rider sag set at 100 mm.",
+    "Whether suspension valving or linkage has been modified."
+   ],
+   "next_step": {
+    "action": "Set rider sag at 100 mm, then measure free sag.",
+    "purpose": "Determine whether the shock spring requires excessive preload before selecting a replacement.",
+    "stop_conditions": [
+     "Suspension binds or sag measurements are inconsistent.",
+     "Required preload exceeds Yamaha’s permitted adjustment."
+    ]
+   },
+   "evidence_ids": [
+    "d3bf7b4d-e27c-505b-aaae-e0d1a8ac52ed",
+    "1de9b4c6-5816-5403-b3a0-1b48e8f5ce9a",
+    "02078b8b-5233-9d0f-3fff-9e0afc24886b"
+   ],
+   "specifications": [
+    {
+     "claim_id": "d3bf7b4d-e27c-505b-aaae-e0d1a8ac52ed",
+     "value": "Front fork spring / Standard spring rate: 4.7 N/mm. Stock fork spring as delivered; optional rates are listed separately."
+    },
+    {
+     "claim_id": "1de9b4c6-5816-5403-b3a0-1b48e8f5ce9a",
+     "value": "Front fork spring / Optional spring rates (Yamaha part numbers): 4.5 (BR9-23141-20), 4.6 (BR9-23141-30), 4.7 (BR9-23141-40), 4.8 (BR9-23141-50), 4.9 (BR9-23141-60), 5.0 (BR9-23141-70), 5.1 (BR9-23141-80) N/mm. Yamaha optional springs; after a change, reset rebound and compression as the manual describes."
+    },
+    {
+     "claim_id": "02078b8b-5233-9d0f-3fff-9e0afc24886b",
+     "value": "Rear suspension setting / Choosing set length / Standard figure (sunken length, rider seated): 90–100 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault. Yamaha calls this the sunken length: rear axle to rear fender mark measured with the rear wheel off the ground, minus the same measurement with the rider seated. Set it before changing damping."
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Rider weighs 195 lb without gear and rides Vet A",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Common riding gear adds roughly 15–20 lb",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Recommended fork starting rate: 4.9 N/mm",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Stock fork springs: 4.7 N/mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "d3bf7b4d-e27c-505b-aaae-e0d1a8ac52ed"
+     ]
+    },
+    {
+     "claim": "Optional fork springs include 4.9 N/mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "1de9b4c6-5816-5403-b3a0-1b48e8f5ce9a"
+     ]
+    },
+    {
+     "claim": "Stock shock spring: 56 N/mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "K-y04-014|Yamaha|YZ250F|2022"
+     ]
+    },
+    {
+     "claim": "Yamaha rider sag target: 90–100 mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "02078b8b-5233-9d0f-3fff-9e0afc24886b"
+     ]
+    },
+    {
+     "claim": "Little free sag at correct rider sag indicates soft spring",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Yamaha provides no rider-weight spring chart for this bike",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "K-y04-014|Yamaha|YZ250F|2022"
+     ]
+    }
+   ],
+   "data_gaps": [
+    "Published rider-weight spring chart and static-sag target."
+   ],
+   "confidence": "LIMITED",
+   "garage_updates": [
+    {
+     "type": "setting",
+     "system": "",
+     "brand": "",
+     "name": "",
+     "field": "race_class",
+     "value": "Vet A",
+     "current": ""
+    }
+   ],
+   "app_actions": [],
+   "references": [
+    {
+     "title": "2022 Yamaha YZ250F: Set the suspension back to the standard baseline",
+     "url": "",
+     "attribution": "Yamaha",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers recording the old settings, fork and shock clickers to standard, preload, rider sag and tyre pressures.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    },
+    {
+     "title": "2022 Yamaha YZ250F: Bottom end: split the cases and rebuild the crank, gearbox, clutch and pumps",
+     "url": "",
+     "attribution": "Yamaha",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers removing the clutch, primary and balancer gears, oil pump, generator rotor and shift mechanism, splitting the crankcases, checking and renewing bearings, crankshaft, gearbox, clutch, oil and water pumps, and closing everything up.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    }
+   ]
+  },
+  "geared_weight_lb": 215
+ },
+ {
+  "id": "s2-084",
+  "ok": true,
+  "topic": "youth",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX65",
+   "model_year": 2020,
+   "engine_hours": null,
+   "configuration": {
+    "geared_weight_lb": 118
+   }
+  },
+  "question": "Just picked my son up a 2002 KX65 yesterday. Bike is completely stock and has very low hours. He is 118lbs and I wanted to get recommendations for setting this suspension up for his riding weight. He rides the mini track at Piru ... Any ideas?",
+  "message_sent": "Just picked my son up a 2002 KX65 yesterday. Bike is completely stock and has very low hours. He is 118lbs and I wanted to get recommendations for setting this suspension up for his riding weight. He rides the mini track at Piru ... Any ideas?",
+  "rider_context": "Parent asking; son weighs 118 lb; stock, low-hour bike; mini track riding. Bike is a 2002 KX65 (same long-running generation; nearest in-range year used)",
+  "prompt_version": "mx-engineering-84",
+  "ms": 26094,
+  "response": {
+   "kind": "setup",
+   "summary": "At 118 lb, start toward firmer springs at both ends, but measure rider and free sag before buying the shock spring. Use 2002-specific settings—not the 2020 baseline.",
+   "answer": "At **118 lb, I’d lean toward stiffer fork and shock springs** for his KX65, rather than trying to hold it up with damping alone.\n\nYour Garage lists a **2020 KX65; you said 2002**, so I’m treating it as the 2002. Its exact spring rates and stock adjuster settings aren’t confirmed here.\n\n- **Rear preload:** measure sag with him in full riding gear. As general mini-MX guidance—not Kawasaki’s published target—start around **65–75 mm rider sag**, then check free sag with him off the bike. Roughly **15–25 mm free sag** is a useful initial check; very little free sag with rider sag set means the shock spring is too soft.\n- **Fork springs:** move toward a firmer spring if it rides low, dives heavily or bottoms on ordinary mini-track landings. Choose the rate for the 2002 fork, not a later-year spring listing.\n\nLow hours don’t make the suspension oil or seals fresh on a bike this old. If its suspension service history is unknown, service it before judging damping. For mini-track riding, keep small-bump comfort rather than chasing a stiff jump-only setup.\n\nWhat rider sag and free sag does it measure now? Those two measurements will tell us whether preload is enough or the rear needs a spring.\n\n**Changes to try, one at a time:**\n- **Shock spring preload:** Adjust from its current position toward 65–75 mm rider sag as general mini-MX starting guidance, then measure free sag.",
+   "setup_changes": [
+    {
+     "setting": "Shock spring preload",
+     "change": "Adjust from its current position toward 65–75 mm rider sag as general mini-MX starting guidance, then measure free sag.",
+     "expect": "A balanced rear ride height and a useful check of whether the spring supports his weight.",
+     "go_back_if": "Reaching rider sag leaves very little free sag; stop adding preload and select a stiffer spring."
+    }
+   ],
+   "observations": [
+    "Rider reports a completely stock, low-hour 2002 KX65.",
+    "Rider weighs 118 lb and rides the mini track at Piru.",
+    "The selected Garage bike is a 2020 KX65."
+   ],
+   "systems": [
+    "suspension"
+   ],
+   "hypotheses": [],
+   "unknowns": [
+    "Current rider sag and free sag.",
+    "Suspension service history and fitted spring rates."
+   ],
+   "next_step": {
+    "action": "Measure rear rider sag in full gear and free sag before changing clickers or buying springs.",
+    "purpose": "Separate a preload adjustment from an undersprung rear suspension.",
+    "stop_conditions": [
+     "Suspension binds, leaks or has bearing play; correct that before testing settings."
+    ]
+   },
+   "evidence_ids": [],
+   "specifications": [],
+   "claims": [
+    {
+     "claim": "Rider reports stock 2002 KX65, low hours, 118-pound rider",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Heavier mini riders commonly need firmer springs at both ends",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Mini-MX sag ranges are general starting guidance",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Minimal free sag at correct rider sag indicates underspringing",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Low use does not prevent suspension oil and seal aging",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [
+    "2002 KX65 spring options, rider-weight guidance and damping baselines.",
+    "2002 KX65 published rider and free sag targets."
+   ],
+   "confidence": "LIMITED",
+   "garage_updates": [
+    {
+     "type": "part",
+     "system": "suspension",
+     "brand": "Kawasaki",
+     "name": "Stock suspension",
+     "field": "",
+     "value": "Completely stock",
+     "current": ""
+    }
+   ],
+   "app_actions": [],
+   "references": [
+    {
+     "title": "2020 Kawasaki KX65: Set the suspension back to the standard baseline",
+     "url": "",
+     "attribution": "Kawasaki",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers recording the old settings, standard clicker positions, spring, fork height and preload checks, tyre pressures and a sag reference.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    },
+    {
+     "title": "2020 Kawasaki KX65: Do the pre-ride check",
+     "url": "",
+     "attribution": "Kawasaki",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers the daily walk-round of fluids, filter, controls, brakes, chain, wheels, steering, suspension and fasteners.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    }
+   ]
+  },
+  "geared_weight_lb": 118
+ },
+ {
+  "id": "s2-090",
+  "ok": true,
+  "topic": "youth",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ65",
+   "model_year": 2025,
+   "engine_hours": null,
+   "configuration": {}
+  },
+  "question": "Recently we made the transition to the new yz65. ... The yz65 runs great, except on the bottom. ... I bumped the pilot jet one size and adjusted air screw accordingly but I haven't seen much improvement. What jetting specs are you guys using?",
+  "message_sent": "Recently we made the transition to the new yz65. ... The yz65 runs great, except on the bottom. ... I bumped the pilot jet one size and adjusted air screw accordingly but I haven't seen much improvement. What jetting specs are you guys using?",
+  "rider_context": "Parent asking; son raced Cobras ~3 years, top of class in ECEA hare scrambles; stock needle, clip and main; pilot up one size with air screw adjusted; off-idle bog hurts dead-engine starts; model year not stated",
+  "prompt_version": "mx-engineering-84",
+  "ms": 24839,
+  "response": {
+   "kind": "diagnosis",
+   "summary": "The larger pilot and air-screw adjustment barely helped, so don't keep going richer. First separate a low-throttle stumble from clean-running but weak low-rpm power.",
+   "answer": "**I wouldn’t go another pilot size richer yet**—your larger pilot and air-screw adjustment made little difference, so the pilot may not be the problem. The exact stock jet sizes, needle position and air-screw baseline aren’t confirmed here; Yamaha’s carburetor-tuning section carries those numbers.\n\nAs general tuning practice:\n- **Clean but weak until the revs rise:** that can be small two-stroke power delivery rather than jetting. A lower gear and light clutch use should bring it into the power cleanly.\n- **Blubbers or loads up just off idle:** check the filter and that the choke plunger closes fully before adding fuel.\n- **Hesitates around ¼ throttle:** the needle’s straight section and clip become relevant; a bigger pilot may do little there. Don’t move the clip until you know whether it’s rich or lean.\n\nFirst, with the engine off and cool, inspect the filter for dirt or excess oil and confirm the choke closes fully. Stop riding if it pings or detonates.\n\nWhat pilot/main sizes, needle clip and air-screw position are fitted now, and what town and temperature are you riding in?",
+   "setup_changes": [],
+   "observations": [
+    "Rider reports poor bottom-end response on the new YZ65.",
+    "Increasing the pilot one size and adjusting the air screw produced little improvement."
+   ],
+   "systems": [
+    "fuel",
+    "intake",
+    "engine"
+   ],
+   "hypotheses": [
+    {
+     "mechanism": "Excess fuel or restricted airflow at low throttle",
+     "explains": "Blubbering or loading up that does not improve with a larger pilot.",
+     "confirm": "Rich-sounding response, restricted filter or choke plunger not fully seated.",
+     "reject": "Clean response without loading up and verified intake/choke condition."
+    },
+    {
+     "mechanism": "Needle-range mixture mismatch rather than pilot-circuit mismatch",
+     "explains": "Hesitation near quarter throttle with little response to the pilot change.",
+     "confirm": "Complaint consistently follows throttle opening into the needle transition.",
+     "reject": "Complaint occurs only near closed throttle or follows low rpm regardless of throttle position."
+    },
+    {
+     "mechanism": "Low-rpm operation below the engine's useful powerband",
+     "explains": "Clean but weak pull that improves as revs rise.",
+     "confirm": "Appropriate lower gear and light clutch use produce clean acceleration.",
+     "reject": "Misfire, blubbering or hesitation persists in the useful rev range."
+    }
+   ],
+   "unknowns": [
+    "Whether bottom-end complaint means clean weak pull, blubbering or hesitation.",
+    "Current carburetor settings, riding elevation and temperature."
+   ],
+   "next_step": {
+    "action": "With the engine off and cool, inspect filter condition and confirm full choke closure.",
+    "purpose": "Exclude airflow restriction and unwanted enrichment before further jet changes.",
+    "stop_conditions": [
+     "Do not run with an incorrectly seated or damaged filter.",
+     "Stop riding if pinging or detonation occurs."
+    ]
+   },
+   "evidence_ids": [],
+   "specifications": [],
+   "claims": [
+    {
+     "claim": "Larger pilot and air-screw adjustment provided little improvement",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Filter restriction and incomplete choke closure can cause rich running",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Needle metering becomes relevant around quarter throttle",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Small two-strokes need revs and clutch control for clean drive",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [
+    "Exact stock pilot, main, needle, clip and air-screw baseline.",
+    "Yamaha jetting chart for riding elevation and temperature."
+   ],
+   "confidence": "LIMITED",
+   "garage_updates": [],
+   "app_actions": [],
+   "references": []
+  },
+  "geared_weight_lb": null
+ },
+ {
+  "id": "s2-094",
+  "ok": true,
+  "topic": "vague",
+  "bike": {
+   "manufacturer": "Honda",
+   "model": "CRF450R",
+   "model_year": 2024,
+   "engine_hours": null,
+   "configuration": {}
+  },
+  "question": "Feel like I'm riding a cinder block. It has way too much power down low and none mid-top. It's crazy loose at speed, even with the forks dropped all the way. It reacts like it hit a tank mine to the smallest bumps. ... But what is going on?",
+  "message_sent": "Feel like I'm riding a cinder block. It has way too much power down low and none mid-top. It's crazy loose at speed, even with the forks dropped all the way. It reacts like it hit a tank mine to the smallest bumps. ... But what is going on?",
+  "rider_context": "Top AA rider in Florida; forks already dropped all the way in the clamps",
+  "prompt_version": "mx-engineering-84",
+  "ms": 35036,
+  "response": {
+   "kind": "diagnosis",
+   "summary": "Some of that matches this Honda’s reported character, but severe instability and violent small-bump reactions need mechanical checks before more geometry or clicker changes.",
+   "answer": "You’re describing a known weakness of this generation—but **that level of harshness and instability is not something to ride around**. Testers consistently report sharp steering, a tiring chassis on chop and unusually sensitive front-to-rear balance.\n\nThe engine complaint partly fits too: several testers found the 2023–2024 motor stronger down low and less frantic on top. That explains the character, not an engine that genuinely stops pulling, bogs or misfires.\n\n**Dropping the forks all the way hasn’t fixed it, so don’t keep chasing fork height.** My order of suspicion is:\n- Binding forks, trapped fork air, excessive tire pressure or tight/notchy chassis bearings making little bumps feel enormous.\n- Incorrect springs or rear ride height leaving the bike unbalanced; Honda’s standard springs are **fork 5.0 N/mm and shock 56 N/mm**, with **105 mm rider sag** on the standard shock spring.\n- Damping that holds the suspension down through successive bumps, or suspension needing service. Honda calls for fork oil replacement every **9 races/about 22.5 hours**, plus after break-in.\n\nStart with the engine off and the bike securely supported: check steering and wheel play, tire pressures, suspension leaks and smooth fork/linkage movement. Don’t loosen chassis fasteners to make it flex.\n\nFor the hit, **Mode 2 Smooth** reduces throttle response; it won’t repair missing power.\n\nHas it always ridden this way, or did it start after a service, wheel change or crash? **Stay off fast sections until the instability is resolved.**",
+   "setup_changes": [],
+   "observations": [
+    "Rider reports extreme harshness on small bumps.",
+    "Rider reports severe looseness at speed despite lowering the fork tubes fully.",
+    "Rider describes excessive low-end power and weak mid-to-top pull."
+   ],
+   "systems": [
+    "suspension",
+    "chassis",
+    "wheels",
+    "engine",
+    "tuning"
+   ],
+   "hypotheses": [
+    {
+     "mechanism": "Fork binding, bearing friction or excessive tire pressure transmits sharp impacts.",
+     "explains": "Violent reactions to small bumps and poor tracking.",
+     "confirm": "Engine-off checks reveal sticky travel, notchy bearings, play or inappropriate measured tire pressures.",
+     "reject": "Alignment, bearing condition, pressures and suspension movement check correctly."
+    },
+    {
+     "mechanism": "Incorrect spring support or rear ride height creates front-to-rear imbalance.",
+     "explains": "Instability that remains after lowering the fork tubes.",
+     "confirm": "Installed spring identification, rider weight and rider/free-sag measurements show a mismatch.",
+     "reject": "Springs and measured sag suit the rider, and chassis balance is verified."
+    },
+    {
+     "mechanism": "Slow rebound recovery or degraded suspension condition prevents wheels following repeated bumps.",
+     "explains": "Harshness and loss of tracking through successive impacts.",
+     "confirm": "First bump feels acceptable, then suspension rides lower and harsher; service inspection or a controlled adjustment distinguishes the cause.",
+     "reject": "Harshness is equally severe on an isolated first impact and suspension condition is verified."
+    },
+    {
+     "mechanism": "Torque-focused engine delivery feels disproportionately strong low down.",
+     "explains": "Low-end hit with a comparatively less exciting top end.",
+     "confirm": "Power remains clean and continuous without bogging, misfire or a new loss of performance.",
+     "reject": "An abrupt change, misfire or actual failure to pull indicates an engine fault instead."
+    }
+   ],
+   "unknowns": [
+    "Whether symptoms began suddenly or followed service, a wheel change or a crash.",
+    "Rider weight, fitted springs, suspension modifications and service hours.",
+    "Measured rider sag, free sag, tire pressures and current damping positions.",
+    "Whether weak upper-rpm power is relative character or an actual running fault."
+   ],
+   "next_step": {
+    "action": "Perform an engine-off chassis and suspension inspection with the bike securely supported.",
+    "purpose": "Exclude binding, looseness, pressure problems and leaks before tuning around them.",
+    "stop_conditions": [
+     "Loose, damaged or notchy steering, wheel or suspension components.",
+     "Suspension oil reaching a brake or tire.",
+     "Severe instability remains unresolved."
+    ]
+   },
+   "evidence_ids": [
+    "6b9895fc-93cb-5493-8ad1-4a57bf648156",
+    "c791f629-d326-5679-814d-e5e985796d1e",
+    "2ca3e8c0-1c90-7288-3b20-9623958b127e",
+    "8a42ba16-e003-53ea-90dd-b406d6cd7d3e"
+   ],
+   "specifications": [
+    {
+     "claim_id": "6b9895fc-93cb-5493-8ad1-4a57bf648156",
+     "value": "Suspension / Fork spring / Standard spring rate: 5.0 N/mm (28.6 lbf/in). standard spring"
+    },
+    {
+     "claim_id": "c791f629-d326-5679-814d-e5e985796d1e",
+     "value": "Suspension / Shock spring / Standard spring rate: 56 N/mm (319.8 lbf/in). standard spring"
+    },
+    {
+     "claim_id": "2ca3e8c0-1c90-7288-3b20-9623958b127e",
+     "value": "Shock / Race sag / Standard (standard spring): 105 mm. Applies to the standard R model named in this handbook; other variants covered by the same handbook have different values. Stock OEM parts only. Race sag is the unloaded measurement minus the rider-aboard measurement with the bike at race weight, per the procedure on the cited page."
+    },
+    {
+     "claim_id": "8a42ba16-e003-53ea-90dd-b406d6cd7d3e",
+     "value": "Maintenance schedule / Fork Oil / Replace: every 9 races (about 22.5 hours). Note 3: replace after the first break-in ride"
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Reported harshness and instability persist with fork tubes fully lowered",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Testers consistently report harshness, instability and sensitive chassis balance",
+     "tier": "COMMUNITY",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Stock fork spring rate 5.0 N/mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "6b9895fc-93cb-5493-8ad1-4a57bf648156"
+     ]
+    },
+    {
+     "claim": "Stock shock spring rate 56 N/mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "c791f629-d326-5679-814d-e5e985796d1e"
+     ]
+    },
+    {
+     "claim": "Standard-spring rider sag target 105 mm",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "2ca3e8c0-1c90-7288-3b20-9623958b127e"
+     ]
+    },
+    {
+     "claim": "Fork oil replacement every nine races and after break-in",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "8a42ba16-e003-53ea-90dd-b406d6cd7d3e"
+     ]
+    },
+    {
+     "claim": "Mode 2 Smooth reduces throttle response",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "K-h45-056|Honda|CRF450R|2024"
+     ]
+    },
+    {
+     "claim": "Testers report stronger low-mid delivery and less frantic top",
+     "tier": "COMMUNITY",
+     "evidence_ids": [
+      "K-h45-048|Honda|CRF450R|2024"
+     ]
+    },
+    {
+     "claim": "Friction, pressure and imbalance can mimic excessive damping",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [
+    "Exact cold tire-pressure specification.",
+    "Published static-sag target."
+   ],
+   "confidence": "LIMITED",
+   "garage_updates": [],
+   "app_actions": [],
+   "references": [
+    {
+     "title": "2024 Honda CRF450R: Check and adjust the valve clearances",
+     "url": "",
+     "attribution": "Honda",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers getting to the head, setting top dead centre, measuring every clearance, changing shims through camshaft removal, the decompressor check, and closing up with every torque. Does not cover valve, seat or cam chain replacement.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    },
+    {
+     "title": "2024 Honda CRF450R: Change the fork oil and set the oil volume",
+     "url": "",
+     "attribution": "Honda",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers removing the fork legs, draining the outer chamber oil with the damper in place, working out the refill from the oil left inside, choosing the oil volume within its range, refilling, refitting with every torque, restoring the clickers and releasing the air. Does not open the sealed damper or change seals.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    }
+   ]
+  },
+  "geared_weight_lb": null
+ },
+ {
+  "id": "s2-100",
+  "ok": true,
+  "topic": "vague",
+  "bike": null,
+  "question": "Now I am early 40's ... Right now Im around 240 but plan on lowering that to 200-210. Not very experienced. ... i've had some say get a 450f of sorts, because of my size. What suggestions do you all have for bikes though.",
+  "message_sent": "Now I am early 40's ... Right now Im around 240 but plan on lowering that to 200-210. Not very experienced. ... i've had some say get a 450f of sorts, because of my size. What suggestions do you all have for bikes though.",
+  "rider_context": "Early 40s, ~240 lb (aiming for 200-210), not very experienced; previously rode a stripped KLR off-road; considered a 250 EXC for desert",
+  "prompt_version": "mx-engineering-84",
+  "ms": 13060,
+  "response": {
+   "kind": "answer",
+   "summary": "Don’t buy a 450 just because you weigh 240 lb. For a newer rider, manageable power and suspension sprung for your weight matter more than displacement.",
+   "answer": "**I’d start you on a trail-oriented 250–300 four-stroke, not a 450 motocross bike just because of your size.** At 240 lb, you need suspension matched to your weight—not necessarily more horsepower. A 450’s sharp response can make learning harder and tire you out sooner; being in your early 40s isn’t the deciding factor.\n\n- **Casual trails and learning:** Honda CRF250F. A common beginner choice for manageable power and straightforward ownership; its softer suspension becomes a limitation as your pace increases.\n- **Trail riding with room to progress:** Kawasaki KLX300. My pick if you want recreational trail riding and potentially street connections, though it’s heavier than a competition bike.\n- **Actual motocross tracks:** Yamaha YZ250F. Better suited to jumps and track pace than those trail bikes, but it’s a competition machine with more demanding maintenance.\n\nBudget for **firmer fork and shock springs** at your current weight, confirmed through sag and travel use. Set it up for 240 now; reassess when you reach 200–210 rather than riding an unsuitable setup while losing weight.\n\nWill you mainly ride trails, motocross tracks, or both? **For casual trails, my starting pick is the CRF250F.**",
+   "setup_changes": [],
+   "observations": [
+    "Rider is in their early 40s and has limited experience.",
+    "Current weight is approximately 240 lb, with a goal of 200–210 lb."
+   ],
+   "systems": [],
+   "hypotheses": [],
+   "unknowns": [
+    "Primary riding terrain and budget."
+   ],
+   "next_step": null,
+   "evidence_ids": [],
+   "specifications": [],
+   "claims": [
+    {
+     "claim": "Rider weight alone does not require a 450.",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Manageable power helps newer riders learn with less fatigue.",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "CRF250F suits recreational trails and beginner learning.",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "KLX300 offers trail versatility with greater weight.",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "YZ250F suits motocross but requires competition-bike maintenance.",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Heavier riders generally need firmer fork and shock springs.",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [],
+   "confidence": "LIMITED",
+   "garage_updates": [],
+   "app_actions": [],
+   "references": []
+  },
+  "geared_weight_lb": 240
+ }
+]
