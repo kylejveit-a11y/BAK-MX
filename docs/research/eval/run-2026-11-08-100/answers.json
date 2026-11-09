@@ -1,0 +1,528 @@
+[
+ {
+  "id": "q001",
+  "ok": true,
+  "topic": "suspension",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX450",
+   "model_year": 2023,
+   "engine_hours": null,
+   "configuration": {}
+  },
+  "question": "23 kx450 any tips to help cornering? The bike feels long and likes to turn super wide or unstable. ... If I carry speed and there's a rut the bike just plops out of the rut. And won't plant.",
+  "message_sent": "23 kx450 any tips to help cornering? The bike feels long and likes to turn super wide or unstable. ... If I carry speed and there's a rut the bike just plops out of the rut. And won't plant.",
+  "rider_context": "205 lb without gear (stated later in thread)",
+  "prompt_version": "mx-engineering-81",
+  "ms": 26692,
+  "response": {
+   "kind": "setup",
+   "summary": "Start with rear sag and balance, then address how the front leaves the rut. Don’t raise the forks yet—quicker steering can make the instability worse.",
+   "answer": "Start with **rear sag and balance—not a big fork-height change**. Several testers found this generation KX450 can feel long and vague mid-corner, but popping out of a rut needs separating from simply steering slowly.\n\n1. **Rear sag:** measure it in full gear; **105 mm is a commonly tested starting point**, not Kawasaki’s published target. Measure free sag too, rider off with the bike on its wheels, before choosing springs.\n2. **Fork rebound, only if the front springs up and climbs out as you open the throttle:** turn it **1 click in from its current position** to slow the return. Kawasaki’s stock fork rebound is **12 clicks out**—a reference, not an assumption about yours. If it gets lower and harsher through successive bumps, don’t slow it further; that points toward packing instead.\n\nCheck front-tire wear/pressure and steering play before testing. Don’t tune around anything loose or binding.\n\nFor the riding side, sit forward, look through the exit, press the outside peg and hold steady throttle. Repeat one shallow rut six times at an easy pace, finishing rear braking before entering.\n\n**Is the front wheel climbing out as you apply power, or is the rear hopping out while you’re braking?**\n\n**Changes to try, one at a time:**\n- **Rider sag:** Measure the current sag in full gear; use 105 mm as a community-tested starting point and record free sag.\n- **Fork rebound—conditional:** Only if the front springs up and climbs out under power, turn both fork rebound adjusters 1 click in from their current positions.",
+   "setup_changes": [
+    {
+     "setting": "Rider sag",
+     "change": "Measure the current sag in full gear; use 105 mm as a community-tested starting point and record free sag.",
+     "expect": "A repeatable rear ride-height baseline before chasing steering with clickers.",
+     "go_back_if": "The bike becomes more nervous or pushes worse; restore the recorded baseline and assess spring suitability."
+    },
+    {
+     "setting": "Fork rebound—conditional",
+     "change": "Only if the front springs up and climbs out under power, turn both fork rebound adjusters 1 click in from their current positions.",
+     "expect": "The front stays settled in the rut rather than extending abruptly.",
+     "go_back_if": "The fork rides lower, gets harsher through repeated bumps, or starts tucking."
+    }
+   ],
+   "observations": [
+    "Rider reports wide turning, instability and leaving ruts when carrying speed.",
+    "Which wheel leaves the rut and whether it happens braking or accelerating are not established."
+   ],
+   "systems": [
+    "suspension",
+    "chassis",
+    "wheels",
+    "riding technique"
+   ],
+   "hypotheses": [],
+   "unknowns": [
+    "Current rider sag, free sag, spring rates and clicker settings.",
+    "Rider weight and suspension modifications.",
+    "Which wheel leaves the rut and under which control input."
+   ],
+   "next_step": {
+    "action": "Measure and record rider sag in full gear and free sag before changing clickers.",
+    "purpose": "Establish rear ride height and identify whether spring suitability needs attention first.",
+    "stop_conditions": [
+     "Steering or wheel play, binding or damaged components.",
+     "Severe instability."
+    ]
+   },
+   "evidence_ids": [
+    "d149b704-6f89-5695-8f69-2416bb7ef2d3"
+   ],
+   "specifications": [
+    {
+     "claim_id": "d149b704-6f89-5695-8f69-2416bb7ef2d3",
+     "value": "Front fork / Rebound damping standard setting: 12 clicks. counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Stock fork rebound is 12 clicks out",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "d149b704-6f89-5695-8f69-2416bb7ef2d3"
+     ]
+    },
+    {
+     "claim": "Tested race sag starting point is 105 mm",
+     "tier": "COMMUNITY",
+     "evidence_ids": [
+      "K-kx-114|Kawasaki|KX450|2023"
+     ]
+    },
+    {
+     "claim": "Testers report long, vague mid-corner feel",
+     "tier": "COMMUNITY",
+     "evidence_ids": [
+      "K-kx-090|Kawasaki|KX450|2023"
+     ]
+    },
+    {
+     "claim": "Slower fork return can reduce rut climbing",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Forward position and steady throttle support rut tracking",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [
+    "Kawasaki numerical rider-sag and free-sag targets are not published here."
+   ],
+   "confidence": "LIMITED",
+   "garage_updates": [],
+   "app_actions": [],
+   "references": [
+    {
+     "title": "2023 Kawasaki KX450: Set the suspension back to the standard baseline",
+     "url": "",
+     "attribution": "Kawasaki",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers recording the old settings, setting fork and shock clickers to standard, checking springs, fork height and preload, tyre pressures and a sag reference.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    }
+   ]
+  },
+  "geared_weight_lb": null
+ },
+ {
+  "id": "q002",
+  "ok": true,
+  "topic": "suspension",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX450",
+   "model_year": 2023,
+   "engine_hours": null,
+   "configuration": {}
+  },
+  "question": "I'm currently at 6mm on the fork height how much should I go?",
+  "message_sent": "I'm currently at 6mm on the fork height how much should I go?",
+  "rider_context": "Same rider as the '23 KX450 cornering thread; 205 lb without gear",
+  "prompt_version": "mx-engineering-81",
+  "ms": 10438,
+  "response": {
+   "kind": "answer",
+   "summary": "Move fork height in 1–2 mm steps; choose the direction based on whether you want quicker turning or more stability.",
+   "answer": "Use **1–2 mm steps from your current 6 mm**: less tube showing—6 to 4–5 mm—makes it calmer at speed; more showing—6 to 7–8 mm—sharpens turn-in but can add headshake. Those are general tuning steps, not Kawasaki’s stock setting.\n\nKawasaki’s standard is **0 mm below the top surface of the fork top plug**, so check that you’re measuring from the same reference. Keep both legs equal.\n\nWhat are you trying to improve—turning tighter, front-end grip, or stability at speed?",
+   "setup_changes": [],
+   "observations": [
+    "Rider reports current fork height of 6 mm."
+   ],
+   "systems": [
+    "suspension",
+    "chassis"
+   ],
+   "hypotheses": [],
+   "unknowns": [
+    "Handling goal and fork-height measurement reference."
+   ],
+   "next_step": null,
+   "evidence_ids": [
+    "dcebedda-d440-5f73-a964-088aa857ce59"
+   ],
+   "specifications": [
+    {
+     "claim_id": "dcebedda-d440-5f73-a964-088aa857ce59",
+     "value": "Front fork / Standard fork height: 0 mm (0 in.). below the surface of the top plug"
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Current fork height reported as 6 mm",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Standard fork height uses top-plug surface as reference",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "dcebedda-d440-5f73-a964-088aa857ce59"
+     ]
+    },
+    {
+     "claim": "Small fork-height changes trade steering response against stability",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [],
+   "confidence": "LIMITED",
+   "garage_updates": [
+    {
+     "type": "setting",
+     "system": "",
+     "brand": "",
+     "name": "",
+     "field": "fork_height_mm",
+     "value": "6",
+     "current": ""
+    }
+   ],
+   "app_actions": [],
+   "references": [
+    {
+     "title": "2023 Kawasaki KX450: Release built-up air from the fork",
+     "url": "",
+     "attribution": "Kawasaki",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers lifting the front wheel, opening and closing the pressure relief screw on each fork leg, and the fork tube check.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    },
+    {
+     "title": "2023 Kawasaki KX450: Change the fork outer-tube oil and set the oil amount",
+     "url": "",
+     "attribution": "Kawasaki",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers fork removal, draining and refilling the outer tube oil with the amount for the fitted spring, refitting and torqueing the front end.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    },
+    {
+     "title": "Factory Connection — Fork clamp and start-device attachment",
+     "url": "https://www.factoryconnection.com/Setup-gethelp",
+     "attribution": "Factory Connection",
+     "kind": "TESTER_OBSERVATION",
+     "limitations": [
+      "Use exact OEM clamp torque and component-maker ring instructions.",
+      "Inspect installation before compensating with damping changes."
+     ]
+    }
+   ]
+  },
+  "geared_weight_lb": null
+ },
+ {
+  "id": "q003",
+  "ok": true,
+  "topic": "suspension",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX250",
+   "model_year": 2025,
+   "engine_hours": null,
+   "configuration": {}
+  },
+  "question": "09 kx250f. ... Felt like the front end was kicking back at me very hard. Orgininally comp and rebound were both 12 out. I changed them to 14 out on comp and 10 out on rebound. Did I do a good thing or a bad thing?",
+  "message_sent": "09 kx250f. ... Felt like the front end was kicking back at me very hard. Orgininally comp and rebound were both 12 out. I changed them to 14 out on comp and 10 out on rebound. Did I do a good thing or a bad thing?",
+  "rider_context": "2009 KX250F (older generation, outside 2020-2027); gnarly braking bumps at the track",
+  "prompt_version": "mx-engineering-81",
+  "ms": 21457,
+  "response": {
+   "kind": "setup",
+   "summary": "You softened compression and slowed rebound—both can help, but slowing rebound can make repeated-bump harshness worse. Put rebound back at 12 out first so you can judge one change at a time.",
+   "answer": "Neither change was automatically bad: **compression 12 → 14 out softens the hit; rebound 12 → 10 out slows the fork’s return.** That combination can help if the fork hits a bump and springs back at your hands.\n\nIf it gets lower and harsher through consecutive bumps, though, slower rebound can prevent it recovering before the next hit—making the kick worse.\n\nYour selected build is a 2025 KX250; you’re asking about a **2009 KX250F**, so I’m not applying the newer bike’s stock settings.\n\n**First test: fork rebound from 10 to 12 clicks out; leave compression at 14 out.** Ride the same familiar section for a few controlled passes. If the sharp impacts improve without extra diving or bottoming, the softer compression helped. If it now springs back at you after an isolated bump, try rebound at 11 out next, as a separate test.\n\nDoes it kick on the first impact, spring back afterward, or get worse through a run of bumps?",
+   "setup_changes": [
+    {
+     "setting": "Fork rebound",
+     "change": "From 10 to 12 clicks out; leave fork compression at 14 clicks out.",
+     "expect": "Isolate the softer compression change and allow faster recovery between bumps.",
+     "go_back_if": "The fork clearly springs back toward your hands after an isolated bump."
+    }
+   ],
+   "observations": [
+    "Rider identifies the bike as a 2009 KX250F.",
+    "Compression changed from 12 to 14 clicks out.",
+    "Rebound changed from 12 to 10 clicks out.",
+    "Selected build is a 2025 KX250, not the bike described."
+   ],
+   "systems": [
+    "suspension"
+   ],
+   "hypotheses": [],
+   "unknowns": [
+    "Whether the kick occurs during compression, during extension, or progressively through repeated bumps.",
+    "Result of the rider’s two simultaneous changes."
+   ],
+   "next_step": {
+    "action": "Return fork rebound from 10 to 12 clicks out and retest with compression remaining at 14 out.",
+    "purpose": "Separate compression-impact harshness from rebound recovery.",
+    "stop_conditions": [
+     "Stop testing if the fork bottoms violently or handling becomes unsafe.",
+     "If there is binding, looseness or fork oil near the brake, fix that before tuning."
+    ]
+   },
+   "evidence_ids": [],
+   "specifications": [],
+   "claims": [
+    {
+     "claim": "Rider changed compression outward and rebound inward by two clicks",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Opening compression reduces compression damping",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Closing rebound slows fork extension",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Excessively slow rebound can cause packing through successive bumps",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Testing one adjuster at a time isolates its effect",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [],
+   "confidence": "LIMITED",
+   "garage_updates": [],
+   "app_actions": [],
+   "references": [
+    {
+     "title": "2025 Kawasaki KX250: Set the suspension back to the standard baseline",
+     "url": "",
+     "attribution": "Kawasaki",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers recording the old settings, setting fork and shock clickers to standard, checking springs, fork height and preload, tyre pressures and a sag reference.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    },
+    {
+     "title": "2025 Kawasaki KX250 — Kris Keefer setup reference",
+     "url": "https://www.keeferinctesting.com/2025-250-mx-baseline-suspension-settings/",
+     "attribution": "Kris Keefer",
+     "kind": "SETUP_PREFERENCE",
+     "limitations": [
+      "Attributed tester starting point; not OEM specification, universal recommendation, or repair procedure.",
+      "Confirm spring, valve, clamp and rider context against source before applying; no tuning while fault remains unresolved.",
+      "Regional scope and exact spring part numbers are not stated."
+     ]
+    },
+    {
+     "title": "Factory Connection — Fork clamp and start-device attachment",
+     "url": "https://www.factoryconnection.com/Setup-gethelp",
+     "attribution": "Factory Connection",
+     "kind": "TESTER_OBSERVATION",
+     "limitations": [
+      "Use exact OEM clamp torque and component-maker ring instructions.",
+      "Inspect installation before compensating with damping changes."
+     ]
+    }
+   ]
+  },
+  "geared_weight_lb": null
+ },
+ {
+  "id": "q004",
+  "ok": true,
+  "topic": "suspension",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ250F",
+   "model_year": 2025,
+   "engine_hours": null,
+   "configuration": {}
+  },
+  "question": "I am a 175ish pound c class rider ... I have a stock yz250f. ... it has quite a bit more rebound in the rear than I'd like. ... I just don't know what settings to run on my bike.",
+  "message_sent": "I am a 175ish pound c class rider ... I have a stock yz250f. ... it has quite a bit more rebound in the rear than I'd like. ... I just don't know what settings to run on my bike.",
+  "rider_context": "175 lb, C class working toward B, local MX racing; model year not stated",
+  "prompt_version": "mx-engineering-81",
+  "ms": 23914,
+  "response": {
+   "kind": "setup",
+   "summary": "If the rear springs back too quickly, add rebound damping—not less. Check sag first, then try two clicks slower on shock rebound.",
+   "answer": "If you mean the rear **springs back or bucks upward**, you want more rebound damping to slow it down—not less.\n\nYamaha’s stock settings for your 2025 YZ250F are:\n\n| Adjuster | Stock setting |\n|---|---:|\n| Fork compression | 13 clicks out |\n| Fork rebound | 12 clicks out |\n| Shock low-speed compression | 12 clicks out |\n| Shock high-speed compression | 1½ turns out |\n| Shock rebound | 12 clicks out |\n\nCount out from gently seated; never force an adjuster. Record what’s actually on the bike before changing it—stock parts don’t guarantee untouched clickers.\n\n1. **Rider sag:** measure with you seated in full gear; adjust from its measured position into Yamaha’s **90–100 mm** range. Check free sag afterward to assess the spring.\n2. **Shock rebound:** if it springs back too fast, turn in two clicks from its current position—**12 to 10 clicks out if currently stock**. Leave compression alone and compare over the same section for a few easy laps.\n\nAt roughly 175 lb, you may need firmer springs than the stock fork springs **4.7 N/mm** and shock spring **54 N/mm**; confirm with sag before buying.\n\nDoes it kick upward after one hit, or get lower and harsher through several bumps? The second needs faster rebound, not slower.",
+   "setup_changes": [
+    {
+     "setting": "Rider sag",
+     "change": "Measure the current sag, then adjust preload into Yamaha’s 90–100 mm range with the rider seated in full gear.",
+     "expect": "A known rear ride-height baseline before changing damping.",
+     "go_back_if": "The target cannot be achieved within stock preload limits; assess spring suitability instead."
+    },
+    {
+     "setting": "Shock rebound",
+     "change": "For a rear that springs back too quickly, turn in two clicks from the current position; from 12 to 10 clicks out if currently stock.",
+     "expect": "A calmer return after a single hit, with less upward kick.",
+     "go_back_if": "The rear stays down or gets progressively lower and harsher through repeated bumps."
+    }
+   ],
+   "observations": [
+    "Rider reports roughly 175 lb, C-class pace and a stock YZ250F.",
+    "Rear rebound feels excessive, but the direction and timing of the movement are not yet described."
+   ],
+   "systems": [
+    "suspension"
+   ],
+   "hypotheses": [],
+   "unknowns": [
+    "Actual clicker positions.",
+    "Measured rider sag and free sag.",
+    "Whether the rear returns too quickly or packs through repeated bumps."
+   ],
+   "next_step": {
+    "action": "Measure rider sag seated in full gear, then free sag with the rider off.",
+    "purpose": "Establish rear ride height and check spring suitability before the rebound test.",
+    "stop_conditions": [
+     "Suspension leakage, binding or loose components.",
+     "Sag cannot be achieved within the published preload adjustment limits."
+    ]
+   },
+   "evidence_ids": [
+    "51c7fdff-1dfd-bd52-e81d-7bfdc20cfcac",
+    "d8ec26a9-2312-5aba-bccd-d4e43a04f096",
+    "424876d5-6a9a-5334-8581-3f354f56412b",
+    "65a8b3c3-0692-71c8-ed20-fa7f4b95a46e",
+    "637b37a8-3b23-ebb5-eec8-003ebbee0c26"
+   ],
+   "specifications": [
+    {
+     "claim_id": "51c7fdff-1dfd-bd52-e81d-7bfdc20cfcac",
+     "value": "Rear suspension setting / Choosing set length / Standard figure (sunken length, rider seated): 90–100 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault. Yamaha calls this the sunken length: rear axle to rear fender mark measured with the rear wheel off the ground, minus the same measurement with the rider seated. Set it before changing damping."
+    },
+    {
+     "claim_id": "d8ec26a9-2312-5aba-bccd-d4e43a04f096",
+     "value": "Rear shock spring / Standard spring rate: 54.0 N/mm. Stock shock spring as delivered; set race sag after any spring change."
+    },
+    {
+     "claim_id": "424876d5-6a9a-5334-8581-3f354f56412b",
+     "value": "Front fork spring / Standard spring rate: 4.7 N/mm. Stock fork spring as delivered; optional rates are listed separately."
+    },
+    {
+     "claim_id": "65a8b3c3-0692-71c8-ed20-fa7f4b95a46e",
+     "value": "Rear suspension / Rebound damping / Adjustment value from the start position (STD): 12 click. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault. Counted in clicks toward softer from the start position, which the adjustment section of the same manual defines as the adjuster fully turned in the harder direction; do not force the adjuster past its range. Factory click and turn counts can vary between units; check the actual range on the bike."
+    },
+    {
+     "claim_id": "637b37a8-3b23-ebb5-eec8-003ebbee0c26",
+     "value": "Rear suspension / Slow compression damping / Adjustment value from the start position (STD): 12 click. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault. Counted in clicks toward softer from the start position, which the adjustment section of the same manual defines as the adjuster fully turned in the harder direction; do not force the adjuster past its range. Factory click and turn counts can vary between units; check the actual range on the bike."
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Roughly 175 lb, C-class rider, stock bike",
+     "tier": "RIDER_SAVED",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Yamaha stock damping settings and rider sag target",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "51c7fdff-1dfd-bd52-e81d-7bfdc20cfcac",
+      "65a8b3c3-0692-71c8-ed20-fa7f4b95a46e",
+      "637b37a8-3b23-ebb5-eec8-003ebbee0c26",
+      "K-y04-034|Yamaha|YZ250F|2025"
+     ]
+    },
+    {
+     "claim": "Stock fork and shock spring rates",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "d8ec26a9-2312-5aba-bccd-d4e43a04f096",
+      "424876d5-6a9a-5334-8581-3f354f56412b"
+     ]
+    },
+    {
+     "claim": "Yamaha recommends two-click rebound adjustments for rear bouncing",
+     "tier": "PUBLISHED",
+     "evidence_ids": [
+      "K-y04-035|Yamaha|YZ250F|2025"
+     ]
+    },
+    {
+     "claim": "Progressive packing calls for faster return, not slower",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    },
+    {
+     "claim": "Rider weight may require firmer springs; verify with sag",
+     "tier": "GENERAL",
+     "evidence_ids": []
+    }
+   ],
+   "data_gaps": [],
+   "confidence": "SUPPORTED",
+   "garage_updates": [
+    {
+     "type": "setting",
+     "system": "",
+     "brand": "",
+     "name": "",
+     "field": "skill_level",
+     "value": "c class",
+     "current": ""
+    }
+   ],
+   "app_actions": [],
+   "references": [
+    {
+     "title": "2025 Yamaha YZ250F: Set the suspension back to the standard baseline",
+     "url": "",
+     "attribution": "Yamaha",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers recording the old settings, fork and shock clickers to standard, preload, rider sag and tyre pressures.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    },
+    {
+     "title": "2025 Yamaha YZ250F: Do the pre-ride check",
+     "url": "",
+     "attribution": "Yamaha",
+     "kind": "SOURCE_REVIEWED_OPERATION",
+     "limitations": [
+      "Covers the daily check of fluids, controls, brakes, chain, wheels, steering, suspension and fasteners.",
+      "Exact stock applicability must be checked. Review records are not manufacturer approval or physical validation."
+     ]
+    },
+    {
+     "title": "2025 Yamaha YZ250F — Kris Keefer setup reference",
+     "url": "https://www.keeferinctesting.com/2025-250-mx-baseline-suspension-settings/",
+     "attribution": "Kris Keefer",
+     "kind": "SETUP_PREFERENCE",
+     "limitations": [
+      "Attributed tester starting point; not OEM specification, universal recommendation, or repair procedure.",
+      "Confirm spring, valve, clamp and rider context against source before applying; no tuning while fault remains unresolved.",
+      "Regional scope and exact spring part numbers are not stated."
+     ]
+    }
+   ]
+  },
+  "geared_weight_lb": null
+ }
+]
