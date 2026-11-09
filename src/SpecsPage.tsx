@@ -9,7 +9,7 @@ import type {FactKind} from '../shared/fact-system';
 import {api} from './client';
 import './specs.css';
 
-import {friendlyLocator,splitFact,toSpecRow as toRow,specRows,groupSpecRows,quickSpecs,oilSummary,yourSettings,SPEC_KINDS as KINDS,type SpecRow as Row} from '../shared/specs-view';
+import {friendlyLocator,splitFact,isCatalogClaim,toSpecRow as toRow,specRows,groupSpecRows,quickSpecs,oilSummary,yourSettings,SPEC_KINDS as KINDS,type SpecRow as Row} from '../shared/specs-view';
 export {splitFact};
 
 export function SpecsPage({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
@@ -26,7 +26,7 @@ export function SpecsPage({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
  const jump=(r:Row)=>{setKind('all');setOpen(r.system);setOpenRow(r.c.id);requestAnimationFrame(()=>document.getElementById('sp-'+r.c.id)?.scrollIntoView({block:'center',behavior:'smooth'}));};
  const shown=kind==='all'?rows:rows.filter(r=>r.kind===kind);
  const systems=groupSpecRows(shown);
- async function search(e:FormEvent){e.preventDefault();if(!bike)return;const q=query.trim();if(!q){setFound(null);return;}setSearching(true);setError('');try{setFound(await api<Claim[]>('/claims/search?bike_id='+bike.id+'&q='+encodeURIComponent(q)));}catch(err){setError((err as Error).message);}finally{setSearching(false);}}
+ async function search(e:FormEvent){e.preventDefault();if(!bike)return;const q=query.trim();if(!q){setFound(null);return;}setSearching(true);setError('');try{setFound((await api<Claim[]>('/claims/search?bike_id='+bike.id+'&q='+encodeURIComponent(q))).filter(c=>!isCatalogClaim(c)));}catch(err){setError((err as Error).message);}finally{setSearching(false);}}
  const count=(k:FactKind|'all')=>k==='all'?rows.length:rows.filter(r=>r.kind===k).length;
  const row=(r:Row)=>{const id=r.c.id,on=openRow===id,stack=r.value.length>34;return <li key={id} id={'sp-'+id} className={'sp-row'+(on?' on':'')+(stack?' stack':'')}>
   <button type="button" className="sp-row-main" aria-expanded={on} onClick={()=>setOpenRow(on?'':id)}><span className="sp-name">{r.name}</span><span className="sp-value">{r.value||'—'}</span></button>

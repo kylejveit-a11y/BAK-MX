@@ -6,6 +6,8 @@ const WORDS:[RegExp,string][]=[
  // KTM, Husqvarna and GasGas call the swingarm the "link fork"; their "fork bearing" is the swingarm pivot bearing.
  [/\b(link fork|fork) bearings?\b/gi,'swingarm pivot bearing'],
  [/\blink fork\b/gi,'swingarm'],
+ [/\bfork pivot\b/gi,'swingarm pivot'],
+ [/\b(low|high)speed\b/gi,'$1-speed'],
  [/\bshock absorber heim joint\b/gi,'shock top and bottom bearings (heim joint)'],
  [/\bheim joint\b/gi,'heim joint (shock end bearing)'],
  [/\bbrake linings?\b/gi,'brake pads'],

@@ -2,7 +2,7 @@
 // riders look up most, and their own Garage settings next to stock. Pure; nothing is invented, only re-worded.
 import type {Claim} from './types.ts';
 import {factSystem,factKind,type FactKind,type FactSystem} from './fact-system.ts';
-import {plainName,plainInterval,sameJob} from './plain-facts.ts';
+import {plainName,plainInterval} from './plain-facts.ts';
 
 export type SpecRow={c:Claim;system:FactSystem;kind:FactKind;name:string;value:string;note:string;section:string};
 
@@ -21,22 +21,103 @@ export function splitFact(statement:string):{section:string;name:string;value:st
  return {section:parts.length>1?parts[0]:'',name,value,note};
 }
 
-/** One list row in rider words: plain part name, and for service jobs the one interval a rider follows. */
-export function toSpecRow(c:Claim):SpecRow{const f=splitFact(c.statement),kind=factKind(c);
- return {c,system:factSystem(c),kind,...f,name:settingName(plainName(f.name)),value:kind==='service'?plainInterval(f.value):f.value};}
-/** "Fork · Compression damping · Standard" → "Fork compression (stock)"; "Shock · Riding sag" → "Riding sag". */
-export function settingName(name:string):string{
- const parts=name.split(' · ').map(p=>p.trim()).filter(Boolean);if(parts.length<2)return name;
- const stock=parts.some(p=>/^(standard|stock|standard setting|basic setting)$/i.test(p));
- const rest=parts.filter(p=>!/^(standard|stock|standard setting|basic setting)$/i.test(p));
- const sag=rest.find(p=>/\b(riding|race|static|free) sag\b/i.test(p));if(sag)return sag.charAt(0).toUpperCase()+sag.slice(1);
- const [part,...what]=rest;const tail=what.join(' ').replace(/\s*damping\b/i,'').trim();
- const joined=tail?`${part} ${tail.charAt(0).toLowerCase()+tail.slice(1)}`:part;
- return stock?`${joined} (stock)`:joined;
+/** A maker part or article number on its own: "A460C159Y406000", "48601166S1", "00062010053". Never a measurement: a
+ *  plain number counts only at eight or more digits, far longer than any value printed in brackets. */
+const PART_NUMBER=/^(?=(?:[^0-9]*[0-9]){5})[A-Z0-9][A-Z0-9.\-]{6,}$/i;
+export const isPartNumber=(s:string)=>{const t=s.trim();return PART_NUMBER.test(t)&&(!/^\d+(\.\d+)?$/.test(t)||/^\d{8,}$/.test(t));};
+/** Parts-catalog bookkeeping that was published as a fact: a catalog callout or dimensional designation, an article or part
+ *  number, or a "no torque applies to this washer" review. Real for the parts catalog, noise in a specs list. */
+export function isCatalogClaim(c:Pick<Claim,'statement'|'domain'>):boolean{
+ if(c.domain==='component_identification')return true;
+ const f=splitFact(c.statement);const head=f.name;
+ if(/^(OEM catalog dimensional designation|OEM material designation|Engineering applicability review)\b/i.test(head))return true;
+ if(/\bcallout\b/i.test(head))return true;
+ if(/\b(article|part) (number|no\.?)\b/i.test(head))return true;
+ const first=f.value.split(';')[0].trim();
+ if(/\bassembly$/i.test(head)&&isPartNumber(first))return true;
+ return false;
+}
+/** A value printed with the maker's part number ("5 g; Special grease (00062010053)", "SAE 2.5; 50180751S1") reads as the
+ *  value alone; the number moves to the row's detail so nothing is lost. */
+export function liftPartNumbers(value:string):{value:string;parts:string[]}{
+ const parts:string[]=[];
+ let v=value.replace(/\s*\(([^()]+)\)/g,(m,inner:string)=>{if(isPartNumber(inner)){parts.push(inner.trim());return '';}return m;});
+ v=v.split(';').map(s=>s.trim()).filter(s=>{if(s&&isPartNumber(s)){parts.push(s);return false;}return !!s;}).join('; ');
+ return {value:v.replace(/\s{2,}/g,' ').trim(),parts};
 }
 
-/** All rows for a bike, with jobs printed twice in the manual collapsed to one. */
-export function specRows(claims:Claim[]):SpecRow[]{const out:SpecRow[]=[];for(const c of claims){const r=toSpecRow(c);if(out.some(o=>o.kind===r.kind&&o.system===r.system&&sameJob(o.name,r.name)&&o.value===r.value))continue;out.push(r);}return out;}
+/** One list row in rider words: plain part name, and for service jobs the one interval a rider follows. A condition the manual
+ *  printed inside the value ("Valve clearance / Intake at: 20 °C: 0.10 mm", "Spring rate / Weight of rider: 65 … 75 kg: 42 N/mm")
+ *  moves into the name, so the value is the number alone. */
+export function toSpecRow(c:Claim):SpecRow{const f=splitFact(c.statement),kind=factKind(c);
+ let rawName=f.name,rawValue=f.value;
+ const cond=/\b(at|weight of rider)$/i.test(rawName)?rawValue.match(/^([^:;]{1,60}):\s*(.+)$/):null;
+ if(cond){rawName=rawName.replace(/\s*·?\s*weight of rider$/i,', rider')+' '+cond[1].trim();rawValue=cond[2].trim();}
+ const lifted=kind==='service'?{value:plainInterval(rawValue),parts:[] as string[]}:liftPartNumbers(rawValue);
+ const note=lifted.parts.length?[f.note,`Maker part ${lifted.parts.length>1?'numbers':'number'} ${lifted.parts.join(', ')}.`].filter(Boolean).join(' '):f.note;
+ return {c,system:factSystem(c),kind,section:f.section,note,name:settingName(plainName(rawName)),value:lifted.value};}
+const MODE=/^(standard|stock|standard setting|basic setting|comfort|sport)$/i;
+const modeWord=(p:string)=>/^(comfort|sport)$/i.test(p)?p.toLowerCase():'stock';
+const same=(a:string,b:string)=>a.toLowerCase().replace(/[\s.]+$/,'')===b.toLowerCase().replace(/[\s.]+$/,'');
+/** "Fork · Compression damping · Standard" → "Fork compression (stock)"; "Fork · Rebound damping · Comfort" → "Fork rebound
+ *  (comfort)"; "Fork rebound standard" (no heading) → "Fork rebound (stock)"; "Fork · Fork length" → "Fork length";
+ *  "Shock · Riding sag" → "Riding sag". */
+export function settingName(name:string):string{
+ const parts=name.split(' · ').map(p=>p.trim()).filter((p,i,a)=>p&&!(i>0&&same(p,a[i-1])));
+ if(parts.length<2){
+  const m=name.trim().match(/^(.+?)\s+(standard|stock|comfort|sport)$/i);
+  return m?`${m[1].replace(/\s*damping\b/i,'').trim()} (${modeWord(m[2])})`:(parts[0]??name).replace(/\.$/,'');
+ }
+ const mode=parts.find(p=>MODE.test(p));
+ const rest=parts.filter(p=>!MODE.test(p));
+ const sag=rest.find(p=>/\b(riding|race|static|free) sag\b/i.test(p));if(sag)return sag.charAt(0).toUpperCase()+sag.slice(1);
+ const [part,...what]=rest;let tail=what.join(' ').replace(/\s*damping\b/i,'').trim();
+ // The manual repeats the heading inside the item ("Fork / Fork length", "Shock absorber / Shock absorber article number").
+ const partLc=part.toLowerCase();
+ if(tail.toLowerCase()===partLc)tail='';else if(tail.toLowerCase().startsWith(partLc+' '))tail=tail.slice(part.length+1);
+ const trail=!mode?tail.match(/^(.+?)\s+(standard|stock|comfort|sport)$/i):null;if(trail)tail=trail[1];
+ const joined=tail?`${part} ${tail.charAt(0).toLowerCase()+tail.slice(1)}`:part;
+ const m=mode??trail?.[2];
+ return m?`${joined} (${modeWord(m)})`:joined;
+}
+
+/** Two names for the same thing: same words in any order ("Front suspension travel", "Suspension travel front"), plural or
+ *  hyphen aside. */
+const nameKey=(name:string)=>plainName(name).toLowerCase().replace(/-/g,'').replace(/[^a-z0-9 ]+/g,' ').split(/\s+/).filter(Boolean).map(w=>w.length>3?w.replace(/s$/,''):w).sort().join(' ');
+const rowKey=(r:SpecRow)=>`${r.kind}|${r.system}|${nameKey(r.name)}`;
+/** The value as printed, with the second unit, thousands commas and the spelling of ranges, degrees and plurals set aside,
+ *  so "22 mm" reads the same as "22 mm (0.87 in)" and "10-12 Nm" the same as "10 … 12 Nm". Comparison only; never shown. */
+export function bareValue(v:string):string{
+ return v.replace(/\s*\([^()]*\)/g,'').replace(/(\d),(\d{3})\b/g,'$1$2').replace(/\s*(\+\/-|\+\/−|±)\s*/g,'±').replace(/\s*(…|\.\.\.|–|—|-|to)\s*(?=\d)/g,'-')
+  .replace(/\s*degrees?\b/gi,'°').replace(/cm³/g,'cm3').replace(/(\d)\s*(turns?|clicks?)\b/gi,(_,n,u)=>`${n} ${u.toLowerCase().replace(/s$/,'')}`).replace(/\s+/g,' ').trim().toLowerCase();
+}
+/** "60 Nm" and "60 Nm (44.3 lbf ft); Loctite 2701" are one value: the second only says more. Different numbers are not. */
+function sameValue(a:string,b:string):boolean{
+ if(a===b)return true;
+ const [a0,...aRest]=a.split(';').map(s=>s.trim()),[b0,...bRest]=b.split(';').map(s=>s.trim());
+ if(bareValue(a0)!==bareValue(b0))return false;
+ if(!aRest.length||!bRest.length)return true;
+ return bareValue(aRest.join('; '))===bareValue(bRest.join('; '));
+}
+const richness=(v:string)=>(v.match(/\(/g)?.length??0)*100+v.split(';').length*10+(/\d\s*(turns|clicks)\b/i.test(v)&&/^1\s/.test(v)?0:1)+Math.min(v.length,9)/10;
+/** All rows for a bike: parts-catalog bookkeeping left out, jobs printed twice in the manual collapsed to one, and the same
+ *  value printed twice under one name ("22 mm" and "22 mm (0.87 in)") shown once, with both units. Linear in the number of
+ *  claims, since a bike can carry well over a thousand. */
+export function specRows(claims:Claim[]):SpecRow[]{
+ const out:SpecRow[]=[];const byKey=new Map<string,number[]>();
+ for(const c of claims){
+  if(isCatalogClaim(c))continue;
+  const r=toSpecRow(c);const k=rowKey(r);const seen=byKey.get(k);
+  if(seen){
+   let dup=false;
+   for(const i of seen){const o=out[i];if(sameValue(o.value,r.value)){if(richness(r.value)>richness(o.value))out[i]=r;dup=true;break;}}
+   if(dup)continue;
+   seen.push(out.length);
+  }else byKey.set(k,[out.length]);
+  out.push(r);
+ }
+ return out;
+}
 
 export const SPEC_KINDS:{k:FactKind|'all';label:string}[]=[{k:'all',label:'All'},{k:'torque',label:'Torques'},{k:'setting',label:'Settings'},{k:'service',label:'Service'},{k:'spec',label:'Specs'}];
 export const SPEC_ORDER:FactSystem[]=['Suspension','Oils & fluids','Engine','Wheels & tires','Brakes','Chain & sprockets','Clutch','Transmission','Cooling','Fuel & air','Exhaust','Electrical & ignition','Controls','Chassis','Dimensions & weight','General'];

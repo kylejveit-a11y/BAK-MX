@@ -1,7 +1,7 @@
 // Specs on the phone, in rider words: the values riders look up most, their own settings next to stock, then every
 // published value grouped by part of the bike, one plain row each. Same wording rules as the website (shared/specs-view).
 import React,{useEffect,useMemo,useState} from 'react';
-import {Linking,Text,View} from 'react-native';
+import {ActivityIndicator,Linking,Text,View} from 'react-native';
 import {Pressable} from './Touch';
 import {api} from './api';
 import {Card,Copy,Eyebrow,Field,Icon,LinkAction,Notice,colors} from './ui';
@@ -28,15 +28,16 @@ function Row({r,open,onToggle}:{r:SpecRow;open:boolean;onToggle:()=>void}){
 }
 
 export function SpecsView({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
+ // claims is null only while the request for this bike is in flight; an answer or an error always replaces it.
  const [claims,setClaims]=useState<Claim[]|null>(null),[notice,setNotice]=useState(''),[kind,setKind]=useState<FactKind|'all'>('all'),[find,setFind]=useState(''),[open,setOpen]=useState(''),[shut,setShut]=useState<Record<string,boolean>>({});
- useEffect(()=>{let live=true;setClaims(null);setNotice('');setFind('');setOpen('');if(bike)api<Claim[]>(`/api/claims?bike_id=${bike.id}`).then(r=>{if(!live)return;setClaims(r);if(!r.length)setNotice(`Specs for the ${bike.model_year} ${bike.model} aren’t loaded yet. Ask BAK can still help, and it tells you when a number isn’t published.`);}).catch(e=>{if(live){setClaims([]);setNotice(errorText(e));}});return()=>{live=false;};},[bike?.id]);
+ useEffect(()=>{let live=true;setClaims(bike?null:[]);setNotice('');setFind('');setOpen('');if(bike)api<Claim[]>(`/api/claims?bike_id=${bike.id}`).then(r=>{if(!live)return;setClaims(Array.isArray(r)?r:[]);if(!r.length)setNotice(`Specs for the ${bike.model_year} ${bike.model} aren’t loaded yet. Ask BAK can still help, and it tells you when a number isn’t published.`);},e=>{if(live){setClaims([]);setNotice(errorText(e));}});return()=>{live=false;};},[bike?.id]);
  const rows=useMemo(()=>specRows(claims??[]),[claims]);
  const quick=useMemo(()=>quickSpecs(rows),[rows]),oil=useMemo(()=>oilSummary(rows),[rows]),mine=useMemo(()=>yourSettings(rows,bike?.configuration as Record<string,unknown>|undefined),[rows,bike?.configuration]);
  const q=find.trim().toLowerCase();
  const shown=rows.filter(r=>(kind==='all'||r.kind===kind)&&(!q||(r.name+' '+r.value+' '+r.section+' '+r.c.statement).toLowerCase().includes(q)));
  const groups=groupSpecRows(shown);
  if(!bike)return null;
- if(claims===null)return <Card><Copy>Loading specs…</Copy></Card>;
+ if(claims===null)return <Card><View style={{flexDirection:'row',alignItems:'center',gap:10}}><ActivityIndicator color={colors.accent}/><Copy>Loading specs…</Copy></View></Card>;
  return <>
   <Notice text={notice}/>
   {!!rows.length&&<>
