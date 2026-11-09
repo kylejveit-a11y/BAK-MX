@@ -36,7 +36,7 @@ test('no lookups means no database search; a search failure is surfaced',async()
  const db:any={rpc(){throw new Error('must not be called');}};
  assert.deepEqual(await searchBikeClaims(db,bike,[]),[]);
  const failing:any={rpc(){return Promise.resolve({error:{message:'x'},data:null});}};
- await assert.rejects(searchBikeClaims(failing,bike,['axle']),/could not be searched/);
+ await assert.rejects(searchBikeClaims(failing,bike,['axle']),/couldn’t look up your bike/);
 });
 test('the answer sees only retrieved evidence and may cite only that evidence',async()=>{
  const retrieved=[claim('11111111-1111-4111-8111-111111111111')];
@@ -51,10 +51,10 @@ test('the answer sees only retrieved evidence and may cite only that evidence',a
   assert.equal(result.response.specifications[0].value,retrieved[0].statement);
  });
  await withProvider(()=>ok({...base,evidence_ids:['22222222-2222-4222-8222-222222222222'],specifications:[]}),async()=>{
-  await assert.rejects(generateAnswer(bike,[],retrieved as any,'rear axle torque?',['rear axle nut torque']),/unavailable evidence/);
+  await assert.rejects(generateAnswer(bike,[],retrieved as any,'rear axle torque?',['rear axle nut torque']),(e:unknown)=>/unavailable evidence/.test(String((e as {detail?:string}).detail))&&/couldn’t finish/.test(String((e as Error).message)));
  });
  await withProvider(()=>ok({...base,evidence_ids:[retrieved[0].id],specifications:[{claim_id:retrieved[0].id,value:'Rear axle nut: 90 Nm.'}]}),async()=>{
-  await assert.rejects(generateAnswer(bike,[],retrieved as any,'rear axle torque?',['rear axle nut torque']),/exact verified claim/);
+  await assert.rejects(generateAnswer(bike,[],retrieved as any,'rear axle torque?',['rear axle nut torque']),(e:unknown)=>/exact verified claim/.test(String((e as {detail?:string}).detail)));
  });
 });
 test('answer kinds: a healthy question needs no next step; a diagnosis must have one; an empty answer is refused',async()=>{

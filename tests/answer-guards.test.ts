@@ -147,3 +147,10 @@ test('every setup change is stated in the prose, so a screenshot without the car
  assert.match(withChangeLines('Fork compression is 14 clicks out stock.',rel),/Open 2 clicks/);
  assert.equal(withChangeLines('Open fork compression 2 clicks.',rel),'Open fork compression 2 clicks.');
 });
+
+test('every prompt-input field name is caught if it leaks into the rider-facing text',()=>{
+ const base={kind:'answer',summary:'s',setup_changes:[],observations:[],systems:[],hypotheses:[],unknowns:[],next_step:null,specifications:[],evidence_ids:[],confidence:'LIMITED',garage_updates:[],app_actions:[],data_gaps:[],claims:[]};
+ const keys=['app_help','app_context','race_mode','fuel_system','manufacturer_setup_guidance','recent_setup_results','rider_photos_attached','spec_lookups_performed','evidence_boundary','hypothesis_boundary','spoken_reply','tester_baselines_private','rider_wear_data','race_day_fuel','rider_fit','bike_knowledge','engineering_numbers'];
+ for(const k of keys){const v=responseViolations({...base,answer:`Per ${k} the setting is 12 clicks.`} as never,[],[],[]);assert.ok(v.some(x=>/how BAK is fed|internal/i.test(x)),`${k} should be caught`);}
+ assert.deepEqual(responseViolations({...base,answer:'Go two clicks out on fork compression.'} as never,[],[],[]),[]);
+});

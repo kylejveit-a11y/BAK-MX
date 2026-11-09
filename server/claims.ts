@@ -19,7 +19,7 @@ export async function searchBikeClaims(db:SupabaseClient,bike:Bike,queries:strin
  const scope=exactBikeScope(bike),lists:Claim[][]=[];
  for(const query of [...new Set(queries.map(q=>q.trim()).filter(Boolean))].slice(0,MAX_QUERIES)){
   const {data,error}=await db.rpc('search_bike_evidence',{p_manufacturer:scope.manufacturer,p_model:scope.model,p_model_year:scope.model_year,p_variant:scope.variant,p_region:scope.region,p_query:query.slice(0,200),p_limit:SEARCH_LIMIT});
-  if(error||!Array.isArray(data))throw new HttpError(503,'Verified bike evidence could not be searched');
+  if(error||!Array.isArray(data))throw new HttpError(503,'BAK couldn’t look up your bike’s published settings just now. Try again.');
   lists.push(applicableClaims(data as Claim[],bike));
  }
  return mergeSearchResults(lists);
