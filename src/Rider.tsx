@@ -7,7 +7,7 @@ import {addPhotos,uploadClip,CLIP_MAX_SECONDS,type Clip,type Photo} from './phot
 import {PhotoEditor} from './PhotoEditor';
 import {garageModelInfo} from '../shared/garage-models';
 import {adjusters,beforeYouTune,symptomGuides,mechanicalMimics,talkingToYourTuner,workOrder} from '../shared/setup-knowledge';
-import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type EventType,yearRanges,type Part,type PartAssembly,type PartCatalog,type PartFit,type Post,type PostCategory,type PostComment,type ListedRider,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../shared/rider-types';
+import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,eventHostLine,setupDifferences,type EventType,yearRanges,type Part,type PartAssembly,type PartCatalog,type PartFit,type Post,type PostCategory,type PostComment,type ListedRider,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../shared/rider-types';
 import './rider.css';
 import {TrackReportCard} from './TrackReport';
 
@@ -361,9 +361,9 @@ export function Events({signedIn,onSignIn,onMessage}:{signedIn:boolean;onSignIn:
     <h3>{ev.title}</h3>
     <p className="rd-eventline"><Clock3 size={15}/><span>{when(ev.starts_at)}{ev.ends_at?' – '+when(ev.ends_at):''}</span></p>
     <p className="rd-eventline"><MapPin size={15}/><span>{ev.location_name}</span></p>
-    <p className="rd-host"><Avatar rider={ev.host} size={22}/><span className="subtle">Hosted by {riderName(ev.host)} · {ev.going_count} going · {ev.interested_count} interested</span></p>
+    <p className="rd-host"><Avatar rider={ev.host} size={22}/><span className="subtle">{eventHostLine(riderName(ev.host),ev,past)}</span></p>
     {open===ev.id&&ev.description&&<p className="plain-message">{ev.description}</p>}
-    <GoingList ev={ev} open={whoGoing===ev.id} onToggle={()=>setWhoGoing(whoGoing===ev.id?'':ev.id)} onRider={setViewing}/>
+    {!past&&<GoingList ev={ev} open={whoGoing===ev.id} onToggle={()=>setWhoGoing(whoGoing===ev.id?'':ev.id)} onRider={setViewing}/>}
     {askPublic===ev.id&&<div className="rd-confirm" role="dialog" aria-label="Confirm you are going">
      <p><strong>You’re going to {ev.title}.</strong> Show your profile on the going list? You’re counted in the total either way.</p>
      <div className="button-row"><button type="button" className="button" disabled={rsvpBusy===ev.id} onClick={()=>void rsvp(ev,'going',true)}>Yes, show me</button><button type="button" className="button secondary" disabled={rsvpBusy===ev.id} onClick={()=>void rsvp(ev,'going',false)}>Keep me private</button><button type="button" className="text-button" onClick={()=>setAskPublic('')}>Cancel</button></div>

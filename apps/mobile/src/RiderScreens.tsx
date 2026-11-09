@@ -19,7 +19,7 @@ import {DateField,rideDays,recentDays} from './DateSheet';
 import {AttachedPhotos,PostPhotos} from './PhotoUI';
 import {addPhotos,pickImages,pickAndUploadClip,uploadPhoto,type Clip,type Photo} from './photos';
 import type {Bike} from '../../../shared/types';
-import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type Part,type PartAssembly,type PartCatalog,type Post,type PostCategory,type PostComment,type ListedRider,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../../../shared/rider-types';
+import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,eventHostLine,setupDifferences,type Part,type PartAssembly,type PartCatalog,type Post,type PostCategory,type PostComment,type ListedRider,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../../../shared/rider-types';
 import {setupLogsWithPending} from './HomeBlocks';
 import {api,apiQueued} from './api';
 import {enablePushAfterReminder} from './push';
@@ -318,7 +318,9 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
  if(viewing)return <RiderProfileView riderId={viewing} onBack={()=>setViewing('')} onMessage={r=>{setViewing('');onMessage(r);}}/>;
  if(profile===undefined)return <Page title="Events"><Copy>Loading…</Copy></Page>;
  if(!profile)return <Page title="Events"><Copy>Ride days, races, practice nights, clinics and meetups posted by riders.</Copy><NeedsProfile onSaved={setProfile}/></Page>;
- return <Page title="Events">
+ // The primary action rides in the page footer, above the tab bar and the keyboard, so it is never half under either.
+ const publish=creating?<View style={{padding:12,gap:6}}><Notice text={formNotice}/><Button disabled={busy} title={busy?'Saving…':'Publish event'} onPress={()=>void create()}/></View>:undefined;
+ return <Page title="Events" footer={publish} footerForAction>
   <Segments value={scope} items={[{value:'upcoming',label:'Upcoming'},{value:'past',label:'Past'}]} onChange={setScope}/>
   {!creating&&<StartRow icon="flag" title="Post an event" detail="Ride day, race, practice night, clinic or meetup" onPress={()=>{setFormNotice('');setCreating(true);}}/>}
   {creating&&<Card><FormHead title="New event" onCancel={()=>{setFormNotice('');setCreating(false);}}/>
@@ -328,7 +330,7 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
    <DateField disabled={busy} label="Ends" time optional seed={starts} value={ends} onChange={setEnds} years={[new Date().getFullYear(),new Date().getFullYear()+2]} quick={rideDays()}/>
    <Field editable={!busy} label="Track or location" placeholder="Track name or address" value={place} onChangeText={setPlace} maxLength={160} autoCapitalize="words"/>
    <Field editable={!busy} label="Details" placeholder="Gate time, classes, cost, what to bring" value={details} onChangeText={setDetails} multiline maxLength={4000} autoCapitalize="sentences"/>
-   <Button disabled={busy} title={busy?'Saving…':'Publish event'} onPress={()=>void create()}/><Notice text={formNotice}/></Card>}
+  </Card>}
   <Notice text={notice}/>
   {loading&&!events.length&&<SkeletonList kind="event"/>}
   {!loading&&!events.length&&<Card><Copy strong>{scope==='upcoming'?'No upcoming events yet.':'No past events.'}</Copy><Copy>{scope==='upcoming'?'Post the next ride day or practice night so other riders can plan around it.':'Events you could see are listed here after they happen.'}</Copy></Card>}
@@ -336,9 +338,9 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
    <Row><Tag text={EVENT_TYPE_LABELS[ev.event_type]}/>{ev.canceled_at?<Tag tone="bad" text="Canceled"/>:ev.my_rsvp?<Tag tone="good" text={ev.my_rsvp==='going'?'You’re going':'Interested'}/>:null}</Row>
    <Text style={{color:ev.canceled_at?colors.muted:colors.text,fontSize:19,fontWeight:'700',textDecorationLine:ev.canceled_at?'line-through':'none'}}>{ev.title}</Text>
    <View style={{gap:6}}><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="clock" size={17} color="#adb5c1"/><Text style={{color:'#c9cfd9',fontSize:15}}>{when(ev.starts_at)}{ev.ends_at?' – '+when(ev.ends_at):''}</Text></View><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="location" size={17} color="#adb5c1"/><Text style={{color:'#c9cfd9',fontSize:15,flex:1}}>{ev.location_name}</Text></View></View>
-   <Copy>Hosted by {riderName(ev.host)} · {ev.going_count} going · {ev.interested_count} interested</Copy>
+   <Copy>{eventHostLine(riderName(ev.host),ev,scope==='past')}</Copy>
    {open===ev.id&&!!ev.description&&<Text selectable style={{color:colors.text,fontSize:15,lineHeight:23}}>{ev.description}</Text>}
-   {ev.going_count>0&&<Pressable accessibilityRole="button" accessibilityLabel="See who's going" onPress={()=>setGoing(ev)} style={{flexDirection:'row',alignItems:'center',gap:8}}>
+   {ev.going_count>0&&scope==='upcoming'&&<Pressable accessibilityRole="button" accessibilityLabel="See who's going" onPress={()=>setGoing(ev)} style={{flexDirection:'row',alignItems:'center',gap:8}}>
     <View style={{flexDirection:'row'}}>{(ev.going_riders??[]).slice(0,5).map((r,i)=><View key={r.user_id} style={{marginLeft:i?-8:0,borderRadius:14,borderWidth:2,borderColor:colors.panel}}><Avatar name={riderName(r)} uri={r.avatar_url} size={24}/></View>)}</View>
     <Text style={{color:'#adb5c1',fontSize:13.5,flex:1}}>{(ev.going_riders??[]).length?`${(ev.going_riders??[]).slice(0,2).map(r=>r.me?'You':riderName(r)).join(', ')}${ev.going_count>2?` and ${ev.going_count-Math.min(2,(ev.going_riders??[]).length)} more`:''} going`:`${ev.going_count} going`}</Text>
    </Pressable>}

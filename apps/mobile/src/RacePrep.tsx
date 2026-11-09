@@ -2,7 +2,7 @@
 // kind of riding; Edit list adds their own items, removes what they don't use and reorders. The list is saved to the
 // account; checks are kept on the phone until they start fresh.
 import React,{useCallback,useEffect,useMemo,useRef,useState} from 'react';
-import {Modal,ScrollView,Text,TextInput,View} from 'react-native';
+import {Modal,ScrollView,StyleSheet,Text,TextInput,View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import Svg,{Defs,LinearGradient,Rect,Stop} from 'react-native-svg';
 import {RACE_PHASES,hydratePrepList,toSaved,defaultPrepList,fitsEngine,engineOf,disciplineOf,type PrepItem,type RacePhase} from '../../../shared/race-prep';
@@ -75,8 +75,11 @@ export function RacePrepSheet({visible,onClose,account,bike,startPhase='week',ki
  const remove=(id:string)=>saveList(list.filter(i=>i.id!==id));
  const add=()=>{const label=draft.trim().slice(0,80);if(!label)return;saveList([...list,{id:'own-'+Date.now().toString(36)+Math.random().toString(36).slice(2,6),label,phase,custom:true}]);setDraft('');success();};
  const counts=useMemo(()=>Object.fromEntries(PHASES.map(p=>{const its=list.filter(i=>i.phase===p.id);return [p.id,[its.filter(i=>checks[i.id]).length,its.length]];})),[list,checks,PHASES]);
- return <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
-  <View style={{flex:1,backgroundColor:colors.bg,paddingTop:18}}>
+ // The sheet owns the whole screen, from the status bar down: the app's header bar never shows above it. The title row and
+ // the phase tabs are a fixed header (sized by their content, never shrunk to make room for the list); only the checklist
+ // scrolls beneath them.
+ return <Modal visible={visible} animationType="slide" presentationStyle="fullScreen" statusBarTranslucent onRequestClose={onClose}>
+  <View style={{flex:1,backgroundColor:colors.bg,paddingTop:insets.top+12}}>
    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:20,paddingBottom:6}}>
     <View style={{gap:6}}><Text style={{color:colors.text,fontSize:28,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.8}}>{kind==='practice'?'Practice checklist':'Race prep'}</Text><View style={{flexDirection:'row',gap:4}}><MetalMark width={26}/><MetalMark width={8} dim/></View></View>
     <View style={{flexDirection:'row',gap:18,alignItems:'center'}}>
@@ -84,12 +87,12 @@ export function RacePrepSheet({visible,onClose,account,bike,startPhase='week',ki
      <Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Close</Text></Pressable>
     </View>
    </View>
-   <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{paddingHorizontal:20,gap:8,paddingVertical:12}} style={{flexGrow:0}}>
+   <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{paddingHorizontal:20,gap:8,paddingVertical:12}} style={{flexGrow:0,flexShrink:0,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#262b34'}}>
     {PHASES.map(p=>{const on=p.id===phase,[d,t]=counts[p.id];return <Pressable key={p.id} haptic="select" accessibilityRole="tab" accessibilityState={{selected:on}} onPress={()=>setPhase(p.id)} style={({pressed})=>({paddingHorizontal:14,paddingVertical:9,borderRadius:18,borderWidth:1,borderColor:on?colors.accent:'#2f3540',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}>
      <Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:14,fontWeight:on?'800':'600'}}>{p.short}{t?<Text style={{color:on?colors.accent:'#7d8593',fontWeight:'700'}}>  {d}/{t}</Text>:null}</Text>
     </Pressable>;})}
    </ScrollView>
-   <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{paddingHorizontal:20,paddingBottom:insets.bottom+30,gap:10}}>
+   <ScrollView keyboardShouldPersistTaps="handled" automaticallyAdjustKeyboardInsets style={{flex:1}} contentContainerStyle={{paddingHorizontal:20,paddingTop:14,paddingBottom:insets.bottom+30,gap:10}}>
     <View style={{gap:8}}>
      <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'baseline'}}><Eyebrow>{(PHASES.find(p=>p.id===phase)??PHASES[0]).label.toUpperCase()}</Eyebrow><Text style={{color:colors.muted,fontSize:13}}>{done} of {items.length}</Text></View>
      <Progress done={done} total={items.length}/>

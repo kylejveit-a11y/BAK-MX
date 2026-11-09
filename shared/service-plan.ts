@@ -74,18 +74,20 @@ export function buildServicePlan(rows:{id:string;statement:string}[]):PlanItem[]
  return [...best.values()].sort((a,b)=>order.indexOf(a.category)-order.indexOf(b.category));
 }
 
-/** Where each maker's job stands for this bike: hours since it was last logged (or since new) against the maker's interval.
+/** Where each maker's job stands for this bike: hours since it was last logged against the maker's interval.
  *  `due` is the hour reading the job comes due at; `left` is how many hours remain (negative or zero means due now).
- *  Both are null when the bike's hours are unknown. Sorted soonest first; never-logged jobs with unknown hours go last. */
+ *  Both are null when the bike's hours are unknown, and for a job that has never been logged: with no record of when it was
+ *  last done BAK cannot say it is due, so the row only says "not logged yet". The one exception is a new bike that has not yet
+ *  reached the maker's break-in service hour: that job cannot have been done, so it is due at the break-in figure.
+ *  Sorted soonest first; rows with no figure go last. */
 export type ServiceEventLike={category:string;engine_hours:number|null};
 export type DueRow<E extends ServiceEventLike=ServiceEventLike>={item:PlanItem;last:E|null;due:number|null;left:number|null};
 export function serviceDueRows<E extends ServiceEventLike>(plan:PlanItem[],events:E[],hours:number|null|undefined):DueRow<E>[]{
  const h=hours??null;
  return plan.map(item=>{
   const last=events.filter(e=>e.category===item.category&&e.engine_hours!=null).sort((a,b)=>(b.engine_hours??0)-(a.engine_hours??0))[0]??null;
-  const at=last?.engine_hours??0;
-  // Logged before: the next one is one interval on. Never logged: the break-in figure while it still applies, else the first regular interval.
-  const due=h!=null?(last?at+item.every_hours:(item.first_hours!=null&&h<item.first_hours+item.every_hours?item.first_hours:item.every_hours)):null;
+  // Logged before: the next one is one interval on. Never logged: no due figure, except the break-in service on a bike still short of it.
+  const due=h==null?null:last?(last.engine_hours as number)+item.every_hours:(item.first_hours!=null&&h<item.first_hours?item.first_hours:null);
   const left=due!=null&&h!=null?round1(due-h):null;
   return {item,last,due,left};
  }).sort((a,b)=>(a.left??1e9)-(b.left??1e9));
@@ -95,11 +97,12 @@ export function comingUp<E extends {next_due_hours:number|null}>(events:E[],hour
  const h=hours??null;
  return events.filter(e=>e.next_due_hours!==null).map(e=>({e,left:h===null?null:round1((e.next_due_hours as number)-h)})).sort((a,b)=>(a.left??1e9)-(b.left??1e9)).slice(0,limit);
 }
-/** One plain line for a due row: "every 15 h · 3.5 h to go", "every 15 h · due now", "every 15 h · not logged yet". */
+/** One plain line for a due row: "every 15 h · 3.5 h to go", "every 15 h · due now", "every 15 h · not logged yet".
+ *  A never-logged job has no due state: the line says so and nothing more. */
 export function dueLine(row:{item:PlanItem;last:unknown|null;left:number|null}):string{
  const parts=[`every ${row.item.every_hours} h`];
  if(row.left!=null)parts.push(row.left<=0?'due now':`${row.left} h to go`);
- if(!row.last)parts.push('not logged yet');
+ if(!row.last&&row.left==null)parts.push('not logged yet');
  if(row.item.note)parts.push(row.item.note);
  return parts.join(' · ');
 }

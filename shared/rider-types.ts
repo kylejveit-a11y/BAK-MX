@@ -19,6 +19,13 @@ export type PartAssembly={id:string;name:string;diagram_url:string;source_url:st
 export type Part={id:number;position:number;callout:string;part_number:string|null;description:string;quantity_raw:string;remarks:string};
 export type PartFit={manufacturer:string;model:string;years:number[];regions:string[];assemblies:string[]};
 /** 2020, 2021, 2022, 2025 → "2020–2022, 2025" */
+/** The host line under an event: "Hosted by Kyle · 3 going · 2 interested". A zero count is left out ("0 going" reads as a
+ *  failure, not a fact), and a past event shows no counts at all. */
+export function eventHostLine(hostName:string,ev:{going_count:number;interested_count:number},past=false):string{
+ const parts=[`Hosted by ${hostName}`];
+ if(!past){if(ev.going_count>0)parts.push(`${ev.going_count} going`);if(ev.interested_count>0)parts.push(`${ev.interested_count} interested`);}
+ return parts.join(' · ');
+}
 export function yearRanges(years:number[]):string{
  const sorted=[...new Set(years)].sort((a,b)=>a-b),out:string[]=[];
  for(let i=0;i<sorted.length;){let j=i;while(j+1<sorted.length&&sorted[j+1]===sorted[j]+1)j++;out.push(j>i?`${sorted[i]}–${sorted[j]}`:String(sorted[i]));i=j+1;}

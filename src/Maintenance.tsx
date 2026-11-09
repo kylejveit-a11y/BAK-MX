@@ -82,10 +82,12 @@ function MaintenanceForBike({bike}:{bike:Bike}){
   </form></section>
   :<button className="rx-start" onClick={()=>setAdding(true)}><span className="rx-start-icon"><Droplets size={20}/></span><span><b>Log service</b><small>What you did and at how many hours</small></span><ChevronRight size={18}/></button>}
 
-  {coming.length>0&&<section className="panel"><span className="eyebrow">COMING UP</span>
-   <ul className="rx-coming">{coming.map(({key,category,left,at})=><li key={key} className={left!==null&&left<=0?'due':''}>{category}: {left===null?`at ${at} hours`:left<=0?'due now':`in ${left} hours`}</li>)}</ul>
+  {/* With nothing logged BAK has no idea when a job was last done, so it asks for that instead of guessing a due date. */}
+  <section className="panel"><span className="eyebrow">COMING UP</span>
+   {coming.length>0?<ul className="rx-coming">{coming.map(({key,category,left,at})=><li key={key} className={left!==null&&left<=0?'due':''}>{category}: {left===null?`at ${at} hours`:left<=0?'due now':`in ${left} hours`}</li>)}</ul>
+   :<p className="rx-copy">{list.some(e=>e.engine_hours!=null||e.next_due_hours!=null)?'Nothing due in the next 10 hours.':'Log your last oil change, filter or top end and BAK works out what’s next.'}</p>}
    {hours===null&&<p className="rx-note">Add the hours on the bike in Garage and BAK counts down to each one.</p>}
-  </section>}
+  </section>
 
   {!adding&&events!==null&&<ServicePlanCard bike={bike} plan={plan} events={list} onLog={logFromPlan}/>}
 

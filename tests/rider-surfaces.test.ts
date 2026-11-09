@@ -72,3 +72,12 @@ test('rider text is screened, engine terms are not, and a profile needs accepted
  const insert=ready.calls.find(c=>c.table==='profiles'&&c.op==='insert')?.args[0] as any;
  assert.ok(insert.accepted_rules_at);assert.equal(insert.accept_rules,undefined);
 });
+
+import {eventHostLine} from '../shared/rider-types.ts';
+test('event host line: zero counts are left out, past events show no counts',()=>{
+ assert.equal(eventHostLine('Kyle',{going_count:0,interested_count:0}),'Hosted by Kyle');
+ assert.equal(eventHostLine('Kyle',{going_count:3,interested_count:0}),'Hosted by Kyle · 3 going');
+ assert.equal(eventHostLine('Kyle',{going_count:3,interested_count:2}),'Hosted by Kyle · 3 going · 2 interested');
+ assert.equal(eventHostLine('Kyle',{going_count:0,interested_count:2}),'Hosted by Kyle · 2 interested');
+ assert.equal(eventHostLine('Kyle',{going_count:3,interested_count:2},true),'Hosted by Kyle');
+});

@@ -42,21 +42,40 @@ test('statement splitting keeps the task and drops the source note',()=>{
  assert.deepEqual(hoursIn('every 15 operating hours; every 24 months'),{repeat:[15],first:null});
 });
 
-import {serviceDueRows,comingUp,dueLine} from '../shared/service-plan.ts';
-test('due rows: last log sets the next one, break-in applies before the first interval, soonest first, unknown hours give no figures',()=>{
+import {serviceDueRows,comingUp,dueLine,upNext} from '../shared/service-plan.ts';
+test('a bike with hours and nothing logged: nothing in Coming up, every maker row reads "not logged yet"',()=>{
+ const plan=buildServicePlan(ktm);
+ assert.deepEqual(upNext(plan,[],64),[]);
+ const rows=serviceDueRows(plan,[],64);
+ assert.ok(rows.length>0);
+ for(const r of rows){assert.equal(r.left,null);assert.match(dueLine(r),/not logged yet$/);assert.doesNotMatch(dueLine(r),/due now/);}
+ // one logged job brings that job, and only that job, into Coming up once it is within the soon window
+ assert.equal(upNext(plan,[{category:'Engine oil',engine_hours:60,next_due_hours:null}],64).length,0);
+ const soon=upNext(plan,[{category:'Engine oil',engine_hours:50,next_due_hours:null}],64);
+ assert.deepEqual(soon.map(x=>[x.category,x.left,x.at]),[['Engine oil',1,65]]);
+});
+test('due rows: last log sets the next one, never-logged jobs have no due state, soonest first, unknown hours give no figures',()=>{
  const plan=buildServicePlan(ktm);
  const events=[{category:'Engine oil',engine_hours:20},{category:'Engine oil',engine_hours:5},{category:'Air filter',engine_hours:null}];
  const rows=serviceDueRows(plan,events,32);
  const oil=rows.find(r=>r.item.category==='Engine oil')!;
  assert.equal(oil.last?.engine_hours,20);assert.equal(oil.due,35);assert.equal(oil.left,3);
+ // never logged (an entry with no hours does not count): BAK does not know when it was last done, so it is not "due now"
  const air=rows.find(r=>r.item.category==='Air filter')!;
- assert.equal(air.last,null);assert.equal(air.due,15);assert.equal(air.left,-17);
- assert.equal(dueLine(air),'every 15 h · due now · not logged yet');
+ assert.equal(air.last,null);assert.equal(air.due,null);assert.equal(air.left,null);
+ assert.equal(dueLine(air),'every 15 h · not logged yet');
  assert.equal(dueLine(oil),'every 15 h · 3 h to go');
  assert.deepEqual(rows.map(r=>r.left),[...rows.map(r=>r.left)].sort((a,b)=>(a??1e9)-(b??1e9)));
- // a new bike still inside the break-in window: the first service is the break-in one
+ assert.equal(rows[0].item.category,'Engine oil');
+ // a logged job that has run past its interval is overdue
+ const over=serviceDueRows(plan,[{category:'Engine oil',engine_hours:40}],64).find(r=>r.item.category==='Engine oil')!;
+ assert.equal(over.due,55);assert.equal(over.left,-9);assert.equal(dueLine(over),'every 15 h · due now');
+ // a new bike that has not reached the break-in hour yet: that first service cannot have been done, so it is due at the break-in figure
  const fresh=serviceDueRows(plan,[],0.5).find(r=>r.item.category==='Valve check')!;
  assert.equal(fresh.due,1);assert.equal(fresh.left,0.5);
+ // past the break-in hour with nothing logged: no due state either
+ const past=serviceDueRows(plan,[],1.5).find(r=>r.item.category==='Valve check')!;
+ assert.equal(past.due,null);assert.equal(past.left,null);
  const unknown=serviceDueRows(plan,events,null);
  assert.ok(unknown.every(r=>r.due===null&&r.left===null));
  assert.equal(dueLine(unknown.find(r=>r.item.category==='Engine oil')!),'every 15 h');

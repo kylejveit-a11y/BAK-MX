@@ -3,10 +3,11 @@ import assert from 'node:assert/strict';
 import {upNext} from '../shared/service-plan.ts';
 import {typeOf} from '../shared/part-types.ts';
 const plan=[{category:'Valve check',every_hours:30,first_hours:null,task:'',claim_id:'a',note:null},{category:'Engine oil',every_hours:15,first_hours:null,task:'',claim_id:'b',note:null},{category:'Air filter',every_hours:5,first_hours:null,task:'',claim_id:'c',note:null}];
-test('Coming up lists a maker job that is due now, not only the rider\'s reminders',()=>{
- const events=[{category:'Engine oil',engine_hours:58,next_due_hours:73},{category:'Air filter',engine_hours:63,next_due_hours:null}];
+test('Coming up lists a logged maker job that is due now, not only the rider\'s reminders; a never-logged job stays out',()=>{
+ const events=[{category:'Valve check',engine_hours:30,next_due_hours:null},{category:'Engine oil',engine_hours:58,next_due_hours:73},{category:'Air filter',engine_hours:63,next_due_hours:null}];
  const list=upNext(plan,events,64);
- assert.equal(list[0].category,'Valve check');assert.ok((list[0].left??1)<=0,'valve check is due now');
+ assert.equal(list[0].category,'Valve check');assert.ok((list[0].left??1)<=0,'valve check logged at 30 h with a 30 h interval is due now');
+ assert.ok(!upNext(plan,events.filter(e=>e.category!=='Valve check'),64).some(r=>r.category==='Valve check'),'never logged: no due state');
  assert.ok(list.some(r=>r.category==='Engine oil'&&r.left===9));
  assert.equal(list.filter(r=>r.category==='Engine oil').length,1,'one line per job');
 });

@@ -2,7 +2,7 @@
 // bike, then BAK writes a starting setup from the bike's published settings. New riders get to a useful answer before they
 // have filled in anything else; the same sheet reopens from Home for a fresh starting point any time.
 import React,{useEffect,useState} from 'react';
-import {Keyboard,Modal,ScrollView,Text,TextInput,View} from 'react-native';
+import {Keyboard,Modal,ScrollView,StyleSheet,Text,TextInput,View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import type {Bike} from '../../../shared/types';
 import {RIDING_TYPES} from '../../../shared/garage-fields';
@@ -32,8 +32,11 @@ export function FirstSetupSheet({visible,bike,onClose,onSaved,onAsk}:{visible:bo
  }
  const chips=(items:string[],value:string,set:(v:string)=>void)=><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{items.map(i=>{const on=i===value;return <Pressable key={i} haptic="select" accessibilityRole="radio" accessibilityState={{selected:on}} onPress={()=>set(on&&items===DIRT?'':i)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,paddingHorizontal:14,minHeight:40,borderRadius:12,borderWidth:1,borderColor:on?'#4a5160':'#2a2f39',backgroundColor:on?'#1e232c':'transparent',opacity:pressed?0.7:1})}>{on&&<Icon name="check" size={14} color={colors.accent} weight={2.4}/>}<Text style={{color:on?'#ffffff':'#b2b9c4',fontSize:15,fontWeight:on?'700':'500'}}>{i}</Text></Pressable>;})}</View>;
  const label=(t:string,sub?:string)=><View style={{gap:2}}><Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>{t}</Text>{!!sub&&<Text style={{color:'#8f97a4',fontSize:13}}>{sub}</Text>}</View>;
+ // The sheet is a column: the questions scroll, the Save button sits in a fixed footer above the home indicator, so it is
+ // always whole and tappable; it never ends up half under the bottom safe area.
  return <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
-  <ScrollView keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets style={{flex:1,backgroundColor:colors.bg}} contentContainerStyle={{padding:20,paddingBottom:insets.bottom+24,gap:22}}>
+  <View style={{flex:1,backgroundColor:colors.bg}}>
+  <ScrollView keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets style={{flex:1}} contentContainerStyle={{padding:20,paddingBottom:24,gap:22}}>
    <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Text style={{color:colors.text,fontSize:26,fontWeight:'900',fontStyle:'italic'}}>Starting setup</Text><Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.muted,fontSize:16}}>Close</Text></Pressable></View>
    <Copy>Four quick answers about you. BAK sets the {bike.model_year} {bike.manufacturer} {bike.model} up from its published settings for your weight, level and the kind of riding you do. About a minute.</Copy>
    <View style={{gap:10}}>{label('Weight in riding gear','Boots, helmet, the lot. Springs and sag come from this.')}
@@ -42,9 +45,12 @@ export function FirstSetupSheet({visible,bike,onClose,onSaved,onAsk}:{visible:bo
    <View style={{gap:10}}>{label('Riding level')}{chips(LEVELS,level,setLevel)}</View>
    <View style={{gap:10}}>{label('Main kind of riding')}{chips(RIDING_TYPES,discipline,setDiscipline)}</View>
    <View style={{gap:10}}>{label('Usual dirt','Optional. Tap again to clear.')}{chips(DIRT,dirt,setDirt)}</View>
-   <Notice text={notice} tone={notice?'warn':undefined}/>
-   <Button disabled={busy||!ready} title={busy?'Saving…':'Save and get my setup'} onPress={()=>void go()}/>
    <Text style={{color:'#7d8593',fontSize:12.5,lineHeight:18}}>These go on the bike in Garage, where you can change them any time. BAK’s answer uses the bike’s own published settings and says what it doesn’t have.</Text>
   </ScrollView>
+  <View style={{paddingHorizontal:20,paddingTop:12,paddingBottom:Math.max(insets.bottom,12)+8,gap:8,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',backgroundColor:colors.bg}}>
+   <Notice text={notice} tone={notice?'warn':undefined}/>
+   <Button disabled={busy||!ready} title={busy?'Saving…':'Save and get my setup'} onPress={()=>void go()}/>
+  </View>
+  </View>
  </Modal>;
 }
