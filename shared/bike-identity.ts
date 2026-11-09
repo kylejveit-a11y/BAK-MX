@@ -6,6 +6,10 @@ const squash=(v:string)=>v.toLowerCase().replace(/[^a-z0-9]/g,'');
 export function canonicalModel(make:string,value:string){const list=known[canonicalManufacturer(make)];return list?.find(m=>m.toLowerCase()===value.trim().toLowerCase())??list?.find(m=>squash(m)===squash(value))??value.trim();}
 /** Honda's Works Edition is stored as variant "RWE" whatever the rider calls it ("Works Edition", "CRF450RWE", "HRC WE"). */
 export function canonicalVariant(value:string){const v=value.trim();if(/^(standard|stock|base)$/i.test(v))return 'standard';if(/^(crf\s?\d{3}\s?)?(rwe|r[\s-]?we|works(\s|-)?edition|hrc(\s|-)?(we|works(\s|-)?edition))$/i.test(v))return 'RWE';return v;}
+/** Editions the server's data knows (canonical names). Anything else is kept as typed, so "Other" stays free text. */
+export const BIKE_EDITIONS:{value:string;label:string}[]=[{value:'standard',label:'Standard'},{value:'Factory Edition',label:'Factory Edition'},{value:'RWE',label:'Works Edition (RWE)'},{value:'RM Army Edition',label:'RM Army Edition'}];
+/** Markets the server's data covers. US is the only one with evidence today; another market is kept as typed. */
+export const BIKE_MARKETS:{value:string;label:string}[]=[{value:'US',label:'US'}];
 export function canonicalRegion(value:string){const v=value.trim();return /^(us|usa|united states)$/i.test(v)?'US':v;}
 export function exactBikeScope(bike:Pick<Bike,'manufacturer'|'model'|'model_year'|'variant'|'region'>){return {manufacturer:canonicalManufacturer(bike.manufacturer),model:canonicalModel(bike.manufacturer,bike.model),model_year:bike.model_year,variant:canonicalVariant(bike.variant),region:canonicalRegion(bike.region)};}
 export function sameBikeScope(a:Pick<Bike,'manufacturer'|'model'|'model_year'|'variant'|'region'>,b:Pick<Bike,'manufacturer'|'model'|'model_year'|'variant'|'region'>){return JSON.stringify(exactBikeScope(a))===JSON.stringify(exactBikeScope(b));}

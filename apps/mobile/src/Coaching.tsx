@@ -5,6 +5,7 @@ import {ActivityIndicator,Image,ScrollView,Text,View} from 'react-native';
 import {Pressable} from './Touch';
 import type {Bike} from '../../../shared/types';
 import {coachFocus,type ChatMedia} from '../../../shared/coach-focus';
+import {CLIP_PRO_NOTE} from '../../../shared/plans';
 import {api} from './api';
 import type {Photo} from './photos';
 import {MessagePhotos} from './PhotoUI';
@@ -30,12 +31,14 @@ export function CoachingList({bike,onCoach}:{bike:Bike;onCoach:()=>void}){
  const {sessions,error}=useCoachingSessions(bike.id);
  return <Card>
   <View style={{flexDirection:'row',alignItems:'baseline',justifyContent:'space-between'}}><Eyebrow>COACHING</Eyebrow>{!!sessions?.length&&<Text style={{color:'#9aa2ae',fontSize:12.5}}>{sessions.length} session{sessions.length===1?'':'s'}</Text>}</View>
+  <Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>Clip coaching</Text>
+  <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>Send BAK a short clip of you riding a corner, jump or section. It comes back with the one fix and a drill, and each session lands here so you can send a new clip to check it stuck.</Text>
+  <Button title="Coach me from a clip" onPress={onCoach}/>
+  <Text style={{color:'#8f97a4',fontSize:12.5,lineHeight:18}}>{CLIP_PRO_NOTE}</Text>
   {sessions===null&&<ActivityIndicator color={colors.accent}/>}
   <Notice text={error}/>
-  {sessions!==null&&!sessions.length&&!error&&<View style={{gap:10}}>
-   <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>Send BAK a short clip of you riding a corner, jump or section (Pro). Each session lands here with the fix and a drill, so you can see what you have worked on and send a new clip to check it stuck.</Text>
-   <Pressable accessibilityRole="button" onPress={onCoach} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>Coach me from a clip</Text></Pressable>
-  </View>}
+  {sessions!==null&&!sessions.length&&!error&&<Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>No coaching sessions yet. Your first one shows here with its fix and drill.</Text>}
+  {!!sessions?.length&&<Text style={{color:'#9aa2ae',fontSize:11.5,fontWeight:'800',letterSpacing:1.2,paddingTop:4}}>PAST SESSIONS</Text>}
   {sessions?.map((s,i)=><Session key={s.id} s={s} first={i===0}/>)}
  </Card>;
 }

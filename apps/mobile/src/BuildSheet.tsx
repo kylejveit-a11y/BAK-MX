@@ -97,7 +97,10 @@ export function BuildSheet({bike,onSaved,onAsk,raceNumber}:{bike:Bike;onSaved:(b
 function SystemSheet({system,bike,value,catalog,busy,close,save,persist}:{system:PartSystem;bike:Bike;value:Value;catalog:CatalogPart[]|null;busy:boolean;close:()=>void;save:(v:Value)=>void;persist:(v:Value)=>Promise<unknown>}){
  const meta=partSystems.find(s=>s.key===system)!,fuel=fuelSystem(bike.manufacturer,bike.model,bike.model_year);
  const others=value.parts.filter(p=>p.s!==system);
- const [mode,setMode]=useState<'stock'|'changed'|'unknown'>(value.parts.some(p=>p.s===system)?'changed':value.stock.includes(system)?'stock':'unknown');
+ const [mode,setModeState]=useState<'stock'|'changed'|'unknown'>(value.parts.some(p=>p.s===system)?'changed':value.stock.includes(system)?'stock':'unknown');
+ // Nothing is highlighted until the rider picks: an unset section is "not set yet", not "Not sure".
+ const [chosen,setChosen]=useState(mode!=='unknown');
+ const setMode=(m:'stock'|'changed'|'unknown')=>{setChosen(true);setModeState(m);};
  const [picked,setPicked]=useState<InstalledPart[]>(value.parts.filter(p=>p.s===system));
  const [note,setNote]=useState(value.notes[system]??''),[stack,setStack]=useState<Screen[]>([{id:'home'}]),[flash,setFlash]=useState('');
  const pending=React.useRef<(()=>InstalledPart[]|null)|null>(null);
@@ -153,8 +156,8 @@ function SystemSheet({system,bike,value,catalog,busy,close,save,persist}:{system
     :<ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{padding:20,paddingBottom:40,gap:14}}>
     <Text style={st.title}>{title}</Text>{!!sub&&<Text style={st.sub}>{sub}</Text>}
     {screen.id==='home'&&<>
-     <View style={st.segment}>{(['stock','changed','unknown'] as const).map(m=><Pressable key={m} haptic="select" accessibilityRole="button" accessibilityState={{selected:mode===m}} onPress={()=>setMode(m)} style={[st.segBtn,mode===m&&st.segOn]}><Text style={[st.segText,mode===m&&{color:colors.text,fontWeight:'800'}]}>{m==='stock'?'Stock':m==='changed'?'Changed':'Not sure'}</Text></Pressable>)}</View>
-     <Text style={st.small}>{mode==='stock'?'Factory parts and setup. BAK uses the stock specs here.':mode==='unknown'?'Not set yet. Tap a part below to pick what’s fitted, or mark the section Stock.':'Tap a part to pick what’s fitted. What’s set shows under it.'}</Text>
+     <View style={st.segment}>{(['stock','changed','unknown'] as const).map(m=><Pressable key={m} haptic="select" accessibilityRole="button" accessibilityState={{selected:chosen&&mode===m}} onPress={()=>setMode(m)} style={[st.segBtn,chosen&&mode===m&&st.segOn]}><Text style={[st.segText,chosen&&mode===m&&{color:colors.text,fontWeight:'800'}]}>{m==='stock'?'Stock':m==='changed'?'Changed':'Not sure'}</Text></Pressable>)}</View>
+     <Text style={st.small}>{!chosen?'Not set yet. Tap a part below to pick what’s fitted, or mark the section Stock.':mode==='stock'?'Factory parts and setup. BAK uses the stock specs here.':mode==='unknown'?'Not sure what’s fitted. Tap a part below to pick it, or mark the section Stock.':'Tap a part to pick what’s fitted. What’s set shows under it.'}</Text>
      {!!flash&&<Notice text={flash}/>}
      {mode==='changed'&&checks.map((c,i)=><Warn key={i} text={c.text}/>)}
      {true?<>

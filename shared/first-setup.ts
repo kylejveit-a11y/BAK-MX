@@ -9,7 +9,10 @@ export function needsFirstSetup(bike:Bike|undefined){
 
 /** The question BAK gets, written from the four answers. */
 export function firstSetupQuestion(bike:Bike,a:{weight:string;level:string;discipline:string;dirt:string}){
- const dirt=a.dirt?` on ${a.dirt.toLowerCase()} dirt`:'';
- return `Starting setup for my ${bike.model_year} ${bike.manufacturer} ${bike.model}: I'm a ${a.level.toLowerCase()} rider, ${a.weight} lb in gear, riding ${a.discipline.toLowerCase()}${dirt}. Give me where to start from the published settings: rider sag, each clicker, fork air or spring, tire pressures, and the one thing to check in my first session.`;
+ const level=a.level.trim().toLowerCase(),discipline=a.discipline.trim().toLowerCase(),weight=a.weight.trim(),dirtWord=a.dirt.trim().toLowerCase();
+ // "an intermediate rider", "a vet rider": the article follows the level's first sound, and nothing leaves a gap before the full stop.
+ const article=/^[aeiou]/.test(level)?'an':'a';
+ const dirt=dirtWord?` on ${dirtWord} dirt`:'';
+ return `Starting setup for my ${bike.model_year} ${bike.manufacturer} ${bike.model}: I'm ${article} ${level} rider, ${weight} lb in gear, riding ${discipline}${dirt}. Give me where to start from the published settings: rider sag, each clicker, fork air or spring, tire pressures, and the one thing to check in my first session.`;
 }
 

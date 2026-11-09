@@ -1,7 +1,8 @@
 // Home, the rider's way: blocks they can turn on, off and reorder (saved on this phone), and race-day mode, which turns Home
 // into a track-day screen: today's setup, a between-motos checklist and a fast change log that goes into the setup log.
 import React,{useCallback,useEffect,useState} from 'react';
-import {Keyboard,Modal,ScrollView,Switch,Text,TextInput,View} from 'react-native';
+import {Keyboard,Modal,Platform,ScrollView,Switch,Text,TextInput,View} from 'react-native';
+import DateTimePicker,{type DateTimePickerEvent} from '@react-native-community/datetimepicker';
 import {useFocusEffect} from '@react-navigation/native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import type {Bike,ServiceEvent,Conversation,EngineeringResponse} from '../../../shared/types';
@@ -18,7 +19,7 @@ import {success} from './haptics';
 import {RacePrepCard,RacePrepSheet,useRacePrep,Progress} from './RacePrep';
 import {FuelPlanCard} from './FuelPlan';
 import {RACE_PHASES,phaseForDaysOut,type RacePhase} from '../../../shared/race-prep';
-import {advanceNextUp,checklistCount,clockText,countdownText,nextChecklistItem,nextUpDate,parseClock,parseNextUp} from '../../../shared/practice-day';
+import {advanceNextUp,checklistCount,clockText,countdownText,nextChecklistItem,nextQuarterHour,nextUpDate} from '../../../shared/practice-day';
 import {endRaceActivity,setRaceStatus,setRaceWidget,syncRaceActivity} from './widgets/sync';
 import {upNext,type PlanItem} from '../../../shared/service-plan';
 import {RichText} from './RichText';
@@ -111,10 +112,15 @@ export function UpNextBlock({bike,onService,onEvents,onSetup}:{bike:Bike;onServi
 }
 
 type Coached={fix:string;drill:string;at:string;media:{focus?:string}};
-export function CoachingBlock({bike,onOpen}:{bike:Bike;onOpen:()=>void}){
+export function CoachingBlock({bike,onOpen,onCoach}:{bike:Bike;onOpen:()=>void;onCoach?:()=>void}){
  const [s,setS]=useState<Coached|null|undefined>(undefined);
- useFocusEffect(useCallback(()=>{api<Coached[]>(`/api/coaching?bike_id=${bike.id}`).then(l=>setS(l[0]??null)).catch(()=>setS(null));},[bike.id]));
- if(!s||!s.fix)return null;
+ useFocusEffect(useCallback(()=>{api<Coached[]>(`/api/coaching?bike_id=${bike.id}`).then(l=>setS(l[0]??null)).catch(()=>setS(undefined));},[bike.id]));
+ if(s===undefined)return null;
+ // The block is on but there is nothing to show yet: say so and point at the way to get the first session.
+ if(!s||!s.fix)return <Card><BlockHead title="LAST COACHING" action="Coaching" onAction={onOpen}/>
+  <Text style={{color:colors.muted,fontSize:14.5,lineHeight:21}}>No coaching sessions yet. Send BAK a riding clip from Chat to get your first one.</Text>
+  {onCoach&&<Pressable accessibilityRole="button" onPress={onCoach} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>Coach me from a clip</Text></Pressable>}
+ </Card>;
  return <Card><BlockHead title="LAST COACHING" action="Coaching" onAction={onOpen}/>
   <Text style={{color:colors.text,fontSize:15.5,lineHeight:22}}><Text style={{color:colors.text,fontWeight:'700'}}>Fix: </Text>{s.fix}</Text>
   {!!s.drill&&<Text style={{color:colors.muted,fontSize:14.5,lineHeight:21}}><Text style={{fontWeight:'700'}}>Drill: </Text>{s.drill}</Text>}
@@ -147,10 +153,13 @@ export function RaceSetupCard({account,bike,track,day,onOpenChat}:{account:strin
  const [saved,setSaved]=useState<RaceSetup|null>(()=>{const r=readProgress<RaceSetup|null>(account,'race-setup',null);return r&&r.key===key?r:null;});
  const [live,setLive]=useState<{summary:string;answer:string}|null>(null),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
  useEffect(()=>{const r=readProgress<RaceSetup|null>(account,'race-setup',null);setSaved(r&&r.key===key?r:null);},[account,key]);
- const consent=readProgress<boolean>(account,'ai-consent-'+AI_CONSENT_VERSION,false)===true;
+ // AI consent is read fresh: at tap time (the rider may have agreed in Ask BAK a moment ago) and again whenever Home comes back
+ // into view, so the notice clears by itself instead of waiting for a re-render.
+ const consentNow=()=>readProgress<boolean>(account,'ai-consent-'+AI_CONSENT_VERSION,false)===true;
+ useFocusEffect(useCallback(()=>{if(consentNow())setNotice(n=>n.startsWith('Open Ask BAK once')?'':n);},[account]));
  const stale=!!saved&&raceSetupStale(day,saved.at);
  async function get(){
-  if(busy)return;if(!consent){setNotice('Open Ask BAK once and agree to the AI terms, then come back.');return;}
+  if(busy)return;if(!consentNow()){setNotice('Open Ask BAK once and agree to the AI terms, then come back.');return;}
   setBusy(true);setNotice('');setLive({summary:'',answer:''});
   try{
    const conv=await api<Conversation>('/api/conversations','POST',{bike_id:bike.id,title:raceSetupTitle(track,day),mode:'setup',create_id:randomUUID()});
@@ -205,20 +214,20 @@ export function useRaceActivity(account:string,bike:Bike,race:RaceDay,last:strin
  },[race.on,race.day,race.track,race.next?.label,race.next?.at,kind,item?.id,done,total,last]);
 }
 
-/** "Next up": the moto or session and its time ("Moto 1 at 10:40"), with a countdown. Feeds the Lock Screen activity. */
+/** "Next up": the moto or session and its time ("Moto 1 at 10:40"), with a countdown. Feeds the Lock Screen activity.
+ *  The time is a native time picker (spinner), opened on the next quarter hour so the first tap is close to right. */
 export function NextUpCard({race,labels,onSet}:{race:RaceDay;labels:string[];onSet:(next:NextUp|null)=>void}){
  const next=race.next??null;
- const [now,setNow]=useState(()=>new Date()),[editing,setEditing]=useState(!next?.at),[label,setLabel]=useState(next?.label??labels[0]),[time,setTime]=useState(next?.at?clockText(next.at):''),[notice,setNotice]=useState('');
+ const clockOf=(d:Date)=>`${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;
+ const dateOf=(clock:string)=>{const [h,m]=clock.split(':').map(Number);const d=new Date();d.setHours(h,m,0,0);return d;};
+ const startAt=()=>dateOf(next?.at||nextQuarterHour());
+ const [now,setNow]=useState(()=>new Date()),[editing,setEditing]=useState(!next?.at),[label,setLabel]=useState(next?.label??labels[0]),[at,setAt]=useState<Date>(startAt),[androidOpen,setAndroidOpen]=useState(false);
  useEffect(()=>{const t=setInterval(()=>setNow(new Date()),30000);return()=>clearInterval(t);},[]);
- useEffect(()=>{setLabel(next?.label??labels[0]);setTime(next?.at?clockText(next.at):'');setEditing(!next?.at);setNotice('');},[next?.label,next?.at,labels[0]]);
- const save=()=>{
-  const typed=time.trim();if(!typed){setNotice('Type the time, e.g. 10:40.');return;}
-  const parsed=parseNextUp(typed,label)??(parseClock(typed)?{label,at:parseClock(typed)!}:null);
-  if(!parsed){setNotice('Use a time like 10:40, 2:15 pm or “Moto 2 at 11:30”.');return;}
-  setNotice('');success();onSet(parsed);setEditing(false);Keyboard.dismiss();
- };
- const at=nextUpDate(next,race.day);
+ useEffect(()=>{setLabel(next?.label??labels[0]);setAt(startAt());setEditing(!next?.at);},[next?.label,next?.at,labels[0]]);
+ const save=()=>{success();onSet({label,at:clockOf(at)});setEditing(false);};
+ const when=nextUpDate(next,race.day);
  const chip=(l:string)=>{const on=label===l;return <Pressable key={l} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setLabel(l)} style={({pressed})=>({paddingHorizontal:12,paddingVertical:7,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:14,fontWeight:on?'700':'500'}}>{l}</Text></Pressable>;};
+ const picked=(_e:DateTimePickerEvent,d?:Date)=>{setAndroidOpen(false);if(d)setAt(d);};
  return <Card>
   <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}>
    <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="clock" size={16} color={colors.accent}/><Eyebrow>NEXT UP</Eyebrow></View>
@@ -229,17 +238,19 @@ export function NextUpCard({race,labels,onSet}:{race:RaceDay;labels:string[];onS
   </View>
   {!editing&&next&&<View style={{flexDirection:'row',alignItems:'flex-end',justifyContent:'space-between',gap:12}}>
    <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:21,fontWeight:'800'}}>{next.label}</Text><Text style={{color:colors.muted,fontSize:14}}>{next.at?clockText(next.at):'Time not set'}</Text></View>
-   {at?<Text style={{color:colors.accent,fontSize:22,fontWeight:'900',fontStyle:'italic',fontVariant:['tabular-nums']}}>{countdownText(at,now)}</Text>:<Pressable accessibilityRole="button" onPress={()=>setEditing(true)} hitSlop={8}><Text style={{color:colors.text,fontWeight:'700'}}>Set the time</Text></Pressable>}
+   {when?<Text style={{color:colors.accent,fontSize:22,fontWeight:'900',fontStyle:'italic',fontVariant:['tabular-nums']}}>{countdownText(when,now)}</Text>:<Pressable accessibilityRole="button" onPress={()=>setEditing(true)} hitSlop={8}><Text style={{color:colors.text,fontWeight:'700'}}>Set the time</Text></Pressable>}
   </View>}
   {editing&&<>
    <Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>Set your next {labels[0].startsWith('Session')?'session':'moto'} time and the Lock Screen counts down to it, with the next item on your checklist.</Text>
    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{labels.map(chip)}</View>
-   <View style={{flexDirection:'row',alignItems:'center',gap:12}}>
-    <TextInput value={time} onChangeText={setTime} maxLength={40} placeholder="10:40" placeholderTextColor="#7d8593" keyboardType="numbers-and-punctuation" returnKeyType="done" onSubmitEditing={save} accessibilityLabel={`${label} time`} style={{flex:1,color:colors.text,fontSize:18,fontWeight:'600',borderBottomWidth:1,borderBottomColor:colors.accent,paddingVertical:10}}/>
-    <Pressable accessibilityRole="button" onPress={save} hitSlop={8}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Set</Text></Pressable>
-    {next&&<Pressable accessibilityRole="button" onPress={()=>{setEditing(false);setNotice('');}} hitSlop={8}><Text style={{color:colors.muted,fontSize:15}}>Cancel</Text></Pressable>}
+   {Platform.OS==='ios'
+    ?<View accessible accessibilityLabel={`${label} time`} style={{alignSelf:'stretch'}}><DateTimePicker value={at} mode="time" display="spinner" minuteInterval={5} themeVariant="dark" textColor={colors.text} onChange={picked} style={{height:150}}/></View>
+    :<><Pressable accessibilityRole="button" accessibilityLabel={`${label} time, ${clockText(clockOf(at))}. Change`} onPress={()=>setAndroidOpen(true)} hitSlop={8} style={({pressed})=>({paddingVertical:10,borderBottomWidth:1,borderBottomColor:colors.accent,opacity:pressed?0.7:1})}><Text style={{color:colors.text,fontSize:22,fontWeight:'800'}}>{clockText(clockOf(at))}</Text></Pressable>
+     {androidOpen&&<DateTimePicker value={at} mode="time" display="spinner" minuteInterval={5} onChange={picked}/>}</>}
+   <View style={{flexDirection:'row',alignItems:'center',gap:18}}>
+    <Pressable accessibilityRole="button" accessibilityLabel={`Set ${label} at ${clockText(clockOf(at))}`} onPress={save} hitSlop={8}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Set</Text></Pressable>
+    {next&&<Pressable accessibilityRole="button" onPress={()=>{setEditing(false);setAt(startAt());}} hitSlop={8}><Text style={{color:colors.muted,fontSize:15}}>Cancel</Text></Pressable>}
    </View>
-   <Notice text={notice}/>
   </>}
  </Card>;
 }
@@ -341,7 +352,8 @@ export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenC
    </View>)}
    <Pressable accessibilityRole="button" onPress={()=>onAsk(tryNextText(track,logs))} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>Ask BAK what to try next</Text></Pressable>
   </Card>}
-  <TrackReportCard track={track} day={today()} setupLogId={logs[0]&&!isLocal(logs[0].id)?logs[0].id:null} setupLabel={logs[0]?.change_made} showOthers/>
+  {/* "How did it ride?" is already the change log's question above, so this section is simply the track report. */}
+  <TrackReportCard title="Track report" track={track} day={today()} setupLogId={logs[0]&&!isLocal(logs[0].id)?logs[0].id:null} setupLabel={logs[0]?.change_made} showOthers/>
   <Pressable accessibilityRole="button" onPress={onEnd} style={{alignSelf:'center',paddingVertical:10}}><Text style={{color:colors.muted,fontSize:15}}>End race day</Text></Pressable>
  </>;
 }
@@ -366,7 +378,7 @@ export function RaceDayStart({visible,initialKind='race',bike,bikes,onSwitch,onS
    <View accessibilityRole="tablist" style={{flexDirection:'row',borderWidth:1,borderColor:'#2f3540',borderRadius:20,padding:3,alignSelf:'flex-start'}}>
     {(['race','practice'] as const).map(k=>{const on=kind===k;return <Pressable key={k} haptic="select" accessibilityRole="tab" accessibilityState={{selected:on}} onPress={()=>setKind(k)} style={({pressed})=>({paddingHorizontal:16,paddingVertical:8,borderRadius:17,backgroundColor:on?tint(0.22):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:14.5,fontWeight:on?'800':'600'}}>{k==='race'?'Race day':'Practice day'}</Text></Pressable>;})}
    </View>
-   <Copy>{practice?'For a day of laps, today. Home shows today’s bike and setup, a short practice checklist, a log for each session (time on track, notes, the setup change, which goes into your setup log), how the track rode, and Ask BAK about today. Set the next session time and the Lock Screen counts down to it. It ends by itself tonight.':'Pick the track and the day. BAK works out a starting setup for that track and the forecast, and Home counts down with your prep list. On the day, Home becomes your track-day screen: quick ask, a change log and today’s entries, and the Lock Screen counts down to your next moto. It ends by itself the day after.'}</Copy>
+   <Copy>{practice?'A day of laps, today. Home becomes your practice screen: a session log, a short checklist and Ask BAK about today. Ends by itself tonight.':'Pick the track and the day. BAK works out a starting setup for the track and the forecast, and on the day Home becomes your track screen. Ends by itself the day after.'}</Copy>
    <View style={{gap:8}}>
     <Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>Bike</Text>
     <View style={{flexDirection:'row',alignItems:'center',gap:10}}>

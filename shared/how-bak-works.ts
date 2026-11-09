@@ -28,7 +28,8 @@ export const HOW_BAK_WORKS:HowSection[]=[
   'BAK tracks what’s next from the maker’s intervals. A job you’ve never logged is never called due.']},
  {id:'race',title:'Race day, practice day and race prep',lines:[
   'Set a race from Home and it counts down with your prep list. BAK works out a starting setup for the track and the forecast.',
-  'On the day, Home becomes your track screen: next moto, quick ask, a fast change log. Practice day does the same for a day of laps.']},
+  'On the day, Home becomes your track screen: next moto, quick ask, a fast change log and today’s entries, with the Lock Screen counting down to your next moto. It ends by itself the day after.',
+  'Practice day does the same for a day of laps, today: a short checklist, a log for each session (time on track, the setup change, how it rode), and Ask BAK about today. It ends by itself tonight.']},
  {id:'fuel',title:'Fuel plan',lines:[
   'What to eat and drink, and when. Enter your weight, height and age once and BAK lays out the day before, race morning, between motos and after, timed to your gate drops.',
   'Nervous stomach on race day? Turn that on and the plan goes easier. Parents can set one up for a child rider. It shows on Home on race day and practice day.']},

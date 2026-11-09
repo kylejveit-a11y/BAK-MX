@@ -12,7 +12,8 @@ import {today,type RaceDay} from '../../../shared/race-day';
 import {api} from './api';
 import {readProgress,writeProgress} from './localProgress';
 import {Pressable} from './Touch';
-import {Button,Card,Eyebrow,Icon,MetalMark,Notice,colors,tint} from './ui';
+import {Button,Card,DONE_BAR,Eyebrow,Icon,KeyboardDoneBar,MetalMark,Notice,colors,tint} from './ui';
+import {Glass,useKeyboardHeight} from './Glass';
 import {success} from './haptics';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
@@ -114,7 +115,7 @@ export function FuelPlanCard({account,race,kind}:{account:string;race:RaceDay;ki
   {open&&<View style={{gap:10}}>
    {saved.input.gates.map((g,i)=><View key={i} style={{flexDirection:'row',alignItems:'center',gap:10}}>
     <TextInput value={g.label} onChangeText={v=>{const gs=[...saved.input.gates];gs[i]={...g,label:v};setInput({gates:gs});}} maxLength={30} accessibilityLabel={`${word} ${i+1} name`} style={[input,{flex:1}]}/>
-    <TextInput value={drafts[i]??g.at} onChangeText={v=>setTime(i,v)} onBlur={()=>setDrafts(d=>{const n={...d};delete n[i];return n;})} placeholder="10:40" placeholderTextColor="#7d8593" keyboardType="numbers-and-punctuation" maxLength={8} accessibilityLabel={`${g.label||word} gate time`} style={[input,{width:78}]}/>
+    <TextInput value={drafts[i]??g.at} onChangeText={v=>setTime(i,v)} onBlur={()=>setDrafts(d=>{const n={...d};delete n[i];return n;})} placeholder="10:40" placeholderTextColor="#7d8593" keyboardType="numbers-and-punctuation" maxLength={8} accessibilityLabel={`${g.label||word} gate time`} returnKeyType="done" style={[input,{width:78}]}/>
     {!!g.at&&<Pressable accessibilityRole="button" onPress={()=>{const one=gatesOf({kind,gates:[g]})[0];setShift(gates.findIndex(x=>x.at===one?.at&&x.label===one?.label));}} hitSlop={6}><Text style={{color:colors.text,fontWeight:'700',fontSize:13.5}}>Moved?</Text></Pressable>}
     <Pressable accessibilityRole="button" accessibilityLabel={`Remove ${g.label}`} onPress={()=>setInput({gates:saved.input.gates.filter((_,j)=>j!==i)})} hitSlop={6}><Icon name="close" size={16} color={colors.muted}/></Pressable>
    </View>)}
@@ -155,19 +156,24 @@ function DayBefore({plan,gates}:{plan:FuelPlan;gates:Gate[]}){
  </View>;
 }
 
-function SheetFrame({visible,title,onClose,children}:{visible:boolean;title:string;onClose:()=>void;children:React.ReactNode}){
- const insets=useSafeAreaInsets();
+/** The sheet: fields scroll and keep their keyboard insets; `footer` (the primary button) rides above the keyboard and the
+ *  home indicator, the way Page's footerForAction does, so Save is never under the number pad. A Done bar closes that pad. */
+function SheetFrame({visible,title,onClose,footer,children}:{visible:boolean;title:string;onClose:()=>void;footer?:React.ReactNode;children:React.ReactNode}){
+ const insets=useSafeAreaInsets(),kb=useKeyboardHeight(),[footH,setFootH]=useState(0);
+ const footBottom=kb>0?kb+8:insets.bottom+10;
  return <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
   <View style={{flex:1,backgroundColor:colors.bg,paddingTop:18}}>
    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:20,paddingBottom:6}}>
     <View style={{gap:6}}><Text style={{color:colors.text,fontSize:28,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.8}}>{title}</Text><View style={{flexDirection:'row',gap:4}}><MetalMark width={26}/><MetalMark width={8} dim/></View></View>
     <Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Close</Text></Pressable>
    </View>
-   <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{paddingHorizontal:20,paddingTop:12,paddingBottom:insets.bottom+30,gap:14}}>{children}</ScrollView>
+   <ScrollView keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets contentContainerStyle={{paddingHorizontal:20,paddingTop:12,paddingBottom:insets.bottom+30+(footer?footH+16:0),gap:14}}>{children}</ScrollView>
+   {footer&&<View onLayout={e=>setFootH(e.nativeEvent.layout.height)} pointerEvents="box-none" style={{position:'absolute',left:12,right:12,bottom:footBottom}}><Glass strong style={{borderRadius:26}}><View style={{padding:12}}>{footer}</View></Glass></View>}
+   <KeyboardDoneBar/>
   </View>
  </Modal>;
 }
-const Num=({label,value,onChange,width}:{label:string;value:string;onChange:(v:string)=>void;width?:number})=><View style={{flex:width?undefined:1,width,gap:2}}><Label>{label}</Label><TextInput value={value} onChangeText={onChange} keyboardType="decimal-pad" maxLength={6} accessibilityLabel={label} style={input}/></View>;
+const Num=({label,value,onChange,width}:{label:string;value:string;onChange:(v:string)=>void;width?:number})=><View style={{flex:width?undefined:1,width,gap:2}}><Label>{label}</Label><TextInput value={value} onChangeText={onChange} keyboardType="decimal-pad" maxLength={6} accessibilityLabel={label} inputAccessoryViewID={DONE_BAR} style={input}/></View>;
 
 // ------------------------------------------------------------------ the rider profile
 export function FuelProfileSheet({visible,account,current,onClose,onSaved}:{visible:boolean;account:string;current?:FuelProfileRow|null;onClose:()=>void;onSaved:(id:string)=>void}){
@@ -183,7 +189,7 @@ export function FuelProfileSheet({visible,account,current,onClose,onSaved}:{visi
  async function submit(){const b=draftBody(d,row);if('problem' in b){setProblem(b.problem);return;}setBusy(true);setProblem('');
   try{const saved=await put(b.body);success();onSaved(saved.id);onClose();}catch(e){setProblem(errorText(e));}finally{setBusy(false);}}
  const del=()=>{if(!row)return;Alert.alert(`Remove ${profileName(row)}?`,'Their fuel profile and sweat test are deleted from your account.',[{text:'Cancel',style:'cancel'},{text:'Remove',style:'destructive',onPress:()=>{setBusy(true);remove(row.id).then(onClose).catch(e=>setProblem(errorText(e))).finally(()=>setBusy(false));}}]);};
- return <SheetFrame visible={visible} title="Fuel plan rider" onClose={onClose}>
+ return <SheetFrame visible={visible} title="Fuel plan rider" onClose={onClose} footer={<Button disabled={busy} title={busy?'Saving…':'Save to my account'} onPress={()=>void submit()}/>}>
   {rows.length>0&&<Wrap>{rows.map(r=><Chip key={r.id} label={profileName(r)} on={r.id===d.id} onPress={()=>setD(start(r))}/>)}<Chip label="+ New rider" on={!row} onPress={()=>setD(start(null))}/></Wrap>}
   {!row&&<Wrap><Chip label="Me" on={d.kind==='self'} disabled={hasSelf} onPress={()=>set({kind:'self'})}/><Chip label="Another rider (like my kid)" on={d.kind==='rider'} onPress={()=>set({kind:'rider'})}/></Wrap>}
   {d.kind==='rider'&&<View style={{gap:2}}><Label>Name</Label><TextInput value={d.name} onChangeText={v=>set({name:v})} maxLength={40} placeholder="First name or number" placeholderTextColor="#7d8593" style={input}/></View>}
@@ -204,7 +210,6 @@ export function FuelProfileSheet({visible,account,current,onClose,onSaved}:{visi
   </Pressable>;})}
   {screened&&<><Small>Talk to your doctor or a registered dietitian first: your needs can differ from this general plan.</Small><Toggle label="My doctor or dietitian cleared me" value={d.cleared} onChange={v=>set({cleared:v})}/></>}
   <Notice text={problem}/>
-  <Button disabled={busy} title={busy?'Saving…':'Save to my account'} onPress={()=>void submit()}/>
   {!!row&&<Pressable accessibilityRole="button" onPress={del} disabled={busy} style={{alignSelf:'center',paddingVertical:8}}><Text style={{color:colors.muted,fontSize:15}}>Remove this rider</Text></Pressable>}
  </SheetFrame>;
 }
@@ -245,8 +250,8 @@ function GateShiftSheet({visible,input:day,index,now,youth,mealAt,onClose,onAppl
  const apply=()=>{const to=parseClock(at),last=ate.trim()?parseClock(ate):null;if(!to){setProblem('Type the new time, like 11:40 or 2:15pm.');return;}if(ate.trim()&&!last){setProblem('Type when you last ate, like 9:30, or leave it empty.');return;}
   const r=shiftGate({...day,gates:gatesOf(day)},index,to,{now,lastAteAt:last,cascade,youth});onApply(r.day,[...r.notes,...r.added.map(a=>a.title)]);};
  return <SheetFrame visible={visible&&!!g} title={`${g?.label??'Gate'} moved`} onClose={onClose}>
-  <View style={{gap:2}}><Label>New gate time</Label><TextInput value={at} onChangeText={setAt} placeholder="11:40" placeholderTextColor="#7d8593" keyboardType="numbers-and-punctuation" maxLength={8} style={input}/></View>
-  <View style={{gap:2}}><Label>Last ate at (optional)</Label><TextInput value={ate} onChangeText={setAte} placeholder="9:30" placeholderTextColor="#7d8593" keyboardType="numbers-and-punctuation" maxLength={8} style={input}/></View>
+  <View style={{gap:2}}><Label>New gate time</Label><TextInput value={at} onChangeText={setAt} placeholder="11:40" placeholderTextColor="#7d8593" keyboardType="numbers-and-punctuation" maxLength={8} returnKeyType="done" style={input}/></View>
+  <View style={{gap:2}}><Label>Last ate at (optional)</Label><TextInput value={ate} onChangeText={setAte} placeholder="9:30" placeholderTextColor="#7d8593" keyboardType="numbers-and-punctuation" maxLength={8} returnKeyType="done" style={input}/></View>
   <Toggle label="Move the later gates by the same amount" value={cascade} onChange={setCascade}/>
   <Small>Delayed an hour or more adds a small top-up; moved up soon after eating means sips only; four hours or more away adds a full meal.</Small>
   <Notice text={problem}/>

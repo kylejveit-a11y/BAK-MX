@@ -76,10 +76,10 @@ export function nextUpDate(next:NextUp|null|undefined,day:string):Date|null{
  if(!next||!/^\d{2}:\d{2}$/.test(next.at)||!/^\d{4}-\d{2}-\d{2}$/.test(day))return null;
  const [y,mo,d]=day.split('-').map(Number),[h,mi]=next.at.split(':').map(Number);return new Date(y,mo-1,d,h,mi,0,0);
 }
-/** "in 25 min", "in 1 h 05", "now", "started 12 min ago". Empty with no time set. */
+/** "in 25 min", "in 1 h 5 min", "now", "started 12 min ago". Empty with no time set. */
 export function countdownText(at:Date|null,now=new Date()):string{
  if(!at)return '';const min=Math.round((at.getTime()-now.getTime())/60000);
- if(min>=60){const h=Math.floor(min/60),m=min%60;return `in ${h} h${m?` ${String(m).padStart(2,'0')}`:''}`;}
+ if(min>=60){const h=Math.floor(min/60),m=min%60;return `in ${h} h${m?` ${m} min`:''}`;}
  if(min>0)return `in ${min} min`;
  if(min>-2)return 'now';
  return `started ${-min} min ago`;
@@ -168,4 +168,10 @@ export function practiceAskText(c:DayContext):string{
  else lines.push('No sessions logged yet.');
  lines.push('What should I work on or change for the next session?');
  return lines.join('\n').slice(0,4000);
+}
+
+/** The next quarter hour after now, as "HH:MM": where the Next up time picker opens so the first tap is close to right. */
+export function nextQuarterHour(now=new Date()):string{
+ const d=new Date(now.getTime());d.setSeconds(0,0);const m=d.getMinutes(),up=15-(m%15);d.setMinutes(m+up);
+ return `${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;
 }

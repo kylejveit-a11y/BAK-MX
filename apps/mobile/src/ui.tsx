@@ -1,5 +1,5 @@
 import React from 'react';
-import {Animated,Text,View,Image,TextInput,ScrollView,StyleSheet,type ImageProps,type TextInputProps} from 'react-native';
+import {Animated,Text,View,Image,TextInput,ScrollView,StyleSheet,InputAccessoryView,Keyboard,Platform,type ImageProps,type TextInputProps} from 'react-native';
 import {Pressable} from './Touch';
 import {HeaderHeightContext} from '@react-navigation/elements';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -95,7 +95,7 @@ export function Select(props:{disabled?:boolean;label:string;value:string;option
 /** Status line: raked accent mark and text. No box. */
 /** A message in the flow of the page. tone "warn" is for something the rider has to fix before going on. */
 export function Notice({text,tone}:{text:string;tone?:'warn'}){const warn=tone==='warn';return text?<View accessibilityLiveRegion={warn?'assertive':'polite'} accessibilityRole={warn?'alert':undefined} style={[{flexDirection:'row',gap:10,alignItems:'flex-start'},warn&&{backgroundColor:'rgba(239,154,161,0.10)',borderRadius:10,paddingHorizontal:12,paddingVertical:10}]}>{warn?<Icon name="close" size={15} color="#ef9aa1" weight={2.4}/>:<View style={{width:3,height:16,marginTop:3,borderRadius:1,backgroundColor:colors.accent,transform:[{skewX:'-18deg'}]}}/>}<Text style={{color:warn?'#f6c9cd':colors.text,lineHeight:21,fontSize:14.5,flex:1,fontWeight:warn?'600':'400'}}>{text}</Text></View>:null}
-export const s=StyleSheet.create({page:{padding:20,paddingBottom:40,gap:18},eyebrow:{color:'#9aa2ae',fontWeight:'600',letterSpacing:1,fontSize:11.5},title:{fontSize:32,color:colors.text,fontWeight:'900',fontStyle:'italic',letterSpacing:-1.1},card:{paddingTop:22,paddingBottom:6,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',gap:12},copy:{color:colors.muted,fontSize:15,lineHeight:23},button:{backgroundColor:'transparent',borderRadius:28,paddingVertical:15,paddingHorizontal:20,minHeight:50,justifyContent:'center'},ghost:{backgroundColor:'transparent',borderWidth:1,borderColor:'#343a45'},label:{color:'#adb5c1',fontSize:12.5,fontWeight:'600'},input:{borderBottomWidth:1,borderBottomColor:'#2a2f39',paddingVertical:10,color:colors.text,fontSize:17,minHeight:44}});
+export const s=StyleSheet.create({page:{padding:20,paddingBottom:40,gap:18},eyebrow:{color:'#9aa2ae',fontWeight:'600',letterSpacing:1,fontSize:11.5},title:{fontSize:32,color:colors.text,fontWeight:'900',fontStyle:'italic',letterSpacing:-1.1},card:{paddingTop:22,paddingBottom:6,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',gap:12},copy:{color:colors.muted,fontSize:15,lineHeight:23,flexShrink:1,alignSelf:'stretch'},button:{backgroundColor:'transparent',borderRadius:28,paddingVertical:15,paddingHorizontal:20,minHeight:50,justifyContent:'center'},ghost:{backgroundColor:'transparent',borderWidth:1,borderColor:'#343a45'},label:{color:'#adb5c1',fontSize:12.5,fontWeight:'600'},input:{borderBottomWidth:1,borderBottomColor:'#2a2f39',paddingVertical:10,color:colors.text,fontSize:17,minHeight:44}});
 
 /** BAK MX in the brushed-metal lettering of the app icon. */
 export function Brand({compact=false}:{compact?:boolean}){const h=compact?26:40;return <View accessible accessibilityRole="header" accessibilityLabel="BAK MX" style={{gap:9}}><Image source={require('../assets/bak-mx-wordmark.png')} accessibilityIgnoresInvertColors style={{height:h,width:h*900/139}} resizeMode="contain"/>{!compact&&<Text style={{color:'#8f97a4',fontWeight:'700',fontSize:10,letterSpacing:4}}>BAK STRONG</Text>}</View>}
@@ -157,6 +157,15 @@ export function Section({icon,title,summary,children,startOpen=false}:{icon:Icon
    <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'700'}}>{title}</Text>{!!summary&&<Text numberOfLines={1} style={{color:'#8f97a4',fontSize:13.5}}>{summary}</Text>}</View>
    <Icon name={open?'chevronUp':'chevronDown'} size={17} color="#8f97a4"/>
   </Pressable>
-  {open&&<View style={{gap:14,paddingBottom:20}}>{children}</View>}
+  {/* Full width and allowed to shrink, so body text wraps inside the page instead of running off the right edge. */}
+  {open&&<View style={{gap:14,paddingBottom:20,alignSelf:'stretch',width:'100%'}}>{children}</View>}
  </View>;
+}
+
+/** A "Done" bar above the number keyboard, which has no return key of its own. Give a numeric TextInput
+ *  `inputAccessoryViewID={DONE_BAR}` and mount one <KeyboardDoneBar/> on that screen (iOS; Android has its own close key). */
+export const DONE_BAR='bakmx-keyboard-done';
+export function KeyboardDoneBar(){
+ if(Platform.OS!=='ios')return null;
+ return <InputAccessoryView nativeID={DONE_BAR} backgroundColor="#0c0e12"><View style={{flexDirection:'row',justifyContent:'flex-end',paddingHorizontal:16,paddingVertical:8,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}><Pressable accessibilityRole="button" accessibilityLabel="Done, close the keyboard" hitSlop={8} onPress={()=>Keyboard.dismiss()}><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>Done</Text></Pressable></View></InputAccessoryView>;
 }

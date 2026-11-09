@@ -1,6 +1,7 @@
 // Home, the rider's way, on the website: blocks they can turn on, off and reorder (saved on this browser), the phone app's
 // tile list, a bike cover photo, and the small pieces the chat borrows (disclosures, tuning notes, a sheet). Mirrors
 // apps/mobile/src/HomeBlocks.tsx so the phone-sized site reads like the app.
+import {userErrorText} from '../shared/user-error';
 import {chatTopic} from '../shared/chat-topic';
 import './home.css';
 import {useEffect,useState,type ReactNode} from 'react';
@@ -12,7 +13,7 @@ import {garageModelInfo} from '../shared/garage-models';
 import type {PlanItem} from '../shared/service-plan';
 import {api} from './client';
 
-export const errorText=(e:unknown)=>e instanceof Error&&e.message?e.message:'Something went wrong. Please try again.';
+export const errorText=(e:unknown)=>userErrorText(e,'Something went wrong. Please try again.');
 export const when=(iso:string)=>new Date(iso).toLocaleDateString([],{weekday:'short',month:'short',day:'numeric'});
 export const timeOf=(iso:string)=>new Date(iso).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
 

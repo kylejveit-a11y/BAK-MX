@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {PRACTICE_ITEM_IDS,PRACTICE_PHASES,defaultPracticeList,hydratePracticeList,nextChecklistItem,checklistCount,parseClock,parseNextUp,clockText,nextUpDate,countdownText,nextUpLine,followingLabel,advanceNextUp,
+import {PRACTICE_ITEM_IDS,PRACTICE_PHASES,defaultPracticeList,hydratePracticeList,nextChecklistItem,checklistCount,parseClock,parseNextUp,clockText,nextUpDate,countdownText,nextQuarterHour,nextUpLine,followingLabel,advanceNextUp,
  parseMinutes,makeSession,nextSessionNumber,sessionConditions,sessionLogBody,sessionsSummary,sessionsFor,practiceAskText,emptySession,type PracticeSession} from '../shared/practice-day.ts';
 import {PREP_ITEMS,fitsEngine} from '../shared/race-prep.ts';
 import {isPractice,dayName} from '../shared/race-day.ts';
@@ -42,7 +42,7 @@ test('countdown words, and the next up line',()=>{
  const at=nextUpDate({label:'Moto 1',at:'10:40'},'2026-11-08')!;
  assert.equal(at.getHours(),10);assert.equal(at.getMinutes(),40);assert.equal(at.getDate(),8);
  const before=(min:number)=>new Date(at.getTime()-min*60000);
- assert.equal(countdownText(at,before(25)),'in 25 min');assert.equal(countdownText(at,before(65)),'in 1 h 05');assert.equal(countdownText(at,before(120)),'in 2 h');
+ assert.equal(countdownText(at,before(25)),'in 25 min');assert.equal(countdownText(at,before(65)),'in 1 h 5 min');assert.equal(countdownText(at,before(141)),'in 2 h 21 min');assert.equal(countdownText(at,before(120)),'in 2 h');
  assert.equal(countdownText(at,before(0)),'now');assert.equal(countdownText(at,before(-12)),'started 12 min ago');assert.equal(countdownText(null),'');
  assert.equal(nextUpDate({label:'Moto 1',at:''},'2026-11-08'),null);
  assert.equal(nextUpLine({label:'Moto 1',at:'10:40'},'2026-11-08',before(25)),'Moto 1 · 10:40 AM · in 25 min');
@@ -95,4 +95,8 @@ test('Ask BAK about today carries the bike, setup, sessions and the track',()=>{
 test('a saved race without a kind is a race day',()=>{
  assert.equal(isPractice({on:true,track:'',day:'2026-11-08'}),false);assert.equal(isPractice({on:true,track:'',day:'2026-11-08',kind:'practice'}),true);
  assert.equal(dayName(null),'Race day');assert.equal(dayName({on:true,track:'',day:'',kind:'practice'}),'Practice day');
+});
+
+test('the time picker opens on the next quarter hour',()=>{
+ assert.equal(nextQuarterHour(new Date(2026,5,6,10,31)),'10:45');assert.equal(nextQuarterHour(new Date(2026,5,6,10,45)),'11:00');assert.equal(nextQuarterHour(new Date(2026,5,6,23,50)),'00:00');
 });

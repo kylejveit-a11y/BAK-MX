@@ -343,13 +343,14 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
    <Row><Tag text={EVENT_TYPE_LABELS[ev.event_type]}/>{ev.canceled_at?<Tag tone="bad" text="Canceled"/>:ev.my_rsvp?<Tag tone="good" text={ev.my_rsvp==='going'?'You’re going':'Interested'}/>:null}</Row>
    <Text style={{color:ev.canceled_at?colors.muted:colors.text,fontSize:19,fontWeight:'700',textDecorationLine:ev.canceled_at?'line-through':'none'}}>{ev.title}</Text>
    <View style={{gap:6}}><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="clock" size={17} color="#adb5c1"/><Text style={{color:'#c9cfd9',fontSize:15}}>{when(ev.starts_at)}{ev.ends_at?' – '+when(ev.ends_at):''}</Text></View><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="location" size={17} color="#adb5c1"/><Text style={{color:'#c9cfd9',fontSize:15,flex:1}}>{ev.location_name}</Text></View></View>
-   <Copy>{eventHostLine(riderName(ev.host),ev,scope==='past')}</Copy>
+   {/* The going count lives on the tappable row below when there is one, so the host line does not repeat it. */}
+   <Copy>{eventHostLine(riderName(ev.host),ev.going_count>0&&scope==='upcoming'?{...ev,going_count:0}:ev,scope==='past')}</Copy>
    {open===ev.id&&!!ev.description&&<Text selectable style={{color:colors.text,fontSize:15,lineHeight:23}}>{ev.description}</Text>}
    {ev.going_count>0&&scope==='upcoming'&&<Pressable accessibilityRole="button" accessibilityLabel="See who's going" onPress={()=>setGoing(ev)} style={{flexDirection:'row',alignItems:'center',gap:8}}>
     <View style={{flexDirection:'row'}}>{(ev.going_riders??[]).slice(0,5).map((r,i)=><View key={r.user_id} style={{marginLeft:i?-8:0,borderRadius:14,borderWidth:2,borderColor:colors.panel}}><Avatar name={riderName(r)} uri={r.avatar_url} size={24}/></View>)}</View>
     <Text style={{color:'#adb5c1',fontSize:13.5,flex:1}}>{(ev.going_riders??[]).length?`${(ev.going_riders??[]).slice(0,2).map(r=>r.me?'You':riderName(r)).join(', ')}${ev.going_count>2?` and ${ev.going_count-Math.min(2,(ev.going_riders??[]).length)} more`:''} going`:`${ev.going_count} going`}</Text>
    </Pressable>}
-   {!ev.canceled_at&&scope==='upcoming'&&ev.my_rsvp==='going'&&<Link title={ev.my_rsvp_public?'Shown on the going list · Hide me':'Private, counted only · Show me'} onPress={()=>void save(ev,'going',!ev.my_rsvp_public)}/>}
+   {!ev.canceled_at&&scope==='upcoming'&&ev.my_rsvp==='going'&&<Link title={ev.my_rsvp_public?'Riders can see you’re going · Hide me':'Only the host sees you’re going · Show me'} onPress={()=>void save(ev,'going',!ev.my_rsvp_public)}/>}
    {!ev.canceled_at&&scope==='upcoming'&&<View style={{flexDirection:'row',gap:10}}><View style={{flex:1}}><Button secondary={ev.my_rsvp!=='going'} title={ev.my_rsvp==='going'?'Going':'I’m going'} onPress={()=>void rsvp(ev,'going')}/></View><View style={{flex:1}}><Button secondary={ev.my_rsvp!=='interested'} title="Interested" onPress={()=>void rsvp(ev,'interested')}/></View></View>}
    <Row>{!!ev.description&&<Link title={open===ev.id?'Hide details':'Details'} onPress={()=>setOpen(open===ev.id?'':ev.id)}/>}
     {ev.mine&&<Link title={ev.canceled_at?'Restore event':'Cancel event'} onPress={()=>void api('/api/events?id='+ev.id,'PATCH',{canceled:!ev.canceled_at}).then(load).catch(e=>setNotice(errorText(e)))}/>}

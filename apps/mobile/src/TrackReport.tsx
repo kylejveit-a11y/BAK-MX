@@ -46,12 +46,14 @@ function RodeTrackOfferInner({text,at}:{text:string;at:string}){
 }
 
 type OwnReport={id:string;track_id:string;ridden_on:string};
-export function TrackReportCard({track,day,setupLogId,setupLabel,recent=[],compact=false,showOthers=false,onClose}:{track?:string;day?:string;setupLogId?:string|null;setupLabel?:string;recent?:string[];compact?:boolean;showOthers?:boolean;onClose?:()=>void}){
+export function TrackReportCard({track,day,setupLogId,setupLabel,recent=[],compact=false,showOthers=false,title=REPORT_COPY.title,onClose}:{track?:string;day?:string;setupLogId?:string|null;setupLabel?:string;recent?:string[];compact?:boolean;showOthers?:boolean;title?:string;onClose?:()=>void}){
  const dir=useTrackDirectory(),now=today();
- const [open,setOpen]=useState(!compact),[draft,setDraft]=useState<ReportDraft>(()=>({...emptyDraft(day&&day<=now?day:now),setupLogId:setupLogId??null})),[search,setSearch]=useState(''),[more,setMore]=useState(false);
+ // The day's track is the starting point: an exact BAK track is picked outright; any other name fills the search so the
+ // rider sees it and the nearest listed tracks, instead of an empty box on a day that already has a track.
+ const [open,setOpen]=useState(!compact),[draft,setDraft]=useState<ReportDraft>(()=>({...emptyDraft(day&&day<=now?day:now),setupLogId:setupLogId??null})),[search,setSearch]=useState(()=>track&&!knownTrack(dir,track)?track:''),[more,setMore]=useState(false);
  const [mine,setMine]=useState<OwnReport[]>([]),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[done,setDone]=useState(''),[others,setOthers]=useState<RecentRiderReports|null>(null);
  const set=(p:Partial<ReportDraft>)=>setDraft(d=>({...d,...p}));
- useEffect(()=>{if(!track||draft.trackId)return;const k=knownTrack(dir,track) as DirTrack|undefined;if(k)set({trackId:k.id});},[track,dir]);
+ useEffect(()=>{if(!track||draft.trackId)return;const k=knownTrack(dir,track) as DirTrack|undefined;if(k){set({trackId:k.id});setSearch('');}else setSearch(s=>s||track);},[track,dir]);
  useEffect(()=>{set({setupLogId:setupLogId??null});},[setupLogId]);
  useEffect(()=>{if(!open)return;let live=true;api<OwnReport[]>('/api/track-reports').then(r=>{if(live&&Array.isArray(r))setMine(r);}).catch(()=>{});return()=>{live=false;};},[open]);
  useEffect(()=>{if(!showOthers||!draft.trackId){setOthers(null);return;}let live=true;api<RecentRiderReports|null>('/api/track-reports/summary?track_id='+encodeURIComponent(draft.trackId)).then(r=>{if(live)setOthers(r);}).catch(()=>{if(live)setOthers(null);});return()=>{live=false;};},[showOthers,draft.trackId,done]);
@@ -69,7 +71,7 @@ export function TrackReportCard({track,day,setupLogId,setupLabel,recent=[],compa
   <Icon name="location" size={16} color={colors.accent}/><Text style={{color:colors.text,fontSize:14.5,fontWeight:'600',flexShrink:1}}>{REPORT_COPY.askPrompt(chosen?.name??track??'the track',dayWord(draft.day,now).toLowerCase())}</Text>
  </Pressable>;
  return <Card>
-  <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}><Eyebrow>{REPORT_COPY.title.toUpperCase()}</Eyebrow>{onClose&&<Link muted title="Close" onPress={onClose}/>}</View>
+  <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}><Eyebrow>{title.toUpperCase()}</Eyebrow>{onClose&&<Link muted title="Close" onPress={onClose}/>}</View>
   {done?<>
    <Notice text={done}/>
    {others&&<Copy>{reportSummaryLine(others)}</Copy>}
@@ -85,6 +87,7 @@ export function TrackReportCard({track,day,setupLogId,setupLabel,recent=[],compa
     <TextInput value={search} onChangeText={setSearch} maxLength={120} autoCorrect={false} autoCapitalize="words" placeholder={REPORT_COPY.search} placeholderTextColor="#7d8593" accessibilityLabel={REPORT_COPY.track} style={input}/>
     {suggestions.map(t=><Pressable key={t.id} accessibilityRole="button" onPress={()=>{set({trackId:t.id});setSearch('');}} style={{paddingVertical:10,borderBottomWidth:1,borderBottomColor:colors.line}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>{t.name}</Text><Text style={{color:colors.muted,fontSize:12.5}}>{[t.city,t.state].filter(Boolean).join(', ')}</Text></Pressable>)}
     {exact&&<Link title={`Use ${exact.name}`} onPress={()=>{set({trackId:exact.id});setSearch('');}}/>}
+    {!!search.trim()&&!suggestions.length&&!exact&&<Text style={{color:'#7d8593',fontSize:12.5,lineHeight:18}}>Not one of BAK’s tracks yet. Reports go on listed tracks; pick the nearest one or search another name.</Text>}
    </>}
    {others&&<Text style={{color:colors.muted,fontSize:12.5}}>{REPORT_COPY.others}: {reportSummaryLine(others)}</Text>}
    <Label>{REPORT_COPY.day}</Label>

@@ -12,4 +12,6 @@ test('the question names the bike, the rider and asks for published settings',()
  const q=firstSetupQuestion(bike,{weight:'215',level:'Vet',discipline:'Motocross',dirt:'Sand'});
  assert.match(q,/2025 KTM 450 SX-F/);assert.match(q,/215 lb in gear/);assert.match(q,/vet rider/);assert.match(q,/on sand dirt/);assert.match(q,/published settings/);
  assert.doesNotMatch(firstSetupQuestion(bike,{weight:'180',level:'Novice',discipline:'Trail',dirt:''}),/dirt/);
+ const inter=firstSetupQuestion(bike,{weight:'200',level:'Intermediate',discipline:'Motocross ',dirt:' '});
+ assert.match(inter,/I'm an intermediate rider/);assert.match(inter,/riding motocross\. Give me/);assert.doesNotMatch(inter,/ \./);
 });

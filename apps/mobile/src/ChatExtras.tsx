@@ -11,7 +11,9 @@ import {readProgress,writeProgress} from './localProgress';
 import {api} from './api';
 import {BlueFace,blueLift,onBlueText,Button,Card,Copy,Icon,Notice,colors} from './ui';
 
-const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
+import {userErrorText} from '../../../shared/user-error';
+// Only messages we wrote (or the API sent) reach the rider; a raw code failure reads as our fault, not theirs.
+const errorText=(e:unknown)=>userErrorText(e);
 function Chip({label,on=false,quiet=false,center=false,onPress}:{label:string;on?:boolean;quiet?:boolean;center?:boolean;onPress:()=>void}){
  return <Pressable haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={onPress} style={({pressed})=>[ch.chip,on&&ch.on,on&&blueLift,quiet&&{borderColor:'transparent',paddingHorizontal:6},center&&{paddingHorizontal:6,alignItems:'center'},pressed&&{opacity:0.6}]}>{on&&<BlueFace radius={20}/>}<Text numberOfLines={center?1:undefined} adjustsFontSizeToFit={center} style={[ch.text,on&&{color:'#ffffff',fontWeight:'700'},on&&onBlueText,quiet&&{color:colors.accent,fontWeight:'600'},center&&{textAlign:'center'}]}>{label}</Text></Pressable>;
 }

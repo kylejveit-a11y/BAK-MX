@@ -54,6 +54,30 @@ export function ProfileSharing({bike,photos,onChanged}:{bike:Bike;photos:Photo[]
  </Card>;
 }
 
+/** Garage overview › Sharing: the same two switches, where a rider looks for them. Photo picking stays on the Photos tab. */
+export function SharingCard({bike,onPhotos,onChanged}:{bike:Bike;onPhotos:()=>void;onChanged?:()=>void}){
+ const {sharing,setSharing,error}=useGarageSharing(bike.id);
+ const [busy,setBusy]=useState(false),[notice,setNotice]=useState('');
+ async function save(next:Partial<Sharing>){
+  if(!sharing)return;setBusy(true);setNotice('');
+  try{const saved=await api<Sharing>('/api/garage-sharing','PUT',{bike_id:bike.id,show_on_profile:sharing.show_on_profile,build_sheet_public:sharing.build_sheet_public,photo_ids:sharing.photo_ids,...next});setSharing(saved);onChanged?.();}
+  catch(e){setNotice(errorText(e));}finally{setBusy(false);}
+ }
+ const row=(title:string,detail:string,value:boolean,onChange:(v:boolean)=>void)=><View style={{flexDirection:'row',alignItems:'center',gap:12}}>
+  <View style={{flex:1,gap:3}}><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{title}</Text><Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>{detail}</Text></View>
+  <Switch value={value} disabled={busy||!sharing} onValueChange={onChange} trackColor={{true:colors.primary,false:'#2a2f39'}} accessibilityLabel={title}/>
+ </View>;
+ const on=!!sharing?.show_on_profile;
+ return <Card>
+  <Eyebrow>SHARING</Eyebrow>
+  {!sharing&&(error?<Notice text={error}/>:<ActivityIndicator color={colors.accent}/>)}
+  {row('Show this bike on my profile',on?`Riders see the bike${sharing?.photo_ids.length?` and ${sharing.photo_ids.length} ${sharing.photo_ids.length===1?'photo':'photos'}`:''}.`:'Off: only you see this bike and its photos.',on,v=>void save({show_on_profile:v,build_sheet_public:v&&!!sharing?.build_sheet_public,photo_ids:v?sharing?.photo_ids??[]:[]}))}
+  {on&&row('Public build sheet',sharing?.build_sheet_public?'Anyone who sees this bike can read its parts list. Never your settings, notes, hours or rider details.':'Private: only you see the parts list.',!!sharing?.build_sheet_public,v=>void save({build_sheet_public:v}))}
+  {on&&<Pressable accessibilityRole="button" onPress={onPhotos} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>Pick the photos to show · Photos</Text></Pressable>}
+  <Notice text={notice}/>
+ </Card>;
+}
+
 export type PublicBike={id:string;label:string;photos:Photo[];sheet:'mine'|'public'|'private'};
 type Sheet={bike:{label:string;manufacturer:string;model:string;model_year:number;nickname:string};parts:{system:PartSystem;system_label:string;name:string;brand:string;part:string;size:string;color:string;detail:string;off_bike:boolean}[];stock:PartSystem[];stock_systems:string[]};
 
@@ -70,7 +94,7 @@ function PublicBikeCard({bike,raceNumber}:{bike:PublicBike;raceNumber?:string}){
   {!!bike.photos.length&&<ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8}}>
    {bike.photos.map((p,i)=><Pressable key={p.id} accessibilityRole="imagebutton" accessibilityLabel={`Photo ${i+1} of ${bike.label}`} onPress={()=>setViewer(i)}><Image source={{uri:p.url}} style={{width:150,height:112,borderRadius:12,backgroundColor:'#101217'}} accessibilityIgnoresInvertColors/></Pressable>)}
   </ScrollView>}
-  {state==='mine'&&<Text style={{color:colors.muted,fontSize:13.5}}>This is how riders see your bike. Set the build sheet public or private in Garage › Photos.</Text>}
+  {state==='mine'&&<Text style={{color:colors.muted,fontSize:13.5}}>This is how riders see your bike. Show or hide it, and set the build sheet public or private, under Sharing on the Garage overview.</Text>}
   {state==='private'&&<Text style={{color:colors.muted,fontSize:13.5}}>Build sheet is private.</Text>}
   {(state==='public'||state==='mine')&&<Pressable accessibilityRole="button" onPress={()=>void view()} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{open?'Hide build sheet':busy?'Loading…':'View build sheet'}</Text></Pressable>}
   {open&&sheet&&<BuildSheetDoc data={{title:`${sheet.bike.model_year} ${sheet.bike.manufacturer} ${sheet.bike.model}`,subtitle:sheet.bike.nickname||undefined,raceNumber:raceNumber||undefined,parts:sheet.parts.map(p=>({system:p.system,brand:p.brand,name:p.part||p.name,size:p.size||undefined,color:p.color||undefined,detail:p.detail||undefined,off:p.off_bike})),stock:sheet.stock??[]}}/>}

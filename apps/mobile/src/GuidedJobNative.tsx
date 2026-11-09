@@ -106,15 +106,21 @@ export function useNativeVoice(onUtterance:(text:string)=>void){
 }
 
 export function GuidedJobCardNative({job,voice,onSay,busy}:{job:NativeGuidedJob;voice:ReturnType<typeof useNativeVoice>;onSay:(text:string)=>void;busy:boolean}){
- const [picking,setPicking]=useState(false),[record,setRecord]=useState(''),[finding,setFinding]=useState(''),[open,setOpen]=useState(false);
+ const [picking,setPicking]=useState(false),[record,setRecord]=useState(''),[finding,setFinding]=useState(''),[open,setOpen]=useState(false),[note,setNote]=useState('');
  const {procedure,run,step,finished}=job;
  if(!job.available.length)return null;
  if(!procedure||!run)return <><Tile icon="thandle" title="Working on the bike?" detail="Step-by-step guided jobs, hands-free" onPress={()=>setPicking(true)}/><WheelSheet visible={picking} step="GUIDED JOB" title="What are you working on?" searchPlaceholder="Search jobs" options={job.groups.flatMap(g=>g.procedures.map(p=>({value:p.id,label:p.title,detail:`${g.title} · ${p.steps.length} steps`})))} onClose={()=>setPicking(false)} onPick={v=>{setPicking(false);onSay(job.start(v));}}/></>;
  const done=procedure.steps.filter(x=>procedureStepRecorded(run,x.id)).length;
  const link=step?.diagram_reference_required?step.source_links.find(l=>/^https?:\/\//.test(l)):undefined;
- const blocked=finished||!!step?.record_required||!!step?.branches?.length;
+ // Same words as the Workshop guide page, so the two doors into a job read as one feature.
+ const needsRecord=!!step?.record_required&&!finished,needsBranch=!!step?.branches?.length&&!finished,last=!!run&&run.step_index===procedure.steps.length-1;
+ const blocked=finished||needsRecord||needsBranch;
+ const why=needsRecord?'Record the value first':needsBranch?'Pick what you found first':'';
+ const doneLabel=last?'Done — finish guide':'Done — next step';
+ // Done with a note records the note on the step and moves on, the way the Workshop page keeps notes against each step.
+ const finishStep=()=>{setOpen(false);const n=note.trim();setNote('');onSay(n?job.handle({kind:'record',text:n}):job.handle({kind:'next'}));};
  const toggleVoice=()=>{if(voice.on)voice.disable();else void voice.enable().then(ok=>{if(ok)voice.speak(toSpeech(`Workshop mode on. ${guidedHelp} ${stepSpeech(procedure,run.step_index)}`));});};
- const round=(label:string,icon:'chevronLeft'|'refresh',onPress:()=>void,disabled=false)=><Pressable accessibilityRole="button" accessibilityLabel={label} disabled={disabled} onPress={onPress} style={({pressed})=>({width:52,height:52,borderRadius:26,borderWidth:1,borderColor:'#343a45',alignItems:'center',justifyContent:'center',opacity:disabled?0.35:pressed?0.6:1})}><Icon name={icon} size={21} color={colors.text} weight={2}/></Pressable>;
+ const pill=(label:string,icon:'chevronLeft'|'refresh',onPress:()=>void,disabled=false)=><Pressable accessibilityRole="button" accessibilityLabel={label} disabled={disabled} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:5,height:44,paddingHorizontal:14,borderRadius:22,borderWidth:1,borderColor:'#343a45',opacity:disabled?0.35:pressed?0.6:1})}><Icon name={icon} size={16} color={colors.text} weight={2}/><Text style={{color:colors.text,fontSize:14.5,fontWeight:'700'}}>{label}</Text></Pressable>;
  return <Card>
   <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}>
    <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={14}/><Text style={{color:'#9aa2ae',fontWeight:'800',letterSpacing:1.6,fontSize:11.5}}>{finished?'JOB COMPLETE':`STEP ${run.step_index+1} OF ${procedure.steps.length}`}</Text></View>
@@ -126,13 +132,17 @@ export function GuidedJobCardNative({job,voice,onSay,busy}:{job:NativeGuidedJob;
    <Pressable accessibilityRole="button" hitSlop={8} onPress={()=>setOpen(!open)} style={{flexDirection:'row',alignItems:'center',gap:6,alignSelf:'flex-start'}}><Text style={{color:colors.text,fontWeight:'700'}}>{open?'Less':'More, and how to check it'}</Text><Icon name={open?'chevronUp':'chevronDown'} size={14} color={colors.accent} weight={2.2}/></Pressable>
    {open&&step.verification.map((v,i)=><View key={i} style={{flexDirection:'row',gap:8}}><Icon name="check" size={16} color="#7fd09a" weight={2.2}/><Text style={{color:colors.muted,fontSize:15,lineHeight:22,flex:1}}>{riderText(v)}</Text></View>)}</>}
   {link&&<LinkAction title="Show the picture for this step" onPress={()=>void Linking.openURL(link).catch(()=>{})}/>}
-  {step?.record_required&&!finished&&<View style={{gap:10}}><Field label="Record it" value={record} onChangeText={setRecord} placeholder="Measurement or finding"/><Button title="Record and continue" disabled={!record.trim()} onPress={()=>{onSay(job.handle({kind:'record',text:record.trim()}));setRecord('');}}/></View>}
+  {step?.record_required&&!finished&&<View style={{gap:10}}><Field label="Write what you measured or found (needed)" value={record} onChangeText={setRecord} placeholder="The number you measured, or what you saw"/><Button title="Record it — next step" disabled={!record.trim()} onPress={()=>{onSay(job.handle({kind:'record',text:record.trim()}));setRecord('');}}/></View>}
   {!!step?.branches?.length&&<View style={{gap:10}}><Field label="What did you find?" value={finding} onChangeText={setFinding} placeholder="What you measured or found"/>{step.branches.map(b=><Button key={b.id} secondary disabled={!finding.trim()} title={b.label} onPress={()=>{onSay(job.branch(b.id,finding));setFinding('');}}/>)}</View>}
+  {step&&!finished&&!needsRecord&&!needsBranch&&<Field label="Notes or measurements (optional)" value={note} onChangeText={setNote} placeholder="Anything worth remembering" multiline/>}
   <Notice text={job.notice}/>
-  <View style={{flexDirection:'row',gap:10,alignItems:'center',paddingTop:4}}>
-   {round('Previous step','chevronLeft',()=>onSay(job.handle({kind:'back'})),run.step_index===0)}
-   {round('Repeat this step','refresh',()=>onSay(job.handle({kind:'repeat'})))}
-   <Pressable haptic="press" accessibilityRole="button" accessibilityLabel="Step done, next step" disabled={blocked} onPress={()=>{setOpen(false);onSay(job.handle({kind:'next'}));}} style={({pressed})=>[{flex:1,height:52,borderRadius:26,backgroundColor:blocked?'#16191f':'transparent',flexDirection:'row',alignItems:'center',justifyContent:'center',gap:6},!blocked&&blueLift,pressed&&{transform:[{translateY:1}]}]}>{({pressed})=><>{!blocked&&<BlueFace radius={26} pressed={pressed}/>}<Text style={[{color:blocked?'#7d8593':'#ffffff',fontWeight:'800',fontSize:16},!blocked&&onBlueText]}>Done</Text><Icon name="chevronRight" size={17} color={blocked?'#7d8593':'#ffffff'} weight={2.4}/></>}</Pressable>
+  <View style={{gap:8,paddingTop:4}}>
+   <Pressable haptic="press" accessibilityRole="button" accessibilityLabel={blocked?`${doneLabel}. ${why||'Finished'}`:doneLabel} accessibilityState={{disabled:blocked}} disabled={blocked} onPress={finishStep} style={({pressed})=>[{height:52,borderRadius:26,backgroundColor:blocked?'#16191f':'transparent',flexDirection:'row',alignItems:'center',justifyContent:'center',gap:6},!blocked&&blueLift,pressed&&{transform:[{translateY:1}]}]}>{({pressed})=><>{!blocked&&<BlueFace radius={26} pressed={pressed}/>}<Text style={[{color:blocked?'#7d8593':'#ffffff',fontWeight:'800',fontSize:16},!blocked&&onBlueText]}>{doneLabel}</Text><Icon name="chevronRight" size={17} color={blocked?'#7d8593':'#ffffff'} weight={2.4}/></>}</Pressable>
+   {!!why&&<Text style={{color:'#b2b9c4',fontSize:13,lineHeight:18,textAlign:'center'}}>{why}</Text>}
+   {!finished&&<View style={{flexDirection:'row',gap:10,alignItems:'center'}}>
+    {pill('Back','chevronLeft',()=>onSay(job.handle({kind:'back'})),run.step_index===0)}
+    {pill('Repeat','refresh',()=>onSay(job.handle({kind:'repeat'})))}
+   </View>}
   </View>
   <Pressable haptic="select" accessibilityRole="switch" accessibilityState={{checked:voice.on}} onPress={toggleVoice} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:12,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',marginTop:4,opacity:pressed?0.6:1})}>
    <View style={{width:38,height:38,borderRadius:19,alignItems:'center',justifyContent:'center',backgroundColor:voice.on?colors.accent:'transparent',borderWidth:1,borderColor:voice.on?colors.accent:'#343a45'}}><Icon name="mic" size={19} color={voice.on?'#ffffff':colors.text}/></View>
