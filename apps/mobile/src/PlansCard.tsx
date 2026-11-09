@@ -25,7 +25,7 @@ export function PlansCard({bare=false}:{bare?:boolean}){
  const Wrap=bare?View:Card;
  return <Wrap style={bare?{gap:12}:undefined}>
   {!bare&&<Eyebrow>ASK BAK PLAN</Eyebrow>}
-  {!usage?<Copy>Checking your plan…</Copy>:<>
+  {!usage?(!notice&&<Copy>Checking your plan…</Copy>):<>
    <View style={{flexDirection:'row',alignItems:'baseline',gap:10}}><Text style={{color:colors.text,fontSize:24,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6}}>{TIER_LABEL[tier]}</Text>{usage.access_mode==='beta'&&<Text style={{color:'#9aa2ae',fontSize:12,fontWeight:'800',letterSpacing:1.2}}>LAUNCH OFFER</Text>}</View>
    <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>{usage.access_mode==='beta'?`Launch offer: every rider gets ${usage.daily_limit} questions a day for now.`:TIER_BLURB[tier]}</Text>
    <View style={{gap:8,paddingTop:2}}>
@@ -37,6 +37,7 @@ export function PlansCard({bare=false}:{bare?:boolean}){
    {canStartTrialSet(usage)&&<Button disabled={busy} title="Start next free set" onPress={()=>void task(()=>api('/api/usage/next-set','POST',{}),'Your next free set is ready.')}/>}
   </>}
   <Notice text={notice}/>
+  {!usage&&!!notice&&<LinkAction disabled={busy} title="Retry" onPress={()=>{setNotice('');load();}}/>}
   {!packages.length&&<LinkAction disabled={busy} title="See plans and credit packs" onPress={()=>void task(async()=>{const p=await offerings();setPackages(p);if(!p.length)setNotice('Plans and credit packs are not available from the store yet.');})}/>}
   {plans.map(p=><View key={p.identifier} style={{gap:6,paddingVertical:10,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}><View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'baseline'}}><Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>{p.product.title}</Text><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{p.product.priceString}<Text style={{color:'#adb5c1',fontWeight:'500'}}> / {periodLabel(p.product.subscriptionPeriod!)}</Text></Text></View><Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>{p.product.description}</Text><Button disabled={busy} title={`Subscribe · ${p.product.priceString} / ${periodLabel(p.product.subscriptionPeriod!)}`} onPress={()=>void task(()=>purchase(p),'Purchase received and your plan is updated.')}/></View>)}
   {packs.length>0&&<View style={{gap:4,paddingTop:6}}><Text style={{color:colors.text,fontSize:16,fontWeight:'800'}}>Credit packs</Text><Text style={{color:colors.muted,fontSize:13}}>Credits never expire and are used after your included questions.</Text></View>}

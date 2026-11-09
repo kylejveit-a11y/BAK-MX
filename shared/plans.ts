@@ -10,7 +10,7 @@ export const DEFAULT_DAILY:Record<Tier,number>={free:0,premium:100,pro:300};
 export const TRIAL_BLOCKS=7,TRIAL_BLOCK_SIZE=20,BETA_DAILY=40;
 export const TIER_LABEL:Record<Tier,string>={free:'Free',premium:'Premium',pro:'Pro'};
 export const TIER_BLURB:Record<Tier,string>={
- free:'7 sets of 20 Ask BAK questions to start, plus your Garage, setup log and community.',
+ free:`${TRIAL_BLOCKS} sets of ${TRIAL_BLOCK_SIZE} Ask BAK questions to start, plus your Garage, setup log and community.`,
  premium:'100 Ask BAK questions a day for riders who tune every weekend.',
  pro:'Unlimited Ask BAK questions (fair use) and coaching from riding clips, for racers, mechanics and shops.'};
 /** Coaching from a riding clip (video frames) is a Pro feature (Kyle, 2026-11-01). Photos stay on every plan. */

@@ -60,9 +60,10 @@ export function FormHead({title,onCancel}:{title:string;onCancel:()=>void}){retu
 
 function useProfile(){
  const [profile,setProfile]=useState<Profile|null|undefined>(undefined),[error,setError]=useState('');
- const load=useCallback(async()=>{try{setProfile(await api<Profile|null>('/api/profile'));setError('');}catch(e){setError(errorText(e));setProfile(null);}},[]);
+ // A failed request is not "no profile": the profile stays as it was (unknown on first load) and the error is reported.
+ const load=useCallback(async()=>{try{setProfile(await api<Profile|null>('/api/profile'));setError('');}catch(e){setError(errorText(e));}},[]);
  useFocusEffect(useCallback(()=>{void load();},[load]));
- return {profile,setProfile,profileError:error};
+ return {profile,setProfile,profileError:error,reloadProfile:load};
 }
 
 /* ------------------------------------------------------------------ Profile */
@@ -88,6 +89,8 @@ export function ProfileEditor({profile,onSaved}:{profile:Profile|null;onSaved:(p
  </View>;
 }
 function NeedsProfile({onSaved}:{onSaved:(p:Profile)=>void}){return <Card><Copy strong>Set up your rider profile</Copy><ProfileEditor profile={null} onSaved={onSaved}/></Card>;}
+/** The profile could not be read (no signal, server down): say so and offer a retry. Never the set-up form, which is for a rider who has none. */
+function ProfileUnavailable({error,onRetry}:{error:string;onRetry:()=>void}){return <><Notice text={error}/><Button secondary title="Retry" onPress={onRetry}/></>;}
 export function ProfileCard(){
  const {profile,setProfile,profileError}=useProfile();
  const [editing,setEditing]=useState(false),[photoBusy,setPhotoBusy]=useState(false),[photoNote,setPhotoNote]=useState('');
@@ -102,7 +105,7 @@ export function ProfileCard(){
 }
 export function FeedbackCard({bike,bare=false}:{bike?:Bike;bare?:boolean}){
  const [category,setCategory]=useState('missing_data'),[body,setBody]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
- async function send(){if(busy||!body.trim())return;setBusy(true);setNotice('');try{await api('/api/feedback','POST',{category,body,context:{client:'native',bike:bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:null}});setBody('');setNotice('Thanks — this goes straight to the build list.');}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
+ async function send(){if(busy||!body.trim())return;setBusy(true);setNotice('');try{await api('/api/feedback','POST',{category,body,context:{client:'native',bike:bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:null}});setBody('');setNotice('Thanks — we read every one.');}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
  const Wrap=bare?View:Card;
  return <Wrap style={bare?{gap:12}:undefined}>{!bare&&<Copy strong>Tell us what’s missing or wrong</Copy>}<Copy>A wrong answer, a missing spec for your bike, a bug, an idea. Be specific; it gets read.</Copy>
   <Choices disabled={busy} label="About" value={category} items={[{value:'answer_quality',label:'An answer'},{value:'missing_data',label:'Missing data'},{value:'bug',label:'Something broken'},{value:'idea',label:'An idea'},{value:'other',label:'Other'}]} onChange={setCategory}/>
@@ -142,7 +145,7 @@ async function sharePost(p:Post){
  }catch{Alert.alert('Could not share','Try again in a moment.');}
 }
 export function CommunityScreen({bike,onMessage,draft,draftToken}:{bike?:Bike;onMessage:(r:RiderRef)=>void;draft?:{category:PostCategory;body:string;photoIds?:string[]};draftToken?:string}){
- const {profile,setProfile}=useProfile();
+ const {profile,setProfile,profileError,reloadProfile}=useProfile();
  const [posts,setPosts]=useState<Post[]>([]),[filter,setFilter]=useState<PostCategory|''>(''),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[composing,setComposing]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState(''),[reporting,setReporting]=useState(''),[reason,setReason]=useState(''),[likers,setLikers]=useState<{title:string;path:string}|null>(null);
  // A post Ask BAK drafted opens in the composer; the rider still checks it and taps Post.
  useEffect(()=>{if(draftToken&&draft)setComposing(true);},[draftToken]);
@@ -157,6 +160,7 @@ export function CommunityScreen({bike,onMessage,draft,draftToken}:{bike?:Bike;on
   else Alert.alert(riderName(p.author),undefined,[{text:'Message',onPress:()=>onMessage(p.author)},{text:'View profile',onPress:()=>setViewing(p.user_id)},{text:'Report post',onPress:()=>{setReporting(p.id);setReason('');}},{text:'Block',style:'destructive',onPress:block},{text:'Cancel',style:'cancel'}]);
  }
  if(viewing)return <RiderProfileView riderId={viewing} onBack={()=>setViewing('')} onMessage={r=>{setViewing('');onMessage(r);}}/>;
+ if(profileError&&!profile)return <Page title="Community"><Copy>Builds, setup questions and ride plans from riders on gas MX bikes.</Copy><ProfileUnavailable error={profileError} onRetry={()=>void reloadProfile()}/></Page>;
  if(profile===undefined)return <Page title="Community"><Copy>Loading…</Copy></Page>;
  if(!profile)return <Page title="Community"><Copy>Builds, setup questions and ride plans from riders on gas MX bikes.</Copy><NeedsProfile onSaved={setProfile}/></Page>;
  return <Page title="">
@@ -291,7 +295,7 @@ export function parseLocalStamp(value:string):Date|null{
  return localStamp(d)===`${m[1]}-${m[2]}-${m[3]} ${m[4]}:${m[5]}`?d:null;
 }
 export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
- const {profile,setProfile}=useProfile();
+ const {profile,setProfile,profileError,reloadProfile}=useProfile();
  const [formNotice,setFormNotice]=useState('');const [events,setEvents]=useState<RideEvent[]>([]),[scope,setScope]=useState<'upcoming'|'past'>('upcoming'),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[creating,setCreating]=useState(false),[busy,setBusy]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState(''),[going,setGoing]=useState<RideEvent|null>(null);
  const [title,setTitle]=useState(''),[type,setType]=useState('practice'),[starts,setStarts]=useState(()=>{const d=new Date(Date.now()+86400000);d.setHours(9,0,0,0);return localStamp(d);}),[ends,setEnds]=useState(''),[place,setPlace]=useState(''),[details,setDetails]=useState('');
  const load=useCallback(async()=>{setLoading(true);try{setEvents(await api<RideEvent[]>('/api/events?scope='+scope));setNotice('');}catch(e){setNotice(errorText(e));}finally{setLoading(false);}},[scope]);
@@ -315,7 +319,8 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
   if(status==='going'&&ev.my_rsvp!=='going')Alert.alert('You’re going to '+ev.title,'Show your profile on the going list? You’re counted in the total either way.',[{text:'Show me',onPress:()=>void save(ev,'going',true)},{text:'Keep me private',onPress:()=>void save(ev,'going',false)},{text:'Cancel',style:'cancel'}]);
   else void save(ev,status);
  }
- if(viewing)return <RiderProfileView riderId={viewing} onBack={()=>setViewing('')} onMessage={r=>{setViewing('');onMessage(r);}}/>;
+ if(viewing)return <RiderProfileView riderId={viewing} from="Events" onBack={()=>setViewing('')} onMessage={r=>{setViewing('');onMessage(r);}}/>;
+ if(profileError&&!profile)return <Page title="Events"><Copy>Ride days, races, practice nights, clinics and meetups posted by riders.</Copy><ProfileUnavailable error={profileError} onRetry={()=>void reloadProfile()}/></Page>;
  if(profile===undefined)return <Page title="Events"><Copy>Loading…</Copy></Page>;
  if(!profile)return <Page title="Events"><Copy>Ride days, races, practice nights, clinics and meetups posted by riders.</Copy><NeedsProfile onSaved={setProfile}/></Page>;
  // The primary action rides in the page footer, above the tab bar and the keyboard, so it is never half under either.
@@ -357,13 +362,14 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
 
 /* ------------------------------------------------------------------ Messages */
 export function MessagesScreen({startWith,onStarted}:{startWith?:RiderRef;onStarted:()=>void}){
- const {profile,setProfile}=useProfile();
+ const {profile,setProfile,profileError,reloadProfile}=useProfile();
  const [threads,setThreads]=useState<ThreadSummary[]>([]),[active,setActive]=useState<RiderRef|null>(null),[messages,setMessages]=useState<ThreadMessage[]>([]),[text,setText]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
  const loadThreads=useCallback(async()=>{try{setThreads(await api<ThreadSummary[]>('/api/threads'));}catch(e){setNotice(errorText(e));}},[]);
  const open=useCallback(async(rider:RiderRef)=>{setActive(rider);setMessages([]);setNotice('');try{const data=await api<{messages:ThreadMessage[]}>('/api/thread?with='+rider.user_id);setMessages(data.messages);void loadThreads();}catch(e){setNotice(errorText(e));}},[loadThreads]);
  useFocusEffect(useCallback(()=>{if(profile)void loadThreads();},[loadThreads,profile?.user_id]));
  useEffect(()=>{if(startWith&&profile){void open(startWith);onStarted();}},[startWith?.user_id,profile?.user_id]);
  async function send(){if(busy||!active||!text.trim())return;setBusy(true);try{const sent=await api<ThreadMessage>('/api/thread','POST',{recipient_id:active.user_id,body:text});setMessages(old=>[...old,sent]);setText('');void loadThreads();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
+ if(profileError&&!profile)return <Page title="Messages"><Copy>Message a rider from a post or an event.</Copy><ProfileUnavailable error={profileError} onRetry={()=>void reloadProfile()}/></Page>;
  if(profile===undefined)return <Page title="Messages"><Copy>Loading…</Copy></Page>;
  if(!profile)return <Page title="Messages"><Copy>Message a rider from a post or an event.</Copy><NeedsProfile onSaved={setProfile}/></Page>;
  if(!active)return <Page title="Messages"><Notice text={notice}/>
@@ -460,9 +466,11 @@ function Diagram({uri,title}:{uri:string;title:string}){
  </>;
 }
 export function PartsCatalogCard({bike}:{bike?:Bike}){
- const [catalog,setCatalog]=useState<PartCatalog|null|undefined>(undefined),[assemblies,setAssemblies]=useState<PartAssembly[]>([]),[open,setOpen]=useState(''),[parts,setParts]=useState<Part[]>([]),[find,setFind]=useState(''),[notice,setNotice]=useState('');
- useEffect(()=>{let live=true;setCatalog(undefined);setAssemblies([]);setOpen('');setParts([]);setNotice('');if(bike)api<{catalog:PartCatalog|null;assemblies:PartAssembly[]}>('/api/parts/catalog?bike_id='+bike.id).then(d=>{if(live){setCatalog(d.catalog);setAssemblies(d.assemblies);}}).catch(e=>{if(live){setNotice(errorText(e));setCatalog(null);}});return()=>{live=false;};},[bike?.id]);
- async function show(a:PartAssembly){if(open===a.id){setOpen('');return;}setOpen(a.id);setParts([]);try{setParts(await api<Part[]>('/api/parts?assembly_id='+a.id));}catch(e){setNotice(errorText(e));}}
+ const [catalog,setCatalog]=useState<PartCatalog|null|undefined>(undefined),[assemblies,setAssemblies]=useState<PartAssembly[]>([]),[open,setOpen]=useState(''),[parts,setParts]=useState<Part[]|null>(null),[find,setFind]=useState(''),[notice,setNotice]=useState('');
+ useEffect(()=>{let live=true;setCatalog(undefined);setAssemblies([]);setOpen('');setParts(null);setNotice('');if(bike)api<{catalog:PartCatalog|null;assemblies:PartAssembly[]}>('/api/parts/catalog?bike_id='+bike.id).then(d=>{if(live){setCatalog(d.catalog);setAssemblies(d.assemblies);}}).catch(e=>{if(live){setNotice(errorText(e));setCatalog(null);}});return()=>{live=false;};},[bike?.id]);
+ // parts: null while the section's list loads, the list (maybe empty) once it has. A failed request shows the error and an
+ // empty list with a retry line, so "Loading parts" never stays on screen for ever.
+ async function show(a:PartAssembly){const failed=open===a.id&&!!notice&&parts!==null&&!parts.length;if(open===a.id&&!failed){setOpen('');return;}setOpen(a.id);setParts(null);setNotice('');try{setParts(await api<Part[]>('/api/parts?assembly_id='+a.id));}catch(e){setNotice(errorText(e));setParts([]);}}
  if(!bike||catalog===undefined)return null;
  const shown=assemblies.filter(a=>a.name.toLowerCase().includes(find.trim().toLowerCase()));
  return <Card><Copy strong>Parts catalog</Copy><Notice text={notice}/>
@@ -473,7 +481,7 @@ export function PartsCatalogCard({bike}:{bike?:Bike}){
     <Pressable accessibilityRole="button" accessibilityState={{expanded:open===a.id}} onPress={()=>void show(a)} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:40}}><Text style={{color:colors.text,fontSize:16,flex:1}}>{sectionName(a.name)}</Text><Icon name={open===a.id?'chevronDown':'chevronRight'} size={17} color="#adb5c1"/></Pressable>
     {open===a.id&&<View style={{gap:8}}>
      {hasDiagram(a.diagram_url)&&<Diagram uri={a.diagram_url} title={sectionName(a.name)}/>}
-     {!parts.length?<Copy>Loading parts…</Copy>:parts.map(p=><View key={p.id} style={{flexDirection:'row',gap:10}}><Text style={{color:colors.text,width:30,fontWeight:'700'}}>{p.callout}</Text><View style={{flex:1}}><Text selectable style={{color:colors.text,fontSize:15}}>{p.description}</Text><Text selectable style={{color:colors.muted,fontSize:13}}>{[p.part_number||'No part number',p.quantity_raw&&p.quantity_raw!=='0'?`Qty ${p.quantity_raw}`:'',p.remarks].filter(Boolean).join(' · ')}</Text></View></View>)}
+     {parts===null?<Copy>Loading parts…</Copy>:!parts.length?<Copy>{notice?'The parts list didn’t load. Tap the section to try again.':'No parts listed for this section.'}</Copy>:parts.map(p=><View key={p.id} style={{flexDirection:'row',gap:10}}><Text style={{color:colors.text,width:30,fontWeight:'700'}}>{p.callout}</Text><View style={{flex:1}}><Text selectable style={{color:colors.text,fontSize:15}}>{p.description}</Text><Text selectable style={{color:colors.muted,fontSize:13}}>{[p.part_number||'No part number',p.quantity_raw&&p.quantity_raw!=='0'?`Qty ${p.quantity_raw}`:'',p.remarks].filter(Boolean).join(' · ')}</Text></View></View>)}
      <Copy>Catalog quantities are per assembly as published, not whole-bike totals.</Copy>
     </View>}
    </View>)]:[];})}
@@ -499,10 +507,10 @@ export function SetupGuideCard({onAsk,bike}:{onAsk?:(text:string)=>void;bike?:Bi
 }
 
 /* ------------------------------------------------------------------ Rider profile */
-export function RiderProfileView({riderId,onBack,onMessage}:{riderId:string;onBack:()=>void;onMessage:(r:RiderRef)=>void}){
+export function RiderProfileView({riderId,from='Community',onBack,onMessage}:{riderId:string;from?:string;onBack:()=>void;onMessage:(r:RiderRef)=>void}){
  const [data,setData]=useState<{profile:Profile;posts:{id:string;category:PostCategory;body:string;bike_label:string;created_at:string;photos?:Photo[];video?:Post['video']}[];bikes?:PublicBike[];mine:boolean}|null>(null),[notice,setNotice]=useState('');
  useEffect(()=>{let live=true;setData(null);setNotice('');api<NonNullable<typeof data>>('/api/profiles?id='+riderId).then(d=>{if(live)setData(d);}).catch(e=>{if(live)setNotice(errorText(e));});return()=>{live=false;};},[riderId]);
- return <Page title=""><BackLink title="Community" onPress={onBack}/><Notice text={notice}/>
+ return <Page title=""><BackLink title={from} onPress={onBack}/><Notice text={notice}/>
   {!data&&!notice&&<Copy>Loading rider…</Copy>}
   {data&&<>
    <View style={{alignItems:'center',gap:8,paddingVertical:8}}>

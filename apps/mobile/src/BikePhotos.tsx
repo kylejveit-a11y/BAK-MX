@@ -37,9 +37,11 @@ export function BikePhotos({bike,onSharingChanged}:{bike:Bike;onSharingChanged?:
  *  size, so nothing jumps); with no photo yet the plate carries a camera and "Add a photo", which opens the picker. */
 export function BikeCover({bike,photos,onAdded}:{bike:Bike;photos:Photo[]|null;onAdded:(added:Photo[])=>void}){
  const {width}=useWindowDimensions(),w=width-40,h=Math.round(w*0.56);
- const [adding,setAdding]=useState(false),[shown,setShown]=useState(false),[failed,setFailed]=useState<string|null>(null),[notice,setNotice]=useState('');
+ const [adding,setAdding]=useState(false),[shown,setShown]=useState(false),[failed,setFailed]=useState<string|null>(null),[attempt,setAttempt]=useState(0),[notice,setNotice]=useState('');
  const p=photos?.[0],loading=photos===null,broken=!!p&&failed===p.url;
  const fade=useRef(new Animated.Value(0)).current;
+ // A picture that failed to load: tapping the plate asks for it again (a fresh Image, so the failed fetch is not reused).
+ const retry=()=>{setFailed(null);setShown(false);fade.setValue(0);setAttempt(a=>a+1);};
  useEffect(()=>{if(!p){fade.setValue(0);setShown(false);}},[p?.url]);
  async function add(){if(adding)return;setNotice('');try{setAdding(true);const added=await addPhotos('bike',{limit:10,bikeId:bike.id,title:'Photos of your bike'});if(added.length)onAdded(added);}catch(e){setNotice(errorText(e));}finally{setAdding(false);}}
  const plate=<MetalPanel radius={14} style={{width:w,height:h}}>
@@ -47,14 +49,14 @@ export function BikeCover({bike,photos,onAdded}:{bike:Bike;photos:Photo[]|null;o
    {adding?<ActivityIndicator color={colors.accent}/>:<Icon name="camera" size={26} color={loading?'#6b7380':'#c9cfd9'} weight={1.7}/>}
    {!loading&&!p&&<Text style={{color:'#e7e9ee',fontSize:15,fontWeight:'700'}}>{adding?'Adding…':'Add a photo'}</Text>}
    {!loading&&!p&&<Text style={{color:'#9aa2ae',fontSize:12.5}}>Your {bike.model_year} {bike.manufacturer} {bike.model}, front and centre</Text>}
-   {broken&&<Text style={{color:'#9aa2ae',fontSize:12.5}}>The photo didn’t load. Pull down to retry.</Text>}
+   {broken&&<Text style={{color:'#9aa2ae',fontSize:12.5}}>The photo didn’t load. Tap to retry.</Text>}
   </View>
  </MetalPanel>;
  return <View style={{gap:8}}>
   <View style={{width:w,height:h}}>
    {/* the plate is always underneath; a picture fades in over it once it has loaded */}
-   {(!p||!shown||broken)&&(loading||!p||broken?<Pressable accessibilityRole="button" accessibilityLabel="Add a photo of your bike" disabled={loading||adding||!!p} onPress={()=>void add()} style={({pressed})=>({opacity:pressed?0.75:1})}>{plate}</Pressable>:plate)}
-   {p&&!broken&&<Animated.Image source={{uri:p.url}} accessibilityLabel="Your bike" resizeMode="cover" onLoad={()=>{setShown(true);Animated.timing(fade,{toValue:1,duration:motion.reduced?0:220,useNativeDriver:true}).start();}} onError={()=>setFailed(p.url)} style={{position:'absolute',left:0,top:0,width:w,height:h,borderRadius:14,opacity:fade}}/>}
+   {(!p||!shown||broken)&&(loading||!p||broken?<Pressable accessibilityRole="button" accessibilityLabel={broken?'Load the photo again':'Add a photo of your bike'} disabled={loading||adding||(!!p&&!broken)} onPress={()=>{if(broken)retry();else void add();}} style={({pressed})=>({opacity:pressed?0.75:1})}>{plate}</Pressable>:plate)}
+   {p&&!broken&&<Animated.Image key={`${p.url}#${attempt}`} source={{uri:p.url}} accessibilityLabel="Your bike" resizeMode="cover" onLoad={()=>{setShown(true);Animated.timing(fade,{toValue:1,duration:motion.reduced?0:220,useNativeDriver:true}).start();}} onError={()=>setFailed(p.url)} style={{position:'absolute',left:0,top:0,width:w,height:h,borderRadius:14,opacity:fade}}/>}
   </View>
   <Notice text={notice}/>
  </View>;

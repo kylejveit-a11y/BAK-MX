@@ -29,7 +29,8 @@ export const HOW_BAK_WORKS:HowSection[]=[
   'Set a race from Home and it counts down with your prep list. BAK works out a starting setup for the track and the forecast.',
   'On the day, Home becomes your track screen: next moto, quick ask, a fast change log. Practice day does the same for a day of laps.']},
  {id:'fuel',title:'Fuel plan',lines:[
-  'On race day BAK works out how much fuel you need for the motos and the day, from your bike and the schedule.']},
+  'What to eat and drink, and when. Enter your weight, height and age once and BAK lays out the day before, race morning, between motos and after, timed to your gate drops.',
+  'Nervous stomach on race day? Turn that on and the plan goes easier. Parents can set one up for a child rider. It shows on Home on race day and practice day.']},
  {id:'community',title:'Community and Events',lines:[
   'Community is riders’ builds, setup questions and ride plans. Events are ride days and races near you; say you’re going and they show on Home.']},
  {id:'messages',title:'Messages',lines:[
