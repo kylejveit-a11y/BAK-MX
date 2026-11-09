@@ -52,6 +52,7 @@ import {PracticeDayHome} from './PracticeDay';
 import {HomeEditor,useHomeLayout,useRaceDay,readRace,readRaceDay,RaceCountdown,useRaceWidget,daysToGo,RaceDayHome,RaceDayStart,UpNextBlock,CoachingBlock,type HomeBlock} from './HomeBlocks';
 import {themeFor,allThemes,type ThemeMode} from '../../../shared/brand-theme';
 import {HOW_BAK_WORKS,HOW_BAK_WORKS_CLOSING} from '../../../shared/how-bak-works';
+import {APP_GUIDE} from '../../../shared/app-guide';
 import {Section,Segmented,MetalMark,MetalBubble,BlueFace,blueLift,Button,Card,Copy,Field,Notice,Page,PageTitle,Select,colors,tint,Brand,Eyebrow,Chip,Tile,TileGrid,AskBar,LinkAction,Icon,type IconName} from './ui';
 import {SupportPicker,SupportedBikesScreen} from './BikeSupport';
 import WorkshopScreen from './WorkshopScreen';
@@ -560,6 +561,16 @@ function HowBakWorks({navigation}:BottomTabScreenProps<Tabs,'Help'>){
   </View>)}
   <Text style={{color:colors.text,fontSize:15,fontWeight:'700',paddingTop:6}}>{HOW_BAK_WORKS_CLOSING}</Text>
   <Button title="Ask BAK" onPress={()=>navigation.navigate('Ask BAK')}/>
+  {/* The full guide: every screen and setting, the same words Ask BAK answers from (shared/app-guide.ts). */}
+  <Disclosure title="Full guide: every screen and setting">
+   {APP_GUIDE.map(e=><View key={e.screen} style={{gap:4,paddingVertical:8,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#2a2f39'}}>
+    <Text style={{color:colors.text,fontSize:15.5,fontWeight:'800'}}>{e.screen}</Text>
+    <Text style={{color:'#8f97a4',fontSize:12.5}}>{e.path}</Text>
+    <Text style={{color:'#c9cfd9',fontSize:14,lineHeight:20}}>{e.purpose}</Text>
+    {e.how.map((l,i)=><Text key={i} style={{color:'#c9cfd9',fontSize:14,lineHeight:20}}>{l}</Text>)}
+    {e.settings?.map(s=><Text key={s.name} style={{color:'#c9cfd9',fontSize:14,lineHeight:20}}><Text style={{color:colors.text,fontWeight:'700'}}>{s.name}: </Text>{s.what_it_does}{s.options?' '+s.options.map(o=>`${o.label}: ${o.effect}`).join(' · '):''}</Text>)}
+   </View>)}
+  </Disclosure>
  </Page>;
 }
 

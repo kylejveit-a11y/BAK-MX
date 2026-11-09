@@ -2,6 +2,7 @@
 // when a rider asks how to do something in the app, so the two never say different things. Plain words, no marketing: a rider
 // should skim the whole page in about a minute. Plan names come from shared/plans.ts; prices are never written here.
 import {TIER_LABEL,TRIAL_BLOCKS,TRIAL_BLOCK_SIZE} from './plans.ts';
+import {appGuideTextFor,isAppQuestion} from './app-guide.ts';
 
 export type HowSection={id:string;title:string;lines:string[]};
 
@@ -52,16 +53,13 @@ export function howBakWorksText():string{
  return HOW_BAK_WORKS.map(s=>`${s.title}: ${s.lines.join(' ')}`).join('\n')+'\n'+HOW_BAK_WORKS_CLOSING;
 }
 
-/** A question about using the app itself ("how do I add a bike", "where is the service log"), not about the bike. */
-const APP_HOW_TO=/\b(how do i|how can i|where is|where do i|where can i|how to\b.*\b(app|garage|log|widget|siri|notification|build sheet|workshop|race day|practice day|fuel plan|account|plan))\b/i;
-const APP_WORDS=/\b(app|garage|setup log|service log|build sheet|widget|siri|notification|workshop|race day|practice day|race prep|fuel plan|community|events?|messages?|account|plan|premium|pro|photo|camera|voice|hands.free|tuning notes?|know.how|specs?)\b/i;
-export function isAppHowTo(message:string):boolean{
- const m=(message??'').trim();if(!m)return false;
- return APP_HOW_TO.test(m)&&APP_WORDS.test(m);
-}
+/** A question about using the app itself ("how do I add a bike", "what does reduce motion do", "where is the service log"),
+ *  not about the bike. The gate lives with the full guide so the two never disagree. */
+export function isAppHowTo(message:string):boolean{return isAppQuestion(message);}
 
-/** The app guide for Ask BAK's input, only for a how-to question about the app. Data for the model, never rider-facing copy. */
-export function appHelpKnowledge(message:string):{rules:string;guide:string}|null{
- if(!isAppHowTo(message))return null;
- return {rules:'The rider is asking how to do something in the BAK MX app. Answer from this guide in two or three short lines, naming the screen and the control. Do not invent screens, settings or prices that are not in it. If the guide does not cover it, say so and suggest Account › Contact support. Tuning and safety rules still apply to any bike question in the same message.',guide:howBakWorksText()};
+/** The app guide for Ask BAK's input, only for a question about the app: the short overview plus the matching sections of
+ *  the full guide (or its index when no screen matches). Data for the model, never rider-facing copy. */
+export function appHelpKnowledge(message:string):{rules:string;overview:string;guide:string}|null{
+ const guide=appGuideTextFor(message);if(guide===null)return null;
+ return {rules:'The rider is asking about the BAK MX app itself: a screen, a card, a button or a setting. Answer from the guide below, exactly and step by step, using the labels as they appear on screen (tap Account → Preferences → Answer length → Quick). Say what the thing is for, how to work it, and for a setting what each option does. If a section is marked [BAK can change this for the rider] or a setting [BAK can switch this], offer it: end with "Want me to switch it?" and, if the rider already asked for the change, return the matching app action. Otherwise say exactly where to tap; never claim you changed it. Never guess at a screen, setting or option that is not in the guide: say it is not a setting in the app and suggest Account → Feedback. Figures the app shows (specs, intervals) are the maker\'s published values. Tuning and safety rules still apply to any bike question in the same message.',overview:howBakWorksText(),guide};
 }
