@@ -9,7 +9,7 @@ import {procedureCatalog} from '../../../shared/procedure-catalog';
 import {createProcedureRun,validateProcedureRun,recordProcedureStep,followProcedureBranch,procedureStepRecorded,type ProcedureRun,type ReviewedProcedure} from '../../../shared/procedures';
 import {parseGuidedInput,stepSpeech,guidedHelp,riderText,toSpeech,type GuidedCommand} from '../../../shared/guided-job';
 import {readProgress,writeProgress} from './localProgress';
-import {MetalMark,BlueFace,blueLift,onBlueText,Button,Card,Copy,Field,Icon,LinkAction,Notice,Tile,colors} from './ui';
+import {MetalMark,BlueFace,blueLift,onBlueText,Button,Card,Copy,Field,Icon,LinkAction,Notice,Tile,EntryTile,colors} from './ui';
 import {WheelSheet} from './Wheel';
 
 // Same storage as the Workshop guide screen (procedure-<bike>-<procedure>, newest run first), so progress is shared.
@@ -105,11 +105,11 @@ export function useNativeVoice(onUtterance:(text:string)=>void){
  return {on,heard,speaking,problem,enable,disable,speak,hush};
 }
 
-export function GuidedJobCardNative({job,voice,onSay,busy}:{job:NativeGuidedJob;voice:ReturnType<typeof useNativeVoice>;onSay:(text:string)=>void;busy:boolean}){
+export function GuidedJobCardNative({job,voice,onSay,busy,compact=false}:{job:NativeGuidedJob;voice:ReturnType<typeof useNativeVoice>;onSay:(text:string)=>void;busy:boolean;/** before a job is picked, show a compact tile (the empty Chat screen) */compact?:boolean}){
  const [picking,setPicking]=useState(false),[record,setRecord]=useState(''),[finding,setFinding]=useState(''),[open,setOpen]=useState(false),[note,setNote]=useState('');
  const {procedure,run,step,finished}=job;
  if(!job.available.length)return null;
- if(!procedure||!run)return <><Tile icon="thandle" title="Working on the bike?" detail="Step-by-step guided jobs, hands-free" onPress={()=>setPicking(true)}/><WheelSheet visible={picking} step="GUIDED JOB" title="What are you working on?" searchPlaceholder="Search jobs" options={job.groups.flatMap(g=>g.procedures.map(p=>({value:p.id,label:p.title,detail:`${g.title} · ${p.steps.length} steps`})))} onClose={()=>setPicking(false)} onPick={v=>{setPicking(false);onSay(job.start(v));}}/></>;
+ if(!procedure||!run)return <>{compact?<EntryTile icon="thandle" title="Working on the bike?" detail="Guided jobs, hands-free" onPress={()=>setPicking(true)}/>:<Tile icon="thandle" title="Working on the bike?" detail="Step-by-step guided jobs, hands-free" onPress={()=>setPicking(true)}/>}<WheelSheet visible={picking} step="GUIDED JOB" title="What are you working on?" searchPlaceholder="Search jobs" options={job.groups.flatMap(g=>g.procedures.map(p=>({value:p.id,label:p.title,detail:`${g.title} · ${p.steps.length} steps`})))} onClose={()=>setPicking(false)} onPick={v=>{setPicking(false);onSay(job.start(v));}}/></>;
  const done=procedure.steps.filter(x=>procedureStepRecorded(run,x.id)).length;
  const link=step?.diagram_reference_required?step.source_links.find(l=>/^https?:\/\//.test(l)):undefined;
  // Same words as the Workshop guide page, so the two doors into a job read as one feature.

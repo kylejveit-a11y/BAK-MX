@@ -19,7 +19,7 @@ import Svg,{Defs,LinearGradient,Rect,Stop} from 'react-native-svg';
  safeTop pads under the status bar on screens with no header; footer floats as a glass bar above the tab bar or keyboard.
  footerForAction: the footer is a form's primary button (Publish, Save). The fields stay in the page and keep their keyboard
  insets so each scrolls into view; the footer rides above the keyboard, and the tab bar can never cover it. */
-export function Page({title,children,safeTop=false,footer,footerForAction=false,scrollRef,onContentSizeChange,onScrollBeginDrag}:{title:string;children:React.ReactNode;safeTop?:boolean;footer?:React.ReactNode;footerForAction?:boolean;scrollRef?:React.Ref<ScrollView>;onContentSizeChange?:(w:number,h:number)=>void;onScrollBeginDrag?:()=>void}){
+export function Page({title,children,safeTop=false,footer,footerForAction=false,fill=false,scrollRef,onContentSizeChange,onScrollBeginDrag}:{title:string;children:React.ReactNode;safeTop?:boolean;footer?:React.ReactNode;footerForAction?:boolean;/** the content is at least as tall as the screen, so a child with flexGrow can centre itself in the open space */fill?:boolean;scrollRef?:React.Ref<ScrollView>;onContentSizeChange?:(w:number,h:number)=>void;onScrollBeginDrag?:()=>void}){
  const insets=useSafeAreaInsets(),header=React.useContext(HeaderHeightContext)??0,inTabs=React.useContext(BottomTabBarHeightContext)!==undefined;
  const tabSpace=useTabSpace(),kb=useKeyboardHeight(),[footH,setFootH]=React.useState(0);
  const bottomChrome=inTabs?tabSpace:insets.bottom;
@@ -28,7 +28,7 @@ export function Page({title,children,safeTop=false,footer,footerForAction=false,
  const contentBottom=footer?footH+(footerForAction?bottomChrome+10:footBottom):bottomChrome;
  return <View style={{flex:1,backgroundColor:colors.bg}}>
   <ScrollView ref={scrollRef} onContentSizeChange={onContentSizeChange} onScrollBeginDrag={onScrollBeginDrag} keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets={!footer||footerForAction} scrollIndicatorInsets={{top:header,bottom:bottomChrome}}
-   contentContainerStyle={[s.page,{paddingTop:(safeTop?insets.top:header)+16,paddingBottom:contentBottom+28}]}>
+   contentContainerStyle={[s.page,fill&&{flexGrow:1},{paddingTop:(safeTop?insets.top:header)+16,paddingBottom:contentBottom+(fill?10:28)}]}>
    <OfflineLine/>
    {title?<PageTitle>{title}</PageTitle>:null}{children}
   </ScrollView>
@@ -110,6 +110,8 @@ export function Chip({label,done}:{label:string;done:boolean}){return <View styl
 /** Open list row: icon, title, one short line, and a chevron (or plus). Hairline below. */
 /** `expanded` (true/false) makes the row a group header: its one affordance is a chevron that points down when shut, up when open. */
 export function Tile({icon,title,detail,onPress,trailing='chevron',right,expanded}:{icon?:IconName|React.ReactNode;title:string;detail?:string;onPress:()=>void;trailing?:'chevron'|'plus'|'none';right?:string;expanded?:boolean}){return <Pressable accessibilityRole="button" accessibilityLabel={title+(detail?'. '+detail:'')} accessibilityState={expanded===undefined?undefined:{expanded}} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:14,paddingVertical:15,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#2a2f39',opacity:pressed?0.6:1})}>{typeof icon==='string'?<Icon name={icon as IconName} size={22} color="#b2b9c4"/>:icon}<View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>{title}</Text>{!!detail&&<Text style={{color:'#adb5c1',fontSize:13,lineHeight:18}}>{detail}</Text>}</View>{!!right&&<Text style={{color:'#b2b9c4',fontSize:13.5,fontWeight:'600'}}>{right}</Text>}{trailing!=='none'&&<Icon name={expanded!==undefined?(expanded?'chevronUp':'chevronDown'):trailing==='plus'?'plus':'chevronRight'} size={trailing==='plus'&&expanded===undefined?20:17} color="#7d8593"/>}</Pressable>}
+/** A compact entry tile for a side-by-side pair: icon, title, one short line. */
+export function EntryTile({icon,title,detail,onPress}:{icon:IconName;title:string;detail:string;onPress:()=>void}){return <Pressable accessibilityRole="button" accessibilityLabel={title+'. '+detail} onPress={onPress} style={({pressed})=>({flex:1,minWidth:0,gap:8,paddingVertical:13,paddingHorizontal:14,borderRadius:18,borderWidth:1,borderColor:'#2a2f39',backgroundColor:pressed?'rgba(255,255,255,0.07)':'rgba(255,255,255,0.035)'})}><View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}><Icon name={icon} size={21} color={colors.accent}/><Icon name="chevronRight" size={15} color="#7d8593"/></View><View style={{gap:2}}><Text numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.85} style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{title}</Text><Text numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.85} style={{color:'#adb5c1',fontSize:12.5}}>{detail}</Text></View></Pressable>}
 export function TileGrid({children}:{children:React.ReactNode}){return <View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',marginTop:4}}>{children}</View>}
 /** The home prompt: an open line that opens chat. */
 /** The question bar. `onTrouble` adds one small line under it, "Something’s wrong?", which opens Ask BAK in diagnose mode. */
