@@ -437,14 +437,14 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
    </View>
   </View>
  </View>:null;
- // The empty chat: the mark, the cue and starters, shown until there is a message or a live answer.
+ // The empty chat: the phrase, the cue and starters, shown until there is a message or a live answer.
  const empty=messages.length===0&&!live,hero=empty&&aiOk&&!!bike&&!triage&&!job.run;
  const focusInput=()=>inputRef.current?.focus();
- // Typing in the message box with the keyboard up: the empty chat keeps to the mark, the line and the starters, which all fit above the box.
+ // Typing in the message box with the keyboard up: the empty chat keeps to the phrase, the line and the starters, which all fit above the box.
  const typing=hero&&composing&&kbUp;
  // Before consent the footer is the Agree button, so it sits above the tab bar from the start instead of under it.
  const agree=!aiOk?<View style={{padding:12}}><Button title={aiConsentAgree} onPress={()=>{try{writeProgress(session.user.id,'ai-consent-'+AI_CONSENT_VERSION,true);}catch{}setAiOk(true);}}/></View>:null;
- return <Page title="" fill={hero} footer={agree??composer} footerForAction={!aiOk} scrollRef={chatScroll} onContentSizeChange={()=>{/* the empty chat stays put when the keyboard opens: the mark and starters remain in view */if(!hero)followEnd(messages.length>0);}} onScrollBeginDrag={()=>{follow.current=false;}}>
+ return <Page title="" fill={hero} footer={agree??composer} footerForAction={!aiOk} scrollRef={chatScroll} onContentSizeChange={()=>{/* the empty chat stays put when the keyboard opens: the phrase and starters remain in view */if(!hero)followEnd(messages.length>0);}} onScrollBeginDrag={()=>{follow.current=false;}}>
  {/* The bike, chats and race mode live on the composer (like other chat apps), so the conversation gets the screen. */}
  {(empty&&!hero||!bike)&&<View style={{gap:14}}>{empty&&!hero&&<PageTitle>Ask BAK</PageTitle>}
   {!bike&&<NoBike what="to ask about it"/>}
@@ -466,9 +466,9 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
    {!!(live.summary||live.answer)&&<Card><View style={{flexDirection:'row',alignItems:'center',gap:7}}><MetalMark width={14}/><Eyebrow>BAK · WRITING</Eyebrow></View>{!!live.summary&&<Text style={{color:colors.text,fontSize:16.5,fontWeight:'700',lineHeight:23}}>{live.summary}</Text>}{!!live.answer&&<Text style={{color:colors.text,fontSize:15.5,lineHeight:22}}>{live.answer}</Text>}<Text style={{color:'#8b93a1',fontSize:12}}>Draft. Final checks run before it’s saved.</Text></Card>}
   </>}
   {bike&&!busy&&triage&&<TriageCard onDone={t=>{setDraft(t);setTriage(false);}} onCancel={()=>setTriage(false)}/>}
-  {/* Empty chat, centred in the open space between the header and the message box: mark and cue (a tap starts typing), four starters that fill the box, then the two guided ways in. */}
-  {hero&&bike&&<View style={{flexGrow:1,justifyContent:'center',gap:typing?12:18}}>
-   <ChatHero model={bike.model} compact={typing} onPress={focusInput}/>
+  {/* Empty chat, filling the space between the header and the message box on every phone: the phrase and cue (a tap starts typing) centred in whatever room is left above the starters, then four starters that fill the box, the two guided ways in, and Tuning notes straight under them. */}
+  {hero&&bike&&<View style={{flexGrow:1,gap:typing?12:18}}>
+   <View style={{flexGrow:1,justifyContent:'center',paddingVertical:typing?0:6}}><ChatHero model={bike.model} compact={typing} onPress={focusInput}/></View>
    <ChatStarters starters={chatStarters(bike)} onPick={st=>{setDraft(applyStarter(draft,st));focusInput();}}/>
    <View style={{flexDirection:'row',gap:10,display:typing?'none':'flex'}}><EntryTile icon="pulse" title="Handling problem?" detail="Answer a few taps" onPress={()=>setTriage(true)}/>{mode==='ask'&&<GuidedJobCardNative compact job={job} voice={voice} onSay={say} busy={busy}/>}</View>
   </View>}

@@ -1,6 +1,8 @@
 // Starter prompts on the empty Chat screen: real complaints in rider language. Tapping one puts `draft` in the message
 // box for the rider to finish; nothing is sent. Pure, so it is tested without the app.
 import {fuelSystem} from '../../../shared/fuel-system.ts';
+/** The headline on the empty Chat screen. Change the words here; the screen sizes itself to fit. */
+export const CHAT_HERO_PHRASE='Dial it in.';
 export type ChatStarter={label:string;draft:string};
 const PUSH:ChatStarter={label:'Front end pushes in corners',draft:'Front end pushes in corners. '};
 const KICK:ChatStarter={label:'Rear kicks on braking bumps',draft:'Rear kicks on braking bumps. '};

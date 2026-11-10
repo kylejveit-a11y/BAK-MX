@@ -65,7 +65,7 @@ export const APP_GUIDE:AppGuideEntry[]=[
  {screen:'Coaching',path:'Garage → Coaching',purpose:'Every riding clip or photo BAK coached, newest first, with the fix and drill.',how:['“Coach me from a clip” opens Ask BAK to pick a clip (Pro plan). Chips: What are you showing BAK?, Slow motion, Where was this?, “Compare with an earlier clip?”. Under the answer, “Tried it? Did it help?”: Helped / No change / Worse. “Frames and full coaching” opens the detail.'],
   words:/\bcoach(ing)?\b|\b(riding|video|a|the|my|your) clips?\b|\bslow motion\b|\bdrill\b/i},
  {screen:'Ask BAK',path:'Chat tab',purpose:'Say what the bike is doing the way you’d tell a buddy; BAK answers for your exact bike and build.',how:[
-  'A new chat shows the BAK mark and four starters; tap the mark to start typing, or a starter to put it in the message box to finish and send.',
+  'A new chat shows “Dial it in.” and four starters; tap the phrase to start typing, or a starter to put it in the message box to finish and send.',
   'The message box: type on top; under it the camera (up to 4 photos or a clip), New chat (the pencil), the bike chip (tap to change bike), the clock for your earlier chats, Race (race mode: short answers, one change at a time; on by itself on race day) and Send.',
   '“Handling problem?” asks a few taps (what the bike is doing, on or off the gas, where, the dirt) and writes the question. “Working on the bike?” starts a guided job in the chat.',
   'Under an answer: “Try in this order”, “Tried it? How did it ride?” (Better / Worse / No change → setup log), “Save to your Garage?”, “Want BAK to do this?” (Apply / Not now), Save to bike, Share, and Possible causes · What BAK still needs to know · Published values used · Sources · How sure is this.',
