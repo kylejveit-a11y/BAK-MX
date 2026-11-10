@@ -1,4 +1,4 @@
-// Date and time selector: month / day / year wheels (plus hour / minute / AM-PM for events), quick picks for the days
+// Date and time selector (a bottom sheet): month / day / year wheels (plus hour / minute / AM-PM for events), quick picks for the days
 // riders actually use, and a plain-English readout. Values stay "YYYY-MM-DD" or "YYYY-MM-DD HH:MM" for the API.
 import React,{useEffect,useMemo,useRef,useState} from 'react';
 import {FlatList,Modal,StyleSheet,Text,View,type NativeScrollEvent,type NativeSyntheticEvent} from 'react-native';
@@ -44,13 +44,18 @@ export function DateSheet({visible,title,value,time=false,years,quick,onDone,onC
  const setHour=(i:number)=>{const v=i+1;set({h:(v%12)+(pm?12:0)});};
  const setPm=(i:number)=>set({h:(p.h%12)+(i===1?12:0)});
  const readout=formatValue(toValue(p,time),time);
- return <Modal visible={visible} animationType="fade" transparent presentationStyle="overFullScreen" onRequestClose={onClose}>
-  <View style={[st.sheet,{paddingTop:insets.top+10,paddingBottom:insets.bottom+12}]}>
+ // A bottom sheet sized to its wheels. Colours are read at render (not frozen in the stylesheet), so the readout, the quick
+ // picks and Set all wear the active bike's colour instead of BAK blue.
+ return <Modal visible={visible} animationType="slide" transparent presentationStyle="overFullScreen" onRequestClose={onClose} statusBarTranslucent>
+  <View style={{flex:1,justifyContent:'flex-end'}}>
+  <Pressable accessibilityRole="button" accessibilityLabel="Close" haptic={false} onPress={onClose} style={st.backdrop}/>
+  <View style={[st.sheet,{paddingBottom:insets.bottom+14}]}>
+   <View style={st.grab}/>
    <View style={st.top}><Text style={st.step}>{time?'DATE AND TIME':'DATE'}</Text><Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={onClose} style={({pressed})=>[st.close,pressed&&{opacity:0.6}]}><Icon name="close" size={18} color={C.text} weight={2}/></Pressable></View>
    <Text style={st.title}>{title}</Text>
-   <Text style={st.readout} accessibilityLiveRegion="polite">{readout}</Text>
+   <Text style={[st.readout,{color:C.accent}]} accessibilityLiveRegion="polite">{readout}</Text>
    {!!quick?.length&&<View style={{flexDirection:'row',flexWrap:'wrap',gap:8,marginTop:14}}>{quick.map(q=>{const on=q.date.getFullYear()===p.y&&q.date.getMonth()===p.m&&q.date.getDate()===p.d;return <Pressable key={q.label} haptic={false} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>{hSelect();set({y:q.date.getFullYear(),m:q.date.getMonth(),d:q.date.getDate()});}} style={({pressed})=>({paddingHorizontal:14,paddingVertical:8,borderRadius:18,borderWidth:1,borderColor:on?C.primary:'#343a45',backgroundColor:on?C.primary:'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':C.text,fontWeight:on?'700':'500',fontSize:14}}>{q.label}</Text></Pressable>;})}</View>}
-   <View style={{flex:1,justifyContent:'center',gap:26}}>
+   <View style={{gap:22,marginTop:18}}>
     <Wheels>
      <Column width="34%" items={MONTHS} index={p.m} onIndex={i=>set({m:i})}/>
      <Column width="26%" items={days} index={p.d-1} onIndex={i=>set({d:i+1})}/>
@@ -64,8 +69,9 @@ export function DateSheet({visible,title,value,time=false,years,quick,onDone,onC
    </View>
    <View style={st.bottom}>
     {onClear?<Pressable accessibilityRole="button" hitSlop={8} onPress={onClear}><Text style={{color:C.muted,fontWeight:'600',fontSize:14}}>Clear</Text></Pressable>:<View/>}
-    <Pressable haptic={false} accessibilityRole="button" onPress={()=>{hTap();onDone(toValue(p,time));}} style={({pressed})=>[st.choose,pressed&&{opacity:0.7}]}><Text style={{color:'#ffffff',fontWeight:'800',fontSize:15}}>Set</Text></Pressable>
+    <Pressable haptic={false} accessibilityRole="button" accessibilityLabel={`Set ${readout}`} onPress={()=>{hTap();onDone(toValue(p,time));}} style={({pressed})=>[st.choose,{backgroundColor:C.primary},pressed&&{opacity:0.7}]}><Text style={{color:'#ffffff',fontWeight:'800',fontSize:15}}>Set</Text></Pressable>
    </View>
+  </View>
   </View>
  </Modal>;
 }
@@ -92,15 +98,17 @@ export function rideDays(){const t=new Date();t.setHours(0,0,0,0);const add=(n:n
 export function recentDays(){const t=new Date();t.setHours(0,0,0,0);const y=new Date(t);y.setDate(y.getDate()-1);return [{label:'Today',date:t},{label:'Yesterday',date:y}];}
 
 const st=StyleSheet.create({
- sheet:{flex:1,backgroundColor:C.bg,paddingHorizontal:22},
+ sheet:{backgroundColor:C.bg,paddingHorizontal:22,paddingTop:8,borderTopLeftRadius:26,borderTopRightRadius:26,borderTopWidth:1,borderColor:'#262b34'},
+ backdrop:{flex:1,backgroundColor:'rgba(0,0,0,0.55)'},
+ grab:{alignSelf:'center',width:36,height:5,borderRadius:3,backgroundColor:'#343a45',marginBottom:4},
  top:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',minHeight:36},
  step:{color:C.muted,fontSize:11.5,fontWeight:'700',letterSpacing:1.6},
  close:{width:34,height:34,borderRadius:17,borderWidth:1,borderColor:C.line,alignItems:'center',justifyContent:'center'},
- title:{color:C.text,fontSize:30,fontWeight:'900',fontStyle:'italic',letterSpacing:-1,marginTop:8},
- readout:{color:C.accent,fontSize:17,fontWeight:'700',marginTop:6},
+ title:{color:C.text,fontSize:26,fontWeight:'900',fontStyle:'italic',letterSpacing:-1,marginTop:2},
+ readout:{fontSize:17,fontWeight:'700',marginTop:6},
  band:{position:'absolute',left:0,right:0,height:ROW,borderTopWidth:1,borderBottomWidth:1,borderColor:'#343a45'},
- bottom:{flexDirection:'row',alignItems:'center',justifyContent:'space-between'},
- choose:{backgroundColor:C.primary,borderRadius:24,paddingHorizontal:30,paddingVertical:13},
+ bottom:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',marginTop:18},
+ choose:{borderRadius:24,paddingHorizontal:30,paddingVertical:13},
  row:{flexDirection:'row',alignItems:'center',gap:12,paddingVertical:13,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#232833'},
  rowLabel:{color:C.muted,fontSize:12.5,fontWeight:'600'},
 });

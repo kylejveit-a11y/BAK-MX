@@ -1,7 +1,7 @@
 // Home, the rider's way: blocks they can turn on, off and reorder (saved on this phone), and race-day mode, which turns Home
 // into a track-day screen: today's setup, a between-motos checklist and a fast change log that goes into the setup log.
 import React,{useCallback,useEffect,useState} from 'react';
-import {Keyboard,Modal,Platform,ScrollView,Switch,Text,TextInput,View} from 'react-native';
+import {Keyboard,Modal,Platform,ScrollView,Text,TextInput,View} from 'react-native';
 import DateTimePicker,{type DateTimePickerEvent} from '@react-native-community/datetimepicker';
 import {useFocusEffect} from '@react-navigation/native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -9,12 +9,12 @@ import type {Bike,ServiceEvent,Conversation,EngineeringResponse} from '../../../
 import {AI_CONSENT_VERSION} from '../../../shared/ai-consent';
 import {randomUUID} from 'expo-crypto';
 import {DateField,rideDays} from './DateSheet';
-import {EVENT_TYPE_LABELS,SETUP_RESULT_LABELS,type RideEvent,type SetupLog,type SetupResult} from '../../../shared/rider-types';
+import {EVENT_TYPE_LABELS,SETUP_RESULT_LABELS,SETUP_RESULT_ORDER,type RideEvent,type SetupLog,type SetupResult} from '../../../shared/rider-types';
 import {api,apiStream,apiQueued,currentStore} from './api';
 import {isLocal,pending,withPending} from './offline';
 import {readProgress,writeProgress} from './localProgress';
 import {Pressable} from './Touch';
-import {Button,Card,Copy,Eyebrow,Icon,MetalMark,Notice,colors,tint,type IconName} from './ui';
+import {Button,Card,Copy,Eyebrow,Icon,MetalMark,Notice,Switch,colors,tint,type IconName} from './ui';
 import {success} from './haptics';
 import {RacePrepCard,RacePrepSheet,useRacePrep,Progress} from './RacePrep';
 import {FuelPlanCard} from './FuelPlan';
@@ -56,7 +56,7 @@ export function HomeEditor({visible,layout,onChange,onReset,onClose}:{visible:bo
      <View style={{flex:1,gap:2}}><Text style={{color:b.on?colors.text:'#7d8593',fontSize:16,fontWeight:'700'}}>{meta.label}</Text><Text style={{color:colors.muted,fontSize:12.5}}>{meta.detail}</Text></View>
      {arrow('chevronUp','Move up',i===0,()=>move(i,-1))}
      {arrow('chevronDown','Move down',i===layout.length-1,()=>move(i,1))}
-     <Switch value={b.on} onValueChange={v=>onChange(layout.map(x=>x.id===b.id?{...x,on:v}:x))} trackColor={{true:colors.primary,false:'#2a2f39'}} accessibilityLabel={`Show ${meta.label}`}/>
+     <Switch value={b.on} onValueChange={v=>onChange(layout.map(x=>x.id===b.id?{...x,on:v}:x))} accessibilityLabel={`Show ${meta.label}`}/>
     </View>;})}
     <Pressable accessibilityRole="button" onPress={onReset} style={{paddingVertical:18}}><Text style={{color:colors.muted,fontSize:15}}>Reset to the standard layout</Text></Pressable>
    </ScrollView>
@@ -244,9 +244,9 @@ export function NextUpCard({race,labels,onSet}:{race:RaceDay;labels:string[];onS
    <Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>Set your next {labels[0].startsWith('Session')?'session':'moto'} time and the Lock Screen counts down to it, with the next item on your checklist.</Text>
    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{labels.map(chip)}</View>
    {Platform.OS==='ios'
-    ?<View accessible accessibilityLabel={`${label} time`} style={{alignSelf:'stretch'}}><DateTimePicker value={at} mode="time" display="spinner" minuteInterval={5} themeVariant="dark" textColor={colors.text} onChange={picked} style={{height:150}}/></View>
+    ?<View accessible accessibilityLabel={`${label} time`} style={{alignSelf:'stretch'}}><DateTimePicker value={at} mode="time" display="spinner" minuteInterval={5} themeVariant="dark" accentColor={colors.accent} textColor={colors.text} onChange={picked} style={{height:150,marginVertical:-6}}/></View>
     :<><Pressable accessibilityRole="button" accessibilityLabel={`${label} time, ${clockText(clockOf(at))}. Change`} onPress={()=>setAndroidOpen(true)} hitSlop={8} style={({pressed})=>({paddingVertical:10,borderBottomWidth:1,borderBottomColor:colors.accent,opacity:pressed?0.7:1})}><Text style={{color:colors.text,fontSize:22,fontWeight:'800'}}>{clockText(clockOf(at))}</Text></Pressable>
-     {androidOpen&&<DateTimePicker value={at} mode="time" display="spinner" minuteInterval={5} onChange={picked}/>}</>}
+     {androidOpen&&<DateTimePicker value={at} mode="time" display="spinner" minuteInterval={5} themeVariant="dark" accentColor={colors.accent} onChange={picked}/>}</>}
    <View style={{flexDirection:'row',alignItems:'center',gap:18}}>
     <Pressable accessibilityRole="button" accessibilityLabel={`Set ${label} at ${clockText(clockOf(at))}`} onPress={save} hitSlop={8}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Set</Text></Pressable>
     {next&&<Pressable accessibilityRole="button" onPress={()=>{setEditing(false);setAt(startAt());}} hitSlop={8}><Text style={{color:colors.muted,fontSize:15}}>Cancel</Text></Pressable>}
@@ -340,7 +340,7 @@ export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenC
    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{CHANGES.map(c=>chip(c,what===c,()=>setWhat(what===c?'':c)))}</View>
    <TextInput value={detail} onChangeText={setDetail} maxLength={200} placeholder="e.g. 2 clicks softer, or 13 psi" placeholderTextColor="#7d8593" style={{color:colors.text,fontSize:16,borderBottomWidth:1,borderBottomColor:'#2f3540',paddingVertical:10}}/>
    <Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>How did it ride?</Text>
-   <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{(['better','no_change','worse','not_tested'] as SetupResult[]).map(r=>chip(SETUP_RESULT_LABELS[r],result===r,()=>setResult(r)))}</View>
+   <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{SETUP_RESULT_ORDER.map(r=>chip(SETUP_RESULT_LABELS[r],result===r,()=>setResult(r)))}</View>
    <TextInput value={note} onChangeText={setNote} maxLength={500} placeholder="Note (optional): ruts got deeper, front pushed in turn 3…" placeholderTextColor="#7d8593" multiline style={{color:colors.text,fontSize:16,borderBottomWidth:1,borderBottomColor:'#2f3540',paddingVertical:10,minHeight:44}}/>
    <Notice text={notice}/>
    <Button disabled={busy} title={busy?'Saving…':'Save to setup log'} onPress={()=>void log()}/>

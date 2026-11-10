@@ -34,7 +34,7 @@ export default function ProcedureGuide({bike,ownerId,onClose,onAsk}:{bike:Bike;o
    {/* Closed until the rider picks a system, so the list starts as three short rows instead of every job at once. */}
    {groups.map(group=>{if(!group.procedures.length)return null;const isOpen=openGroup===group.id;const busy=group.procedures.some(p=>progressOf(ownerId,bike,p));
     return <View key={group.title} style={{gap:2}}>
-    <Tile title={group.title} detail={`${group.procedures.length} ${group.procedures.length===1?'job':'jobs'}${busy?' · one in progress':''}`} right={isOpen?'Hide':'Show'} onPress={()=>setOpenGroup(isOpen?null:group.id)}/>
+    <Tile title={group.title} detail={`${group.procedures.length} ${group.procedures.length===1?'job':'jobs'}${busy?' · one in progress':''}`} expanded={isOpen} onPress={()=>setOpenGroup(isOpen?null:group.id)}/>
     {isOpen&&<TileGrid>{group.procedures.map(p=>{const prog=progressOf(ownerId,bike,p);return <Tile key={p.id} title={p.title} detail={`${p.steps.length} steps`} right={prog||undefined} onPress={()=>setSelected(p.id)}/>;})}</TileGrid>}
    </View>;})}
    {available.length>0&&<Disclosure title="What these guides cover">

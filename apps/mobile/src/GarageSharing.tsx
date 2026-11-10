@@ -1,7 +1,7 @@
 // Garage sharing: a bike can be shown on the rider's profile with the photos they pick, and its build sheet set public or
 // private once. Everything is off until the rider turns it on.
 import React,{useCallback,useEffect,useState} from 'react';
-import {ActivityIndicator,Image,ScrollView,Switch,Text,View} from 'react-native';
+import {ActivityIndicator,Image,ScrollView,Text,View} from 'react-native';
 import type {Bike} from '../../../shared/types';
 import {api} from './api';
 import type {Photo} from './photos';
@@ -9,7 +9,7 @@ import {PhotoViewer} from './PhotoUI';
 import {BuildSheetDoc} from './BuildSheetDoc';
 import type {PartSystem} from '../../../shared/installed-parts';
 import {Pressable} from './Touch';
-import {Card,Eyebrow,Notice,colors} from './ui';
+import {Card,Eyebrow,Notice,Switch,colors} from './ui';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 type Sharing={show_on_profile:boolean;build_sheet_public:boolean;photo_ids:string[]};
@@ -35,7 +35,7 @@ export function ProfileSharing({bike,photos,onChanged}:{bike:Bike;photos:Photo[]
  const toggle=(id:string)=>{const ids=picked.has(id)?sharing.photo_ids.filter(x=>x!==id):[...sharing.photo_ids,id];if(ids.length>8){setNotice('Choose up to 8 photos.');return;}void save({photo_ids:ids});};
  const row=(title:string,detail:string,value:boolean,onChange:(v:boolean)=>void)=><View style={{flexDirection:'row',alignItems:'center',gap:12}}>
   <View style={{flex:1,gap:3}}><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{title}</Text><Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>{detail}</Text></View>
-  <Switch value={value} disabled={busy} onValueChange={onChange} trackColor={{true:colors.primary,false:'#2a2f39'}} accessibilityLabel={title}/>
+  <Switch value={value} disabled={busy} onValueChange={onChange} accessibilityLabel={title}/>
  </View>;
  return <Card>
   <Eyebrow>PROFILE</Eyebrow>
@@ -65,7 +65,7 @@ export function SharingCard({bike,onPhotos,onChanged}:{bike:Bike;onPhotos:()=>vo
  }
  const row=(title:string,detail:string,value:boolean,onChange:(v:boolean)=>void)=><View style={{flexDirection:'row',alignItems:'center',gap:12}}>
   <View style={{flex:1,gap:3}}><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{title}</Text><Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>{detail}</Text></View>
-  <Switch value={value} disabled={busy||!sharing} onValueChange={onChange} trackColor={{true:colors.primary,false:'#2a2f39'}} accessibilityLabel={title}/>
+  <Switch value={value} disabled={busy||!sharing} onValueChange={onChange} accessibilityLabel={title}/>
  </View>;
  const on=!!sharing?.show_on_profile;
  return <Card>

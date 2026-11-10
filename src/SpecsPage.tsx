@@ -51,8 +51,9 @@ export function SpecsPage({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
   </>}
    <div className="sp-kinds" role="tablist" aria-label="Kind of value">{KINDS.map(k=><button key={k.k} type="button" role="tab" aria-selected={kind===k.k} className={kind===k.k?'on':''} onClick={()=>setKind(k.k)} disabled={k.k!=='all'&&!count(k.k)}>{k.label}<span>{count(k.k)}</span></button>)}</div>
    <div className="sp-groups">{systems.map(g=>{const isOpen=open===g.s||systems.length===1;return <div key={g.s} className={'sp-group'+(isOpen?' open':'')}>
-    <button type="button" className="sp-group-head" aria-expanded={isOpen} onClick={()=>setOpen(isOpen?'':g.s)}><span>{g.s}</span><small>{g.items.length}</small><ChevronDown size={17}/></button>
+    <button type="button" className="sp-group-head" aria-expanded={isOpen} onClick={()=>setOpen(isOpen?'':g.s)}><span>{g.s}</span><small>{g.items.length+g.service.length}</small><ChevronDown size={17}/></button>
     {isOpen&&<ul className="sp-list">{g.items.map(row)}</ul>}
+    {isOpen&&g.service.length>0&&<>{g.items.length>0&&<p className="sp-section">Service</p>}<ul className="sp-list">{g.service.map(row)}</ul></>}
    </div>;})}</div>
   </>}
  </section>;

@@ -4,7 +4,7 @@
 import {useCallback,useEffect,useRef,useState,type FormEvent} from 'react';
 import {ChevronDown,ChevronRight,Droplets,Plus,RefreshCw,Wrench} from 'lucide-react';
 import type {Bike,ServiceEvent} from '../shared/types';
-import {serviceDueRows,upNext,dueLine,type PlanItem} from '../shared/service-plan';
+import {serviceDueRows,upNext,dueLine,intervalWords,type PlanItem} from '../shared/service-plan';
 import {api} from './client';
 import {createSubmission,finishCreate} from './createSubmission';
 import './rider-extras.css';
@@ -127,7 +127,7 @@ function ServiceRow({e,hoursNow,onDelete}:{e:ServiceEvent;hoursNow:number|null;o
   </button>
   {open&&<div className="rx-row-body">
    <p>{e.notes||'No notes.'}</p>
-   {e.next_due_hours!==null&&<p>Next at {e.next_due_hours} h{hoursNow!==null?` · ${Math.max(0,Math.round((e.next_due_hours-hoursNow)*10)/10)} h to go`:''}{e.interval_source?` · ${e.interval_source}`:''}</p>}
+   {e.next_due_hours!==null&&<p>Next at {e.next_due_hours} h{hoursNow!==null?` · ${Math.max(0,Math.round((e.next_due_hours-hoursNow)*10)/10)} h to go`:''}{intervalWords(e.interval_source)?` · ${intervalWords(e.interval_source)}`:''}</p>}
    <button className="rx-link muted" onClick={onDelete}>Delete entry</button>
   </div>}
  </div>;

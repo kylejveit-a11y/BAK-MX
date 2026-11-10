@@ -15,7 +15,7 @@ test('engine oil shows amount and kind; settings sit next to stock',()=>{
  assert.deepEqual({a:oilSummary(rows)?.amount,g:oilSummary(rows)?.grade},{a:'1.0 l',g:'SAE 10W/50'});
  const y=yourSettings(rows,{fork_compression:'10 clicks'});assert.ok(y.any);assert.equal(y.list.find(x=>x.key==='fork_compression')?.stock,'12 clicks');
 });
-test('catalog names read normally and group by area',()=>{assert.equal(niceName('FRONT FORK, TRIPLE CLAMP'),'Front Fork, Triple Clamp');assert.equal(partArea('FRONT FORK, TRIPLE CLAMP'),'Suspension');});
+test('catalog names read normally and group by area',()=>{assert.equal(niceName('FRONT FORK, TRIPLE CLAMP'),'Front fork, triple clamp');assert.equal(niceName('WP Shims for Setting'),'WP shims for setting');assert.equal(niceName('Transmission II - Countershaft'),'Transmission II - countershaft');assert.equal(partArea('FRONT FORK, TRIPLE CLAMP'),'Suspension');});
 import {settingName} from '../shared/specs-view.ts';
 test('setting names read like a rider says them',()=>{
  assert.equal(settingName('Fork · Compression damping · Standard'),'Fork compression (stock)');

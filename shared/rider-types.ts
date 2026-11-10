@@ -35,6 +35,8 @@ export function yearRanges(years:number[]):string{
 export const POST_CATEGORY_LABELS:Record<PostCategory,string>={build:'Build',setup_question:'Setup question',ride_plan:'Ride plan',general:'General'};
 export const EVENT_TYPE_LABELS:Record<EventType,string>={ride_day:'Ride day',race:'Race',practice:'Practice',clinic:'Clinic',meetup:'Meetup'};
 export const SETUP_RESULT_LABELS:Record<SetupResult,string>={better:'Better',worse:'Worse',no_change:'No change',not_tested:'Not tested yet'};
+/** The one order result chips appear in, on every screen that asks how it rode. */
+export const SETUP_RESULT_ORDER:SetupResult[]=['better','worse','no_change','not_tested'];
 /** The settings a rider records per outing. Free text keeps the rider's own reference (clicks out, turns, psi). */
 export const SETUP_FIELDS:{key:string;label:string;group:'Fork'|'Shock'|'Chassis'|'Engine'}[]=[
  {key:'fork_compression',label:'Fork compression',group:'Fork'},

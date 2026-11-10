@@ -116,3 +116,7 @@ export function upNext<E extends {category:string;next_due_hours:number|null;eng
  if(plan&&h!=null)for(const r of serviceDueRows(plan,events,h))if(r.left!=null&&r.left<=soonHours)keep({key:'p-'+r.item.category,category:r.item.category,left:r.left,at:r.due});
  return [...by.values()].sort((a,b)=>(a.left??1e9)-(b.left??1e9)).slice(0,limit);
 }
+
+/** A reminder's interval source in rider words. Stored codes ("rider", "manufacturer") become plain phrases; a note the
+ *  rider typed stays as typed. Empty when there is nothing to say. */
+export function intervalWords(source:string):string{const v=(source??'').trim();if(!v)return '';if(/^(rider|user|own|custom|manual)$/i.test(v))return 'your interval';if(/^(manufacturer|maker|oem|schedule)$/i.test(v))return 'maker’s interval';return v;}

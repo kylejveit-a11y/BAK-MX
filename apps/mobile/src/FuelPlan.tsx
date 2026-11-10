@@ -3,7 +3,7 @@
 // is saved to the account and cached on the phone for weak signal at the track; today's gate times and toggles are kept
 // on the phone. The rules are in shared/fuel-plan.ts; src/FuelPlan.tsx is the website's version.
 import React,{useEffect,useMemo,useState} from 'react';
-import {Alert,Modal,ScrollView,Switch,Text,TextInput,View} from 'react-native';
+import {Alert,Modal,ScrollView,Text,TextInput,View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {randomUUID} from 'expo-crypto';
 import {buildFuelPlan,clockLabel,draftBody,draftFrom,EVIDENCE_TEXT,gatesOf,isYouth,MOTO_LENGTHS,nextGate,nextUpLine,offsetText,profileName,readFuelDay,riderOf,SAFETY_TITLE,SCREEN_ITEMS,shiftGate,sourceText,splitByNow,sweatRateText,sweatTest,untilText,withSweatRate,type DayInput,type FuelDay,type FuelPlan,type FuelProfileRow,type Gate,type PlanItem,type ProfileDraft} from '../../../shared/fuel-plan';
@@ -12,7 +12,7 @@ import {today,type RaceDay} from '../../../shared/race-day';
 import {api} from './api';
 import {readProgress,writeProgress} from './localProgress';
 import {Pressable} from './Touch';
-import {Button,Card,DONE_BAR,Eyebrow,Icon,KeyboardDoneBar,MetalMark,Notice,colors,tint} from './ui';
+import {Button,Card,DONE_BAR,Eyebrow,Icon,KeyboardDoneBar,MetalMark,Notice,Switch,colors,tint} from './ui';
 import {Glass,useKeyboardHeight} from './Glass';
 import {success} from './haptics';
 
@@ -28,7 +28,7 @@ function Chip({label,on,onPress,disabled=false}:{label:string;on:boolean;onPress
  return <Pressable haptic="select" accessibilityRole="button" accessibilityState={{selected:on,disabled}} disabled={disabled} onPress={onPress} style={({pressed})=>({paddingHorizontal:12,paddingVertical:7,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?tint(0.16):'transparent',opacity:disabled?0.4:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:14,fontWeight:on?'700':'500'}}>{label}</Text></Pressable>;
 }
 function Toggle({label,value,onChange}:{label:string;value:boolean;onChange:(v:boolean)=>void}){
- return <View style={{flexDirection:'row',alignItems:'center',gap:12}}><Text style={{flex:1,color:colors.text,fontSize:15}}>{label}</Text><Switch value={value} onValueChange={onChange} trackColor={{true:colors.primary,false:'#2a2f39'}} accessibilityLabel={label}/></View>;
+ return <View style={{flexDirection:'row',alignItems:'center',gap:12}}><Text style={{flex:1,color:colors.text,fontSize:15}}>{label}</Text><Switch value={value} onValueChange={onChange} accessibilityLabel={label}/></View>;
 }
 
 /** The account's fuel profiles, cached on the phone so the card shows with no signal. */

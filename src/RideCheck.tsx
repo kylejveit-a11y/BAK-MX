@@ -5,7 +5,7 @@ import type {SetupLog,SetupResult} from '../shared/rider-types';
 import {api} from './client';
 
 type Change={setting:string;change:string};
-const RESULTS:{key:Exclude<SetupResult,'not_tested'>;label:string;icon:typeof ThumbsUp}[]=[{key:'better',label:'Better',icon:ThumbsUp},{key:'no_change',label:'No change',icon:Minus},{key:'worse',label:'Worse',icon:ThumbsDown}];
+const RESULTS:{key:Exclude<SetupResult,'not_tested'>;label:string;icon:typeof ThumbsUp}[]=[{key:'better',label:'Better',icon:ThumbsUp},{key:'worse',label:'Worse',icon:ThumbsDown},{key:'no_change',label:'No change',icon:Minus}];
 const said:Record<string,string>={better:'better',no_change:'no different',worse:'worse'};
 
 /** After BAK suggests setup changes: the rider rides, then taps how it went. Saved to the bike's setup log, which BAK

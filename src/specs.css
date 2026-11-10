@@ -33,6 +33,7 @@
 .sp-detail{padding:0 2px 12px 12px;border-left:2px solid var(--bike-accent);font-size:13px;color:#9ea6b3;line-height:1.5}
 .sp-detail p{margin:0 0 6px}
 .sp-section{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8f97a4}
+.sp-group>.sp-section{margin:12px 0 4px}
 .sp-src a{color:#c9cfd9;text-decoration:underline;text-decoration-color:var(--bike-accent);text-underline-offset:3px}
 .sp-results .subtle{margin:0 0 6px}
 @media(min-width:761px){.sp-quick{grid-template-columns:repeat(3,minmax(0,1fr))}}

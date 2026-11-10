@@ -1,3 +1,4 @@
+import {sortBikeNames} from '../shared/bike-identity';
 import {useEffect,useMemo,useState} from 'react';
 import {Check,ChevronDown,ChevronRight,ChevronUp,Search} from 'lucide-react';
 
@@ -20,7 +21,7 @@ function Detail({row,total}:{row:SupportRow;total:number}){
 /** Home page: pick make, model and year before signing up or subscribing. */
 export function SupportPicker({onSeeAll}:{onSeeAll:()=>void}){
  const data=useSupport();
- const makes=useMemo(()=>data?[...new Set(data.bikes.map(b=>b.make))].sort():[],[data]);
+ const makes=useMemo(()=>data?sortBikeNames([...new Set(data.bikes.map(b=>b.make))]):[],[data]);
  const [make,setMake]=useState(''),[model,setModel]=useState(''),[year,setYear]=useState(0);
  const models=data?[...new Set(data.bikes.filter(b=>b.make===make).map(b=>b.model))]:[];
  const years=data?data.bikes.filter(b=>b.make===make&&b.model===model).map(b=>b.year).sort((a,b)=>b-a):[];

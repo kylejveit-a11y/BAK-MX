@@ -6,7 +6,7 @@
 import React,{useEffect,useState} from 'react';
 import {Text,TextInput,View} from 'react-native';
 import type {Bike} from '../../../shared/types';
-import {SETUP_RESULT_LABELS,type SetupLog,type SetupResult} from '../../../shared/rider-types';
+import {SETUP_RESULT_LABELS,SETUP_RESULT_ORDER,type SetupLog,type SetupResult} from '../../../shared/rider-types';
 import {CHANGES,today,type NextUp,type RaceDay} from '../../../shared/race-day';
 import {PRACTICE_COPY as COPY,SESSION_MINUTES,advanceNextUp,emptySession,makeSession,nextSessionNumber,practiceAskText,sessionChange,sessionLabel,sessionLogBody,sessionsFor,sessionsSummary,type PracticeSession,type SessionDraft,type StoredPractice} from '../../../shared/practice-day';
 import {apiQueued} from './api';
@@ -96,7 +96,7 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
    {!!draft.change&&<>
     <TextInput value={draft.detail} onChangeText={v=>set({detail:v})} maxLength={200} placeholder="e.g. 2 clicks softer, or 13 psi" placeholderTextColor="#7d8593" accessibilityLabel="Detail of the change" style={input}/>
     <Label>How did it ride?</Label>
-    <Wrap>{(['better','no_change','worse','not_tested'] as SetupResult[]).map(r=><Chip key={r} label={SETUP_RESULT_LABELS[r]} on={draft.result===r} onPress={()=>set({result:r})}/>)}</Wrap>
+    <Wrap>{SETUP_RESULT_ORDER.map(r=><Chip key={r} label={SETUP_RESULT_LABELS[r]} on={draft.result===r} onPress={()=>set({result:r})}/>)}</Wrap>
     <Text style={{color:'#7d8593',fontSize:12.5}}>Goes into your setup log with this session.</Text>
    </>}
    <Notice text={notice}/>

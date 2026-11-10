@@ -26,7 +26,7 @@ import {enablePushAfterReminder} from './push';
 import {syncNextEventWidget} from './widgets/sync';
 import {TrackReportCard} from './TrackReport';
 import {adjusters,beforeYouTune,symptomGuides} from '../../../shared/setup-knowledge';
-import {BlueFace,blueLift,onBlueText,Avatar,BackLink,Button,Card,CheckRow,Copy,Eyebrow,Field,Icon,IconAction,type IconName,Notice,Page,SectionHead,Tile,TileGrid,colors} from './ui';
+import {BlueFace,blueLift,onBlueText,Avatar,BackLink,Button,Card,CheckRow,Copy,Eyebrow,Field,Icon,IconAction,type IconName,Notice,Page,SectionHead,Tile,TileGrid,colors,tint} from './ui';
 
 /* Native rider surfaces: Community, Events, Messages, Profile, Feedback, Setup log, Parts.
    All data comes from the BAK MX API. Nothing here is sample content. */
@@ -171,7 +171,7 @@ export function CommunityScreen({bike,onMessage,draft,draftToken}:{bike?:Bike;on
     <View style={{flex:1,borderWidth:1,borderColor:'#2f3540',borderRadius:22,paddingHorizontal:16,paddingVertical:11}}><Text style={{color:'#adb5c1',fontSize:15}}>What’s on the bike?</Text></View>
    </Pressable>
    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8}} style={{flexGrow:0,marginHorizontal:-20}}>
-    <View style={{width:12}}/>{FILTERS.map(f=>{const on=filter===f.value;return <Pressable key={f.label} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setFilter(f.value)} style={({pressed})=>[{paddingHorizontal:13,paddingVertical:6,borderRadius:16,borderWidth:on?0:1,margin:on?1:0,borderColor:'#2f3540',opacity:pressed?0.7:1},on&&blueLift]}>{on&&<BlueFace radius={16}/>}<Text style={[{color:on?'#ffffff':'#c9cfd9',fontSize:13,fontWeight:on?'700':'500'},on&&onBlueText]}>{f.label}</Text></Pressable>;})}<View style={{width:12}}/>
+    <View style={{width:12}}/>{FILTERS.map(f=>{const on=filter===f.value;return <Pressable key={f.label} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setFilter(f.value)} style={({pressed})=>({paddingHorizontal:13,paddingVertical:6,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:'#2f3540',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:13,fontWeight:on?'700':'500'}}>{f.label}</Text></Pressable>;})}<View style={{width:12}}/>
    </ScrollView>
   </View>
   <Notice text={notice}/>
@@ -244,7 +244,7 @@ function ComposeSheet({visible,profile,bike,seed,onClose,onPosted}:{visible:bool
       {bike&&<Pressable haptic="select" accessibilityRole="checkbox" accessibilityState={{checked:tagBike}} onPress={()=>setTagBike(!tagBike)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,alignSelf:'flex-start',borderWidth:1,borderColor:tagBike?colors.accent:'#2f3540',borderRadius:14,paddingHorizontal:10,paddingVertical:4,opacity:pressed?0.7:1})}><Icon name="moto" size={16} color={tagBike?colors.accent:'#adb5c1'}/><Text style={{color:tagBike?colors.accent:'#adb5c1',fontSize:12.5,fontWeight:'700'}}>{tagBike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'Tag my bike'}</Text></Pressable>}
      </View>
     </View>
-    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{options(POST_CATEGORY_LABELS).map(o=>{const on=category===o.value;return <Pressable key={o.value} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setCategory(o.value)} style={({pressed})=>[{paddingHorizontal:13,paddingVertical:6,borderRadius:16,borderWidth:on?0:1,margin:on?1:0,borderColor:'#2f3540',opacity:pressed?0.7:1},on&&blueLift]}>{on&&<BlueFace radius={16}/>}<Text style={[{color:on?'#ffffff':'#c9cfd9',fontSize:13.5,fontWeight:on?'700':'500'},on&&onBlueText]}>{o.label}</Text></Pressable>;})}</View>
+    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{options(POST_CATEGORY_LABELS).map(o=>{const on=category===o.value;return <Pressable key={o.value} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setCategory(o.value)} style={({pressed})=>({paddingHorizontal:13,paddingVertical:6,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:'#2f3540',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:13.5,fontWeight:on?'700':'500'}}>{o.label}</Text></Pressable>;})}</View>
     <TextInput autoFocus multiline value={body} onChangeText={setBody} maxLength={4000} autoCapitalize="sentences" placeholder={hint} placeholderTextColor="#7d8593" selectionColor={colors.accent} accessibilityLabel="Post" style={{color:colors.text,fontSize:19,lineHeight:27,minHeight:140,textAlignVertical:'top',outlineStyle:'none'} as never}/>
     <AttachedPhotos photos={photos} uploading={uploading} size={104} onEdit={setEditing} onRemove={id=>{setPhotos(old=>old.filter(p=>p.id!==id));if(!seed?.photoIds?.includes(id))void api('/api/photos?id='+id,'DELETE').catch(()=>{});}}/>
     {(clip||!!clipStage)&&<View style={{width:220,height:124,borderRadius:12,overflow:'hidden',backgroundColor:'#000',alignItems:'center',justifyContent:'center'}}>
@@ -255,11 +255,11 @@ function ComposeSheet({visible,profile,bike,seed,onClose,onPosted}:{visible:bool
     <PhotoEditSheet photo={editing} owner={profile.user_id} onClose={()=>setEditing(null)} onUse={p=>{const was=editing;setPhotos(old=>old.map(x=>x.id===was?.id?p:x));setEditing(null);}}/>
     <Notice text={notice}/>
    </ScrollView>
-   <View style={{flexDirection:'row',alignItems:'center',gap:18,paddingHorizontal:16,paddingTop:8,paddingBottom:kb?10:Math.max(insets.bottom,10),borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}>
+   <View style={{flexDirection:'row',alignItems:'center',gap:12,paddingHorizontal:16,paddingTop:8,paddingBottom:kb?10:Math.max(insets.bottom,10),borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}>
     {tool('camera','Camera',()=>void add('camera'))}{tool('image','Photos',()=>void add('library'))}
     <Pressable accessibilityRole="button" accessibilityLabel="Add a clip, up to 60 seconds" disabled={!!clip||!!clipStage} onPress={()=>void (async()=>{setNotice('');try{const c=await pickAndUploadClip(setClipStage);if(c)setClip(c);}catch(e){setNotice(errorText(e));}finally{setClipStage('');}})()} hitSlop={8} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:7,paddingVertical:8,paddingHorizontal:4,opacity:clip||clipStage?0.35:pressed?0.6:1})}><Icon name="video" size={23} color={colors.text}/><Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>Clip</Text></Pressable>
-    <View style={{flex:1}}/>
-    <Text style={{color:'#9aa2ae',fontSize:12.5}}>{photos.length?`${photos.length}/4 photos${clip?' + clip':''}`:clip?'1 clip':body.length>3500?`${4000-body.length} left`:'4 photos or a clip'}</Text>
+    {/* The hint takes whatever width is left and wraps to two lines, so it is never cut off at the edge. */}
+    <Text numberOfLines={2} style={{flex:1,minWidth:0,textAlign:'right',color:'#9aa2ae',fontSize:12.5,lineHeight:16}}>{photos.length?`${photos.length}/4 photos${clip?' + clip':''}`:clip?'1 clip':body.length>3500?`${4000-body.length} left`:'4 photos or a clip'}</Text>
    </View>
   </View>
  </Modal>;
@@ -437,7 +437,9 @@ export function SetupLogCard({bike,onAsk,prefill}:{bike?:Bike;onAsk:(text:string
    {diff.map(d=><Text key={d.key} style={{color:colors.primary,fontSize:14,lineHeight:21}}>• {d.label}: {d.from} → {d.to}</Text>)}
    {!!log.notes&&<Text selectable style={{color:colors.text,fontSize:15,lineHeight:22}}>{log.notes}</Text>}
    <Copy>{describe(log)||'No settings recorded.'}</Copy>
-   <Row><Link title="Ask BAK about this" onPress={()=>onAsk(`Setup log from ${day(log.recorded_at)}${log.track?' at '+log.track:''}${log.conditions?' ('+log.conditions+')':''}. Settings: ${describe(log)||'none recorded'}.${log.change_made?' Change made: '+log.change_made+'.':''} Result: ${SETUP_RESULT_LABELS[log.result]}.${log.notes?' Notes: '+log.notes:''}\n\nWhat should I try next?`)}/><Link danger title="Delete" onPress={()=>Alert.alert('Delete this setup entry?','',[{text:'Cancel',style:'cancel'},{text:'Delete',style:'destructive',onPress:()=>void api('/api/setup-logs?id='+log.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))}])}/></Row>
+   <Row><Link title="Ask BAK about this" onPress={()=>onAsk(`Setup log from ${day(log.recorded_at)}${log.track?' at '+log.track:''}${log.conditions?' ('+log.conditions+')':''}. Settings: ${describe(log)||'none recorded'}.${log.change_made?' Change made: '+log.change_made+'.':''} Result: ${SETUP_RESULT_LABELS[log.result]}.${log.notes?' Notes: '+log.notes:''}\n\nWhat should I try next?`)}/>
+    {/* Delete lives behind More, away from the primary action, so a glove never lands on it by mistake. */}
+    <View style={{flex:1,alignItems:'flex-end'}}><Pressable accessibilityRole="button" accessibilityLabel="More options for this entry" hitSlop={12} onPress={()=>Alert.alert('This setup entry',day(log.recorded_at)+(log.track?' · '+log.track:''),[{text:'Delete entry',style:'destructive',onPress:()=>void api('/api/setup-logs?id='+log.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))},{text:'Cancel',style:'cancel'}])} style={({pressed})=>({padding:4,opacity:pressed?0.6:1})}><Icon name="more" size={22} color="#adb5c1"/></Pressable></View></Row>
   </Card>;})}
  </View>;
 }
@@ -483,7 +485,7 @@ export function PartsCatalogCard({bike}:{bike?:Bike}){
     {open===a.id&&<View style={{gap:8}}>
      {hasDiagram(a.diagram_url)&&<Diagram uri={a.diagram_url} title={sectionName(a.name)}/>}
      {parts===null?<Copy>Loading parts…</Copy>:!parts.length?<Copy>{notice?'The parts list didn’t load. Tap the section to try again.':'No parts listed for this section.'}</Copy>:parts.map(p=><View key={p.id} style={{flexDirection:'row',gap:10}}><Text style={{color:colors.text,width:30,fontWeight:'700'}}>{p.callout}</Text><View style={{flex:1}}><Text selectable style={{color:colors.text,fontSize:15}}>{p.description}</Text><Text selectable style={{color:colors.muted,fontSize:13}}>{[p.part_number||'No part number',p.quantity_raw&&p.quantity_raw!=='0'?`Qty ${p.quantity_raw}`:'',p.remarks].filter(Boolean).join(' · ')}</Text></View></View>)}
-     <Copy>Catalog quantities are per assembly as published, not whole-bike totals.</Copy>
+     <Copy>Quantities are per assembly, not whole-bike totals.</Copy>
     </View>}
    </View>)]:[];})}
   </>}

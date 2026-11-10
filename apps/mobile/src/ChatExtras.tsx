@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import {View,Text,TextInput,Switch} from 'react-native';
+import {View,Text,TextInput} from 'react-native';
 import {Pressable} from './Touch';
 import type {Bike} from '../../../shared/types';
 import type {SetupLog,SetupResult} from '../../../shared/rider-types';
@@ -9,7 +9,7 @@ import {systemLabel} from '../../../shared/installed-parts';
 import {describeAppAction,runAppAction,type AppAction,type AppActionHost} from '../../../shared/app-actions';
 import {readProgress,writeProgress} from './localProgress';
 import {api} from './api';
-import {BlueFace,blueLift,onBlueText,Button,Card,Copy,Icon,Notice,colors} from './ui';
+import {BlueFace,blueLift,onBlueText,Button,Card,Copy,Icon,Notice,Switch,colors} from './ui';
 
 import {userErrorText} from '../../../shared/user-error';
 // Only messages we wrote (or the API sent) reach the rider; a raw code failure reads as our fault, not theirs.
@@ -59,7 +59,7 @@ export function TriageCard({onDone,onCancel}:{onDone:(text:string)=>void;onCance
 }
 
 type Change={setting:string;change:string};
-const RESULTS:{key:Exclude<SetupResult,'not_tested'>;label:string}[]=[{key:'better',label:'Better'},{key:'no_change',label:'No change'},{key:'worse',label:'Worse'}];
+const RESULTS:{key:Exclude<SetupResult,'not_tested'>;label:string}[]=[{key:'better',label:'Better'},{key:'worse',label:'Worse'},{key:'no_change',label:'No change'}];
 const said:Record<string,string>={better:'better',no_change:'no different',worse:'worse'};
 /** After BAK suggests setup changes: the rider rides, then taps how it went. Saved to the bike's setup log, which BAK reads
  *  on the next question. Same flow as the website. */

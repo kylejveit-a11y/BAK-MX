@@ -1,3 +1,4 @@
+import {niceName} from '../shared/specs-view';
 import {PublicGarage,type PublicBike} from './GarageSharing';
 import {Fragment,useEffect,useRef,useState,type FormEvent,type ReactNode} from 'react';
 import {ArrowLeft,ArrowRight,CalendarDays,Camera,Check,Clock3,Heart,ImagePlus,MapPin,Film,Sparkles,MessageCircle,MessageSquare,MoreHorizontal,Plus,Send,Share2,Trash2,Users,X} from 'lucide-react';
@@ -504,9 +505,7 @@ export function SetupLogPanel({bike,signedIn,onAsk}:{bike?:Bike;signedIn:boolean
 }
 
 /* ------------------------------------------------------------------ Parts catalog */
-/** Catalog section names arrive in capitals ("FRONT FORK, TRIPLE CLAMP"); show them the way a rider reads them. */
-const KEEP_UPPER=/^(WP|PDS|CDI|ECU|EFI|TPS|ABS|LED|SX|XC|SX-F|XC-F|EXC|KYB|YZ|KX|CRF|RM-Z|TC|FC|MC|EX|TE|FE|TX|FX|PHDS|ASV|ODI|O-RING|I|II|III|IV|V|VI)$/;
-export function niceName(name:string){const t=name.trim();if(t!==t.toUpperCase())return t;return t.toLowerCase().split(/(\s+|-)/).map((w,i)=>{const up=w.toUpperCase();if(KEEP_UPPER.test(up))return up;return i===0||w.length>3?w.charAt(0).toUpperCase()+w.slice(1):w;}).join('').replace(/\b(and|of|for|with|the|to|in|on)\b/gi,m=>m.toLowerCase()).replace(/^./,c=>c.toUpperCase());}
+export {niceName};
 /** Which area of the bike a catalog section belongs to, for grouping the list. */
 export const PART_AREAS=['Suspension','Engine','Fuel, air & exhaust','Wheels & brakes','Frame & body','Controls & electrics','Other'] as const;
 export function partArea(name:string):typeof PART_AREAS[number]{const n=name.toLowerCase();
@@ -540,7 +539,7 @@ export function PartsCatalog({bike}:{bike?:Bike}){
      {/^https:\/\//.test(a.diagram_url)&&!/NoImage/i.test(a.diagram_url)&&<a href={a.diagram_url} target="_blank" rel="noreferrer" className="parts-diagram" title="Open the diagram full size"><img src={a.diagram_url} alt={`Exploded diagram: ${a.name}`} loading="lazy"/><span>Open full size</span></a>}
      {partsLoading?<p className="subtle" role="status">Loading parts…</p>:!partsLoaded?<p className="subtle" role="status">Parts could not be loaded. Try reopening this assembly.</p>:!parts.length?<p className="subtle" role="status">No part entries have been imported for this assembly.</p>:<table><thead><tr><th>Ref</th><th>Part number</th><th>Description</th><th>Qty</th></tr></thead><tbody>{parts.map(p=><Fragment key={p.id}><tr><td>{p.callout}</td><td>{p.part_number?<button className="part-number" aria-expanded={fit?.number===p.part_number} title="See which other bikes list this part number" onClick={()=>showFit(p.part_number!)}>{p.part_number}</button>:'—'}</td><td>{p.description}{p.remarks&&<small>{p.remarks}</small>}</td><td>{p.quantity_raw==='0'?'As needed':p.quantity_raw||'—'}</td></tr>
       {p.part_number&&fit?.number===p.part_number&&<tr className="fit-row"><td colSpan={4}>{fit.error?<span className="error" role="alert">{fit.error}</span>:!fit.rows?<span className="subtle" role="status">Checking other catalogs…</span>:<FitList bike={bike} rows={fit.rows}/>}</td></tr>}</Fragment>)}</tbody></table>}
-     <p className="subtle">Catalog quantities are per assembly as published, not whole-bike totals. Confirm superseded numbers with a dealer before ordering.</p>
+     <p className="subtle">Quantities are per assembly, not whole-bike totals. Confirm superseded numbers with a dealer before ordering.</p>
     </div>}
    </div>)}</Fragment>:null;})}{!shown.length&&<p className="subtle">No section matches that. Try “fork”, “brake” or “clutch”.</p>}</div>
   </>}

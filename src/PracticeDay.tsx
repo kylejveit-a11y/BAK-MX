@@ -6,7 +6,7 @@
 import {useEffect,useState} from 'react';
 import {Zap} from 'lucide-react';
 import type {Bike} from '../shared/types';
-import {SETUP_RESULT_LABELS,type SetupLog,type SetupResult} from '../shared/rider-types';
+import {SETUP_RESULT_LABELS,SETUP_RESULT_ORDER,type SetupLog,type SetupResult} from '../shared/rider-types';
 import {CHANGES,today,type NextUp,type RaceDay} from '../shared/race-day';
 import {PRACTICE_COPY as COPY,SESSION_MINUTES,advanceNextUp,emptySession,makeSession,nextSessionNumber,practiceAskText,sessionChange,sessionLabel,sessionLogBody,sessionsFor,sessionsSummary,type PracticeSession,type SessionDraft,type StoredPractice} from '../shared/practice-day';
 import {api} from './client';
@@ -70,7 +70,7 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
    {!!draft.change&&<>
     <input className="hb-input" value={draft.detail} maxLength={200} onChange={e=>set({detail:e.target.value})} placeholder="e.g. 2 clicks softer, or 13 psi" aria-label="Detail of the change"/>
     <p className="hb-field-label">How did it ride?</p>
-    <div className="hb-chips">{(['better','no_change','worse','not_tested'] as SetupResult[]).map(r=><Chip key={r} on={draft.result===r} onClick={()=>set({result:r})}>{SETUP_RESULT_LABELS[r]}</Chip>)}</div>
+    <div className="hb-chips">{SETUP_RESULT_ORDER.map(r=><Chip key={r} on={draft.result===r} onClick={()=>set({result:r})}>{SETUP_RESULT_LABELS[r]}</Chip>)}</div>
     <p className="hb-note">Goes into your setup log with this session.</p>
    </>}
    {notice&&<p className="hb-error" role="alert">{notice}</p>}

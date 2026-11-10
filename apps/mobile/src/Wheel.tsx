@@ -1,7 +1,8 @@
 // Full-screen selector: search, a snapping wheel with a lit center row, and step-by-step drilling (make → model → year).
 // Replaces the stock iOS picker everywhere so choosing things feels like one deliberate tool.
+import {sortBikeNames} from '../../../shared/bike-identity';
 import React,{useEffect,useMemo,useRef,useState} from 'react';
-import {Animated,FlatList,Modal,ScrollView,StyleSheet,Text,TextInput,View,useWindowDimensions,type NativeScrollEvent,type NativeSyntheticEvent} from 'react-native';
+import {Animated,FlatList,KeyboardAvoidingView,Modal,Platform,ScrollView,StyleSheet,Text,TextInput,View,useWindowDimensions,type NativeScrollEvent,type NativeSyntheticEvent} from 'react-native';
 import {Pressable} from './Touch';
 import {colors} from './theme';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -15,7 +16,8 @@ const tick=()=>{hSelect();};
 
 type SheetProps={visible:boolean;step?:string;title:string;options:Option[];value?:string;onPick:(value:string)=>void;onClose:()=>void;back?:{label:string;onPress:()=>void};footer?:{label:string;onPress:()=>void};searchPlaceholder?:string};
 
-/** One step of the selector. Scroll to move the lit row; tap it (or any row) to choose. */
+/** One step of the selector, as a bottom sheet sized to what is in it: a short list is plain rows to tap; a long list is the
+ *  snapping wheel with a lit center row (scroll to it, then tap the row or Choose). Tap the dimmed page above to close. */
 export function WheelSheet({visible,step,title,options,value,onPick,onClose,back,footer,searchPlaceholder}:SheetProps){
  const insets=useSafeAreaInsets(),{height}=useWindowDimensions();
  const [q,setQ]=useState('');
@@ -24,7 +26,8 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
  const searchable=options.length>8;
  // A short list is quicker as plain rows to tap (and works with gloves); the wheel is for long lists.
  const short=options.length<=10;
- const wheelH=Math.max(ROW*5,Math.min(ROW*7,height-insets.top-insets.bottom-(searchable?300:250)));
+ // Five rows, or seven when the screen has the room: the sheet never grows past what the rows need.
+ const wheelH=height>760?ROW*7:ROW*5;
  const pad=(wheelH-ROW)/2;
  const y=useRef(new Animated.Value(0)).current,ref=useRef<FlatList<Option>>(null);
  const [center,setCenter]=useState(0);
@@ -33,21 +36,23 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
  useEffect(()=>{if(!visible)return;const i=Math.max(0,list.findIndex(o=>o.value===value));centerRef.current=i;setCenter(i);y.setValue(i*ROW);requestAnimationFrame(()=>ref.current?.scrollToOffset({offset:i*ROW,animated:false}));},[visible,title,list.length]);
  const onScroll=Animated.event([{nativeEvent:{contentOffset:{y}}}],{useNativeDriver:true,listener:(e:NativeSyntheticEvent<NativeScrollEvent>)=>{const i=Math.max(0,Math.min(list.length-1,Math.round(e.nativeEvent.contentOffset.y/ROW)));if(i!==centerRef.current){centerRef.current=i;setCenter(i);tick();}}});
  const choose=(i:number)=>{const o=list[i];if(!o)return;if(i!==centerRef.current){ref.current?.scrollToOffset({offset:i*ROW,animated:true});return;}hTap();onPick(o.value);};
- return <Modal visible={visible} animationType="fade" presentationStyle="overFullScreen" transparent onRequestClose={onClose} statusBarTranslucent>
-  <View style={[st.sheet,{paddingTop:insets.top+10,paddingBottom:insets.bottom+12}]}>
+ return <Modal visible={visible} animationType="slide" presentationStyle="overFullScreen" transparent onRequestClose={onClose} statusBarTranslucent>
+  <KeyboardAvoidingView behavior={Platform.OS==='ios'?'padding':undefined} style={{flex:1,justifyContent:'flex-end'}}>
+  <Pressable accessibilityRole="button" accessibilityLabel="Close" haptic={false} onPress={onClose} style={st.backdrop}/>
+  <View style={[st.bottomSheet,{maxHeight:height-insets.top-32,paddingBottom:insets.bottom+14}]}>
+   <View style={st.grab}/>
    <View style={st.top}>
     <Text style={st.step}>{step??''}</Text>
     <Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={onClose} style={({pressed})=>[st.close,pressed&&{opacity:0.6}]}><Icon name="close" size={18} color={C.text} weight={2}/></Pressable>
    </View>
-   <Text style={st.title} numberOfLines={2}>{title}</Text>
+   <Text style={[st.title,{fontSize:26,marginTop:2}]} numberOfLines={2}>{title}</Text>
    {back?<Pressable accessibilityRole="button" onPress={back.onPress} hitSlop={8} style={{alignSelf:'flex-start',paddingVertical:6}}><View style={{flexDirection:'row',alignItems:'center',gap:4}}><Icon name="chevronLeft" size={16} color={C.accent} weight={2.1}/><Text style={{color:C.accent,fontWeight:'600',fontSize:14}}>{back.label}</Text></View></Pressable>:<View style={{height:6}}/>}
-   {short?<ScrollView style={{flex:1,marginTop:6}} contentContainerStyle={{paddingBottom:12}}>{options.map(o=>{const on=o.value===value;return <Pressable key={o.value||'__none'} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} accessibilityLabel={o.label} onPress={()=>onPick(o.value)} style={({pressed})=>[st.listRow,pressed&&{opacity:0.6}]}>
+   {short?<ScrollView style={{flexGrow:0,marginTop:6}} contentContainerStyle={{paddingBottom:4}} bounces={false}>{options.map(o=>{const on=o.value===value;return <Pressable key={o.value||'__none'} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} accessibilityLabel={o.label} onPress={()=>onPick(o.value)} style={({pressed})=>[st.listRow,pressed&&{opacity:0.6}]}>
      <View style={{flex:1,gap:2}}><Text style={{color:on?C.accent:C.text,fontSize:18,fontWeight:on?'800':'600'}}>{o.label}</Text>{!!o.detail&&<Text style={{color:C.dim,fontSize:13}}>{o.detail}</Text>}</View>
      {on&&<Icon name="check" size={18} color={C.accent} weight={2.4}/>}
     </Pressable>;})}{footer&&<Pressable accessibilityRole="button" onPress={footer.onPress} hitSlop={8} style={{paddingTop:16}}><Text style={{color:C.muted,fontWeight:'600',fontSize:15}}>{footer.label}</Text></Pressable>}</ScrollView>:<>
    {searchable&&<View style={st.search}><Icon name="search" size={17} color={C.muted}/><TextInput value={q} onChangeText={setQ} placeholder={searchPlaceholder??'Search'} placeholderTextColor={C.dim} style={st.searchInput} autoCorrect={false} autoCapitalize="none" clearButtonMode="while-editing" accessibilityLabel="Search"/></View>}
-   <View style={{flex:1,justifyContent:'center'}}>
-   <View style={{height:wheelH,justifyContent:'center'}}>
+   <View style={{height:wheelH,justifyContent:'center',marginTop:10}}>
     <View pointerEvents="none" style={[st.band,{top:pad}]}/>
     <View pointerEvents="none" style={{position:'absolute',left:2,top:pad+ROW/2-1.5,width:14,height:3,borderRadius:1,backgroundColor:C.accent,transform:[{skewX:'-24deg'}]}}/>
     {list.length===0?<Text style={{color:C.muted,textAlign:'center',fontSize:15}}>Nothing matches “{q.trim()}”.</Text>:
@@ -57,20 +62,20 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
       const opacity=y.interpolate({inputRange:r,outputRange:[0.12,0.45,1,0.45,0.12],extrapolate:'clamp'});
       const scale=y.interpolate({inputRange:r,outputRange:[0.86,0.93,1,0.93,0.86],extrapolate:'clamp'});
       const on=index===center;
-      return <Pressable accessibilityRole="button" accessibilityState={{selected:item.value===value}} accessibilityLabel={item.label} haptic={false} onPress={()=>choose(index)} style={{height:ROW,justifyContent:'center'}}>
+      return <Pressable accessibilityRole="button" accessibilityState={{selected:item.value===value}} accessibilityLabel={item.label} accessibilityHint={on?'Chooses it':'Moves it to the center row'} haptic={false} onPress={()=>choose(index)} style={{height:ROW,justifyContent:'center'}}>
        <Animated.View style={{opacity,transform:[{scale}],alignItems:'center',alignSelf:'stretch',paddingHorizontal:14}}>
         {item.label.length>26?<Text numberOfLines={2} style={{color:C.text,fontSize:on?16.5:15.5,lineHeight:on?19:18,fontWeight:on?'700':'500',textAlign:'center',letterSpacing:-0.2}}>{item.label}</Text>:<Text numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.62} style={{color:C.text,fontSize:on?22:20,fontWeight:on?'700':'500',letterSpacing:-0.3}}>{item.label}</Text>}
         {!!item.detail&&on&&item.label.length<=40&&<Text numberOfLines={1} style={{color:C.muted,fontSize:12,marginTop:1}}>{item.detail}</Text>}
        </Animated.View>
       </Pressable>;}}/>}
    </View>
-   <Text style={st.hint}>{list.length?'TAP THE CENTER ROW TO CHOOSE':''}</Text>
-   </View>
+   {/* One instruction only: the button. Scrolling moves the lit row; the row and the button both choose it. */}
    <View style={st.bottom}>
     {footer?<Pressable accessibilityRole="button" onPress={footer.onPress} hitSlop={8}><Text style={{color:C.muted,fontWeight:'600',fontSize:14}}>{footer.label}</Text></Pressable>:<View/>}
-    <Pressable haptic={false} accessibilityRole="button" disabled={!list.length} onPress={()=>choose(center)} style={({pressed})=>[st.choose,(pressed||!list.length)&&{opacity:0.6}]}><Text style={{color:'#ffffff',fontWeight:'800',fontSize:15}}>Choose</Text></Pressable>
+    <Pressable haptic={false} accessibilityRole="button" accessibilityLabel={list[center]?`Choose ${list[center].label}`:'Choose'} disabled={!list.length} onPress={()=>choose(center)} style={({pressed})=>[st.choose,{backgroundColor:C.primary},(pressed||!list.length)&&{opacity:0.6}]}><Text style={{color:'#ffffff',fontWeight:'800',fontSize:15}}>Choose</Text></Pressable>
    </View></>}
   </View>
+  </KeyboardAvoidingView>
  </Modal>;
 }
 
@@ -98,7 +103,7 @@ export function BikeWheel({visible,makes,modelsFor,yearsFor,initial,onDone,onClo
  const [stage,setStage]=useState<0|1|2>(0),[make,setMake]=useState(initial?.make??''),[model,setModel]=useState(initial?.model??''),[q,setQ]=useState('');
  useEffect(()=>{if(visible){setStage(0);setMake(initial?.make??'');setModel(initial?.model??'');setQ('');}},[visible]);
  // Smallest to biggest the way riders read them (50 SX before 125 SX), not alphabetical text order.
- const models=useMemo(()=>make?[...modelsFor(make)].sort((a,b)=>a.localeCompare(b,'en',{numeric:true,sensitivity:'base'})):[],[make,modelsFor]);
+ const models=useMemo(()=>make?sortBikeNames(modelsFor(make)):[],[make,modelsFor]);
  const shown=useMemo(()=>{const t=q.trim().toLowerCase();return t?models.filter(m=>m.toLowerCase().includes(t)):models;},[models,q]);
  const years=make&&model?[...yearsFor(make,model)].sort((a,b)=>b-a):[];
  const range=(m:string)=>{const y=yearsFor(make,m);return y.length?(Math.min(...y)===Math.max(...y)?String(y[0]):`${Math.min(...y)}–${Math.max(...y)}`):'';};
@@ -146,6 +151,10 @@ export function BikeWheel({visible,makes,modelsFor,yearsFor,initial,onDone,onClo
 
 const st=StyleSheet.create({
  sheet:{flex:1,backgroundColor:C.bg,paddingHorizontal:22},
+ // The selector sheet: rises from the bottom, rounded like the system sheets, only as tall as its rows.
+ bottomSheet:{backgroundColor:C.bg,paddingHorizontal:22,paddingTop:8,borderTopLeftRadius:26,borderTopRightRadius:26,borderTopWidth:1,borderColor:'#262b34'},
+ backdrop:{flex:1,backgroundColor:'rgba(0,0,0,0.55)'},
+ grab:{alignSelf:'center',width:36,height:5,borderRadius:3,backgroundColor:'#343a45',marginBottom:4},
  top:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',minHeight:36},
  step:{color:C.muted,fontSize:11.5,fontWeight:'700',letterSpacing:1.6},
  close:{width:34,height:34,borderRadius:17,borderWidth:1,borderColor:'#2a2f39',alignItems:'center',justifyContent:'center'},
@@ -153,9 +162,8 @@ const st=StyleSheet.create({
  search:{flexDirection:'row',alignItems:'center',gap:10,borderBottomWidth:1,borderBottomColor:'#2a2f39',marginTop:8},
  searchInput:{flex:1,color:C.text,fontSize:16,paddingVertical:11},
  band:{position:'absolute',left:0,right:0,height:ROW,borderTopWidth:1,borderBottomWidth:1,borderColor:'#343a45'},
- hint:{color:C.dim,fontSize:10.5,letterSpacing:1.6,fontWeight:'700',textAlign:'center',marginTop:12},
- bottom:{flexDirection:'row',alignItems:'center',justifyContent:'space-between'},
- choose:{backgroundColor:C.primary,borderRadius:24,paddingHorizontal:26,paddingVertical:13},
+ bottom:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',marginTop:14},
+ choose:{borderRadius:24,paddingHorizontal:26,paddingVertical:13},
  row:{flexDirection:'row',alignItems:'center',gap:12,paddingVertical:13,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:C.line},
  rowLabel:{color:C.muted,fontSize:12.5,fontWeight:'600'},
  tile:{width:'48.5%',minHeight:76,borderRadius:16,borderWidth:1,borderColor:'#2a2f39',backgroundColor:'#0e1015',paddingHorizontal:14,paddingVertical:12,justifyContent:'center',gap:3},
@@ -165,8 +173,9 @@ const st=StyleSheet.create({
 });
 
 /** Any trigger that opens the selector: the caller draws the button (a compact chip in the chat composer, say). */
-export function PickButton({title,options,value,onChange,disabled=false,accessibilityLabel,children}:{title:string;options:Option[];value:string;onChange:(v:string)=>void;disabled?:boolean;accessibilityLabel:string;children:React.ReactNode}){
+/** `shrink`: in a tight row this trigger gives up width first (its label truncates) so its neighbours stay whole. */
+export function PickButton({title,options,value,onChange,disabled=false,accessibilityLabel,children,shrink=false}:{title:string;options:Option[];value:string;onChange:(v:string)=>void;disabled?:boolean;accessibilityLabel:string;children:React.ReactNode;shrink?:boolean}){
  const [open,setOpen]=useState(false);
- return <><Pressable haptic="select" accessibilityRole="button" accessibilityLabel={accessibilityLabel} disabled={disabled} onPress={()=>setOpen(true)} style={({pressed})=>({opacity:pressed||disabled?0.6:1})}>{children}</Pressable>
+ return <><Pressable haptic="select" accessibilityRole="button" accessibilityLabel={accessibilityLabel} disabled={disabled} onPress={()=>setOpen(true)} style={({pressed})=>({opacity:pressed||disabled?0.6:1,flexShrink:shrink?1:0,minWidth:shrink?0:undefined})}>{children}</Pressable>
   <WheelSheet visible={open} title={title} options={options} value={value} onClose={()=>setOpen(false)} onPick={v=>{setOpen(false);onChange(v);}}/></>;
 }

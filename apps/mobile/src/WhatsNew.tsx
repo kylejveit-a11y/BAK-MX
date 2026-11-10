@@ -24,13 +24,16 @@ export function WhatsNewCard({account,show=Platform.OS==='ios'}:{account:string;
  if(!show||state.dismissed||state.opens>MAX_OPENS)return null;
  const close=()=>setState({...state,dismissed:true});
  // Closed it is one slim row, so Your bike stays on the first screen; tap to see the four features.
- if(!open)return <View style={{flexDirection:'row',alignItems:'center',gap:12,paddingVertical:12,paddingHorizontal:14,borderRadius:16,backgroundColor:'#121a26',borderWidth:1,borderColor:'#22324a'}}>
-  <Pressable accessibilityRole="button" accessibilityLabel="New on iPhone: widgets, Siri and Lock Screen. See what's new" onPress={()=>setOpen(true)} style={({pressed})=>({flex:1,flexDirection:'row',alignItems:'center',gap:10,opacity:pressed?0.6:1})}>
+ if(!open)return <View style={{gap:8,paddingVertical:12,paddingHorizontal:14,borderRadius:16,backgroundColor:'#121a26',borderWidth:1,borderColor:'#22324a'}}>
+  <View style={{flexDirection:'row',alignItems:'center',gap:10}}>
    <View style={{paddingHorizontal:7,paddingVertical:3,borderRadius:6,backgroundColor:colors.primary}}><Text style={{color:'#fff',fontSize:10.5,fontWeight:'900',letterSpacing:1}}>NEW</Text></View>
-   <Text style={{color:colors.text,fontSize:15,fontWeight:'700',flex:1}} numberOfLines={1}>Widgets, Siri and Lock Screen</Text>
-   <Text style={{color:colors.text,fontSize:14,fontWeight:'700'}}>See</Text>
-  </Pressable>
-  <Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={close} style={({pressed})=>({opacity:pressed?0.5:1})}><Icon name="close" size={16} color="#9ea6b3"/></Pressable>
+   <Text style={{color:colors.text,fontSize:15,fontWeight:'700',flex:1,lineHeight:20}} numberOfLines={2}>Widgets, Siri and Lock Screen</Text>
+  </View>
+  {/* The actions sit on their own row, so the title never has to shrink to make room for them. */}
+  <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingLeft:2}}>
+   <Pressable accessibilityRole="button" accessibilityLabel="New on iPhone: widgets, Siri and Lock Screen. See what's new" hitSlop={8} onPress={()=>setOpen(true)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,paddingVertical:2,opacity:pressed?0.6:1})}><Text style={{color:colors.text,fontSize:14,fontWeight:'700'}}>See what’s new</Text><Icon name="arrowRight" size={15} color={colors.accent} weight={2}/></Pressable>
+   <Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={close} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:5,paddingVertical:2,opacity:pressed?0.5:1})}><Text style={{color:'#9ea6b3',fontSize:14,fontWeight:'600'}}>Not now</Text><Icon name="close" size={14} color="#9ea6b3"/></Pressable>
+  </View>
  </View>;
  return <Card>
   <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}>

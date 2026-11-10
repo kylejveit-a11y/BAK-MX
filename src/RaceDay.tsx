@@ -5,7 +5,7 @@
 import {useEffect,useState} from 'react';
 import {Clock,Flag,Zap} from 'lucide-react';
 import type {Bike,Conversation,EngineeringResponse,Message} from '../shared/types';
-import {SETUP_RESULT_LABELS,type RideEvent,type SetupLog,type SetupResult} from '../shared/rider-types';
+import {SETUP_RESULT_LABELS,SETUP_RESULT_ORDER,type RideEvent,type SetupLog,type SetupResult} from '../shared/rider-types';
 import {RACE_PHASES,phaseForDaysOut} from '../shared/race-prep';
 import {advanceNextUp,clockText,countdownText,nextUpDate,parseClock,parseNextUp} from '../shared/practice-day';
 import {aiConsentKey} from '../shared/ai-consent';
@@ -169,7 +169,7 @@ export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenC
    <div className="hb-chips">{CHANGES.map(c=><Chip key={c} on={what===c} onClick={()=>setWhat(what===c?'':c)}>{c}</Chip>)}</div>
    <input className="hb-input" value={detail} maxLength={200} onChange={e=>setDetail(e.target.value)} placeholder="e.g. 2 clicks softer, or 13 psi" aria-label="Detail of the change"/>
    <p className="hb-field-label">How did it ride?</p>
-   <div className="hb-chips">{(['better','no_change','worse','not_tested'] as SetupResult[]).map(r=><Chip key={r} on={result===r} onClick={()=>setResult(r)}>{SETUP_RESULT_LABELS[r]}</Chip>)}</div>
+   <div className="hb-chips">{SETUP_RESULT_ORDER.map(r=><Chip key={r} on={result===r} onClick={()=>setResult(r)}>{SETUP_RESULT_LABELS[r]}</Chip>)}</div>
    <textarea className="hb-input" value={note} maxLength={500} onChange={e=>setNote(e.target.value)} placeholder="Note (optional): ruts got deeper, front pushed in turn 3…" aria-label="Note"/>
    {notice&&<p className="hb-error" role="alert">{notice}</p>}
    <button type="button" className="button" disabled={busy} onClick={()=>void log()}>{busy?'Saving…':'Save to setup log'}</button>

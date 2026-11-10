@@ -2,7 +2,7 @@
 // steps, tables as rows). Everything is placed in Text nodes, so nothing a model or a rider writes becomes markup.
 import React from 'react';
 import {Pressable,Text,View} from 'react-native';
-import {colors} from './ui';
+import {colors,SettingRow} from './ui';
 import {PhotoViewer} from './PhotoUI';
 import type {Photo} from './photos';
 import {TIME_MENTION,nearestFrame} from '../../../shared/coach-focus';
@@ -37,6 +37,10 @@ export function RichText({text,frames}:{text:string;frames?:{times:number[];phot
   if(/^\s*\|.*\|\s*$/.test(line)&&i+1<lines.length&&/^\s*\|?[\s:|-]+\|?\s*$/.test(lines[i+1])&&lines[i+1].includes('-')){
    const head=cells(line),rows:string[][]=[];i+=2;
    while(i<lines.length&&/^\s*\|.*\|\s*$/.test(lines[i])){rows.push(cells(lines[i]));i++;}
+   // A Setting / Stock / Yours table is the rider's setup: the same rows as the setup card in Specs, not a line of text.
+   const col=(rx:RegExp)=>head.findIndex(h=>rx.test(h.replace(/\*/g,'').trim())),cs=col(/^setting$/i),cst=col(/^stock$/i),cy=col(/^(yours|your setting|now)$/i);
+   const bare=(v?:string)=>(v??'').replace(/\*\*/g,'').trim();
+   if(cs>=0&&cy>=0&&head.length<=3&&(cst>=0||head.length===2)){out.push(<View key={k++}>{rows.map((r,n)=><SettingRow key={n} first={n===0} label={bare(r[cs])} mine={bare(r[cy])} stock={cst>=0?bare(r[cst]):undefined}/>)}</View>);continue;}
    // a phone is too narrow for a grid: each row reads "Header: value · Header: value"
    out.push(<View key={k++} style={{gap:6}}>{rows.map((r,n)=><Text key={n} selectable style={{...base,fontSize:15,lineHeight:22}}>{head.map((h,m)=>r[m]?[<Text key={'l'+m} style={{color:colors.muted}}>{m?' · ':''}{h}: </Text>,...inline(r[m],'c'+n+m,ft)]:null)}</Text>)}</View>);
    continue;
@@ -55,8 +59,10 @@ export function RichText({text,frames}:{text:string;frames?:{times:number[];phot
 }
 
 /** A section that starts closed: the answer stays short, the working is one tap away. */
-export function Disclosure({title,children}:{title:string;children:React.ReactNode}){
- const [open,setOpen]=React.useState(false);
+/** Pass `open`/`onToggle` to control it from outside (a form that prefills what is inside opens it so the rider sees it). */
+export function Disclosure({title,children,open:outer,onToggle}:{title:string;children:React.ReactNode;open?:boolean;onToggle?:(open:boolean)=>void}){
+ const [inner,setInner]=React.useState(false);
+ const open=outer??inner,setOpen=(v:boolean)=>{setInner(v);onToggle?.(v);};
  return <View style={{gap:10}}>
   <Pressable accessibilityRole="button" accessibilityState={{expanded:open}} onPress={()=>setOpen(!open)} hitSlop={6} style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingVertical:4}}>
    <Text style={{color:colors.text,fontSize:14.5,fontWeight:'600'}}>{title}</Text><Text style={{color:colors.text,fontSize:14}}>{open?'Hide':'Show'}</Text>

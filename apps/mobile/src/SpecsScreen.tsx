@@ -4,7 +4,7 @@ import React,{useEffect,useMemo,useState} from 'react';
 import {ActivityIndicator,Linking,Text,View} from 'react-native';
 import {Pressable} from './Touch';
 import {api} from './api';
-import {Card,Copy,Eyebrow,Field,Icon,LinkAction,Notice,colors} from './ui';
+import {Card,Copy,Eyebrow,Field,Icon,LinkAction,Notice,SettingRow,colors} from './ui';
 import type {Bike,Claim} from '../../../shared/types';
 import {friendlyLocator,specRows,groupSpecRows,quickSpecs,oilSummary,yourSettings,SPEC_KINDS,type SpecRow} from '../../../shared/specs-view';
 import type {FactKind} from '../../../shared/fact-system';
@@ -48,7 +48,7 @@ export function SpecsView({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
    <Card>
     <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Eyebrow>YOUR SETTINGS NOW</Eyebrow><Pressable accessibilityRole="button" hitSlop={8} onPress={onGarage}><Text style={{color:colors.text,fontSize:14,fontWeight:'700'}}>{mine.any?'Update':'Add yours'}</Text></Pressable></View>
     {!mine.any&&<Copy>Add your clickers, sag and tire pressure in your Garage and they show here next to stock.</Copy>}
-    {mine.list.map(y=><View key={y.key} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',gap:12,borderTopWidth:1,borderTopColor:colors.line,paddingVertical:10}}><Text style={{color:colors.text,fontSize:15,flex:1}}>{y.label}</Text><View style={{alignItems:'flex-end',maxWidth:'55%'}}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{y.mine||'—'}</Text>{!!y.stock&&<Text style={{color:colors.muted,fontSize:12.5}}>stock {y.stock}</Text>}</View></View>)}
+    {mine.list.map(y=><SettingRow key={y.key} label={y.label} mine={y.mine} stock={y.stock}/>)}
    </Card>
    <Card>
     <Copy strong>Everything published for this bike</Copy>
@@ -58,8 +58,10 @@ export function SpecsView({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
     {!groups.length&&<Copy>Nothing published matches that for this exact bike.</Copy>}
    </Card>
    {groups.map(g=>{const closed=q?false:(shut[g.s]??groups.length>3);return <Card key={g.s}>
-    <Pressable accessibilityRole="button" accessibilityState={{expanded:!closed}} onPress={()=>setShut(o=>({...o,[g.s]:!closed}))} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:36}}><Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>{g.s} <Text style={{color:colors.muted,fontWeight:'500',fontSize:14}}>{g.items.length}</Text></Text><Icon name={closed?'chevronRight':'chevronDown'} size={17} color={colors.accent}/></Pressable>
+    <Pressable accessibilityRole="button" accessibilityState={{expanded:!closed}} onPress={()=>setShut(o=>({...o,[g.s]:!closed}))} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:36}}><Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>{g.s} <Text style={{color:colors.muted,fontWeight:'500',fontSize:14}}>{g.items.length+g.service.length}</Text></Text><Icon name={closed?'chevronRight':'chevronDown'} size={17} color={colors.accent}/></Pressable>
     {!closed&&g.items.map(r=><Row key={r.c.id} r={r} open={open===r.c.id} onToggle={()=>setOpen(open===r.c.id?'':r.c.id)}/>)}
+    {/* The part's service intervals sit together under their own label, apart from its settings and torques. */}
+    {!closed&&g.service.length>0&&<>{g.items.length>0&&<Text style={[label,{marginTop:12}]}>SERVICE</Text>}{g.service.map(r=><Row key={r.c.id} r={r} open={open===r.c.id} onToggle={()=>setOpen(open===r.c.id?'':r.c.id)}/>)}</>}
    </Card>;})}
   </>}
  </>;

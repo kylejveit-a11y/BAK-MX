@@ -1,5 +1,5 @@
 import React from 'react';
-import {Animated,Text,View,Image,TextInput,ScrollView,StyleSheet,InputAccessoryView,Keyboard,Platform,type ImageProps,type TextInputProps} from 'react-native';
+import {Animated,Text,View,Image,TextInput,ScrollView,StyleSheet,InputAccessoryView,Keyboard,Platform,Switch as RNSwitch,type ImageProps,type TextInputProps,type SwitchProps} from 'react-native';
 import {Pressable} from './Touch';
 import {HeaderHeightContext} from '@react-navigation/elements';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -98,14 +98,18 @@ export function Notice({text,tone}:{text:string;tone?:'warn'}){const warn=tone==
 export const s=StyleSheet.create({page:{padding:20,paddingBottom:40,gap:18},eyebrow:{color:'#9aa2ae',fontWeight:'600',letterSpacing:1,fontSize:11.5},title:{fontSize:32,color:colors.text,fontWeight:'900',fontStyle:'italic',letterSpacing:-1.1},card:{paddingTop:22,paddingBottom:6,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',gap:12},copy:{color:colors.muted,fontSize:15,lineHeight:23,flexShrink:1,alignSelf:'stretch'},button:{backgroundColor:'transparent',borderRadius:28,paddingVertical:15,paddingHorizontal:20,minHeight:50,justifyContent:'center'},ghost:{backgroundColor:'transparent',borderWidth:1,borderColor:'#343a45'},label:{color:'#adb5c1',fontSize:12.5,fontWeight:'600'},input:{borderBottomWidth:1,borderBottomColor:'#2a2f39',paddingVertical:10,color:colors.text,fontSize:17,minHeight:44}});
 
 /** BAK MX in the brushed-metal lettering of the app icon. */
-export function Brand({compact=false}:{compact?:boolean}){const h=compact?26:40;return <View accessible accessibilityRole="header" accessibilityLabel="BAK MX" style={{gap:9}}><Image source={require('../assets/bak-mx-wordmark.png')} accessibilityIgnoresInvertColors style={{height:h,width:h*900/139}} resizeMode="contain"/>{!compact&&<Text style={{color:'#8f97a4',fontWeight:'700',fontSize:10,letterSpacing:4}}>BAK STRONG</Text>}</View>}
+/** The wordmark ships inside the app bundle and is resolved once at module load, so every header draws it on first paint;
+ *  fadeDuration 0 stops Android fading it in, and the explicit size keeps the header from reflowing. */
+export const WORDMARK=require('../assets/bak-mx-wordmark.png');
+export function Brand({compact=false}:{compact?:boolean}){const h=compact?26:40;return <View accessible accessibilityRole="header" accessibilityLabel="BAK MX" style={{gap:9}}><Image source={WORDMARK} fadeDuration={0} accessibilityIgnoresInvertColors style={{height:h,width:h*900/139}} resizeMode="contain"/>{!compact&&<Text style={{color:'#8f97a4',fontWeight:'700',fontSize:10,letterSpacing:4}}>BAK STRONG</Text>}</View>}
 
 /** Small label above a section heading. */
 export function Eyebrow({children}:{children:React.ReactNode}){return <Text style={s.eyebrow}>{children}</Text>}
 /** Status: done (tick) or still to do (dot). */
 export function Chip({label,done}:{label:string;done:boolean}){return <View style={{flexDirection:'row',alignItems:'center',gap:5,paddingVertical:2,marginRight:6}}>{done?<Icon name="check" size={14} color="#9fdcb3" weight={2.2}/>:<View style={{width:6,height:6,borderRadius:3,backgroundColor:'#58606e',marginHorizontal:4}}/>}<Text style={{color:done?'#d8f0df':'#a7afbd',fontSize:13}}>{label}</Text></View>}
 /** Open list row: icon, title, one short line, and a chevron (or plus). Hairline below. */
-export function Tile({icon,title,detail,onPress,trailing='chevron',right}:{icon?:IconName|React.ReactNode;title:string;detail?:string;onPress:()=>void;trailing?:'chevron'|'plus'|'none';right?:string}){return <Pressable accessibilityRole="button" accessibilityLabel={title+(detail?'. '+detail:'')} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:14,paddingVertical:15,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#2a2f39',opacity:pressed?0.6:1})}>{typeof icon==='string'?<Icon name={icon as IconName} size={22} color="#b2b9c4"/>:icon}<View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>{title}</Text>{!!detail&&<Text style={{color:'#adb5c1',fontSize:13,lineHeight:18}}>{detail}</Text>}</View>{!!right&&<Text style={{color:'#b2b9c4',fontSize:13.5,fontWeight:'600'}}>{right}</Text>}{trailing!=='none'&&<Icon name={trailing==='plus'?'plus':'chevronRight'} size={trailing==='plus'?20:17} color="#7d8593"/>}</Pressable>}
+/** `expanded` (true/false) makes the row a group header: its one affordance is a chevron that points down when shut, up when open. */
+export function Tile({icon,title,detail,onPress,trailing='chevron',right,expanded}:{icon?:IconName|React.ReactNode;title:string;detail?:string;onPress:()=>void;trailing?:'chevron'|'plus'|'none';right?:string;expanded?:boolean}){return <Pressable accessibilityRole="button" accessibilityLabel={title+(detail?'. '+detail:'')} accessibilityState={expanded===undefined?undefined:{expanded}} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:14,paddingVertical:15,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#2a2f39',opacity:pressed?0.6:1})}>{typeof icon==='string'?<Icon name={icon as IconName} size={22} color="#b2b9c4"/>:icon}<View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>{title}</Text>{!!detail&&<Text style={{color:'#adb5c1',fontSize:13,lineHeight:18}}>{detail}</Text>}</View>{!!right&&<Text style={{color:'#b2b9c4',fontSize:13.5,fontWeight:'600'}}>{right}</Text>}{trailing!=='none'&&<Icon name={expanded!==undefined?(expanded?'chevronUp':'chevronDown'):trailing==='plus'?'plus':'chevronRight'} size={trailing==='plus'&&expanded===undefined?20:17} color="#7d8593"/>}</Pressable>}
 export function TileGrid({children}:{children:React.ReactNode}){return <View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',marginTop:4}}>{children}</View>}
 /** The home prompt: an open line that opens chat. */
 /** The question bar. `onTrouble` adds one small line under it, "Something’s wrong?", which opens Ask BAK in diagnose mode. */
@@ -122,6 +126,16 @@ export function SectionHead({title,action,onAction}:{title:string;action?:string
 export function BackLink({title,onPress}:{title:string;onPress:()=>void}){return <Pressable accessibilityRole="button" hitSlop={8} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:4,alignSelf:'flex-start',paddingVertical:4,opacity:pressed?0.55:1})}><Icon name="chevronLeft" size={17} color={colors.accent} weight={2.1}/><Text style={{color:colors.text,fontSize:15,fontWeight:'600'}}>{title}</Text></Pressable>}
 /** Small icon + label action, e.g. likes and comments. */
 export function IconAction({icon,label,onPress,active=false,danger=false}:{icon:IconName;label:string;onPress:()=>void;active?:boolean;danger?:boolean}){const c=danger?'#efb5be':active?colors.accent:'#b2b9c4';return <Pressable haptic="select" accessibilityRole="button" accessibilityState={{selected:active}} accessibilityLabel={label} hitSlop={8} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,paddingVertical:6,opacity:pressed?0.55:1})}><Icon name={icon} size={18} color={c} accent={c}/><Text style={{color:c,fontSize:14,fontWeight:'600'}}>{label}</Text></Pressable>}
+/** One setting next to stock: the name on the left, the rider's value bold on the right, stock under it. Used by Specs
+ *  ("Your settings now") and by a Setting / Stock / Yours table in a BAK answer, so both read the same. */
+export function SettingRow({label,mine,stock,first=false}:{label:string;mine?:string;stock?:string;first?:boolean}){
+ return <View accessible accessibilityLabel={`${label}: ${mine?`yours ${mine}`:'yours not set'}${stock?`, stock ${stock}`:''}`} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',gap:12,borderTopWidth:first?0:1,borderTopColor:colors.line,paddingVertical:10}}>
+  <Text style={{color:colors.text,fontSize:15,flex:1}}>{label}</Text>
+  <View style={{alignItems:'flex-end',maxWidth:'55%'}}><Text selectable style={{color:colors.text,fontSize:15,fontWeight:'700',textAlign:'right'}}>{mine||'—'}</Text>{!!stock&&<Text selectable style={{color:colors.muted,fontSize:12.5,textAlign:'right'}}>stock {stock}</Text>}</View>
+ </View>;
+}
+/** The one toggle: on is the bike's accent, off is the dark rail, on every screen. Use this, never react-native's Switch. */
+export function Switch(props:SwitchProps){return <RNSwitch trackColor={{true:colors.accent,false:'#2a2f39'}} ios_backgroundColor="#2a2f39" thumbColor="#ffffff" {...props}/>}
 /** Tick box with a label. */
 export function CheckRow({label,checked,onPress}:{label:string;checked:boolean;onPress:()=>void}){return <Pressable haptic="select" accessibilityRole="checkbox" accessibilityState={{checked}} onPress={onPress} hitSlop={6} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:10,paddingVertical:6,opacity:pressed?0.6:1})}><Icon name={checked?'checkboxOn':'checkbox'} size={20} color={checked?'#ffffff':'#adb5c1'} accent={colors.primary}/><Text style={{color:colors.text,fontSize:15,flex:1}}>{label}</Text></Pressable>}
 
@@ -154,7 +168,7 @@ export function Section({icon,title,summary,children,startOpen=false}:{icon:Icon
  return <View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}>
   <Pressable haptic="select" accessibilityRole="button" accessibilityState={{expanded:open}} accessibilityLabel={`${title}${summary?`, ${summary}`:''}`} onPress={()=>setOpen(!open)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:14,paddingVertical:16,opacity:pressed?0.6:1})}>
    <View style={{width:36,height:36,borderRadius:11,borderWidth:1,borderColor:'#262b34',backgroundColor:'#0e1015',alignItems:'center',justifyContent:'center'}}><Icon name={icon} size={18} color={open?colors.accent:'#b2b9c4'}/></View>
-   <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'700'}}>{title}</Text>{!!summary&&<Text numberOfLines={1} style={{color:'#8f97a4',fontSize:13.5}}>{summary}</Text>}</View>
+   <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'700'}}>{title}</Text>{!!summary&&<Text numberOfLines={2} style={{color:'#8f97a4',fontSize:13.5,lineHeight:18}}>{summary}</Text>}</View>
    <Icon name={open?'chevronUp':'chevronDown'} size={17} color="#8f97a4"/>
   </Pressable>
   {/* Full width and allowed to shrink, so body text wraps inside the page instead of running off the right edge. */}

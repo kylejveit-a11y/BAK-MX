@@ -1,6 +1,9 @@
 import type {Bike} from './types.ts';
 import {garageModels as known} from './garage-models.ts';
 export function canonicalManufacturer(value:string){return Object.keys(known).find(k=>k.toLowerCase()===value.trim().toLowerCase())??value.trim();}
+/** Makes and models in the order riders read them: case-insensitive ("Kawasaki" before "KTM"), numbers by value
+ *  ("50 SX" before "125 SX"). Every make or model list the app sorts goes through this, so the web and the phone agree. */
+export function sortBikeNames<T extends string>(list:readonly T[]):T[]{return [...list].sort((a,b)=>a.localeCompare(b,'en',{numeric:true,sensitivity:'base'}));}
 const squash=(v:string)=>v.toLowerCase().replace(/[^a-z0-9]/g,'');
 /** "rmz450", "RM Z450" and "RM-Z450" are the same model. */
 export function canonicalModel(make:string,value:string){const list=known[canonicalManufacturer(make)];return list?.find(m=>m.toLowerCase()===value.trim().toLowerCase())??list?.find(m=>squash(m)===squash(value))??value.trim();}

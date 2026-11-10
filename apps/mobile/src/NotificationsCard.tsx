@@ -1,9 +1,9 @@
 // Account › Notifications: on/off for each kind, saved to the account (the web shows the same switches). Turning one on
 // is the moment BAK asks the phone for permission, never at first launch.
 import {useEffect,useState} from 'react';
-import {ActivityIndicator,Linking,Switch,Text,View} from 'react-native';
+import {ActivityIndicator,Linking,Text,View} from 'react-native';
 import {api} from './api';
-import {colors,Notice} from './ui';
+import {colors,Notice,Switch} from './ui';
 import {enablePushAfterReminder} from './push';
 import type {NotificationSettings} from '../../../shared/notifications';
 
@@ -31,7 +31,7 @@ export function NotificationsCard(){
   {!s&&!notice&&<ActivityIndicator color={colors.accent}/>}
   {s&&ROWS.map(([key,title,detail])=><View key={key} style={{flexDirection:'row',alignItems:'center',gap:12}}>
    <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'600'}}>{title}</Text><Text style={{color:colors.muted,fontSize:13}}>{detail}{key==='service_due'&&s.service_due_follows_reminders?'. Turns on when you set “Remind me when it’s due next” on a service.':''}</Text></View>
-   <Switch value={s[key]} disabled={busy} onValueChange={v=>void save(key,v)} trackColor={{true:colors.primary,false:'#2a2f39'}} accessibilityLabel={title}/>
+   <Switch value={s[key]} disabled={busy} onValueChange={v=>void save(key,v)} accessibilityLabel={title}/>
   </View>)}
   {off&&<View style={{gap:6}}><Text style={{color:colors.muted,fontSize:13,lineHeight:18}}>Notifications are off for BAK MX on this phone. Turn them on in Settings to get these.</Text><Text accessibilityRole="button" onPress={()=>void Linking.openSettings().catch(()=>{})} style={{color:colors.text,fontWeight:'700',fontSize:14}}>Open Settings</Text></View>}
   <Notice text={notice}/>

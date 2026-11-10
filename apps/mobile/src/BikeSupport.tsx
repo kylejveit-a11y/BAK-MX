@@ -1,3 +1,4 @@
+import {sortBikeNames} from '../../../shared/bike-identity';
 import React,{useMemo,useState} from 'react';
 import {View,Text,TextInput,StyleSheet} from 'react-native';
 import {Pressable} from './Touch';
@@ -25,7 +26,7 @@ export function SupportDetail({row}:{row:SupportRow}){
 /** Shown before sign-in: pick make, model and year to see what BAK covers before paying. */
 type Pick={make:string;model:string;year:string};
 export function SupportPicker({onSeeAll,pick:outer,onPick,onStart,title}:{onSeeAll?:()=>void;pick?:Pick|null;onPick?:(b:Pick)=>void;onStart?:()=>void;title?:string}){
- const makes=useMemo(()=>[...new Set(data.bikes.map(b=>b.make))].sort(),[]);
+ const makes=useMemo(()=>sortBikeNames([...new Set(data.bikes.map(b=>b.make))]),[]);
  const [open,setOpen]=useState(false),[own,setOwn]=useState<Pick|null>(null);
  // Held by the sign-in screen when it passes pick/onPick, so it survives switching to Create account and back.
  const pick=outer!==undefined?outer:own,setPick=(b:Pick)=>{setOwn(b);onPick?.(b);};

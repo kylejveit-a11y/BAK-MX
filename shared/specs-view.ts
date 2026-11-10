@@ -46,6 +46,18 @@ export function liftPartNumbers(value:string):{value:string;parts:string[]}{
  return {value:v.replace(/\s{2,}/g,' ').trim(),parts};
 }
 
+/** The conditions sentence the manual rows carry, in rider words: "Applies to the US standard model named; other regions
+ *  and special editions covered by the same manual can differ. Stock OEM parts only." reads "US model; other regions and
+ *  special editions can differ. Stock parts only." Same facts, fewer words; anything else is left as written. */
+export function riderNote(note:string):string{
+ return note
+  .replace(/Applies to the US standard model named[;.]?\s*/i,'US model. ')
+  .replace(/Applies to the US model named,?\s*stock OEM configuration;?\s*/i,'US model, stock parts. ')
+  .replace(/\bother regions and special editions covered by the same manual can differ\b/i,'Other regions and special editions can differ')
+  .replace(/\bStock OEM parts only\b/i,'Stock parts only')
+  .replace(/\bthe owner.s manual says specifications are subject to change without notice\b/i,'The manual says specs can change without notice')
+  .replace(/\.\s*\.\s*/g,'. ').replace(/\s{2,}/g,' ').trim();
+}
 /** One list row in rider words: plain part name, and for service jobs the one interval a rider follows. A condition the manual
  *  printed inside the value ("Valve clearance / Intake at: 20 °C: 0.10 mm", "Spring rate / Weight of rider: 65 … 75 kg: 42 N/mm")
  *  moves into the name, so the value is the number alone. */
@@ -54,7 +66,7 @@ export function toSpecRow(c:Claim):SpecRow{const f=splitFact(c.statement),kind=f
  const cond=/\b(at|weight of rider)$/i.test(rawName)?rawValue.match(/^([^:;]{1,60}):\s*(.+)$/):null;
  if(cond){rawName=rawName.replace(/\s*·?\s*weight of rider$/i,', rider')+' '+cond[1].trim();rawValue=cond[2].trim();}
  const lifted=kind==='service'?{value:plainInterval(rawValue),parts:[] as string[]}:liftPartNumbers(rawValue);
- const note=lifted.parts.length?[f.note,`Maker part ${lifted.parts.length>1?'numbers':'number'} ${lifted.parts.join(', ')}.`].filter(Boolean).join(' '):f.note;
+ const note=riderNote(lifted.parts.length?[f.note,`Maker part ${lifted.parts.length>1?'numbers':'number'} ${lifted.parts.join(', ')}.`].filter(Boolean).join(' '):f.note);
  return {c,system:factSystem(c),kind,section:f.section,note,name:settingName(plainName(rawName)),value:lifted.value};}
 const MODE=/^(standard|stock|standard setting|basic setting|comfort|sport)$/i;
 const modeWord=(p:string)=>/^(comfort|sport)$/i.test(p)?p.toLowerCase():'stock';
@@ -122,9 +134,13 @@ export function specRows(claims:Claim[]):SpecRow[]{
 export const SPEC_KINDS:{k:FactKind|'all';label:string}[]=[{k:'all',label:'All'},{k:'torque',label:'Torques'},{k:'setting',label:'Settings'},{k:'service',label:'Service'},{k:'spec',label:'Specs'}];
 export const SPEC_ORDER:FactSystem[]=['Suspension','Oils & fluids','Engine','Wheels & tires','Brakes','Chain & sprockets','Clutch','Transmission','Cooling','Fuel & air','Exhaust','Electrical & ignition','Controls','Chassis','Dimensions & weight','General'];
 const everyH=(v:string)=>{const m=v.match(/Every (\d+(?:\.\d+)?) h/);return m?Number(m[1]):Infinity;};
-/** Rows by part of the bike, in the order riders look; service jobs most frequent first, the rest A to Z. */
-export function groupSpecRows(rows:SpecRow[]):{s:FactSystem;items:SpecRow[]}[]{
- return SPEC_ORDER.map(s=>({s,items:rows.filter(r=>r.system===s).sort((a,b)=>a.kind==='service'&&b.kind==='service'?everyH(a.value)-everyH(b.value)||a.name.localeCompare(b.name):a.name.localeCompare(b.name))})).filter(g=>g.items.length);
+/** Rows by part of the bike, in the order riders look: settings, torques and specs A to Z in `items`, and the part's
+ *  service jobs apart in `service` (most frequent first), so a clicker setting never sits between two intervals.
+ *  `items.length + service.length` is the part's count. */
+export function groupSpecRows(rows:SpecRow[]):{s:FactSystem;items:SpecRow[];service:SpecRow[]}[]{
+ return SPEC_ORDER.map(s=>{const all=rows.filter(r=>r.system===s);return {s,
+  items:all.filter(r=>r.kind!=='service').sort((a,b)=>a.name.localeCompare(b.name)),
+  service:all.filter(r=>r.kind==='service').sort((a,b)=>everyH(a.value)-everyH(b.value)||a.name.localeCompare(b.name))};}).filter(g=>g.items.length||g.service.length);
 }
 
 /** The values riders look up most. Workshop-only numbers (valve clearances, torques) stay in the list and the search. */
@@ -160,16 +176,24 @@ const YOURS:{key:string;label:string;rx:RegExp}[]=[
 ];
 export function yourSettings(rows:SpecRow[],configuration:Record<string,unknown>|null|undefined){
  const cfg=configuration??{};const val=(k:string)=>{const v=cfg[k];return v==null||String(v).trim()===''?'':String(v);};
+ // The clicker units this maker prints anywhere in its settings ("12 clicks", "1.5 turns"), for a row with no stock value.
+ const makerUnits=new Set(rows.filter(fits).flatMap(r=>[...r.value.matchAll(/\d\s*(clicks?|turns?)\b/gi)].map(x=>x[1].toLowerCase().replace(/s$/,'')+'s')));
  const list=YOURS.map(y=>{const m=val(y.key);const stock=rows.find(r=>fits(r)&&y.rx.test(r.section+' / '+r.name))?.value.split(';')[0].trim();
-  // A bare number takes the unit stock is given in ("14" next to "stock 12 clicks" reads "14 clicks").
-  const unit=y.key==='rider_sag_mm'?'mm':stock?.match(/^\s*[\d.]+\s*(clicks?|turns?|mm)\b/i)?.[1]??'';
+  // A bare number takes the unit stock is given in ("14" next to "stock 12 clicks" reads "14 clicks"). With no stock row, a
+  // clicker takes the unit the maker uses elsewhere: whole numbers are clicks, a fraction of a turn ("1.5") is turns.
+  const fromStock=stock?.match(/^\s*[\d.]+\s*(clicks?|turns?|mm)\b/i)?.[1];
+  const clicker=/_(compression|rebound)$/.test(y.key)?(/^\d+\.\d+$/.test(m)?'turns':'clicks'):'';
+  const unit=y.key==='rider_sag_mm'?'mm':fromStock??(clicker&&makerUnits.has(clicker)?clicker:'');
   return {key:y.key,label:y.label,mine:/^\d+(\.\d+)?$/.test(m)&&unit?`${m} ${unit}`:m,stock};});
  return {list:list.filter(y=>y.mine||y.stock),any:list.some(y=>y.mine)};
 }
 
-/** Catalog section names arrive in capitals ("FRONT FORK, TRIPLE CLAMP"); show them the way a rider reads them. */
-const KEEP_UPPER=/^(WP|PDS|CDI|ECU|EFI|TPS|ABS|LED|SX|XC|SX-F|XC-F|EXC|KYB|YZ|KX|CRF|RM-Z|TC|FC|MC|EX|TE|FE|TX|FX|PHDS|ASV|ODI|O-RING|I|II|III|IV|V|VI)$/;
-export function niceName(name:string){const t=name.trim();if(t!==t.toUpperCase())return t;return t.toLowerCase().split(/(\s+|-)/).map((w,i)=>{const up=w.toUpperCase();if(KEEP_UPPER.test(up))return up;return i===0||w.length>3?w.charAt(0).toUpperCase()+w.slice(1):w;}).join('').replace(/\b(and|of|for|with|the|to|in|on)\b/gi,m=>m.toLowerCase()).replace(/^./,c=>c.toUpperCase());}
+/** Catalog section names arrive in the maker's casing ("FRONT FORK, TRIPLE CLAMP", "WP Shims for Setting", "Transmission II -
+ *  Countershaft"); show them in sentence case with the same words: "Front fork, triple clamp", "WP shims for setting",
+ *  "Transmission II - countershaft". Makers' marks and numerals keep their capitals. */
+const KEEP_UPPER=/^(WP|PDS|CDI|ECU|EFI|TPS|ABS|LED|SX|XC|SX-F|XC-F|EXC|KYB|YZ|KX|CRF|RM-Z|TC|FC|MC|EX|TE|FE|TX|FX|PHDS|ASV|ODI|O-RING|I|II|III|IV|V|VI|OEM|USA|US|EU|HRC|SHOWA|SHOWA)$/;
+export function niceName(name:string){const t=name.trim();if(!t)return t;
+ return t.split(/(\s+|-)/).map((w,i)=>{if(!w||/^(\s+|-)$/.test(w))return w;const up=w.toUpperCase();if(KEEP_UPPER.test(up))return up;const low=w.toLowerCase();return i===0?low.charAt(0).toUpperCase()+low.slice(1):low;}).join('');}
 /** Which area of the bike a catalog section belongs to, for grouping the list. */
 export const PART_AREAS=['Suspension','Engine','Fuel, air & exhaust','Wheels & brakes','Frame & body','Controls & electrics','Other'] as const;
 export function partArea(name:string):typeof PART_AREAS[number]{const n=name.toLowerCase();

@@ -2,7 +2,8 @@
 // notes, and "Check it with a photo". Notes are saved to the rider's account (shared/tuning-notes.ts). Notes this phone kept
 // before that move up to the account once, on the first launch after the update; the phone's copy stays as a backup.
 import React,{useEffect,useRef,useState} from 'react';
-import {Alert,Platform,ScrollView,Share,StyleSheet,Text,View} from 'react-native';
+import {AccessibilityInfo,Alert,Platform,ScrollView,Share,StyleSheet,Text,View} from 'react-native';
+import {success} from './haptics';
 import * as Sharing from 'expo-sharing';
 import {File,Paths} from 'expo-file-system';
 import {randomUUID} from 'expo-crypto';
@@ -65,14 +66,15 @@ function Action({icon,title,onPress,disabled,done,accessibilityLabel}:{icon:Para
 
 // ------------------------------------------------------------------ under a BAK answer
 export function AnswerNoteBar({bike,message,question,notes}:{bike?:Bike;message:Message;question:string;notes?:BikeNotes}){
- const [busy,setBusy]=useState(false),[error,setError]=useState('');const id=useRef(randomUUID());
+ const [busy,setBusy]=useState(false),[error,setError]=useState(''),[justSaved,setJustSaved]=useState<TuningNote|null>(null);const id=useRef(randomUUID());
  if(!message.response)return null;
- const saved=notes?.notes?.find(n=>n.source_message_id===message.id);
+ // The button turns to "Saved" the moment the save lands, whether or not the bike's note list has loaded yet.
+ const saved=notes?.notes?.find(n=>n.source_message_id===message.id)??justSaved;
  const draft=noteFromAnswer({bike:bike??null,question,response:message.response,messageId:message.id,conversationId:message.conversation_id,at:message.created_at});
- async function save(){if(!bike||busy)return;setBusy(true);setError('');try{notes?.put(await api<TuningNote>('/api/tuning-notes','POST',{id:id.current,message_id:message.id}));}catch(e){setError(errorText(e));}finally{setBusy(false);}}
+ async function save(){if(!bike||busy)return;setBusy(true);setError('');try{const note=await api<TuningNote>('/api/tuning-notes','POST',{id:id.current,message_id:message.id});notes?.put(note);setJustSaved(note);success();AccessibilityInfo.announceForAccessibility('Saved to bike');}catch(e){setError(errorText(e));}finally{setBusy(false);}}
  return <View style={{gap:6}}>
   <View style={a.row}>
-   {bike&&notes&&(saved?<Action icon="check" title="Saved to bike" done/>:<Action icon="notes" title={busy?'Saving…':'Save to bike'} disabled={busy} onPress={()=>void save()}/>)}
+   {bike&&notes&&(saved?<Action icon="check" title="Saved" accessibilityLabel="Saved to bike" done/>:<Action icon="notes" title={busy?'Saving…':'Save to bike'} disabled={busy} onPress={()=>void save()}/>)}
    <Action icon="share" title="Share" onPress={()=>void shareNote(saved??draft).catch(e=>setError(errorText(e)))}/>
   </View>
   {!!error&&<Text style={{color:'#ffb4ae',fontSize:13}}>{error}</Text>}
@@ -80,8 +82,11 @@ export function AnswerNoteBar({bike,message,question,notes}:{bike?:Bike;message:
 }
 
 // ------------------------------------------------------------------ the quick note under the chat
-export function ChatNoteBox({bike,conversation,notes,onOpenGarage}:{bike:Bike;conversation:string;notes:BikeNotes;onOpenGarage?:()=>void}){
- const [open,setOpen]=useState(false),[draft,setDraft]=useState(''),[busy,setBusy]=useState(false),[error,setError]=useState('');
+/** `collapsed`: a triage flow or guided job is open above, so the box folds to its one row and stays out of the way. */
+export function ChatNoteBox({bike,conversation,notes,onOpenGarage,collapsed=false}:{bike:Bike;conversation:string;notes:BikeNotes;onOpenGarage?:()=>void;collapsed?:boolean}){
+ const [wantOpen,setOpen]=useState(false),open=wantOpen&&!collapsed;
+ useEffect(()=>{if(collapsed)setOpen(false);},[collapsed]);
+ const [draft,setDraft]=useState(''),[busy,setBusy]=useState(false),[error,setError]=useState('');
  const list=notes.notes??[];
  async function save(){const text=draft.trim();if(!text||busy)return;setBusy(true);setError('');try{notes.put(await api<TuningNote>('/api/tuning-notes','POST',{id:randomUUID(),bike_id:bike.id,rider_note:text,...(conversation?{conversation_id:conversation}:{})}));setDraft('');}catch(e){setError(errorText(e));}finally{setBusy(false);}}
  return <View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',paddingTop:6,marginTop:8}}>
