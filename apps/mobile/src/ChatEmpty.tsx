@@ -7,7 +7,7 @@ import {colors,motion} from './theme';
 import type {ChatStarter} from './chatStarters';
 
 const MARK=require('../assets/icon.png');
-const PLATE=92,GLOW_W=300,GLOW_H=190;
+const PLATE=84,GLOW_W=300,GLOW_H=190;
 
 /** The mark with the bike's colour breathing softly behind it. Still when the rider asked for less motion. */
 export function ChatHero({model,onPress}:{model:string;onPress:()=>void}){
@@ -18,17 +18,17 @@ export function ChatHero({model,onPress}:{model:string;onPress:()=>void}){
    Animated.timing(breath,{toValue:1,duration:1900,easing:Easing.inOut(Easing.sin),useNativeDriver:true}),
    Animated.timing(breath,{toValue:0,duration:1900,easing:Easing.inOut(Easing.sin),useNativeDriver:true})]));
   a.start();return()=>a.stop();},[breath]);
- return <Pressable accessibilityRole="button" accessibilityLabel="Start typing to BAK" accessibilityHint={`Ask about your ${model}`} onPress={onPress} style={({pressed})=>({alignItems:'center',gap:16,paddingTop:6,opacity:pressed?0.8:1})}>
+ return <Pressable accessibilityRole="button" accessibilityLabel="Start typing to BAK" accessibilityHint={`Ask about your ${model}`} onPress={onPress} style={({pressed})=>({alignItems:'center',gap:14,paddingTop:2,opacity:pressed?0.8:1})}>
   <View style={{width:PLATE,height:PLATE,alignItems:'center',justifyContent:'center'}}>
    <Animated.View pointerEvents="none" style={{position:'absolute',width:GLOW_W,height:GLOW_H,opacity:breath.interpolate({inputRange:[0,1],outputRange:[0.5,1]}),transform:[{scale:breath.interpolate({inputRange:[0,1],outputRange:[0.94,1.05]})}]}}>
     <Svg width={GLOW_W} height={GLOW_H}><Defs><RadialGradient id={'hg'+id} cx="50%" cy="50%" rx="50%" ry="50%">
      <Stop offset="0" stopColor={colors.glow} stopOpacity="0.55"/><Stop offset="0.4" stopColor={colors.glow} stopOpacity="0.2"/><Stop offset="1" stopColor={colors.glow} stopOpacity="0"/>
     </RadialGradient></Defs><Ellipse cx={GLOW_W/2} cy={GLOW_H/2} rx={GLOW_W/2} ry={GLOW_H/2} fill={`url(#hg${id})`}/></Svg>
    </Animated.View>
-   <View style={{width:PLATE,height:PLATE,borderRadius:24,shadowColor:'#000',shadowOpacity:0.6,shadowRadius:16,shadowOffset:{width:0,height:10},elevation:8}}>
-    <Image source={MARK} fadeDuration={0} accessibilityIgnoresInvertColors style={{width:PLATE,height:PLATE,borderRadius:24}}/>
+   <View style={{width:PLATE,height:PLATE,borderRadius:22,shadowColor:'#000',shadowOpacity:0.6,shadowRadius:16,shadowOffset:{width:0,height:10},elevation:8}}>
+    <Image source={MARK} fadeDuration={0} accessibilityIgnoresInvertColors style={{width:PLATE,height:PLATE,borderRadius:22}}/>
     {/* machined edge: lit along the top, falling to shadow at the bottom */}
-    <View pointerEvents="none" style={[StyleSheet.absoluteFill,{borderRadius:24,borderWidth:1,borderTopColor:'rgba(255,255,255,0.30)',borderLeftColor:'rgba(255,255,255,0.12)',borderRightColor:'rgba(255,255,255,0.07)',borderBottomColor:'rgba(0,0,0,0.6)'}]}/>
+    <View pointerEvents="none" style={[StyleSheet.absoluteFill,{borderRadius:22,borderWidth:1,borderTopColor:'rgba(255,255,255,0.30)',borderLeftColor:'rgba(255,255,255,0.12)',borderRightColor:'rgba(255,255,255,0.07)',borderBottomColor:'rgba(0,0,0,0.6)'}]}/>
    </View>
   </View>
   <View style={{alignItems:'center',gap:5,paddingHorizontal:8}}>
@@ -42,7 +42,7 @@ export function ChatHero({model,onPress}:{model:string;onPress:()=>void}){
 export function ChatStarters({starters,onPick}:{starters:ChatStarter[];onPick:(s:ChatStarter)=>void}){
  return <View accessibilityRole="list" style={{flexDirection:'row',flexWrap:'wrap',gap:10}}>
   {starters.map(st=><Pressable key={st.label} haptic="select" accessibilityRole="button" accessibilityLabel={st.label} accessibilityHint="Puts this in the message box for you to finish" onPress={()=>onPick(st)}
-   style={({pressed})=>({flexBasis:'47%',flexGrow:1,minHeight:58,justifyContent:'center',paddingVertical:10,paddingHorizontal:14,borderRadius:16,borderWidth:1,borderColor:'#2a2f39',backgroundColor:pressed?'rgba(255,255,255,0.07)':'rgba(255,255,255,0.035)'})}>
+   style={({pressed})=>({flexBasis:'47%',flexGrow:1,minHeight:54,justifyContent:'center',paddingVertical:8,paddingHorizontal:14,borderRadius:16,borderWidth:1,borderColor:'#2a2f39',backgroundColor:pressed?'rgba(255,255,255,0.07)':'rgba(255,255,255,0.035)'})}>
    <Text numberOfLines={2} style={{color:'#e6e9ef',fontSize:14.5,lineHeight:19,fontWeight:'600'}}>{st.label}</Text>
   </Pressable>)}
  </View>;

@@ -416,7 +416,7 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  // The composer: the message on top with room to write, one row of controls under it (like the chat apps riders know).
  const iconBtn={width:34,height:36,borderRadius:18,alignItems:'center' as const,justifyContent:'center' as const};
  const chip={flexDirection:'row' as const,alignItems:'center' as const,gap:4,height:32,paddingHorizontal:9,borderRadius:16,borderWidth:1,borderColor:'#2a2f39',backgroundColor:'rgba(255,255,255,0.03)'},chipText={color:'#c9cfd9',fontSize:13,fontWeight:'600' as const,flexShrink:1};
- const blank=!id&&messages.length===0&&!draft.trim(),bikeChip=<>{!(fast&&bikes.length>1)&&<Icon name="moto" size={15} color="#b2b9c4"/>}<Text numberOfLines={1} ellipsizeMode="tail" style={chipText}>{bike?.model}</Text></>;
+ const blank=!id&&messages.length===0&&!draft.trim(),hasChats=threads.length>0||!!id,bikeChip=<>{/* Several bikes, saved chats and Race on is the row at its tightest: the moto icon steps aside so the name and its chevron stay. */!(fast&&bikes.length>1&&hasChats)&&<Icon name="moto" size={15} color="#b2b9c4"/>}<Text numberOfLines={1} ellipsizeMode="tail" style={chipText}>{bike?.model}</Text></>;
  const composer=aiOk&&bike&&!triage?<View style={{paddingHorizontal:14,paddingTop:12,paddingBottom:10,gap:8}}>
   {busy&&<WorkingLine fast={fast}/>}
   {(attached.length>0||uploading>0)&&<View>{clip&&<Text style={{color:'#adb5c1',fontSize:12.5,marginBottom:6}}>Clip · {attached.length} frames from {clip.duration.toFixed(1)} s · BAK reads them in order</Text>}{attached.length>0&&!uploading&&<><FocusChips focus={focus} onFocus={setFocus} slowmo={clip?slowmo:null} onSlowmo={setSlowmo} tracks={recentTracks} where={where} onWhere={setWhere}/>{clip&&!!coachingSessions.sessions?.length&&<CompareChips sessions={coachingSessions.sessions} focus={focus} value={compareTo} onChange={setCompareTo}/>}</>}<AttachedPhotos photos={attached} uploading={uploading} size={clip?44:60} onRemove={id=>{if(clip){const all=attached;setAttached([]);setClip(null);setFocus(null);setSlowmo(false);setCompareTo(null);for(const p of all)void api('/api/photos?id='+p.id,'DELETE').catch(()=>{});return;}setAttached(old=>{const left=old.filter(p=>p.id!==id);if(!left.length)setFocus(null);return left;});void api('/api/photos?id='+id,'DELETE').catch(()=>{});}}/></View>}
@@ -431,7 +431,7 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
    </View>
    {/* Right: earlier chats, race mode, send. */}
    <View style={{flexDirection:'row',alignItems:'center',gap:4,flexShrink:0}}>
-    {(threads.length>0||!!id)&&<PickButton title="Your chats" accessibilityLabel={`Chats: ${id?threads.find(t=>t.id===id)?.title??'this chat':'new chat'}. Change`} disabled={busy} value={id} options={[{value:'',label:'New chat'},...threads.map(t=>({value:t.id,label:`${chatTopic(t.title,t.mode)} · ${t.title}`}))]} onChange={openThread}><View style={iconBtn}><Icon name="history" size={21} color="#c9cfd9"/></View></PickButton>}
+    {hasChats&&<PickButton title="Your chats" accessibilityLabel={`Chats: ${id?threads.find(t=>t.id===id)?.title??'this chat':'new chat'}. Change`} disabled={busy} value={id} options={[{value:'',label:'New chat'},...threads.map(t=>({value:t.id,label:`${chatTopic(t.title,t.mode)} · ${t.title}`}))]} onChange={openThread}><View style={iconBtn}><Icon name="history" size={21} color="#c9cfd9"/></View></PickButton>}
     <Pressable haptic="select" accessibilityRole="switch" accessibilityState={{checked:fast}} accessibilityLabel="Race mode: short, fast answers" accessibilityHint={fast?'On. Answers are the one change to make, short.':'Off. Answers are full depth.'} disabled={busy} onPress={()=>setFastPick({day:new Date().toDateString(),on:!fast})} hitSlop={4} style={({pressed})=>[fast?[chip,{height:36,borderRadius:18,paddingHorizontal:10,borderColor:colors.accent,backgroundColor:tint(0.14)}]:iconBtn,{opacity:pressed?0.7:1}]}><Icon name="bolt" size={fast?15:21} color={fast?colors.accent:'#c9cfd9'}/>{fast&&<Text numberOfLines={1} style={{color:colors.text,fontSize:13.5,fontWeight:'700'}}>Race</Text>}</Pressable>
     <Pressable haptic="press" accessibilityRole="button" accessibilityLabel="Send to BAK" accessibilityState={{disabled:!canSend}} disabled={!canSend} onPress={submit} style={({pressed})=>[{width:38,height:38,borderRadius:19,marginLeft:2,backgroundColor:canSend?'transparent':'#23272f',alignItems:'center',justifyContent:'center'},canSend&&blueLift,pressed&&{transform:[{translateY:1}]}]}>{({pressed})=><>{canSend&&<BlueFace radius={19} pressed={pressed}/>}{busy?<ActivityIndicator size="small" color={colors.text}/>:<Icon name="arrowUp" size={20} color={canSend?'#ffffff':'#7d8593'} weight={2.2}/>}</>}</Pressable>
    </View>
@@ -442,7 +442,7 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  const focusInput=()=>inputRef.current?.focus();
  // Before consent the footer is the Agree button, so it sits above the tab bar from the start instead of under it.
  const agree=!aiOk?<View style={{padding:12}}><Button title={aiConsentAgree} onPress={()=>{try{writeProgress(session.user.id,'ai-consent-'+AI_CONSENT_VERSION,true);}catch{}setAiOk(true);}}/></View>:null;
- return <Page title="" fill={hero} footer={agree??composer} footerForAction={!aiOk} scrollRef={chatScroll} onContentSizeChange={()=>followEnd(messages.length>0)} onScrollBeginDrag={()=>{follow.current=false;}}>
+ return <Page title="" fill={hero} footer={agree??composer} footerForAction={!aiOk} scrollRef={chatScroll} onContentSizeChange={()=>{/* the empty chat stays put when the keyboard opens: the mark and starters remain in view */if(!hero)followEnd(messages.length>0);}} onScrollBeginDrag={()=>{follow.current=false;}}>
  {/* The bike, chats and race mode live on the composer (like other chat apps), so the conversation gets the screen. */}
  {(empty&&!hero||!bike)&&<View style={{gap:14}}>{empty&&!hero&&<PageTitle>Ask BAK</PageTitle>}
   {!bike&&<NoBike what="to ask about it"/>}
@@ -465,7 +465,7 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
   </>}
   {bike&&!busy&&triage&&<TriageCard onDone={t=>{setDraft(t);setTriage(false);}} onCancel={()=>setTriage(false)}/>}
   {/* Empty chat, centred in the open space between the header and the message box: mark and cue (a tap starts typing), four starters that fill the box, then the two guided ways in. */}
-  {hero&&bike&&<View style={{flexGrow:1,justifyContent:'center',gap:22}}>
+  {hero&&bike&&<View style={{flexGrow:1,justifyContent:'center',gap:18}}>
    <ChatHero model={bike.model} onPress={focusInput}/>
    <ChatStarters starters={chatStarters(bike)} onPick={st=>{setDraft(applyStarter(draft,st));focusInput();}}/>
    <View style={{flexDirection:'row',gap:10}}><EntryTile icon="pulse" title="Handling problem?" detail="Answer a few taps" onPress={()=>setTriage(true)}/>{mode==='ask'&&<GuidedJobCardNative compact job={job} voice={voice} onSay={say} busy={busy}/>}</View>

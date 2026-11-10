@@ -28,7 +28,7 @@ export function Page({title,children,safeTop=false,footer,footerForAction=false,
  const contentBottom=footer?footH+(footerForAction?bottomChrome+10:footBottom):bottomChrome;
  return <View style={{flex:1,backgroundColor:colors.bg}}>
   <ScrollView ref={scrollRef} onContentSizeChange={onContentSizeChange} onScrollBeginDrag={onScrollBeginDrag} keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets={!footer||footerForAction} scrollIndicatorInsets={{top:header,bottom:bottomChrome}}
-   contentContainerStyle={[s.page,fill&&{flexGrow:1},{paddingTop:(safeTop?insets.top:header)+16,paddingBottom:contentBottom+(fill?14:28)}]}>
+   contentContainerStyle={[s.page,fill&&{flexGrow:1},{paddingTop:(safeTop?insets.top:header)+16,paddingBottom:contentBottom+(fill?10:28)}]}>
    <OfflineLine/>
    {title?<PageTitle>{title}</PageTitle>:null}{children}
   </ScrollView>
