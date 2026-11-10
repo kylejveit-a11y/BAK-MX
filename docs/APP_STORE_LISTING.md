@@ -1,4 +1,4 @@
-# BAK MX App Store listing (version 1.0)
+# BAK MX App Store listing (version 1.0.7)
 
 Text Kyle approved for App Store Connect. Keep in sync with what is entered there.
 
@@ -10,7 +10,7 @@ Text Kyle approved for App Store Connect. Keep in sync with what is entered ther
 - Price: Free (in-app purchases: Premium, Pro, credit packs)
 
 ## Promotional text (170)
-Tell BAK what your bike is doing and get one clear change to try, built from your exact bike's published settings. Garage, specs, service log and race prep in one app.
+Tell BAK what the bike is doing and get one clear change to try, from your exact bike's published settings. New: race-day fuel plan and service reminders.
 
 ## Description (4000)
 BAK MX is a setup and tuning partner for motocross and off-road riders. Tell it what the bike is doing, the way you'd tell your buddy at the track, and BAK answers for your exact bike, year and settings.
@@ -42,11 +42,18 @@ KEEP IT RUNNING
 RACE DAY
 - Race prep checklist from the week before to the ride home.
 - A starting setup for the track and date, with a countdown on your Home Screen.
+- Race-day fuel plan: what to eat and drink, and when, from your height, weight and age.
 
 RIDERS AND EVENTS
 - Post builds, setup questions and ride plans.
 - Find ride days, races, practice nights and clinics, and RSVP.
 - Message other riders.
+
+ON YOUR PHONE
+- Home Screen and Lock Screen widgets with hours, next service and your next event.
+- "Hey Siri, ask BAK."
+- Reminders when service is due or an event is coming up.
+- Ask BAK how to use any screen or setting and it walks you through it.
 
 PLANS
 BAK MX is free to download with a Garage, logs, specs, community and starter Ask BAK question sets. Premium adds 100 Ask BAK questions a day. Pro adds unlimited questions (fair use) and coaching from riding clips. Credit packs add extra questions that never expire. Subscriptions renew automatically unless cancelled at least 24 hours before the period ends; manage or cancel them in your Apple ID settings.
@@ -57,7 +64,13 @@ Terms: https://bakmx.com/terms
 Privacy: https://bakmx.com/privacy
 
 ## Keywords (100)
-motocross,dirt bike,suspension,tuning,setup,sag,clickers,supercross,enduro,service log,maintenance
+motocross,suspension,sag,clickers,fork,shock,jetting,torque,specs,ktm,yamaha,honda,kawasaki,enduro
+
+## What's New (1.0.7)
+Race-day fuel plan: what to eat and drink, and when, built from your height, weight and age, timed to your motos.
+A cleaner Home and a new Chat with starter questions. Ask BAK about any screen or setting in the app and it explains it.
+Notifications for service due and your next event.
+Specs list cleaned up, Garage sharing in one place, and dozens of fixes.
 
 ## URLs
 - Support: https://bakmx.com/support
