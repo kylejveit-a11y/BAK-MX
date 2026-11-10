@@ -18,7 +18,7 @@ import {chooseSource,pickImages,uploadPhoto,type Photo,pickClipFrames,chooseChat
 import {COACH_FOCUS,type CoachFocus} from '../../../shared/coach-focus';
 import {CoachingList,CompareChips,TriedCard,useCoachingSessions} from './Coaching';
 import {success} from './haptics';
-import {FloatingTabBar,GlassHeader,HeaderButton,HeaderMessages} from './Glass';
+import {FloatingTabBar,GlassHeader,HeaderButton,HeaderMessages,useKeyboardHeight} from './Glass';
 import {ChatHero,ChatStarters} from './ChatEmpty';
 import {chatStarters,applyStarter} from './chatStarters';
 import {SafeAreaProvider,useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -402,7 +402,7 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
 
  // The conversation follows the answer: a sent question scrolls to the bottom and keeps up while the reply fills in; an
  // opened chat starts at its latest exchange. A rider who scrolls up stops the following until the next send.
- const chatScroll=useRef<ScrollView>(null),follow=useRef(true),inputRef=useRef<TextInput>(null);
+ const chatScroll=useRef<ScrollView>(null),follow=useRef(true),inputRef=useRef<TextInput>(null),[composing,setComposing]=useState(false),kbUp=useKeyboardHeight()>0;
  useEffect(()=>{follow.current=true;},[id]);
  const followEnd=(animated:boolean)=>{if(follow.current)chatScroll.current?.scrollToEnd({animated});};
  // A new chat is a plain question again: the mode a Home shortcut opened (diagnose, setup) belongs to that chat only.
@@ -420,7 +420,7 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  const composer=aiOk&&bike&&!triage?<View style={{paddingHorizontal:14,paddingTop:12,paddingBottom:10,gap:8}}>
   {busy&&<WorkingLine fast={fast}/>}
   {(attached.length>0||uploading>0)&&<View>{clip&&<Text style={{color:'#adb5c1',fontSize:12.5,marginBottom:6}}>Clip · {attached.length} frames from {clip.duration.toFixed(1)} s · BAK reads them in order</Text>}{attached.length>0&&!uploading&&<><FocusChips focus={focus} onFocus={setFocus} slowmo={clip?slowmo:null} onSlowmo={setSlowmo} tracks={recentTracks} where={where} onWhere={setWhere}/>{clip&&!!coachingSessions.sessions?.length&&<CompareChips sessions={coachingSessions.sessions} focus={focus} value={compareTo} onChange={setCompareTo}/>}</>}<AttachedPhotos photos={attached} uploading={uploading} size={clip?44:60} onRemove={id=>{if(clip){const all=attached;setAttached([]);setClip(null);setFocus(null);setSlowmo(false);setCompareTo(null);for(const p of all)void api('/api/photos?id='+p.id,'DELETE').catch(()=>{});return;}setAttached(old=>{const left=old.filter(p=>p.id!==id);if(!left.length)setFocus(null);return left;});void api('/api/photos?id='+id,'DELETE').catch(()=>{});}}/></View>}
-  <TextInput ref={inputRef} accessibilityLabel="Message BAK" multiline editable={!busy} value={draft} onChangeText={setDraft} maxLength={8000} placeholder={job.run?'Ask about this step, or type next / back':'What’s the bike doing?'} placeholderTextColor="#7d8593" selectionColor={colors.accent} style={{color:colors.text,fontSize:16.5,lineHeight:22,minHeight:36,maxHeight:124,paddingTop:5,paddingBottom:5,paddingHorizontal:2}}/>
+  <TextInput ref={inputRef} onFocus={()=>setComposing(true)} onBlur={()=>setComposing(false)} accessibilityLabel="Message BAK" multiline editable={!busy} value={draft} onChangeText={setDraft} maxLength={8000} placeholder={job.run?'Ask about this step, or type next / back':'What’s the bike doing?'} placeholderTextColor="#7d8593" selectionColor={colors.accent} style={{color:colors.text,fontSize:16.5,lineHeight:22,minHeight:36,maxHeight:124,paddingTop:5,paddingBottom:5,paddingHorizontal:2}}/>
   <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',gap:6}}>
    {/* Left: add a photo, start over, which bike. The bike name gives up width first, so nothing else is ever squeezed. */}
    <View style={{flexDirection:'row',alignItems:'center',gap:2,flexShrink:1,minWidth:0,marginLeft:-6}}>
@@ -440,6 +440,8 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  // The empty chat: the mark, the cue and starters, shown until there is a message or a live answer.
  const empty=messages.length===0&&!live,hero=empty&&aiOk&&!!bike&&!triage&&!job.run;
  const focusInput=()=>inputRef.current?.focus();
+ // Typing in the message box with the keyboard up: the empty chat keeps to the mark, the line and the starters, which all fit above the box.
+ const typing=hero&&composing&&kbUp;
  // Before consent the footer is the Agree button, so it sits above the tab bar from the start instead of under it.
  const agree=!aiOk?<View style={{padding:12}}><Button title={aiConsentAgree} onPress={()=>{try{writeProgress(session.user.id,'ai-consent-'+AI_CONSENT_VERSION,true);}catch{}setAiOk(true);}}/></View>:null;
  return <Page title="" fill={hero} footer={agree??composer} footerForAction={!aiOk} scrollRef={chatScroll} onContentSizeChange={()=>{/* the empty chat stays put when the keyboard opens: the mark and starters remain in view */if(!hero)followEnd(messages.length>0);}} onScrollBeginDrag={()=>{follow.current=false;}}>
@@ -465,17 +467,18 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
   </>}
   {bike&&!busy&&triage&&<TriageCard onDone={t=>{setDraft(t);setTriage(false);}} onCancel={()=>setTriage(false)}/>}
   {/* Empty chat, centred in the open space between the header and the message box: mark and cue (a tap starts typing), four starters that fill the box, then the two guided ways in. */}
-  {hero&&bike&&<View style={{flexGrow:1,justifyContent:'center',gap:18}}>
-   <ChatHero model={bike.model} onPress={focusInput}/>
+  {hero&&bike&&<View style={{flexGrow:1,justifyContent:'center',gap:typing?14:18}}>
+   <ChatHero model={bike.model} compact={typing} onPress={focusInput}/>
    <ChatStarters starters={chatStarters(bike)} onPick={st=>{setDraft(applyStarter(draft,st));focusInput();}}/>
-   <View style={{flexDirection:'row',gap:10}}><EntryTile icon="pulse" title="Handling problem?" detail="Answer a few taps" onPress={()=>setTriage(true)}/>{mode==='ask'&&<GuidedJobCardNative compact job={job} voice={voice} onSay={say} busy={busy}/>}</View>
+   <View style={{flexDirection:'row',gap:10,display:typing?'none':'flex'}}><EntryTile icon="pulse" title="Handling problem?" detail="Answer a few taps" onPress={()=>setTriage(true)}/>{mode==='ask'&&<GuidedJobCardNative compact job={job} voice={voice} onSay={say} busy={busy}/>}</View>
   </View>}
   {bike&&!triage&&!job.run&&!messages.length&&!hero&&<TileGrid><Tile icon="pulse" title="Handling problem?" detail="Answer a few taps and BAK writes it up" onPress={()=>setTriage(true)}/>{mode==='ask'&&<GuidedJobCardNative job={job} voice={voice} onSay={say} busy={busy}/>}</TileGrid>}
   {bike&&!!job.run&&mode==='ask'&&<GuidedJobCardNative job={job} voice={voice} onSay={say} busy={busy}/>}
   {!!jobLine&&!!job.run&&!/^(Step|Starting|Picking up) /.test(jobLine)&&<Notice text={jobLine}/>}
   {bike&&!triage&&!job.run&&messages.length>0&&<View style={{flexDirection:'row',gap:18,flexWrap:'wrap'}}><LinkAction muted title="Answer a few taps" onPress={()=>setTriage(true)}/>{!!id&&<LinkAction muted arrow={false} title="Refresh" disabled={busy} onPress={()=>void refresh()}/>}</View>}
  </>}
- {bike&&<ChatNoteBox bike={bike} conversation={id} notes={bikeNotes} quiet={hero} collapsed={triage||!!job.run} onOpenGarage={()=>navigation.navigate('Garage',{open:'notes',token:randomUUID()})}/>}
+ {/* hidden, not removed, while typing: an open note keeps its words */}
+ {bike&&<View style={typing?{display:'none'}:undefined}><ChatNoteBox bike={bike} conversation={id} notes={bikeNotes} quiet={hero} collapsed={triage||!!job.run} onOpenGarage={()=>navigation.navigate('Garage',{open:'notes',token:randomUUID()})}/></View>}
  </Page>;
 }
 function Maintenance({navigation,route}:BottomTabScreenProps<Tabs,'Maintenance'>){const{bike,bikes,select}=useContext(Ctx);
