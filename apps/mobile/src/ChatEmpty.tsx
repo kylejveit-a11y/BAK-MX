@@ -12,7 +12,7 @@ const GLOW_W=300,GLOW_H=190;
 /** The mark with the bike's colour breathing softly behind it. Still when the rider asked for less motion.
  *  `compact` (the rider is typing, the keyboard is up): a smaller mark, so the line and the starters all stay in view. */
 export function ChatHero({model,onPress,compact=false}:{model:string;onPress:()=>void;compact?:boolean}){
- const PLATE=compact?44:84,R=compact?12:22;
+ const PLATE=compact?40:84,R=compact?11:22;
  const id=React.useId().replace(/[^a-zA-Z0-9]/g,'');
  const breath=useRef(new Animated.Value(motion.reduced?0.5:0)).current;
  useEffect(()=>{if(motion.reduced)return;
@@ -20,7 +20,7 @@ export function ChatHero({model,onPress,compact=false}:{model:string;onPress:()=
    Animated.timing(breath,{toValue:1,duration:1900,easing:Easing.inOut(Easing.sin),useNativeDriver:true}),
    Animated.timing(breath,{toValue:0,duration:1900,easing:Easing.inOut(Easing.sin),useNativeDriver:true})]));
   a.start();return()=>a.stop();},[breath]);
- return <Pressable accessibilityRole="button" accessibilityLabel="Start typing to BAK" accessibilityHint={`Ask about your ${model}`} onPress={onPress} style={({pressed})=>({alignItems:'center',gap:compact?10:14,paddingTop:2,opacity:pressed?0.8:1})}>
+ return <Pressable accessibilityRole="button" accessibilityLabel="Start typing to BAK" accessibilityHint={`Ask about your ${model}`} onPress={onPress} style={({pressed})=>({alignItems:'center',gap:compact?8:14,paddingTop:compact?0:2,opacity:pressed?0.8:1})}>
   <View style={{width:PLATE,height:PLATE,alignItems:'center',justifyContent:'center'}}>
    <Animated.View pointerEvents="none" style={{position:'absolute',width:GLOW_W,height:GLOW_H,opacity:breath.interpolate({inputRange:[0,1],outputRange:[0.5,1]}),transform:[{scale:breath.interpolate({inputRange:[0,1],outputRange:compact?[0.55,0.62]:[0.94,1.05]})}]}}>
     <Svg width={GLOW_W} height={GLOW_H}><Defs><RadialGradient id={'hg'+id} cx="50%" cy="50%" rx="50%" ry="50%">

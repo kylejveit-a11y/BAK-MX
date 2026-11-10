@@ -467,7 +467,7 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
   </>}
   {bike&&!busy&&triage&&<TriageCard onDone={t=>{setDraft(t);setTriage(false);}} onCancel={()=>setTriage(false)}/>}
   {/* Empty chat, centred in the open space between the header and the message box: mark and cue (a tap starts typing), four starters that fill the box, then the two guided ways in. */}
-  {hero&&bike&&<View style={{flexGrow:1,justifyContent:'center',gap:typing?14:18}}>
+  {hero&&bike&&<View style={{flexGrow:1,justifyContent:'center',gap:typing?12:18}}>
    <ChatHero model={bike.model} compact={typing} onPress={focusInput}/>
    <ChatStarters starters={chatStarters(bike)} onPick={st=>{setDraft(applyStarter(draft,st));focusInput();}}/>
    <View style={{flexDirection:'row',gap:10,display:typing?'none':'flex'}}><EntryTile icon="pulse" title="Handling problem?" detail="Answer a few taps" onPress={()=>setTriage(true)}/>{mode==='ask'&&<GuidedJobCardNative compact job={job} voice={voice} onSay={say} busy={busy}/>}</View>
