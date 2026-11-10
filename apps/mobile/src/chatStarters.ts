@@ -5,7 +5,7 @@ export type ChatStarter={label:string;draft:string};
 const PUSH:ChatStarter={label:'Front end pushes in corners',draft:'Front end pushes in corners. '};
 const KICK:ChatStarter={label:'Rear kicks on braking bumps',draft:'Rear kicks on braking bumps. '};
 const SAG:ChatStarter={label:'Set my sag and clickers',draft:'Help me set my sag and clickers. '};
-const RACE:ChatStarter={label:'Race this weekend — what should I check?',draft:'Race this weekend. What should I check? '};
+const RACE:ChatStarter={label:'Race this weekend. What do I check?',draft:'Race this weekend. What should I check? '};
 const JET:ChatStarter={label:'Jetting for today’s weather',draft:'Help me with jetting for today’s weather. '};
 /** Four starters. A bike on file as carbureted (the two-strokes that still run a carb) gets a jetting prompt. */
 export function chatStarters(bike:{manufacturer:string;model:string;model_year:number}):ChatStarter[]{

@@ -4,7 +4,7 @@ import {chatStarters,applyStarter} from '../src/chatStarters.ts';
 test('four starters; a carbureted two-stroke swaps one for jetting',()=>{
  const four=chatStarters({manufacturer:'KTM',model:'450 SX-F',model_year:2025});
  assert.equal(four.length,4);
- assert.deepEqual(four.map(s=>s.label),['Front end pushes in corners','Rear kicks on braking bumps','Set my sag and clickers','Race this weekend — what should I check?']);
+ assert.deepEqual(four.map(s=>s.label),['Front end pushes in corners','Rear kicks on braking bumps','Set my sag and clickers','Race this weekend. What do I check?']);
  const two=chatStarters({manufacturer:'Yamaha',model:'YZ250',model_year:2025});
  assert.equal(two.length,4);
  assert.ok(two.some(s=>/jetting/i.test(s.label)));

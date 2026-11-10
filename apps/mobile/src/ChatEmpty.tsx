@@ -20,9 +20,9 @@ export function ChatHero({model,onPress}:{model:string;onPress:()=>void}){
   a.start();return()=>a.stop();},[breath]);
  return <Pressable accessibilityRole="button" accessibilityLabel="Start typing to BAK" accessibilityHint={`Ask about your ${model}`} onPress={onPress} style={({pressed})=>({alignItems:'center',gap:16,paddingTop:6,opacity:pressed?0.8:1})}>
   <View style={{width:PLATE,height:PLATE,alignItems:'center',justifyContent:'center'}}>
-   <Animated.View pointerEvents="none" style={{position:'absolute',width:GLOW_W,height:GLOW_H,opacity:breath.interpolate({inputRange:[0,1],outputRange:[0.55,1]}),transform:[{scale:breath.interpolate({inputRange:[0,1],outputRange:[0.94,1.05]})}]}}>
+   <Animated.View pointerEvents="none" style={{position:'absolute',width:GLOW_W,height:GLOW_H,opacity:breath.interpolate({inputRange:[0,1],outputRange:[0.5,1]}),transform:[{scale:breath.interpolate({inputRange:[0,1],outputRange:[0.94,1.05]})}]}}>
     <Svg width={GLOW_W} height={GLOW_H}><Defs><RadialGradient id={'hg'+id} cx="50%" cy="50%" rx="50%" ry="50%">
-     <Stop offset="0" stopColor={colors.glow} stopOpacity="0.42"/><Stop offset="0.45" stopColor={colors.glow} stopOpacity="0.13"/><Stop offset="1" stopColor={colors.glow} stopOpacity="0"/>
+     <Stop offset="0" stopColor={colors.glow} stopOpacity="0.55"/><Stop offset="0.4" stopColor={colors.glow} stopOpacity="0.2"/><Stop offset="1" stopColor={colors.glow} stopOpacity="0"/>
     </RadialGradient></Defs><Ellipse cx={GLOW_W/2} cy={GLOW_H/2} rx={GLOW_W/2} ry={GLOW_H/2} fill={`url(#hg${id})`}/></Svg>
    </Animated.View>
    <View style={{width:PLATE,height:PLATE,borderRadius:24,shadowColor:'#000',shadowOpacity:0.6,shadowRadius:16,shadowOffset:{width:0,height:10},elevation:8}}>
