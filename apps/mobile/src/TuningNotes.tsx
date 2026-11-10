@@ -83,14 +83,16 @@ export function AnswerNoteBar({bike,message,question,notes}:{bike?:Bike;message:
 
 // ------------------------------------------------------------------ the quick note under the chat
 /** `collapsed`: a triage flow or guided job is open above, so the box folds to its one row and stays out of the way. */
-export function ChatNoteBox({bike,conversation,notes,onOpenGarage,collapsed=false}:{bike:Bike;conversation:string;notes:BikeNotes;onOpenGarage?:()=>void;collapsed?:boolean}){
+/** `quiet`: one small line (the empty Chat screen), opening the same box. */
+export function ChatNoteBox({bike,conversation,notes,onOpenGarage,collapsed=false,quiet=false}:{bike:Bike;conversation:string;notes:BikeNotes;onOpenGarage?:()=>void;collapsed?:boolean;quiet?:boolean}){
  const [wantOpen,setOpen]=useState(false),open=wantOpen&&!collapsed;
  useEffect(()=>{if(collapsed)setOpen(false);},[collapsed]);
  const [draft,setDraft]=useState(''),[busy,setBusy]=useState(false),[error,setError]=useState('');
  const list=notes.notes??[];
  async function save(){const text=draft.trim();if(!text||busy)return;setBusy(true);setError('');try{notes.put(await api<TuningNote>('/api/tuning-notes','POST',{id:randomUUID(),bike_id:bike.id,rider_note:text,...(conversation?{conversation_id:conversation}:{})}));setDraft('');}catch(e){setError(errorText(e));}finally{setBusy(false);}}
- return <View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',paddingTop:6,marginTop:8}}>
-  <Pressable accessibilityRole="button" accessibilityState={{expanded:open}} onPress={()=>setOpen(!open)} style={{flexDirection:'row',alignItems:'center',gap:10,paddingVertical:12}}><Icon name="notes" size={21} color="#b2b9c4"/><View style={{flex:1}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>Tuning notes{list.length?` · ${list.length}`:''}</Text><Text style={{color:'#adb5c1',fontSize:13}}>What you changed, how it felt, what’s next. Saved to your account.</Text></View><Icon name={open?'chevronUp':'chevronDown'} size={17} color="#7d8593"/></Pressable>
+ return <View style={quiet?{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#20242c'}:{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',paddingTop:6,marginTop:8}}>
+  {quiet?<Pressable accessibilityRole="button" accessibilityLabel={`Tuning notes${list.length?`, ${list.length}`:''}`} accessibilityHint="What you changed, how it felt, what’s next. Saved to your account." accessibilityState={{expanded:open}} onPress={()=>setOpen(!open)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:9,paddingVertical:12,opacity:pressed?0.6:1})}><Icon name="notes" size={17} color="#8f97a4"/><Text style={{flex:1,color:'#b2b9c4',fontSize:14,fontWeight:'600'}}>Tuning notes{list.length?` · ${list.length}`:''}</Text><Icon name={open?'chevronUp':'chevronDown'} size={15} color="#7d8593"/></Pressable>
+  :<Pressable accessibilityRole="button" accessibilityState={{expanded:open}} onPress={()=>setOpen(!open)} style={{flexDirection:'row',alignItems:'center',gap:10,paddingVertical:12}}><Icon name="notes" size={21} color="#b2b9c4"/><View style={{flex:1}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>Tuning notes{list.length?` · ${list.length}`:''}</Text><Text style={{color:'#adb5c1',fontSize:13}}>What you changed, how it felt, what’s next. Saved to your account.</Text></View><Icon name={open?'chevronUp':'chevronDown'} size={17} color="#7d8593"/></Pressable>}
   {open&&<View style={{gap:12,paddingBottom:8}}>
    <Field label="New note" multiline value={draft} onChangeText={setDraft} maxLength={4000} placeholder="Rebound 2 slower. Rear stayed down in the braking bumps."/>
    <Notice text={error||notes.error}/>

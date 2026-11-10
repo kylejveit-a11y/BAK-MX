@@ -7,6 +7,9 @@ const bike={id:'11111111-1111-4111-8111-111111111111',user_id:USER,manufacturer:
  configuration:{geared_weight_lb:'200',skill_level:'Intermediate',discipline:'Motocross',usual_dirt:'Sand',fork_compression:'14',fork_rebound:'15',shock_compression:'15',shock_rebound:'15',rider_sag_mm:'105',front_tire_psi:'12.5',rear_tire_psi:'12.5',exhaust_brand:'FMF',exhaust_name:'Factory 4.1',handlebar_brand:'ODI'},
  created_at:iso(now-40*day),updated_at:iso(now-2*day)};
 const bike2={...bike,id:'22222222-2222-4222-8222-222222222222',manufacturer:'Kawasaki',model:'KX450',model_year:2026,engine_hours:3,configuration:{}};
+// Phone simulator checks only (EXPO_PUBLIC_SAMPLE_LONG_BIKE=1): a third bike with a long model name, to test tight rows.
+const bike3={...bike,id:'33333333-3333-4333-8333-333333333333',manufacturer:'Husqvarna',model:'FC 450 Rockstar Edition',model_year:2025,engine_hours:12,configuration:{}};
+const LONG_BIKE=process.env.EXPO_PUBLIC_SAMPLE_LONG_BIKE==='1';
 const conversation={id:'33333333-3333-4333-8333-333333333333',user_id:USER,bike_id:bike.id,title:'What does high-speed compression actually do?',mode:'ask',created_at:iso(now-3600000),updated_at:iso(now-3600000)};
 const answer={kind:'answer',summary:'High-speed compression controls how the shock resists fast shaft movement, not bike speed.',
  answer:'**High-speed compression controls the shock’s resistance to fast shaft movement—not bike speed.** A square-edged bump at low riding speed can activate it; a smooth roller at high riding speed may be mostly low-speed compression.\n\nOn your 450 SX-F it mainly affects sharp bumps, hard landings and how much the rear gives way under a big hit:\n\n- **More damping, clockwise:** more support and bottoming resistance; too much makes the rear harsh or deflect sideways off edges.\n- **Less damping, counterclockwise:** lets the rear absorb sharp hits more easily; too little can let it blow through travel and bottom.\n\nIt’s the larger outer adjuster on the shock reservoir; the centre clicker controls low-speed compression.\n\n| Setting | Stock | Yours |\n|---|---|---|\n| High-speed compression | 1.5 turns | 1.5 turns |\n| Low-speed compression | 15 clicks | 15 clicks |',
@@ -37,7 +40,7 @@ const CLAIMS=[CL(1,'Capacities / Engine oil: 1.10 l (1.16 qt.); Engine oil (SAE 
 let sent=false;
 /** Answers one /api call: {status,body} for JSON or {status,events} for the streamed chat. q has get(name). */
 function respond(p,q,method,post){
- if(p==='/api/bikes')return J(method==='GET'?[bike,bike2]:{...bike});
+ if(p==='/api/bikes')return J(method==='GET'?(LONG_BIKE?[bike,bike2,bike3]:[bike,bike2]):{...bike});
  if(p==='/api/coverage')return J(coverage);
  if(p==='/api/entitlement')return J(entitlement);
  if(p==='/api/profile')return J(profile);

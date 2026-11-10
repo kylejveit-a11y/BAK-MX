@@ -95,3 +95,11 @@ function HeaderEdge(){
 export function HeaderButton({label,onPress}:{label:string;icon?:IconName;onPress:()=>void}){
  return <Pressable accessibilityRole="button" accessibilityLabel={label} hitSlop={12} onPress={onPress} style={({pressed})=>({marginRight:18,paddingVertical:6,opacity:pressed?0.55:1})}><Text style={{color:'#f6f7f9',fontSize:16,fontWeight:'700',letterSpacing:0.1}}>{label}</Text></Pressable>;
 }
+/** Header icon button for Messages. A small badge in the bike's colour counts what's new; nothing shows at zero. */
+export function HeaderMessages({unread,onPress}:{unread:number;onPress:()=>void}){
+ const n=Math.max(0,Math.floor(unread||0)),count=n>9?'9+':String(n);
+ return <Pressable accessibilityRole="button" accessibilityLabel={n>0?`Messages, ${n} new`:'Messages'} hitSlop={10} onPress={onPress} style={({pressed})=>({width:36,height:36,marginRight:14,alignItems:'center',justifyContent:'center',opacity:pressed?0.55:1})}>
+  <Icon name="mail" size={24} color="#f6f7f9"/>
+  {n>0&&<View pointerEvents="none" style={{position:'absolute',top:0,right:-4,minWidth:18,height:18,paddingHorizontal:4,borderRadius:9,backgroundColor:colors.accent,borderWidth:1.5,borderColor:'#08090b',alignItems:'center',justifyContent:'center'}}><Text allowFontScaling={false} style={{color:'#08090b',fontSize:10.5,lineHeight:13,fontWeight:'900'}}>{count}</Text></View>}
+ </Pressable>;
+}
