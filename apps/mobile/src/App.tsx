@@ -8,7 +8,7 @@ import {checkVin,cleanVin} from '../../../shared/vin';
 import {BIKE_EDITIONS,BIKE_MARKETS,sortBikeNames} from '../../../shared/bike-identity';
 import {RichText,Disclosure} from './RichText';
 import React,{useEffect,useState,createContext,useContext,useCallback,useRef} from 'react';
-import {AccessibilityInfo,ActionSheetIOS,AppState,Alert,Linking,Platform,View,Text,ActivityIndicator,StyleSheet,TextInput,ScrollView} from 'react-native';
+import {AccessibilityInfo,ActionSheetIOS,AppState,Alert,Linking,Platform,View,Text,ActivityIndicator,StyleSheet,TextInput,ScrollView,useWindowDimensions} from 'react-native';
 import {Pressable} from './Touch';
 import {BikeWheel,PickButton} from './Wheel';
 import {DateField,recentDays,formatValue} from './DateSheet';
@@ -244,10 +244,12 @@ function BikeReadiness({bike,onEdit}:{bike:Bike;onEdit?:(open:'edit'|'build')=>v
  *  on a narrower phone or larger text it scrolls, with a fade on the edge that still has tabs so nothing looks cut off. */
 function TabStrip<T extends string>({tabs,value,onChange}:{tabs:readonly (readonly [T,string])[];value:T;onChange:(k:T)=>void}){
  const [fade,setFade]=useState({left:false,right:false}),widths=useRef({view:0,content:0}),ref=useRef<ScrollView>(null);
+ // On a 375 pt phone the five Garage tabs ran a few points past the edge and the last one faded out: tighter type and gaps there, so every tab is readable without scrolling.
+ const narrow=useWindowDimensions().width<390;
  const update=(x:number)=>{const {view,content}=widths.current;setFade({left:x>4,right:content-view-x>4});};
  return <View style={{marginHorizontal:-20}}>
-  <ScrollView ref={ref} horizontal showsHorizontalScrollIndicator={false} scrollEventThrottle={32} onLayout={e=>{widths.current.view=e.nativeEvent.layout.width;update(0);}} onContentSizeChange={w=>{widths.current.content=w;update(0);}} onScroll={e=>update(e.nativeEvent.contentOffset.x)} style={{flexGrow:0,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#262b34'}} contentContainerStyle={{gap:14,paddingHorizontal:20}}>
-   {tabs.map(([k,label])=>{const on=value===k;return <Pressable key={k} haptic="select" accessibilityRole="tab" accessibilityState={{selected:on}} onPress={()=>onChange(k)} style={{paddingVertical:10,borderBottomWidth:2,borderBottomColor:on?colors.accent:'transparent',marginBottom:-StyleSheet.hairlineWidth}}><Text style={{color:on?colors.text:'#adb5c1',fontSize:14,fontWeight:on?'800':'600'}}>{label}</Text></Pressable>;})}
+  <ScrollView ref={ref} horizontal showsHorizontalScrollIndicator={false} scrollEventThrottle={32} onLayout={e=>{widths.current.view=e.nativeEvent.layout.width;update(0);}} onContentSizeChange={w=>{widths.current.content=w;update(0);}} onScroll={e=>update(e.nativeEvent.contentOffset.x)} style={{flexGrow:0,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#262b34'}} contentContainerStyle={{gap:narrow?11:14,paddingHorizontal:20}}>
+   {tabs.map(([k,label])=>{const on=value===k;return <Pressable key={k} haptic="select" accessibilityRole="tab" accessibilityState={{selected:on}} onPress={()=>onChange(k)} style={{paddingVertical:10,borderBottomWidth:2,borderBottomColor:on?colors.accent:'transparent',marginBottom:-StyleSheet.hairlineWidth}}><Text style={{color:on?colors.text:'#adb5c1',fontSize:narrow?13.5:14,letterSpacing:narrow?-0.2:0,fontWeight:on?'800':'600'}}>{label}</Text></Pressable>;})}
   </ScrollView>
   {fade.right&&<View pointerEvents="none" style={{position:'absolute',right:0,top:0,bottom:0,width:36}}><Svg width="100%" height="100%"><Defs><LinearGradient id="tabStripR" x1="0" y1="0" x2="1" y2="0"><Stop offset="0" stopColor={colors.bg} stopOpacity="0"/><Stop offset="1" stopColor={colors.bg} stopOpacity="1"/></LinearGradient></Defs><Rect x="0" y="0" width="100%" height="100%" fill="url(#tabStripR)"/></Svg></View>}
   {fade.left&&<View pointerEvents="none" style={{position:'absolute',left:0,top:0,bottom:0,width:36}}><Svg width="100%" height="100%"><Defs><LinearGradient id="tabStripL" x1="0" y1="0" x2="1" y2="0"><Stop offset="0" stopColor={colors.bg} stopOpacity="1"/><Stop offset="1" stopColor={colors.bg} stopOpacity="0"/></LinearGradient></Defs><Rect x="0" y="0" width="100%" height="100%" fill="url(#tabStripL)"/></Svg></View>}
@@ -638,7 +640,7 @@ function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSum
 function AccountRow({icon,title,summary,onPress}:{icon:IconName;title:string;summary:string;onPress:()=>void}){
  return <View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}><Pressable haptic="select" accessibilityRole="button" accessibilityLabel={`${title}, ${summary}`} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:14,paddingVertical:16,opacity:pressed?0.6:1})}>
   <View style={{width:36,height:36,borderRadius:11,borderWidth:1,borderColor:'#262b34',backgroundColor:'#0e1015',alignItems:'center',justifyContent:'center'}}><Icon name={icon} size={18} color="#b2b9c4"/></View>
-  <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'700'}}>{title}</Text><Text numberOfLines={1} style={{color:'#8f97a4',fontSize:13.5}}>{summary}</Text></View>
+  <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'700'}}>{title}</Text><Text numberOfLines={2} style={{color:'#8f97a4',fontSize:13.5,lineHeight:18}}>{summary}</Text></View>
   <Icon name="chevronRight" size={17} color="#8f97a4"/>
  </Pressable></View>;
 }

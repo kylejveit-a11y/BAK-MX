@@ -108,7 +108,9 @@ function respond(p,q,method,post){
  if(p==='/api/coaching')return J(coaching);
  if(p==='/api/race-checklist')return J(checklist);
  if(p==='/api/tracks')return J(tracks);
- if(p==='/api/photos')return J([]);
+ if(p==='/api/photos')return J(method==='DELETE'?{ok:true}:[]);
+ // Phone sample mode: a picked photo "uploads" (the app skips the storage call), so the attachment strip can be checked.
+ if(p==='/api/photos/upload')return J({id:'photo-'+Math.random().toString(36).slice(2,10),path:'sample/'+Date.now()+'.jpg',token:'sample'});
  if(p==='/api/garage-sharing')return J({show_on_profile:false,photo_ids:[],build_sheet_public:false});
  if(p==='/api/build-sheet')return J(null,404);
  if(p==='/api/claims')return J(CLAIMS);

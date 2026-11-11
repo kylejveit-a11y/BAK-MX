@@ -19,6 +19,8 @@ if(SAMPLE&&supabase&&sample){const session=sample.sampleSession();const auth=sup
  auth.getSession=async()=>({data:{session},error:null});
  auth.onAuthStateChange=(cb:(e:string,s:unknown)=>void)=>{setTimeout(()=>cb('SIGNED_IN',session),0);return {data:{subscription:{unsubscribe(){}}}};};
  auth.startAutoRefresh=async()=>{};auth.stopAutoRefresh=async()=>{};auth.signOut=async()=>({error:null});
+ // Photo uploads succeed without a bucket, so the attachment strip and photo plates can be checked on a simulator.
+ const storage=supabase.storage as unknown as Record<string,unknown>;storage.from=()=>({uploadToSignedUrl:async()=>({data:null,error:null})});
  // eslint-disable-next-line @typescript-eslint/no-require-imports
  require('react-native').LogBox.ignoreAllLogs(true);}
 import {ApiError} from './apiError';

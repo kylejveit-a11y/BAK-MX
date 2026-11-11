@@ -41,7 +41,8 @@ export function ChatStarters({starters,onPick}:{starters:ChatStarter[];onPick:(s
  return <View accessibilityRole="list" style={{flexDirection:'row',flexWrap:'wrap',gap:10}}>
   {starters.map(st=><Pressable key={st.label} haptic="select" accessibilityRole="button" accessibilityLabel={st.label} accessibilityHint="Puts this in the message box for you to finish" onPress={()=>onPick(st)}
    style={({pressed})=>({flexBasis:'47%',flexGrow:1,minHeight:54,justifyContent:'center',paddingVertical:8,paddingHorizontal:14,borderRadius:16,borderWidth:1,borderColor:'#2a2f39',backgroundColor:pressed?'rgba(255,255,255,0.07)':'rgba(255,255,255,0.035)'})}>
-   <Text numberOfLines={2} style={{color:'#e6e9ef',fontSize:14.5,lineHeight:19,fontWeight:'600'}}>{st.label}</Text>
+   {/* Three lines, so the longest starter still reads whole on a 375 pt phone; on wider phones it stays at two. */}
+   <Text numberOfLines={3} style={{color:'#e6e9ef',fontSize:14.5,lineHeight:19,fontWeight:'600'}}>{st.label}</Text>
   </Pressable>)}
  </View>;
 }
