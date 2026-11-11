@@ -56,7 +56,7 @@ ON YOUR PHONE
 - Ask BAK how to use any screen or setting and it walks you through it.
 
 PLANS
-BAK MX is free to download with a Garage, logs, specs, community and starter Ask BAK question sets. Premium adds 100 Ask BAK questions a day. Pro adds unlimited questions (fair use) and coaching from riding clips. Credit packs add extra questions that never expire. Subscriptions renew automatically unless cancelled at least 24 hours before the period ends; manage or cancel them in your Apple ID settings.
+BAK MX is free to download with a Garage, logs, specs, community, 7 starter sets of 20 Ask BAK questions and 3 Action photo edits to try. Premium adds 100 Ask BAK questions a day and 5 photo edits a month. Pro adds unlimited questions (fair use), coaching from riding clips and 15 photo edits a month. Question packs add extra questions that never expire. Prices are shown in the app from the App Store. Subscriptions renew automatically unless cancelled at least 24 hours before the period ends; manage or cancel them in your Apple ID settings.
 
 Always double-check torque values and anything safety-critical before you ride. BAK MX gives guidance; you make the call on your bike.
 

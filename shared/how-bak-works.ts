@@ -1,7 +1,7 @@
 // "How BAK works": the short rider's guide to the app. Shown under Account on the phone and the website, and handed to Ask BAK
 // when a rider asks how to do something in the app, so the two never say different things. Plain words, no marketing: a rider
 // should skim the whole page in about a minute. Plan names come from shared/plans.ts; prices are never written here.
-import {TIER_LABEL,TRIAL_BLOCKS,TRIAL_BLOCK_SIZE} from './plans.ts';
+import {DEFAULT_DAILY,TIER_LABEL,TRIAL_BLOCKS,TRIAL_BLOCK_SIZE} from './plans.ts';
 import {appGuideTextFor,isAppQuestion} from './app-guide.ts';
 
 export type HowSection={id:string;title:string;lines:string[]};
@@ -44,7 +44,7 @@ export const HOW_BAK_WORKS:HowSection[]=[
   'Messages, comments, event reminders and service due. Turn each one on or off in Account.']},
  {id:'plans',title:'Plans',lines:[
   `${TIER_LABEL.free}: ${TRIAL_BLOCKS} sets of ${TRIAL_BLOCK_SIZE} Ask BAK questions to start, plus the Garage, the logs, race day, the community and events.`,
-  `${TIER_LABEL.premium} adds a daily allowance of questions. ${TIER_LABEL.pro} adds unlimited questions (fair use) and coaching from riding clips. Plans are in Account; nothing is charged unless you choose one.`]},
+  `${TIER_LABEL.premium} adds ${DEFAULT_DAILY.premium} questions a day. ${TIER_LABEL.pro} adds unlimited questions (fair use), coaching from riding clips and more Action photo edits. Plans are in Account under Go Pro, with the store’s own prices; when your questions are used up the chat shows the way on. Nothing is charged unless you choose a plan.`]},
 ];
 
 export const HOW_BAK_WORKS_CLOSING='Ask BAK how to do anything in the app and it will tell you.';

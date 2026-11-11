@@ -48,6 +48,10 @@ load, so the plan card shows only the tier name and links, too thin for a store 
    `xcrun simctl spawn <udid> defaults write com.bakmx.app EXDevMenuShowFloatingActionButton -bool NO` and
    `… EXDevMenuIsOnboardingFinished -bool YES`. Open the bundle with
    `xcrun simctl openurl <udid> "exp+bakmx://expo-development-client/?url=http%3A%2F%2Flocalhost%3A8081"`.
+   Pro flow states (Account › Go Pro, the limit card in chat, the nudge under the composer): add `EXPO_PUBLIC_SAMPLE_USAGE=`
+   `free_out` (all free sets used; sending a question shows the card), `free_set_done` (this set used, sets waiting),
+   `free_last` (riding the last set: the nudge line) or `premium_out` (today's Premium questions used). Store prices do not load in
+   sample mode, so the BAK Pro screen shows “Price shown in the App Store” with Retry; the buttons need a real build.
 2. Status bar: `xcrun simctl status_bar <udid> override --time 9:41 --batteryState charged --batteryLevel 100 --wifiBars 3 --cellularBars 4`.
    For the two race-day screens the countdown comes from the real clock, so boot the simulator with `SIMCTL_CHILD_TZ` set to a
    zone where it is about 9:50 and override the status bar to that clock (the first set used 9:51 with Moto 1 at 10:40).

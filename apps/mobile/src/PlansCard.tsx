@@ -13,7 +13,7 @@ const periodLabel=(value:string)=>({P1W:'week',P1M:'month',P3M:'3 months',P6M:'6
 const isSubscription=(p:PurchasesPackage)=>!!p.product.subscriptionPeriod;
 
 /** Ask BAK plan: current plan, what's left, free sets, store plans and credit packs. Store purchases are verified by the server. */
-export function PlansCard({bare=false}:{bare?:boolean}){
+export function PlansCard({bare=false,onPro}:{bare?:boolean;/** opens the BAK Pro screen (the full pitch, prices from the store) */onPro?:()=>void}){
  const [usage,setUsage]=useState<UsageView|null>(null),[packages,setPackages]=useState<PurchasesPackage[]>([]),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false);
  const load=useCallback(()=>{api<UsageView>('/api/usage').then(setUsage).catch(e=>setNotice(errorText(e)));},[]);
  useFocusEffect(load);
@@ -37,6 +37,7 @@ export function PlansCard({bare=false}:{bare?:boolean}){
    </View>
    {canStartTrialSet(usage)&&<Button disabled={busy} title="Start next free set" onPress={()=>void task(()=>api('/api/usage/next-set','POST',{}),'Your next free set is ready.')}/>}
   </>}
+  {onPro&&tier!=='pro'&&<LinkAction title="See BAK Pro" onPress={onPro}/>}
   <Notice text={notice}/>
   {!usage&&!!notice&&<LinkAction disabled={busy} title="Retry" onPress={()=>{setNotice('');load();}}/>}
   {!packages.length&&<LinkAction disabled={busy} title="See plans and credit packs" onPress={()=>void task(async()=>{const p=await offerings();setPackages(p);if(!p.length)setNotice('Plans and credit packs are not available from the store yet.');})}/>}

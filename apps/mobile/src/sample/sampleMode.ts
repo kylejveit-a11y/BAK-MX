@@ -4,6 +4,7 @@
 // __DEV__ is false, so this file's code is never reached and Metro drops it.
 export const SAMPLE=__DEV__&&process.env.EXPO_PUBLIC_SAMPLE_MODE==='1';
 
+import {ApiError} from '../apiError';
 type Mock={respond:(p:string,q:{get:(k:string)=>string|null},method:string,post:unknown)=>{status:number;body?:unknown;events?:{type:string;[k:string]:unknown}[]};USER:string};
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const mock=():Mock=>require('../../../../scripts/web-visual/mock-api.cjs');
@@ -15,12 +16,13 @@ function split(path:string){const i=path.indexOf('?');const p=i<0?path:path.slic
 export async function sampleApi<T>(path:string,method:string,body:unknown):Promise<T>{
  const {p,q}=split(path);const r=mock().respond(p,q,method,body);
  await new Promise(res=>setTimeout(res,120));
- if(r.status>=400)throw Object.assign(new Error('Not found in sample data.'),{status:r.status});
+ if(r.status>=400)throw new ApiError((r.body as {error?:string}|undefined)?.error??'Not found in sample data.',r.status);
  return r.body as T;
 }
 export async function sampleStream<T>(path:string,body:unknown,onEvent:(e:{type:string;[k:string]:unknown})=>void):Promise<T>{
  // Like the real stream, the result is the whole 'done' event ({type:'done', message, ...}).
  const {p,q}=split(path);const r=mock().respond(p,q,'POST',body);let done:unknown;
+ if(r.status>=400)throw new ApiError((r.body as {error?:string}|undefined)?.error??'Not found in sample data.',r.status);
  for(const e of r.events??[]){await new Promise(res=>setTimeout(res,350));onEvent(e);if(e.type==='done')done=e;}
  return (done??r.body) as T;
 }

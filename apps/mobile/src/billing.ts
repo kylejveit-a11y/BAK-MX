@@ -7,3 +7,8 @@ export async function identifyPurchaser(){if(!key)throw new Error('Store members
 export async function offerings(){await identifyPurchaser();return (await Purchases.getOfferings()).current?.availablePackages??[];}
 export async function purchase(p:PurchasesPackage){await identifyPurchaser();await Purchases.purchasePackage(p);return api('/api/mobile/sync-entitlement','POST',{});}
 export async function restore(){await identifyPurchaser();await Purchases.restorePurchases();return api('/api/mobile/sync-entitlement','POST',{});}
+/** When the rider's store plan next renews (or ends), from the store's own record. Null when unknown or not a store plan. */
+export async function planRenewal():Promise<string|null>{
+ try{await identifyPurchaser();const info=await Purchases.getCustomerInfo();const active=Object.values(info.entitlements.active);const dates=active.map(e=>e.expirationDate).filter((d):d is string=>!!d).sort();return dates[0]??null;}
+ catch{return null;}
+}

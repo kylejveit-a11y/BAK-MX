@@ -2,7 +2,9 @@
 // screen. Ask BAK reads the matching sections when a rider asks what something is for or how to work it; the Help screen and
 // the website show the whole thing under "Full guide". Nothing here is invented: each entry describes the phone app's own UI.
 // bak_can_change is true only where an action in shared/app-actions.ts really changes that thing for the rider.
-import {TIER_LABEL,TRIAL_BLOCKS,TRIAL_BLOCK_SIZE} from './plans.ts';
+import {DEFAULT_DAILY,TIER_LABEL,TRIAL_BLOCKS,TRIAL_BLOCK_SIZE} from './plans.ts';
+import {editAllowance} from './photo-edit.ts';
+const EDITS={free:editAllowance('free').included,premium:editAllowance('premium').included,pro:editAllowance('pro').included};
 
 export type GuideOption={label:string;effect:string};
 export type GuideSetting={name:string;what_it_does:string;options?:GuideOption[];bak_can_change?:boolean};
@@ -108,9 +110,14 @@ export const APP_GUIDE:AppGuideEntry[]=[
   bak_can_change:true,
   words:/\bprofile\b|\bhandle\b|\bdisplay name\b|\brace number\b|\bavatar\b|\bunblock\b|\bblocked riders\b/i},
  {screen:'Ask BAK plan',path:'Account → Ask BAK plan',purpose:'Your plan, what’s left today, free sets, plans and credit packs.',how:[
-  'Shows the plan, Used today, Extra questions or Credits, Extra sets left, and “Start next free set” when one is ready. “See plans and credit packs” loads the store offers: Subscribe, or tap a credit pack. Also Restore purchases · Manage subscription · Terms of Use (EULA) · Privacy Policy.',
-  TIER_LABEL.free+': the free sets plus the Garage, logs, race day, community and events. '+TIER_LABEL.premium+' adds a daily allowance. '+TIER_LABEL.pro+' adds unlimited questions (fair use) and coaching from riding clips. Nothing is charged unless you choose a plan.'],
+  'The row itself says where you stand (“Free · 3 of 7 sets left”, “Premium · renews Dec 10”, “Pro · Unlimited questions”). Open it for Used today, Extra questions or Credits, Free sets left, and “Start next free set” when one is ready. “See plans and credit packs” loads the store offers: Subscribe, or tap a credit pack. Also See BAK Pro · Restore purchases · Manage subscription · Terms of Use (EULA) · Privacy Policy.',
+  TIER_LABEL.free+': '+TRIAL_BLOCKS+' sets of '+TRIAL_BLOCK_SIZE+' Ask BAK questions to start, '+EDITS.free+' Action photo edits to try, plus the Garage, logs, race day, community and events. '+TIER_LABEL.premium+' adds '+DEFAULT_DAILY.premium+' questions a day and '+EDITS.premium+' photo edits a month. '+TIER_LABEL.pro+' adds unlimited questions (fair use), coaching from riding clips and '+EDITS.pro+' photo edits a month. Nothing is charged unless you choose a plan.'],
   words:/\bplan\b|\bsubscription\b|\bsubscribe\b|\bpremium\b|\bpro (plan|tier|feature)\b|\bupgrade\b|\bcredits?\b|\bcredit packs?\b|\brestore purchases?\b|\bquestions? (left|a day|today)\b|\bbilling\b|\bcancel (my )?subscription\b/i},
+ {screen:'BAK Pro',path:'Account → Go Pro (also from the plan row, the chat when your questions are used up, and the line under the chat starters)',purpose:'What Pro adds, the plans side by side, and the store buttons with the store’s own prices.',how:[
+  '“Unlimited answers. Every moto.” Three things Pro adds: unlimited Ask BAK questions (fair use), coaching from your riding clips, '+EDITS.pro+' Action photo edits a month. Under that, what each plan gives: Free, Premium and Pro side by side.',
+  'The buttons show the store’s price and period (yearly or monthly); Premium sits under Pro as the smaller option; question packs are listed when the store has them. If the store cannot be reached it says “Price shown in the App Store” with a Retry; no price is ever guessed. Subscriptions renew automatically unless cancelled at least 24 hours before the period ends. Restore purchases · Manage subscription · Terms of Use (EULA) · Privacy Policy are on the same screen.',
+  'When your free questions (or today’s Premium questions) are used up, the chat shows a card where the answer would be: what ran out, when it resets, “Start next free set” when one is waiting, “See BAK Pro”, and “Buy a question pack” when packs exist. Your typed question stays in the box. The Garage, specs, logs and notes keep working on every plan.'],
+  words:/\bgo pro\b|\bbak pro\b|\bwhat does pro (add|include|give)\b|\bwhy pro\b|\bworth (it|upgrading)\b|\bfair use\b|\bused (up )?(my|all my|today.s) (free )?questions\b|\bout of questions\b|\bquestion packs?\b/i},
  {screen:'App colour',path:'Account → App colour',purpose:'Whether the app follows your bike’s maker colour or stays BAK blue.',how:['Tap one option; it changes at once on this phone.'],
   settings:[{name:'App colour',what_it_does:'The accent colour of the app.',bak_can_change:true,options:[{label:'Match my bike',effect:'the maker colour for the selected bike; changes when you switch bikes'},{label:'BAK blue',effect:'the same blue on every bike'}]}],
   bak_can_change:true,

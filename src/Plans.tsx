@@ -1,7 +1,8 @@
 import {useEffect,useState} from 'react';
-import {ArrowUpRight} from 'lucide-react';
+import {ArrowUpRight,Check,Image as ImageIcon,MessageSquare,Video} from 'lucide-react';
 import {api} from './client';
 import {TIER_LABEL,TIER_BLURB,canStartTrialSet,type Tier,type Usage} from '../shared/plans';
+import {LAUNCH_OFFER,PREMIUM_LINE,PRO_HEADLINE,PRO_SUBHEAD,planComparison,proValueRows} from '../shared/pro-flow';
 import type {Entitlement} from '../shared/types';
 
 type PlanPrice={tier:Tier;price_id:string;amount:number;currency:string;interval:string};
@@ -14,6 +15,21 @@ const per=(i:string)=>i==='year'?'yr':i==='month'?'mo':i;
 export function NextSetButton({onStarted}:{onStarted:()=>void}){
  const [busy,setBusy]=useState(false),[error,setError]=useState('');
  return <span className="next-set"><button className="button" disabled={busy} onClick={async()=>{setBusy(true);setError('');try{await api('/usage/next-set','POST',{});onStarted();}catch(e){setError((e as Error).message);}finally{setBusy(false);}}}>Start next free set</button>{error&&<small>{error}</small>}</span>;
+}
+
+const VALUE_ICON={chat:MessageSquare,video:Video,image:ImageIcon} as const;
+/** The Pro pitch, the same words as the phone's BAK Pro screen (shared/pro-flow.ts). Prices come from Stripe below it. */
+function ProPitch({tier,beta}:{tier:Tier;beta:boolean}){
+ const rows=planComparison(),tiers:Tier[]=['free','premium','pro'];
+ return <div className="pro-pitch">
+  <div className="pro-head"><span className="eyebrow">BAK PRO{beta?` · ${LAUNCH_OFFER}`:''}</span><h2>{PRO_HEADLINE}</h2><p className="subtle">{PRO_SUBHEAD}</p></div>
+  <ul className="pro-values">{proValueRows().map(r=>{const I=VALUE_ICON[r.icon];return <li key={r.title}><I size={18} aria-hidden/><div><b>{r.title}</b><p className="subtle">{r.detail}</p></div></li>;})}</ul>
+  <table className="pro-compare"><caption className="eyebrow">WHAT EACH PLAN GIVES</caption>
+   <thead><tr><th scope="col"><span className="sr-only">Feature</span></th>{tiers.map(t=><th key={t} scope="col" className={t==='pro'?'pro':''}>{TIER_LABEL[t]}{t===tier?<small> · yours</small>:null}</th>)}</tr></thead>
+   <tbody>{rows.map(r=><tr key={r.feature}><th scope="row">{r.feature}</th>{tiers.map(t=>{const v=r[t];return <td key={t} className={t==='pro'?'pro':''}>{v==='Included'?<Check size={16} aria-label="Included"/>:v==='—'?<span aria-label="Not included">—</span>:v}</td>;})}</tr>)}</tbody>
+  </table>
+  <p className="subtle">Your Garage, specs, logs, notes and community are yours on every plan. Only Ask BAK's allowance, clip coaching and the photo-edit count change.</p>
+ </div>;
 }
 
 export function Plans({entitlement}:{entitlement:Entitlement|null}){
@@ -38,10 +54,12 @@ export function Plans({entitlement}:{entitlement:Entitlement|null}){
    {usage.trial&&usage.trial.remaining_sets>0&&<p className="subtle">Each free set is {usage.trial.size} questions. When a set runs out, start the next one when you're ready. We suggest spacing them across the week.</p>}
    {canStartTrialSet(usage)&&<div className="button-row"><button className="button" disabled={busy} onClick={nextSet}>Start next free set</button></div>}
   </div>}
-  {catalog&&(catalog.plans.length?<div className="plan-grid">{(['premium','pro'] as Tier[]).map(t=>{const prices=byTier(t);if(!prices.length)return null;return <article key={t} className={'plan-card'+(tier===t?' current':'')}>
-    <span className="eyebrow">{TIER_LABEL[t].toUpperCase()}{tier===t?' · CURRENT':''}</span><p>{TIER_BLURB[t]}</p>
-    <div className="plan-prices">{prices.map(p=><button key={p.price_id} className={tier===t?'button secondary':'button'} disabled={busy||paid} onClick={()=>go('checkout',p.price_id)}>{money(p.amount,p.currency)} / {per(p.interval)}</button>)}</div>
+  {tier!=='pro'&&<ProPitch tier={tier} beta={usage?.access_mode==='beta'}/>}
+  {catalog&&(catalog.plans.length?<div className="plan-grid">{(['pro','premium'] as Tier[]).map(t=>{const prices=byTier(t);if(!prices.length)return null;return <article key={t} className={'plan-card'+(tier===t?' current':'')+(t==='pro'?' primary':' secondary')}>
+    <span className="eyebrow">{TIER_LABEL[t].toUpperCase()}{tier===t?' · CURRENT':''}</span><p>{t==='premium'?PREMIUM_LINE:TIER_BLURB[t]}</p>
+    <div className="plan-prices">{prices.map(p=><button key={p.price_id} className={tier===t||t==='premium'?'button secondary':'button'} disabled={busy||paid} onClick={()=>go('checkout',p.price_id)}>{money(p.amount,p.currency)} / {per(p.interval)}</button>)}</div>
    </article>;})}</div>:<p className="subtle">Premium and Pro open at launch.</p>)}
+  {catalog&&catalog.plans.length>0&&<p className="subtle plan-terms">Subscriptions renew automatically until cancelled; change or cancel any time from Manage billing. <a href="/terms">Terms of Use</a> · <a href="/privacy">Privacy Policy</a></p>}
   {paid&&<div className="button-row"><button className="button secondary" disabled={busy} onClick={()=>go('portal')}>Change plan or manage billing <ArrowUpRight size={16}/></button></div>}
   {catalog&&catalog.packs.length>0&&<div className="credit-packs"><h3>Credit packs</h3><p className="subtle">Credits never expire and are used only after your included questions.</p><div className="button-row">{catalog.packs.map(p=><button key={p.price_id} className="button secondary" disabled={busy} onClick={()=>go('credits',p.price_id)}>{p.credits} questions · {money(p.amount,p.currency)}</button>)}</div></div>}
  </section>;

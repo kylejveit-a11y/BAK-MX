@@ -21,7 +21,8 @@ if(SAMPLE&&supabase&&sample){const session=sample.sampleSession();const auth=sup
  auth.startAutoRefresh=async()=>{};auth.stopAutoRefresh=async()=>{};auth.signOut=async()=>({error:null});
  // eslint-disable-next-line @typescript-eslint/no-require-imports
  require('react-native').LogBox.ignoreAllLogs(true);}
-export class ApiError extends Error{constructor(message:string,public status:number){super(message);}}
+import {ApiError} from './apiError';
+export {ApiError};
 /** Reads and writes keyed to the signed-in account; null before sign-in. */
 export function accountStore(userId:string):Store{return {read:(k,f)=>readProgress(userId,k,f),write:(k,v)=>writeProgress(userId,k,v)};}
 let lastUser='';
