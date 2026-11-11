@@ -3,7 +3,7 @@
 import React,{useCallback,useEffect,useState} from 'react';
 import {useFocusEffect} from '@react-navigation/native';
 import {Text,View} from 'react-native';
-import {usageSummary,type LimitCard as LimitState,type UsageView} from '../../../shared/pro-flow';
+import {usageSummary,withoutPacks,type LimitCard as LimitState,type UsageView} from '../../../shared/pro-flow';
 import {userErrorText} from '../../../shared/user-error';
 import {api} from './api';
 import {offerings,planRenewal} from './billing';
@@ -19,7 +19,7 @@ export function LimitCard({state,busy,onPro,onNextSet}:{state:LimitState;busy:bo
  return <Card>
   <View style={{flexDirection:'row',alignItems:'center',gap:7}}><MetalMark width={14}/><Eyebrow>BAK</Eyebrow></View>
   <Text accessibilityRole="header" style={{color:colors.text,fontSize:19,fontWeight:'800',letterSpacing:-0.3,lineHeight:25}}>{state.title}</Text>
-  <Text style={{color:colors.muted,fontSize:15,lineHeight:22}}>{state.body}</Text>
+  <Text style={{color:colors.muted,fontSize:15,lineHeight:22}}>{packs?state.body:withoutPacks(state.body)}</Text>
   {!!state.reset&&<View style={{flexDirection:'row',alignItems:'center',gap:7}}><Icon name="clock" size={14} color="#8f97a4"/><Text style={{color:'#8f97a4',fontSize:13}}>{state.reset}</Text></View>}
   <View style={{gap:10,paddingTop:2}}>
    {state.actions.includes('next_set')&&<Button title="Start next free set" disabled={busy||working} onPress={()=>{setWorking(true);setNotice('');onNextSet().catch(e=>setNotice(userErrorText(e))).finally(()=>setWorking(false));}}/>}

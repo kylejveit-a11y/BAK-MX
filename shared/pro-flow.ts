@@ -75,15 +75,19 @@ export type LimitCard={kind:'free_set_done'|'free_exhausted'|'premium_daily'|'pr
  actions:('next_set'|'pro'|'pack')[];reset?:string};
 /** What the chat shows where the answer would be when a question cannot run. Null when the allowance is not the reason
  *  (an ordinary error keeps the ordinary notice). `blocked` is whether the server refused the question for its allowance. */
+/** The pack sentence in a limit card's body; `withoutPacks` removes it when the store has no pack to buy. */
+export const PACK_SENTENCE=', or add a question pack and keep going now.';
+export function withoutPacks(body:string):string{return body.endsWith(PACK_SENTENCE)?body.slice(0,-PACK_SENTENCE.length)+'.':body;}
 export function limitCard(u:UsageView|null,blocked:boolean,now=new Date()):LimitCard|null{
  if(!blocked||!u)return null;
+ const pack=PACK_SENTENCE;
  // Something else was refused (a duplicate send, a re-run): the ordinary notice says so; this card is only for a used-up allowance.
  if(u.remaining_today>0||u.credits>0)return null;
  if(u.unlimited)return {kind:'pro_fair_use',title:"You've reached today's fair-use limit",body:'That is a lot of tuning. Your questions are back after midnight UTC.',actions:[],reset:nextResetLabel(now)};
- if(u.tier==='premium')return {kind:'premium_daily',title:"You've used today's Premium questions",body:`All ${u.daily_limit} of today's questions are gone. Pro has no daily count, or add a question pack and keep going now.`,actions:['pro','pack'],reset:nextResetLabel(now)};
+ if(u.tier==='premium')return {kind:'premium_daily',title:"You've used today's Premium questions",body:`All ${u.daily_limit} of today's questions are gone. Pro has no daily count${pack}`,actions:['pro','pack'],reset:nextResetLabel(now)};
  if(canStartTrialSet(u)){const left=u.trial!.remaining_sets;return {kind:'free_set_done',title:"You've used this set of free questions",body:`${left} free set${left===1?'':'s'} of ${u.trial!.size} left. Start the next one when you're ready, or go Pro and stop counting.`,actions:['next_set','pro']};}
- if(u.access_mode==='beta'&&u.remaining_today<1&&u.credits<1&&(!u.trial||u.trial.remaining_sets<1))return {kind:'free_exhausted',title:"You've used today's questions",body:'The launch offer gives every rider a daily set. Pro has no daily count, or add a question pack and keep going now.',actions:['pro','pack'],reset:nextResetLabel(now)};
- return {kind:'free_exhausted',title:"You've used your free questions",body:`All ${u.trial?.blocks??TRIAL_BLOCKS} free sets are done. Pro gives you unlimited questions and clip coaching, or add a question pack and keep going now.`,actions:['pro','pack']};
+ if(u.access_mode==='beta'&&u.remaining_today<1&&u.credits<1&&(!u.trial||u.trial.remaining_sets<1))return {kind:'free_exhausted',title:"You've used today's questions",body:`The launch offer gives every rider a daily set. Pro has no daily count${pack}`,actions:['pro','pack'],reset:nextResetLabel(now)};
+ return {kind:'free_exhausted',title:"You've used your free questions",body:`All ${u.trial?.blocks??TRIAL_BLOCKS} free sets are done. Pro gives you unlimited questions and clip coaching${pack}`,actions:['pro','pack']};
 }
 
 /** The status the server answers with when a question cannot run for its allowance (server/app.ts, /api/chat). */

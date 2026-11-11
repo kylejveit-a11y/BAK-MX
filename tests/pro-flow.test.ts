@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {TRIAL_BLOCKS,TRIAL_BLOCK_SIZE,DEFAULT_DAILY,canCoachClips} from '../shared/plans.ts';
 import {editAllowance} from '../shared/photo-edit.ts';
-import {composerNudge,isLimitMessage,isLimitStatus,limitCard,nextResetLabel,planComparison,proValueRows,usageSummary,type UsageView} from '../shared/pro-flow.ts';
+import {composerNudge,isLimitMessage,isLimitStatus,limitCard,nextResetLabel,planComparison,proValueRows,usageSummary,withoutPacks,type UsageView} from '../shared/pro-flow.ts';
 
 const free=(over:Partial<UsageView>={},trial:Partial<NonNullable<UsageView['trial']>>={}):UsageView=>({tier:'free',daily_limit:0,unlimited:false,used_today:0,remaining_today:0,credits:0,access_mode:'subscription',trial:{blocks:TRIAL_BLOCKS,size:TRIAL_BLOCK_SIZE,started:1,remaining_sets:TRIAL_BLOCKS-1,...trial},...over});
 const premium=(over:Partial<UsageView>={}):UsageView=>({tier:'premium',daily_limit:DEFAULT_DAILY.premium,unlimited:false,used_today:40,remaining_today:60,credits:0,trial:null,access_mode:'subscription',...over});
@@ -84,4 +84,12 @@ test('the Pro screen promises only what the plan code gates',()=>{
  assert.deepEqual(by('Action photo edits'),{feature:'Action photo edits',free:'3 to try',premium:'5 a month',pro:'15 a month'});
  // Everything that is not gated is shown as included on every plan: no fake Pro-only features.
  for(const f of ['Garage, specs, setup and service logs','Tuning notes and saved chats','Community, events, messages','Coaching from photos'])assert.deepEqual([by(f).free,by(f).premium,by(f).pro],['Included','Included','Included']);
+});
+
+test('limit card drops the pack sentence when the store has no packs',()=>{
+ const out=limitCard(free({},{started:7,remaining_sets:0}),true)!;
+ assert.match(out.body,/question pack/);
+ assert.doesNotMatch(withoutPacks(out.body),/question pack/);
+ assert.match(withoutPacks(out.body),/clip coaching\.$/);
+ assert.equal(withoutPacks('Plain.'),'Plain.');
 });
