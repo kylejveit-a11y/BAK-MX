@@ -648,6 +648,19 @@ function AndroidWidgetRow(){
  return <View style={{gap:6}}>
   <AccountRow icon="gauge" title="Home screen widget" summary="Hours, next service and your next race at a glance" onPress={add}/>
   {note?<Text style={{color:colors.muted,fontSize:13,lineHeight:18,paddingHorizontal:4}}>{note}</Text>:null}
+  {/* Sample preview builds only: draw the widgets here so they can be checked without a home screen. */}
+  {process.env.EXPO_PUBLIC_SAMPLE_BUILD==='1'&&<AndroidWidgetPreviews/>}
+ </View>;
+}
+function AndroidWidgetPreviews(){
+ const {WidgetPreview}=require('react-native-android-widget') as typeof import('react-native-android-widget');
+ const {renderAndroidWidget}=require('./widgets/androidWidgetTask') as typeof import('./widgets/androidWidgetTask');
+ return <View style={{gap:10}}>
+  <WidgetPreview renderWidget={()=>renderAndroidWidget('BakBike',320)} width={320} height={150}/>
+  <View style={{flexDirection:'row',gap:10}}>
+   <WidgetPreview renderWidget={()=>renderAndroidWidget('BakBike',150)} width={150} height={150}/>
+   <WidgetPreview renderWidget={()=>renderAndroidWidget('BakNextEvent',150)} width={150} height={150}/>
+  </View>
  </View>;
 }
 function AccountRow({icon,title,summary,onPress}:{icon:IconName;title:string;summary:string;onPress:()=>void}){
