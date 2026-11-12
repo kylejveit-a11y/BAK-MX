@@ -632,6 +632,7 @@ function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSum
  <Section icon="comment" title="Feedback" summary="A wrong answer, missing data, a bug or an idea"><FeedbackCard bike={bike} bare/></Section>
  <AccountRow icon="document" title="How BAK works" summary="The app in a minute: Ask BAK, Garage, logs, race day" onPress={()=>{if(navRef.isReady())navRef.navigate('Help');}}/>
  <AccountRow icon="verified" title="Supported bikes" summary="What BAK covers, by year" onPress={()=>{if(navRef.isReady())navRef.navigate('Bikes');}}/>
+ {Platform.OS==='android'&&<AndroidWidgetRow/>}
  <Section icon="verified" title="Your data and legal" summary="Export, privacy, terms, support"><TileGrid><Tile icon="export" title="Export my data" detail="A copy of your Garage, chats and logs" onPress={()=>{if(!busy)void task(exportData);}}/>{([['Privacy policy',mxPage(process.env.EXPO_PUBLIC_PRIVACY_URL,'privacy'),'verified'],['Terms of service',mxPage(process.env.EXPO_PUBLIC_TERMS_URL,'terms'),'document'],['Contact support',mxPage(process.env.EXPO_PUBLIC_SUPPORT_URL,'support'),'mail']] as [string,string|undefined,IconName][]).map(([label,url,icon])=><Tile key={label} icon={icon} title={label} detail={label==='Contact support'?'Questions, bugs, billing':'Opens in your browser'} onPress={()=>url?void Linking.openURL(url).catch(e=>setNotice(errorText(e))):setNotice(`${label} is not configured in this build.`)}/>)}</TileGrid></Section>
  <Section icon="trash" title="Delete account" summary="Removes your Garage, chats and service history"><Copy>Deletion removes your Garage, conversations and service history. Cancel your subscription in the App Store before deleting your account.</Copy><Field label="Type DELETE to confirm" placeholder="DELETE" autoCapitalize="characters" value={confirm} onChangeText={setConfirm}/><Button secondary disabled={busy||confirm!=='DELETE'} title="Permanently delete account" onPress={()=>Alert.alert('Permanently delete account?','This action cannot be undone. Export your data first if you need a copy.',[{text:'Cancel',style:'cancel'},{text:'Delete account',style:'destructive',onPress:()=>void task(async()=>{await api('/api/account','DELETE',{confirmation:'DELETE'});clearProgress(session.user.id);await supabase!.auth.signOut({scope:'local'});})}])}/></Section>
  <View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}/>
@@ -639,6 +640,16 @@ function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSum
  <TileGrid><Tile icon="signout" title="Sign out" detail={session.user.email??''} onPress={()=>{if(!busy)void task(async()=>{await unregisterPush();const r=await supabase!.auth.signOut();if(r.error)throw r.error;});}}/></TileGrid></Page>}
 
 /** An Account row that opens a screen, drawn like the folding Section rows around it. */
+/** Android: puts the "Your bike" widget on the home screen in one tap (the phone asks the rider to confirm). */
+function AndroidWidgetRow(){
+ const [note,setNote]=useState('');
+ const add=()=>{try{const {requestPinWidget}=require('react-native-android-widget') as typeof import('react-native-android-widget');
+  void requestPinWidget({widgetName:'BakBike'}).then(ok=>setNote(ok?'':'This home screen can’t add widgets from an app. Long-press an empty spot on the home screen, tap Widgets, then find BAK MX.')).catch(()=>setNote('Long-press an empty spot on the home screen, tap Widgets, then find BAK MX.'));}catch{setNote('Long-press an empty spot on the home screen, tap Widgets, then find BAK MX.');}};
+ return <View style={{gap:6}}>
+  <AccountRow icon="gauge" title="Home screen widget" summary="Hours, next service and your next race at a glance" onPress={add}/>
+  {note?<Text style={{color:colors.muted,fontSize:13,lineHeight:18,paddingHorizontal:4}}>{note}</Text>:null}
+ </View>;
+}
 function AccountRow({icon,title,summary,onPress}:{icon:IconName;title:string;summary:string;onPress:()=>void}){
  return <View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}><Pressable haptic="select" accessibilityRole="button" accessibilityLabel={`${title}, ${summary}`} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:14,paddingVertical:16,opacity:pressed?0.6:1})}>
   <View style={{width:36,height:36,borderRadius:11,borderWidth:1,borderColor:'#262b34',backgroundColor:'#0e1015',alignItems:'center',justifyContent:'center'}}><Icon name={icon} size={18} color="#b2b9c4"/></View>

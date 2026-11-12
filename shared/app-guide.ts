@@ -23,12 +23,12 @@ export const APP_GUIDE:AppGuideEntry[]=[
   settings:[{name:'Blocks',what_it_does:'Shown or hidden, in your order.',options:[{label:'Ask BAK',effect:'the question bar'},{label:'Your bike',effect:'photo, hours and setup checklist'},{label:'Up next',effect:'service due, next event or last setup change'},{label:'Race prep',effect:'your checklist, week before to after (off to start)'},{label:'Last coaching',effect:'your latest fix and drill (off to start)'}]}],
   words:/\bedit home\b|\bhome (layout|blocks?)\b|\b(reorder|rearrange|hide|remove|turn off) .*\b(block|card)s?\b/i},
  {screen:'Race day',path:'Home → Race day',purpose:'Set a race: Home counts down with your prep list, and on the day becomes your track screen.',how:[
-  'Pick the bike (Change), the Track (one-tap picks, or search BAK’s tracks) and the Race day date. On iPhone, “Countdown on the widget” puts days to go on the Home Screen widget. Tap “Set up this race” (or “Start race day” for today).',
+  'Pick the bike (Change), the Track (one-tap picks, or search BAK’s tracks) and the Race day date. “Countdown on the widget” puts days to go on the BAK MX home screen widget (iPhone and Android). Tap “Set up this race” (or “Start race day” for today).',
   'Before: NEXT RACE with days to go and “Prep · phase” progress; BAK’S SETUP FOR the track (Get BAK’s setup · Refresh · Ask about it) works from the track, the forecast and your bike. “Cancel this race” clears it.',
-  'On the day: NEXT UP (set the moto time; on iPhone the Lock Screen counts down), BAK’s setup, FUEL PLAN, ON YOUR BIKE NOW, QUICK ASK chips (one tap, race-mode answer), BETWEEN MOTOS checklist, LOG A CHANGE (moto · what changed · detail · How did it ride? · Save to setup log), TODAY with “Ask BAK what to try next”, How did the track ride?, then “End race day”. Ends by itself the day after.'],
+  'On the day: NEXT UP (set the moto time; on iPhone the Lock Screen counts down, on Android a pinned notification shows it and a heads-up comes 10 minutes before), BAK’s setup, FUEL PLAN, ON YOUR BIKE NOW, QUICK ASK chips (one tap, race-mode answer), BETWEEN MOTOS checklist, LOG A CHANGE (moto · what changed · detail · How did it ride? · Save to setup log), TODAY with “Ask BAK what to try next”, How did the track ride?, then “End race day”. Ends by itself the day after.'],
   words:/\brace ?day\b|\bset (up )?a race\b|\bcountdown\b|\bnext race\b|\bquick ask\b|\blog a change\b|\bend race day\b|\bnext up\b|\bmoto time\b|\bbak.s setup\b/i},
  {screen:'Practice day',path:'Home → Practice day',purpose:'A day of laps, today: session log, short checklist, fuel plan, “Ask BAK about today”. Ends tonight by itself.',how:[
-  'Pick the bike and track, “Start practice day”. NEXT UP sets the next session time (on iPhone it also counts down on the Lock Screen).',
+  'Pick the bike and track, “Start practice day”. NEXT UP sets the next session time (iPhone: Lock Screen countdown; Android: pinned notification and a heads-up 10 minutes before).',
   'LOG A SESSION: Time on track (chips or type minutes), How it went, the setup change with detail and How did it ride? (goes into your setup log). SESSIONS lists today. “End practice day” closes it.'],
   words:/\bpractice ?day\b|\bsession log\b|\blog (a )?session\b|\bstart practice\b/i},
  {screen:'Race prep',path:'Home → Race prep block, the race countdown, or race day → Full prep list',purpose:'Your own checklist from the week before to after the race, started from BAK’s list for your kind of riding. Saved to your account.',how:[
@@ -83,7 +83,7 @@ export const APP_GUIDE:AppGuideEntry[]=[
   words:/\bknow.?how\b|\bsetup guide\b|\blearn (screen|page|tab)\b|\bby what you feel\b|\bby adjustment\b/i},
  {screen:'Workshop',path:'Home → More → Workshop',purpose:'Step-by-step jobs for your exact bike, hands-free, plus your own job notes.',how:[
   '“Guided jobs”: pick a system, then a job. Each step: the instruction, CHECK BEFORE YOU MOVE ON, a notes box (some steps need a measurement), “Done — next step”; “All steps” shows progress, “Share the record” at the end. Progress saves on this phone.',
-  'Hands-free (from “Working on the bike?” in Ask BAK): Turn on, then say “next”, “back”, “repeat”, “where am I”, “record” and the number, or “Hey BAK” and a question; “stop listening” pauses. On iPhone the Lock Screen shows your step.',
+  'Hands-free (from “Working on the bike?” in Ask BAK): Turn on, then say “next”, “back”, “repeat”, “where am I”, “record” and the number, or “Hey BAK” and a question; “stop listening” pauses. On iPhone the Lock Screen shows your step; on Android a pinned notification does.',
   '“Check it with a photo”: Spark plug · Tire wear · Chain and sprockets · Fork seal / leak · Air filter · Brake pads. Job notes keep measurements, parts and a job recap for jobs without a guide.'],
   words:/\bworkshop\b|\bguided jobs?\b|\bhands.?free\b|\bvoice (mode|control)\b|\bsay .?next\b|\bhey bak\b|\bstep.by.step\b|\bcheck it with a photo\b|\bjob notes\b/i},
  {screen:'Specs and parts',path:'Home → More → Specs & parts',purpose:'The maker’s published figures for your exact bike, your settings beside stock, and the parts catalog.',how:[
@@ -146,18 +146,18 @@ export const APP_GUIDE:AppGuideEntry[]=[
   words:/\bexport\b|\bmy data\b|\bprivacy\b|\bterms of (service|use)\b|\bcontact support\b|\bcustomer support\b|\bsupport (page|link|email)\b|\bgdpr\b/i},
  {screen:'Sign in, Sign in with Apple, Delete account and Sign out',path:'Sign-in screen · Account → Delete account · Account → Sign out',purpose:'Get into your account, leave for good, or just sign this phone out.',how:['Sign in with email and password, or on iPhone tap “Sign in with Apple” for Face ID and no password. Apple sign-in uses the email on your Apple ID: if a BAK account already exists under that email it signs you into it; choosing Hide My Email makes a new, empty BAK account instead, so riders with an existing account should use the same email or sign in with email. Forgot password sends a reset link to your email.','Delete account: cancel any subscription in the App Store first, type DELETE, tap “Permanently delete account”, confirm. It removes your Garage, conversations and service history and can’t be undone; export first for a copy. Sign out keeps your account.'],
   words:/\bdelete (my )?account\b|\bclose (my )?account\b|\bremove (my )?account\b|\bsign out\b|\blog ?out\b|\bsign.?in\b|\bpassword\b|\bapple (id|sign.?in|login)\b|\bface ?id\b|\bhide my email\b/i},
- {screen:'Widgets',path:'iPhone Home Screen or Lock Screen → add widget → BAK MX (iPhone only; not on Android yet)',purpose:'Your bike and your next event at a glance, plus live Lock Screen updates. iPhone only for now: on Android there is no BAK MX widget yet.',how:[
+ {screen:'Widgets',path:'iPhone: Home Screen or Lock Screen → add widget → BAK MX · Android: Account → Home screen widget, or long-press the home screen → Widgets → BAK MX',purpose:'Your bike and your next event at a glance. iPhone also has live Lock Screen updates; Android shows race day and guided jobs as a pinned notification.',how:[
   '“Your bike”: hours, what service is next, your last setup change; with a race set, days to go and prep progress (when “Countdown on the widget” is on). Small, medium, Lock Screen rectangle and inline.',
   '“Next event”: the next event you’re going to, days until it, today’s race-day status. Small, medium, Lock Screen rectangle.',
   'Live on the Lock Screen and Dynamic Island: on race or practice day the next moto or session countdown, next checklist item and last thing logged; in a guided job, the step you’re on.'],
   words:/\bwidgets?\b|\block ?screen\b|\bdynamic island\b|\blive activit/i},
- {screen:'Siri and Shortcuts',path:'Say it to Siri, or add it in Shortcuts or the Action button (iPhone only)',purpose:'Ask BAK and log things without opening the app first. iPhone only: on Android, open BAK MX and use Ask BAK or the hands-free mode in guided jobs.',how:[
+ {screen:'Siri and Shortcuts',path:'iPhone: say it to Siri, or add it in Shortcuts or the Action button · Android: long-press the BAK MX app icon',purpose:'Ask BAK and log things without opening the app first. Android has no Siri: long-press the BAK MX icon for Ask BAK, Snap a part, Log a change and Service log (drag one onto the home screen to keep it there).',how:[
   '“Ask BAK MX” / “Ask BAK MX a question” / “Ask BAK MX about my bike”: Siri asks “What do you want to ask BAK?” and the answer opens in Ask BAK.',
   '“Snap a part for BAK MX” / “Show BAK MX a part” / “Take a photo for BAK MX”: opens the camera into Ask BAK.',
   '“Log a setup change in BAK MX” / “Log a change in BAK MX” / “Add to my setup log in BAK MX”: asks “What did you change?” and opens a new setup log entry.',
   '“What’s due on my bike in BAK MX” / “Open my service log in BAK MX” / “Show my BAK MX service log”: opens the Service log.',
   '“Log how the track rode in BAK MX” / “Tell BAK MX how the track rode” / “Add a track report in BAK MX”: opens How did the track ride?. Siri also knows “Back MX” and “BAK”.'],
-  words:/\bsiri\b|\bshortcuts?\b|\baction button\b|\bhey siri\b|\bvoice assistant\b/i},
+  words:/\bsiri\b|\bshortcuts?\b|\baction button\b|\bhey siri\b|\bvoice assistant\b|\blong.?press\b|\bapp icon\b/i},
 ];
 
 /** One entry as compact text for Ask BAK's input. */

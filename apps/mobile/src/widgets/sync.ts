@@ -1,4 +1,4 @@
-// Android and web: no Home Screen widget or Live Activity yet. iOS uses sync.ios.ts.
+// Web: no widgets or Live Activities. iOS uses sync.ios.ts, Android sync.android.ts.
 import type {Bike} from '../../../../shared/types';
 import type {RaceDay} from '../../../../shared/race-day';
 import type {GuideStepInfo,RaceActivityInfo,RaceWidgetInfo} from '../widgetData';

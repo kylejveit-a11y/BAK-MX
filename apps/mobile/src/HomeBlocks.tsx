@@ -401,8 +401,7 @@ export function RaceDayStart({visible,initialKind='race',bike,bikes,onSwitch,onS
    {!practice&&<View style={{gap:8}}>
     <DateField label="Race day" value={day} onChange={v=>setDay(v&&v>=today()?v:today())} years={[new Date().getFullYear(),new Date().getFullYear()+1]} quick={rideDays()}/>
    </View>}
-   {/* Home Screen widgets are iPhone-only for now. */}
-   {!practice&&Platform.OS==='ios'&&<View style={{flexDirection:'row',alignItems:'center',gap:12}}>
+   {!practice&&<View style={{flexDirection:'row',alignItems:'center',gap:12}}>
     <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>Countdown on the widget</Text><Text style={{color:'#7d8593',fontSize:12.5}}>Days to go and your prep progress on the BAK MX Home Screen widget.</Text></View>
     <Switch value={widget} onValueChange={setWidget}/>
    </View>}
