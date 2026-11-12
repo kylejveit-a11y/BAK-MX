@@ -2,7 +2,7 @@
 // no server; every call is answered from scripts/web-visual/mock-api.cjs (the same sample rider, bikes and answers the
 // website check uses). It is on only in a development build started with EXPO_PUBLIC_SAMPLE_MODE=1. In a release build
 // __DEV__ is false, so this file's code is never reached and Metro drops it.
-export const SAMPLE=__DEV__&&process.env.EXPO_PUBLIC_SAMPLE_MODE==='1';
+export const SAMPLE=(__DEV__||process.env.EXPO_PUBLIC_SAMPLE_BUILD==='1')&&process.env.EXPO_PUBLIC_SAMPLE_MODE==='1';
 
 import {ApiError} from '../apiError';
 type Mock={respond:(p:string,q:{get:(k:string)=>string|null},method:string,post:unknown)=>{status:number;body?:unknown;events?:{type:string;[k:string]:unknown}[]};USER:string};

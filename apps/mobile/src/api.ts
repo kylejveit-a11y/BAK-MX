@@ -13,7 +13,9 @@ export const supabase=mxProject&&key?createClient(url,key,{auth:{storage,persist
 // Development-only sample mode (see sample/sampleMode.ts). In a release build __DEV__ is false, so this is null and
 // Metro leaves the sample module and its data out of the app entirely.
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-const sample:typeof import('./sample/sampleMode')|null=__DEV__?require('./sample/sampleMode'):null;
+// A separate preview build (eas.json profile android-sample) can also carry it, so screens can be checked on a cloud
+// Android phone. EXPO_PUBLIC_SAMPLE_BUILD is inlined at build time; the store profiles never set it.
+const sample:typeof import('./sample/sampleMode')|null=(__DEV__||process.env.EXPO_PUBLIC_SAMPLE_BUILD==='1')?require('./sample/sampleMode'):null;
 const SAMPLE=!!sample?.SAMPLE;
 if(SAMPLE&&supabase&&sample){const session=sample.sampleSession();const auth=supabase.auth as unknown as Record<string,unknown>;
  auth.getSession=async()=>({data:{session},error:null});
