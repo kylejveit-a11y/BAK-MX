@@ -1,4 +1,5 @@
 import {readProgress} from './localProgress';
+import {PageSheet} from './PageSheet';
 import {garageModelInfo} from '../../../shared/garage-models';
 import {PublicGarage,type PublicBike} from './GarageSharing';
 import {RacePlate} from './RacePlate';
@@ -193,7 +194,9 @@ function PostView({p,open,onOpen,onLike,onMore,onRider,onLikers,onCount,report}:
    <Pressable accessibilityRole="button" accessibilityLabel={'View '+riderName(p.author)} onPress={onRider}><Avatar name={riderName(p.author)} uri={p.author.avatar_url} size={42}/></Pressable>
    <Pressable accessibilityRole="button" accessibilityLabel={'View '+riderName(p.author)} onPress={onRider} style={{flex:1,gap:2}}>
     <Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{riderName(p.author)} <Text style={{color:'#9aa2ae',fontWeight:'500'}}>· {ago(p.created_at)}</Text></Text>
-    <Text numberOfLines={1} style={{color:'#adb5c1',fontSize:12.5}}><Text style={{color:colors.text,fontWeight:'700'}}>{POST_CATEGORY_LABELS[p.category]}</Text>{p.bike_label?' · '+p.bike_label:p.author.location?' · '+p.author.location:''}</Text>
+    {(()=>{const cat=POST_CATEGORY_LABELS[p.category as keyof typeof POST_CATEGORY_LABELS]??'',where=p.bike_label||p.author.location||'';
+     // No stray dot when a post has no known category or no bike/place.
+     return cat||where?<Text numberOfLines={1} style={{color:'#adb5c1',fontSize:12.5}}>{cat?<Text style={{color:colors.text,fontWeight:'700'}}>{cat}</Text>:null}{cat&&where?' · ':''}{where}</Text>:null;})()}
    </Pressable>
    <Pressable accessibilityRole="button" accessibilityLabel="More options" hitSlop={12} onPress={onMore}><Icon name="more" size={22} color="#adb5c1"/></Pressable>
   </View>
@@ -228,7 +231,7 @@ function ComposeSheet({visible,profile,bike,seed,onClose,onPosted}:{visible:bool
  }
  const hint={build:'What you did to the bike and how it turned out',setup_question:'What the bike is doing, where, and what you’ve tried',ride_plan:'Where, when, and who should come',general:'What’s on your mind'}[category];
  const tool=(icon:'camera'|'image',label:string,onPress:()=>void)=><Pressable accessibilityRole="button" accessibilityLabel={label} disabled={photos.length>=4||!!uploading} onPress={onPress} hitSlop={8} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:7,paddingVertical:8,paddingHorizontal:4,opacity:photos.length>=4||uploading?0.35:pressed?0.6:1})}><Icon name={icon} size={23} color={colors.text}/><Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{label}</Text></Pressable>;
- return <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
+ return <PageSheet visible={visible} animationType="slide" onRequestClose={onClose}>
   {/* A page sheet sits below the status bar, so KeyboardAvoidingView under-measures it and the keyboard covered the photo
       buttons. The sheet's bottom is the screen's bottom: lift the content by exactly the keyboard's height instead. */}
   <View style={{flex:1,backgroundColor:colors.bg,paddingBottom:Platform.OS==='ios'?kb:0}}>
@@ -263,7 +266,7 @@ function ComposeSheet({visible,profile,bike,seed,onClose,onPosted}:{visible:bool
     <Text numberOfLines={2} style={{flex:1,minWidth:0,textAlign:'right',color:'#9aa2ae',fontSize:12.5,lineHeight:16}}>{photos.length?`${photos.length}/4 photos${clip?' + clip':''}`:clip?'1 clip':body.length>3500?`${4000-body.length} left`:'4 photos or a clip'}</Text>
    </View>
   </View>
- </Modal>;
+ </PageSheet>;
 }
 
 function Comments({postId,onCount,onLikers}:{postId:string;onCount:(n:number)=>void;onLikers:(path:string)=>void}){
@@ -550,7 +553,7 @@ function RiderListSheet({list,onClose,onRider}:{list:{title:string;path?:string;
  const [riders,setRiders]=useState<ListedRider[]|null>(null),[notice,setNotice]=useState('');
  useEffect(()=>{setNotice('');if(!list){setRiders(null);return;}if(list.riders){setRiders(list.riders);return;}setRiders(null);let live=true;
   api<ListedRider[]>(list.path!).then(r=>{if(live)setRiders(r);}).catch(e=>{if(live)setNotice(errorText(e));});return()=>{live=false;};},[list?.path,list?.title]);
- return <Modal visible={!!list} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
+ return <PageSheet visible={!!list} animationType="slide" onRequestClose={onClose}>
   <View style={{flex:1,backgroundColor:colors.bg}}>
    <View style={{flexDirection:'row',alignItems:'center',paddingHorizontal:16,paddingTop:Platform.OS==='ios'?14:insets.top+10,paddingBottom:12,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#262b34'}}>
     <View style={{flex:1}}/><Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>{list?.title}</Text>
@@ -567,5 +570,5 @@ function RiderListSheet({list,onClose,onRider}:{list:{title:string;path?:string;
     {!!list?.footer&&<Copy>{list.footer}</Copy>}
    </ScrollView>
   </View>
- </Modal>;
+ </PageSheet>;
 }

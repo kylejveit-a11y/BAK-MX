@@ -2,6 +2,7 @@
 // like a parent's child) on race day and practice day, anchored to the next gate drop. The profile (weight, height, age)
 // is saved to the account and cached on the phone for weak signal at the track; today's gate times and toggles are kept
 // on the phone. The rules are in shared/fuel-plan.ts; src/FuelPlan.tsx is the website's version.
+import {PageSheet} from './PageSheet';
 import React,{useEffect,useMemo,useState} from 'react';
 import {Alert,Modal,ScrollView,Text,TextInput,View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -161,7 +162,7 @@ function DayBefore({plan,gates}:{plan:FuelPlan;gates:Gate[]}){
 function SheetFrame({visible,title,onClose,footer,children}:{visible:boolean;title:string;onClose:()=>void;footer?:React.ReactNode;children:React.ReactNode}){
  const insets=useSafeAreaInsets(),kb=useKeyboardHeight(),[footH,setFootH]=useState(0);
  const footBottom=kb>0?kb+8:insets.bottom+10;
- return <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
+ return <PageSheet visible={visible} animationType="slide" onRequestClose={onClose}>
   <View style={{flex:1,backgroundColor:colors.bg,paddingTop:18}}>
    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:20,paddingBottom:6}}>
     <View style={{gap:6}}><Text style={{color:colors.text,fontSize:28,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.8}}>{title}</Text><View style={{flexDirection:'row',gap:4}}><MetalMark width={26}/><MetalMark width={8} dim/></View></View>
@@ -171,7 +172,7 @@ function SheetFrame({visible,title,onClose,footer,children}:{visible:boolean;tit
    {footer&&<View onLayout={e=>setFootH(e.nativeEvent.layout.height)} pointerEvents="box-none" style={{position:'absolute',left:12,right:12,bottom:footBottom}}><Glass strong style={{borderRadius:26}}><View style={{padding:12}}>{footer}</View></Glass></View>}
    <KeyboardDoneBar/>
   </View>
- </Modal>;
+ </PageSheet>;
 }
 const Num=({label,value,onChange,width}:{label:string;value:string;onChange:(v:string)=>void;width?:number})=><View style={{flex:width?undefined:1,width,gap:2}}><Label>{label}</Label><TextInput value={value} onChangeText={onChange} keyboardType="decimal-pad" maxLength={6} accessibilityLabel={label} inputAccessoryViewID={DONE_BAR} style={input}/></View>;
 

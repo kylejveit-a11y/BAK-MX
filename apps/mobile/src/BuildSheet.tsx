@@ -1,4 +1,5 @@
 import React,{useEffect,useMemo,useState} from 'react';
+import {PageSheet} from './PageSheet';
 import {Modal,View,Text,ScrollView,TextInput,ActivityIndicator,KeyboardAvoidingView,Platform,Linking} from 'react-native';
 import {Pressable} from './Touch';
 import type {Bike} from '../../../shared/types';
@@ -145,7 +146,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save,persist}:{system
  const partRow=(p:InstalledPart,inRail=true)=><PartRow inRail={inRail} key={keyOf(p)} part={p} choice={p.r?choices.find(c=>c.r===p.r):undefined} flagged={!p.o&&checks.some(c=>c.parts.some(x=>keyOf(x)===keyOf(p)))} onToggle={()=>toggle(p)} onRemove={()=>setPicked(picked.filter(x=>keyOf(x)!==keyOf(p)))} onColor={k=>setPicked(picked.map(x=>keyOf(x)===keyOf(p)?{...x,k}:x))}/>;
  const title=screen.id==='home'?meta.label:screen.id==='types'?'What kind of part?':screen.id==='options'?(screen.type??'Other parts'):screen.id==='work'?'Who did it?':screen.id==='detail'?screen.work.label:'Add it yourself';
  const sub=screen.id==='home'?meta.hint:screen.id==='types'||screen.id==='options'?`Listed for the ${bike.model_year} ${bike.manufacturer} ${bike.model}`:screen.id==='work'?screen.work.label:screen.id==='detail'?(screen.who||'Who did it not recorded'):'';
- return <Modal visible animationType="slide" presentationStyle="pageSheet" onRequestClose={closeSheet}>
+ return <PageSheet visible animationType="slide" onRequestClose={closeSheet}>
   <KeyboardAvoidingView style={{flex:1,backgroundColor:colors.bg}} behavior={Platform.OS==='ios'?'padding':undefined}>
    <View style={st.bar}>
     {stack.length>1?<Pressable accessibilityRole="button" onPress={back} hitSlop={12}><View style={{flexDirection:'row',alignItems:'center',gap:4}}><Icon name="chevronLeft" size={18} color={colors.accent} weight={2.1}/><Text style={st.back}>Back</Text></View></Pressable>:<View/>}
@@ -188,7 +189,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save,persist}:{system
     {screen.id==='custom'&&<Custom system={system} type={screen.type} onAdd={p=>addParts([p])}/>}
    </ScrollView>}
   </KeyboardAvoidingView>
- </Modal>;
+ </PageSheet>;
 }
 
 /** A fitted part: what it is in plain words, who makes it, on or off the bike, and its details on tap. */

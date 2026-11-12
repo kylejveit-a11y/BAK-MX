@@ -1,4 +1,5 @@
 import React,{useEffect,useState} from 'react';
+import {PageSheet} from './PageSheet';
 import {ActivityIndicator,Image,Modal,Platform,Pressable as RNPressable,ScrollView,Text,View,useWindowDimensions} from 'react-native';
 import {useVideoPlayer,VideoView} from 'expo-video';
 import Purchases,{PRODUCT_CATEGORY} from 'react-native-purchases';
@@ -65,7 +66,7 @@ export function PhotoEditSheet({photo,owner,onUse,onClose}:{photo:Photo|null;own
    await Purchases.purchaseStoreProduct(p);await api('/api/mobile/sync-entitlement','POST',{});await load();}
   catch(e){const cancelled=(e as {userCancelled?:boolean})?.userCancelled;if(!cancelled)setNotice(errorText(e));}finally{setBuying('');}
  }
- return <Modal visible animationType="slide" presentationStyle="pageSheet" onRequestClose={()=>{if(!busy)onClose();}}>
+ return <PageSheet visible animationType="slide" onRequestClose={()=>{if(!busy)onClose();}}>
   <View style={{flex:1,backgroundColor:colors.bg,paddingTop:Platform.OS==='ios'?14:insets.top+10}}>
    <View style={{flexDirection:'row',alignItems:'center',paddingHorizontal:16,paddingBottom:12}}>
     <RNPressable accessibilityRole="button" disabled={busy} hitSlop={10} onPress={onClose} style={{flex:1}}><Text style={{color:'#b2b9c4',fontSize:16}}>Close</Text></RNPressable>
@@ -91,5 +92,5 @@ export function PhotoEditSheet({photo,owner,onUse,onClose}:{photo:Photo|null;own
      :<Button disabled={busy||!usage||out||!agreed} title={busy?'Editing…':`Make it ${EDIT_STYLE_LABELS[style].title}`} onPress={()=>void run()}/>}
    </ScrollView>
   </View>
- </Modal>;
+ </PageSheet>;
 }

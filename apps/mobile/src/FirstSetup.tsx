@@ -1,6 +1,7 @@
 // The 60-second first setup: four taps about the rider (weight in gear, level, kind of riding, usual dirt), saved to the
 // bike, then BAK writes a starting setup from the bike's published settings. New riders get to a useful answer before they
 // have filled in anything else; the same sheet reopens from Home for a fresh starting point any time.
+import {PageSheet} from './PageSheet';
 import React,{useEffect,useState} from 'react';
 import {Keyboard,Modal,ScrollView,StyleSheet,Text,TextInput,View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -34,7 +35,7 @@ export function FirstSetupSheet({visible,bike,onClose,onSaved,onAsk}:{visible:bo
  const label=(t:string,sub?:string)=><View style={{gap:2}}><Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>{t}</Text>{!!sub&&<Text style={{color:'#8f97a4',fontSize:13}}>{sub}</Text>}</View>;
  // The sheet is a column: the questions scroll, the Save button sits in a fixed footer above the home indicator, so it is
  // always whole and tappable; it never ends up half under the bottom safe area.
- return <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
+ return <PageSheet visible={visible} animationType="slide" onRequestClose={onClose}>
   <View style={{flex:1,backgroundColor:colors.bg}}>
   <ScrollView keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets style={{flex:1}} contentContainerStyle={{padding:20,paddingBottom:24,gap:22}}>
    <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Text style={{color:colors.text,fontSize:26,fontWeight:'900',fontStyle:'italic'}}>Starting setup</Text><Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.muted,fontSize:16}}>Close</Text></Pressable></View>
@@ -52,5 +53,5 @@ export function FirstSetupSheet({visible,bike,onClose,onSaved,onAsk}:{visible:bo
    <Button disabled={busy||!ready} title={busy?'Saving…':'Save and get my setup'} onPress={()=>void go()}/>
   </View>
   </View>
- </Modal>;
+ </PageSheet>;
 }

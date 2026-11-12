@@ -25,10 +25,12 @@ export function Glass({style,children,strong=false}:{style?:StyleProp<ViewStyle>
 
 /** Height of the keyboard while it is up, 0 otherwise. */
 export function useKeyboardHeight(){
- const [h,setH]=useState(0);
+ const [h,setH]=useState(0),navBar=useSafeAreaInsets().bottom;
  useEffect(()=>{const show=Platform.OS==='ios'?'keyboardWillShow':'keyboardDidShow',hide=Platform.OS==='ios'?'keyboardWillHide':'keyboardDidHide';
   const a=Keyboard.addListener(show,e=>setH(e.endCoordinates.height)),b=Keyboard.addListener(hide,()=>setH(0));return()=>{a.remove();b.remove();};},[]);
- return h;
+ // Android draws edge to edge and reports the keyboard without the gesture bar under it, so a box placed on top of the
+ // keyboard sat a gesture bar's height too low and the keyboard covered its bottom edge. Add that strip back there.
+ return Platform.OS==='android'&&h>0?h+navBar:h;
 }
 
 export const TAB_H=62;
@@ -78,7 +80,8 @@ function TabGlow(){
 export function GlassHeader(){
  const line={borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'rgba(255,255,255,0.10)'};
  if(Platform.OS==='ios')return <BlurView intensity={80} tint="systemChromeMaterialDark" style={[StyleSheet.absoluteFill,{overflow:'hidden'},line]}><View style={[StyleSheet.absoluteFill,{backgroundColor:'rgba(6,7,9,0.86)'}]}/><HeaderEdge/></BlurView>;
- return <View style={[StyleSheet.absoluteFill,{backgroundColor:'rgba(6,7,9,0.96)'},line]}><HeaderEdge/></View>;
+ // Android has no blur behind it, so even 4% see-through let white page text read through the logo. Solid there.
+ return <View style={[StyleSheet.absoluteFill,{backgroundColor:'#060709'},line]}><HeaderEdge/></View>;
 }
 /** A faint wash of the bike's colour rising from the header's bottom edge, brightest in the middle. */
 function HeaderEdge(){

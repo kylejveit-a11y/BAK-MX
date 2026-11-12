@@ -1,5 +1,6 @@
 // Home, the rider's way: blocks they can turn on, off and reorder (saved on this phone), and race-day mode, which turns Home
 // into a track-day screen: today's setup, a between-motos checklist and a fast change log that goes into the setup log.
+import {PageSheet} from './PageSheet';
 import React,{useCallback,useEffect,useState} from 'react';
 import {Keyboard,Modal,Platform,ScrollView,Text,TextInput,View} from 'react-native';
 import DateTimePicker,{type DateTimePickerEvent} from '@react-native-community/datetimepicker';
@@ -44,7 +45,7 @@ export function HomeEditor({visible,layout,onChange,onReset,onClose}:{visible:bo
  const insets=useSafeAreaInsets();
  const move=(i:number,d:-1|1)=>{const j=i+d;if(j<0||j>=layout.length)return;const next=[...layout];[next[i],next[j]]=[next[j],next[i]];onChange(next);};
  const arrow=(name:IconName,label:string,disabled:boolean,onPress:()=>void)=><Pressable accessibilityRole="button" accessibilityLabel={label} disabled={disabled} hitSlop={6} onPress={onPress} style={({pressed})=>({width:34,height:34,borderRadius:17,alignItems:'center',justifyContent:'center',borderWidth:1,borderColor:'#2f3540',opacity:disabled?0.25:pressed?0.6:1})}><Icon name={name} size={16} color={colors.text}/></Pressable>;
- return <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
+ return <PageSheet visible={visible} animationType="slide" onRequestClose={onClose}>
   <View style={{flex:1,backgroundColor:colors.bg,paddingTop:20,paddingBottom:insets.bottom+12}}>
    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:20,paddingBottom:12}}>
     <Text style={{color:colors.text,fontSize:24,fontWeight:'900',fontStyle:'italic'}}>Edit Home</Text>
@@ -61,7 +62,7 @@ export function HomeEditor({visible,layout,onChange,onReset,onClose}:{visible:bo
     <Pressable accessibilityRole="button" onPress={onReset} style={{paddingVertical:18}}><Text style={{color:colors.muted,fontSize:15}}>Reset to the standard layout</Text></Pressable>
    </ScrollView>
   </View>
- </Modal>;
+ </PageSheet>;
 }
 
 // ------------------------------------------------------------------ blocks
@@ -372,7 +373,7 @@ export function RaceDayStart({visible,initialKind='race',bike,bikes,onSwitch,onS
  useEffect(()=>{if(!visible)return;api<KnownTrack[]>('/api/tracks').then(r=>{if(Array.isArray(r)&&r.length){setDir(r);try{writeProgress('device','track-directory',r);}catch{}}}).catch(()=>{});},[visible]);
  const known=knownTrack(dir,track),suggestions=trackSuggestions(dir,track);
  const name=(b:Bike)=>b.nickname||`${b.model_year} ${b.manufacturer} ${b.model}`;
- return <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
+ return <PageSheet visible={visible} animationType="slide" onRequestClose={onClose}>
   <ScrollView keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets style={{flex:1,backgroundColor:colors.bg}} contentContainerStyle={{padding:20,paddingBottom:insets.bottom+20,gap:18}}>
    <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Text style={{color:colors.text,fontSize:26,fontWeight:'900',fontStyle:'italic'}}>{practice?'Practice day':'Race day'}</Text><Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.muted,fontSize:16}}>Cancel</Text></Pressable></View>
    <View accessibilityRole="tablist" style={{flexDirection:'row',borderWidth:1,borderColor:'#2f3540',borderRadius:20,padding:3,alignSelf:'flex-start'}}>
@@ -400,11 +401,12 @@ export function RaceDayStart({visible,initialKind='race',bike,bikes,onSwitch,onS
    {!practice&&<View style={{gap:8}}>
     <DateField label="Race day" value={day} onChange={v=>setDay(v&&v>=today()?v:today())} years={[new Date().getFullYear(),new Date().getFullYear()+1]} quick={rideDays()}/>
    </View>}
-   {!practice&&<View style={{flexDirection:'row',alignItems:'center',gap:12}}>
+   {/* Home Screen widgets are iPhone-only for now. */}
+   {!practice&&Platform.OS==='ios'&&<View style={{flexDirection:'row',alignItems:'center',gap:12}}>
     <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>Countdown on the widget</Text><Text style={{color:'#7d8593',fontSize:12.5}}>Days to go and your prep progress on the BAK MX Home Screen widget.</Text></View>
     <Switch value={widget} onValueChange={setWidget}/>
    </View>}
    <Button title={practice?'Start practice day':day===today()?'Start race day':'Set up this race'} onPress={()=>{onStart(track,practice?today():day,widget,kind);setTrack('');}}/>
   </ScrollView>
- </Modal>;
+ </PageSheet>;
 }
