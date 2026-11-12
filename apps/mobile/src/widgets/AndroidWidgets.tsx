@@ -23,14 +23,14 @@ export function BikeWidgetAndroid({p,wide}:{p:BikeProps;wide:boolean}){
  const left=<FlexWidget style={{flex:1,height:'match_parent',flexDirection:'column',justifyContent:'space-between'}}>
   <Logo/>
   <FlexWidget style={{flexDirection:'column'}}>
-   <TextWidget text={p.bike} maxLines={1} truncate="END" style={{fontSize:13,fontWeight:'600',color:C.soft}}/>
+   <TextWidget text={p.bike} maxLines={wide?2:1} truncate="END" style={{fontSize:wide?12.5:13,fontWeight:'600',color:C.soft}}/>
    <FlexWidget style={{flexDirection:'row',alignItems:'flex-end'}}>
     <TextWidget text={p.hours} style={{fontSize:wide?40:36,fontWeight:'900',color:C.text}}/>
     <TextWidget text=" HRS" style={{fontSize:12,fontWeight:'900',color:C.accent,paddingBottom:7}}/>
    </FlexWidget>
   </FlexWidget>
   <FlexWidget style={{paddingHorizontal:10,paddingVertical:5,borderRadius:14,backgroundColor:(!wide&&p.raceSet)?C.pillSoft:pillBg}}>
-   <TextWidget text={(!wide&&p.raceSet)?(p.raceWhen??''):p.next} maxLines={1} truncate="END" style={{fontSize:12,fontWeight:'600',color:C.text}}/>
+   <TextWidget text={(!wide&&p.raceSet)?(p.raceWhen??''):p.next} maxLines={wide?2:1} truncate="END" style={{fontSize:wide?11.5:12,fontWeight:'600',color:C.text}}/>
   </FlexWidget>
  </FlexWidget>;
  return <FlexWidget clickAction="OPEN_URI" clickActionData={{uri:'bakmx://service'}} style={{height:'match_parent',width:'match_parent',padding:14,borderRadius:22,backgroundGradient:steel,flexDirection:'row',flexGap:12}}>
@@ -45,7 +45,7 @@ export function BikeWidgetAndroid({p,wide}:{p:BikeProps;wide:boolean}){
     <TextWidget text={p.change} maxLines={3} truncate="END" style={{fontSize:14,fontWeight:'600',color:p.changeSet?C.text:C.soft}}/>
     <TextWidget text={p.changeWhen} maxLines={1} style={{fontSize:11.5,color:C.muted}}/>
    </FlexWidget>}
-   {p.raceSet&&p.raceDone?<Label>{p.raceDone.toUpperCase()}</Label>:p.nextSet?<TextWidget text={p.next} maxLines={1} truncate="END" style={{fontSize:11.5,fontWeight:'600',color:p.nextUrgent?C.urgent:C.muted}}/>:<TextWidget text=" " style={{fontSize:4}}/>}
+   {p.raceSet&&p.raceDone?<Label>{p.raceDone.toUpperCase()}</Label>:<TextWidget text=" " style={{fontSize:4}}/>}
   </FlexWidget>:null}
  </FlexWidget>;
 }

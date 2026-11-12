@@ -53,7 +53,10 @@ const CHANNEL='live',GUIDE_ID='bak-live-guide',RACE_ID='bak-live-race',RACE_SOON
 let channelReady=false;
 async function canNotify():Promise<boolean>{
  try{
-  const p=await Notifications.getPermissionsAsync();if(!p.granted)return false;
+  let p=await Notifications.getPermissionsAsync();
+  // Race day or a guided job is the moment the rider wants this, so ask once here if they never answered.
+  if(!p.granted&&p.canAskAgain&&p.status==='undetermined')p=await Notifications.requestPermissionsAsync();
+  if(!p.granted)return false;
   if(!channelReady){
    // Quiet: no sound or buzz for the pinned card itself, so it can update without nagging.
    await Notifications.setNotificationChannelAsync(CHANNEL,{name:'Race day and guided jobs',importance:Notifications.AndroidImportance.LOW,showBadge:false,sound:null,vibrationPattern:null,enableVibrate:false});

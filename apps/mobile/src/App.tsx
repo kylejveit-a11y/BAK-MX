@@ -644,7 +644,7 @@ function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSum
 function AndroidWidgetRow(){
  const [note,setNote]=useState('');
  const add=()=>{try{const {requestPinWidget}=require('react-native-android-widget') as typeof import('react-native-android-widget');
-  void requestPinWidget({widgetName:'BakBike'}).then(ok=>setNote(ok?'':'This home screen can’t add widgets from an app. Long-press an empty spot on the home screen, tap Widgets, then find BAK MX.')).catch(()=>setNote('Long-press an empty spot on the home screen, tap Widgets, then find BAK MX.'));}catch{setNote('Long-press an empty spot on the home screen, tap Widgets, then find BAK MX.');}};
+  void requestPinWidget({widgetName:'BakBike'}).then(ok=>setNote(ok?'Your phone asks to place it: tap Add. If nothing pops up, long-press an empty spot on the home screen, tap Widgets, then find BAK MX.':'This home screen can’t add widgets from an app. Long-press an empty spot on the home screen, tap Widgets, then find BAK MX.')).catch(()=>setNote('Long-press an empty spot on the home screen, tap Widgets, then find BAK MX.'));}catch{setNote('Long-press an empty spot on the home screen, tap Widgets, then find BAK MX.');}};
  return <View style={{gap:6}}>
   <AccountRow icon="gauge" title="Home screen widget" summary="Hours, next service and your next race at a glance" onPress={add}/>
   {note?<Text style={{color:colors.muted,fontSize:13,lineHeight:18,paddingHorizontal:4}}>{note}</Text>:null}
