@@ -45,7 +45,7 @@ test('app questions find their section; bike questions get nothing',()=>{
  for(const [q,screen] of [
   ['what does X do in the app','index'],['what is the build sheet for','Build sheet'],['where is the service log','Service log'],['how do I turn off vibration','Preferences'],['how do I turn on notifications','Notifications'],
   ['what\'s the difference between quick and full answers','Preferences'],['how do I change units','Preferences'],['can you explain the build sheet','Build sheet'],['what are the widgets','Widgets'],['how do I use siri with bak','Siri and Shortcuts'],
-  ['how do I delete my account','Delete account and Sign out'],['what does reduce motion do','Preferences'],['How do I add a second bike in the app?','Garage'],['how do I share my garage','Photos'],['how do I block a rider','Community'],
+  ['how do I delete my account','Sign in, Sign in with Apple, Delete account and Sign out'],['can I sign in with face id','Sign in, Sign in with Apple, Delete account and Sign out'],['what does reduce motion do','Preferences'],['How do I add a second bike in the app?','Garage'],['how do I share my garage','Photos'],['how do I block a rider','Community'],
   ['how do I rsvp to an event','Events'],['what is race mode','Ask BAK'],['how do I start a practice day','Practice day'],['how do I set up the fuel plan','Fuel plan'],['what are tuning notes','Notes'],['how do I use hands-free in the workshop','Workshop'],['what does dark mode do','App colour']] as const){
   assert.ok(isAppHowTo(q),`${q} should be an app how-to`);
   const got=appGuideFor(q)!;

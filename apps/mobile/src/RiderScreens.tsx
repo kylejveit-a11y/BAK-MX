@@ -1,3 +1,4 @@
+import {readProgress} from './localProgress';
 import {garageModelInfo} from '../../../shared/garage-models';
 import {PublicGarage,type PublicBike} from './GarageSharing';
 import {RacePlate} from './RacePlate';
@@ -68,7 +69,7 @@ function useProfile(){
 
 /* ------------------------------------------------------------------ Profile */
 export function ProfileEditor({profile,onSaved}:{profile:Profile|null;onSaved:(p:Profile)=>void}){
- const [handle,setHandle]=useState(profile?.handle??''),[name,setName]=useState(profile?.display_name??''),[location,setLocation]=useState(profile?.location??''),[riding,setRiding]=useState(profile?.riding_class??''),[bio,setBio]=useState(profile?.bio??''),[number,setNumber]=useState(profile?.race_number??''),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[agreed,setAgreed]=useState(false);
+ const [handle,setHandle]=useState(profile?.handle??''),[name,setName]=useState(profile?.display_name??readProgress<string>('device','apple-name','')),[location,setLocation]=useState(profile?.location??''),[riding,setRiding]=useState(profile?.riding_class??''),[bio,setBio]=useState(profile?.bio??''),[number,setNumber]=useState(profile?.race_number??''),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[agreed,setAgreed]=useState(false);
  useEffect(()=>{setHandle(profile?.handle??'');setName(profile?.display_name??'');setLocation(profile?.location??'');setRiding(profile?.riding_class??'');setBio(profile?.bio??'');setNumber(profile?.race_number??'');},[profile?.user_id,profile?.updated_at]);
  async function save(){
   if(busy)return;setBusy(true);setNotice('');

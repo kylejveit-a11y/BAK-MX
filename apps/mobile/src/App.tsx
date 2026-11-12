@@ -4,6 +4,7 @@ import {plainName} from '../../../shared/plain-facts';
 import {chatTopic} from '../../../shared/chat-topic';
 import {SpecsView} from './SpecsScreen';
 import {authErrorText} from '../../../shared/auth-errors';
+import {AppleSignInButton} from './AppleSignIn';
 import {checkVin,cleanVin} from '../../../shared/vin';
 import {BIKE_EDITIONS,BIKE_MARKETS,sortBikeNames} from '../../../shared/bike-identity';
 import {RichText,Disclosure} from './RichText';
@@ -168,8 +169,9 @@ function Auth({recovery,done,initialError}:{recovery:boolean;done:()=>void;initi
   {(recovery||mode!=='reset')&&<View style={{gap:6}}><Field label={recovery?'New password':'Password'} secureTextEntry autoComplete={recovery||mode==='signup'?'new-password':'current-password'} placeholder={recovery||mode==='signup'?'Choose a password':'Your password'} value={password} onChangeText={setPassword}/>{(recovery||mode==='signup')&&<Text style={{color:password&&password.length<8?'#f5cf72':'#7d8593',fontSize:12.5}}>{password&&password.length<8?`${8-password.length} more ${8-password.length===1?'character':'characters'}`:'At least 8 characters. A short phrase is easy to remember.'}</Text>}</View>}
   {message}
   {recovery?<Button disabled={busy} title={busy?'Please wait…':'Save new password'} onPress={()=>void act('update')}/>
-  :mode==='login'?<><Button disabled={busy} title={busy?'Please wait…':'Sign in'} onPress={()=>void act('login')}/><View style={{flexDirection:'row',justifyContent:'space-between'}}><Pressable accessibilityRole="button" disabled={busy} hitSlop={8} onPress={()=>go('signup')}><Text style={{color:colors.text,fontWeight:'700'}}>Create an account</Text></Pressable><Pressable accessibilityRole="button" disabled={busy} hitSlop={8} onPress={()=>go('reset')}><Text style={{color:colors.muted,fontWeight:'600'}}>Forgot password?</Text></Pressable></View></>
+  :mode==='login'?<><Button disabled={busy} title={busy?'Please wait…':'Sign in'} onPress={()=>void act('login')}/><AppleSignInButton mode="login" busy={busy} onStart={()=>{setBusy(true);setNotice('');}} onDone={()=>setBusy(false)} onError={e=>{setWarn(true);setNotice(authErrorText(e));}}/><View style={{flexDirection:'row',justifyContent:'space-between'}}><Pressable accessibilityRole="button" disabled={busy} hitSlop={8} onPress={()=>go('signup')}><Text style={{color:colors.text,fontWeight:'700'}}>Create an account</Text></Pressable><Pressable accessibilityRole="button" disabled={busy} hitSlop={8} onPress={()=>go('reset')}><Text style={{color:colors.muted,fontWeight:'600'}}>Forgot password?</Text></Pressable></View></>
   :<>{!sent&&<Button disabled={busy} title={busy?'Please wait…':mode==='signup'?'Create account':'Send reset link'} onPress={()=>void act(mode)}/>}
+   {mode==='signup'&&!sent&&<AppleSignInButton mode="signup" busy={busy} onStart={()=>{setBusy(true);setNotice('');}} onDone={()=>setBusy(false)} onError={e=>{setWarn(true);setNotice(authErrorText(e));}}/>}
    {mode==='signup'&&<Text style={{color:colors.muted,fontSize:13,lineHeight:19}}>You must be 13 or older. By creating an account you agree to the <Text style={{color:colors.text}} onPress={()=>{if(terms)void Linking.openURL(terms).catch(()=>{});}}>Terms</Text> and <Text style={{color:colors.text}} onPress={()=>{if(privacy)void Linking.openURL(privacy).catch(()=>{});}}>Privacy Policy</Text>.</Text>}
    <Pressable accessibilityRole="button" disabled={busy} hitSlop={8} onPress={()=>go('login')}><Text style={{color:colors.text,fontWeight:'700'}}>{mode==='signup'?'Have an account? Sign in':'Back to sign in'}</Text></Pressable></>}
   {!recovery&&mode==='login'&&<SupportPicker pick={pick} onPick={setPick} onStart={()=>go('signup')}/>}
