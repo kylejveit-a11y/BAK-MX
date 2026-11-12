@@ -1,13 +1,15 @@
 # BAK MX Privacy Policy
 
-Effective date: November 6, 2026
+Effective date: November 12, 2026
 
 BAK MX is operated by Kyle Veit, Tarpon Springs, Florida, USA ("BAK MX", "we", "us"). This policy explains what we collect
-when you use the BAK MX iPhone app and the website at bakmx.com, how we use it, and the choices you have.
+when you use the BAK MX app for iPhone and Android and the website at bakmx.com, how we use it, and the choices you have.
 
 ## What we collect
 
-**Account.** Your email address and password. Passwords are handled by our sign-in provider, Supabase; we never see them.
+**Account.** Your email address and password, or your Apple ID sign-in if you choose Sign in with Apple (Apple gives us your email or a private relay address, and your name the first time). Passwords are handled by our sign-in provider, Supabase; we never see them. For Sign in with Apple we keep a token from Apple so we can revoke the sign-in when you delete your account.
+
+**Notifications.** If you turn on reminders, your phone's push notification token, time zone and app version, so reminders reach the right phone at the right time.
 
 **Your bikes and Garage.** Make, model, year, variant and region; nickname and engine hours; parts and work on your build
 sheet; suspension, gearing, tire and rider settings you enter (including weight in riding gear and height if you add them);
@@ -28,7 +30,7 @@ comments, likes, events you create and RSVPs, direct messages with other riders,
 **Feedback** you send us.
 
 **Purchases.** Plan, subscription status, product, store and renewal dates; credit packs bought, free question sets started,
-and your question and credit balance. App Store purchases are processed by Apple and managed through RevenueCat; web purchases
+and your question and credit balance. App Store and Google Play purchases are processed by Apple or Google and managed through RevenueCat; web purchases
 are processed by Stripe. We never receive or store your card number.
 
 We do not use advertising SDKs, do not track you across other companies' apps or websites, and do not sell or rent personal
@@ -54,7 +56,7 @@ for you to tap Post. That data is not used to train the provider's models.
 ## Who we share it with
 
 Service providers that run BAK MX for us, only as needed: Supabase (database, file storage and sign-in), Vercel (hosting),
-OpenAI (writing Ask BAK answers and making photo edits you ask for), RevenueCat and Apple (App Store purchases) and Stripe (web purchases). Other riders see what
+OpenAI (writing Ask BAK answers and making photo edits you ask for), RevenueCat, Apple and Google (App Store and Google Play purchases) and Stripe (web purchases). Other riders see what
 you post in the community (profile, posts, comments, events) and the messages you send them. We may disclose information when
 the law requires it or to protect riders and the service.
 
@@ -62,8 +64,8 @@ the law requires it or to protect riders and the service.
 
 - **Export:** Account → Export my data gives you a copy of your account data.
 - **Delete:** Account → Permanently delete account deletes your account and its data, including your photos and manuals.
-  Deleting cancels a web (Stripe) subscription; App Store subscriptions are managed by Apple, so cancel them in your Apple ID
-  subscriptions.
+  Deleting cancels a web (Stripe) subscription; App Store and Google Play subscriptions are managed by Apple or Google, so
+  cancel them in your Apple ID or Google Play subscriptions. If you can't sign in, see bakmx.com/delete-account.
 - **Edit:** change or remove Garage details, photos, posts and your profile at any time.
 - **Block and report** other riders from their profile or post.
 
