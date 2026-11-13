@@ -3,13 +3,14 @@
 // account. If the Apple ID's email matches an existing BAK account made with email and password, Supabase joins the
 // two, so the rider keeps their Garage. iPhone only; on other platforms this draws nothing.
 import React,{useEffect,useState} from 'react';
-import {Platform,Text,View} from 'react-native';
+import {Image,Platform,StyleSheet,Text,View} from 'react-native';
+import Svg,{Defs,LinearGradient,Rect,Stop} from 'react-native-svg';
+import {Pressable} from './Touch';
 import * as AppleAuthentication from 'expo-apple-authentication';
 import * as Crypto from 'expo-crypto';
 import {api,supabase} from './api';
 import {writeProgress} from './localProgress';
 const DEVICE='device';
-import {colors} from './ui';
 
 /** A one-off random nonce, sent to Apple hashed and to Supabase raw, which ties the token to this very sign-in. */
 async function makeNonce(){
@@ -40,20 +41,49 @@ export async function signInWithApple():Promise<'signed_in'|'cancelled'>{
  return 'signed_in';
 }
 
-/** The Apple button with BAK's words under it. Draws nothing where Apple sign-in is unavailable. */
+/** Black brushed steel, the same shape and light as BAK's blue buttons, with Apple's logo and wording (Apple allows a
+ *  custom black "Sign in with Apple" button). Draws nothing where Apple sign-in is unavailable. */
 export function AppleSignInButton({busy,onStart,onDone,onError,mode}:{busy:boolean;onStart:()=>void;onDone:()=>void;onError:(e:unknown)=>void;mode:'login'|'signup'}){
  const [available,setAvailable]=useState(false);
  useEffect(()=>{if(Platform.OS!=='ios')return;let live=true;AppleAuthentication.isAvailableAsync().then(ok=>{if(live)setAvailable(ok);}).catch(()=>{});return()=>{live=false;};},[]);
  if(!available)return null;
- return <View style={{gap:10}}>
-  <View style={{flexDirection:'row',alignItems:'center',gap:10}}><View style={{flex:1,height:1,backgroundColor:colors.line}}/><Text style={{color:colors.muted,fontSize:12.5,fontWeight:'600',letterSpacing:0.4}}>OR</Text><View style={{flex:1,height:1,backgroundColor:colors.line}}/></View>
-  <View pointerEvents={busy?'none':'auto'} style={{opacity:busy?0.6:1}}>
-   <AppleAuthentication.AppleAuthenticationButton
-    buttonType={mode==='signup'?AppleAuthentication.AppleAuthenticationButtonType.SIGN_UP:AppleAuthentication.AppleAuthenticationButtonType.SIGN_IN}
-    buttonStyle={AppleAuthentication.AppleAuthenticationButtonStyle.WHITE}
-    cornerRadius={14} style={{width:'100%',height:52}}
-    onPress={()=>{onStart();signInWithApple().then(()=>{}).catch(onError).finally(onDone);}}/>
-  </View>
-  <Text style={{color:colors.muted,fontSize:12.5,lineHeight:18}}>Face ID, no password. Uses the email on your Apple ID; if you already have a BAK account under that email, it signs you into it. Choosing Hide My Email makes a new BAK account.</Text>
+ const label=mode==='signup'?'Sign up with Apple':'Sign in with Apple';
+ return <View style={{gap:14}}>
+  <View style={{flexDirection:'row',alignItems:'center',gap:12}}><View style={{flex:1,height:StyleSheet.hairlineWidth,backgroundColor:'#2c323c'}}/><Text style={{color:'#7d8593',fontSize:12,fontWeight:'700',letterSpacing:1.6}}>OR</Text><View style={{flex:1,height:StyleSheet.hairlineWidth,backgroundColor:'#2c323c'}}/></View>
+  <Pressable accessibilityRole="button" accessibilityLabel={label} disabled={busy} onPress={()=>{onStart();signInWithApple().then(()=>{}).catch(onError).finally(onDone);}}
+   style={({pressed})=>[{minHeight:52,borderRadius:28,justifyContent:'center',alignItems:'center',shadowColor:'#000',shadowOpacity:0.55,shadowRadius:8,shadowOffset:{width:0,height:4},elevation:5,opacity:busy?0.6:1},pressed&&{transform:[{translateY:1}],shadowOpacity:0.3}]}>
+   {({pressed})=><>
+    <SteelFace radius={28} pressed={pressed}/>
+    <View style={{flexDirection:'row',alignItems:'center',gap:8}}>
+     <Text style={{color:'#ffffff',fontSize:19,marginTop:-3}} accessible={false}>{'\uF8FF'}</Text>
+     <Text style={{color:'#ffffff',fontSize:16.5,fontWeight:'600',letterSpacing:0.1,textShadowColor:'rgba(0,0,0,0.6)',textShadowOffset:{width:0,height:1},textShadowRadius:1.5}}>{label}</Text>
+    </View>
+   </>}
+  </Pressable>
+ </View>;
+}
+
+/** Dark brushed steel: graphite falling to near-black, fine grain, a lit top edge. Mirrors BlueFace. */
+function SteelFace({radius,pressed}:{radius:number;pressed:boolean}){
+ const id=React.useId().replace(/[^a-zA-Z0-9]/g,'');
+ return <View pointerEvents="none" style={[StyleSheet.absoluteFill,{borderRadius:radius,overflow:'hidden'}]}>
+  <Svg width="100%" height="100%" style={StyleSheet.absoluteFill}>
+   <Defs>
+    <LinearGradient id={'a'+id} x1="0" y1="0" x2="0" y2="1">
+     <Stop offset="0" stopColor={pressed?'#24272d':'#33373f'}/>
+     <Stop offset="0.5" stopColor={pressed?'#121418':'#181a1f'}/>
+     <Stop offset="1" stopColor="#050506"/>
+    </LinearGradient>
+    <LinearGradient id={'h'+id} x1="0" y1="0" x2="1" y2="0">
+     <Stop offset="0" stopColor="#ffffff" stopOpacity="0"/>
+     <Stop offset="0.32" stopColor="#ffffff" stopOpacity={pressed?0.03:0.07}/>
+     <Stop offset="0.6" stopColor="#ffffff" stopOpacity="0"/>
+    </LinearGradient>
+   </Defs>
+   <Rect x="0" y="0" width="100%" height="100%" fill={`url(#a${id})`}/>
+   <Rect x="0" y="0" width="100%" height="100%" fill={`url(#h${id})`}/>
+  </Svg>
+  <Image source={require('../assets/brushed.png')} resizeMode="repeat" style={[StyleSheet.absoluteFill,{opacity:0.16,width:'100%',height:'100%'}]} accessibilityIgnoresInvertColors/>
+  <View style={[StyleSheet.absoluteFill,{borderRadius:radius,borderWidth:1,borderTopColor:pressed?'rgba(255,255,255,0.14)':'rgba(255,255,255,0.32)',borderLeftColor:'rgba(255,255,255,0.1)',borderRightColor:'rgba(0,0,0,0.5)',borderBottomColor:'rgba(0,0,0,0.85)'}]}/>
  </View>;
 }
