@@ -99,7 +99,7 @@ function JoinSheet({visible,onClose,onSaved,why}:{visible:boolean;onClose:()=>vo
    <View style={{gap:6,paddingTop:4}}>
     <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Text style={{color:'#9aa2ae',fontWeight:'800',letterSpacing:2,fontSize:11}}>ONE QUICK STEP</Text><Pressable accessibilityRole="button" hitSlop={10} onPress={onClose}><Text style={{color:colors.muted,fontSize:15}}>Not now</Text></Pressable></View>
     <Text style={{color:colors.text,fontSize:26,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6}}>Pick your rider handle</Text>
-    <Copy>{why} Other riders see your handle and name. Everything else on your profile is optional and can wait.</Copy>
+    <Copy>{why} pick a handle first. Other riders see your handle and name. Everything else on your profile is optional and can wait.</Copy>
    </View>
    <ProfileEditor quick profile={null} onSaved={p=>{onSaved(p);onClose();}}/>
   </Page>
@@ -163,7 +163,7 @@ async function sharePost(p:Post){
 }
 export function CommunityScreen({bike,onMessage,draft,draftToken}:{bike?:Bike;onMessage:(r:RiderRef)=>void;draft?:{category:PostCategory;body:string;photoIds?:string[]};draftToken?:string}){
  const {profile,setProfile,profileError,reloadProfile}=useProfile();
- const [posts,setPosts]=useState<Post[]>([]),[filter,setFilter]=useState<PostCategory|''>(''),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[composing,setComposing]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState(''),[reporting,setReporting]=useState(''),[reason,setReason]=useState(''),[likers,setLikers]=useState<{title:string;path:string}|null>(null);
+ const [posts,setPosts]=useState<Post[]>([]),[filter,setFilter]=useState<PostCategory|''>(''),[notice,setNotice]=useState(''),[loading,setLoading]=useState(true),[composing,setComposing]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState(''),[reporting,setReporting]=useState(''),[reason,setReason]=useState(''),[likers,setLikers]=useState<{title:string;path:string}|null>(null);
  // A post Ask BAK drafted opens in the composer; the rider still checks it and taps Post.
  useEffect(()=>{if(draftToken&&draft)setComposing(true);},[draftToken]);
  const run=useRef(0);
@@ -318,7 +318,7 @@ export function parseLocalStamp(value:string):Date|null{
 }
 export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
  const {profile,setProfile,profileError,reloadProfile}=useProfile();
- const [formNotice,setFormNotice]=useState('');const [events,setEvents]=useState<RideEvent[]>([]),[scope,setScope]=useState<'upcoming'|'past'>('upcoming'),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[creating,setCreating]=useState(false),[busy,setBusy]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState(''),[going,setGoing]=useState<RideEvent|null>(null);
+ const [formNotice,setFormNotice]=useState('');const [events,setEvents]=useState<RideEvent[]>([]),[scope,setScope]=useState<'upcoming'|'past'>('upcoming'),[notice,setNotice]=useState(''),[loading,setLoading]=useState(true),[creating,setCreating]=useState(false),[busy,setBusy]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState(''),[going,setGoing]=useState<RideEvent|null>(null);
  const [title,setTitle]=useState(''),[type,setType]=useState('practice'),[starts,setStarts]=useState(()=>{const d=new Date(Date.now()+86400000);d.setHours(9,0,0,0);return localStamp(d);}),[ends,setEnds]=useState(''),[place,setPlace]=useState(''),[details,setDetails]=useState('');
  const load=useCallback(async()=>{setLoading(true);try{setEvents(await api<RideEvent[]>('/api/events?scope='+scope));setNotice('');}catch(e){setNotice(errorText(e));}finally{setLoading(false);}},[scope]);
  useFocusEffect(useCallback(()=>{if(profile!==undefined)void load();},[load,profile===undefined,profile?.user_id]));
