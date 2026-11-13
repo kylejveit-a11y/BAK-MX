@@ -1,4 +1,5 @@
 // The empty Chat screen: one phrase with the bike's colour glowing behind it, the line that says what to do, and starters in rider language.
+import {RaisedFace,raisedLift} from './Raised';
 import React,{useEffect,useRef} from 'react';
 import {Animated,Easing,Text,View,useWindowDimensions} from 'react-native';
 import Svg,{Defs,RadialGradient,Ellipse,Stop} from 'react-native-svg';
@@ -40,9 +41,10 @@ export function ChatHero({model,onPress,compact=false}:{model:string;onPress:()=
 export function ChatStarters({starters,onPick}:{starters:ChatStarter[];onPick:(s:ChatStarter)=>void}){
  return <View accessibilityRole="list" style={{flexDirection:'row',flexWrap:'wrap',gap:10}}>
   {starters.map(st=><Pressable key={st.label} haptic="select" accessibilityRole="button" accessibilityLabel={st.label} accessibilityHint="Puts this in the message box for you to finish" onPress={()=>onPick(st)}
-   style={({pressed})=>({flexBasis:'47%',flexGrow:1,minHeight:54,justifyContent:'center',paddingVertical:8,paddingHorizontal:14,borderRadius:16,borderWidth:1,borderColor:'#2a2f39',backgroundColor:pressed?'rgba(255,255,255,0.07)':'rgba(255,255,255,0.035)'})}>
+   style={({pressed})=>[{flexBasis:'47%',flexGrow:1,minHeight:54,justifyContent:'center',paddingVertical:8,paddingHorizontal:14,borderRadius:16},raisedLift,pressed&&{transform:[{translateY:1}],shadowOpacity:0.25}]}>
+   {({pressed})=><><RaisedFace radius={16} pressed={pressed}/>
    {/* Three lines, so the longest starter still reads whole on a 375 pt phone; on wider phones it stays at two. */}
-   <Text numberOfLines={3} style={{color:'#e6e9ef',fontSize:14.5,lineHeight:19,fontWeight:'600'}}>{st.label}</Text>
+   <Text numberOfLines={3} style={{color:'#eef1f5',fontSize:14.5,lineHeight:19,fontWeight:'600'}}>{st.label}</Text></>}
   </Pressable>)}
  </View>;
 }
