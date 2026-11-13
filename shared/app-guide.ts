@@ -94,7 +94,7 @@ export const APP_GUIDE:AppGuideEntry[]=[
   '“Log service”: tap what you did (Engine oil · Oil filter · Air filter · Spark plug · Valve check · Top end · Fork service · Shock service · Chain & sprockets · Brake pads · Coolant · Clutch) or type it, Hours, Date, Notes. “Remind me when it’s due next”: Next due at hours, why. Save service.',
   'COMING UP lists what’s due soon. The maker’s SCHEDULE FOR THIS BIKE shows each job against its interval with “Log it”; a job never logged is never called due. History rows open for notes and Delete entry.'],
   words:/\bservice log\b|\bmaintenance\b|\boil change\b|\bservice (due|history|reminder)\b|\bwhat.s due\b|\blog (a )?service\b|\bhours? (since|until)\b/i},
- {screen:'Community',path:'Community tab',purpose:'Riders’ builds, setup questions and ride plans.',how:[
+ {screen:'Community',path:'Community tab',purpose:'Riders’ builds, setup questions and ride plans.',how:['Anyone can scroll posts and events. The first time you like, comment, post, RSVP or message, BAK asks you to pick a rider handle and name (the rest of your profile is optional, in Account).',
   'Needs a rider profile (Handle, Display name, agree to the community rules). Filters: All · Builds · Setup questions · Ride plans · General.',
   '“What’s on the bike?” starts a post: Build, Setup question, Ride plan or General, tag your bike, write, up to 4 photos or a Clip, Post. On a post: heart, comment, share; the ⋯ menu has Message, View profile, Report post, Block (your own: Delete post). Comments: Report, Block.'],
   bak_can_change:true,

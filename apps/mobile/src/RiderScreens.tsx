@@ -69,7 +69,7 @@ function useProfile(){
 }
 
 /* ------------------------------------------------------------------ Profile */
-export function ProfileEditor({profile,onSaved}:{profile:Profile|null;onSaved:(p:Profile)=>void}){
+export function ProfileEditor({profile,onSaved,quick=false}:{profile:Profile|null;onSaved:(p:Profile)=>void;quick?:boolean}){
  const [handle,setHandle]=useState(profile?.handle??''),[name,setName]=useState(profile?.display_name??readProgress<string>('device','apple-name','')),[location,setLocation]=useState(profile?.location??''),[riding,setRiding]=useState(profile?.riding_class??''),[bio,setBio]=useState(profile?.bio??''),[number,setNumber]=useState(profile?.race_number??''),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[agreed,setAgreed]=useState(false);
  useEffect(()=>{setHandle(profile?.handle??'');setName(profile?.display_name??'');setLocation(profile?.location??'');setRiding(profile?.riding_class??'');setBio(profile?.bio??'');setNumber(profile?.race_number??'');},[profile?.user_id,profile?.updated_at]);
  async function save(){
@@ -78,19 +78,34 @@ export function ProfileEditor({profile,onSaved}:{profile:Profile|null;onSaved:(p
   catch(e){setNotice(errorText(e));}finally{setBusy(false);}
  }
  return <View style={{gap:12}}>
-  {!profile&&<Copy>Pick a handle so other riders know who they’re talking to. You can change it later.</Copy>}
+  {!profile&&!quick&&<Copy>Pick a handle so other riders know who they’re talking to. You can change it later.</Copy>}
   <Field editable={!busy} label="Handle" placeholder="e.g. moto_kyle" value={handle} onChangeText={setHandle} maxLength={24} autoCorrect={false}/>
   <Field editable={!busy} label="Display name" placeholder="The name riders see" value={name} onChangeText={setName} maxLength={60} autoCapitalize="words"/>
-  <Field editable={!busy} label="Home area" placeholder="e.g. Tampa, FL" value={location} onChangeText={setLocation} maxLength={80} autoCapitalize="words"/>
-  <Field editable={!busy} label="Class / riding" placeholder="e.g. Vet 35+, 450 C" value={riding} onChangeText={setRiding} maxLength={60}/>
-  <Field editable={!busy} label="Race number" placeholder="e.g. 36" value={number} onChangeText={t=>setNumber(t.replace(/[^0-9]/g,'').slice(0,3))} keyboardType="number-pad" maxLength={3}/>
-  <Field editable={!busy} label="About" placeholder="What you ride, where, what you’re working on" value={bio} onChangeText={setBio} maxLength={500} multiline autoCapitalize="sentences"/>
+  {!quick&&<Field editable={!busy} label="Home area" placeholder="e.g. Tampa, FL" value={location} onChangeText={setLocation} maxLength={80} autoCapitalize="words"/>}
+  {!quick&&<Field editable={!busy} label="Class / riding" placeholder="e.g. Vet 35+, 450 C" value={riding} onChangeText={setRiding} maxLength={60}/>}
+  {!quick&&<Field editable={!busy} label="Race number" placeholder="e.g. 36" value={number} onChangeText={t=>setNumber(t.replace(/[^0-9]/g,'').slice(0,3))} keyboardType="number-pad" maxLength={3}/>}
+  {!quick&&<Field editable={!busy} label="About" placeholder="What you ride, where, what you’re working on" value={bio} onChangeText={setBio} maxLength={500} multiline autoCapitalize="sentences"/>}
   {!profile&&<View style={{gap:8,paddingTop:8}}><Text style={{color:'#9aa2ae',fontSize:11.5,fontWeight:'600',letterSpacing:1}}>COMMUNITY RULES</Text>{COMMUNITY_RULES.map((r,i)=><Copy key={i}>• {r}</Copy>)}<CheckRow label="I agree to the community rules" checked={agreed} onPress={()=>setAgreed(!agreed)}/></View>}
   <Notice text={notice}/>
   <Button disabled={busy} title={busy?'Saving…':profile?'Save profile':'Create profile'} onPress={()=>void save()}/>
  </View>;
 }
 function NeedsProfile({onSaved}:{onSaved:(p:Profile)=>void}){return <Card><Copy strong>Set up your rider profile</Copy><ProfileEditor profile={null} onSaved={onSaved}/></Card>;}
+/** Browse first, join in later: reading Community and Events needs nothing; liking, commenting, posting, RSVPing or
+ *  messaging opens this sheet once to pick a handle, then the rider carries on. */
+function JoinSheet({visible,onClose,onSaved,why}:{visible:boolean;onClose:()=>void;onSaved:(p:Profile)=>void;why:string}){
+ return <PageSheet visible={visible} animationType="slide" onRequestClose={onClose}>
+  <Page title="">
+   <View style={{gap:6,paddingTop:4}}>
+    <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Text style={{color:'#9aa2ae',fontWeight:'800',letterSpacing:2,fontSize:11}}>ONE QUICK STEP</Text><Pressable accessibilityRole="button" hitSlop={10} onPress={onClose}><Text style={{color:colors.muted,fontSize:15}}>Not now</Text></Pressable></View>
+    <Text style={{color:colors.text,fontSize:26,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6}}>Pick your rider handle</Text>
+    <Copy>{why} Other riders see your handle and name. Everything else on your profile is optional and can wait.</Copy>
+   </View>
+   <ProfileEditor quick profile={null} onSaved={p=>{onSaved(p);onClose();}}/>
+  </Page>
+ </PageSheet>;
+}
+
 /** The profile could not be read (no signal, server down): say so and offer a retry. Never the set-up form, which is for a rider who has none. */
 function ProfileUnavailable({error,onRetry}:{error:string;onRetry:()=>void}){return <><Notice text={error}/><Button secondary title="Retry" onPress={onRetry}/></>;}
 export function ProfileCard(){
@@ -153,23 +168,25 @@ export function CommunityScreen({bike,onMessage,draft,draftToken}:{bike?:Bike;on
  useEffect(()=>{if(draftToken&&draft)setComposing(true);},[draftToken]);
  const run=useRef(0);
  const load=useCallback(async()=>{const mine=++run.current;setLoading(true);try{const data=await api<Post[]>('/api/posts'+(filter?'?category='+filter:''));if(mine===run.current){setPosts(data);setNotice('');}}catch(e){if(mine===run.current)setNotice(errorText(e));}finally{if(mine===run.current)setLoading(false);}},[filter]);
- useFocusEffect(useCallback(()=>{if(profile)void load();},[load,profile?.user_id]));
+ useFocusEffect(useCallback(()=>{if(profile!==undefined)void load();},[load,profile?.user_id]));
  async function like(p:Post){hSelect();setPosts(old=>old.map(x=>x.id===p.id?{...x,liked:!p.liked,like_count:p.like_count+(p.liked?-1:1)}:x));try{await api('/api/likes?post_id='+p.id,p.liked?'DELETE':'PUT');}catch(e){setNotice(errorText(e));void load();}}
  async function report(p:Post){if(!reason.trim())return;try{await api('/api/reports','POST',{target_type:'post',target_id:p.id,reason});setReporting('');setReason('');setNotice('Report received. We review reports and remove posts that break the rules.');}catch(e){setNotice(errorText(e));}}
+ const [joinWhy,setJoinWhy]=useState('');
+ /** Run fn if the rider has a profile; otherwise ask for a handle first. */
+ const join=(why:string,fn:()=>void)=>{if(profile)fn();else setJoinWhy(why);};
  function more(p:Post){
   const block=()=>Alert.alert(`Block ${riderName(p.author)}?`,'You won’t see their posts, events or messages, and they won’t see yours.',[{text:'Cancel',style:'cancel'},{text:'Block',style:'destructive',onPress:()=>void api('/api/blocks?user_id='+p.user_id,'PUT').then(()=>setPosts(old=>old.filter(x=>x.user_id!==p.user_id))).catch(e=>setNotice(errorText(e)))}]);
   if(p.mine)Alert.alert('Your post',undefined,[{text:'Delete post',style:'destructive',onPress:()=>void api('/api/posts?id='+p.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))},{text:'Cancel',style:'cancel'}]);
-  else Alert.alert(riderName(p.author),undefined,[{text:'Message',onPress:()=>onMessage(p.author)},{text:'View profile',onPress:()=>setViewing(p.user_id)},{text:'Report post',onPress:()=>{setReporting(p.id);setReason('');}},{text:'Block',style:'destructive',onPress:block},{text:'Cancel',style:'cancel'}]);
+  else Alert.alert(riderName(p.author),undefined,[{text:'Message',onPress:()=>join('To message riders,',()=>onMessage(p.author))},{text:'View profile',onPress:()=>setViewing(p.user_id)},{text:'Report post',onPress:()=>{setReporting(p.id);setReason('');}},{text:'Block',style:'destructive',onPress:()=>join('To block riders,',block)},{text:'Cancel',style:'cancel'}]);
  }
  if(viewing)return <RiderProfileView riderId={viewing} onBack={()=>setViewing('')} onMessage={r=>{setViewing('');onMessage(r);}}/>;
  if(profileError&&!profile)return <Page title="Community"><Copy>Builds, setup questions and ride plans from riders on gas MX bikes.</Copy><ProfileUnavailable error={profileError} onRetry={()=>void reloadProfile()}/></Page>;
  if(profile===undefined)return <Page title="Community"><Copy>Loading…</Copy></Page>;
- if(!profile)return <Page title="Community"><Copy>Builds, setup questions and ride plans from riders on gas MX bikes.</Copy><NeedsProfile onSaved={setProfile}/></Page>;
  return <Page title="">
   <View style={{gap:14}}>
    <Text style={{color:colors.text,fontSize:28,fontWeight:'900',fontStyle:'italic',letterSpacing:-1}}>Community</Text>
-   <Pressable accessibilityRole="button" accessibilityLabel="Start a post" onPress={()=>setComposing(true)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,opacity:pressed?0.7:1})}>
-    <Avatar name={riderName(profile)} uri={profile.avatar_url} size={38}/>
+   <Pressable accessibilityRole="button" accessibilityLabel="Start a post" onPress={()=>join('To post,',()=>setComposing(true))} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,opacity:pressed?0.7:1})}>
+    {profile?<Avatar name={riderName(profile)} uri={profile.avatar_url} size={38}/>:<Avatar name="?" size={38}/>}
     <View style={{flex:1,borderWidth:1,borderColor:'#2f3540',borderRadius:22,paddingHorizontal:16,paddingVertical:11}}><Text style={{color:'#adb5c1',fontSize:15}}>What’s on the bike?</Text></View>
    </Pressable>
    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8}} style={{flexGrow:0,marginHorizontal:-20}}>
@@ -179,15 +196,16 @@ export function CommunityScreen({bike,onMessage,draft,draftToken}:{bike?:Bike;on
   <Notice text={notice}/>
   {loading&&!posts.length&&<SkeletonList kind="post"/>}
   {!loading&&!posts.length&&<View style={{paddingVertical:40,alignItems:'center',gap:10}}><Icon name="riders" size={40} color="#7d8593" bg="#060609"/><Text style={{color:colors.text,fontSize:18,fontWeight:'800'}}>Nothing here yet</Text><Text style={{color:'#adb5c1',fontSize:14,textAlign:'center'}}>Be the first to post a build, a setup question or a ride plan.</Text></View>}
-  <View style={{marginHorizontal:-20}}>{posts.map(p=><PostView key={p.id} p={p} open={open===p.id} onOpen={()=>setOpen(open===p.id?'':p.id)} onLike={()=>void like(p)} onMore={()=>more(p)} onRider={()=>setViewing(p.user_id)} onLikers={path=>setLikers({title:'Liked by',path})} onCount={n=>setPosts(old=>old.map(x=>x.id===p.id?{...x,comment_count:n}:x))}
+  <View style={{marginHorizontal:-20}}>{posts.map(p=><PostView key={p.id} p={p} open={open===p.id} onOpen={()=>setOpen(open===p.id?'':p.id)} onLike={()=>join('To like posts,',()=>void like(p))} onMore={()=>more(p)} canWrite={!!profile} onJoin={why=>setJoinWhy(why)} onRider={()=>setViewing(p.user_id)} onLikers={path=>setLikers({title:'Liked by',path})} onCount={n=>setPosts(old=>old.map(x=>x.id===p.id?{...x,comment_count:n}:x))}
    report={reporting===p.id?<View style={{gap:10,paddingHorizontal:20}}><Field label="What’s wrong with this post?" value={reason} onChangeText={setReason} multiline maxLength={1000} autoCapitalize="sentences"/><View style={{flexDirection:'row',gap:22}}><LinkActionLite title="Send report" onPress={()=>void report(p)}/><LinkActionLite muted title="Cancel" onPress={()=>setReporting('')}/></View></View>:null}/>)}</View>
   <RiderListSheet list={likers} onClose={()=>setLikers(null)} onRider={id=>{setLikers(null);setViewing(id);}}/>
-  <ComposeSheet key={draftToken??'new'} visible={composing} profile={profile} bike={bike} seed={draftToken?draft:undefined} onClose={()=>setComposing(false)} onPosted={()=>{setComposing(false);void load();}}/>
+  <JoinSheet visible={!!joinWhy} why={joinWhy} onClose={()=>setJoinWhy('')} onSaved={setProfile}/>
+  {profile&&<ComposeSheet key={draftToken??'new'} visible={composing} profile={profile} bike={bike} seed={draftToken?draft:undefined} onClose={()=>setComposing(false)} onPosted={()=>{setComposing(false);void load();}}/>}
  </Page>;
 }
 function LinkActionLite({title,onPress,muted=false}:{title:string;onPress:()=>void;muted?:boolean}){return <Pressable accessibilityRole="button" hitSlop={8} onPress={onPress}><Text style={{color:muted?'#adb5c1':colors.accent,fontSize:15,fontWeight:'700'}}>{title}</Text></Pressable>;}
 
-function PostView({p,open,onOpen,onLike,onMore,onRider,onLikers,onCount,report}:{p:Post;open:boolean;onOpen:()=>void;onLike:()=>void;onMore:()=>void;onRider:()=>void;onLikers:(path:string)=>void;onCount:(n:number)=>void;report:React.ReactNode}){
+function PostView({p,open,onOpen,onLike,onMore,onRider,onLikers,onCount,report,canWrite=true,onJoin}:{p:Post;open:boolean;onOpen:()=>void;onLike:()=>void;onMore:()=>void;onRider:()=>void;onLikers:(path:string)=>void;onCount:(n:number)=>void;report:React.ReactNode;canWrite?:boolean;onJoin?:(why:string)=>void}){
  const [full,setFull]=useState(false),long=p.body.length>320||p.body.split('\n').length>6;
  return <View style={{paddingTop:18,paddingBottom:6,gap:12,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}>
   <View style={{flexDirection:'row',alignItems:'center',gap:12,paddingHorizontal:20}}>
@@ -213,7 +231,7 @@ function PostView({p,open,onOpen,onLike,onMore,onRider,onLikers,onCount,report}:
    <Pressable accessibilityRole="button" accessibilityLabel="Share" hitSlop={8} onPress={()=>void sharePost(p)}><Icon name="share" size={22} color={colors.text}/></Pressable>
   </View>
   {!open&&p.comment_count>0&&<Pressable onPress={onOpen} style={{paddingHorizontal:20}}><Text style={{color:'#adb5c1',fontSize:14}}>View {p.comment_count===1?'1 comment':`all ${p.comment_count} comments`}</Text></Pressable>}
-  {open&&<Comments postId={p.id} onCount={onCount} onLikers={onLikers}/>}
+  {open&&<Comments postId={p.id} onCount={onCount} onLikers={onLikers} canWrite={canWrite} onJoin={onJoin}/>}
  </View>;
 }
 
@@ -269,9 +287,9 @@ function ComposeSheet({visible,profile,bike,seed,onClose,onPosted}:{visible:bool
  </PageSheet>;
 }
 
-function Comments({postId,onCount,onLikers}:{postId:string;onCount:(n:number)=>void;onLikers:(path:string)=>void}){
+function Comments({postId,onCount,onLikers,canWrite=true,onJoin}:{postId:string;onCount:(n:number)=>void;onLikers:(path:string)=>void;canWrite?:boolean;onJoin?:(why:string)=>void}){
  const [comments,setComments]=useState<PostComment[]>([]),[text,setText]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
- async function likeComment(c:PostComment){hSelect();setComments(old=>old.map(x=>x.id===c.id?{...x,liked:!c.liked,like_count:(c.like_count??0)+(c.liked?-1:1)}:x));try{await api('/api/comment-likes?comment_id='+c.id,c.liked?'DELETE':'PUT');}catch(e){setNotice(errorText(e));void load();}}
+ async function likeComment(c:PostComment){if(!canWrite){onJoin?.('To like comments,');return;}hSelect();setComments(old=>old.map(x=>x.id===c.id?{...x,liked:!c.liked,like_count:(c.like_count??0)+(c.liked?-1:1)}:x));try{await api('/api/comment-likes?comment_id='+c.id,c.liked?'DELETE':'PUT');}catch(e){setNotice(errorText(e));void load();}}
  const load=useCallback(async()=>{try{const data=await api<PostComment[]>('/api/comments?post_id='+postId);setComments(data);onCount(data.length);}catch(e){setNotice(errorText(e));}},[postId]);
  useEffect(()=>{void load();},[load]);
  // Every comment from someone else can be reported or its writer blocked, same as on the website (App Store rule 1.2).
@@ -286,7 +304,7 @@ function Comments({postId,onCount,onLikers}:{postId:string;onCount:(n:number)=>v
  return <View style={{gap:12,paddingHorizontal:20,paddingTop:4}}>
   {comments.map(c=><View key={c.id} style={{flexDirection:'row',gap:10}}><Avatar name={riderName(c.author)} uri={c.author.avatar_url} size={30}/><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:14.5,lineHeight:21}}><Text style={{fontWeight:'700'}}>{riderName(c.author)} </Text>{c.body}</Text><View style={{flexDirection:'row',gap:14}}><Text style={{color:'#9aa2ae',fontSize:12}}>{ago(c.created_at)}</Text><Pressable accessibilityRole="button" accessibilityLabel={c.liked?'Unlike comment':'Like comment'} accessibilityState={{selected:!!c.liked}} hitSlop={8} onPress={()=>void likeComment(c)}><Icon name={c.liked?'heartOn':'heart'} size={14} color={c.liked?'#e8607a':'#9aa2ae'}/></Pressable>{(c.like_count??0)>0&&<Pressable accessibilityRole="button" accessibilityLabel="See who liked this comment" hitSlop={8} onPress={()=>onLikers('/api/comment-likes?comment_id='+c.id)}><Text style={{color:'#9aa2ae',fontSize:12,fontWeight:'600'}}>{c.like_count===1?'1 like':c.like_count+' likes'}</Text></Pressable>}{c.mine&&<Pressable hitSlop={8} onPress={()=>void api('/api/comments?id='+c.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))}><Text style={{color:'#efb5be',fontSize:12,fontWeight:'600'}}>Delete</Text></Pressable>}{!c.mine&&<Pressable accessibilityRole="button" accessibilityLabel={`Report or block ${riderName(c.author)}`} hitSlop={8} onPress={()=>commentMenu(c)}><Text style={{color:'#9aa2ae',fontSize:12,fontWeight:'600'}}>Report</Text></Pressable>}</View></View></View>)}
   <Notice text={notice}/>
-  <View style={{flexDirection:'row',alignItems:'center',gap:8,borderWidth:1,borderColor:'#2f3540',borderRadius:22,paddingLeft:14,paddingRight:5,paddingVertical:4}}><TextInput editable={!busy} value={text} onChangeText={setText} maxLength={2000} autoCapitalize="sentences" placeholder="Add a comment…" placeholderTextColor="#7d8593" accessibilityLabel="Add a comment" style={{flex:1,color:colors.text,fontSize:15,paddingVertical:8}} onSubmitEditing={()=>void add()} returnKeyType="send"/><Pressable accessibilityRole="button" accessibilityLabel="Post comment" disabled={busy||!text.trim()} onPress={()=>void add()} style={[{width:32,height:32,borderRadius:16,alignItems:'center',justifyContent:'center'},!!text.trim()&&blueLift]}>{!!text.trim()&&<BlueFace radius={16}/>}<Icon name="arrowUp" size={17} color={text.trim()?'#ffffff':'#7d8593'} weight={2.2}/></Pressable></View>
+  <View style={{flexDirection:'row',alignItems:'center',gap:8,borderWidth:1,borderColor:'#2f3540',borderRadius:22,paddingLeft:14,paddingRight:5,paddingVertical:4}}><TextInput editable={!busy} onFocus={e=>{if(!canWrite){e.target?.blur?.();onJoin?.('To comment,');}}} value={text} onChangeText={setText} maxLength={2000} autoCapitalize="sentences" placeholder="Add a comment…" placeholderTextColor="#7d8593" accessibilityLabel="Add a comment" style={{flex:1,color:colors.text,fontSize:15,paddingVertical:8}} onSubmitEditing={()=>void add()} returnKeyType="send"/><Pressable accessibilityRole="button" accessibilityLabel="Post comment" disabled={busy||!text.trim()} onPress={()=>void add()} style={[{width:32,height:32,borderRadius:16,alignItems:'center',justifyContent:'center'},!!text.trim()&&blueLift]}>{!!text.trim()&&<BlueFace radius={16}/>}<Icon name="arrowUp" size={17} color={text.trim()?'#ffffff':'#7d8593'} weight={2.2}/></Pressable></View>
  </View>;
 }
 
@@ -303,7 +321,9 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
  const [formNotice,setFormNotice]=useState('');const [events,setEvents]=useState<RideEvent[]>([]),[scope,setScope]=useState<'upcoming'|'past'>('upcoming'),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[creating,setCreating]=useState(false),[busy,setBusy]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState(''),[going,setGoing]=useState<RideEvent|null>(null);
  const [title,setTitle]=useState(''),[type,setType]=useState('practice'),[starts,setStarts]=useState(()=>{const d=new Date(Date.now()+86400000);d.setHours(9,0,0,0);return localStamp(d);}),[ends,setEnds]=useState(''),[place,setPlace]=useState(''),[details,setDetails]=useState('');
  const load=useCallback(async()=>{setLoading(true);try{setEvents(await api<RideEvent[]>('/api/events?scope='+scope));setNotice('');}catch(e){setNotice(errorText(e));}finally{setLoading(false);}},[scope]);
- useFocusEffect(useCallback(()=>{if(profile)void load();},[load,profile?.user_id]));
+ useFocusEffect(useCallback(()=>{if(profile!==undefined)void load();},[load,profile?.user_id]));
+ const [joinWhy,setJoinWhy]=useState('');
+ const join=(why:string,fn:()=>void)=>{if(profile)fn();else setJoinWhy(why);};
  async function create(){
   if(busy)return;setBusy(true);
   try{
@@ -326,12 +346,11 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
  if(viewing)return <RiderProfileView riderId={viewing} from="Events" onBack={()=>setViewing('')} onMessage={r=>{setViewing('');onMessage(r);}}/>;
  if(profileError&&!profile)return <Page title="Events"><Copy>Ride days, races, practice nights, clinics and meetups posted by riders.</Copy><ProfileUnavailable error={profileError} onRetry={()=>void reloadProfile()}/></Page>;
  if(profile===undefined)return <Page title="Events"><Copy>Loading…</Copy></Page>;
- if(!profile)return <Page title="Events"><Copy>Ride days, races, practice nights, clinics and meetups posted by riders.</Copy><NeedsProfile onSaved={setProfile}/></Page>;
  // The primary action rides in the page footer, above the tab bar and the keyboard, so it is never half under either.
  const publish=creating?<View style={{padding:12,gap:6}}><Notice text={formNotice}/><Button disabled={busy} title={busy?'Saving…':'Publish event'} onPress={()=>void create()}/></View>:undefined;
  return <Page title="Events" footer={publish} footerForAction>
   <Segments value={scope} items={[{value:'upcoming',label:'Upcoming'},{value:'past',label:'Past'}]} onChange={setScope}/>
-  {!creating&&<StartRow icon="flag" title="Post an event" detail="Ride day, race, practice night, clinic or meetup" onPress={()=>{setFormNotice('');setCreating(true);}}/>}
+  {!creating&&<StartRow icon="flag" title="Post an event" detail="Ride day, race, practice night, clinic or meetup" onPress={()=>join('To post an event,',()=>{setFormNotice('');setCreating(true);})}/>}
   {creating&&<Card><FormHead title="New event" onCancel={()=>{setFormNotice('');setCreating(false);}}/>
    <Field editable={!busy} label="Event name" placeholder="e.g. Saturday practice at Dade City" value={title} onChangeText={setTitle} maxLength={120} autoCapitalize="sentences"/>
    <Choices disabled={busy} label="Type" value={type} items={options(EVENT_TYPE_LABELS)} onChange={setType}/>
@@ -355,13 +374,14 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
     <Text style={{color:'#adb5c1',fontSize:13.5,flex:1}}>{(ev.going_riders??[]).length?`${(ev.going_riders??[]).slice(0,2).map(r=>r.me?'You':riderName(r)).join(', ')}${ev.going_count>2?` and ${ev.going_count-Math.min(2,(ev.going_riders??[]).length)} more`:''} going`:`${ev.going_count} going`}</Text>
    </Pressable>}
    {!ev.canceled_at&&scope==='upcoming'&&ev.my_rsvp==='going'&&<Link title={ev.my_rsvp_public?'Riders can see you’re going · Hide me':'Only the host sees you’re going · Show me'} onPress={()=>void save(ev,'going',!ev.my_rsvp_public)}/>}
-   {!ev.canceled_at&&scope==='upcoming'&&<View style={{flexDirection:'row',gap:10}}><View style={{flex:1}}><Button secondary={ev.my_rsvp!=='going'} title={ev.my_rsvp==='going'?'Going':'I’m going'} onPress={()=>void rsvp(ev,'going')}/></View><View style={{flex:1}}><Button secondary={ev.my_rsvp!=='interested'} title="Interested" onPress={()=>void rsvp(ev,'interested')}/></View></View>}
+   {!ev.canceled_at&&scope==='upcoming'&&<View style={{flexDirection:'row',gap:10}}><View style={{flex:1}}><Button secondary={ev.my_rsvp!=='going'} title={ev.my_rsvp==='going'?'Going':'I’m going'} onPress={()=>join('To RSVP,',()=>void rsvp(ev,'going'))}/></View><View style={{flex:1}}><Button secondary={ev.my_rsvp!=='interested'} title="Interested" onPress={()=>join('To RSVP,',()=>void rsvp(ev,'interested'))}/></View></View>}
    <Row>{!!ev.description&&<Link title={open===ev.id?'Hide details':'Details'} onPress={()=>setOpen(open===ev.id?'':ev.id)}/>}
     {ev.mine&&<Link title={ev.canceled_at?'Restore event':'Cancel event'} onPress={()=>void api('/api/events?id='+ev.id,'PATCH',{canceled:!ev.canceled_at}).then(load).catch(e=>setNotice(errorText(e)))}/>}
     {ev.mine&&<Link danger title="Delete" onPress={()=>Alert.alert('Delete this event?','',[{text:'Cancel',style:'cancel'},{text:'Delete',style:'destructive',onPress:()=>void api('/api/events?id='+ev.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))}])}/>}</Row>
-   {!ev.mine&&<RiderActions rider={ev.host} target={{type:'event',id:ev.id}} onMessage={onMessage} onBlocked={()=>void load()}/>}
+   {!ev.mine&&<RiderActions rider={ev.host} target={{type:'event',id:ev.id}} onMessage={r=>join('To message riders,',()=>onMessage(r))} onBlocked={()=>void load()}/>}
   </Card>)}
   <RiderListSheet list={going?{title:`Going · ${going.going_count}`,riders:going.going_riders??[],footer:going.going_count>(going.going_riders??[]).length?`${going.going_count-(going.going_riders??[]).length===1?'1 more rider is':`${going.going_count-(going.going_riders??[]).length} more riders are`} going and kept it private.`:''}:null} onClose={()=>setGoing(null)} onRider={id=>{setGoing(null);setViewing(id);}}/>
+ <JoinSheet visible={!!joinWhy} why={joinWhy} onClose={()=>setJoinWhy('')} onSaved={setProfile}/>
  </Page>;
 }
 

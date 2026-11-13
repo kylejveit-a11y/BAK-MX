@@ -13,7 +13,7 @@ import {AccessibilityInfo,ActionSheetIOS,AppState,Alert,Linking,Platform,View,Te
 import {Pressable} from './Touch';
 import {BikeWheel,PickButton} from './Wheel';
 import {DateField,recentDays,formatValue} from './DateSheet';
-import {BikePhotos,BikeCover,useBikePhotos,HomeBikeCover} from './BikePhotos';
+import {BikePhotos,BikeCover,useBikePhotos,HomeBikeCover,StartHereCover} from './BikePhotos';
 import {AttachedPhotos,MessagePhotos} from './PhotoUI';
 import {chooseSource,pickImages,uploadPhoto,type Photo,pickClipFrames,chooseChatSource} from './photos';
 import {COACH_FOCUS,type CoachFocus} from '../../../shared/coach-focus';
@@ -208,13 +208,14 @@ function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,s
    {/* A bike BAK has never set up gets the 60-second starting setup here; after that it lives in Garage › Settings. */}
    {first&&<LinkAction title="Starting setup in 60 seconds" onPress={()=>setFirstOpen(true)}/>}
    <LinkAction title="Ask BAK about this build" onPress={()=>ask(`About my ${bike.model_year} ${bike.manufacturer} ${bike.model} as it’s built now: `)}/></Card>
-   :!bikesLoaded?<Card>{bikesError?<><Eyebrow>YOUR BIKE</Eyebrow><Notice text={bikesError}/><Button secondary title="Retry Garage connection" onPress={()=>void reload().catch(()=>{})}/></>:<View style={{paddingVertical:28,alignItems:'center'}}><ActivityIndicator color={colors.accent}/></View>}</Card>:<Card><Eyebrow>START HERE</Eyebrow><Text style={{color:colors.text,fontSize:20,fontWeight:'800'}}>Add your bike</Text><Copy>Make, model and year. Your weight and clickers if you know them. Two minutes.</Copy><Button title="Add your bike" onPress={()=>navigation.navigate('Garage')}/></Card>),
+   :!bikesLoaded?<Card>{bikesError?<><Eyebrow>YOUR BIKE</Eyebrow><Notice text={bikesError}/><Button secondary title="Retry Garage connection" onPress={()=>void reload().catch(()=>{})}/></>:<View style={{paddingVertical:28,alignItems:'center'}}><ActivityIndicator color={colors.accent}/></View>}</Card>:<StartHereCover onAdd={()=>navigation.navigate('Garage')}/>),
   next:bike?<UpNextBlock bike={bike} onService={()=>navigation.navigate('Maintenance')} onEvents={()=>navigation.navigate('Events')} onSetup={()=>navigation.navigate('Setup')}/>:null,
   coaching:bike?<CoachingBlock bike={bike} onOpen={()=>navigation.navigate('Garage',{open:'coaching',token:randomUUID()})} onCoach={()=>navigation.navigate('Ask BAK',{clip:randomUUID()})}/>:null,
  };
  const more:[string,()=>void][]=[['Setup log',()=>navigation.navigate('Setup')],['Workshop',()=>navigation.navigate('Workshop')],['Specs & parts',()=>navigation.navigate('Specs')],['Service log',()=>navigation.navigate('Maintenance')],['Know-how',()=>navigation.navigate('Learn')],['Messages',()=>navigation.navigate('Messages')]];
  return <Page title=""><View style={{gap:10,paddingTop:6}}><Text style={{color:colors.text,fontWeight:'900',fontStyle:'italic',fontSize:34,lineHeight:38,letterSpacing:-1.2}}>Know what works.{'\n'}<Text style={{color:'#7a8291'}}>Before your next ride.</Text></Text><Copy>Tell BAK what the bike is doing, the way you’d tell your buddy.</Copy></View>
- <WhatsNewCard account={session.user.id}/>
+ {/* Update news is for riders who already use the app; a brand-new rider sees Add your bike first. */}
+ {bike&&<WhatsNewCard account={session.user.id}/>}
  {bike&&!first&&<TourOffer account={session.user.id}/>}
  {upcoming&&bike&&<RaceCountdown account={session.user.id} bike={bike} race={race} onPrep={()=>setPrepOpen(true)} onEnd={end} onOpenChat={openChat}/>}
  {layout.filter(b=>b.on).map(b=><React.Fragment key={b.id}>{blocks[b.id]}</React.Fragment>)}
