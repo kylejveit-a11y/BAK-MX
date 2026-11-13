@@ -1,0 +1,902 @@
+[
+  {
+    "manufacturer": "Honda",
+    "model": "CR125R",
+    "model_year": 2005,
+    "variant": "standard",
+    "region": "US",
+    "file": "2005-cr125r-candidates.json",
+    "candidate_facts": 85,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CR250R",
+    "model_year": 2005,
+    "variant": "standard",
+    "region": "US",
+    "file": "2005-cr250r-candidates.json",
+    "candidate_facts": 83,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CR85R",
+    "model_year": 2005,
+    "variant": "standard",
+    "region": "US",
+    "file": "2005-cr85r-candidates.json",
+    "candidate_facts": 81,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CR85RB",
+    "model_year": 2005,
+    "variant": "standard",
+    "region": "US",
+    "file": "2005-cr85rb-candidates.json",
+    "candidate_facts": 81,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2005,
+    "variant": "standard",
+    "region": "US",
+    "file": "2005-crf250r-candidates.json",
+    "candidate_facts": 95,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2005,
+    "variant": "standard",
+    "region": "US",
+    "file": "2005-crf450r-candidates.json",
+    "candidate_facts": 100,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CR125R",
+    "model_year": 2006,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2006-cr125r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CR250R",
+    "model_year": 2006,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2006-cr250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CR85R",
+    "model_year": 2006,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2006-cr85r-candidates.json",
+    "candidate_facts": 21,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CR85RB",
+    "model_year": 2006,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2006-cr85rb-candidates.json",
+    "candidate_facts": 21,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2006,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2006-crf250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2006,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2006-crf450r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CR125R",
+    "model_year": 2007,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2007-cr125r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CR250R",
+    "model_year": 2007,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2007-cr250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CR85R",
+    "model_year": 2007,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2007-cr85r-candidates.json",
+    "candidate_facts": 21,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CR85RB",
+    "model_year": 2007,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2007-cr85rb-candidates.json",
+    "candidate_facts": 21,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2007,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2007-crf250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2007,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2007-crf450r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2009,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2009-crf250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2009,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2009-crf450r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2010,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2010-crf250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2010,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2010-crf450r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2011,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2011-crf250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2011,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2011-crf450r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150R",
+    "model_year": 2012,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2012-crf150r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150RB",
+    "model_year": 2012,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2012-crf150rb-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2012,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2012-crf250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2012,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2012-crf450r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150R",
+    "model_year": 2013,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2013-crf150r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150RB",
+    "model_year": 2013,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2013-crf150rb-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2013,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2013-crf250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2013,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2013-crf450r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150R",
+    "model_year": 2014,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2014-crf150r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150RB",
+    "model_year": 2014,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2014-crf150rb-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2014,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2014-crf250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2014,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2014-crf450r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150R",
+    "model_year": 2015,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2015-crf150r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150RB",
+    "model_year": 2015,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2015-crf150rb-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2015,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2015-crf250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2015,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2015-crf450r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150R",
+    "model_year": 2016,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2016-crf150r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150RB",
+    "model_year": 2016,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2016-crf150rb-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2016,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2016-crf250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2016,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2016-crf450r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150R",
+    "model_year": 2017,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2017-crf150r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150RB",
+    "model_year": 2017,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2017-crf150rb-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2017,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2017-crf250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2017,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2017-crf450r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150R",
+    "model_year": 2018,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2018-crf150r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150RB",
+    "model_year": 2018,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2018-crf150rb-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2018,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2018-crf250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2018,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2018-crf450r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150R",
+    "model_year": 2019,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2019-crf150r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150RB",
+    "model_year": 2019,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2019-crf150rb-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2019,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2019-crf250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2019,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2019-crf450r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150R",
+    "model_year": 2020,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2020-crf150r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF150RB",
+    "model_year": 2020,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2020-crf150rb-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2020,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2020-crf250r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2020,
+    "variant": "standard",
+    "region": "US",
+    "file": "honda/2020-crf450r-candidates.json",
+    "candidate_facts": 20,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "KTM",
+    "model": "125 SX",
+    "model_year": 2005,
+    "variant": "standard",
+    "region": "US",
+    "file": "ktm/2005-125-sx-candidates.json",
+    "candidate_facts": 17,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "KTM",
+    "model": "250 SX",
+    "model_year": 2005,
+    "variant": "standard",
+    "region": "US",
+    "file": "ktm/2005-250-sx-candidates.json",
+    "candidate_facts": 17,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "KTM",
+    "model": "450 SX Racing",
+    "model_year": 2005,
+    "variant": "standard",
+    "region": "US",
+    "file": "ktm/2005-450-sx-racing-candidates.json",
+    "candidate_facts": 16,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "KTM",
+    "model": "525 SX Racing",
+    "model_year": 2005,
+    "variant": "standard",
+    "region": "US",
+    "file": "ktm/2005-525-sx-racing-candidates.json",
+    "candidate_facts": 16,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2016,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2016-yz125-candidates.json",
+    "candidate_facts": 13,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ250F",
+    "model_year": 2016,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2016-yz250f-candidates.json",
+    "candidate_facts": 16,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2016,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2016-yz450f-candidates.json",
+    "candidate_facts": 16,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ85",
+    "model_year": 2016,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2016-yz85-candidates.json",
+    "candidate_facts": 19,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2017,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2017-yz125-candidates.json",
+    "candidate_facts": 13,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ250",
+    "model_year": 2017,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2017-yz250-candidates.json",
+    "candidate_facts": 10,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ250F",
+    "model_year": 2017,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2017-yz250f-candidates.json",
+    "candidate_facts": 16,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2017,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2017-yz450f-candidates.json",
+    "candidate_facts": 16,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ85",
+    "model_year": 2017,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2017-yz85-candidates.json",
+    "candidate_facts": 19,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2018,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2018-yz125-candidates.json",
+    "candidate_facts": 13,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ250",
+    "model_year": 2018,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2018-yz250-candidates.json",
+    "candidate_facts": 10,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ250F",
+    "model_year": 2018,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2018-yz250f-candidates.json",
+    "candidate_facts": 16,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2018,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2018-yz450f-candidates.json",
+    "candidate_facts": 16,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ65",
+    "model_year": 2018,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2018-yz65-candidates.json",
+    "candidate_facts": 19,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ85",
+    "model_year": 2018,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2018-yz85-candidates.json",
+    "candidate_facts": 19,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2019,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2019-yz125-candidates.json",
+    "candidate_facts": 13,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ250",
+    "model_year": 2019,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2019-yz250-candidates.json",
+    "candidate_facts": 10,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ250F",
+    "model_year": 2019,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2019-yz250f-candidates.json",
+    "candidate_facts": 16,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2019,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2019-yz450f-candidates.json",
+    "candidate_facts": 16,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ85",
+    "model_year": 2019,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2019-yz85-candidates.json",
+    "candidate_facts": 19,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2020,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2020-yz125-candidates.json",
+    "candidate_facts": 11,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ250",
+    "model_year": 2020,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2020-yz250-candidates.json",
+    "candidate_facts": 10,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ250F",
+    "model_year": 2020,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2020-yz250f-candidates.json",
+    "candidate_facts": 16,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2020,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2020-yz450f-candidates.json",
+    "candidate_facts": 16,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ65",
+    "model_year": 2020,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2020-yz65-candidates.json",
+    "candidate_facts": 18,
+    "status": "PARTIAL_PENDING_REVIEW"
+  },
+  {
+    "manufacturer": "Yamaha",
+    "model": "YZ85",
+    "model_year": 2020,
+    "variant": "standard",
+    "region": "US",
+    "file": "yamaha/2020-yz85-candidates.json",
+    "candidate_facts": 18,
+    "status": "PARTIAL_PENDING_REVIEW"
+  }
+]

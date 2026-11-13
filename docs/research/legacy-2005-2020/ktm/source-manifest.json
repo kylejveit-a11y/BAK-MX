@@ -1,0 +1,66 @@
+[
+  {
+    "target": {
+      "manufacturer": "KTM",
+      "model": "125 SX",
+      "model_year": 2005,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "ktm/2005-125-sx-candidates.json",
+    "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+    "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+    "facts": 17,
+    "status": "CANDIDATES_ONLY_DEALER_MIRROR",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "KTM",
+      "model": "250 SX",
+      "model_year": 2005,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "ktm/2005-250-sx-candidates.json",
+    "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+    "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+    "facts": 17,
+    "status": "CANDIDATES_ONLY_DEALER_MIRROR",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "KTM",
+      "model": "450 SX Racing",
+      "model_year": 2005,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "ktm/2005-450-sx-racing-candidates.json",
+    "source_url": "https://www.ktmshop.se/bike-manuals/8500E1_OM_EN.pdf",
+    "document_sha256": "eabf902137c2fc80ff5c6276d347278d158f218620333452e86263333fc408b8",
+    "facts": 16,
+    "status": "CANDIDATES_ONLY_DEALER_MIRROR",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "KTM",
+      "model": "525 SX Racing",
+      "model_year": 2005,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "ktm/2005-525-sx-racing-candidates.json",
+    "source_url": "https://www.ktmshop.se/bike-manuals/8500E1_OM_EN.pdf",
+    "document_sha256": "eabf902137c2fc80ff5c6276d347278d158f218620333452e86263333fc408b8",
+    "facts": 16,
+    "status": "CANDIDATES_ONLY_DEALER_MIRROR",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  }
+]

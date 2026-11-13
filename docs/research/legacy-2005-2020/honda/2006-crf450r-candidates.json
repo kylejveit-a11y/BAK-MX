@@ -1,0 +1,408 @@
+{
+  "target": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2006,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "honda-2006-crf450r-dimension-overall-length",
+      "property": "dimensions",
+      "joint": "Dimension / Overall length",
+      "value": "2191",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526166+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-dimension-overall-width",
+      "property": "dimensions",
+      "joint": "Dimension / Overall width",
+      "value": "825",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526189+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-dimension-overall-height",
+      "property": "dimensions",
+      "joint": "Dimension / Overall height",
+      "value": "1262",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526197+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1492",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526204+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-dimension-seat-height",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height",
+      "value": "955",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526210+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-dimension-footpeg-height",
+      "property": "dimensions",
+      "joint": "Dimension / Footpeg height",
+      "value": "432",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526215+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-dimension-ground-clearance",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance",
+      "value": "339",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526221+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-engine-gearing-frame-fuel-tank-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel tank capacity",
+      "value": "7.2",
+      "unit": "L",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model.",
+        "Litre unit confirmed from the page image; text-layer R/x is a font mapping artifact."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526166+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-engine-gearing-dimension-trail-length",
+      "property": "dimensions",
+      "joint": "Dimension / Trail length",
+      "value": "109.3",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526166+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-engine-gearing-engine-bore",
+      "property": "dimensions",
+      "joint": "Engine / Bore",
+      "value": "96.0",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526166+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-engine-gearing-engine-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Stroke",
+      "value": "62.1",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526166+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-engine-gearing-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "449.4",
+      "unit": "cm³",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526166+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-engine-gearing-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "12.0:1",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526166+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-engine-gearing-drive-train-primary-reduction",
+      "property": "other",
+      "joint": "Drive train / Primary reduction",
+      "value": "2.739",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526166+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-engine-gearing-drive-train-gear-ratio-i",
+      "property": "other",
+      "joint": "Drive train / Gear ratio I",
+      "value": "1.800",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526166+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-engine-gearing-drive-train-gear-ratio-ii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio II",
+      "value": "1.470",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526166+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-engine-gearing-drive-train-gear-ratio-iii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio III",
+      "value": "1.235",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526166+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-engine-gearing-drive-train-gear-ratio-iv",
+      "property": "other",
+      "joint": "Drive train / Gear ratio IV",
+      "value": "1.050",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526166+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-engine-gearing-drive-train-gear-ratio-v",
+      "property": "other",
+      "joint": "Drive train / Gear ratio V",
+      "value": "0.909",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526166+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-engine-gearing-drive-train-final-reduction",
+      "property": "other",
+      "joint": "Drive train / Final reduction",
+      "value": "3.692",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526166+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}
