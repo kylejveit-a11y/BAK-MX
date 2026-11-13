@@ -10,6 +10,8 @@ const bike2={...bike,id:'22222222-2222-4222-8222-222222222222',manufacturer:'Kaw
 // Phone simulator checks only (EXPO_PUBLIC_SAMPLE_LONG_BIKE=1): a third bike with a long model name, to test tight rows.
 const bike3={...bike,id:'33333333-3333-4333-8333-333333333333',manufacturer:'Husqvarna',model:'FC 450 Rockstar Edition',model_year:2025,engine_hours:12,configuration:{}};
 const LONG_BIKE=process.env.EXPO_PUBLIC_SAMPLE_LONG_BIKE==='1';
+// First-run checks (EXPO_PUBLIC_SAMPLE_NEW=1): a brand-new rider with no bike and no rider profile.
+const NEW_RIDER=process.env.EXPO_PUBLIC_SAMPLE_NEW==='1';
 // App Store screenshots (EXPO_PUBLIC_SAMPLE_STORE=1, see docs/APP_STORE_SCREENSHOTS.md): the same rider, with a real rider
 // complaint answered, a fuel-plan rider saved, a few more community posts and a plan. Published figures below are the KTM
 // claims further down this file; nothing else is a number the app would show as a spec.
@@ -86,10 +88,10 @@ let fuelProfiles=STORE?[{id:'f1',kind:'self',name:'',weight_kg:86.2,weight_unit:
 let sent=false;
 /** Answers one /api call: {status,body} for JSON or {status,events} for the streamed chat. q has get(name). */
 function respond(p,q,method,post){
- if(p==='/api/bikes')return J(method==='GET'?(LONG_BIKE?[bike,bike2,bike3]:[bike,bike2]):{...bike});
+ if(p==='/api/bikes')return J(method==='GET'?(NEW_RIDER?[]:LONG_BIKE?[bike,bike2,bike3]:[bike,bike2]):{...bike});
  if(p==='/api/coverage')return J(coverage);
  if(p==='/api/entitlement')return J(entitlement);
- if(p==='/api/profile')return J(profile);
+ if(p==='/api/profile')return J(NEW_RIDER&&method==='GET'?null:profile);
  if(p==='/api/profiles')return J({profile:profile,bikes:[{id:bike.id,label:'2025 KTM 450 SX-F',photos:[],sheet:'mine'}],posts:[],mine:true});
  if(p==='/api/conversations')return J(method==='GET'?(q.get('bike_id')===bike.id?(STORE?[raceConversation,conversation]:[conversation]):[]):{...conversation,id:'44444444-4444-4444-8444-444444444444',title:(post&&post.title)||'New chat',mode:(post&&post.mode)||'ask'});
  if(p==='/api/messages'){const cid=q.get('conversation_id');if(STORE&&cid===raceConversation.id)return J(raceMessages);return J((sent||cid===conversation.id)?messages.map(m=>({...m,conversation_id:cid})):[]);}
