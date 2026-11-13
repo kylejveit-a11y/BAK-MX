@@ -168,7 +168,7 @@ export function CommunityScreen({bike,onMessage,draft,draftToken}:{bike?:Bike;on
  useEffect(()=>{if(draftToken&&draft)setComposing(true);},[draftToken]);
  const run=useRef(0);
  const load=useCallback(async()=>{const mine=++run.current;setLoading(true);try{const data=await api<Post[]>('/api/posts'+(filter?'?category='+filter:''));if(mine===run.current){setPosts(data);setNotice('');}}catch(e){if(mine===run.current)setNotice(errorText(e));}finally{if(mine===run.current)setLoading(false);}},[filter]);
- useFocusEffect(useCallback(()=>{if(profile!==undefined)void load();},[load,profile?.user_id]));
+ useFocusEffect(useCallback(()=>{if(profile!==undefined)void load();},[load,profile===undefined,profile?.user_id]));
  async function like(p:Post){hSelect();setPosts(old=>old.map(x=>x.id===p.id?{...x,liked:!p.liked,like_count:p.like_count+(p.liked?-1:1)}:x));try{await api('/api/likes?post_id='+p.id,p.liked?'DELETE':'PUT');}catch(e){setNotice(errorText(e));void load();}}
  async function report(p:Post){if(!reason.trim())return;try{await api('/api/reports','POST',{target_type:'post',target_id:p.id,reason});setReporting('');setReason('');setNotice('Report received. We review reports and remove posts that break the rules.');}catch(e){setNotice(errorText(e));}}
  const [joinWhy,setJoinWhy]=useState('');
@@ -321,7 +321,7 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
  const [formNotice,setFormNotice]=useState('');const [events,setEvents]=useState<RideEvent[]>([]),[scope,setScope]=useState<'upcoming'|'past'>('upcoming'),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[creating,setCreating]=useState(false),[busy,setBusy]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState(''),[going,setGoing]=useState<RideEvent|null>(null);
  const [title,setTitle]=useState(''),[type,setType]=useState('practice'),[starts,setStarts]=useState(()=>{const d=new Date(Date.now()+86400000);d.setHours(9,0,0,0);return localStamp(d);}),[ends,setEnds]=useState(''),[place,setPlace]=useState(''),[details,setDetails]=useState('');
  const load=useCallback(async()=>{setLoading(true);try{setEvents(await api<RideEvent[]>('/api/events?scope='+scope));setNotice('');}catch(e){setNotice(errorText(e));}finally{setLoading(false);}},[scope]);
- useFocusEffect(useCallback(()=>{if(profile!==undefined)void load();},[load,profile?.user_id]));
+ useFocusEffect(useCallback(()=>{if(profile!==undefined)void load();},[load,profile===undefined,profile?.user_id]));
  const [joinWhy,setJoinWhy]=useState('');
  const join=(why:string,fn:()=>void)=>{if(profile)fn();else setJoinWhy(why);};
  async function create(){

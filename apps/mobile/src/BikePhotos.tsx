@@ -94,7 +94,7 @@ function CoverPlaceholder({width,height,bike,adding}:{width:number;height:number
   <View style={{padding:18,gap:10,alignItems:'flex-start'}}>
    <View style={{gap:3}}>
     <Text style={{color:'#ffffff',fontSize:22,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.4,textShadowColor:'rgba(0,0,0,0.7)',textShadowOffset:{width:0,height:1},textShadowRadius:3}}>Add your bike’s photo</Text>
-    <Text numberOfLines={1} style={{color:'#d9dee6',fontSize:13.5,textShadowColor:'rgba(0,0,0,0.7)',textShadowOffset:{width:0,height:1},textShadowRadius:2}}>Your {bike.model_year} {bike.manufacturer} {bike.model}, front and centre</Text>
+    <Text numberOfLines={1} style={{color:'#d9dee6',fontSize:13.5,textShadowColor:'rgba(0,0,0,0.7)',textShadowOffset:{width:0,height:1},textShadowRadius:2}}>Your {bike.model_year} {bike.manufacturer} {bike.model}, front and center</Text>
    </View>
    <View style={[{flexDirection:'row',alignItems:'center',gap:8,paddingVertical:10,paddingHorizontal:16,borderRadius:22},blueLift]}>
     <BlueFace radius={22}/>
