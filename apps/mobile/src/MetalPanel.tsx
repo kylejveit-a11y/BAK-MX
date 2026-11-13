@@ -2,7 +2,7 @@
 // falls off softly from the top, a broad satin sheen across the brushing, a hairline lit edge, a slightly darker lower edge,
 // and a soft shadow that spreads underneath. Used where one thing should feel like a real object (the bike check before sign-up).
 import React from 'react';
-import {Image,StyleSheet,View,type LayoutChangeEvent,type StyleProp,type ViewStyle} from 'react-native';
+import {Image,Platform,StyleSheet,View,type LayoutChangeEvent,type StyleProp,type ViewStyle} from 'react-native';
 import Svg,{Defs,LinearGradient,RadialGradient,Rect,Stop} from 'react-native-svg';
 
 export function MetalPanel({children,style,radius=16}:{children:React.ReactNode;style?:StyleProp<ViewStyle>;radius?:number}){
@@ -26,7 +26,8 @@ export function MetalPanel({children,style,radius=16}:{children:React.ReactNode;
     <Rect x="0" y="0" width="100%" height="100%" fill={`url(#s${id})`}/>
    </Svg>}
    <Image source={require('../assets/metal-grain.png')} resizeMode="repeat" style={[StyleSheet.absoluteFill,{opacity:0.16,width:'100%',height:'100%'}]} accessibilityIgnoresInvertColors/>
-   {box.w>0&&<Svg key={`v${box.w}x${box.h}`} width={box.w} height={box.h} style={StyleSheet.absoluteFill}><Rect x="0" y="0" width="100%" height="100%" fill={`url(#v${id})`}/></Svg>}
+   {/* Android's SVG draws this radial vignette as solid black, so it is iPhone-only. */}
+   {box.w>0&&Platform.OS==='ios'&&<Svg key={`v${box.w}x${box.h}`} width={box.w} height={box.h} style={StyleSheet.absoluteFill}><Rect x="0" y="0" width="100%" height="100%" fill={`url(#v${id})`}/></Svg>}
    {/* hairline machined edge: lit along the top, falling to shadow at the bottom */}
    <View style={[StyleSheet.absoluteFill,{borderRadius:radius,borderWidth:StyleSheet.hairlineWidth,borderTopColor:'rgba(255,255,255,0.32)',borderLeftColor:'rgba(255,255,255,0.12)',borderRightColor:'rgba(255,255,255,0.06)',borderBottomColor:'rgba(0,0,0,0.6)'}]}/>
    <View style={{position:'absolute',left:radius,right:radius,top:0,height:1,backgroundColor:'rgba(255,255,255,0.10)'}}/>
