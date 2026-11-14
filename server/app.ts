@@ -20,6 +20,8 @@ import {applicableClaims,generateAnswer,planSpecLookups,raceLookups,PROMPT_VERSI
 import type {SupabaseClient} from '@supabase/supabase-js';
 import {handleBilling,hasPaidAccess,prepareAccountDeletion} from './billing.ts';
 import {resolveTier,usageFor,reserveQuestion,ensureTrial,startNextTrialSet} from './plans.ts';
+import {smallTalkKind,smallTalkReply} from '../shared/small-talk.ts';
+import {gapIsForBike} from '../shared/bike-identity.ts';
 import {limitMessage,canCoachClips,CLIP_PRO_NOTE} from '../shared/plans.ts';
 import {handleMobileBilling} from './mobile-billing.ts';
 import {handleRiderSurfaces} from './rider-surfaces.ts';
@@ -121,6 +123,13 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
   if(lock.error){if(lock.error.code==='23505')throw new HttpError(409,'A request is already processing for this conversation');throw new HttpError(503,'Could not reserve request');}
   type Emit=(event:Record<string,unknown>)=>void;
   const run=async(emit:Emit)=>{
+   // "Thanks", "hey" or a pasted email address: a short reply from the server, free, with no AI call.
+   const talk=data.guided||data.race?null:smallTalkKind(data.message,photoIds.length>0||!!data.media);
+   if(talk){
+    checked(await admin.rpc('complete_ai_request',{p_user_id:owner,p_request_id:data.request_id,p_response:smallTalkReply(talk,bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:null),p_raw_output:{bakmx_small_talk:talk}}));
+    const done=checked(await admin.from('ai_requests').select('assistant_message_id,response').eq('request_id',data.request_id).single());const message=checked(await db.from('messages').select('*').eq('id',done!.assistant_message_id).eq('user_id',owner).single());
+    return {request_id:data.request_id,response:done!.response,message};
+   }
    /* A re-run was already counted against the allowance when it first ran ('duplicate'). */const reserved=await reserveQuestion(owner,data.request_id,tier,mode);if(reserved==='limit'||(reserved==='duplicate'&&!rerun))throw new HttpError(429,reserved==='limit'?limitMessage((await usageFor(owner,tier,mode))):'Daily AI allowance reached');
    emit({type:'status',stage:'specs'});
    const t0=Date.now();const lookups=bike?(data.race?raceLookups(data.message):await planSpecLookups(bike,history,data.message)):[];const t1=Date.now();const extra=bike?supplementalLookups(data.message,bike):[];const claims=bike?(extra.length?mergeSearchResults([await searchBikeClaims(db,bike,lookups),await searchBikeClaims(db,bike,extra)]):await searchBikeClaims(db,bike,lookups)):[];const knowledge=bike?[...await bikeKnowledge(db,bike,data.message,lookups),...await comparisonKnowledge(db,bike,data.message)]:[];const compared=bike?await comparisonClaims(db,bike,data.message,lookups):[];const t2=Date.now();
@@ -139,7 +148,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
    const {response,raw}=await generateAnswer(bike,history,claims,data.message,lookups,draft=>{const size=draft.summary.length+draft.answer.length;if(size-sent<24)return;sent=size;emit({type:'draft',summary:draft.summary,answer:draft.answer});},setupHistory,knowledge,data.guided??null,data.voice===true,bike?await riderManualExcerpts(owner,bike.id,data.message,lookups):[],await (async()=>{const links=await photoLinks(photoIds,900);return photoIds.map(id=>links.get(id)?.url).filter((u):u is string=>!!u);})(),tracks,data.media??null,data.media&&bike?{history:await coachingHistory(db,owner,bike.id,data.request_id),before:data.media.kind==='clip'&&data.media.compare_to?await beforeClip(owner,data.media.compare_to):null}:null,await riderPreferences(db,owner),race,physics,({...await appContext(db,owner,bike,data.message,history,data.tz),photos:photoIds}),compared,await riderWearFor(admin,bike,[data.message,...history.filter(m=>m.role==='user').slice(-2).map(m=>m.content??'')]));
    emit({type:'status',stage:'checking'});
    checked(await admin.rpc('complete_ai_request',{p_user_id:owner,p_request_id:data.request_id,p_response:response,p_raw_output:{...raw,bakmx_plan_ms:t1-t0,bakmx_search_ms:t2-t1,bakmx_streamed:emit!==quiet}}));
-   if(bike&&response.data_gaps?.length){const scope=exactBikeScope(bike);/* Best effort: a logging failure must not cost the rider a saved answer. */await admin.from('data_gaps').insert(response.data_gaps.map(gap=>({request_id:data.request_id,user_id:owner,...scope,gap:gap.slice(0,300)}))).then(()=>{},()=>{});}
+   const gaps=bike?(response.data_gaps??[]).filter(g=>gapIsForBike(g,bike)):[];if(bike&&gaps.length){const scope=exactBikeScope(bike);/* Best effort: a logging failure must not cost the rider a saved answer. */await admin.from('data_gaps').insert(gaps.map(gap=>({request_id:data.request_id,user_id:owner,...scope,gap:gap.slice(0,300)}))).then(()=>{},()=>{});}
    const done=checked(await admin.from('ai_requests').select('assistant_message_id').eq('request_id',data.request_id).single());const message=checked(await db.from('messages').select('*').eq('id',done!.assistant_message_id).eq('user_id',owner).single());
    return {request_id:data.request_id,response,message};
   };

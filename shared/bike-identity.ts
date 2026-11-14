@@ -19,3 +19,25 @@ export function sameBikeScope(a:Pick<Bike,'manufacturer'|'model'|'model_year'|'v
 const stable=(value:unknown):unknown=>Array.isArray(value)?value.map(stable):value&&typeof value==='object'?Object.fromEntries(Object.entries(value).sort(([a],[b])=>a.localeCompare(b)).map(([key,v])=>[key,stable(v)])):value;
 /** Hours and nickname changes do not invalidate hardware; actual configuration changes do. */
 export function buildIdentity(bike:Bike){return JSON.stringify([bike.user_id,bike.id,exactBikeScope(bike),stable(bike.configuration)]);}
+
+const MAKERS=['KTM','Husqvarna','GasGas','Gas Gas','Honda','Yamaha','Kawasaki','Suzuki','Beta','Sherco','TM','Fantic','Triumph','Stark','Rieju','Ducati','Kove','Surron','Sur-Ron','Talaria'];
+/** A data gap the model wrote about a bike other than the rider's (a comparison or another bike mentioned in chat) is not a gap
+ *  for the rider's bike: logging it there would send the research to the wrong model. */
+export function gapIsForBike(gap:string,bike:{manufacturer:string;model:string}){
+ const own=bike.manufacturer.toLowerCase().replace(/\s+/g,'');
+ const other=MAKERS.filter(m=>m.toLowerCase().replace(/[\s-]+/g,'')!==own.replace(/-/g,'')).some(m=>new RegExp(`\\b${m.replace(/[-\s]/g,'[-\\s]?')}\\b`,m==='TM'?'':'i').test(gap));
+ if(other)return false;
+ // "2024 KX450 standard fork settings" on a KTM: a model code of the same family letters but not the rider's model.
+ const codes=gap.match(/\b(?:KX|CRF|YZ|WR|RM-?Z|SX-?F?|XC-?F?|EXC|FC|FE|TC|TE|MC|EC|TF)\s?-?\d{2,3}[A-Z-]*\b/gi)??[];
+ const mine=bike.model.toLowerCase().replace(/[^a-z0-9]/g,'');
+ return codes.every(c=>{const k=c.toLowerCase().replace(/[^a-z0-9]/g,'');return mine.includes(k)||k.includes(mine)||/^(sx|sxf|xc|xcf)\d/.test(k)&&mine.includes(k.replace(/\d+.*/,''));});
+}
+/** Make and model typed into each other's boxes ("kx85" as the make, "Kawasaki" as the model) are put back the right way. */
+export function orderedMakeModel(make:string,model:string){
+ const isMaker=(v:string)=>Object.keys(known).some(k=>k.toLowerCase()===v.trim().toLowerCase());
+ if(!isMaker(make)&&isMaker(model))return {manufacturer:model.trim(),model:make.trim()};
+ // "Kawasaki KX85" all in the make box.
+ const lead=Object.keys(known).find(k=>make.trim().toLowerCase().startsWith(k.toLowerCase()+' '));
+ if(!isMaker(make)&&lead&&(!model.trim()||model.trim().toLowerCase()===make.trim().toLowerCase()))return {manufacturer:lead,model:make.trim().slice(lead.length).trim()};
+ return {manufacturer:make,model};
+}

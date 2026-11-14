@@ -1,0 +1,282 @@
+{
+ "written": "2026-11-14",
+ "note": "Real BAK MX tester conversations (Oct-Nov 2026), names and emails removed, mods moved into the message where the eval route has no build sheet. Checks describe what a good reply does.",
+ "conversations": [
+  {
+   "id": "t01-modified-start",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2025,
+    "configuration": {
+     "geared_weight_lb": 215,
+     "rider_sag_mm": 103,
+     "fork_compression": "12",
+     "fork_rebound": "18",
+     "shock_rebound": "20"
+    }
+   },
+   "turns": [
+    "Starting setup for my 2025 KTM 450 SX-F: I'm a vet rider, 215 lb in gear, riding motocross. It has a WP 6500 coil fork conversion, REP revalve front and rear and a CR22 linkage. Give me where to start: rider sag, each clicker, spring, tire pressures, and the one thing to check in my first session."
+   ],
+   "checks": [
+    "gives an exact number for sag, every clicker and tire pressures (starting from the recorded 103 mm / 12 / 18 / 20), not just 'keep current'",
+    "names the tuner baseline sheet at most once, as the better reference",
+    "one first-session test with what to feel and when to go back",
+    "no invented stock AER pressures for a coil conversion"
+   ]
+  },
+  {
+   "id": "t02-track-day",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2025,
+    "configuration": {
+     "geared_weight_lb": 215,
+     "rider_sag_mm": 103,
+     "fork_compression": "12",
+     "fork_rebound": "18",
+     "shock_rebound": "20"
+    }
+   },
+   "turns": [
+    "Starting setup for Bushnell MX on Thursday. Work it out for the track and the conditions, starting from what's on my bike now. It's a WP 6500 coil conversion with REP valving."
+   ],
+   "checks": [
+    "gives concrete settings for the track (sandy/hard-pack where known) from the current clickers, not only 'keep your baseline'",
+    "weather used if supplied, unknown conditions said once"
+   ]
+  },
+  {
+   "id": "t03-push-entry",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2025,
+    "configuration": {
+     "geared_weight_lb": 215,
+     "rider_sag_mm": 103,
+     "fork_compression": "12",
+     "fork_rebound": "18",
+     "shock_rebound": "20"
+    }
+   },
+   "turns": [
+    "Front pushes. It pushes off the gas at corner entry. Where: corner entry. Track: hard pack."
+   ],
+   "checks": [
+    "exact one-click-range change from the current 12 out (e.g. 12 to 14 out) with what to feel",
+    "checks front tire and pressure",
+    "tuner mentioned at most once"
+   ]
+  },
+  {
+   "id": "t04-triple-gear",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "85 SX",
+    "model_year": 2023,
+    "configuration": {}
+   },
+   "turns": [
+    "What gear should I hit a 55 foot tripol in",
+    "Can I clear it in first gear",
+    "Can I clear it in 3rd gear",
+    "I have hit the triple before",
+    "I landed cleanly",
+    "I was on a starkvark",
+    "The tripol is at BAK MX",
+    "Is fourth gear a good gear",
+    "Is 5th a good gear to hit it in"
+   ],
+   "checks": [
+    "coach / don't-come-up-short caution appears once, not in every reply",
+    "after the rider says they cleared it before, gives a concrete way to find the gear on the 85 (match the speed, roll it first, gear that keeps it pulling) instead of repeating the refusal",
+    "never states a guaranteed gear or speed for the jump",
+    "Stark Varg: names BAK Tech EMOTO in one sentence, then keeps helping with the 85"
+   ]
+  },
+  {
+   "id": "t05-engine-in",
+   "bike": {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025,
+    "configuration": {
+     "geared_weight_lb": 150
+    }
+   },
+   "turns": [
+    "Hi chat, I need help with putting my front tire on pretty please",
+    "Thank you!",
+    "How do I put my engine in too?",
+    "Why don’t you know the engine mount torqued and sequence?",
+    "Go look at the service manual and find me the torque table and installation"
+   ],
+   "checks": [
+    "'Thank you!' gets a short free reply (small talk, no AI call)",
+    "engine install: if a reviewed guided job exists, offers it; otherwise general outline with the unknown torques said once",
+    "never invents engine-mount torques",
+    "explains it cannot open manuals, offers the rider-manual upload"
+   ]
+  },
+  {
+   "id": "t06-scared-beginner",
+   "bike": {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025,
+    "configuration": {
+     "geared_weight_lb": 150
+    }
+   },
+   "turns": [
+    "Okay I’m worried a 250 is too much power what is another option like a triumph 250 just with less power",
+    "Mainly I’m riding motocross tracks so which one out of those is better",
+    "I’m still scared of my bike what else can I get because I want to ride with my husband"
+   ],
+   "checks": [
+    "kind and practical; options that fit motocross tracks",
+    "also offers ways to tame the current bike (map, throttle, gearing, riding) before buying",
+    "recommendations stay consistent across turns"
+   ]
+  },
+  {
+   "id": "t07-neglected-service",
+   "bike": {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025,
+    "configuration": {
+     "geared_weight_lb": 150
+    }
+   },
+   "turns": [
+    "What oil do I use and where can I get it",
+    "Okay I’ll look for one what else should I do because I haven’t really taken care of it"
+   ],
+   "checks": [
+    "exact oil grade, rating and capacity from Triumph's spec",
+    "catch-up service list in priority order",
+    "air filter and chain included"
+   ]
+  },
+  {
+   "id": "t08-85-sag",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "85 SX",
+    "model_year": 2024,
+    "configuration": {}
+   },
+   "turns": [
+    "What does suspension look like should I stiffen the rear",
+    "I think it’s 105 sag I think right now"
+   ],
+   "checks": [
+    "catches that the 85 SX target is 120 mm, not 105",
+    "does not add preload",
+    "says how to remeasure"
+   ]
+  },
+  {
+   "id": "t09-braking-bumps",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "WR250F",
+    "model_year": 2024,
+    "configuration": {}
+   },
+   "turns": [
+    "Help me set my sag and clickers. Rear kicks on braking bumps."
+   ],
+   "checks": [
+    "exact sag in Yamaha's range",
+    "separates first-hit kick from packing and gives one exact rebound change",
+    "chain and linkage check"
+   ]
+  },
+  {
+   "id": "t10-race-check",
+   "bike": {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2025,
+    "configuration": {}
+   },
+   "turns": [
+    "Race this weekend. What should I check?"
+   ],
+   "checks": [
+    "ordered checklist, brakes and wheels first",
+    "published tire pressures if on file",
+    "short"
+   ]
+  },
+  {
+   "id": "t11-top-end",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2025,
+    "configuration": {
+     "geared_weight_lb": 215,
+     "rider_sag_mm": 103,
+     "fork_compression": "12",
+     "fork_rebound": "18",
+     "shock_rebound": "20"
+    }
+   },
+   "turns": [
+    "How hard is it to replace my top end? I hit the piston and head gasket seals do I need anything else",
+    "What would my first steps be"
+   ],
+   "checks": [
+    "lists the extra gaskets and clips",
+    "offers the guided top-end job if available",
+    "first steps in order, cam timing called out"
+   ]
+  },
+  {
+   "id": "t12-spokes",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2025,
+    "configuration": {
+     "geared_weight_lb": 215,
+     "rider_sag_mm": 103,
+     "fork_compression": "12",
+     "fork_rebound": "18",
+     "shock_rebound": "20"
+    }
+   },
+   "turns": [
+    "how can i tighten my spokes on my rear wheel? without getting it more out of line"
+   ],
+   "checks": [
+    "quarter-turn pattern method, runout pointer",
+    "no invented spoke torque"
+   ]
+  },
+  {
+   "id": "t13-small-talk",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2024,
+    "configuration": {}
+   },
+   "turns": [
+    "name@example.com",
+    "hey",
+    "what does high-speed compression do?"
+   ],
+   "checks": [
+    "in the app the email and the hello are answered free without an AI call (the eval route always calls the AI, so here just check they get a short reply)",
+    "the real question gets a normal answer about shaft speed vs bike speed and which way to turn it"
+   ]
+  }
+ ]
+}
