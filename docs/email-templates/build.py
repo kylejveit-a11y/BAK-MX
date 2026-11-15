@@ -28,11 +28,14 @@ def fallback(url):
     return f'''<tr><td style="padding:18px 0 0;font-size:13px;line-height:20px;color:#8f97a4">Button not working? Copy this link into your browser:<br><a href="{url}" style="color:#8ab8ff;word-break:break-all;text-decoration:none">{url}</a></td></tr>'''
 
 C='{{ .ConfirmationURL }}'
+# The app also takes the 6-digit code, for riders who open the email on another device than the phone they're signing up on.
+CODE='''<tr><td style="padding:22px 0 0;font-size:14px;line-height:21px;color:#c9cfd8">Or enter this code in the app:</td></tr>
+<tr><td style="padding:8px 0 0"><div style="display:inline-block;padding:12px 18px;border-radius:12px;background:#0b0d11;border:1px solid #2b313b;font-family:'SF Mono',Menlo,Consolas,monospace;font-size:28px;line-height:32px;letter-spacing:8px;font-weight:700;color:#f3f5f8">{{ .Token }}</div></td></tr>'''
 T=[
  dict(key='confirmation', name='Confirm sign up', subject='Confirm your BAK MX account',
   html=shell('One tap and your Garage is ready.','Confirm your email',
    'You’re one tap from your Garage. Confirm this is your email and BAK MX is ready to go: your bike’s specs, setup and service, plus answers about your exact bike.',
-   ('Confirm my email',C), fallback(C),
+   ('Confirm my email',C), CODE+fallback(C),
    'You’re getting this because someone signed up for BAK MX with {{ .Email }}. If that wasn’t you, ignore this email and no account will be made.')),
  dict(key='recovery', name='Reset password', subject='Reset your BAK MX password',
   html=shell('Choose a new password for BAK MX.','Reset your password',

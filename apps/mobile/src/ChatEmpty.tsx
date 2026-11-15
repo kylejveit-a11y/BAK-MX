@@ -5,7 +5,7 @@ import {Animated,Easing,Text,View,useWindowDimensions} from 'react-native';
 import Svg,{Defs,RadialGradient,Ellipse,Stop} from 'react-native-svg';
 import {Pressable} from './Touch';
 import {MetalMark} from './ui';
-import {colors,motion} from './theme';
+import {colors,motion,DISPLAY} from './theme';
 import {CHAT_HERO_PHRASE,type ChatStarter} from './chatStarters';
 
 const GLOW_W=440,GLOW_H=250;
@@ -30,7 +30,7 @@ export function ChatHero({model,onPress,compact=false}:{model:string;onPress:()=
     </RadialGradient></Defs><Ellipse cx={GLOW_W/2} cy={GLOW_H/2} rx={GLOW_W/2} ry={GLOW_H/2} fill={`url(#hg${id})`}/></Svg>
    </Animated.View>
    {/* side padding keeps the raked last letter from being cut at the text box edge */}
-   <Text numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.6} maxFontSizeMultiplier={1.2} style={{alignSelf:'stretch',color:colors.text,fontSize:size,lineHeight:Math.round(size*1.12),fontWeight:'900',fontStyle:'italic',letterSpacing:compact?-0.9:-1.5,textAlign:'center',paddingHorizontal:8}}>{CHAT_HERO_PHRASE}</Text>
+   <Text numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.6} maxFontSizeMultiplier={1.2} style={{alignSelf:'stretch',color:colors.text,fontSize:size,lineHeight:Math.round(size*1.12),...DISPLAY,letterSpacing:compact?-0.9:-1.5,textAlign:'center',paddingHorizontal:8}}>{CHAT_HERO_PHRASE}</Text>
    <View style={{flexDirection:'row',gap:4}}><MetalMark width={compact?20:30} height={compact?2.5:3}/><MetalMark width={compact?6:9} height={compact?2.5:3} dim/></View>
   </View>
   <Text style={{color:'#adb5c1',fontSize:compact?14:15,lineHeight:compact?19:21,textAlign:'center',maxWidth:330}}>Ask about your {model}. Tell it like you’d tell your buddy at the truck.</Text>

@@ -5,7 +5,7 @@ import {BlueFace,blueLift,onBlueText} from './BlueFace';
 import {readProgress,writeProgress} from './localProgress';
 import {MetalPanel} from './MetalPanel';
 import {Pressable} from './Touch';
-import {motion} from './theme';
+import {motion,DISPLAY} from './theme';
 import type {Bike} from '../../../shared/types';
 import {api} from './api';
 import {addPhotos,type Photo} from './photos';
@@ -93,7 +93,7 @@ function CoverPlaceholder({width,height,bike,adding}:{width:number;height:number
   <View style={{position:'absolute',left:0,right:0,top:0,bottom:0,borderRadius:14,borderWidth:StyleSheet.hairlineWidth,borderColor:'rgba(255,255,255,0.18)'}}/>
   <View style={{padding:18,gap:10,alignItems:'flex-start'}}>
    <View style={{gap:3}}>
-    <Text style={{color:'#ffffff',fontSize:22,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.4,textShadowColor:'rgba(0,0,0,0.7)',textShadowOffset:{width:0,height:1},textShadowRadius:3}}>Add your bike’s photo</Text>
+    <Text style={{color:'#ffffff',fontSize:17.5,...DISPLAY,letterSpacing:0,textShadowColor:'rgba(0,0,0,0.7)',textShadowOffset:{width:0,height:1},textShadowRadius:3}}>Add your bike’s photo</Text>
     <Text numberOfLines={1} style={{color:'#d9dee6',fontSize:13.5,textShadowColor:'rgba(0,0,0,0.7)',textShadowOffset:{width:0,height:1},textShadowRadius:2}}>Your {bike.model_year} {bike.manufacturer} {bike.model}, front and center</Text>
    </View>
    <View style={[{flexDirection:'row',alignItems:'center',gap:8,paddingVertical:10,paddingHorizontal:16,borderRadius:22},blueLift]}>
@@ -120,7 +120,7 @@ export function StartHereCover({onAdd}:{onAdd:()=>void}){
    <View style={{padding:20,gap:12}}>
     <View style={{gap:4}}>
      <Text style={{color:'#c9d6ea',fontWeight:'800',letterSpacing:2.2,fontSize:11}}>START HERE</Text>
-     <Text style={{color:'#ffffff',fontSize:26,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6,textShadowColor:'rgba(0,0,0,0.7)',textShadowOffset:{width:0,height:1},textShadowRadius:3}}>Add your bike</Text>
+     <Text style={{color:'#ffffff',fontSize:21,...DISPLAY,letterSpacing:0,textShadowColor:'rgba(0,0,0,0.7)',textShadowOffset:{width:0,height:1},textShadowRadius:3}}>Add your bike</Text>
      <Text style={{color:'#d9dee6',fontSize:14.5,lineHeight:20,textShadowColor:'rgba(0,0,0,0.7)',textShadowOffset:{width:0,height:1},textShadowRadius:2}}>Make, model and year. BAK knows its stock setup, specs and service schedule right away.</Text>
     </View>
     <View style={[{alignSelf:'stretch',alignItems:'center',justifyContent:'center',minHeight:50,borderRadius:28},blueLift]}><BlueFace radius={28}/><Text style={[{fontSize:16,fontWeight:'700'},onBlueText]}>Add your bike</Text></View>

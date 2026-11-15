@@ -6,6 +6,7 @@ import {Modal,Text,View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {Pressable} from './Touch';
 import {Button,colors} from './ui';
+import {DISPLAY} from './theme';
 import {useProgress} from './localProgress';
 import {MetalPanel} from './MetalPanel';
 import {Raised} from './Raised';
@@ -40,7 +41,7 @@ export function TourHost({navigate}:{navigate:(tab:TourTab)=>void}){
      </View>
      <Pressable accessibilityRole="button" hitSlop={12} onPress={close}><Text style={{color:colors.muted,fontSize:14.5}}>Skip tour</Text></Pressable>
     </View>
-    <Text style={{color:'#f3f5f8',fontSize:21,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.4,textShadowColor:'rgba(0,0,0,0.7)',textShadowOffset:{width:0,height:1},textShadowRadius:1}}>{step.title}</Text>
+    <Text style={{color:'#f3f5f8',fontSize:17,...DISPLAY,letterSpacing:0,textShadowColor:'rgba(0,0,0,0.7)',textShadowOffset:{width:0,height:1},textShadowRadius:1}}>{step.title}</Text>
     <Text style={{color:'#d3d8e0',fontSize:15,lineHeight:22}}>{step.body}</Text>
     <View style={{flexDirection:'row',gap:10,paddingTop:4}}>
      {i>0&&<View style={{flex:1}}><Button secondary title="Back" onPress={()=>setI(i-1)}/></View>}
@@ -59,7 +60,7 @@ export function TourOffer({account}:{account:string}){
  return <MetalPanel radius={20}>
   <View style={{gap:6}}>
    <Text style={{color:'#b9c0ca',fontWeight:'800',letterSpacing:2.2,fontSize:11}}>NEW HERE?</Text>
-   <Text style={{color:'#f3f5f8',fontSize:21,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.4,textShadowColor:'rgba(0,0,0,0.7)',textShadowOffset:{width:0,height:1},textShadowRadius:1}}>Take the 30-second tour</Text>
+   <Text style={{color:'#f3f5f8',fontSize:17,...DISPLAY,letterSpacing:0,textShadowColor:'rgba(0,0,0,0.7)',textShadowOffset:{width:0,height:1},textShadowRadius:1}}>Take the 30-second tour</Text>
    <Text style={{color:'#c4cad3',fontSize:14,lineHeight:20}}>Four stops: Home, Garage, Ask BAK and race day. Skip any time.</Text>
   </View>
   <View style={{flexDirection:'row',gap:10}}>

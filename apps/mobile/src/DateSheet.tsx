@@ -3,7 +3,7 @@
 import React,{useEffect,useMemo,useRef,useState} from 'react';
 import {FlatList,Modal,StyleSheet,Text,View,type NativeScrollEvent,type NativeSyntheticEvent} from 'react-native';
 import {Pressable} from './Touch';
-import {colors} from './theme';
+import {colors,DISPLAY} from './theme';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {tap as hTap,select as hSelect} from './haptics';
 import {Icon} from './Icon';
@@ -104,7 +104,7 @@ const st=StyleSheet.create({
  top:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',minHeight:36},
  step:{color:C.muted,fontSize:11.5,fontWeight:'700',letterSpacing:1.6},
  close:{width:34,height:34,borderRadius:17,borderWidth:1,borderColor:C.line,alignItems:'center',justifyContent:'center'},
- title:{color:C.text,fontSize:26,fontWeight:'900',fontStyle:'italic',letterSpacing:-1,marginTop:2},
+ title:{color:C.text,fontSize:21,...DISPLAY,letterSpacing:0,marginTop:2},
  readout:{fontSize:17,fontWeight:'700',marginTop:6},
  band:{position:'absolute',left:0,right:0,height:ROW,borderTopWidth:1,borderBottomWidth:1,borderColor:'#343a45'},
  bottom:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',marginTop:18},

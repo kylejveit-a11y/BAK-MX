@@ -1,4 +1,5 @@
 import React,{useCallback,useState} from 'react';
+import {DISPLAY} from './theme';
 import {View,Text,Linking,Platform,StyleSheet} from 'react-native';
 import {useFocusEffect} from '@react-navigation/native';
 import type {PurchasesPackage} from 'react-native-purchases';
@@ -26,7 +27,7 @@ export function PlansCard({bare=false,onPro}:{bare?:boolean;/** opens the BAK Pr
  return <Wrap style={bare?{gap:12}:undefined}>
   {!bare&&<Eyebrow>ASK BAK PLAN</Eyebrow>}
   {!usage?(!notice&&<Copy>Checking your plan…</Copy>):<>
-   <View style={{flexDirection:'row',alignItems:'baseline',gap:10}}><Text style={{color:colors.text,fontSize:24,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6}}>{TIER_LABEL[tier]}</Text>{usage.access_mode==='beta'&&<Text style={{color:'#9aa2ae',fontSize:12,fontWeight:'800',letterSpacing:1.2}}>LAUNCH OFFER</Text>}</View>
+   <View style={{flexDirection:'row',alignItems:'baseline',gap:10}}><Text style={{color:colors.text,fontSize:19,...DISPLAY,letterSpacing:0}}>{TIER_LABEL[tier]}</Text>{usage.access_mode==='beta'&&<Text style={{color:'#9aa2ae',fontSize:12,fontWeight:'800',letterSpacing:1.2}}>LAUNCH OFFER</Text>}</View>
    <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>{usage.access_mode==='beta'?`Launch offer: every rider gets ${usage.daily_limit} questions a day for now.`:TIER_BLURB[tier]}</Text>
    <View style={{gap:8,paddingTop:2}}>
     {usage.unlimited?line('Questions','Unlimited'):usage.daily_limit>0&&<>{line('Used today',`${usage.used_today} of ${usage.daily_limit}`)}{meter(usage.used_today,usage.daily_limit)}</>}

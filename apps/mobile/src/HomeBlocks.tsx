@@ -1,6 +1,7 @@
 // Home, the rider's way: blocks they can turn on, off and reorder (saved on this phone), and race-day mode, which turns Home
 // into a track-day screen: today's setup, a between-motos checklist and a fast change log that goes into the setup log.
 import {PageSheet} from './PageSheet';
+import {DISPLAY} from './theme';
 import React,{useCallback,useEffect,useState} from 'react';
 import {Keyboard,Modal,Platform,ScrollView,Text,TextInput,View} from 'react-native';
 import DateTimePicker,{type DateTimePickerEvent} from '@react-native-community/datetimepicker';
@@ -48,7 +49,7 @@ export function HomeEditor({visible,layout,onChange,onReset,onClose}:{visible:bo
  return <PageSheet visible={visible} animationType="slide" onRequestClose={onClose}>
   <View style={{flex:1,backgroundColor:colors.bg,paddingTop:20,paddingBottom:insets.bottom+12}}>
    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:20,paddingBottom:12}}>
-    <Text style={{color:colors.text,fontSize:24,fontWeight:'900',fontStyle:'italic'}}>Edit Home</Text>
+    <Text style={{color:colors.text,fontSize:19,...DISPLAY}}>Edit Home</Text>
     <Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>Done</Text></Pressable>
    </View>
    <Text style={{color:colors.muted,fontSize:14,paddingHorizontal:20,paddingBottom:10}}>Turn blocks on or off and move them up or down. Saved on this phone.</Text>
@@ -322,7 +323,7 @@ export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenC
  return <>
   <View style={{gap:6}}>
    <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={22}/><Eyebrow>RACE DAY · {new Date().toLocaleDateString([],{weekday:'long',month:'short',day:'numeric'}).toUpperCase()}</Eyebrow></View>
-   <Text style={{color:colors.text,fontSize:30,fontWeight:'900',fontStyle:'italic',letterSpacing:-1}}>{track||'Track day'}</Text>
+   <Text style={{color:colors.text,fontSize:24,...DISPLAY,letterSpacing:0}}>{track||'Track day'}</Text>
    <Text style={{color:colors.muted,fontSize:14}}>{bike.model_year} {bike.manufacturer} {bike.model}{bike.engine_hours!=null?` · ${bike.engine_hours} h`:''}</Text>
   </View>
   {onNext&&<NextUpCard race={day} labels={MOTOS} onSet={onNext}/>}
@@ -375,7 +376,7 @@ export function RaceDayStart({visible,initialKind='race',bike,bikes,onSwitch,onS
  const name=(b:Bike)=>b.nickname||`${b.model_year} ${b.manufacturer} ${b.model}`;
  return <PageSheet visible={visible} animationType="slide" onRequestClose={onClose}>
   <ScrollView keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets style={{flex:1,backgroundColor:colors.bg}} contentContainerStyle={{padding:20,paddingBottom:insets.bottom+20,gap:18}}>
-   <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Text style={{color:colors.text,fontSize:26,fontWeight:'900',fontStyle:'italic'}}>{practice?'Practice day':'Race day'}</Text><Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.muted,fontSize:16}}>Cancel</Text></Pressable></View>
+   <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Text style={{color:colors.text,fontSize:21,...DISPLAY}}>{practice?'Practice day':'Race day'}</Text><Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.muted,fontSize:16}}>Cancel</Text></Pressable></View>
    <View accessibilityRole="tablist" style={{flexDirection:'row',borderWidth:1,borderColor:'#2f3540',borderRadius:20,padding:3,alignSelf:'flex-start'}}>
     {(['race','practice'] as const).map(k=>{const on=kind===k;return <Pressable key={k} haptic="select" accessibilityRole="tab" accessibilityState={{selected:on}} onPress={()=>setKind(k)} style={({pressed})=>({paddingHorizontal:16,paddingVertical:8,borderRadius:17,backgroundColor:on?tint(0.22):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:14.5,fontWeight:on?'800':'600'}}>{k==='race'?'Race day':'Practice day'}</Text></Pressable>;})}
    </View>

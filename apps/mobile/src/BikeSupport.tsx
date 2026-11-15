@@ -1,4 +1,5 @@
 import {sortBikeNames} from '../../../shared/bike-identity';
+import {DISPLAY} from './theme';
 import React,{useMemo,useState} from 'react';
 import {View,Text,TextInput,StyleSheet} from 'react-native';
 import {Pressable} from './Touch';
@@ -34,7 +35,7 @@ export function SupportPicker({onSeeAll,pick:outer,onPick,onStart,title}:{onSeeA
  const yearsFor=(m:string,mo:string)=>data.bikes.filter(b=>b.make===m&&b.model===mo).map(b=>b.year);
  const row=pick&&data.bikes.find(b=>b.make===pick.make&&b.model===pick.model&&String(b.year)===pick.year);
  const engraved={textShadowColor:'rgba(0,0,0,0.75)',textShadowOffset:{width:0,height:1},textShadowRadius:1};
- return <MetalPanel style={{marginTop:10,marginBottom:8}}><View style={{gap:6,paddingTop:4,alignItems:'center'}}><Text style={[{color:'#b9c0ca',fontWeight:'800',letterSpacing:2.2,fontSize:11,textAlign:'center'},engraved]}>BEFORE YOU SIGN UP</Text><Text style={[{color:'#f3f5f8',fontSize:23,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.5,textAlign:'center'},engraved]}>{title??'Is your bike supported?'}</Text></View>
+ return <MetalPanel style={{marginTop:10,marginBottom:8}}><View style={{gap:6,paddingTop:4,alignItems:'center'}}><Text style={[{color:'#b9c0ca',fontWeight:'800',letterSpacing:2.2,fontSize:11,textAlign:'center'},engraved]}>BEFORE YOU SIGN UP</Text><Text style={[{color:'#f3f5f8',fontSize:18.5,...DISPLAY,letterSpacing:0,textAlign:'center'},engraved]}>{title??'Is your bike supported?'}</Text></View>
   <MetalWell><Pressable accessibilityRole="button" accessibilityLabel={row?`Change bike, ${row.year} ${row.make} ${row.model}`:'Choose your bike'} onPress={()=>setOpen(true)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:14,paddingHorizontal:14,opacity:pressed?0.6:1})}>
    <Icon name="moto" size={26} color="#b2b9c4"/>
    <View style={{flex:1,gap:2}}><Text style={{color:row?colors.text:colors.muted,fontSize:17,fontWeight:'600'}}>{row?`${row.year} ${row.make} ${row.model}`:'Choose your bike'}</Text><Text style={{color:'#9aa2ae',fontSize:12.5}}>{row?'Tap to change':`${data.bikes.length} bike-years from ${makes.length} makes`}</Text></View>
@@ -62,7 +63,7 @@ export function SupportedBikesScreen(){
   <View>{makes.map(mk=>{const expanded=searching||openMake===mk.make;
    return <View key={mk.make} style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}>
     <Pressable haptic="select" accessibilityRole="button" accessibilityState={{expanded}} accessibilityLabel={`${mk.make}, ${mk.models.length} models`} onPress={()=>!searching&&toggleMake(mk.make)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:16,opacity:pressed?0.6:1})}>
-     <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:22,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.5}}>{mk.make}</Text><Text style={{color:'#a1a9b6',fontSize:13.5}}>{mk.models.length} {mk.models.length===1?'model':'models'} · {yearRange(mk.from,mk.to)}</Text></View>
+     <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:17.5,...DISPLAY,letterSpacing:0}}>{mk.make}</Text><Text style={{color:'#a1a9b6',fontSize:13.5}}>{mk.models.length} {mk.models.length===1?'model':'models'} · {yearRange(mk.from,mk.to)}</Text></View>
      {!searching&&<Icon name={expanded?'chevronUp':'chevronDown'} size={18} color={expanded?colors.accent:'#adb5c1'}/>}
     </Pressable>
     {expanded&&<View style={{paddingBottom:10}}>{mk.models.map(md=>{const key=mk.make+'|'+md.model,mOpen=openModel===key;

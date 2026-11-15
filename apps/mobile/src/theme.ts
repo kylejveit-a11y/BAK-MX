@@ -3,6 +3,12 @@
 // re-renders. Kept free of imports from the UI so any component can use it.
 import {BAK_THEME,withAlpha,type BrandTheme} from '../../../shared/brand-theme';
 
+/** Type: Krona One (wide, heavy) for titles, Michroma (wide) for small labels, tabs and buttons; the system font for everything a
+ *  rider reads (answers, descriptions, numbers, inputs). Both are free (SIL Open Font License, assets/fonts/OFL-*.txt) and are loaded
+ *  before the first screen draws (App.tsx). Custom fonts carry one weight, so styles using them set fontWeight normal and no italic. */
+export const FONT={display:'KronaOne',label:'Michroma'} as const;
+export const DISPLAY={fontFamily:FONT.display,fontWeight:'normal' as const,fontStyle:'normal' as const};
+export const LABEL={fontFamily:FONT.label,fontWeight:'normal' as const,fontStyle:'normal' as const};
 export const colors={bg:'#060609',panel:'#121418',text:'#f6f7f9',muted:'#bcc3cd',primary:BAK_THEME.deep,accent:BAK_THEME.accent,glow:BAK_THEME.glow,line:'#30353f'};
 let current:BrandTheme=BAK_THEME;
 /** Switch the accent layer to a bike's colour. Returns true when it changed. */

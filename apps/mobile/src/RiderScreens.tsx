@@ -3,7 +3,7 @@ import {PageSheet} from './PageSheet';
 import {garageModelInfo} from '../../../shared/garage-models';
 import {PublicGarage,type PublicBike} from './GarageSharing';
 import {RacePlate} from './RacePlate';
-import {motion} from './theme';
+import {motion,DISPLAY} from './theme';
 import {usedLinkTokens} from './appLinks';
 import {PART_AREAS,partArea,niceName} from '../../../shared/specs-view';
 import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
@@ -98,7 +98,7 @@ function JoinSheet({visible,onClose,onSaved,why}:{visible:boolean;onClose:()=>vo
   <Page title="">
    <View style={{gap:6,paddingTop:4}}>
     <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Text style={{color:'#9aa2ae',fontWeight:'800',letterSpacing:2,fontSize:11}}>ONE QUICK STEP</Text><Pressable accessibilityRole="button" hitSlop={10} onPress={onClose}><Text style={{color:colors.muted,fontSize:15}}>Not now</Text></Pressable></View>
-    <Text style={{color:colors.text,fontSize:26,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6}}>Pick your rider handle</Text>
+    <Text style={{color:colors.text,fontSize:21,...DISPLAY,letterSpacing:0}}>Pick your rider handle</Text>
     <Copy>{why} pick a handle first. Other riders see your handle and name. Everything else on your profile is optional and can wait.</Copy>
    </View>
    <ProfileEditor quick profile={null} onSaved={p=>{onSaved(p);onClose();}}/>
@@ -184,7 +184,7 @@ export function CommunityScreen({bike,onMessage,draft,draftToken}:{bike?:Bike;on
  if(profile===undefined)return <Page title="Community"><Copy>Loading…</Copy></Page>;
  return <Page title="">
   <View style={{gap:14}}>
-   <Text style={{color:colors.text,fontSize:28,fontWeight:'900',fontStyle:'italic',letterSpacing:-1}}>Community</Text>
+   <Text style={{color:colors.text,fontSize:22.5,...DISPLAY,letterSpacing:0}}>Community</Text>
    <Pressable accessibilityRole="button" accessibilityLabel="Start a post" onPress={()=>join('To post,',()=>setComposing(true))} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,opacity:pressed?0.7:1})}>
     {profile?<Avatar name={riderName(profile)} uri={profile.avatar_url} size={38}/>:<Avatar name="?" size={38}/>}
     <View style={{flex:1,borderWidth:1,borderColor:'#2f3540',borderRadius:22,paddingHorizontal:16,paddingVertical:11}}><Text style={{color:'#adb5c1',fontSize:15}}>What’s on the bike?</Text></View>
@@ -542,7 +542,7 @@ export function RiderProfileView({riderId,from='Community',onBack,onMessage}:{ri
   {data&&<>
    <View style={{alignItems:'center',gap:8,paddingVertical:8}}>
     <Avatar name={riderName(data.profile)} uri={data.profile.avatar_url} size={92}/>
-    <View style={{flexDirection:'row',alignItems:'center',gap:10}}>{!!data.profile.race_number&&<RacePlate number={data.profile.race_number}/>}<Text style={{color:colors.text,fontSize:26,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6}}>{riderName(data.profile)}</Text></View>
+    <View style={{flexDirection:'row',alignItems:'center',gap:10}}>{!!data.profile.race_number&&<RacePlate number={data.profile.race_number}/>}<Text style={{color:colors.text,fontSize:21,...DISPLAY,letterSpacing:0}}>{riderName(data.profile)}</Text></View>
     <Text style={{color:'#adb5c1',fontSize:14}}>@{data.profile.handle}{data.profile.location?' · '+data.profile.location:''}{data.profile.riding_class?' · '+data.profile.riding_class:''}</Text>
     {!!data.profile.bio&&<Text selectable style={{color:colors.text,fontSize:15.5,lineHeight:23,textAlign:'center'}}>{data.profile.bio}</Text>}
     <Text style={{color:'#9aa2ae',fontSize:12.5}}>Riding with BAK MX since {new Date(data.profile.created_at).toLocaleDateString([],{month:'long',year:'numeric'})}</Text>

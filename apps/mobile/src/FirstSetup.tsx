@@ -2,6 +2,7 @@
 // bike, then BAK writes a starting setup from the bike's published settings. New riders get to a useful answer before they
 // have filled in anything else; the same sheet reopens from Home for a fresh starting point any time.
 import {PageSheet} from './PageSheet';
+import {DISPLAY} from './theme';
 import React,{useEffect,useState} from 'react';
 import {Keyboard,Modal,ScrollView,StyleSheet,Text,TextInput,View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -38,10 +39,10 @@ export function FirstSetupSheet({visible,bike,onClose,onSaved,onAsk}:{visible:bo
  return <PageSheet visible={visible} animationType="slide" onRequestClose={onClose}>
   <View style={{flex:1,backgroundColor:colors.bg}}>
   <ScrollView keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets style={{flex:1}} contentContainerStyle={{padding:20,paddingBottom:24,gap:22}}>
-   <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Text style={{color:colors.text,fontSize:26,fontWeight:'900',fontStyle:'italic'}}>Starting setup</Text><Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.muted,fontSize:16}}>Close</Text></Pressable></View>
+   <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Text style={{color:colors.text,fontSize:21,...DISPLAY}}>Starting setup</Text><Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.muted,fontSize:16}}>Close</Text></Pressable></View>
    <Copy>Four quick answers about you. BAK sets the {bike.model_year} {bike.manufacturer} {bike.model} up from its published settings for your weight, level and the kind of riding you do. About a minute.</Copy>
    <View style={{gap:10}}>{label('Weight in riding gear','Boots, helmet, the lot. Springs and sag come from this.')}
-    <View style={{flexDirection:'row',alignItems:'flex-end',gap:8}}><TextInput value={weight} onChangeText={v=>setWeight(v.replace(/[^0-9]/g,'').slice(0,3))} keyboardType="number-pad" returnKeyType="done" onSubmitEditing={()=>Keyboard.dismiss()} placeholder="185" placeholderTextColor="#7d8593" accessibilityLabel="Weight in riding gear, pounds" style={{color:colors.text,fontSize:32,fontWeight:'900',fontStyle:'italic',borderBottomWidth:1,borderBottomColor:colors.accent,paddingVertical:6,minWidth:110}}/><Text style={{color:colors.muted,fontSize:16,paddingBottom:12}}>lb</Text></View>
+    <View style={{flexDirection:'row',alignItems:'flex-end',gap:8}}><TextInput value={weight} onChangeText={v=>setWeight(v.replace(/[^0-9]/g,'').slice(0,3))} keyboardType="number-pad" returnKeyType="done" onSubmitEditing={()=>Keyboard.dismiss()} placeholder="185" placeholderTextColor="#7d8593" accessibilityLabel="Weight in riding gear, pounds" style={{color:colors.text,fontSize:25.5,...DISPLAY,borderBottomWidth:1,borderBottomColor:colors.accent,paddingVertical:6,minWidth:110}}/><Text style={{color:colors.muted,fontSize:16,paddingBottom:12}}>lb</Text></View>
    </View>
    <View style={{gap:10}}>{label('Riding level')}{chips(LEVELS,level,setLevel)}</View>
    <View style={{gap:10}}>{label('Main kind of riding')}{chips(RIDING_TYPES,discipline,setDiscipline)}</View>

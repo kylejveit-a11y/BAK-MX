@@ -1,6 +1,7 @@
 // The build sheet as a finished document: a header plate for the bike, a short summary, then each area of the bike with what's
 // fitted, set out like a team's spec sheet. Used in Garage (your bike) and on profiles (a public build sheet).
 import React from 'react';
+import {DISPLAY} from './theme';
 import {Text,View} from 'react-native';
 import {partSystems,type PartSystem} from '../../../shared/installed-parts';
 import {RacePlate} from './RacePlate';
@@ -34,7 +35,7 @@ export function BuildSheetDoc({data,mine=false}:{data:SheetData;mine?:boolean}){
    <View style={{flexDirection:'row',alignItems:'center',gap:12}}>
     {!!data.raceNumber&&<RacePlate number={data.raceNumber} size={1.1}/>}
     <View style={{flex:1}}>
-     <Text style={{color:colors.text,fontSize:24,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6}}>{data.title}</Text>
+     <Text style={{color:colors.text,fontSize:19,...DISPLAY,letterSpacing:0}}>{data.title}</Text>
      {!!data.subtitle&&<Text style={{color:colors.muted,fontSize:14}}>{data.subtitle}</Text>}
     </View>
    </View>

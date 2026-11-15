@@ -3,6 +3,7 @@
 // (which reads the plan gates), and every price is the store's own string. If the store offers do not load, the rider
 // sees "Price shown in the App Store" and a Retry, never a number we made up.
 import React,{useCallback,useEffect,useState} from 'react';
+import {DISPLAY} from './theme';
 import {ActivityIndicator,Linking,Platform,StyleSheet,Text,View} from 'react-native';
 import {useFocusEffect} from '@react-navigation/native';
 import type {PurchasesPackage} from 'react-native-purchases';
@@ -70,7 +71,7 @@ export function ProScreen(){
     <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={22}/><Text style={{color:'#c9cfd9',fontSize:12,fontWeight:'800',letterSpacing:1.6}}>{PRO_EYEBROW}</Text></View>
     {beta&&<Text style={{color:'#9aa2ae',fontSize:11.5,fontWeight:'800',letterSpacing:1.2}}>{LAUNCH_OFFER}</Text>}
    </View>
-   <Text accessibilityRole="header" style={{color:colors.text,fontSize:34,lineHeight:38,fontWeight:'900',fontStyle:'italic',letterSpacing:-1.2}}>{PRO_HEADLINE}</Text>
+   <Text accessibilityRole="header" style={{color:colors.text,fontSize:27,lineHeight:35,...DISPLAY,letterSpacing:0}}>{PRO_HEADLINE}</Text>
    <Text style={{color:'#c9cfd9',fontSize:15,lineHeight:22}}>{PRO_SUBHEAD}</Text>
    <View style={{paddingTop:4}}>{proValueRows().map((r,i,all)=><ValueRow key={r.title} icon={ICON[r.icon]} title={r.title} detail={r.detail} last={i===all.length-1}/>)}</View>
   </MetalPanel>

@@ -4,6 +4,7 @@
 // Built for weak signal: sessions are kept on the phone first, and a setup change waits in the queue until there is signal.
 // The rules and words are in shared/practice-day.ts; src/PracticeDay.tsx is the website's version.
 import React,{useEffect,useState} from 'react';
+import {DISPLAY} from './theme';
 import {Text,TextInput,View} from 'react-native';
 import type {Bike} from '../../../shared/types';
 import {SETUP_RESULT_LABELS,SETUP_RESULT_ORDER,type SetupLog,type SetupResult} from '../../../shared/rider-types';
@@ -72,7 +73,7 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
  return <>
   <View style={{gap:6}}>
    <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={22}/><Eyebrow>PRACTICE DAY · {new Date().toLocaleDateString([],{weekday:'long',month:'short',day:'numeric'}).toUpperCase()}</Eyebrow></View>
-   <Text style={{color:colors.text,fontSize:30,fontWeight:'900',fontStyle:'italic',letterSpacing:-1}}>{track||'Practice day'}</Text>
+   <Text style={{color:colors.text,fontSize:24,...DISPLAY,letterSpacing:0}}>{track||'Practice day'}</Text>
    <Text style={{color:colors.muted,fontSize:14}}>{bikeName}{bike.engine_hours!=null?` · ${bike.engine_hours} h`:''}{sessions.length?` · ${sessionsSummary(sessions)}`:''}</Text>
   </View>
   <NextUpCard race={race} labels={labels} onSet={onNext}/>

@@ -3,6 +3,7 @@
 // is saved to the account and cached on the phone for weak signal at the track; today's gate times and toggles are kept
 // on the phone. The rules are in shared/fuel-plan.ts; src/FuelPlan.tsx is the website's version.
 import {PageSheet} from './PageSheet';
+import {DISPLAY} from './theme';
 import React,{useEffect,useMemo,useState} from 'react';
 import {Alert,Modal,ScrollView,Text,TextInput,View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -165,7 +166,7 @@ function SheetFrame({visible,title,onClose,footer,children}:{visible:boolean;tit
  return <PageSheet visible={visible} animationType="slide" onRequestClose={onClose}>
   <View style={{flex:1,backgroundColor:colors.bg,paddingTop:18}}>
    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:20,paddingBottom:6}}>
-    <View style={{gap:6}}><Text style={{color:colors.text,fontSize:28,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.8}}>{title}</Text><View style={{flexDirection:'row',gap:4}}><MetalMark width={26}/><MetalMark width={8} dim/></View></View>
+    <View style={{gap:6}}><Text style={{color:colors.text,fontSize:22.5,...DISPLAY,letterSpacing:0}}>{title}</Text><View style={{flexDirection:'row',gap:4}}><MetalMark width={26}/><MetalMark width={8} dim/></View></View>
     <Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Close</Text></Pressable>
    </View>
    <ScrollView keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets contentContainerStyle={{paddingHorizontal:20,paddingTop:12,paddingBottom:insets.bottom+30+(footer?footH+16:0),gap:14}}>{children}</ScrollView>

@@ -4,7 +4,7 @@ import {sortBikeNames} from '../../../shared/bike-identity';
 import React,{useEffect,useMemo,useRef,useState} from 'react';
 import {Animated,FlatList,KeyboardAvoidingView,Modal,Platform,ScrollView,StyleSheet,Text,TextInput,View,useWindowDimensions,type NativeScrollEvent,type NativeSyntheticEvent} from 'react-native';
 import {Pressable} from './Touch';
-import {colors} from './theme';
+import {colors,LABEL,DISPLAY} from './theme';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {tap as hTap,select as hSelect} from './haptics';
 import {Icon} from './Icon';
@@ -87,7 +87,7 @@ export function WheelSelect({label,value,options,onChange,disabled=false,placeho
  const empty=!current||current.value==='';
  const row=inline?
   <Pressable accessibilityRole="button" accessibilityLabel={`${label}: ${shown}`} accessibilityState={{disabled}} disabled={disabled} onPress={()=>setOpen(true)} style={({pressed})=>[st.pill,(pressed||disabled)&&{opacity:0.55}]}>
-   <Text numberOfLines={1} style={{color:C.text,fontSize:14,fontWeight:'600',flexShrink:1}}>{shown}</Text><Icon name="chevronDown" size={14} color={C.muted} weight={2}/>
+   <Text numberOfLines={1} style={{color:C.text,fontSize:12.5,...LABEL,flexShrink:1}}>{shown}</Text><Icon name="chevronDown" size={14} color={C.muted} weight={2}/>
   </Pressable>:
   <Pressable accessibilityRole="button" accessibilityLabel={`${label}: ${shown}`} accessibilityState={{disabled}} disabled={disabled} onPress={()=>setOpen(true)} style={({pressed})=>[st.row,(pressed||disabled)&&{opacity:0.55}]}>
    <View style={{flex:1,gap:3}}><Text style={st.rowLabel}>{label}</Text><Text numberOfLines={1} style={{color:empty?C.muted:C.text,fontSize:17,fontWeight:empty?'500':'600'}}>{shown}</Text></View>
@@ -119,7 +119,7 @@ export function BikeWheel({visible,makes,modelsFor,yearsFor,initial,onDone,onClo
     <View style={{flexDirection:'row',flexWrap:'wrap',justifyContent:'space-between',rowGap:12,marginTop:6}}>
      {makes.map(m=>{const on=m===make;return <Pressable key={m} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} accessibilityLabel={m} onPress={()=>{if(m!==make)setModel('');setMake(m);setQ('');setStage(1);}}
       style={({pressed})=>[st.tile,on&&{borderColor:C.accent},pressed&&{opacity:0.7,transform:[{scale:0.98}]}]}>
-      <Text numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.7} style={{color:C.text,fontSize:21,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.5}}>{m}</Text>
+      <Text numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.7} style={{color:C.text,fontSize:17,...DISPLAY,letterSpacing:0}}>{m}</Text>
       <Text style={{color:C.dim,fontSize:12.5}}>{modelsFor(m).length} models</Text>
      </Pressable>;})}
     </View>
@@ -158,7 +158,7 @@ const st=StyleSheet.create({
  top:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',minHeight:36},
  step:{color:C.muted,fontSize:11.5,fontWeight:'700',letterSpacing:1.6},
  close:{width:34,height:34,borderRadius:17,borderWidth:1,borderColor:'#2a2f39',alignItems:'center',justifyContent:'center'},
- title:{color:C.text,fontSize:32,fontWeight:'900',fontStyle:'italic',letterSpacing:-1.1,marginTop:8},
+ title:{color:C.text,fontSize:25.5,...DISPLAY,letterSpacing:0,marginTop:8},
  search:{flexDirection:'row',alignItems:'center',gap:10,borderBottomWidth:1,borderBottomColor:'#2a2f39',marginTop:8},
  searchInput:{flex:1,color:C.text,fontSize:16,paddingVertical:11},
  band:{position:'absolute',left:0,right:0,height:ROW,borderTopWidth:1,borderBottomWidth:1,borderColor:'#343a45'},

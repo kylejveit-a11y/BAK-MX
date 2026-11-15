@@ -12,7 +12,7 @@ import {api} from './api';
 import {readProgress,writeProgress} from './localProgress';
 import {Pressable} from './Touch';
 import {Card,Eyebrow,Icon,MetalMark,Notice,colors,tint} from './ui';
-import {metalHighlight} from './theme';
+import {metalHighlight,DISPLAY} from './theme';
 import {select as hSelect,success} from './haptics';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
@@ -81,7 +81,7 @@ export function RacePrepSheet({visible,onClose,account,bike,startPhase='week',ki
  return <Modal visible={visible} animationType="slide" presentationStyle="fullScreen" statusBarTranslucent onRequestClose={onClose}>
   <View style={{flex:1,backgroundColor:colors.bg,paddingTop:insets.top+12}}>
    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:20,paddingBottom:6}}>
-    <View style={{gap:6}}><Text style={{color:colors.text,fontSize:28,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.8}}>{kind==='practice'?'Practice checklist':'Race prep'}</Text><View style={{flexDirection:'row',gap:4}}><MetalMark width={26}/><MetalMark width={8} dim/></View></View>
+    <View style={{gap:6}}><Text style={{color:colors.text,fontSize:22.5,...DISPLAY,letterSpacing:0}}>{kind==='practice'?'Practice checklist':'Race prep'}</Text><View style={{flexDirection:'row',gap:4}}><MetalMark width={26}/><MetalMark width={8} dim/></View></View>
     <View style={{flexDirection:'row',gap:18,alignItems:'center'}}>
      <Pressable accessibilityRole="button" onPress={()=>setEditing(!editing)} hitSlop={8}><Text style={{color:editing?colors.accent:colors.muted,fontSize:15.5,fontWeight:'700'}}>{editing?'Done editing':'Edit list'}</Text></Pressable>
      <Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Close</Text></Pressable>

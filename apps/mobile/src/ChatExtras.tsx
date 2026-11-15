@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import {DISPLAY} from './theme';
 import {View,Text,TextInput} from 'react-native';
 import {Pressable} from './Touch';
 import type {Bike} from '../../../shared/types';
@@ -147,7 +148,7 @@ export function AppActionsCard({ownerId,messageId,actions,host}:{ownerId:string;
  </View>;
 }
 const tx={
- q:{color:colors.text,fontSize:22,fontWeight:'900' as const,fontStyle:'italic' as const,letterSpacing:-0.5},
+ q:{color:colors.text,fontSize:17.5,...DISPLAY,letterSpacing:0},
  eyebrow:{color:colors.muted,fontSize:11,fontWeight:'700' as const,letterSpacing:1.5},
  small:{color:colors.muted,fontSize:13,lineHeight:19},
  input:{borderBottomColor:'#2a2f39',borderBottomWidth:1,paddingVertical:10,color:colors.text,fontSize:16},

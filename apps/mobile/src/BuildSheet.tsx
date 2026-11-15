@@ -1,4 +1,5 @@
 import React,{useEffect,useMemo,useState} from 'react';
+import {DISPLAY} from './theme';
 import {PageSheet} from './PageSheet';
 import {Modal,View,Text,ScrollView,TextInput,ActivityIndicator,KeyboardAvoidingView,Platform,Linking} from 'react-native';
 import {Pressable} from './Touch';
@@ -367,7 +368,7 @@ function Row({label,small,detail,onPress,selected=false,chev=true,accent=false,p
 const st={
  eyebrow:{color:'#9aa2ae',fontWeight:'600' as const,letterSpacing:1,fontSize:11.5},
  h2:{color:colors.text,fontSize:22,fontWeight:'800' as const,letterSpacing:-0.5},
- title:{color:colors.text,fontSize:30,fontWeight:'900' as const,fontStyle:'italic' as const,letterSpacing:-1},
+ title:{color:colors.text,fontSize:24,...DISPLAY,letterSpacing:0},
  sub:{color:colors.muted,fontSize:15,marginTop:-6},
  small:{color:colors.muted,fontSize:13,lineHeight:19},
  meter:{height:4,borderRadius:2,backgroundColor:colors.line,overflow:'hidden' as const},
