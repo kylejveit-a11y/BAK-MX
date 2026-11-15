@@ -4,4 +4,6 @@ import {createRoot} from 'react-dom/client';
 import './styles.css'; // first, so the per-feature stylesheets (home.css, rider.css, rider-extras.css) layer on top of it
 import {App} from './App';
 import {LegalPage,LEGAL_PATHS} from './LegalPage';
-createRoot(document.getElementById('root')!).render(<React.StrictMode>{LEGAL_PATHS.includes(location.pathname.replace(/\/$/,''))?<LegalPage path={location.pathname.replace(/\/$/,'')}/>:<App/>}</React.StrictMode>);
+import {SharePage} from './SharePage';
+const shareLink=/^\/s\/([A-Za-z0-9_-]{32})\/?$/.exec(location.pathname)?.[1];
+createRoot(document.getElementById('root')!).render(<React.StrictMode>{shareLink?<SharePage secret={shareLink}/>:LEGAL_PATHS.includes(location.pathname.replace(/\/$/,''))?<LegalPage path={location.pathname.replace(/\/$/,'')}/>:<App/>}</React.StrictMode>);
