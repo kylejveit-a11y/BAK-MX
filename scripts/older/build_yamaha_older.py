@@ -38,17 +38,21 @@ def main():
         suf=r'(?:[A-EG-WYZ]\d?)?' if not model.endswith(('F','X')) else r'(?:[A-Z]\d?)?'
         if not re.search(r'(?<![\w])'+re.escape(model)+suf+r'(?![\w])',cover): rep['notes'].append('MODEL NOT ON COVER')
         # specification table: the older ruled layout prints "MAINTENANCE SPECIFICATIONS" page headers, the newer one does not
-        heads=' '.join(' '.join(w['text'] for w in pg.extract_words() if w['top']<30) for pg in pdf.pages[20:100])
-        old='MAINTENANCE SPECIFICATIONS' in heads; spec=[]; reader=None
+        import subprocess
+        full=subprocess.run(['pdftotext','-l','120',path,'-'],capture_output=True,text=True).stdout
+        old=bool(re.search(r'^MAINTENANCE SPECIFICATIONS\s*$',full,re.M)); spec=[]; reader=None
         damp,dpr=yamaha_dampers_older.dampers(path); rep['damper_problems']=[str(x) for x in dpr]
         damp=[(p,printed(p),a,v,u) for p,_,a,v,u in damp]
         try:
             if not old:
                 rows,prob=yamaha_specs.parse(path,model)
+                # 2018 WR tables print the hard end as "Fully tuned in." (sic): that is the 0 position
+                rows=[(a,b,c,'0' if re.fullmatch(r'(?i)fully tu(r)?ned in\.?',str(d).strip()) and 'Adjustment value' in c else d,e) for a,b,c,d,e in rows]
                 if any('Adjustment value from the start position' in r[2] for r in rows):     # 2018+: dampers in the table, checked
                     mism,_=yamaha_dampers.check(path,rows,model)
                     # the procedure page may not print the hard end; a table "0 (Hard)" with nothing to compare is not a disagreement
-                    mism=[x for x in mism if not (x[0].endswith('(Hard)') and x[1]=='0' and x[2] is None)]
+                    if any(x[2]=='no adjustment block' for x in mism): rep['notes'].append('dampers from the table only: no adjustment procedure found to compare')
+                    mism=[x for x in mism if not (x[0].endswith('(Hard)') and x[1]=='0' and x[2] is None) and x[2]!='no adjustment block']
                     if mism: rep['notes'].append('damper check failed: '+str(mism)[:200]); rows=[]
                     damp=[]
                 if len(rows)>=120: spec=rows; reader='newer-layout reader'; rep['notes']+=[str(x) for x in prob]
