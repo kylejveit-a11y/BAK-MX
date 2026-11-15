@@ -17,7 +17,7 @@ HEAD=re.compile(r'^ADJUSTING THE (FRONT FORK|REAR SHOCK)')
 GROUP=[(r'FRONT FORK REBOUND','Front suspension / Rebound damping'),(r'FRONT FORK COMPRESSION','Front suspension / Compression damping'),
        (r'REAR SHOCK ABSORBER REBOUND','Rear suspension / Rebound damping'),(r'REAR SHOCK ABSORBER LOW COMPRESSION','Rear suspension / Slow compression damping'),
        (r'REAR SHOCK ABSORBER HIGH COMPRESSION','Rear suspension / Fast compression damping')]
-NUM=r'(?:\d+-\d+/\d+–\d+-\d+/\d+|\d+-\d+/\d+|\d+/\d+|\d+(?:[-–]\d+)?)(?:±\d+/\d+)?'   # incl. a range "1-1/3–1-2/3"
+NUM=r'(?:\d+-\d+/\d+–\d+-\d+/\d+|\d+-\d+/\d+|\d+/\d+|\d+(?:[-–]\d+)?)(?:\s?±\s?\d+/\d+)?'   # incl. a range "1-1/3–1-2/3"
 U=r'(clicks?|turns?|click \(s\)|turn \(s\))'      # 2012-2015 WR450F print "18 click (s) out*"
 DV=re.compile(r'^((?:About )?'+NUM+r')\s+'+U+r'\s+out\*?$')
 SUBB=re.compile(r'^(Rebound damping|Compression damping|Fast compression damping|Slow compression damping|High compression damping|Low compression damping)$')

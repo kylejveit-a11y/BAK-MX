@@ -47,6 +47,8 @@ def main():
                 rows,prob=yamaha_specs.parse(path,model)
                 if any('Adjustment value from the start position' in r[2] for r in rows):     # 2018+: dampers in the table, checked
                     mism,_=yamaha_dampers.check(path,rows,model)
+                    # the procedure page may not print the hard end; a table "0 (Hard)" with nothing to compare is not a disagreement
+                    mism=[x for x in mism if not (x[0].endswith('(Hard)') and x[1]=='0' and x[2] is None)]
                     if mism: rep['notes'].append('damper check failed: '+str(mism)[:200]); rows=[]
                     damp=[]
                 if len(rows)>=120: spec=rows; reader='newer-layout reader'; rep['notes']+=[str(x) for x in prob]
@@ -71,13 +73,14 @@ def main():
         paths=[r[2] for r in rows]; dup={p for p in paths if paths.count(p)>1}
         rows=[r for r in rows if r[2] not in dup and '|' not in r[2]+str(r[3]) and str(r[3]).strip()]
         rep.update(spec=len(spec),torques=len(tq),dropped_dup=sorted(dup),reader=reader)
-        if not ed or not lit or not rows:
+        if not ed: ed='(not printed on the cover pages)'
+        if not lit or not rows:
             rep['notes'].append(f'NOT WRITTEN edition={ed} lit={lit} rows={len(rows)}'); report.append(rep); print(rep); continue
         lines=sorted((f'{p}|{pr}|{a}|{v}|{u or ""}' for p,pr,a,v,u in rows),key=lambda l:h(l.split('|')[2]))
         n+=1
         json.dump({'make':'Yamaha','model':model,'yr':int(yr),'doc':code,'sha':sha,
                    'url':f'https://library.ymcapps.net/library/om/contents/pdf/10/{code}_02.pdf',
-                   'rev':f'{code} / {lit}; First edition {ed}','ref':REF.format(code=code,reader=reader or 'none: torques only'),
+                   'rev':f'{code} / {lit}; First edition {ed}' if not ed.startswith('(') else f'{code} / {lit}; edition {ed}','ref':REF.format(code=code,reader=reader or 'none: torques only'),
                    'want':h('\n'.join(lines)),'n':len(lines),'delta':'\n'.join('+|'+l for l in lines)},open(f'{outdir}/{n}.json','w'),ensure_ascii=False)
         rep['i']=n; report.append(rep)
         print(n,model,yr,code,reader,'spec',len(spec),'torques',len(tq),'dup',len(dup),'notes',len(rep['notes']),'tq-prob',len(rep['torque_problems']))
