@@ -4,7 +4,7 @@
 // Built for weak signal: sessions are kept on the phone first, and a setup change waits in the queue until there is signal.
 // The rules and words are in shared/practice-day.ts; src/PracticeDay.tsx is the website's version.
 import React,{useEffect,useState} from 'react';
-import {DISPLAY} from './theme';
+import {DISPLAY,LABEL} from './theme';
 import {Text,TextInput,View} from 'react-native';
 import type {Bike} from '../../../shared/types';
 import {SETUP_RESULT_LABELS,SETUP_RESULT_ORDER,type SetupLog,type SetupResult} from '../../../shared/rider-types';
@@ -20,6 +20,8 @@ import {BikeNowCard,NextUpCard,bikeSetup,useRaceActivity} from './HomeBlocks';
 import {RacePrepCard,RacePrepSheet} from './RacePrep';
 import {TrackReportCard} from './TrackReport';
 import {FuelPlanCard} from './FuelPlan';
+import {RideDayMode} from './RideDay';
+import {RIDE_DAY_COPY} from '../../../shared/ride-day';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 const time=(iso:string)=>new Date(iso).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
@@ -45,27 +47,34 @@ const tone=(r:SetupResult)=>r==='better'?'#7fd09a':r==='worse'?'#ef9aa1':colors.
 
 export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bike;account:string;race:RaceDay;onEnd:()=>void;onAsk:(text:string)=>void;onNext:(next:NextUp|null)=>void}){
  const {sessions,save}=usePracticeSessions(account,bike.id);
- const [draft,setDraft]=useState<SessionDraft>(emptySession),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[prepOpen,setPrepOpen]=useState(false);
+ const [draft,setDraft]=useState<SessionDraft>(emptySession),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[prepOpen,setPrepOpen]=useState(false),[rideDay,setRideDay]=useState(false);
  const set=(p:Partial<SessionDraft>)=>setDraft(d=>({...d,...p}));
  const track=race.track,n=nextSessionNumber(sessions),latest=[...sessions].sort((a,b)=>b.n-a.n)[0];
  const bikeName=`${bike.model_year} ${bike.manufacturer} ${bike.model}`;
  useRaceActivity(account,bike,race,latest?`${sessionLabel(latest)}${latest.change?' · '+sessionChange(latest):''}`:'');
  const labels=[`Session ${n}`,`Session ${n+1}`];
- async function log(){
-  if(busy)return;const made=makeSession(sessions,draft);if(!made.session){setNotice(made.problem);return;}
-  const s=made.session;setBusy(true);setNotice('');
+ /** Logs one session from a draft: on the phone first, then the setup change to the setup log (queued with no signal).
+  *  Returns what to tell the rider. Used by the session card and by Ride Day mode. */
+ async function logDraft(d:SessionDraft):Promise<string>{
+  const made=makeSession(sessions,d);if(!made.session)return made.problem;
+  const s=made.session;
   // On the phone first, so a dead zone never loses a session.
-  let list=[...sessions,s];if(!save(list)){setNotice('This phone could not save the session. Free some storage and try again.');setBusy(false);return;}
-  setDraft(emptySession());success();
+  let list=[...sessions,s];if(!save(list))return 'This phone could not save the session. Free some storage and try again.';
+  success();
   onNext(advanceNextUp(race.next,`Session ${s.n}`));
   const body=sessionLogBody(s,bike,track);
-  if(body){
-   try{
-    const saved=await apiQueued<SetupLog>('/api/setup-logs',body,{...(body as Omit<SetupLog,'id'|'user_id'|'created_at'>),user_id:account,created_at:s.at},'Practice session');
-    list=list.map(x=>x.id===s.id?{...x,logId:saved.id,waiting:!!saved.pending}:x);save(list);
-    if(saved.pending)setNotice(COPY.queued);
-   }catch(e){setNotice(`Session saved on this phone, but the setup change could not go to your setup log: ${errorText(e)}`);}
-  }
+  if(!body)return RIDE_DAY_COPY.saved;
+  try{
+   const saved=await apiQueued<SetupLog>('/api/setup-logs',body,{...(body as Omit<SetupLog,'id'|'user_id'|'created_at'>),user_id:account,created_at:s.at},'Practice session');
+   list=list.map(x=>x.id===s.id?{...x,logId:saved.id,waiting:!!saved.pending}:x);save(list);
+   return saved.pending?RIDE_DAY_COPY.savedQueued:RIDE_DAY_COPY.saved;
+  }catch(e){return `Session saved on this phone, but the setup change could not go to your setup log: ${errorText(e)}`;}
+ }
+ async function log(){
+  if(busy)return;setBusy(true);setNotice('');
+  const msg=await logDraft(draft);
+  if(msg===RIDE_DAY_COPY.saved||msg===RIDE_DAY_COPY.savedQueued||msg.startsWith('Session saved on this phone'))setDraft(emptySession());
+  setNotice(msg===RIDE_DAY_COPY.saved?'':msg===RIDE_DAY_COPY.savedQueued?COPY.queued:msg);
   setBusy(false);
  }
  const ordered=[...sessions].sort((a,b)=>b.n-a.n);
@@ -76,6 +85,12 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
    <Text style={{color:colors.text,fontSize:24,...DISPLAY,letterSpacing:0}}>{track||'Practice day'}</Text>
    <Text style={{color:colors.muted,fontSize:14}}>{bikeName}{bike.engine_hours!=null?` · ${bike.engine_hours} h`:''}{sessions.length?` · ${sessionsSummary(sessions)}`:''}</Text>
   </View>
+  <Pressable haptic="press" accessibilityRole="button" accessibilityLabel={`${RIDE_DAY_COPY.open}. ${RIDE_DAY_COPY.openDetail}`} onPress={()=>setRideDay(true)} style={({pressed})=>({minHeight:72,borderRadius:18,borderWidth:1.5,borderColor:colors.accent,backgroundColor:pressed?tint(0.28):tint(0.16),paddingHorizontal:16,paddingVertical:12,flexDirection:'row',alignItems:'center',gap:12})}>
+   <Icon name="moto" size={28} color={colors.accent}/>
+   <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:17,...LABEL}}>{RIDE_DAY_COPY.open.toUpperCase()}</Text><Text style={{color:colors.muted,fontSize:13.5}}>{RIDE_DAY_COPY.openDetail}</Text></View>
+   <Icon name="chevronRight" size={20} color={colors.muted}/>
+  </Pressable>
+  <RideDayMode visible={rideDay} onClose={()=>setRideDay(false)} bike={bike} track={track} sessions={sessions} onLog={logDraft} onAsk={()=>onAsk(practiceAskText({track,bike:bikeName,setup:bikeSetup(bike),sessions}))}/>
   <NextUpCard race={race} labels={labels} onSet={onNext}/>
   <BikeNowCard bike={bike}/>
   <Card>

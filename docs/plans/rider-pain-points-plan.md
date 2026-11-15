@@ -1,6 +1,6 @@
 # Rider pain points: plan (2026-11-15)
 
-Source: a community pain-point report Kyle pasted on 2026-11-15 (summary below). Status: for discussion; nothing approved to build.
+Source: a community pain-point report Kyle pasted on 2026-11-15 (summary below). Status: Ride Day mode approved and built first (2026-11-15). Share link: free for everyone (Kyle, 2026-11-15). The rest is for discussion.
 
 ## The report, in short
 - Pain: app fragmentation (group chats, spreadsheets, social feeds, several map apps for one ride day); apps that fail with gloves,
@@ -56,7 +56,9 @@ Keep the basics free (garage, service, conditions, crew, share link) to answer s
 9. Buddy tracking with no signal: needs Bluetooth-range or radio hardware; partner or skip.
 10. Voice control of the app (beyond asking BAK).
 
+## Decisions
+- Ride Day mode first (built 2026-11-15: apps/mobile/src/RideDay.tsx, shared/ride-day.ts; opens from the practice-day screen).
+- Safety share link is free for everyone.
+
 ## Open questions for Kyle
-- Phase 1 order: Ride Day mode first, or live conditions + crew finder first?
-- Share link: free for everyone (recommended), or Pro?
 - Any interest in trail riding maps at all, or keep BAK MX track-first?
