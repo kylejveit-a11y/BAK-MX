@@ -21,7 +21,9 @@ def columns(pdf):
     """Text-column edges: from the three "Item" headings of a spread's Specifications table (2010-2017), else page thirds (2018-on)."""
     for p in pdf.pages:
         ws=p.extract_words(x_tolerance=1.5,y_tolerance=2)
-        items=sorted(w['x0'] for w in ws if w['text']=='Item')
+        items=[]
+        for x in sorted(w['x0'] for w in ws if w['text']=='Item'):
+            if not items or x-items[-1]>100: items.append(x)      # two tables stacked in one column share an x
         if len(items)>=3 and any(w['text']=='English' for w in ws):
             a,b,c=items[:3]; return [(0,b-48),(b-48,c-48),(c-48,1e9)],(a,b,c)
     w=pdf.pages[len(pdf.pages)//2].width
@@ -47,13 +49,19 @@ DAMP=re.compile(r'(?:Turn the adjuster|the adjuster is turned|turn the adjuster)
 POS=re.compile(r'has (\d+) (?:positions|clicks)')
 # 2017-on manuals count positions: "Turn ... counterclockwise (softer) until it clicks. This click is position 1. The standard position
 # is 11th click." / "Set the adjuster 7th - 10th click".
-NTH=re.compile(r'(?:The standard position is|Set the adjuster) (\d+)(?:st|nd|rd|th)?(?:\s?[–-]\s?(\d+)(?:st|nd|rd|th))? clicks?')
+NTH=re.compile(r'(?:The standard position is|Set the adjuster)(?: position)? (\d+)(?:st|nd|rd|th)?(?:\s?[–-]\s?(\d+)(?:st|nd|rd|th)?)?(?: clicks?\b| \(\d)')
 def numval(v):
     v=v.split('–')[-1].split('-')[-1].strip()
     if ' ' in v: a,b=v.split(); n,d=b.split('/'); return int(a)+int(n)/int(d)
     if '/' in v: n,d=v.split('/'); return int(n)/int(d)
     return float(v)
-def dampers(pdf,bounds):
+def tag_ok(tag,model):
+    """A shared manual's model tag "(CRF450R/RWE)", "(CRF250RX)": does it name this model?"""
+    if not tag or not model: return True
+    first,*rest=tag.split('/'); base=re.match(r'CRF\d+',first)
+    names={first}|{p if p.startswith('CRF') else (base.group(0)+p if base else p) for p in rest}
+    return model in names
+def dampers(pdf,bounds,model=None):
     """Column text of the suspension chapter, read as one stream; a value phrase may run onto the next line."""
     lines=[]
     for i,p in enumerate(pdf.pages):
@@ -61,19 +69,23 @@ def dampers(pdf,bounds):
         if 'standard position' not in t and 'standard setting' not in t: continue
         pr=printed_of(p,i+1)
         for x,l in col_lines(p,bounds): lines.append((i+1,pr,l))
-    out=[];prob=[];side=None;kind=None;speed=None;rng=None
+    out=[];prob=[];side=None;kind=None;speed=None;rng=None;tag=None
     for j,(pg,pr,l) in enumerate(lines):
+        t=re.fullmatch(r'\((CRF[\w/]+)\)',l.strip())
+        if t: tag=t.group(1); continue
         # running heads repeat "Rear Suspension Adjustments" on every page: only a change of side resets the damper headings
         ns='Front suspension' if re.match(r'^Front Suspension\b',l) else 'Rear suspension' if re.match(r'^Rear Suspension\b',l) else None
         if ns and ns!=side: side=ns;kind=None;speed=None
-        if re.match(r'^Compression Damping( Adjustment)?$',l): kind='Compression damping';speed=None;rng=None
-        elif re.match(r'^Rebound Damping( Adjustment)?$',l): kind='Rebound damping';speed=None;rng=None
-        elif re.match(r'^High Speed Damping:?$',l): speed='High-speed';rng=None
-        elif re.match(r'^Low Speed Damping:?$',l): speed='Low-speed';rng=None
+        if re.search(r'(?i)steering damper',l): kind=None;speed=None;rng=None
+        if re.match(r'^Compression Damping( Adjustment)?$',l): kind='Compression damping';speed=None;rng=None;tag=None
+        elif re.match(r'^Rebound Damping( Adjustment)?$',l): kind='Rebound damping';speed=None;rng=None;tag=None
+        elif re.match(r'^High Speed Damping:?$',l): speed='High-speed';rng=None;tag=None
+        elif re.match(r'^Low Speed Damping:?$',l): speed='Low-speed';rng=None;tag=None
         two=l+' '+(lines[j+1][2] if j+1<len(lines) else '')
         m=POS.search(two)
         if m and m.start()<len(l): rng=m.group(1)
         n=NTH.search(two)
+        if n and n.start()<len(l) and not tag_ok(tag,model): continue
         if n and n.start()<len(l):
             if not side or not kind: prob.append(('no heading',pg,two[:120])); continue
             name=f'{side} / {speed+" "+kind.lower() if speed else kind}'
@@ -83,7 +95,7 @@ def dampers(pdf,bounds):
             if rng: out.append((pg,pr,f'{name} / Adjuster positions (at least)',rng,'click'))
             rng=None; continue
         m=DAMP.search(two)
-        if not m or m.start()>=len(l): continue
+        if not m or m.start()>=len(l) or not tag_ok(tag,model): continue
         if not side or not kind: prob.append(('no heading',pg,two[:120])); continue
         name=f'{side} / {speed+" "+kind.lower() if speed else kind}'
         val=re.sub(r'\s?[–-]\s?','–',m.group(1)); unit='click' if m.group(2).startswith('click') else 'turn'
@@ -203,9 +215,10 @@ def torques(pdf):
         seen.add(o[2]); keep.append(o)
     return keep,prob
 
-def read(path):
+def read(path,model=None):
+    """model: for a manual shared by two models, only the values tagged for this model (or untagged) are read."""
     pdf=pdfplumber.open(path); bounds,items=columns(pdf)
-    a,pa=specs(pdf,bounds,items); b,pb=dampers(pdf,bounds); c,pc=torques(pdf)
+    a,pa=specs(pdf,bounds,items); b,pb=dampers(pdf,bounds,model); c,pc=torques(pdf)
     return a+b+c,pa+pb+pc
 if __name__=='__main__':
     rows,prob=read(sys.argv[1])

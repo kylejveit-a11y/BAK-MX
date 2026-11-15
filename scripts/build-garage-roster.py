@@ -36,7 +36,7 @@ for key,ys in manual_confirmed.items():
 import glob
 # Families sold only before 2020 (their own owner's manual is on file); not in the launch roster.
 OLDER_FAMILIES={('Husqvarna','FE 350'):('enduro-offroad','4-stroke'),('Husqvarna','FE 501'):('enduro-offroad','4-stroke'),
- ('Husqvarna','TX 125'):('cross-country','2-stroke'),('KTM','350 XCF-W'):('enduro-offroad','4-stroke'),('KTM','500 XC-W'):('enduro-offroad','4-stroke')}
+ ('Husqvarna','TX 125'):('cross-country','2-stroke'),('Honda','CRF250X'):('enduro-offroad','4-stroke'),('Honda','CRF450X'):('enduro-offroad','4-stroke'),('KTM','350 XCF-W'):('enduro-offroad','4-stroke'),('KTM','500 XC-W'):('enduro-offroad','4-stroke')}
 for f in glob.glob('docs/research/older/*/[0-9]*.json'):
     j=json.load(open(f,encoding='utf-8')); key=(j['make'],j['model'])
     if key not in discipline and key in OLDER_FAMILIES:
