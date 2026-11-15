@@ -34,8 +34,13 @@ for key,ys in manual_confirmed.items():
     discipline.setdefault(key,'motocross');cycle.setdefault(key,'4-stroke')
 # 2010-2019 bikes: model-years whose own owner's manual was read and loaded (docs/research/older/<batch>/<i>.json, cover checked).
 import glob
+# Families sold only before 2020 (their own owner's manual is on file); not in the launch roster.
+OLDER_FAMILIES={('Husqvarna','FE 350'):('enduro-offroad','4-stroke'),('Husqvarna','FE 501'):('enduro-offroad','4-stroke'),
+ ('Husqvarna','TX 125'):('cross-country','2-stroke'),('KTM','350 XCF-W'):('enduro-offroad','4-stroke'),('KTM','500 XC-W'):('enduro-offroad','4-stroke')}
 for f in glob.glob('docs/research/older/*/[0-9]*.json'):
     j=json.load(open(f,encoding='utf-8')); key=(j['make'],j['model'])
+    if key not in discipline and key in OLDER_FAMILIES:
+        discipline[key],cycle[key]=OLDER_FAMILIES[key]
     if key in discipline or key in years: years[key].add(int(j['yr']))
 # Suzuki RM-Z and the mini bikes (KTM/Husqvarna/GasGas 50-85, YZ65/85, KX65/85/112, CRF150R): US sale confirmed from the
 # maker's own US spec sheets, brochures or manuals (docs/research/expansion/new-bikes/roster.json). Identity only.

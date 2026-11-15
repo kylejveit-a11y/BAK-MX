@@ -10,8 +10,7 @@ Scope notes
 - 2014-2018 manuals: pre-2020 reader (`tech_data_pre2020.py`, `build_older.py`); technical data only. 2014 TC covers print "125 TC";
   the cover check now accepts that order.
 - 2019 manuals: 2020+ reader (`build_from_index.py`), technical data only; the service schedule was left out as for KTM 2019.
-- 2018 Husqvarna manuals were **not loaded**: their torque tables sit under headings the pre-2020 reader does not see (rows landed under
-  "Shock absorber" / "Engine"), the same problem as KTM 85 SX and XC-W 2018. They stay listed as todo.
+- 2018 manuals were first held back (rows landed under the wrong section); after the reader fix below they were loaded too.
 - TE 250 / TE 300 2019 have no English manual in the finder; FC 2014 and TC 2015 manuals are thin (chassis and torques only for TC 2015).
 
 Checks
