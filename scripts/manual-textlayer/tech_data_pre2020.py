@@ -13,9 +13,47 @@ HEAD=re.compile(r'^\s*(\d{1,2})\s+TECHNICAL DATA\b\s*(\d+)?\s*$')
 SEC=re.compile(r'^(\d{1,2}\.\d{1,2})\s{2,}(\S.*)$')
 GRP=re.compile(r'^(\d{1,2}\.\d{1,2}\.\d{1,2})\s{2,}(\S.*)$')
 
+H11=re.compile(r'^\s*TECHNICAL DATA - ([A-Z][A-Z -]*?)\s{2,}(\d+)\s*$|^\s*TECHNICAL DATA - ([A-Z][A-Z -]*[A-Z])\s*$')
+MODELISH=re.compile(r'\b(SX|XC|EXC|XC-W|XCF-W|SX-F|XC-F|EXC-F|SMR|EU|USA|AUS|models?)\b')
 def pages(path):
     txt=subprocess.run(['pdftotext','-layout',path,'-'],capture_output=True,text=True,check=True).stdout
-    return txt.split('\f')
+    pgs=txt.split('\f')
+    if any(H11.match(next((l for l in p.splitlines() if l.strip()),'')) for p in pgs): pgs=convert_2011(pgs)
+    return pgs
+
+def convert_2011(pgs):
+    """2011-2012 manuals head each page "TECHNICAL DATA - FORK   84" and print a sub-section as a title with its number on the line
+    below ("450 SX-F USA" / "24.2"). Rewrite them into the 2013-2018 shape the reader knows: "23 TECHNICAL DATA 84", a section line
+    when the page header changes, a model title as a group line, any other title as a section line."""
+    out=[]; cur=None; k=0
+    for p in pgs:
+        lines=p.splitlines(); i0=next((i for i,l in enumerate(lines) if l.strip()),None)
+        m=H11.match(lines[i0]) if i0 is not None else None
+        if not m: out.append(p); continue
+        name=(m.group(1) or m.group(3)).strip(); num=m.group(2) or ''
+        rest=lines[i0+1:]
+        if name.endswith(' FOR'):                       # "TECHNICAL DATA - TIGHTENING TORQUES FOR" / "CHASSIS" on the next line
+            j=next((j for j,l in enumerate(rest) if l.strip()),None)
+            if j is not None: name+=' '+rest[j].strip(); rest=rest[j+1:]
+        name=re.sub(r'^TIGHTENING TORQUES FOR (\w+)$',r'\1 TIGHTENING TORQUES',name)
+        if not num:
+            nums=[l.strip() for l in rest if re.fullmatch(r'\s*\d{1,3}\s*',l)]
+            num=nums[-1] if nums else ''
+        name=name[:1]+name[1:].lower()
+        body=[]
+        if name!=cur: k+=1; body.append(f'23.{k}  {name}'); cur=name
+        j=0; g=0
+        while j<len(rest):
+            l=rest[j]
+            nxt=next((x for x in rest[j+1:j+3] if x.strip()),'')
+            if len(l.strip())>2 and re.fullmatch(r'\s*\d{1,2}\.\d{1,2}\s*',nxt) and len(l)-len(l.lstrip())<3 and not re.search(r'\s{2,}',l.strip()):
+                t=l.strip().replace('\u2011','-')
+                if MODELISH.search(t): g+=1; body.append(f'23.{k}.{g}  {t}')
+                else: k+=1; body.append(f'23.{k}  {t}'); cur=None
+                j=rest.index(nxt,j+1)+1; continue
+            body.append(l); j+=1
+        out.append('\n'.join([f'23 TECHNICAL DATA {num}']+body))
+    return out
 
 def page_offset(pgs):
     """Printed page = PDF page - offset; read from the pages whose header carries a number."""
@@ -39,7 +77,8 @@ def parse(path):
         seen=True; pdf=i+1; printed=str(pdf-off) if off is not None else '?'
         body=lines[lines.index(first)+1:]
         # 2018 manuals set even pages with a left margin (every line indented by the same amount): measure indents from it
-        base=min((len(l)-len(l.lstrip()) for l in body if l.strip() and not re.fullmatch(r'\s*\d{1,3}\s*',l)),default=0)
+        base=min((len(l)-len(l.lstrip()) for l in body if l.strip() and not re.fullmatch(r'\s*\d{1,3}\s*',l)
+                  and not SEC.match(l) and not GRP.match(l)),default=0)
         body=[l[base:] if l[:base].strip()=='' else l for l in body]
         for l in body:
             if not l.strip() or re.fullmatch(r'\s*\d{1,3}\s*',l): continue
