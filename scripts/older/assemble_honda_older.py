@@ -31,9 +31,11 @@ def keep(r,model,col_ok):
         if 'CRF' in path+str(val): return 'model-tagged spec row'
         if re.search(r'\d',last) or last.endswith(':') or last.endswith(',') or path.split(' / ')[1][:1].islower(): return 'label swallowed a value or wrapped'
         if last[:1].islower() and 'capacity' not in path.split(' / ')[-2]: return 'label swallowed a value or wrapped'
-        if re.match(r'^(x |\(|travel|from )',str(val)): return 'value is a wrapped label'
+        if re.match(r'^(x |\(|travel|from |number )',str(val)) or str(val).endswith(' or'): return 'value is a wrapped label'
     elif path.startswith('Torque'):
         if re.search(r'\)\s+\d+\s|\s\d+\s+[A-Z][a-z]',path): return 'item ran into the next item'
+        g,lab=path.split(' / ',2)[1:]
+        if g=='?' or re.search(r'(^|\s)\d+(\s+(?!mm\b)[a-z]|$)',lab) or lab.count('(')!=lab.count(')'): return 'figure call-out number, unknown section or cut label'
         if tag_drop(path,model): return 'tagged for the other model'
     return None
 def main():

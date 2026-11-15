@@ -23,7 +23,8 @@ Reader: `scripts/older/honda_older.py`; assembly and checks: `scripts/older/asse
   headings above the step; a step under no damper heading (the steering damper) is not used; two different values for one adjuster
   drop both.
 - Torque tables (Item | lbf-ft | N-m | kgf-m): N-m checked against lbf-ft (+-1) and kgf-m (+-0.1); an item that ran into the next
-  item's number is left out; NOTES are written out in the label.
+  item's number is left out, and so is an item whose label kept a figure call-out number ("Fork cap 27"), a cut-off label, or a row
+  whose section (engine / frame) could not be read; NOTES are written out in the label. A wrapped "Fuel octane" value is left out.
 
 Page check: every number in every value is printed on its own PDF page (no failures).
 Spot checks against the PDFs: 2014 CRF250R (fork 6/11 clicks, shock high speed 2 1/2-3 turns, low speed 8, rebound 11), 2015 CRF450R
