@@ -25,6 +25,7 @@ import {advanceNextUp,checklistCount,clockText,countdownText,nextChecklistItem,n
 import {endRaceActivity,setRaceStatus,setRaceWidget,syncRaceActivity} from './widgets/sync';
 import {upNext,type PlanItem} from '../../../shared/service-plan';
 import {RichText} from './RichText';
+import {LiveConditionsCard} from './LiveConditions';
 import {TrackReportCard} from './TrackReport';
 import {OFF_RACE as OFF,dayOf,today,activeRace,raceToday,daysToGo,whenText,QUICK,CHANGES,MOTOS,quickAskText,tryNextText,raceSetupTitle,raceSetupQuestion,raceSetupField,raceSetupKey,raceSetupStale,plain,knownTrack,trackSuggestions,trackPicks,isPractice,type RaceDay,type KnownTrack,type NextUp} from '../../../shared/race-day';
 export {daysToGo,whenText,type RaceDay};
@@ -326,6 +327,7 @@ export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenC
    <Text style={{color:colors.text,fontSize:24,...DISPLAY,letterSpacing:0}}>{track||'Track day'}</Text>
    <Text style={{color:colors.muted,fontSize:14}}>{bike.model_year} {bike.manufacturer} {bike.model}{bike.engine_hours!=null?` · ${bike.engine_hours} h`:''}</Text>
   </View>
+  <LiveConditionsCard track={track}/>
   {onNext&&<NextUpCard race={day} labels={MOTOS} onSet={onNext}/>}
   <RaceSetupCard account={account} bike={bike} track={track} day={today()} onOpenChat={onOpenChat}/>
   <FuelPlanCard account={account} race={day} kind="race"/>

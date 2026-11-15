@@ -7,19 +7,18 @@ import {Modal,ScrollView,Text,TextInput,View} from 'react-native';
 import {useKeepAwake} from 'expo-keep-awake';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import type {Bike} from '../../../shared/types';
-import {CHANGES,knownTrack,today} from '../../../shared/race-day';
+import {CHANGES} from '../../../shared/race-day';
 import {SETUP_RESULT_LABELS,type SetupResult} from '../../../shared/rider-types';
 import {emptySession,nextSessionNumber,sessionChange,type PracticeSession,type SessionDraft} from '../../../shared/practice-day';
-import {REPORT_GROUPS,emptyDraft,reportBody,toggleTag} from '../../../shared/track-reports';
-import {AUTO_LOCK_MS,CHECK_IN_GROUPS,RIDE_DAY_COPY as C,RIDE_MINUTES,UNLOCK_HOLD_MS,changePresets} from '../../../shared/ride-day';
-import {apiQueued} from './api';
+import {AUTO_LOCK_MS,RIDE_DAY_COPY as C,RIDE_MINUTES,UNLOCK_HOLD_MS,changePresets} from '../../../shared/ride-day';
 import {Pressable} from './Touch';
 import {Icon} from './Icon';
 import {colors,tint} from './ui';
 import {DISPLAY,LABEL} from './theme';
 import {success,warn} from './haptics';
 import {bikeSetup} from './HomeBlocks';
-import {useTrackDirectory} from './TrackReport';
+import {LiveStatusList,sendCheckin,useLiveConditions,useTrackId} from './LiveConditions';
+import {CHECKIN_COPY,CHECKIN_STATUSES,toggleStatus} from '../../../shared/track-checkins';
 
 type View_='start'|'home'|'minutes'|'anyChange'|'what'|'how'|'result'|'setup'|'track';
 const RESULTS:SetupResult[]=['better','no_change','worse','not_tested'];
@@ -69,14 +68,14 @@ export function RideDayMode({visible,onClose,bike,track,sessions,onLog,onAsk}:{v
 
 function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>void;bike:Bike;track:string;sessions:PracticeSession[];onLog:(d:SessionDraft)=>Promise<string>;onAsk:()=>void}){
  useKeepAwake('bak-ride-day');
- const insets=useSafeAreaInsets(),dir=useTrackDirectory();
+ const insets=useSafeAreaInsets();
  const [view,setView]=useState<View_>('start'),[autoLock,setAutoLock]=useState(false),[draft,setDraft]=useState<SessionDraft>(emptySession),[typing,setTyping]=useState(false);
  const [locked,setLocked]=useState(false),[toast,setToast]=useState(''),[busy,setBusy]=useState(false);
  const [tags,setTags]=useState<string[]>([]);
  const touched=useRef(Date.now());
  const set=(p:Partial<SessionDraft>)=>setDraft(d=>({...d,...p}));
  const setup=bikeSetup(bike),n=nextSessionNumber(sessions),last=[...sessions].sort((a,b)=>b.n-a.n)[0];
- const trackId=(knownTrack(dir,track) as {id?:string}|undefined)?.id??'';
+ const trackId=useTrackId(track),{live,reload}=useLiveConditions(trackId);
  // Locks itself after a minute untouched; any touch on the screen resets the clock.
  useEffect(()=>{if(!autoLock)return;touched.current=Date.now();const i=setInterval(()=>{if(!locked&&Date.now()-touched.current>AUTO_LOCK_MS)setLocked(true);},5000);return()=>clearInterval(i);},[locked,autoLock]);
  useEffect(()=>{if(!toast)return;const t=setTimeout(()=>setToast(''),3500);return()=>clearTimeout(t);},[toast]);
@@ -87,10 +86,9 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
   catch(e){setToast(errorText(e));}finally{setBusy(false);}
  }
  async function checkIn(){
-  if(busy)return;const r=reportBody({...emptyDraft(today()),trackId,tags},today());if(r.problem){setToast(r.problem);return;}
-  setBusy(true);
-  try{const saved=await apiQueued<{id:string}>('/api/track-reports',r.body,{...r.body} as never,'Track report');success();setToast(saved.pending?C.savedQueued:C.saved);setTags([]);home();}
-  catch(e){setToast(errorText(e));}finally{setBusy(false);}
+  if(busy)return;setBusy(true);
+  const r=await sendCheckin(trackId,tags);setToast(r.ok?C.saved:r.message);if(r.ok){setTags([]);reload();home();}
+  setBusy(false);
  }
  const nextLine=`Session ${n} next${last?.change?` · last: ${sessionChange(last)}`:''}`;
  let body:React.ReactNode=null;
@@ -139,11 +137,10 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
  </>;
  if(view==='track')body=<><Title>{C.track}</Title>
   {!trackId?<Text style={{color:colors.muted,fontSize:17,lineHeight:24}}>{C.noTrack}</Text>:<View style={{gap:16}}>
-   {REPORT_GROUPS.filter(g=>(CHECK_IN_GROUPS as readonly string[]).includes(g.id)).map(g=><View key={g.id} style={{gap:8}}>
-    <Text style={{color:'#adb5c1',fontSize:13,...LABEL}}>{g.label.toUpperCase()}</Text>
-    <Grid>{g.tags.map(t=><Big key={t.id} label={t.label} on={tags.includes(t.id)} onPress={()=>setTags(x=>toggleTag(x,t.id))}/>)}</Grid>
-   </View>)}
-   <Big label={busy?'Saving…':C.checkIn} icon="check" wide on onPress={()=>void checkIn()}/>
+   <LiveStatusList live={live} big/>
+   <Text style={{color:'#adb5c1',fontSize:13,...LABEL}}>{CHECKIN_COPY.ask.toUpperCase()}</Text>
+   <Grid>{CHECKIN_STATUSES.map(t=><Big key={t.id} label={t.label} on={tags.includes(t.id)} onPress={()=>setTags(x=>toggleStatus(x,t.id))}/>)}</Grid>
+   <Big label={busy?'Sending…':C.checkIn} icon="check" wide on onPress={()=>void checkIn()}/>
   </View>}
  </>;
  return <View style={{flex:1,backgroundColor:colors.bg}} onTouchStart={()=>{touched.current=Date.now();}}>

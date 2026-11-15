@@ -2,6 +2,8 @@ import type {SupabaseClient} from '@supabase/supabase-js';
 import {matchTracks,type TrackName} from '../shared/track-match.ts';
 import type {RecentRiderReports} from '../shared/track-reports.ts';
 import {recentRiderReports} from './track-reports.ts';
+import {liveConditions} from './track-checkins.ts';
+import type {LiveConditions} from '../shared/track-checkins.ts';
 
 /** Track knowledge (docs/research/tracks/README.md) for the tracks a rider names or is racing at soon. Additive:
  *  any read failure returns nothing so the answer is never blocked. */
@@ -9,7 +11,9 @@ export type TrackProfile={id:string;name:string;city:string|null;state:string;st
  soil:Record<string,unknown>;layout:Record<string,unknown>;conditions:Record<string,unknown>;rider_reports:{says:string;source_type?:string;date?:string|null}[];
  confidence:string;gaps:string[];elevation_ft:number|null;lat?:number|null;lng?:number|null;race?:{date:string;kind:string;days_away:number};
  // What BAK MX riders logged after riding there lately ("How did it ride?"): counts and anonymous notes, with dates.
- recent_rider_reports?:RecentRiderReports};
+ recent_rider_reports?:RecentRiderReports;
+ // Riders' live check-ins in the last few hours ("right now"): counts and minutes ago, riders' word, not the track's.
+ live_conditions?:LiveConditions};
 
 let names:{at:number;rows:TrackName[]}|null=null;
 async function trackNames(db:SupabaseClient):Promise<TrackName[]>{
@@ -35,11 +39,12 @@ export async function trackContext(db:SupabaseClient,owner:string,texts:string[]
   if(!ids.length)return [];
   const {data,error}=await db.from('tracks').select(FIELDS).in('id',ids).eq('review_status','APPROVED');
   if(error||!Array.isArray(data))return [];
-  const recent=reports?await recentRiderReports(reports,ids,owner):new Map<string,RecentRiderReports>();
+  const [recent,live]=reports?await Promise.all([recentRiderReports(reports,ids,owner),liveConditions(reports,ids,owner)]):[new Map<string,RecentRiderReports>(),new Map<string,LiveConditions>()];
   return ids.map(id=>data.find(r=>r.id===id)).filter(Boolean).map(r=>{
    const p=shape(r as Record<string,unknown>),race=raceRows.find(x=>x.track_id===p.id);
    if(race)p.race={date:race.race_date,kind:race.kind,days_away:Math.round((Date.parse(race.race_date)-Date.parse(today))/86400_000)};
    const rr=recent.get(p.id);if(rr)p.recent_rider_reports=rr;
+   const lc=live.get(p.id);if(lc)p.live_conditions=lc;
    return p;
   });
  }catch{return [];}

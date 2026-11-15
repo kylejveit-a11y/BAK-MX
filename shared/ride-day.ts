@@ -17,7 +17,7 @@ export const RIDE_DAY_COPY={
  saved:'Saved',savedQueued:'Saved on this phone. Sends when there’s signal.',
  locked:'Locked',holdToUnlock:'Hold to unlock',
  noSetup:'Add your clickers, sag and tire pressures in Garage › Edit details to see them here.',
- noTrack:'Pick the track in “How did it ride?” on the practice screen to check in from here.',
+ noTrack:'This track isn’t one of BAK’s listed tracks yet, so there’s no check-in for it.',
  checkIn:'Send check-in',
  startTitle:'Auto-lock the screen?',startDetail:'Locks itself after 3 minutes with no touch. Hold the unlock button to get back in. You can always lock by hand with the lock button.',
  autoOn:'Yes, auto-lock after 3 min',autoOff:'No, I’ll lock it myself',autoBadge:'Auto-lock 3 min',
@@ -44,5 +44,3 @@ export const AUTO_LOCK_MS=180_000;
 /** How long to hold the unlock button. Long enough that a bump never does it, short enough with gloves. */
 export const UNLOCK_HOLD_MS=900;
 
-/** The track check-in: the groups a rider changes during the day (moisture, surface, prep). Dirt type rarely changes. */
-export const CHECK_IN_GROUPS=['moisture','surface','prep'] as const;
