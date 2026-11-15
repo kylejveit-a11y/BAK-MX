@@ -23,7 +23,7 @@ def main():
         rows=td.parse(path)
         for make,model,yr in bikes:
             V.REGION='US'
-            if str(yr) not in cover or not re.search(r'(?<![\w-])'+re.escape(model)+r'(?![\w-])',cover):
+            if str(yr) not in cover or not re.search(r'(?<![\w-])'+re.escape(re.sub(r' (17/14|19/16)$','',model))+r'(?![\w-])',cover):
                 report.append({'i':None,'make':make,'model':model,'yr':yr,'doc':doc,'n':0,'notes':['NOT ON COVER: '+cover[:160]]}); continue
             f,q=td.facts(rows,model)
             by=collections.defaultdict(set)
