@@ -29,7 +29,8 @@ def keep(r,model,col_ok):
     if path.startswith('Specifications'):
         if not col_ok or model in NO_SPECS: return 'specs not read for this layout'
         if 'CRF' in path+str(val): return 'model-tagged spec row'
-        if re.search(r'\d',last) or last.endswith(':') or last[:1].islower() and len(path.split(' / '))<4: return 'label swallowed a value or wrapped'
+        if re.search(r'\d',last) or last.endswith(':') or last.endswith(',') or path.split(' / ')[1][:1].islower(): return 'label swallowed a value or wrapped'
+        if last[:1].islower() and 'capacity' not in path.split(' / ')[-2]: return 'label swallowed a value or wrapped'
         if re.match(r'^(x |\(|travel|from )',str(val)): return 'value is a wrapped label'
     elif path.startswith('Torque'):
         if re.search(r'\)\s+\d+\s|\s\d+\s+[A-Z][a-z]',path): return 'item ran into the next item'
@@ -59,7 +60,10 @@ def main():
                 nums=re.findall(r'\d+(?:\.\d+)?',str(r[3]).replace(',',''))
                 if any(not re.search(r'(?<![\d.])'+re.escape(n)+r'(?![\d])',page(r[0])) for n in nums): why='number not on its page'
             if why: drop.append((why,r[2],r[3])); continue
-            p=re.sub(r'^Front suspension / ','Fork / ',re.sub(r'^Rear suspension / ','Shock absorber / ',r[2]))
+            p=re.sub(r'^Specifications / (?:Electrical|Spark plug : NGK) / Standard$','Specifications / Electrical / Spark plug, NGK (standard)',r[2])
+            p=p.replace('Specifications / Spark plug : NGK / Spark plug gap','Specifications / Electrical / Spark plug gap')
+            if re.match(r'Specifications / [^/]*:',p): drop.append(('label swallowed a value or wrapped',r[2],r[3])); continue
+            p=re.sub(r'^Front suspension / ','Fork / ',re.sub(r'^Rear suspension / ','Shock absorber / ',p))
             kept.append((r[0],r[1],p,str(r[3]),r[4] or ''))
         ps=[k[2] for k in kept]; dup={p for p in ps if ps.count(p)>1}
         kept=[k for k in kept if k[2] not in dup and '|' not in k[2]+k[3]]
