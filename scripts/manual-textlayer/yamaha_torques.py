@@ -33,8 +33,8 @@ LEGEND={'E':'engine oil','LT':'apply locking agent (LOCTITE)','LS':'lithium-soap
 LEGEND_TEXT={'E':'Engine oil','LT':'LOCTITE','LS':'Lithium-soap-based grease','BF':'Brake fluid','S':'Silicone grease','B':'Wheel bearing grease','G':'Gear oil','M':'Molybdenum disulfide'}
 MARK='torque-check mark (check after break-in and before each race)'
 NEW=re.compile(r'^(\d+(?:\.\d+)?) N·m \((\d+(?:\.\d+)?) kgf·m, (\d+(?:\.\d+)?) lb·ft\)$')
-OLD=re.compile(r'^(\d+(?:\.\d+)?) Nm \((\d+(?:\.\d+)?) m·kg, (\d+(?:\.\d+)?) ft·lb\)$')
-ANY=re.compile(r'(\d+(?:\.\d+)?) N·?m \((\d+(?:\.\d+)?) (?:kgf·m|m·kg), (\d+(?:\.\d+)?) (?:lb·ft|ft·lb)\)')
+OLD=re.compile(r'^(\d+(?:\.\d+)?) Nm \((\d+(?:\.\d+)?) m·kgf?, (\d+(?:\.\d+)?) ft·lbf?\)$')   # 2014-2017: "m·kgf, ft·lbf"
+ANY=re.compile(r'(\d+(?:\.\d+)?) N·?m \((\d+(?:\.\d+)?) (?:kgf·m|m·kgf?), (\d+(?:\.\d+)?) (?:lb·ft|ft·lbf?)\)')
 TIPREF=re.compile(r'^(See|Refer to) TIP\.?$')
 TAG=re.compile(r'\s*\((YZ\d+\w*)\)\s*$')
 
@@ -54,7 +54,7 @@ def join_lines(t):
     t=re.sub(r'(\w)-\n([a-z])',r'\1\2',t)
     return re.sub(r'\s*\n\s*',' ',t).strip()
 def fix(t):
-    return t.replace('(cid:129)','·').replace('’',"'").replace('\xa0',' ')
+    return t.replace('(cid:129)','·').replace('•','·').replace('’',"'").replace('\xa0',' ')   # pre-2018 manuals print "m•kg", "ft•lb"
 
 def legend(pdf):
     """Codes whose definition is printed on the SYMBOLS page of this manual."""
@@ -91,7 +91,7 @@ def parse(path,model=None):
         def rule(lo,hi):
             xs=[x for x in V if lo<=x<=hi]
             return max(xs,key=lambda x:sum(b-t for t,b in V[x])) if xs else None
-        c1,c2,c3,c4,left=rule(230,240),rule(272,282),rule(304,314),rule(486,495),rule(60,70)
+        c1,c2,c3,c4,left=rule(230,252),rule(272,300),rule(304,330),rule(486,495),rule(60,70)   # 2014-2017 four-strokes: 248 / 295 / 326
         if None in (c1,c2,c3,c4,left): continue                # the general torque chart page
         # a table block: a span of the thread-size rule that the Q'ty and torque rules share (a figure can draw lines at x≈235 too);
         # the Remarks rule is not required: a remark cell merged across rows interrupts it
@@ -100,6 +100,10 @@ def parse(path,model=None):
         H=[(l['top'],l['x0'],l['x1']) for l in pg.lines+pg.edges if abs(l['top']-l['bottom'])<1 and l['x0']<=left+5 and l['x1']>=c1-5]
         lines=pg.extract_text_lines()
         heads=[(ln['top'],SECTION_HEAD[ln['text'].strip()]) for ln in lines if ln['x0']<70 and ln['text'].strip() in SECTION_HEAD]
+        # 2014-2017 four-strokes: the heading's first letter is set into its EAS code ("EEASB11N1057 GINE TIGHTENING TORQUES")
+        heads+=[(ln['top'],{'GINE':'Engine','ASSIS':'Chassis','TRICAL':'Electrical'}[m.group(1)]) for ln in lines if ln['x0']<70
+                and (m:=re.search(r'^E\w*AS\w*\d\s*(GINE|ASSIS|TRICAL) TIGHTENING TORQUES$',ln['text'].strip()))]
+        heads.sort()
         # some manuals draw the torque-check mark as a small filled shape instead of a font glyph: its size is taken from the
         # shape printed before "- marked portion shall be checked ..." on the same page
         for ln in lines:
