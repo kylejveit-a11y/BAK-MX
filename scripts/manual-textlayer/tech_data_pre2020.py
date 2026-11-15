@@ -37,7 +37,11 @@ def parse(path):
             if seen: break
             continue
         seen=True; pdf=i+1; printed=str(pdf-off) if off is not None else '?'
-        for l in lines[lines.index(first)+1:]:
+        body=lines[lines.index(first)+1:]
+        # 2018 manuals set even pages with a left margin (every line indented by the same amount): measure indents from it
+        base=min((len(l)-len(l.lstrip()) for l in body if l.strip() and not re.fullmatch(r'\s*\d{1,3}\s*',l)),default=0)
+        body=[l[base:] if l[:base].strip()=='' else l for l in body]
+        for l in body:
             if not l.strip() or re.fullmatch(r'\s*\d{1,3}\s*',l): continue
             l=re.sub(r'\bUSA\b','US',l)
             s=re.sub(r'\(\s*p\.\s*(\d+)\s*\)',r'(p. \1)',l.rstrip()); ind=len(s)-len(s.lstrip()); t=s.strip()

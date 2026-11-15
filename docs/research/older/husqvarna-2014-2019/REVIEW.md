@@ -20,3 +20,7 @@ Checks
   "Fork / Air chamber length" in seven 2017 manuals (a tolerance the reader joined wrongly) and three FE 350 2016 lamp rows.
 - Section names set in lower case by a running head were capitalised so the same fact keeps one path.
 - A path printed with two values for one bike was dropped by the builder; units checked against their printed conversions.
+
+## 2018 added (payloads 54-68, 15 bike-years)
+The pre-2020 reader now measures indents from each page's own margin (2018 even pages are set with a left margin), so the 2018 manuals
+read cleanly. Page check: 2,303 rows, 0 not found.
