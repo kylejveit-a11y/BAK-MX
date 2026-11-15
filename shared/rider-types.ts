@@ -9,7 +9,7 @@ export type PostComment={id:string;post_id:string;user_id:string;body:string;cre
 /** A rider in a likes or going list; me marks the signed-in rider. */
 export type ListedRider=RiderRef&{me?:boolean};
 export type EventType='ride_day'|'race'|'practice'|'clinic'|'meetup';
-export type RideEvent={id:string;user_id:string;title:string;event_type:EventType;starts_at:string;ends_at:string|null;location_name:string;description:string;created_at:string;canceled_at:string|null;host:RiderRef;mine:boolean;going_count:number;interested_count:number;my_rsvp:'going'|'interested'|null;my_rsvp_public?:boolean;going_riders?:ListedRider[]};
+export type RideEvent={id:string;user_id:string;title:string;event_type:EventType;starts_at:string;ends_at:string|null;location_name:string;description:string;created_at:string;canceled_at:string|null;host:RiderRef;mine:boolean;going_count:number;interested_count:number;my_rsvp:'going'|'interested'|null;my_rsvp_public?:boolean;going_riders?:ListedRider[];skill_level?:string;bike_size?:string;discipline?:string};
 export type ThreadSummary={rider:RiderRef;last_message:{body:string;created_at:string;mine:boolean};unread:number};
 export type ThreadMessage={id:string;body:string;created_at:string;mine:boolean};
 export type SetupResult='better'|'worse'|'no_change'|'not_tested';

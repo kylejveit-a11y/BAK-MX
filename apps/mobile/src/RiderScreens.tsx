@@ -1,3 +1,4 @@
+import {BIKE_LABELS,BIKE_SIZES,DISCIPLINES,DISCIPLINE_LABELS,NO_FILTER,SKILL_LABELS,SKILL_LEVELS,crewTags,filterCount,type BikeSize,type CrewFilter,type Discipline,type SkillLevel} from '../../../shared/crew';
 import {readProgress} from './localProgress';
 import {PageSheet} from './PageSheet';
 import {garageModelInfo} from '../../../shared/garage-models';
@@ -320,7 +321,9 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
  const {profile,setProfile,profileError,reloadProfile}=useProfile();
  const [formNotice,setFormNotice]=useState('');const [events,setEvents]=useState<RideEvent[]>([]),[scope,setScope]=useState<'upcoming'|'past'>('upcoming'),[notice,setNotice]=useState(''),[loading,setLoading]=useState(true),[creating,setCreating]=useState(false),[busy,setBusy]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState(''),[going,setGoing]=useState<RideEvent|null>(null);
  const [title,setTitle]=useState(''),[type,setType]=useState('practice'),[starts,setStarts]=useState(()=>{const d=new Date(Date.now()+86400000);d.setHours(9,0,0,0);return localStamp(d);}),[ends,setEnds]=useState(''),[place,setPlace]=useState(''),[details,setDetails]=useState('');
- const load=useCallback(async()=>{setLoading(true);try{setEvents(await api<RideEvent[]>('/api/events?scope='+scope));setNotice('');}catch(e){setNotice(errorText(e));}finally{setLoading(false);}},[scope]);
+ const [forWho,setForWho]=useState(false),[skill,setSkill]=useState<SkillLevel>('any'),[bikeSize,setBikeSize]=useState<BikeSize>('any'),[disc,setDisc]=useState<Discipline>('any');
+ const [filter,setFilter]=useState<CrewFilter>(NO_FILTER),[filtering,setFiltering]=useState(false);
+ const load=useCallback(async()=>{setLoading(true);try{setEvents(await api<RideEvent[]>(`/api/events?scope=${scope}&skill=${filter.skill}&bike=${filter.bike}&discipline=${filter.discipline}`));setNotice('');}catch(e){setNotice(errorText(e));}finally{setLoading(false);}},[scope,filter]);
  useFocusEffect(useCallback(()=>{if(profile!==undefined)void load();},[load,profile===undefined,profile?.user_id]));
  const [joinWhy,setJoinWhy]=useState('');
  const join=(why:string,fn:()=>void)=>{if(profile)fn();else setJoinWhy(why);};
@@ -331,8 +334,8 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
    if(!title.trim()||!place.trim())throw new Error('Enter the event name and the track or location.');
    if(!start||(ends.trim()&&!end))throw new Error('Pick a start date and time.');
    if(end&&end<start)throw new Error('The end time is before the start. Change the end, or clear it.');
-   await api('/api/events','POST',{title,event_type:type,starts_at:start.toISOString(),ends_at:end?end.toISOString():null,location_name:place,description:details});
-   success();setTitle('');setPlace('');setDetails('');setEnds('');setCreating(false);setScope('upcoming');await load();
+   await api('/api/events','POST',{title,event_type:type,starts_at:start.toISOString(),ends_at:end?end.toISOString():null,location_name:place,description:details,skill_level:skill,bike_size:bikeSize,discipline:disc});
+   success();setTitle('');setPlace('');setDetails('');setEnds('');setSkill('any');setBikeSize('any');setDisc('any');setForWho(false);setCreating(false);setScope('upcoming');await load();
   }catch(e){setFormNotice(errorText(e));}finally{setBusy(false);}
  }
  async function save(ev:RideEvent,status:'going'|'interested',pub?:boolean){try{const removing=ev.my_rsvp===status&&pub===undefined;if(removing)await api('/api/rsvps?event_id='+ev.id,'DELETE');else await api('/api/rsvps','PUT',{event_id:ev.id,status,...(pub===undefined?{}:{public:pub})});void syncNextEventWidget();
@@ -350,6 +353,17 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
  const publish=creating?<View style={{padding:12,gap:6}}><Notice text={formNotice}/><Button disabled={busy} title={busy?'Saving…':'Publish event'} onPress={()=>void create()}/></View>:undefined;
  return <Page title="Events" footer={publish} footerForAction>
   <Segments value={scope} items={[{value:'upcoming',label:'Upcoming'},{value:'past',label:'Past'}]} onChange={setScope}/>
+  <Pressable accessibilityRole="button" accessibilityState={{expanded:filtering}} onPress={()=>setFiltering(f=>!f)} style={{flexDirection:'row',alignItems:'center',gap:8,alignSelf:'flex-start',paddingVertical:4}}>
+   <Icon name="search" size={16} color={filterCount(filter)?colors.accent:'#adb5c1'}/>
+   <Text style={{color:filterCount(filter)?colors.text:'#adb5c1',fontSize:14.5,fontWeight:'600'}}>{filterCount(filter)?`Filters · ${[filter.skill,filter.bike,filter.discipline].filter(v=>v!=='any').length} on`:'Find your crew: level, bike size, riding'}</Text>
+   <Icon name={filtering?'chevronUp':'chevronDown'} size={14} color="#adb5c1"/>
+  </Pressable>
+  {filtering&&<Card>
+   <Choices label="Level" value={filter.skill} items={SKILL_LEVELS.map(v=>({value:v,label:SKILL_LABELS[v]}))} onChange={v=>setFilter(f=>({...f,skill:v}))}/>
+   <Choices label="Bike size" value={filter.bike} items={BIKE_SIZES.map(v=>({value:v,label:BIKE_LABELS[v]}))} onChange={v=>setFilter(f=>({...f,bike:v}))}/>
+   <Choices label="Riding" value={filter.discipline} items={DISCIPLINES.map(v=>({value:v,label:DISCIPLINE_LABELS[v]}))} onChange={v=>setFilter(f=>({...f,discipline:v}))}/>
+   {!!filterCount(filter)&&<Link title="Clear filters" onPress={()=>setFilter(NO_FILTER)}/>}
+  </Card>}
   {!creating&&<StartRow icon="flag" title="Post an event" detail="Ride day, race, practice night, clinic or meetup" onPress={()=>join('To post an event,',()=>{setFormNotice('');setCreating(true);})}/>}
   {creating&&<Card><FormHead title="New event" onCancel={()=>{setFormNotice('');setCreating(false);}}/>
    <Field editable={!busy} label="Event name" placeholder="e.g. Saturday practice at Dade City" value={title} onChangeText={setTitle} maxLength={120} autoCapitalize="sentences"/>
@@ -358,12 +372,17 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
    <DateField disabled={busy} label="Ends" time optional seed={starts} value={ends} onChange={setEnds} years={[new Date().getFullYear(),new Date().getFullYear()+2]} quick={rideDays()}/>
    <Field editable={!busy} label="Track or location" placeholder="Track name or address" value={place} onChangeText={setPlace} maxLength={160} autoCapitalize="words"/>
    <Field editable={!busy} label="Details" placeholder="Gate time, classes, cost, what to bring" value={details} onChangeText={setDetails} multiline maxLength={4000} autoCapitalize="sentences"/>
+   {!forWho?<Link title="Who it’s for (optional): level, bike size, riding" onPress={()=>setForWho(true)}/>:<>
+    <Choices disabled={busy} label="Level" value={skill} items={SKILL_LEVELS.map(v=>({value:v,label:SKILL_LABELS[v]}))} onChange={setSkill}/>
+    <Choices disabled={busy} label="Bike size" value={bikeSize} items={BIKE_SIZES.map(v=>({value:v,label:BIKE_LABELS[v]}))} onChange={setBikeSize}/>
+    <Choices disabled={busy} label="Riding" value={disc} items={DISCIPLINES.map(v=>({value:v,label:DISCIPLINE_LABELS[v]}))} onChange={setDisc}/>
+   </>}
   </Card>}
   <Notice text={notice}/>
   {loading&&!events.length&&<SkeletonList kind="event"/>}
-  {!loading&&!events.length&&<Card><Copy strong>{scope==='upcoming'?'No upcoming events yet.':'No past events.'}</Copy><Copy>{scope==='upcoming'?'Post the next ride day or practice night so other riders can plan around it.':'Events you could see are listed here after they happen.'}</Copy></Card>}
+  {!loading&&!events.length&&<Card><Copy strong>{filterCount(filter)?'No events match these filters.':scope==='upcoming'?'No upcoming events yet.':'No past events.'}</Copy><Copy>{scope==='upcoming'?'Post the next ride day or practice night so other riders can plan around it.':'Events you could see are listed here after they happen.'}</Copy></Card>}
   {events.map(ev=><Card key={ev.id}>
-   <Row><Tag text={EVENT_TYPE_LABELS[ev.event_type]}/>{ev.canceled_at?<Tag tone="bad" text="Canceled"/>:ev.my_rsvp?<Tag tone="good" text={ev.my_rsvp==='going'?'You’re going':'Interested'}/>:null}</Row>
+   <Row><Tag text={EVENT_TYPE_LABELS[ev.event_type]}/>{crewTags(ev).map(t=><Tag key={t} text={t}/>)}{ev.canceled_at?<Tag tone="bad" text="Canceled"/>:ev.my_rsvp?<Tag tone="good" text={ev.my_rsvp==='going'?'You’re going':'Interested'}/>:null}</Row>
    <Text style={{color:ev.canceled_at?colors.muted:colors.text,fontSize:19,fontWeight:'700',textDecorationLine:ev.canceled_at?'line-through':'none'}}>{ev.title}</Text>
    <View style={{gap:6}}><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="clock" size={17} color="#adb5c1"/><Text style={{color:'#c9cfd9',fontSize:15}}>{when(ev.starts_at)}{ev.ends_at?' – '+when(ev.ends_at):''}</Text></View><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="location" size={17} color="#adb5c1"/><Text style={{color:'#c9cfd9',fontSize:15,flex:1}}>{ev.location_name}</Text></View></View>
    {/* The going count lives on the tappable row below when there is one, so the host line does not repeat it. */}

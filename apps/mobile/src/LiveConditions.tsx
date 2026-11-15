@@ -3,12 +3,14 @@
 // Check-ins send only with signal: they are about right now, so one that arrived hours later would mislead.
 import React,{useCallback,useEffect,useState} from 'react';
 import {Text,View} from 'react-native';
-import {knownTrack} from '../../../shared/race-day';
+import {knownTrack,today} from '../../../shared/race-day';
+import {PRESENCE_COPY as P} from '../../../shared/crew';
+import {riderName,type RiderRef} from '../../../shared/rider-types';
 import {CHECKIN_COPY as C,CHECKIN_STATUSES,agedConditions,liveStatusLine,statusProblem,toggleStatus,type LiveConditions} from '../../../shared/track-checkins';
 import {api} from './api';
 import {isNetworkError} from './offline';
 import {Pressable} from './Touch';
-import {Card,Eyebrow,Icon,Notice,colors,tint} from './ui';
+import {Avatar,Card,Eyebrow,Icon,Notice,colors,tint} from './ui';
 import {success} from './haptics';
 import {useTrackDirectory} from './TrackReport';
 
@@ -43,6 +45,28 @@ function Chip({label,on,onPress}:{label:string;on:boolean;onPress:()=>void}){
  return <Pressable haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={onPress} style={({pressed})=>({paddingHorizontal:14,paddingVertical:9,borderRadius:18,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?colors.text:'#c9cfd8',fontSize:14.5,fontWeight:'600'}}>{label}</Text></Pressable>;
 }
 
+type Presence={count:number;me:boolean;riders:(RiderRef&{me:boolean;avatar_url?:string})[]};
+/** Opt-in "riding here today" for a track: who said so (signed-in riders, blocks respected) and a switch for the rider. */
+function PresenceRow({trackId}:{trackId:string}){
+ const day=today();const [p,setP]=useState<Presence|null>(null),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[all,setAll]=useState(false);
+ const path=`/api/track-presence?track_id=${encodeURIComponent(trackId)}&day=${day}`;
+ useEffect(()=>{let live=true;api<Presence>(path).then(r=>{if(live)setP(r);}).catch(()=>{});return()=>{live=false;};},[path]);
+ async function toggle(){if(busy||!p)return;setBusy(true);setNotice('');
+  try{setP(p.me?await api<Presence>(path,'DELETE'):await api<Presence>(path,'POST',{track_id:trackId}));if(!p.me)success();}
+  catch(e){const m=errorText(e);setNotice(/profile/i.test(m)?P.needsProfile:isNetworkError(e)?C.noSignal:m);}finally{setBusy(false);}}
+ if(!p)return null;
+ const shown=all?p.riders:p.riders.slice(0,4);
+ return <View style={{gap:8,borderTopWidth:1,borderTopColor:'#232832',paddingTop:12}}>
+  <Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'700'}}>{P.title.toUpperCase()}{p.count?` · ${p.count}`:''}</Text>
+  {!p.count&&<Text style={{color:colors.muted,fontSize:14}}>{P.none}</Text>}
+  {shown.map(r=><View key={r.user_id} style={{flexDirection:'row',alignItems:'center',gap:10}}><Avatar name={riderName(r)} uri={r.avatar_url} size={28}/><Text style={{color:colors.text,fontSize:15}}>{r.me?'You':riderName(r)}</Text></View>)}
+  {p.riders.length>4&&<Pressable accessibilityRole="button" onPress={()=>setAll(a=>!a)} hitSlop={6}><Text style={{color:colors.muted,fontSize:14}}>{all?'Show fewer':`See all ${p.riders.length}`}</Text></Pressable>}
+  <Pressable haptic="press" accessibilityRole="switch" accessibilityState={{checked:p.me}} disabled={busy} onPress={()=>void toggle()} hitSlop={6}><Text style={{color:p.me?colors.muted:colors.text,fontSize:15,fontWeight:'700'}}>{busy?'Saving…':p.me?P.hide:P.show}</Text></Pressable>
+  {!p.me&&<Text style={{color:'#8b93a0',fontSize:12}}>{P.detail}</Text>}
+  <Notice text={notice}/>
+ </View>;
+}
+
 /** The card for the practice-day and race-day screens: the live list, and a collapsed "Check in" that opens the chips. */
 export function LiveConditionsCard({track}:{track:string}){
  const trackId=useTrackId(track),{live,reload}=useLiveConditions(trackId);
@@ -63,5 +87,6 @@ export function LiveConditionsCard({track}:{track:string}){
     </View>
    </View>}
   <Notice text={notice}/>
+  <PresenceRow trackId={trackId}/>
  </Card>;
 }

@@ -1,3 +1,4 @@
+import {SKILL_LEVELS,BIKE_SIZES,DISCIPLINES} from '../shared/crew.ts';
 import type {SupabaseClient} from '@supabase/supabase-js';
 import {photoLinks,pick,photoIds,requireOwnPhotos} from './rider-photos.ts';
 import {videoLinks,requireOwnVideo} from './rider-videos.ts';
@@ -32,7 +33,7 @@ export const DEFAULT_PREFERENCES={units:'us',answer_length:'full',tone:'straight
 export const postSchema=z.object({category:z.enum(POST_CATEGORIES),body:text(4000),bike_label:optionalText(120),photo_ids:photoIds(4),video_id:z.string().uuid().nullable().default(null)}).strict();
 export const commentSchema=z.object({post_id:uuid,body:text(2000)}).strict();
 const instant=z.string().refine(v=>Number.isFinite(Date.parse(v)),{message:'Use a valid date and time'}).transform(v=>new Date(v).toISOString());
-export const eventSchema=z.object({title:text(120),event_type:z.enum(EVENT_TYPES),starts_at:instant,ends_at:instant.nullable().default(null),location_name:text(160),description:optionalText(4000)}).strict().refine(v=>!v.ends_at||v.ends_at>=v.starts_at,{message:'An event cannot end before it starts'});
+export const eventSchema=z.object({title:text(120),event_type:z.enum(EVENT_TYPES),starts_at:instant,ends_at:instant.nullable().default(null),location_name:text(160),description:optionalText(4000),skill_level:z.enum(SKILL_LEVELS).default('any'),bike_size:z.enum(BIKE_SIZES).default('any'),discipline:z.enum(DISCIPLINES).default('any')}).strict().refine(v=>!v.ends_at||v.ends_at>=v.starts_at,{message:'An event cannot end before it starts'});
 export const rsvpSchema=z.object({event_id:uuid,status:z.enum(['going','interested']),public:z.boolean().optional()}).strict();
 export const messageSchema=z.object({recipient_id:uuid,body:text(4000)}).strict();
 export const garageSharingSchema=z.object({bike_id:uuid,show_on_profile:z.boolean(),build_sheet_public:z.boolean().default(false),photo_ids:z.array(z.string().uuid()).max(8).default([])}).strict();
@@ -202,12 +203,36 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
  }
 
  // ---- Events
+ if(path==='/api/track-presence'){
+  // "Riding here today": opt-in, one row per rider, track and (the rider's own) day. Row-level security shows other riders'
+  // rows for today and yesterday only, never anyone blocked either way; the server adds their public profile.
+  const day=z.string().regex(/^\d{4}-\d{2}-\d{2}$/).refine(d=>Math.abs(Date.parse(d+'T12:00:00Z')-Date.now())<2*864e5,{message:'Use today’s date'}).parse(q('day'));
+  const track=z.string().trim().min(1).max(120).parse(method==='POST'?((await readJson(req,500)) as {track_id?:string})?.track_id:q('track_id'));
+  if(method==='POST'){
+   await requireProfile(db,owner);
+   const listed=checked(await db.from('tracks').select('id').eq('id',track).eq('listed',true).eq('review_status','APPROVED').maybeSingle());
+   if(!listed)throw new HttpError(404,'Pick one of BAK’s tracks.');
+   const r=await db.from('track_presence').upsert({user_id:owner,track_id:track,day},{onConflict:'user_id,track_id,day',ignoreDuplicates:true});
+   if(r.error)throw new HttpError(r.error.code==='42501'?403:503,'Could not save. Nothing was changed.');
+  }
+  if(method==='DELETE')checked(await db.from('track_presence').delete().eq('user_id',owner).eq('track_id',track).eq('day',day));
+  if(!['GET','POST','DELETE'].includes(method))return null;
+  const rows=(checked(await db.from('track_presence').select('user_id,created_at').eq('track_id',track).eq('day',day).order('created_at',{ascending:true}).limit(200))??[]) as Row[];
+  const profiles=await profilesFor(db,rows.map(r=>r.user_id));
+  const riders=rows.filter(r=>profiles.has(r.user_id)).map(r=>({...author(profiles,r.user_id),me:r.user_id===owner}));
+  return json({count:riders.length,me:riders.some(r=>r.me),riders});
+ }
  if(path==='/api/events'){
   if(method==='GET'){
    const past=q('scope')==='past',now=new Date(Date.now()-6*3600_000).toISOString();
-   let query=db.from('events').select('id,user_id,title,event_type,starts_at,ends_at,location_name,description,created_at,canceled_at').is('removed_at',null).limit(60);
+   let query=db.from('events').select('id,user_id,title,event_type,starts_at,ends_at,location_name,description,created_at,canceled_at,skill_level,bike_size,discipline').is('removed_at',null).limit(60);
    query=past?query.lt('starts_at',now).order('starts_at',{ascending:false}):query.gte('starts_at',now).order('starts_at',{ascending:true});
    const type=q('type');if(type)query=query.eq('event_type',z.enum(EVENT_TYPES).parse(type));
+   // Crew filters: an event for 'any' fits every filter.
+   const skill=q('skill'),bike=q('bike'),disc=q('discipline');
+   if(skill&&skill!=='any')query=query.in('skill_level',[z.enum(SKILL_LEVELS).parse(skill),'any']);
+   if(bike&&bike!=='any')query=query.in('bike_size',[z.enum(BIKE_SIZES).parse(bike),'any']);
+   if(disc&&disc!=='any')query=query.in('discipline',[z.enum(DISCIPLINES).parse(disc),'any']);
    const events=(checked(await query)??[]) as Row[],ids=events.map(e=>e.id);
    // Totals count every RSVP (a definer function returns numbers only); the rows readable here are the rider's own and
    // the ones riders chose to make public, which is who the going list shows.
