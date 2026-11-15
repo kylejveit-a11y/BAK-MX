@@ -12,3 +12,13 @@ test('Honda clamp notice covers only sourced US model/year identities and remain
  assert.equal(recallsForBike({...bike,region:'EU'}).length,0);
  assert.equal(recallsForBike({...bike,region:'USA'}).length,1);
 });
+test('older CPSC recalls match only their own models and years',()=>{
+ const ids=(b:any)=>recallsForBike({region:'US',...b}).map(n=>n.id);
+ assert.deepEqual(ids({manufacturer:'Honda',model:'CRF450R',model_year:2015}),['cpsc-17-764']);
+ assert.deepEqual(ids({manufacturer:'Honda',model:'CRF450R',model_year:2016}),['cpsc-17-764']);
+ assert.deepEqual(ids({manufacturer:'Honda',model:'CRF250R',model_year:2016}),[]);
+ assert.deepEqual(ids({manufacturer:'Yamaha',model:'YZ450F',model_year:2014}),['cpsc-14-717']);
+ assert.deepEqual(ids({manufacturer:'Yamaha',model:'YZ250F',model_year:2015}),['cpsc-15-713']);
+ assert.deepEqual(ids({manufacturer:'Yamaha',model:'YZ450F',model_year:2015}),[]);
+ for(const n of recallsForBike({manufacturer:'Honda',model:'CRF450R',model_year:2015,region:'US'}))assert.match(n.source_url,/^https:\/\/www\.cpsc\.gov\//);
+});

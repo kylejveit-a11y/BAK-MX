@@ -17,10 +17,12 @@ HEAD=re.compile(r'^ADJUSTING THE (FRONT FORK|REAR SHOCK)')
 GROUP=[(r'FRONT FORK REBOUND','Front suspension / Rebound damping'),(r'FRONT FORK COMPRESSION','Front suspension / Compression damping'),
        (r'REAR SHOCK ABSORBER REBOUND','Rear suspension / Rebound damping'),(r'REAR SHOCK ABSORBER LOW COMPRESSION','Rear suspension / Slow compression damping'),
        (r'REAR SHOCK ABSORBER HIGH COMPRESSION','Rear suspension / Fast compression damping')]
-NUM=r'(?:\d+-\d+/\d+|\d+/\d+|\d+(?:[-–]\d+)?)(?:±\d+/\d+)?'
-DV=re.compile(r'^((?:About )?'+NUM+r')\s+(clicks?|turns?)\s+out\*?$')
+NUM=r'(?:\d+-\d+/\d+–\d+-\d+/\d+|\d+-\d+/\d+|\d+/\d+|\d+(?:[-–]\d+)?)(?:±\d+/\d+)?'   # incl. a range "1-1/3–1-2/3"
+U=r'(clicks?|turns?|click \(s\)|turn \(s\))'      # 2012-2015 WR450F print "18 click (s) out*"
+DV=re.compile(r'^((?:About )?'+NUM+r')\s+'+U+r'\s+out\*?$')
 SUBB=re.compile(r'^(Rebound damping|Compression damping|Fast compression damping|Slow compression damping|High compression damping|Low compression damping)$')
 NAMES={'High compression damping':'Fast compression damping','Low compression damping':'Slow compression damping'}
+def unit_of(u): return re.sub(r' \(s\)$|s$','',u)
 def foot_ok(lines):
     """The star footnotes near a standard value must name markets other than the USA."""
     f=[l for l in lines if l.startswith('*') and not DV.match(l.lstrip('* '))]
@@ -52,7 +54,7 @@ def style_a(lines):
         i=k
     return out,problems
 CODE=re.compile(r'^E[A-Z0-9@]*\d[A-Z0-9@]*\s*')
-TAGGED=re.compile(r'^((?:About )?'+NUM+r')\s+(clicks?|turns?)\s+out\*?((?:\s*\([A-Z]{2,3}\))*)$')
+TAGGED=re.compile(r'^((?:About )?'+NUM+r')\s+'+U+r'\s+out\*?((?:\s*\([A-Z]{2,3}\))*)$')
 def style_b(lines):
     """2014-2017 four-strokes. Headings carry their EAS code with the first letters set into it ("EAASB111D103 JUSTING THE FRONT
     FORK LEGS"); market-tagged values "8 clicks out* (USA) (CAN)" keep the (USA) line only."""
@@ -89,15 +91,15 @@ def style_b(lines):
         if t=='Maximum': state='Hard'; continue
         if t=='Standard': state='STD'; continue
         if t=='Minimum': state='Soft'; continue
-        if t.startswith('* With the adjuster fully turned'): cur['foot']=True; state=None; continue
+        if re.match(r'^\* ?With the adjust(er|ing screw|ing bolt) fully turned',t): cur['foot']=True; state=None; continue
         if state=='Hard' and t.startswith('Fully turned in'): cur['Hard']='0'; state=None; continue
         v=TAGGED.match(t)
-        if state=='STD' and v: cur['STD'].append((v.group(1),v.group(2).rstrip('s'),v.group(3).strip())); continue
+        if state=='STD' and v: cur['STD'].append((v.group(1),unit_of(v.group(2)),v.group(3).strip())); continue
         if state=='STD' and re.fullmatch(r'(\([A-Z]{2,3}\)\s*)+',t) and cur['STD']:
             x=cur['STD'][-1]; cur['STD'][-1]=(x[0],x[1],(x[2]+' '+t).strip()); continue       # market tags wrapped to the next line
         if state=='Soft' and v:
             if cur['Soft'] is not None or v.group(3): cur['dup']=True
-            cur['Soft']=(v.group(1),v.group(2).rstrip('s')); state=None; continue
+            cur['Soft']=(v.group(1),unit_of(v.group(2))); state=None; continue
         if state and t: state=None
     close()
     return out,problems

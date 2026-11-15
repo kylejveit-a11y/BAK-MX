@@ -38,7 +38,7 @@ def main():
         suf=r'(?:[A-EG-WYZ]\d?)?' if not model.endswith(('F','X')) else r'(?:[A-Z]\d?)?'
         if not re.search(r'(?<![\w])'+re.escape(model)+suf+r'(?![\w])',cover): rep['notes'].append('MODEL NOT ON COVER')
         # specification table: the older ruled layout prints "MAINTENANCE SPECIFICATIONS" page headers, the newer one does not
-        heads=' '.join(' '.join(w['text'] for w in pg.extract_words() if w['top']<30) for pg in pdf.pages[25:60])
+        heads=' '.join(' '.join(w['text'] for w in pg.extract_words() if w['top']<30) for pg in pdf.pages[20:100])
         old='MAINTENANCE SPECIFICATIONS' in heads; spec=[]; reader=None
         damp,dpr=yamaha_dampers_older.dampers(path); rep['damper_problems']=[str(x) for x in dpr]
         damp=[(p,printed(p),a,v,u) for p,_,a,v,u in damp]

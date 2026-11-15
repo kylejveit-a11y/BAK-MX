@@ -1,5 +1,549 @@
 [
  {
+  "manufacturer": "Husqvarna",
+  "model": "FC 250",
+  "model_year": 2014,
+  "n": 188,
+  "suspension": 37,
+  "torques": 93
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 250",
+  "model_year": 2015,
+  "n": 188,
+  "suspension": 35,
+  "torques": 95
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 250",
+  "model_year": 2016,
+  "n": 194,
+  "suspension": 35,
+  "torques": 101
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 250",
+  "model_year": 2017,
+  "n": 195,
+  "suspension": 35,
+  "torques": 102
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 250",
+  "model_year": 2018,
+  "n": 156,
+  "suspension": 36,
+  "torques": 63
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 250",
+  "model_year": 2019,
+  "n": 205,
+  "suspension": 35,
+  "torques": 109
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 350",
+  "model_year": 2014,
+  "n": 188,
+  "suspension": 37,
+  "torques": 93
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 350",
+  "model_year": 2015,
+  "n": 185,
+  "suspension": 35,
+  "torques": 93
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 350",
+  "model_year": 2016,
+  "n": 193,
+  "suspension": 37,
+  "torques": 98
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 350",
+  "model_year": 2017,
+  "n": 193,
+  "suspension": 35,
+  "torques": 100
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 350",
+  "model_year": 2018,
+  "n": 153,
+  "suspension": 34,
+  "torques": 63
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 350",
+  "model_year": 2019,
+  "n": 209,
+  "suspension": 35,
+  "torques": 111
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 450",
+  "model_year": 2014,
+  "n": 185,
+  "suspension": 37,
+  "torques": 90
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 450",
+  "model_year": 2015,
+  "n": 189,
+  "suspension": 36,
+  "torques": 95
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 450",
+  "model_year": 2016,
+  "n": 188,
+  "suspension": 38,
+  "torques": 92
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 450",
+  "model_year": 2017,
+  "n": 187,
+  "suspension": 35,
+  "torques": 94
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 450",
+  "model_year": 2018,
+  "n": 154,
+  "suspension": 36,
+  "torques": 61
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FC 450",
+  "model_year": 2019,
+  "n": 196,
+  "suspension": 35,
+  "torques": 101
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FE 350",
+  "model_year": 2015,
+  "n": 190,
+  "suspension": 36,
+  "torques": 95
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FE 350",
+  "model_year": 2016,
+  "n": 195,
+  "suspension": 36,
+  "torques": 97
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FE 350",
+  "model_year": 2017,
+  "n": 200,
+  "suspension": 38,
+  "torques": 100
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FE 350",
+  "model_year": 2018,
+  "n": 159,
+  "suspension": 38,
+  "torques": 60
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FE 350",
+  "model_year": 2019,
+  "n": 207,
+  "suspension": 32,
+  "torques": 106
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FE 450",
+  "model_year": 2015,
+  "n": 201,
+  "suspension": 36,
+  "torques": 107
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FE 450",
+  "model_year": 2016,
+  "n": 203,
+  "suspension": 36,
+  "torques": 108
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FE 450",
+  "model_year": 2017,
+  "n": 195,
+  "suspension": 38,
+  "torques": 95
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FE 450",
+  "model_year": 2018,
+  "n": 158,
+  "suspension": 38,
+  "torques": 59
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FE 450",
+  "model_year": 2019,
+  "n": 202,
+  "suspension": 32,
+  "torques": 101
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FE 501",
+  "model_year": 2015,
+  "n": 203,
+  "suspension": 36,
+  "torques": 108
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FE 501",
+  "model_year": 2016,
+  "n": 203,
+  "suspension": 36,
+  "torques": 108
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FE 501",
+  "model_year": 2017,
+  "n": 195,
+  "suspension": 38,
+  "torques": 95
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FE 501",
+  "model_year": 2018,
+  "n": 158,
+  "suspension": 38,
+  "torques": 59
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FE 501",
+  "model_year": 2019,
+  "n": 202,
+  "suspension": 32,
+  "torques": 101
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FX 350",
+  "model_year": 2017,
+  "n": 194,
+  "suspension": 35,
+  "torques": 100
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FX 350",
+  "model_year": 2018,
+  "n": 154,
+  "suspension": 34,
+  "torques": 63
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FX 350",
+  "model_year": 2019,
+  "n": 211,
+  "suspension": 35,
+  "torques": 111
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FX 450",
+  "model_year": 2017,
+  "n": 188,
+  "suspension": 35,
+  "torques": 94
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FX 450",
+  "model_year": 2018,
+  "n": 155,
+  "suspension": 36,
+  "torques": 61
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "FX 450",
+  "model_year": 2019,
+  "n": 196,
+  "suspension": 35,
+  "torques": 101
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TC 125",
+  "model_year": 2014,
+  "n": 58,
+  "suspension": 0,
+  "torques": 38
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TC 125",
+  "model_year": 2015,
+  "n": 62,
+  "suspension": 0,
+  "torques": 42
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TC 125",
+  "model_year": 2016,
+  "n": 179,
+  "suspension": 35,
+  "torques": 79
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TC 125",
+  "model_year": 2017,
+  "n": 184,
+  "suspension": 34,
+  "torques": 86
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TC 125",
+  "model_year": 2018,
+  "n": 158,
+  "suspension": 35,
+  "torques": 58
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TC 125",
+  "model_year": 2019,
+  "n": 190,
+  "suspension": 37,
+  "torques": 88
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TC 250",
+  "model_year": 2014,
+  "n": 58,
+  "suspension": 0,
+  "torques": 38
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TC 250",
+  "model_year": 2015,
+  "n": 62,
+  "suspension": 0,
+  "torques": 42
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TC 250",
+  "model_year": 2016,
+  "n": 181,
+  "suspension": 35,
+  "torques": 78
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TC 250",
+  "model_year": 2017,
+  "n": 181,
+  "suspension": 34,
+  "torques": 83
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TC 250",
+  "model_year": 2018,
+  "n": 155,
+  "suspension": 33,
+  "torques": 57
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TC 250",
+  "model_year": 2019,
+  "n": 190,
+  "suspension": 35,
+  "torques": 88
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TE 150",
+  "model_year": 2017,
+  "n": 187,
+  "suspension": 35,
+  "torques": 89
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TE 150",
+  "model_year": 2018,
+  "n": 168,
+  "suspension": 37,
+  "torques": 67
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TE 150",
+  "model_year": 2019,
+  "n": 195,
+  "suspension": 32,
+  "torques": 92
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TE 250",
+  "model_year": 2015,
+  "n": 172,
+  "suspension": 27,
+  "torques": 80
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TE 250",
+  "model_year": 2016,
+  "n": 175,
+  "suspension": 31,
+  "torques": 79
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TE 250",
+  "model_year": 2017,
+  "n": 183,
+  "suspension": 33,
+  "torques": 86
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TE 250",
+  "model_year": 2018,
+  "n": 162,
+  "suspension": 37,
+  "torques": 60
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TE 300",
+  "model_year": 2015,
+  "n": 172,
+  "suspension": 27,
+  "torques": 80
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TE 300",
+  "model_year": 2016,
+  "n": 175,
+  "suspension": 31,
+  "torques": 79
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TE 300",
+  "model_year": 2017,
+  "n": 183,
+  "suspension": 33,
+  "torques": 86
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TE 300",
+  "model_year": 2018,
+  "n": 162,
+  "suspension": 37,
+  "torques": 60
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TX 125",
+  "model_year": 2017,
+  "n": 149,
+  "suspension": 35,
+  "torques": 88
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TX 125",
+  "model_year": 2018,
+  "n": 96,
+  "suspension": 37,
+  "torques": 32
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TX 125",
+  "model_year": 2019,
+  "n": 107,
+  "suspension": 32,
+  "torques": 45
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TX 300",
+  "model_year": 2017,
+  "n": 180,
+  "suspension": 34,
+  "torques": 85
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TX 300",
+  "model_year": 2018,
+  "n": 155,
+  "suspension": 33,
+  "torques": 60
+ },
+ {
+  "manufacturer": "Husqvarna",
+  "model": "TX 300",
+  "model_year": 2019,
+  "n": 196,
+  "suspension": 35,
+  "torques": 95
+ },
+ {
   "manufacturer": "KTM",
   "model": "125 SX",
   "model_year": 2013,
@@ -110,6 +654,22 @@
   "n": 191,
   "suspension": 37,
   "torques": 89
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "150 XC-W",
+  "model_year": 2017,
+  "n": 179,
+  "suspension": 37,
+  "torques": 85
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "150 XC-W",
+  "model_year": 2018,
+  "n": 165,
+  "suspension": 34,
+  "torques": 66
  },
  {
   "manufacturer": "KTM",
@@ -345,6 +905,54 @@
  },
  {
   "manufacturer": "KTM",
+  "model": "250 XC-W",
+  "model_year": 2013,
+  "n": 157,
+  "suspension": 22,
+  "torques": 69
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "250 XC-W",
+  "model_year": 2014,
+  "n": 163,
+  "suspension": 22,
+  "torques": 73
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "250 XC-W",
+  "model_year": 2015,
+  "n": 168,
+  "suspension": 22,
+  "torques": 78
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "250 XC-W",
+  "model_year": 2016,
+  "n": 156,
+  "suspension": 22,
+  "torques": 79
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "250 XC-W",
+  "model_year": 2017,
+  "n": 160,
+  "suspension": 22,
+  "torques": 82
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "250 XC-W",
+  "model_year": 2018,
+  "n": 162,
+  "suspension": 36,
+  "torques": 61
+ },
+ {
+  "manufacturer": "KTM",
   "model": "300 XC",
   "model_year": 2013,
   "n": 165,
@@ -398,6 +1006,54 @@
   "n": 193,
   "suspension": 35,
   "torques": 92
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "300 XC-W",
+  "model_year": 2013,
+  "n": 157,
+  "suspension": 22,
+  "torques": 69
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "300 XC-W",
+  "model_year": 2014,
+  "n": 162,
+  "suspension": 22,
+  "torques": 73
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "300 XC-W",
+  "model_year": 2015,
+  "n": 167,
+  "suspension": 22,
+  "torques": 78
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "300 XC-W",
+  "model_year": 2016,
+  "n": 155,
+  "suspension": 22,
+  "torques": 79
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "300 XC-W",
+  "model_year": 2017,
+  "n": 159,
+  "suspension": 22,
+  "torques": 82
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "300 XC-W",
+  "model_year": 2018,
+  "n": 162,
+  "suspension": 36,
+  "torques": 61
  },
  {
   "manufacturer": "KTM",
@@ -513,6 +1169,38 @@
  },
  {
   "manufacturer": "KTM",
+  "model": "350 XCF-W",
+  "model_year": 2013,
+  "n": 167,
+  "suspension": 21,
+  "torques": 89
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "350 XCF-W",
+  "model_year": 2014,
+  "n": 171,
+  "suspension": 21,
+  "torques": 91
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "350 XCF-W",
+  "model_year": 2015,
+  "n": 194,
+  "suspension": 41,
+  "torques": 94
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "350 XCF-W",
+  "model_year": 2016,
+  "n": 193,
+  "suspension": 41,
+  "torques": 93
+ },
+ {
+  "manufacturer": "KTM",
   "model": "450 SX-F",
   "model_year": 2013,
   "n": 183,
@@ -625,6 +1313,38 @@
  },
  {
   "manufacturer": "KTM",
+  "model": "500 XC-W",
+  "model_year": 2013,
+  "n": 178,
+  "suspension": 23,
+  "torques": 98
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "500 XC-W",
+  "model_year": 2014,
+  "n": 177,
+  "suspension": 23,
+  "torques": 98
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "500 XC-W",
+  "model_year": 2015,
+  "n": 202,
+  "suspension": 43,
+  "torques": 100
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "500 XC-W",
+  "model_year": 2016,
+  "n": 207,
+  "suspension": 43,
+  "torques": 103
+ },
+ {
+  "manufacturer": "KTM",
   "model": "85 SX 17/14",
   "model_year": 2013,
   "n": 154,
@@ -662,6 +1382,14 @@
   "n": 159,
   "suspension": 35,
   "torques": 64
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "85 SX 17/14",
+  "model_year": 2018,
+  "n": 149,
+  "suspension": 32,
+  "torques": 53
  },
  {
   "manufacturer": "KTM",
@@ -714,9 +1442,113 @@
  {
   "manufacturer": "KTM",
   "model": "85 SX 19/16",
+  "model_year": 2018,
+  "n": 149,
+  "suspension": 32,
+  "torques": 53
+ },
+ {
+  "manufacturer": "KTM",
+  "model": "85 SX 19/16",
   "model_year": 2019,
   "n": 181,
   "suspension": 33,
   "torques": 82
+ },
+ {
+  "manufacturer": "Kawasaki",
+  "model": "KX250",
+  "model_year": 2014,
+  "n": 8,
+  "suspension": 8,
+  "torques": 0
+ },
+ {
+  "manufacturer": "Kawasaki",
+  "model": "KX250",
+  "model_year": 2015,
+  "n": 12,
+  "suspension": 12,
+  "torques": 0
+ },
+ {
+  "manufacturer": "Kawasaki",
+  "model": "KX250",
+  "model_year": 2016,
+  "n": 8,
+  "suspension": 8,
+  "torques": 0
+ },
+ {
+  "manufacturer": "Kawasaki",
+  "model": "KX250",
+  "model_year": 2017,
+  "n": 7,
+  "suspension": 7,
+  "torques": 0
+ },
+ {
+  "manufacturer": "Kawasaki",
+  "model": "KX250",
+  "model_year": 2018,
+  "n": 11,
+  "suspension": 11,
+  "torques": 0
+ },
+ {
+  "manufacturer": "Kawasaki",
+  "model": "KX250",
+  "model_year": 2019,
+  "n": 7,
+  "suspension": 7,
+  "torques": 0
+ },
+ {
+  "manufacturer": "Kawasaki",
+  "model": "KX450",
+  "model_year": 2014,
+  "n": 3,
+  "suspension": 3,
+  "torques": 0
+ },
+ {
+  "manufacturer": "Kawasaki",
+  "model": "KX450",
+  "model_year": 2015,
+  "n": 7,
+  "suspension": 7,
+  "torques": 0
+ },
+ {
+  "manufacturer": "Kawasaki",
+  "model": "KX450",
+  "model_year": 2016,
+  "n": 3,
+  "suspension": 3,
+  "torques": 0
+ },
+ {
+  "manufacturer": "Kawasaki",
+  "model": "KX450",
+  "model_year": 2017,
+  "n": 3,
+  "suspension": 3,
+  "torques": 0
+ },
+ {
+  "manufacturer": "Kawasaki",
+  "model": "KX450",
+  "model_year": 2018,
+  "n": 7,
+  "suspension": 7,
+  "torques": 0
+ },
+ {
+  "manufacturer": "Kawasaki",
+  "model": "KX450",
+  "model_year": 2019,
+  "n": 5,
+  "suspension": 5,
+  "torques": 0
  }
 ]

@@ -9,7 +9,7 @@ import {checkVin,cleanVin} from '../../../shared/vin';
 import {BIKE_EDITIONS,BIKE_MARKETS,sortBikeNames} from '../../../shared/bike-identity';
 import {RichText,Disclosure} from './RichText';
 import React,{useEffect,useState,createContext,useContext,useCallback,useRef} from 'react';
-import {AccessibilityInfo,ActionSheetIOS,AppState,Alert,Linking,Platform,View,Text,ActivityIndicator,StyleSheet,TextInput,ScrollView,useWindowDimensions} from 'react-native';
+import {AccessibilityInfo,AppState,Alert,Linking,Platform,View,Text,ActivityIndicator,StyleSheet,TextInput,ScrollView,useWindowDimensions} from 'react-native';
 import {Pressable} from './Touch';
 import {BikeWheel,PickButton} from './Wheel';
 import {DateField,recentDays,formatValue} from './DateSheet';
@@ -113,10 +113,9 @@ import {userErrorText} from '../../../shared/user-error';
 const errorText=(e:unknown)=>userErrorText(e);
 const num=(v:string)=>{if(!v.trim())return null;const n=Number(v);if(!Number.isFinite(n)||n<0)throw new Error('Hours must be zero or greater.');return n;};
 const Ctx=createContext<{session:Session;bikes:Bike[];bikesLoaded:boolean;bikesError:string;bike:Bike|undefined;select:(id:string)=>void;reload:()=>Promise<void>;colorMode:ThemeMode;setColorMode:(m:ThemeMode)=>void;setThemeMake:(make:string|null|undefined)=>void;/** rider messages not yet read, for the header badge */unread:number;refreshUnread:()=>void }>(null!);
-/** Home: the bike's name is already shown, so this is just a quiet "Switch bike" that lists the others. */
-function SwitchBike(){const c=useContext(Ctx);const others=c.bikes.filter(b=>b.id!==c.bike?.id),label=(b:Bike)=>b.nickname||`${b.model_year} ${b.manufacturer} ${b.model}`;
- const pick=()=>{if(Platform.OS==='ios')ActionSheetIOS.showActionSheetWithOptions({title:'Switch bike',options:[...others.map(label),'Cancel'],cancelButtonIndex:others.length},i=>{if(i<others.length)c.select(others[i].id);});else Alert.alert('Switch bike',undefined,[...others.map(b=>({text:label(b),onPress:()=>c.select(b.id)})),{text:'Cancel',style:'cancel' as const}]);};
- return <LinkAction title={`Switch bike (${c.bikes.length})`} onPress={pick}/>;}
+/** Home: the same bike sheet as the Garage ("Your bikes"), so switching looks and works the same everywhere. */
+function SwitchBike(){const c=useContext(Ctx);if(!c.bike||c.bikes.length<2)return null;
+ return <Select inline label="Your bikes" value={c.bike.id} options={c.bikes.map(b=>({value:b.id,label:b.nickname||`${b.model_year} ${b.manufacturer} ${b.model}`}))} onChange={v=>c.select(v)}/>;}
 /** Edition or market: a picker of the values BAK's data knows, with "Other" opening a text box so an unlisted one is kept as typed. */
 function EditionPick({label,value,options,disabled,onChange}:{label:string;value:string;options:{value:string;label:string}[];disabled:boolean;onChange:(v:string)=>void}){
  const listed=options.some(o=>o.value===value);const [other,setOther]=useState(!listed);
