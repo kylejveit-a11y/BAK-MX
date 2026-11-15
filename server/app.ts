@@ -27,6 +27,7 @@ import {handleMobileBilling} from './mobile-billing.ts';
 import {handleRiderSurfaces} from './rider-surfaces.ts';
 import {handleTrackReports} from './track-reports.ts';
 import {handleTrackCheckins} from './track-checkins.ts';
+import {handleTrackHistory} from './track-history.ts';
 import {handleTuningNotes} from './tuning-notes.ts';
 import {handleFuelProfiles} from './fuel-profiles.ts';
 import {exchangeAppleCode,revokeAppleSignIn} from './apple-sign-in.ts';
@@ -178,6 +179,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
  {const surface=await handleRiderSurfaces(req,url,path,method,db,owner);if(surface)return surface;}
  {const reports=await handleTrackReports(req,url,path,method,db,owner);if(reports)return reports;}
  {const checkins=await handleTrackCheckins(req,url,path,method,db,owner);if(checkins)return checkins;}
+ {const history=await handleTrackHistory(url,path,method,db,owner);if(history)return history;}
  {const notes=await handleTuningNotes(req,url,path,method,db,owner);if(notes)return notes;}
  {const fuel=await handleFuelProfiles(req,url,path,method,db,owner);if(fuel)return fuel;}
  {const moderation=await handleModeration(req,path,method,owner);if(moderation)return moderation;}

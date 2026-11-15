@@ -22,6 +22,7 @@ import {TrackReportCard} from './TrackReport';
 import {FuelPlanCard} from './FuelPlan';
 import {RideDayMode} from './RideDay';
 import {LiveConditionsCard} from './LiveConditions';
+import {TrackHistoryCard} from './TrackHistory';
 import {RIDE_DAY_COPY} from '../../../shared/ride-day';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
@@ -95,6 +96,7 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
   <LiveConditionsCard track={track}/>
   <NextUpCard race={race} labels={labels} onSet={onNext}/>
   <BikeNowCard bike={bike}/>
+  <TrackHistoryCard track={track} bikeId={bike.id}/>
   <Card>
    <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="bolt" size={16} color={colors.accent}/><Eyebrow>{COPY.ask.toUpperCase()}</Eyebrow></View>
    <Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>{COPY.askDetail}</Text>

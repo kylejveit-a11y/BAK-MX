@@ -3,6 +3,7 @@ import {z} from 'zod';
 import {adminDb,checked} from './database.ts';
 import {HttpError,readJson,uuid} from './validation.ts';
 import {objectionable} from './content-rules.ts';
+import {findTrack,stampWeather} from './track-history.ts';
 import {REPORT_LIMITS,aggregateReports,dayProblem,normalizeTags,tagProblem,type RecentRiderReports,type ReportRow} from '../shared/track-reports.ts';
 
 /** "How did it ride?" reports. A rider writes and reads only their own rows (their token, row-level security). What other
@@ -78,6 +79,7 @@ export async function handleTrackReports(req:Request,url:URL,path:string,method:
   if((count??0)>=REPORT_LIMITS.perDay)throw new HttpError(429,'That’s a lot of track reports for one day. Try again tomorrow.');
   const result=await db.from('track_reports').upsert({...data,user_id:owner},{onConflict:'user_id,track_id,ridden_on'}).select(OWN).single();
   if(result.error)throw new HttpError(result.error.code==='42501'?403:503,'Could not save. Nothing was changed.');
+  if(data.ridden_on===utcToday())await stampWeather('track_reports',(result.data as {id:string}).id,await findTrack(db,{id:data.track_id}),new Date().toISOString());
   return json(result.data,201);
  }
  if(method==='DELETE'){

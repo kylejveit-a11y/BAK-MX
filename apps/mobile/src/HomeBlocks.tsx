@@ -26,6 +26,7 @@ import {endRaceActivity,setRaceStatus,setRaceWidget,syncRaceActivity} from './wi
 import {upNext,type PlanItem} from '../../../shared/service-plan';
 import {RichText} from './RichText';
 import {LiveConditionsCard} from './LiveConditions';
+import {TrackHistoryCard} from './TrackHistory';
 import {TrackReportCard} from './TrackReport';
 import {OFF_RACE as OFF,dayOf,today,activeRace,raceToday,daysToGo,whenText,QUICK,CHANGES,MOTOS,quickAskText,tryNextText,raceSetupTitle,raceSetupQuestion,raceSetupField,raceSetupKey,raceSetupStale,plain,knownTrack,trackSuggestions,trackPicks,isPractice,type RaceDay,type KnownTrack,type NextUp} from '../../../shared/race-day';
 export {daysToGo,whenText,type RaceDay};
@@ -332,6 +333,7 @@ export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenC
   <RaceSetupCard account={account} bike={bike} track={track} day={today()} onOpenChat={onOpenChat}/>
   <FuelPlanCard account={account} race={day} kind="race"/>
   <BikeNowCard bike={bike}/>
+  <TrackHistoryCard track={track} bikeId={bike.id}/>
   <Card><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="bolt" size={16} color={colors.accent}/><Eyebrow>QUICK ASK</Eyebrow></View>
    <Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>Tap what the bike did. BAK answers in race mode: the one change to make, short and fast.</Text>
    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{QUICK.map(q=>chip(q,false,()=>onQuick(quickAskText(track,q))))}</View>

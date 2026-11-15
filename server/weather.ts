@@ -48,3 +48,30 @@ export function raceTrackAt(tracks:{name:string;lat?:number|null;lng?:number|nul
  const n=name.trim().toLowerCase(),t=tracks.find(x=>x.name.toLowerCase()===n)??tracks[0];
  return [t?.lat??null,t?.lng??null];
 }
+
+export type WeatherNow={source:'US National Weather Service observation';station:string;observed_at:string;temp_f:number|null;conditions:string|null;wind_mph:number|null;humidity_pct:number|null};
+const stations=new Map<string,{at:number;id:string}>();
+/** The latest observation at the weather station nearest a track: used to keep "what the weather was" with a rider's report
+ *  of the day. Best effort: null on any failure or when the observation is more than three hours old. */
+export async function weatherNow(lat:number|null|undefined,lng:number|null|undefined):Promise<WeatherNow|null>{
+ if(lat==null||lng==null)return null;
+ try{
+  const key=`${lat.toFixed(4)},${lng.toFixed(4)}`;let hit=stations.get(key);
+  if(!hit||Date.now()-hit.at>7*86400_000){
+   const p=await get(`https://api.weather.gov/points/${key}`,3500) as {properties?:{observationStations?:string}};
+   if(!p.properties?.observationStations)return null;
+   const s=await get(p.properties.observationStations,3500) as {features?:{properties?:{stationIdentifier?:string}}[]};
+   const id=s.features?.[0]?.properties?.stationIdentifier;if(!id)return null;
+   hit={at:Date.now(),id};stations.set(key,hit);
+  }
+  const o=await get(`https://api.weather.gov/stations/${hit.id}/observations/latest`,3500) as {properties?:{timestamp?:string;textDescription?:string;temperature?:{value:number|null};windSpeed?:{value:number|null};relativeHumidity?:{value:number|null}}};
+  return observationOf(o.properties,hit.id,Date.now());
+ }catch{return null;}
+}
+/** Turns an NWS observation (metric) into the stored shape (US units); null when it is stale or empty. */
+export function observationOf(p:{timestamp?:string;textDescription?:string;temperature?:{value:number|null};windSpeed?:{value:number|null};relativeHumidity?:{value:number|null}}|undefined,station:string,now:number):WeatherNow|null{
+ if(!p?.timestamp||now-Date.parse(p.timestamp)>3*3600e3)return null;
+ const c=p.temperature?.value,w=p.windSpeed?.value,h=p.relativeHumidity?.value;
+ const out:WeatherNow={source:'US National Weather Service observation',station,observed_at:p.timestamp,temp_f:c==null?null:Math.round(c*9/5+32),conditions:p.textDescription||null,wind_mph:w==null?null:Math.round(w/1.609),humidity_pct:h==null?null:Math.round(h)};
+ return out.temp_f==null&&!out.conditions?null:out;
+}

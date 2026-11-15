@@ -1,3 +1,4 @@
+import {findTrack,stampWeather} from './track-history.ts';
 import {SKILL_LEVELS,BIKE_SIZES,DISCIPLINES} from '../shared/crew.ts';
 import type {SupabaseClient} from '@supabase/supabase-js';
 import {photoLinks,pick,photoIds,requireOwnPhotos} from './rider-photos.ts';
@@ -365,6 +366,8 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
    if(method==='POST'){
     const result=await db.from('setup_logs').insert({...data,user_id:owner}).select().single();
     if(result.error)saveFailed(result.error,'');
+    // At a listed track, logged now: keep the weather there with it (best effort, a few seconds at most).
+    if(data.track)await stampWeather('setup_logs',(result.data as Row).id,await findTrack(db,{name:data.track}),data.recorded_at);
     return json(result.data,201);
    }
    const {bike_id,...change}=data;
