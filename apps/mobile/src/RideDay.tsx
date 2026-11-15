@@ -21,7 +21,7 @@ import {success,warn} from './haptics';
 import {bikeSetup} from './HomeBlocks';
 import {useTrackDirectory} from './TrackReport';
 
-type View_='home'|'minutes'|'anyChange'|'what'|'how'|'result'|'setup'|'track';
+type View_='start'|'home'|'minutes'|'anyChange'|'what'|'how'|'result'|'setup'|'track';
 const RESULTS:SetupResult[]=['better','no_change','worse','not_tested'];
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 const clock=()=>new Date().toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
@@ -70,7 +70,7 @@ export function RideDayMode({visible,onClose,bike,track,sessions,onLog,onAsk}:{v
 function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>void;bike:Bike;track:string;sessions:PracticeSession[];onLog:(d:SessionDraft)=>Promise<string>;onAsk:()=>void}){
  useKeepAwake('bak-ride-day');
  const insets=useSafeAreaInsets(),dir=useTrackDirectory();
- const [view,setView]=useState<View_>('home'),[draft,setDraft]=useState<SessionDraft>(emptySession),[typing,setTyping]=useState(false);
+ const [view,setView]=useState<View_>('start'),[autoLock,setAutoLock]=useState(false),[draft,setDraft]=useState<SessionDraft>(emptySession),[typing,setTyping]=useState(false);
  const [locked,setLocked]=useState(false),[toast,setToast]=useState(''),[busy,setBusy]=useState(false);
  const [tags,setTags]=useState<string[]>([]);
  const touched=useRef(Date.now());
@@ -78,7 +78,7 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
  const setup=bikeSetup(bike),n=nextSessionNumber(sessions),last=[...sessions].sort((a,b)=>b.n-a.n)[0];
  const trackId=(knownTrack(dir,track) as {id?:string}|undefined)?.id??'';
  // Locks itself after a minute untouched; any touch on the screen resets the clock.
- useEffect(()=>{const i=setInterval(()=>{if(!locked&&Date.now()-touched.current>AUTO_LOCK_MS)setLocked(true);},5000);return()=>clearInterval(i);},[locked]);
+ useEffect(()=>{if(!autoLock)return;touched.current=Date.now();const i=setInterval(()=>{if(!locked&&Date.now()-touched.current>AUTO_LOCK_MS)setLocked(true);},5000);return()=>clearInterval(i);},[locked,autoLock]);
  useEffect(()=>{if(!toast)return;const t=setTimeout(()=>setToast(''),3500);return()=>clearTimeout(t);},[toast]);
  const home=()=>{setView('home');setDraft(emptySession());setTyping(false);};
  async function save(d:SessionDraft){
@@ -94,6 +94,10 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
  }
  const nextLine=`Session ${n} next${last?.change?` · last: ${sessionChange(last)}`:''}`;
  let body:React.ReactNode=null;
+ if(view==='start')body=<><Title>{C.startTitle}</Title><Text style={{color:colors.muted,fontSize:16,lineHeight:23,marginBottom:8}}>{C.startDetail}</Text><Grid>
+  <Big label={C.autoOn} icon="lock" wide onPress={()=>{setAutoLock(true);setView('home');}}/>
+  <Big label={C.autoOff} icon="unlock" wide onPress={()=>{setAutoLock(false);setView('home');}}/>
+ </Grid></>;
  if(view==='home')body=<>
   <Grid>
    <Big label={C.offTrack} sub={C.offTrackSub} icon="clock" onPress={()=>setView('minutes')}/>
@@ -146,10 +150,10 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
   <View style={{paddingTop:insets.top+10,paddingHorizontal:16,paddingBottom:12,flexDirection:'row',alignItems:'center',gap:10,borderBottomWidth:1,borderBottomColor:'#1d2129'}}>
    <View style={{flex:1,gap:2}}>
     <Text style={{color:colors.text,fontSize:18,...DISPLAY,letterSpacing:0}} numberOfLines={1}>{track||'Practice day'}</Text>
-    <Text style={{color:colors.muted,fontSize:14}} numberOfLines={1}>{clock()} · {nextLine}</Text>
+    <Text style={{color:colors.muted,fontSize:14}} numberOfLines={1}>{clock()} · {nextLine}{autoLock?` · ${C.autoBadge}`:''}</Text>
    </View>
    <Pressable haptic="press" accessibilityRole="button" accessibilityLabel={C.lock} onPress={()=>setLocked(true)} style={({pressed})=>({width:64,height:56,borderRadius:16,borderWidth:1.5,borderColor:'#2c323c',alignItems:'center',justifyContent:'center',backgroundColor:pressed?'#1a1e25':'#111419'})}><Icon name="lock" size={26}/></Pressable>
-   <Pressable haptic="tap" accessibilityRole="button" accessibilityLabel={view==='home'?C.done:C.back} onPress={view==='home'?onClose:home} style={({pressed})=>({minWidth:72,height:56,paddingHorizontal:12,borderRadius:16,borderWidth:1.5,borderColor:'#2c323c',alignItems:'center',justifyContent:'center',backgroundColor:pressed?'#1a1e25':'#111419'})}><Text style={{color:colors.text,fontSize:14,...LABEL}}>{(view==='home'?C.done:C.back).toUpperCase()}</Text></Pressable>
+   <Pressable haptic="tap" accessibilityRole="button" accessibilityLabel={view==='home'||view==='start'?C.done:C.back} onPress={view==='home'||view==='start'?onClose:home} style={({pressed})=>({minWidth:72,height:56,paddingHorizontal:12,borderRadius:16,borderWidth:1.5,borderColor:'#2c323c',alignItems:'center',justifyContent:'center',backgroundColor:pressed?'#1a1e25':'#111419'})}><Text style={{color:colors.text,fontSize:14,...LABEL}}>{(view==='home'||view==='start'?C.done:C.back).toUpperCase()}</Text></Pressable>
   </View>
   <ScrollView contentContainerStyle={{padding:16,paddingBottom:insets.bottom+40,gap:12}} keyboardShouldPersistTaps="handled">{body}</ScrollView>
   {!!toast&&<View pointerEvents="none" accessibilityLiveRegion="polite" style={{position:'absolute',left:16,right:16,bottom:insets.bottom+20,padding:16,borderRadius:16,backgroundColor:'#16202c',borderWidth:1,borderColor:colors.accent}}><Text style={{color:colors.text,fontSize:17,fontWeight:'700',textAlign:'center'}}>{toast}</Text></View>}

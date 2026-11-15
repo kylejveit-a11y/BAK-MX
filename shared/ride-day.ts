@@ -19,6 +19,8 @@ export const RIDE_DAY_COPY={
  noSetup:'Add your clickers, sag and tire pressures in Garage › Edit details to see them here.',
  noTrack:'Pick the track in “How did it ride?” on the practice screen to check in from here.',
  checkIn:'Send check-in',
+ startTitle:'Auto-lock the screen?',startDetail:'Locks itself after 3 minutes with no touch. Hold the unlock button to get back in. You can always lock by hand with the lock button.',
+ autoOn:'Yes, auto-lock after 3 min',autoOff:'No, I’ll lock it myself',autoBadge:'Auto-lock 3 min',
 } as const;
 
 /** Whole-minute picks for time on track, as big buttons. */
@@ -36,8 +38,9 @@ export function changePresets(change:string):string[]{
  return [];
 }
 
-/** Tap lock: after this long with no touch on the Ride Day screen it locks itself (a phone on the plate or in a pocket). */
-export const AUTO_LOCK_MS=60_000;
+/** Tap lock: when the rider turns auto-lock on as Ride Day opens, the screen locks itself after this long with no touch
+ *  (a phone on the plate or in a pocket). Off unless chosen. */
+export const AUTO_LOCK_MS=180_000;
 /** How long to hold the unlock button. Long enough that a bump never does it, short enough with gloves. */
 export const UNLOCK_HOLD_MS=900;
 

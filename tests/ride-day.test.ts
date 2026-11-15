@@ -14,4 +14,4 @@ test('clicker picks say softer/stiffer, tires psi; typed-only changes have no pi
  assert.ok(changePresets('Rear tire').every(p=>/psi (up|down)$/.test(p)));
  assert.deepEqual(changePresets('Other'),[]);
 });
-test('lock timings stay glove-friendly',()=>{assert.ok(UNLOCK_HOLD_MS>=600&&UNLOCK_HOLD_MS<=1500);assert.ok(AUTO_LOCK_MS>=30000);});
+test('lock timings stay glove-friendly',()=>{assert.ok(UNLOCK_HOLD_MS>=600&&UNLOCK_HOLD_MS<=1500);assert.equal(AUTO_LOCK_MS,180000);});
