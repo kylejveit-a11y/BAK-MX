@@ -24,7 +24,7 @@ import {SHARE_CHOICES,ShareStatusLine,alwaysHint,shareUntil,useRideShare} from '
 import {readProgress,writeProgress} from './localProgress';
 
 type View_='start'|'home'|'rate'|'minutes'|'anyChange'|'what'|'how'|'setup'|'track'|'share';
-const RESULTS:SetupResult[]=['better','no_change','worse'];
+const RESULTS:SetupResult[]=['better','worse','no_change'];
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 const elapsed=(t:number)=>Math.min(240,Math.max(1,Math.round((Date.now()-t)/60e3)));
 const clock=()=>new Date().toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
@@ -48,7 +48,7 @@ const Title=({children}:{children:React.ReactNode})=><Text style={{color:colors.
 function LockScreen({onUnlock,track,next,setup}:{onUnlock:()=>void;track:string;next:string;setup:[string,string][]}){
  const insets=useSafeAreaInsets();const [t,setT]=useState(clock());
  useEffect(()=>{const i=setInterval(()=>setT(clock()),15000);return()=>clearInterval(i);},[]);
- return <View accessibilityViewIsModal style={{position:'absolute',left:0,right:0,top:0,bottom:0,backgroundColor:'rgba(4,5,8,0.97)',paddingTop:insets.top+24,paddingBottom:insets.bottom+28,paddingHorizontal:22,justifyContent:'space-between'}} onStartShouldSetResponder={()=>true}>
+ return <View accessibilityViewIsModal style={{position:'absolute',left:0,right:0,top:0,bottom:0,backgroundColor:colors.bg,paddingTop:insets.top+24,paddingBottom:insets.bottom+28,paddingHorizontal:22,justifyContent:'space-between'}} onStartShouldSetResponder={()=>true}>
   <View style={{gap:6}}>
    <Text style={{color:colors.muted,fontSize:13,...LABEL}}>{C.locked.toUpperCase()}</Text>
    <Text style={{color:colors.text,fontSize:56,fontWeight:'800'}}>{t}</Text>
@@ -59,7 +59,7 @@ function LockScreen({onUnlock,track,next,setup}:{onUnlock:()=>void;track:string;
   <Pressable haptic={false} accessibilityRole="button" accessibilityLabel={C.holdToUnlock} accessibilityHint="Press and hold" delayLongPress={UNLOCK_HOLD_MS} onLongPress={()=>{success();onUnlock();}} onPress={()=>warn()}
    style={({pressed})=>({alignSelf:'center',width:132,height:132,borderRadius:66,borderWidth:2,borderColor:pressed?colors.accent:'#3a414d',backgroundColor:pressed?tint(0.25):'#101318',alignItems:'center',justifyContent:'center',gap:6})}>
    <Icon name="lock" size={34} color={colors.text}/>
-   <Text style={{color:colors.text,fontSize:12.5,...LABEL}}>{C.holdToUnlock.toUpperCase()}</Text>
+   <Text style={{color:colors.text,fontSize:11,lineHeight:15,textAlign:'center',width:110,...LABEL}}>{C.holdToUnlock.toUpperCase()}</Text>
   </Pressable>
  </View>;
 }
@@ -92,7 +92,7 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onRate,onAsk}:{onClose:
  const home=()=>{setView('home');setDraft(emptySession());setTyping(false);};
  async function save(d:SessionDraft){
   if(busy)return;setBusy(true);
-  try{const msg=await onLog(d);setToast(msg);if(msg===C.saved||msg===C.savedQueued){if(timer&&d.minutes)setTimer(null);home();}}
+  try{const msg=await onLog(d);setToast(msg===C.saved&&d.change?`Saved: ${d.change}, ${d.detail}`:msg===C.saved&&d.minutes?`Session saved: ${d.minutes} min`:msg);if(msg===C.saved||msg===C.savedQueued){if(timer&&d.minutes)setTimer(null);home();}}
   catch(e){setToast(errorText(e));}finally{setBusy(false);}
  }
  async function checkIn(){
@@ -104,6 +104,7 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onRate,onAsk}:{onClose:
  const unrated=[...sessions].sort((a,b)=>b.n-a.n).find(x=>x.change&&x.result==='not_tested');
  const [afterRate,setAfterRate]=useState<View_>('minutes');
  const comeIn=(next:View_)=>{if(unrated){setAfterRate(next);setView('rate');}else setView(next);};
+ const changedToday=[...sessions].filter(x=>x.change).sort((a,b)=>a.n-b.n);
  const nextLine=timer?`On track ${elapsed(timer)} min`:`Session ${n} next${last?.change?` · last: ${sessionChange(last)}`:''}`;
  let body:React.ReactNode=null;
  if(view==='start')body=<><Title>{C.startTitle}</Title><Text style={{color:colors.muted,fontSize:16,lineHeight:23,marginBottom:8}}>{C.startDetail}</Text><Grid>
@@ -145,7 +146,7 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onRate,onAsk}:{onClose:
   </View>}
  </>;}
  if(view==='rate'&&unrated)body=<><Title>{C.didItHelp}</Title><Text style={{color:colors.muted,fontSize:16,marginBottom:8}}>{sessionChange(unrated)}</Text><Grid>
-  {RESULTS.map(r=><Big key={r} label={SETUP_RESULT_LABELS[r]} tone={r==='better'?'#7fd09a':r==='worse'?'#ef9aa1':undefined} wide={r==='worse'} onPress={()=>{onRate(unrated.id,r);setView(afterRate);}}/>)}
+  {RESULTS.map(r=><Big key={r} label={SETUP_RESULT_LABELS[r]} tone={r==='better'?'#7fd09a':r==='worse'?'#ef9aa1':undefined} wide={r==='no_change'} onPress={()=>{onRate(unrated.id,r);setView(afterRate);}}/>)}
   <Big label="Skip" wide onPress={()=>setView(afterRate)}/>
  </Grid></>;
  if(view==='share')body=<><Title>{share.active?SHARE_COPY.sharing:SHARE_COPY.start}</Title>
@@ -153,7 +154,7 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onRate,onAsk}:{onClose:
    <ShareStatusLine until={shareUntil(share.active)}/>
    <Grid>
     <Big label={SHARE_COPY.send} icon="share" wide onPress={()=>void share.send()}/>
-    <Big label={share.busy?'Stopping…':SHARE_COPY.stop} icon="close" wide tone="#ef9aa1" onPress={()=>void share.stop()}/>
+    <Big label={share.stopping?'Stopping…':SHARE_COPY.stop} icon="close" wide tone="#ef9aa1" onPress={()=>void share.stop()}/>
    </Grid>
   </View>:<View style={{gap:12}}>
    <Text style={{color:colors.muted,fontSize:16,lineHeight:23}}>{SHARE_COPY.explain}</Text>
@@ -168,7 +169,11 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onRate,onAsk}:{onClose:
  if(view==='setup')body=<><Title>{C.setup}</Title>
   {setup.length?<View style={{flexDirection:'row',flexWrap:'wrap',rowGap:18}}>{setup.map(([k,v])=><View key={k} style={{width:'50%',gap:2}}><Text style={{color:'#9aa2ae',fontSize:15}}>{k}</Text><Text style={{color:colors.text,fontSize:26,fontWeight:'800'}}>{v}</Text></View>)}</View>
   :<Text style={{color:colors.muted,fontSize:17,lineHeight:24}}>{C.noSetup}</Text>}
-  {!!last?.change&&<Text style={{color:colors.muted,fontSize:16,marginTop:14}}>Today’s last change: {sessionChange(last)}</Text>}
+  {changedToday.length>0&&<View style={{marginTop:18,gap:6}}>
+   <Text style={{color:'#adb5c1',fontSize:13,...LABEL}}>CHANGED TODAY</Text>
+   {changedToday.map(x=><Text key={x.id} style={{color:colors.text,fontSize:17,lineHeight:23}}>{sessionChange(x)}{x.result!=='not_tested'?<Text style={{color:x.result==='better'?'#7fd09a':x.result==='worse'?'#ef9aa1':colors.muted}}>{'  ·  '+SETUP_RESULT_LABELS[x.result]}</Text>:null}</Text>)}
+   <Text style={{color:'#8b93a0',fontSize:13,marginTop:2}}>The numbers above are from your Garage. Update them there once you keep a change.</Text>
+  </View>}
  </>;
  if(view==='track')body=<><Title>{C.track}</Title>
   {!trackId?<Text style={{color:colors.muted,fontSize:17,lineHeight:24}}>{C.noTrack}</Text>:<View style={{gap:16}}>
@@ -189,6 +194,6 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onRate,onAsk}:{onClose:
   </View>
   <ScrollView contentContainerStyle={{padding:16,paddingBottom:insets.bottom+40,gap:12}} keyboardShouldPersistTaps="handled">{body}</ScrollView>
   {!!toast&&<View pointerEvents="none" accessibilityLiveRegion="polite" style={{position:'absolute',left:16,right:16,bottom:insets.bottom+20,padding:16,borderRadius:16,backgroundColor:'#16202c',borderWidth:1,borderColor:colors.accent}}><Text style={{color:colors.text,fontSize:17,fontWeight:'700',textAlign:'center'}}>{toast}</Text></View>}
-  {locked&&<LockScreen onUnlock={()=>{touched.current=Date.now();setLocked(false);}} track={track} next={nextLine} setup={setup}/>}
+  {locked&&<LockScreen onUnlock={()=>{touched.current=Date.now();setLocked(false);}} track={track} next={share.active?`${nextLine} · sharing location until ${shareUntil(share.active)}`:nextLine} setup={setup}/>}
  </View>;
 }

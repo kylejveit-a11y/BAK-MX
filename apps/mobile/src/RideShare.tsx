@@ -33,7 +33,7 @@ async function startUpdates(){
 }
 
 export function useRideShare(){
- const [active,setActive]=useState<Active|null>(readActive),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
+ const [active,setActive]=useState<Active|null>(readActive),[busy,setBusy]=useState(false),[stopping,setStopping]=useState(false),[notice,setNotice]=useState('');
  // The server is the truth: a share ended on another device or expired clears here too.
  const refresh=useCallback(async()=>{
   const local=readActive();if(!local){setActive(null);return;}
@@ -57,7 +57,7 @@ export function useRideShare(){
    const a={id:s.id,url:s.url,expires_at:s.expires_at};writeActive(a);setActive(a);
    try{await startUpdates();}catch{}
    try{const now=await Location.getCurrentPositionAsync({accuracy:Location.Accuracy.Balanced});await api('/api/ride-share/position','POST',{id:a.id,lat:now.coords.latitude,lng:now.coords.longitude,accuracy_m:now.coords.accuracy??null,at:new Date(now.timestamp).toISOString()});}catch{}
-   success();await send(a,name);
+   success();setBusy(false);void send(a,name);
   }catch(e){setNotice(e instanceof Error?e.message:'Could not start sharing.');}
   finally{setBusy(false);}
  }
@@ -66,19 +66,19 @@ export function useRideShare(){
   try{await Share.share({message:C.message(name,a.url,until)});}catch{}
  }
  async function stop(){
-  if(busy||!active)return;setBusy(true);
-  try{await api('/api/ride-share/end','POST',{id:active.id});setNotice(C.ended);}catch(e){setNotice(e instanceof Error?e.message:'Could not stop sharing. Try again.');setBusy(false);return;}
+  if(busy||stopping||!active)return;setStopping(true);
+  try{await api('/api/ride-share/end','POST',{id:active.id});setNotice(C.ended);}catch(e){setNotice(e instanceof Error?e.message:'Could not stop sharing. Try again.');setStopping(false);return;}
   try{await Location.stopLocationUpdatesAsync(SHARE_TASK);}catch{}
-  writeActive(null);setActive(null);setBusy(false);
+  writeActive(null);setActive(null);setStopping(false);
  }
- return {active,busy,notice,start,stop,send:()=>send(),openSettings:()=>void Linking.openSettings()};
+ return {active,busy,stopping,notice,start,stop,send:()=>send(),openSettings:()=>void Linking.openSettings()};
 }
 
 export const SHARE_CHOICES=SHARE_HOURS.map(h=>({hours:h,label:`${h} hours`}));
 export const shareUntil=(a:{expires_at:string})=>new Date(a.expires_at).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
 export const alwaysHint=Platform.OS==='ios'?C.always:'To keep updating with the phone in your pocket, choose “Allow all the time” when asked. You can stop sharing any time.';
 export function ShareStatusLine({until}:{until:string}){
- return <View style={{flexDirection:'row',alignItems:'center',gap:8}}><View style={{width:9,height:9,borderRadius:5,backgroundColor:'#7fd09a'}}/><Text style={{color:'#cfe9d7',fontSize:14,fontWeight:'700'}}>{C.sharing} until {until}</Text></View>;
+ return <View style={{flexDirection:'row',alignItems:'center',gap:8}}><View style={{width:9,height:9,borderRadius:5,backgroundColor:'#7fd09a'}}/><Text style={{color:'#cfe9d7',fontSize:14,fontWeight:'700'}}>On until {until}. Ends by itself.</Text></View>;
 }
 
 /** Signing out or deleting the account ends any live share first, so a signed-out phone never keeps reporting. */
