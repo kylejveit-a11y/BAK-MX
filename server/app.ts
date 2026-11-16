@@ -11,7 +11,7 @@ import {bikeKnowledge,comparisonKnowledge} from './knowledge.ts';
 import {trackContext} from './tracks.ts';
 import {handleCoaching,coachingHistory,beforeClip} from './coaching.ts';
 import {collectPages} from './pagination.ts';
-import {ZodError} from 'zod';
+import {ZodError,z} from 'zod';
 import type {Bike,Claim,Message} from '../shared/types.ts';
 import {authenticate,adminDb,checked,configured} from './database.ts';
 import {HttpError,readJson,bikeSchema,serviceSchema,conversationSchema,chatSchema,uuid} from './validation.ts';
@@ -184,6 +184,17 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
  {const checkins=await handleTrackCheckins(req,url,path,method,db,owner);if(checkins)return checkins;}
  {const history=await handleTrackHistory(url,path,method,db,owner);if(history)return history;}
  {const share=await handleRideShares(req,path,method,db,owner);if(share)return share;}
+ // Ride time into the Garage: adds a day's time on track to the bike's engine hours (from logged sessions). Bounded so a slip
+ // can't add a week; the rider's own row only.
+ if(path==='/api/bike-hours'&&method==='POST'){
+  const {bike_id,add_hours}=z.object({bike_id:uuid,add_hours:z.number().gt(0).max(12)}).strict().parse(await readJson(req,500));
+  const bike=checked(await db.from('bikes').select('id,engine_hours').eq('id',bike_id).eq('user_id',owner).maybeSingle()) as {id:string;engine_hours:number|null}|null;
+  if(!bike)throw new HttpError(404,'Bike not found');
+  const next=Math.round(((Number(bike.engine_hours)||0)+add_hours)*10)/10;
+  const row=checked(await db.from('bikes').update({engine_hours:next,updated_at:new Date().toISOString()}).eq('id',bike_id).eq('user_id',owner).select().maybeSingle());
+  if(!row)throw new HttpError(404,'Bike not found');
+  return json(row);
+ }
  {const notes=await handleTuningNotes(req,url,path,method,db,owner);if(notes)return notes;}
  {const fuel=await handleFuelProfiles(req,url,path,method,db,owner);if(fuel)return fuel;}
  {const moderation=await handleModeration(req,path,method,owner);if(moderation)return moderation;}

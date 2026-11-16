@@ -27,6 +27,7 @@ import {upNext,type PlanItem} from '../../../shared/service-plan';
 import {RichText} from './RichText';
 import {LiveConditionsCard} from './LiveConditions';
 import {TrackHistoryCard} from './TrackHistory';
+import {warmOffline} from './warmOffline';
 import {TrackReportCard} from './TrackReport';
 import {OFF_RACE as OFF,dayOf,today,activeRace,raceToday,daysToGo,whenText,QUICK,CHANGES,MOTOS,quickAskText,tryNextText,raceSetupTitle,raceSetupQuestion,raceSetupField,raceSetupKey,raceSetupStale,plain,knownTrack,trackSuggestions,trackPicks,isPractice,type RaceDay,type KnownTrack,type NextUp} from '../../../shared/race-day';
 export {daysToGo,whenText,type RaceDay};
@@ -304,6 +305,7 @@ export function BikeNowCard({bike}:{bike:Bike}){
 /** The race-day Home: today's setup, what's up next, the between-motos check, a fast change log and today's entries. */
 export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenChat,onNext}:{bike:Bike;account:string;track:string;race?:RaceDay;onEnd:()=>void;onAsk:(text:string)=>void;onQuick:(text:string)=>void;onOpenChat:(c:string)=>void;onNext?:(next:NextUp|null)=>void}){
  const [prepOpen,setPrepOpen]=useState(false);
+ useEffect(()=>{void warmOffline(bike.id);},[bike.id]);
  const day:RaceDay=race??{on:true,track,day:today()};
  const [logs,setLogs]=useState<SetupLog[]>([]),[moto,setMoto]=useState('Moto 1'),[what,setWhat]=useState(''),[detail,setDetail]=useState(''),[result,setResult]=useState<SetupResult>('not_tested'),[note,setNote]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
  const load=useCallback(async()=>{try{const all=setupLogsWithPending(await api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`),bike.id);setLogs(all.filter(l=>dayOf(new Date(l.recorded_at))===today()));}catch(e){setNotice(errorText(e));}},[bike.id]);

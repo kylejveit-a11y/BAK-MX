@@ -21,6 +21,7 @@ import {RacePrepCard,RacePrepSheet} from './RacePrep';
 import {TrackReportCard} from './TrackReport';
 import {FuelPlanCard} from './FuelPlan';
 import {RideDayMode} from './RideDay';
+import {warmOffline} from './warmOffline';
 import {LiveConditionsCard} from './LiveConditions';
 import {TrackHistoryCard} from './TrackHistory';
 import {RIDE_DAY_COPY} from '../../../shared/ride-day';
@@ -49,6 +50,7 @@ const tone=(r:SetupResult)=>r==='better'?'#7fd09a':r==='worse'?'#ef9aa1':colors.
 
 export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bike;account:string;race:RaceDay;onEnd:()=>void;onAsk:(text:string)=>void;onNext:(next:NextUp|null)=>void}){
  const {sessions,save}=usePracticeSessions(account,bike.id);
+ useEffect(()=>{void warmOffline(bike.id);},[bike.id]);
  const [draft,setDraft]=useState<SessionDraft>(emptySession),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[prepOpen,setPrepOpen]=useState(false),[rideDay,setRideDay]=useState(false);
  const set=(p:Partial<SessionDraft>)=>setDraft(d=>({...d,...p}));
  const track=race.track,n=nextSessionNumber(sessions),latest=[...sessions].sort((a,b)=>b.n-a.n)[0];

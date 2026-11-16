@@ -15,11 +15,13 @@ export function setOffline(v:boolean){if(connection.offline===v)return;connectio
 export const isNetworkError=(e:unknown)=>e instanceof Error&&!('status' in e)&&/could not reach|timed out|network request failed|connection dropped/i.test(e.message);
 
 const CACHE_LIMIT=200_000;
+/** The bike's full spec list is bigger and is the one thing a rider most needs with no signal. */
+const BIG_PATHS=/^\/api\/claims\?/;const BIG_LIMIT=2_000_000;
 export type Store={read:<T>(key:string,fallback:T)=>T;write:(key:string,value:unknown)=>void};
 export const cacheKey=(path:string)=>'cache:'+path;
 /** Keeps a GET's answer for offline use. Big answers are skipped so the phone's store stays small. */
 export function remember(store:Store,path:string,data:unknown){
- try{const text=JSON.stringify(data);if(text.length>CACHE_LIMIT)return;store.write(cacheKey(path),{at:new Date().toISOString(),data});}catch{/* best effort */}
+ try{const text=JSON.stringify(data);if(text.length>(BIG_PATHS.test(path)?BIG_LIMIT:CACHE_LIMIT))return;store.write(cacheKey(path),{at:new Date().toISOString(),data});}catch{/* best effort */}
 }
 export function recall<T>(store:Store,path:string):{at:string;data:T}|null{
  const v=store.read<{at:string;data:T}|null>(cacheKey(path),null);return v&&typeof v.at==='string'?v:null;

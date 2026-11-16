@@ -26,6 +26,7 @@ import {readProgress,writeProgress} from './localProgress';
 type View_='start'|'home'|'minutes'|'anyChange'|'what'|'how'|'result'|'setup'|'track'|'share';
 const RESULTS:SetupResult[]=['better','no_change','worse','not_tested'];
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
+const elapsed=(t:number)=>Math.min(240,Math.max(1,Math.round((Date.now()-t)/60e3)));
 const clock=()=>new Date().toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
 
 /** A glove-sized button: at least 88 pt tall, label in the wide font. */
@@ -76,6 +77,10 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
  const [locked,setLocked]=useState(false),[toast,setToast]=useState(''),[busy,setBusy]=useState(false);
  const [tags,setTags]=useState<string[]>([]);
  const touched=useRef(Date.now());
+ const timerKey=`ride-timer:${bike.id}`;
+ const [timer,setTimerState]=useState<number|null>(()=>{try{const t=readProgress<number|null>('device',timerKey,null);return t&&Date.now()-t<5*3600e3?t:null;}catch{return null;}});
+ const setTimer=(t:number|null)=>{setTimerState(t);try{writeProgress('device',timerKey,t);}catch{}};
+ const [,tick]=useState(0);useEffect(()=>{if(!timer)return;const i=setInterval(()=>tick(x=>x+1),30000);return()=>clearInterval(i);},[timer]);
  const share=useRideShare();const [shareName,setShareName]=useState(()=>{try{return readProgress<string>('device','share-name','');}catch{return '';}});
  const set=(p:Partial<SessionDraft>)=>setDraft(d=>({...d,...p}));
  const setup=bikeSetup(bike),n=nextSessionNumber(sessions),last=[...sessions].sort((a,b)=>b.n-a.n)[0];
@@ -94,7 +99,7 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
   const r=await sendCheckin(trackId,tags);setToast(r.ok?C.saved:r.message);if(r.ok){setTags([]);reload();home();}
   setBusy(false);
  }
- const nextLine=`Session ${n} next${last?.change?` · last: ${sessionChange(last)}`:''}`;
+ const nextLine=timer?`On track ${elapsed(timer)} min · session ${n}`:`Session ${n} next${last?.change?` · last: ${sessionChange(last)}`:''}`;
  let body:React.ReactNode=null;
  if(view==='start')body=<><Title>{C.startTitle}</Title><Text style={{color:colors.muted,fontSize:16,lineHeight:23,marginBottom:8}}>{C.startDetail}</Text><Grid>
   <Big label={C.autoOn} icon="lock" wide onPress={()=>{setAutoLock(true);setView('home');}}/>
@@ -102,7 +107,8 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
  </Grid></>;
  if(view==='home')body=<>
   <Grid>
-   <Big label={C.offTrack} sub={C.offTrackSub} icon="clock" onPress={()=>setView('minutes')}/>
+   {timer?<Big label="Back in" sub={`On track ${elapsed(timer)} min`} icon="clock" on onPress={()=>{set({minutes:String(elapsed(timer))});setTimer(null);setView('anyChange');}}/>
+   :<Big label={C.offTrack} sub={C.offTrackSub} icon="clock" onPress={()=>setView('minutes')}/>}
    <Big label={C.change} sub={C.changeSub} icon="shock" onPress={()=>{set({minutes:''});setView('what');}}/>
    <Big label={C.setup} sub={C.setupSub} icon="gauge" onPress={()=>setView('setup')}/>
    <Big label={C.track} sub={C.trackSub} icon="flag" onPress={()=>setView('track')}/>
@@ -111,6 +117,7 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
   </Grid>
  </>;
  if(view==='minutes')body=<><Title>{C.howLong}</Title><Grid>
+  <Big label="Heading out? Start a timer" sub="Tap Back in when you come off" icon="clock" wide onPress={()=>{setTimer(Date.now());home();}}/>
   {RIDE_MINUTES.map(m=><Big key={m} label={`${m} min`} on={draft.minutes===String(m)} onPress={()=>{set({minutes:String(m)});setView('anyChange');}}/>)}
   <Big label={C.skipTime} wide onPress={()=>{set({minutes:''});setView('anyChange');}}/>
  </Grid></>;

@@ -1,4 +1,6 @@
-import {endShareOnSignOut} from './RideShare'; // also registers the safety share link's background task at startup
+import {endShareOnSignOut} from './RideShare';
+import {sessionsFor,trackMinutes,type StoredPractice} from '../../../shared/practice-day';
+import {today as calendarToday} from '../../../shared/race-day'; // also registers the safety share link's background task at startup
 import Svg,{Defs,LinearGradient,Rect,Stop} from 'react-native-svg';
 import {splitFact} from '../../../shared/specs-view';
 import {plainName} from '../../../shared/plain-facts';
@@ -226,7 +228,16 @@ function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,s
  const quick=(text:string)=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',prompt:text,promptToken:randomUUID()});};
  const openChat=(thread:string)=>navigation.navigate('Ask BAK',{thread,threadToken:randomUUID()});
  // Ending the day is one tap at the bottom of a long screen: ask first. The logs are already saved either way.
- const confirmEnd=(kind:'race'|'practice')=>Alert.alert(kind==='race'?'End race day?':'End practice day?','Your logs stay saved.',[{text:'Cancel',style:'cancel'},{text:'End',style:'destructive',onPress:end}]);
+ const confirmEnd=(kind:'race'|'practice')=>{
+  // Practice day: the time logged on track today can go straight onto the bike's engine hours (the ride log).
+  const mins=kind==='practice'&&bike?trackMinutes(sessionsFor(readProgress<StoredPractice|null>(session.user.id,`practice-sessions:${bike.id}`,null),calendarToday())):0;
+  const hours=Math.round(mins/6)/10;
+  if(!bike||hours<0.1)return Alert.alert(kind==='race'?'End race day?':'End practice day?','Your logs stay saved.',[{text:'Cancel',style:'cancel'},{text:'End',style:'destructive',onPress:end}]);
+  const now=bike.engine_hours!=null?Number(bike.engine_hours):null;
+  Alert.alert('End practice day?',`You logged ${hours} h on track today. Add it to the engine hours${now!=null?` (${now} h → ${Math.round((now+hours)*10)/10} h)`:''}? Service reminders count from it.`,[
+   {text:`End and add ${hours} h`,onPress:()=>{void api('/api/bike-hours','POST',{bike_id:bike.id,add_hours:hours}).then(()=>reload()).catch(e=>Alert.alert('Hours not added',e instanceof Error?e.message:'Try again from Garage.'));end();}},
+   {text:'End without adding',onPress:end},{text:'Cancel',style:'cancel'}]);
+ };
  useRaceWidget(session.user.id,bike,race);
  const [firstOpen,setFirstOpen]=useState(false);
  const first=bike?needsFirstSetup(bike):false;
