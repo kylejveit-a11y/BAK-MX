@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {HEADING_OUT,SAFETY,alertEmail,allClearEmail,extendedTimes,lastSeen,publicView,rideTimes,startEmail} from '../shared/ride-share.ts';
-import {contactSchema,positionSchema,startSchema,runSafetyCron} from '../server/ride-shares.ts';
+import {contactSchema,handleRideShares,positionSchema,startSchema,runSafetyCron} from '../server/ride-shares.ts';
 const now=Date.parse('2026-11-15T18:00:00Z');
 const row={rider_name:'Kyle',expires_at:'2026-11-15T20:00:00Z',ended_at:null,last_lat:28.1,last_lng:-82.3,last_accuracy_m:30,last_at:'2026-11-15T17:55:00Z'};
 test('public view shows only the name, back-by and last point while active',()=>{
@@ -60,4 +60,14 @@ test('the alert goes once, only when due, and only by email',async()=>{
   assert.equal(r1.alerted,1);assert.equal(sent.length,1);assert.deepEqual(sent[0].to,['b@example.com']);assert.match(sent[0].text,/bakmx\.com\/s\/A{32}/);
   const r2=await runSafetyCron(admin,new Date('2026-11-15T17:32:00Z'));assert.equal(r2.alerted,0);assert.equal(sent.length,1);
  }finally{globalThis.fetch=orig;delete process.env.RESEND_API_KEY;}
+});
+
+// The contacts address doesn't start with /api/ride-share; it must still reach this handler (it once fell through to "Not found").
+test('safety contacts requests are handled, not passed on', async()=>{
+ const q:any={select:()=>q,eq:()=>q,order:()=>q,limit:async()=>({data:[{id:'c',name:'Bella',phone:'',email:'b@example.com'}]})};
+ const admin:any={from:()=>q};
+ const res=await handleRideShares(new Request('https://bakmx.com/api/safety-contacts'),'/api/safety-contacts','GET',{} as any,'u',()=>admin);
+ assert.ok(res,'handled');assert.equal(res!.status,200);
+ const body=await res!.json();assert.equal(body.contacts.length,1);
+ assert.equal(await handleRideShares(new Request('https://bakmx.com/api/other'),'/api/other','GET',{} as any,'u',()=>admin),null);
 });

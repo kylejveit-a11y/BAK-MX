@@ -39,7 +39,7 @@ export async function handlePublicShare(url:URL):Promise<Response>{
 }
 
 export async function handleRideShares(req:Request,path:string,method:string,db:SupabaseClient,owner:string,admin:()=>SupabaseClient=adminDb):Promise<Response|null>{
- if(!path.startsWith('/api/ride-share'))return null;
+ if(!path.startsWith('/api/ride-share')&&path!=='/api/safety-contacts')return null;
  if(path==='/api/ride-share'&&method==='GET'){
   const rows=(checked(await db.from('ride_shares').select(OWN).eq('user_id',owner).is('ended_at',null).gt('expires_at',new Date().toISOString()).order('created_at',{ascending:false}).limit(1))??[]) as Record<string,unknown>[];
   return json(rows[0]??null);
