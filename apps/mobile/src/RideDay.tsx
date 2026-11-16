@@ -23,21 +23,22 @@ import {SHARE_COPY} from '../../../shared/ride-share';
 import {SHARE_CHOICES,ShareStatusLine,alwaysHint,shareUntil,useRideShare} from './RideShare';
 import {readProgress,writeProgress} from './localProgress';
 
-type View_='start'|'home'|'minutes'|'anyChange'|'what'|'how'|'result'|'setup'|'track'|'share';
-const RESULTS:SetupResult[]=['better','no_change','worse','not_tested'];
+type View_='start'|'home'|'rate'|'minutes'|'anyChange'|'what'|'how'|'setup'|'track'|'share';
+const RESULTS:SetupResult[]=['better','no_change','worse'];
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 const elapsed=(t:number)=>Math.min(240,Math.max(1,Math.round((Date.now()-t)/60e3)));
 const clock=()=>new Date().toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
 
 /** A glove-sized button: at least 88 pt tall, label in the wide font. */
-function Big({label,sub,icon,onPress,on=false,wide=false,tone}:{label:string;sub?:string;icon?:React.ComponentProps<typeof Icon>['name'];onPress:()=>void;on?:boolean;wide?:boolean;tone?:string}){
+function Big({label,sub,icon,onPress,on=false,wide=false,tone,short=false}:{label:string;sub?:string;icon?:React.ComponentProps<typeof Icon>['name'];onPress:()=>void;on?:boolean;wide?:boolean;tone?:string;short?:boolean}){
  return <Pressable haptic="press" accessibilityRole="button" accessibilityLabel={sub?`${label}, ${sub}`:label} accessibilityState={{selected:on}} onPress={onPress}
-  style={({pressed})=>({width:wide?'100%':'48.5%',minHeight:88,borderRadius:18,borderWidth:1.5,borderColor:on?colors.accent:'#2c323c',backgroundColor:on?tint(0.22):pressed?'#1a1e25':'#111419',paddingHorizontal:14,paddingVertical:12,justifyContent:'center',gap:4})}>
-  <View style={{flexDirection:'row',alignItems:'center',gap:10}}>
-   {icon&&<Icon name={icon} size={24} color={tone??colors.accent}/>}
-   <Text style={{color:tone??colors.text,fontSize:18,...LABEL,flexShrink:1}} numberOfLines={2}>{label}</Text>
+  style={({pressed})=>({width:wide?'100%':'48.5%',minHeight:short?62:88,borderRadius:18,borderWidth:1.5,borderColor:on?colors.accent:'#2c323c',backgroundColor:on?tint(0.22):pressed?'#1a1e25':'#111419',paddingHorizontal:14,paddingVertical:12,justifyContent:'center',gap:4})}>
+  {/* Half-width tiles stack icon, label and hint so long labels never squeeze; full-width rows keep them on one line. */}
+  <View style={{flexDirection:wide?'row':'column',alignItems:wide?'center':'flex-start',gap:wide?12:8}}>
+   {icon&&<Icon name={icon} size={wide?24:26} color={tone??colors.accent}/>}
+   <Text style={{color:tone??colors.text,fontSize:wide?17:15.5,lineHeight:wide?22:20,...LABEL,flexShrink:1}} numberOfLines={2}>{label}</Text>
   </View>
-  {!!sub&&<Text style={{color:colors.muted,fontSize:14}} numberOfLines={1}>{sub}</Text>}
+  {!!sub&&<Text style={{color:colors.muted,fontSize:13.5,lineHeight:18}} numberOfLines={2}>{sub}</Text>}
  </Pressable>;
 }
 const Grid=({children}:{children:React.ReactNode})=><View style={{flexDirection:'row',flexWrap:'wrap',justifyContent:'space-between',rowGap:12}}>{children}</View>;
@@ -63,14 +64,14 @@ function LockScreen({onUnlock,track,next,setup}:{onUnlock:()=>void;track:string;
  </View>;
 }
 
-export function RideDayMode({visible,onClose,bike,track,sessions,onLog,onAsk}:{visible:boolean;onClose:()=>void;bike:Bike;track:string;sessions:PracticeSession[];onLog:(d:SessionDraft)=>Promise<string>;onAsk:()=>void}){
+export function RideDayMode({visible,onClose,bike,track,sessions,onLog,onRate,onAsk}:{visible:boolean;onClose:()=>void;bike:Bike;track:string;sessions:PracticeSession[];onLog:(d:SessionDraft)=>Promise<string>;onRate:(id:string,r:SetupResult)=>void;onAsk:()=>void}){
  if(!visible)return null;
  return <Modal visible animationType="fade" presentationStyle="fullScreen" onRequestClose={onClose} supportedOrientations={['portrait']}>
-  <RideDayInner onClose={onClose} bike={bike} track={track} sessions={sessions} onLog={onLog} onAsk={onAsk}/>
+  <RideDayInner onClose={onClose} bike={bike} track={track} sessions={sessions} onLog={onLog} onRate={onRate} onAsk={onAsk}/>
  </Modal>;
 }
 
-function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>void;bike:Bike;track:string;sessions:PracticeSession[];onLog:(d:SessionDraft)=>Promise<string>;onAsk:()=>void}){
+function RideDayInner({onClose,bike,track,sessions,onLog,onRate,onAsk}:{onClose:()=>void;bike:Bike;track:string;sessions:PracticeSession[];onLog:(d:SessionDraft)=>Promise<string>;onRate:(id:string,r:SetupResult)=>void;onAsk:()=>void}){
  useKeepAwake('bak-ride-day');
  const insets=useSafeAreaInsets();
  const [view,setView]=useState<View_>('start'),[autoLock,setAutoLock]=useState(false),[draft,setDraft]=useState<SessionDraft>(emptySession),[typing,setTyping]=useState(false);
@@ -99,7 +100,11 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
   const r=await sendCheckin(trackId,tags);setToast(r.ok?C.saved:r.message);if(r.ok){setTags([]);reload();home();}
   setBusy(false);
  }
- const nextLine=timer?`On track ${elapsed(timer)} min · session ${n}`:`Session ${n} next${last?.change?` · last: ${sessionChange(last)}`:''}`;
+ // Coming off the track: the last change not yet rated is asked about first (one tap, or Skip).
+ const unrated=[...sessions].sort((a,b)=>b.n-a.n).find(x=>x.change&&x.result==='not_tested');
+ const [afterRate,setAfterRate]=useState<View_>('minutes');
+ const comeIn=(next:View_)=>{if(unrated){setAfterRate(next);setView('rate');}else setView(next);};
+ const nextLine=timer?`On track ${elapsed(timer)} min`:`Session ${n} next${last?.change?` · last: ${sessionChange(last)}`:''}`;
  let body:React.ReactNode=null;
  if(view==='start')body=<><Title>{C.startTitle}</Title><Text style={{color:colors.muted,fontSize:16,lineHeight:23,marginBottom:8}}>{C.startDetail}</Text><Grid>
   <Big label={C.autoOn} icon="lock" wide onPress={()=>{setAutoLock(true);setView('home');}}/>
@@ -107,8 +112,8 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
  </Grid></>;
  if(view==='home')body=<>
   <Grid>
-   {timer?<Big label="Back in" sub={`On track ${elapsed(timer)} min`} icon="clock" on onPress={()=>{set({minutes:String(elapsed(timer))});setView('anyChange');}}/>
-   :<Big label={C.offTrack} sub={C.offTrackSub} icon="clock" onPress={()=>setView('minutes')}/>}
+   {timer?<Big label="Back in" sub={`On track ${elapsed(timer)} min`} icon="clock" on onPress={()=>{set({minutes:String(elapsed(timer))});comeIn('anyChange');}}/>
+   :<Big label={C.offTrack} sub={C.offTrackSub} icon="clock" onPress={()=>comeIn('minutes')}/>}
    <Big label={C.change} sub={C.changeSub} icon="shock" onPress={()=>{set({minutes:''});setView('what');}}/>
    <Big label={C.setup} sub={C.setupSub} icon="gauge" onPress={()=>setView('setup')}/>
    <Big label={C.track} sub={C.trackSub} icon="flag" onPress={()=>setView('track')}/>
@@ -130,17 +135,18 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
  </Grid></>;
  if(view==='how'){const presets=changePresets(draft.change);body=<><Title>{draft.change}: {C.how.toLowerCase()}</Title>
   {!typing&&<Grid>
-   {presets.map(p=><Big key={p} label={p} on={draft.detail===p} onPress={()=>{set({detail:p});setView('result');}}/>)}
+   {presets.map(p=><Big key={p} label={p} on={draft.detail===p} onPress={()=>void save({...draft,detail:p,result:'not_tested'})}/>)}
    <Big label={C.typeIt} icon="compose" wide onPress={()=>setTyping(true)}/>
   </Grid>}
   {typing&&<View style={{gap:12}}>
-   <TextInput autoFocus value={draft.detail} onChangeText={v=>set({detail:v})} maxLength={200} placeholder="e.g. 2 clicks softer, or 13 psi" placeholderTextColor="#7d8593" accessibilityLabel="Detail of the change" returnKeyType="done" onSubmitEditing={()=>setView('result')}
+   <TextInput autoFocus value={draft.detail} onChangeText={v=>set({detail:v})} maxLength={200} placeholder="e.g. 2 clicks softer, or 13 psi" placeholderTextColor="#7d8593" accessibilityLabel="Detail of the change" returnKeyType="done" onSubmitEditing={()=>void save({...draft,result:'not_tested'})}
     style={{color:colors.text,fontSize:22,borderBottomWidth:1.5,borderBottomColor:colors.accent,paddingVertical:12}}/>
-   <Big label="Next" wide onPress={()=>setView('result')}/>
+   <Big label={busy?'Saving…':'Save change'} icon="check" wide on onPress={()=>void save({...draft,result:'not_tested'})}/>
   </View>}
  </>;}
- if(view==='result')body=<><Title>{C.didItHelp}</Title><Text style={{color:colors.muted,fontSize:15,marginBottom:8}}>{draft.change}{draft.detail?`: ${draft.detail}`:''}</Text><Grid>
-  {RESULTS.map(r=><Big key={r} label={r==='not_tested'?'Not ridden yet':SETUP_RESULT_LABELS[r]} tone={r==='better'?'#7fd09a':r==='worse'?'#ef9aa1':undefined} wide={r==='not_tested'} onPress={()=>void save({...draft,result:r})}/>)}
+ if(view==='rate'&&unrated)body=<><Title>{C.didItHelp}</Title><Text style={{color:colors.muted,fontSize:16,marginBottom:8}}>{sessionChange(unrated)}</Text><Grid>
+  {RESULTS.map(r=><Big key={r} label={SETUP_RESULT_LABELS[r]} tone={r==='better'?'#7fd09a':r==='worse'?'#ef9aa1':undefined} wide={r==='worse'} onPress={()=>{onRate(unrated.id,r);setView(afterRate);}}/>)}
+  <Big label="Skip" wide onPress={()=>setView(afterRate)}/>
  </Grid></>;
  if(view==='share')body=<><Title>{share.active?SHARE_COPY.sharing:SHARE_COPY.start}</Title>
   {share.active?<View style={{gap:12}}>
@@ -151,7 +157,7 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
    </Grid>
   </View>:<View style={{gap:12}}>
    <Text style={{color:colors.muted,fontSize:16,lineHeight:23}}>{SHARE_COPY.explain}</Text>
-   <TextInput value={shareName} onChangeText={setShareName} maxLength={40} placeholder="Your first name (optional, shown on the link)" placeholderTextColor="#7d8593" accessibilityLabel="Your first name, shown on the link" autoCapitalize="words"
+   <TextInput value={shareName} onChangeText={setShareName} maxLength={40} placeholder="First name on the link (optional)" placeholderTextColor="#7d8593" accessibilityLabel="Your first name, shown on the link" autoCapitalize="words"
     style={{color:colors.text,fontSize:19,borderBottomWidth:1.5,borderBottomColor:'#3a414d',paddingVertical:10}}/>
    <Text style={{color:'#adb5c1',fontSize:13,...LABEL}}>{SHARE_COPY.how.toUpperCase()}</Text>
    <Grid>{SHARE_CHOICES.map(c=><Big key={c.hours} label={c.label} onPress={()=>{try{writeProgress('device','share-name',shareName.trim());}catch{}void share.start(c.hours,shareName.trim());}}/>)}</Grid>
@@ -167,8 +173,8 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
  if(view==='track')body=<><Title>{C.track}</Title>
   {!trackId?<Text style={{color:colors.muted,fontSize:17,lineHeight:24}}>{C.noTrack}</Text>:<View style={{gap:16}}>
    <LiveStatusList live={live} big/>
-   <Text style={{color:'#adb5c1',fontSize:13,...LABEL}}>{CHECKIN_COPY.ask.toUpperCase()}</Text>
-   <Grid>{CHECKIN_STATUSES.map(t=><Big key={t.id} label={t.label} on={tags.includes(t.id)} onPress={()=>setTags(x=>toggleStatus(x,t.id))}/>)}</Grid>
+   <Text style={{color:'#adb5c1',fontSize:13,...LABEL}}>TAP WHAT IT’S LIKE NOW</Text>
+   <Grid>{CHECKIN_STATUSES.map(t=><Big key={t.id} short label={t.label} on={tags.includes(t.id)} onPress={()=>setTags(x=>toggleStatus(x,t.id))}/>)}</Grid>
    <Big label={busy?'Sending…':C.checkIn} icon="check" wide on onPress={()=>void checkIn()}/>
   </View>}
  </>;

@@ -55,13 +55,17 @@ function PresenceRow({trackId}:{trackId:string}){
   try{setP(p.me?await api<Presence>(path,'DELETE'):await api<Presence>(path,'POST',{track_id:trackId}));if(!p.me)success();}
   catch(e){const m=errorText(e);setNotice(/profile/i.test(m)?P.needsProfile:isNetworkError(e)?C.noSignal:m);}finally{setBusy(false);}}
  if(!p)return null;
- const shown=all?p.riders:p.riders.slice(0,4);
- return <View style={{gap:8,borderTopWidth:1,borderTopColor:'#232832',paddingTop:12}}>
-  <Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'700'}}>{P.title.toUpperCase()}{p.count?` · ${p.count}`:''}</Text>
-  {!p.count&&<Text style={{color:colors.muted,fontSize:14}}>{P.none}</Text>}
-  {shown.map(r=><View key={r.user_id} style={{flexDirection:'row',alignItems:'center',gap:10}}><Avatar name={riderName(r)} uri={r.avatar_url} size={28}/><Text style={{color:colors.text,fontSize:15}}>{r.me?'You':riderName(r)}</Text></View>)}
-  {p.riders.length>4&&<Pressable accessibilityRole="button" onPress={()=>setAll(a=>!a)} hitSlop={6}><Text style={{color:colors.muted,fontSize:14}}>{all?'Show fewer':`See all ${p.riders.length}`}</Text></Pressable>}
-  <Pressable haptic="press" accessibilityRole="switch" accessibilityState={{checked:p.me}} disabled={busy} onPress={()=>void toggle()} hitSlop={6}><Text style={{color:p.me?colors.muted:colors.text,fontSize:15,fontWeight:'700'}}>{busy?'Saving…':p.me?P.hide:P.show}</Text></Pressable>
+ // One line of faces and names, the full list on a tap: the card stays short.
+ const names=p.riders.map(r=>r.me?'You':riderName(r));
+ const sentence=!p.count?P.none:names.length<=2?`${names.join(' and ')} ${names.length===1&&names[0]!=='You'?'is':'are'} riding here today.`:`${names.slice(0,2).join(', ')} and ${names.length-2} more are riding here today.`;
+ return <View style={{gap:10,borderTopWidth:1,borderTopColor:'#232832',paddingTop:12}}>
+  <Pressable accessibilityRole={p.count>2?'button':undefined} disabled={p.count<=2} onPress={()=>setAll(a=>!a)} style={{flexDirection:'row',alignItems:'center',gap:10}}>
+   {!!p.count&&<View style={{flexDirection:'row'}}>{p.riders.slice(0,3).map((r,i)=><View key={r.user_id} style={{marginLeft:i?-8:0,borderRadius:15,borderWidth:2,borderColor:'#121418'}}><Avatar name={riderName(r)} uri={r.avatar_url} size={26}/></View>)}</View>}
+   <Text style={{color:p.count?colors.text:colors.muted,fontSize:14.5,flex:1}}>{sentence}</Text>
+  </Pressable>
+  {all&&<Text style={{color:colors.muted,fontSize:14}}>{names.join(', ')}</Text>}
+  <Pressable haptic="press" accessibilityRole="switch" accessibilityState={{checked:p.me}} accessibilityHint={P.detail} disabled={busy} onPress={()=>void toggle()} style={({pressed})=>({alignSelf:'flex-start',paddingHorizontal:14,paddingVertical:8,borderRadius:18,borderWidth:1,borderColor:p.me?'#343a45':colors.accent,opacity:pressed||busy?0.7:1})}>
+   <Text style={{color:colors.text,fontSize:14.5,fontWeight:'700'}}>{busy?'Saving…':p.me?P.hide:P.show}</Text></Pressable>
   {!p.me&&<Text style={{color:'#8b93a0',fontSize:12}}>{P.detail}</Text>}
   <Notice text={notice}/>
  </View>;
@@ -74,7 +78,7 @@ export function LiveConditionsCard({track}:{track:string}){
  if(!trackId)return null;
  async function send(){if(busy)return;setBusy(true);const r=await sendCheckin(trackId,picked);setNotice(r.message);if(r.ok){setPicked([]);setOpen(false);reload();}setBusy(false);}
  return <Card>
-  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="pulse" size={16} color={colors.accent}/><Eyebrow>{C.title.toUpperCase()}</Eyebrow></View>
+  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="pulse" size={16} color={colors.accent}/><Eyebrow>{C.title.toUpperCase()}</Eyebrow><Text style={{color:'#8b93a0',fontSize:12,marginLeft:'auto'}}>last 6 hours</Text></View>
   <LiveStatusList live={live}/>
   {!open?<Pressable haptic="press" accessibilityRole="button" onPress={()=>{setOpen(true);setNotice('');}} style={({pressed})=>({alignSelf:'flex-start',flexDirection:'row',alignItems:'center',gap:8,paddingHorizontal:14,paddingVertical:9,borderRadius:18,borderWidth:1,borderColor:colors.accent,opacity:pressed?0.7:1})}>
     <Icon name="flag" size={16} color={colors.accent}/><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{C.send}</Text></Pressable>

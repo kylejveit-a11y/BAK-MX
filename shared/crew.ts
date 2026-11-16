@@ -23,6 +23,6 @@ export const fitsFilter=(e:{skill_level?:string;bike_size?:string;discipline?:st
  (f.skill==='any'||!e.skill_level||e.skill_level==='any'||e.skill_level===f.skill)&&(f.bike==='any'||!e.bike_size||e.bike_size==='any'||e.bike_size===f.bike)&&(f.discipline==='any'||!e.discipline||e.discipline==='any'||e.discipline===f.discipline);
 export const PRESENCE_COPY={
  title:'Riding here today',show:'Show I’m riding here today',hide:'Stop showing me',
- detail:'Signed-in riders see your profile on this track for today only. Blocked riders never see it.',
+ detail:'Riders signed in to BAK see your name here today only. Riders you block never do.',
  none:'Nobody has said they’re riding here today.',needsProfile:'Set up your rider profile in Community to show you’re here.',
 } as const;

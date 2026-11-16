@@ -10,7 +10,7 @@ import type {Bike} from '../../../shared/types';
 import {SETUP_RESULT_LABELS,SETUP_RESULT_ORDER,type SetupLog,type SetupResult} from '../../../shared/rider-types';
 import {CHANGES,today,type NextUp,type RaceDay} from '../../../shared/race-day';
 import {PRACTICE_COPY as COPY,SESSION_MINUTES,advanceNextUp,emptySession,makeSession,nextSessionNumber,practiceAskText,sessionChange,sessionLabel,sessionLogBody,sessionsFor,sessionsSummary,type PracticeSession,type SessionDraft,type StoredPractice} from '../../../shared/practice-day';
-import {apiQueued} from './api';
+import {api,apiQueued} from './api';
 import {isLocal} from './offline';
 import {readProgress,writeProgress} from './localProgress';
 import {Pressable} from './Touch';
@@ -74,6 +74,12 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
    return saved.pending?RIDE_DAY_COPY.savedQueued:RIDE_DAY_COPY.saved;
   }catch(e){return `Session saved on this phone, but the setup change could not go to your setup log: ${errorText(e)}`;}
  }
+ /** Ride Day: how the last change rode, once the rider is back in. Saved on the phone, and on the setup log when it has one. */
+ function rate(id:string,result:SetupResult){
+  const list=sessions.map(x=>x.id===id?{...x,result}:x);save(list);success();
+  const s=list.find(x=>x.id===id);const body=s&&sessionLogBody(s,bike,track);
+  if(s?.logId&&body)void api(`/api/setup-logs?id=${s.logId}`,'PATCH',body).catch(()=>{});
+ }
  async function log(){
   if(busy)return;setBusy(true);setNotice('');
   const msg=await logDraft(draft);
@@ -94,7 +100,7 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
    <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:17,...LABEL}}>{RIDE_DAY_COPY.open.toUpperCase()}</Text><Text style={{color:colors.muted,fontSize:13.5}}>{RIDE_DAY_COPY.openDetail}</Text></View>
    <Icon name="chevronRight" size={20} color={colors.muted}/>
   </Pressable>
-  <RideDayMode visible={rideDay} onClose={()=>setRideDay(false)} bike={bike} track={track} sessions={sessions} onLog={logDraft} onAsk={()=>onAsk(practiceAskText({track,bike:bikeName,setup:bikeSetup(bike),sessions}))}/>
+  <RideDayMode visible={rideDay} onClose={()=>setRideDay(false)} bike={bike} track={track} sessions={sessions} onLog={logDraft} onRate={rate} onAsk={()=>onAsk(practiceAskText({track,bike:bikeName,setup:bikeSetup(bike),sessions}))}/>
   <LiveConditionsCard track={track}/>
   <NextUpCard race={race} labels={labels} onSet={onNext}/>
   <BikeNowCard bike={bike}/>

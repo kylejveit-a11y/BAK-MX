@@ -13,7 +13,7 @@ export const RIDE_DAY_COPY={
  howLong:'How long were you out?',skipTime:'Skip',
  anyChange:'Change anything for next session?',noChange:'No change',
  what:'What did you change?',how:'How much?',typeIt:'Type it',
- didItHelp:'How did it ride with this change?',
+ didItHelp:'How did your last change ride?',
  saved:'Saved',savedQueued:'Saved on this phone. Sends when there’s signal.',
  locked:'Locked',holdToUnlock:'Hold to unlock',
  noSetup:'Add your clickers, sag and tire pressures in Garage › Edit details to see them here.',
@@ -27,14 +27,14 @@ export const RIDE_DAY_COPY={
 export const RIDE_MINUTES=[10,15,20,25,30,40] as const;
 
 const CLICKERS=['Fork compression','Fork rebound','Shock low-speed','Shock high-speed','Shock rebound'];
-/** Quick picks for "how much" for a change. Clickers: clicks softer (out) or stiffer (in), the same words every manual uses.
+/** Quick picks for "how much" for a change, in pairs (softer | stiffer, down | up) so each row of the grid is one size. Clickers: clicks softer (out) or stiffer (in), the same words every manual uses.
  *  Shock high-speed is often turns, so it gets turns too. Tires: psi down or up. Others are typed. */
 export function changePresets(change:string):string[]{
- if(change==='Shock high-speed')return ['1/4 turn softer','1/2 turn softer','1/4 turn stiffer','1/2 turn stiffer','1 click softer','1 click stiffer'];
- if(CLICKERS.includes(change))return ['1 click softer','2 clicks softer','3 clicks softer','1 click stiffer','2 clicks stiffer','3 clicks stiffer'];
- if(change==='Front tire'||change==='Rear tire')return ['1 psi down','0.5 psi down','0.5 psi up','1 psi up'];
- if(change==='Sag')return ['2 mm more sag','5 mm more sag','2 mm less sag','5 mm less sag'];
- if(change==='Fork height')return ['2 mm up in the clamps','5 mm up in the clamps','2 mm down in the clamps','5 mm down in the clamps'];
+ if(change==='Shock high-speed')return ['1/4 turn softer','1/4 turn stiffer','1/2 turn softer','1/2 turn stiffer','1 click softer','1 click stiffer'];
+ if(CLICKERS.includes(change))return ['1 click softer','1 click stiffer','2 clicks softer','2 clicks stiffer','3 clicks softer','3 clicks stiffer'];
+ if(change==='Front tire'||change==='Rear tire')return ['0.5 psi down','0.5 psi up','1 psi down','1 psi up'];
+ if(change==='Sag')return ['2 mm more sag','2 mm less sag','5 mm more sag','5 mm less sag'];
+ if(change==='Fork height')return ['2 mm up in the clamps','2 mm down in the clamps','5 mm up in the clamps','5 mm down in the clamps'];
  return [];
 }
 

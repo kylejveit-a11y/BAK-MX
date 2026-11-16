@@ -133,7 +133,7 @@ export function aggregateReports(rows:ReportRow[],today:string,{notes=3,hidden=n
 
 /** One line for the track screen: "Riders this month (4 reports): deep ruts 3, watered 2, sand 2". */
 export function reportSummaryLine(r:RecentRiderReports|null):string{
- if(!r)return '';
+ if(!r?.last_30_days||!r.last_90_days||!r.last_7_days)return '';
  const w=r.last_30_days.reports?r.last_30_days:r.last_90_days,span=w===r.last_30_days?(r.last_7_days.reports===w.reports?'this week':'this month'):'the last 3 months';
  const tags=Object.entries(w.tags).slice(0,4).map(([t,c])=>`${t} ${c}`).join(', ');
  return `Riders ${span} (${w.reports} report${w.reports===1?'':'s'})${tags?': '+tags:''}`;

@@ -132,6 +132,7 @@ function respond(p,q,method,post){
  if(p==='/api/tuning-notes')return J(method==='GET'?[]:{...(post||{}),id:'n-new',created_at:iso(now),updated_at:iso(now)});
  if(p==='/api/notifications')return J([]);
  if(p==='/api/notification-settings')return J({});
+ if(p==='/api/track-reports/summary')return J(null);
  if(p==='/api/track-reports')return J([]);
  if(p==='/api/track-checkins')return J(method==='GET'?{...live,as_of:iso(Date.now())}:{id:'c-new',track_id:'t-dade',statuses:(post&&post.statuses)||[],created_at:iso(Date.now())},method==='GET'?200:201);
  if(p==='/api/track-presence'){if(method==='POST')presenceMe=true;if(method==='DELETE')presenceMe=false;const riders=[...(presenceMe?[{user_id:USER,handle:rider.handle,display_name:rider.display_name,me:true}]:[]),...others];return J({count:riders.length,me:presenceMe,riders});}

@@ -12,21 +12,22 @@ import {Card,Eyebrow,Icon,colors} from './ui';
 import {useTrackId} from './LiveConditions';
 
 const dayText=(d:string)=>new Date(d+'T12:00:00').toLocaleDateString([],{weekday:'short',month:'short',day:'numeric',year:new Date(d+'T12:00:00').getFullYear()===new Date().getFullYear()?undefined:'numeric'});
-const line={color:colors.muted,fontSize:14,lineHeight:20} as const;
 
-function VisitView({v}:{v:Visit}){
- const r=v.report,settings=v.logs.map(l=>settingsLine(l.settings)).filter(Boolean)[0]??'';
+/** One visit. Short form (the card's first look): the day and weather, the setup, tires and what changed. Full form adds
+ *  how the track was and the rider's note. */
+function VisitView({v,full}:{v:Visit;full:boolean}){
+ const r=v.report,settings=v.logs.map(l=>settingsLine(l.settings)).filter(Boolean)[0]??r?.setup_text??'';
  const changes=v.logs.filter(l=>l.change_made);
  const psi=r&&(r.front_psi!=null||r.rear_psi!=null)?`${r.front_psi??'?'} / ${r.rear_psi??'?'} psi`:'';
- return <View style={{gap:4}}>
-  <Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{dayText(v.day)}</Text>
-  {!!weatherLine(v.weather)&&<Text style={line}>Weather: {weatherLine(v.weather)}</Text>}
-  {!!settings&&<Text style={line}>Setup: {settings}</Text>}
-  {!!r?.setup_text&&<Text style={line}>Setup: {r.setup_text}</Text>}
-  {(!!r?.tire||!!psi)&&<Text style={line}>Tires: {[r?.tire,psi].filter(Boolean).join(' · ')}</Text>}
-  {changes.map(l=><Text key={l.id} style={line}>Changed: {l.change_made}{l.result&&l.result!=='not_tested'?` → ${SETUP_RESULT_LABELS[l.result as SetupResult]??l.result}`:''}</Text>)}
-  {!!r?.tags.length&&<Text style={line}>Track: {r.tags.map(tagLabel).join(', ')}</Text>}
-  {!!r?.note&&<Text style={line}>“{r.note}”</Text>}
+ const tires=[r?.tire,psi].filter(Boolean).join(' · ');
+ const Row=({k,v:val}:{k:string;v:string})=>val?<View style={{flexDirection:'row',gap:10}}><Text style={{color:'#8b93a0',fontSize:13.5,width:62}}>{k}</Text><Text style={{color:colors.text,fontSize:14,lineHeight:19,flex:1}}>{val}</Text></View>:null;
+ return <View style={{gap:6}}>
+  <Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{dayText(v.day)}{weatherLine(v.weather)?<Text style={{color:colors.muted,fontWeight:'400'}}>{'  ·  '+weatherLine(v.weather)}</Text>:null}</Text>
+  <Row k="Setup" v={settings}/>
+  <Row k="Tires" v={tires}/>
+  {changes.map(l=><Row key={l.id} k="Changed" v={`${l.change_made}${l.result&&l.result!=='not_tested'?` → ${SETUP_RESULT_LABELS[l.result as SetupResult]??l.result}`:''}`}/>)}
+  {full&&<Row k="Track" v={r?.tags.length?r.tags.map(tagLabel).join(', '):''}/>}
+  {full&&!!r?.note&&<Row k="Note" v={`“${r.note}”`}/>}
  </View>;
 }
 
@@ -41,8 +42,8 @@ export function TrackHistoryCard({track,bikeId}:{track:string;bikeId?:string}){
  if(!past.length)return null;
  return <Card>
   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="history" size={16} color={colors.accent}/><Eyebrow>WHAT I RAN HERE</Eyebrow></View>
-  <VisitView v={past[0]}/>
-  {all&&past.slice(1).map(v=><View key={v.day} style={{borderTopWidth:1,borderTopColor:'#232832',paddingTop:10}}><VisitView v={v}/></View>)}
-  {past.length>1&&<Pressable accessibilityRole="button" onPress={()=>setAll(a=>!a)} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{all?'Show only the last visit':`See all ${past.length} visits`}</Text></Pressable>}
+  <VisitView v={past[0]} full={all}/>
+  {all&&past.slice(1).map(v=><View key={v.day} style={{borderTopWidth:1,borderTopColor:'#232832',paddingTop:10}}><VisitView v={v} full/></View>)}
+  <Pressable accessibilityRole="button" onPress={()=>setAll(a=>!a)} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{all?'Show less':past.length>1?`Details and all ${past.length} visits`:'Details'}</Text></Pressable>
  </Card>;
 }
