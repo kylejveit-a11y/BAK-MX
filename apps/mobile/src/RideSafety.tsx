@@ -18,6 +18,8 @@ import {RideStatusLine,alwaysHint,clock,endRide,extendRide,openSafetySheet,sendL
 
 type Contact={id:string;name:string;phone:string;email:string};
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
+/** "Texts Bella (you tap Send) and emails Bella", leaving out whichever has no one. */
+const startLine=(cs:Contact[])=>{const t=cs.filter(c=>c.phone).map(c=>c.name).join(' and '),e=cs.filter(c=>c.email).map(c=>c.name).join(' and ');return [t&&`Texts ${t} (you tap Send)`,e&&(t?`emails ${e}`:`Emails ${e}`)].filter(Boolean).join(' and ');};
 const label=(m:number)=>m<60?`${m} min`:m%60?`${Math.floor(m/60)} h ${m%60} min`:`${m/60} hour${m===60?'':'s'}`;
 
 function Tile({title,sub,icon,onPress,on=false,primary=false,tone,half=false,disabled=false}:{title:string;sub?:string;icon?:React.ComponentProps<typeof Icon>['name'];onPress:()=>void;on?:boolean;primary?:boolean;tone?:string;half?:boolean;disabled?:boolean}){
@@ -130,7 +132,7 @@ export function RideSafetyPanel({track=''}:{track?:string}){
   {valid&&<>
    <Text style={{color:colors.text,fontSize:17,fontWeight:'700'}}>{C.summary(backBy,alertAt)}</Text>
    <Input label="Your name on the link" value={name} onChangeText={setName} maxLength={40} autoCapitalize="words" placeholder={myName||'e.g. Kyle'}/>
-   <Tile title={busy?'Starting…':'Start ride safety'} sub={`Texts ${contacts.filter(c=>c.phone).map(c=>c.name).join(' and ')||'no one'} (you tap Send) and emails ${contacts.filter(c=>c.email).map(c=>c.name).join(' and ')||'no one'}`} icon="check" primary onPress={()=>void start()}/>
+   <Tile title={busy?'Starting…':'Start ride safety'} sub={startLine(contacts)} icon="check" primary onPress={()=>void start()}/>
   </>}
   <Text style={{color:'#8b93a0',fontSize:13,lineHeight:18}}>{alwaysHint}</Text>
   <Pressable accessibilityRole="button" onPress={()=>setEditContacts(true)} hitSlop={8}><Text style={{color:colors.muted,fontSize:14.5}}>Contacts: {contacts.map(c=>c.name).join(', ')} · Change</Text></Pressable>

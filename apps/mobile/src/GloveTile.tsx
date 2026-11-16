@@ -31,7 +31,7 @@ export function GloveTile({label,sub,icon,onPress,on=false,primary=false,tone,ha
 /** The small square header buttons (Lock, Back, Done) in the same raised finish. */
 export function HeaderTile({label,icon,onPress,wide=false}:{label:string;icon?:IconName;onPress:()=>void;wide?:boolean}){
  return <Pressable haptic="tap" accessibilityRole="button" accessibilityLabel={label} onPress={onPress}
-  style={({pressed})=>[{minWidth:wide?76:60,height:54,paddingHorizontal:wide?12:0,borderRadius:16,alignItems:'center',justifyContent:'center',flexDirection:'row',gap:6},raisedLift,pressed&&{transform:[{translateY:1}],shadowOpacity:0.25}]}>
+  style={({pressed})=>[{width:wide?104:60,height:54,borderRadius:16,alignItems:'center',justifyContent:'center',flexDirection:'row',gap:6},raisedLift,pressed&&{transform:[{translateY:1}],shadowOpacity:0.25}]}>
   {({pressed})=><><RaisedFace radius={16} pressed={pressed}/>
    {icon&&<Icon name={icon} size={wide?18:25} color={colors.text}/>}
    {wide&&<Text style={{color:colors.text,fontSize:13.5,...LABEL}}>{label.toUpperCase()}</Text>}</>}
