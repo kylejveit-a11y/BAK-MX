@@ -8,6 +8,9 @@ import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {BACK_BY_CHOICES,SAFETY,SHARE_COPY as C} from '../../../shared/ride-share';
 import {api} from './api';
 import {Pressable} from './Touch';
+import {GloveTile} from './GloveTile';
+import {RaisedFace,raisedLift} from './Raised';
+import {BlueFace,blueLift,onBlueText} from './BlueFace';
 import {Icon,colors,tint} from './ui';
 import {DISPLAY,LABEL} from './theme';
 import {readProgress,writeProgress} from './localProgress';
@@ -17,12 +20,8 @@ type Contact={id:string;name:string;phone:string;email:string};
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 const label=(m:number)=>m<60?`${m} min`:m%60?`${Math.floor(m/60)} h ${m%60} min`:`${m/60} hour${m===60?'':'s'}`;
 
-function Tile({title,sub,icon,onPress,on=false,tone,half=false,disabled=false}:{title:string;sub?:string;icon?:React.ComponentProps<typeof Icon>['name'];onPress:()=>void;on?:boolean;tone?:string;half?:boolean;disabled?:boolean}){
- return <Pressable haptic="press" accessibilityRole="button" accessibilityLabel={sub?`${title}, ${sub}`:title} disabled={disabled} onPress={onPress}
-  style={({pressed})=>({width:half?'48.5%':'100%',minHeight:64,borderRadius:16,borderWidth:1.5,borderColor:on?colors.accent:'#2c323c',backgroundColor:on?tint(0.2):pressed?'#1a1e25':'#111419',paddingHorizontal:14,paddingVertical:10,justifyContent:'center',gap:3,opacity:disabled?0.5:1})}>
-  <View style={{flexDirection:'row',alignItems:'center',gap:10}}>{icon&&<Icon name={icon} size={22} color={tone??colors.accent}/>}<Text style={{color:tone??colors.text,fontSize:16,...LABEL,flexShrink:1}}>{title}</Text></View>
-  {!!sub&&<Text style={{color:colors.muted,fontSize:13.5}}>{sub}</Text>}
- </Pressable>;
+function Tile({title,sub,icon,onPress,on=false,primary=false,tone,half=false,disabled=false}:{title:string;sub?:string;icon?:React.ComponentProps<typeof Icon>['name'];onPress:()=>void;on?:boolean;primary?:boolean;tone?:string;half?:boolean;disabled?:boolean}){
+ return <GloveTile label={title} sub={sub} icon={icon} onPress={onPress} on={on} primary={primary} tone={tone} half={half} disabled={disabled}/>;
 }
 const Row=({children}:{children:React.ReactNode})=><View style={{flexDirection:'row',flexWrap:'wrap',justifyContent:'space-between',rowGap:10}}>{children}</View>;
 const Heading=({children}:{children:React.ReactNode})=><Text style={{color:'#adb5c1',fontSize:12.5,...LABEL}}>{children}</Text>;
@@ -73,7 +72,7 @@ export function ContactsEditor({contacts,setContacts,myName,setMyName,onDone}:{c
    <Input label="Mobile (gets your text)" value={phone} onChangeText={setPhone} maxLength={24} keyboardType="phone-pad" placeholder="(813) 555-0123"/>
    <Input label="Email (gets the link and any alert)" value={email} onChangeText={setEmail} maxLength={200} keyboardType="email-address" autoCapitalize="none" autoCorrect={false} placeholder="name@email.com"/>
    <Text style={{color:'#8b93a0',fontSize:12.5,lineHeight:17}}>BAK emails them once to say you added them, so an alert is never a surprise. Emails use your name, not your community name.</Text>
-   <Tile title={busy?'Saving…':'Save contact'} icon="check" on onPress={()=>void add()} disabled={busy||!name.trim()||(needName&&!mine.trim())}/>
+   <Tile title={busy?'Saving…':'Save contact'} icon="check" primary onPress={()=>void add()} disabled={busy||!name.trim()||(needName&&!mine.trim())}/>
    {contacts.length>0&&<Pressable accessibilityRole="button" onPress={()=>setAdding(false)} hitSlop={8}><Text style={{color:colors.muted,fontSize:15}}>Cancel</Text></Pressable>}
   </View>:contacts.length<SAFETY.maxContacts&&<Pressable accessibilityRole="button" onPress={()=>setAdding(true)} hitSlop={8}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>+ Add another person</Text></Pressable>}
   {!!notice&&<Text style={{color:'#ef9aa1',fontSize:14}}>{notice}</Text>}
@@ -90,7 +89,7 @@ export function RideSafetyPanel({track=''}:{track?:string}){
  if(contacts===null)return <Text style={{color:colors.muted,fontSize:15}}>Loading…</Text>;
  if(active)return <View style={{gap:14}}>
   <RideStatusLine active={active}/>
-  <Tile title={busy?'Saving…':C.stop} sub="Ends ride safety and clears your spot" icon="check" on onPress={async()=>{if(busy)return;setBusy(true);say(await endRide());setBusy(false);}}/>
+  <Tile title={busy?'Saving…':C.stop} sub="Ends ride safety and clears your spot" icon="check" primary onPress={async()=>{if(busy)return;setBusy(true);say(await endRide());setBusy(false);}}/>
   <Row>
    <Tile half title="+30 min" icon="clock" onPress={async()=>say(await extendRide(30))}/>
    <Tile half title="+1 hour" icon="clock" onPress={async()=>say(await extendRide(60))}/>
@@ -131,7 +130,7 @@ export function RideSafetyPanel({track=''}:{track?:string}){
   {valid&&<>
    <Text style={{color:colors.text,fontSize:17,fontWeight:'700'}}>{C.summary(backBy,alertAt)}</Text>
    <Input label="Your name on the link" value={name} onChangeText={setName} maxLength={40} autoCapitalize="words" placeholder={myName||'e.g. Kyle'}/>
-   <Tile title={busy?'Starting…':'Start ride safety'} sub={`Texts ${contacts.filter(c=>c.phone).map(c=>c.name).join(' and ')||'no one'} (you tap Send) and emails ${contacts.filter(c=>c.email).map(c=>c.name).join(' and ')||'no one'}`} icon="check" on onPress={()=>void start()}/>
+   <Tile title={busy?'Starting…':'Start ride safety'} sub={`Texts ${contacts.filter(c=>c.phone).map(c=>c.name).join(' and ')||'no one'} (you tap Send) and emails ${contacts.filter(c=>c.email).map(c=>c.name).join(' and ')||'no one'}`} icon="check" primary onPress={()=>void start()}/>
   </>}
   <Text style={{color:'#8b93a0',fontSize:13,lineHeight:18}}>{alwaysHint}</Text>
   <Pressable accessibilityRole="button" onPress={()=>setEditContacts(true)} hitSlop={8}><Text style={{color:colors.muted,fontSize:14.5}}>Contacts: {contacts.map(c=>c.name).join(', ')} · Change</Text></Pressable>
@@ -168,8 +167,8 @@ export function RideSafetyBanner(){
    <Text style={{color:colors.muted,fontSize:13.5}}>{late?`Alert at ${clock(active.alert_at)} unless you check in.`:`Back by ${clock(active.back_by)}`}</Text>
   </Pressable>
   <View style={{flexDirection:'row',gap:10}}>
-   <Pressable haptic="press" accessibilityRole="button" onPress={async()=>setMsg(await endRide())} style={({pressed})=>({flex:1,minHeight:44,borderRadius:12,backgroundColor:colors.accent,alignItems:'center',justifyContent:'center',opacity:pressed?0.8:1})}><Text style={{color:'#fff',fontSize:15,fontWeight:'800'}}>I’m back</Text></Pressable>
-   <Pressable haptic="press" accessibilityRole="button" onPress={async()=>setMsg(await extendRide(30))} style={({pressed})=>({flex:1,minHeight:44,borderRadius:12,borderWidth:1,borderColor:'#3a414d',alignItems:'center',justifyContent:'center',opacity:pressed?0.8:1})}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>+30 min</Text></Pressable>
+   <Pressable haptic="press" accessibilityRole="button" onPress={async()=>setMsg(await endRide())} style={({pressed})=>[{flex:1,minHeight:46,borderRadius:14,alignItems:'center',justifyContent:'center'},blueLift,pressed&&{transform:[{translateY:1}]}]}>{({pressed})=><><BlueFace radius={14} pressed={pressed}/><Text style={[{fontSize:15,fontWeight:'800'},onBlueText]}>I’m back</Text></>}</Pressable>
+   <Pressable haptic="press" accessibilityRole="button" onPress={async()=>setMsg(await extendRide(30))} style={({pressed})=>[{flex:1,minHeight:46,borderRadius:14,alignItems:'center',justifyContent:'center'},raisedLift,pressed&&{transform:[{translateY:1}]}]}>{({pressed})=><><RaisedFace radius={14} pressed={pressed}/><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>+30 min</Text></>}</Pressable>
   </View>
   {!!msg&&<Text style={{color:colors.muted,fontSize:13.5}}>{msg}</Text>}
  </View>;
@@ -182,11 +181,11 @@ export function RideSafetyOffer({track}:{track?:string}){
  const [hidden,setHidden]=useState(()=>{try{const v=readProgress<string>('device','safety-offer','');return v===day||v==='never';}catch{return false;}});
  if(active||hidden)return null;
  const hide=(v:string)=>{try{writeProgress('device','safety-offer',v);}catch{}setHidden(true);};
- return <View style={{borderRadius:14,borderWidth:1,borderColor:'#2c323c',backgroundColor:'#111419',padding:12,gap:8,marginTop:8}}>
+ return <View style={[{borderRadius:16,padding:14,gap:8,marginTop:8},raisedLift]}><RaisedFace radius={16}/>
   <Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{C.offer}</Text>
   <Text style={{color:colors.muted,fontSize:13.5}}>{C.offerSub}</Text>
   <View style={{flexDirection:'row',gap:16,alignItems:'center'}}>
-   <Pressable haptic="press" accessibilityRole="button" onPress={()=>{hide(day);openSafety(track);}} style={({pressed})=>({paddingHorizontal:16,paddingVertical:9,borderRadius:16,backgroundColor:colors.accent,opacity:pressed?0.8:1})}><Text style={{color:'#fff',fontSize:14.5,fontWeight:'800'}}>Start</Text></Pressable>
+   <Pressable haptic="press" accessibilityRole="button" onPress={()=>{hide(day);openSafety(track);}} style={({pressed})=>[{paddingHorizontal:18,paddingVertical:10,borderRadius:16},blueLift,pressed&&{transform:[{translateY:1}]}]}>{({pressed})=><><BlueFace radius={16} pressed={pressed}/><Text style={[{fontSize:14.5,fontWeight:'800'},onBlueText]}>Set it up</Text></>}</Pressable>
    <Pressable accessibilityRole="button" onPress={()=>hide(day)} hitSlop={8}><Text style={{color:colors.muted,fontSize:14.5}}>Not now</Text></Pressable>
    <Pressable accessibilityRole="button" onPress={()=>hide('never')} hitSlop={8}><Text style={{color:'#8b93a0',fontSize:13.5}}>Don’t ask again</Text></Pressable>
   </View>
