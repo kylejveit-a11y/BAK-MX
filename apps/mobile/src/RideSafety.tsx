@@ -30,18 +30,33 @@ const Input=(p:React.ComponentProps<typeof TextInput>&{label:string})=><View sty
  <TextInput placeholderTextColor="#6f7682" {...p} style={{color:colors.text,fontSize:17,borderBottomWidth:1.5,borderBottomColor:'#3a414d',paddingVertical:8}}/></View>;
 
 export function useSafetyContacts(){
- const [contacts,setContacts]=useState<Contact[]|null>(null),[emailReady,setEmailReady]=useState(true);
- const load=useCallback(()=>{api<{contacts:Contact[];email_ready:boolean}>('/api/safety-contacts').then(r=>{setContacts(r.contacts);setEmailReady(r.email_ready);}).catch(()=>setContacts(c=>c??[]));},[]);
+ const [contacts,setContacts]=useState<Contact[]|null>(null),[emailReady,setEmailReady]=useState(true),[myName,setMyName]=useState('');
+ const load=useCallback(()=>{api<{contacts:Contact[];email_ready:boolean;my_name?:string}>('/api/safety-contacts').then(r=>{setContacts(r.contacts);setEmailReady(r.email_ready);setMyName(r.my_name??'');}).catch(()=>setContacts(c=>c??[]));},[]);
  useEffect(()=>{load();},[load]);
- return {contacts,emailReady,setContacts,load};
+ return {contacts,emailReady,setContacts,myName,setMyName,load};
 }
 
 /** Up to two people. A mobile number gets the text (sent by the rider, one tap); an email gets the link and, if needed, the alert. */
-export function ContactsEditor({contacts,setContacts,onDone}:{contacts:Contact[];setContacts:(c:Contact[])=>void;onDone?:()=>void}){
- const [adding,setAdding]=useState(contacts.length===0),[name,setName]=useState(''),[phone,setPhone]=useState(''),[email,setEmail]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
+/** The rider's own name as their contacts know them ("Kyle"), used in BAK's emails and on the link. Private. */
+function MyName({myName,setMyName}:{myName:string;setMyName:(n:string)=>void}){
+ const [editing,setEditing]=useState(false),[draft,setDraft]=useState(myName),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
+ async function save(){if(busy||!draft.trim())return;setBusy(true);setNotice('');try{const r=await api<{my_name:string}>('/api/safety-contacts/name','PUT',{name:draft.trim()});setMyName(r.my_name);setEditing(false);}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
+ if(!editing)return <Pressable accessibilityRole="button" accessibilityLabel={`Your name in emails, ${myName}. Change`} onPress={()=>{setDraft(myName);setEditing(true);}} hitSlop={6}>
+  <Text style={{color:colors.muted,fontSize:14.5}}>Your name in emails: <Text style={{color:colors.text,fontWeight:'700'}}>{myName}</Text> · Change</Text></Pressable>;
+ return <View style={{gap:10}}>
+  <Input label="Your name, as they know you" value={draft} onChangeText={setDraft} maxLength={40} autoCapitalize="words" autoFocus placeholder="e.g. Kyle" onSubmitEditing={()=>void save()} returnKeyType="done"/>
+  <View style={{flexDirection:'row',gap:18}}><Pressable accessibilityRole="button" disabled={busy||!draft.trim()} onPress={()=>void save()} hitSlop={8}><Text style={{color:colors.text,fontSize:15,fontWeight:'700',opacity:draft.trim()?1:0.5}}>{busy?'Saving…':'Save'}</Text></Pressable>
+   <Pressable accessibilityRole="button" onPress={()=>setEditing(false)} hitSlop={8}><Text style={{color:colors.muted,fontSize:15}}>Cancel</Text></Pressable></View>
+  {!!notice&&<Text style={{color:'#ef9aa1',fontSize:14}}>{notice}</Text>}
+ </View>;
+}
+
+export function ContactsEditor({contacts,setContacts,myName,setMyName,onDone}:{contacts:Contact[];setContacts:(c:Contact[])=>void;myName:string;setMyName:(n:string)=>void;onDone?:()=>void}){
+ const [adding,setAdding]=useState(contacts.length===0),[name,setName]=useState(''),[phone,setPhone]=useState(''),[email,setEmail]=useState(''),[mine,setMine]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
+ const needName=!myName;
  async function add(){
   if(busy)return;setBusy(true);setNotice('');
-  try{const r=await api<{contacts:Contact[]}>('/api/safety-contacts','POST',{name:name.trim(),phone:phone.trim(),email:email.trim()});setContacts(r.contacts);setName('');setPhone('');setEmail('');setAdding(false);onDone?.();}
+  try{const r=await api<{contacts:Contact[]}>('/api/safety-contacts','POST',{name:name.trim(),phone:phone.trim(),email:email.trim(),...(needName?{my_name:mine.trim()}:{})});setContacts(r.contacts);if(needName)setMyName(mine.trim());setName('');setPhone('');setEmail('');setAdding(false);onDone?.();}
   catch(e){setNotice(errorText(e));}finally{setBusy(false);}
  }
  async function remove(id:string){try{const r=await api<{contacts:Contact[]}>('/api/safety-contacts?id='+id,'DELETE');setContacts(r.contacts);}catch(e){setNotice(errorText(e));}}
@@ -51,12 +66,14 @@ export function ContactsEditor({contacts,setContacts,onDone}:{contacts:Contact[]
    <Pressable accessibilityRole="button" accessibilityLabel={`Remove ${c.name}`} hitSlop={8} onPress={()=>void remove(c.id)}><Text style={{color:'#ef9aa1',fontSize:14.5}}>Remove</Text></Pressable>
   </View>)}
   {contacts.length>0&&!contacts.some(c=>c.email)&&<Text style={{color:'#f0c674',fontSize:13.5,lineHeight:19}}>Add an email for at least one person: that’s how BAK reaches them if you don’t check in.</Text>}
+  {!needName&&<MyName myName={myName} setMyName={setMyName}/>}
   {adding?<View style={{gap:12}}>
-   <Input label="Name" value={name} onChangeText={setName} maxLength={60} autoCapitalize="words" placeholder="e.g. Bella"/>
+   {needName&&<Input label="Your name, as they know you" value={mine} onChangeText={setMine} maxLength={40} autoCapitalize="words" placeholder="e.g. Kyle"/>}
+   <Input label="Their name" value={name} onChangeText={setName} maxLength={60} autoCapitalize="words" placeholder="e.g. Bella"/>
    <Input label="Mobile (gets your text)" value={phone} onChangeText={setPhone} maxLength={24} keyboardType="phone-pad" placeholder="(813) 555-0123"/>
    <Input label="Email (gets the link and any alert)" value={email} onChangeText={setEmail} maxLength={200} keyboardType="email-address" autoCapitalize="none" autoCorrect={false} placeholder="name@email.com"/>
-   <Text style={{color:'#8b93a0',fontSize:12.5,lineHeight:17}}>BAK emails them once to say you added them, so an alert is never a surprise.</Text>
-   <Tile title={busy?'Saving…':'Save contact'} icon="check" on onPress={()=>void add()} disabled={busy||!name.trim()}/>
+   <Text style={{color:'#8b93a0',fontSize:12.5,lineHeight:17}}>BAK emails them once to say you added them, so an alert is never a surprise. Emails use your name, not your community name.</Text>
+   <Tile title={busy?'Saving…':'Save contact'} icon="check" on onPress={()=>void add()} disabled={busy||!name.trim()||(needName&&!mine.trim())}/>
    {contacts.length>0&&<Pressable accessibilityRole="button" onPress={()=>setAdding(false)} hitSlop={8}><Text style={{color:colors.muted,fontSize:15}}>Cancel</Text></Pressable>}
   </View>:contacts.length<SAFETY.maxContacts&&<Pressable accessibilityRole="button" onPress={()=>setAdding(true)} hitSlop={8}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>+ Add another person</Text></Pressable>}
   {!!notice&&<Text style={{color:'#ef9aa1',fontSize:14}}>{notice}</Text>}
@@ -65,7 +82,7 @@ export function ContactsEditor({contacts,setContacts,onDone}:{contacts:Contact[]
 
 /** The whole flow. Not riding: contacts (if none yet), then "When will you be back?", a summary, Start. Riding: status and actions. */
 export function RideSafetyPanel({track=''}:{track?:string}){
- const active=useRide(),{contacts,emailReady,setContacts}=useSafetyContacts();
+ const active=useRide(),{contacts,emailReady,setContacts,myName,setMyName}=useSafetyContacts();
  const [pick,setPick]=useState<number|null>(null),[custom,setCustom]=useState(false),[at,setAt]=useState(()=>new Date(Date.now()+3*3600e3));
  const [name,setName]=useState(()=>{try{return readProgress<string>('device','share-name','');}catch{return '';}});
  const [busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[editContacts,setEditContacts]=useState(false);
@@ -83,7 +100,7 @@ export function RideSafetyPanel({track=''}:{track?:string}){
  </View>;
  if(!contacts.length||editContacts)return <View style={{gap:12}}>
   <Text style={{color:colors.muted,fontSize:15.5,lineHeight:22}}>{contacts.length?'Your ride safety contacts.':C.noContacts}</Text>
-  <ContactsEditor contacts={contacts} setContacts={setContacts} onDone={()=>setEditContacts(false)}/>
+  <ContactsEditor contacts={contacts} setContacts={setContacts} myName={myName} setMyName={setMyName} onDone={()=>setEditContacts(false)}/>
   {contacts.length>0&&<Tile title="Done" onPress={()=>setEditContacts(false)}/>}
  </View>;
  const backByMin=custom?Math.round((at.getTime()-Date.now())/60e3):pick;
@@ -113,7 +130,7 @@ export function RideSafetyPanel({track=''}:{track?:string}){
   {custom&&!valid&&<Text style={{color:'#ef9aa1',fontSize:14}}>Pick a time between 15 minutes and {SAFETY.maxBackByMin/60} hours from now.</Text>}
   {valid&&<>
    <Text style={{color:colors.text,fontSize:17,fontWeight:'700'}}>{C.summary(backBy,alertAt)}</Text>
-   <Input label="Your first name on the link (optional)" value={name} onChangeText={setName} maxLength={40} autoCapitalize="words" placeholder="e.g. Kyle"/>
+   <Input label="Your name on the link" value={name} onChangeText={setName} maxLength={40} autoCapitalize="words" placeholder={myName||'e.g. Kyle'}/>
    <Tile title={busy?'Starting…':'Start ride safety'} sub={`Texts ${contacts.filter(c=>c.phone).map(c=>c.name).join(' and ')||'no one'} (you tap Send) and emails ${contacts.filter(c=>c.email).map(c=>c.name).join(' and ')||'no one'}`} icon="check" on onPress={()=>void start()}/>
   </>}
   <Text style={{color:'#8b93a0',fontSize:13,lineHeight:18}}>{alwaysHint}</Text>
@@ -178,11 +195,11 @@ export function RideSafetyOffer({track}:{track?:string}){
 
 /** Account › Ride safety: the contacts, and how it works in one line. */
 export function SafetyContactsCard(){
- const {contacts,setContacts,emailReady}=useSafetyContacts();
+ const {contacts,setContacts,emailReady,myName,setMyName}=useSafetyContacts();
  if(contacts===null)return <Text style={{color:colors.muted,fontSize:15}}>Loading…</Text>;
  return <View style={{gap:12}}>
   <Text style={{color:colors.muted,fontSize:14.5,lineHeight:20}}>Start ride safety from Ride Day mode or when BAK offers it. Your contacts get a link to where you were last seen; if you don’t check in by your back-by time plus 30 minutes (after three reminders to you), BAK emails them.</Text>
-  <ContactsEditor contacts={contacts} setContacts={setContacts}/>
+  <ContactsEditor contacts={contacts} setContacts={setContacts} myName={myName} setMyName={setMyName}/>
   {!emailReady&&<Text style={{color:'#f0c674',fontSize:13.5}}>Alert emails aren’t switched on yet.</Text>}
  </View>;
 }

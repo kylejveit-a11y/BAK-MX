@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {HEADING_OUT,SAFETY,alertEmail,allClearEmail,extendedTimes,lastSeen,publicView,rideTimes,startEmail} from '../shared/ride-share.ts';
-import {contactSchema,handleRideShares,positionSchema,startSchema,runSafetyCron} from '../server/ride-shares.ts';
+import {contactSchema,handleRideShares,nameSchema,positionSchema,startSchema,runSafetyCron} from '../server/ride-shares.ts';
 const now=Date.parse('2026-11-15T18:00:00Z');
 const row={rider_name:'Kyle',expires_at:'2026-11-15T20:00:00Z',ended_at:null,last_lat:28.1,last_lng:-82.3,last_accuracy_m:30,last_at:'2026-11-15T17:55:00Z'};
 test('public view shows only the name, back-by and last point while active',()=>{
@@ -64,10 +64,21 @@ test('the alert goes once, only when due, and only by email',async()=>{
 
 // The contacts address doesn't start with /api/ride-share; it must still reach this handler (it once fell through to "Not found").
 test('safety contacts requests are handled, not passed on', async()=>{
- const q:any={select:()=>q,eq:()=>q,order:()=>q,limit:async()=>({data:[{id:'c',name:'Bella',phone:'',email:'b@example.com'}]})};
+ const q:any={select:()=>q,eq:()=>q,order:()=>q,maybeSingle:async()=>({data:null}),limit:async()=>({data:[{id:'c',name:'Bella',phone:'',email:'b@example.com'}]})};
  const admin:any={from:()=>q};
  const res=await handleRideShares(new Request('https://bakmx.com/api/safety-contacts'),'/api/safety-contacts','GET',{} as any,'u',()=>admin);
  assert.ok(res,'handled');assert.equal(res!.status,200);
  const body=await res!.json();assert.equal(body.contacts.length,1);
  assert.equal(await handleRideShares(new Request('https://bakmx.com/api/other'),'/api/other','GET',{} as any,'u',()=>admin),null);
+});
+
+test('the rider can give the name their contacts know them by', ()=>{
+ assert.equal(nameSchema.parse({name:'  Kyle '}).name,'Kyle');
+ assert.throws(()=>nameSchema.parse({name:'  '}));
+ assert.equal(contactSchema.parse({name:'Bella',email:'b@example.com',my_name:'Kyle'}).my_name,'Kyle');
+});
+test('safety contacts sub-paths reach the handler too', async()=>{
+ const q:any={select:()=>q,eq:()=>q,maybeSingle:async()=>({data:{safety_name:'Kyle'}}),order:()=>q,limit:async()=>({data:[]})};
+ const res=await handleRideShares(new Request('https://bakmx.com/api/safety-contacts'),'/api/safety-contacts','GET',{} as any,'u',()=>({from:()=>q}) as any);
+ assert.equal((await res!.json()).my_name,'Kyle');
 });

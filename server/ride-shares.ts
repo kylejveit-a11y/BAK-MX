@@ -16,10 +16,21 @@ const OWN='id,rider_name,created_at,expires_at,ended_at,last_lat,last_lng,last_a
 export const startSchema=z.object({back_by_min:z.number().int().min(SAFETY.minBackByMin).max(SAFETY.maxBackByMin),rider_name:z.string().trim().max(40).default(''),
  track_name:z.string().trim().max(120).default(''),tz:z.string().trim().max(60).regex(/^[A-Za-z_]+(\/[A-Za-z0-9_+-]+)*$|^$/).default('')}).strict();
 export const contactSchema=z.object({name:z.string().trim().min(1).max(60),phone:z.string().trim().max(24).regex(/^[0-9+() .-]*$/,'Use digits for the phone number').default(''),
- email:z.string().trim().max(200).default('').refine(v=>!v||/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v),'Check the email address')}).strict()
+ email:z.string().trim().max(200).default('').refine(v=>!v||/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v),'Check the email address'),
+ my_name:z.string().trim().max(40).optional()}).strict()
  .refine(v=>v.phone.replace(/\D/g,'').length>=7||v.email,{message:'Add a mobile number or an email.'});
 export const positionSchema=z.object({id:z.string().uuid(),lat:z.number().min(-90).max(90),lng:z.number().min(-180).max(180),accuracy_m:z.number().min(0).max(100000).nullable().default(null),at:z.string().refine(v=>Number.isFinite(Date.parse(v)))}).strict();
 type Contact={id:string;name:string;phone:string;email:string};
+export const nameSchema=z.object({name:z.string().trim().min(1,'Add your name').max(40)}).strict();
+/** The rider's name as their contacts know them, set on the Ride safety card (private). Empty if they haven't set it. */
+async function ownName(admin:SupabaseClient,owner:string):Promise<string>{const r=await admin.from('rider_preferences').select('safety_name').eq('user_id',owner).maybeSingle();return ((r.data as {safety_name?:string}|null)?.safety_name??'').trim();}
+/** For the emails and the link: their own name, else their community name, else a plain stand-in. */
+async function mailName(admin:SupabaseClient,owner:string):Promise<string>{
+ const own=await ownName(admin,owner);if(own)return own;
+ const prof=await admin.from('profiles').select('display_name').eq('user_id',owner).maybeSingle();
+ return ((prof.data as {display_name?:string}|null)?.display_name??'').trim();
+}
+async function setOwnName(admin:SupabaseClient,owner:string,name:string){const r=await admin.from('rider_preferences').upsert({user_id:owner,safety_name:name,updated_at:new Date().toISOString()},{onConflict:'user_id'});if(r.error)throw new HttpError(503,'Could not save your name. Try again.');}
 async function contactsOf(admin:SupabaseClient,owner:string):Promise<Contact[]>{const r=await admin.from('safety_contacts').select('id,name,phone,email').eq('user_id',owner).order('created_at').limit(SAFETY.maxContacts);return (r.data??[]) as Contact[];}
 const emailsOf=(c:Contact[])=>c.map(x=>x.email).filter(Boolean);
 const site=()=>(process.env.PUBLIC_SITE_URL||'https://bakmx.com').replace(/\/$/,'');
@@ -39,7 +50,7 @@ export async function handlePublicShare(url:URL):Promise<Response>{
 }
 
 export async function handleRideShares(req:Request,path:string,method:string,db:SupabaseClient,owner:string,admin:()=>SupabaseClient=adminDb):Promise<Response|null>{
- if(!path.startsWith('/api/ride-share')&&path!=='/api/safety-contacts')return null;
+ if(!path.startsWith('/api/ride-share')&&!path.startsWith('/api/safety-contacts'))return null;
  if(path==='/api/ride-share'&&method==='GET'){
   const rows=(checked(await db.from('ride_shares').select(OWN).eq('user_id',owner).is('ended_at',null).gt('expires_at',new Date().toISOString()).order('created_at',{ascending:false}).limit(1))??[]) as Record<string,unknown>[];
   return json(rows[0]??null);
@@ -51,6 +62,7 @@ export async function handleRideShares(req:Request,path:string,method:string,db:
   // One ride at a time: starting a new one ends the old one (no all-clear needed unless it had already alerted).
   await endOpen(admin(),owner,'');
   const secret=token(),now=Date.now(),t=rideTimes(now,data.back_by_min);
+  if(!data.rider_name)data.rider_name=(await mailName(admin(),owner)).slice(0,40);
   const r=await admin().from('ride_shares').insert({user_id:owner,token_sha256:await sha(secret),link_secret:secret,rider_name:data.rider_name,track_name:data.track_name,tz:data.tz,...t}).select(OWN).single();
   if(r.error)throw new HttpError(503,'Could not start ride safety. Nothing was changed.');
   const url=`${site()}/s/${secret}`,contacts=await contactsOf(admin(),owner);
@@ -82,17 +94,18 @@ export async function handleRideShares(req:Request,path:string,method:string,db:
   const cleared=await endOpen(admin(),owner,id);
   return json({ended:true,all_clear_sent:cleared});
  }
- if(path==='/api/safety-contacts'&&method==='GET')return json({contacts:await contactsOf(admin(),owner),email_ready:emailReady()});
+ if(path==='/api/safety-contacts'&&method==='GET')return json({contacts:await contactsOf(admin(),owner),email_ready:emailReady(),my_name:await ownName(admin(),owner)});
+ if(path==='/api/safety-contacts/name'&&method==='PUT'){const {name}=nameSchema.parse(await readJson(req,500));await setOwnName(admin(),owner,name);return json({my_name:name});}
  if(path==='/api/safety-contacts'&&method==='POST'){
   const c=contactSchema.parse(await readJson(req,1000));
+  if(c.my_name)await setOwnName(admin(),owner,c.my_name);
   const have=await contactsOf(admin(),owner);
   if(have.length>=SAFETY.maxContacts)throw new HttpError(409,`Up to ${SAFETY.maxContacts} contacts. Remove one first.`);
   const r=await admin().from('safety_contacts').insert({user_id:owner,name:c.name,phone:c.phone,email:c.email.toLowerCase()}).select('id,name,phone,email').single();
   if(r.error)throw new HttpError(503,'Could not save the contact. Nothing was changed.');
   // A short hello so the first alert is expected and not lost in spam.
   if(c.email){
-   const prof=await admin().from('profiles').select('display_name,handle').eq('user_id',owner).maybeSingle();
-   const rider=((prof.data as {display_name?:string;handle?:string}|null)?.display_name)||'A BAK MX rider';
+   const rider=(await mailName(admin(),owner))||'A BAK MX rider';
    const m=introEmail(rider,c.name);
    if(await sendEmail([c.email],m.subject,m.text))await admin().from('safety_contacts').update({introduced_at:new Date().toISOString()}).eq('id',(r.data as Contact).id);
   }
