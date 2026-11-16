@@ -85,13 +85,13 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
  const set=(p:Partial<SessionDraft>)=>setDraft(d=>({...d,...p}));
  const setup=bikeSetup(bike),n=nextSessionNumber(sessions),last=[...sessions].sort((a,b)=>b.n-a.n)[0];
  const trackId=useTrackId(track),{live,reload}=useLiveConditions(trackId);
- // Locks itself after a minute untouched; any touch on the screen resets the clock.
+ // With auto-lock on, locks itself after 3 minutes untouched; any touch on the screen resets the clock.
  useEffect(()=>{if(!autoLock)return;touched.current=Date.now();const i=setInterval(()=>{if(!locked&&Date.now()-touched.current>AUTO_LOCK_MS)setLocked(true);},5000);return()=>clearInterval(i);},[locked,autoLock]);
  useEffect(()=>{if(!toast)return;const t=setTimeout(()=>setToast(''),3500);return()=>clearTimeout(t);},[toast]);
  const home=()=>{setView('home');setDraft(emptySession());setTyping(false);};
  async function save(d:SessionDraft){
   if(busy)return;setBusy(true);
-  try{const msg=await onLog(d);setToast(msg);if(msg===C.saved||msg===C.savedQueued)home();}
+  try{const msg=await onLog(d);setToast(msg);if(msg===C.saved||msg===C.savedQueued){if(timer&&d.minutes)setTimer(null);home();}}
   catch(e){setToast(errorText(e));}finally{setBusy(false);}
  }
  async function checkIn(){
@@ -107,7 +107,7 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onAsk}:{onClose:()=>voi
  </Grid></>;
  if(view==='home')body=<>
   <Grid>
-   {timer?<Big label="Back in" sub={`On track ${elapsed(timer)} min`} icon="clock" on onPress={()=>{set({minutes:String(elapsed(timer))});setTimer(null);setView('anyChange');}}/>
+   {timer?<Big label="Back in" sub={`On track ${elapsed(timer)} min`} icon="clock" on onPress={()=>{set({minutes:String(elapsed(timer))});setView('anyChange');}}/>
    :<Big label={C.offTrack} sub={C.offTrackSub} icon="clock" onPress={()=>setView('minutes')}/>}
    <Big label={C.change} sub={C.changeSub} icon="shock" onPress={()=>{set({minutes:''});setView('what');}}/>
    <Big label={C.setup} sub={C.setupSub} icon="gauge" onPress={()=>setView('setup')}/>

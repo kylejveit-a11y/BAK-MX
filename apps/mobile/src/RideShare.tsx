@@ -40,6 +40,12 @@ export function useRideShare(){
   try{const r=await api<{id:string}|null>('/api/ride-share');if(!r||r.id!==local.id){writeActive(null);setActive(null);try{await Location.stopLocationUpdatesAsync(SHARE_TASK);}catch{}}}catch{/* offline: keep */}
  },[]);
  useEffect(()=>{void refresh();},[refresh]);
+ // Without "Always" location, the background task can't run: keep sending while this screen is open instead.
+ useEffect(()=>{if(!active)return;let sub:Location.LocationSubscription|null=null,live=true;
+  void (async()=>{try{if(await Location.hasStartedLocationUpdatesAsync(SHARE_TASK))return;
+   const s=await Location.watchPositionAsync({accuracy:Location.Accuracy.Balanced,timeInterval:120000,distanceInterval:150},p=>{void api('/api/ride-share/position','POST',{id:active.id,lat:p.coords.latitude,lng:p.coords.longitude,accuracy_m:p.coords.accuracy??null,at:new Date(p.timestamp).toISOString()}).catch(()=>{});});
+   if(live)sub=s;else s.remove();}catch{}})();
+  return()=>{live=false;sub?.remove();};},[active?.id]);
  async function start(hours:number,name:string){
   if(busy)return;setBusy(true);setNotice('');
   try{

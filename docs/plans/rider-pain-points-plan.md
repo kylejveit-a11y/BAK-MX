@@ -56,6 +56,10 @@ Keep the basics free (garage, service, conditions, crew, share link) to answer s
 9. Buddy tracking with no signal: needs Bluetooth-range or radio hardware; partner or skip.
 10. Voice control of the app (beyond asking BAK).
 
+## Built (2026-11-15, ships in app 1.0.11)
+- Ride Day mode, live track check-ins ("Right now"), crew finder (event filters + riding here today), "What I ran here" with weather, safety share link (free), offline copy of the bike on ride days, on-track timer and track time to engine hours.
+- Still open: trail maps (Kyle to decide), buddy tracking with no signal, voice control.
+
 ## Decisions
 - Ride Day mode first (built 2026-11-15: apps/mobile/src/RideDay.tsx, shared/ride-day.ts; opens from the practice-day screen).
 - Safety share link is free for everyone.
