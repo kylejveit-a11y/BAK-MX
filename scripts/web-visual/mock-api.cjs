@@ -67,7 +67,7 @@ const coaching=[];
 const checklist={items:null};
 const tracks=[{id:'t-dade',name:'Dade City MX',state:'FL',lat:28.4,lng:-82.2},{id:'t-bostwick',name:'Bostwick Creek',state:'FL',lat:29.8,lng:-81.6},{id:'t-ww',name:'WW Ranch',state:'FL',lat:30.2,lng:-81.9}];
 // Ride-day features (Right now, riding here today, What I ran here, share link): sample answers for the phone checks.
-let presenceMe=false,share=null;
+let presenceMe=false,share=null,contacts=[];
 const live={window_hours:6,checkins:4,latest_minutes_ago:12,statuses:[{id:'watering',label:'Watering now',riders:1,minutes_ago:12},{id:'muddy',label:'Muddy',riders:2,minutes_ago:25},{id:'busy',label:'Busy',riders:3,minutes_ago:40}],as_of:iso(now)};
 const others=[{user_id:'r2',handle:'jt_moto',display_name:'Jake T.',me:false},{user_id:'r3',handle:'sarah_mx',display_name:'Sarah K.',me:false}];
 const W=(t,c,w)=>({temp_f:t,conditions:c,wind_mph:w,humidity_pct:62,observed_at:iso(now-12*day)});
@@ -137,8 +137,10 @@ function respond(p,q,method,post){
  if(p==='/api/track-checkins')return J(method==='GET'?{...live,as_of:iso(Date.now())}:{id:'c-new',track_id:'t-dade',statuses:(post&&post.statuses)||[],created_at:iso(Date.now())},method==='GET'?200:201);
  if(p==='/api/track-presence'){if(method==='POST')presenceMe=true;if(method==='DELETE')presenceMe=false;const riders=[...(presenceMe?[{user_id:USER,handle:rider.handle,display_name:rider.display_name,me:true}]:[]),...others];return J({count:riders.length,me:presenceMe,riders});}
  if(p==='/api/track-history')return J({track:{id:'t-dade',name:'Dade City MX'},visits});
- if(p==='/api/ride-share'){if(method==='POST'){share={id:'44444444-4444-4444-8444-444444444444',rider_name:(post&&post.rider_name)||'',created_at:iso(Date.now()),expires_at:iso(Date.now()+((post&&post.hours)||2)*3600e3),ended_at:null,url:'https://bakmx.com/s/SAMPLEsampleSAMPLEsampleSAMPLEsa'};return J(share,201);}return J(share);}
- if(p==='/api/ride-share/end'){share=null;return J({ended:true});}
+ if(p==='/api/safety-contacts'){if(method==='POST')contacts.push({id:'sc'+contacts.length,name:post.name,phone:post.phone||'',email:post.email||''});if(method==='DELETE')contacts=contacts.filter(c=>c.id!==q.get('id'));return J({contacts,email_ready:true},method==='POST'?201:200);}
+ if(p==='/api/ride-share'){if(method==='POST'){const n=Date.now(),bb=n+((post&&post.back_by_min)||120)*60e3;share={id:'44444444-4444-4444-8444-444444444444',rider_name:(post&&post.rider_name)||'',created_at:iso(n),back_by:iso(bb),alert_at:iso(bb+30*60e3),expires_at:iso(bb+270*60e3),ended_at:null,url:'https://bakmx.com/s/SAMPLEsampleSAMPLEsampleSAMPLEsa',contacts:contacts.map(c=>({name:c.name,phone:c.phone,has_email:!!c.email})),emailed:contacts.some(c=>c.email),email_ready:true};return J(share,201);}return J(share);}
+ if(p==='/api/ride-share/extend'){const add=((post&&post.minutes)||30)*60e3;share={...share,back_by:iso(Date.parse(share.back_by)+add),alert_at:iso(Date.parse(share.alert_at)+add),all_clear_sent:false};return J(share);}
+ if(p==='/api/ride-share/end'){share=null;return J({ended:true,all_clear_sent:false});}
  if(p==='/api/ride-share/position')return J({updated:true});
  if(p==='/api/bike-hours'){bike.engine_hours=Math.round((bike.engine_hours+((post&&post.add_hours)||0))*10)/10;return J(bike);}
  if(p==='/api/rsvps')return J([]);

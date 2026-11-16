@@ -19,9 +19,10 @@ export function SharePage({secret}:{secret:string}){
   <div style={{fontSize:12,letterSpacing:2,color:'#9aa2ae',fontWeight:700}}>BAK MX · SAFETY SHARE</div>
   <h1 style={{fontSize:26,margin:'8px 0 16px'}}>{share?`${who}’s location`:'Location share'}</h1>
   {error&&<div style={card}><div>{error}</div></div>}
-  {share&&share.state!=='active'&&<div style={card}><div style={{fontSize:18,fontWeight:700}}>{share.state==='ended'?`${who} stopped sharing.`:'This share has ended.'}</div><div style={{color:'#bcc3cd'}}>Their location is no longer shown here.</div></div>}
+  {share&&share.state!=='active'&&<div style={card}><div style={{fontSize:18,fontWeight:700}}>{share.state==='ended'?`${who} checked in. All good.`:'This share has ended.'}</div><div style={{color:'#bcc3cd'}}>Their location is no longer shown here.</div></div>}
   {share&&share.state==='active'&&<div style={card}>
    <div style={{fontSize:20,fontWeight:800}}>{lastSeen(p?.at??null,now)}</div>
+   {share.back_by&&<div style={{color:share.overdue?'#f0c674':'#bcc3cd'}}>{share.overdue?`${who} hasn’t checked in yet. They planned to be back by ${new Date(share.back_by).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'})}. They may just be running late or out of signal: try calling them first.`:`Plans to be back by ${new Date(share.back_by).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'})}.`}</div>}
    {p&&Date.now()-Date.parse(p.at)>20*60e3&&<div style={{color:'#f0c674'}}>No update for a while. Riding areas often have no signal; this updates when the phone gets a bar again.</div>}
    {p?<>
     <iframe title="Map" style={{border:0,width:'100%',height:320,borderRadius:12}} loading="lazy" src={`https://www.openstreetmap.org/export/embed.html?bbox=${encodeURIComponent(bbox)}&layer=mapnik&marker=${p.lat},${p.lng}`}/>
@@ -31,7 +32,7 @@ export function SharePage({secret}:{secret:string}){
      <a style={btn} href={`https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`}>Google Maps</a>
     </div>
    </>:<div style={{color:'#bcc3cd'}}>Waiting for the first location from the phone.</div>}
-   <div style={{color:'#8b93a0',fontSize:13}}>Shared until {new Date(share.expires_at).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'})}. Only the last spot is shown, never a trail. In an emergency, call 911.</div>
+   <div style={{color:'#8b93a0',fontSize:13}}>Only the last spot is shown, never a trail. In an emergency, call 911.</div>
   </div>}
   <div style={{color:'#6f7682',fontSize:12,marginTop:20}}>Map © OpenStreetMap contributors</div>
  </div></div>;

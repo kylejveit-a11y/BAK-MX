@@ -20,10 +20,11 @@ import {bikeSetup} from './HomeBlocks';
 import {LiveStatusList,sendCheckin,useLiveConditions,useTrackId} from './LiveConditions';
 import {CHECKIN_COPY,CHECKIN_STATUSES,toggleStatus} from '../../../shared/track-checkins';
 import {SHARE_COPY} from '../../../shared/ride-share';
-import {SHARE_CHOICES,ShareStatusLine,alwaysHint,shareUntil,useRideShare} from './RideShare';
+import {clock as shareClock,useRide} from './RideShare';
+import {RideSafetyPanel} from './RideSafety';
 import {readProgress,writeProgress} from './localProgress';
 
-type View_='start'|'home'|'rate'|'minutes'|'anyChange'|'what'|'how'|'setup'|'track'|'share';
+type View_='start'|'offer'|'home'|'rate'|'minutes'|'anyChange'|'what'|'how'|'setup'|'track'|'share';
 const RESULTS:SetupResult[]=['better','worse','no_change'];
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 const elapsed=(t:number)=>Math.min(240,Math.max(1,Math.round((Date.now()-t)/60e3)));
@@ -82,7 +83,9 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onRate,onAsk}:{onClose:
  const [timer,setTimerState]=useState<number|null>(()=>{try{const t=readProgress<number|null>('device',timerKey,null);return t&&Date.now()-t<5*3600e3?t:null;}catch{return null;}});
  const setTimer=(t:number|null)=>{setTimerState(t);try{writeProgress('device',timerKey,t);}catch{}};
  const [,tick]=useState(0);useEffect(()=>{if(!timer)return;const i=setInterval(()=>tick(x=>x+1),30000);return()=>clearInterval(i);},[timer]);
- const share=useRideShare();const [shareName,setShareName]=useState(()=>{try{return readProgress<string>('device','share-name','');}catch{return '';}});
+ const ride=useRide();
+ // Opening Ride Day is the moment a rider heads out: offer ride safety once a day, never while one is on.
+ const afterStart=():View_=>{if(ride)return 'home';const d=new Date().toDateString();try{if(readProgress<string>('device','safety-rideday',''))if(readProgress<string>('device','safety-rideday','')===d)return 'home';writeProgress('device','safety-rideday',d);}catch{}return 'offer';};
  const set=(p:Partial<SessionDraft>)=>setDraft(d=>({...d,...p}));
  const setup=bikeSetup(bike),n=nextSessionNumber(sessions),last=[...sessions].sort((a,b)=>b.n-a.n)[0];
  const trackId=useTrackId(track),{live,reload}=useLiveConditions(trackId);
@@ -108,8 +111,12 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onRate,onAsk}:{onClose:
  const nextLine=timer?`On track ${elapsed(timer)} min`:`Session ${n} next${last?.change?` · last: ${sessionChange(last)}`:''}`;
  let body:React.ReactNode=null;
  if(view==='start')body=<><Title>{C.startTitle}</Title><Text style={{color:colors.muted,fontSize:16,lineHeight:23,marginBottom:8}}>{C.startDetail}</Text><Grid>
-  <Big label={C.autoOn} icon="lock" wide onPress={()=>{setAutoLock(true);setView('home');}}/>
-  <Big label={C.autoOff} icon="unlock" wide onPress={()=>{setAutoLock(false);setView('home');}}/>
+  <Big label={C.autoOn} icon="lock" wide onPress={()=>{setAutoLock(true);setView(afterStart());}}/>
+  <Big label={C.autoOff} icon="unlock" wide onPress={()=>{setAutoLock(false);setView(afterStart());}}/>
+ </Grid></>;
+ if(view==='offer')body=<><Title>{SHARE_COPY.offer}</Title><Text style={{color:colors.muted,fontSize:16,lineHeight:23,marginBottom:8}}>{SHARE_COPY.offerSub}</Text><Grid>
+  <Big label="Yes, set it up" icon="location" wide onPress={()=>setView('share')}/>
+  <Big label="Not today" wide onPress={()=>setView('home')}/>
  </Grid></>;
  if(view==='home')body=<>
   <Grid>
@@ -118,7 +125,7 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onRate,onAsk}:{onClose:
    <Big label={C.change} sub={C.changeSub} icon="shock" onPress={()=>{set({minutes:''});setView('what');}}/>
    <Big label={C.setup} sub={C.setupSub} icon="gauge" onPress={()=>setView('setup')}/>
    <Big label={C.track} sub={C.trackSub} icon="flag" onPress={()=>setView('track')}/>
-   <Big label={share.active?SHARE_COPY.sharing:SHARE_COPY.start} sub={share.active?`Until ${shareUntil(share.active)}`:SHARE_COPY.startSub} icon="location" on={!!share.active} onPress={()=>setView('share')}/>
+   <Big label={ride?SHARE_COPY.sharing:SHARE_COPY.start} sub={ride?`Back by ${shareClock(ride.back_by)}`:SHARE_COPY.startSub} icon="location" on={!!ride} onPress={()=>setView('share')}/>
    <Big label={C.ask} sub={C.askSub} icon="bolt" onPress={()=>{onClose();onAsk();}}/>
   </Grid>
  </>;
@@ -149,23 +156,7 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onRate,onAsk}:{onClose:
   {RESULTS.map(r=><Big key={r} label={SETUP_RESULT_LABELS[r]} tone={r==='better'?'#7fd09a':r==='worse'?'#ef9aa1':undefined} wide={r==='no_change'} onPress={()=>{onRate(unrated.id,r);setView(afterRate);}}/>)}
   <Big label="Skip" wide onPress={()=>setView(afterRate)}/>
  </Grid></>;
- if(view==='share')body=<><Title>{share.active?SHARE_COPY.sharing:SHARE_COPY.start}</Title>
-  {share.active?<View style={{gap:12}}>
-   <ShareStatusLine until={shareUntil(share.active)}/>
-   <Grid>
-    <Big label={SHARE_COPY.send} icon="share" wide onPress={()=>void share.send()}/>
-    <Big label={share.stopping?'Stopping…':SHARE_COPY.stop} icon="close" wide tone="#ef9aa1" onPress={()=>void share.stop()}/>
-   </Grid>
-  </View>:<View style={{gap:12}}>
-   <Text style={{color:colors.muted,fontSize:16,lineHeight:23}}>{SHARE_COPY.explain}</Text>
-   <TextInput value={shareName} onChangeText={setShareName} maxLength={40} placeholder="First name on the link (optional)" placeholderTextColor="#7d8593" accessibilityLabel="Your first name, shown on the link" autoCapitalize="words"
-    style={{color:colors.text,fontSize:19,borderBottomWidth:1.5,borderBottomColor:'#3a414d',paddingVertical:10}}/>
-   <Text style={{color:'#adb5c1',fontSize:13,...LABEL}}>{SHARE_COPY.how.toUpperCase()}</Text>
-   <Grid>{SHARE_CHOICES.map(c=><Big key={c.hours} label={c.label} onPress={()=>{try{writeProgress('device','share-name',shareName.trim());}catch{}void share.start(c.hours,shareName.trim());}}/>)}</Grid>
-   <Text style={{color:'#8b93a0',fontSize:14,lineHeight:20}}>{alwaysHint}</Text>
-  </View>}
-  {!!share.notice&&<Text style={{color:colors.text,fontSize:16,marginTop:8}}>{share.notice}</Text>}
- </>;
+ if(view==='share')body=<><Title>{SHARE_COPY.title}</Title><RideSafetyPanel track={track}/></>;
  if(view==='setup')body=<><Title>{C.setup}</Title>
   {setup.length?<View style={{flexDirection:'row',flexWrap:'wrap',rowGap:18}}>{setup.map(([k,v])=><View key={k} style={{width:'50%',gap:2}}><Text style={{color:'#9aa2ae',fontSize:15}}>{k}</Text><Text style={{color:colors.text,fontSize:26,fontWeight:'800'}}>{v}</Text></View>)}</View>
   :<Text style={{color:colors.muted,fontSize:17,lineHeight:24}}>{C.noSetup}</Text>}
@@ -190,10 +181,10 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onRate,onAsk}:{onClose:
     <Text style={{color:colors.muted,fontSize:14}} numberOfLines={1}>{clock()} · {nextLine}{autoLock?` · ${C.autoBadge}`:''}</Text>
    </View>
    <Pressable haptic="press" accessibilityRole="button" accessibilityLabel={C.lock} onPress={()=>setLocked(true)} style={({pressed})=>({width:64,height:56,borderRadius:16,borderWidth:1.5,borderColor:'#2c323c',alignItems:'center',justifyContent:'center',backgroundColor:pressed?'#1a1e25':'#111419'})}><Icon name="lock" size={26}/></Pressable>
-   <Pressable haptic="tap" accessibilityRole="button" accessibilityLabel={view==='home'||view==='start'?C.done:C.back} onPress={view==='home'||view==='start'?onClose:home} style={({pressed})=>({minWidth:72,height:56,paddingHorizontal:12,borderRadius:16,borderWidth:1.5,borderColor:'#2c323c',alignItems:'center',justifyContent:'center',backgroundColor:pressed?'#1a1e25':'#111419'})}><Text style={{color:colors.text,fontSize:14,...LABEL}}>{(view==='home'||view==='start'?C.done:C.back).toUpperCase()}</Text></Pressable>
+   <Pressable haptic="tap" accessibilityRole="button" accessibilityLabel={view==='home'||view==='start'||view==='offer'?C.done:C.back} onPress={view==='home'||view==='start'||view==='offer'?onClose:home} style={({pressed})=>({minWidth:72,height:56,paddingHorizontal:12,borderRadius:16,borderWidth:1.5,borderColor:'#2c323c',alignItems:'center',justifyContent:'center',backgroundColor:pressed?'#1a1e25':'#111419'})}><Text style={{color:colors.text,fontSize:14,...LABEL}}>{(view==='home'||view==='start'||view==='offer'?C.done:C.back).toUpperCase()}</Text></Pressable>
   </View>
   <ScrollView contentContainerStyle={{padding:16,paddingBottom:insets.bottom+40,gap:12}} keyboardShouldPersistTaps="handled">{body}</ScrollView>
   {!!toast&&<View pointerEvents="none" accessibilityLiveRegion="polite" style={{position:'absolute',left:16,right:16,bottom:insets.bottom+20,padding:16,borderRadius:16,backgroundColor:'#16202c',borderWidth:1,borderColor:colors.accent}}><Text style={{color:colors.text,fontSize:17,fontWeight:'700',textAlign:'center'}}>{toast}</Text></View>}
-  {locked&&<LockScreen onUnlock={()=>{touched.current=Date.now();setLocked(false);}} track={track} next={share.active?`${nextLine} · sharing location until ${shareUntil(share.active)}`:nextLine} setup={setup}/>}
+  {locked&&<LockScreen onUnlock={()=>{touched.current=Date.now();setLocked(false);}} track={track} next={ride?`${nextLine} · back by ${shareClock(ride.back_by)}`:nextLine} setup={setup}/>}
  </View>;
 }
