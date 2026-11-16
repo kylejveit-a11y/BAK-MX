@@ -141,7 +141,9 @@ export function RideSafetyHost(){
 /** Home: a slim bar while a ride is on, so "I'm back" is one tap from anywhere. */
 export function RideSafetyBanner(){
  const active=useRide();const [msg,setMsg]=useState('');
- if(!active)return null;
+ // After "I'm back" the banner goes; a short confirmation stays a few seconds so the rider sees it took.
+ useEffect(()=>{if(active||!msg)return;const t=setTimeout(()=>setMsg(''),6000);return()=>clearTimeout(t);},[active,msg]);
+ if(!active)return msg?<View style={{borderRadius:16,borderWidth:1,borderColor:'#2f5d43',backgroundColor:'#10231a',padding:12}}><Text style={{color:'#cfe9d7',fontSize:14.5,fontWeight:'700'}}>{msg}</Text></View>:null;
  const late=Date.now()>Date.parse(active.back_by);
  return <View style={{borderRadius:16,borderWidth:1,borderColor:late?'#f0c674':'#2f5d43',backgroundColor:late?'#2a2410':'#10231a',padding:12,gap:10}}>
   <Pressable accessibilityRole="button" onPress={()=>openSafety()} style={{gap:2}}>
