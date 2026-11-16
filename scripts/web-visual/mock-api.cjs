@@ -55,7 +55,7 @@ const services=[{id:'s1',user_id:USER,bike_id:bike.id,category:'Engine oil',perf
 const plan=[{category:'Engine oil',every_hours:15,first_hours:1,task:'Change the engine oil and the oil filter',claim_id:'c2',note:null},{category:'Air filter',every_hours:5,first_hours:null,task:'Clean the air filter',claim_id:'c3',note:null},{category:'Valve check',every_hours:30,first_hours:null,task:'Check the valve clearance',claim_id:'c4',note:null}];
 const setupLogs=[{id:'l1',user_id:USER,bike_id:bike.id,recorded_at:iso(now-5*day),track:'Dade City MX',conditions:'Loamy, watered, 85°F',engine_hours:62,settings:{fork_compression:'14',shock_rebound:'15'},change_made:'Fork compression 2 clicks softer',result:'better',notes:'Front stopped deflecting off braking bumps.',created_at:iso(now-5*day)}];
 const at=(d,h,m)=>{const x=new Date(now+d*day);x.setHours(h,m,0,0);return x.toISOString();};
-const events=[{id:'e1',user_id:'other',title:'Practice day',event_type:'practice',starts_at:at(2,9,0),ends_at:null,location_name:'Dade City MX',description:'Open practice, all classes.',created_at:iso(now-3*day),canceled_at:null,host:{...rider,user_id:'other',handle:'dademx',display_name:'Dade City MX'},mine:false,going_count:12,interested_count:4,my_rsvp:'going'},
+const events=[{id:'e1',user_id:'other',title:'Practice day',event_type:'practice',starts_at:at(2,9,0),ends_at:null,location_name:'Dade City MX',description:'Open practice, all classes.',created_at:iso(now-3*day),canceled_at:null,host:{...rider,user_id:'other',handle:'dademx',display_name:'Dade City MX'},mine:false,going_count:12,interested_count:4,my_rsvp:'going',skill_level:'any',bike_size:'any',discipline:'mx'},
  {id:'e2',user_id:'other',title:'Florida Winter Series Rd 1',event_type:'race',starts_at:at(9,7,30),ends_at:null,location_name:'Bostwick Creek',description:'Round one.',created_at:iso(now-3*day),canceled_at:null,host:{...rider,user_id:'other2',handle:'fws',display_name:'FWS'},mine:false,going_count:40,interested_count:9,my_rsvp:null}];
 const posts=[{id:'p1',user_id:'other',category:'build',body:'Fresh top end, new FMF and a Rekluse. Ready for the winter series.',bike_label:'2025 KTM 450 SX-F',created_at:iso(now-8*day),author:{...rider,user_id:'other',handle:'godfather817',display_name:'God Father 817'},mine:false,like_count:7,liked:false,comment_count:2,photos:[]},
  {id:'p2',user_id:USER,category:'setup_question',body:'Anyone running a 5.0 rear spring at 200 lb geared on the 450? Sag numbers?',bike_label:'2025 KTM 450 SX-F',created_at:iso(now-1*day),author:rider,mine:true,like_count:2,liked:true,comment_count:0,photos:[]}];
@@ -65,7 +65,14 @@ const storePosts=[
 const threads=[{rider:{...rider,user_id:'other',handle:'godfather817',display_name:'God Father 817'},last_message:{body:'See you at Dade Saturday?',created_at:iso(now-2*3600000),mine:false},unread:1}];
 const coaching=[];
 const checklist={items:null};
-const tracks=[{name:'Dade City MX',state:'FL',lat:28.4,lng:-82.2},{name:'Bostwick Creek',state:'FL',lat:29.8,lng:-81.6},{name:'WW Ranch',state:'FL',lat:30.2,lng:-81.9}];
+const tracks=[{id:'t-dade',name:'Dade City MX',state:'FL',lat:28.4,lng:-82.2},{id:'t-bostwick',name:'Bostwick Creek',state:'FL',lat:29.8,lng:-81.6},{id:'t-ww',name:'WW Ranch',state:'FL',lat:30.2,lng:-81.9}];
+// Ride-day features (Right now, riding here today, What I ran here, share link): sample answers for the phone checks.
+let presenceMe=false,share=null;
+const live={window_hours:6,checkins:4,latest_minutes_ago:12,statuses:[{id:'watering',label:'Watering now',riders:1,minutes_ago:12},{id:'muddy',label:'Muddy',riders:2,minutes_ago:25},{id:'busy',label:'Busy',riders:3,minutes_ago:40}],as_of:iso(now)};
+const others=[{user_id:'r2',handle:'jt_moto',display_name:'Jake T.',me:false},{user_id:'r3',handle:'sarah_mx',display_name:'Sarah K.',me:false}];
+const W=(t,c,w)=>({temp_f:t,conditions:c,wind_mph:w,humidity_pct:62,observed_at:iso(now-12*day)});
+const visits=[{day:new Date(now-12*day).toISOString().slice(0,10),weather:W(78,'Partly Cloudy',9),report:{ridden_on:'',tags:['sand','ruts_deep','watered'],tire:'Dunlop MX33',front_psi:12.5,rear_psi:12,setup_text:'',note:'Rear was kicking in the whoops by the end.',weather:W(78,'Partly Cloudy',9)},logs:[{id:'v1',recorded_at:iso(now-12*day),bike_id:bike.id,settings:{fork_compression:14,fork_rebound:15,shock_compression:15,shock_rebound:15,rider_sag_mm:105},change_made:'Shock rebound: 2 clicks slower',result:'better',notes:'',conditions:'',weather:W(78,'Partly Cloudy',9)}]},
+ {day:new Date(now-40*day).toISOString().slice(0,10),weather:W(84,'Sunny',5),report:null,logs:[{id:'v2',recorded_at:iso(now-40*day),bike_id:bike.id,settings:{fork_compression:12,shock_compression:14,rider_sag_mm:104},change_made:'Fork compression: 2 clicks stiffer',result:'no_change',notes:'',conditions:'',weather:W(84,'Sunny',5)}]}];
 const profile={...rider,bio:'Vet B. Sand tracks mostly.',created_at:iso(now-200*day),avatar_photo_id:null};
 const entitlement={status:'trialing',current_period_end:iso(now+20*day),cancel_at_period_end:false};
 const coverage={specs:1581,suspension_settings:41,torque_values:631,parts_catalog:{complete:true,part_count:912},workshop_guides:18};
@@ -126,6 +133,13 @@ function respond(p,q,method,post){
  if(p==='/api/notifications')return J([]);
  if(p==='/api/notification-settings')return J({});
  if(p==='/api/track-reports')return J([]);
+ if(p==='/api/track-checkins')return J(method==='GET'?{...live,as_of:iso(Date.now())}:{id:'c-new',track_id:'t-dade',statuses:(post&&post.statuses)||[],created_at:iso(Date.now())},method==='GET'?200:201);
+ if(p==='/api/track-presence'){if(method==='POST')presenceMe=true;if(method==='DELETE')presenceMe=false;const riders=[...(presenceMe?[{user_id:USER,handle:rider.handle,display_name:rider.display_name,me:true}]:[]),...others];return J({count:riders.length,me:presenceMe,riders});}
+ if(p==='/api/track-history')return J({track:{id:'t-dade',name:'Dade City MX'},visits});
+ if(p==='/api/ride-share'){if(method==='POST'){share={id:'44444444-4444-4444-8444-444444444444',rider_name:(post&&post.rider_name)||'',created_at:iso(Date.now()),expires_at:iso(Date.now()+((post&&post.hours)||2)*3600e3),ended_at:null,url:'https://bakmx.com/s/SAMPLEsampleSAMPLEsampleSAMPLEsa'};return J(share,201);}return J(share);}
+ if(p==='/api/ride-share/end'){share=null;return J({ended:true});}
+ if(p==='/api/ride-share/position')return J({updated:true});
+ if(p==='/api/bike-hours'){bike.engine_hours=Math.round((bike.engine_hours+((post&&post.add_hours)||0))*10)/10;return J(bike);}
  if(p==='/api/rsvps')return J([]);
  if(p==='/api/receipts')return J([]);
  if(p==='/api/reports')return J([]);
