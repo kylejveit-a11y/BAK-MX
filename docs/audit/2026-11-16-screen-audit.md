@@ -151,3 +151,13 @@ works, Supported bikes, Messages) M2 ✅ M3 ✅ M4 ✅ · A1 ✅ A2 ✅ A3 ✅ A
 · P1 ✅ P2 ✅ P3 ✅ · HW1 ✅ HW2 ✅ · AN1 ✅ · "Send check-in" blue ✅ · one pick chip everywhere ✅
 
 Not reachable in the sample builds (checked in code, unchanged this pass): sign-in / sign-up / reset screens, first setup.
+
+### Found while recording the marketing clips (iOS store build)
+- RS1 Needs correction: right after starting ride safety, "I'm back" read "Saving…" for a few seconds (it shared the Start
+  button's busy flag while the email went out). → Its own flag; reads "Ending…" only while ending. ✅ 1b7eff9c
+- RS2 Needs correction: with email-only contacts, a share sheet popped up after Start even though the button said
+  "Emails Sam". → Share sheet only when there's a phone to text or the email didn't go through. ✅ 1b7eff9c
+- CM4 Needs correction (sample data, used in screenshots): community riders named "Rider 41" and "Rider 7". → Mason T.,
+  Luis R. ✅ 1488e07f
+- Checked and fine: the Home "Ask BAK about your bike…" bar is a button that opens the chat (typing goes in the chat box);
+  Ask BAK consent shows the first-time wording for new riders and the "updated" wording only for riders with history.
