@@ -3,13 +3,14 @@ import {matchTracks,type TrackName} from '../shared/track-match.ts';
 import type {RecentRiderReports} from '../shared/track-reports.ts';
 import {recentRiderReports} from './track-reports.ts';
 import {liveConditions} from './track-checkins.ts';
+import {areaForAsk,type RidingArea} from '../shared/where-to-ride.ts';
 import type {LiveConditions} from '../shared/track-checkins.ts';
 
 /** Track knowledge (docs/research/tracks/README.md) for the tracks a rider names or is racing at soon. Additive:
  *  any read failure returns nothing so the answer is never blocked. */
 export type TrackProfile={id:string;name:string;city:string|null;state:string;status:string;access:string;types:string[];tracks_on_site:string[];
  soil:Record<string,unknown>;layout:Record<string,unknown>;conditions:Record<string,unknown>;rider_reports:{says:string;source_type?:string;date?:string|null}[];
- confidence:string;gaps:string[];elevation_ft:number|null;lat?:number|null;lng?:number|null;race?:{date:string;kind:string;days_away:number};
+ confidence:string;gaps:string[];elevation_ft:number|null;lat?:number|null;lng?:number|null;kind?:'track'|'riding_area';area?:Record<string,unknown>;race?:{date:string;kind:string;days_away:number};
  // What BAK MX riders logged after riding there lately ("How did it ride?"): counts and anonymous notes, with dates.
  recent_rider_reports?:RecentRiderReports;
  // Riders' live check-ins in the last few hours ("right now"): counts and minutes ago, riders' word, not the track's.
@@ -22,8 +23,10 @@ async function trackNames(db:SupabaseClient):Promise<TrackName[]>{
  if(error||!Array.isArray(data))return names?.rows??[];
  names={at:Date.now(),rows:data as TrackName[]};return names.rows;
 }
-const FIELDS='id,name,city,state,status,access,types,tracks_on_site,soil,layout,conditions,rider_reports,confidence,gaps,elevation_ft,lat,lng';
+const FIELDS='id,name,city,state,status,access,types,tracks_on_site,soil,layout,conditions,rider_reports,confidence,gaps,elevation_ft,lat,lng,kind,area';
 const shape=(r:Record<string,unknown>):TrackProfile=>({...(r as unknown as TrackProfile),
+ // A riding area (trail riding, not a motocross track): the confirmed trail facts, so setup advice fits the trails.
+ kind:r.kind==='riding_area'?'riding_area':'track',area:areaForAsk(r.area as RidingArea|null)??undefined,
  // Riders get what riders said and when; the links stay on file for review, not in the briefing.
  rider_reports:((r.rider_reports as {says:string;source_type?:string;date?:string|null}[])??[]).slice(0,8).map(x=>({says:x.says,source_type:x.source_type,date:x.date??null}))});
 

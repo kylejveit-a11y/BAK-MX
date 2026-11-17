@@ -90,6 +90,15 @@ const threads=[{rider:{...rider,user_id:'other',handle:'godfather817',display_na
 const coaching=[];
 const checklist={items:null};
 const tracks=[{id:'t-dade',name:'Dade City MX',state:'FL',lat:28.4,lng:-82.2},{id:'t-bostwick',name:'Bostwick Creek',state:'FL',lat:29.8,lng:-81.6},{id:'t-ww',name:'WW Ranch',state:'FL',lat:30.2,lng:-81.9}];
+// Where to Ride: the real Southeast riding-area research and Forest Service trail lines, plus the sample tracks.
+const AREAS=require('../../docs/research/riding-areas/southeast.json'),LINES=require('../../docs/research/riding-areas/trail-lines.json');
+const AREA_PLACES={'ocala-nf-ohv-trail-system':['Ocala National Forest OHV Trail System','FL',29.43,-81.82],'big-scrub-ohv':['Big Scrub (Ocala Centennial OHV)','FL',29.06,-81.75],'croom-motorcycle-area':['Croom Motorcycle Area','FL',28.6,-82.22],'houston-valley-orv':['Houston Valley OHV Trails','GA',34.78,-85.13],'oakey-mountain-ohv':['Oakey Mountain OHV Trails','GA',34.75,-83.55],'town-creek-ohv':['Town Creek OHV Trails','GA',33.65,-83.16],'windy-gap-ohv':['Windy Gap OHV','GA',34.84,-84.67],'kentuck-orv-area':['Kentuck ORV Area','AL',null,null]};
+const widthsOf=v=>['single_track','atv','full_width'].filter(k=>v&&v[k]===true);
+const lineCount=id=>LINES.filter(l=>l.track_id===id).length;
+const placeRows=[...tracks.map(t=>({id:t.id,name:t.name,kind:'track',city:null,state:t.state,lat:t.lat,lng:t.lng,status:'open',access:'public',has_trails:t.id==='t-dade',trail_miles:null,widths:[],trail_map:false})),
+ ...AREAS.filter(a=>AREA_PLACES[a.id]).map(a=>{const [name,state,lat,lng]=AREA_PLACES[a.id];return {id:a.id,name,kind:'riding_area',city:null,state,lat,lng,status:'open',access:'public',has_trails:true,trail_miles:a.trail_miles,widths:widthsOf(a.vehicles),trail_map:lineCount(a.id)>0};})].sort((x,y)=>x.name.localeCompare(y.name));
+tracks.push(...placeRows.filter(r=>r.kind==='riding_area').map(r=>({id:r.id,name:r.name,state:r.state,lat:r.lat,lng:r.lng})));
+function decodeLine(s){const out=[];let i=0,lat=0,lng=0;const next=()=>{let shift=0,r=0,b;do{b=s.charCodeAt(i++)-63;r|=(b&0x1f)<<shift;shift+=5;}while(b>=0x20&&i<=s.length);return r&1?~(r>>1):r>>1;};while(i<s.length){lat+=next();lng+=next();out.push([lng/1e5,lat/1e5]);}return out;}
 // Ride-day features (Right now, riding here today, What I ran here, share link): sample answers for the phone checks.
 let presenceMe=false,share=null,contacts=[],myName='';
 const live={window_hours:6,checkins:4,latest_minutes_ago:12,statuses:[{id:'watering',label:'Watering now',riders:1,minutes_ago:12},{id:'muddy',label:'Muddy',riders:2,minutes_ago:25},{id:'busy',label:'Busy',riders:3,minutes_ago:40}],as_of:iso(now)};
@@ -141,6 +150,10 @@ function respond(p,q,method,post){
  if(p==='/api/coaching')return J(coaching);
  if(p==='/api/race-checklist')return J(checklist);
  if(p==='/api/tracks')return J(tracks);
+ if(p==='/api/where-to-ride')return J(placeRows);
+ if(p==='/api/riding-area'){const r=placeRows.find(x=>x.id===q.get('id'));if(!r)return J({error:'Place not found'},404);const a=AREAS.find(x=>x.id===r.id)||null;
+  return J({...r,area:a,tracks_on_site:r.id==='t-dade'?['Main MX track','Vet track','Pee-wee track','Woods loop']:[],website:null,phone:null,trail_lines:lineCount(r.id),map_date:lineCount(r.id)?'2026-11-15':null,layout_notes:null});}
+ if(p==='/api/trail-lines'){const id=q.get('id');return J({map_date:'2026-11-15',lines:LINES.filter(l=>l.track_id===id).map(l=>({id:l.id,name:l.name,number:l.number,width:l.width,vehicles:{},dates_open:l.dates_open,miles:l.miles,line:decodeLine(l.line)}))});}
  if(p==='/api/photos')return J(method==='DELETE'?{ok:true}:[]);
  // Phone sample mode: a picked photo "uploads" (the app skips the storage call), so the attachment strip can be checked.
  if(p==='/api/photos/upload')return J({id:'photo-'+Math.random().toString(36).slice(2,10),path:'sample/'+Date.now()+'.jpg',token:'sample'});

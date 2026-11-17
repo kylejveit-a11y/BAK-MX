@@ -34,6 +34,9 @@ export const HOW_BAK_WORKS:HowSection[]=[
   'Ride Day mode is the practice day in big, glove-size buttons: log a session or start a timer, log a setup change in two taps, see your setup, check in how the track is riding. The screen stays on, and a tap lock (auto after 3 minutes if you choose) ignores bumps. Back goes one step at a time.',
   'Ride safety: pick when you’ll be back and BAK texts and emails the people you choose a link to where you were last seen. You get three reminders first; only if you don’t check in 30 minutes after your time does BAK email them. Tap I’m back to end it. Only your last spot is kept.',
   'Right now shows what riders at the track say today (open, watered, muddy, busy). What I ran here shows your setup, tires and weather from your last visits to the same track.']},
+ {id:'where',title:'Where to Ride',lines:[
+  'Tracks and riding areas in one list (Home › More). For a riding area: what you can ride and how wide, passes, season, hours and rules from the official pages, how riders say it’s riding today, and a trail map for National Forest areas.',
+  'Ride here today starts a practice day there. Closures change: check the official page before a long drive.']},
  {id:'fuel',title:'Fuel plan',lines:[
   'What to eat and drink, and when. Enter your weight, height and age once and BAK lays out the day before, race morning, between motos and after, timed to your gate drops.',
   'Nervous stomach on race day? Turn that on and the plan goes easier. Parents can set one up for a child rider. It shows on Home on race day and practice day.']},

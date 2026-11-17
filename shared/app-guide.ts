@@ -31,6 +31,12 @@ export const APP_GUIDE:AppGuideEntry[]=[
   'Pick the bike and track, “Start practice day”. UP NEXT sets the next session time (iPhone: Lock Screen countdown; Android: pinned notification and a heads-up 10 minutes before).',
   'LOG A SESSION: Time on track (chips or type minutes), How it went, the setup change with detail and How did it ride? (goes into your setup log). SESSIONS lists today. “End practice day” closes it.'],
   words:/\bpractice ?day\b|\bsession log\b|\blog (a )?session\b|\bstart practice\b/i},
+ {screen:'Where to Ride',path:'Home → More → Where to Ride',purpose:'Every track and riding area BAK knows: what you can ride, passes, season, rules, how riders say it’s riding today, and a trail map for National Forest areas.',how:[
+  'Search by name or town, pick Tracks or Riding areas, pick a state, or tap Near me for nearest first (uses your location on the phone only).',
+  'A riding area shows what you can ride (single-track, ATV trail under 50 in, full-width), the width limit, trail miles, pass or fee, season, hours and rules. Anything not confirmed says so: check the official page.',
+  'Trail map: the Forest Service trail lines coloured by width, with each trail’s name and season. Tap a trail in the list to highlight it. Closures change, so check the official page before you ride.',
+  'Ride here today starts a practice day there (Ride Day mode, check-ins, Ride safety). Also: Ask BAK about riding here, Directions, Official page and Open in onX.'],
+  words:/where to ride|riding area|trail ?map|trails? near|ohv|national forest|single ?track|near me/i},
  {screen:'Ride Day mode',path:'Home → Practice day → “Ride Day mode”',purpose:'A full-screen, glove-size view for the track: the screen stays on and a tap lock stops bumps pressing anything.',how:[
   'On opening: “Yes, auto-lock after 3 min” or “No, I’ll lock it myself”. The lock button locks it any time; hold the unlock button to get back in.',
   'Tiles: Log session (or “Heading out? Start a timer”, then “Back in”), Setup change (what you changed, then how much), My setup (the numbers from Garage › Setup and what you changed today), Track check-in, Ride safety, Ask BAK. Coming in, it asks how your last change rode (Better · Worse · No change). Back goes one step back; Done closes it.'],
