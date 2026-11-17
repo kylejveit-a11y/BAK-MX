@@ -30,7 +30,7 @@ export function ProfileSharing({bike,photos,onChanged}:{bike:Bike;photos:Photo[]
   try{const saved=await api<Sharing>('/api/garage-sharing','PUT',{bike_id:bike.id,show_on_profile:sharing.show_on_profile,build_sheet_public:sharing.build_sheet_public,photo_ids:sharing.photo_ids,...next});setSharing(saved);onChanged?.();}
   catch(e){setNotice(errorText(e));}finally{setBusy(false);}
  }
- if(!sharing)return <Card><Eyebrow>PROFILE</Eyebrow>{error?<Notice text={error}/>:<ActivityIndicator color={colors.accent}/>}</Card>;
+ if(!sharing)return <Card><Eyebrow>SHARING</Eyebrow>{error?<Notice text={error}/>:<ActivityIndicator color={colors.accent}/>}</Card>;
  const on=sharing.show_on_profile,picked=new Set(sharing.photo_ids);
  const toggle=(id:string)=>{const ids=picked.has(id)?sharing.photo_ids.filter(x=>x!==id):[...sharing.photo_ids,id];if(ids.length>8){setNotice('Choose up to 8 photos.');return;}void save({photo_ids:ids});};
  const row=(title:string,detail:string,value:boolean,onChange:(v:boolean)=>void)=><View style={{flexDirection:'row',alignItems:'center',gap:12}}>
@@ -38,7 +38,7 @@ export function ProfileSharing({bike,photos,onChanged}:{bike:Bike;photos:Photo[]
   <Switch value={value} disabled={busy} onValueChange={onChange} accessibilityLabel={title}/>
  </View>;
  return <Card>
-  <Eyebrow>PROFILE</Eyebrow>
+  <Eyebrow>SHARING</Eyebrow>
   {row('Show this bike on my profile',on?'Riders see the bike and the photos you tick below.':'Off: only you see this bike and its photos.',on,v=>void save({show_on_profile:v,build_sheet_public:v&&sharing.build_sheet_public,photo_ids:v?sharing.photo_ids:[]}))}
   {on&&<View style={{gap:8}}>
    <Text style={{color:'#9aa2ae',fontSize:12.5}}>{photos.length?`Tap photos to show them · ${picked.size} of up to 8 shown`:'Add photos above, then tick the ones to show.'}</Text>

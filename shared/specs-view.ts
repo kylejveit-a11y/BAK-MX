@@ -145,7 +145,8 @@ export function groupSpecRows(rows:SpecRow[]):{s:FactSystem;items:SpecRow[];serv
 
 /** The values riders look up most. Workshop-only numbers (valve clearances, torques) stay in the list and the search. */
 const QUICK:{label:string;rx:RegExp}[]=[
- {label:'Riding sag',rx:/riding sag|race sag|rider sag/i},
+ // "Race sag" is what riders and the Garage call it (manuals say riding sag).
+ {label:'Race sag',rx:/riding sag|race sag|rider sag/i},
  {label:'Tire pressure',rx:/tire (air )?pressure|tyre pressure|offroad tire pressure/i},
  {label:'Spark plug',rx:/spark plug(?!.*(torque|gap|tightening))|specified spark plug/i},
  {label:'Coolant',rx:/coolant.*(quantity|capacity|amount)|capacities.*coolant|^coolant$/i},

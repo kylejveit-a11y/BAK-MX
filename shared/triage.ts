@@ -39,7 +39,9 @@ export function composeTriage(a:TriageAnswers):string{
  parts.push((a.complaintText||(g?complaintLabel(g.id):a.complaint)).replace(/\.$/,'')+'.');
  if(g?.ask&&a.decider)parts.push(a.decider==='Not sure'?`Not sure: ${g.ask.charAt(0).toLowerCase()+g.ask.slice(1)}`:a.decider.replace(/\.$/,'')+'.');
  if(a.throttle)parts.push(`It happens: ${a.throttle.toLowerCase()}.`);
- if(a.where.length)parts.push(`Where: ${a.where.join(', ').toLowerCase()}.`);
+ // A place the decider answer already names ("…at corner entry") isn't repeated under Where.
+ const said=parts.join(' ').toLowerCase(),where=a.where.filter(w=>!said.includes(w.toLowerCase()));
+ if(where.length)parts.push(`Where: ${where.join(', ').toLowerCase()}.`);
  if(a.track.length)parts.push(`Track: ${a.track.join(', ').toLowerCase()}.`);
  if(a.notes?.trim())parts.push(a.notes.trim());
  return parts.join(' ').replace(/\.\./g,'.');

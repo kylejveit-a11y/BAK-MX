@@ -61,13 +61,15 @@ function LockScreen({onUnlock,track,next,setup}:{onUnlock:()=>void;track:string;
 }
 
 export function RideDayMode({visible,onClose,bike,track,sessions,onLog,onRate,onAsk}:{visible:boolean;onClose:()=>void;bike:Bike;track:string;sessions:PracticeSession[];onLog:(d:SessionDraft)=>Promise<string>;onRate:(id:string,r:SetupResult)=>void;onAsk:()=>void}){
+ // Android's back button goes one step back like the Back button, does nothing while locked, and closes only from the start.
+ const backRef=useRef<()=>boolean>(()=>false);
  if(!visible)return null;
- return <Modal visible animationType="fade" presentationStyle="fullScreen" onRequestClose={onClose} supportedOrientations={['portrait']}>
-  <RideDayInner onClose={onClose} bike={bike} track={track} sessions={sessions} onLog={onLog} onRate={onRate} onAsk={onAsk}/>
+ return <Modal visible animationType="fade" presentationStyle="fullScreen" onRequestClose={()=>{if(!backRef.current())onClose();}} supportedOrientations={['portrait']}>
+  <RideDayInner backRef={backRef} onClose={onClose} bike={bike} track={track} sessions={sessions} onLog={onLog} onRate={onRate} onAsk={onAsk}/>
  </Modal>;
 }
 
-function RideDayInner({onClose,bike,track,sessions,onLog,onRate,onAsk}:{onClose:()=>void;bike:Bike;track:string;sessions:PracticeSession[];onLog:(d:SessionDraft)=>Promise<string>;onRate:(id:string,r:SetupResult)=>void;onAsk:()=>void}){
+function RideDayInner({backRef,onClose,bike,track,sessions,onLog,onRate,onAsk}:{backRef:React.MutableRefObject<()=>boolean>;onClose:()=>void;bike:Bike;track:string;sessions:PracticeSession[];onLog:(d:SessionDraft)=>Promise<string>;onRate:(id:string,r:SetupResult)=>void;onAsk:()=>void}){
  useKeepAwake('bak-ride-day');
  const insets=useSafeAreaInsets();
  const [view,setViewRaw]=useState<View_>('start'),[trail,setTrail]=useState<View_[]>([]),[autoLock,setAutoLock]=useState(false),[draft,setDraft]=useState<SessionDraft>(emptySession),[typing,setTyping]=useState(false);
@@ -84,6 +86,7 @@ function RideDayInner({onClose,bike,track,sessions,onLog,onRate,onAsk}:{onClose:
  // Every step remembers where it came from, so Back goes one step back (a wrong tap never costs the whole entry).
  const setView=(next:View_)=>{setTrail(t=>next==='home'?[]:[...t,view]);setViewRaw(next);};
  const back=()=>{const prev=trail[trail.length-1];setTrail(t=>t.slice(0,-1));if(!prev||prev==='home'){home();return;}if(view==='how')setTyping(false);setViewRaw(prev);};
+ backRef.current=()=>{if(locked)return true;if(view==='home'||view==='start')return false;back();return true;};
  const set=(p:Partial<SessionDraft>)=>setDraft(d=>({...d,...p}));
  const setup=bikeSetup(bike),n=nextSessionNumber(sessions),last=[...sessions].sort((a,b)=>b.n-a.n)[0];
  const trackId=useTrackId(track),{live,reload}=useLiveConditions(trackId);

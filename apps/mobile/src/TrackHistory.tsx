@@ -41,7 +41,7 @@ export function TrackHistoryCard({track,bikeId}:{track:string;bikeId?:string}){
  const past=(visits??[]).filter(v=>v.day<t);
  if(!past.length)return null;
  return <Card>
-  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="history" size={16} color={colors.accent}/><Eyebrow>WHAT I RAN HERE</Eyebrow></View>
+  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="history" size={16} color={colors.accent}/><Eyebrow bare>WHAT I RAN HERE</Eyebrow></View>
   <VisitView v={past[0]} full={all}/>
   {all&&past.slice(1).map(v=><View key={v.day} style={{borderTopWidth:1,borderTopColor:'#232832',paddingTop:10}}><VisitView v={v} full/></View>)}
   <Pressable accessibilityRole="button" onPress={()=>setAll(a=>!a)} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{all?'Show less':past.length>1?`Details and all ${past.length} visits`:'Details'}</Text></Pressable>

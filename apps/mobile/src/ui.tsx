@@ -2,6 +2,7 @@ import React from 'react';
 import {Animated,Text,View,Image,TextInput,ScrollView,StyleSheet,InputAccessoryView,Keyboard,Platform,Switch as RNSwitch,type ImageProps,type TextInputProps,type SwitchProps} from 'react-native';
 import {Pressable} from './Touch';
 import {HeaderHeightContext} from '@react-navigation/elements';
+import {useNavigation} from '@react-navigation/native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {WheelSelect} from './Wheel';
 import {BottomTabBarHeightContext} from '@react-navigation/bottom-tabs';
@@ -20,7 +21,7 @@ import Svg,{Defs,LinearGradient,Rect,Stop} from 'react-native-svg';
  safeTop pads under the status bar on screens with no header; footer floats as a glass bar above the tab bar or keyboard.
  footerForAction: the footer is a form's primary button (Publish, Save). The fields stay in the page and keep their keyboard
  insets so each scrolls into view; the footer rides above the keyboard, and the tab bar can never cover it. */
-export function Page({title,children,safeTop=false,footer,footerForAction=false,fill=false,scrollRef,onContentSizeChange,onScrollBeginDrag}:{title:string;children:React.ReactNode;safeTop?:boolean;footer?:React.ReactNode;footerForAction?:boolean;/** the content is at least as tall as the screen, so a child with flexGrow can centre itself in the open space */fill?:boolean;scrollRef?:React.Ref<ScrollView>;onContentSizeChange?:(w:number,h:number)=>void;onScrollBeginDrag?:()=>void}){
+export function Page({title,back,children,safeTop=false,footer,footerForAction=false,fill=false,scrollRef,onContentSizeChange,onScrollBeginDrag}:{title:string;/** a Back link above the title: where it goes and what it says */back?:{title:string;onPress:()=>void};children:React.ReactNode;safeTop?:boolean;footer?:React.ReactNode;footerForAction?:boolean;/** the content is at least as tall as the screen, so a child with flexGrow can centre itself in the open space */fill?:boolean;scrollRef?:React.Ref<ScrollView>;onContentSizeChange?:(w:number,h:number)=>void;onScrollBeginDrag?:()=>void}){
  const insets=useSafeAreaInsets(),header=React.useContext(HeaderHeightContext)??0,inTabs=React.useContext(BottomTabBarHeightContext)!==undefined;
  const tabSpace=useTabSpace(),kb=useKeyboardHeight(),[footH,setFootH]=React.useState(0);
  const bottomChrome=inTabs?tabSpace:insets.bottom;
@@ -31,7 +32,7 @@ export function Page({title,children,safeTop=false,footer,footerForAction=false,
   <ScrollView ref={scrollRef} onContentSizeChange={onContentSizeChange} onScrollBeginDrag={onScrollBeginDrag} keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets={!footer||footerForAction} scrollIndicatorInsets={{top:header,bottom:bottomChrome}}
    contentContainerStyle={[s.page,fill&&{flexGrow:1},{paddingTop:(safeTop?insets.top:header)+16,paddingBottom:contentBottom+(fill?10:28)}]}>
    <OfflineLine/>
-   {title?<PageTitle>{title}</PageTitle>:null}{children}
+   {back?<View style={{marginBottom:-8}}><BackLink title={back.title} onPress={back.onPress}/></View>:null}{title?<PageTitle>{title}</PageTitle>:null}{children}
   </ScrollView>
   {/* pages without a header: cover the status bar so text never scrolls up under the clock */}
   {safeTop?<TopScrim height={insets.top+22}/>:null}
@@ -105,7 +106,19 @@ export const WORDMARK=require('../assets/bak-mx-wordmark.png');
 export function Brand({compact=false,center=false}:{compact?:boolean;center?:boolean}){const h=compact?26:40;return <View accessible accessibilityRole="header" accessibilityLabel="BAK MX" style={{gap:9,alignItems:center?'center':undefined}}><Image source={WORDMARK} fadeDuration={0} accessibilityIgnoresInvertColors style={{height:h,width:h*900/139}} resizeMode="contain"/>{!compact&&<Text style={{color:'#8f97a4',fontWeight:'700',fontSize:10,letterSpacing:4}}>BAK STRONG</Text>}</View>}
 
 /** Small label above a section heading. */
-export function Eyebrow({children}:{children:React.ReactNode}){return <Text style={s.eyebrow}>{children}</Text>}
+/** The one pick chip, used everywhere a rider picks from a few options (track tags, categories, filters, times, types).
+ *  Picked: the bike-color edge, a light tint and a small check. Not picked: a quiet outline. Blue metal stays for main actions. */
+export function PickChip({label,on,onPress,disabled=false,radio=false,small=false}:{label:string;on:boolean;onPress:()=>void;disabled?:boolean;radio?:boolean;small?:boolean}){
+ return <Pressable haptic="select" accessibilityRole={radio?'radio':'button'} accessibilityLabel={label} accessibilityState={radio?{checked:on,disabled}:{selected:on,disabled}} disabled={disabled} onPress={onPress}
+  style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:5,paddingHorizontal:small?12:13,minHeight:small?32:36,borderRadius:18,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?tint(0.16):'transparent',opacity:disabled?0.4:pressed?0.7:1})}>
+  {on&&<Icon name="check" size={small?12:13} color={colors.accent} weight={2.4}/>}
+  <Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:small?13.5:14,fontWeight:on?'700':'500'}}>{label}</Text>
+ </Pressable>;
+}
+/** Back for pages opened from Home › More or Account (they aren't tabs, so iPhone has no other way back). */
+export function usePageBack(){const nav=useNavigation();return nav.canGoBack()?{title:'Back',onPress:()=>nav.goBack()}:undefined;}
+/** A section label. It leads with the accent dash, so every section reads the same; `bare` when an icon already leads it. */
+export function Eyebrow({children,bare=false}:{children:React.ReactNode;bare?:boolean}){return bare?<Text style={s.eyebrow}>{children}</Text>:<View style={{flexDirection:'row',alignItems:'center',gap:7}}><MetalMark width={14}/><Text style={s.eyebrow}>{children}</Text></View>}
 /** Status: done (tick) or still to do (dot). */
 export function Chip({label,done}:{label:string;done:boolean}){return <View style={{flexDirection:'row',alignItems:'center',gap:5,paddingVertical:2,marginRight:6}}>{done?<Icon name="check" size={14} color="#9fdcb3" weight={2.2}/>:<View style={{width:6,height:6,borderRadius:3,backgroundColor:'#58606e',marginHorizontal:4}}/>}<Text style={{color:done?'#d8f0df':'#a7afbd',fontSize:13}}>{label}</Text></View>}
 /** Open list row: icon, title, one short line, and a chevron (or plus). Hairline below. */

@@ -147,7 +147,7 @@ export function RacePrepBlock({account,bike,onOpen}:{account:string;bike:Bike;on
  const rows=RACE_PHASES.map(p=>{const its=list.filter(i=>i.phase===p.id);return {p,done:its.filter(i=>checks[i.id]).length,total:its.length};}).filter(r=>r.total>0);
  const started=rows.some(r=>r.done>0);
  return <Card>
-  <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={14}/><Eyebrow>RACE PREP</Eyebrow></View>
+  <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>RACE PREP</Eyebrow></View>
    <Pressable accessibilityRole="button" onPress={onOpen} hitSlop={8} style={{flexDirection:'row',alignItems:'center',gap:4}}><Text style={{color:colors.text,fontWeight:'700'}}>{started?'Open':'Start'}</Text><Icon name="chevronRight" size={15} color={colors.accent} weight={2.2}/></Pressable></View>
   {!started&&<Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>Your checklist from the week before to after the race. Make it yours: add, remove and reorder.</Text>}
   {started&&rows.map(r=><Pressable key={r.p.id} accessibilityRole="button" onPress={onOpen} style={{gap:5}}>

@@ -14,7 +14,7 @@ import {today,type RaceDay} from '../../../shared/race-day';
 import {api} from './api';
 import {readProgress,writeProgress} from './localProgress';
 import {Pressable} from './Touch';
-import {Button,Card,DONE_BAR,Eyebrow,Icon,KeyboardDoneBar,MetalMark,Notice,Switch,colors,tint} from './ui';
+import {Button,Card,DONE_BAR,Eyebrow,Icon,KeyboardDoneBar,MetalMark,Notice,Switch,colors,tint,PickChip} from './ui';
 import {Glass,useKeyboardHeight} from './Glass';
 import {success} from './haptics';
 
@@ -27,7 +27,7 @@ const Label=({children}:{children:React.ReactNode})=><Text style={{color:'#adb5c
 const Small=({children,tone}:{children:React.ReactNode;tone?:string})=><Text style={{color:tone??'#7d8593',fontSize:12.5,lineHeight:18}}>{children}</Text>;
 const Wrap=({children}:{children:React.ReactNode})=><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{children}</View>;
 function Chip({label,on,onPress,disabled=false}:{label:string;on:boolean;onPress:()=>void;disabled?:boolean}){
- return <Pressable haptic="select" accessibilityRole="button" accessibilityState={{selected:on,disabled}} disabled={disabled} onPress={onPress} style={({pressed})=>({paddingHorizontal:12,paddingVertical:7,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?tint(0.16):'transparent',opacity:disabled?0.4:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:14,fontWeight:on?'700':'500'}}>{label}</Text></Pressable>;
+ return <PickChip label={label} on={on} onPress={onPress} disabled={disabled}/>;
 }
 function Toggle({label,value,onChange}:{label:string;value:boolean;onChange:(v:boolean)=>void}){
  return <View style={{flexDirection:'row',alignItems:'center',gap:12}}><Text style={{flex:1,color:colors.text,fontSize:15}}>{label}</Text><Switch value={value} onValueChange={onChange} accessibilityLabel={label}/></View>;
@@ -97,7 +97,7 @@ export function FuelPlanCard({account,race,kind}:{account:string;race:RaceDay;ki
  const setTime=(i:number,text:string)=>{setDrafts(d=>({...d,[i]:text}));const at=parseClock(text);if(at||!text.trim()){const gs=[...saved.input.gates];gs[i]={...gs[i],at:at??''};setInput({gates:gs});}};
 
  if(!row)return <Card>
-  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={14}/><Eyebrow>FUEL PLAN</Eyebrow></View>
+  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>FUEL PLAN</Eyebrow></View>
   <Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>What to eat and drink, and when</Text>
   <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>Worried food will make you feel bad on the bike? Enter weight, height and age once and BAK lays out the day before, race morning, between motos and after, timed to your gate drops. Parents can set one up for a child rider.</Text>
   <Notice text={error}/>
@@ -108,7 +108,7 @@ export function FuelPlanCard({account,race,kind}:{account:string;race:RaceDay;ki
  const {ahead,past}=plan?splitByNow(plan.items,now):{ahead:[],past:[]};
  return <Card>
   <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
-   <View style={{flexDirection:'row',alignItems:'center',gap:8,flex:1}}><MetalMark width={14}/><Eyebrow>FUEL PLAN · {profileName(row).toUpperCase()}{youth?' · PARENT VIEW':''}</Eyebrow></View>
+   <View style={{flexDirection:'row',alignItems:'center',gap:8,flex:1}}><Eyebrow>FUEL PLAN · {profileName(row).toUpperCase()}{youth?' · PARENT VIEW':''}</Eyebrow></View>
    <Pressable accessibilityRole="button" onPress={()=>setSetup(true)} hitSlop={8}><Text style={{color:colors.text,fontWeight:'700'}}>Rider</Text></Pressable>
   </View>
   {rows.length>1&&<Wrap>{rows.map(r=><Chip key={r.id} label={profileName(r)} on={r.id===row.id} onPress={()=>save({...saved,profileId:r.id})}/>)}</Wrap>}

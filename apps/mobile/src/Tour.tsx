@@ -14,10 +14,10 @@ import {BlueFace,onBlueText} from './BlueFace';
 
 export type TourTab='Home'|'Garage'|'Ask BAK'|'Events';
 export const TOUR_STEPS:{tab:TourTab;title:string;body:string}[]=[
- {tab:'Home',title:'Home is your pit board',body:'Ask BAK from the bar at the top. Your bike, what service is next and a race countdown live here.'},
+ {tab:'Home',title:'Home is your pit board',body:'Ask BAK from the question bar. Your bike, what service is next and your race or practice day live here.'},
  {tab:'Garage',title:'Garage is what BAK knows',body:'Clickers, sag, springs, tires and parts for each bike. The more you fill in, the sharper every answer gets.'},
  {tab:'Ask BAK',title:'Ask it like you’d tell your buddy',body:'Say what the bike is doing. You get one change to try and what you should feel. You can also ask how anything in the app works.'},
- {tab:'Events',title:'Race day, logs and riders',body:'Set a race from Home for a countdown and prep list. Log what you changed after a ride so BAK remembers what worked. Events and Community are for riding with others.'},
+ {tab:'Events',title:'Track days and riders',body:'Start a race or practice day from Home. Ride Day mode gives you glove-size buttons and ride safety at the track. Log what you changed so BAK remembers what worked. Events and Community are for riding with others.'},
 ];
 
 // One tour at a time, started from anywhere (the Home offer, How BAK works).
@@ -61,7 +61,7 @@ export function TourOffer({account}:{account:string}){
   <View style={{gap:6}}>
    <Text style={{color:'#b9c0ca',fontWeight:'800',letterSpacing:2.2,fontSize:11}}>NEW HERE?</Text>
    <Text style={{color:'#f3f5f8',fontSize:17,...DISPLAY,letterSpacing:0,textShadowColor:'rgba(0,0,0,0.7)',textShadowOffset:{width:0,height:1},textShadowRadius:1}}>Take the 30-second tour</Text>
-   <Text style={{color:'#c4cad3',fontSize:14,lineHeight:20}}>Four stops: Home, Garage, Ask BAK and race day. Skip any time.</Text>
+   <Text style={{color:'#c4cad3',fontSize:14,lineHeight:20}}>Four stops: Home, Garage, Ask BAK and track days. Skip any time.</Text>
   </View>
   <View style={{flexDirection:'row',gap:10}}>
    <View style={{flex:1}}><Button title="Show me" onPress={()=>answer(true)}/></View>

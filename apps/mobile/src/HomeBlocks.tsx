@@ -16,7 +16,7 @@ import {api,apiStream,apiQueued,currentStore} from './api';
 import {isLocal,pending,withPending} from './offline';
 import {readProgress,writeProgress} from './localProgress';
 import {Pressable} from './Touch';
-import {Button,Card,Copy,Eyebrow,Icon,MetalMark,Notice,Switch,colors,tint,type IconName} from './ui';
+import {Button,Card,Copy,Eyebrow,Icon,MetalMark,Notice,Switch,colors,tint,type IconName,PickChip} from './ui';
 import {success} from './haptics';
 import {RacePrepCard,RacePrepSheet,useRacePrep,Progress} from './RacePrep';
 import {FuelPlanCard} from './FuelPlan';
@@ -72,7 +72,7 @@ export function HomeEditor({visible,layout,onChange,onReset,onClose}:{visible:bo
 // ------------------------------------------------------------------ blocks
 function BlockHead({title,action,onAction}:{title:string;action?:string;onAction?:()=>void}){
  return <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
-  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={14}/><Eyebrow>{title}</Eyebrow></View>
+  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>{title}</Eyebrow></View>
   {action&&onAction&&<Pressable accessibilityRole="button" hitSlop={8} onPress={onAction} style={{flexDirection:'row',alignItems:'center',gap:4}}><Text style={{color:colors.text,fontWeight:'700'}}>{action}</Text><Icon name="chevronRight" size={15} color={colors.accent} weight={2.2}/></Pressable>}
  </View>;
 }
@@ -174,7 +174,7 @@ export function RaceSetupCard({account,bike,track,day,onOpenChat}:{account:strin
   }catch(e){setNotice(errorText(e));}finally{setBusy(false);setLive(null);}
  }
  return <Card>
-  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={14}/><Eyebrow>BAK’S SETUP FOR {track?track.toUpperCase():'THIS RACE'}</Eyebrow></View>
+  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>BAK’S SETUP FOR {track?track.toUpperCase():'THIS RACE'}</Eyebrow></View>
   {!saved&&!live&&<Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>BAK works out where to start for this track and day: the dirt and layout, the weather forecast once it’s within a week, and what’s on your bike now. {track?'':'Add the track for track info and weather. '}It may say your setup is already right.</Text>}
   {live&&<View style={{gap:6}}>{!!live.summary&&<Text style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:22}}>{plain(live.summary)}</Text>}{!!live.answer&&<RichText text={live.answer}/>}<Text style={{color:'#8b93a1',fontSize:12.5}}>{live.summary||live.answer?'Writing… final checks run before it’s saved.':'Reading the track, the forecast and your bike…'}</Text></View>}
   {saved&&!live&&<View style={{gap:10}}>
@@ -231,11 +231,11 @@ export function NextUpCard({race,labels,onSet}:{race:RaceDay;labels:string[];onS
  useEffect(()=>{setLabel(next?.label??labels[0]);setAt(startAt());setEditing(!next?.at);},[next?.label,next?.at,labels[0]]);
  const save=()=>{success();onSet({label,at:clockOf(at)});setEditing(false);};
  const when=nextUpDate(next,race.day);
- const chip=(l:string)=>{const on=label===l;return <Pressable key={l} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setLabel(l)} style={({pressed})=>({paddingHorizontal:12,paddingVertical:7,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:14,fontWeight:on?'700':'500'}}>{l}</Text></Pressable>;};
+ const chip=(l:string)=>{const on=label===l;return <PickChip key={l} label={l} on={on} onPress={()=>setLabel(l)}/>;};
  const picked=(_e:DateTimePickerEvent,d?:Date)=>{setAndroidOpen(false);if(d)setAt(d);};
  return <Card>
   <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}>
-   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="clock" size={16} color={colors.accent}/><Eyebrow>NEXT UP</Eyebrow></View>
+   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="clock" size={16} color={colors.accent}/><Eyebrow bare>UP NEXT</Eyebrow></View>
    {!editing&&next&&<View style={{flexDirection:'row',gap:16}}>
     <Pressable accessibilityRole="button" onPress={()=>setEditing(true)} hitSlop={8}><Text style={{color:colors.text,fontWeight:'700'}}>Change</Text></Pressable>
     <Pressable accessibilityRole="button" onPress={()=>onSet(null)} hitSlop={8}><Text style={{color:colors.muted}}>Clear</Text></Pressable>
@@ -253,7 +253,7 @@ export function NextUpCard({race,labels,onSet}:{race:RaceDay;labels:string[];onS
     :<><Pressable accessibilityRole="button" accessibilityLabel={`${label} time, ${clockText(clockOf(at))}. Change`} onPress={()=>setAndroidOpen(true)} hitSlop={8} style={({pressed})=>({paddingVertical:10,borderBottomWidth:1,borderBottomColor:colors.accent,opacity:pressed?0.7:1})}><Text style={{color:colors.text,fontSize:22,fontWeight:'800'}}>{clockText(clockOf(at))}</Text></Pressable>
      {androidOpen&&<DateTimePicker value={at} mode="time" display="spinner" minuteInterval={5} themeVariant="dark" accentColor={colors.accent} onChange={picked}/>}</>}
    <View style={{flexDirection:'row',alignItems:'center',gap:18}}>
-    <Pressable accessibilityRole="button" accessibilityLabel={`Set ${label} at ${clockText(clockOf(at))}`} onPress={save} hitSlop={8}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Set</Text></Pressable>
+    <View style={{flex:1}}><Button title={`Set ${label} for ${clockText(clockOf(at))}`} onPress={save}/></View>
     {next&&<Pressable accessibilityRole="button" onPress={()=>{setEditing(false);setAt(startAt());}} hitSlop={8}><Text style={{color:colors.muted,fontSize:15}}>Cancel</Text></Pressable>}
    </View>
   </>}
@@ -268,7 +268,7 @@ export function RaceCountdown({account,bike,race,onPrep,onEnd,onOpenChat}:{accou
  const n=daysToGo(race.day),date=new Date(race.day+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric'});
  return <>
   <Card>
-   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="flag" size={16} color={colors.accent}/><Eyebrow>NEXT RACE</Eyebrow></View>
+   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="flag" size={16} color={colors.accent}/><Eyebrow bare>NEXT RACE</Eyebrow></View>
    <View style={{flexDirection:'row',alignItems:'flex-end',gap:14}}>
     <View style={{alignItems:'center'}}><Text style={{color:colors.text,fontSize:44,fontWeight:'900',fontStyle:'italic',letterSpacing:-1.5,lineHeight:48}}>{n}</Text><Text style={{color:colors.muted,fontSize:12,fontWeight:'700',letterSpacing:1}}>{n===1?'DAY':'DAYS'}</Text></View>
     <View style={{flex:1,gap:2,paddingBottom:4}}><Text style={{color:colors.text,fontSize:21,fontWeight:'800'}} numberOfLines={2}>{race.track||'Race day'}</Text><Text style={{color:colors.muted,fontSize:14}}>{date}</Text></View>
@@ -323,10 +323,10 @@ export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenC
    success();setWhat('');setDetail('');setNote('');setResult('not_tested');if(saved.pending)setNotice('No signal. Saved on this phone; it sends when you’re back in range.');await load();
   }catch(e){setNotice(errorText(e));}finally{setBusy(false);}
  }
- const chip=(label:string,on:boolean,onPress:()=>void)=><Pressable key={label} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={onPress} style={({pressed})=>({paddingHorizontal:12,paddingVertical:7,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:14,fontWeight:on?'700':'500'}}>{label}</Text></Pressable>;
+ const chip=(label:string,on:boolean,onPress:()=>void)=><PickChip key={label} label={label} on={on} onPress={onPress}/>;
  return <>
   <View style={{gap:6}}>
-   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={22}/><Eyebrow>RACE DAY · {new Date().toLocaleDateString([],{weekday:'long',month:'short',day:'numeric'}).toUpperCase()}</Eyebrow></View>
+   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>RACE DAY · {new Date().toLocaleDateString([],{weekday:'long',month:'short',day:'numeric'}).toUpperCase()}</Eyebrow></View>
    <Text style={{color:colors.text,fontSize:24,...DISPLAY,letterSpacing:0}}>{track||'Track day'}</Text>
    <Text style={{color:colors.muted,fontSize:14}}>{bike.model_year} {bike.manufacturer} {bike.model}{bike.engine_hours!=null?` · ${bike.engine_hours} h`:''}</Text>
   </View>
@@ -336,7 +336,7 @@ export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenC
   <FuelPlanCard account={account} race={day} kind="race"/>
   <BikeNowCard bike={bike}/>
   <TrackHistoryCard track={track} bikeId={bike.id}/>
-  <Card><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="bolt" size={16} color={colors.accent}/><Eyebrow>QUICK ASK</Eyebrow></View>
+  <Card><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="bolt" size={16} color={colors.accent}/><Eyebrow bare>QUICK ASK</Eyebrow></View>
    <Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>Tap what the bike did. BAK answers in race mode: the one change to make, short and fast.</Text>
    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{QUICK.map(q=>chip(q,false,()=>onQuick(quickAskText(track,q))))}</View>
   </Card>
@@ -397,7 +397,7 @@ export function RaceDayStart({visible,initialKind='race',bike,bikes,onSwitch,onS
    </View>
    <View style={{gap:8}}>
     <Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>Track</Text>
-    {picks.length>0&&<View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{picks.map(t=>{const on=track===t;return <Pressable key={t} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setTrack(on?'':t)} style={({pressed})=>({paddingHorizontal:12,paddingVertical:8,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:14.5,fontWeight:on?'700':'500'}}>{t}</Text></Pressable>;})}</View>}
+    {picks.length>0&&<View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{picks.map(t=>{const on=track===t;return <PickChip key={t} label={t} on={on} onPress={()=>setTrack(on?'':t)}/>;})}</View>}
     <TextInput value={track} onChangeText={setTrack} maxLength={120} placeholder={picks.length?'Or search BAK’s tracks':'Search tracks, e.g. Dade City'} placeholderTextColor="#7d8593" autoCapitalize="words" autoCorrect={false} returnKeyType="done" onSubmitEditing={()=>Keyboard.dismiss()} style={{color:colors.text,fontSize:18,fontWeight:'600',borderBottomWidth:1,borderBottomColor:colors.accent,paddingVertical:10}}/>
     {suggestions.length>0&&<View style={{gap:2}}>{suggestions.map(t=><Pressable key={t.name} haptic="select" accessibilityRole="button" accessibilityLabel={`${t.name}${t.weather?', forecast available':''}`} onPress={()=>{setTrack(t.name);Keyboard.dismiss();}} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:10,paddingVertical:11,borderBottomWidth:1,borderBottomColor:'#1d2128',opacity:pressed?0.6:1})}>
      <View style={{flex:1,gap:1}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>{t.name}</Text><Text style={{color:'#8b93a1',fontSize:12.5}}>{[t.city,t.state].filter(Boolean).join(', ')}</Text></View>

@@ -8,6 +8,7 @@ import {colors,LABEL,DISPLAY} from './theme';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {tap as hTap,select as hSelect} from './haptics';
 import {Icon} from './Icon';
+import {BlueFace,blueLift,onBlueText} from './BlueFace';
 
 export type Option={value:string;label:string;detail?:string};
 const ROW=54;
@@ -72,7 +73,7 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
    {/* One instruction only: the button. Scrolling moves the lit row; the row and the button both choose it. */}
    <View style={st.bottom}>
     {footer?<Pressable accessibilityRole="button" onPress={footer.onPress} hitSlop={8}><Text style={{color:C.muted,fontWeight:'600',fontSize:14}}>{footer.label}</Text></Pressable>:<View/>}
-    <Pressable haptic={false} accessibilityRole="button" accessibilityLabel={list[center]?`Choose ${list[center].label}`:'Choose'} disabled={!list.length} onPress={()=>choose(center)} style={({pressed})=>[st.choose,{backgroundColor:C.primary},(pressed||!list.length)&&{opacity:0.6}]}><Text style={{color:'#ffffff',fontWeight:'800',fontSize:15}}>Choose</Text></Pressable>
+    <Pressable haptic={false} accessibilityRole="button" accessibilityLabel={list[center]?`Choose ${list[center].label}`:'Choose'} disabled={!list.length} onPress={()=>choose(center)} style={({pressed})=>[st.choose,blueLift,!list.length&&{opacity:0.5},pressed&&{transform:[{translateY:1}]}]}>{({pressed})=><><BlueFace radius={24} pressed={pressed}/><Text style={[{fontWeight:'800',fontSize:15},onBlueText]}>Choose</Text></>}</Pressable>
    </View></>}
   </View>
   </KeyboardAvoidingView>

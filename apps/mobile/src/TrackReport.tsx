@@ -9,7 +9,7 @@ import {REPORT_COPY,REPORT_GROUPS,addDays,dayWord,emptyDraft,reportBody,reportSu
 import {api,apiQueued} from './api';
 import {readProgress,writeProgress} from './localProgress';
 import {Pressable} from './Touch';
-import {Button,Card,Copy,Eyebrow,Icon,Notice,colors,tint} from './ui';
+import {Button,Card,Copy,Eyebrow,Icon,Notice,colors,tint,PickChip} from './ui';
 import {success} from './haptics';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
@@ -25,7 +25,7 @@ export function useTrackDirectory(){
 }
 
 function Chip({label,on,onPress,radio=false}:{label:string;on:boolean;onPress:()=>void;radio?:boolean}){
- return <Pressable haptic="select" accessibilityRole={radio?'radio':'button'} accessibilityState={radio?{checked:on}:{selected:on}} onPress={onPress} style={({pressed})=>({paddingHorizontal:12,paddingVertical:7,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:14,fontWeight:on?'700':'500'}}>{label}</Text></Pressable>;
+ return <PickChip label={label} on={on} onPress={onPress} radio={radio}/>;
 }
 const Wrap=({children}:{children:React.ReactNode})=><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{children}</View>;
 const Label=({children}:{children:React.ReactNode})=><Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>{children}</Text>;

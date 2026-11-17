@@ -16,7 +16,7 @@ export const RIDE_DAY_COPY={
  didItHelp:'How did your last change ride?',
  saved:'Saved',savedQueued:'Saved on this phone. Sends when there’s signal.',
  locked:'Locked',holdToUnlock:'Hold to unlock',
- noSetup:'Add your clickers, sag and tire pressures in Garage › Edit details to see them here.',
+ noSetup:'Add your clickers, sag and tire pressures in Garage › Setup to see them here.',
  noTrack:'This track isn’t one of BAK’s listed tracks yet, so there’s no check-in for it.',
  checkIn:'Send check-in',
  startTitle:'Auto-lock the screen?',startDetail:'Locks itself after 3 minutes with no touch. Hold the unlock button to get back in. You can always lock by hand with the lock button.',
@@ -24,7 +24,7 @@ export const RIDE_DAY_COPY={
 } as const;
 
 /** Whole-minute picks for time on track, as big buttons. */
-export const RIDE_MINUTES=[10,15,20,25,30,40] as const;
+export {SESSION_MINUTES as RIDE_MINUTES} from './practice-day.ts';
 
 const CLICKERS=['Fork compression','Fork rebound','Shock low-speed','Shock high-speed','Shock rebound'];
 /** Quick picks for "how much" for a change, in pairs (softer | stiffer, down | up) so each row of the grid is one size. Clickers: clicks softer (out) or stiffer (in), the same words every manual uses.

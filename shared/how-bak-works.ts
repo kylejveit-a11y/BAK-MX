@@ -9,7 +9,7 @@ export type HowSection={id:string;title:string;lines:string[]};
 export const HOW_BAK_WORKS:HowSection[]=[
  {id:'ask',title:'Ask BAK',lines:[
   'Describe what the bike is doing the way you’d tell a buddy: “front pushes in flat turns”, “bogs off the bottom”.',
-  'Add a photo any time with the camera button. Pick the bike at the top if you have more than one.',
+  'Add a photo any time with the camera button. With more than one bike, pick which one in the chat box.',
   'Race mode comes on by itself on race day: short answers, one change at a time. Tap “Something’s wrong?” on Home for a fault.']},
  {id:'garage',title:'Garage',lines:[
   'Your bikes, your weight and level, and where your clickers and sag are now.',
@@ -30,11 +30,15 @@ export const HOW_BAK_WORKS:HowSection[]=[
   'Set a race from Home and it counts down with your prep list. BAK works out a starting setup for the track and the forecast.',
   'On the day, Home becomes your track screen: next moto, quick ask, a fast change log and today’s entries, with the Lock Screen counting down to your next moto. It ends by itself the day after.',
   'Practice day does the same for a day of laps, today: a short checklist, a log for each session (time on track, the setup change, how it rode), and Ask BAK about today. It ends by itself tonight.']},
+ {id:'rideday',title:'Ride Day and ride safety',lines:[
+  'Ride Day mode is the practice day in big, glove-size buttons: log a session or start a timer, log a setup change in two taps, see your setup, check in how the track is riding. The screen stays on, and a tap lock (auto after 3 minutes if you choose) ignores bumps. Back goes one step at a time.',
+  'Ride safety: pick when you’ll be back and BAK texts and emails the people you choose a link to where you were last seen. You get three reminders first; only if you don’t check in 30 minutes after your time does BAK email them. Tap I’m back to end it. Only your last spot is kept.',
+  'Right now shows what riders at the track say today (open, watered, muddy, busy). What I ran here shows your setup, tires and weather from your last visits to the same track.']},
  {id:'fuel',title:'Fuel plan',lines:[
   'What to eat and drink, and when. Enter your weight, height and age once and BAK lays out the day before, race morning, between motos and after, timed to your gate drops.',
   'Nervous stomach on race day? Turn that on and the plan goes easier. Parents can set one up for a child rider. It shows on Home on race day and practice day.']},
  {id:'community',title:'Community and Events',lines:[
-  'Community is riders’ builds, setup questions and ride plans. Events are ride days and races near you; say you’re going and they show on Home.']},
+  'Community is riders’ builds, setup questions and ride plans. Events are ride days and races near you; filter by level, bike size and riding to find your crew, and say you’re going so they show on Home.']},
  {id:'messages',title:'Messages',lines:[
   'Message a rider from their post or an event. New messages show on Home.']},
  {id:'widgets',title:'Widgets and Siri',lines:[

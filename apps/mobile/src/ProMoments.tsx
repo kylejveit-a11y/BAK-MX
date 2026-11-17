@@ -17,7 +17,7 @@ export function LimitCard({state,busy,onPro,onNextSet}:{state:LimitState;busy:bo
  // "Buy a question pack" only when the store really has packs; it opens the Pro screen, where the packs are bought.
  useEffect(()=>{if(!state.actions.includes('pack'))return;let live=true;offerings().then(p=>{if(live)setPacks(sortPackages(p).packs.length>0);}).catch(()=>{});return()=>{live=false;};},[state.kind]);
  return <Card>
-  <View style={{flexDirection:'row',alignItems:'center',gap:7}}><MetalMark width={14}/><Eyebrow>BAK</Eyebrow></View>
+  <View style={{flexDirection:'row',alignItems:'center',gap:7}}><Eyebrow>BAK</Eyebrow></View>
   <Text accessibilityRole="header" style={{color:colors.text,fontSize:19,fontWeight:'800',letterSpacing:-0.3,lineHeight:25}}>{state.title}</Text>
   <Text style={{color:colors.muted,fontSize:15,lineHeight:22}}>{packs?state.body:withoutPacks(state.body)}</Text>
   {!!state.reset&&<View style={{flexDirection:'row',alignItems:'center',gap:7}}><Icon name="clock" size={14} color="#8f97a4"/><Text style={{color:'#8f97a4',fontSize:13}}>{state.reset}</Text></View>}

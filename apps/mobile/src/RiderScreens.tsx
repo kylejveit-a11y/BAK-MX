@@ -11,6 +11,7 @@ import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
 import {useKeyboardHeight} from './Glass';
 import {ActivityIndicator,Alert,Animated,Image,KeyboardAvoidingView,Linking,Modal,Platform,ScrollView,Share,StyleSheet,Text,TextInput,View} from 'react-native';
 import {Pressable} from './Touch';
+import {RaisedFace,raisedLift} from './Raised';
 import {PostClip,PhotoEditSheet,clipLength} from './PostMedia';
 import {File as FsFile,Paths} from 'expo-file-system';
 import * as Sharing from 'expo-sharing';
@@ -29,7 +30,7 @@ import {enablePushAfterReminder} from './push';
 import {syncNextEventWidget} from './widgets/sync';
 import {TrackReportCard} from './TrackReport';
 import {adjusters,beforeYouTune,symptomGuides} from '../../../shared/setup-knowledge';
-import {BlueFace,blueLift,onBlueText,Avatar,BackLink,Button,Card,CheckRow,Copy,Eyebrow,Field,Icon,IconAction,type IconName,Notice,Page,SectionHead,Tile,TileGrid,colors,tint} from './ui';
+import {BlueFace,blueLift,onBlueText,Avatar,BackLink,Button,Card,CheckRow,Copy,Eyebrow,Field,Icon,IconAction,type IconName,Notice,Page,SectionHead,Tile,TileGrid,colors,tint,PickChip,usePageBack,PageTitle} from './ui';
 
 /* Native rider surfaces: Community, Events, Messages, Profile, Feedback, Setup log, Parts.
    All data comes from the BAK MX API. Nothing here is sample content. */
@@ -51,10 +52,16 @@ function Segments<T extends string>({value,items,onChange}:{value:T;items:{value
  return <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8}} style={{flexGrow:0}}>{items.map(i=><Pressable key={i.value||'all'} haptic="select" accessibilityRole="button" accessibilityState={{selected:value===i.value}} onPress={()=>onChange(i.value)} style={{paddingVertical:8,marginRight:10,borderBottomWidth:2,borderBottomColor:value===i.value?colors.text:'transparent'}}><Text style={{color:value===i.value?colors.text:colors.muted,fontSize:14,fontWeight:'600'}}>{i.label}</Text></Pressable>)}</ScrollView>;
 }
 
+/** RSVP: a picked answer looks picked (bike-color edge and a check), the same as every other pick in the app. */
+function RsvpButton({on,title,onPress}:{on:boolean;title:string;onPress:()=>void}){
+ return <Pressable haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={onPress} style={({pressed})=>[{flex:1,minHeight:48,borderRadius:24,flexDirection:'row',alignItems:'center',justifyContent:'center',gap:6},raisedLift,pressed&&{transform:[{translateY:1}]}]}>
+  {({pressed})=><><RaisedFace radius={24} pressed={pressed}/>{on&&<View pointerEvents="none" style={[StyleSheet.absoluteFill,{borderRadius:24,borderWidth:1.5,borderColor:colors.accent,backgroundColor:tint(0.14)}]}/>}{on&&<Icon name="check" size={15} color={colors.accent} weight={2.4}/>}<Text style={{color:colors.text,fontSize:15,fontWeight:on?'800':'600'}}>{title}</Text></>}
+ </Pressable>;
+}
 /** Single choice as a row of pills: every option visible, one tap. */
 export function Choices<T extends string>({label,value,items,onChange,disabled=false}:{label:string;value:T;items:{value:T;label:string}[];onChange:(v:T)=>void;disabled?:boolean}){
  // Same finish as the segmented controls: the chosen pill is lifted steel with a check, the rest quiet outlines.
- return <View style={{gap:8}}><Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>{label}</Text><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{items.map(i=>{const on=i.value===value;return <Pressable key={i.value} haptic="select" accessibilityRole="radio" accessibilityState={{selected:on,disabled}} disabled={disabled} onPress={()=>onChange(i.value)} style={({pressed})=>[{flexDirection:'row',alignItems:'center',gap:6,paddingHorizontal:14,minHeight:38,borderRadius:12,borderWidth:1,borderColor:on?'#4a5160':'#2a2f39',backgroundColor:on?'#1e232c':'transparent',opacity:pressed?0.7:1}]}>{on&&<Icon name="check" size={14} color={colors.accent} weight={2.4}/>}<Text style={{color:on?'#ffffff':'#b2b9c4',fontSize:14,fontWeight:on?'700':'500'}}>{i.label}</Text></Pressable>;})}</View></View>;
+ return <View style={{gap:8}}><Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>{label}</Text><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{items.map(i=>{const on=i.value===value;return <PickChip key={i.value} radio label={i.label} on={on} disabled={disabled} onPress={()=>onChange(i.value)}/>;})}</View></View>;
 }
 /** Tap-to-start row: an open line with a plus, not a box. */
 /** The row's bottom line doubles as the top line of the card under it, so the two never stack into a pair of lines. */
@@ -117,7 +124,7 @@ export function ProfileCard(){
  useFocusEffect(useCallback(()=>{api<{blocked_id:string;created_at:string}[]>('/api/blocks').then(setBlocks).catch(()=>setBlocks([]));},[]));
  // While the profile loads, hold its space so the rest of Account doesn't jump down when it arrives.
  if(profile===undefined)return <Card><View accessibilityLabel="Loading your profile" style={{flexDirection:'row',alignItems:'center',gap:14}}><View style={{width:56,height:56,borderRadius:28,backgroundColor:'#15181e'}}/><View style={{flex:1,gap:8}}><View style={{width:'55%',height:16,borderRadius:5,backgroundColor:'#15181e'}}/><View style={{width:'80%',height:12,borderRadius:4,backgroundColor:'#121519'}}/></View></View></Card>;
- return <Card>{profile?<View style={{flexDirection:'row',alignItems:'center',gap:14}}><Pressable accessibilityRole="button" accessibilityLabel="Change profile photo" disabled={photoBusy} onPress={()=>void changePhoto()}><Avatar name={riderName(profile)} uri={profile.avatar_url} size={56}/><View style={{position:'absolute',right:-2,bottom:-2,width:24,height:24,borderRadius:12,alignItems:'center',justifyContent:'center',...blueLift}}><BlueFace radius={12}/>{photoBusy?<ActivityIndicator size="small" color="#ffffff"/>:<Icon name="camera" size={12} color="#ffffff" weight={2.2}/>}</View></Pressable><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:20,fontWeight:'800'}}>{riderName(profile)}</Text><Text style={{color:'#adb5c1',fontSize:13.5}}>@{profile.handle}{profile.location?' · '+profile.location:''}{profile.riding_class?' · '+profile.riding_class:''}</Text></View><Pressable accessibilityRole="button" hitSlop={10} onPress={()=>setEditing(!editing)}><Text style={{color:colors.text,fontWeight:'700',fontSize:15}}>{editing?'Done':'Edit'}</Text></Pressable></View>:<Copy strong>Rider profile</Copy>}{!!profile?.bio&&!editing&&<Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{profile.bio}</Text>}<Notice text={profileError||photoNote}/>{(!profile||editing)&&<ProfileEditor profile={profile} onSaved={p=>{setProfile(p);setEditing(false);}}/>}
+ return <Card>{profile?<View style={{flexDirection:'row',alignItems:'center',gap:14}}><Pressable accessibilityRole="button" accessibilityLabel="Change profile photo" disabled={photoBusy} onPress={()=>void changePhoto()}><Avatar name={riderName(profile)} uri={profile.avatar_url} size={56}/><View style={{position:'absolute',right:-2,bottom:-2,width:24,height:24,borderRadius:12,alignItems:'center',justifyContent:'center',...blueLift}}><BlueFace radius={12}/>{photoBusy?<ActivityIndicator size="small" color="#ffffff"/>:<Icon name="camera" size={12} color="#ffffff" weight={2.2}/>}</View></Pressable><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:20,fontWeight:'800'}}>{riderName(profile)}</Text><Text style={{color:'#adb5c1',fontSize:13.5}}>@{profile.handle}{profile.location?' · '+profile.location:''}{profile.riding_class?' · '+profile.riding_class:''}</Text></View><Pressable accessibilityRole="button" hitSlop={10} onPress={()=>setEditing(!editing)}><Text style={{color:editing?colors.muted:colors.text,fontWeight:'700',fontSize:15}}>{editing?'Cancel':'Edit'}</Text></Pressable></View>:<Copy strong>Rider profile</Copy>}{!!profile?.bio&&!editing&&<Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{profile.bio}</Text>}<Notice text={profileError||photoNote}/>{(!profile||editing)&&<ProfileEditor profile={profile} onSaved={p=>{setProfile(p);setEditing(false);}}/>}
   {blocks.length>0&&<View style={{gap:8}}><Copy strong>Blocked riders</Copy>{blocks.map(b=><Row key={b.blocked_id}><Copy>Blocked {day(b.created_at)}</Copy><Link title="Unblock" onPress={()=>void api('/api/blocks?user_id='+b.blocked_id,'DELETE').then(()=>setBlocks(old=>old.filter(x=>x.blocked_id!==b.blocked_id))).catch(()=>{})}/></Row>)}</View>}
  </Card>;
 }
@@ -185,13 +192,13 @@ export function CommunityScreen({bike,onMessage,draft,draftToken}:{bike?:Bike;on
  if(profile===undefined)return <Page title="Community"><Copy>Loading…</Copy></Page>;
  return <Page title="">
   <View style={{gap:14}}>
-   <Text style={{color:colors.text,fontSize:22.5,...DISPLAY,letterSpacing:0}}>Community</Text>
+   <PageTitle>Community</PageTitle>
    <Pressable accessibilityRole="button" accessibilityLabel="Start a post" onPress={()=>join('To post,',()=>setComposing(true))} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,opacity:pressed?0.7:1})}>
     {profile?<Avatar name={riderName(profile)} uri={profile.avatar_url} size={38}/>:<Avatar name="?" size={38}/>}
     <View style={{flex:1,borderWidth:1,borderColor:'#2f3540',borderRadius:22,paddingHorizontal:16,paddingVertical:11}}><Text style={{color:'#adb5c1',fontSize:15}}>What’s on the bike?</Text></View>
    </Pressable>
    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8}} style={{flexGrow:0,marginHorizontal:-20}}>
-    <View style={{width:12}}/>{FILTERS.map(f=>{const on=filter===f.value;return <Pressable key={f.label} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setFilter(f.value)} style={({pressed})=>({paddingHorizontal:13,paddingVertical:6,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:'#2f3540',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:13,fontWeight:on?'700':'500'}}>{f.label}</Text></Pressable>;})}<View style={{width:12}}/>
+    <View style={{width:12}}/>{FILTERS.map(f=>{const on=filter===f.value;return <PickChip key={f.label} small label={f.label} on={on} onPress={()=>setFilter(f.value)}/>;})}<View style={{width:12}}/>
    </ScrollView>
   </View>
   <Notice text={notice}/>
@@ -267,7 +274,7 @@ function ComposeSheet({visible,profile,bike,seed,onClose,onPosted}:{visible:bool
       {bike&&<Pressable haptic="select" accessibilityRole="checkbox" accessibilityState={{checked:tagBike}} onPress={()=>setTagBike(!tagBike)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,alignSelf:'flex-start',borderWidth:1,borderColor:tagBike?colors.accent:'#2f3540',borderRadius:14,paddingHorizontal:10,paddingVertical:4,opacity:pressed?0.7:1})}><Icon name="moto" size={16} color={tagBike?colors.accent:'#adb5c1'}/><Text style={{color:tagBike?colors.accent:'#adb5c1',fontSize:12.5,fontWeight:'700'}}>{tagBike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'Tag my bike'}</Text></Pressable>}
      </View>
     </View>
-    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{options(POST_CATEGORY_LABELS).map(o=>{const on=category===o.value;return <Pressable key={o.value} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setCategory(o.value)} style={({pressed})=>({paddingHorizontal:13,paddingVertical:6,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:'#2f3540',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:13.5,fontWeight:on?'700':'500'}}>{o.label}</Text></Pressable>;})}</View>
+    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{options(POST_CATEGORY_LABELS).map(o=>{const on=category===o.value;return <PickChip key={o.value} label={o.label} on={on} onPress={()=>setCategory(o.value)}/>;})}</View>
     <TextInput autoFocus multiline value={body} onChangeText={setBody} maxLength={4000} autoCapitalize="sentences" placeholder={hint} placeholderTextColor="#7d8593" selectionColor={colors.accent} accessibilityLabel="Post" style={{color:colors.text,fontSize:19,lineHeight:27,minHeight:140,textAlignVertical:'top',outlineStyle:'none'} as never}/>
     <AttachedPhotos photos={photos} uploading={uploading} size={104} onEdit={setEditing} onRemove={id=>{setPhotos(old=>old.filter(p=>p.id!==id));if(!seed?.photoIds?.includes(id))void api('/api/photos?id='+id,'DELETE').catch(()=>{});}}/>
     {(clip||!!clipStage)&&<View style={{width:220,height:124,borderRadius:12,overflow:'hidden',backgroundColor:'#000',alignItems:'center',justifyContent:'center'}}>
@@ -389,11 +396,11 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
    <Pressable accessibilityRole="button" accessibilityLabel={'View '+riderName(ev.host)} disabled={ev.mine} onPress={()=>setViewing(ev.user_id)} hitSlop={4}><Copy>{eventHostLine(riderName(ev.host),ev.going_count>0&&scope==='upcoming'?{...ev,going_count:0}:ev,scope==='past')}</Copy></Pressable>
    {open===ev.id&&!!ev.description&&<Text selectable style={{color:colors.text,fontSize:15,lineHeight:23}}>{ev.description}</Text>}
    {ev.going_count>0&&scope==='upcoming'&&<Pressable accessibilityRole="button" accessibilityLabel="See who's going" onPress={()=>setGoing(ev)} style={{flexDirection:'row',alignItems:'center',gap:8}}>
-    <View style={{flexDirection:'row'}}>{(ev.going_riders??[]).slice(0,5).map((r,i)=><View key={r.user_id} style={{marginLeft:i?-8:0,borderRadius:14,borderWidth:2,borderColor:colors.panel}}><Avatar name={riderName(r)} uri={r.avatar_url} size={24}/></View>)}</View>
+    {!!(ev.going_riders??[]).length&&<View style={{flexDirection:'row'}}>{(ev.going_riders??[]).slice(0,5).map((r,i)=><View key={r.user_id} style={{marginLeft:i?-8:0,borderRadius:14,borderWidth:2,borderColor:colors.panel}}><Avatar name={riderName(r)} uri={r.avatar_url} size={24}/></View>)}</View>}
     <Text style={{color:'#adb5c1',fontSize:13.5,flex:1}}>{(ev.going_riders??[]).length?`${(ev.going_riders??[]).slice(0,2).map(r=>r.me?'You':riderName(r)).join(', ')}${ev.going_count>2?` and ${ev.going_count-Math.min(2,(ev.going_riders??[]).length)} more`:''} going`:`${ev.going_count} going`}</Text>
    </Pressable>}
    {!ev.canceled_at&&scope==='upcoming'&&ev.my_rsvp==='going'&&<Link title={ev.my_rsvp_public?'Riders can see you’re going · Hide me':'Only the host sees you’re going · Show me'} onPress={()=>void save(ev,'going',!ev.my_rsvp_public)}/>}
-   {!ev.canceled_at&&scope==='upcoming'&&<View style={{flexDirection:'row',gap:10}}><View style={{flex:1}}><Button secondary={ev.my_rsvp!=='going'} title={ev.my_rsvp==='going'?'Going':'I’m going'} onPress={()=>join('To RSVP,',()=>void rsvp(ev,'going'))}/></View><View style={{flex:1}}><Button secondary={ev.my_rsvp!=='interested'} title="Interested" onPress={()=>join('To RSVP,',()=>void rsvp(ev,'interested'))}/></View></View>}
+   {!ev.canceled_at&&scope==='upcoming'&&<View style={{flexDirection:'row',gap:10}}><RsvpButton on={ev.my_rsvp==='going'} title={ev.my_rsvp==='going'?'Going':'I’m going'} onPress={()=>join('To RSVP,',()=>void rsvp(ev,'going'))}/><RsvpButton on={ev.my_rsvp==='interested'} title="Interested" onPress={()=>join('To RSVP,',()=>void rsvp(ev,'interested'))}/></View>}
    <Row>{!!ev.description&&<Link title={open===ev.id?'Hide details':'Details'} onPress={()=>setOpen(open===ev.id?'':ev.id)}/>}
     {ev.mine&&<Link title={ev.canceled_at?'Restore event':'Cancel event'} onPress={()=>void api('/api/events?id='+ev.id,'PATCH',{canceled:!ev.canceled_at}).then(load).catch(e=>setNotice(errorText(e)))}/>}
     {ev.mine&&<Link danger title="Delete" onPress={()=>Alert.alert('Delete this event?','',[{text:'Cancel',style:'cancel'},{text:'Delete',style:'destructive',onPress:()=>void api('/api/events?id='+ev.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))}])}/>}</Row>
@@ -406,6 +413,7 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
 
 /* ------------------------------------------------------------------ Messages */
 export function MessagesScreen({startWith,onStarted}:{startWith?:RiderRef;onStarted:()=>void}){
+ const pageBack=usePageBack();
  const {profile,setProfile,profileError,reloadProfile}=useProfile();
  const [threads,setThreads]=useState<ThreadSummary[]>([]),[active,setActive]=useState<RiderRef|null>(null),[viewing,setViewing]=useState(''),[messages,setMessages]=useState<ThreadMessage[]>([]),[text,setText]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
  const loadThreads=useCallback(async()=>{try{setThreads(await api<ThreadSummary[]>('/api/threads'));}catch(e){setNotice(errorText(e));}},[]);
@@ -416,15 +424,14 @@ export function MessagesScreen({startWith,onStarted}:{startWith?:RiderRef;onStar
  if(profileError&&!profile)return <Page title="Messages"><Copy>Message a rider from a post or an event.</Copy><ProfileUnavailable error={profileError} onRetry={()=>void reloadProfile()}/></Page>;
  if(profile===undefined)return <Page title="Messages"><Copy>Loading…</Copy></Page>;
  if(!profile)return <Page title="Messages"><Copy>Message a rider from a post or an event.</Copy><NeedsProfile onSaved={setProfile}/></Page>;
- if(!active)return <Page title="Messages"><Notice text={notice}/>
+ if(!active)return <Page title="Messages" back={pageBack}><Notice text={notice}/>
   {!threads.length&&<Card><Copy strong>No conversations yet.</Copy><Copy>Use “Message” on a post or event to start one. Messages are private between you and the other rider.</Copy></Card>}
   <View>{threads.map(t=><Pressable key={t.rider.user_id} accessibilityRole="button" accessibilityLabel={`${riderName(t.rider)}${t.unread?`, ${t.unread} new`:''}`} onPress={()=>void open(t.rider)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:14,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#2a2f39',opacity:pressed?0.6:1})}><Avatar name={riderName(t.rider)} uri={t.rider.avatar_url} size={42}/><View style={{flex:1,gap:3}}><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Text style={{color:colors.text,fontSize:16,fontWeight:t.unread?'800':'600',flex:1}} numberOfLines={1}>{riderName(t.rider)}</Text><Text style={{color:'#7c858e',fontSize:12}}>{when(t.last_message.created_at)}</Text></View><Text numberOfLines={1} style={{color:t.unread?colors.text:'#adb5c1',fontSize:14}}>{t.last_message.mine?'You: ':''}{t.last_message.body}</Text></View>{t.unread>0&&<View style={{width:9,height:9,borderRadius:5,backgroundColor:colors.accent}}/>}</Pressable>)}</View>
  </Page>;
  if(viewing)return <RiderProfileView riderId={viewing} from="Messages" onBack={()=>setViewing('')} onMessage={()=>setViewing('')}/>;
  const canSend=!busy&&!!text.trim();
  const footer=<View><View style={{flexDirection:'row',alignItems:'flex-end',gap:8,paddingLeft:16,paddingRight:6,paddingVertical:6}}><TextInput accessibilityLabel={'Message '+riderName(active)} editable={!busy} value={text} onChangeText={setText} multiline maxLength={4000} autoCapitalize="sentences" placeholder={'Message '+riderName(active)} placeholderTextColor="#7d8593" style={{flex:1,color:colors.text,fontSize:16,lineHeight:21,maxHeight:120,paddingTop:9,paddingBottom:9}}/><Pressable accessibilityRole="button" accessibilityLabel="Send" accessibilityState={{disabled:!canSend}} disabled={!canSend} onPress={()=>void send()} style={({pressed})=>[{width:38,height:38,borderRadius:19,backgroundColor:canSend?'transparent':'#23272f',alignItems:'center',justifyContent:'center'},canSend&&blueLift,pressed&&{transform:[{translateY:1}]}]}>{({pressed})=><>{canSend&&<BlueFace radius={19} pressed={pressed}/>}{busy?<ActivityIndicator size="small" color={colors.text}/>:<Icon name="arrowUp" size={20} color={canSend?'#ffffff':'#7d8593'} weight={2.2}/>}</>}</Pressable></View></View>;
- return <Page title={riderName(active)} footer={footer}>
-  <BackLink title="All messages" onPress={()=>{setActive(null);void loadThreads();}}/>
+ return <Page title={riderName(active)} back={{title:'All messages',onPress:()=>{setActive(null);void loadThreads();}}} footer={footer}>
   <Pressable accessibilityRole="button" onPress={()=>setViewing(active.user_id)} style={{flexDirection:'row',alignItems:'center',gap:10}}><Avatar name={riderName(active)} uri={active.avatar_url} size={32}/><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>View profile</Text></Pressable>
   <Notice text={notice}/>
   {!messages.length&&<Copy>No messages yet. Say hello.</Copy>}
@@ -550,7 +557,7 @@ export function SetupGuideCard({onAsk,bike}:{onAsk?:(text:string)=>void;bike?:Bi
    {open===g.id&&<View style={{gap:8}}><Copy>{g.where}</Copy><Text style={{color:'#9aa2ae',fontSize:11,fontWeight:'800',letterSpacing:1.5}}>CHECK FIRST</Text>{g.check_first.map((c,i)=><Text key={i} style={{color:colors.text,fontSize:15,lineHeight:22}}>• {c}</Text>)}<Text style={{color:'#9aa2ae',fontSize:11,fontWeight:'800',letterSpacing:1.5}}>LIKELY CAUSES</Text>{g.likely.map((l,i)=><View key={i} style={{gap:2}}><Text style={{color:colors.text,fontSize:15,fontWeight:'700',lineHeight:22}}>{l.cause}</Text><Copy>{l.tell}</Copy><Text style={{color:colors.primary,fontSize:15,lineHeight:22}}>First change: {l.first_change}</Text></View>)}{onAsk&&<Link title="Ask BAK about this on my bike" onPress={()=>onAsk(`My bike ${g.rider_says[0]}. `)}/>}</View>}</View>)
   :shownAdjusters.map(a=><View key={a.id} style={{gap:8}}>{head(a.id,a.name)}
    {open===a.id&&<View style={{gap:8}}><Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{a.controls}</Text><Text style={{color:'#9aa2ae',fontSize:11,fontWeight:'800',letterSpacing:1.5}}>FIRMER / MORE</Text><Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{a.firmer_or_more}</Text><Copy>Too much: {a.too_much}</Copy><Text style={{color:'#9aa2ae',fontSize:11,fontWeight:'800',letterSpacing:1.5}}>SOFTER / LESS</Text><Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{a.softer_or_less}</Text><Copy>Too little: {a.too_little}</Copy><Copy>{a.notes}</Copy></View>}</View>)}
-  <Text style={{color:'#9aa2ae',fontSize:11,fontWeight:'800',letterSpacing:1.5,marginTop:6}}>BEFORE YOU TOUCH A CLICKER</Text>{beforeYouTune.map((b,i)=><Copy key={i}>• {b}</Copy>)}
+  <View style={{marginTop:6}}><Eyebrow>BEFORE YOU TOUCH A CLICKER</Eyebrow></View>{beforeYouTune.map((b,i)=><Copy key={i}>• {b}</Copy>)}
  </Card>;
 }
 

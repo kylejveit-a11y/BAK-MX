@@ -10,7 +10,7 @@ import {CHECKIN_COPY as C,CHECKIN_STATUSES,agedConditions,liveStatusLine,statusP
 import {api} from './api';
 import {isNetworkError} from './offline';
 import {Pressable} from './Touch';
-import {Avatar,Card,Eyebrow,Icon,Notice,colors,tint} from './ui';
+import {Avatar,Card,Eyebrow,Icon,Notice,colors,tint,PickChip,Button} from './ui';
 import {success} from './haptics';
 import {useTrackDirectory} from './TrackReport';
 
@@ -42,7 +42,7 @@ export function LiveStatusList({live,big=false}:{live:LiveConditions|null;big?:b
 }
 
 function Chip({label,on,onPress}:{label:string;on:boolean;onPress:()=>void}){
- return <Pressable haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={onPress} style={({pressed})=>({paddingHorizontal:14,paddingVertical:9,borderRadius:18,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?colors.text:'#c9cfd8',fontSize:14.5,fontWeight:'600'}}>{label}</Text></Pressable>;
+ return <PickChip label={label} on={on} onPress={onPress}/>;
 }
 
 type Presence={count:number;me:boolean;riders:(RiderRef&{me:boolean;avatar_url?:string})[]};
@@ -78,7 +78,7 @@ export function LiveConditionsCard({track}:{track:string}){
  if(!trackId)return null;
  async function send(){if(busy)return;setBusy(true);const r=await sendCheckin(trackId,picked);setNotice(r.message);if(r.ok){setPicked([]);setOpen(false);reload();}setBusy(false);}
  return <Card>
-  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="pulse" size={16} color={colors.accent}/><Eyebrow>{C.title.toUpperCase()}</Eyebrow><Text style={{color:'#8b93a0',fontSize:12,marginLeft:'auto'}}>last 6 hours</Text></View>
+  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="pulse" size={16} color={colors.accent}/><Eyebrow bare>{C.title.toUpperCase()}</Eyebrow><Text style={{color:'#8b93a0',fontSize:12,marginLeft:'auto'}}>last 6 hours</Text></View>
   <LiveStatusList live={live}/>
   {!open?<Pressable haptic="press" accessibilityRole="button" onPress={()=>{setOpen(true);setNotice('');}} style={({pressed})=>({alignSelf:'flex-start',flexDirection:'row',alignItems:'center',gap:8,paddingHorizontal:14,paddingVertical:9,borderRadius:18,borderWidth:1,borderColor:colors.accent,opacity:pressed?0.7:1})}>
     <Icon name="flag" size={16} color={colors.accent}/><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{C.send}</Text></Pressable>
@@ -86,7 +86,7 @@ export function LiveConditionsCard({track}:{track:string}){
     <Text style={{color:colors.muted,fontSize:13.5}}>{C.ask}</Text>
     <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{CHECKIN_STATUSES.map(s=><Chip key={s.id} label={s.label} on={picked.includes(s.id)} onPress={()=>setPicked(p=>toggleStatus(p,s.id))}/>)}</View>
     <View style={{flexDirection:'row',gap:16,alignItems:'center'}}>
-     <Pressable haptic="press" accessibilityRole="button" disabled={busy} onPress={()=>void send()} style={({pressed})=>({paddingHorizontal:18,paddingVertical:10,borderRadius:18,backgroundColor:colors.accent,opacity:pressed||busy?0.7:1})}><Text style={{color:'#fff',fontSize:15,fontWeight:'700'}}>{busy?'Sending…':C.send}</Text></Pressable>
+     <View style={{flex:1}}><Button title={busy?'Sending…':C.send} disabled={busy} onPress={()=>void send()}/></View>
      <Pressable accessibilityRole="button" onPress={()=>{setOpen(false);setPicked([]);}} hitSlop={8}><Text style={{color:colors.muted,fontSize:15}}>Cancel</Text></Pressable>
     </View>
    </View>}

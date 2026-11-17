@@ -105,7 +105,8 @@ export type PracticeSession={id:string;n:number;at:string;minutes:number|null;no
 export type SessionDraft={minutes:string;notes:string;change:string;detail:string;result:SetupResult};
 export const emptySession=():SessionDraft=>({minutes:'',notes:'',change:'',detail:'',result:'not_tested'});
 /** Time-on-track picks, in minutes. */
-export const SESSION_MINUTES=[10,15,20,30];
+/** Time on track picks; the same as Ride Day's (RIDE_MINUTES), so a rider sees one set of times. */
+export const SESSION_MINUTES=[10,15,20,25,30,40];
 export const SESSION_LIMITS={minutes:240,notes:500,detail:200,perDay:40} as const;
 export const PRACTICE_COPY={
  start:'Start practice day',title:'Practice day',

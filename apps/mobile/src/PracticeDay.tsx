@@ -14,7 +14,7 @@ import {api,apiQueued} from './api';
 import {isLocal} from './offline';
 import {readProgress,writeProgress} from './localProgress';
 import {Pressable} from './Touch';
-import {Button,Card,Copy,Eyebrow,Icon,MetalMark,Notice,colors,tint} from './ui';
+import {Button,Card,Copy,Eyebrow,Icon,MetalMark,Notice,colors,tint,PickChip} from './ui';
 import {success} from './haptics';
 import {BikeNowCard,NextUpCard,bikeSetup,useRaceActivity} from './HomeBlocks';
 import {RacePrepCard,RacePrepSheet} from './RacePrep';
@@ -41,7 +41,7 @@ export function usePracticeSessions(account:string,bikeId:string){
 }
 
 function Chip({label,on,onPress}:{label:string;on:boolean;onPress:()=>void}){
- return <Pressable haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={onPress} style={({pressed})=>({paddingHorizontal:12,paddingVertical:7,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:14,fontWeight:on?'700':'500'}}>{label}</Text></Pressable>;
+ return <PickChip label={label} on={on} onPress={onPress}/>;
 }
 const Wrap=({children}:{children:React.ReactNode})=><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{children}</View>;
 const Label=({children}:{children:React.ReactNode})=><Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>{children}</Text>;
@@ -91,7 +91,7 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
  const linked=ordered.find(x=>x.logId&&!isLocal(x.logId));
  return <>
   <View style={{gap:6}}>
-   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={22}/><Eyebrow>PRACTICE DAY · {new Date().toLocaleDateString([],{weekday:'long',month:'short',day:'numeric'}).toUpperCase()}</Eyebrow></View>
+   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>PRACTICE DAY · {new Date().toLocaleDateString([],{weekday:'long',month:'short',day:'numeric'}).toUpperCase()}</Eyebrow></View>
    <Text style={{color:colors.text,fontSize:24,...DISPLAY,letterSpacing:0}}>{track||'Practice day'}</Text>
    <Text style={{color:colors.muted,fontSize:14}}>{bikeName}{bike.engine_hours!=null?` · ${bike.engine_hours} h`:''}{sessions.length?` · ${sessionsSummary(sessions)}`:''}</Text>
   </View>
@@ -106,7 +106,7 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
   <BikeNowCard bike={bike}/>
   <TrackHistoryCard track={track} bikeId={bike.id}/>
   <Card>
-   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="bolt" size={16} color={colors.accent}/><Eyebrow>{COPY.ask.toUpperCase()}</Eyebrow></View>
+   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="bolt" size={16} color={colors.accent}/><Eyebrow bare>{COPY.ask.toUpperCase()}</Eyebrow></View>
    <Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>{COPY.askDetail}</Text>
    <Button title={COPY.ask} onPress={()=>onAsk(practiceAskText({track,bike:bikeName,setup:bikeSetup(bike),sessions}))}/>
   </Card>

@@ -28,17 +28,17 @@ const storeConversation={id:'33333333-3333-4333-8333-333333333333',user_id:USER,
 const conversation=STORE?storeConversation:baseConversation;
 const storeAnswer={kind:'answer',summary:'The rear is rebounding too fast off the braking bumps, so it kicks instead of staying planted.',
  answer:'**That kick is the shock extending too quickly after each bump, so the rear end tops out and hops.** With your sag at 105 mm the spring and ride height are where KTM sets them, so start with rebound, not the spring.\n\nOn your 450 SX-F the rear rebound clicker is the small screw at the bottom of the shock. You are at the stock 15 clicks.',
- setup_changes:[{setting:'Shock rebound',change:'1 click slower (clockwise), 15 → 16 clicks',expect:'The rear stays lower and follows the bumps instead of kicking up under braking.',go_back_if:'It feels dead or packs down in whoops and over back-to-back bumps.'}],
+ setup_changes:[{setting:'Shock rebound',change:'1 click slower (clockwise), 15 → 14 clicks out',expect:'The rear stays lower and follows the bumps instead of kicking up under braking.',go_back_if:'It feels dead or packs down in whoops and over back-to-back bumps.'}],
  observations:['Rear kicks on the braking bumps into turns','Sag set at 105 mm, stock clickers'],systems:['rear suspension'],
  hypotheses:[{mechanism:'Rebound damping too light for a 200 lb geared rider lets the shock extend too fast after each bump.',explains:'The kick is worst on repeated bumps under braking, where the rear unloads.',confirm:'One click slower calms it on the same section.',reject:'No change after two clicks: look at high-speed compression next.'}],
  unknowns:['Whether the forks are also riding low under braking'],
  next_step:{action:'Go one click slower on shock rebound and ride the same braking bumps twice.',purpose:'Change one thing so you know what fixed it.',stop_conditions:['Stop if the rear starts packing down and feels dead.']},
- garage_updates:[{type:'setting',system:'rear suspension',brand:'',name:'',field:'shock_rebound',value:'16',current:'15'}],
+ garage_updates:[{type:'setting',system:'rear suspension',brand:'',name:'',field:'shock_rebound',value:'14',current:'15'}],
  evidence_ids:[],specifications:[{claim_id:'c8',value:'Shock absorber / Rebound damping / Standard: 15 clicks'},{claim_id:'c4',value:'Shock absorber / Riding sag: 105 mm'}],confidence:'SUPPORTED',references:[]};
 const raceConversation={id:'55555555-5555-4555-8555-555555555555',user_id:USER,bike_id:bike.id,title:'Race day at Dade City MX, between motos: front pushes in turns',mode:'ask',created_at:iso(now-1800000),updated_at:iso(now-1800000)};
 const raceAnswer={kind:'answer',summary:'Front push in the flat turns: give the front more bite, not more speed.',
  answer:'**Soften fork compression two clicks and ride moto 2.** The front is skating because it is not settling into the turn; a softer fork lets it load and bite on this hard-pack.',
- setup_changes:[{setting:'Fork compression',change:'2 clicks softer (counterclockwise), 14 → 12 clicks',expect:'The front sits lower in the turn and holds the line instead of pushing wide.',go_back_if:'It dives hard on the braking bumps or bottoms off the big double.'}],
+ setup_changes:[{setting:'Fork compression',change:'2 clicks softer (counterclockwise), 14 → 16 clicks out',expect:'The front sits lower in the turn and holds the line instead of pushing wide.',go_back_if:'It dives hard on the braking bumps or bottoms off the big double.'}],
  observations:['Front pushes in flat turns','Between motos, hard-pack'],systems:['front suspension'],hypotheses:[],unknowns:[],
  next_step:{action:'Make only that change before moto 2, then log how it rode.',purpose:'One change per moto so you know what worked.',stop_conditions:[]},
  evidence_ids:[],specifications:[{claim_id:'c6',value:'Fork / Compression damping / Standard: 12 clicks'}],confidence:'SUPPORTED',references:[]};
@@ -50,6 +50,24 @@ const messages=STORE?[
  {id:'m2',conversation_id:storeConversation.id,user_id:USER,role:'assistant',content:storeAnswer.answer,response:storeAnswer,created_at:iso(now-3590000)}]:[
  {id:'m1',conversation_id:conversation.id,user_id:USER,role:'user',content:'What does high-speed compression actually do?',response:null,created_at:iso(now-3600000)},
  {id:'m2',conversation_id:conversation.id,user_id:USER,role:'assistant',content:answer.answer,response:answer,created_at:iso(now-3590000)}];
+// Sample chat: each starter gets an answer on its own topic, and the thread keeps the question the rider typed.
+// Figures are only the KTM ones already in this file (fork compression 12, shock rebound 15, sag 105 mm, tires 1.0 bar).
+const frontAnswer={...raceAnswer,summary:'Front pushes in corners: let the fork settle so the front bites.',
+ answer:'**Soften fork compression two clicks and ride the same turns.** When the front pushes, it usually isn’t settling into the turn, so the tire skates instead of loading up. A softer fork lets it sit down and bite.\n\nYou are at 14 clicks out, already two softer than KTM’s standard 12; go two more.',
+ setup_changes:[{setting:'Fork compression',change:'2 clicks softer (counterclockwise), 14 → 16 clicks out',expect:'The front sits lower through the turn and holds the line instead of pushing wide.',go_back_if:'It dives hard under braking or bottoms off the bigger jumps.'}],
+ observations:['Front pushes in corners'],next_step:{action:'Make only that change, ride the same turns twice, then log how it rode.',purpose:'One change at a time so you know what worked.',stop_conditions:['Stop if the front dives hard on the brakes.']}};
+const sagAnswer={kind:'answer',summary:'Set race sag to 105 mm first, then put the clickers at KTM’s standard and change one at a time.',
+ answer:'**Start with race sag, then clickers.** Sag sets how high the rear rides, which changes how every clicker feels, so it comes first.\n\n- **Race sag:** 105 mm with you on the bike in your gear (KTM’s figure for your 450 SX-F).\n- **Clickers:** start from standard: fork compression 12 clicks out, shock rebound 15 clicks out.\n\nRide, then change one clicker at a time and log how it rode.',
+ setup_changes:[],observations:['Setting up sag and clickers'],systems:['front suspension','rear suspension'],hypotheses:[],unknowns:['Your rider weight in gear, to check the spring'],
+ next_step:{action:'Measure race sag in your gear and adjust the shock preload to 105 mm.',purpose:'Everything else builds on the rear sitting at the right height.',stop_conditions:[]},
+ evidence_ids:[],specifications:[{claim_id:'c4',value:'Shock absorber / Riding sag: 105 mm'},{claim_id:'c6',value:'Fork / Compression damping / Standard: 12 clicks'},{claim_id:'c8',value:'Shock absorber / Rebound damping / Standard: 15 clicks'}],confidence:'SUPPORTED',references:[]};
+const prepAnswer={kind:'answer',summary:'The night before: tires, chain, air filter, bolts and fuel; at the track, set tire pressure for the dirt.',
+ answer:'**Night before:**\n\n- Clean, oiled air filter.\n- Chain slack and lube; spokes and the bolts that shake loose.\n- Brakes and levers feel right; fuel and your gear packed.\n\n**At the track:** set tire pressure cold for the dirt (KTM’s figure is 1.0 bar, about 15 psi), check sag, and ride the first lap easy to scout lines.',
+ setup_changes:[],observations:['Race this weekend'],systems:[],hypotheses:[],unknowns:['What the track is like this weekend'],
+ next_step:{action:'Start Race day on Home with the track, so BAK can plan for the dirt and the forecast.',purpose:'Your prep list and a starting setup for that track.',stop_conditions:[]},
+ evidence_ids:[],specifications:[{claim_id:'c9',value:'Chassis / Offroad tire pressure / front: 1.0 bar (15 psi)'}],confidence:'SUPPORTED',references:[]};
+const pickAnswer=t=>/front|push|tuck|wash/i.test(t)?frontAnswer:/rear|kick|braking bump/i.test(t)?storeAnswer:/sag|clicker/i.test(t)?sagAnswer:/race|weekend|check/i.test(t)?prepAnswer:answer;
+const chats={};
 const services=[{id:'s1',user_id:USER,bike_id:bike.id,category:'Engine oil',performed_at:iso(now-9*day),engine_hours:58,notes:'10W-50, new filter',next_due_hours:73,interval_source:'rider',created_at:iso(now-9*day)},
  {id:'s2',user_id:USER,bike_id:bike.id,category:'Air filter',performed_at:iso(now-2*day),engine_hours:63,notes:'',next_due_hours:null,interval_source:'rider',created_at:iso(now-2*day)}];
 const plan=[{category:'Engine oil',every_hours:15,first_hours:1,task:'Change the engine oil and the oil filter',claim_id:'c2',note:null},{category:'Air filter',every_hours:5,first_hours:null,task:'Clean the air filter',claim_id:'c3',note:null},{category:'Valve check',every_hours:30,first_hours:null,task:'Check the valve clearance',claim_id:'c4',note:null}];
@@ -62,6 +80,10 @@ const posts=[{id:'p1',user_id:'other',category:'build',body:'Fresh top end, new 
 const storePosts=[
  {id:'p3',user_id:'other3',category:'track',body:'Dade was tacky all morning and blew out by moto 2. Ran 12 psi front and it still pushed in the flat turns.',bike_label:'2025 KTM 450 SX-F',created_at:iso(now-3*3600000),author:{...rider,user_id:'other3',handle:'rider41',display_name:'Rider 41',location:'Brooksville, FL',riding_class:'Vet C',race_number:'41'},mine:false,like_count:4,liked:false,comment_count:3,photos:[]},
  {id:'p4',user_id:'other4',category:'setup_question',body:'Who has the oil interval on the 450 figured out for sand? Doing every 10 hours and the filter looks fine.',bike_label:'2025 KTM 450 SX-F',created_at:iso(now-26*3600000),author:{...rider,user_id:'other4',handle:'rider7',display_name:'Rider 7',location:'Ocala, FL',riding_class:'Vet B',race_number:'7'},mine:false,like_count:5,liked:true,comment_count:6,photos:[]}];
+// Comments on the God Father 817 build post (its card says 2), so "View all 2 comments" shows them.
+const gf={...rider,user_id:'other',handle:'godfather817',display_name:'God Father 817',bio:'Fresh top end and a Rekluse. Winter series.',location:'Dade City, FL',riding_class:'Vet A',race_number:'817'};
+let comments={p1:[{id:'k1',post_id:'p1',user_id:'r2',body:'Clean build. How do you like the Rekluse in the tight stuff?',created_at:iso(now-7*day),author:{...rider,user_id:'r2',handle:'jt_moto',display_name:'Jake T.',race_number:''},mine:false},
+ {id:'k2',post_id:'p1',user_id:'other',body:'Never stalls in the ruts now. Worth it.',created_at:iso(now-7*day+3600000),author:gf,mine:false}]};
 const threads=[{rider:{...rider,user_id:'other',handle:'godfather817',display_name:'God Father 817'},last_message:{body:'See you at Dade Saturday?',created_at:iso(now-2*3600000),mine:false},unread:1}];
 const coaching=[];
 const checklist={items:null};
@@ -99,11 +121,11 @@ function respond(p,q,method,post){
  if(p==='/api/coverage')return J(coverage);
  if(p==='/api/entitlement')return J(entitlement);
  if(p==='/api/profile')return J(NEW_RIDER&&method==='GET'?null:profile);
- if(p==='/api/profiles')return J({profile:profile,bikes:[{id:bike.id,label:'2025 KTM 450 SX-F',photos:[],sheet:'mine'}],posts:[],mine:true});
+ if(p==='/api/profiles'){const id=q.get('id');if(id&&id!==USER){const who=id==='other'?gf:{...rider,user_id:id,handle:'rider',display_name:'Rider',bio:'',created_at:iso(now-90*day)};return J({profile:{...who,created_at:who.created_at||iso(now-300*day)},bikes:[],posts:posts.filter(x=>x.user_id===id).map(({author,mine,...x})=>x),mine:false});}return J({profile:profile,bikes:[{id:bike.id,label:'2025 KTM 450 SX-F',photos:[],sheet:'mine'}],posts:[],mine:true});}
  if(p==='/api/conversations')return J(method==='GET'?(q.get('bike_id')===bike.id?(STORE?[raceConversation,conversation]:[conversation]):[]):{...conversation,id:'44444444-4444-4444-8444-444444444444',title:(post&&post.title)||'New chat',mode:(post&&post.mode)||'ask'});
- if(p==='/api/messages'){const cid=q.get('conversation_id');if(STORE&&cid===raceConversation.id)return J(raceMessages);return J((sent||cid===conversation.id)?messages.map(m=>({...m,conversation_id:cid})):[]);}
+ if(p==='/api/messages'){const cid=q.get('conversation_id');if(chats[cid])return J(chats[cid]);if(STORE&&cid===raceConversation.id)return J(raceMessages);return J((sent||cid===conversation.id)?messages.map(m=>({...m,conversation_id:cid})):[]);}
  if(p==='/api/chat'&&USED_UP)return J({error:"You've used your free questions. Add a credit pack or choose Premium or Pro to keep asking BAK."},429);
- if(p==='/api/chat'){sent=true;const m={...messages[1],id:'m-new',conversation_id:(post&&post.conversation_id)||conversation.id,created_at:new Date().toISOString()};return ndjsonR([{type:'status',stage:'reading'},{type:'draft',summary:answer.summary,answer:answer.answer.slice(0,120)},{type:'status',stage:'writing'},{type:'done',message:m}]);}
+ if(p==='/api/chat'){sent=true;const cid=(post&&post.conversation_id)||conversation.id,text=(post&&post.message)||'',a=pickAnswer(text),t=new Date().toISOString();const m={id:'m-'+Date.now(),conversation_id:cid,user_id:USER,role:'assistant',content:a.answer,response:a,created_at:t};chats[cid]=[...(chats[cid]||[]),{id:'u-'+Date.now(),conversation_id:cid,user_id:USER,role:'user',content:text,response:null,created_at:t},m];return ndjsonR([{type:'status',stage:'reading'},{type:'draft',summary:a.summary,answer:a.answer.slice(0,120)},{type:'status',stage:'writing'},{type:'done',message:m}]);}
  if(p==='/api/services')return method==='GET'?J(services):J(method==='DELETE'?{ok:true}:{...services[0],id:'s-new'});
  if(p==='/api/service-plan')return J({items:plan,source:'manufacturer schedule'});
  if(p==='/api/setup-logs')return J(method==='GET'?setupLogs:{...setupLogs[0],id:'l-new'});
@@ -112,7 +134,7 @@ function respond(p,q,method,post){
  if(p.startsWith('/api/posts/'))return J([]);
  if(p==='/api/threads')return J(threads);
  if(p==='/api/thread')return J({rider:threads[0].rider,messages:[{id:'t1',body:'See you at Dade Saturday?',created_at:new Date(Date.now()-7200000).toISOString(),mine:false}]});
- if(p==='/api/comments')return J([]);
+ if(p==='/api/comments'){const pid=(post&&post.post_id)||q.get('post_id');if(method==='POST'){comments[pid]=[...(comments[pid]||[]),{id:'k'+Date.now(),post_id:pid,user_id:USER,body:post.body,created_at:new Date().toISOString(),author:rider,mine:true}];return J({ok:true},201);}return J(comments[pid]||[]);}
  if(p==='/api/parts/catalog')return J({catalog:{id:'pc',source:'KTM',source_url:'',scope_label:'',complete:true,assembly_count:8,part_count:300},assemblies:['FRONT FORK, TRIPLE CLAMP','SHOCK ABSORBER','SWING ARM','CYLINDER HEAD','CLUTCH','FRONT WHEEL','REAR BRAKE CALIPER','TANK, SEAT','HANDLEBAR, CONTROLS','EXHAUST SYSTEM','WP SHIMS FOR SETTING','TRANSMISSION II - COUNTERSHAFT'].map((n,i)=>({id:'a'+i,name:n,diagram_url:'',source_url:'',position:i}))});
  if(p==='/api/coaching')return J(coaching);
  if(p==='/api/race-checklist')return J(checklist);
@@ -147,7 +169,7 @@ function respond(p,q,method,post){
  if(p==='/api/rsvps')return J([]);
  if(p==='/api/receipts')return J([]);
  if(p==='/api/reports')return J([]);
- if(p==='/api/preferences')return J({});
+ if(p==='/api/preferences')return J({units:'us',answer_length:'full',tone:'straight',...(post||{})});
  return J([]);
 }
 module.exports={respond,CLAIMS,USER,bike,bike2,conversation,messages,answer,services,plan,setupLogs,events,posts,threads,coaching,checklist,tracks,rider,

@@ -29,7 +29,7 @@ export function BuildSheetDoc({data,mine=false}:{data:SheetData;mine?:boolean}){
   <View style={{borderRadius:16,borderWidth:1,borderColor:'#262b34',backgroundColor:'#0d0f13',padding:16,gap:10,overflow:'hidden'}}>
    <View style={{position:'absolute',left:0,top:0,bottom:0,width:4,backgroundColor:colors.accent}}/>
    <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
-    <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={18}/><Eyebrow>BUILD SHEET</Eyebrow></View>
+    <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>BUILD SHEET</Eyebrow></View>
     <Text style={{color:'#6f7784',fontSize:11,fontWeight:'800',fontStyle:'italic',letterSpacing:1.5}}>BAK MX</Text>
    </View>
    <View style={{flexDirection:'row',alignItems:'center',gap:12}}>

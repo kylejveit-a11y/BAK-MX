@@ -10,15 +10,15 @@ import {systemLabel} from '../../../shared/installed-parts';
 import {describeAppAction,runAppAction,type AppAction,type AppActionHost} from '../../../shared/app-actions';
 import {readProgress,writeProgress} from './localProgress';
 import {api} from './api';
-import {BlueFace,blueLift,onBlueText,Button,Card,Copy,Icon,Notice,Switch,colors} from './ui';
+import {BlueFace,blueLift,onBlueText,Button,Card,Copy,Icon,Notice,Switch,colors,tint} from './ui';
 
 import {userErrorText} from '../../../shared/user-error';
 // Only messages we wrote (or the API sent) reach the rider; a raw code failure reads as our fault, not theirs.
 const errorText=(e:unknown)=>userErrorText(e);
 function Chip({label,on=false,quiet=false,center=false,onPress}:{label:string;on?:boolean;quiet?:boolean;center?:boolean;onPress:()=>void}){
- return <Pressable haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={onPress} style={({pressed})=>[ch.chip,on&&ch.on,on&&blueLift,quiet&&{borderColor:'transparent',paddingHorizontal:6},center&&{paddingHorizontal:6,alignItems:'center'},pressed&&{opacity:0.6}]}>{on&&<BlueFace radius={20}/>}<Text numberOfLines={center?1:undefined} adjustsFontSizeToFit={center} style={[ch.text,on&&{color:'#ffffff',fontWeight:'700'},on&&onBlueText,quiet&&{color:colors.accent,fontWeight:'600'},center&&{textAlign:'center'}]}>{label}</Text></Pressable>;
+ return <Pressable haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={onPress} style={({pressed})=>[ch.chip,on&&{borderColor:colors.accent,backgroundColor:tint(0.16)},quiet&&{borderColor:'transparent',paddingHorizontal:6},center&&{paddingHorizontal:6,justifyContent:'center'},pressed&&{opacity:0.6}]}>{on&&<Icon name="check" size={14} color={colors.accent} weight={2.4}/>}<Text numberOfLines={center?1:undefined} adjustsFontSizeToFit={center} style={[ch.text,on&&{color:'#ffffff',fontWeight:'700'},quiet&&{color:colors.accent,fontWeight:'600'},center&&{textAlign:'center'}]}>{label}</Text></Pressable>;
 }
-const ch={chip:{paddingVertical:10,paddingHorizontal:15,borderRadius:20,borderWidth:1,borderColor:'#343a45',backgroundColor:'transparent'},on:{borderColor:'transparent'},text:{color:colors.text,fontSize:15}};
+const ch={chip:{flexDirection:'row' as const,alignItems:'center' as const,gap:6,paddingVertical:10,paddingHorizontal:15,borderRadius:20,borderWidth:1,borderColor:'#343a45',backgroundColor:'transparent'},on:{},text:{color:colors.text,fontSize:15}};
 const Wrap=({children}:{children:React.ReactNode})=><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{children}</View>;
 
 type Step='complaint'|'decider'|'throttle'|'where'|'track'|'review';
@@ -49,12 +49,12 @@ export function TriageCard({onDone,onCancel}:{onDone:(text:string)=>void;onCance
    <Wrap>{(step==='where'?whereAnswers:trackAnswers).map(o=><Chip key={o} label={o} on={a[step].includes(o)} onPress={()=>toggle(step,o)}/>)}
     {a[step].filter(v=>!(step==='where'?whereAnswers:trackAnswers).includes(v)).map(v=><Chip key={v} label={v} on onPress={()=>toggle(step,v)}/>)}
     {own(step==='where'?'Somewhere else, e.g. “off-camber downhill”':'Something else, e.g. “wet clay”',t=>{toggle(step,t);setTyping(false);setDraft('');})}</Wrap>
-   <View style={{flexDirection:'row',gap:10}}><View style={{flex:1}}><Button secondary title="Back" onPress={()=>go(-1)}/></View><View style={{flex:1}}><Button title={a[step].length||step==='track'?'Next':'Skip'} onPress={()=>go(1)}/></View></View></>}
+   <View style={{flexDirection:'row',gap:10}}><View style={{flex:1}}><Button secondary title="Back" onPress={()=>go(-1)}/></View><View style={{flex:1}}><Button title={a[step].length?'Next':'Skip'} onPress={()=>go(1)}/></View></View></>}
   {step==='review'&&<>
    <View style={tx.quote}><Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{composeTriage(a)}</Text></View>
    <Text style={tx.small}>Anything else? (optional)</Text>
    <TextInput multiline value={a.notes??''} onChangeText={notes=>setA({...a,notes})} maxLength={400} placeholder="What you’ve already tried, recent changes, how it felt before" placeholderTextColor="#7d8593" style={[tx.input,{minHeight:70,textAlignVertical:'top'}]}/>
-   <View style={{flexDirection:'row',gap:10}}><View style={{flex:1}}><Button secondary title="Back" onPress={()=>go(-1)}/></View><View style={{flex:1}}><Button title="Use this" onPress={()=>onDone(composeTriage(a))}/></View></View></>}
+   <View style={{flexDirection:'row',gap:10}}><View style={{flex:1}}><Button secondary title="Back" onPress={()=>go(-1)}/></View><View style={{flex:1}}><Button title="Ask BAK" onPress={()=>onDone(composeTriage(a))}/></View></View></>}
   {(step==='decider'||step==='throttle')&&<Button secondary title="Back" onPress={()=>go(-1)}/>}
  </Card>;
 }

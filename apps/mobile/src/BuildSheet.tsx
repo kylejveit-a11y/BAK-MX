@@ -9,7 +9,7 @@ import {decodeFamily,familyOf,NOTE_HINT,WORK,providersFor,cleanName,canonBrand,p
 import {checkBuild,typeOfPart,slotOf,type BuildCheck} from '../../../shared/build-check';
 import {fuelSystem,fuelSystemLabel} from '../../../shared/fuel-system';
 import {api,apiOrigin} from './api';
-import {Button,Card,Copy,Notice,colors,tint,LinkAction,Icon} from './ui';
+import {Button,Card,Copy,Notice,colors,tint,LinkAction,Icon,PickChip} from './ui';
 import {select as hSelect} from './haptics';
 import {BuildSheetDoc,type SheetData} from './BuildSheetDoc';
 
@@ -66,7 +66,6 @@ export function BuildSheet({bike,onSaved,onAsk,raceNumber}:{bike:Bike;onSaved:(b
  }
  return <Card>
   {recorded>0&&<Pressable accessibilityRole="button" onPress={()=>{setOpen(null);setEditing(false);}} hitSlop={8} style={{alignSelf:'flex-end'}}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Done</Text></Pressable>}
-  <Text style={st.eyebrow}>BUILD SHEET</Text>
   <Text style={st.h2}>What’s on your {bike.model}?</Text>
   <Copy>Tap a section and pick what’s fitted. Keep spare parts too (a second suspension set, sand tires) and mark them on or off the bike.</Copy>
   <View style={{gap:6}}>
@@ -110,7 +109,8 @@ function SystemSheet({system,bike,value,catalog,busy,close,save,persist}:{system
  // backing out of a parts list keeps what was ticked
  const back=()=>{const p=screen.id==='options'?pending.current?.():null;if(p&&p.length){addParts(p);return;}setStack(stack.slice(0,-1));};
  const choices=useMemo(()=>pickerChoices(catalog,system,fuel,bike.model),[catalog,system,fuel,bike.model]);
- const types=typesWithCounts(choices,system,!!catalog);
+ // The note says the other fuel system's parts are hidden; with no parts list for the bike they still have to be left out here.
+ const types=typesWithCounts(choices,system,!!catalog).filter(t=>!(system==='tuning'&&((fuel==='injected'&&t.label==='Carburetor and jetting')||(fuel==='carburetor'&&t.label==='Fuel injection'))));
  const draft=useMemo(()=>writeInstalled(bike.configuration??{},{parts:[...others,...picked],stock:value.stock,notes:value.notes}),[bike.configuration,others,picked,value]);
  const checks=useMemo(()=>checkBuild({...bike,configuration:draft}).filter(c=>c.parts.some(p=>p.s===system)),[bike,draft,system]);
  /** Put parts on the bike: one per slot, so a new shock moves the old one off the bike. */
@@ -324,18 +324,20 @@ function Options({type,system,choices,have,onAdd,onCustom,pendingRef}:{type:stri
 }
 function Chips({label,options,value,onPick,indent=34}:{label:string;options:string[];value?:string;onPick:(v:string)=>void;indent?:number}){
  return <View style={{gap:6,paddingLeft:indent}}><Text style={st.noteLabel}>{label.toUpperCase()}</Text>
-  <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:6}}>{options.map(o=><Pressable key={o} haptic="select" accessibilityRole="button" accessibilityState={{selected:value===o}} onPress={()=>onPick(o)} style={[st.chip,value===o&&{backgroundColor:colors.primary,borderColor:colors.primary}]}><Text style={{color:value===o?'#fff':colors.text,fontSize:14,fontWeight:value===o?'700':'500'}}>{o}</Text></Pressable>)}</ScrollView>
+  <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:6}}>{options.map(o=><PickChip key={o} label={o} on={value===o} onPress={()=>onPick(o)}/>)}</ScrollView>
  </View>;
 }
 function WorkDetail({work,onAdd}:{work:Work;onAdd:(detail:string)=>void}){const [d,setD]=useState('');
  return <View style={{gap:10}}><Text style={st.small}>{work.detail} (optional)</Text>
   <TextInput autoFocus multiline value={d} onChangeText={setD} maxLength={120} placeholder={work.example} placeholderTextColor="#7d8593" style={[st.input,{minHeight:80,textAlignVertical:'top'}]}/>
   <Button title="Add to my bike" onPress={()=>onAdd(d.trim())}/></View>;}
+/** A familiar maker for the section, as the example in the Brand box (only a hint; any brand can be typed). */
+const BRAND_EXAMPLE:Partial<Record<PartSystem,string>>={suspension:'Öhlins',chassis:'Xtrig',engine:'Wiseco',intake:'Twin Air',exhaust:'FMF',tuning:'Vortex',clutch:'Rekluse',gearing:'Renthal',brakes:'Galfer',wheels:'Dunlop',controls:'Renthal',protection:'Acerbis',body:'Acerbis'};
 function Custom({system,type,onAdd}:{system:PartSystem;type:string|null;onAdd:(p:InstalledPart)=>void}){
  const [b,setB]=useState(''),[n,setN]=useState(type??''),[p,setP]=useState('');const sizes=sizesFor(type),[v,setV]=useState<string|undefined>(),[k,setK]=useState<string|undefined>();
  return <View style={{gap:12}}>
   <Text style={st.small}>What is it?</Text><TextInput autoFocus value={n} onChangeText={setN} maxLength={90} placeholder="e.g. Rear shock, slip-on muffler, bar mounts" placeholderTextColor="#7d8593" style={st.input}/>
-  <Text style={st.small}>Brand</Text><TextInput value={b} onChangeText={setB} maxLength={60} placeholder="e.g. Öhlins" placeholderTextColor="#7d8593" style={st.input}/>
+  <Text style={st.small}>Brand</Text><TextInput value={b} onChangeText={setB} maxLength={60} placeholder={`e.g. ${BRAND_EXAMPLE[system]??'the maker'}`} placeholderTextColor="#7d8593" style={st.input}/>
   {sizes&&<Chips label={sizes.label} options={sizes.options} value={v} onPick={setV}/>}
   {colorsFor({},type).length>0&&<Chips label="Color (optional)" options={colorsFor({},type).map(x=>x.name)} value={k} onPick={setK}/>}
   <Text style={st.small}>Part number (optional)</Text><TextInput value={p} onChangeText={setP} maxLength={48} autoCapitalize="characters" style={st.input}/>
@@ -378,7 +380,7 @@ const st={
  state:{fontSize:13,fontWeight:'600' as const},
  dot:{width:7,height:7,borderRadius:4,backgroundColor:AMBER},
  bar:{flexDirection:'row' as const,justifyContent:'space-between' as const,alignItems:'center' as const,paddingHorizontal:20,paddingTop:16,paddingBottom:4},
- back:{color:colors.accent,fontSize:17},
+ back:{color:colors.text,fontSize:15,fontWeight:'600' as const},
  close:{width:36,height:36,borderRadius:18,borderWidth:1,borderColor:'#2a2f39',alignItems:'center' as const,justifyContent:'center' as const},
  group:{borderTopWidth:1,borderTopColor:colors.line},
  navRow:{flexDirection:'row' as const,alignItems:'center' as const,gap:10,paddingVertical:15,borderBottomWidth:1,borderBottomColor:colors.line,minHeight:54},

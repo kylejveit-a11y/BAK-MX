@@ -10,7 +10,7 @@ import type {Bike} from '../../../shared/types';
 import {RIDING_TYPES} from '../../../shared/garage-fields';
 import {api} from './api';
 import {Pressable} from './Touch';
-import {Button,Copy,Icon,Notice,colors} from './ui';
+import {Button,Copy,Icon,Notice,colors,PickChip} from './ui';
 import {needsFirstSetup,firstSetupQuestion} from './firstSetup';
 export {needsFirstSetup};
 
@@ -32,7 +32,7 @@ export function FirstSetupSheet({visible,bike,onClose,onSaved,onAsk}:{visible:bo
    onSaved();onClose();onAsk(firstSetupQuestion({...bike,configuration:{...c,geared_weight_lb:weight.trim(),skill_level:level,discipline}},{weight:weight.trim(),level,discipline,dirt}));
   }catch(e){setNotice(errorText(e));}finally{setBusy(false);}
  }
- const chips=(items:string[],value:string,set:(v:string)=>void)=><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{items.map(i=>{const on=i===value;return <Pressable key={i} haptic="select" accessibilityRole="radio" accessibilityState={{selected:on}} onPress={()=>set(on&&items===DIRT?'':i)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,paddingHorizontal:14,minHeight:40,borderRadius:12,borderWidth:1,borderColor:on?'#4a5160':'#2a2f39',backgroundColor:on?'#1e232c':'transparent',opacity:pressed?0.7:1})}>{on&&<Icon name="check" size={14} color={colors.accent} weight={2.4}/>}<Text style={{color:on?'#ffffff':'#b2b9c4',fontSize:15,fontWeight:on?'700':'500'}}>{i}</Text></Pressable>;})}</View>;
+ const chips=(items:string[],value:string,set:(v:string)=>void)=><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{items.map(i=>{const on=i===value;return <PickChip key={i} radio label={i} on={on} onPress={()=>set(on&&items===DIRT?'':i)}/>;})}</View>;
  const label=(t:string,sub?:string)=><View style={{gap:2}}><Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>{t}</Text>{!!sub&&<Text style={{color:'#8f97a4',fontSize:13}}>{sub}</Text>}</View>;
  // The sheet is a column: the questions scroll, the Save button sits in a fixed footer above the home indicator, so it is
  // always whole and tappable; it never ends up half under the bottom safe area.

@@ -6,7 +6,7 @@ import {Pressable} from './Touch';
 import {Icon} from './Icon';
 import {BikeWheel} from './Wheel';
 import {level,supportAreas,groupSupport,yearRange,type SupportData,type SupportRow} from '../../../shared/bike-support';
-import {Button,Card,Eyebrow,Page,colors,s} from './ui';
+import {Button,Card,Eyebrow,Page,colors,s,usePageBack} from './ui';
 import {MetalPanel,MetalWell} from './MetalPanel';
 const data=require('../../../shared/bike-support.json') as SupportData;
 
@@ -49,11 +49,12 @@ export function SupportPicker({onSeeAll,pick:outer,onPick,onStart,title}:{onSeeA
 }
 
 export function SupportedBikesScreen(){
+ const pageBack=usePageBack();
  const [q,setQ]=useState(''),[openMake,setOpenMake]=useState(''),[openModel,setOpenModel]=useState(''),[open,setOpen]=useState<SupportRow|null>(null);
  const searching=!!q.trim(),makes=useMemo(()=>groupSupport(data.bikes,q),[q]);
  // One brand open at a time; while searching, every matching brand is open.
  const toggleMake=(m:string)=>{setOpenMake(openMake===m?'':m);setOpenModel('');setOpen(null);};
- return <Page title="Supported bikes">
+ return <Page title="Supported bikes" back={pageBack}>
   <View style={{gap:14}}>
    <Text style={{color:colors.muted,fontSize:15,lineHeight:22}}>Open a brand, then a model, to see what BAK covers for each year. If your bike isn’t here, it isn’t supported yet.</Text>
    <View style={{flexDirection:'row',gap:16,flexWrap:'wrap'}}>{(['full','strong','good','basic'] as const).map(id=><Badge key={id} id={id} label={level({full_rebuild:id==='full',knowledge:id==='strong'?90:id==='good'?70:10}).short}/>)}</View>

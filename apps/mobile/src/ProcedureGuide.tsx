@@ -103,7 +103,7 @@ function ProcedureSteps({procedure,run,save,start,onAsk,setFooter,toTop}:{proced
   setFooter(<View style={{padding:12,gap:6}}>
    {!!notice&&<Text style={{color:'#f0b4bd',fontSize:13.5,lineHeight:19}}>{notice}</Text>}
    {!notice&&needsNote&&<Text style={{color:'#b2b9c4',fontSize:13,lineHeight:18}}>This step needs a measurement or note before you continue.</Text>}
-   <Button title={last?'Done — finish guide':'Done — next step'} disabled={needsNote} onPress={finish}/>
+   <Button title={last?'Finish the job':'Next step'} disabled={needsNote} onPress={finish}/>
   </View>);
  },[complete,notice,needsNote,run,notes]);
  if(complete)return <Card><Copy strong>Guide complete</Copy><Copy>All {procedure.steps.length} steps are recorded.</Copy>

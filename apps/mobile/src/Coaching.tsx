@@ -30,7 +30,7 @@ export function useCoachingSessions(bikeId:string|undefined,enabled=true){
 export function CoachingList({bike,onCoach}:{bike:Bike;onCoach:()=>void}){
  const {sessions,error}=useCoachingSessions(bike.id);
  return <Card>
-  <View style={{flexDirection:'row',alignItems:'baseline',justifyContent:'space-between'}}><Eyebrow>COACHING</Eyebrow>{!!sessions?.length&&<Text style={{color:'#9aa2ae',fontSize:12.5}}>{sessions.length} session{sessions.length===1?'':'s'}</Text>}</View>
+  <View style={{flexDirection:'row',alignItems:'baseline',justifyContent:'space-between'}}><View/>{!!sessions?.length&&<Text style={{color:'#9aa2ae',fontSize:12.5}}>{sessions.length} session{sessions.length===1?'':'s'}</Text>}</View>
   <Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>Clip coaching</Text>
   <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>Send BAK a short clip of you riding a corner, jump or section. It comes back with the one fix and a drill, and each session lands here so you can send a new clip to check it stuck.</Text>
   <Button title="Coach me from a clip" onPress={onCoach}/>
