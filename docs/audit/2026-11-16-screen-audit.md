@@ -129,3 +129,25 @@ nothing cut off on a small phone; Android matches iPhone.
 ### How BAK works
 - HW1 Needs correction: nothing about Ride Day, Ride safety, Right now, crew finder or What I ran here. → Add a section.
 - HW2 Needs correction (accuracy): "Pick the bike at the top" — the bike picker is in the chat box at the bottom now.
+
+### Android (cloud Android phone)
+- Home, Account › Preferences, Practice day and Ride Day match iPhone.
+- AN1 Needs correction: Android's back button closed Ride Day from any step, even on the lock screen. → Back steps back
+  like the on-screen Back; does nothing while locked; closes only from the first screen.
+- The New card is iPhone-only; 1.0.11's features work on both. → Shows on Android too.
+
+### Also found while fixing
+- Accuracy (sample answers used for marketing): clicker directions were reversed. KTM counts clicks out from fully in, so
+  "1 click slower (clockwise)" is 15 → 14 clicks out (was written 15 → 16), and "2 clicks softer" is 14 → 16 (was 14 → 12).
+  Tire pressure pointed at the wrong source line.
+- The in-app guide (what Ask BAK uses to explain the app) had no Ride Day or ride safety entry, said "Settings" and
+  "Done — next step". → Added and renamed.
+
+## Fix status (all ✅ in commit e61b0308 unless noted)
+H1 ✅ H2 ✅ H3 ✅ H4 ✅ · T1 ✅ T2 ✅ · C1 ✅ (reworded; "Action edit" is the photo feature's name) · C2 ✅ C3 ✅ C4 ✅ C5 ✅
+· C6 ✅ "Choose" in blue metal; the space above the list is the wheel's centering, kept · C7 ✅ C8 ✅
+· G1 ✅ G2 ✅ G3 ✅ G4 ✅ G5 ✅ G6 ✅ G7 ✅ · B1 ✅ B2 ✅ B3 ✅ · M1 ✅ (Back on Setup log, Know-how, Specs, Service log, How BAK
+works, Supported bikes, Messages) M2 ✅ M3 ✅ M4 ✅ · A1 ✅ A2 ✅ A3 ✅ A4 ✅ A5 ✅ · MS1 ✅ · CM1 ✅ CM2 ✅ CM3 ✅ · E1 ✅ E2 ✅ E3 ✅
+· P1 ✅ P2 ✅ P3 ✅ · HW1 ✅ HW2 ✅ · AN1 ✅ · "Send check-in" blue ✅ · one pick chip everywhere ✅
+
+Not reachable in the sample builds (checked in code, unchanged this pass): sign-in / sign-up / reset screens, first setup.
