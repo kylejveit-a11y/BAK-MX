@@ -10,7 +10,7 @@ import {Pressable} from './Touch';
 import {BackLink,Button,Card,Copy,Eyebrow,Icon,LinkAction,Notice,PageTitle,PickChip,colors} from './ui';
 import {LiveConditionsCard} from './LiveConditions';
 import {TrackHistoryCard} from './TrackHistory';
-import {TrailMap,MAP_IS_STREET} from './TrailMap';
+import {TrailMap,MAP_NOTE} from './TrailMap';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 const open=(url:string|null|undefined)=>{if(url&&/^(https?:|tel:)/.test(url))void Linking.openURL(url).catch(()=>{});};
@@ -166,7 +166,7 @@ function TrailMapView({id,onBack}:{id:string;onBack:()=>void}){
   {!!data?.lines.length&&<>
    <TrailMap lines={data.lines} selected={selected}/>
    <View style={{flexDirection:'row',flexWrap:'wrap',gap:14}}>{WIDTHS.filter(w=>used.has(w.id)).map(w=><View key={w.id} style={{flexDirection:'row',alignItems:'center',gap:6}}><View style={{width:18,height:4,borderRadius:2,backgroundColor:w.color}}/><Text style={{color:colors.text,fontSize:13.5}}>{w.label}</Text></View>)}</View>
-   <Text style={{color:'#8b93a0',fontSize:12.5,lineHeight:18}}>{W.mapNote(data.map_date)}{MAP_IS_STREET?'':` ${W.noMapApp}`} Forest roads that also allow OHVs aren’t drawn.</Text>
+   <Text style={{color:'#8b93a0',fontSize:12.5,lineHeight:18}}>{W.mapNote(data.map_date)}{MAP_NOTE?` ${MAP_NOTE}`:''} Forest roads that also allow OHVs aren’t drawn.</Text>
    <Card>
     <Eyebrow>TRAILS</Eyebrow>
     {trails.map((t,i)=><Pressable key={t.name} accessibilityRole="button" accessibilityState={{selected:selected===t.name}} onPress={()=>setSelected(s=>s===t.name?null:t.name)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:10,paddingVertical:10,borderTopWidth:i?1:0,borderTopColor:'#1f232b',opacity:pressed?0.6:1})}>

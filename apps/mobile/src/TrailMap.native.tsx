@@ -9,6 +9,8 @@ import {TrailDiagram,boundsOf} from './TrailDiagram';
 
 export const MAP_IS_STREET=Platform.OS==='ios'||!!(Constants.expoConfig?.extra as {androidMap?:boolean}|undefined)?.androidMap;
 
+export const MAP_NOTE=MAP_IS_STREET?'':'Trail lines on a plain background. The street map under them is coming to Android.';
+
 export function TrailMap({lines,selected}:{lines:TrailLine[];selected?:string|null}){
  const ref=useRef<MapView>(null);
  if(!MAP_IS_STREET)return <TrailDiagram lines={lines} selected={selected}/>;

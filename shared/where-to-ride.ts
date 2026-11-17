@@ -45,7 +45,6 @@ export const WHERE_COPY={
  trailMap:'Trail map',
  mapNote:(d:string|null)=>`${d?`Forest Service map of ${fmtDay(d)}. `:''}Closures change: check the official page before you ride.`,
  noLines:'The Forest Service hasn’t published trail lines for this area. Use the official map.',
- noMapApp:'Trail lines on a plain background. The street map shows on the phone app.',
  official:'Official page',directions:'Directions',onx:'Open in onX',call:'Call',
  rideToday:'Ride here today',rideTodayDetail:'Starts a practice day here: Ride Day mode, check-ins and Ride safety.',
  ask:'Ask BAK about riding here',
