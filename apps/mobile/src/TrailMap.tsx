@@ -5,4 +5,4 @@ import {TrailDiagram} from './TrailDiagram';
 
 export const MAP_IS_STREET=false;
 export const MAP_NOTE='Trail lines on a plain background here. The phone app shows them on a street map.';
-export function TrailMap({lines,selected}:{lines:TrailLine[];selected?:string|null}){return <TrailDiagram lines={lines} selected={selected}/>;}
+export function TrailMap({lines,selected,onSelect}:{lines:TrailLine[];selected?:string|null;onSelect?:(name:string)=>void;showMe?:boolean}){return <TrailDiagram lines={lines} selected={selected} onSelect={onSelect}/>;}

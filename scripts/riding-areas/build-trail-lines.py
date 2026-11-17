@@ -23,8 +23,28 @@ AREAS = {
   'town-creek-ohv': {'forest': 'Chattahoochee-Oconee National Forests', 'district': 'Oconee', 'names': r'^TOWN CREEK'},
   'ocala-nf-ohv-trail-system': {'forest': 'National Forests in Florida', 'district': 'Lake George', 'all': True},
   'big-scrub-ohv': {'forest': 'National Forests in Florida', 'district': 'Seminole', 'names': r'^(CENTENNIAL TRAIL|BIG SCRUB LINK|SCRUB JAY SHORTCUT|SOUTH LOOP)$'},
+  'brown-mountain-ohv': {'forest': 'National Forests in North Carolina', 'district': 'Grandfather', 'all': True},
+  'badin-lake-ohv': {'forest': 'National Forests in North Carolina', 'district': 'Uwharrie', 'all': True},
+  'wayehutta-ohv': {'forest': 'National Forests in North Carolina', 'district': 'Nantahala', 'all': True},
+  # Black Swamp: only about half a mile of its 8 carries lines in the national file; riders get the official map.
+  'cedar-springs-ohv': {'forest': 'Francis Marion and Sumter National Forests', 'district': 'Long Cane', 'names': r'^CEDAR SPRINGS'},
+  'parsons-mountain-ohv': {'forest': 'Francis Marion and Sumter National Forests', 'district': 'Long Cane', 'names': r'^PARSON'},
+  'wambaw-cycle-trail': {'forest': 'Francis Marion and Sumter National Forests', 'district': 'Wambaw', 'all': True},
+  'apalachicola-ohv': {'forest': 'National Forests in Florida', 'district': 'Wakulla', 'all': True},
+  'bethel-ohv-trails': {'forest': 'National Forests in Mississippi', 'district': 'De Soto', 'names': r'^BETHEL MOTORCYCLE'},  # the official page lists motorcycle trails only
+  'redbird-crest-trail': {'forest': 'Daniel Boone National Forest', 'district': 'Redbird', 'all': True},
+  'white-sulphur-ohv': {'forest': 'Daniel Boone National Forest', 'district': 'Cumberland', 'names': r'^WHITE SULPHUR'},
   'wandering-wiregrass-ohv': {'forest': 'National Forests in Florida', 'district': 'Seminole', 'names': r'^WANDERING WIREGRASS'},
 }
+
+def title(name):
+    """FS names are upper case: 'KIRBY'S LOOP' -> "Kirby's Loop", 'BM 1A' -> 'BM 1A', '13TH' -> '13th'."""
+    out = []
+    for w in name.split():
+        if re.fullmatch(r'\d+(ST|ND|RD|TH)', w): out.append(w.lower())
+        elif re.search(r'\d', w) or (len(w) <= 2 and w.isalpha() and w not in ('OF', 'TO', 'AT', 'IN', 'ON')): out.append(w.upper())
+        else: out.append(w[:1].upper() + w[1:].lower())
+    return ' '.join(out)
 
 def width(symbol, rec):
     s = symbol.lower()
@@ -86,7 +106,7 @@ def main(folder, map_date):
             seasonal = rec['MVUM_SYMBO'].strip().lower().endswith('seasonal')
             clean = lambda v: str(v).split()[0] if str(v).strip() else ''
             dates = clean(rec['MOTORCYC_1']) or clean(rec['ATV_DATESO'])
-            out.append({'id': f"{area}:{rec['ID']}:{n}", 'track_id': area, 'source_id': rec['ID'], 'name': named(rec).title(),
+            out.append({'id': f"{area}:{rec['ID']}:{n}", 'track_id': area, 'source_id': rec['ID'], 'name': title(named(rec)),
                         'number': rec['ID'], 'width': width(rec['MVUM_SYMBO'], rec),
                         'vehicles': {k2: v for k2, v in {'motorcycle': clean(rec['MOTORCYC_1']) or clean(rec['MOTORCYCLE']), 'atv': clean(rec['ATV_DATESO']) or clean(rec['ATV'])}.items() if v},
                         'dates_open': (dates or 'Seasonal') if seasonal else 'Yearlong',

@@ -36,6 +36,7 @@ export const HOW_BAK_WORKS:HowSection[]=[
   'Right now shows what riders at the track say today (open, watered, muddy, busy). What I ran here shows your setup, tires and weather from your last visits to the same track.']},
  {id:'where',title:'Where to Ride',lines:[
   'Tracks and riding areas in one list (Home › More). For a riding area: what you can ride and how wide, passes, season, hours and rules from the official pages, how riders say it’s riding today, and a trail map for National Forest areas.',
+  'Each place has today’s and tomorrow’s forecast and any community events there. Save the ones you ride; they stay on this phone.',
   'Ride here today starts a practice day there. Closures change: check the official page before a long drive.']},
  {id:'fuel',title:'Fuel plan',lines:[
   'What to eat and drink, and when. Enter your weight, height and age once and BAK lays out the day before, race morning, between motos and after, timed to your gate drops.',

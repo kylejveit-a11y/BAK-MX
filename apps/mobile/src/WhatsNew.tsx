@@ -15,7 +15,7 @@ let countedThisLaunch=false;
 const items:[IconName,string,string][]=[
  ['moto','Ride Day mode','Big buttons for gloves, the screen stays on and a tap lock, for logging between sessions.'],
  ['location','Ride safety','Pick when you’ll be back. Your contacts get a link to where you were last seen, and an email only if you don’t check in.'],
- ['flag','Where to Ride','Tracks and riding areas in one list: what you can ride and how wide, passes and rules from the official pages, and Forest Service trail maps.'],
+ ['flag','Where to Ride','Tracks and riding areas across the Southeast in one list: what you can ride and how wide, passes and rules from the official pages, the forecast, Forest Service trail maps, and Saved for the ones you ride.'],
  ['pulse','Right now','Riders at the track say if it’s open, watered, muddy or busy. Check in with two taps.'],
  ['history','What I ran here','Your setup, tire pressures and the weather from your last visits to the same track.'],
 ];

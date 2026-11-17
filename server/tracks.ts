@@ -27,6 +27,8 @@ const FIELDS='id,name,city,state,status,access,types,tracks_on_site,soil,layout,
 const shape=(r:Record<string,unknown>):TrackProfile=>({...(r as unknown as TrackProfile),
  // A riding area (trail riding, not a motocross track): the confirmed trail facts, so setup advice fits the trails.
  kind:r.kind==='riding_area'?'riding_area':'track',area:areaForAsk(r.area as RidingArea|null)??undefined,
+ // No entrance on file: the middle of the trail map is close enough for the forecast (this shape never gives directions).
+ ...(r.lat==null&&(r.area as RidingArea|null)?.center?{lat:(r.area as RidingArea).center!.lat,lng:(r.area as RidingArea).center!.lng}:{}),
  // Riders get what riders said and when; the links stay on file for review, not in the briefing.
  rider_reports:((r.rider_reports as {says:string;source_type?:string;date?:string|null}[])??[]).slice(0,8).map(x=>({says:x.says,source_type:x.source_type,date:x.date??null}))});
 
@@ -55,10 +57,12 @@ export async function trackContext(db:SupabaseClient,owner:string,texts:string[]
 
 /** The tracks BAK knows, for the race-day and "How did it ride?" pickers: id, name, place, whether a forecast can be had
  *  (location on file), and the location rounded to about a mile so the nearest tracks can be offered first. */
-export async function trackDirectory(db:SupabaseClient):Promise<{id:string;name:string;city:string|null;state:string;aliases:string[];weather:boolean;lat:number|null;lng:number|null}[]>{
+export async function trackDirectory(db:SupabaseClient):Promise<{id:string;name:string;city:string|null;state:string;aliases:string[];weather:boolean;lat:number|null;lng:number|null;kind:'track'|'riding_area'}[]>{
  // Reference-only tracks (listed=false) are never offered to riders, only used when a rider names them.
- const {data,error}=await db.from('tracks').select('id,name,aliases,city,state,lat,lng').eq('review_status','APPROVED').eq('listed',true).order('name').limit(2000);
+ const {data,error}=await db.from('tracks').select('id,name,aliases,city,state,lat,lng,kind,area').eq('review_status','APPROVED').eq('listed',true).order('name').limit(2000);
  if(error||!Array.isArray(data))return [];
  const round=(v:unknown)=>typeof v==='number'&&Number.isFinite(v)?Math.round(v*100)/100:null;
- return data.map(r=>({id:r.id as string,name:r.name as string,city:(r.city as string|null)??null,state:r.state as string,aliases:(r.aliases as string[]|null)??[],weather:r.lat!=null&&r.lng!=null,lat:round(r.lat),lng:round(r.lng)}));
+ return data.map(r=>({id:r.id as string,name:r.name as string,city:(r.city as string|null)??null,state:r.state as string,aliases:(r.aliases as string[]|null)??[],
+  // a riding area with no entrance on file still gets a forecast from the middle of its trail map
+  weather:(r.lat!=null&&r.lng!=null)||!!(r.area as RidingArea|null)?.center,lat:round(r.lat),lng:round(r.lng),kind:r.kind==='riding_area'?'riding_area' as const:'track' as const}));
 }

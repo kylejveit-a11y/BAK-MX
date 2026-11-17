@@ -1,0 +1,481 @@
+[
+ {
+  "id": "brown-mountain-ohv",
+  "land": "national_forest",
+  "managed_by": "Pisgah National Forest, Grandfather Ranger District",
+  "near": "Morganton, NC",
+  "vehicles": {
+   "single_track": true,
+   "atv": true,
+   "full_width": true
+  },
+  "width_limit_in": null,
+  "trail_miles": 34,
+  "pass": {
+   "day": "$5 per vehicle per day",
+   "year": "$30 per season",
+   "how": null
+  },
+  "season": "April 1 to January 1",
+  "hours": null,
+  "rules": [
+   "Mostly trail bikes and ATVs; Jeeps and 4x4s only on Trail 8 and part of Trail 1",
+   "Sound limit 99 dB",
+   "No alcohol",
+   "NC: DOT helmet and eye protection, and a spark arrester",
+   "NC: no one under 8 rides; under 16 rides only with an adult (18+) watching the whole time"
+  ],
+  "closures": null,
+  "official_url": "https://fs.usda.gov/r08/northcarolina/recreation/brown-mountain-ohv-trail-system",
+  "phone": "(828) 652-2144",
+  "mvum": {
+   "forest": "National Forests in North Carolina"
+  },
+  "sources": [
+   {
+    "url": "https://fs.usda.gov/r08/northcarolina/recreation/brown-mountain-ohv-trail-system",
+    "title": "USDA Forest Service - Brown Mountain OHV Trail System",
+    "accessed": "2026-11-17"
+   }
+  ],
+  "verified": "2026-11-17"
+ },
+ {
+  "id": "badin-lake-ohv",
+  "land": "national_forest",
+  "managed_by": "Uwharrie National Forest, Uwharrie Ranger District",
+  "near": "Montgomery County, NC",
+  "vehicles": {
+   "single_track": null,
+   "atv": true,
+   "full_width": true
+  },
+  "width_limit_in": null,
+  "trail_miles": 17,
+  "pass": {
+   "day": "Day pass required (price not listed)",
+   "year": "Annual permit (price not listed)",
+   "how": "Display the pass on the vehicle."
+  },
+  "season": "Seasonal: the 2025 season ran April 1 to December 15. Check the official page for this year's dates.",
+  "hours": "Open 24 hours during the season",
+  "rules": [
+   "Off-road motorcycles, ATVs, side-by-sides and full-size 4x4s",
+   "9 trails, two-way traffic, marked with orange diamonds",
+   "The Cotton Place trailhead side is the hardest riding",
+   "NC: DOT helmet and eye protection, and a spark arrester",
+   "NC: no one under 8 rides; under 16 rides only with an adult (18+) watching the whole time"
+  ],
+  "closures": null,
+  "official_url": "https://www.fs.usda.gov/r08/northcarolina/recreation/badin-lake-ohv-trail-complex",
+  "phone": "(910) 576-6391",
+  "mvum": {
+   "forest": "National Forests in North Carolina"
+  },
+  "sources": [
+   {
+    "url": "https://www.fs.usda.gov/r08/northcarolina/recreation/badin-lake-ohv-trail-complex",
+    "title": "USDA Forest Service - Badin Lake OHV Trail Complex",
+    "accessed": "2026-11-17"
+   },
+   {
+    "url": "https://www.fs.usda.gov/r08/northcarolina/newsroom/releases/uwharrie-badin-lake-ohv-trail-complex-seasonal-opening",
+    "title": "USDA Forest Service - Badin Lake OHV seasonal opening (2025)",
+    "accessed": "2026-11-17"
+   }
+  ],
+  "verified": "2026-11-17"
+ },
+ {
+  "id": "wayehutta-ohv",
+  "land": "national_forest",
+  "managed_by": "Nantahala National Forest, Nantahala Ranger District",
+  "near": "Jackson County, NC",
+  "vehicles": {
+   "single_track": null,
+   "atv": true,
+   "full_width": null
+  },
+  "width_limit_in": null,
+  "trail_miles": null,
+  "pass": null,
+  "season": "Most trails April 1 to December 15 on the Forest Service map",
+  "hours": "Closed from half an hour after sunset to half an hour before sunrise",
+  "rules": [
+   "No camping within 500 ft of the parking area",
+   "No fires",
+   "No alcohol",
+   "NC: DOT helmet and eye protection, and a spark arrester"
+  ],
+  "closures": null,
+  "official_url": "https://www.fs.usda.gov/r08/northcarolina/alerts/wayehutta-orv-area-prohibitions-nantahala-ranger-district",
+  "phone": "(828) 524-6441",
+  "mvum": {
+   "forest": "National Forests in North Carolina"
+  },
+  "sources": [
+   {
+    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/wayehutta-orv-area-prohibitions-nantahala-ranger-district",
+    "title": "USDA Forest Service - Wayehutta ORV Area prohibitions",
+    "accessed": "2026-11-17"
+   },
+   {
+    "url": "https://data.fs.usda.gov/geodata/edw/datasets.php",
+    "title": "USDA Forest Service - Motor Vehicle Use Map trails (Nov 15, 2026)",
+    "accessed": "2026-11-17"
+   }
+  ],
+  "verified": "2026-11-17"
+ },
+ {
+  "id": "black-swamp-ohv",
+  "land": "national_forest",
+  "managed_by": "Croatan National Forest",
+  "near": "Between New Bern and Havelock, NC",
+  "vehicles": {
+   "single_track": null,
+   "atv": true,
+   "full_width": false
+  },
+  "width_limit_in": 60,
+  "trail_miles": 8,
+  "pass": {
+   "day": "$5 per day",
+   "year": "$30 per year",
+   "how": "Recreation.gov only. No pass sales on site."
+  },
+  "season": "Open year-round",
+  "hours": null,
+  "rules": [
+   "ATVs and trail bikes under 60 in wide",
+   "No restrooms",
+   "NC: DOT helmet and eye protection, and a spark arrester"
+  ],
+  "closures": null,
+  "official_url": "https://fs.usda.gov/r08/northcarolina/recreation/black-swamp-ohv-trailhead",
+  "phone": null,
+  "trailheads": [
+   {
+    "name": "Black Swamp OHV Trailhead",
+    "lat": 34.907181,
+    "lng": -77.101993
+   }
+  ],
+  "mvum": {
+   "forest": "National Forests in North Carolina"
+  },
+  "sources": [
+   {
+    "url": "https://fs.usda.gov/r08/northcarolina/recreation/black-swamp-ohv-trailhead",
+    "title": "USDA Forest Service - Black Swamp OHV Trailhead",
+    "accessed": "2026-11-17"
+   }
+  ],
+  "verified": "2026-11-17"
+ },
+ {
+  "id": "cedar-springs-ohv",
+  "land": "national_forest",
+  "managed_by": "Sumter National Forest, Long Cane Ranger District",
+  "near": "Long Cane Ranger District, SC",
+  "vehicles": {
+   "single_track": null,
+   "atv": true,
+   "full_width": false
+  },
+  "width_limit_in": 50,
+  "trail_miles": null,
+  "pass": {
+   "day": "Trail pass required (price on Recreation.gov)",
+   "year": null,
+   "how": "Recreation.gov: Cedar Springs OHV Trail Pass."
+  },
+  "season": null,
+  "hours": null,
+  "rules": [
+   "ATVs, side-by-sides and dirt bikes 50 in and under",
+   "No 4x4s"
+  ],
+  "closures": "Closes on short notice in wet weather. Call Before You Haul: (803) 561-4025.",
+  "official_url": "https://www.recreation.gov/activitypass/AP22595",
+  "phone": "(803) 561-4025",
+  "mvum": {
+   "forest": "Francis Marion and Sumter National Forests"
+  },
+  "sources": [
+   {
+    "url": "https://www.recreation.gov/activitypass/AP22595",
+    "title": "Recreation.gov - Cedar Springs OHV Trail Pass",
+    "accessed": "2026-11-17"
+   },
+   {
+    "url": "https://www.fs.usda.gov/r08/francismarionsumter/alerts/check-call-you-haul-hotline-riding-our-ohv-trails",
+    "title": "USDA Forest Service - Call Before You Haul hotline",
+    "accessed": "2026-11-17"
+   }
+  ],
+  "verified": "2026-11-17"
+ },
+ {
+  "id": "parsons-mountain-ohv",
+  "land": "national_forest",
+  "managed_by": "Sumter National Forest, Long Cane Ranger District",
+  "near": "Abbeville, SC",
+  "vehicles": {
+   "single_track": null,
+   "atv": true,
+   "full_width": false
+  },
+  "width_limit_in": 50,
+  "trail_miles": null,
+  "pass": {
+   "day": "Trail pass required (price on Recreation.gov)",
+   "year": null,
+   "how": "Recreation.gov: Parsons Mountain OHV Trail Pass."
+  },
+  "season": null,
+  "hours": null,
+  "rules": [
+   "ATVs, side-by-sides and dirt bikes 50 in and under",
+   "No 4x4s"
+  ],
+  "closures": "Closes on short notice in wet weather. Call Before You Haul: (803) 561-4025.",
+  "official_url": "https://www.recreation.gov/activitypass/AP22596",
+  "phone": "(803) 561-4025",
+  "mvum": {
+   "forest": "Francis Marion and Sumter National Forests"
+  },
+  "sources": [
+   {
+    "url": "https://www.recreation.gov/activitypass/AP22596",
+    "title": "Recreation.gov - Parsons Mountain OHV Trail Pass",
+    "accessed": "2026-11-17"
+   },
+   {
+    "url": "https://www.fs.usda.gov/r08/francismarionsumter/alerts/check-call-you-haul-hotline-riding-our-ohv-trails",
+    "title": "USDA Forest Service - Call Before You Haul hotline",
+    "accessed": "2026-11-17"
+   }
+  ],
+  "verified": "2026-11-17"
+ },
+ {
+  "id": "wambaw-cycle-trail",
+  "land": "national_forest",
+  "managed_by": "Francis Marion National Forest, Francis Marion Ranger District",
+  "near": "North of Charleston, SC",
+  "name_detail": "Round Pond Cycle Trailhead, off Halfway Creek Rd",
+  "vehicles": {
+   "single_track": true,
+   "atv": true,
+   "full_width": false
+  },
+  "width_limit_in": 50,
+  "trail_miles": null,
+  "pass": {
+   "day": "$5 per OHV per day",
+   "year": "$50 per person per season (only the person named on it)",
+   "how": "Day and annual passes on Recreation.gov; season passes at the Francis Marion Ranger District office. Non-refundable."
+  },
+  "season": null,
+  "hours": null,
+  "rules": [
+   "Sandy figure-eight trail built for motorcycles; OHVs under 50 in also allowed",
+   "No Jeeps, Hummers or other 4x4s"
+  ],
+  "closures": "Can close on short notice, and has had closure orders. Call the OHV hotline (803) 561-4025 before you drive.",
+  "official_url": "https://www.fs.usda.gov/r08/francismarionsumter/recreation/trails/wambaw-cycle-trail-south-loop",
+  "phone": "(803) 561-4025",
+  "mvum": {
+   "forest": "Francis Marion and Sumter National Forests"
+  },
+  "sources": [
+   {
+    "url": "https://www.fs.usda.gov/r08/francismarionsumter/recreation/trails/wambaw-cycle-trail-south-loop",
+    "title": "USDA Forest Service - Wambaw Cycle Trail",
+    "accessed": "2026-11-17"
+   },
+   {
+    "url": "https://www.fs.usda.gov/r08/francismarionsumter/alerts/check-call-you-haul-hotline-riding-our-ohv-trails",
+    "title": "USDA Forest Service - Call Before You Haul hotline",
+    "accessed": "2026-11-17"
+   }
+  ],
+  "verified": "2026-11-17"
+ },
+ {
+  "id": "apalachicola-ohv",
+  "land": "national_forest",
+  "managed_by": "Apalachicola National Forest, Wakulla Ranger District",
+  "near": "Tallahassee, FL",
+  "name_detail": "Springhill Motorcycle Trailhead, Leon County trails",
+  "vehicles": {
+   "single_track": true,
+   "atv": true,
+   "full_width": false
+  },
+  "width_limit_in": 60,
+  "trail_miles": 111,
+  "pass": {
+   "day": "3-day or 7-day pass (prices on Recreation.gov)",
+   "year": "Annual pass (price on Recreation.gov)",
+   "how": "Recreation.gov. Required to ride the OHV trails."
+  },
+  "season": null,
+  "hours": "8am to 8pm in summer, 8am to 6pm in winter",
+  "rules": [
+   "White trails (56 mi): motorcycles only",
+   "Yellow trails (55 mi): ATVs, side-by-sides (60 in and 1,500 lb or less) and motorcycles",
+   "Two-way trails marked with fiberglass posts",
+   "Riders under 16 must finish the online safety course first",
+   "Safety gear required",
+   "Unnumbered roads are closed to motor vehicles; 30 mph on Leon County mixed-use roads"
+  ],
+  "closures": null,
+  "official_url": "https://fs.usda.gov/r08/florida/recreation/springhill-motorcycle-trailhead",
+  "phone": "850-523-8500",
+  "mvum": {
+   "forest": "National Forests in Florida"
+  },
+  "sources": [
+   {
+    "url": "https://fs.usda.gov/r08/florida/recreation/springhill-motorcycle-trailhead",
+    "title": "USDA Forest Service - Springhill Motorcycle Trailhead",
+    "accessed": "2026-11-17"
+   }
+  ],
+  "verified": "2026-11-17"
+ },
+ {
+  "id": "bethel-ohv-trails",
+  "land": "national_forest",
+  "managed_by": "De Soto National Forest, De Soto Ranger District",
+  "near": "Saucier, MS",
+  "name_detail": "Bethel South motorcycle trails",
+  "vehicles": {
+   "single_track": true,
+   "atv": null,
+   "full_width": null
+  },
+  "width_limit_in": null,
+  "trail_miles": null,
+  "pass": {
+   "day": "No fee",
+   "year": null,
+   "how": null
+  },
+  "season": null,
+  "hours": null,
+  "rules": [
+   "Motorcycle trails: Bethel (4.6 mi, easy), Rattlesnake (3.8 mi), Lost (6 to 8 mi, partly technical)",
+   "Mountain bikers use nearby trails: watch for them",
+   "Helmets required; riders 16 and up need a driver's license",
+   "No alcohol",
+   "7-day stay limit"
+  ],
+  "closures": "Closes 7 to 10 days after wet weather. Call the De Soto Ranger District (601-528-6180) before you haul.",
+  "official_url": "https://fs.usda.gov/r08/mississippi/recreation/trails/bethel-south-motorcycle-and-mountain-bike-trails",
+  "phone": "601-528-6180",
+  "mvum": {
+   "forest": "National Forests in Mississippi"
+  },
+  "sources": [
+   {
+    "url": "https://fs.usda.gov/r08/mississippi/recreation/trails/bethel-south-motorcycle-and-mountain-bike-trails",
+    "title": "USDA Forest Service - Bethel South Motorcycle and Mountain Bike Trails",
+    "accessed": "2026-11-17"
+   }
+  ],
+  "verified": "2026-11-17"
+ },
+ {
+  "id": "redbird-crest-trail",
+  "land": "national_forest",
+  "managed_by": "Daniel Boone National Forest, Redbird Ranger District",
+  "near": "Big Creek, KY",
+  "vehicles": {
+   "single_track": true,
+   "atv": true,
+   "full_width": true
+  },
+  "width_limit_in": 64,
+  "trail_miles": null,
+  "pass": {
+   "day": "$15 per OHV per day",
+   "year": "$60 per OHV per year",
+   "how": "Forest offices, local vendors or the Recreation.gov app (download it first: little cell signal on site). Show the sticker, wristband or confirmation number."
+  },
+  "season": "Open year-round",
+  "hours": null,
+  "rules": [
+   "Width changes by section: 1-6 up to 64 in (1,000 cc, low-pressure tires); 7-13 up to 50 in; 14-15 street-legal only; 16-22 single-track bikes only",
+   "Check the Redbird Crest map and guide for each section before you ride",
+   "No cross-country travel or hill climbs",
+   "Helmet required",
+   "Shared with hikers, horses and mountain bikes"
+  ],
+  "closures": "Logging near sections 17-19. The Redbird office in Big Creek has no phone service or pass sales right now.",
+  "official_url": "https://fs.usda.gov/r08/danielboone/recreation/trails/redbird-crest-trail",
+  "phone": "606-598-2192",
+  "trailheads": null,
+  "mvum": {
+   "forest": "Daniel Boone National Forest"
+  },
+  "sources": [
+   {
+    "url": "https://fs.usda.gov/r08/danielboone/recreation/trails/redbird-crest-trail",
+    "title": "USDA Forest Service - Redbird Crest Trail",
+    "accessed": "2026-11-17"
+   },
+   {
+    "url": "https://www.recreation.gov/activitypass/AP26131",
+    "title": "Recreation.gov - Daniel Boone OHV Passes",
+    "accessed": "2026-11-17"
+   }
+  ],
+  "verified": "2026-11-17"
+ },
+ {
+  "id": "white-sulphur-ohv",
+  "land": "national_forest",
+  "managed_by": "Daniel Boone National Forest, Cumberland Ranger District",
+  "near": "Cave Run Lake, KY",
+  "vehicles": {
+   "single_track": null,
+   "atv": true,
+   "full_width": null
+  },
+  "width_limit_in": null,
+  "trail_miles": 17,
+  "pass": {
+   "day": "$15 per OHV per day",
+   "year": "$60 per OHV per year",
+   "how": "Recreation.gov: Daniel Boone OHV pass."
+  },
+  "season": "May 1 to November 30 (Forest Service order)",
+  "hours": "No motorized use from sunset to sunrise; trailhead parking closed after 10pm",
+  "rules": [
+   "No camping within 300 ft of the trail system in season",
+   "Helmet required"
+  ],
+  "closures": null,
+  "official_url": "https://fs.usda.gov/r08/danielboone/alerts/white-sulphur-ohv-trail-system",
+  "phone": "859-745-3100",
+  "mvum": {
+   "forest": "Daniel Boone National Forest"
+  },
+  "sources": [
+   {
+    "url": "https://fs.usda.gov/r08/danielboone/alerts/white-sulphur-ohv-trail-system",
+    "title": "USDA Forest Service - White Sulphur OHV Trail System order",
+    "accessed": "2026-11-17"
+   },
+   {
+    "url": "https://www.recreation.gov/activitypass/AP26131",
+    "title": "Recreation.gov - Daniel Boone OHV Passes",
+    "accessed": "2026-11-17"
+   }
+  ],
+  "verified": "2026-11-17"
+ }
+]

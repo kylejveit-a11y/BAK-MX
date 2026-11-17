@@ -7,6 +7,9 @@ export const CHECKIN_STATUSES=[
  {id:'watering',label:'Watering now'},{id:'muddy',label:'Muddy'},{id:'dusty',label:'Dusty'},{id:'rough',label:'Rough'},{id:'fresh_prep',label:'Fresh prep'},
 ] as const;
 export type CheckinStatus=(typeof CHECKIN_STATUSES)[number]['id'];
+/** Riding areas have no water truck or prep crew: their check-in leaves those two out. */
+const TRACK_ONLY=new Set(['watering','fresh_prep']);
+export const checkinStatusesFor=(kind:'track'|'riding_area'='track')=>kind==='riding_area'?CHECKIN_STATUSES.filter(s=>!TRACK_ONLY.has(s.id)):CHECKIN_STATUSES;
 const IDS=CHECKIN_STATUSES.map(s=>s.id) as string[];
 const LABEL=new Map<string,string>(CHECKIN_STATUSES.map(s=>[s.id,s.label]));
 /** Pairs that cannot both be picked in one check-in. */
@@ -16,7 +19,7 @@ export const checkinLabel=(id:string)=>LABEL.get(id)??id;
 export const CHECKIN_LIMITS={perPick:4,perHour:6,windowHours:6} as const;
 export const CHECKIN_COPY={
  title:'Right now',empty:'No check-ins in the last 6 hours.',
- ask:'At the track? Tap what it’s like right now.',send:'Check in',sent:'Thanks. Riders see it for the next few hours (never your name).',
+ ask:'At the track? Tap what it’s like right now.',askTrails:'At the trails? Tap what they’re like right now.',send:'Check in',sent:'Thanks. Riders see it for the next few hours (never your name).',
  noSignal:'No signal. Check-ins only send live, since they’re about right now. Try again when you have a bar or two.',pickOne:'Tap at least one first.',
  riders:'Riders’ reports, not the track’s. Call ahead before a long drive.',
 } as const;

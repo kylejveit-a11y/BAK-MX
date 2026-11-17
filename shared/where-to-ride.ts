@@ -1,6 +1,7 @@
 // Where to Ride: every track and riding area in one place (docs/plans/riding-areas-plan.md). Shared by the server, the phone
 // and the website so the words and rules are the same everywhere. Riding-area facts come from official pages
 // (docs/research/riding-areas); anything we could not confirm is null and shows as "Not confirmed", never a guess.
+import {matchTracks} from './track-match.ts';
 
 export type PlaceKind='track'|'riding_area';
 export type TrailWidth='single_track'|'atv'|'full_width';
@@ -10,17 +11,35 @@ export type AreaSource={url:string;title:string;accessed?:string};
 export type RidingArea={land:string|null;managed_by:string|null;near:string|null;name_detail?:string|null;address?:string|null;
  vehicles:AreaVehicles;width_limit_in:number|null;trail_miles:number|null;pass:AreaPass|null;season:string|null;hours:string|null;
  rules:string[];closures:string|null;official_url:string|null;phone:string|null;trailheads?:{name:string;lat:number;lng:number}[];
- mvum?:{forest:string}|null;sources:AreaSource[];verified:string|null};
+ mvum?:{forest:string}|null;sources:AreaSource[];verified:string|null;
+ /** The middle of the area's Forest Service trail lines (worked out by the loader). For "near me" and the weather only:
+  *  it can sit deep in the woods, so directions never use it. */
+ center?:{lat:number;lng:number}|null};
 
 /** One row in the Where to Ride list. */
 export type PlaceRow={id:string;name:string;kind:PlaceKind;city:string|null;state:string;lat:number|null;lng:number|null;
- status:string;access:string;has_trails:boolean;trail_miles:number|null;widths:TrailWidth[];trail_map:boolean};
+ status:string;access:string;has_trails:boolean;trail_miles:number|null;widths:TrailWidth[];trail_map:boolean;
+ /** lat/lng is the middle of the trail map, not an entrance: fine for distance and weather, never for directions. */
+ approx?:boolean};
 
 /** A riding area or track page. */
 export type PlaceDetail=PlaceRow&{area:RidingArea|null;tracks_on_site:string[];website:string|null;phone:string|null;
  trail_lines:number;map_date:string|null;layout_notes:string|null};
 
+/** Today's and tomorrow's forecast for a place (US National Weather Service), from /api/place-weather. */
+export type DayForecast={available:true;date:string;day:string|null;night:string|null;high_f:number|null;low_f:number|null;rain_chance_pct:number|null;wind:string|null;rain_days_before:string[]}|{available:false;reason:string};
+export type PlaceWeather={today:DayForecast;tomorrow:DayForecast};
+/** "Sunny · 64° / 41° · 20% rain" */
+export function forecastLine(f:DayForecast):string{
+ if(!f.available)return f.reason;
+ const t=f.high_f!=null||f.low_f!=null?`${f.high_f??'–'}° / ${f.low_f??'–'}°`:'';
+ return [f.day??f.night,t,f.rain_chance_pct!=null?`${f.rain_chance_pct}% rain`:'',f.wind?`wind ${f.wind}`:''].filter(Boolean).join(' · ');
+}
+
 export type TrailLine={id:string;name:string;number:string;width:TrailWidth|'unknown';vehicles:Record<string,string>;dates_open:string;miles:number|null;line:[number,number][]};
+
+/** A trail's name for people: the map's name, else its number ("Trail 450D"). */
+export const trailName=(l:{name:string;number:string})=>l.name.trim()||(l.number?`Trail ${l.number}`:'Unnamed trail');
 
 export const WIDTHS:{id:TrailWidth;label:string;short:string;detail:string;color:string}[]=[
  {id:'single_track',label:'Single-track',short:'Single-track',detail:'Motorcycle-only trails',color:'#f0a03c'},
@@ -49,6 +68,10 @@ export const WHERE_COPY={
  rideToday:'Ride here today',rideTodayDetail:'Starts a practice day here: Ride Day mode, check-ins and Ride safety.',
  ask:'Ask BAK about riding here',
  privateLand:'Private park: rules, fees and hours are set by the owner. Check their page before you go.',
+ saved:'Saved',save:'Save',unsave:'Saved',savedNone:'Nothing saved yet. Tap Save on a place to keep it here.',
+ partialMap:(drawn:number,total:number)=>`The Forest Service map file draws about ${fmtMiles(Math.round(drawn))} of the ${fmtMiles(total)} miles here. Use the official map for the rest.`,
+ weather:'Weather',weatherNote:'US National Weather Service forecast for the middle of the area.',
+ eventsHere:'Events here',
 } as const;
 
 /** "Riding area · 125 mi of trail · Single-track, ATV" */
@@ -102,8 +125,8 @@ const STATE_NAMES:Record<string,string>={AL:'alabama',AK:'alaska',AZ:'arizona',A
 export const onxLink=(state:string)=>STATE_NAMES[state]?`https://www.onxmaps.com/offroad/trails/us/${STATE_NAMES[state]}`:'https://www.onxmaps.com/offroad';
 
 /** Directions in the phone's map app: to the first trailhead or the place's location, else by name. */
-export function directionsLink(p:{name:string;city:string|null;state:string;lat:number|null;lng:number|null;area?:RidingArea|null},platform:'ios'|'android'|'web'):string{
- const th=p.area?.trailheads?.[0];const at=th?{lat:th.lat,lng:th.lng}:p.lat!=null&&p.lng!=null?{lat:p.lat,lng:p.lng}:null;
+export function directionsLink(p:{name:string;city:string|null;state:string;lat:number|null;lng:number|null;approx?:boolean;area?:RidingArea|null},platform:'ios'|'android'|'web'):string{
+ const th=p.area?.trailheads?.[0];const at=th?{lat:th.lat,lng:th.lng}:!p.approx&&p.lat!=null&&p.lng!=null?{lat:p.lat,lng:p.lng}:null;
  const q=at?`${at.lat},${at.lng}`:encodeURIComponent(p.area?.address??`${p.name}, ${p.city?p.city+', ':''}${p.state}`);
  return platform==='ios'?`https://maps.apple.com/?daddr=${q}`:`https://www.google.com/maps/dir/?api=1&destination=${q}`;
 }
@@ -128,4 +151,25 @@ export function areaForAsk(a:RidingArea|null|undefined):Record<string,unknown>|n
  const out:Record<string,unknown>={land:a.land,vehicles:areaWidths(a.vehicles).map(widthLabel),width_limit_in:a.width_limit_in,trail_miles:a.trail_miles,season:a.season,hours:a.hours,rules:a.rules,closures:a.closures,checked_on:a.verified};
  for(const k of Object.keys(out))if(out[k]==null||(Array.isArray(out[k])&&!(out[k] as unknown[]).length))delete out[k];
  return out;
+}
+
+/** Miles of trail drawn on the map (each Forest Service trail counted once). */
+export function drawnMiles(lines:Pick<TrailLine,'number'|'miles'>[]):number{
+ return lines.reduce((n,l)=>n+(l.miles??0),0);
+}
+/** The note under a map that draws well under the area's published miles (under 80%), else null. */
+export function partialNote(lines:Pick<TrailLine,'number'|'miles'>[],total:number|null|undefined):string|null{
+ if(!total)return null;const drawn=drawnMiles(lines);
+ return drawn>0&&drawn<total*0.8?WHERE_COPY.partialMap(drawn,total):null;
+}
+
+/** Saved places: ids kept on the phone, newest first, no repeats. */
+export function toggleSaved(saved:readonly string[],id:string):string[]{
+ return saved.includes(id)?saved.filter(x=>x!==id):[id,...saved].slice(0,100);
+}
+
+/** Upcoming events that name this place in their location ("Practice day at Croom"). Uses the same matching as the rest
+ *  of the app, so "Croom" matches Croom Motorcycle Area but "Orlando" alone matches nothing. */
+export function eventsAt<E extends {location_name:string;title:string;canceled_at?:string|null}>(events:E[],place:{id:string;name:string;city?:string|null},all:{id:string;name:string;aliases:string[];city?:string|null}[]):E[]{
+ return events.filter(e=>!e.canceled_at&&matchTracks(`${e.location_name} ${e.title}`,all,3).some(t=>t.id===place.id));
 }

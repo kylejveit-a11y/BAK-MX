@@ -46,5 +46,16 @@ Pro value stays Ask BAK: trail setup for the area (sand, roots, rocks, elevation
 4. Trail line loader (MVUM) and first load for Southeast National Forest areas.
 5. Check on the cloud iPhone and Android; ship with 1.0.11 (Kyle, 2026-11-17: one submission).
 
+## Enhancements (Kyle, 2026-11-17: "get it dialed in before our next build")
+- Data: 27 riding areas with official facts (NC, SC, FL, MS, KY national forest areas; Windrock, Minooka, Iron Mountain,
+  TOP Trails parks). Trail lines for 18 areas. Black Swamp and Whissenhunt have too little of their mileage in the national
+  file to draw, so they link the official map. Areas without an entrance on file use the middle of their trail map for
+  Near me and the forecast, never for directions.
+- App: Saved places (on the phone), today's and tomorrow's forecast, events that name the place, tap a line on the map,
+  the rider's blue dot when location is already allowed, a note when the map draws well under the published miles,
+  and trail check-ins (no "Watering now" or "Fresh prep" at riding areas).
+- Trail-specific check-ins ("Trees down", "Washed out") need the database rule on check-ins widened, which means
+  replacing a constraint: waiting on Kyle's OK.
+
 ## Later (Level 3, not now)
 Offline area download, record your ride line, buddy positions, onX partnership or a paid map provider.

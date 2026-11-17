@@ -19,8 +19,8 @@ import {colors,tint} from './ui';
 import {DISPLAY,LABEL} from './theme';
 import {success,warn} from './haptics';
 import {bikeSetup} from './HomeBlocks';
-import {LiveStatusList,sendCheckin,useLiveConditions,useTrackId} from './LiveConditions';
-import {CHECKIN_COPY,CHECKIN_STATUSES,toggleStatus} from '../../../shared/track-checkins';
+import {LiveStatusList,sendCheckin,useLiveConditions,useTrackId,useTrackKind} from './LiveConditions';
+import {CHECKIN_COPY,checkinStatusesFor,toggleStatus} from '../../../shared/track-checkins';
 import {SHARE_COPY} from '../../../shared/ride-share';
 import {clock as shareClock,useRide} from './RideShare';
 import {RideSafetyPanel} from './RideSafety';
@@ -89,7 +89,7 @@ function RideDayInner({backRef,onClose,bike,track,sessions,onLog,onRate,onAsk}:{
  backRef.current=()=>{if(locked)return true;if(view==='home'||view==='start')return false;back();return true;};
  const set=(p:Partial<SessionDraft>)=>setDraft(d=>({...d,...p}));
  const setup=bikeSetup(bike),n=nextSessionNumber(sessions),last=[...sessions].sort((a,b)=>b.n-a.n)[0];
- const trackId=useTrackId(track),{live,reload}=useLiveConditions(trackId);
+ const trackId=useTrackId(track),trackKind=useTrackKind(track),{live,reload}=useLiveConditions(trackId);
  // With auto-lock on, locks itself after 3 minutes untouched; any touch on the screen resets the clock.
  useEffect(()=>{if(!autoLock)return;touched.current=Date.now();const i=setInterval(()=>{if(!locked&&Date.now()-touched.current>AUTO_LOCK_MS)setLocked(true);},5000);return()=>clearInterval(i);},[locked,autoLock]);
  useEffect(()=>{if(!toast)return;const t=setTimeout(()=>setToast(''),3500);return()=>clearTimeout(t);},[toast]);
@@ -171,7 +171,7 @@ function RideDayInner({backRef,onClose,bike,track,sessions,onLog,onRate,onAsk}:{
   {!trackId?<Text style={{color:colors.muted,fontSize:17,lineHeight:24}}>{C.noTrack}</Text>:<View style={{gap:16}}>
    <LiveStatusList live={live} big/>
    <Text style={{color:'#adb5c1',fontSize:13,...LABEL}}>TAP WHAT IT’S LIKE NOW</Text>
-   <Grid>{CHECKIN_STATUSES.map(t=><Big key={t.id} short label={t.label} on={tags.includes(t.id)} onPress={()=>setTags(x=>toggleStatus(x,t.id))}/>)}</Grid>
+   <Grid>{checkinStatusesFor(trackKind).map(t=><Big key={t.id} short label={t.label} on={tags.includes(t.id)} onPress={()=>setTags(x=>toggleStatus(x,t.id))}/>)}</Grid>
    <Big label={busy?'Sending…':C.checkIn} icon="check" wide primary onPress={()=>void checkIn()}/>
   </View>}
  </>;

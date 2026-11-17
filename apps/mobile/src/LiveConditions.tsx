@@ -6,7 +6,7 @@ import {Text,View} from 'react-native';
 import {knownTrack,today} from '../../../shared/race-day';
 import {PRESENCE_COPY as P} from '../../../shared/crew';
 import {riderName,type RiderRef} from '../../../shared/rider-types';
-import {CHECKIN_COPY as C,CHECKIN_STATUSES,agedConditions,liveStatusLine,statusProblem,toggleStatus,type LiveConditions} from '../../../shared/track-checkins';
+import {CHECKIN_COPY as C,checkinStatusesFor,agedConditions,liveStatusLine,statusProblem,toggleStatus,type LiveConditions} from '../../../shared/track-checkins';
 import {api} from './api';
 import {isNetworkError} from './offline';
 import {Pressable} from './Touch';
@@ -17,6 +17,8 @@ import {useTrackDirectory} from './TrackReport';
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 /** The listed track id for a day's track name, or '' when it isn't one of BAK's tracks. */
 export function useTrackId(track:string):string{const dir=useTrackDirectory();return (knownTrack(dir,track) as {id?:string}|undefined)?.id??'';}
+/** Whether a day's place is a track or a riding area (riding areas get trail check-ins: no watering or prep). */
+export function useTrackKind(track:string):'track'|'riding_area'{const dir=useTrackDirectory();return (knownTrack(dir,track) as {kind?:string}|undefined)?.kind==='riding_area'?'riding_area':'track';}
 
 /** Live conditions for a track, re-read every two minutes while shown. */
 export function useLiveConditions(trackId:string){
@@ -73,7 +75,7 @@ function PresenceRow({trackId}:{trackId:string}){
 
 /** The card for the practice-day and race-day screens: the live list, and a collapsed "Check in" that opens the chips. */
 export function LiveConditionsCard({track}:{track:string}){
- const trackId=useTrackId(track),{live,reload}=useLiveConditions(trackId);
+ const trackId=useTrackId(track),kind=useTrackKind(track),{live,reload}=useLiveConditions(trackId);
  const [open,setOpen]=useState(false),[picked,setPicked]=useState<string[]>([]),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
  if(!trackId)return null;
  async function send(){if(busy)return;setBusy(true);const r=await sendCheckin(trackId,picked);setNotice(r.message);if(r.ok){setPicked([]);setOpen(false);reload();}setBusy(false);}
@@ -83,8 +85,8 @@ export function LiveConditionsCard({track}:{track:string}){
   {!open?<Pressable haptic="press" accessibilityRole="button" onPress={()=>{setOpen(true);setNotice('');}} style={({pressed})=>({alignSelf:'flex-start',flexDirection:'row',alignItems:'center',gap:8,paddingHorizontal:14,paddingVertical:9,borderRadius:18,borderWidth:1,borderColor:colors.accent,opacity:pressed?0.7:1})}>
     <Icon name="flag" size={16} color={colors.accent}/><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{C.send}</Text></Pressable>
   :<View style={{gap:10}}>
-    <Text style={{color:colors.muted,fontSize:13.5}}>{C.ask}</Text>
-    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{CHECKIN_STATUSES.map(s=><Chip key={s.id} label={s.label} on={picked.includes(s.id)} onPress={()=>setPicked(p=>toggleStatus(p,s.id))}/>)}</View>
+    <Text style={{color:colors.muted,fontSize:13.5}}>{kind==='riding_area'?C.askTrails:C.ask}</Text>
+    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{checkinStatusesFor(kind).map(s=><Chip key={s.id} label={s.label} on={picked.includes(s.id)} onPress={()=>setPicked(p=>toggleStatus(p,s.id))}/>)}</View>
     <View style={{flexDirection:'row',gap:16,alignItems:'center'}}>
      <View style={{flex:1}}><Button title={busy?'Sending…':C.send} disabled={busy} onPress={()=>void send()}/></View>
      <Pressable accessibilityRole="button" onPress={()=>{setOpen(false);setPicked([]);}} hitSlop={8}><Text style={{color:colors.muted,fontSize:15}}>Cancel</Text></Pressable>
