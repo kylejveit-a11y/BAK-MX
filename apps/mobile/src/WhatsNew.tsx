@@ -50,8 +50,8 @@ export function WhatsNewCard({account,show=Platform.OS!=='web'}:{account:string;
     <View style={{flex:1,gap:1}}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{title}</Text><Text style={{color:'#a7b0bd',fontSize:13.5,lineHeight:19}}>{detail}</Text></View>
    </View>)}
   </View>
-  <Disclosure title="How to start Ride Day">
-   {['On Home, tap Practice day and pick your track.','Tap Ride Day mode at the top of the practice screen.','Choose auto-lock or not, then set up ride safety if you want it.'].map((t,i)=><View key={i} style={{flexDirection:'row',gap:10}}><Text style={{color:colors.text,fontSize:14.5,fontWeight:'800',minWidth:14}}>{i+1}</Text><Text style={{color:colors.text,fontSize:14.5,lineHeight:21,flex:1}}>{t}</Text></View>)}
+  <Disclosure title="Where to find it">
+   {['On Home, scroll to More and tap Where to Ride.','Tap Riding areas, or Near me for the closest first.','Open an area for what you can ride, passes and rules. Trail map is at the top when the Forest Service has one.'].map((t,i)=><View key={i} style={{flexDirection:'row',gap:10}}><Text style={{color:colors.text,fontSize:14.5,fontWeight:'800',minWidth:14}}>{i+1}</Text><Text style={{color:colors.text,fontSize:14.5,lineHeight:21,flex:1}}>{t}</Text></View>)}
   </Disclosure>
   <Button secondary title="Got it" onPress={close}/>
  </Card>;

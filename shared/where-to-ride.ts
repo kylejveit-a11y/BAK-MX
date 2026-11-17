@@ -23,8 +23,8 @@ export type PlaceDetail=PlaceRow&{area:RidingArea|null;tracks_on_site:string[];w
 export type TrailLine={id:string;name:string;number:string;width:TrailWidth|'unknown';vehicles:Record<string,string>;dates_open:string;miles:number|null;line:[number,number][]};
 
 export const WIDTHS:{id:TrailWidth;label:string;short:string;detail:string;color:string}[]=[
- {id:'single_track',label:'Single-track',short:'Single-track',detail:'Motorcycles only',color:'#f0a03c'},
- {id:'atv',label:'ATV trail',short:'ATV',detail:'50 in and under',color:'#7fb2ff'},
+ {id:'single_track',label:'Single-track',short:'Single-track',detail:'Motorcycle-only trails',color:'#f0a03c'},
+ {id:'atv',label:'ATV trail',short:'ATV',detail:'Bikes and ATVs, 50 in and under',color:'#7fb2ff'},
  {id:'full_width',label:'Full-width',short:'Full-width',detail:'Side-by-sides and 4x4s',color:'#9ad08a'},
 ];
 const WIDTH_LABEL=new Map(WIDTHS.map(w=>[w.id,w]));

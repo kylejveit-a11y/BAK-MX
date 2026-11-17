@@ -128,7 +128,7 @@ function PlaceView({id,onBack,onMap,onAsk,onRideToday}:{id:string;onBack:()=>voi
   {(ride||a)&&<Card>
    <Eyebrow>{W.knowBefore.toUpperCase()}</Eyebrow>
    {privateLand&&<Copy>{W.privateLand}</Copy>}
-   <Fact k="Pass or fee" v={a?.pass?[a.pass.day&&`Day: ${a.pass.day}`,a.pass.year&&`Year: ${a.pass.year}`,a.pass.how].filter(Boolean).join('\n')||null:null}/>
+   <Fact k="Pass or fee" v={a?.pass?[a.pass.day&&`Visit: ${a.pass.day}`,a.pass.year&&`Annual: ${a.pass.year}`,a.pass.how].filter(Boolean).join('\n')||null:null}/>
    <Fact k="Season" v={a?.season}/>
    <Fact k="Hours" v={a?.hours}/>
    {!!a?.rules?.length&&<View style={{gap:4}}><Text style={{color:'#8b93a0',fontSize:12.5,fontWeight:'600'}}>Rules</Text>{a.rules.map(r=><Text key={r} style={{color:colors.text,fontSize:15,lineHeight:21}}>• {r}</Text>)}</View>}
