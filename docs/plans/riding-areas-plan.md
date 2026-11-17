@@ -44,7 +44,7 @@ Pro value stays Ask BAK: trail setup for the area (sand, roots, rocks, elevation
 2. Server: `/api/where-to-ride`, `/api/riding-areas/:id`, `/api/riding-areas/:id/trails`; tests.
 3. App: Where to Ride list, riding area page, trail map; Home › More entry; start sheet shows riding areas.
 4. Trail line loader (MVUM) and first load for Southeast National Forest areas.
-5. Check on the cloud iPhone and Android; ship in 1.0.12.
+5. Check on the cloud iPhone and Android; ship with 1.0.11 (Kyle, 2026-11-17: one submission).
 
 ## Later (Level 3, not now)
 Offline area download, record your ride line, buddy positions, onX partnership or a paid map provider.

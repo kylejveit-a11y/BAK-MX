@@ -1,5 +1,5 @@
 // One-time "new in this version" card on Home. It closes with one tap and retires itself after a few app opens,
-// so it is never a nag. 1.0.12's features work on iPhone and Android, so it shows on both.
+// so it is never a nag. 1.0.11's features work on iPhone and Android, so it shows on both.
 import React,{useEffect,useState} from 'react';
 import {Platform,Text,View} from 'react-native';
 import {Pressable} from './Touch';
@@ -9,13 +9,15 @@ import {MetalMark,Button,Card,colors} from './ui';
 import {useProgress} from './localProgress';
 
 const KEY='whats-new-2026-11-where-to-ride',MAX_OPENS=4;
-const TITLE='Where to Ride';
+const TITLE='Ride Day and Where to Ride';
 let countedThisLaunch=false;
 
 const items:[IconName,string,string][]=[
- ['moto','Riding areas','Off-road parks and national forest trails next to the tracks: what you can ride and how wide, passes, season and rules from the official pages.'],
- ['location','Trail maps','Forest Service trail lines colored by width, with each trail’s name and season. Tap Ride here today to start a practice day there.'],
- ['search','Near me','Find tracks and riding areas by name, town or state, or nearest first.'],
+ ['moto','Ride Day mode','Big buttons for gloves, the screen stays on and a tap lock, for logging between sessions.'],
+ ['location','Ride safety','Pick when you’ll be back. Your contacts get a link to where you were last seen, and an email only if you don’t check in.'],
+ ['flag','Where to Ride','Tracks and riding areas in one list: what you can ride and how wide, passes and rules from the official pages, and Forest Service trail maps.'],
+ ['pulse','Right now','Riders at the track say if it’s open, watered, muddy or busy. Check in with two taps.'],
+ ['history','What I ran here','Your setup, tire pressures and the weather from your last visits to the same track.'],
 ];
 
 export function WhatsNewCard({account,show=Platform.OS!=='web'}:{account:string;show?:boolean}){
@@ -51,7 +53,7 @@ export function WhatsNewCard({account,show=Platform.OS!=='web'}:{account:string;
    </View>)}
   </View>
   <Disclosure title="Where to find it">
-   {['On Home, scroll to More and tap Where to Ride.','Tap Riding areas, or Near me for the closest first.','Open an area for what you can ride, passes and rules. Trail map is at the top when the Forest Service has one.'].map((t,i)=><View key={i} style={{flexDirection:'row',gap:10}}><Text style={{color:colors.text,fontSize:14.5,fontWeight:'800',minWidth:14}}>{i+1}</Text><Text style={{color:colors.text,fontSize:14.5,lineHeight:21,flex:1}}>{t}</Text></View>)}
+   {['Ride Day: on Home, tap Practice day, pick your track, then Ride Day mode.','Ride safety: a tile in Ride Day, or Account › Ride safety to add your contacts.','Where to Ride: on Home, scroll to More and tap Where to Ride. Trail map is at the top of an area when the Forest Service has one.'].map((t,i)=><View key={i} style={{flexDirection:'row',gap:10}}><Text style={{color:colors.text,fontSize:14.5,fontWeight:'800',minWidth:14}}>{i+1}</Text><Text style={{color:colors.text,fontSize:14.5,lineHeight:21,flex:1}}>{t}</Text></View>)}
   </Disclosure>
   <Button secondary title="Got it" onPress={close}/>
  </Card>;
