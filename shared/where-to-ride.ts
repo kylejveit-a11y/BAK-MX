@@ -39,7 +39,7 @@ export function forecastLine(f:DayForecast):string{
 export type TrailLine={id:string;name:string;number:string;width:TrailWidth|'unknown';vehicles:Record<string,string>;dates_open:string;miles:number|null;line:[number,number][]};
 
 /** A trail's name for people: the map's name, else its number ("Trail 450D"). */
-export const trailName=(l:{name:string;number:string})=>l.name.trim()||(l.number?`Trail ${l.number}`:'Unnamed trail');
+export const trailName=(l:{name:string;number:string})=>{const n=l.name.trim();if(/^\d+[a-z]{0,2}$/i.test(n))return `Trail ${n}`;return n||(l.number?`Trail ${l.number}`:'Unnamed trail');};
 
 export const WIDTHS:{id:TrailWidth;label:string;short:string;detail:string;color:string}[]=[
  {id:'single_track',label:'Single-track',short:'Single-track',detail:'Motorcycle-only trails',color:'#f0a03c'},
@@ -70,7 +70,7 @@ export const WHERE_COPY={
  privateLand:'Private park: rules, fees and hours are set by the owner. Check their page before you go.',
  saved:'Saved',save:'Save',unsave:'Saved',savedNone:'Nothing saved yet. Tap Save on a place to keep it here.',
  partialMap:(drawn:number,total:number)=>`The Forest Service map file draws about ${fmtMiles(Math.round(drawn))} of the ${fmtMiles(total)} miles here. Use the official map for the rest.`,
- weather:'Weather',weatherNote:'US National Weather Service forecast for the middle of the area.',
+ weather:'Weather',weatherNote:'US National Weather Service forecast.',weatherNoteApprox:'US National Weather Service forecast for the middle of the trail map.',
  eventsHere:'Events here',
 } as const;
 

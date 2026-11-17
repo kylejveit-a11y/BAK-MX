@@ -111,6 +111,7 @@ test('trail names: the map name, else its number; never blank',()=>{
  assert.equal(trailName({name:'Kirby\'s Loop',number:'TRBM4'}),'Kirby\'s Loop');
  assert.equal(trailName({name:'',number:'450D'}),'Trail 450D');
  assert.equal(trailName({name:' ',number:''}),'Unnamed trail');
+ assert.equal(trailName({name:'15R',number:'0615R'}),'Trail 15R');assert.equal(trailName({name:'13th',number:'0613TH'}),'Trail 13th');assert.equal(trailName({name:'BM 1A',number:'TRBM1A'}),'BM 1A');
  const lines=JSON.parse(readFileSync('docs/research/riding-areas/trail-lines.json','utf8')) as {name:string}[];
  assert.ok(!lines.some(l=>/[A-Z]'S\b|\bBm\b|\b\d+Th\b/.test(l.name)),'names read properly (Kirby\'s, BM 1A, 13th)');
 });

@@ -143,7 +143,7 @@ function PlaceView({id,onBack,onMap,onAsk,onRideToday}:{id:string;onBack:()=>voi
    <Button secondary title={W.rideToday} onPress={()=>onRideToday(p.name)}/>
    <Text style={{color:'#8b93a0',fontSize:12.5}}>{W.rideTodayDetail}</Text>
   </View>
-  <WeatherCard id={p.id} has={p.lat!=null}/>
+  <WeatherCard id={p.id} has={p.lat!=null} approx={!!p.approx}/>
   {ride&&<Card>
    <Eyebrow>{W.whatYouCanRide.toUpperCase()}</Eyebrow>
    <View style={{gap:8}}>{WIDTHS.map(w=>{const v=a?.vehicles?.[w.id];return <View key={w.id} style={{flexDirection:'row',alignItems:'center',gap:10}}>
@@ -183,7 +183,7 @@ function PlaceView({id,onBack,onMap,onAsk,onRideToday}:{id:string;onBack:()=>voi
 }
 
 /** Today and tomorrow from the Weather Service. Hidden with no location on file; quiet when the service doesn't answer. */
-function WeatherCard({id,has}:{id:string;has:boolean}){
+function WeatherCard({id,has,approx}:{id:string;has:boolean;approx:boolean}){
  const [w,setW]=useState<PlaceWeather|null>(null);
  useEffect(()=>{let live=true;setW(null);if(has)api<PlaceWeather>(`/api/place-weather?id=${encodeURIComponent(id)}&day=${today()}`).then(r=>{if(live)setW(r);}).catch(()=>{});return()=>{live=false;};},[id,has]);
  if(!has||!w||(!w.today.available&&!w.tomorrow.available))return null;
@@ -196,7 +196,7 @@ function WeatherCard({id,has}:{id:string;has:boolean}){
   <Eyebrow>{W.weather.toUpperCase()}</Eyebrow>
   <Day label="Today" f={w.today}/>
   <Day label="Tomorrow" f={w.tomorrow}/>
-  <Text style={{color:'#8b93a0',fontSize:12.5,lineHeight:18}}>{W.weatherNote}</Text>
+  <Text style={{color:'#8b93a0',fontSize:12.5,lineHeight:18}}>{approx?W.weatherNoteApprox:W.weatherNote}</Text>
  </Card>;
 }
 
