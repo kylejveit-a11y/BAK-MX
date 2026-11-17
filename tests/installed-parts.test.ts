@@ -74,6 +74,10 @@ test('fuel system: four-strokes and newer two-strokes are injected, older two-st
  assert.equal(fuelSystem('Honda','CRF450R',2020),'injected');
  assert.equal(fuelSystem('Kawasaki','KX250X',2023),'injected');
  assert.equal(fuelSystem('Triumph','TF 250-X',2025),'injected');
+ // older bikes: only the changeovers we are sure of
+ assert.equal(fuelSystem('Yamaha','YZ250F',2012),'carburetor');assert.equal(fuelSystem('Yamaha','YZ250F',2014),'injected');
+ assert.equal(fuelSystem('Honda','CRF450X',2015),'carburetor');assert.equal(fuelSystem('Honda','CRF250R',2011),'injected');
+ assert.equal(fuelSystem('KTM','450 SX-F',2012),null);assert.equal(fuelSystem('Yamaha','WR450F',2014),null);
  assert.equal(fuelSystem('KTM','300 SX',2024),'injected');
  assert.equal(fuelSystem('KTM','250 SX',2022),'carburetor');
  assert.equal(fuelSystem('Husqvarna','TC 250',2023),'injected');
