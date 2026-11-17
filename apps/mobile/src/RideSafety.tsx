@@ -86,12 +86,13 @@ export function RideSafetyPanel({track=''}:{track?:string}){
  const active=useRide(),{contacts,emailReady,setContacts,myName,setMyName}=useSafetyContacts();
  const [pick,setPick]=useState<number|null>(null),[custom,setCustom]=useState(false),[at,setAt]=useState(()=>new Date(Date.now()+3*3600e3));
  const [name,setName]=useState(()=>{try{return readProgress<string>('device','share-name','');}catch{return '';}});
- const [busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[editContacts,setEditContacts]=useState(false);
+ const [busy,setBusy]=useState(false),[ending,setEnding]=useState(false),[notice,setNotice]=useState(''),[editContacts,setEditContacts]=useState(false);
  const say=(m:string)=>setNotice(m);
  if(contacts===null)return <Text style={{color:colors.muted,fontSize:15}}>Loading…</Text>;
  if(active)return <View style={{gap:14}}>
   <RideStatusLine active={active}/>
-  <Tile title={busy?'Saving…':C.stop} sub="Ends ride safety and clears your spot" icon="check" primary onPress={async()=>{if(busy)return;setBusy(true);say(await endRide());setBusy(false);}}/>
+  {/* Its own busy flag: the start's flag is still set for a moment after the ride goes live, and "I'm back" must never read "Saving…" then. */}
+  <Tile title={ending?'Ending…':C.stop} sub="Ends ride safety and clears your spot" icon="check" primary onPress={async()=>{if(ending)return;setEnding(true);say(await endRide());setEnding(false);}}/>
   <Row>
    <Tile half title="+30 min" icon="clock" onPress={async()=>say(await extendRide(30))}/>
    <Tile half title="+1 hour" icon="clock" onPress={async()=>say(await extendRide(60))}/>
@@ -116,7 +117,10 @@ export function RideSafetyPanel({track=''}:{track?:string}){
   setNotice([emails.length?(r.emailed?`Emailed the link to ${emails.join(' and ')}.`:'The email to your contacts didn’t go through. Send the text so they have the link.'):'',
    !r.emailReady?'Alert emails aren’t switched on yet, so only your text and reminders work for now.':'',r.notice].filter(Boolean).join(' '));
   setBusy(false);
-  void sendLink(undefined,r.contacts.map(c=>c.phone).filter(Boolean));
+  // Texts go out through Messages; with email-only contacts the link already went by email, so the share sheet opens only
+  // when that email didn't go through (the start button says "Emails Sam", and a surprise share sheet would contradict it).
+  const phones=r.contacts.map(c=>c.phone).filter(Boolean);
+  if(phones.length||!r.emailed)void sendLink(undefined,phones);
  }
  return <View style={{gap:14}}>
   <Text style={{color:colors.muted,fontSize:15.5,lineHeight:22}}>{C.explain}</Text>
