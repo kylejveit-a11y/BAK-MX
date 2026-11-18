@@ -1,4 +1,4 @@
-# BAK MX App Store listing (version 1.0.7)
+# BAK MX App Store listing (version 1.0.11)
 
 Text Kyle approved for App Store Connect. Keep in sync with what is entered there.
 
@@ -10,10 +10,12 @@ Text Kyle approved for App Store Connect. Keep in sync with what is entered ther
 - Price: Free (in-app purchases: Premium, Pro, credit packs)
 
 ## Promotional text (170)
-Tell BAK what the bike is doing and get one clear change to try, from your exact bike's published settings. New: race-day fuel plan and service reminders.
+Tell BAK what the bike is doing and get one clear change to try for your exact bike. New: Where to Ride trail maps, Ride Day mode and Ride safety.
 
 ## Description (4000)
 BAK MX is a setup and tuning partner for motocross and off-road riders. Tell it what the bike is doing, the way you'd tell your buddy at the track, and BAK answers for your exact bike, year and settings.
+
+Covers most Honda and Yamaha bikes from 2010, KTM from 2011, Husqvarna and Kawasaki from 2014, Suzuki from 2020, GasGas from 2021 and Triumph from 2024. Not listed? Add it yourself and BAK still helps.
 
 ASK BAK
 - Describe a problem in plain words: "front pushes in flat corners", "rear kicks on braking bumps", "bogs out of turns".
@@ -43,6 +45,15 @@ RACE DAY
 - Race prep checklist from the week before to the ride home.
 - A starting setup for the track and date, with a countdown on your Home Screen.
 - Race-day fuel plan: what to eat and drink, and when, from your height, weight and age.
+
+WHERE TO RIDE
+- Tracks and riding areas in one list, nearest first, with what you can ride, passes and rules from the official pages.
+- Forest Service trail maps for national forest riding areas.
+- Today's forecast, rider check-ins and events at each place. Save the ones you ride.
+
+RIDE DAY AND RIDE SAFETY
+- Ride Day mode: one tap to log sessions, setup changes and how the track is riding.
+- Ride safety: set a back-by time and share a link to where you were last seen with the people you choose, until you tap I'm back.
 
 RIDERS AND EVENTS
 - Post builds, setup questions and ride plans.
