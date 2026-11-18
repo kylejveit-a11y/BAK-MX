@@ -10,8 +10,8 @@ import {chatTopic} from '../../../shared/chat-topic';
 import {SpecsView} from './SpecsScreen';
 import {WhereToRide} from './WhereToRide';
 import {authErrorText} from '../../../shared/auth-errors';
-import {AppleSignInButton} from './AppleSignIn';
-import {GoogleSignInButton,OrDivider} from './GoogleSignIn';
+import {AppleIconButton} from './AppleSignIn';
+import {GoogleIconButton,OrDivider} from './GoogleSignIn';
 import {claimCode} from './authCodes';
 import {checkVin,cleanVin} from '../../../shared/vin';
 import {BIKE_EDITIONS,BIKE_MARKETS,sortBikeNames} from '../../../shared/bike-identity';
@@ -188,7 +188,8 @@ function SignInCard({email}:{email:string}){
 /** Apple (iPhone) and Google under one "or" line. */
 function OtherSignIn({mode,busy,setBusy,onError,clear}:{mode:'login'|'signup';busy:boolean;setBusy:(b:boolean)=>void;onError:(e:unknown)=>void;clear:()=>void}){
  const start=()=>{setBusy(true);clear();},stop=()=>setBusy(false);
- return <View style={{gap:12}}><OrDivider/><AppleSignInButton mode={mode} busy={busy} onStart={start} onDone={stop} onError={onError}/><GoogleSignInButton mode={mode} busy={busy} onStart={start} onDone={stop} onError={onError}/></View>;
+ // The line, then the other ways in as round logo buttons in one row (Apple first, the same size as Google).
+ return <View style={{gap:16,paddingTop:4}}><OrDivider label={mode==='signup'?'or sign up with':'or continue with'}/><View style={{flexDirection:'row',justifyContent:'center',gap:22}}><AppleIconButton mode={mode} busy={busy} onStart={start} onDone={stop} onError={onError}/><GoogleIconButton mode={mode} busy={busy} onStart={start} onDone={stop} onError={onError}/></View></View>;
 }
 function Auth({recovery,done,initialError}:{recovery:boolean;done:()=>void;initialError:string}){
  // Signed out there is no rider's bike: the sign-in screens always use BAK's own colours, never the last rider's make.
@@ -217,7 +218,7 @@ function Auth({recovery,done,initialError}:{recovery:boolean;done:()=>void;initi
   {(recovery||mode!=='reset')&&<View style={{gap:6}}><Field center label={recovery?'New password':'Password'} secureTextEntry={!showPw} autoComplete={recovery||mode==='signup'?'new-password':'current-password'} placeholder={recovery||mode==='signup'?'Choose a password':'Your password'} value={password} onChangeText={setPassword}/><Pressable accessibilityRole="button" accessibilityLabel={showPw?'Hide password':'Show password'} hitSlop={10} onPress={()=>setShowPw(v=>!v)} style={{alignSelf:'center',flexDirection:'row',alignItems:'center',gap:6,paddingVertical:2}}><Icon name={showPw?'eyeOff':'eye'} size={16} color={colors.muted}/><Text style={{color:colors.muted,fontSize:13,fontWeight:'600'}}>{showPw?'Hide password':'Show password'}</Text></Pressable>{(recovery||mode==='signup')&&<Text style={{color:password&&password.length<8?'#f5cf72':'#7d8593',fontSize:12.5,textAlign:'center'}}>{password&&password.length<8?`${8-password.length} more ${8-password.length===1?'character':'characters'}`:'At least 8 characters. A short phrase is easy to remember.'}</Text>}</View>}
   {message}
   {recovery?<Button disabled={busy} title={busy?'Please wait…':'Save new password'} onPress={()=>void act('update')}/>
-  :mode==='login'?<><Button disabled={busy} title={busy?'Please wait…':'Sign in'} onPress={()=>void act('login')}/><OtherSignIn mode="login" busy={busy} setBusy={setBusy} onError={e=>{setWarn(true);setNotice(authErrorText(e));}} clear={()=>setNotice('')}/><View style={{flexDirection:'row',justifyContent:'center',alignItems:'center',gap:28,paddingTop:2}}><Pressable accessibilityRole="button" disabled={busy} hitSlop={8} onPress={()=>go('signup')}><Text style={{color:colors.text,fontWeight:'700'}}>Create an account</Text></Pressable><Pressable accessibilityRole="button" disabled={busy} hitSlop={8} onPress={()=>go('reset')}><Text style={{color:colors.muted,fontWeight:'600'}}>Forgot password?</Text></Pressable></View></>
+  :mode==='login'?<><Button disabled={busy} title={busy?'Please wait…':'Sign in'} onPress={()=>void act('login')}/><View style={{flexDirection:'row',justifyContent:'center',alignItems:'center',gap:28,paddingTop:2}}><Pressable accessibilityRole="button" disabled={busy} hitSlop={8} onPress={()=>go('signup')}><Text style={{color:colors.text,fontWeight:'700'}}>Create an account</Text></Pressable><Pressable accessibilityRole="button" disabled={busy} hitSlop={8} onPress={()=>go('reset')}><Text style={{color:colors.muted,fontWeight:'600'}}>Forgot password?</Text></Pressable></View><OtherSignIn mode="login" busy={busy} setBusy={setBusy} onError={e=>{setWarn(true);setNotice(authErrorText(e));}} clear={()=>setNotice('')}/></>
   :<>{!sent&&<Button disabled={busy} title={busy?'Please wait…':mode==='signup'?'Create account':'Send reset link'} onPress={()=>void act(mode)}/>}
    {mode==='signup'&&sent&&<View style={{gap:12}}>
     <Field center label="6-digit code" keyboardType="number-pad" autoComplete="one-time-code" textContentType="oneTimeCode" maxLength={8} placeholder="123456" value={code} onChangeText={v=>setCode(v.replace(/\D/g,''))}/>

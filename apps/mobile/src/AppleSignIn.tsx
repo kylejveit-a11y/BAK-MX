@@ -43,7 +43,7 @@ export async function signInWithApple():Promise<'signed_in'|'cancelled'>{
 
 /** Black brushed steel, the same shape and light as BAK's blue buttons, with Apple's logo and wording (Apple allows a
  *  custom black "Sign in with Apple" button). Draws nothing where Apple sign-in is unavailable. */
-/** The "or" line above it is drawn by OtherSignIn (App.tsx), shared with Google. */
+/** The sign-in screens now use AppleIconButton in a row with Google's; this full-width button is kept for reuse. */
 export function AppleSignInButton({busy,onStart,onDone,onError,mode}:{busy:boolean;onStart:()=>void;onDone:()=>void;onError:(e:unknown)=>void;mode:'login'|'signup'}){
  const [available,setAvailable]=useState(false);
  useEffect(()=>{if(Platform.OS!=='ios')return;let live=true;AppleAuthentication.isAvailableAsync().then(ok=>{if(live)setAvailable(ok);}).catch(()=>{});return()=>{live=false;};},[]);
@@ -61,6 +61,22 @@ export function AppleSignInButton({busy,onStart,onDone,onError,mode}:{busy:boole
    </>}
   </Pressable>
  </View>;
+}
+
+/** Apple's logo-only button (Apple's guidelines allow a logo-only Sign in with Apple button): a round steel button
+ *  the same size as Google's beside it, so neither way in is favoured. Draws nothing where Apple sign-in is unavailable. */
+export function AppleIconButton({busy,onStart,onDone,onError,mode,size=60}:{busy:boolean;onStart:()=>void;onDone:()=>void;onError:(e:unknown)=>void;mode:'login'|'signup';size?:number}){
+ const [available,setAvailable]=useState(false);
+ useEffect(()=>{if(Platform.OS!=='ios')return;let live=true;AppleAuthentication.isAvailableAsync().then(ok=>{if(live)setAvailable(ok);}).catch(()=>{});return()=>{live=false;};},[]);
+ if(!available)return null;
+ const label=mode==='signup'?'Sign up with Apple':'Sign in with Apple';
+ return <Pressable accessibilityRole="button" accessibilityLabel={label} disabled={busy} hitSlop={6} onPress={()=>{onStart();signInWithApple().then(()=>{}).catch(onError).finally(onDone);}}
+  style={({pressed})=>[{width:size,height:size,borderRadius:size/2,justifyContent:'center',alignItems:'center',shadowColor:'#000',shadowOpacity:0.55,shadowRadius:8,shadowOffset:{width:0,height:4},elevation:5,opacity:busy?0.6:1},pressed&&{transform:[{translateY:1}],shadowOpacity:0.3}]}>
+  {({pressed})=><>
+   <SteelFace radius={size/2} pressed={pressed}/>
+   <Text style={{color:'#ffffff',fontSize:size*0.42,marginTop:-size*0.06}} accessible={false}>{''}</Text>
+  </>}
+ </Pressable>;
 }
 
 /** Dark brushed steel: graphite falling to near-black, fine grain, a lit top edge. Mirrors BlueFace. */

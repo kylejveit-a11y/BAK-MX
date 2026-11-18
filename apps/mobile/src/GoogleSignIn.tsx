@@ -1,21 +1,46 @@
-// Continue with Google. The phone opens Google's own sign-in page in a secure in-app browser (the rider never types a
-// Google password into BAK), Google sends the rider back to bakmx://auth/callback with a one-time code, and Supabase
-// swaps that code for a BAK session. The first time, Supabase creates the account; if the Google email matches an
-// existing BAK account, Supabase joins the two, so the rider keeps their Garage. On the website the page itself goes to
-// Google and comes back to bakmx.com, where the code is swapped the same way.
+// Continue with Google. On iPhone builds that carry BAK's iOS Google client ID, Google's own sign-in sheet runs
+// natively: Google shows "Sign in to BAK MX" and hands the phone an ID token, which Supabase checks and signs the
+// rider in with. Everywhere else (and on older builds) the phone opens Google's page in a secure in-app browser, Google
+// sends the rider back to bakmx://auth/callback with a one-time code, and Supabase swaps that code for a BAK session.
+// The rider never types a Google password into BAK either way. The first time, Supabase creates the account; if the
+// Google email matches an existing BAK account, Supabase joins the two, so the rider keeps their Garage. On the website
+// the page itself goes to Google and comes back to bakmx.com, where the code is swapped the same way.
 import React from 'react';
 import {Platform,StyleSheet,Text,View} from 'react-native';
 import Svg,{Path} from 'react-native-svg';
 import * as WebBrowser from 'expo-web-browser';
+import {GoogleSignin,isErrorWithCode,statusCodes} from '@react-native-google-signin/google-signin';
 import {Pressable} from './Touch';
 import {supabase} from './api';
 import {claimCode} from './authCodes';
 
 const APP_RETURN='bakmx://auth/callback';
+// Both IDs are public (they ship inside every copy of the app); they are set in eas.json for store builds.
+const IOS_CLIENT=process.env.EXPO_PUBLIC_GOOGLE_IOS_CLIENT_ID||'';
+const WEB_CLIENT=process.env.EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID||'';
+const nativeGoogle=Platform.OS==='ios'&&!!IOS_CLIENT&&!!WEB_CLIENT;
+let configured=false;
+
+/** Google's own iPhone sign-in sheet. The token is issued for BAK's web client ID, which Supabase already trusts. */
+async function signInNative():Promise<'signed_in'|'cancelled'>{
+ if(!configured){GoogleSignin.configure({iosClientId:IOS_CLIENT,webClientId:WEB_CLIENT});configured=true;}
+ // Forget the last Google account on this phone so the rider always gets to choose (a shared family phone).
+ await GoogleSignin.signOut().catch(()=>null);
+ let res;
+ try{res=await GoogleSignin.signIn();}
+ catch(e){if(isErrorWithCode(e)&&(e.code===statusCodes.SIGN_IN_CANCELLED||e.code===statusCodes.IN_PROGRESS))return 'cancelled';throw e;}
+ if(res.type!=='success')return 'cancelled';
+ const token=res.data.idToken;
+ if(!token)throw new Error('Google did not finish the sign-in. Try again.');
+ const s=await supabase!.auth.signInWithIdToken({provider:'google',token});
+ if(s.error)throw s.error;
+ return 'signed_in';
+}
 
 /** Opens Google and signs the rider into BAK. Resolves `cancelled` when the rider closed Google's page. */
 export async function signInWithGoogle():Promise<'signed_in'|'cancelled'|'redirecting'>{
  if(!supabase)throw new Error('Sign-in is not available in this build.');
+ if(nativeGoogle)return signInNative();
  if(Platform.OS==='web'){
   const r=await supabase.auth.signInWithOAuth({provider:'google',options:{redirectTo:window.location.origin}});
   if(r.error)throw r.error;
@@ -62,13 +87,24 @@ export function GoogleSignInButton({busy,onStart,onDone,onError,mode}:{busy:bool
  </Pressable>;
 }
 
-/** The "or" line with the other ways in: Apple (iPhone only, drawn by its own button) and Google. */
-export function OrDivider(){
- return <View style={{flexDirection:'row',alignItems:'center',gap:12}}><View style={st.rule}/><Text style={{color:'#8b93a0',fontSize:13,fontWeight:'600'}}>or</Text><View style={st.rule}/></View>;
+/** Google's round logo-only button (Google's branding rules allow the "G" alone on white), the same size as Apple's. */
+export function GoogleIconButton({busy,onStart,onDone,onError,mode,size=60}:{busy:boolean;onStart:()=>void;onDone:()=>void;onError:(e:unknown)=>void;mode:'login'|'signup';size?:number}){
+ const label=mode==='signup'?'Sign up with Google':'Continue with Google';
+ return <Pressable accessibilityRole="button" accessibilityLabel={label} disabled={busy} hitSlop={6}
+  onPress={()=>{onStart();signInWithGoogle().then(r=>{if(r==='redirecting')return new Promise(()=>{});}).catch(onError).finally(onDone);}}
+  style={({pressed})=>[st.icon,{width:size,height:size,borderRadius:size/2,opacity:busy?0.6:1},pressed&&{backgroundColor:'#e9ebee',transform:[{translateY:1}]}]}>
+  <GoogleG size={Math.round(size*0.4)}/>
+ </Pressable>;
+}
+
+/** The line with the other ways in under it: "or continue with" (sign in) or "or sign up with". */
+export function OrDivider({label='or'}:{label?:string}){
+ return <View style={{flexDirection:'row',alignItems:'center',gap:12}}><View style={st.rule}/><Text style={{color:'#8b93a0',fontSize:13,fontWeight:'600'}}>{label}</Text><View style={st.rule}/></View>;
 }
 
 const st=StyleSheet.create({
  button:{minHeight:52,borderRadius:28,justifyContent:'center',alignItems:'center',backgroundColor:'#ffffff',borderWidth:1,borderColor:'#dadce0'},
  label:{color:'#1f1f1f',fontSize:16.5,fontWeight:'600'},
  rule:{flex:1,height:StyleSheet.hairlineWidth,backgroundColor:'#2c323c'},
+ icon:{justifyContent:'center',alignItems:'center',backgroundColor:'#ffffff',borderWidth:1,borderColor:'#dadce0',shadowColor:'#000',shadowOpacity:0.45,shadowRadius:8,shadowOffset:{width:0,height:4},elevation:5},
 });
