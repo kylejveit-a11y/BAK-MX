@@ -9,7 +9,7 @@ import {decodeFamily,familyOf,NOTE_HINT,WORK,providersFor,cleanName,canonBrand,p
 import {checkBuild,typeOfPart,slotOf,type BuildCheck} from '../../../shared/build-check';
 import {fuelSystem,fuelSystemLabel} from '../../../shared/fuel-system';
 import {api,apiOrigin} from './api';
-import {Button,Card,Copy,Notice,colors,tint,LinkAction,Icon,PickChip} from './ui';
+import {sentenceCase,Button,Card,Copy,Notice,colors,tint,LinkAction,Icon,PickChip} from './ui';
 import {select as hSelect} from './haptics';
 import {BuildSheetDoc,type SheetData} from './BuildSheetDoc';
 
@@ -73,7 +73,7 @@ export function BuildSheet({bike,onSaved,onAsk,raceNumber}:{bike:Bike;onSaved:(b
    <Text style={st.small}><Text style={{color:colors.text,fontWeight:'700'}}>{recorded} of {partSystems.length}</Text> sections set</Text>
   </View>
   {checks.length>0&&<View style={{gap:10,paddingVertical:4}}>
-   <Text style={[st.section,{color:AMBER,marginBottom:0}]}>{checks.length===1?'1 THING TO CHECK':`${checks.length} THINGS TO CHECK`}</Text>
+   <Text style={[st.section,{color:AMBER,marginBottom:0}]}>{checks.length===1?'1 thing to check':`${checks.length} things to check`}</Text>
    {checks.map((c,i)=><Pressable key={i} accessibilityRole="button" onPress={()=>setOpen(c.parts[0]?.s??null)}><Warn text={c.text}/></Pressable>)}
   </View>}
   {catalog===null&&<Notice text="There’s no parts list for this exact bike yet. You can still add what’s on it and BAK will use it."/>}
@@ -303,7 +303,7 @@ function Options({type,system,choices,have,onAdd,onCustom,pendingRef}:{type:stri
         {!!c.caution&&<Note label="HEADS UP" text={c.caution} warn/>}
         {c.testers.slice(0,1).map(t=><Note key={t} label="RIDERS FOUND" text={t}/>)}
         {!!c.opts?.length&&<Note label="OPTIONS" text={c.opts.slice(0,8).map(o=>o.pn?`${o.label} (${o.pn})`:o.label).join(', ')+(c.opts.length>8?` +${c.opts.length-8} more`:'')}/>}
-        {!!c.links?.length&&<View style={{gap:4}}><Text style={st.noteLabel}>WHERE TO BUY</Text>{c.links.map(l=><Pressable key={l.url} accessibilityRole="link" onPress={()=>void Linking.openURL(l.url).catch(()=>{})} hitSlop={6}><Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{l.seller}{l.price?` · ${priceText(l.price)}`:''} ›</Text></Pressable>)}</View>}
+        {!!c.links?.length&&<View style={{gap:4}}><Text style={st.noteLabel}>Where to buy</Text>{c.links.map(l=><Pressable key={l.url} accessibilityRole="link" onPress={()=>void Linking.openURL(l.url).catch(()=>{})} hitSlop={6}><Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{l.seller}{l.price?` · ${priceText(l.price)}`:''} ›</Text></Pressable>)}</View>}
         <Note label={c.pns.length>1?'PART NUMBERS (BY SIZE OR COLOR)':'PART NUMBER'} text={c.pns.length?c.pns.slice(0,8).join(', ')+(c.pns.length>8?` +${c.pns.length-8} more`:''):'Not listed'}/>
        </View>}
       </View>;})}
@@ -323,7 +323,7 @@ function Options({type,system,choices,have,onAdd,onCustom,pendingRef}:{type:stri
  </View>;
 }
 function Chips({label,options,value,onPick,indent=34}:{label:string;options:string[];value?:string;onPick:(v:string)=>void;indent?:number}){
- return <View style={{gap:6,paddingLeft:indent}}><Text style={st.noteLabel}>{label.toUpperCase()}</Text>
+ return <View style={{gap:6,paddingLeft:indent}}><Text style={st.noteLabel}>{label}</Text>
   <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:6}}>{options.map(o=><PickChip key={o} label={o} on={value===o} onPress={()=>onPick(o)}/>)}</ScrollView>
  </View>;
 }
@@ -358,8 +358,8 @@ function TypeRow({label,small,onPress,children}:{label:string;small?:string;onPr
 }
 function Warn({text}:{text:string}){return <View style={{flexDirection:'row',gap:10,alignItems:'flex-start'}}><View style={{width:3,height:16,marginTop:3,borderRadius:1,backgroundColor:AMBER,transform:[{skewX:'-18deg'}]}}/><Text style={{color:'#efe1c2',fontSize:14,lineHeight:20,flex:1}}>{text}</Text></View>;}
 function Group({children}:{children:React.ReactNode}){return <View style={st.group}>{children}</View>;}
-function Section({title}:{title:string}){return <Text style={st.section}>{title}</Text>;}
-function Note({label,text,warn=false}:{label:string;text:string;warn?:boolean}){return <View style={[st.note,warn&&{borderLeftColor:'#d8b46a'}]}><Text style={st.noteLabel}>{label}</Text><Text style={[st.small,warn&&{color:'#e3d2ad'}]}>{text}</Text></View>;}
+function Section({title}:{title:string}){return <Text style={st.section}>{sentenceCase(title,true)}</Text>;}
+function Note({label,text,warn=false}:{label:string;text:string;warn?:boolean}){return <View style={[st.note,warn&&{borderLeftColor:'#d8b46a'}]}><Text style={st.noteLabel}>{sentenceCase(label,true)}</Text><Text style={[st.small,warn&&{color:'#e3d2ad'}]}>{text}</Text></View>;}
 function Row({label,small,detail,onPress,selected=false,chev=true,accent=false,plus=false}:{label:string;small?:string;detail?:string;onPress:()=>void;selected?:boolean;chev?:boolean;accent?:boolean;plus?:boolean}){
  return <Pressable accessibilityRole="button" accessibilityState={{selected}} accessibilityLabel={[label,small,detail].filter(Boolean).join('. ')} onPress={onPress} style={({pressed})=>[st.navRow,pressed&&{opacity:0.55}]}>{plus&&<Icon name="plus" size={18} color={colors.accent} weight={2}/>}
   <View style={{flex:1,gap:2}}><Text style={[st.rowTitle,accent&&{color:colors.accent}]}>{label}</Text>{!!small&&<Text style={st.small}>{small}</Text>}</View>
@@ -368,7 +368,7 @@ function Row({label,small,detail,onPress,selected=false,chev=true,accent=false,p
  </Pressable>;
 }
 const st={
- eyebrow:{color:'#9aa2ae',fontWeight:'600' as const,letterSpacing:1,fontSize:11.5},
+ eyebrow:{color:'#c3c9d3',fontWeight:'700' as const,letterSpacing:0,fontSize:13.5},
  h2:{color:colors.text,fontSize:22,fontWeight:'800' as const,letterSpacing:-0.5},
  title:{color:colors.text,fontSize:24,...DISPLAY,letterSpacing:0},
  sub:{color:colors.muted,fontSize:15,marginTop:-6},
@@ -385,14 +385,14 @@ const st={
  group:{borderTopWidth:1,borderTopColor:colors.line},
  navRow:{flexDirection:'row' as const,alignItems:'center' as const,gap:10,paddingVertical:15,borderBottomWidth:1,borderBottomColor:colors.line,minHeight:54},
  detail:{color:colors.muted,fontSize:15},
- section:{color:colors.muted,fontSize:12,fontWeight:'700' as const,letterSpacing:1.5,marginBottom:-6,marginTop:4},
+ section:{color:'#d3d8e0',fontSize:15,fontWeight:'700' as const,letterSpacing:0,marginBottom:-6,marginTop:4},
  fitted:{paddingVertical:14,gap:8,borderBottomWidth:1,borderBottomColor:colors.line},
  typeBlock:{borderBottomWidth:1,borderBottomColor:colors.line},
  setRail:{borderLeftWidth:2,borderBottomWidth:0,paddingLeft:14,marginBottom:10,borderRadius:4},
  option:{paddingVertical:14,gap:10,borderBottomWidth:1,borderBottomColor:colors.line},
  brand:{color:colors.muted,fontSize:11,letterSpacing:1,fontWeight:'700' as const},
  note:{borderLeftWidth:2,borderLeftColor:colors.line,paddingLeft:10,gap:2},
- noteLabel:{color:'#8d95a3',fontSize:10,letterSpacing:1.2,fontWeight:'700' as const},
+ noteLabel:{color:'#a7afbc',fontSize:12.5,letterSpacing:0,fontWeight:'700' as const},
  input:{borderBottomColor:'#2a2f39',borderBottomWidth:1,paddingVertical:11,color:colors.text,fontSize:17},
  searchBox:{flexDirection:'row' as const,alignItems:'center' as const,gap:8,borderWidth:1,borderColor:'#2f3540',borderRadius:22,paddingHorizontal:14},
  segment:{flexDirection:'row' as const,borderWidth:1,borderColor:'#2f3540',borderRadius:22,padding:3},

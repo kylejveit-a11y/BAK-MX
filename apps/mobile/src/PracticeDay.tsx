@@ -91,7 +91,7 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
  const linked=ordered.find(x=>x.logId&&!isLocal(x.logId));
  return <>
   <View style={{gap:6}}>
-   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>PRACTICE DAY · {new Date().toLocaleDateString([],{weekday:'long',month:'short',day:'numeric'}).toUpperCase()}</Eyebrow></View>
+   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>PRACTICE DAY · {new Date().toLocaleDateString([],{weekday:'long',month:'short',day:'numeric'})}</Eyebrow></View>
    <Text style={{color:colors.text,fontSize:24,...DISPLAY,letterSpacing:0}}>{track||'Practice day'}</Text>
    <Text style={{color:colors.muted,fontSize:14}}>{bikeName}{bike.engine_hours!=null?` · ${bike.engine_hours} h`:''}{sessions.length?` · ${sessionsSummary(sessions)}`:''}</Text>
   </View>
@@ -106,7 +106,7 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
   <BikeNowCard bike={bike}/>
   <TrackHistoryCard track={track} bikeId={bike.id}/>
   <Card>
-   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="bolt" size={16} color={colors.accent}/><Eyebrow bare>{COPY.ask.toUpperCase()}</Eyebrow></View>
+   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="bolt" size={16} color={colors.accent}/><Eyebrow bare>{COPY.ask}</Eyebrow></View>
    <Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>{COPY.askDetail}</Text>
    <Button title={COPY.ask} onPress={()=>onAsk(practiceAskText({track,bike:bikeName,setup:bikeSetup(bike),sessions}))}/>
   </Card>
@@ -130,7 +130,7 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
    <Notice text={notice}/>
    <Button disabled={busy} title={busy?COPY.saving:COPY.save} onPress={()=>void log()}/>
   </Card>
-  <Card><Eyebrow>{COPY.sessions}{sessions.length?` · ${sessionsSummary(sessions).toUpperCase()}`:''}</Eyebrow>
+  <Card><Eyebrow>{COPY.sessions}{sessions.length?` · ${sessionsSummary(sessions)}`:''}</Eyebrow>
    {!sessions.length&&<Copy>{COPY.none}</Copy>}
    {ordered.map(x=><View key={x.id} style={{gap:2,paddingVertical:4}}>
     <Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{sessionLabel(x)}{x.change?<Text style={{color:colors.text,fontWeight:'600'}}> · {sessionChange(x)}</Text>:null}</Text>

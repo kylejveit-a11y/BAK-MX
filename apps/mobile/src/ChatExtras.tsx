@@ -40,8 +40,8 @@ export function TriageCard({onDone,onCancel}:{onDone:(text:string)=>void;onCance
    <Pressable accessibilityRole="button" accessibilityLabel="Close guided questions" onPress={onCancel} hitSlop={10} style={{marginLeft:10}}><Icon name="close" size={18} color={colors.muted} weight={2}/></Pressable>
   </View>
   <Text style={tx.q}>{question}</Text>
-  {step==='complaint'&&<>{complaintGroups.map(g=><View key={g.label} style={{gap:8}}><Text style={tx.eyebrow}>{g.label.toUpperCase()}</Text><Wrap>{g.ids.map(id=><Chip key={id} label={complaintLabel(id)} on={a.complaint===id} onPress={()=>{setA({...a,complaint:id,complaintText:undefined,decider:undefined,throttle:undefined});const s=triageSteps(id);setStep(s.decider?'decider':s.throttle?'throttle':'where');}}/>)}</Wrap></View>)}
-   <View style={{gap:8}}><Text style={tx.eyebrow}>NOT LISTED?</Text><Wrap>{own('Describe it, e.g. “front end feels vague in sand”',t=>{setA({...a,complaint:'other',complaintText:t,decider:undefined});setTyping(false);setDraft('');setStep('throttle');})}</Wrap></View></>}
+  {step==='complaint'&&<>{complaintGroups.map(g=><View key={g.label} style={{gap:8}}><Text style={tx.eyebrow}>{g.label}</Text><Wrap>{g.ids.map(id=><Chip key={id} label={complaintLabel(id)} on={a.complaint===id} onPress={()=>{setA({...a,complaint:id,complaintText:undefined,decider:undefined,throttle:undefined});const s=triageSteps(id);setStep(s.decider?'decider':s.throttle?'throttle':'where');}}/>)}</Wrap></View>)}
+   <View style={{gap:8}}><Text style={tx.eyebrow}>Not listed?</Text><Wrap>{own('Describe it, e.g. “front end feels vague in sand”',t=>{setA({...a,complaint:'other',complaintText:t,decider:undefined});setTyping(false);setDraft('');setStep('throttle');})}</Wrap></View></>}
   {step==='decider'&&<View style={{gap:8}}>{(deciderAnswers[a.complaint]??[]).map(o=><Chip key={o} label={o} on={a.decider===o} onPress={()=>pick({decider:o})}/>)}<Chip quiet label="Not sure" onPress={()=>pick({decider:'Not sure'})}/>{own('Tell it your way',t=>pick({decider:t}))}</View>}
   {step==='throttle'&&<Wrap>{throttleAnswers.map(o=><Chip key={o} label={o} on={a.throttle===o} onPress={()=>pick({throttle:o})}/>)}<Chip quiet label="Not sure" onPress={()=>pick({throttle:undefined})}/>{own('Tell it your way',t=>pick({throttle:t}))}</Wrap>}
   {(step==='where'||step==='track')&&<>
@@ -149,7 +149,7 @@ export function AppActionsCard({ownerId,messageId,actions,host}:{ownerId:string;
 }
 const tx={
  q:{color:colors.text,fontSize:17.5,...DISPLAY,letterSpacing:0},
- eyebrow:{color:colors.muted,fontSize:11,fontWeight:'700' as const,letterSpacing:1.5},
+ eyebrow:{color:colors.muted,fontSize:13.5,fontWeight:'700' as const,letterSpacing:0},
  small:{color:colors.muted,fontSize:13,lineHeight:19},
  input:{borderBottomColor:'#2a2f39',borderBottomWidth:1,paddingVertical:10,color:colors.text,fontSize:16},
  quote:{borderLeftWidth:3,borderLeftColor:colors.accent,paddingLeft:12,paddingVertical:4},

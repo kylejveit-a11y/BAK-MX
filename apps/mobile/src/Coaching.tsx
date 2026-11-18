@@ -38,7 +38,7 @@ export function CoachingList({bike,onCoach}:{bike:Bike;onCoach:()=>void}){
   {sessions===null&&<ActivityIndicator color={colors.accent}/>}
   <Notice text={error}/>
   {sessions!==null&&!sessions.length&&!error&&<Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>No coaching sessions yet. Your first one shows here with its fix and drill.</Text>}
-  {!!sessions?.length&&<Text style={{color:'#9aa2ae',fontSize:11.5,fontWeight:'800',letterSpacing:1.2,paddingTop:4}}>PAST SESSIONS</Text>}
+  {!!sessions?.length&&<Text style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700',letterSpacing:0,paddingTop:4}}>Past sessions</Text>}
   {sessions?.map((s,i)=><Session key={s.id} s={s} first={i===0}/>)}
  </Card>;
 }

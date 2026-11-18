@@ -56,7 +56,7 @@ export function BuildSheetDoc({data,mine=false}:{data:SheetData;mine?:boolean}){
 
   {GROUPS.map(g=>{const rows=g.systems.filter(k=>modified.has(k)||stock.includes(k));if(!rows.length)return null;
    return <View key={g.label} style={{gap:10}}>
-    <Text style={{color:'#8b93a1',fontSize:11.5,fontWeight:'800',letterSpacing:1.4}}>{g.label.toUpperCase()}</Text>
+    <Text style={{color:'#8b93a1',fontSize:13,fontWeight:'800',letterSpacing:0}}>{g.label}</Text>
     <View style={{borderRadius:14,borderWidth:1,borderColor:'#20242c',backgroundColor:'#0c0e12',overflow:'hidden'}}>
      {rows.map((k,i)=>{const parts=on.filter(p=>p.system===k);
       return <View key={k} style={{flexDirection:'row',gap:12,padding:14,borderTopWidth:i?1:0,borderTopColor:'#1a1e25'}}>
@@ -72,7 +72,7 @@ export function BuildSheetDoc({data,mine=false}:{data:SheetData;mine?:boolean}){
    </View>;})}
 
   {spares.length>0&&<View style={{gap:10}}>
-   <Text style={{color:'#8b93a1',fontSize:11.5,fontWeight:'800',letterSpacing:1.4}}>OFF THE BIKE · SPARES AND SWAPS</Text>
+   <Text style={{color:'#8b93a1',fontSize:13,fontWeight:'800',letterSpacing:0}}>Off the bike: spares and swaps</Text>
    <View style={{borderRadius:14,borderWidth:1,borderColor:'#20242c',borderStyle:'dashed',padding:14,gap:10}}>
     {spares.map((p,j)=><View key={j} style={{gap:2}}><Text style={{color:'#9aa2ae',fontSize:11,fontWeight:'800',letterSpacing:0.8}}>{label(p.system).toUpperCase()}</Text><PartLine p={p}/></View>)}
    </View>

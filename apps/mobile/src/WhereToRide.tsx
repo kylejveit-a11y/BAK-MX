@@ -145,7 +145,7 @@ function PlaceView({id,onBack,onMap,onAsk,onRideToday}:{id:string;onBack:()=>voi
   </View>
   <WeatherCard id={p.id} has={p.lat!=null} approx={!!p.approx}/>
   {ride&&<Card>
-   <Eyebrow>{W.whatYouCanRide.toUpperCase()}</Eyebrow>
+   <Eyebrow>{W.whatYouCanRide}</Eyebrow>
    <View style={{gap:8}}>{WIDTHS.map(w=>{const v=a?.vehicles?.[w.id];return <View key={w.id} style={{flexDirection:'row',alignItems:'center',gap:10}}>
     <View style={{width:22,height:4,borderRadius:2,backgroundColor:w.color,opacity:v===false?0.3:1}}/>
     <Text style={{color:v===false?'#7d8593':colors.text,fontSize:15,fontWeight:'700',flex:1}}>{w.label} <Text style={{color:'#8b93a0',fontWeight:'500',fontSize:13}}>{w.detail}</Text></Text>
@@ -157,7 +157,7 @@ function PlaceView({id,onBack,onMap,onAsk,onRideToday}:{id:string;onBack:()=>voi
   </Card>}
   {!ride&&!!p.tracks_on_site.length&&<Card><Eyebrow>ON SITE</Eyebrow>{p.tracks_on_site.map(t=><Copy key={t}>• {t}</Copy>)}{!!p.layout_notes&&<Copy>{p.layout_notes}</Copy>}</Card>}
   {(ride||a)&&<Card>
-   <Eyebrow>{W.knowBefore.toUpperCase()}</Eyebrow>
+   <Eyebrow>{W.knowBefore}</Eyebrow>
    {privateLand&&<Copy>{W.privateLand}</Copy>}
    <Fact k="Pass or fee" v={a?.pass?[a.pass.day&&`Visit: ${a.pass.day}`,a.pass.year&&`Annual: ${a.pass.year}`,a.pass.how].filter(Boolean).join('\n')||null:null}/>
    <Fact k="Season" v={a?.season}/>
@@ -193,7 +193,7 @@ function WeatherCard({id,has,approx}:{id:string;has:boolean;approx:boolean}){
   {f.available&&!!f.rain_days_before.length&&<Text style={{color:'#adb5c1',fontSize:13,lineHeight:19}}>Rain before: {f.rain_days_before.join('; ')}</Text>}
  </View>;
  return <Card>
-  <Eyebrow>{W.weather.toUpperCase()}</Eyebrow>
+  <Eyebrow>{W.weather}</Eyebrow>
   <Day label="Today" f={w.today}/>
   <Day label="Tomorrow" f={w.tomorrow}/>
   <Text style={{color:'#8b93a0',fontSize:12.5,lineHeight:18}}>{approx?W.weatherNoteApprox:W.weatherNote}</Text>
@@ -208,7 +208,7 @@ function EventsHereCard({place}:{place:PlaceDetail}){
  const here=useMemo(()=>eventsAt(events,place,dir.map(t=>({id:t.id,name:t.name,aliases:t.aliases??[],city:t.city}))).slice(0,4),[events,place.id,dir]);
  if(!here.length)return null;
  return <Card>
-  <Eyebrow>{W.eventsHere.toUpperCase()}</Eyebrow>
+  <Eyebrow>{W.eventsHere}</Eyebrow>
   {here.map(e=><View key={e.id} style={{flexDirection:'row',gap:10,alignItems:'flex-start'}}>
    <Icon name="calendar" size={17} color={colors.accent}/>
    <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{e.title}</Text>

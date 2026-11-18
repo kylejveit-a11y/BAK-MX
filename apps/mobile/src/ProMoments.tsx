@@ -36,7 +36,7 @@ export function ComposerNudge({text,action,onPress,onDismiss}:{text:string;actio
  return <View accessibilityLiveRegion="polite" style={{flexDirection:'row',alignItems:'center',gap:8,paddingHorizontal:4,paddingBottom:2}}>
   <View style={{width:3,height:14,borderRadius:1,backgroundColor:colors.accent,transform:[{skewX:'-18deg'}]}}/>
   <Text numberOfLines={1} style={{flex:1,color:'#adb5c1',fontSize:13}}>{text}</Text>
-  <Pressable accessibilityRole="button" accessibilityLabel={action==='pro'?'See plans':'Start next free set'} hitSlop={6} onPress={onPress} style={({pressed})=>({opacity:pressed?0.6:1})}><Text style={{color:colors.text,fontSize:13,fontWeight:'800'}}>{action==='pro'?'See plans →':'Start it →'}</Text></Pressable>
+  <Pressable accessibilityRole="button" accessibilityLabel={action==='pro'?'See plans':'Start next free set'} hitSlop={6} onPress={onPress} style={({pressed})=>({opacity:pressed?0.6:1})}><Text style={{color:colors.text,fontSize:13,fontWeight:'800'}}>{action==='pro'?'See plans':'Start it'}</Text></Pressable>
   <Pressable accessibilityRole="button" accessibilityLabel="Dismiss" hitSlop={8} onPress={onDismiss} style={({pressed})=>({opacity:pressed?0.6:1,paddingLeft:4})}><Icon name="close" size={13} color="#7d8593" weight={2.2}/></Pressable>
  </View>;
 }

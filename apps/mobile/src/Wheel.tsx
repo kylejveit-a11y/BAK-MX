@@ -8,6 +8,7 @@ import {colors,LABEL,DISPLAY} from './theme';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {tap as hTap,select as hSelect} from './haptics';
 import {Icon} from './Icon';
+import {sentenceCase} from './sentenceCase';
 import {BlueFace,blueLift,onBlueText} from './BlueFace';
 
 export type Option={value:string;label:string;detail?:string};
@@ -43,7 +44,7 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
   <View style={[st.bottomSheet,{maxHeight:height-insets.top-32,paddingBottom:insets.bottom+14}]}>
    <View style={st.grab}/>
    <View style={st.top}>
-    <Text style={st.step}>{step??''}</Text>
+    <Text style={st.step}>{sentenceCase(step??'',true)}</Text>
     <Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={onClose} style={({pressed})=>[st.close,pressed&&{opacity:0.6}]}><Icon name="close" size={18} color={C.text} weight={2}/></Pressable>
    </View>
    <Text style={[st.title,{fontSize:26,marginTop:2}]} numberOfLines={2}>{title}</Text>
@@ -109,7 +110,7 @@ export function BikeWheel({visible,makes,modelsFor,yearsFor,initial,onDone,onClo
  const years=make&&model?[...yearsFor(make,model)].sort((a,b)=>b-a):[];
  const range=(m:string)=>{const y=yearsFor(make,m);return y.length?(Math.min(...y)===Math.max(...y)?String(y[0]):`${Math.min(...y)}–${Math.max(...y)}`):'';};
  const head=(step:string,title:string,back?:{label:string;onPress:()=>void})=><>
-  <View style={st.top}><Text style={st.step}>{step}</Text><Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={onClose} style={({pressed})=>[st.close,pressed&&{opacity:0.6}]}><Icon name="close" size={18} color={C.text} weight={2}/></Pressable></View>
+  <View style={st.top}><Text style={st.step}>{sentenceCase(step??'',true)}</Text><Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={onClose} style={({pressed})=>[st.close,pressed&&{opacity:0.6}]}><Icon name="close" size={18} color={C.text} weight={2}/></Pressable></View>
   <Text style={st.title} numberOfLines={2}>{title}</Text>
   {back?<Pressable accessibilityRole="button" onPress={back.onPress} hitSlop={8} style={{alignSelf:'flex-start',paddingVertical:8}}><View style={{flexDirection:'row',alignItems:'center',gap:4}}><Icon name="chevronLeft" size={16} color={C.accent} weight={2.1}/><Text style={{color:C.accent,fontWeight:'600',fontSize:15}}>{back.label}</Text></View></Pressable>:<View style={{height:10}}/>}
  </>;
@@ -157,7 +158,7 @@ const st=StyleSheet.create({
  backdrop:{flex:1,backgroundColor:'rgba(0,0,0,0.55)'},
  grab:{alignSelf:'center',width:36,height:5,borderRadius:3,backgroundColor:'#343a45',marginBottom:4},
  top:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',minHeight:36},
- step:{color:C.muted,fontSize:11.5,fontWeight:'700',letterSpacing:1.6},
+ step:{color:C.muted,fontSize:13.5,fontWeight:'700',letterSpacing:0},
  close:{width:34,height:34,borderRadius:17,borderWidth:1,borderColor:'#2a2f39',alignItems:'center',justifyContent:'center'},
  title:{color:C.text,fontSize:25.5,...DISPLAY,letterSpacing:0,marginTop:8},
  search:{flexDirection:'row',alignItems:'center',gap:10,borderBottomWidth:1,borderBottomColor:'#2a2f39',marginTop:8},

@@ -71,7 +71,7 @@ export function TrackReportCard({track,day,setupLogId,setupLabel,recent=[],compa
   <Icon name="location" size={16} color={colors.accent}/><Text style={{color:colors.text,fontSize:14.5,fontWeight:'600',flexShrink:1}}>{REPORT_COPY.askPrompt(chosen?.name??track??'the track',dayWord(draft.day,now).toLowerCase())}</Text>
  </Pressable>;
  return <Card>
-  <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}><Eyebrow>{title.toUpperCase()}</Eyebrow>{onClose&&<Link muted title="Close" onPress={onClose}/>}</View>
+  <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}><Eyebrow>{title}</Eyebrow>{onClose&&<Link muted title="Close" onPress={onClose}/>}</View>
   {done?<>
    <Notice text={done}/>
    {others&&<Copy>{reportSummaryLine(others)}</Copy>}

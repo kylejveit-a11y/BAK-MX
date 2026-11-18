@@ -124,7 +124,7 @@ export function GuidedJobCardNative({job,voice,onSay,busy,compact=false}:{job:Na
  const pill=(label:string,icon:'chevronLeft'|'refresh',onPress:()=>void,disabled=false)=><Pressable accessibilityRole="button" accessibilityLabel={label} disabled={disabled} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:5,height:44,paddingHorizontal:14,borderRadius:22,borderWidth:1,borderColor:'#343a45',opacity:disabled?0.35:pressed?0.6:1})}><Icon name={icon} size={16} color={colors.text} weight={2}/><Text style={{color:colors.text,fontSize:14.5,fontWeight:'700'}}>{label}</Text></Pressable>;
  return <Card>
   <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}>
-   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={14}/><Text style={{color:'#9aa2ae',fontWeight:'800',letterSpacing:1.6,fontSize:11.5}}>{finished?'JOB COMPLETE':`STEP ${run.step_index+1} OF ${procedure.steps.length}`}</Text></View>
+   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={14}/><Text style={{color:'#9aa2ae',fontWeight:'800',letterSpacing:0,fontSize:15}}>{finished?'Job complete':`Step ${run.step_index+1} of ${procedure.steps.length}`}</Text></View>
    <Pressable accessibilityRole="button" accessibilityLabel="Close job, progress is kept" hitSlop={10} onPress={()=>onSay(job.end())}><Text style={{color:'#adb5c1',fontSize:14,fontWeight:'600'}}>Close job</Text></Pressable>
   </View>
   <Text numberOfLines={1} style={{color:'#adb5c1',fontSize:13,fontWeight:'600'}}>{procedure.title}</Text>

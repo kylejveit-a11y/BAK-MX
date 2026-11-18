@@ -44,7 +44,7 @@ function ValueRow({icon,title,detail,last}:{icon:IconName;title:string;detail:st
 /** Free / Premium / Pro, compact. Every cell is read from the plan code, so nothing here can drift from what is gated. */
 function Comparison({current}:{current:Tier}){
  const rows=planComparison(),tiers:Tier[]=['free','premium','pro'];
- const head=(t:Tier)=><View key={t} style={{flex:1,alignItems:'center',gap:3}}><Text style={{color:t==='pro'?colors.accent:'#adb5c1',fontSize:11.5,fontWeight:'800',letterSpacing:1.1}}>{TIER_LABEL[t].toUpperCase()}</Text>{t===current&&<Text style={{color:'#8f97a4',fontSize:10,fontWeight:'700',letterSpacing:0.8}}>YOURS</Text>}</View>;
+ const head=(t:Tier)=><View key={t} style={{flex:1,alignItems:'center',gap:3}}><Text style={{color:t==='pro'?colors.accent:'#adb5c1',fontSize:13.5,fontWeight:'800',letterSpacing:0}}>{TIER_LABEL[t]}</Text>{t===current&&<Text style={{color:'#8f97a4',fontSize:10,fontWeight:'700',letterSpacing:0.8}}>YOURS</Text>}</View>;
  return <View accessibilityRole="summary" accessibilityLabel={'Plans compared. '+rows.map(r=>`${r.feature}: Free ${r.free}, Premium ${r.premium}, Pro ${r.pro}.`).join(' ')} style={{gap:0}}>
   <View style={{flexDirection:'row',paddingBottom:10}}><View style={{flex:1.5}}/>{tiers.map(head)}</View>
   {rows.map((r,i)=><View key={r.feature} style={[{flexDirection:'row',alignItems:'center',paddingVertical:10,gap:4},hair]}>
@@ -68,8 +68,8 @@ export function ProScreen(){
  return <Page title="">
   <MetalPanel radius={22}>
    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}>
-    <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={22}/><Text style={{color:'#c9cfd9',fontSize:12,fontWeight:'800',letterSpacing:1.6}}>{PRO_EYEBROW}</Text></View>
-    {beta&&<Text style={{color:'#9aa2ae',fontSize:11.5,fontWeight:'800',letterSpacing:1.2}}>{LAUNCH_OFFER}</Text>}
+    <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={22}/><Text style={{color:'#c9cfd9',fontSize:15,fontWeight:'800',letterSpacing:0}}>{PRO_EYEBROW}</Text></View>
+    {beta&&<Text style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700',letterSpacing:0}}>{LAUNCH_OFFER}</Text>}
    </View>
    <Text accessibilityRole="header" style={{color:colors.text,fontSize:27,lineHeight:35,...DISPLAY,letterSpacing:0}}>{PRO_HEADLINE}</Text>
    <Text style={{color:'#c9cfd9',fontSize:15,lineHeight:22}}>{PRO_SUBHEAD}</Text>
@@ -84,12 +84,12 @@ export function ProScreen(){
     {groups.pro.map(p=><View key={p.identifier} style={{gap:6}}><BuyButton title={p.product.title||'BAK Pro'} price={priceLine(p)} disabled={busy||onPro} onPress={()=>void task(()=>purchase(p),'Purchase received. You are on Pro.')}/>{!!p.product.description&&<Text style={{color:'#8f97a4',fontSize:12.5,lineHeight:17,paddingHorizontal:6}}>{p.product.description}</Text>}</View>)}
     {groups.other.map(p=><BuyButton key={p.identifier} title={p.product.title} price={priceLine(p)} disabled={busy} onPress={()=>void task(()=>purchase(p),'Purchase received and your plan is updated.')}/>)}
     {groups.premium.length>0&&<View style={{gap:8,paddingTop:8}}>
-     <Text style={{color:'#9aa2ae',fontSize:11.5,fontWeight:'800',letterSpacing:1.2}}>OR {TIER_LABEL.premium.toUpperCase()}</Text>
+     <Text style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700',letterSpacing:0}}>Or {TIER_LABEL.premium}</Text>
      <Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>{PREMIUM_LINE}</Text>
      {groups.premium.map(p=><Button key={p.identifier} secondary disabled={busy||tier!=='free'} title={`${p.product.title||TIER_LABEL.premium} · ${priceLine(p)}`} onPress={()=>void task(()=>purchase(p),'Purchase received. You are on Premium.')}/>)}
     </View>}
     {groups.packs.length>0&&<View style={{gap:4,paddingTop:10}}>
-     <Text style={{color:'#9aa2ae',fontSize:11.5,fontWeight:'800',letterSpacing:1.2}}>QUESTION PACKS</Text>
+     <Text style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700',letterSpacing:0}}>Question packs</Text>
      <Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>Extra questions that never expire, used after your included ones.</Text>
      {groups.packs.map(p=><Pressable key={p.identifier} accessibilityRole="button" accessibilityLabel={`${p.product.title}, ${p.product.priceString}`} disabled={busy} onPress={()=>void task(()=>purchase(p),'Credits added.')} style={({pressed})=>[{flexDirection:'row',justifyContent:'space-between',alignItems:'center',paddingVertical:13,opacity:pressed?0.6:1},hair]}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'600'}}>{p.product.title}</Text><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{p.product.priceString}</Text></Pressable>)}
     </View>}
@@ -110,7 +110,7 @@ export function ProScreen(){
   </View>
 
   <View style={[{paddingTop:18,gap:12},hair]}>
-   <Text style={{color:'#9aa2ae',fontSize:11.5,fontWeight:'800',letterSpacing:1.2}}>WHAT EACH PLAN GIVES</Text>
+   <Text style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700',letterSpacing:0}}>What each plan gives</Text>
    <Comparison current={tier}/>
    <Text style={{color:'#8f97a4',fontSize:12.5,lineHeight:18}}>Your Garage, specs, logs, notes and community are yours on every plan. Only Ask BAK's allowance, clip coaching and the photo-edit count change.</Text>
   </View>

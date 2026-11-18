@@ -94,7 +94,7 @@ export function RacePrepSheet({visible,onClose,account,bike,startPhase='week',ki
    </ScrollView>
    <ScrollView keyboardShouldPersistTaps="handled" automaticallyAdjustKeyboardInsets style={{flex:1}} contentContainerStyle={{paddingHorizontal:20,paddingTop:14,paddingBottom:insets.bottom+30,gap:10}}>
     <View style={{gap:8}}>
-     <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'baseline'}}><Eyebrow>{(PHASES.find(p=>p.id===phase)??PHASES[0]).label.toUpperCase()}</Eyebrow><Text style={{color:colors.muted,fontSize:13}}>{done} of {items.length}</Text></View>
+     <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'baseline'}}><Eyebrow>{(PHASES.find(p=>p.id===phase)??PHASES[0]).label}</Eyebrow><Text style={{color:colors.muted,fontSize:13}}>{done} of {items.length}</Text></View>
      <Progress done={done} total={items.length}/>
     </View>
     {!editing&&<View>{items.map(i=><CheckRow key={i.id} item={i} on={!!checks[i.id]} onPress={()=>toggle(i.id)}/>)}</View>}
@@ -129,7 +129,7 @@ export function RacePrepCard({account,bike,phase='motos',onOpen,kind='race'}:{ac
  if(hidden)return <Pressable accessibilityRole="button" onPress={()=>hide(false)} hitSlop={6} style={{alignSelf:'flex-start'}}><Text style={{color:colors.muted,fontSize:14.5}}>Show prep list</Text></Pressable>;
  const items=list.filter(i=>i.phase===phase),done=items.filter(i=>checks[i.id]).length;
  return <Card>
-  <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'baseline'}}><Eyebrow>{(PHASES.find(p=>p.id===phase)?.label??'Checklist').toUpperCase()} · {done}/{items.length}</Eyebrow>
+  <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'baseline'}}><Eyebrow>{(PHASES.find(p=>p.id===phase)?.label??'Checklist')} · {done}/{items.length}</Eyebrow>
    <Pressable accessibilityRole="button" onPress={onOpen} hitSlop={8}><Text style={{color:colors.text,fontWeight:'700'}}>{practice?'Edit checklist':'Full prep list'}</Text></Pressable></View>
   <Progress done={done} total={items.length}/>
   <View>{items.map(i=><CheckRow key={i.id} item={i} on={!!checks[i.id]} onPress={()=>toggle(i.id)}/>)}</View>

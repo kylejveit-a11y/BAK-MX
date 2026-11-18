@@ -174,7 +174,7 @@ export function RaceSetupCard({account,bike,track,day,onOpenChat}:{account:strin
   }catch(e){setNotice(errorText(e));}finally{setBusy(false);setLive(null);}
  }
  return <Card>
-  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>BAK’S SETUP FOR {track?track.toUpperCase():'THIS RACE'}</Eyebrow></View>
+  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>BAK’S SETUP FOR {track?track:'THIS RACE'}</Eyebrow></View>
   {!saved&&!live&&<Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>BAK works out where to start for this track and day: the dirt and layout, the weather forecast once it’s within a week, and what’s on your bike now. {track?'':'Add the track for track info and weather. '}It may say your setup is already right.</Text>}
   {live&&<View style={{gap:6}}>{!!live.summary&&<Text style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:22}}>{plain(live.summary)}</Text>}{!!live.answer&&<RichText text={live.answer}/>}<Text style={{color:'#8b93a1',fontSize:12.5}}>{live.summary||live.answer?'Writing… final checks run before it’s saved.':'Reading the track, the forecast and your bike…'}</Text></View>}
   {saved&&!live&&<View style={{gap:10}}>
@@ -326,7 +326,7 @@ export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenC
  const chip=(label:string,on:boolean,onPress:()=>void)=><PickChip key={label} label={label} on={on} onPress={onPress}/>;
  return <>
   <View style={{gap:6}}>
-   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>RACE DAY · {new Date().toLocaleDateString([],{weekday:'long',month:'short',day:'numeric'}).toUpperCase()}</Eyebrow></View>
+   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>RACE DAY · {new Date().toLocaleDateString([],{weekday:'long',month:'short',day:'numeric'})}</Eyebrow></View>
    <Text style={{color:colors.text,fontSize:24,...DISPLAY,letterSpacing:0}}>{track||'Track day'}</Text>
    <Text style={{color:colors.muted,fontSize:14}}>{bike.model_year} {bike.manufacturer} {bike.model}{bike.engine_hours!=null?` · ${bike.engine_hours} h`:''}</Text>
   </View>

@@ -52,7 +52,7 @@ export const widthColor=(w:string)=>WIDTH_LABEL.get(w as TrailWidth)?.color??'#8
 
 export const WHERE_COPY={
  title:'Where to Ride',
- intro:'Tracks and riding areas BAK knows, with what you can ride, passes and rules, and how riders say it’s riding today.',
+ intro:'Tracks and trails near you, what you can ride there, and how it’s riding today.',
  filters:{all:'All',track:'Tracks',riding_area:'Riding areas'} as Record<'all'|PlaceKind,string>,
  search:'Search by name or town',
  none:'Nothing matches. Try another name, or All states.',
@@ -60,12 +60,12 @@ export const WHERE_COPY={
  notConfirmed:'Not confirmed: check the official page.',
  knowBefore:'Know before you go',
  whatYouCanRide:'What you can ride',
- checkedOn:(d:string)=>`Checked against official pages on ${fmtDay(d)}. Rules and closures change: check before you drive.`,
+ checkedOn:(d:string)=>`Checked against official pages ${fmtDay(d)}. Rules change, so check before you drive.`,
  trailMap:'Trail map',
  mapNote:(d:string|null)=>`${d?`Forest Service map of ${fmtDay(d)}. `:''}Closures change: check the official page before you ride.`,
  noLines:'The Forest Service hasn’t published trail lines for this area. Use the official map.',
  official:'Official page',directions:'Directions',onx:'Open in onX',call:'Call',
- rideToday:'Ride here today',rideTodayDetail:'Starts a practice day here: Ride Day mode, check-ins and Ride safety.',
+ rideToday:'Ride here today',rideTodayDetail:'Starts a practice day here.',
  ask:'Ask BAK about riding here',
  privateLand:'Private park: rules, fees and hours are set by the owner. Check their page before you go.',
  saved:'Saved',save:'Save',unsave:'Saved',savedNone:'Nothing saved yet. Tap Save on a place to keep it here.',

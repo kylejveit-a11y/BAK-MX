@@ -80,7 +80,7 @@ export function LiveConditionsCard({track}:{track:string}){
  if(!trackId)return null;
  async function send(){if(busy)return;setBusy(true);const r=await sendCheckin(trackId,picked);setNotice(r.message);if(r.ok){setPicked([]);setOpen(false);reload();}setBusy(false);}
  return <Card>
-  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="pulse" size={16} color={colors.accent}/><Eyebrow bare>{C.title.toUpperCase()}</Eyebrow><Text style={{color:'#8b93a0',fontSize:12,marginLeft:'auto'}}>last 6 hours</Text></View>
+  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="pulse" size={16} color={colors.accent}/><Eyebrow bare>{C.title}</Eyebrow><Text style={{color:'#8b93a0',fontSize:12,marginLeft:'auto'}}>last 6 hours</Text></View>
   <LiveStatusList live={live}/>
   {!open?<Pressable haptic="press" accessibilityRole="button" onPress={()=>{setOpen(true);setNotice('');}} style={({pressed})=>({alignSelf:'flex-start',flexDirection:'row',alignItems:'center',gap:8,paddingHorizontal:14,paddingVertical:9,borderRadius:18,borderWidth:1,borderColor:colors.accent,opacity:pressed?0.7:1})}>
     <Icon name="flag" size={16} color={colors.accent}/><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{C.send}</Text></Pressable>

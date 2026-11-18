@@ -13,6 +13,8 @@ import {RaisedFace,raisedLift} from './Raised';
 export {BlueFace,blueLift,onBlueText};
 export {Icon,type IconName};
 import {colors,tint,metalHighlight,motion,DISPLAY,LABEL} from './theme';
+import {sentenceCase} from './sentenceCase';
+export {sentenceCase};
 import {useConnection} from './offline';
 import {currentStore} from './api';
 export {colors,tint};
@@ -97,7 +99,7 @@ export function Select(props:{disabled?:boolean;label:string;value:string;option
 /** Status line: raked accent mark and text. No box. */
 /** A message in the flow of the page. tone "warn" is for something the rider has to fix before going on. */
 export function Notice({text,tone}:{text:string;tone?:'warn'}){const warn=tone==='warn';return text?<View accessibilityLiveRegion={warn?'assertive':'polite'} accessibilityRole={warn?'alert':undefined} style={[{flexDirection:'row',gap:10,alignItems:'flex-start'},warn&&{backgroundColor:'rgba(239,154,161,0.10)',borderRadius:10,paddingHorizontal:12,paddingVertical:10}]}>{warn?<Icon name="close" size={15} color="#ef9aa1" weight={2.4}/>:<View style={{width:3,height:16,marginTop:3,borderRadius:1,backgroundColor:colors.accent,transform:[{skewX:'-18deg'}]}}/>}<Text style={{color:warn?'#f6c9cd':colors.text,lineHeight:21,fontSize:14.5,flex:1,fontWeight:warn?'600':'400'}}>{text}</Text></View>:null}
-export const s=StyleSheet.create({page:{padding:20,paddingBottom:40,gap:18},eyebrow:{color:'#9aa2ae',...LABEL,letterSpacing:1.6,fontSize:10.5},title:{fontSize:26,color:colors.text,...DISPLAY,letterSpacing:0},card:{paddingTop:22,paddingBottom:6,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',gap:12},copy:{color:colors.muted,fontSize:15,lineHeight:23,flexShrink:1,alignSelf:'stretch'},button:{backgroundColor:'transparent',borderRadius:28,paddingVertical:15,paddingHorizontal:20,minHeight:50,justifyContent:'center'},ghost:{backgroundColor:'transparent',borderWidth:1,borderColor:'#343a45'},label:{color:'#adb5c1',fontSize:12.5,fontWeight:'600'},input:{borderBottomWidth:1,borderBottomColor:'#2a2f39',paddingVertical:10,color:colors.text,fontSize:17,minHeight:44}});
+export const s=StyleSheet.create({page:{padding:20,paddingBottom:40,gap:18},eyebrow:{color:'#d3d8e0',fontSize:15,fontWeight:'700',letterSpacing:0},title:{fontSize:26,color:colors.text,...DISPLAY,letterSpacing:0},card:{paddingTop:22,paddingBottom:6,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',gap:12},copy:{color:colors.muted,fontSize:15,lineHeight:23,flexShrink:1,alignSelf:'stretch'},button:{backgroundColor:'transparent',borderRadius:28,paddingVertical:15,paddingHorizontal:20,minHeight:50,justifyContent:'center'},ghost:{backgroundColor:'transparent',borderWidth:1,borderColor:'#343a45'},label:{color:'#adb5c1',fontSize:12.5,fontWeight:'600'},input:{borderBottomWidth:1,borderBottomColor:'#2a2f39',paddingVertical:10,color:colors.text,fontSize:17,minHeight:44}});
 
 /** BAK MX in the brushed-metal lettering of the app icon. */
 /** The wordmark ships inside the app bundle and is resolved once at module load, so every header draws it on first paint;
@@ -118,7 +120,10 @@ export function PickChip({label,on,onPress,disabled=false,radio=false,small=fals
 /** Back for pages opened from Home › More or Account (they aren't tabs, so iPhone has no other way back). */
 export function usePageBack(){const nav=useNavigation();return nav.canGoBack()?{title:'Back',onPress:()=>nav.goBack()}:undefined;}
 /** A section label. It leads with the accent dash, so every section reads the same; `bare` when an icon already leads it. */
-export function Eyebrow({children,bare=false}:{children:React.ReactNode;bare?:boolean}){return bare?<Text style={s.eyebrow}>{children}</Text>:<View style={{flexDirection:'row',alignItems:'center',gap:7}}><MetalMark width={14}/><Text style={s.eyebrow}>{children}</Text></View>}
+/** Section heading. Written in sentence case; older call sites still pass ALL-CAPS text, which is turned into sentence case here
+ *  (only all-caps strings, so a track or rider name passed in keeps its own capitals). */
+const sentence=(c:React.ReactNode)=>React.Children.map(c,(x,i)=>typeof x==='string'?sentenceCase(x,i===0):x);
+export function Eyebrow({children,bare=false}:{children:React.ReactNode;bare?:boolean}){const t=<Text style={s.eyebrow}>{sentence(children)}</Text>;return bare?t:<View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={14}/>{t}</View>}
 /** Status: done (tick) or still to do (dot). */
 export function Chip({label,done}:{label:string;done:boolean}){return <View style={{flexDirection:'row',alignItems:'center',gap:5,paddingVertical:2,marginRight:6}}>{done?<Icon name="check" size={14} color="#9fdcb3" weight={2.2}/>:<View style={{width:6,height:6,borderRadius:3,backgroundColor:'#58606e',marginHorizontal:4}}/>}<Text style={{color:done?'#d8f0df':'#a7afbd',fontSize:13}}>{label}</Text></View>}
 /** Open list row: icon, title, one short line, and a chevron (or plus). Hairline below. */

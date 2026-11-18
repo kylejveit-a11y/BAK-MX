@@ -51,7 +51,7 @@ export function DateSheet({visible,title,value,time=false,years,quick,onDone,onC
   <Pressable accessibilityRole="button" accessibilityLabel="Close" haptic={false} onPress={onClose} style={st.backdrop}/>
   <View style={[st.sheet,{paddingBottom:insets.bottom+14}]}>
    <View style={st.grab}/>
-   <View style={st.top}><Text style={st.step}>{time?'DATE AND TIME':'DATE'}</Text><Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={onClose} style={({pressed})=>[st.close,pressed&&{opacity:0.6}]}><Icon name="close" size={18} color={C.text} weight={2}/></Pressable></View>
+   <View style={st.top}><Text style={st.step}>{time?'Date and time':'Date'}</Text><Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={onClose} style={({pressed})=>[st.close,pressed&&{opacity:0.6}]}><Icon name="close" size={18} color={C.text} weight={2}/></Pressable></View>
    <Text style={st.title}>{title}</Text>
    <Text style={[st.readout,{color:C.accent}]} accessibilityLiveRegion="polite">{readout}</Text>
    {!!quick?.length&&<View style={{flexDirection:'row',flexWrap:'wrap',gap:8,marginTop:14}}>{quick.map(q=>{const on=q.date.getFullYear()===p.y&&q.date.getMonth()===p.m&&q.date.getDate()===p.d;return <Pressable key={q.label} haptic={false} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>{hSelect();set({y:q.date.getFullYear(),m:q.date.getMonth(),d:q.date.getDate()});}} style={({pressed})=>({paddingHorizontal:14,paddingVertical:8,borderRadius:18,borderWidth:1,borderColor:on?C.primary:'#343a45',backgroundColor:on?C.primary:'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':C.text,fontWeight:on?'700':'500',fontSize:14}}>{q.label}</Text></Pressable>;})}</View>}
@@ -102,7 +102,7 @@ const st=StyleSheet.create({
  backdrop:{flex:1,backgroundColor:'rgba(0,0,0,0.55)'},
  grab:{alignSelf:'center',width:36,height:5,borderRadius:3,backgroundColor:'#343a45',marginBottom:4},
  top:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',minHeight:36},
- step:{color:C.muted,fontSize:11.5,fontWeight:'700',letterSpacing:1.6},
+ step:{color:C.muted,fontSize:13.5,fontWeight:'700',letterSpacing:0},
  close:{width:34,height:34,borderRadius:17,borderWidth:1,borderColor:C.line,alignItems:'center',justifyContent:'center'},
  title:{color:C.text,fontSize:21,...DISPLAY,letterSpacing:0,marginTop:2},
  readout:{fontSize:17,fontWeight:'700',marginTop:6},

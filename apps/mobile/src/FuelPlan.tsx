@@ -108,7 +108,7 @@ export function FuelPlanCard({account,race,kind}:{account:string;race:RaceDay;ki
  const {ahead,past}=plan?splitByNow(plan.items,now):{ahead:[],past:[]};
  return <Card>
   <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
-   <View style={{flexDirection:'row',alignItems:'center',gap:8,flex:1}}><Eyebrow>FUEL PLAN · {profileName(row).toUpperCase()}{youth?' · PARENT VIEW':''}</Eyebrow></View>
+   <View style={{flexDirection:'row',alignItems:'center',gap:8,flex:1}}><Eyebrow>FUEL PLAN · {profileName(row)}{youth?' · PARENT VIEW':''}</Eyebrow></View>
    <Pressable accessibilityRole="button" onPress={()=>setSetup(true)} hitSlop={8}><Text style={{color:colors.text,fontWeight:'700'}}>Rider</Text></Pressable>
   </View>
   {rows.length>1&&<Wrap>{rows.map(r=><Chip key={r.id} label={profileName(r)} on={r.id===row.id} onPress={()=>save({...saved,profileId:r.id})}/>)}</Wrap>}

@@ -9,9 +9,9 @@ export type UsageView=Usage&{access_mode:'beta'|'subscription'};
 
 export const PRO_HEADLINE='Unlimited answers. Every moto.';
 export const PRO_SUBHEAD='Ask BAK as much as you tune. Pro is for racers, mechanics and shops who want the answer now, not after midnight.';
-export const PRO_EYEBROW='BAK PRO';
+export const PRO_EYEBROW='BAK Pro';
 /** Shown while the store is in beta (access_mode 'beta'); the plan card already uses these exact words. */
-export const LAUNCH_OFFER='LAUNCH OFFER';
+export const LAUNCH_OFFER='Launch offer';
 
 export type ValueRow={icon:'chat'|'video'|'image';title:string;detail:string};
 /** The three things Pro adds. Each is gated in code: unlimited questions (plans.ts unlimited), clip coaching

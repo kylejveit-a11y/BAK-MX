@@ -41,7 +41,7 @@ export function WhatsNewCard({account,show=Platform.OS!=='web'}:{account:string;
   <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}>
    <View style={{flexDirection:'row',alignItems:'center',gap:8}}>
     <MetalMark width={18}/>
-    <Text style={{color:'#9aa2ae',fontSize:11.5,fontWeight:'800',letterSpacing:1.4}}>NEW IN BAK MX</Text>
+    <Text style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700',letterSpacing:0}}>New in BAK MX</Text>
    </View>
    <Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={close} style={({pressed})=>({opacity:pressed?0.5:1,padding:2})}><Icon name="close" size={18} color="#9ea6b3"/></Pressable>
   </View>

@@ -636,7 +636,7 @@ function ServicePlanCard({bike,plan,events,skip,onLog}:{bike:Bike;plan:PlanItem[
  if(!rows.length)return null;
  const shown=open?rows:rows.slice(0,4);
  return <Card>
-  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>{bike.manufacturer.toUpperCase()}’S SCHEDULE FOR THIS BIKE</Eyebrow></View>
+  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>{bike.manufacturer}’S SCHEDULE FOR THIS BIKE</Eyebrow></View>
   <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>From the owner’s manual service table{skip?.size?', after what’s coming up':''}. {h==null?'Add the hours on the bike in Garage to see what’s due.':'Log a job and the next one is set from the maker’s interval.'}</Text>
   {shown.map(({item,last,left})=><View key={item.category} style={{flexDirection:'row',alignItems:'center',gap:12,paddingVertical:9,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}>
    <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'600'}}>{item.category}</Text><Text style={{color:left!=null&&left<=0?'#ef9aa1':'#9aa2ae',fontSize:13}}>{dueLine({item,last,left})}</Text></View>

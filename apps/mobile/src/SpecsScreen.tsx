@@ -10,7 +10,7 @@ import {friendlyLocator,specRows,groupSpecRows,quickSpecs,oilSummary,yourSetting
 import type {FactKind} from '../../../shared/fact-system';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
-const label={color:'#9aa2ae',fontSize:11,fontWeight:'800' as const,letterSpacing:1.5};
+const label={color:'#c3c9d3',fontSize:13.5,fontWeight:'800' as const,letterSpacing:0};
 
 function Row({r,open,onToggle}:{r:SpecRow;open:boolean;onToggle:()=>void}){
  const long=r.value.length>28;
@@ -42,8 +42,8 @@ export function SpecsView({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
   <Notice text={notice}/>
   {!!rows.length&&<>
    {(oil||quick.length>0)&&<View style={{flexDirection:'row',flexWrap:'wrap',gap:10}}>
-    {oil&&<View style={{width:'100%',padding:16,borderRadius:18,backgroundColor:'#12141a',borderWidth:1,borderColor:'rgba(255,255,255,.08)',gap:4}}><Text style={label}>ENGINE OIL</Text>{!!oil.amount&&<Text selectable style={{color:colors.text,fontSize:22,fontWeight:'800'}}>{oil.amount}</Text>}{!!oil.grade&&<Text selectable style={{color:colors.text,fontSize:15,lineHeight:21}}>{oil.grade}</Text>}</View>}
-    {quick.map(t=><View key={t.label} style={{flexBasis:'47%',flexGrow:1,padding:14,borderRadius:18,backgroundColor:'#12141a',borderWidth:1,borderColor:'rgba(255,255,255,.08)',gap:4}}><Text style={label}>{t.label.toUpperCase()}</Text><Text selectable numberOfLines={3} style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:22}}>{t.value}</Text></View>)}
+    {oil&&<View style={{width:'100%',padding:16,borderRadius:18,backgroundColor:'#12141a',borderWidth:1,borderColor:'rgba(255,255,255,.08)',gap:4}}><Text style={label}>Engine oil</Text>{!!oil.amount&&<Text selectable style={{color:colors.text,fontSize:22,fontWeight:'800'}}>{oil.amount}</Text>}{!!oil.grade&&<Text selectable style={{color:colors.text,fontSize:15,lineHeight:21}}>{oil.grade}</Text>}</View>}
+    {quick.map(t=><View key={t.label} style={{flexBasis:'47%',flexGrow:1,padding:14,borderRadius:18,backgroundColor:'#12141a',borderWidth:1,borderColor:'rgba(255,255,255,.08)',gap:4}}><Text style={label}>{t.label}</Text><Text selectable numberOfLines={3} style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:22}}>{t.value}</Text></View>)}
    </View>}
    <Card>
     <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Eyebrow>YOUR SETTINGS NOW</Eyebrow><Pressable accessibilityRole="button" hitSlop={8} onPress={onGarage}><Text style={{color:colors.text,fontSize:14,fontWeight:'700'}}>{mine.any?'Update':'Add yours'}</Text></Pressable></View>
@@ -61,7 +61,7 @@ export function SpecsView({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
     <Pressable accessibilityRole="button" accessibilityState={{expanded:!closed}} onPress={()=>setShut(o=>({...o,[g.s]:!closed}))} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:36}}><Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>{g.s} <Text style={{color:colors.muted,fontWeight:'500',fontSize:14}}>{g.items.length+g.service.length}</Text></Text><Icon name={closed?'chevronRight':'chevronDown'} size={17} color={colors.accent}/></Pressable>
     {!closed&&g.items.map(r=><Row key={r.c.id} r={r} open={open===r.c.id} onToggle={()=>setOpen(open===r.c.id?'':r.c.id)}/>)}
     {/* The part's service intervals sit together under their own label, apart from its settings and torques. */}
-    {!closed&&g.service.length>0&&<>{g.items.length>0&&<Text style={[label,{marginTop:12}]}>SERVICE</Text>}{g.service.map(r=><Row key={r.c.id} r={r} open={open===r.c.id} onToggle={()=>setOpen(open===r.c.id?'':r.c.id)}/>)}</>}
+    {!closed&&g.service.length>0&&<>{g.items.length>0&&<Text style={[label,{marginTop:12}]}>Service</Text>}{g.service.map(r=><Row key={r.c.id} r={r} open={open===r.c.id} onToggle={()=>setOpen(open===r.c.id?'':r.c.id)}/>)}</>}
    </Card>;})}
   </>}
  </>;
