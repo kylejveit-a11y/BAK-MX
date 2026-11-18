@@ -27,7 +27,7 @@ export function SupportPicker({onSeeAll}:{onSeeAll:()=>void}){
  const years=data?data.bikes.filter(b=>b.make===make&&b.model===model).map(b=>b.year).sort((a,b)=>b-a):[];
  const row=data?.bikes.find(b=>b.make===make&&b.model===model&&b.year===year);
  return <section className="panel support-picker" aria-label="Is your bike supported?">
-  <div className="panel-title"><div><span className="eyebrow">BEFORE YOU SIGN UP</span><h2>Is your bike supported?</h2></div><button className="text-button" onClick={onSeeAll}>All bikes <ChevronRight size={14}/></button></div>
+  <div className="panel-title"><div><span className="eyebrow">Before you sign up</span><h2>Is your bike supported?</h2></div><button className="text-button" onClick={onSeeAll}>All bikes <ChevronRight size={14}/></button></div>
   <div className="support-selects">
    <label className="field"><span>Make</span><select value={make} onChange={e=>{setMake(e.target.value);setModel('');setYear(0);}}><option value="">Make</option>{makes.map(m=><option key={m}>{m}</option>)}</select></label>
    <label className="field"><span>Model</span><select value={model} disabled={!make} onChange={e=>{setModel(e.target.value);const ys=data!.bikes.filter(b=>b.make===make&&b.model===e.target.value).map(b=>b.year);setYear(Math.max(...ys));}}><option value="">Model</option>{models.map(m=><option key={m}>{m}</option>)}</select></label>

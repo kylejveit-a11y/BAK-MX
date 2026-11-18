@@ -65,7 +65,7 @@ export function NotificationSettingsPanel(){
   const tz=browserZone();
   try{setS(await api<Settings>('/notification-settings','PUT',{[key]:value,...(tz&&!s.time_zone?{time_zone:tz}:{})}));}catch(e){setS(before);setError(errorText(e));}finally{setBusy(false);}
  }
- return <section className="panel"><span className="eyebrow">NOTIFICATIONS</span>
+ return <section className="panel"><span className="eyebrow">Notifications</span>
   <p className="subtle">Sent to the BAK MX app on your phone and listed under the bell here.</p>
   {!s&&!error&&<p className="subtle" role="status">Loading…</p>}
   {s&&<div className="nb-settings">{ROWS.map(([key,title,detail])=><label key={key} className="nb-setting">

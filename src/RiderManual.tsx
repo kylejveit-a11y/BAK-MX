@@ -34,7 +34,7 @@ export function RiderManual({bike,optional=false}:{bike:Bike;optional?:boolean})
  // Optional extra, not the point of the Garage: folded away until the rider has added one.
  if(optional&&!list.length)return <details className="panel rider-manual rider-manual-optional"><summary><Lock size={16}/><span>Have your own manual? <b>Add it</b><small>Optional · private to you</small></span></summary>{body}</details>;
  return <section className="panel rider-manual">
-  <div className="panel-title"><div><span className="eyebrow">YOUR MANUAL</span><h2>{list.length?'Your manual':'Add your own manual'}</h2></div><Lock size={20}/></div>
+  <div className="panel-title"><div><span className="eyebrow">Your manual</span><h2>{list.length?'Your manual':'Add your own manual'}</h2></div><Lock size={20}/></div>
   {body}
  </section>;
 }

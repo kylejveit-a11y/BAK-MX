@@ -14,10 +14,10 @@ export function ProfileSharing({bike,onChanged}:{bike:Bike;onChanged?:()=>void})
  const load=useCallback(async()=>{try{setError('');const [s,p]=await Promise.all([api<Sharing>(`/garage-sharing?bike_id=${bike.id}`),api<Photo[]>(`/photos?kind=bike&bike_id=${bike.id}`).catch(()=>[] as Photo[])]);setSharing(s);setPhotos(p);}catch(e){setError(msg(e));}},[bike.id]);
  useEffect(()=>{setSharing(null);void load();},[load]);
  async function save(next:Partial<Sharing>){if(!sharing)return;setBusy(true);setError('');try{const saved=await api<Sharing>('/garage-sharing','PUT',{bike_id:bike.id,show_on_profile:sharing.show_on_profile,build_sheet_public:sharing.build_sheet_public,photo_ids:sharing.photo_ids,...next});setSharing(saved);onChanged?.();}catch(e){setError(msg(e));}finally{setBusy(false);}}
- if(!sharing)return <section className="panel"><span className="eyebrow">PROFILE</span>{error?<div className="error" role="alert">{error}</div>:<p className="subtle" role="status">Loading…</p>}</section>;
+ if(!sharing)return <section className="panel"><span className="eyebrow">Profile</span>{error?<div className="error" role="alert">{error}</div>:<p className="subtle" role="status">Loading…</p>}</section>;
  const on=sharing.show_on_profile,picked=new Set(sharing.photo_ids);
  const toggle=(id:string)=>{const ids=picked.has(id)?sharing.photo_ids.filter(x=>x!==id):[...sharing.photo_ids,id];if(ids.length>8){setError('Choose up to 8 photos.');return;}void save({photo_ids:ids});};
- return <section className="panel"><span className="eyebrow">PROFILE</span>
+ return <section className="panel"><span className="eyebrow">Profile</span>
   <label className="check-row" style={{display:'flex',gap:10,alignItems:'flex-start'}}><input type="checkbox" checked={on} disabled={busy} onChange={e=>void save({show_on_profile:e.target.checked,build_sheet_public:e.target.checked&&sharing.build_sheet_public,photo_ids:e.target.checked?sharing.photo_ids:[]})}/>
    <span><b>Show this bike on my profile</b><br/><span className="subtle">{on?'Riders see the bike and the photos you tick.':'Off: only you see this bike and its photos.'}</span></span></label>
   {on&&(photos.length?<><p className="subtle">Tick the photos to show ({picked.size} of up to 8).</p><div style={{display:'flex',gap:8,flexWrap:'wrap'}}>{photos.map(p=><button key={p.id} type="button" disabled={busy} aria-pressed={picked.has(p.id)} onClick={()=>toggle(p.id)} style={{padding:0,border:picked.has(p.id)?'2px solid var(--bike-accent, #6AA4FF)':'2px solid transparent',borderRadius:10,background:'none',opacity:picked.has(p.id)?1:0.5,cursor:'pointer'}}><img src={p.url} alt={picked.has(p.id)?'Shown on profile':'Not shown'} style={{width:84,height:84,objectFit:'cover',borderRadius:8,display:'block'}}/></button>)}</div></>:<p className="subtle">Add photos of this bike in the phone app, then tick the ones to show.</p>)}
@@ -46,7 +46,7 @@ function PublicBikeCard({bike}:{bike:PublicBike}){
    {state==='private'&&<span className="subtle">Build sheet is private.</span>}
    {(state==='public'||state==='mine')&&<button className="button secondary" disabled={busy} onClick={()=>void view()}>{open?'Hide build sheet':'View build sheet'}</button>}
   </div>
-  {open&&sheet&&<div>{!groups.length&&<p className="subtle">No parts recorded yet.</p>}{groups.map(([label,parts])=><div key={label}><span className="eyebrow">{label.toUpperCase()}</span><ul>{parts.map((p,i)=><li key={i}>{p.name}{p.detail&&<span className="subtle"> · {p.detail}</span>}{p.off_bike&&<span className="subtle"> (spare, off the bike)</span>}</li>)}</ul></div>)}{sheet.stock_systems.length>0&&<p className="subtle">Stock: {sheet.stock_systems.join(', ')}</p>}</div>}
+  {open&&sheet&&<div>{!groups.length&&<p className="subtle">No parts recorded yet.</p>}{groups.map(([label,parts])=><div key={label}><span className="eyebrow">{label}</span><ul>{parts.map((p,i)=><li key={i}>{p.name}{p.detail&&<span className="subtle"> · {p.detail}</span>}{p.off_bike&&<span className="subtle"> (spare, off the bike)</span>}</li>)}</ul></div>)}{sheet.stock_systems.length>0&&<p className="subtle">Stock: {sheet.stock_systems.join(', ')}</p>}</div>}
   {error&&<div className="error" role="alert">{error}</div>}
  </div>;
 }

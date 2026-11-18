@@ -46,13 +46,13 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
  const ordered=[...sessions].sort((a,b)=>b.n-a.n),linked=ordered.find(x=>x.logId);
  return <>
   <div className="hb-race-head">
-   <span className="eyebrow"><i className="hb-mark" aria-hidden="true" style={{width:22}}/>PRACTICE DAY · {new Date().toLocaleDateString([],{weekday:'long',month:'short',day:'numeric'})}</span>
+   <span className="eyebrow"><i className="hb-mark" aria-hidden="true" style={{width:22}}/>Practice day · {new Date().toLocaleDateString([],{weekday:'long',month:'short',day:'numeric'})}</span>
    <h2 className="hb-title big">{track||'Practice day'}</h2>
    <p className="hb-line">{bikeName}{bike.engine_hours!=null?` · ${bike.engine_hours} h`:''}{sessions.length?` · ${sessionsSummary(sessions)}`:''}</p>
   </div>
   <NextUpCard race={race} labels={[`Session ${n}`,`Session ${n+1}`]} onSet={onNext}/>
   <BikeNowCard bike={bike}/>
-  <section className="panel hb-block"><div className="hb-block-head"><span className="eyebrow"><Zap size={15} style={{color:'var(--bike-accent)'}}/>{COPY.ask.toUpperCase()}</span></div>
+  <section className="panel hb-block"><div className="hb-block-head"><span className="eyebrow"><Zap size={15} style={{color:'var(--bike-accent)'}}/>{COPY.ask}</span></div>
    <p className="hb-copy" style={{fontSize:13.5}}>{COPY.askDetail}</p>
    <button type="button" className="button" onClick={()=>onAsk(practiceAskText({track,bike:bikeName,setup:bikeSetup(bike),sessions}))}>{COPY.ask}</button>
   </section>
@@ -76,7 +76,7 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
    {notice&&<p className="hb-error" role="alert">{notice}</p>}
    <button type="button" className="button" disabled={busy} onClick={()=>void log()}>{busy?COPY.saving:COPY.save}</button>
   </section>
-  <section className="panel hb-block"><BlockHead title={`${COPY.sessions}${sessions.length?` · ${sessionsSummary(sessions).toUpperCase()}`:''}`}/>
+  <section className="panel hb-block"><BlockHead title={`${COPY.sessions}${sessions.length?` · ${sessionsSummary(sessions)}`:''}`}/>
    {!sessions.length&&<p className="hb-copy">{COPY.none}</p>}
    {ordered.map(x=><div key={x.id} className="hb-today-entry"><strong>{sessionLabel(x)}{x.change?` · ${sessionChange(x)}`:''}</strong><span>{timeOf(x.at)}{x.change&&<> · <b className={tone(x.result)}>{SETUP_RESULT_LABELS[x.result]}</b></>}{x.logId?' · in setup log':''}{x.notes?` · ${x.notes}`:''}</span></div>)}
   </section>

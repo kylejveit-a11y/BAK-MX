@@ -22,9 +22,9 @@ const VALUE_ICON={chat:MessageSquare,video:Video,image:ImageIcon} as const;
 function ProPitch({tier,beta}:{tier:Tier;beta:boolean}){
  const rows=planComparison(),tiers:Tier[]=['free','premium','pro'];
  return <div className="pro-pitch">
-  <div className="pro-head"><span className="eyebrow">BAK PRO{beta?` · ${LAUNCH_OFFER}`:''}</span><h2>{PRO_HEADLINE}</h2><p className="subtle">{PRO_SUBHEAD}</p></div>
+  <div className="pro-head"><span className="eyebrow">BAK Pro{beta?` · ${LAUNCH_OFFER}`:''}</span><h2>{PRO_HEADLINE}</h2><p className="subtle">{PRO_SUBHEAD}</p></div>
   <ul className="pro-values">{proValueRows().map(r=>{const I=VALUE_ICON[r.icon];return <li key={r.title}><I size={18} aria-hidden/><div><b>{r.title}</b><p className="subtle">{r.detail}</p></div></li>;})}</ul>
-  <table className="pro-compare"><caption className="eyebrow">WHAT EACH PLAN GIVES</caption>
+  <table className="pro-compare"><caption className="eyebrow">What each plan gives</caption>
    <thead><tr><th scope="col"><span className="sr-only">Feature</span></th>{tiers.map(t=><th key={t} scope="col" className={t==='pro'?'pro':''}>{TIER_LABEL[t]}{t===tier?<small> · yours</small>:null}</th>)}</tr></thead>
    <tbody>{rows.map(r=><tr key={r.feature}><th scope="row">{r.feature}</th>{tiers.map(t=>{const v=r[t];return <td key={t} className={t==='pro'?'pro':''}>{v==='Included'?<Check size={16} aria-label="Included"/>:v==='—'?<span aria-label="Not included">—</span>:v}</td>;})}</tr>)}</tbody>
   </table>
@@ -41,7 +41,7 @@ export function Plans({entitlement}:{entitlement:Entitlement|null}){
  const tier=usage?.tier??'free',paid=!!entitlement&&entitlement.status!=='none';
  const byTier=(t:Tier)=>(catalog?.plans??[]).filter(p=>p.tier===t).sort((a,b)=>a.amount-b.amount);
  return <section className="panel plans">
-  <span className="eyebrow">ASK BAK PLAN</span>
+  <span className="eyebrow">Ask BAK plan</span>
   {error&&<div className="error" role="alert">{error}</div>}
   {!usage?<p className="subtle">Checking your plan…</p>:<div className="plan-status">
    <div><h2>{TIER_LABEL[tier]}</h2><p className="subtle">{TIER_BLURB[tier]}</p></div>
@@ -56,7 +56,7 @@ export function Plans({entitlement}:{entitlement:Entitlement|null}){
   </div>}
   {tier!=='pro'&&<ProPitch tier={tier} beta={usage?.access_mode==='beta'}/>}
   {catalog&&(catalog.plans.length?<div className="plan-grid">{(['pro','premium'] as Tier[]).map(t=>{const prices=byTier(t);if(!prices.length)return null;return <article key={t} className={'plan-card'+(tier===t?' current':'')+(t==='pro'?' primary':' secondary')}>
-    <span className="eyebrow">{TIER_LABEL[t].toUpperCase()}{tier===t?' · CURRENT':''}</span><p>{t==='premium'?PREMIUM_LINE:TIER_BLURB[t]}</p>
+    <span className="eyebrow">{TIER_LABEL[t]}{tier===t?' · Current':''}</span><p>{t==='premium'?PREMIUM_LINE:TIER_BLURB[t]}</p>
     <div className="plan-prices">{prices.map(p=><button key={p.price_id} className={tier===t||t==='premium'?'button secondary':'button'} disabled={busy||paid} onClick={()=>go('checkout',p.price_id)}>{money(p.amount,p.currency)} / {per(p.interval)}</button>)}</div>
    </article>;})}</div>:<p className="subtle">Premium and Pro open at launch.</p>)}
   {catalog&&catalog.plans.length>0&&<p className="subtle plan-terms">Subscriptions renew automatically until cancelled; change or cancel any time from Manage billing. <a href="/terms">Terms of Use</a> · <a href="/privacy">Privacy Policy</a></p>}

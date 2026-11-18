@@ -86,7 +86,7 @@ export function RacePrepSheet({open,onClose,bike,startPhase='week',kind='race'}:
    <div className="sheet-body">
     <div className="rx-chips scroll" role="tablist" aria-label="Phase">{PHASES.map(p=>{const on=p.id===phase,[d,t]=counts[p.id];return <button key={p.id} type="button" role="tab" className="rx-chip" aria-selected={on} onClick={()=>setPhase(p.id)}>{p.short}{t>0&&<small>{d}/{t}</small>}</button>;})}</div>
     <div className="rx-panel-gap" style={{gap:8}}>
-     <div className="rx-between"><span className="eyebrow" style={{margin:0}}>{current.label.toUpperCase()}</span><span className="rx-count">{done} of {items.length}</span></div>
+     <div className="rx-between"><span className="eyebrow" style={{margin:0}}>{current.label}</span><span className="rx-count">{done} of {items.length}</span></div>
      <Progress done={done} total={items.length}/>
     </div>
     {!editing&&<div>{items.map(i=><CheckRow key={i.id} item={i} on={!!checks[i.id]} onToggle={()=>toggle(i.id)}/>)}</div>}
@@ -118,7 +118,7 @@ export function RacePrepCard({bike,phase='motos',onOpen,kind='race'}:{bike:Bike;
  if(hidden)return <button type="button" className="rx-link muted" onClick={()=>hide(false)}>Show prep list</button>;
  const items=list.filter(i=>i.phase===phase),done=items.filter(i=>checks[i.id]).length;
  return <section className="panel rx-panel-gap">
-  <div className="rx-between"><span className="eyebrow" style={{margin:0}}>{(PHASES.find(p=>p.id===phase)?.label??'Checklist').toUpperCase()} · {done}/{items.length}</span><button type="button" className="rx-link" onClick={onOpen}>{practice?'Edit checklist':'Full prep list'} <ChevronRight size={15}/></button></div>
+  <div className="rx-between"><span className="eyebrow" style={{margin:0}}>{(PHASES.find(p=>p.id===phase)?.label??'Checklist')} · {done}/{items.length}</span><button type="button" className="rx-link" onClick={onOpen}>{practice?'Edit checklist':'Full prep list'} <ChevronRight size={15}/></button></div>
   <Progress done={done} total={items.length}/>
   <div>{items.map(i=><CheckRow key={i.id} item={i} on={!!checks[i.id]} onToggle={()=>toggle(i.id)}/>)}</div>
   {!items.length&&<p className="rx-copy">Nothing on this list yet. Open the full prep list to add your own.</p>}
@@ -135,7 +135,7 @@ export function RacePrepBlock({bike,signedIn=true,onSignIn,onOpen}:{bike?:Bike;s
  const rows=RACE_PHASES.map(p=>{const its=list.filter(i=>i.phase===p.id);return {p,done:its.filter(i=>checks[i.id]).length,total:its.length};}).filter(r=>r.total>0);
  const started=rows.some(r=>r.done>0);
  return <section className="panel rx-panel-gap">
-  <div className="rx-between"><div className="rx-eyebrow-row"><span className="rx-mark" aria-hidden="true"/><span className="eyebrow">RACE PREP</span></div>
+  <div className="rx-between"><div className="rx-eyebrow-row"><span className="rx-mark" aria-hidden="true"/><span className="eyebrow">Race prep</span></div>
    {signedIn&&bike&&<button type="button" className="rx-link" onClick={onOpen}>{started?'Open':'Start'} <ChevronRight size={15}/></button>}</div>
   {!signedIn&&<div className="rx-prompt"><p className="rx-copy">Sign in and your prep list follows you between the phone and the web.</p>{onSignIn&&<button className="button secondary" onClick={onSignIn}>Sign in</button>}</div>}
   {signedIn&&!bike&&<p className="rx-copy">Add a bike and BAK starts your checklist for its kind of riding.</p>}

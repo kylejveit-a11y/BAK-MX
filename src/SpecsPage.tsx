@@ -35,7 +35,7 @@ export function SpecsPage({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
 
  if(!bike)return <section className="panel sp"><div className="empty"><div className="empty-icon"><BookOpen size={27}/></div><h3>Specs start with your bike.</h3><p>Add the make, model and year in Garage and BAK shows the published numbers for that exact bike.</p><button className="button" onClick={onGarage}>Open Garage</button></div></section>;
  return <section className="panel sp">
-  <div className="sp-head"><span className="eyebrow">VERIFIED FOR</span><h2>{bike.model_year} {bike.manufacturer} {bike.model}</h2><p className="subtle">{claims===null?'Loading…':`${rows.length} published values from the maker’s own documents. Not listed means unknown, not zero.`}</p></div>
+  <div className="sp-head"><span className="eyebrow">Verified for</span><h2>{bike.model_year} {bike.manufacturer} {bike.model}</h2><p className="subtle">{claims===null?'Loading…':`${rows.length} published values from the maker’s own documents. Not listed means unknown, not zero.`}</p></div>
   {error&&<div className="error" role="alert">{error}</div>}
   <form className="sp-search" onSubmit={search} role="search"><Search size={17} aria-hidden="true"/><input aria-label="Search this bike’s specs" value={query} onChange={e=>{setQuery(e.target.value);if(!e.target.value.trim())setFound(null);}} placeholder="Rear axle nut, fork oil…" enterKeyHint="search"/>{query&&<button type="button" className="sp-clear" aria-label="Clear search" onClick={()=>{setQuery('');setFound(null);}}><X size={15}/></button>}<button type="submit" className="sp-go" disabled={searching||!query.trim()}>{searching?'…':'Search'}</button></form>
   {claims!==null&&!rows.length&&!error?<p className="notice">No published specs on file for this exact bike yet. Ask BAK: it says plainly when a number isn’t confirmed.</p>:
@@ -45,7 +45,7 @@ export function SpecsPage({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
     {oil&&<button type="button" className="sp-tile wide" onClick={()=>oil.row&&jump(oil.row)}><small>Engine oil</small><b>{oil.amount||'Amount not published'}</b>{oil.grade&&<span>{oil.grade}</span>}</button>}
     {quick.map(q=><button type="button" key={q.label} className="sp-tile" onClick={()=>jump(q.row)}><small>{q.label}</small><b>{q.row.value.split(';')[0]}</b></button>)}
    </div>
-   <div className="sp-yours"><div className="sp-yours-head"><span className="eyebrow">YOUR SETTINGS NOW</span><button type="button" className="hb-link" onClick={onGarage}>{hasYours?'Update':'Add yours'}</button></div>
+   <div className="sp-yours"><div className="sp-yours-head"><span className="eyebrow">Your settings now</span><button type="button" className="hb-link" onClick={onGarage}>{hasYours?'Update':'Add yours'}</button></div>
     {hasYours?<ul>{yours.filter(y=>y.mine||y.stock).map(y=><li key={y.key}><span>{y.label}</span><b>{y.mine||'—'}</b><small>{y.stock?`stock ${y.stock}`:'stock not published'}</small></li>)}</ul>:<p className="subtle">Put your clickers, sag and tire pressure in Garage and they show here next to stock, so you always know where you are.</p>}
    </div>
   </>}

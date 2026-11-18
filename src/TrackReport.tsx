@@ -53,7 +53,7 @@ export function TrackReportCard({track,day,setupLogId,setupLabel,recent=[],compa
  }
  if(compact&&!open&&!done)return <button type="button" className="tr-ask" onClick={()=>setOpen(true)}><MapPin size={15}/>{REPORT_COPY.askPrompt(chosen?.name??track??'the track',dayWord(draft.day,now).toLowerCase())}</button>;
  return <section className="panel hb-block tr-card" aria-label={REPORT_COPY.title}>
-  <BlockHead title={REPORT_COPY.title.toUpperCase()} action={onClose?'Close':undefined} onAction={onClose}/>
+  <BlockHead title={REPORT_COPY.title} action={onClose?'Close':undefined} onAction={onClose}/>
   {done?<>
    <p className="hb-note ok" role="status"><Check size={14}/> {REPORT_COPY.saved}</p>
    {others&&<p className="hb-copy">{reportSummaryLine(others)}</p>}

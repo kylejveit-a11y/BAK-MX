@@ -30,7 +30,7 @@ export function CoachingList({bike,signedIn=true,onSignIn,onCoach,onAsk}:{bike?:
  if(!signedIn)return <section className="panel"><div className="rx-prompt"><p className="rx-copy">Sign in to see the coaching BAK has given you.</p>{onSignIn&&<button className="button" onClick={onSignIn}>Sign in</button>}</div></section>;
  if(!bike)return <section className="panel"><p className="rx-copy">Add a bike first. Coaching sessions are kept with the bike you were riding.</p></section>;
  return <section className="panel rx-panel-gap">
-  <div className="rx-between"><span className="eyebrow" style={{margin:0}}>COACHING</span>{!!sessions?.length&&<span className="rx-count">{sessions.length} session{sessions.length===1?'':'s'}</span>}</div>
+  <div className="rx-between"><span className="eyebrow" style={{margin:0}}>Coaching</span>{!!sessions?.length&&<span className="rx-count">{sessions.length} session{sessions.length===1?'':'s'}</span>}</div>
   {sessions===null&&<div className="rx-center" role="status" aria-label="Loading"><span className="rx-spin"/></div>}
   {error&&<p className="rx-error" role="alert">{error}</p>}
   {sessions!==null&&!sessions.length&&!error&&<div className="rx-panel-gap" style={{gap:10}}>
@@ -92,7 +92,7 @@ export function CoachingBlock({bike,signedIn=true,onOpen}:{bike?:Bike;signedIn?:
  useEffect(()=>{let live=true;setS(undefined);if(!bike||!signedIn){setS(null);return;}api<CoachingSession[]>('/coaching?bike_id='+bike.id).then(l=>{if(live)setS(l[0]??null);}).catch(()=>{if(live)setS(null);});return()=>{live=false;};},[bike?.id,signedIn]);
  if(!s||!s.fix)return null;
  return <section className="panel rx-panel-gap">
-  <div className="rx-between"><span className="eyebrow" style={{margin:0}}>LAST COACHING</span><button type="button" className="rx-link" onClick={onOpen}>Coaching <ChevronRight size={15}/></button></div>
+  <div className="rx-between"><span className="eyebrow" style={{margin:0}}>Last coaching</span><button type="button" className="rx-link" onClick={onOpen}>Coaching <ChevronRight size={15}/></button></div>
   <p className="rx-copy strong" style={{fontSize:15}}><strong>Fix: </strong>{s.fix}</p>
   {!!s.drill&&<p className="rx-copy"><strong>Drill: </strong>{s.drill}</p>}
  </section>;

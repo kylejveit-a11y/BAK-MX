@@ -26,7 +26,7 @@ export function BikeParts({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>void
  const changed=value.parts.length>0;
  return <section className="panel bike-parts" aria-labelledby="bike-parts-title">
   <div className="bp-head">
-   <div><span className="eyebrow">PARTS</span><h2 id="bike-parts-title">What have you changed?</h2>
+   <div><span className="eyebrow">Parts</span><h2 id="bike-parts-title">What have you changed?</h2>
     <p className="bp-lede">Only tap what isn’t stock: a pipe, springs, a revalve, gearing. You don’t need to go through every part.</p></div>
   </div>
   {checkBuild(bike).map((c,i)=><p key={i} className="notice" role="status">{c.text}</p>)}
@@ -78,7 +78,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
  const sub=screen.id==='home'?meta.hint:screen.id==='brand'?(screen.type??'Any '+meta.label.toLowerCase()+' part'):screen.id==='product'?(screen.type??meta.label):screen.id==='color'?cleanName(screen.ip.b,screen.ip.n):screen.id==='type'?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:screen.id==='work'?screen.work.label:screen.id==='detail'?(screen.who||'Who did it not recorded'):'';
  const Row=({label,detail,onClick,tag,chev=true,selected=false}:{label:ReactNode;detail?:ReactNode;onClick:()=>void;tag?:ReactNode;chev?:boolean;selected?:boolean})=>
   <li><button className={'nav-row'+(selected?' selected':'')} onClick={onClick}><span className="nav-main">{label}{tag}</span>{detail!==undefined&&<span className="nav-detail">{detail}</span>}{selected?<Check size={18} className="nav-check"/>:chev&&<ChevronRight size={18} className="nav-chev"/>}</button></li>;
- const workList=WORK[system]?<><h3 className="nav-section">WORK DONE</h3><ul className="nav-list">{WORK[system]!.map(w=><Row key={w.label} label={<b>{w.label}</b>} detail={w.kind?'Who did it?':undefined} onClick={()=>push({id:'work',work:w})}/>)}</ul></>:null;
+ const workList=WORK[system]?<><h3 className="nav-section">Work done</h3><ul className="nav-list">{WORK[system]!.map(w=><Row key={w.label} label={<b>{w.label}</b>} detail={w.kind?'Who did it?':undefined} onClick={()=>push({id:'work',work:w})}/>)}</ul></>:null;
  const search=(placeholder:string)=><label className="search-field nav-search"><Search size={16}/><input value={query} onChange={e=>setQuery(e.target.value)} placeholder={placeholder} aria-label={placeholder}/></label>;
  return <div className="sheet-backdrop" onMouseDown={e=>{if(e.target===e.currentTarget)close()}}>
   <section className="sheet nav-sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" tabIndex={-1} ref={dialog}>
@@ -95,7 +95,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
       <Row label={<><b>Not sure</b><small>BAK won’t assume anything here</small></>} selected={mode==='unknown'} chev={false} onClick={()=>setMode('unknown')}/>
      </ul>
      {mode==='changed'&&<>
-      <h3 className="nav-section">ON YOUR BIKE</h3>
+      <h3 className="nav-section">On your bike</h3>
       <ul className="nav-list">
        {picked.map(p=>{const r=notesFor(p),k=key(p),has=!!(r&&(r.what||r.caution||r.testers.length))||!!p.p;return <li key={k} className="fitted">
         <div className="fitted-top"><span className="nav-main"><small className="fitted-brand">{p.b||'Brand not set'}</small><b>{cleanName(p.b,p.n)}</b>{(p.k||p.d)&&<small>{[p.k,p.d].filter(Boolean).join(' · ')}</small>}</span><button className="fitted-remove" onClick={()=>setPicked(picked.filter(x=>key(x)!==k))} aria-label={`Remove ${partLabel(p)}`}>Remove</button></div>

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {sentenceCase} from '../apps/mobile/src/sentenceCase.ts';
+import {sentenceCase} from '../shared/sentence-case.ts';
 
 test('all-caps section labels read as sentence case; names and acronyms keep their capitals',()=>{
  assert.equal(sentenceCase('UP NEXT',true),'Up next');

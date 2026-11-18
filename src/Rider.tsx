@@ -74,7 +74,7 @@ function useProfile(signedIn:boolean){
  return {profile,setProfile,profileError:error};
 }
 function NeedsProfile({onSaved,children}:{onSaved:(p:Profile)=>void;children?:ReactNode}){
- return <section className="panel"><span className="eyebrow">ONE STEP FIRST</span><h2>Set up your rider profile</h2>{children&&<p className="subtle">{children}</p>}<ProfileEditor profile={null} onSaved={onSaved} compact/></section>;
+ return <section className="panel"><span className="eyebrow">One step first</span><h2>Set up your rider profile</h2>{children&&<p className="subtle">{children}</p>}<ProfileEditor profile={null} onSaved={onSaved} compact/></section>;
 }
 
 /* ------------------------------------------------------------------ Profile */
@@ -97,7 +97,7 @@ export function ProfileEditor({profile,onSaved,compact=false}:{profile:Profile|n
    <label className="field"><span>Race number</span><input name="race_number" inputMode="numeric" pattern="[0-9]{0,3}" defaultValue={profile?.race_number||''} maxLength={3} placeholder="e.g. 36"/></label>
   </div>
   {!compact&&<label className="field"><span>About</span><textarea name="bio" rows={3} maxLength={500} defaultValue={profile?.bio||''} placeholder="What you ride, where, what you’re working on"/></label>}
-  {!profile&&<div className="rules"><span className="eyebrow">COMMUNITY RULES</span><ul>{COMMUNITY_RULES.map((r,i)=><li key={i}>{r}</li>)}</ul><label className="field check"><input type="checkbox" name="accept" required/><span>I agree to the community rules.</span></label></div>}
+  {!profile&&<div className="rules"><span className="eyebrow">Community rules</span><ul>{COMMUNITY_RULES.map((r,i)=><li key={i}>{r}</li>)}</ul><label className="field check"><input type="checkbox" name="accept" required/><span>I agree to the community rules.</span></label></div>}
   {error&&<div className="error" role="alert">{error}</div>}
   <div className="button-row"><button className="button" type="submit" disabled={busy}>{busy?'Saving…':profile?'Save profile':'Create profile'}<Check size={16}/></button>{saved&&<span className="subtle" role="status">Saved.</span>}</div>
  </form>;
@@ -119,8 +119,8 @@ export function ProfilePanel({signedIn}:{signedIn:boolean}){
   }catch(e){setPhotoNote(errorText(e));}finally{setPhotoBusy(false);}
  }
  if(!signedIn)return <SignInLine>Sign in to set up your rider profile.</SignInLine>;
- if(profile===undefined)return <section className="panel"><span className="eyebrow">RIDER PROFILE</span><SkeletonList kind="profile"/></section>;
- return <section className="panel rd-profile"><span className="eyebrow">RIDER PROFILE</span>
+ if(profile===undefined)return <section className="panel"><span className="eyebrow">Rider profile</span><SkeletonList kind="profile"/></section>;
+ return <section className="panel rd-profile"><span className="eyebrow">Rider profile</span>
   {profile?<div className="rd-profile-head">
    <button type="button" className="rd-avatar-button" aria-label="Change profile photo" disabled={photoBusy} onClick={()=>void changePhoto()}><Avatar rider={profile} size={64}/><span className="rd-avatar-badge" aria-hidden="true">{photoBusy?<span className="rd-spin"/>:<Camera size={13} strokeWidth={2.2}/>}</span></button>
    <div className="rd-profile-name"><h2>{profile.race_number&&<span className="race-plate">{profile.race_number}</span>}{riderName(profile)}</h2><p className="subtle">@{profile.handle}{profile.location?' · '+profile.location:''}{profile.riding_class?' · '+profile.riding_class:''}</p></div>
@@ -439,7 +439,7 @@ export function Feedback({signedIn,bike}:{signedIn:boolean;bike?:Bike}){
   try{await api('/feedback','POST',{category,body:expected.trim()?`${body.trim()}\n\nExpected: ${expected.trim()}`:body,context:{client:'web',bike:bike?bikeLabel(bike):null,page:location.pathname+location.hash,screen:`${window.innerWidth}×${window.innerHeight}`}});setBody('');setExpected('');setNote('Thanks — this goes straight to the build list.');}
   catch(err){setError(errorText(err));}finally{setBusy(false);}
  }
- return <section className="panel rd-feedback"><span className="eyebrow">FEEDBACK</span><h2>Tell us what’s missing or wrong.</h2><p className="subtle">A wrong answer, a missing spec for your bike, a bug, an idea. Be specific; it gets read.</p>
+ return <section className="panel rd-feedback"><span className="eyebrow">Feedback</span><h2>Tell us what’s missing or wrong.</h2><p className="subtle">A wrong answer, a missing spec for your bike, a bug, an idea. Be specific; it gets read.</p>
   <form onSubmit={submit}>
    <Choices label="About" value={category} items={FEEDBACK_KINDS.map(k=>({value:k.value,label:k.label}))} onChange={setCategory} disabled={busy}/>
    <label className="field"><span>What happened</span><textarea value={body} onChange={e=>setBody(e.target.value)} rows={4} maxLength={3500} required placeholder={prompt} disabled={busy}/></label>
@@ -615,7 +615,7 @@ export function ReportQueue({signedIn}:{signedIn:boolean}){
  async function resolve(r:ReportRow,action:'dismiss'|'remove_content'){setBusy(r.id);setError('');try{await api('/admin/reports','POST',{report_id:r.id,action});await load();}catch(e){setError(errorText(e));}finally{setBusy('');}}
  if(!reports)return null;
  const text=(c:ReportRow['content'])=>c?String(c.body??c.title??c.bio??c.handle??''):'';
- return <section className="panel"><span className="eyebrow">ADMIN · REPORTS</span><h2>{reports.length?`${reports.length} open ${reports.length===1?'report':'reports'}`:'No open reports'}</h2>
+ return <section className="panel"><span className="eyebrow">Admin · Reports</span><h2>{reports.length?`${reports.length} open ${reports.length===1?'report':'reports'}`:'No open reports'}</h2>
   {error&&<div className="error" role="alert">{error}</div>}
   {reports.map(r=><div className="comment" key={r.id}><span className="rd-tag"><i/>{r.target_type}</span><span className="subtle"> · reported {when(r.created_at)}</span>
    <p className="plain-message"><b>Reason:</b> {r.reason}</p>

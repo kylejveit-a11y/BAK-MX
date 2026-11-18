@@ -79,7 +79,7 @@ export function SheetLayout({data,mine=false}:{data:SheetData;mine?:boolean}){
  const missing=partSystems.map(s=>s.key).filter(k=>!modified.has(k)&&!stock.includes(k));
  return <div className="rx-doc">
   <header className="rx-doc-plate">
-   <div className="rx-between"><div className="rx-eyebrow-row"><span className="rx-mark" aria-hidden="true" style={{width:18}}/><span className="eyebrow">BUILD SHEET</span></div><small>BAK MX</small></div>
+   <div className="rx-between"><div className="rx-eyebrow-row"><span className="rx-mark" aria-hidden="true" style={{width:18}}/><span className="eyebrow">Build sheet</span></div><small>BAK MX</small></div>
    <div className="rx-doc-ident">{!!data.raceNumber&&<span className="race-plate" aria-label={`Race number ${data.raceNumber}`}>{data.raceNumber}</span>}<div><h2 className="rx-title md">{data.title}</h2>{!!data.subtitle&&<p className="rx-copy">{data.subtitle}</p>}</div></div>
    <div className="rx-doc-stats">
     <Stat value={String(on.length)} label={on.length===1?'part':'parts'}/><Stat value={String(modified.size)} label="changed"/><Stat value={String(stock.length)} label="stock"/>{data.hours!=null&&<Stat value={String(data.hours)} label="hours"/>}

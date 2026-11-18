@@ -85,7 +85,7 @@ export function FuelPlanCard({account,race,kind}:{account:string;race:RaceDay;ki
  </section>;
 
  return <section className="panel hb-block fp-card">
-  <BlockHead title={`FUEL PLAN · ${profileName(row).toUpperCase()}${youth?' · PARENT VIEW':''}`} action="Rider" onAction={()=>setSetup(true)}/>
+  <BlockHead title={`Fuel plan · ${profileName(row)}${youth?' · Parent view':''}`} action="Rider" onAction={()=>setSetup(true)}/>
   {rows.length>1&&<div className="hb-chips" role="radiogroup" aria-label="Whose plan">{rows.map(r=><Chip key={r.id} role="radio" on={r.id===row.id} onClick={()=>save({...saved,profileId:r.id})}>{profileName(r)}</Chip>)}</div>}
   {plan&&<p className="hb-strong" aria-live="polite">{next?`Next gate: ${next.label} ${untilText(next.minutes)}`:gates.length?'All gates done today':'Add your gate times'} · <span className="fp-next">{nextUpLine(plan,now)}</span></p>}
 

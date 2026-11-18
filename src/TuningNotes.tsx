@@ -93,7 +93,7 @@ export function NotesPanel({bike,signedIn,onSignIn,onAsk}:{bike:Bike;signedIn:bo
  async function remove(n:TuningNote){if(busy)return;setBusy(true);setError('');try{await api('/tuning-notes?id='+n.id,'DELETE');notes.drop(n.id);setConfirm('');if(open===n.id)setOpen('');}catch(e){setError(errorText(e));}finally{setBusy(false);}}
  const list=notes.notes;
  return <section className="panel tn-panel">
-  <div className="panel-title"><div><span className="eyebrow">YOUR NOTEBOOK</span><h2>Tuning notes</h2></div></div>
+  <div className="panel-title"><div><span className="eyebrow">Your notebook</span><h2>Tuning notes</h2></div></div>
   <p className="subtle">BAK answers you saved to this bike and notes you wrote. Saved to your account, on every device.</p>
   {(error||notes.error)&&<div className="error" role="alert">{error||notes.error}</div>}
   {list===null&&<p className="subtle" role="status">Loading notes…</p>}
@@ -102,10 +102,10 @@ export function NotesPanel({bike,signedIn,onSignIn,onAsk}:{bike:Bike;signedIn:bo
    <button type="button" className="tn-note-head" aria-expanded={isOpen} onClick={()=>setOpen(isOpen?'':n.id)}><span><b>{n.title}</b><small>{new Date(n.noted_at).toLocaleDateString([],{year:'numeric',month:'short',day:'numeric'})}{n.setup_changes.length?` · ${n.setup_changes.length} change${n.setup_changes.length>1?'s':''}`:''}{!n.answer?' · your note':''}</small></span>{isOpen?<ChevronUp size={17}/>:<ChevronDown size={17}/>}</button>
    {isOpen&&<div className="tn-note-body">
     {renaming===n.id?<form className="tn-rename" onSubmit={e=>{e.preventDefault();void rename(n);}}><input aria-label="Note name" value={name} maxLength={120} onChange={e=>setName(e.target.value)} autoFocus/><button className="button" type="submit" disabled={busy||!name.trim()}>Save</button><button className="button secondary" type="button" onClick={()=>setRenaming('')}>Cancel</button></form>:null}
-    {!!n.question&&<><span className="eyebrow">YOU ASKED</span><p className="tn-question">{n.question}</p></>}
+    {!!n.question&&<><span className="eyebrow">You asked</span><p className="tn-question">{n.question}</p></>}
     {!!n.answer&&<><span className="eyebrow">BAK</span><RichText className="response-answer" text={n.answer}/></>}
     {table.rows.length>0&&<div className="rich-table tn-table"><table><thead><tr>{table.head.map(h=><th key={h}>{h}</th>)}</tr></thead><tbody>{table.rows.map((r,i)=><tr key={i}>{r.map((c,j)=><td key={j}>{c}</td>)}</tr>)}</tbody></table></div>}
-    {!!n.rider_note&&<><span className="eyebrow">YOUR NOTE</span><p className="tn-question">{n.rider_note}</p></>}
+    {!!n.rider_note&&<><span className="eyebrow">Your note</span><p className="tn-question">{n.rider_note}</p></>}
     <div className="tn-bar">
      <button type="button" className="tn-action" onClick={()=>onAsk(askAboutNote(n))}><MessageSquare size={15}/>Ask BAK about this note</button>
      <ShareNote note={n}/>

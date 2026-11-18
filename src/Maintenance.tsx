@@ -65,7 +65,7 @@ function MaintenanceForBike({bike}:{bike:Bike}){
   {notice&&<p className="notice" role="status">{notice}</p>}
   {error&&<p className="rx-error" role="alert">{error}</p>}
   {adding?<section className="panel"><form className="rx-service-form" onSubmit={save}>
-   <div className="rx-head"><div><span className="eyebrow">LOG SERVICE</span><h2 className="rx-title md">What did you do?</h2></div><button type="button" className="text-button" onClick={()=>setAdding(false)}>Cancel</button></div>
+   <div className="rx-head"><div><span className="eyebrow">Log service</span><h2 className="rx-title md">What did you do?</h2></div><button type="button" className="text-button" onClick={()=>setAdding(false)}>Cancel</button></div>
    <div className="rx-chips" role="group" aria-label="What was done">{SERVICE_QUICK.map(q=><button key={q} type="button" className="rx-chip" aria-pressed={draft.category===q} disabled={busy} onClick={()=>set('category')(q)}>{q}</button>)}</div>
    <label className="field"><span>Or type it</span><input value={quick?'':draft.category} maxLength={80} placeholder="e.g. Clutch plates" disabled={busy} onChange={e=>set('category')(e.target.value)}/></label>
    <div className="rx-grid-2">
@@ -83,7 +83,7 @@ function MaintenanceForBike({bike}:{bike:Bike}){
   :<button className="rx-start" onClick={()=>setAdding(true)}><span className="rx-start-icon"><Droplets size={20}/></span><span><b>Log service</b><small>What you did and at how many hours</small></span><ChevronRight size={18}/></button>}
 
   {/* With nothing logged BAK has no idea when a job was last done, so it asks for that instead of guessing a due date. */}
-  <section className="panel"><span className="eyebrow">COMING UP</span>
+  <section className="panel"><span className="eyebrow">Coming up</span>
    {coming.length>0?<ul className="rx-coming">{coming.map(({key,category,left,at})=><li key={key} className={left!==null&&left<=0?'due':''}>{category}: {left===null?`at ${at} hours`:left<=0?'due now':`in ${left} hours`}</li>)}</ul>
    :<p className="rx-copy">{list.some(e=>e.engine_hours!=null||e.next_due_hours!=null)?'Nothing due in the next 10 hours.':'Log your last oil change, filter or top end and BAK works out what’s next.'}</p>}
    {hours===null&&<p className="rx-note">Add the hours on the bike in Garage and BAK counts down to each one.</p>}
@@ -92,7 +92,7 @@ function MaintenanceForBike({bike}:{bike:Bike}){
   {!adding&&events!==null&&<ServicePlanCard bike={bike} plan={plan} events={list} onLog={logFromPlan}/>}
 
   <section className="panel">
-   <div className="rx-head"><div><span className="eyebrow">HISTORY</span><h2 className="rx-title md">{bike.model_year} {bike.manufacturer} {bike.model}</h2><p className="rx-copy">{hours!==null?`${hours} hours on the bike`:'Hours not set'}{list.length?` · ${list.length} ${list.length===1?'entry':'entries'}`:''}</p></div>
+   <div className="rx-head"><div><span className="eyebrow">History</span><h2 className="rx-title md">{bike.model_year} {bike.manufacturer} {bike.model}</h2><p className="rx-copy">{hours!==null?`${hours} hours on the bike`:'Hours not set'}{list.length?` · ${list.length} ${list.length===1?'entry':'entries'}`:''}</p></div>
     <button className="icon-button" aria-label="Refresh service history" disabled={busy} onClick={()=>void refresh()}><RefreshCw size={18}/></button></div>
    {events===null&&<div className="rx-center" role="status" aria-label="Loading"><span className="rx-spin"/></div>}
    {events!==null&&!list.length&&<p className="rx-copy">Nothing logged yet. Log your first oil change or filter and BAK can tell you what’s due.</p>}
@@ -107,7 +107,7 @@ function ServicePlanCard({bike,plan,events,onLog}:{bike:Bike;plan:PlanItem[]|nul
  if(!plan||!plan.length)return null;
  const h=bike.engine_hours??null,rows=serviceDueRows(plan,events,h),shown=open?rows:rows.slice(0,4);
  return <section className="panel">
-  <div className="rx-eyebrow-row" style={{marginBottom:8}}><span className="rx-mark" aria-hidden="true"/><span className="eyebrow">{bike.manufacturer.toUpperCase()}’S SCHEDULE FOR THIS BIKE</span></div>
+  <div className="rx-eyebrow-row" style={{marginBottom:8}}><span className="rx-mark" aria-hidden="true"/><span className="eyebrow">{bike.manufacturer}’s schedule for this bike</span></div>
   <p className="rx-copy">From the owner’s manual service table. {h==null?'Add the hours on the bike in Garage to see what’s due.':'Log a job and the next one is set from the maker’s interval.'}</p>
   <div style={{marginTop:10}}>{shown.map(row=><div key={row.item.category} className="rx-plan-row">
    <div><b>{row.item.category}</b><span className={row.left!=null&&row.left<=0?'due':''}>{dueLine(row)}</span></div>

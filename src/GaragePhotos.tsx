@@ -57,7 +57,7 @@ function BikePhotosFor({bike,onSharingChanged}:{bike:Bike;onSharingChanged?:()=>
  }
  return <>
   <section className="panel rx-panel-gap">
-   <div className="rx-between"><span className="eyebrow" style={{margin:0}}>PHOTOS</span>{count>0&&<span className="rx-count">{count} of {MAX_BIKE_PHOTOS}</span>}</div>
+   <div className="rx-between"><span className="eyebrow" style={{margin:0}}>Photos</span>{count>0&&<span className="rx-count">{count} of {MAX_BIKE_PHOTOS}</span>}</div>
    {photos!==null&&!count&&<p className="rx-copy">Keep pictures of the build: before and after, how parts are fitted, your clicker settings. They stay private unless you show them on your profile.</p>}
    {photos===null&&<div className="rx-center" role="status" aria-label="Loading"><span className="rx-spin"/></div>}
    <div className="rx-photo-grid">
@@ -79,7 +79,7 @@ function PhotoSharing({bike,photos,onChanged}:{bike:Bike;photos:Photo[];onChange
  const on=sharing.show_on_profile,picked=new Set(sharing.photo_ids.filter(id=>photos.some(p=>p.id===id)));
  const toggle=(id:string)=>{const ids=picked.has(id)?sharing.photo_ids.filter(x=>x!==id):[...sharing.photo_ids,id];if(ids.length>MAX_BIKE_PHOTOS){setError(`Choose up to ${MAX_BIKE_PHOTOS} photos.`);return;}void save({photo_ids:ids});};
  return <section className="panel rx-panel-gap">
-  <span className="eyebrow" style={{margin:0}}>ON YOUR PROFILE</span>
+  <span className="eyebrow" style={{margin:0}}>On your profile</span>
   <label className="rx-toggle"><input type="checkbox" checked={on} disabled={busy} onChange={e=>void save({show_on_profile:e.target.checked,build_sheet_public:e.target.checked&&sharing.build_sheet_public,photo_ids:e.target.checked?sharing.photo_ids:[]})}/><span><b>Show this bike on my profile</b><span>{on?'Riders see the bike and the photos you tick.':'Off: only you see this bike and its photos.'}</span></span></label>
   {on&&(photos.length?<><p className="rx-note">Tick the photos to show ({picked.size} of up to {MAX_BIKE_PHOTOS}).</p><div className="rx-share-pick">{photos.map(p=><button key={p.id} type="button" disabled={busy} aria-pressed={picked.has(p.id)} onClick={()=>toggle(p.id)}><img src={p.url} alt={picked.has(p.id)?'Shown on profile':'Not shown'}/></button>)}</div></>:<p className="rx-note">Add a photo above, then tick the ones to show.</p>)}
   {on&&<label className="rx-toggle"><input type="checkbox" checked={sharing.build_sheet_public} disabled={busy} onChange={e=>void save({build_sheet_public:e.target.checked})}/><span><b>Public build sheet</b><span>{sharing.build_sheet_public?'Riders who see this bike can read its parts list. Never your settings, notes, hours or rider details.':'Private: only you see the parts list.'}</span></span></label>}

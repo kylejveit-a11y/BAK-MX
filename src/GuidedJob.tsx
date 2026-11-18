@@ -127,7 +127,7 @@ export function GuidedJobCard({job,voice,onSay,busy}:{job:GuidedJob;voice:Return
  const link=step?.diagram_reference_required?step.source_links.find(l=>/^https?:\/\//.test(l)):undefined;
  const micLabel=voice.on?'Listening':'Hands-free';
  return <section className="guided-card panel" aria-label="Guided job">
-  <div className="guided-head"><div><span className="eyebrow">{finished?'JOB COMPLETE':`STEP ${run.step_index+1} OF ${procedure.steps.length}`}</span><strong title={procedure.title}>{procedure.title}</strong></div>
+  <div className="guided-head"><div><span className="eyebrow">{finished?'Job complete':`Step ${run.step_index+1} of ${procedure.steps.length}`}</span><strong title={procedure.title}>{procedure.title}</strong></div>
    <div className="guided-tools">{voice.supported&&<button type="button" className={'mic-toggle'+(voice.on?' on':'')} aria-pressed={voice.on} onClick={()=>{if(voice.on)voice.disable();else{void voice.enable();if(step)voice.speak(toSpeech(`Hands-free on. ${guidedHelp} ${stepSpeech(procedure,run.step_index)}`));}}}>{voice.on?<Mic size={14}/>:<MicOff size={14}/>}{micLabel}</button>}<button type="button" className="icon-button" aria-label="Close guided job" title="Close (progress is kept)" onClick={()=>say(job.end())}><X size={17}/></button></div></div>
   <progress aria-label="Steps done" value={done} max={procedure.steps.length}/>
   {step&&<><h3>{riderText(step.title)}</h3><p className={'guided-instruction'+(open?' open':'')}>{riderText(step.instruction)}</p>

@@ -2,6 +2,7 @@
 // tile list, a bike cover photo, and the small pieces the chat borrows (disclosures, tuning notes, a sheet). Mirrors
 // apps/mobile/src/HomeBlocks.tsx so the phone-sized site reads like the app.
 import {userErrorText} from '../shared/user-error';
+import {sentenceCase} from '../shared/sentence-case';
 import {chatTopic} from '../shared/chat-topic';
 import './home.css';
 import {useEffect,useState,type ReactNode} from 'react';
@@ -40,7 +41,7 @@ export function Sheet({title,onClose,closeLabel='Close',children,label}:{title:s
  </section></div>;
 }
 export function BlockHead({title,action,onAction}:{title:string;action?:string;onAction?:()=>void}){
- return <div className="hb-block-head"><span className="eyebrow"><i className="hb-mark" aria-hidden="true"/>{title}</span>{action&&onAction&&<button type="button" className="hb-link" onClick={onAction}>{action}<ChevronRight size={15} strokeWidth={2.2}/></button>}</div>;
+ return <div className="hb-block-head"><span className="eyebrow"><i className="hb-mark" aria-hidden="true"/>{sentenceCase(title,true)}</span>{action&&onAction&&<button type="button" className="hb-link" onClick={onAction}>{action}<ChevronRight size={15} strokeWidth={2.2}/></button>}</div>;
 }
 export function Chip({on=false,onClick,children,square=false,disabled=false,role='button'}:{on?:boolean;onClick:()=>void;children:ReactNode;square?:boolean;disabled?:boolean;role?:'button'|'radio'}){
  return <button type="button" role={role} aria-pressed={role==='button'?on:undefined} aria-checked={role==='radio'?on:undefined} disabled={disabled} className={'hb-chip'+(on?' on':'')+(square?' square':'')} onClick={onClick}>{children}</button>;

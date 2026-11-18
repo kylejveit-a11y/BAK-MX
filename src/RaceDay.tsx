@@ -55,7 +55,7 @@ export function RaceSetupCard({account,bike,track,day,onOpenChat}:{account:strin
   }catch(e){setNotice('BAK could not work out the setup: '+errorText(e));}finally{setBusy(false);setLive(null);}
  }
  return <section className="panel hb-block">
-  <BlockHead title={`BAK’S SETUP FOR ${track?track.toUpperCase():'THIS RACE'}`}/>
+  <BlockHead title={`BAK’s setup for ${track||'this race'}`}/>
   {!saved&&!live&&<p className="hb-copy">BAK works out where to start for this track and day: the dirt and layout, the weather forecast once it’s within a week, and what’s on your bike now. {track?'':'Add the track for track info and weather. '}It may say your setup is already right.</p>}
   {live&&<div className="hb-stack" style={{gap:6}}>{!!live.summary&&<p className="hb-strong">{plain(live.summary)}</p>}{!!live.answer&&<RichText text={live.answer}/>}<p className="hb-note" role="status">{live.summary||live.answer?'Writing… final checks run before it’s saved.':'Reading the track, the forecast and your bike…'}</p></div>}
   {saved&&!live&&<div className="hb-stack" style={{gap:10}}>
@@ -81,7 +81,7 @@ export function RaceCountdown({account,bike,race,onEnd,onOpenChat}:{account:stri
  const n=daysToGo(race.day);
  return <>
   <section className="panel hb-block">
-   <div className="hb-block-head"><span className="eyebrow"><Flag size={15} style={{color:'var(--bike-accent)'}}/>NEXT RACE</span></div>
+   <div className="hb-block-head"><span className="eyebrow"><Flag size={15} style={{color:'var(--bike-accent)'}}/>Next race</span></div>
    <div className="hb-count"><div className="hb-days"><b>{n}</b><span>{n===1?'DAY':'DAYS'}</span></div><div className="hb-track"><strong>{race.track||'Race day'}</strong><span>{longDay(race.day)}</span></div></div>
    {before.length>0&&<div className="hb-stack" style={{gap:5}}><div className="hb-row between"><span className="hb-line" style={{color:'#eef1f6',fontWeight:600}}>Prep · {phaseName}</span><span className="hb-line">{before.length} items · checked off in the phone app</span></div><Progress done={0} total={before.length}/></div>}
   </section>
@@ -115,7 +115,7 @@ export function NextUpCard({race,labels,onSet}:{race:RaceDay;labels:string[];onS
   setNotice('');onSet(parsed);setEditing(false);};
  const at=nextUpDate(next,race.day);
  return <section className="panel hb-block">
-  <div className="hb-block-head"><span className="eyebrow"><Clock size={15} style={{color:'var(--bike-accent)'}}/>NEXT UP</span>
+  <div className="hb-block-head"><span className="eyebrow"><Clock size={15} style={{color:'var(--bike-accent)'}}/>Next up</span>
    {!editing&&next&&<div className="hb-row" style={{gap:16}}><button type="button" className="hb-link" onClick={()=>setEditing(true)}>Change</button><button type="button" className="hb-link muted" onClick={()=>onSet(null)}>Clear</button></div>}</div>
   {!editing&&next&&<div className="hb-row between"><div className="hb-track"><strong>{next.label}</strong><span>{next.at?clockText(next.at):'Time not set'}</span></div>
    {at?<b className="hb-strong" style={{fontSize:22,fontStyle:'italic',color:'var(--bike-accent)'}}>{countdownText(at,now)}</b>:<button type="button" className="hb-link" onClick={()=>setEditing(true)}>Set the time</button>}</div>}
@@ -151,7 +151,7 @@ export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenC
  const tone=(r:SetupResult)=>r==='better'?' hb-good':r==='worse'?' hb-bad':'';
  return <>
   <div className="hb-race-head">
-   <span className="eyebrow"><i className="hb-mark" aria-hidden="true" style={{width:22}}/>RACE DAY · {new Date().toLocaleDateString([],{weekday:'long',month:'short',day:'numeric'})}</span>
+   <span className="eyebrow"><i className="hb-mark" aria-hidden="true" style={{width:22}}/>Race day · {new Date().toLocaleDateString([],{weekday:'long',month:'short',day:'numeric'})}</span>
    <h2 className="hb-title big">{track||'Track day'}</h2>
    <p className="hb-line">{bike.model_year} {bike.manufacturer} {bike.model}{bike.engine_hours!=null?` · ${bike.engine_hours} h`:''}</p>
   </div>
@@ -159,7 +159,7 @@ export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenC
   <RaceSetupCard account={account} bike={bike} track={track} day={today()} onOpenChat={onOpenChat}/>
   <FuelPlanCard account={account} race={race??{on:true,track,day:today()}} kind="race"/>
   <BikeNowCard bike={bike}/>
-  <section className="panel hb-block"><div className="hb-block-head"><span className="eyebrow"><Zap size={15} style={{color:'var(--bike-accent)'}}/>QUICK ASK</span></div>
+  <section className="panel hb-block"><div className="hb-block-head"><span className="eyebrow"><Zap size={15} style={{color:'var(--bike-accent)'}}/>Quick ask</span></div>
    <p className="hb-copy" style={{fontSize:13.5}}>Tap what the bike did. BAK answers in race mode: the one change to make, short and fast.</p>
    <div className="hb-chips">{QUICK.map(q=><Chip key={q} onClick={()=>onQuick(quickAskText(track,q))}>{q}</Chip>)}</div>
   </section>
