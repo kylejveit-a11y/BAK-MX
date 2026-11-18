@@ -86,13 +86,14 @@ export async function startRide(backByMin:number,name:string,track:string):Promi
  try{
   const fg=await Location.requestForegroundPermissionsAsync();
   if(fg.status!=='granted')notice=C.noPermission;
-  else try{await Location.requestBackgroundPermissionsAsync();}catch{}
+  // iPhone only: Android builds don't ask for location while closed yet (see app.config.ts); the open app keeps the spot updating.
+  else if(Platform.OS==='ios')try{await Location.requestBackgroundPermissionsAsync();}catch{}
   const s=await api<{id:string;url:string;expires_at:string;back_by:string;alert_at:string;contacts:ContactRef[];emailed:boolean;email_ready:boolean}>('/api/ride-share','POST',{back_by_min:backByMin,rider_name:name.slice(0,40),track_name:track.slice(0,120),tz:zone()});
   const prev=readActive();await cancelReminders(prev);
   const a:Active={id:s.id,url:s.url,expires_at:s.expires_at,back_by:s.back_by,alert_at:s.alert_at,track,name};
   a.reminders=await scheduleReminders(a.back_by);writeActive(a);
   if(fg.status==='granted'){
-   try{await startUpdates();}catch{}
+   if(Platform.OS==='ios')try{await startUpdates();}catch{}
    try{const now=await Location.getCurrentPositionAsync({accuracy:Location.Accuracy.Balanced});await api('/api/ride-share/position','POST',{id:a.id,lat:now.coords.latitude,lng:now.coords.longitude,accuracy_m:now.coords.accuracy??null,at:new Date(now.timestamp).toISOString()});}catch{}
   }
   success();
@@ -134,7 +135,7 @@ export function useRide(){
  return active;
 }
 
-export const alwaysHint=Platform.OS==='ios'?C.always:'To keep your spot updating with the phone in your pocket, choose “Allow all the time” when asked.';
+export const alwaysHint=Platform.OS==='ios'?C.always:'Your spot updates while BAK MX is open. Keep it open on the Ride Day screen during your ride. The back-by timer, reminders and alert work either way.';
 export function RideStatusLine({active}:{active:Active}){
  const late=Date.now()>Date.parse(active.back_by);
  return <View style={{flexDirection:'row',alignItems:'center',gap:8}}><View style={{width:9,height:9,borderRadius:5,backgroundColor:late?'#f0c674':'#7fd09a'}}/>
