@@ -75,7 +75,7 @@ Terms: https://bakmx.com/terms
 Privacy: https://bakmx.com/privacy
 
 ## Keywords (100)
-motocross,suspension,sag,clickers,fork,shock,jetting,torque,specs,ktm,yamaha,honda,kawasaki,enduro
+motocross,dirt bike,suspension,sag,clickers,fork,shock,jetting,trails,ohv,specs,enduro,honda,yamaha,ktm
 
 ## What's New (1.0.7)
 Race-day fuel plan: what to eat and drink, and when, built from your height, weight and age, timed to your motos.
