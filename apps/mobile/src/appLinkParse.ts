@@ -1,7 +1,7 @@
 // Pure parsing for Siri / Shortcuts links and notification taps (no React Native imports, so tests run in Node).
 import {parseNotificationLink} from '../../../shared/notification-links.ts';
 export type AppLink={screen:'ask';question:string}|{screen:'snap'}|{screen:'setup';note:string}|{screen:'trackReport'}|{screen:'service';bike?:string|null}
- |{screen:'messages';with:string|null;handle:string;name:string}|{screen:'community';post:string|null}|{screen:'events';event:string|null};
+ |{screen:'ride';id:string|null;map:boolean}|{screen:'messages';with:string|null;handle:string;name:string}|{screen:'community';post:string|null}|{screen:'events';event:string|null};
 export const PENDING_LINK_KEY='bak.pendingLink';
 const MAX_AGE=10*60*1000,clip=(v:string|null)=>(v??'').trim().slice(0,2000);
 
@@ -15,6 +15,8 @@ export function parseAppLink(raw:string):AppLink|null{
   case 'setup':return {screen:'setup',note:clip(q.get('note'))};
   // "Log how the track rode": the How did it ride? card.
   case 'track-report':return {screen:'trackReport'};
+  // Where to Ride, a place, or its trail map: bakmx://ride?id=ocala-nf-ohv-trail-system&map=1
+  case 'ride':{const raw=q.get('id'),id=raw&&/^[a-z0-9-]{1,80}$/.test(raw)?raw:null;return {screen:'ride',id,map:q.get('map')==='1'&&!!id};}
   // From a notification: service (optionally for one bike), a message thread, a post, an event.
   case 'service':{const bike=parseNotificationLink(raw);return bike?.screen==='service'&&bike.bike?{screen:'service',bike:bike.bike}:{screen:'service'};}
   case 'messages':case 'community':case 'events':return parseNotificationLink(raw) as AppLink|null;

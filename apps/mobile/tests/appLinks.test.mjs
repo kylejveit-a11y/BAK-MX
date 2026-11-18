@@ -31,3 +31,9 @@ test('notification links open messages, posts, events and the service log',()=>{
   assert.deepEqual(parseAppLink(`bakmx://service?bike=${bike}`),{screen:'service',bike});
   assert.deepEqual(parseAppLink('bakmx://service?bike=x'),{screen:'service'});
 });
+
+test('ride links open Where to Ride, a place, or its trail map; odd ids are dropped',()=>{
+ assert.deepEqual(parseAppLink('bakmx://ride'),{screen:'ride',id:null,map:false});
+ assert.deepEqual(parseAppLink('bakmx://ride?id=ocala-nf-ohv-trail-system&map=1'),{screen:'ride',id:'ocala-nf-ohv-trail-system',map:true});
+ assert.deepEqual(parseAppLink('bakmx://ride?id=../../etc&map=1'),{screen:'ride',id:null,map:false});
+});

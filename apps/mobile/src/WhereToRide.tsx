@@ -46,9 +46,9 @@ function useLocationAllowed(){
 }
 
 /** The whole Where to Ride flow. `view` is the step: the list, a place, or a place's trail map. */
-export function WhereToRide({initialId,onAsk,onRideToday,onClose}:{initialId?:string;onAsk:(text:string)=>void;onRideToday:(name:string)=>void;onClose?:()=>void}){
- const [view,setView]=useState<{id:string;map:boolean;miles?:number|null}|null>(initialId?{id:initialId,map:false}:null);
- useEffect(()=>{if(initialId)setView({id:initialId,map:false});},[initialId]);
+export function WhereToRide({initialId,initialMap=false,onAsk,onRideToday,onClose}:{initialId?:string;initialMap?:boolean;onAsk:(text:string)=>void;onRideToday:(name:string)=>void;onClose?:()=>void}){
+ const [view,setView]=useState<{id:string;map:boolean;miles?:number|null}|null>(initialId?{id:initialId,map:initialMap}:null);
+ useEffect(()=>{if(initialId)setView({id:initialId,map:initialMap});},[initialId,initialMap]);
  if(view?.map)return <TrailMapView id={view.id} totalMiles={view.miles??null} onBack={()=>setView({id:view.id,map:false})}/>;
  if(view)return <PlaceView id={view.id} onBack={()=>setView(null)} onMap={miles=>setView({id:view.id,map:true,miles})} onAsk={onAsk} onRideToday={onRideToday}/>;
  return <PlaceList onOpen={id=>setView({id,map:false})} onClose={onClose}/>;

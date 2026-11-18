@@ -92,7 +92,7 @@ import {garageFieldGroups,buildProgress,multiValues,multiString} from '../../../
 import {systemsRecorded,partSystems} from '../../../shared/installed-parts';
 import {CommunityScreen,EventsScreen,MessagesScreen,SetupLogCard,PartsCatalogCard,ProfileCard,FeedbackCard,StartRow,FormHead,SetupGuideCard} from './RiderScreens';
 import type {RiderRef} from '../../../shared/rider-types';
-type Tabs={Home:undefined;Garage:{open?:'edit'|'build'|'notes'|'coaching';token?:string}|undefined;'Ask BAK':{photoCheck?:PhotoCheckId;photoCheckToken?:string;mode?:Conversation['mode'];troubleToken?:string;context?:string;contextToken?:string;contextBikeId?:string;prompt?:string;promptToken?:string;camera?:string;clip?:string;thread?:string;threadToken?:string}|undefined;Maintenance:{bike?:string;token?:string}|undefined;Account:undefined;Setup:{note?:string;noteToken?:string;reportToken?:string}|undefined;Learn:undefined;Specs:undefined;Ride:{id?:string;token?:string}|undefined;Workshop:undefined;Bikes:undefined;Community:{draft?:{category:PostCategory;body:string;photoIds?:string[]};draftToken?:string}|undefined;Events:undefined;Messages:{rider?:RiderRef}|undefined;Help:undefined;Pro:undefined};
+type Tabs={Home:undefined;Garage:{open?:'edit'|'build'|'notes'|'coaching';token?:string}|undefined;'Ask BAK':{photoCheck?:PhotoCheckId;photoCheckToken?:string;mode?:Conversation['mode'];troubleToken?:string;context?:string;contextToken?:string;contextBikeId?:string;prompt?:string;promptToken?:string;camera?:string;clip?:string;thread?:string;threadToken?:string}|undefined;Maintenance:{bike?:string;token?:string}|undefined;Account:undefined;Setup:{note?:string;noteToken?:string;reportToken?:string}|undefined;Learn:undefined;Specs:undefined;Ride:{id?:string;token?:string;map?:boolean}|undefined;Workshop:undefined;Bikes:undefined;Community:{draft?:{category:PostCategory;body:string;photoIds?:string[]};draftToken?:string}|undefined;Events:undefined;Messages:{rider?:RiderRef}|undefined;Help:undefined;Pro:undefined};
 const Tab=createBottomTabNavigator<Tabs>();
 // Siri, Shortcuts and the Action button open screens through these links (see appLinks.ts).
 const navRef=createNavigationContainerRef<Tabs>();
@@ -107,6 +107,7 @@ function openAppLink(link:AppLink){if(!navRef.isReady()){queuedLink=link;return;
  else if(link.screen==='snap')navRef.navigate('Ask BAK',{camera:token});
  else if(link.screen==='setup')navRef.navigate('Setup',{note:link.note,noteToken:token});
  else if(link.screen==='trackReport')navRef.navigate('Setup',{reportToken:token});
+ else if(link.screen==='ride')navRef.navigate('Ride',{id:link.id??undefined,map:link.map,token});
  // From a notification: the thread with that rider, the community, events, or the service log for that bike.
  else if(link.screen==='messages')navRef.navigate('Messages',link.with?{rider:{user_id:link.with,handle:link.handle,display_name:link.name,location:'',riding_class:''}}:undefined);
  else if(link.screen==='community')navRef.navigate('Community');
@@ -626,7 +627,7 @@ function Learn({navigation}:BottomTabScreenProps<Tabs,'Learn'>){const{bike}=useC
 function Ride({navigation,route}:BottomTabScreenProps<Tabs,'Ride'>){const{session,bike}=useContext(Ctx);const{race,start}=useRaceDay(session.user.id);
  const rideToday=(name:string)=>{const go=()=>{start(name,undefined,true,'practice');navigation.navigate('Home');};
   if(race.on&&race.track&&race.track!==name)Alert.alert('Ride here today?',`This ends your ${race.kind==='practice'?'practice':'race'} day at ${race.track} and starts one at ${name}.`,[{text:'Cancel',style:'cancel'},{text:'Ride here',onPress:go}]);else go();};
- return <Page title=""><WhereToRide key={route.params?.token??'list'} initialId={route.params?.id} onClose={usePageBack()?.onPress} onRideToday={rideToday} onAsk={text=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',prompt:text,promptToken:randomUUID()});else navigation.navigate('Ask BAK');}}/></Page>;}
+ return <Page title=""><WhereToRide key={route.params?.token??'list'} initialId={route.params?.id} initialMap={!!route.params?.map} onClose={usePageBack()?.onPress} onRideToday={rideToday} onAsk={text=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',prompt:text,promptToken:randomUUID()});else navigation.navigate('Ask BAK');}}/></Page>;}
 function Specs(){const{bike}=useContext(Ctx);return <SpecsForBike key={bikeScope(bike)}/>;}
 function SpecsForBike(){const{bike}=useContext(Ctx);const nav=navRef,back=usePageBack();return <Page title="Specs and parts" back={back}><BikeSelect/><SpecsView bike={bike} onGarage={()=>{if(nav.isReady())nav.navigate('Garage' as never);}}/><PartsCatalogCard bike={bike}/></Page>}
 /** While Ask BAK works (usually 20-40 s): what it is doing and how long it has been, so a long answer never looks stuck. */
