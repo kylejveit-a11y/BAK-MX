@@ -43,13 +43,13 @@ export async function signInWithApple():Promise<'signed_in'|'cancelled'>{
 
 /** Black brushed steel, the same shape and light as BAK's blue buttons, with Apple's logo and wording (Apple allows a
  *  custom black "Sign in with Apple" button). Draws nothing where Apple sign-in is unavailable. */
+/** The "or" line above it is drawn by OtherSignIn (App.tsx), shared with Google. */
 export function AppleSignInButton({busy,onStart,onDone,onError,mode}:{busy:boolean;onStart:()=>void;onDone:()=>void;onError:(e:unknown)=>void;mode:'login'|'signup'}){
  const [available,setAvailable]=useState(false);
  useEffect(()=>{if(Platform.OS!=='ios')return;let live=true;AppleAuthentication.isAvailableAsync().then(ok=>{if(live)setAvailable(ok);}).catch(()=>{});return()=>{live=false;};},[]);
  if(!available)return null;
  const label=mode==='signup'?'Sign up with Apple':'Sign in with Apple';
- return <View style={{gap:14}}>
-  <View style={{flexDirection:'row',alignItems:'center',gap:12}}><View style={{flex:1,height:StyleSheet.hairlineWidth,backgroundColor:'#2c323c'}}/><Text style={{color:'#7d8593',fontSize:12,fontWeight:'700',letterSpacing:1.6}}>OR</Text><View style={{flex:1,height:StyleSheet.hairlineWidth,backgroundColor:'#2c323c'}}/></View>
+ return <View>
   <Pressable accessibilityRole="button" accessibilityLabel={label} disabled={busy} onPress={()=>{onStart();signInWithApple().then(()=>{}).catch(onError).finally(onDone);}}
    style={({pressed})=>[{minHeight:52,borderRadius:28,justifyContent:'center',alignItems:'center',shadowColor:'#000',shadowOpacity:0.55,shadowRadius:8,shadowOffset:{width:0,height:4},elevation:5,opacity:busy?0.6:1},pressed&&{transform:[{translateY:1}],shadowOpacity:0.3}]}>
    {({pressed})=><>
