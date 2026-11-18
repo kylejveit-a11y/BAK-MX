@@ -1,0 +1,55 @@
+/* Where to Ride on the website. Flat rows on the dark page; panels only for grouped facts. */
+.wr{display:flex;flex-direction:column;gap:18px}
+.wr h2{font-size:30px;margin:0 0 6px;line-height:1.15}
+.wr-tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.wr-search{flex:1;min-width:220px;display:flex;align-items:center;gap:10px;border:1px solid #2c323c;border-radius:14px;padding:0 14px;background:#0c0e12;color:#8b93a0}
+.wr-search input{border:0;background:none;padding:12px 0;font-size:15px}.wr-search input:focus{outline:none}.wr-search:focus-within{border-color:var(--bike-accent,#8cb6ee)}
+.wr-tools select{width:auto;min-width:130px;border-radius:14px;padding:12px;background:#0c0e12;border-color:#2c323c;font-size:14px}
+.wr-chips{display:flex;gap:8px;flex-wrap:wrap}
+.wr-chip{display:inline-flex;align-items:center;gap:7px;padding:9px 15px;border-radius:999px;border:1px solid #343a45;color:#e7e9ee;font-size:13.5px;font-weight:600;white-space:nowrap}
+.wr-chip:hover{border-color:#566072}.wr-chip.on{border-color:var(--bike-accent,#8cb6ee);background:var(--bike-tint,#16233a);color:#fff}
+.wr-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.wr-list li{border-bottom:1px solid var(--line)}
+.wr-list button{width:100%;display:flex;align-items:center;gap:14px;padding:15px 4px;text-align:left;color:#8b93a0}
+.wr-list button:hover{background:#0f1218}
+.wr-row-main{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.wr-row-main b{color:#f1f3f7;font-size:16px;font-weight:700;display:flex;align-items:center;gap:8px}
+.wr-row-main small{font-size:13.5px;color:#adb5c1}.wr-row-main .wr-where{color:#8b93a0;font-size:13px}
+.wr-heart{color:var(--bike-accent,#8cb6ee);fill:currentColor;flex-shrink:0}
+.wr-bars{display:flex;flex-direction:column;gap:4px}.wr-bars i{display:block;width:22px;height:4px;border-radius:2px}
+.wr-back{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;color:#adb5c1;padding:4px 0;align-self:flex-start}.wr-back:hover{color:#fff}
+.wr-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.wr-head p{margin:0 0 4px}.wr-detail{font-size:15px;color:#e7e9ee}.wr-summary{font-size:14.5px;color:#adb5c1}
+.wr-actions{display:flex;gap:10px;flex-wrap:wrap}.wr-actions .button{font-size:14px;padding:14px 22px}
+.wr-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
+.wr-grid .panel{display:flex;flex-direction:column;gap:12px}.wr-grid .panel .eyebrow{margin:0}
+.wr-fact{display:flex;flex-direction:column;gap:3px}.wr-fact>span{font-size:12.5px;font-weight:600;color:#8b93a0}
+.wr-fact p{margin:0;font-size:15px;line-height:1.45;color:#e7e9ee;white-space:pre-line}.wr-fact p.unknown{color:#8b93a0}.wr-fact small{font-size:13px;color:#adb5c1}
+.wr-facts-row{display:flex;gap:28px}
+.wr-widths{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.wr-widths li{display:flex;align-items:center;gap:10px;font-size:15px}.wr-widths i{width:22px;height:4px;border-radius:2px;flex-shrink:0}
+.wr-widths span{flex:1}.wr-widths b{font-weight:700;color:#f1f3f7}.wr-widths small{font-size:13px;color:#8b93a0}
+.wr-widths em{font-style:normal;font-size:13.5px;font-weight:700;color:#a0a7b4}.wr-widths em.yes{color:#9fdcb3}
+.wr-widths li.no i{opacity:.3}.wr-widths li.no b{color:#7d8593}
+.wr-plain{margin:0;padding-left:18px;font-size:15px;line-height:1.5;color:#e7e9ee}.wr-copy{margin:0;font-size:15px;line-height:1.5;color:#c9d0da}
+.wr-note{margin:0;font-size:12.5px;line-height:1.5;color:#8b93a0}
+.wr-events{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.wr-events li{display:flex;gap:10px;align-items:flex-start;color:var(--bike-accent,#8cb6ee)}.wr-events span{display:flex;flex-direction:column;gap:2px}
+.wr-events b{font-size:15px;color:#f1f3f7}.wr-events small{font-size:12.5px;color:#8b93a0}
+.wr-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px;border-top:1px solid var(--line)}
+.wr-links a{display:flex;align-items:center;gap:12px;padding:15px 4px;border-bottom:1px solid var(--line);text-decoration:none;font-size:15px;font-weight:600;color:#f1f3f7}
+.wr-links a svg:first-child{color:#adb5c1}.wr-links a svg:last-child:not(:first-child){margin-left:auto;color:var(--bike-accent,#8cb6ee)}.wr-links a:hover{background:#0f1218}
+.wr-sources{display:flex;flex-direction:column;gap:6px;font-size:12.5px;color:#8b93a0}.wr-sources p{margin:0;line-height:1.5}.wr-sources a{color:#adb5c1}
+.wr .notice.warn{background:#2a2410;border-color:#6b5a1f;color:#f0d68a}
+.wr-map-layout{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:20px;align-items:start}
+.wr-map-layout>div{display:flex;flex-direction:column;gap:12px}
+.wr-map{display:block;width:100%;height:auto;border-radius:18px;background:#0b0d11;border:1px solid #232832}
+.wr-picked{margin:0;display:flex;align-items:center;gap:10px;font-size:15px}.wr-picked i,.wr-legend i,.wr-trails i{width:18px;height:4px;border-radius:2px;flex-shrink:0}
+.wr-picked span{flex:1}.wr-picked small{font-size:13px;color:#8b93a0}.wr-picked button{color:#a0a7b4;padding:6px}
+.wr-legend{list-style:none;margin:0;padding:0;display:flex;gap:16px;flex-wrap:wrap;font-size:13.5px}.wr-legend li{display:flex;align-items:center;gap:7px}
+.wr-trails{max-height:720px;overflow:auto}.wr-trails ul{list-style:none;margin:0;padding:0}
+.wr-trails li+li{border-top:1px solid #1f232b}
+.wr-trails button{width:100%;display:flex;align-items:center;gap:10px;padding:11px 2px;text-align:left}
+.wr-trails span{display:flex;flex-direction:column;gap:2px}.wr-trails b{font-size:15px;color:#f1f3f7}.wr-trails small{font-size:12.5px;color:#8b93a0}
+.wr-trails button.on b{color:var(--bike-accent,#8cb6ee)}
+@media(max-width:760px){.wr h2{font-size:25px}.wr-grid,.wr-links,.wr-map-layout{grid-template-columns:1fr}.wr-trails{max-height:none}.wr-tools select{flex:1}.wr-head{flex-direction:column}.wr-actions .button{flex:1}}

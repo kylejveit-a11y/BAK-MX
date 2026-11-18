@@ -1448,3 +1448,4 @@ body .principle-panel .eyebrow{font-size:14px}
 /* Sign-in: the other ways in sit under the account links, as round logo buttons. */
 .other-signin{margin-top:22px;display:flex;flex-direction:column;gap:16px}.other-signin .or-line{font-size:13px;font-weight:600}
 .round-signin{display:flex;justify-content:center;gap:22px}.round-signin button{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:#fff;border:1px solid #dadce0;box-shadow:0 4px 12px #0007}.round-signin button:hover{background:#f1f3f4}.round-signin button:disabled{opacity:.6}
+@media(max-width:760px){.header-page{min-width:0;overflow:hidden;text-overflow:ellipsis;flex-shrink:1}.top-actions{min-width:0}.mobile-toggle{flex-shrink:0}}
