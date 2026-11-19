@@ -263,6 +263,7 @@ if APP_OUT:
            ('clutch',r'\b(pressure plates?|inner hubs?|clutch springs?)\b'),
            ('chassis',r'\b(kick ?stands?|axle adjusters?|chain adjusters?|adjuster wheels?|holeshot|start(?:ing)? (?:device|blocks?)|launch device|pro launch)\b'),
            ('tuning',r'\b(ecu|e\.c\.u|ignition (?:box|module|curve)|map ?switch|map select|tuner|tuning|fuel controller|power commander|programmable ignition|ignition(?! covers?)|re-?flash|remap|wi-?fi|connectivity|fi calibration|power tuner|launch control|traction control|engine control|fuel injection kit|injector|throttle body|fuel pump|carburetor|carb\b|jet kit|main jet|pilot jet|needle)'),
+           ('suspension',r'\bseal savers?\b'),('engine',r'\bspark plugs?\b|\bhour meter\b'),('body',r'\b(gas cap|fuel cap|bolt kit|seat covers?)\b'),
            ('controls',r'\b(handlebars?|fat ?bar|bar pad|grips?|levers?|perch|throttle tube|throttle|foot ?pegs?|pegs?|bar mounts?|bar clamps?|handguards?|hand guards?|brush guards?|kill switch|start button|shift(?:er| lever)|gear lever|brake pedal|kick ?start(?:er)?|hot start|clutch cable|throttle cable|bar riser)\b'),
            ('protection',r'\b(skid ?plates?|glide ?plates?|bash ?plates?|linkage guards?|link guards?|disc guards?|disk guards?|rotor guards?|caliper guards?|brake disc guards?)\b'),
            ('chassis',r'\b(steering (?:stem |head )?bearings?|swing ?arm bearings?|engine mounts?|engine braces?|engine brace set|engine hangers?|head stays?|frame hardware)\b'),
@@ -295,7 +296,9 @@ if APP_OUT:
                          (r'chain','gearing'),(r'clutch','clutch')):
                 if re.search(rx,name+' '+str(p.get('subcategory') or ''),re.I): return s
             return 'engine'
-        if re.search(r'\b(riding gear|helmets|luggage|lights|lighting|batteries|electrical|gauges|tools|utv|farming|winch|garage|security|styling|comfort|decal|fluids|graphics|vehicle communication|gps|bags)\b',cat) and not re.search(r'fuel|ecu|tun',t): return None
+        # Real bike parts that retailers file under electrical, comfort or maintenance (audit 2026-11-19) stay in.
+        keep=re.search(r'\b(kill switch|seat covers?|gas cap|fuel cap|seal savers?|spark plugs?|bolt kit|hour meter)\b',name,re.I) and 'utv' not in cat
+        if not keep and re.search(r'\b(riding gear|helmets|luggage|lights|lighting|batteries|electrical|gauges|tools|utv|farming|winch|garage|security|styling|comfort|decal|fluids|graphics|vehicle communication|gps|bags)\b',cat) and not re.search(r'fuel|ecu|tun',t): return None
         for s,rx in RULES:
             if re.search(rx,name,re.I): return s
         for k,s in CATHINT:
