@@ -71,8 +71,8 @@ BAK MX is free to download with a Garage, logs, specs, community, 7 starter sets
 
 Always double-check torque values and anything safety-critical before you ride. BAK MX gives guidance; you make the call on your bike.
 
-Terms: https://bakmx.com/terms
-Privacy: https://bakmx.com/privacy
+Terms of Use (EULA): https://bakmx.com/terms
+Privacy Policy: https://bakmx.com/privacy
 
 ## Keywords (100)
 motocross,dirt bike,suspension,sag,clickers,fork,shock,jetting,trails,ohv,specs,enduro,honda,yamaha
