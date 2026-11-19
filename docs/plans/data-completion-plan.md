@@ -11,7 +11,7 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
       YZ65 / YZ85 owner's manuals print no sag: recorded in maker-publishing. Open: YZ65 2026, YZ85 2022-2027 (no manual matched).
       Report: docs/research/expansion/gaps/yamaha-sag/REPORT.md. Use the corrected SQL pattern (includes 'sunken length') for audits.
 - [x] Honda 2010-2019: 35 bike-years loaded and verified 2026-11-18 (race sag; free sag 10-25 mm where printed), read in the
-      browser on Kyle's computer. Held back: CRF150R 2012-2019 (manual contradicts itself: 85 mm standard vs 90 mm 'decrease' example);
+      browser on Kyle's computer. CRF150R 2012-2019 loaded at 85 mm on 2026-11-19 (standard line and worked example agree; 90 mm is a labelled example);
       CRF450RX 2018 has no manual. Report: docs/research/expansion/gaps/honda-sag/REPORT.md. Method reusable: window.__run in the
       browser pane at cdn.powersports.honda.com with pdf.js from cdnjs.
 - [ ] Free sag: Honda 2010-2013 era prints 10-25 mm (loaded). Still to read: Honda 2020+ handbooks (gap log asks for it on CRF250R 2020 / 2024)
@@ -50,3 +50,12 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
 
 ## Log
 - 2026-11-18: prompt 89 live; eval on KX450 2024 / KX250 2022 sag questions: says Kawasaki publishes none, gives preload-nut position and general guidance, no gap logged.
+
+## Parked until the data work is done (Kyle asked not to be allowed to forget)
+
+- First-login setup flow (asked 2026-11-19). On the first sign-in to a new account, walk the rider through setup before the
+  app opens: profile basics (name and the few required fields), pick a bike, then the choices that now live in the menu
+  (widgets, colours, measurements and the rest) asked as a few plain-worded questions, each answer setting the group of
+  related settings behind it. Front-end work; start after the data checklist above is finished.
+- Monetisation proposal (report dated 2026-11-19: affiliate parts links, banner ads on the free tier, ad-free Plus at $7.99).
+  Reviewed in chat the same day; no decision yet.

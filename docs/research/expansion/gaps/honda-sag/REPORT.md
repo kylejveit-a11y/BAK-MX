@@ -19,8 +19,13 @@ Loaded through `private.stage_manual_rows` (hash-guarded) and verified, 35 bike-
 - CRF250X 2012, 2013, 2015–2017: 100 mm. CRF450X 2012–2017: 100 mm; 2019: 105 mm.
 - Free sag 10–25 mm: CRF250R 2010–2013, CRF450R 2010–2012, CRF250X and CRF450X 2012–2017.
 
+Loaded 19 November 2026 (Kyle's decision: go with the best-supported figure):
+- CRF150R 2012–2019 (8 bike-years, 8 rows): 85 mm. Each manual prints "Standard Race Sag: 3.3 in (85 mm)" and repeats it in
+  the worked example on the same page ("Race Sag = 3.3 in (85 mm)", printed page 104). The 90 mm and 100 mm figures on that
+  page are labelled examples of decreasing and increasing sag, carried over from the full-size manuals, and are not taken.
+  Honda's 2020–2026 CRF150R manuals print the same 85 mm. Forum threads could not be read (the sites refuse automated
+  requests), so this rests on Honda's own pages, not on rider reports. Document hashes equal the earlier specification load.
+
 Not loaded:
-- CRF150R 2012–2019 (8): every manual prints "Standard Race Sag: 3.3 in (85 mm)" but gives 90 mm as the example of
-  *decreasing* sag and 100 mm for increasing it. The manual contradicts itself, so the figure is held back for a person to judge.
 - CRF450RX 2018: Honda lists no manual.
 - Free sag for 2013 CRF450R and 2014+ R models: those manuals do not print the step.
