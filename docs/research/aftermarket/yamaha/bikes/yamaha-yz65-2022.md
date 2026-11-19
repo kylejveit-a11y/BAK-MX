@@ -1,6 +1,6 @@
 # Yamaha YZ65 2022: aftermarket parts
 
-157 listings whose stated fitment names this bike: 157 researched parts (with what they change and rider findings), 0 dealer and retailer listings specific to this bike, and 0 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1552 listings whose stated fitment names this bike: 157 researched parts (with what they change and rider findings), 188 dealer and retailer listings specific to this bike, and 1207 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -163,4 +163,250 @@
 | Krooztune (KroozR) | KroozR YZ85 / YZ65 High-Low Compression Adjuster | KT-YZ85HILO | Adds separate high- and low-speed compression adjustment to the mini KYB shock (from product name). | No years, price or contents on page. | [source](https://teknikmotorsport.com/KT-YZ85HILO-Krooztune-YZ-85-and-YZ65-High-Low-Compression-Adjuster) | unverified |
 | Race Tech | Race Tech Fork Springs 0.26 kg/mm - Yamaha YZ65 | 200-313226 | Replacement fork springs for rider weight. | AOMC page shows no year list; other rates not shown. | [source](https://aomc.mx/200-313226.html) | medium |
 | Xtrig | Xtrig ROCS Tech Triple Clamps - YZ65 2018+ / YZ85 2006+ (25 mm offset) | 40204001 | Replacement billet triple clamps for the KYB minis; offered alongside the KYB kit forks. | From the related-product block on genuinepp's YZ65 kit fork page; open-ended years. | [source](https://genuinepp.com/front-fork-assy-kyb-kit-yamaha-yz65-2018-162019006501.html) | medium |
+
+## Dealer and retailer listings for this bike
+
+Merged across sellers by brand and part number (or brand and name). Lings is a UK dealer (GBP prices, EU-market models).
+
+### Air & Fuel (9)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| FunnelWeb | FunnelWeb ProLine Air Filter Yamaha YZ65 2018-2027 | 7930 | 34.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/funnelweb-proline-air-filter-yamaha-yz65-2018-2024) |
+| Maxima Lubricants | Maxima ProFilter Pre Oiled Air Filter Yamaha YZ65 2018-2027 | AFR-2001-00 | 12.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/maxima-profilter-pre-oiled-air-filter-yamaha-yz65-2018-2020) |
+| No Toil | No Toil Pre Oiled Air Filter Yamaha YZ65 2018-2027 | 1807 | 33.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-pre-oiled-air-filter-yamaha-yz65-2018-2022) |
+| No Toil | No Toil Standard Air Filter Yamaha YZ 65 2018-2027 | 180-07 | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-standard-air-filter-yamaha-yz-65-2018-2024) |
+| PC Racing | PC Racing Pro-Seal Air Filter Gasket Yamaha YZ65 2018-2027 | PC27 | 14.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pc-racing-pro-seal-air-filter-gasket-yamaha-yz65-2018-2022) |
+| RFX | RFX Air Filter Yamaha YZ65 | FXAF 40001 55NO | 25.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-air-filter-yamaha-yz65) |
+| RFX | RFX Pre Oiled Air Filter Yamaha YZ65 | FXAF 40001 55PO | 32.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pre-oiled-air-filter-yamaha-yz65) |
+| Twin Air | Twin Air Air Filter Yamaha YZ65 2018-2027 | 152020 | 37.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-air-filter-yamaha-yz65-2018-2020) |
+| Twin Air | Twin Air Factory Pre Oiled Air Filter Yamaha YZ65 2018-2027 | 152020X | 41.75 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-factory-pre-oiled-air-filter-yamaha-yz65-2018-2021) |
+
+### Bike Protection (4)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis X-Grip Frame Guards Yamaha YZ65 2019-2025 | 2736381004, 2736381007 | 49.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-x-grip-frame-guards-yamaha-yz65-2019-2020) |
+| AXP Racing | AXP Racing Skid Plate Yamaha YZ65 2018-2027 | AX1518 | 99.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/axp-racing-skid-plate-yamaha-yz65-2018-2022) |
+| Works Connection | Works Connection Radiator Braces Yamaha YZ65 2018-2027 | 18-126, 18-B126 | 54.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-radiator-braces-yamaha-yz65-2018-2020) |
+| Yamaha | Yamaha GYTR Radiator Braces Yamaha YZ65 2018-2027 | BR8-E24C0-V0-00 | 53.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/yamaha-gytr-radiator-braces-yamaha-yz65-2018-2026) |
+
+### Brakes (12)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Brembo | Brembo SX Rear Brake Pads 07HO32SX | 07HO32SX | 64.03 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-sx-rear-brake-pads-07ho32sx) |
+| DP Brakes | DP Brakes DP408 Sintered Front Brake Pads  | DP408 | 52.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-dp408-sintered-front-brake-pads) |
+| DP Brakes | DP Brakes DP816 Sintered Rear Brake Pads  | DP816 | 52.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-dp816-sintered-rear-brake-pads) |
+| EBC Brakes | EBC FA119R R Series Sintered Front Brake Pads | FA119R | 40.63 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-fa119r-r-series-sintered-front-brake-pads) |
+| EBC Brakes | EBC FA119X Carbon X Front Brake Pads  | FA119X | 36.02 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-fa119x-carbon-x-front-brake-pads) |
+| EBC Brakes | EBC FA84/3R R Series Sintered Rear Brake Pads | FA84/3R | 34.91 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-fa843r-r-series-sintered-rear-brake-pads) |
+| Moto-Master | Moto Master Flame Fixed Rear Rotor Yamaha YZ65 / YZ80 / YZ85 1993-2027 | 110224-PU | 98.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-fixed-rear-rotor-yamaha-yz65-yz80-yz85-1993-2023) |
+| Moto-Master | Moto Master Nitro Front Brake Pads Yamaha 65cc-85cc 1993-2027 | 91221-PU | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-nitro-front-brake-pads-yamaha-65cc-85cc-1993-2023) |
+| Moto-Master | Moto Master Nitro Rear Brake Pads Yamaha / Kawasaki 65cc-140cc 1991-2027 | 91421-PU | 24.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-nitro-rear-brake-pads-yamaha-kawasaki-65cc-140cc-1991-2023) |
+| Moto-Master | Moto Master Sinter Pro Racing Rear Brake Pads Yamaha / Kawasaki 65cc-140cc 1988-2027 | 91411-PU | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-sinter-pro-racing-rear-brake-pads-yamaha-kawasaki-65cc-140cc-1988-2023) |
+| Renthal | Renthal RC-1 Works Front Brake Pads Yamaha 65cc-125cc 1993-2027 | BP-109/BP109 | 50.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-rc-1-works-front-brake-pads-yamaha-65cc-125cc-1993-2024) |
+| Renthal | Renthal RC-1 Works Rear Brake Pads Yamaha 65cc-85cc 1993-2027 | BP-110/BP110 | 50.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-rc-1-works-rear-brake-pads-yamaha-65cc-85cc-1993-2024) |
+
+### Chain & Sprocket (15)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Afam Sprockets | AFAM Standard Front Sprocket Yamaha YZ65 | 21108-14 | 13.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/afam-standard-front-sprocket-yamaha-yz65) |
+| Dirt Tricks | Dirt Tricks Steel Rear Sprocket Yamaha YZ65 2018-2027 | YZ65-47-Z-C, YZ65-48-Z-C, YZ65-49-Z-C | 139.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dirt-tricks-steel-rear-sprocket-yamaha-yz65-2018-2023) |
+| Fire Power | Fire Power Aluminum Rear Sprocket Yamaha YZ65 2018-2027 | 671ZB-46, 671ZB-47, 671ZB-48, 671ZK-46, 671ZK-47, 671ZK-48 | 68.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-rear-sprocket-yamaha-yz65-2018-2023) |
+| Fire Power | Fire Power Steel Front Sprocket Yamaha YZ65 2018-2027 (13T and 14T) | MX-03287-13-4, MX-03287-14-4 | 36.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-steel-front-sprocket-yamaha-yz65-2018-2023) |
+| JT Sprockets | JT Sprockets Front Sprocket Yamaha YZ65 2018-2027 | JTF1558.14 | 7.68 USD | [Cycle Gear](https://www.cyclegear.com/parts/jt-sprockets-front-sprocket-yamaha-yz65-2018-2023) |
+| JT Sprockets | JT Sprockets Rear Steel Sprocket Yamaha YZ65 2018-2027 | JTR1798.47 | 24.73 USD | [Cycle Gear](https://www.cyclegear.com/parts/jt-sprockets-rear-steel-sprocket-yamaha-yz65-2018-2023) |
+| Moto-Master | Moto Master Aluminum Rear Sprocket Yamaha YZ65 2018-2027 | 620332246, 620332247, 620332248, 620332446, 620332447, 620332448 | 62.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-aluminum-rear-sprocket-yamaha-yz65-2018-2026) |
+| Moto-Master | Moto Master Front Sprocket Yamaha YZ65 2018-2027 | 610501113, 610501114, 610501115 | 26.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-front-sprocket-yamaha-yz65-2018-2026) |
+| Moto-Master | Moto Master Steel Rear Sprocket Yamaha YZ65 2018-2027 | 620331146, 620331147, 620331148 | 58.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-steel-rear-sprocket-yamaha-yz65-2018-2026) |
+| Pro Taper | Pro Taper Race Spec Front Sprocket Yamaha YZ65 2018-2027 | 038394 | 29.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-race-spec-front-sprocket-yamaha-yz65-2018-2022) |
+| Pro Taper | Pro Taper Race Spec Rear Aluminum Sprocket Yamaha YZ65 2018-2027 | 030027, 030028, 030029 | 89.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-race-spec-rear-aluminum-sprocket-yamaha-yz65-2018-2023) |
+| Renthal | Renthal Grooved Front Sprocket / Off Road Yamaha YZ65 2018-2027 | 506--420-14GP | 39.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-grooved-front-sprocket-off-road-yamaha-yz65-2018-2021) |
+| Renthal | Renthal Ultralight Rear Aluminum Sprocket / Off Road Yamaha YZ65 2018-2027 | 121U-420-47GBBU, 121U-420-47GBSI | 94.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-ultralight-rear-aluminum-sprocket-off-road-yamaha-yz65-2018-2021) |
+| RFX | RFX Pro Elite Aluminum Rear Sprocket Yamaha YZ65 2018-2027 | FXRS 37-46 99BU, FXRS 37-47 99BU, FXRS 37-48 99BU | 79.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-elite-aluminum-rear-sprocket-yamaha-yz65-2018-2026) |
+| RFX | RFX Race Series CS Steel Front Sprocket Yamaha YZ65 2018-2027 | FXFS 37-14 55ST, FXFS 37-15 55ST | 17.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-race-series-cs-steel-front-sprocket-yamaha-yz65-2018-2026) |
+
+### Drive & Transmission (15)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis Chain Guide Yamaha YZ65 2018-2027 | 2726730001 | 29.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-chain-guide-yamaha-yz65-2018-2022) |
+| Acerbis | Acerbis Chain Slider Yamaha YZ65 2018-2027 | 2780430001 | 29.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-chain-slider-yamaha-yz65-2018-2020) |
+| Barnett | Barnett Clutch Drive Plate Yamaha 1987-2027 | 401-90-078045 | 8.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/barnett-clutch-drive-plate-yamaha-1987-2023) |
+| Barnett | Barnett Clutch Kit Yamaha YZ65 / YZ85 2002-2027 | 303-90-10058 | 204.83 USD | [Cycle Gear](https://www.cyclegear.com/parts/barnett-clutch-kit-yamaha-yz65-yz85-2002-2023) |
+| Hinson | Hinson Billetproof Clutch Basket Yamaha YZ65 / YZ85 2002-2027 | H159 | 249.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-billetproof-clutch-basket-yamaha-yz65-yz85-2002-2025) |
+| Hinson | Hinson FSC Clutch Plate / Spring Kit Yamaha YZ65 2018-2027 | FSC361-6-1801 | 199.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-fsc-clutch-plate-spring-kit-yamaha-yz65-2018-2021) |
+| Hinson | Hinson Fiber Clutch Plates Yamaha YZ65 2018-2027 | FP159-6-1801 | 79.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-fiber-clutch-plates-yamaha-yz65-2018-2021) |
+| Hinson | Hinson Steel Clutch Plates Yamaha YZ65 2018-2027 | SP180-5-1801 | 49.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-steel-clutch-plates-yamaha-yz65-2018-2022) |
+| Pro X | Pro X Clutch Basket Yamaha YZ65 / YZ85 2003-2027 | 17.2196F | 256.20 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-clutch-basket-yamaha-yz65-yz85-2003-2025) |
+| Rekluse | Rekluse Clutch Basket Yamaha YZ65 / YZ85 2002-2027 | RMS-4107072 | 329.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-clutch-basket-yamaha-yz65-yz85-2002-2023) |
+| Rekluse | Rekluse Core EXP 3.0 Clutch Kit Yamaha YZ65 / YZ85 2002-2027 | RMS-7772 | 1229.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-core-exp-30-clutch-kit-yamaha-yz65-yz85-2002-2020) |
+| Rekluse | Rekluse Core Manual Clutch Kit Yamaha YZ65 / YZ85 2002-2027 | RMS-7072 | 529.0 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-core-manual-clutch-kit-yamaha-yz65-yz85-2002-2021) |
+| Rekluse | Rekluse Radius X 4.0 Clutch Kit Yamaha YZ65 / YZ85 2002-2027 | RMS-8707072 | 1099.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-radius-x-40-clutch-kit-yamaha-yz65-yz85-2002-2024) |
+| Yamaha | Yamaha GYTR Billet Clutch Basket Yamaha YZ65 / YZ85 2013-2027 | GYT-5PA56-10-01 | 217.79 USD | [Cycle Gear](https://www.cyclegear.com/parts/yamaha-gytr-billet-clutch-basket-yamaha-yz65-yz85-2013-2026) |
+| Yamaha | Yamaha GYTR Billet Clutch Pressure Plate Yamaha YZ65 / YZ85 2009-2027 | GYT-5PA56-20-00 | 161.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/yamaha-gytr-billet-clutch-pressure-plate-yamaha-yz65-yz85-2009-2026) |
+
+### Exhaust (10)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| FMF | FMF Factory Fatty Pipe Yamaha YZ65 2018-2027 | 024069/24069 | 284.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-factory-fatty-pipe-yamaha-yz65-2018-2026) |
+| FMF | FMF Fatty Pipe Yamaha YZ65 2018-2027 | 024068/24068 | 284.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-fatty-pipe-yamaha-yz65-2018-2026) |
+| FMF | FMF Pipe O-Ring Kit KTM / Husqvarna / Gas Gas / Yamaha 65cc-105cc 2006-2027 | 014822/14822 | 12.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-pipe-o-ring-kit-ktm-husqvarna-gas-gas-yamaha-65cc-105cc-2006-2021) |
+| FMF | FMF Powercore 2 Silencer Yamaha YZ65 2018-2027 | 024070/24070 | 189.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-powercore-2-silencer-yamaha-yz65-2018-2026) |
+| FMF | FMF Turbinecore 2 Silencer Yamaha YZ65 2018-2027 | 024071/24071 | 218.49 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-turbinecore-2-silencer-yamaha-yz65-2018-2026) |
+| Pro Circuit | Pro Circuit 304 Silencer Yamaha YZ65 2018-2027 | 1031865 | 195.65 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-304-silencer-yamaha-yz65-2018-2019) |
+| Pro Circuit | Pro Circuit Platinum Pipe Yamaha YZ65 2018-2027 | 831865 | 321.05 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-platinum-pipe-yamaha-yz65-2018-2019) |
+| Pro Circuit | Pro Circuit R-304 Silencer Yamaha YZ65 2018-2027 | 1131865 | 195.97 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-r-304-silencer-yamaha-yz65-2018-2025) |
+| Pro Circuit | Pro Circuit Ti-2 Silencer Yamaha YZ65 2018-2027 | 1131865K | 402.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-ti-2-silencer-yamaha-yz65-2018-2019) |
+| Pro Circuit | Pro Circuit Works Pipe Yamaha YZ 65 2018-2027 | 731865 | 306.80 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-works-pipe-yamaha-yz-65-2018-2019) |
+
+### Handlebars & Controls (17)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Arc Levers | ARC Flex Clutch Lever Yamaha 65cc-450cc 2000-2027 | AC-CL-311-CT, CL-311-B/AC-CL-311-B, CL-311-C/AC-CL-311-C, CL-311/AC-CL-311, CL-S311-B | 78.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-flex-clutch-lever-yamaha-65cc-450cc-2000-2023) |
+| Arc Levers | ARC Flex Front Brake Lever Kawasaki / Suzuki / Yamaha 2000-2027 | AC-BR-301-CT, BR-301-B/AC-BR-301-B, BR-301-C/AC-BR-301-C | 79.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-flex-front-brake-lever-kawasaki-suzuki-yamaha-2000-2024) |
+| Arc Levers | ARC Shorty Flex Clutch Lever Yamaha 65cc-450cc 2000-2027 | AC-CL-S311 | 79.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-shorty-flex-clutch-lever-yamaha-65cc-450cc-2000-2024) |
+| BILT FACTORY | BILT FACTORY Folding Lever Set Yamaha YZ65 / YZ85 | 7266/8262-BLK, 7266/8262/BLU | 99.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bilt-factory-folding-lever-set-yamaha-yz65-yz85) |
+| Enduro Engineering | Enduro Engineering Roost Deflector Mounting Kit Kawasaki / Suzuki / Yamaha  | 53-5220 | 66.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-skid-plate-kawasaki-suzuki-yamaha-65cc-450cc) |
+| Flo Motorsports | Flo Motorsports Pro 160 Clutch Lever Yamaha 65cc-450cc 2009-2027 | CL-722, CL-722B | 87.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-pro-160-clutch-lever-yamaha-65cc-450cc-2009-2023) |
+| Moose Racing | Moose Racing Forged Clutch Lever Yamaha 65cc-450cc 2009-2027 | H07-4922CS | 22.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-forged-clutch-lever-yamaha-65cc-450cc-2009-2023) |
+| Moose Racing | Moose Racing Forged Flex Clutch Lever Yamaha 65cc-450cc 2009-2027 | H07-4912CS | 53.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-forged-flex-clutch-lever-yamaha-65cc-450cc-2009-2024) |
+| Motion Pro | Motion Pro Forged Brake Lever Kawasaki / Suzuki / Yamaha 65cc-450cc 1998-2027 | 14-9329 | 34.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/motion-pro-forged-brake-lever-kawasaki-suzuki-yamaha-65cc-450cc-1998-2026) |
+| Motion Pro | Motion Pro Forged Clutch Lever Yamaha 65cc-450cc 2009-2027 | 14-9546 | 28.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/motion-pro-replacement-clutch-lever-yamaha-65cc-450cc-2009-2026) |
+| Pro Taper | Pro Taper Profile Pro XPS Front Brake Lever Yamaha / Kawasaki / Suzuki / GasGas / Beta 65cc-525cc | 024096 | 134.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-profile-pro-xps-front-brake-lever-yamaha-kawasaki-suzuki-gasgas-beta-65cc-525cc) |
+| Puig | Puig Off Road Brake Lever Yamaha / Kawasaki / Suzuki / GasGas / Beta 65cc-525cc | 20020N | 60.12 USD | [Cycle Gear](https://www.cyclegear.com/parts/puig-off-road-brake-lever-yamaha-kawasaki-suzuki-gasgas-beta-65cc-525cc) |
+| Puig | Puig Off Road Clutch Lever Yamaha 65cc-450cc 2009-2027 | 20010N | 60.12 USD | [Cycle Gear](https://www.cyclegear.com/parts/puig-off-road-clutch-lever-yamaha-65cc-450cc-2009-2024) |
+| Zeta | Zeta Forged Pivot Brake Lever Honda / Yamaha / Suzuki / Kawasaki / Gas Gas / Aprilia / Beta  | ZE41-3662 | 96.88 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-forged-pivot-brake-lever-honda-yamaha-suzuki-kawasaki-gas-gas-aprilia-beta) |
+| Zeta | Zeta Forged Pivot Clutch Lever Yamaha 65cc-450cc 2009-2027 | ZE42-4666 | 87.68 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-forged-pivot-clutch-lever-yamaha-65cc-450cc-2009-2024) |
+| Zeta | Zeta Pivot Brake Lever Honda / Yamaha / Suzuki / Kawasaki / Gas Gas / Aprilia / Beta  | ZE41-3262 | 117.79 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-brake-lever-honda-yamaha-suzuki-kawasaki-gas-gas-aprilia) |
+| Zeta | Zeta Pivot Clutch Lever Yamaha 65cc-450cc 2009-2027 | ZE42-4266 | 106.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-clutch-lever-yamaha-65cc-450cc-2009-2024) |
+
+### Seats (3)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| DCOR | D'COR Visuals Factory Gripper Seat Cover Yamaha YZ65 | 30-50-065, 30-50-066 | 74.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dcor-visuals-factory-gripper-seat-cover-yamaha-yz65) |
+| Factory Effex | Factory Effex All Grip Seat Cover Yamaha YZ65 2018-2027 | 22-24202 | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-all-grip-seat-cover-yamaha-yz65-2018-2019) |
+| RFX | RFX Gripper Seat Cover Yamaha YZ 65 | FXSC 40001 55ST | 76.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-gripper-seat-cover-yamaha-yz-65) |
+
+### Suspension (15)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| All Balls Racing | All Balls Racing Fork Bushing Kit Yamaha YZ65 / YZ80 / YZ85 1993-2027 | 38-6047 | 51.41 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-fork-bushing-kit-yamaha-yz65-yz80-yz85-1993-2022) |
+| All Balls Racing | All Balls Racing Fork Seal Kit Kawasaki / Suzuki / Yamaha | 56-121 | 40.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-fork-seal-kit-kawasaki-suzuki-yamaha) · [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-fork-seal-kit-kawasaki-suzuki-yamaha-) |
+| All Balls Racing | All Balls Racing Steering Bearing Kit Kawasaki / Suzuki / Yamaha 65cc-300cc | 22-1022 | 43.30 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-steering-bearing-kit-kawasaki-suzuki-yamaha-65cc-300cc) |
+| Moose Racing | Moose Racing Fork Rebuild Kit Yamaha YZ65 2019-2025 | 1.19999E+11 | 78.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-fork-rebuild-kit-yamaha-yz65-2019-2022) |
+| Moose Racing | Moose Racing Fork Seal / Wiper Kit Yamaha / Kawasaki 65cc-100cc 1990-2026 | 1.18888E+11 | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-fork-seal-wiper-kit-yamaha-kawasaki-65cc-100cc-1990-2023) |
+| Pivot Works | Pivot Works Fork Rebuild Kit Yamaha YZ65 / YZ85 2004-2026 | PWFFK-Y11-008 | 102.23 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-fork-rebuild-kit-yamaha-yz65-yz85-2004-2022) |
+| Pivot Works | Pivot Works Fork Seal Kit Yamaha / Suzuki / Kawasaki 80cc-100cc | PWFSK-Z014 | 61.37 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-fork-seal-kit-yamaha-suzuki-kawasaki-80cc-100cc) |
+| Pivot Works | Pivot Works Swingarm Bearing Kit Yamaha YZ65 / YZ80 / YZ85 1999-2027 | PWSAK-Y18-008 | 77.31 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-swingarm-bearing-kit-yamaha-yz65-yz80-yz85-1999-2020) |
+| Tamer | Tamer Double Button Holeshot Device Suzuki / Yamaha 65cc-85cc | HH-2511 | 154.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/tamer-double-button-holeshot-device-suzuki-yamaha-65cc-85cc) |
+| Tamer | Tamer Single Button Holeshot Device Suzuki / Yamaha 85cc | HH-201X | 144.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/tamer-single-button-holeshot-device-suzuki-yamaha-85cc) |
+| Tamer | Tamer WDS 2.0 Ring Husqvarna / Suzuki / KTM / Yamaha | HH-07 | 79.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/tamer-wds-20-ring-husqvarna-suzuki-ktm-yamaha) |
+| Works Connection | Works Connection Pro Launch Kit Yamaha YZ65 2018-2027 | 12-G410, 12-K410 | 159.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-pro-launch-kit-yamaha-yz65-2018-2025) |
+| Works Connection | Works Connection Pro Launch Start Device Yamaha YZ65 2018-2027 | 12-410 | 164.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-pro-launch-start-device-yamaha-yz65-2018-2021) |
+| XTrig | XTrig Rocs Tech Triple Clamps Yamaha YZ65 / YZ85 2006-2027 | 501220202001 | 799.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/xtrig-rocs-tech-triple-clamps-yamaha-yz65-yz85-2006-2026) |
+
+### Uncategorised (88)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis Front Fender Yamaha YZ65 2018-2027 | 2726670001, 2726670002, 2726670211 | 29.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-front-fender-yamaha-yz65-2018-2020) |
+| Acerbis | Acerbis Front Number Plate Yamaha YZ65 2018-2027 | 2726660001, 2726660002, 2726660211 | 27.86 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-front-number-plate-yamaha-yz65-2018-2023) |
+| Acerbis | Acerbis Full Plastic Kit Yamaha YZ65 2018-2027 | 2726640001, 2726640002, 2726640211, 2726646345, 2726647118, 2726647705 | 174.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-full-plastic-kit-yamaha-yz65-2018-2022) |
+| Acerbis | Acerbis Lower Fork Covers Yamaha YZ65 2018-2027 | 2726680001, 2726680002, 2726680114, 2726680211 | 35.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-lower-fork-covers-yamaha-yz65-2018-2020) |
+| Acerbis | Acerbis Mud Flap Yamaha YZ65 2018-2027 | 2726720001 | 29.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-mud-flap-yamaha-yz65-2018-2020) |
+| Acerbis | Acerbis Radiator Shrouds Yamaha YZ65 2018-2027 | 2726690001, 2726690002, 2726690211 | 47.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-radiator-shrouds-yamaha-yz65-2018-2020) |
+| Acerbis | Acerbis Rear Fender Yamaha YZ65 2018-2027 | 2726710001, 2726710002, 2726710211 | 29.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-rear-fender-yamaha-yz65-2018-2020) |
+| Acerbis | Acerbis Side Panels Yamaha YZ65 2018-2027 | 2726700001, 2726700002, 2726700211, 2726701034, 2726701035 | 47.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-side-panels-yamaha-yz65-2018-2020) |
+| Acerbis | Acerbis Standard Plastic Kit Yamaha YZ65 2018-2027 | 2726650001, 2726650002, 2726650211, 2726656345, 2726657118 | 142.16 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-standard-plastic-kit-yamaha-yz65-2018-2020) |
+| All Balls Racing | All Balls Racing Counter Shaft Seal Kit Yamaha YZ65 / YZ85 / YZ125 1987-2027 | 25-4024 | 23.23 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-counter-shaft-seal-kit-yamaha-yz65-yz85-yz125-1987-2019) |
+| All Balls Racing | All Balls Racing Rear Wheel Bearing Kit Suzuki / Yamaha 80cc-85cc 1990-2027 | 25-1168 | 17.38 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-rear-wheel-bearing-kit-suzuki-yamaha-80cc-85cc-1990-2023) · [Cycle Gear](https://www.cyclegear.com/parts/all-balls-wheel-bearing-and-seal-kit-suzuki-yamaha) |
+| All Balls Racing | All Balls Racing Rear Wheel Spacers Yamaha 65cc-85cc | 11-1076 | 32.65 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-rear-wheel-spacers-yamaha-65cc-85cc) |
+| Athena | Athena Top End Race Gasket Kit Yamaha YZ65 2018-2027 | R4856-198 | 27.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/athena-top-end-race-gasket-kit-yamaha-yz65-2018-2025) |
+| Athena | Athena Water Pump Gasket Kit Yamaha YZ65 / YZ85 / YZ85 Big Wheel 2018-2027 | P400485475013 | 39.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/athena-water-pump-gasket-kit-yamaha-yz65-yz85-yz85-big-wheel-2018-2025) |
+| BILT FACTORY | BILT FACTORY MX Foot Pegs Yamaha / Fantic 85cc-450cc 1999-2027 | TRS793A, TRS793B | 89.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bilt-factory-mx-foot-pegs-yamaha-85cc-450cc-1999-2025) |
+| Bolt Hardware | Bolt Hardware Engine Fastener Kit Yamaha YZ65 / YZ80 / YZ85 1993-2027 | E-Y8-9320 | 39.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bolt-hardware-engine-fastener-kit-yamaha-yz65-yz80-yz85-1993-2020) |
+| Bolt Hardware | Bolt Hardware Full Plastics Fastener Kit Yamaha YZ65 2018-2027 | YAM-180065 | 24.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bolt-hardware-full-plastics-fastener-kit-yamaha-yz65-2018-2024) |
+| Boyesen | Boyesen Clutch Cover Gasket Yamaha YZ65 / YZ85 2002-2026 | CCG-30 | 7.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/boyesen-clutch-cover-gasket-yamaha-yz65-yz85-2002-2024) |
+| Boyesen | Boyesen Pro Series Reeds Yamaha YZ65 / YZ85 2002-2027 | PRO-165 | 52.16 USD | [Cycle Gear](https://www.cyclegear.com/parts/boyesen-pro-series-reeds-yamaha-yz65-yz85-2002-2023) |
+| DRC | DRC Footpeg Pin And Spring Kit Yamaha / Fantic / Gas Gas 65cc-700cc 1997-2027 | D48-01-110 | 24.94 USD | [Cycle Gear](https://www.cyclegear.com/parts/drc-footpeg-pin-and-spring-kit-yamaha-gas-gas-65cc-700cc-1997-2024) |
+| DRC | DRC Ultra Wide Steel Footpegs Yamaha / Fantic / Gas Gas 65cc-700cc 1997-2027 | Z48-02-806 | 92.70 USD | [Cycle Gear](https://www.cyclegear.com/parts/drc-ultra-wide-steel-footpegs-yamaha-gas-gas-65cc-700cc-1997-2024) |
+| DRC | DRC Wide Steel Footpegs Yamaha / Fantic / Gas Gas 65cc-700cc 1997-2027 | Z48-02-506 | 88.27 USD | [Cycle Gear](https://www.cyclegear.com/parts/drc-wide-steel-footpegs-yamaha-gas-gas-65cc-700cc-1997-2025) |
+| Factory Links | Factory Links Front Wheel Bearing Kit Yamaha YZ65 / YZ85 / YZ85 LW 2018-2027 | FWK-Y-079 | 20.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-links-front-wheel-bearing-kit-yamaha-yz65-yz85-yz85-lw-2018-2024) |
+| Factory Links | Factory Links Rear Wheel Bearing Kit Yamaha 65cc-85cc 1990-2027 | RWK-Y-164 | 20.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-links-rear-wheel-bearing-kit-yamaha-65cc-85cc-1990-2024) |
+| Fire Power | Fire Power Gator Footpegs Yamaha / Fantic / Gas Gas 65cc-450cc 1997-2027 (Standard) | 568-9040, 568-9040X | 139.49 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-gator-footpegs-yamaha-gas-gas-65cc-450cc-1997-2024) |
+| Flo Motorsports | Flo Motorsports Adventure / Snow Bike Foot Pegs Yamaha / Fantic / Sherco 85cc-450cc 1999-2027 | SPEG-793BLU | 264.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-adventure-snow-bike-foot-pegs-yamaha-sherco-85cc-450cc-1999-2023) |
+| Flo Motorsports | Flo Motorsports Pro Series Foot Pegs Yamaha / Fantic / Sherco 85cc-450cc 1999-2027 | FPEG-793-JET, FPEG-793BLK, FPEG-793BLU, FPEG-793CR, LOW-793S | 167.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-pro-series-foot-pegs-yamaha-sherco-85cc-450cc-1999-2023) |
+| Flo Motorsports | Flo Motorsports Stainless Steel Foot Pegs Yamaha 65cc-450cc 1999-2027 | SS-793 | 139.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-stainless-steel-foot-pegs-yamaha-65cc-450cc-1999-2023) |
+| Flo Motorsports | Flo Motorsports Titanium Foot Pegs Yamaha / Fantic 65cc-450cc 1999-2027 | TI-793JET | 389.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-titanium-foot-pegs-yamaha-65cc-450cc-1999-2023) |
+| Moose Racing | Moose Racing Clutch Cable Yamaha YZ65 2018-2027 | 45-2146 | 14.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-clutch-cable-yamaha-yz65-2018-2022) |
+| Moose Racing | Moose Racing Clutch Cover Gasket Yamaha YZ65 / YZ85 2002-2027 | 816516MSE | 5.05 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-clutch-cover-gasket-yamaha-yz65-yz85-2002-2021) |
+| Moose Racing | Moose Racing Complete Motor Gasket Kit Yamaha YZ65 2018-2027 | 8110008MSE | 73.20 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-complete-motor-gasket-kit-yamaha-yz65-2018-2022) |
+| Moose Racing | Moose Racing Forged Shift Lever Yamaha YZ65 2018-2027 | 81-0230-02-20, 81-0230-06-20 | 44.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-forged-shift-lever-yamaha-yz65-2018-2022) |
+| Moose Racing | Moose Racing Hybrid Footpegs Yamaha / Fantic / Gas Gas 65cc-450cc 1997-2027 | STYZ-5, STYZ-5B | 218.83 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-hybrid-footpegs-yamaha-gas-gas-65cc-450cc-1997-2025) |
+| Moose Racing | Moose Racing Ignition Cover Gasket Yamaha YZ65 / YZ85 2002-2027 | 816517MSE | 5.29 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-ignition-cover-gasket-yamaha-yz65-yz85-2002-2021) |
+| Moose Racing | Moose Racing ND Series Footpegs Yamaha / Fantic / Gas Gas 65cc-450cc 1997-2027 | NDYZ-5, NDYZ-5B | 214.86 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-nd-series-footpegs-yamaha-gas-gas-65cc-450cc-1997-2024) |
+| Moose Racing | Moose Racing Petcock Rebuild Kit Yamaha 65cc-450cc | 60-1000 | 19.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-petcock-rebuild-kit-yamaha-65cc-450cc) |
+| Moose Racing | Moose Racing Pro Footpegs Yamaha / Fantic / Gas Gas 65cc-450cc 1997-2027 | NRYZ-5, NRYZ-5B | 225.70 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-pro-footpegs-yamaha-gas-gas-65cc-450cc-1997-2023) |
+| Moose Racing | Moose Racing Radiator Hose Clamp Kit Yamaha YZ65 2018-2027  | CK-YAM-89 | 21.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-radiator-hose-clamp-kit-yamaha-yz65-2018-2025) |
+| Moose Racing | Moose Racing Stainless Steel Braided Front Brake Line Yamaha YZ65 2018-2027 | Y01-1-076/P | 78.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-stainless-steel-braided-front-brake-line-yamaha-yz65-2018-2025) |
+| Moose Racing | Moose Racing Throttle Cable Yamaha YZ65 2018-2027 | 45-1269 | 15.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-throttle-cable-yamaha-yz65-2018-2020) |
+| Motion Pro | Motion Pro Clutch Cable Yamaha YZ65 2020-2027 | 05-0439 | 15.69 USD | [Cycle Gear](https://www.cyclegear.com/parts/motion-pro-clutch-cable-yamaha-yz65-2020-2026) |
+| Motion Pro | Motion Pro Vinyl Throttle Cable Yamaha YZ65 2020-2027 | 05-0440 | 14.49 USD | [Cycle Gear](https://www.cyclegear.com/parts/motion-pro-vinyl-throttle-cable-yamaha-yz65-2020-2026) |
+| Moto Tassinari | V Force 4 Reed Valve Gasket Yamaha YZ65 2018-2027 | G482 | 6.50 USD | [Cycle Gear](https://www.cyclegear.com/parts/v-force-4-reed-valve-gasket-yamaha-yz65-2018-2021) |
+| Moto Tassinari | V Force 4 Reed Valve System Yamaha YZ65 2018-2027 | V4R82B-I | 209.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/v-force-4-reed-valve-system-yamaha-yz65-2018-2022) |
+| Moto Tassinari | V Force 4R Replacement Reeds Honda / Yamaha / Husqvarna / KTM 65cc-105cc 1980-2027 | 4PR461M | 65.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/v-force-4r-replacement-reeds-honda-yamaha-husqvarna-ktm-65cc-105cc-1980-2023) |
+| No Toil | No Toil Bike Wash Kit Yamaha YZ65 2018-2027 | WK18007 | 39.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-bike-wash-kit-yamaha-yz65-2018-2026) |
+| ODI | ODI V2 Throttle Cam Yamaha 65cc-500cc 1983-2027 | H70SCP | 4.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/odi-v2-throttle-cam-yamaha-65cc-500cc-1983-2024) |
+| Pivot Works | Pivot Works Front Wheel Bearing Kit Kawasaki / Yamaha 65cc-125cc 2018-2027 | PWFWK-Y59-000 | 28.69 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-front-wheel-bearing-kit-kawasaki-yamaha-65cc-125cc-2018-2022) |
+| Pivot Works | Pivot Works Rear Wheel Bearing Kit Yamaha YZ65 / YZ80 / YZ85 1993-2027 | PWRWK-Y25-008 | 30.85 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-rear-wheel-bearing-kit-yamaha-yz65-yz80-yz85-1993-2020) |
+| Polisport | Polisport Fork Guards Yamaha YZ65 2018-2027 | 8399800001, 8399800002 | 35.07 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-fork-guards-yamaha-yz65-2019-2023) |
+| Polisport | Polisport MX Body Kit Yamaha YZ65 2018-2027 | 91341, 91342 | 164.68 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-mx-body-kit-yamaha-yz65-2018-2023) |
+| Polisport | Polisport Radiator Shrouds Yamaha YZ65 2018-2027 | 8497500001, 8497500002 | 50.39 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-radiator-shrouds-yamaha-yz65-2018-2023) |
+| Polisport | Polisport Rear Fender Yamaha YZ65 2018-2027 | 8687000001, 8687000002 | 33.29 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-rear-fender-yamaha-yz65-2018-2023) |
+| Polisport | Polisport Side Panels Yamaha YZ65 2018-2027 | 8497600001, 8497600002 | 53.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-side-panels-yamaha-yz65-2018-2023) |
+| Pro Taper | Pro Taper 2.3 Platform Footpegs Yamaha / Fantic / Gas Gas 65cc-450cc 1997-2027 | 023204 | 299.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-23-platform-footpegs-yamaha-gas-gas-65cc-450cc-1997-2024) |
+| Pro Taper | Pro Taper Footpeg Hardware Kit Suzuki / Yamaha 1997-2027 | 023212 | 13.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-footpeg-hardware-kit-suzuki-yamaha-1997-2019) |
+| Pro X | Pro X Complete Gasket Kit Yamaha YZ65 2018-2027 | 34.2018 | 80.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-complete-gasket-kit-complete-yamaha-yz65-2018-2025) |
+| Pro X | Pro X Crankshaft Bearing And Seal Kit Yamaha YZ65 / YZ85 2018-2027 | 23.CBS20018 | 70.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-crankshaft-bearing-and-seal-kit-yamaha-yz65-yz85-2018-2022) |
+| Pro X | Pro X Forged Piston Kit Yamaha YZ65 2018-2027 | 01.2018.A, 01.2018.B, 01.2018.C | 88.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-forged-piston-kit-yamaha-yz65-2018-2022) |
+| Pro X | Pro X Top End Gasket Kit Yamaha YZ65 2018-2027 | 35.2018 | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-top-end-gasket-kit-yamaha-yz65-2018-2025) |
+| Rekluse | Rekluse Left Hand Rear Brake Kit Yamaha / Fantic 125cc-450cc 2009-2027 | RMS-5300004 | 529.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-left-hand-rear-brake-kit-yamaha-125cc-450cc-2009-2021) |
+| Rekluse | Rekluse Standard Clutch Cover Yamaha YZ65 / YZ85 2002-2027 | RMS-372 | 229.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-standard-clutch-cover-yamaha-yz65-yz85-2002-2023) |
+| Renthal | Renthal Bar Mounts 1-1/8" Honda / Kawaski / Suzuki / Yamaha | CL001 | 89.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-bar-mounts-1-18-honda-kawaski-suzuki-yamaha) |
+| RFX | RFX Factory Titanium Footpegs Yamaha | FXFR 40100 GPTI | 299.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-factory-titanium-footpegs-yamaha) |
+| RFX | RFX Oil Filler Plug Yamaha 65cc-450cc | FXOP 40100 99BU, FXOP 40100 99H2 | 15.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-oil-filler-plug-yamaha-65cc-450cc) |
+| RFX | RFX Pro Aluminum Footpegs Yamaha 65cc-450cc | FXFR 40100 99BU | 159.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-aluminum-footpegs-yamaha-65cc-450cc) |
+| RFX | RFX Pro Solid Tip Rear Brake Pedal Yamaha YZ65 / YZ85 | FXRB 40301 99BU | 109.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-solid-tip-rear-brake-pedal-yamaha-yz65-yz85) |
+| RFX | RFX Pro Titanium/Aluminum Footpegs Yamaha 65cc-450cc | FXFR 40100 99TA | 239.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-titaniumaluminum-footpegs-yamaha-65cc-450cc) |
+| RFX | RFX Race Shift Lever Yamaha YZ65 | FXGP 40900 55BU, FXGP 40900 55SV | 43.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-race-shift-lever-yamaha-yz65) |
+| RFX | RFX Track Pack Yamaha 65cc-450cc | FXBK 40600 55SV | 24.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-track-pack-yamaha-65cc-450cc) |
+| Shindy | Shindy Carburetor Repair Kit Yamaha YZ65 2018-2027 | 1003-2078 | 56.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/shindy-carburetor-repair-kit-yamaha-yz65-2018-2022) |
+| Twin Air | Twin Air Air Box Cover Yamaha YZ65 2018-2027 | 160119 | 45.55 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-air-box-cover-yamaha-yz65-2018-2021) |
+| UFO | UFO Fork Guards Yamaha YZ65 2019-2025 | YA04870001, YA04870046, YA04870089 | 34.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-fork-guards-yamaha-yz65-2019-2023) |
+| UFO | UFO Front Fender Yamaha YZ65 2019-2025 | YA04865-001/YA04865001, YA04865-046/YA04865046, YA04865-089/YA04865089 | 25.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-front-fender-yamaha-yz65-2019-2023) |
+| UFO | UFO Front Number Plate Yamaha YZ65 / YZ85 2015-2026 | YA04869-001/YA04869001, YA04869-046/YA04869046, YA04869-089/YA04869089 | 28.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-front-number-plate-yamaha-yz65-yz85-2015-2023) |
+| UFO | UFO Plastic Kit Yamaha YZ65 2018-2027 | YAKIT322-001, YAKIT322-046, YAKIT322-089, YAKIT322-999 | 130.63 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-plastic-kit-yamaha-yz65-2019-2023) |
+| UFO | UFO Radiator Shrouds Yamaha YZ65 2019-2025 | YA04867-001/YA04867001, YA04867046, YA04867089 | 48.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-radiator-shrouds-yamaha-yz65-2019-2023) |
+| Vertex | Vertex Cast 2-Stroke Piston Kit Yamaha YZ65 2020-2023 | VTK24352A, VTK24352B, VTK24352C | 158.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-cast-2-stroke-piston-kit-yamaha-yz65-2020-2023) |
+| Vertex | Vertex Complete Gasket Set With Oil Seals Yamaha YZ65 2018-2027 | 8110008 | 71.13 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-complete-gasket-set-with-oil-seals-yamaha-yz65-2018-2023) |
+| Vertex | Vertex Top End Gasket Kit Yamaha YZ65 2018-2027 | 8100008 | 24.15 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-top-end-gasket-kit-yamaha-yz65-2018-2022) |
+| Zeta | Zeta Aluminum Footpegs Yamaha / Fantic / Gas Gas 65cc-450cc 1997-2027 | ZE93-1620, ZE93-1623 | 202.31 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-aluminum-footpegs-yamaha-gas-gas-65cc-450cc-1997-2025) |
+| Zeta | Zeta Fork Guard Bolt Kit Yamaha YZ / YZ-F / YZ-FX / YZ-X | ZE88-9406 | 13.73 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-fork-guard-bolt-kit-yamaha-yz-yz-f-yz-fx-yz-x) |
+| Zeta | Zeta Magnetic Oil Drain Bolt Yamaha / Suzuki | ZE58-1222, ZE58-1223 | 13.67 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-magnetic-oil-drain-bolt-yamaha-wr-yz-f-fx) |
+| Zeta | Zeta Max Footpegs Yamaha / Fantic 85cc-450cc 1999-2027 | ZE93-2630, ZE93-2635 | 122.33 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-max-footpegs-yamaha-fantic-85cc-450cc-1999-2027) |
+| Zeta | Zeta Oil Filler Plug Honda / Kawasaki / Yamaha | ZE89-2110, ZE89-2111, ZE89-2112 | 18.75 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-oil-filler-plug-honda-kawasaki-yamaha) |
+| Zeta | Zeta Steering Stem Nut Yamaha YZ65 / YZ85 | ZE58-2022, ZE58-2023 | 19.90 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-steering-stem-nut-yamaha-yz65-yz85) |
+
+## Universal retailer listings (counted only)
+
+Uncategorised 383, Handlebars & Controls 270, Chain & Sprocket 162, Exhaust 100, Air & Fuel 53, Batteries & Electrical 44, Lighting 40, Utv / Atv Parts 36, Gauges 36, Bike Protection 33, Suspension 28, Body & Fairing 9, Drive & Transmission 7, Filters 5, Tire Accessories 1
+
+Top brands: Pro Taper 77, Acerbis 64, Bolt Hardware 62, Cycra 61, Moose Racing 60, Renthal 50, ODI 47, Zeta 47, Fire Power 39, RK 36, Helix Racing Products 35, Barkbusters 34, RFX 30, Factory Effex 26, FMF 26, Namz 25, Motion Pro 24, Polisport 23, EK Chain 22, K&N 22, Koso 19, Motolis 19, DID Chain 15, Pro Grip 14, BBR Motorsports 13
 

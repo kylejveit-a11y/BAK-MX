@@ -35,6 +35,9 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
       Honda's 10-25 mm free-sag range as one number. Now strict, range-aware, and gives no target when standard rows disagree
       (shared/suspension-physics.ts). Checked: Honda CRF450R 2027's 95 mm and 100 mm rows are the standard and Works Edition variants, not a conflict.
 - [ ] Published kit data where the maker posts it (WP, Rekluse).
+- [x] 2026-11-19: retailer parts back-fill loaded. The 441 bike-years the Cycle Gear read had missed (47 of them list nothing there)
+      and 2,885 product pages not read before are in docs/research/aftermarket/*/cg-backfill-2026-11.json; app catalogs rebuilt.
+      Bikes with under 100 parts: 27 -> 14 (all GasGas EC enduro models).
 
 ## 4. Track details (221 tracks: 130 low confidence, 207 with listed gaps; 11 riding areas without soil/layout)
 - [ ] Raise low-confidence tracks from official pages, most-used states first (FL, GA, AL, NC, SC, TN).
@@ -58,4 +61,4 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
   (widgets, colours, measurements and the rest) asked as a few plain-worded questions, each answer setting the group of
   related settings behind it. Front-end work; start after the data checklist above is finished.
 - Monetisation proposal (report dated 2026-11-19: affiliate parts links, banner ads on the free tier, ad-free Plus at $7.99).
-  Reviewed in chat the same day; no decision yet.
+  Reviewed in chat the same day. Kyle likes the affiliate links; researching retailer programs next. Banners and Plus: no decision.

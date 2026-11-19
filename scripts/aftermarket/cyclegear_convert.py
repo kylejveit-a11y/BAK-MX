@@ -1,6 +1,8 @@
 """Cycle Gear crawl output -> aftermarket research records (one per product), for build_catalog.py.
 
-usage: cyclegear_convert.py <crawl out dir> <make,make,...> <out.json>
+usage: cyclegear_convert.py <crawl out dir> <make,make,...> <out.json> [research root]
+With a research root (docs/research/aftermarket), a product whose page was not read in this crawl (a back-fill skips pages
+read earlier) borrows its page-derived fields from the earlier record of the same product in any family.
 Fitment = every bike-year listing (the retailer's own "Parts for <year> <make> <model>" page) the product appears on.
 Part numbers = the manufacturer product number of each style on the product page (empty until the product page is read).
 Category = the product page's breadcrumb (first level "Motorcycle Parts" dropped). Fitment notes are kept as caveats.
@@ -14,14 +16,20 @@ fam_of=collections.defaultdict(set)  # make families (KTM group, Triumph, Yamaha
 for f in glob.glob(os.path.join(cdir,'bikes','*.json')):
     b=json.load(open(f))
     for p in b['products']: fam_of[p['slug']].add(FAMILY.get(b['make'],b['make']))
-fits=collections.defaultdict(lambda:collections.defaultdict(set)); tile={}; bikes=0
+fits=collections.defaultdict(lambda:collections.defaultdict(set)); tile={}; bikes=0; dates=[]
 for f in glob.glob(os.path.join(cdir,'bikes','*.json')):
     b=json.load(open(f))
     if b['make'] not in makes: continue
-    bikes+=1
+    bikes+=1; dates.append(b.get('retrieved') or '')
     for p in b['products']:
         fits[p['slug']][(b['make'],b['model'])].add(b['year']); tile.setdefault(p['slug'],p)
-recs=[];read=0
+prior={}
+if len(sys.argv)>4:
+    for f in glob.glob(os.path.join(sys.argv[4],'*','cg-*.json')):
+        if os.path.abspath(f)==os.path.abspath(out_f): continue
+        for r in json.load(open(f))['products']:
+            if r.get('category')!='Uncategorised' or r['id'] not in prior: prior[r['id']]=r
+recs=[];read=0;borrowed=0
 for slug,by in fits.items():
     t=tile[slug]; pf=os.path.join(cdir,'products',slug+'.json')
     pg=json.load(open(pf)) if os.path.exists(pf) else {}
@@ -42,7 +50,14 @@ for slug,by in fits.items():
         'supporting_parts':'','where_to_buy':[{'seller':'Cycle Gear','url':url,'price_if_stated':(t.get('price') or '').replace(',','') or None,'currency':'USD','date':pg.get('retrieved') or '2026-10-14'}],
         'rider_feedback':fb,'caveats':(('Retailer fitment notes: '+pg['fitment_notes'][:300]+' ') if pg.get('fitment_notes') else '')+'Fitment as listed by the retailer.',
         'confidence':'medium','listed_families':len(fam_of[slug])})
+    old=prior.get(recs[-1]['id'])
+    if old:
+        recs[-1]['listed_families']=max(recs[-1]['listed_families'],old.get('listed_families',1))
+        if not pg:
+            borrowed+=1
+            for k in ('category','subcategory','brand','part_numbers','variants','what_it_changes','rider_feedback'): recs[-1][k]=old.get(k,recs[-1][k])
+            if old.get('caveats'): recs[-1]['caveats']=old['caveats']
 json.dump({'slice':'Cycle Gear retailer catalog (every brand listed for each bike-year)','source':'https://www.cyclegear.com (server-rendered bike and product pages)',
-    'retrieved':'2026-10-14','bikes_read':bikes,'products':recs},open(out_f,'w'))
+    'retrieved':max(dates) if dates and max(dates) else '2026-10-14','bikes_read':bikes,'products':recs},open(out_f,'w'))
 c=collections.Counter(r['brand'] for r in recs)
-print(bikes,'bikes;',len(recs),'products;',read,'product pages read;',sum(1 for r in recs if r['part_numbers']),'with part numbers;',len(c),'brands')
+print(bikes,'bikes;',len(recs),'products;',read,'product pages read;',sum(1 for r in recs if r['part_numbers']),'with part numbers;',len(c),'brands;',borrowed,'borrowed from earlier records;',sum(1 for r in recs if r['category']=='Uncategorised'),'uncategorised')

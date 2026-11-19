@@ -11798,21 +11798,27 @@
 "research": 120
 },
 "Kawasaki|KX250|2014": {
+"Cycle Gear": 1647,
 "research": 105
 },
 "Kawasaki|KX250|2015": {
+"Cycle Gear": 1651,
 "research": 106
 },
 "Kawasaki|KX250|2016": {
+"Cycle Gear": 1650,
 "research": 107
 },
 "Kawasaki|KX250|2017": {
+"Cycle Gear": 1655,
 "research": 115
 },
 "Kawasaki|KX250|2018": {
+"Cycle Gear": 1638,
 "research": 114
 },
 "Kawasaki|KX250|2019": {
+"Cycle Gear": 1564,
 "research": 114
 },
 "Kawasaki|KX250|2020": {
@@ -11847,7 +11853,7 @@
 },
 "Kawasaki|KX250|2026": {
 "research": 480,
-"Cycle Gear": 47,
+"Cycle Gear": 1419,
 "MotoSport": 2706
 },
 "Kawasaki|KX250X|2021": {
@@ -11881,21 +11887,27 @@
 "MotoSport": 2716
 },
 "Kawasaki|KX450|2014": {
+"Cycle Gear": 1639,
 "research": 100
 },
 "Kawasaki|KX450|2015": {
+"Cycle Gear": 1637,
 "research": 100
 },
 "Kawasaki|KX450|2016": {
+"Cycle Gear": 1660,
 "research": 116
 },
 "Kawasaki|KX450|2017": {
+"Cycle Gear": 1661,
 "research": 117
 },
 "Kawasaki|KX450|2018": {
+"Cycle Gear": 1644,
 "research": 116
 },
 "Kawasaki|KX450|2019": {
+"Cycle Gear": 1500,
 "research": 132
 },
 "Kawasaki|KX450|2020": {
@@ -12000,6 +12012,7 @@
 "research": 218
 },
 "Kawasaki|KX85|2021": {
+"Cycle Gear": 1432,
 "research": 214
 },
 "Kawasaki|KX85|2022": {
@@ -14777,6 +14790,7 @@
 "kx5f-011": [],
 "kx5f-012": [],
 "kx5f-013": [
+"cg-fmf-megabomb-header-kawasaki-kx450-x-sr-2019-2023",
 "cg-fmf-factory-41-rct-exhaust-system-kawasaki-kx450-2024",
 "cg-fmf-factory-41-rct-slip-on-exhaust-kawasaki-kx450-x-sr-2019-2022",
 "cg-fmf-megabomb-header-kawasaki-kx450-x-sr-2019-2023",
@@ -14837,11 +14851,13 @@
 "jf6-013": [],
 "jf6-014": [
 "cg-pro-circuit-replacement-muffler-stickers",
+"cg-pro-circuit-replacement-muffler-stickers",
 "kx6-017"
 ],
 "jf6-015": [],
 "jf6-016": [],
 "jf6-017": [
+"cg-pro-circuit-axle-blocks-kawasaki-kx250f-kx250-kx450f-kx450-2016-2023",
 "cg-pro-circuit-axle-blocks-kawasaki-kx250f-kx250-kx450f-kx450-2016-2023",
 "kxr-023",
 "kxr-024",
@@ -15008,15 +15024,24 @@
 "jf6-086": [],
 "jf6-087": [],
 "jf6-088": [
+"cg-pro-circuit-ti-5-ti-6-replacement-carbon-fiber-end-cap",
+"cg-pro-circuit-stainless-steel-replacement-end-cap-2007-2015",
 "kxr-004",
 "ms-pro-circuit-ti5-carbon-end-cap"
 ],
 "jf6-089": [
+"cg-hinson-billetproof-clutch-basket-kawasaki-kx450f-klx450f-2006-2017",
 "cg-hinson-complete-billetproof-conventional-clutch-kit-kawasaki-kx450-kx450x-2021-2022",
 "cg-hinson-billetproof-clutch-basket-kawasaki-kx450-2021-2022",
 "en4-154"
 ],
 "jf6-090": [
+"cg-rekluse-core-manual-torq-drive-clutch-kit-kawasaki-kx450f-2016-2018",
+"cg-rekluse-torq-drive-clutch-pack-kawasaki-kx450f-kx450-2016-2020",
+"cg-rekluse-core-manual-clutch-kit-kawasaki-kx450r-klx450r-2006-2018",
+"cg-rekluse-standard-clutch-cover-kawasaki-kx450f-klx450r-kfx450r-2006-2015",
+"cg-rekluse-core-manual-torq-drive-clutch-kit-kawasaki-kx450f-2006-2015",
+"cg-rekluse-torq-drive-clutch-pack-kawasaki-kx450f-klx450r-kfx450r-2006-2015",
 "cg-rekluse-standard-clutch-cover-kawasaki-kx450f-kx450x-2021-2023",
 "cg-rekluse-core-manual-torq-drive-clutch-kit-kawasaki-kx450-kx450x-2021-2022",
 "cg-rekluse-torq-drive-clutch-pack-kawasaki-kx450-kx450x-2021-2022",
@@ -15069,6 +15094,11 @@
 "jf6-108": [],
 "jf6-109": [],
 "jf6-110": [
+"cg-twin-air-factory-pre-oiled-air-filter-kawasaki-kx250f-kx450f-2016-2019",
+"cg-twin-air-powerflow-backfire-air-filter-kawasaki-kx250-kx250f-kx450f-2016-2020",
+"cg-twin-air-factory-pre-oiled-air-filter-kawasaki-kx250f-kx450f-2006-2016",
+"cg-twin-air-powerflow-backfire-air-filter-kawasaki-kx250f-kx450f-2006-2016",
+"cg-twin-air-powerflow-backfire-pre-oiled-air-filter-kawasaki-kx250f-kx450f-2006-2016",
 "cg-twin-air-factory-pre-oiled-air-filter-kawasaki-kx250-kx450-x-sr-2019-2022",
 "cg-twin-air-powerflow-backfire-air-filter-kawasaki-kx450-x-sr-2019-2023",
 "cg-twin-air-powerflow-backfire-pre-oiled-air-filter-kawasaki-kx450-x-sr-2019-2023",
@@ -15084,6 +15114,23 @@
 "ss-021"
 ],
 "jf6-113": [
+"cg-bolt-hardware-track-pack-yamaha-yz-yzf",
+"cg-bolt-hardware-locking-axle-nut-and-washer",
+"cg-bolt-hardware-bolt-track-pack-kaw-",
+"cg-bolt-hardware-chain-adjuster-nut-and-bolt-assembly",
+"cg-bolt-hardware-euro-clip-nuts",
+"cg-bolt-hardware-crf-track-pack-2",
+"cg-bolt-hardware-euro-track-pack",
+"cg-bolt-hardware-windscreen-rubber-well-nuts",
+"cg-bolt-hardware-track-pack-stacyc-e-bikes",
+"cg-bolt-hardware-track-pack-gas-gas",
+"cg-bolt-hardware-sems-hex-head-flange-nuts-with-fender-washers",
+"cg-bolt-hardware-2-stroke-cylinder-head-nut-kit",
+"cg-bolt-hardware-husqvarna-track-pack",
+"cg-bolt-hardware-japanese-track-pack",
+"cg-bolt-hardware-t-nuts",
+"cg-bolt-hardware-euro-style-sub-frame-bolts",
+"cg-bolt-hardware-euro-flange-shoulder-bolts",
 "cg-bolt-hardware-rear-fender-perma-nuts-kawasaki-kx250-kx450-2019-2023",
 "cg-bolt-hardware-euro-track-pack",
 "cg-bolt-hardware-track-pack-yamaha-yz-yzf",
@@ -15129,6 +15176,16 @@
 "jf6-120": [],
 "jf6-121": [],
 "jf6-122": [
+"cg-twin-air-air-filter-kawasaki-kx250-kx250f-kx450f-2016-2020",
+"cg-twin-air-fuel-filter-kawasaki-kx250-kx450-f-x-sr-2009-2022",
+"cg-twin-air-powerflow-backfire-air-filter-kawasaki-kx250-kx250f-kx450f-2016-2020",
+"cg-twin-air-air-filter-kawasaki-kx250-x-kx450-x-2024-2026",
+"cg-twin-air-powerflow-kit-kawasaki-kx250-kx250x-2025-2026",
+"cg-twin-air-powerflow-backfire-pre-oiled-air-filter-kawasaki-kx250f-kx250x-2025-2026",
+"cg-twin-air-powerflow-air-filter-kawasaki-kx250-kx250x-2025-2026",
+"cg-twin-air-powerflow-backfire-air-filter-kawasaki-kx250f-kx450f-2006-2016",
+"cg-twin-air-powerflow-backfire-pre-oiled-air-filter-kawasaki-kx250f-kx450f-2006-2016",
+"cg-twin-air-billet-air-filter-bolt-suzuki-kawasaki-yamaha-125cc-450cc-2000-2020",
 "cg-twin-air-powerflow-backfire-pre-oiled-air-filter-kawasaki-kx250-x-2021-2023",
 "cg-twin-air-air-filter-kawasaki-kx250-kx450-x-sr-2019-2024",
 "cg-twin-air-powerflow-kit-kawasaki-kx250-x-2021-2024",

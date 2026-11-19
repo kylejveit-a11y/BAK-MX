@@ -1,6 +1,6 @@
 # Husqvarna TC 65 2020: aftermarket parts
 
-132 listings whose stated fitment names this bike: 132 researched parts (with what they change and rider findings), 0 dealer and retailer listings specific to this bike, and 0 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1501 listings whose stated fitment names this bike: 132 researched parts (with what they change and rider findings), 165 dealer and retailer listings specific to this bike, and 1204 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -138,4 +138,234 @@
 | WP | XACT PRO 7500 Cone Valve cartridge kit (65 cc) | AP09C103V001220 | WP: Cone Valve for linear damping (firmer without losing comfort), open cartridge for heat dissipation and less friction, fully external adjustment. | Cycle News (WP release) gave 2017-22; Enduro21 2017-2024; BFD 2017-2025. 2026 small bikes got a new fork (Lainer sells a separate 2026 kit), so 2026+ not listed | [source](https://www.cyclenews.com/2022/01/article/wp-suspension-xact-pro-7500-cartridges-for-50-65cc-mx-bikes/) | medium |
 | WP | XACT PRO 8936 Supertrax shock (65 cc) | A405C403X111220 | WP: preload, high/low-speed compression and rebound adjustment plus Supertrax for traction and stability; lighter, friction-optimised. | BFD lists the part number only for 2024 bikes; Enduro21 says the 8936 fits 2017-2024 but gives no part number, so earlier years may use a different set number.  | [source](https://enduro21.com/en/products-reviews/latest/quick-look-latest-gen-wp-pro-components-suspension-for-50cc-and-65cc-off-road-bikes) | medium |
 | WP | WP fork spring set TC/SX 65 2020+ | 95010056S, 95010044S, 95010057S, S80990000900000, 95010049S | OEM WP alternative spring rates for the 65cc fork. | GasGas MC 65 not named by the dealer (same fork as SX/TC). '2020+' limited to 2025 because the 2026 65cc fork changed. | [source](https://bfdmoto.com/products/wp-fork-spring-set) | medium |
+
+## Dealer and retailer listings for this bike
+
+Merged across sellers by brand and part number (or brand and name). Lings is a UK dealer (GBP prices, EU-market models).
+
+### Air & Fuel (15)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| FunnelWeb | FunnelWeb ProLine Air Filter KTM / Husqvarna / Gas Gas 65cc 1998-2023 | FWF PRO 7620 | 39.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/funnelweb-proline-air-filter-ktm-husqvarna-gas-gas-65cc-1998-2023) |
+| HiFloFiltro | HiFloFiltro Air Filter KTM / Husqvarna / Gas Gas 65cc-640cc 1997-2023 | HFF5014 | 23.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/hiflofiltro-air-filter-ktm-husqvarna-gas-gas-65cc-640cc-1997-2023) |
+| Maxima Lubricants | Maxima ProFilter Pre Oiled Air Filter KTM 65cc-640cc / Husqvarna 65cc  | AFR-5004-00 | 12.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/maxima-profilter-pre-oiled-air-filter-ktm-65cc-640cc-husqvarna-65cc) |
+| Maxima Lubricants | Maxima ProFilter Premium Air Filter KTM 65cc-640cc / Husqvarna 65cc  | MTX-5004-00 | 24.39 USD | [Cycle Gear](https://www.cyclegear.com/parts/maxima-profilter-premium-air-filter-ktm-65cc-640cc-husqvarna-65cc) |
+| Moose Racing | Moose Racing Pre Oiled Air Filter KTM 65cc-640cc / Husqvarna 65cc  | P1-50-04 | 29.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-pre-oiled-air-filter-ktm-65cc-640cc-husqvarna-65cc) |
+| Moose Racing | Moose Racing Standard Air Filter KTM / Husqvarna / Gas Gas 65cc-640cc 1999-2023 | 1-50-04 | 26.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-standard-air-filter-ktm-husqvarna-gas-gas-65cc-640cc-1999-2023) |
+| Moto Tassinari | V Force 3 Reed Valve System KTM 50 SX / 65 SX / Husqvarna TC 50 / TC 65 2009-2027 | V355B | 152.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/v-force-3-reed-valve-system-ktm-50-sx-65-sx-husqvarna-tc-50-tc-65-2009-2023) |
+| No Toil | No Toil Pre Oiled Air Filter KTM / Husqvarna / Gas Gas 65cc 1998-2023 | 1504 | 33.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-pre-oiled-air-filter-ktm-husqvarna-gas-gas-65cc-1998-2023) |
+| No Toil | No Toil Standard Air Filter KTM / Husqvarna / Gas Gas 65cc 1998-2023 | 150-04 | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-standard-air-filter-ktm-husqvarna-gas-gas-65cc-1998-2023) |
+| RFX | RFX Air Filter Husqvarna / Gas Gas / KTM 65cc | FXAF 50002 55NO | 25.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-air-filter-husqvarna-gas-gas-ktm-65cc) |
+| RFX | RFX Pre Oiled Air Filter Gas Gas / Husqvarna / KTM 65cc | FXAF 50002 55PO | 32.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pre-oiled-air-filter-gas-gas-husqvarna-ktm-65cc) |
+| Twin Air | Twin Air Air Filter KTM / Husqvarna / Gas Gas 65cc-640cc 1999-2023 | 154514 | 37.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-air-filter-ktm-husqvarna-gas-gas-65cc-640cc-1999-2023) |
+| Twin Air | Twin Air Factory Pre Oiled Air Filter KTM / Husqvarna / Gas Gas 65cc-640cc 1999-2023 | 154514X | 41.75 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-factory-pre-oiled-air-filter-ktm-husqvarna-gas-gas-65cc-640cc-1999-2023) |
+| Twin Air | Twin Air Powerflow Air Filter KTM / Husqvarna / Gas Gas 65cc 2009-2023 | 154520/154520N | 37.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-powerflow-air-filter-ktm-husqvarna-gas-gas-65cc-2009-2023) |
+| Uni Filter | Uni Filter Multi-Stage Competition Air Filter KTM / Husqvarna / Gas Gas 65cc-640cc 1997-2023 | 1714100 | 27.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/uni-filter-multi-stage-competition-air-filter-ktm-husqvarna-gas-gas-65cc-640cc-1997-2023) |
+
+### Bike Protection (2)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| AXP Racing | AXP Racing Skid Plate KTM / Gas Gas / Husqvarna 65cc 2018-2023 | AX1528 | 99.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/axp-racing-skid-plate-ktm-gas-gas-husqvarna-65cc-2018-2023) |
+| P3 | P3 Carbon Fiber Skid Plate KTM 65 SX / Husqvarna TC65 / Gas Gas MC65 2016-2023 | 301021 | 189.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/p3-carbon-fiber-skid-plate-ktm-65-sx-husqvarna-tc65-gas-gas-mc65-2016-2022) |
+
+### Brakes (10)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Brembo | Brembo SD Front / Rear Brake Pads 07GR69SD | 07GR69SD | 44.08 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-sd-front-rear-brake-pads-07gr69sd) |
+| DP Brakes | DP Brakes Sintered Front / Rear Brake Pads KTM / Husqvarna / Gas Gas 65cc-105cc | DP923 | 52.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-sintered-front-rear-brake-pads-ktm-husqvarna-gas-gas-65cc-105cc) |
+| EBC Brakes | EBC FA357R R Series Sintered Front / Rear Brake Pads | FA357R | 40.63 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-fa357r-r-series-sintered-front-rear-brake-pads) |
+| Galfer Braking Systems | Galfer HH Sintered Front Brake Pads FD265 | FD265G1396 | 30.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/galfer-hh-sintered-front-brake-pads-fd265) |
+| Moose Racing | Moose Racing RFX Front Rotor KTM / Husqvarna / Gas Gas 65cc 2002-2022 | FXBD 50300 55NP | 127.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-rfx-front-rotor-ktm-husqvarna-gas-gas-65cc-2002-2024) |
+| Moto-Master | Moto Master Flame Fixed Front Rotor KTM / Husqvarna / Gas Gas 65cc 2002-2022 | 110240-PU | 98.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-front-rotor-ktm-husqvarna-gas-gas-65cc-2002-2022) |
+| Moto-Master | Moto Master Flame Fixed Rear Rotor KTM / Husqvarna / Gas Gas 65cc 2004-2022 | 110696-PU | 98.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-fixed-rear-rotor-ktm-husqvarna-gas-gas-65cc-2004-2022) |
+| Moto-Master | Moto Master Nitro Front / Rear Brake Pads Gas Gas / Husqvarna / KTM 65cc-105cc | 94621-PU | 24.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-nitro-front-brake-pads-gas-gas-husqvarna-ktm-65cc-105cc) |
+| Moto-Master | Moto Master Sinter Pro Racing Front /Rear Brake Pads Gas Gas / Husqvarna / KTM 65cc-105cc | 94611-PU | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-sinter-pro-racing-front-rear-brake-pads-gas-gas-husqvarna-ktm-65cc-105cc) |
+| Renthal | Renthal RC-1 Works Front / Rear Brake Pads KTM / Husqvarna / Gas Gas 65cc-105cc | BP-112/BP112 | 50.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-rc-1-works-front-rear-brake-pads-ktm-husqvarna-gas-gas-65cc-105cc) |
+
+### Chain & Sprocket (20)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Afam Sprockets | AFAM Rear Aluminum Sprocket Gas Gas / KTM / Husqvarna 65cc | 72101+48, 72101+50 | 64.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/afam-rear-aluminum-sprocket-gas-gas-ktm-husqvarna-65cc) |
+| Afam Sprockets | AFAM Self Cleaning Front Sprocket Husqvarna / Gas Gas / KTM 60cc-65cc | 94120+14 | 19.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/afam-front-sprocket-husqvarna-gas-gas-ktm-60cc-65cc) |
+| Dirt Tricks | Dirt Tricks Steel Rear Sprocket KTM / Husqvarna / Gas Gas 60cc-65cc 1998-2024 | KTM65-46-Z-C, KTM65-47-Z-C, KTM65-48-Z-C | 139.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dirt-tricks-steel-rear-sprocket-ktm-husqvarna-gas-gas-60cc-65cc-1998-2023) |
+| Fire Power | Fire Power Aluminum Rear Sprocket KTM / Husqvarna / Gas Gas 60cc-65cc 1998-2024 | 313-46 BLK, 313-46 ORG, 313-47 BLK, 313-47 ORG, 313-48 BLK, 313-48 ORG, 313-49 BLK, 313-49 ORG, 313-50 BLK, 313-50 ORG | 87.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-aluminum-rear-sprocket-ktm-husqvarna-gas-gas-60cc-65cc-1998-2023) |
+| Fire Power | Fire Power Steel Front Sprocket KTM / Husqvarna / Gas Gas 65cc 1998-2023 (14T and 15T) | MX-190614-4, MX-190615-4 | 36.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-steel-front-sprocket-ktm-husqvarna-gas-gas-65cc-1998-2023) |
+| JT Sprockets | JT Sprockets Racelite Aluminum Rear Sprocket Husqvarna / Gas Gas / KTM 60cc-65cc 1998-2024 | JTA894.48BLK/JTA89448BLK, JTA894.48ORG/JTA89448ORG | 30.83 USD | [Cycle Gear](https://www.cyclegear.com/parts/jt-sprockets-racelite-aluminum-rear-sprocket-husqvarna-gas-gas-ktm-60cc-65cc-1998-2023) |
+| JT Sprockets | JT Sprockets Rear Steel Sprocket Husqvarna / Gas Gas / KTM 60cc-65cc 1998-2024 | JTR894.48/JTR89448 | 20.78 USD | [Cycle Gear](https://www.cyclegear.com/parts/jt-sprockets-rear-steel-sprocket-husqvarna-gas-gas-ktm-60cc-65cc-1998-2023) |
+| Mika Metals | Mika Metals Rear Aluminum Sprocket KTM / Husqvarna / Gas Gas 60cc-65cc 1998-2024 | 50-0947, 50-0948, 50-0949, 50-0950, 50-0951, 50-0952 | 82.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/mika-metals-rear-aluminum-sprocket-ktm-husqvarna-gas-gas-60cc-65cc-1998-2023) |
+| Moto-Master | Moto Master Aluminum Rear Sprocket KTM / Husqvarna / Gas Gas 60cc-65cc 1998-2024 | 620272246, 620272247, 620272248, 620272249, 620272250, 620272251, 620272252, 620272546, 620272547, 620272548, 620272549, | 62.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-aluminum-rear-sprocket-ktm-husqvarna-gas-gas-60cc-65cc-1998-2024) |
+| Moto-Master | Moto Master Front Sprocket KTM / Husqvarna / Gas Gas 65cc 1998-2023 | 610131112, 610131113, 610131114 | 26.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-front-sprocket-ktm-husqvarna-gas-gas-65cc-1998-2023) |
+| Moto-Master | Moto Master Fusion Series Dual Ring Rear Sprocket KTM / Husqvarna / Gas Gas 60cc-65cc 1998-2024 | 620273246, 620273247, 620273248, 620273249, 620273250, 620273546, 620273547, 620273548, 620273549, 620273550 | 89.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-fusion-series-dual-ring-rear-sprocket-ktm-husqvarna-gas-gas-60cc-65cc-1998-2024) |
+| Moto-Master | Moto Master Steel Rear Sprocket KTM / Husqvarna / Gas Gas 60cc-65cc 1998-2024 | 620271146, 620271147, 620271148, 620271149, 620271150 | 58.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-steel-rear-sprocket-ktm-husqvarna-gas-gas-60cc-65cc-1998-2024) |
+| Pro Taper | Pro Taper Race Spec Front Sprocket KTM / Husqvarna / Gas Gas 65cc | 038341, 038383 | 29.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-race-spec-front-sprocket-ktm-husqvarna-65cc) |
+| Pro Taper | Pro Taper Race Spec Rear Aluminum Sprocket KTM / Husqvarna / Gas Gas 60cc-65cc 1998-2024 | 033263, 033264, 033265, 033266, 033267, 033396, 033397, 033398, 033399, 033400 | 89.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-race-spec-rear-aluminum-sprocket-ktm-husqvarna-gas-gas-60cc-65cc-1998-2023) |
+| Renthal | Renthal Grooved Front Sprocket KTM / Husqvarna / Gas Gas 65cc 2009-2023 | 440--420-14GP | 35.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-grooved-front-sprocket-ktm-husqvarna-65cc-2009-2021) |
+| Renthal | Renthal Ultralight Rear Aluminum Sprocket KTM / Husqvarna / Gas Gas 60cc-65cc 1998-2024 | 192U-420-46GPOR, 192U-420-47GPOR, 192U-420-48GPOR, 192U-420-50GPOR | 94.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-ultralight-rear-aluminum-sprocket-ktm-husqvarna-gas-gas-60cc-65cc-1998-2024) |
+| RFX | RFX Pro Elite Aluminum Rear Sprocket KTM / Husqvarna / Gas Gas 60cc-65cc 1998-2024 | FXRS 56-46 99OR, FXRS 56-47 99BU, FXRS 56-47 99OR, FXRS 56-47 99RD, FXRS 56-48 99BU, FXRS 56-48 99OR, FXRS 56-48 99RD, F | 69.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-elite-aluminum-rear-sprocket-ktm-husqvarna-gas-gas-60cc-65cc-1998-2024) |
+| RFX | RFX Race Series CS Steel Front Sprocket KTM / Husqvarna / Gas Gas 65cc | FXFS 56-13 55ST, FXFS 56-14 55ST, FXFS 56-15 55ST | 14.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-race-series-cs-steel-front-sprocket-ktm-husqvarna-gas-gas-65cc) |
+| SuperSprox | SuperSprox Front Sprocket KTM / Husqvarna / Gas Gas 60cc-65cc 1998-2023 | CST-1900-12-1, CST-1900-13-1, CST-1900-14-1 | 19.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/supersprox-front-sprocket-ktm-husqvarna-gas-gas-60cc-65cc-1998-2022) |
+| SuperSprox | SuperSprox Stealth Rear Sprocket / Off Road KTM / Husqvarna / Gas Gas 60cc-65cc 1998-2024 | RST-4-49-GLD | 99.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/supersprox-stealth-rear-sprocket-off-road-ktm-husqvarna-gas-gas-60cc-65cc-1998-2023) |
+
+### Drive & Transmission (11)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis Chain Guide KTM / Husqvarna / Gas Gas 50cc-65cc 2016-2027 | 2976200001 | 29.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-chain-guide-ktm-husqvarna-gas-gas-50cc-65cc-2016-2026) |
+| Acerbis | Acerbis Chain Sliders KTM / Husqvarna / Gas Gas 65cc 2012-2027 | 2976180001 | 39.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-chain-sliders-ktm-husqvarna-gas-gas-65cc-2012-2023) |
+| DP Brakes | DP Brakes Clutch Kit KTM / Husqvarna / Gas Gas 65cc 2009-2023 | DPK229 | 143.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-clutch-kit-ktm-husqvarna-gas-gas-65cc-2009-2023) |
+| Hinson | Hinson Billetproof Clutch Basket KTM / Husqvarna / Gas Gas 65cc 1999-2023 | H286 | 249.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-billetproof-clutch-basket-ktm-husqvarna-65cc-1999-2022) |
+| Rekluse | Rekluse Core EXP 3.0 Clutch Kit KTM / Husqvarna / Gas Gas 65cc 2014-2023 | RMS-7790 | 999.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-core-exp-30-clutch-kit-ktm-husqvarna-gas-gas-65cc-2014-2021) |
+| Rekluse | Rekluse Core Manual Clutch Kit KTM / Husqvarna / Gas Gas 65cc 2009-2023 | RMS-7087 | 729.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-core-manual-clutch-kit-ktm-husqvarna-gas-gas-65cc-2009-2021) |
+| Rekluse | Rekluse Manual Slave Cylinder KTM / Husqvarna / Gas Gas 65cc 2009-2023 | RMS-2400020 | 229.0 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-manual-slave-cylinder-ktm-husqvarna-gas-gas-65cc-2009-2021) |
+| Rekluse | Rekluse Standard Clutch Cover KTM / Husqvarna / Gas Gas 65cc 2009-2023 | RMS-387 | 229.0 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-standard-clutch-cover-ktm-husqvarna-gas-gas-65cc-2009-2021) |
+| RFX | RFX Rear Axle Blocks Husqvarna TC 65 2017-2025 | FXAB 70400 99BU | 59.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-rear-axle-blocks-husqvarna-tc-65-2017-2025) |
+| TM Designworks | TM Designworks Dirt Cross Front Chain Slider KTM 65 SX / Husqvarna TC65 2016-2027 | DCS-K70-BK, DCS-K70-OR | 54.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-designworks-dirt-cross-front-chain-slider-ktm-65-sx-husqvarna-tc65-2016-2023) |
+| TM Designworks | TM Designworks Lower Frame Pad KTM / Husqvarna / Husaberg 65cc-570cc 2007-2027 | KTM-FP2-BK, KTM-FP2-OR | 25.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-designworks-lower-frame-pad-ktm-husqvarna-husaberg-65cc-570cc-2007-2023) |
+
+### Exhaust (10)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Bolt Hardware | Bolt Hardware 2 Stroke Exhaust Pipe To Silencer Sleeve And Spring Kit KTM / Husqvarna 65cc-85cc | EU.EX.65-85CC | 26.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bolt-hardware-2-stroke-exhaust-pipe-to-silencer-sleeve-and-spring-kit-ktm-husqvarna-65cc-85cc) |
+| FMF | FMF Factory Fatty Pipe KTM / Husqvarna / Gas Gas 65cc 2016-2023 | 025198/25198 | 284.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-factory-fatty-pipe-ktm-husqvarna-gas-gas-65cc-2016-2021) |
+| FMF | FMF Fatty Pipe KTM / Husqvarna / Gas Gas 65cc 2016-2023 | 025197/25197 | 284.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-fatty-pipe-ktm-husqvarna-gas-gas-65cc-2016-2023) |
+| FMF | FMF Pipe O-Ring Kit KTM / Gas Gas / Husqvarna 65cc 2006-2027 | 014824/14824 | 12.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-pipe-o-ring-kit-ktm-gas-gas-husqvarna-65cc-2006-2026) |
+| FMF | FMF Powercore 2 Silencer KTM / Husqvarna / Gas Gas 65cc 2016-2023 | 025199/25199 | 189.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-powercore-2-silencer-ktm-husqvarna-gas-gas-65cc-2016-2021) |
+| FMF | FMF Turbinecore 2 Silencer KTM / Husqvarna / Gas Gas 65cc 2016-2023 | 025201/25201 | 218.49 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-turbinecore-2-silencer-ktm-husqvarna-gas-gas-65cc-2016-2021) |
+| Pro Circuit | Pro Circuit 304 Silencer KTM / Husqvarna / Gas Gas 65cc 2016-2023 | 1051665 | 195.65 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-304-silencer-ktm-husqvarna-gas-gas-65cc-2016-2022) |
+| Pro Circuit | Pro Circuit Platinum Pipe KTM 65 SX / Husqvarna TC 65 / Gas Gas MC 65 2016-2023 | 851665 | 321.05 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-platinum-pipe-ktm-65-sx-husqvarna-tc-65-gas-gas-mc-65-2016-2022) |
+| Pro Circuit | Pro Circuit Works Pipe KTM 65 SX / Husqvarna TC 65 / Gas Gas MC 65 2016-2023 | 751665 | 306.8 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-works-pipe-ktm-65-sx-husqvarna-tc-65-gas-gas-mc-65-2016-2022) |
+| Vertex | Vertex Exhaust Gasket Kit KTM / Husqvarna / Gas Gas 65cc-85cc 2002-2022 | 823116 | 15.91 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-exhaust-gasket-kit-ktm-husqvarna-gas-gas-65cc-85cc-2002-2022) |
+
+### Filters (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Twin Air | Twin Air Air Filter Dust Cover KTM / Husqvarna 65cc 1998-2023 | 154514DC | 23.7 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-air-filter-dust-cover-ktm-husqvarna-65cc-1998-2021) |
+
+### Handlebars & Controls (10)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Arc Levers | ARC Flex Clutch Lever KTM / Husqvarna / Gas Gas 65cc-250cc 2013-2027 | CL-350/AC-CL-350, CL-S350-B, CL-S350-O, CL-S350-R | 78.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-flex-clutch-lever-ktm-husqvarna-gas-gas-65cc-250cc-2013-2023) |
+| Arc Levers | ARC Flex Front Brake Lever KTM / Husqvarna / Gas Gas 65cc-250cc 2014-2027 | AC-BR-350-CT, BR-350-B, BR-350-C/AC-BR-350-C, BR-350-O, BR-350/AC-BR-350 | 78.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-flex-front-brake-lever-ktm-husqvarna-gas-gas-65cc-250cc-2014-2025) |
+| BILT FACTORY | BILT FACTORY Folding Lever Set KTM / Husqvarna / Gas Gas | 7287/8284-BLK, 7287/8284-ORG | 99.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bilt-factory-folding-lever-set-ktm-husqvarna-gas-gas) |
+| Enduro Engineering | Enduro Engineering Roost Deflector Mounting Kit KTM / Husqvarna / Gas Gas / Sherco / Triumph 65cc-50 | 53-1020 | 56.97 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-roost-deflector-mounting-kit-ktm-husqvarna-gas-gas-sherco-triumph-65cc-501cc-) |
+| Flo Motorsports | Flo Motorsports Pro 160 Brake Lever KTM / Husqvarna / Gas Gas 65cc-250cc 2014-2027 | BL-716, BL-716O | 87.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-pro-160-brake-lever-ktm-husqvarna-gas-gas-65cc-250cc-2014-2024) |
+| Flo Motorsports | Flo Motorsports Pro 160 Clutch Lever KTM / Husqvarna / Gas Gas 65cc-85cc / Stark Varg (Brake Lever)  | CL-726, CL-726O | 87.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-pro-160-clutch-lever-ktm-husqvarna-gas-gas-65cc-85cc-stark-varg2014-2025) |
+| Moose Racing | Moose Racing Flex Forged Brake Lever KTM / Husqvarna / Gas Gas 65cc-85cc 2014-2027 | H07-5937 BS | 65.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-flex-forged-brake-lever-ktm-husqvarna-gas-gas-65cc-85cc-2014-2024) |
+| Zeta | Zeta Forged Pivot Brake Lever KTM / Husqvarna / Gas Gas 65cc-85cc 2014-2027 | ZE41-3684 | 96.88 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-forged-pivot-brake-lever-ktm-husqvarna-gas-gas-65cc-85cc-2014-2024) |
+| Zeta | Zeta Pivot Brake Lever KTM / Husqvarna / Gas Gas 65cc-85cc 2014-2027 | ZE41-3284 | 117.79 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-brake-lever-ktm-husqvarna-gas-gas-65cc-85cc-2014-2024) |
+| Zeta | Zeta Pivot Clutch Lever KTM / Husqvarna / Gas Gas 65cc-85cc 2014-2027 | ZE42-3287 | 117.79 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-clutch-lever-ktm-husqvarna-gas-gas-65cc-85cc-2014-2025) |
+
+### Seats (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| FLU DESIGNS INC. | Flu Designs 3 Panel Pleated Seat Cover Husqvarna TC / FC 85cc-501cc 2019-2022 | 65402 | 39.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flu-designs-3-panel-pleated-seat-cover-husqvarna-tc-fc-85cc-501cc-2019-2022) |
+
+### Suspension (7)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Pivot Works | Pivot Works Shock Bearing Kit KTM / Husqvarna / Gas Gas 50cc-65cc 2002-2022 | PWSHK-T07-000 | 82.97 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-shock-bearing-kit-ktm-husqvarna-gas-gas-50cc-65cc-2002-2022) |
+| Pivot Works | Pivot Works Swingarm Bearing Kit Husqvarna TC50 / TC65 2018-2020 | PWSAK-T06-000 | 75.77 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-swingarm-bearing-kit-husqvarna-tc50-tc65-2018-2020) |
+| SKF | SKF Fork Seal Kit KTM / Husqvarna / Gas Gas 50cc-65cc 2017-2023 | KITG-35WN | 39.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/skf-fork-seal-kit-ktm-husqvarna-gas-gas-50cc-65cc-2017-2022) |
+| Tamer | Tamer Double Button Holeshot Device Gas Gas / Husqvarna / KTM / Kawasaki / Cobra | HH-2521 | 154.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/tamer-double-button-holeshot-device-gas-gas-husqvarna-ktm-kawasaki-cobra) |
+| Tamer | Tamer Single Button Holeshot Device Cobra / Gas Gas / KTM / Kawasaki | HH-202X | 144.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/tamer-single-button-holeshot-device-cobra-gas-gas-ktm-kawasaki) |
+| Works Connection | Works Connection Pro Launch Kit Gas Gas / Husqvarna 65cc 2019-2027 | 12-G711, 12-K711 | 159.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-pro-launch-kit-gas-gas-husqvarna-65cc-2019-2026) |
+| Works Connection | Works Connection Pro Launch Start Device Husqvarna TC 65 2019-2026 | 12-711 | 164.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-pro-launch-start-device-husqvarna-tc-65-2019-2026) |
+
+### Uncategorised (78)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis Front Fender Husqvarna TC65 2017-2026 | 2732000001, 2732000002, 2732006811 | 26.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-front-fender-husqvarna-tc65-2017-2026) |
+| Acerbis | Acerbis Front Number Plate Husqvarna TC65 2017-2023 | 2732010001, 2732010002, 2732016811 | 27.86 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-front-number-plate-husqvarna-tc65-2017-2020) |
+| Acerbis | Acerbis Full Plastic Kit Husqvarna TC65 2017-2023 | 2731980001, 2731980002, 2731986345, 2731986811, 2731986812, 2731987705 | 174.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-full-plastic-kit-husqvarna-tc65-2017-2020) |
+| Acerbis | Acerbis Lower Fork Covers Husqvarna TC50 / TC65 2017-2027 | 2732020001, 2732020002, 2732020005, 2732026811 | 35.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-lower-fork-covers-husqvarna-tc50-tc65-2017-2026) |
+| Acerbis | Acerbis Mud Flap KTM / Husqvarna / Gas Gas 65cc 2016-2023 | 2976330001 | 29.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-mud-flap-ktm-husqvarna-gas-gas-65cc-2016-2023) |
+| Acerbis | Acerbis Radiator Shrouds Husqvarna TC65 2017-2023 | 2732030001, 2732030002, 2732037119 | 53.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-radiator-shrouds-husqvarna-tc65-2017-2021) |
+| Acerbis | Acerbis Rear Fender Husqvarna TC65 2017-2023 | 2732050001, 2732050002, 2732050005, 2732056811 | 44.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-rear-fender-husqvarna-tc65-2017-2023) |
+| Acerbis | Acerbis Side Panels Husqvarna TC65 2017-2021 | 2732040001, 2732040002, 2732046811 | 47.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-side-panels-husqvarna-tc65-2017-2021) |
+| Acerbis | Acerbis Standard Plastic Kit Husqvarna TC65 2017-2023 | 2731990001, 2731990002, 2731996812, 2731997705 | 142.16 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-standard-plastic-kit-husqvarna-tc65-2017-2020) |
+| All Balls Racing | All Balls Racing Front Wheel Bearing Kit KTM / Husqvarna / Gas Gas / Suzuki / TM 50cc-300cc 1987-202 | 25-1135 | 12.63 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-front-wheel-bearing-kit-ktm-husqvarna-gas-gas-suzuki-tm-50cc-300cc-1987-2023) |
+| All Balls Racing | All Balls Racing Rear Wheel Bearing Kit KTM / Husqvarna / Kawasaki 65cc-500cc 1978-2027 | 25-1345 | 17.33 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-rear-wheel-bearing-kit-ktm-husqvarna-kawasaki-65cc-500cc-1978-2023) |
+| Arc Levers | ARC Brake Lever Dust Cover KTM / Husqvarna / Gas Gas 50cc-250cc 2012-2026 | AC-DC105 | 19.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-brake-lever-dust-cover-ktm-husqvarna-gas-gas-50cc-250cc-2012-2026) |
+| Arc Levers | ARC Clutch Lever Dust Cover KTM / Husqvarna / Gas Gas 2014-2026  | AC-DC203 | 19.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-clutch-lever-dust-cover-ktm-husqvarna-gas-gas-2014-2026) |
+| Athena | Athena Complete Gasket Kit KTM / Husqvarna / Gas Gas 65cc 2009-2023 | P400270850047 | 109.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/athena-complete-gasket-kit-ktm-husqvarna-gas-gas-65cc-2009-2023) |
+| Athena | Athena Top End Gasket Kit KTM / Husqvarna / Gas Gas 65cc 2009-2023 | P400270600047 | 77.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/athena-top-end-gasket-kit-ktm-husqvarna-gas-gas-65cc-2009-2023) |
+| Bolt Hardware | Bolt Hardware Engine Fastener Kit KTM / Husqvarna 65cc 2009-2020 | E-KTM6-0919 | 39.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bolt-hardware-engine-fastener-kit-ktm-husqvarna-65cc-2009-2020) |
+| Bolt Hardware | Bolt Hardware Rotor Bolt Kit KTM / Husqvarna / Gas Gas / Husaberg 50cc-500cc 2001-2027 | 2009-KTMRTR | 9.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bolt-hardware-rotor-bolt-kit-ktm-husqvarna-husaberg-50cc-500cc-2001-2020) |
+| Boyesen | Boyesen Factory Racing Spectra Ignition Cover KTM / Husqvarna / Gas Gas 65cc 2009-2027 | SC-40AB, SC-40AL, SC-40AM, SC-40AO | 89.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/boyesen-factory-racing-spectra-ignition-cover-ktm-husqvarna-gas-gas-65cc-2009-2026) |
+| Boyesen | Boyesen Rad Valve KTM / Gas Gas / Husqvarna 65cc 2009-2027 | RAD-40B | 169.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/boyesen-rad-valve-ktm-gas-gas-husqvarna-65cc-2009-2023) |
+| Cylinder Works | Cylinder Works Standard Bore Cylinder KTM / Husqvarna / Gas Gas 65cc 2009-2023 | 50005 | 600.35 USD | [Cycle Gear](https://www.cyclegear.com/parts/cylinder-works-standard-bore-cylinder-ktm-husqvarna-gas-gas-65cc-2009-2022) |
+| Cylinder Works | Cylinder Works Standard Bore Cylinder Kit KTM / Husqvarna / Gas Gas 65cc 2009-2023 | 50005-K01 | 749.50 USD | [Cycle Gear](https://www.cyclegear.com/parts/cylinder-works-standard-bore-cylinder-kit-ktm-husqvarna-gas-gas-65cc-2009-2022) |
+| DRC | DRC Footpeg Pin And Spring Kit KTM / Husqvarna / Husaberg / Gas Gas 50cc-1290cc 1996-2027 | D48-01-119 | 27.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/drc-footpeg-pin-and-spring-kit-ktm-husqvarna-husaberg-gas-gas-50cc-1290cc-1996-2024) |
+| DRC | DRC Ultra Wide Steel Footpegs KTM / Husqvarna / Husaberg / Gas Gas 50cc-1290cc 1996-2027 | Z48-02-810 | 101.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/drc-ultra-wide-steel-footpegs-ktm-husqvarna-husaberg-gas-gas-sherco-50cc-1290cc-1996-2023) |
+| DRC | DRC Wide Steel Footpegs KTM / Husqvarna / Husaberg / Gas Gas 50cc-1290cc 1996-2027 | Z48-02-510 | 88.27 USD | [Cycle Gear](https://www.cyclegear.com/parts/drc-wide-steel-footpegs-ktm-husqvarna-husaberg-gas-gas-sherco-50cc-1290cc-1996-2023) |
+| Enduro Engineering | Enduro Engineering Brake Pedal Tip KTM / Husqvarna / Husaberg 65cc-570cc 2003-2023 | 17-015/17-015 SQR | 28.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-brake-pedal-tip-ktm-husqvarna-husaberg-65cc-570cc-2003-2020) |
+| Enduro Engineering | Enduro Engineering Handlebar Riser Kit KTM / Husqvarna / Gas Gas / Beta / Husaberg 65cc-625cc | 23-002 | 37.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-handlebar-riser-kit-ktm-husqvarna-beta-husaberg-65cc-625cc) |
+| Factory Links | Factory Links Front Wheel Bearing Kit KTM / Suzuki / Gas Gas / Husqvarna / TM | FWK-T-025 | 20.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-links-front-wheel-bearing-kit-ktm-suzuki-gas-gas-husqvarna-tm) |
+| Factory Links | Factory Links Rear Wheel Bearing Kit KTM / Gas Gas / Husqvarna 65cc 2018-2027 | RWK-T-040 | 20.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-links-rear-wheel-bearing-kit-ktm-gas-gas-husqvarna-65cc-2018-2023) |
+| Fire Power | Fire Power Gator Footpegs KTM / Husqvarna / Husaberg / Gas Gas 50cc-1290cc 1996-2027 (Standard) | 568-9020 | 139.49 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-gator-footpegs-ktm-husqvarna-husaberg-gas-gas-50cc-1290cc-1996-2024) |
+| Fire Power | Fire Power Radiator KTM / Husqvarna 65cc 2016-2023 | TRS-R-157L, TRS-R-157R | 122.4 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-radiator-ktm-husqvarna-65cc-2016-2023) |
+| Hot Rods | Hot Rods Engine Rebuild Kit KTM 65 SX / XC / Husqvarna TC 65 2009-2020 | WR101-055 | 762.04 USD | [Cycle Gear](https://www.cyclegear.com/parts/hot-rods-engine-rebuild-kit-ktm-65-sx-xc-husqvarna-tc-65-2009-2020) |
+| IMS | IMS Bigfoot Footpegs KTM / Husqvarna / Husaberg / Gas Gas 50cc-1290cc 1996-2027 | 263301 | 140.0 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-bigfoot-footpegs-ktm-husqvarna-husaberg-gas-gas-sherco-50cc-1290cc-1996-2023) |
+| IMS | IMS Pro Series Footpegs KTM / Husqvarna / Husaberg / Gas Gas 50cc-1290cc 1996-2027 | 293301-4 | 140.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-pro-series-footpegs-ktm-husqvarna-husaberg-gas-gas-sherco-50cc-1290cc-1996-2023) |
+| IMS | IMS Super Stock Footpegs KTM / Husqvarna / Husaberg / Gas Gas 50cc-1290cc 1996-2027 | 273301 | 125.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-super-stock-footpegs-ktm-husqvarna-husaberg-gas-gas-sherco-50cc-1290cc-1996-2023) |
+| Moose Racing | Moose Racing Aluminum Magnetic Drain Plug KTM / Husqvarna 50cc-501cc | T14-5084S, T14-5085S | 17.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-aluminum-magnetic-drain-plug-ktm-husqvarna-50cc-501cc) |
+| Moose Racing | Moose Racing Bling Pack Husqvarna TC65 2017-2021 | M57-5018L | 102.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-bling-pack-husqvarna-tc65-2017-2021) |
+| Moose Racing | Moose Racing Complete Motor Gasket Kit KTM / Husqvarna 65cc 2009-2023 | 811338MSE | 113.30 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-complete-motor-gasket-kit-ktm-husqvarna-65cc-2009-2021) |
+| Moose Racing | Moose Racing Forged Rear Brake Pedal Husqvarna TC 65 2017-2022 | 82-0761-21-20 | 119.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-forged-rear-brake-pedal-husqvarna-tc-65-2017-2022) |
+| Moose Racing | Moose Racing Front Wheel Bearing Kit KTM / Suzuki / Gas Gas / Husqvarna / TM | 25-1135 | 13.08 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-front-wheel-bearing-kit-ktm-suzuki-gas-gas-husqvarna-tm) |
+| Moose Racing | Moose Racing Hybrid Footpegs KTM / Husqvarna / Husaberg / Gas Gas 50cc-1290cc 1996-2027 | STKTM-5, STKTM-5B | 219.73 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-hybrid-footpegs-ktm-husqvarna-husaberg-gas-gas-sherco-50cc-1290cc-1996-2023) |
+| Moose Racing | Moose Racing ND Series Footpegs KTM / Husqvarna / Husaberg / Gas Gas 50cc-1290cc 1996-2027 | NDKTM-5, NDKTM-5B | 214.86 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-nd-series-footpegs-ktm-husqvarna-husaberg-gas-gas-sherco-50cc-1290cc-1996-2023) |
+| Moose Racing | Moose Racing Pro Footpegs KTM / Husqvarna / Husaberg / Gas Gas 50cc-1290cc 1996-2027 | NRKTM-5, NRKTM-5B | 225.70 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-pro-footpegs-ktm-husqvarna-husaberg-gas-gas-sherco-50cc-1290cc-1996-2023) |
+| Moose Racing | Moose Racing Qualifier Footpegs KTM / Husqvarna / Husaberg / Gas Gas 50cc-650cc 1996-2024 | P17-54A3B | 146.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-qualifier-footpegs-ktm-husqvarna-husaberg-gas-gas-50cc-650cc-1996-2024) |
+| Moose Racing | Moose Racing Radiator Hose Clamp Kit KTM / Husqvarna / Gas Gas 65cc 2016-2023 | CK KTM-86 | 22.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-radiator-hose-clamp-kit-ktm-husqvarna-gas-gas-65cc-2016-2023) |
+| Moose Racing | Moose Racing Stainless Steel Braided Front Brake Line KTM / Husqvarna / Gas Gas 65cc 2006-2022 | K01-1-041/P | 63.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-stainless-steel-front-brake-line-ktm-husqvarna-gas-gas-65cc-2006-2022) |
+| Moose Racing | Moose Racing Stainless Steel Braided Rear Brake Line KTM / Husqvarna / Gas Gas 65cc 2009-2022 | K01-2-028/P | 44.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-stainless-steel-braided-rear-brake-line-ktm-husqvarna-gas-gas-65cc-2009-2022) |
+| Moose Racing | Moose Racing Throttle Cable KTM / Husqvarna 65cc 2009-2023 | 45-1047 | 15.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-throttle-cable-ktm-husqvarna-65cc-2009-2023) |
+| Moose Racing | Moose Racing Top End Gasket Kit Gas Gas / Husqvarna / KTM 65cc 2009-2022 | 810338MSE | 33.72 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-top-end-gasket-kit-gas-gas-husqvarna-ktm-65cc-2009-2022) |
+| ODI | ODI V2 Throttle Cam KTM / Husqvarna / Cobra 50cc-65cc 2018-2020 / Beta 350cc-500cc 2011-2026 | H70SCN | 4.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/odi-v2-throttle-cam-ktm-husqvarna-cobra-50cc-65cc-2018-2020-beta-350cc-500cc-2011-2024) |
+| Pivot Works | Pivot Works Front Wheel Bearing Kit KTM / Husqvarna / Gas Gas 50cc-65cc 2000-2020 | PWFWK-T13-000 | 30.85 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-front-wheel-bearing-kit-ktm-husqvarna-gas-gas-50cc-65cc-2000-2020) |
+| Pivot Works | Pivot Works Premium Front Wheel Bearing Kit KTM / Husqvarna / Gas Gas / Suzuki / TM 50cc-300cc 1987- | 25-1135-P | 18.07 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-premium-front-wheel-bearing-kit-ktm-husqvarna-gas-gas-suzuki-tm-50cc-300cc-1987-2023) |
+| Pro Taper | Pro Taper 2.3 Platform Footpegs KTM / Husqvarna / Gas Gas 50cc-105cc 1998-2027 | 023216 | 299.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-23-platform-footpegs-ktm-husqvarna-gas-gas-50cc-105cc-1998-2022) |
+| Pro Taper | Pro Taper Aluminum Shift Lever KTM / Husqvarna 65cc 2009-2023 | 021189/21189 | 29.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-aluminum-shift-lever-ktm-husqvarna-65cc-2009-2021) |
+| Pro Taper | Pro Taper Footpeg Hardware Kit KTM / Husqvarna / Gas Gas 65cc-560cc | 023210 | 13.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-footpeg-hardware-kit-ktm-husqvarna-65cc-560cc) |
+| Pro X | Pro X Connecting Rod Kit KTM / Husqvarna / Gas Gas 65cc 2009-2027 | 3.6029/03.6029 | 118.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-connecting-rod-kit-ktm-husqvarna-gas-gas-65cc-2009-2025) |
+| Pro X | Pro X Crankshaft Bearing And Seal Kit KTM / Husqvarna / Gas Gas 65cc 2009-2027 | 23.CBS61009 | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-crankshaft-bearing-and-seal-kit-ktm-husqvarna-gas-gas-65cc-2009-2025) |
+| Pro X | Pro X Piston Kit KTM 65 SX / Husqvarna TC65 / Gas Gas MC 65 2009-2027 | 01.6029.A, 01.6029.B, 01.6029.C, 01.6029.D | 77.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-piston-kit-ktm-65-sx-husqvarna-tc65-gas-gas-mc-65-2009-2025) |
+| Pro X | Pro X Piston Rings Gas Gas / KTM / Husqvarna 65cc 2000-2027 (44.96mm) | 02.6022 | 26.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-piston-rings-gas-gas-ktm-husqvarna-65cc-2000-2025) |
+| Raptor | Raptor Titanium Footpegs KTM / Husqvarna / Husaberg / Gas Gas 50cc-1290cc 1996-2027 | RX001 | 362.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/raptor-titanium-footpegs-ktm-husqvarna-husaberg-gas-gas-sherco-50cc-1290cc-1996-2023) |
+| RFX | RFX Clutch Cover Gas Gas / KTM / Husqvarna 65cc | FXCC 51000 99H2 | 230.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-clutch-cover-gas-gas-ktm-husqvarna-65cc) |
+| RFX | RFX Plastics Fastener Kit KTM / Husqvarna 50cc-501cc 2016-2025 | FXBK 50800 55SV | 27.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-plastics-fastener-kit-ktm-husqvarna-50cc-501cc-2016-2025) |
+| RFX | RFX Pro Bolt Pack Gas Gas / Husqvarna / KTM 50cc-65cc | FXBK 50501 55SV | 93.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-bolt-pack-gas-gas-husqvarna-ktm-50cc-65cc) |
+| RFX | RFX Pro Flexi Tip Rear Brake Pedal Husqvarna TC65 2017-2023 | FXRB 70300 99BU | 109.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-flexi-tip-rear-brake-pedal-husqvarna-tc65-2017-2023) |
+| RFX | RFX Pro Ignition Cover Gas Gas / Husqvarna / KTM 65cc | FXIC 50100 99H2 | 229.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-ignition-cover-gas-gas-husqvarna-ktm-65cc) |
+| RFX | RFX Pro Solid Tip Rear Brake Pedal Husqvarna TC 65 2017-2023 | FXRB 70301 99BU | 99.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-solid-tip-rear-brake-pedal-husqvarna-tc-65-2017-2023) |
+| RFX | RFX Race Shift Lever Husqvarna TC65 2017-2023 | FXGP 70800 55BU | 43.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-race-shift-lever-husqvarna-tc65-2017-2023) |
+| RFX | RFX Track Pack KTM / Husqvarna 50cc-501cc | FXBK 50600 55SV | 27.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-track-pack-ktm-husqvarna-50cc-501cc) |
+| Twin Air | Twin Air Air Box Cover KTM / Husqvarna 60cc-640cc 1997-2023 | 160069 | 41.75 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-air-box-cover-ktm-husqvarna-60cc-640cc-1997-2020) |
+| Vertex | Vertex Cast 2-Stroke Piston Kit KTM / Husqvarna / Gas Gas 65cc 2009-2023 | VTK23430AB, VTK23430CD | 137.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-cast-2-stroke-piston-kit-ktm-husqvarna-gas-gas-65cc-2009-2023) |
+| Vertex | Vertex Complete Gasket Set With Oil Seals KTM / Husqvarna / Gas Gas 65cc 2009-2023 | 811338 | 110.13 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-complete-gasket-set-with-oil-seals-ktm-husqvarna-gas-gas-65cc-2009-2023) |
+| Vertex | Vertex Top End Gasket Kit KTM / Husqvarna / Gas Gas 65cc 2009-2022 | 810338 | 32.78 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-top-end-gasket-kit-ktm-husqvarna-gas-gas-65cc-2009-2022) |
+| Vertex | Vertex Water Pump Rebuild Kit Gas Gas / KTM / Husqvarna 65cc 2009-2022 | 821338 | 53.72 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-water-pump-rebuild-kit-gas-gas-ktm-husqvarna-65cc-2009-2022) |
+| Wiseco | Wiseco Complete Bottom End Kit Husqvarna / KTM 65cc 2009-2020 | WPC161B | 399.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/wiseco-complete-bottom-end-kit-husqvarna-ktm-65cc-2009-2020) |
+| Wiseco | Wiseco Garage Buddy Engine Rebuild Kit KTM / Husqvarna 65cc 2009-2020 | PWR161B-100/PWR161B100 | 532.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/wiseco-garage-buddy-engine-rebuild-kit-ktm-husqvarna-65cc-2009-2020) |
+| Wiseco | Wiseco Pro Lite Piston Kit KTM / Husqvarna / Gas Gas 65cc 2009-2023 | PK1882 | 191.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/wiseco-pro-lite-piston-kit-ktm-husqvarna-gas-gas-65cc-2009-2023) |
+| Wiseco | Wiseco Racer Elite Piston Kit KTM / Husqvarna / Gas Gas 65cc 2009-2027 | RE920M04500, RE920M04700 | 149.39 USD | [Cycle Gear](https://www.cyclegear.com/parts/wiseco-racer-elite-piston-kit-ktm-husqvarna-gas-gas-65cc-2009-2026) |
+| Works Connection | Works Connection Oil Filler Plug KTM / Husqvarna / Gas Gas 65cc-530cc | 24-020, 24-021, 24-030, 24-031 | 32.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-oil-filler-plug-ktm-husqvarna-gas-gas-65cc-530cc) |
+| Zeta | Zeta Aluminum Footpegs Beta / KTM / Husqvarna / Husaberg / Gas Gas 50cc-1290cc 1996-2027 | ZE93-1810, ZE93-1817, ZE93-1819 | 103.50 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-aluminum-footpegs-beta-ktm-husqvarna-husaberg-gas-gas-sherco-50cc-1290cc-1996-2023) |
+
+## Universal retailer listings (counted only)
+
+Uncategorised 382, Handlebars & Controls 269, Chain & Sprocket 162, Exhaust 100, Air & Fuel 53, Batteries & Electrical 44, Lighting 40, Utv / Atv Parts 36, Gauges 36, Bike Protection 33, Suspension 27, Body & Fairing 9, Drive & Transmission 7, Filters 5, Tire Accessories 1
+
+Top brands: Pro Taper 77, Acerbis 64, Bolt Hardware 62, Cycra 61, Moose Racing 60, Renthal 50, ODI 47, Zeta 47, Fire Power 39, RK 36, Helix Racing Products 35, Barkbusters 34, RFX 30, Factory Effex 26, FMF 26, Namz 25, Motion Pro 24, Polisport 23, EK Chain 22, K&N 22, Koso 19, Motolis 19, DID Chain 15, Pro Grip 14, BBR Motorsports 13
 

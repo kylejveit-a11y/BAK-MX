@@ -1,6 +1,6 @@
 # Triumph TF 450-E 2026: aftermarket parts
 
-2559 listings whose stated fitment names this bike: 171 researched parts (with what they change and rider findings), 60 dealer and retailer listings specific to this bike, and 2328 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3735 listings whose stated fitment names this bike: 171 researched parts (with what they change and rider findings), 64 dealer and retailer listings specific to this bike, and 3500 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -235,11 +235,14 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Nihilo | Nihilo Oil Pump Gear Kit | NCOPGTK | 199.00 USD | [MotoSport](https://www.motosport.com/nihilo-oil-pump-gear-kit) |
 | Turner Performance Products | Turner Performance Products Clutch Slave Cylinder Guard |  | 39.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-clutch-slave-cylinder-guard) |
 
-### Exhaust (1)
+### Exhaust (4)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
+| FMF | FMF Powercore 4 HEX Slip-On Exhaust Triumph TF 450 C / E / RC 2025-2026 | 45701 | 427.49 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-powercore-4-hex-slip-on-exhaust-triumph-tf-450-c-e-rc-2025-2026) |
+| FMF | FMF Q4 HEX S/A Slip-On Exhaust Triumph TF450 C / E / RC 2025-2026 | 45702 | 474.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-q4-hex-sa-slip-on-exhaust-triumph-tf450-c-e-rc-2025-2026) |
 | Yoshimura | Yoshimura RS-12 Exhaust System Triumph TF 450 2025-2026 | 274500S320 | 1069.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-12-exhaust-system-triumph-tf-450-2025-2026) |
+| Yoshimura | Yoshimura RS-12 Low Volume Insert Kit Kawasaki / Triumph 250cc-450cc 2021-2026 | INS-30-K | 40.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-12-low-volume-insert-kit-kawasaki-triumph-250cc-450cc-2021-2026) |
 
 ### Garage (2)
 
@@ -323,18 +326,19 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 |---|---|---|---|---|
 | Athena | Athena Steering Stem Bearing Kit | P400207250001 | 101.99 USD | [MotoSport](https://www.motosport.com/athena-steering-stem-bearing-kit) |
 
-### Uncategorised (4)
+### Uncategorised (5)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Acerbis | Acerbis Air Box Covers Triumph 250cc-450cc | 2987790001 | 35.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-air-box-covers-triumph-250cc-450cc) |
+| Acerbis | Acerbis Fuel Tank Triumph 250cc-450cc 2024-2026 | 2988520001, 2988520147 | 319.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-fuel-tank-triumph-250cc-450cc-2024-2026) |
 | Acerbis | Acerbis Full Plastic Kit Triumph 250cc-450cc 2026 | 2987778212 | 181.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-full-plastic-kit-triumph-250cc-450cc-2026) |
 | Acerbis | Acerbis Side Panels Triumph TF250 / TF450 | 2987800002 | 43.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-side-panels-triumph-tf250-tf450) |
 | Acerbis | Acerbis Standard Plastic Kit Triumph 250cc-450cc 2026 | 2987768212 | 149.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-standard-plastic-kit-triumph-250cc-450cc-2026) |
 
 ## Universal retailer listings (counted only)
 
-Controls 460, Lights And Electrical 379, Tires 219, Body 165, Graphics 160, Tools And Maintenance 159, Luggage And Racks 106, Exhaust 92, Drive 91, Suspension 83, Engine 74, Vehicle Communication 60, Fuel System 54, Brakes 50, Accessories 48, Wheels And Rims 45, Riding Gear 18, Handlebars & Controls 13, Farming And Hunting 13, Chain & Sprocket 10, Skid Plates And Guards 10, Uncategorised 5, Intake 5, Helmets 3, Utv / Atv Parts 2, Batteries & Electrical 2, Winch And Plow 2
+Controls 460, Uncategorised 383, Lights And Electrical 379, Handlebars & Controls 269, Tires 219, Exhaust 191, Body 165, Chain & Sprocket 162, Graphics 160, Tools And Maintenance 159, Suspension 110, Luggage And Racks 106, Drive 91, Engine 74, Vehicle Communication 60, Fuel System 54, Air & Fuel 53, Brakes 50, Accessories 48, Wheels And Rims 45, Batteries & Electrical 44, Lighting 40, Utv / Atv Parts 36, Gauges 36, Bike Protection 33, Riding Gear 18, Farming And Hunting 13, Skid Plates And Guards 10, Body & Fairing 9, Drive & Transmission 7, Filters 5, Intake 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Rugged Radios 105, Motion Pro 95, Acerbis 78, RAM Mounts 72, Turner Performance Products 66, Pro Taper 65, D'COR Visuals 65, Cycra 59, Factory Effex 57, Bolt 53, Quad Lock 53, Trail Tech 52, SP Connect 51, DRC 48, ODI 46, Kriega 43, KTM PowerParts 43, Namz Custom Cycle 40, Renthal 38, Shinko 34, Giant Loop 32, Husqvarna Technical Accessories 31, Kenda 31, Dunlop 28, Fastway 25
+Top brands: Acerbis 140, Pro Taper 136, Cycra 119, Motion Pro 118, Rugged Radios 105, ODI 90, Renthal 85, Factory Effex 83, RAM Mounts 74, Turner Performance Products 66, D'COR Visuals 65, Bolt Hardware 62, Trail Tech 62, Moose Racing 60, Fire Power 58, DRC 56, RFX 54, Bolt 53, Quad Lock 53, SP Connect 51, Zeta 47, Kriega 45, Polisport 45, FMF 43, KTM PowerParts 43
 

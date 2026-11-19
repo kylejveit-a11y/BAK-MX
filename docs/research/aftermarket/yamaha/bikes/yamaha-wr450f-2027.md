@@ -1,6 +1,6 @@
 # Yamaha WR450F 2027: aftermarket parts
 
-95 listings whose stated fitment names this bike: 95 researched parts (with what they change and rider findings), 0 dealer and retailer listings specific to this bike, and 0 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1302 listings whose stated fitment names this bike: 95 researched parts (with what they change and rider findings), 3 dealer and retailer listings specific to this bike, and 1204 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -101,4 +101,32 @@
 | Works Connection | Works Connection Tach/Hour Meter/Clock with Resettable Maintenance Timer Mount Bracket | 37-205 |  |  | [source](https://www.worksconnection.com/p18161-tach-hour-meter-mounts) | high |
 | Works Connection | Works Connection Fork Bleeder Valves | 26-320 |  |  | [source](https://www.worksconnection.com/p417280-fork-bleeders-shorty) | high |
 | Works Connection | Works Connection Fork Adjusters (YZF) | 26-700 |  |  | [source](https://www.worksconnection.com/p1163945-fork-adjusters-yzf) | high |
+
+## Dealer and retailer listings for this bike
+
+Merged across sellers by brand and part number (or brand and name). Lings is a UK dealer (GBP prices, EU-market models).
+
+### Air & Fuel (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis Air Filter Yamaha 250cc-450cc 2023-2027 | 2984879999 | 40.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-air-filter-yamaha-250cc-450cc-2023-2027) |
+
+### Brakes (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Renthal | Renthal RC-1 Works Front Brake Pads Yamaha / Fantic 125cc-450cc 2008-2027 | BP-106/BP106 | 50.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-rc-1-works-front-brake-pads-yamaha-125cc-450cc-2008-2024) |
+
+### Chain & Sprocket (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Renthal | Renthal Twinring Rear Sprocket Honda / Yamaha 125cc-600cc 1983-2027 | 1500-520-47GPSI, 1500-520-48GPBK, 1500-520-48GPBU, 1500-520-48GPSI/150052048GPSI, 1500-520-49GPBK, 1500-520-49GPBU, 1500 | 137.67 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-twinring-rear-sprocket-honda-yamaha-125cc-600cc-1983-2023) |
+
+## Universal retailer listings (counted only)
+
+Uncategorised 382, Handlebars & Controls 269, Chain & Sprocket 162, Exhaust 100, Air & Fuel 53, Batteries & Electrical 44, Lighting 40, Utv / Atv Parts 36, Gauges 36, Bike Protection 33, Suspension 27, Body & Fairing 9, Drive & Transmission 7, Filters 5, Tire Accessories 1
+
+Top brands: Pro Taper 77, Acerbis 64, Bolt Hardware 62, Cycra 61, Moose Racing 60, Renthal 50, ODI 47, Zeta 47, Fire Power 39, RK 36, Helix Racing Products 35, Barkbusters 34, RFX 30, Factory Effex 26, FMF 26, Namz 25, Motion Pro 24, Polisport 23, EK Chain 22, K&N 22, Koso 19, Motolis 19, DID Chain 15, Pro Grip 14, BBR Motorsports 13
 
