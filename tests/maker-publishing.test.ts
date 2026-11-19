@@ -1,0 +1,19 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {makerPublishingNotes} from '../shared/maker-publishing.ts';
+import {buildEngineeringInput} from '../server/engineering.ts';
+
+const bike=(manufacturer:string,model:string,model_year:number)=>({manufacturer,model,model_year});
+test('Kawasaki bikes whose manual was searched carry the no-sag-figure note; others carry nothing',()=>{
+ for(const [m,y] of [['KX450',2014],['KX450',2026],['KX250X',2021],['KX65',2027],['KX112',2022]] as const)
+  assert.match(makerPublishingNotes(bike('Kawasaki',m,y))!.notes[0].not_printed,/no sag figure/);
+ // outside the searched manuals: no claim either way
+ for(const [mk,m,y] of [['Kawasaki','KX85',2027],['Kawasaki','KX112',2027],['Kawasaki','KX450',2013],['Kawasaki','KX250X',2020],['Honda','CRF450R',2024],['Yamaha','YZ450F',2024]] as const)
+  assert.equal(makerPublishingNotes(bike(mk,m,y)),null);
+ assert.equal(makerPublishingNotes(null),null);
+});
+test('Ask BAK receives maker_publishing only for a covered bike',()=>{
+ const b=(model:string,model_year:number,manufacturer='Kawasaki')=>({id:'b',manufacturer,model,model_year,variant:'standard',region:'US'} as never);
+ assert.ok('maker_publishing' in buildEngineeringInput(b('KX450',2024),[],[],'what should my sag be'));
+ assert.equal('maker_publishing' in buildEngineeringInput(b('450 SX-F',2025,'KTM'),[],[],'what should my sag be'),false);
+});
