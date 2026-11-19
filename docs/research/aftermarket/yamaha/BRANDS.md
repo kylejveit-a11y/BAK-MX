@@ -1,6 +1,6 @@
 # Yamaha YZ: aftermarket brands
 
-426 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
+432 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
@@ -348,6 +348,8 @@
 | Yamaha (OEM) | 2 | engine (1), chassis (1) | research 2 |
 | 100% | 1 | Graphics (1) | MotoSport 1 |
 | AHM Factory Services | 1 | suspension (1) | research 1 |
+| Andreani USA | 1 | suspension (1) | research 1 |
+| Art of War Suspension | 1 | suspension (1) | research 1 |
 | Axiom | 1 | brakes (1) | research 1 |
 | BRP (Scotts damper) | 1 | chassis (1) | research 1 |
 | Brunton | 1 | Lights and Electrical (1) | MotoSport 1 |
@@ -395,6 +397,7 @@
 | Precision Racing | 1 | chassis (1) | research 1 |
 | Pro Design | 1 | Controls (1) | MotoSport 1 |
 | Pro Wheel | 1 | Body (1) | MotoSport 1 |
+| Pro-Action | 1 | suspension (1) | research 1 |
 | Pro-Pegs | 1 | controls (1) | research 1 |
 | PSR | 1 | Engine (1) | MotoSport 1 |
 | Quantum Fuel Systems | 1 | Fuel System (1) | MotoSport 1 |
@@ -410,10 +413,13 @@
 | Sedona | 1 | Tires (1) | MotoSport 1 |
 | Selle Dalla Valle | 1 | Body (1) | MotoSport 1 |
 | Shokz | 1 | Lights and Electrical (1) | MotoSport 1 |
+| SIX12 Suspension | 1 | suspension (1) | research 1 |
 | Spectro | 1 | Suspension (1) | MotoSport 1 |
 | Stillwell Performance | 1 | suspension (1) | research 1 |
+| Suspension Done Right | 1 | suspension (1) | research 1 |
 | Symtec | 1 | Controls (1) | MotoSport 1 |
 | Tag Metals | 1 | controls (1) | research 1 |
+| TAGMX | 1 | suspension (1) | research 1 |
 | Talon / Excel (Firestorm build) | 1 | wheels (1) | research 1 |
 | Technical Touch | 1 | suspension (1) | research 1 |
 | Tecmate | 1 | Tools and Maintenance (1) | MotoSport 1 |

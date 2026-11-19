@@ -1,6 +1,6 @@
 # KTM family: aftermarket brands
 
-478 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
+484 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
@@ -369,7 +369,9 @@
 | AHM Factory Services | 1 | suspension (1) | research 1 |
 | Akrapovič (KTM PowerParts / Husqvarna) | 1 | exhaust (1) | research 1 |
 | All Balls Racing / Moose Racing | 1 | wheels (1) | research 1 |
+| Andreani USA | 1 | suspension (1) | research 1 |
 | Arrowhead | 1 | Engine (1) | MotoSport 1 |
+| Art of War Suspension | 1 | suspension (1) | research 1 |
 | Axiom | 1 | brakes (1) | research 1 |
 | BRP (Scotts damper) | 1 | chassis (1) | research 1 |
 | Brunton | 1 | Lights and Electrical (1) | MotoSport 1 |
@@ -441,6 +443,7 @@
 | Precision Racing | 1 | chassis (1) | research 1 |
 | Pro Design | 1 | Controls (1) | MotoSport 1 |
 | Pro Wheel | 1 | Body (1) | MotoSport 1 |
+| Pro-Action | 1 | suspension (1) | research 1 |
 | Pro-Pegs | 1 | controls (1) | research 1 |
 | PSR | 1 | Bags & Luggage (1) | KTM Twins 1 |
 | R&G Racing | 1 | Exhaust (1) | MotoSport 1 |
@@ -458,11 +461,14 @@
 | Sedona | 1 | Tires (1) | MotoSport 1 |
 | Shindy | 1 | intake (1) | research 1 |
 | Shokz | 1 | Lights and Electrical (1) | MotoSport 1 |
+| SIX12 Suspension | 1 | suspension (1) | research 1 |
 | Slavens Racing (Mule) | 1 | engine (1) | research 1 |
 | Spectro | 1 | Suspension (1) | MotoSport 1 |
 | Stillwell Performance | 1 | suspension (1) | research 1 |
+| Suspension Done Right | 1 | suspension (1) | research 1 |
 | Symtec | 1 | Controls (1) | MotoSport 1 |
 | Tag Metals | 1 | controls (1) | research 1 |
+| TAGMX | 1 | suspension (1) | research 1 |
 | Talon / Excel (Firestorm build) | 1 | wheels (1) | research 1 |
 | Technical Touch | 1 | suspension (1) | research 1 |
 | Tecmate | 1 | Tools and Maintenance (1) | MotoSport 1 |

@@ -1,6 +1,6 @@
 # Triumph TF: aftermarket brands
 
-408 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
+414 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
@@ -308,7 +308,9 @@
 | 100% | 1 | Graphics (1) | MotoSport 1 |
 | ACD Racing | 1 | Handlebars & Controls (1) | Cycle Gear 1 |
 | AHM Factory Services | 1 | suspension (1) | research 1 |
+| Andreani USA | 1 | suspension (1) | research 1 |
 | Antigravity Batteries | 1 | Body & Fairing (1) | Cycle Gear 1 |
+| Art of War Suspension | 1 | suspension (1) | research 1 |
 | Athena (GET) | 1 | ecu (1) | research 1 |
 | Axiom | 1 | brakes (1) | research 1 |
 | Biker's Choice | 1 | Uncategorised (1) | Cycle Gear 1 |
@@ -367,6 +369,7 @@
 | Precision Racing | 1 | chassis (1) | research 1 |
 | Pro Design | 1 | Controls (1) | MotoSport 1 |
 | Pro Wheel | 1 | Body (1) | MotoSport 1 |
+| Pro-Action | 1 | suspension (1) | research 1 |
 | Pro-Pegs | 1 | controls (1) | research 1 |
 | Progressive Suspension | 1 | Uncategorised (1) | Cycle Gear 1 |
 | R&G Racing | 1 | Exhaust (1) | MotoSport 1 |
@@ -385,12 +388,15 @@
 | Sedona | 1 | Tires (1) | MotoSport 1 |
 | Shindy | 1 | intake (1) | research 1 |
 | Shokz | 1 | Lights and Electrical (1) | MotoSport 1 |
+| SIX12 Suspension | 1 | suspension (1) | research 1 |
 | Spectro | 1 | Suspension (1) | MotoSport 1 |
 | Speedmetal | 1 | Lighting (1) | Cycle Gear 1 |
 | Stillwell Performance | 1 | suspension (1) | research 1 |
 | Stockton Tools | 1 | Batteries & Electrical (1) | Cycle Gear 1 |
+| Suspension Done Right | 1 | suspension (1) | research 1 |
 | Symtec | 1 | Controls (1) | MotoSport 1 |
 | Tag Metals | 1 | controls (1) | research 1 |
+| TAGMX | 1 | suspension (1) | research 1 |
 | Talon / Excel (Firestorm build) | 1 | wheels (1) | research 1 |
 | Technical Touch | 1 | suspension (1) | research 1 |
 | Tecmate | 1 | Tools and Maintenance (1) | MotoSport 1 |

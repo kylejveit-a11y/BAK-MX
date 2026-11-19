@@ -1,6 +1,6 @@
 # Suzuki RM-Z: aftermarket brands
 
-288 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
+294 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
@@ -213,7 +213,9 @@
 | X-Trig | 2 | chassis (1), suspension (1) | research 2 |
 | ACD Racing | 1 | Handlebars & Controls (1) | Cycle Gear 1 |
 | AHM Factory Services | 1 | suspension (1) | research 1 |
+| Andreani USA | 1 | suspension (1) | research 1 |
 | Antigravity Batteries | 1 | Body & Fairing (1) | Cycle Gear 1 |
+| Art of War Suspension | 1 | suspension (1) | research 1 |
 | Axiom | 1 | brakes (1) | research 1 |
 | Biker's Choice | 1 | Uncategorised (1) | Cycle Gear 1 |
 | BRP (Scotts damper) | 1 | chassis (1) | research 1 |
@@ -263,6 +265,7 @@
 | PIAA | 1 | Lighting (1) | Cycle Gear 1 |
 | Precision Concepts | 1 | suspension (1) | research 1 |
 | Precision Racing | 1 | chassis (1) | research 1 |
+| Pro-Action | 1 | suspension (1) | research 1 |
 | Pro-Pegs | 1 | controls (1) | research 1 |
 | Progressive Suspension | 1 | Uncategorised (1) | Cycle Gear 1 |
 | R1 Industries / Silber Turbos | 1 | tuning (1) | research 1 |
@@ -273,10 +276,13 @@
 | Scotts Performance / BRP | 1 | chassis (1) | research 1 |
 | SDG | 1 | body (1) | research 1 |
 | Shindy | 1 | intake (1) | research 1 |
+| SIX12 Suspension | 1 | suspension (1) | research 1 |
 | Speedmetal | 1 | Lighting (1) | Cycle Gear 1 |
 | Stillwell Performance | 1 | suspension (1) | research 1 |
 | Stockton Tools | 1 | Batteries & Electrical (1) | Cycle Gear 1 |
+| Suspension Done Right | 1 | suspension (1) | research 1 |
 | Tag Metals | 1 | controls (1) | research 1 |
+| TAGMX | 1 | suspension (1) | research 1 |
 | Talon / Excel (Firestorm build) | 1 | wheels (1) | research 1 |
 | Technical Touch | 1 | suspension (1) | research 1 |
 | Throttle Syndicate | 1 | Uncategorised (1) | Cycle Gear 1 |
