@@ -7,7 +7,8 @@ export type PublishedChassis={
  rakeDeg?:number;            // steering axis from vertical (caster); converted when the maker prints it from horizontal
  trailMm?:number; wheelbaseMm?:number; clampOffsetMm?:number;
  frontTravelMm?:number; rearTravelMm?:number;
- raceSagMm?:number; staticSagMm?:number;
+ raceSagMm?:number; staticSagMm?:number;   // midpoint when the maker prints a range
+ raceSagRangeMm?:[number,number]; staticSagRangeMm?:[number,number];
  shockSpringNmm?:number; forkSpringNmm?:number;
  shockSpringByRiderKg?:{min:number;max:number;rate:number}[];
  frontTire?:{width:number;aspect:number;rim:number};
@@ -15,9 +16,34 @@ export type PublishedChassis={
 export type RiderSettings={gearedWeightLb?:number;raceSagMm?:number;freeSagMm?:number;shockSpringNmm?:number;forkSpringNmm?:number;forkHeightMm?:number};
 
 const num=(s:string)=>Number(s.replace(/,/g,''));
+
+type Sag={kind:'race'|'free';lo:number;hi:number};
+/** The maker's STANDARD sag from one statement, in any of the makers' wordings (KTM group "Riding sag: 105 mm" or
+ *  "105… 115 mm", Honda "Race sag / Standard: 100 mm" and "Free sag ... Range: 10–25 mm", Yamaha "sunken length ...:
+ *  90–100 mm", Triumph "Riding sag: 4.02 in (102 mm)"). Rows for an optional spring, an adjustment range, a track
+ *  condition, an example, another model's table or a frame-number split are not the standard target and return null. */
+function sagFromStatement(s:string):Sag|null{
+ const i=s.indexOf(': ');if(i<0)return null;
+ const label=s.slice(0,i),rest=s.slice(i+2);
+ const kind=/\b(?:static|free) sag\b/i.test(label)?'free':/\b(?:riding|race|rider) sag\b|sunken length/i.test(label)?'race':null;
+ if(!kind)return null;
+ if(/optional|soft|stiff|hard|adjust|allowed|\brange\b(?!\s*$)|mud|sand|track|example|guidance|rule of thumb|measurement|\bmore\b|\bless\b|\bVIN\b|MINI/i.test(label)&&!(kind==='free'&&/\/ Range$/i.test(label)))return null;
+ const first=rest.split(/\.\s|;/)[0];
+ const mm=first.match(/^\s*(\d{1,3}(?:\.\d+)?)\s*(?:(?:[–\-]|…|to)\s*(\d{1,3}(?:\.\d+)?)\s*)?mm\b/i)??first.match(/^\s*[\d.]+\s*(?:(?:[–\-]|…|to)\s*[\d.]+\s*)?in\s*\(\s*(\d{1,3}(?:\.\d+)?)\s*(?:(?:[–\-]|…|to)\s*(\d{1,3}(?:\.\d+)?)\s*)?mm\)/i);
+ if(!mm)return null;
+ const lo=num(mm[1]),hi=mm[2]?num(mm[2]):lo;
+ if(!(lo>0&&hi>=lo&&hi<=160))return null;
+ return {kind,lo,hi};
+}
+/** One target only when every standard row for the bike agrees; a bike whose rows disagree gets none (never a guess). */
+function agreed(rows:Sag[]):[number,number]|null{
+ if(!rows.length)return null;
+ const k=new Set(rows.map(r=>r.lo+'-'+r.hi));
+ return k.size===1?[rows[0].lo,rows[0].hi]:null;
+}
 /** Reads the chassis values a bike's verified claims print, in any of the makers' wordings. Unknown stays undefined. */
 export function chassisFromStatements(statements:string[]):PublishedChassis{
- const c:PublishedChassis={},by:{min:number;max:number;rate:number}[]=[];
+ const c:PublishedChassis={},by:{min:number;max:number;rate:number}[]=[],race:Sag[]=[],free:Sag[]=[];
  for(const raw of statements){const s=raw.replace(/\s+/g,' ');let m;
   if(c.rakeDeg==null&&(m=s.match(/\bcaster(?: angle)?[^:]*:\s*([\d.]+)\s*°?/i)))c.rakeDeg=num(m[1]);
   else if(c.rakeDeg==null&&(m=s.match(/\b(?:steering )?head angle[^:]*:\s*([\d.]+)/i))){const v=num(m[1]);c.rakeDeg=v>45?90-v:v;}
@@ -26,14 +52,16 @@ export function chassisFromStatements(statements:string[]):PublishedChassis{
   if(c.clampOffsetMm==null&&(m=s.match(/\b(?:fork|triple clamp|clamp) offset[^:]*:\s*([\d.]+)\s*mm/i)))c.clampOffsetMm=num(m[1]);
   if(c.frontTravelMm==null&&(m=s.match(/\b(?:front|fork)[^:]{0,30}travel[^:]*:\s*([\d.]+)\s*mm/i)))c.frontTravelMm=num(m[1]);
   if(c.rearTravelMm==null&&(m=s.match(/\b(?:rear|shock|wheel)[^:]{0,30}travel[^:]*:\s*([\d.]+)\s*mm/i)))c.rearTravelMm=num(m[1]);
-  if(c.raceSagMm==null&&(m=s.match(/\b(?:riding|race|rider) sag[^:]*:\s*([\d.]+)\s*mm/i)))c.raceSagMm=num(m[1]);
-  if(c.staticSagMm==null&&(m=s.match(/\b(?:static|free) sag[^:]*:\s*([\d.]+)\s*mm/i)))c.staticSagMm=num(m[1]);
+  const sg=sagFromStatement(s);if(sg)(sg.kind==='race'?race:free).push(sg);
   if((m=s.match(/recommended shock spring rate[^:]*:\s*([\d.]+)\s*N\/mm\.?\s*Rider mass\s*([\d.]+)\s*[–-]\s*([\d.]+)\s*kg/i)))by.push({rate:num(m[1]),min:num(m[2]),max:num(m[3])});
   else if(c.shockSpringNmm==null&&!/optional/i.test(s.split(':')[0])&&(m=s.match(/\bshock[^:]{0,40}(?:standard|stock)[^:]{0,20}spring rate[^:]*:\s*(?:K\s*=\s*)?([\d.]+)\s*N\/mm/i)||s.match(/\bshock[^:]*spring rate[^:]*\((?:standard|stock)\)[^:]*:\s*(?:K\s*=\s*)?([\d.]+)\s*N\/mm/i)))c.shockSpringNmm=num(m[1]);
   if(c.forkSpringNmm==null&&!/optional/i.test(s.split(':')[0])&&(m=s.match(/\bfork[^:]{0,40}(?:standard|stock)[^:]{0,20}spring rate[^:]*:\s*(?:K\s*=\s*)?([\d.]+)\s*N\/mm/i)||s.match(/\bfork[^:]*spring rate[^:]*\((?:standard|stock)\)[^:]*:\s*(?:K\s*=\s*)?([\d.]+)\s*N\/mm/i)))c.forkSpringNmm=num(m[1]);
   if(!c.frontTire&&/\b(tire|tyre)/i.test(s)&&/\bfront\b/i.test(s.split(/:\s/)[0])&&(m=s.match(/:\s*(\d{2,3})\/(\d{2,3})-(\d{2})\b/)))c.frontTire={width:num(m[1]),aspect:num(m[2]),rim:num(m[3])};
  }
  if(by.length)c.shockSpringByRiderKg=by.sort((a,b)=>a.min-b.min);
+ const r=agreed(race),f=agreed(free);
+ if(r){c.raceSagMm=(r[0]+r[1])/2;if(r[0]!==r[1])c.raceSagRangeMm=r;}
+ if(f){c.staticSagMm=(f[0]+f[1])/2;if(f[0]!==f[1])c.staticSagRangeMm=f;}
  return c;
 }
 
@@ -44,17 +72,19 @@ const r1=(x:number)=>Math.round(x*10)/10,r0=(x:number)=>Math.round(x);
 export function springCheck(p:PublishedChassis,r:RiderSettings){
  const out:{verdict:string;worked_out_from:string[];suggested_shock_spring_nmm?:number;suggested_fork_spring_nmm?:number;by_maker_table?:string;limits:string[]}={verdict:'',worked_out_from:[],limits:['First-order: assumes the linkage is close to linear around sag; progressive linkages change the exact rate.','Free sag must be measured with the rider off and the bike on its wheels, after bouncing it.']};
  const target=p.raceSagMm,targetFree=p.staticSagMm;
+ const tr=p.raceSagRangeMm??(target!=null?[target-5,target+5] as [number,number]:undefined),tLabel=p.raceSagRangeMm?`${p.raceSagRangeMm[0]}-${p.raceSagRangeMm[1]}`:String(target);
+ const raceOn=(v:number)=>!!tr&&v>=tr[0]&&v<=tr[1],raceOff=(v:number)=>tr?(v<tr[0]?tr[0]-v:v>tr[1]?v-tr[1]:0):0;
  if(r.gearedWeightLb&&p.shockSpringByRiderKg?.length){const kg=r.gearedWeightLb*0.45359237;const row=p.shockSpringByRiderKg.find(x=>kg>=x.min&&kg<=x.max)??(kg<p.shockSpringByRiderKg[0].min?p.shockSpringByRiderKg[0]:p.shockSpringByRiderKg[p.shockSpringByRiderKg.length-1]);
   out.by_maker_table=`Maker's table: ${row.rate} N/mm for ${row.min}-${row.max} kg rider mass; the rider is ${r0(kg)} kg in gear (the maker's table may mean without gear, about 8-10 kg less).`;}
  if(r.raceSagMm==null||target==null){out.verdict=r.raceSagMm==null?'Race sag not recorded: measure it (rider on in gear, standing in the attack position) to check the spring.':'No published race sag for this bike on file.';return out;}
- out.worked_out_from.push(`race sag ${r.raceSagMm} mm against the maker's ${target} mm`);
- if(r.freeSagMm==null){out.verdict=Math.abs(r.raceSagMm-target)<=5?'Race sag is on target. Measure free sag to know whether the spring rate itself suits you.':`Race sag is ${r.raceSagMm>target?'deeper':'shallower'} than the maker's ${target} mm by ${Math.abs(r.raceSagMm-target)} mm. Set it with preload first, then measure free sag to check the spring.`;return out;}
- out.worked_out_from.push(`free sag ${r.freeSagMm} mm`+(targetFree!=null?` against the maker's static sag ${targetFree} mm`:''));
- const lo=(targetFree??35)-7,hi=(targetFree??35)+7,riderSag=r.raceSagMm-r.freeSagMm,targetRider=target-(targetFree??35);
+ out.worked_out_from.push(`race sag ${r.raceSagMm} mm against the maker's ${tLabel} mm`);
+ if(r.freeSagMm==null){out.verdict=raceOn(r.raceSagMm)?'Race sag is on target. Measure free sag to know whether the spring rate itself suits you.':`Race sag is ${r.raceSagMm>target?'deeper':'shallower'} than the maker's ${tLabel} mm by ${raceOff(r.raceSagMm)} mm. Set it with preload first, then measure free sag to check the spring.`;return out;}
+ out.worked_out_from.push(`free sag ${r.freeSagMm} mm`+(targetFree!=null?` against the maker's ${p.staticSagRangeMm?p.staticSagRangeMm[0]+'-'+p.staticSagRangeMm[1]:targetFree} mm`:''));
+ const lo=p.staticSagRangeMm?p.staticSagRangeMm[0]:(targetFree??35)-7,hi=p.staticSagRangeMm?p.staticSagRangeMm[1]:(targetFree??35)+7,riderSag=r.raceSagMm-r.freeSagMm,targetRider=target-(targetFree??35);
  const k=r.shockSpringNmm??p.shockSpringNmm;
  if(r.freeSagMm<lo)out.verdict=`Free sag ${r.freeSagMm} mm is small for ${r.raceSagMm} mm race sag: the preload is wound in to hold the rider up, so the spring is too soft for this rider.`;
  else if(r.freeSagMm>hi)out.verdict=`Free sag ${r.freeSagMm} mm is large: preload is backed off to get race sag, so the spring is too stiff for this rider.`;
- else out.verdict=`Free sag ${r.freeSagMm} mm with ${r.raceSagMm} mm race sag: the spring rate suits this rider${Math.abs(r.raceSagMm-target)>5?'; set race sag back toward '+target+' mm with preload':''}.`;
+ else out.verdict=`Free sag ${r.freeSagMm} mm with ${r.raceSagMm} mm race sag: the spring rate suits this rider${raceOn(r.raceSagMm)?'':'; set race sag back toward '+tLabel+' mm with preload'}.`;
  if(k&&riderSag>0&&targetRider>0&&(r.freeSagMm<lo||r.freeSagMm>hi)){
   const ratio=riderSag/targetRider,ks=Math.round(k*ratio*2)/2;out.suggested_shock_spring_nmm=ks;
   out.worked_out_from.push(`${k} N/mm shock spring${r.shockSpringNmm?' (rider\'s)':' (stock)'}; rider sag ${riderSag} mm vs ${targetRider} mm at the maker's numbers`);

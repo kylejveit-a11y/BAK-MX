@@ -29,11 +29,20 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
       by riders' bikes: Honda 61K9503, 61K9550, 61MKE61; Kawasaki 99830-0153-05; KTM/Husqvarna repair manuals; Triumph (no listing).
 
 ## 3. Modified bikes
-- [ ] Check Ask BAK uses build-sheet values (spring rates, linkage, revalve notes) in spring_check and answers.
+- [x] 2026-11-19: the rider's own shock and fork spring rates already feed spring_check (server/physics-context.ts).
+      Found and fixed while checking: the reader of the maker's standard sag missed Yamaha ("sunken length", 147 bike-years)
+      and Triumph ("4.02 in (102 mm)") wording, could pick a Honda optional-spring or adjustment-range row, and treated
+      Honda's 10-25 mm free-sag range as one number. Now strict, range-aware, and gives no target when standard rows disagree
+      (shared/suspension-physics.ts). Data conflict to look at: Honda CRF450R 2027 carries both 95 mm and 100 mm standard rows.
 - [ ] Published kit data where the maker posts it (WP, Rekluse).
 
 ## 4. Track details (221 tracks: 130 low confidence, 207 with listed gaps; 11 riding areas without soil/layout)
 - [ ] Raise low-confidence tracks from official pages, most-used states first (FL, GA, AL, NC, SC, TN).
+      2026-11-19: FL/GA open low-confidence rows already hold everything the directories and press say; what is left is on the
+      tracks' own sites, which need Kyle to approve the page fetches (or paste the links): fasttraxxflorida.com,
+      danwoodleyracing.com, mesamotocross.com, motosandbox.com, haroldmotorsports.com, hardrockoffroadpark.net,
+      centralfloridaoffroad.com, lanefarmmx.com, motoxcompound.com, silverdollarmp.com, stfraceway.com, tenmilemx.com,
+      victorytrainingfacility.com, ironmountainresort.com. Silver Dollar: 2020 rebuild note and source added.
 
 ## 5. Ask BAK speed and regression set
 - [ ] Measure where the ~21 s goes; trim.
