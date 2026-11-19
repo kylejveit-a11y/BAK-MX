@@ -26,3 +26,9 @@ Scope recorded: the bike-years whose own manual was searched. KX85 2027 and KX11
 The owner's manuals for YZ65 2020–2025 and 2027 and YZ85 2020–2021 were downloaded from Yamaha's library and their text
 searched for "sag" and "sunken length": no match in any. These are owner's manuals without the service and tuning chapters.
 YZ65 2026 and YZ85 2022–2027 were not matched to a manual in this pass and carry no note.
+
+## Honda: no free sag figure in the 2013 CRF450R and 2014–2019 R / RX manuals
+
+Read in full in the browser (see ../honda-sag/REPORT.md): the words "free sag" do not appear in the 2013 CRF450R manual, the
+2014–2019 CRF250R and CRF450R manuals, the 2017 CRF450RX, the 2019 R/RX manuals or the 2019 CRF450X. They print the standard
+race sag only. The 2010–2013 era manuals print 10–25 mm and that is on file.

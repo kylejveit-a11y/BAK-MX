@@ -8,10 +8,11 @@ test('Kawasaki bikes whose manual was searched carry the no-sag-figure note; oth
  for(const [m,y] of [['KX450',2014],['KX450',2026],['KX250X',2021],['KX65',2027],['KX112',2022]] as const)
   assert.match(makerPublishingNotes(bike('Kawasaki',m,y))!.notes[0].not_printed,/no sag figure/);
  // outside the searched manuals: no claim either way
- for(const [mk,m,y] of [['Kawasaki','KX85',2027],['Kawasaki','KX112',2027],['Kawasaki','KX450',2013],['Kawasaki','KX250X',2020],['Honda','CRF450R',2024],['Yamaha','YZ450F',2024]] as const)
+ for(const [mk,m,y] of [['Kawasaki','KX85',2027],['Kawasaki','KX112',2027],['Kawasaki','KX450',2013],['Kawasaki','KX250X',2020],['Honda','CRF450R',2024],['Honda','CRF450R',2012],['Honda','CRF450RX',2018],['Yamaha','YZ450F',2024]] as const)
   assert.equal(makerPublishingNotes(bike(mk,m,y)),null);
  assert.ok(makerPublishingNotes(bike('Yamaha','YZ65',2027)));assert.ok(makerPublishingNotes(bike('Yamaha','YZ85',2021)));
  assert.equal(makerPublishingNotes(bike('Yamaha','YZ65',2026)),null);assert.equal(makerPublishingNotes(bike('Yamaha','YZ85',2022)),null);
+ assert.match(makerPublishingNotes(bike('Honda','CRF450R',2015))!.notes[0].not_printed,/no free/);
  assert.equal(makerPublishingNotes(null),null);
 });
 test('Ask BAK receives maker_publishing only for a covered bike',()=>{
