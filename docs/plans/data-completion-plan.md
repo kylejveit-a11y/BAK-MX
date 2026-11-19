@@ -10,9 +10,12 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
       (WR250F 2010-13, 2015-17; WR450F 2010-18; YZ250FX 2018): loaded and verified 2026-11-18, all 90-100 mm.
       YZ65 / YZ85 owner's manuals print no sag: recorded in maker-publishing. Open: YZ65 2026, YZ85 2022-2027 (no manual matched).
       Report: docs/research/expansion/gaps/yamaha-sag/REPORT.md. Use the corrected SQL pattern (includes 'sunken length') for audits.
-- [ ] Honda 2010-2019 (44 bike-years): race sag is in the owner's manual; Honda's CDN refuses automated downloads (403).
-      Needs the browser on Kyle's computer (ask before downloading).
-- [ ] Honda / Yamaha static (free) sag: read the manuals; if not printed, add a maker-publishing note.
+- [x] Honda 2010-2019: 35 bike-years loaded and verified 2026-11-18 (race sag; free sag 10-25 mm where printed), read in the
+      browser on Kyle's computer. Held back: CRF150R 2012-2019 (manual contradicts itself: 85 mm standard vs 90 mm 'decrease' example);
+      CRF450RX 2018 has no manual. Report: docs/research/expansion/gaps/honda-sag/REPORT.md. Method reusable: window.__run in the
+      browser pane at cdn.powersports.honda.com with pdf.js from cdnjs.
+- [ ] Free sag: Honda 2010-2013 era prints 10-25 mm (loaded). Still to read: Honda 2020+ handbooks (gap log asks for it on CRF250R 2020 / 2024)
+      and Yamaha; add a maker-publishing note where a manual prints none.
 - [ ] Suzuki RM-Z (16): no manufacturer-published manual found online. Stays unknown unless Kyle supplies manuals.
 - [ ] Small holes: Husqvarna FC 250/450 2026, TC 125/250 2014-15, KTM 125 SX 2023, Triumph TF 2027, bikes with no facts
       (GasGas EC 250 2021, Husqvarna FE 450 2020-22, KX85/KX112 2027, RM-Z 2023).
