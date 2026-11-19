@@ -35,6 +35,8 @@ const body=z.object({
  media:z.discriminatedUnion('kind',[z.object({kind:z.literal('clip'),duration:z.number().min(0).max(120),frames:z.array(z.number().min(0).max(120)).min(2).max(CLIP_MAX_FRAMES),focus:z.enum(COACH_FOCUS_IDS).optional(),slowmo:z.boolean().optional()}).strict(),z.object({kind:z.literal('photos'),focus:z.enum(COACH_FOCUS_IDS)}).strict()]).optional(),
  race:z.object({track:z.string().trim().max(120).optional(),date:z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),setup:z.boolean().optional()}).strict().optional(),
  preferences:z.object({units:z.enum(['us','metric']),answer_length:z.enum(['quick','full']),tone:z.enum(['straight','encouraging'])}).strict().optional(),
+ // Speed tests: try a lighter reasoning level for the answer or the lookup planning, or skip the planning call. Riders never send this.
+ trial:z.object({answer_effort:z.enum(['none','minimal','low','medium']).optional(),plan_effort:z.enum(['none','minimal','low','medium']).optional(),skip_plan:z.boolean().optional()}).strict().optional(),
  setup_history:z.array(z.object({recorded_at:z.string().default(()=>new Date().toISOString()),track:z.string().max(120).default(''),conditions:z.string().max(120).default(''),
   change_made:z.string().max(1000).default(''),result:z.enum(['better','no_change','worse','not_tested']),notes:z.string().max(1000).default('')})).max(8).default([]),
 });
@@ -69,7 +71,7 @@ export async function handleEval(req:Request):Promise<Response>{
  const t0=Date.now(),label=bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'no bike';
  const log=(ok:boolean,error?:string)=>admin.from('eval_runs').insert({token_id:tok.id,bike:label,message:data.message.slice(0,500),prompt_version:PROMPT_VERSION,ms:Date.now()-t0,ok,error:error?.slice(0,300)??null}).then(()=>{},()=>{});
  try{
-  const lookups=bike?(data.race?raceLookups(data.message):await planSpecLookups(bike,history,data.message)):[];
+  const lookups=bike?(data.race||data.trial?.skip_plan?raceLookups(data.message):await planSpecLookups(bike,history,data.message,data.trial?.plan_effort)):[];const t1=Date.now();
   const extra=bike?supplementalLookups(data.message,bike):[];
   const claims=bike?(extra.length?mergeSearchResults([await searchBikeClaims(admin,bike,lookups),await searchBikeClaims(admin,bike,extra)]):await searchBikeClaims(admin,bike,lookups)):[];
   const compared=bike?await comparisonClaims(admin,bike,data.message,lookups):[];
@@ -80,8 +82,9 @@ export async function handleEval(req:Request):Promise<Response>{
   const physics=bike?await physicsFor(admin,bike,[data.message,...history.filter(m=>m.role==='user').slice(-2).map(m=>m.content??'')],{tracks,raceTrack:data.race?.track??null,forecastHighF:race?.forecast&&race.forecast.available?race.forecast.high_f:null,raceMode:!!data.race}):null;
   const physicsEvidence=(physics as {evidence?:typeof claims}|null)?.evidence;
   if(physicsEvidence?.length)for(const c of physicsEvidence)if(!claims.some(x=>x.id===c.id))claims.push(c);
-  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true,[],data.images,tracks,data.media??null,null,data.preferences??null,race,physics,data.app??null,compared,bike?await riderWearFor(admin,bike,[data.message,...history.filter(m=>m.role==='user').slice(-2).map(m=>m.content??'')]):null);
+  const t2=Date.now();
+  const {response,raw}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true,[],data.images,tracks,data.media??null,null,data.preferences??null,race,physics,data.app??null,compared,bike?await riderWearFor(admin,bike,[data.message,...history.filter(m=>m.role==='user').slice(-2).map(m=>m.content??'')]):null,data.trial?.answer_effort?{effort:data.trial.answer_effort}:null);
   await log(true);
-  return new Response(JSON.stringify({prompt_version:PROMPT_VERSION,model:process.env.OPENAI_MODEL,ms:Date.now()-t0,published_claims:claims.length,compared:compared.map(c=>({bike:c.bike,claims:c.claims.length})),lookups,response}),{headers:{'content-type':'application/json','cache-control':'no-store'}});
+  return new Response(JSON.stringify({prompt_version:PROMPT_VERSION,model:process.env.OPENAI_MODEL,ms:Date.now()-t0,timing:(r=>({plan_ms:t1-t0,gather_ms:t2-t1,answer_ms:r.bakmx_answer_ms,first_text_ms:r.bakmx_first_text_ms,repaired:r.bakmx_repaired,effort:(r.reasoning as {effort?:string}|undefined)?.effort??null,usage:r.usage??null}))(raw as Record<string,unknown>),published_claims:claims.length,compared:compared.map(c=>({bike:c.bike,claims:c.claims.length})),lookups,response}),{headers:{'content-type':'application/json','cache-control':'no-store'}});
  }catch(e){await log(false,String((e as Error)?.message??e));throw e;}
 }

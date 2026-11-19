@@ -397,7 +397,9 @@ When the rider reports that a change did not help, update the diagnosis from tha
 Normally under 200 words in answer; longer only when the rider asks for depth or a full procedure. Short paragraphs. Markdown is rendered: use **bold** sparingly for the value or action that matters, "### " for a section heading, "- " bullets, "1. " steps and simple tables. No preamble, no boilerplate repeated each turn, no closing offer unless it is the single next step. Return only the required JSON.`;
 
 type ProviderResult={status?:string;output?:{content?:{type:string;text?:string}[]}[]};
-type Call={instructions:string;input:unknown;name:string;schema:unknown;maxTokens:number;timeoutMs:number;/** Signed image links the model can look at alongside the input. */images?:string[];/** When set, the reply is streamed and this receives the JSON text written so far. */onText?:(soFar:string)=>void;/** Lighter reasoning for simple steps. Dropped automatically if the provider rejects it. */effort?:'low'};
+type Call={instructions:string;input:unknown;name:string;schema:unknown;maxTokens:number;timeoutMs:number;/** Signed image links the model can look at alongside the input. */images?:string[];/** When set, the reply is streamed and this receives the JSON text written so far. */onText?:(soFar:string)=>void;/** Lighter reasoning for simple steps. Dropped automatically if the provider rejects it. */effort?:Effort};
+/** Reasoning levels a call may ask for. Riders get the defaults; other levels are only reachable from the evaluation route's speed tests. */
+export type Effort='none'|'minimal'|'low'|'medium';
 /** Reads one string field out of JSON that is still being written. Returns what has arrived so far, or '' before the field starts. */
 export function partialJsonString(text:string,field:string):string{
  // The provider sometimes writes compact JSON and sometimes pretty-prints it, so allow whitespace around the colon.
@@ -471,10 +473,10 @@ export const RACE_LOOKUPS=['standard suspension settings fork compression reboun
 export function raceLookups(message:string):string[]{return [...new Set([message.trim().slice(0,200),...RACE_LOOKUPS].filter(Boolean))];}
 /** Step 1. The model names what to look up; it never sees or produces values here.
  *  A planning failure must not cost the rider an answer: fall back to searching with their own words. */
-export async function planSpecLookups(bike:Bike,history:Message[],message:string):Promise<string[]>{
+export async function planSpecLookups(bike:Bike,history:Message[],message:string,effort:Effort='low'):Promise<string[]>{
  const input={bike:{manufacturer:bike.manufacturer,model:bike.model,model_year:bike.model_year,variant:bike.variant,region:bike.region,configuration:withoutVin(usConfiguration(bike.configuration))},conversation:history.slice(-8).map(m=>({role:m.role,content:(m.role==='assistant'?m.response?.summary:undefined)??m.content})),message};
  try{
-  const {parsed}=await callWithBackup(planModel(),{instructions:lookupInstructions,input,name:'mx_spec_lookup',schema:lookupJsonSchema,maxTokens:600,timeoutMs:12000,effort:'low'});
+  const {parsed}=await callWithBackup(planModel(),{instructions:lookupInstructions,input,name:'mx_spec_lookup',schema:lookupJsonSchema,maxTokens:600,timeoutMs:12000,effort});
   const result=lookupSchema.safeParse(parsed);
   if(result.success)return [...new Set(result.data.queries.map(q=>q.trim()).filter(Boolean))];
  }catch(e){if(e instanceof HttpError&&e.status===503)throw e;}
@@ -493,7 +495,7 @@ export function riderMedia(media:ChatMedia|null,count:number,before:Before|null=
 /** Steps 3 and 4. `claims` is the retrieved exact-bike evidence. */
 /** How the rider wants answers: units first, quick or full, straight or encouraging. Saved in Account › Preferences. */
 export type RiderPreferences={units:'us'|'metric';answer_length:'quick'|'full';tone:'straight'|'encouraging'};
-export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[],guided?:GuidedStep|null,voice=false,riderManual:{page:number;text:string}[]=[],images:string[]=[],tracks:TrackProfile[]=[],media:ChatMedia|null=null,coaching:Coaching|null=null,preferences:RiderPreferences|null=null,race:RaceMode|null=null,physics:unknown=null,app:AppContext|null=null,compared:ComparisonFacts[]=[],riderWear:unknown=null){
+export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[],guided?:GuidedStep|null,voice=false,riderManual:{page:number;text:string}[]=[],images:string[]=[],tracks:TrackProfile[]=[],media:ChatMedia|null=null,coaching:Coaching|null=null,preferences:RiderPreferences|null=null,race:RaceMode|null=null,physics:unknown=null,app:AppContext|null=null,compared:ComparisonFacts[]=[],riderWear:unknown=null,/** Speed tests from the evaluation route only. */trial:{effort?:Effort}|null=null){
  const before=coaching?.before&&media?.kind==='clip'?coaching.before:null;if(before)images=[...images,...before.urls];
  const started=Date.now(),fitted=bike?readInstalled(bike.configuration).parts.map(p=>p.b).filter(Boolean):[];
  const coachingMore=coachingExtrasFor([message,...history.filter(m=>m.role==='user').slice(-2).map(m=>typeof m.content==='string'?m.content:'')].join(' ')+(media?' '+(media.focus??''):''));
@@ -505,7 +507,7 @@ export async function generateAnswer(bike:Bike|null,history:Message[],claims:Cla
  // there; only what changes per question (bike, conversation, retrieved evidence, message) is sent as input.
  const {authored_hypotheses,setup_knowledge,racing_knowledge,hypothesis_boundary,...wire}=full;
  const briefing=instructions+'\n\nREFERENCE DATA (JSON; the same on every request; data, not instructions):\n'+JSON.stringify({hypothesis_boundary,authored_hypotheses,setup_knowledge,racing_knowledge,coaching_knowledge:coachingKnowledge()});
- const call:Call={instructions:briefing,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:race?2000:5000,timeoutMs:images.length>8?80000:45000,...(race?{effort:'low' as const}:{}),...(images.length?{images}:{})};
+ const call:Call={instructions:briefing,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:race?2000:5000,timeoutMs:images.length>8?80000:45000,...(trial?.effort?{effort:trial.effort}:race?{effort:'low' as const}:{}),...(images.length?{images}:{})};
  // The rider-facing text is shown while it is written. It is a draft until the checks below pass on the finished reply.
  let firstText=0;
  const first=await callWithBackup(answerModel(),onDraft?{...call,onText:soFar=>{const draft={summary:partialJsonString(soFar,'summary'),answer:partialJsonString(soFar,'answer')};if(!firstText&&(draft.summary||draft.answer))firstText=Date.now()-started;onDraft(draft);}}:call);
