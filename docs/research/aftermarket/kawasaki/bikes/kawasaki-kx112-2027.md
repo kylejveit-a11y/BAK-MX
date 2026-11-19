@@ -1,6 +1,6 @@
 # Kawasaki KX112 2027: aftermarket parts
 
-1077 listings whose stated fitment names this bike: 64 researched parts (with what they change and rider findings), 71 dealer and retailer listings specific to this bike, and 942 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1133 listings whose stated fitment names this bike: 120 researched parts (with what they change and rider findings), 71 dealer and retailer listings specific to this bike, and 942 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -40,6 +40,36 @@
 | Plews | MX3 Foxhills GP Front Tire 19-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
 | Plews | MX3 Foxhills GP Rear Tire 16-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
 | Moto-Master | Moto Master Caliper Adapter 260 Kawasaki KX85 / KX100 / KX112 2001-2027 | 211075-PU | Bracket that relocates the front caliper for a larger rotor. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moto-master-caliper-adapter-260-kawasaki-kx85-kx100-kx112-2001-2024) | medium |
+| Works Connection | Works Connection Brake Cap-Front | 21-000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-005 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-005ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-105 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-105ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-110 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-110ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-G000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-G000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-K000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-K000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-P002 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-P002ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Clevis by FasstCo | 36-030 |  |  | [source](https://www.worksconnection.com/p18059-brake-clevis) | high |
+| Works Connection | Works Connection Brake Clevis by FasstCo | 36-035 |  |  | [source](https://www.worksconnection.com/p18059-brake-clevis) | high |
+| Works Connection | Works Connection Brake Clevis by FasstCo | 36-036 |  |  | [source](https://www.worksconnection.com/p18059-brake-clevis) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-120 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-125 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-126 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-303 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-B165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-B303 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-G165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-G303 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-K165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-K303 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-P303 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
 | Barnett | Barnett Clutch Basket Kawasaki KX80 / 85 / 100 1998-2027 | 321-45-01002 | Billet clutch basket replacing the stock basket. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/barnett-clutch-basket-kawasaki-kx80-85-100-1998-2022) | medium |
 | Hinson | Hinson Billetproof Clutch Basket Kawasaki KX80 / KX85 / KX100 / KX112 1998-2027 | H068 | Billet clutch basket replacing the stock basket. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/hinson-billetproof-clutch-basket-kawasaki-kx80-kx85-kx100-kx112-1998-2022) | medium |
 | Hinson | Hinson Billetproof Clutch Cover Kawasaki KX85 / KX100 / KX112 1998-2027 | C068 | Aftermarket clutch cover. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/hinson-billetproof-clutch-cover-kawasaki-kx85-kx100-kx112-1998-2022) | medium |
@@ -48,13 +78,37 @@
 | Rekluse | Rekluse Core EXP 3.0 Clutch Kit Kawasaki KX85 / KX100 / KX112 1998-2027 | RMS-7742 | Rekluse auto clutch: engages by rpm so the bike will not stall when the lever is not used; lever still works. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rekluse-core-exp-30-clutch-kit-kawasaki-kx85-kx100-kx112-1998-2022) | medium |
 | Rekluse | Rekluse Core Manual Clutch Kit Kawasaki 85cc-112cc 1998-2027 | RMS-7042 | Rekluse Core Manual: replacement clutch pack with more friction surface than stock (per Rekluse product naming); stays a manual clutch. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rekluse-core-manual-clutch-kit-kawasaki-85cc-112cc-1998-2025) | medium |
 | Rekluse | Rekluse Standard Clutch Cover Kawasaki KX80 / KX85 / KX100 / KX112 1998-2027 | RMS-342 | Aftermarket clutch cover. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rekluse-standard-clutch-cover-kawasaki-kx80-kx85-kx100-kx112-1998-2022) | medium |
+| Works Connection | Works Connection Hinson Billetproof Clutch Cover | HR-C068 |  |  | [source](https://www.worksconnection.com/p18103-hinson-billetproof-cover) | high |
+| Works Connection | Works Connection Hinson FSC Clutch Plate Kit | HR-FSC068-6-001 |  |  | [source](https://www.worksconnection.com/p18115-hinson-fsc-clutch-plate-kit) | high |
 | Moose Racing | Moose Racing Forged Rear Brake Pedal Kawasaki KX85 / KX100 / KX112 2001-2027 | 82-0343-21-33 | Aftermarket rear brake pedal. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moose-racing-forged-rear-brake-pedal-kawasaki-kx85-kx100-kx112-2001-2022) | medium |
 | Works Connection | Works Connection Pro Launch Kit Kawasaki KX85 / KX100 / KX112 2014-2027 | 12-G302, 12-K302 | Fork-mounted start device that holds the front end down for starts. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/works-connection-pro-launch-kit-kawasaki-kx85-kx100-kx112-2014-2025) | medium |
 | Works Connection | Works Connection Pro Launch Start Device Kawasaki KX85 / KX100 / KX112 2014-2027 | 12-302 | Fork-mounted start device that holds the front end down for starts. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/works-connection-pro-launch-start-device-kawasaki-kx85-kx100-kx112-2014-2022) | medium |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-200 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-300 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-400 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-500 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-508 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-G100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-K100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-P101 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection ARC Folding Clutch Lever | 32-411 |  |  | [source](https://www.worksconnection.com/p351532-clutch-lever) | high |
+| Works Connection | Works Connection ARC Folding Brake Lever | 33-412 |  |  | [source](https://www.worksconnection.com/p351282-brake-lever) | high |
+| Works Connection | Works Connection Adjustable Brake Lever - ARC | 33-412i |  |  | [source](https://www.worksconnection.com/p351240-brake-powerlever) | high |
 | Pro Circuit | Pro Circuit head and cylinder modification (2-stroke mini) | SRV 001 | In-house engine work at Pro Circuit; they describe mini and supermini engine modification as a core service. Turnaround stated as 5-7 business days. | Service number from the Pro Circuit motor-services page. No prices published; Pro Circuit says to call for a quote. Fitment is generic (any mini of the named br | [source](https://www.procircuit.com/motor-services) | medium |
 | Pro Circuit | Pro Circuit cylinder modification (2-stroke mini) | SRV 007 | In-house engine work at Pro Circuit; they describe mini and supermini engine modification as a core service. Turnaround stated as 5-7 business days. | Service number from the Pro Circuit motor-services page. No prices published; Pro Circuit says to call for a quote. Fitment is generic (any mini of the named br | [source](https://www.procircuit.com/motor-services) | medium |
 | Pro Circuit | Pro Circuit bore and replate cylinder | SRV 103 | In-house engine work at Pro Circuit; they describe mini and supermini engine modification as a core service. Turnaround stated as 5-7 business days. | Service number from the Pro Circuit motor-services page. No prices published; Pro Circuit says to call for a quote. Fitment is generic (any mini of the named br | [source](https://www.procircuit.com/motor-services) | medium |
 | Pro Circuit | Pro Circuit crankshaft rebuild | SRV 0150 | In-house engine work at Pro Circuit; they describe mini and supermini engine modification as a core service. Turnaround stated as 5-7 business days. | Service number from the Pro Circuit motor-services page. No prices published; Pro Circuit says to call for a quote. Fitment is generic (any mini of the named br | [source](https://www.procircuit.com/motor-services) | medium |
+| Works Connection | Works Connection Radiator Brace | 18-046 |  |  | [source](https://www.worksconnection.com/p18130-radiator-braces) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-001 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-002 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-003 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-G001 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-K001 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-P004 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Fuel Vent Cap | 26-200 |  |  | [source](https://www.worksconnection.com/p18097-fuel-vent-cap) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Maintenance Timer | 37-200 |  |  | [source](https://www.worksconnection.com/p18160-tach-hour-meters) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Resettable Maintenance Timer Mount Bracket | 37-205 |  |  | [source](https://www.worksconnection.com/p18161-tach-hour-meter-mounts) | high |
 | Pro Circuit | Pro Circuit R-304 Silencer Kawasaki KX80 / KX85 / KX100 / KX112 1998-2027 / Suzuki RM100 2003-2005 | SK98080-R | Replaces the stock silencer. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/pro-circuit-r-304-silencer-kawasaki-kx80-kx85-kx100-kx112-1998-2022-suzuki-rm100-2003-2005) | medium |
 | Pro Circuit | Pro Circuit Type 296 S/A Silencer Kawasaki KX80 / KX85 / KX100 / KX112 / Suzuki RM100 1998-2027 | SK98080-296 | Replaces the stock silencer. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/pro-circuit-type-296-sa-silencer-kawasaki-kx80-kx85-kx100-kx112-suzuki-rm100-1998-2022) | medium |
 | Fire Power | Fire Power Aluminum Rear Sprocket Kawasaki 80cc-112cc 1988-2027 | 414-49 BLK, 414-50 BLK, 414-51 BLK, 414-52 BLK, 414-53 BLK, 414-54 BLK | Rear sprocket; change tooth count to alter gearing. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/fire-power-rear-sprocket-kawasaki-80cc-112cc-1988-2023) | medium |
@@ -70,6 +124,8 @@
 | Works Connection | Works Connection Frame Guards Kawasaki KX85 / KX100 / KX112 2014-2027 | 15-109 | Frame protection guards. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/works-connection-frame-guards-kawasaki-kx85-kx100-kx112-2014-2022) | medium |
 | Works Connection | Works Connection MX Skid Plate Kawasaki KX85 / KX112 2022-2027 | 10-110 | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/works-connection-mx-skid-plate-kawasaki-kx85-kx112-2022-2023) | medium |
 | Works Connection | Works Connection Radiator Braces Kawasaki KX85 / KX100 / KX112 2014-2027 | 18-046 | Radiator braces that stiffen radiators against impact. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/works-connection-radiator-braces-kawasaki-kx85-kx100-kx112-2014-2022) | medium |
+| Works Connection | Works Connection Skid Plate | 10-110 |  |  | [source](https://www.worksconnection.com/p36294-skid-plate) | high |
+| Works Connection | Works Connection Fork Bleeder Valves | 26-321 |  |  | [source](https://www.worksconnection.com/p417280-fork-bleeders-shorty) | high |
 
 ## Dealer and retailer listings for this bike
 

@@ -1,6 +1,6 @@
 # Husqvarna TC 65 2027: aftermarket parts
 
-983 listings whose stated fitment names this bike: 59 researched parts (with what they change and rider findings), 1 dealer and retailer listings specific to this bike, and 923 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1054 listings whose stated fitment names this bike: 130 researched parts (with what they change and rider findings), 1 dealer and retailer listings specific to this bike, and 923 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -35,10 +35,80 @@
 | Plews | MX2 Matterly GP Rear Tire 12-inch |  | intermediate: Intermediate, built for tracks that change from wet morning to hard afternoon. | Marked NHS. | [source](https://plewstyres.com/) | high |
 | Plews | MX3 Foxhills GP Front Tire 14-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
 | Plews | MX3 Foxhills GP Rear Tire 12-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-080 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-080ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-081 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-081ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-082 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-082ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-083 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-083ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cover - Billet | 21-090 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-090ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Clutch Cover - Billet | 21-092 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-092ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Clutch Cover - Billet | 21-093 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-093ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Clutch Cover - Billet | 21-094 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-094ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-770 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-771 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-772 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-773 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-G041 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-G041ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cover - Billet | 21-G044 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-G044ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-G744 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-K041 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-K041ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cover - Billet | 21-K044 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-K044ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-K744 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap Billet - Front | 21-P084 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-P084ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cover - Billet | 21-P095 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-P095ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-P774 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Drill Guide KTM | 12-177K |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Hardware - Countersink | 12-178 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-711 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-B165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-B711 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-G165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-G711 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-K165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-K711 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-P711 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Elite Throttle Tube | 22-500 |  |  | [source](https://www.worksconnection.com/p52075-throttle-tube-elite) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-200 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-300 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-400 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-500 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-508 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-G100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-P101 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection ARC Folding Clutch Lever | 32-106 |  |  | [source](https://www.worksconnection.com/p351532-clutch-lever) | high |
+| Works Connection | Works Connection ARC Folding Brake Lever | 33-203 |  |  | [source](https://www.worksconnection.com/p351282-brake-lever) | high |
 | Pro Circuit | Pro Circuit head and cylinder modification (2-stroke mini) | SRV 001 | In-house engine work at Pro Circuit; they describe mini and supermini engine modification as a core service. Turnaround stated as 5-7 business days. | Service number from the Pro Circuit motor-services page. No prices published; Pro Circuit says to call for a quote. Fitment is generic (any mini of the named br | [source](https://www.procircuit.com/motor-services) | medium |
 | Pro Circuit | Pro Circuit cylinder modification (2-stroke mini) | SRV 007 | In-house engine work at Pro Circuit; they describe mini and supermini engine modification as a core service. Turnaround stated as 5-7 business days. | Service number from the Pro Circuit motor-services page. No prices published; Pro Circuit says to call for a quote. Fitment is generic (any mini of the named br | [source](https://www.procircuit.com/motor-services) | medium |
 | Pro Circuit | Pro Circuit bore and replate cylinder | SRV 103 | In-house engine work at Pro Circuit; they describe mini and supermini engine modification as a core service. Turnaround stated as 5-7 business days. | Service number from the Pro Circuit motor-services page. No prices published; Pro Circuit says to call for a quote. Fitment is generic (any mini of the named br | [source](https://www.procircuit.com/motor-services) | medium |
 | Pro Circuit | Pro Circuit crankshaft rebuild | SRV 0150 | In-house engine work at Pro Circuit; they describe mini and supermini engine modification as a core service. Turnaround stated as 5-7 business days. | Service number from the Pro Circuit motor-services page. No prices published; Pro Circuit says to call for a quote. Fitment is generic (any mini of the named br | [source](https://www.procircuit.com/motor-services) | medium |
+| Works Connection | Works Connection Oil Fill Plug | 24-020 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-021 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-030 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-031 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-G020 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-K020 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-P022 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Fuel Vent Cap | 26-200 |  |  | [source](https://www.worksconnection.com/p18097-fuel-vent-cap) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Maintenance Timer | 37-200 |  |  | [source](https://www.worksconnection.com/p18160-tach-hour-meters) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Resettable Maintenance Timer Mount Bracket | 37-205 |  |  | [source](https://www.worksconnection.com/p18161-tach-hour-meter-mounts) | high |
 | FMF | FMF Factory Fatty Rev Pipe expansion chamber 025335 (65 SX, TC 65, MC 65) | 025335 | Replaces the stock expansion chamber. FMF sells it as a direct bolt-on pipe for this model; the listing itself gives no horsepower claim. | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/factory-fatty-025335) | high |
 | FMF | FMF Powercore 2 silencer 025305 (65 SX, TC 65, MC 65) | 025305 | Replaces the stock silencer. FMF lists it as a bolt-on for this model; the listing gives no performance claim. | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/powercore-2-025305) | high |
 | FMF | FMF Fatty expansion chamber 025303 (65 SX, TC 65, MC 65) | 025303 | Replaces the stock expansion chamber. FMF sells it as a direct bolt-on pipe for this model; the listing itself gives no horsepower claim. | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/fatty-025303) | high |
@@ -63,6 +133,7 @@
 | WP SUSPENSION (KTM/Husqvarna/GasGas genuine) | WP Front Fork Fluid SAE 4 (5 L) | 48601166S1 | Factory-specified damping oil for WP XACT / XACT AER forks; the manual part number for fork refills. | Sold in 5 L only at these dealers. Fill amounts differ by bike and year (see fluid_specs). Lings price is GBP 91.86. | [source](https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240038_en_BA.pdf) | high |
 | WP SUSPENSION (KTM/Husqvarna/GasGas genuine) | WP Shock Absorber Fluid SAE 2.5 (5 L) | 50180751S1 | Factory-specified damping oil for WP XACT shocks. | Owner's manuals do not state a shock oil quantity (2026-2027 small-bike manuals say fill to the maximum mark). | [source](https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240038_en_BA.pdf) | high |
 | KTM PowerParts | Radiator Protection | A46035036044AB, A46035036044XX | Radiator guard. | The 'XX' suffix is an AOMC URL placeholder; actual colour-suffix numbers are not captured. | [AOMC (US)](https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html) | unverified |
+| Works Connection | Works Connection Fork Guard Reinforcing Kit | 12-196 |  |  | [source](https://www.worksconnection.com/p1457836-fork-guard-reinforcing-kit) | high |
 | Lainer Suspension | MINIPRO Cartridge-2 - WP AER 35 (65 cc, 2026-2027) | MINIPRO_2026_AER35 | Replaces the hydraulic side while keeping the air spring; full compression/rebound adjustment and better hydraulic bottoming. | Only upgrade found so far for the 2026-2027 65cc fork. | [source](https://lainersuspensionusa.com/shop/ktm-husqvarna-gasgas-upgrades/minipro-cartridge-2-wp-aer-35-sx65-tc65-mc65-2026-2027/) | medium |
 | WP / KTM PowerParts | WP Factory Racing Front Wheel 1.6x21" and Rear Wheel 2.15x19" (black) | A46009901544C1A, A46010901544C1A | Factory-spec wheel set (see the orange wheel record for claims). | From AOMC related-product titles only; product pages not fetched. | [AOMC (US), front](https://aomc.mx/KTM-Factory-Front-Wheel-16-x-21-125-500-16-24-A4600990104404.html) | unverified |
 

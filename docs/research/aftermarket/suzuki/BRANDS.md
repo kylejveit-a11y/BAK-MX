@@ -4,6 +4,7 @@
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
+| Works Connection | 1380 | engine (364), chassis (357), clutch (216), brakes (209), protection (136), controls (66) | Cycle Gear 19, research 1361 |
 | FMF | 215 | exhaust (185), Exhaust (29), Uncategorised (1) | Cycle Gear 30, research 185 |
 | Pro Circuit | 186 | engine (69), exhaust (65), suspension (16), Exhaust (14), controls (6), Uncategorised (4) | Cycle Gear 20, research 166 |
 | Moose Racing | 176 | Uncategorised (62), protection (33), controls (16), Handlebars & Controls (13), Suspension (8), UTV / ATV Parts (5) | Cycle Gear 109, research 67 |
@@ -20,7 +21,6 @@
 | Fire Power | 52 | Chain & Sprocket (15), Uncategorised (13), Handlebars & Controls (10), Gauges (4), Batteries & Electrical (4), gearing (2) | Cycle Gear 46, research 6 |
 | ODI | 52 | Uncategorised (39), Handlebars & Controls (9), controls (3), UTV / ATV Parts (1) | Cycle Gear 49, research 3 |
 | Rekluse | 50 | clutch (31), Drive & Transmission (14), engine (4), Uncategorised (1) | Cycle Gear 15, research 35 |
-| Works Connection | 48 | protection (10), Uncategorised (9), chassis (9), controls (8), Suspension (7), suspension (2) | Cycle Gear 19, research 29 |
 | JT Sprockets | 46 | gearing (43), Chain & Sprocket (3) | Cycle Gear 3, research 43 |
 | Moto-Master | 43 | brakes (23), Brakes (7), gearing (6), Chain & Sprocket (5), Uncategorised (2) | Cycle Gear 14, research 29 |
 | XPR Motorsports | 40 | tuning (20), engine (20) | research 40 |

@@ -1,6 +1,6 @@
 # Honda CRF150R 2026: aftermarket parts
 
-1476 listings whose stated fitment names this bike: 108 researched parts (with what they change and rider findings), 255 dealer and retailer listings specific to this bike, and 1113 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1545 listings whose stated fitment names this bike: 177 researched parts (with what they change and rider findings), 255 dealer and retailer listings specific to this bike, and 1113 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -66,6 +66,44 @@
 | Plews | MX3 Foxhills GP Rear Tire 14-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
 | Plews | MX3 Foxhills GP Rear Tire 16-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
 | ARC | ARC Billet Nissin Front Brake Master Cylinder Cap AC-MC100 | AC-MC100-BK, AC-MC100-R | Billet replacement reservoir cap. | ARC fitment list end years vary by model (some stop at 2025, some 2026); 2027 not listed. | [source](https://arclevers.com/products/master-cylinder-caps-ac-mc100) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-005 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-005ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-105 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-105ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-500 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-505 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-515 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-G000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-G000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-G500 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-K000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-K000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-K500 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-P002 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-P002ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-P501 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Clevis by FasstCo | 36-000 |  |  | [source](https://www.worksconnection.com/p18059-brake-clevis) | high |
+| Works Connection | Works Connection Brake Clevis by FasstCo | 36-006 |  |  | [source](https://www.worksconnection.com/p18059-brake-clevis) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-100 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-105 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-106 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Drill Guide | 12-177 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Hardware - Countersink | 12-178 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-200 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-B165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-B200 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-G165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-G200 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-K165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-K200 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-P200 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Titanium Axle Adjuster Bolts | 70-630 |  |  | [source](https://www.worksconnection.com/p104037-titanium-axle-adjuster-bolts) | high |
 | Barnett | Barnett Clutch Kit Honda CRF150R 2007-2026 | 303-35-20030 | Friction/steel plates and springs kit. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/barnett-clutch-kit-honda-crf150r-2007-2025) | medium |
 | DP Brakes | DP Brakes Clutch Kit Honda CRF150R / CRF150RB Expert 2007-2026 | DPK203 | Friction/steel plates and springs kit. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/dp-brakes-clutch-kit-honda-crf150r-crf150rb-expert-2007-2023) | medium |
 | Hinson | Hinson Fiber Clutch Plates Honda CRF150R 2007-2026 | FP290-6-001 | Replacement friction plates. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/hinson-fiber-clutch-plates-honda-crf150r-2007-2019) | medium |
@@ -80,6 +118,18 @@
 | Moose Racing | Moose Racing Forged Rear Brake Pedal Honda CRF150R / CRF150R Expert 2007-2026 | 82-0102-21-11 | Aftermarket rear brake pedal. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moose-racing-forged-rear-brake-pedal-honda-crf150r-2007-2017) | medium |
 | Moose Racing | Moose Racing Forged Shift Lever Honda CRF150R / CRF150R Expert 2007-2026 | 81-0104-02-10, 81-0104-06-10 | Aftermarket shift lever. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moose-racing-forged-shift-lever-honda-crf150r-crf150r-expert-2007-2025) | medium |
 | ODI | ODI V2 Throttle Cam Honda CRF150R / CRF150R Expert 2007-2026 | H70SCG | Throttle cam that changes throttle pull rate (ODI). | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/odi-v2-throttle-cam-honda-crf150r-2007-2016) | medium |
+| Works Connection | Works Connection Foot Pegs-Pro Pegs Titanium | 20-400 |  |  | [source](https://www.worksconnection.com/p18089-foot-peg-pro-pegs-titanium) | high |
+| Works Connection | Works Connection Elite Throttle Tube | 22-500 |  |  | [source](https://www.worksconnection.com/p52075-throttle-tube-elite) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-200 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-300 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-400 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-500 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-508 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-G100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-K100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-P101 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection ARC Folding Brake Lever | 33-501 |  |  | [source](https://www.worksconnection.com/p351282-brake-lever) | high |
 | Zeta | Zeta Forged Shift Lever Honda CRF150R 2007-2026 | ZE90-4012 | Aftermarket shift lever. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/zeta-forged-shift-lever-honda-crf150r-2007-2023) | medium |
 | Zeta | Zeta Pivot Clutch Lever Honda CR80R / CR85R / CR125R / CRF150R / CRF150R Expert / CRF450R / XR650R | ZE42-4101 | Aftermarket clutch lever. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/zeta-pivot-clutch-lever-honda-cr80r-cr85r-cr125r-crf150r-crf450r-xr650r) | medium |
 | Zeta | Zeta Revolver Shift Lever Honda CRF150R / CRF150RB 2007-2026 | ZE90-3012 | Aftermarket shift lever. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/zeta-revolver-shift-lever-honda-crf150r-crf150rb-2007-2020) | medium |
@@ -94,6 +144,21 @@
 | Pro X | Pro X Exhaust Valve Honda CRF150R 2007-2026 | 28.1227-1 | Replacement exhaust valve. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/pro-x-exhaust-valve-honda-crf150r-2007-2022) | medium |
 | Pro X | Pro X Piston Kit Honda CRF150R / CRF150R Expert 2012-2026 (A/65.97mm/Standard) | 01.1232.A, 01.1232.B | Replacement piston kit for a top-end rebuild. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/pro-x-piston-kit-honda-crf150r-crf150r-expert-2012-2021) | medium |
 | Wiseco | Wiseco High Performance ArmorGlide Piston Kit Honda CRF150R 2012-2026 | PK1935 | Replacement piston kit for a top-end rebuild. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/wiseco-high-performance-armorglide-piston-kit-honda-crf150r-2012-2024) | medium |
+| Works Connection | Works Connection Radiator Braces | 18-008 |  |  | [source](https://www.worksconnection.com/p18130-radiator-braces) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-070 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-071 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-072 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-503 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-508 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-509 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-G070 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-K070 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Fuel Mixture Screw Assembly | 26-106 |  |  | [source](https://www.worksconnection.com/p18096-fuel-mixture-screw) | high |
+| Works Connection | Works Connection Fuel Vent Cap | 26-200 |  |  | [source](https://www.worksconnection.com/p18097-fuel-vent-cap) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Maintenance Timer | 37-200 |  |  | [source](https://www.worksconnection.com/p18160-tach-hour-meters) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Resettable Maintenance Timer Mount Bracket | 37-205 |  |  | [source](https://www.worksconnection.com/p18161-tach-hour-meter-mounts) | high |
+| Works Connection | Works Connection 2 Piece Kit Honda Disc Guard | 70-606 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
+| Works Connection | Works Connection 6 Piece Kit | 70-615 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
 | FMF | FMF Factory4.1 SL (Slip-On) slip-on silencer 041291 (CRF150R) | 041291 | Replaces the stock 4-stroke muffler with an FMF slip-on that bolts to the stock header. | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/factory-4-1-041291) | high |
 | FMF | FMF Q4 slip-on silencer 041287 (CRF150R) | 041287 | Replaces the stock 4-stroke muffler with an FMF slip-on that bolts to the stock header. | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/q4-muffler-041287) | high |
 | FMF | FMF Stainless MegaBomb header pipe 041426 (CRF150R) | 041426 | Replaces the stock 4-stroke head pipe (FMF MegaBomb header). | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/megabomb-041426) | high |
@@ -108,11 +173,15 @@
 | P3 | P3 Carbon Fiber Heat Shield Honda CRF125R / CRF150R | 205011 | Pipe heat shield. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/p3-carbon-fiber-heat-shield-honda-crf125r-crf150r) | medium |
 | TM Designworks | TM Designworks Full Coverage Skid Plate Honda CRF150R / CRF150R Expert 2007-2026 | HOMC-150-BK | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/tm-designworks-full-coverage-skid-plate-honda-crf150r-crf150r-expert-2007-2022) | medium |
 | Works Connection | Works Connection MX Skid Plate Honda CRF150R / CRF150R Expert 2007-2026 | 10-008 | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/works-connection-mx-skid-plate-honda-crf150r-crf150r-expert-2007-2024) | medium |
+| Works Connection | Works Connection Skid Plate | 10-008 |  |  | [source](https://www.worksconnection.com/p36294-skid-plate) | high |
+| Works Connection | Works Connection Engine Guards - Pair | 23-008 |  |  | [source](https://www.worksconnection.com/p18075-engine-guards) | high |
+| Works Connection | Works Connection Rear Caliper Guard | 25-014 |  |  | [source](https://www.worksconnection.com/p18135-rear-caliper-guards) | high |
 | Factory Connection | Factory Connection Shock Spring - Honda / Suzuki / Kawasaki / Yamaha 80-150cc | P401206 (Cycle Gear item) | Replacement shock spring in rider-weight rates. | YZ85 listed only to 2017; KX65/YZ65 not listed. | [source](https://www.cyclegear.com/parts/factory-connection-shock-spring-honda-suzuki-kawasaki-yamaha-80cc-150cc) | medium |
 | K-Tech Suspension | Front Fork Off Road Valve System (ORVS) - CRF150R Showa | 20K-MXSH100 | Replaces the full original compression and rebound damping system in the Showa fork; K-Tech says improved damping and wider adjustment range. | Listed for the big-wheel CRF150R from 2009 on; check wheel size. | [source](https://store.ktechsuspension.com/front-fork-off-road-valve-system-15481.html) | high |
 | KYB | KYB Cartridge A-Kit - Honda CR85 / CRF150R and Suzuki RM85 | 160060001002 | KYB A-kit fork cartridge for the small Showa-forked Honda/Suzuki minis (no further detail on page). | Page title mismatched (shows a WP spring-perch title). No years given, so 2020-2027 CRF150R fitment is assumed from the model name only - verify. | [source](https://www.teknikmotorsport.com/160060001002-KYB-Cartridge-Kit-CR85CRF150-and-RM85) | unverified |
 | Race Tech | Front fork springs CRF150R '07-26 | FRSP 3245 | Replaces stock .34 kg/mm fork springs with rider-weight rates. |  | [source](None) |  |
 | Race Tech | Race Tech Rear Shock Spring - Honda CRF150R 2007-2026 | SRSP 5524 | Replaces the stock shock spring with a rate matched to rider weight. | One SKU shown for all rates. | [source](https://www.crfsonly.com/crf150r07-26-racetech-rear-shock-spring) | medium |
+| Works Connection | Works Connection Fork Bleeder Valves | 26-320 |  |  | [source](https://www.worksconnection.com/p417280-fork-bleeders-shorty) | high |
 | Pro Circuit | Pro Circuit carburetor boring (KX85/100, CRF150R, KTM 85/Supermini) | SRV 024 | Pro Circuit bores the stock carburetor venturi larger. | No price published; carb service only for the models named. | [source](https://www.procircuit.com/motor-services) | high |
 
 ## Dealer and retailer listings for this bike

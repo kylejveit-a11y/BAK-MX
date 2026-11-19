@@ -1,6 +1,6 @@
 # Honda CRF250RX 2025: aftermarket parts
 
-3067 listings whose stated fitment names this bike: 279 researched parts (with what they change and rider findings), 133 dealer and retailer listings specific to this bike, and 2655 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3164 listings whose stated fitment names this bike: 376 researched parts (with what they change and rider findings), 133 dealer and retailer listings specific to this bike, and 2655 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -106,6 +106,29 @@
 | Moto-Master | Moto Master Flame Floating Front Rotor Kit 270mm Honda CRF250R / RX / CRF450R / CRF450RX 2019-2026 | 310044-PU |  |  | [source](https://www.cyclegear.com/parts/moto-master-flame-floating-front-rotor-kit-270mm-honda-crf250r-rx-crf450r-crf450rx-2019-2023) | medium |
 | Renthal | Renthal RC-1 Works Front Brake Pads BP-100 | BP-100 |  |  | [source](https://www.cyclegear.com/parts/renthal-rc-1-works-front-brake-pads-bp-100) | medium |
 | Renthal | Renthal RC-1 Works Rear Brake Pads Honda 125cc-450cc 2002-2027 | BP-101 |  |  | [source](https://www.cyclegear.com/parts/renthal-rc-1-works-rear-brake-pads-honda-125cc-450cc-2002-2024) | medium |
+| Works Connection | Works Connection Brake Cap-Front | 21-000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-005 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-005ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-105 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-105ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-500 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-505 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-515 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-G000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-G000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-G500 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-K000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-K000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-K500 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-P002 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-P002ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-P501 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Clevis by FasstCo | 36-000 |  |  | [source](https://www.worksconnection.com/p18059-brake-clevis) | high |
+| Works Connection | Works Connection Brake Clevis by FasstCo | 36-006 |  |  | [source](https://www.worksconnection.com/p18059-brake-clevis) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-100 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-105 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-106 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | FCP Racing | FCP Racing Engine Mount Kit | EMK-H2F-002 | FCP kit: CNC-machined titanium front engine mounts and billet aluminium top mounts (head stays). Maker claims: AMA Limited/Stock class legal, increased torsional flex with the billet top mounts, plush |  | [source](https://fcpracing.com/product/honda-crf250r-rx-2022-2026/) | high |
 | FCP Racing (Factory Chassis Parts) | FCP Titanium Engine Mounts - Honda CRF450R/RX 2021-2026 and CRF250R/RX 2022-2027 | EMK-H4F-002 (CRF450R/RX 21-26), EMK-H2F-002 (CRF250R/RX 22-27) | Titanium front mounts (lighter, more front traction) and billet aluminium top mounts (more torsional flex, plusher). |  | [source](https://www.crfsonly.com/crf450r21-25-fcp-titanium-engine-mounts-copy) | medium |
 | Factory Links | Swingarm Bearing Kits for Honda / Honda Red Moto / SAK-H-357 | SAK-H-357 | Maker description: Restore smooth suspension movement and long-term durability with Factory Links Swingarm Bearing Kits for Honda and Honda Red Moto off-road motorcycles , engineered for OEM-quality f |  | [source](https://shopfactorylinks.com/products/sak-h-357) | high |
@@ -118,9 +141,37 @@
 | Ride Engineering | Split Triple Clamps - Honda CRF 2021-2024 and 2025+ | CR-BTB21-RA/BA (21-24, 22 mm), CR-BTB31-RA/BA/00 (21-24, 23.5 mm), CR-BTB25-RA/BA (25+, 22 mm), CR-BTB35-RA/BA/00 (25+, 23 mm), CR-BTB2N-* (CRF450R 13-20, CRF25 | Stability without losing handling; comfort similar to stock; 7-11 oz lighter. |  | [source](https://ride-engineering.com/assets/images/pdfs/off%20road%20catalog.pdf) | high |
 | Ride Engineering | Ride Engineering steering dampers and behind-plate stabilizer brackets | MX-HPSD1-10 Showa damper $400, MX-WPD00-KT WP damper $420, KT-SB023-KT KTM 22.5-26 / Husq 23-26 / GasGas 24-26 $249.95, CR-SB000-00 Honda 21-26 $59.95, KX-SHSB0 | Behind-number-plate mounting for steering dampers. |  | [source](https://ride-engineering.com/assets/images/pdfs/off%20road%20catalog.pdf) | high |
 | Scar Racing | Triple clamps red, 22mm offset, CRF 2021/2022-25 (S2421) | 16-3513.RD.SCAR, S2421 | Scar (distributor copy): CNC 7075-T6 aluminium, four bar positions on the top clamp, improved strength/rigidity and control; used by factory teams (oro2u.com). | Fitment stops at 2025; 2026 (same chassis as 2025) not listed and 2027 is a new frame. Offset is stock 22mm, so it changes stiffness/bar position rather than tr | [Oro2u (UK distributor)](https://www.oro2u.com/triple-clamps-red-crf-2022-25-offset-22mm-scar-s2421) | medium |
+| Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Drill Guide | 12-177 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Hardware - Countersink | 12-178 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Honda - Fork Guard Reinforcing Kit | 12-195 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-228 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-B165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-B228 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-G165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-G228 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-K165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-K228 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-P228 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-220 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-225 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-230 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-305 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-G220 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-K220 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-P221 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Titanium Axle Adjuster Bolts | 70-630 |  |  | [source](https://www.worksconnection.com/p104037-titanium-axle-adjuster-bolts) | high |
 | Xtrig | ROCS Tech Triple Clamps (Honda) | 501330101401 | Listing: clamps hold fork tubes from opposite directions to reduce inner-tube distortion and let the fork flex naturally; split clamps and opposing bolts claimed to improve fork response and precision | Title says 2021-2026 but CRF250R fitment starts 2022 and stops 2024 on this page. | [Cycle Gear](https://www.cyclegear.com/parts/xtrig-rocs-tech-triple-clamps-honda-crf250r-rx-crf450r-rx-2021-2026) | medium |
 | Xtrig | ROCS Tech triple clamps (22mm offset, PHDS bar mounts) | 501330101401 | Xtrig copy: split/opposed clamping for even tube hold, improved fork bending line, PHDS rubber bar mounts (12 positions, medium yellow elastomers). | Retailer fitment is internally odd: CRF250R stops at 2024 but CRF250RX runs to 2026; CRF450R runs to 2026 although MXA reports the 2025 steering stem, triple cl | [Cycle Gear (retailer)](https://www.cyclegear.com/parts/xtrig-rocs-tech-triple-clamps-honda-crf250r-rx-crf450r-rx-2021-2026) | medium |
 | Pro X | Pro X Clutch Plate Set Honda CRF250R / CRF250RX 2022-2026 | 16.CPS13022 |  |  | [source](https://www.cyclegear.com/parts/pro-x-clutch-plate-set-honda-crf250r-crf250rx-2022-2025) | medium |
+| Works Connection | Works Connection Hinson Billetproof Clutch Cover | HR-C794-0817 |  |  | [source](https://www.worksconnection.com/p18103-hinson-billetproof-cover) | high |
+| Works Connection | Works Connection HInson FSC Clutch Kit | HR-FSC894-9-2201 |  |  | [source](https://www.worksconnection.com/p18115-hinson-fsc-clutch-plate-kit) | high |
+| Works Connection | Works Connection Hinson Billetproof Pressure Plate | HR-H109 |  |  | [source](https://www.worksconnection.com/p18107-hinson-billetproof-pressure-plate) | high |
+| Works Connection | Works Connection Hinson Billetproof Clutch Basket with Cushions | HR-H894-B-2201 |  |  | [source](https://www.worksconnection.com/p18100-hinson-clutch-basket) | high |
+| Works Connection | Works Connection Hinson Billetproof Inner Hub | HR-H894-IH-2201 |  |  | [source](https://www.worksconnection.com/p18105-hinson-billetproof-inner-hub) | high |
 | ARC | Flex Front Brake Lever |  | Maker claims: lever flexes away from the bar in a crash so the brake keeps working after a bar-bending hit; reach adjuster; billet CNC knee; made in USA. | No ARC part number on the Cycle Gear page (item P308085). Price shown as 'from $84.95'; varies by blade material. | [Cycle Gear](https://www.cyclegear.com/parts/arc-flex-front-brake-lever-honda-crf250r-rx-crf450r-rx-r-s-rwe-2007-2023) | medium |
 | ARC | RC8 folding clutch perch assembly AC-CP-201 | AC-CP-201, AC-CP-201-R, AC-CP-201-B, AC-CP-S201, AC-CP-S201-R, AC-CP-S201-B, AC-CP-S201-O, AC-CP-201-SK, AC-CP-201-C, AC-CP-201-CT, AC-CP-S201-C, AC-CP-S201-CT, | Complete clutch perch with folding lever and adjuster for cable clutches. (ARC product page, summarised). | Fitment parsed from the ARC page application table; TF 250-E / TF 450-E enduro lines not mapped (out of scope). Same part number already in specialty/small-bike | [source](https://www.arclevers.com/products/dc8-rc8-ac-cp-201) | high |
 | ARC | DC8 folding clutch perch assembly AC-CP-304 (shorty lever) | AC-CP-304, AC-CP-304-R, AC-CP-304-B, AC-CP-S304, AC-CP-S304-R, AC-CP-S304-B, AC-CP-S304-O, AC-CP-304-SK, AC-CP-304-C, AC-CP-304-CT, AC-CP-S304-C, AC-CP-S304-CT, | Clutch perch with shorty folding lever for cable clutches. (ARC product page, summarised). | Fitment parsed from the ARC page application table; TF 250-E / TF 450-E enduro lines not mapped (out of scope). Same part number already in specialty/small-bike | [source](https://www.arclevers.com/products/shorty-clutch-dc8-rc8-ac-cp-304) | high |
@@ -148,6 +199,20 @@
 | Raptor | Titanium Footpegs (Honda) |  | Listing: ~410g/pair titanium, 57mm platform, 24 teeth in three rows, anti-clog. | Retailer item P318591. | [Cycle Gear](https://www.cyclegear.com/parts/raptor-titanium-footpegs-honda-125cc-450cc-2002-2024) | medium |
 | Scar Racing | Titanium Footpegs Gripper (Honda CR/CRF) | S2516, 60-211.TIT.SCAR | Seller: hand-fabricated welded grade 5 titanium peg, 10 mm wider than OEM; 27-tooth gripper platform. | Fitment from retailer list, not Scar's site. | [Oro2u (UK)](https://www.oro2u.com/titanium-footpegs-gripper-02-26-honda-cr-crf-africa-twin-125-150-250-300-450-1000-1100-scar-s2516) | medium |
 | Works Connection | Works Connection Elite Clutch Lever Honda 250cc-450cc 2017-2026 | 16-861, 16-866 |  |  | [source](https://www.cyclegear.com/parts/works-connection-elite-clutch-lever-honda-250cc-450cc-2017-2022) | medium |
+| Works Connection | Works Connection Foot Pegs-Pro Pegs Titanium | 20-400 |  |  | [source](https://www.worksconnection.com/p18089-foot-peg-pro-pegs-titanium) | high |
+| Works Connection | Works Connection Foot Peg - Pro Pegs Mud Titanium | 20-401 |  |  | [source](https://www.worksconnection.com/p935855-foot-peg-pro-pegs-mud-titanium) | high |
+| Works Connection | Works Connection Elite Throttle Tube | 22-500 |  |  | [source](https://www.worksconnection.com/p52075-throttle-tube-elite) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-200 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-300 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-400 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-500 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-508 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-G100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-K100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-P101 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection ARC Folding Clutch Lever | 32-401 |  |  | [source](https://www.worksconnection.com/p351532-clutch-lever) | high |
+| Works Connection | Works Connection ARC Folding Brake Lever | 33-601 |  |  | [source](https://www.worksconnection.com/p351282-brake-lever) | high |
 | Zeta | Zeta Forged Pivot Brake Lever Honda CRF250R / RX / CRF450R / RX / R-S / RWE 2007-2026 | ZE41-3607 |  |  | [source](https://www.cyclegear.com/parts/zeta-forged-pivot-brake-lever-honda-crf250r-rx-crf450r-rx-r-s-rwe-2007-2024) | medium |
 | Zeta | Zeta Max Footpegs Honda CR / CRF / Africa Twin 2002-2027 | ZE93-2600, ZE93-2605 |  |  | [source](https://www.cyclegear.com/parts/zeta-max-footpegs-honda-cr-crf-africa-twin-2002-2026) | medium |
 | AXP Racing | AXP Racing Chain Guide Honda 250cc-450cc 2007-2026 | AX1632 |  |  | [source](https://www.cyclegear.com/parts/axp-racing-chain-guide-honda-250cc-450cc-2007-2024) | medium |
@@ -190,6 +255,35 @@
 | Vertex | Forged High Compression Piston Kit (CRF250R, CRF250RX) | 24579A, 24579B | Vertex forged piston with raised compression ratio for more power than OEM-ratio replica. Specs: Compression Ratio 14.4:1 Cylinder Diameter 79 mm Displacement 250 cc Piston Diameter 78.960mm | Fitment parsed from maker store 'fits models' field; maker data for newest (2023+) KTM-group and 2024+ YZ450F/KX450 platforms not returned by queries. | [All Balls Racing Group (maker store for Hot Cams/Vertex/Cylinder Works)](https://www.allballsracinggroup.com/24579a-forged-high-compression-piston-kit) | high |
 | Vertex | Forged Replica Piston Kit (CRF250R, CRF250RX) | 24575A, 24575B | Vertex forged piston matching OEM specs (replacement top end). Specs: Compression Ratio 13.9:1 Cylinder Diameter 79 mm Displacement 250 cc Piston Diameter 78.970mm | Fitment parsed from maker store 'fits models' field; maker data for newest (2023+) KTM-group and 2024+ YZ450F/KX450 platforms not returned by queries. | [All Balls Racing Group (maker store for Hot Cams/Vertex/Cylinder Works)](https://www.allballsracinggroup.com/24575b-forged-replica-piston-kit) | high |
 | Vertex | Forged Big Bore Piston Kit - +3mm Forged Big Bore Piston Kit (CRF250R, CRF250RX) | 24348A, 24348B | Vertex forged oversize piston for big-bore cylinders (more displacement). Specs: Compression Ratio 13.9:1 Cylinder Diameter 82 mm Displacement 270 cc Piston Diameter 81.970mm Size Over Standard 3.00mm | Fitment parsed from maker store 'fits models' field; maker data for newest (2023+) KTM-group and 2024+ YZ450F/KX450 platforms not returned by queries. | [All Balls Racing Group (maker store for Hot Cams/Vertex/Cylinder Works)](https://www.allballsracinggroup.com/24348b-forged-big-bore-piston-kit) | high |
+| Works Connection | Works Connection Radiator Braces | 18-711 |  |  | [source](https://www.worksconnection.com/p18130-radiator-braces) | high |
+| Works Connection | Works Connection Radiator Braces | 18-B711 |  |  | [source](https://www.worksconnection.com/p18130-radiator-braces) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-076 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-077 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-078 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Steering Stem Nut | 24-300 |  |  | [source](https://www.worksconnection.com/p18157-steering-stem-nuts) | high |
+| Works Connection | Works Connection Steering Stem Nut | 24-305 |  |  | [source](https://www.worksconnection.com/p18157-steering-stem-nuts) | high |
+| Works Connection | Works Connection Steering Stem Nut | 24-310 |  |  | [source](https://www.worksconnection.com/p18157-steering-stem-nuts) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-603 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-608 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-609 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-G076 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-G603 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-K076 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-K603 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-P079 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-P604 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Fuel Vent Cap | 26-200 |  |  | [source](https://www.worksconnection.com/p18097-fuel-vent-cap) | high |
+| Works Connection | Works Connection Oil Filter Cover | 27-001 |  |  | [source](https://www.worksconnection.com/p18125-oil-filter-covers) | high |
+| Works Connection | Works Connection Oil Filter Cover | 27-006 |  |  | [source](https://www.worksconnection.com/p18125-oil-filter-covers) | high |
+| Works Connection | Works Connection Oil Filter Cover | 27-011 |  |  | [source](https://www.worksconnection.com/p18125-oil-filter-covers) | high |
+| Works Connection | Works Connection Oil Filter Cover | 27-G001 |  |  | [source](https://www.worksconnection.com/p18125-oil-filter-covers) | high |
+| Works Connection | Works Connection Oil Filter Cover | 27-K001 |  |  | [source](https://www.worksconnection.com/p18125-oil-filter-covers) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Maintenance Timer | 37-200 |  |  | [source](https://www.worksconnection.com/p18160-tach-hour-meters) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Resettable Maintenance Timer Mount Bracket | 37-205 |  |  | [source](https://www.worksconnection.com/p18161-tach-hour-meter-mounts) | high |
+| Works Connection | Works Connection Single Bolt | 70-600 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
+| Works Connection | Works Connection 2 piece kit | 70-605 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
+| Works Connection | Works Connection 2 Piece Kit Honda Disc Guard | 70-606 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
+| Works Connection | Works Connection 6 Piece Kit | 70-615 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
 | XPR Motorsports | Honda CRF250R 2022-2026 Intake Camshaft & Spring Kit | XPR-22CRF250-CAMSHAFT-INT | In-house intake cam keeps the 2022+ bottom end but pulls harder mid-to-top and over-rev; includes intake/exhaust springs, seats and cups. Special order 4-6 weeks. |  | [source](https://www.xprmotorsports.com/products/honda-crf-250-2022-camshaft) | high |
 | Zeta | Zeta Oil Filter Cover Honda CRF250R / CRF250RX 2018-2026 | ZE90-1043 |  |  | [source](https://www.cyclegear.com/parts/zeta-oil-filter-cover-honda-crf250r-crf250rx-2018-2023) | medium |
 | FMF | PowerCore 4 HEX slip-on (Honda CRF250R/RX 2025-2027) | 041616 | PowerCore 4 HEX spark-arrestor slip-on; FMF markets it as a general performance replacement for the stock silencer with the spark arrestor built in (FMF product copy, summarised). | Fitment from FMF fitment tags in the maker store feed (no fitment table text on the page). Competition use only. | [source](https://www.fmfracing.com/products/powercore-4-hex-041616) | high |
@@ -245,6 +339,8 @@
 | Polisport | Polisport Full Wrap Fork Guards Honda CRF250R / RX / CRF450R / X / RX / L / RL / R-S 2019-2027 | 8399600001, 8399600002, 8399600003 |  |  | [source](https://www.cyclegear.com/parts/polisport-full-wrap-lower-fork-guards-honda-crf250r-rx-crf450r-x-rx-l-rl-r-s-2019-2023) | medium |
 | Tamer | Tamer Fork Guard Bracket Honda / Kawasaki 85cc-450cc | FGB-403 |  |  | [source](https://www.cyclegear.com/parts/tamer-fork-guard-bracket-honda-kawasaki-85cc-450cc) | medium |
 | UFO | UFO Fork Guards Honda CRF250R / RX / CRF450R / X / RX / L / RL / R-S / RWE 2019-2027 | HO04695001, HO04695041, HO04695070 |  |  | [source](https://www.cyclegear.com/parts/ufo-fork-guards-honda-crf250r-rx-crf450r-x-rx-l-rl-r-s-rwe-2019-2023) | medium |
+| Works Connection | Works Connection Rear Master Cylinder Guard | 15-705 |  |  | [source](https://www.worksconnection.com/p18136-rear-master-cylinder-guards) | high |
+| Works Connection | Works Connection Rear Caliper Guard | 25-014 |  |  | [source](https://www.worksconnection.com/p18135-rear-caliper-guards) | high |
 | Factory Connection | Shock Spring (ALL series) Honda CRF250R/CRF450R/RX/R-S/RL/L/X 2017-2027 | ALL-0047, ALL-0049, ALL-0051, ALL-0053, ALL-0057, ALL-0059, ALL-0061, ALL-0063 | Steel shock springs, rate per part number. |  | [source](None) |  |
 | Factory Links | Linkage Bearing Rebuild Kit Honda 250-450 | P1077861 (retailer item #) | OEM-quality linkage service parts. |  | [source](None) |  |
 | Factory Links | Linkage Bearing Rebuild Kits for: HONDA for exact fitment check description. [LRK-H-178] / LRK-H-178 | LRK-H-178 | Maker description: Our premium kits contain all elements required for a full OEM quality service of your linkage. Our dedicated off-road design of needle bearings, collars, pins and dust seals are spe |  | [source](https://shopfactorylinks.com/products/lrk-h-178) | high |
@@ -261,6 +357,7 @@
 | Ride Engineering | CRF Adjustable Link (Honda 2025-2026) | CR-LKA58-RA | Performance setting or 22 mm drop; sag 100-102 mm. |  | [source](https://ride-engineering.com/assets/images/pdfs/off%20road%20catalog.pdf) | high |
 | Tamer | Tamer WDS 2.0 Ring Honda / Suzuki / TM / Triumph / Kawasaki | HH-08 |  |  | [source](https://www.cyclegear.com/parts/tamer-wds-20-ring-honda-suzuki-tm-triumph-kawasaki) | medium |
 | Works Connection | Works Connection Fork Bleeder Valves Honda CRF250R / CRF450R / L / RWE / RX / X 2017-2027 | 26-321 |  |  | [source](https://www.cyclegear.com/parts/works-connection-fork-bleeder-valves-honda-crf250r-crf450r-l-rwe-rx-x-2017-2022) | medium |
+| Works Connection | Works Connection Fork Bleeder Valves | 26-321 |  |  | [source](https://www.worksconnection.com/p417280-fork-bleeders-shorty) | high |
 | Xtrig | ROCS Tech Triple Clamps - Honda CRF250R/RX, CRF450R/RX | 501330101401 | Xtrig ROCS opposing clamps, stock 22 mm offset, PHDS bar mounts (12 positions). | Title says CRF250R 2021-2026 but fitment table 2022-2024. | [Cycle Gear](https://www.cyclegear.com/parts/xtrig-rocs-tech-triple-clamps-honda-crf250r-rx-crf450r-rx-2021-2026) | medium |
 | Excel | Excel Front Wheel Spoke Set Honda 125cc-500cc 1995-2027 | XS9-11217 |  |  | [source](https://www.cyclegear.com/parts/excel-front-wheel-spoke-set-honda-125cc-500cc-1995-2023) | medium |
 | Excel | Excel Takasago 1.85" x 19" Rear Rim Honda 125cc-500cc 1989-2027 | GDG411, GDK411, GDS411 |  |  | [source](https://www.cyclegear.com/parts/excel-takasago-185-x-19-rear-rim-honda-125cc-500cc-1989-2023) | medium |

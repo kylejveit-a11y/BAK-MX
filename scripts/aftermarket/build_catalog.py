@@ -2,7 +2,7 @@
 
 usage: build_catalog.py <family dir> <family title> <make>[,<make>...]
 Reads every *.json research file in the family dir (products from the slice files, feedback and builds from the
-rider-feedback file), normalises each fitment line to the app's bike list (docs/research/aftermarket/roster-2020-2027.json),
+rider-feedback file), normalises each fitment line to the app's bike list (docs/research/aftermarket/roster-all.json),
 links rider feedback to products by brand and product words, and writes CATALOG.md and index.json in the same dir.
 Research candidates only: nothing here is verified evidence or loaded into the app."""
 import json,glob,os,re,sys,collections
@@ -10,13 +10,15 @@ sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from textclean import anon,short,brand_name,CARB,INJECTION
 fam_dir,title,makes=sys.argv[1],sys.argv[2],sys.argv[3].split(',')
 root=os.path.dirname(os.path.abspath(fam_dir.rstrip('/')))
-ENDURO_MODELS=re.compile(r'(XC-W|XCF-W|^TE |^FE |^EC |^WR)')   # enduro / trail models are out of the aftermarket scope for now
-roster=[tuple(r) for r in json.load(open(os.path.join(root,'roster-2020-2027.json'))) if r[0] in makes and not ENDURO_MODELS.search(r[1])]
+ENDURO_MODELS=re.compile(r'(XC-W|XCF-W|^TE |^FE |^EC |^WR|CRF\d{3}X$)')   # enduro / trail models: exact-name fitment only
+# Every bike in the app (shared/bike-support.json -> roster-all.json, 2010-2027, enduro and trail models included since
+# 2026-11-19). Enduro models are matched by exact model name only: the family rules below were written for MX / XC lines.
+roster=[tuple(r) for r in json.load(open(os.path.join(root,'roster-all.json'))) if r[0] in makes]
 # Listings not offered to riders ({product id: reason}, docs/research/tires/CATALOG_PLAN.md): an enduro, cross-country or
 # desert tire stays on the cross-country / off-road models (same split as shared/tire-knowledge.ts wheelsFor); every other
 # hidden listing (adventure, trials, street tires, repair kits) shows on no bike. Research pages still list them.
 HIDDEN=json.load(open(os.path.join(root,'hidden-listings.json'))) if os.path.exists(os.path.join(root,'hidden-listings.json')) else {}
-OFFROAD_MODEL=re.compile(r'\bXC(?!-?W)|\b(?:FX|TX|EX) \d|YZ\d{3}F?X\b|CRF\d{3}RX\b|KX\d{3}X\b|TF \d{3}-E\b')
+OFFROAD_MODEL=re.compile(r'XC-W|XCF-W|^TE |^FE |^EC |^WR|CRF\d{3}X$|\bXC(?!-?W)|\b(?:FX|TX|EX) \d|YZ\d{3}F?X\b|CRF\d{3}RX\b|KX\d{3}X\b|TF \d{3}-E\b')
 hidden_on=lambda i,model:i in HIDDEN and not (OFFROAD_MODEL.search(model) and re.search(r'enduro|cross-country|desert',HIDDEN[i],re.I))
 ENDURO=re.compile(r'\b(EXC|XC-W|XCW|XCF-W|TE|FE|EC|EC-F|ECF|out of scope|enduro)\b',re.I)
 def family(model):
@@ -36,7 +38,7 @@ def norm_fit(make,text):
     stroke='4' if re.search(r'\b4T\b|4-?STROKE|\d{3}\s?F\b|SX-F|XC-F|\bFC\b|\bFX\b|MC-F|EX-F',t) else '2' if re.search(r'\b2T\b|2-?STROKE|TBI|\b(SX|XC|TC|TX)\b',t) else None
     out=set()
     for mk,model,y in roster:
-        if mk!=make: continue
+        if mk!=make or ENDURO_MODELS.search(model): continue
         M=model.upper(); fam=family(M); d=re.search(r'\d+',M).group(0)
         if nums and d not in nums: continue
         if not nums and d=='85': continue                      # a line naming no size means the full-size bikes

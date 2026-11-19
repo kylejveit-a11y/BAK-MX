@@ -1,6 +1,6 @@
 # Husqvarna TX 300 2025: aftermarket parts
 
-3349 listings whose stated fitment names this bike: 555 researched parts (with what they change and rider findings), 294 dealer and retailer listings specific to this bike, and 2500 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3438 listings whose stated fitment names this bike: 644 researched parts (with what they change and rider findings), 294 dealer and retailer listings specific to this bike, and 2500 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -180,6 +180,43 @@
 | Renthal | Renthal RC-1 Works BP-108 Rear Brake Pads | BP-108 |  |  | [source](https://www.cyclegear.com/parts/renthal-rc-1-works-bp-108-rear-brake-pads) | medium |
 | TM Designworks | TM Designworks Factory Edition FX Rear Chain Guide Replacement Wear Pad KTM / Husqvarna / Gas Gas | 2527426 |  |  | [source](https://www.cyclegear.com/parts/tm-designworks-factory-edition-fx-rear-chain-guide-replacement-wear-pad-ktm-husqvarna-gas-gas) | medium |
 | Works Connection | Works Connection Clutch Master Cylinder Cover Husqvarna 125cc-501cc 2014-2027 | 21-057, 21-072, 21-077 |  |  | [source](https://www.cyclegear.com/parts/works-connection-clutch-master-cylinder-cover-husqvarna-125cc-501cc-2014-2024) | medium |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-040 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-040ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-045 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-045ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cover - Brembo | 21-050 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-050ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Clutch Cover - Brembo | 21-055 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-055ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-060 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-060ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-065 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-065ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cover - Brembo | 21-070 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-070ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Clutch Cover - Brembo | 21-075 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-075ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-740 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-745 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-760 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-765 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-G040 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-G040ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cover - Brembo | 21-G050 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-G050ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-G740 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-K040 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-K040ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cover - Brembo | 21-K050 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-K050ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-K740 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-P041 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-P041ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cover - Brembo | 21-P042 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-P042ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-140 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-145 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-146 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | FCP Racing | FCP Racing Engine Mount Kit | EMK-KT123T-001 | FCP kit: CNC-machined titanium front engine mounts and billet aluminium top mounts (head stays). Maker claims: AMA Limited/Stock class legal, increased torsional flex with the billet top mounts, plush |  | [source](https://fcpracing.com/product/ktm-125-sx-2023-2026/) | high |
 | Factory Links | Swingarm Bearing Kit for GasGas, Husaberg, Husqvarna & KTM / SAK-T-049 | SAK-T-049 | Maker description: Restore smooth suspension movement and long-term durability with Factory Links Swingarm Bearing Kits for GasGas, Husaberg, Husqvarna, and KTM off-road motorcycles, engineered for OE |  | [source](https://shopfactorylinks.com/products/sak-t-049) | high |
 | Factory Links | Steering Stem Bearing Kits for: Gas Gas, Husqvarna, KTM / SSK-T-070 | SSK-T-070 | Maker description: Factory Links OEM Series® steering stem bearing kits are designed to restore smooth steering performance and long-term durability to your motorcycle’s front end. Each kit includes h |  | [source](https://shopfactorylinks.com/products/ssk-t-070) | high |
@@ -193,6 +230,34 @@
 | Husqvarna Technical Accessories | Front axle puller | 79009981260C1 | Makes removal of the front wheel easier For all front axles with a diameter of 22 mm. |  | [source](https://www.husqvarna-motorcycles.com/en-us/technical-accessories.html?c1=1001563563&c2=1001563607&product=1004525192) | high |
 | Scotts Performance / BRP | Adjustable Rubber SUB-Mount Steering Stabilizer Kit (KTM/Husqvarna/GasGas) |  | Seller: damper sits under the bar (SUB) out of crash damage; bar position about 1 inch taller (lower-bend bars can compensate); 3mm offset bar perches. | Sold out; listing moved to TMBR Moto. Title says 2023-24 but fit list runs to 2025. No part number shown. | [Upshift Online](https://upshiftonline.com/products/scotts-perf-adjust-rubber-sub-mount-kit-2023-24-ktm-husqvarna-gasgas) | medium |
 | Works Connection | Fork Guard Reinforcing Kit (KTM/GasGas/Husqvarna 2023-2027) | 12-193 | 304 stainless strap reinforcing the fork guard where a start device hooks; low profile, ~1/2 oz. | Listing years outside app scope dropped. GasGas MC 250F only listed as Factory Edition; MC 450F only 2024 standard. | [J&P Cycles](https://www.jpcycles.com/product/works-connection-fork-guard-reinforcing-kit-ktm-gas-gas-husqvarna-125cc-450cc-2023-2025) | medium |
+| Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Drill Guide KTM | 12-177K |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Hardware - Countersink | 12-178 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-707 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-915 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-B165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-B707 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-B915 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-G165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-G707 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-G915 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-K165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-K707 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-K915 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-P707 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-P915 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Elite Axle Block Kit | 17-251 |  |  | [source](https://www.worksconnection.com/p126059-elite-axle-block-kit-gasgas-husqvarna-ktm) | high |
+| Works Connection | Works Connection Elite Axle Block Kit | 17-256 |  |  | [source](https://www.worksconnection.com/p126059-elite-axle-block-kit-gasgas-husqvarna-ktm) | high |
+| Works Connection | Works Connection Elite Axle Block Kit | 17-261 |  |  | [source](https://www.worksconnection.com/p126059-elite-axle-block-kit-gasgas-husqvarna-ktm) | high |
+| Works Connection | Works Connection Elite Axle Block Kit | 17-264 |  |  | [source](https://www.worksconnection.com/p126059-elite-axle-block-kit-gasgas-husqvarna-ktm) | high |
+| Works Connection | Works Connection Elite Axle Block Kit | 17-316 |  |  | [source](https://www.worksconnection.com/p126059-elite-axle-block-kit-gasgas-husqvarna-ktm) | high |
+| Works Connection | Works Connection Elite Axle Block Kit | 17-G251 |  |  | [source](https://www.worksconnection.com/p126059-elite-axle-block-kit-gasgas-husqvarna-ktm) | high |
+| Works Connection | Works Connection Elite Axle Block Kit | 17-K251 |  |  | [source](https://www.worksconnection.com/p126059-elite-axle-block-kit-gasgas-husqvarna-ktm) | high |
+| Works Connection | Works Connection Elite Axle Block Kit | 17-P252 |  |  | [source](https://www.worksconnection.com/p126059-elite-axle-block-kit-gasgas-husqvarna-ktm) | high |
+| Works Connection | Works Connection Titanium Axle Adjuster Bolts | 70-635 |  |  | [source](https://www.worksconnection.com/p104037-titanium-axle-adjuster-bolts) | high |
 | Boyesen | Factory Racing Clutch Cover (2023+ KTM / Husqvarna / GasGas) | CC-45CB, CC-45CM, CC-45CO, CC-45CL | Cast-aluminum replacement for the outer clutch cover, powder-coated. Boyesen says it is lightweight, 'guaranteed not to warp', seals out dirt and moisture, and protects the engine from track and trail | Boyesen lists the same cover for two-strokes and four-strokes. The 125/150 two-strokes are not on this list. | [source](https://boyesen.com/mx-offroad-mini/factory-racing-hard-parts/2024-ktm-250-sx/factory-racing-clutch-cover-cc-45cb) | high |
 | Husqvarna Technical Accessories | Brake fluid reservoir and clutch reservoir cover | 81313903000 | CNC milled from high-strength aluminum; Elegant anodised surface Fits all Brembo® brake- and clutch reservoirs. |  | [source](https://www.husqvarna-motorcycles.com/en-us/technical-accessories.html?c1=1001563552&c2=1001563580&product=1000661122) | high |
 | Husqvarna Technical Accessories | HINSON clutch pressure plate | 79432903000 | Improves clutch performance and durability; Hinson-typical surface treatment for significantly improved robustness compared to the standard part; Very clean running of the clutch, which leads to reduc |  | [source](https://www.husqvarna-motorcycles.com/en-us/technical-accessories.html?c1=1001563561&c2=1001563601&product=1001701640) | high |
@@ -206,6 +271,10 @@
 | Rekluse | Rekluse Radius X 4.0 Clutch Kit KTM / Husqvarna 250cc-300cc 2023-2027 | RMS-8313186 |  |  | [source](https://www.cyclegear.com/parts/rekluse-radius-x-40-clutch-kit-ktm-husqvarna-250cc-300cc-2023-2024) | medium |
 | Rekluse | Rekluse Standard Clutch Cover KTM / Husqvarna / Gas Gas 250cc-300cc 2023-2027 | RMS-0413186 |  |  | [source](https://www.cyclegear.com/parts/rekluse-standard-clutch-cover-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024) | medium |
 | Rekluse | Rekluse Torq Drive Clutch Pack KTM / Husqvarna / Gas Gas / Husaberg 250cc-501cc 2012-2027 | RMS-2813086 |  |  | [source](https://www.cyclegear.com/parts/rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024) | medium |
+| Works Connection | Works Connection Hinson Billetproof Clutch Cover | HR-CA480-2301 |  |  | [source](https://www.worksconnection.com/p18103-hinson-billetproof-cover) | high |
+| Works Connection | Works Connection Hinson FSC Clutch Plate Kit | HR-FSC373-8-002 |  |  | [source](https://www.worksconnection.com/p18115-hinson-fsc-clutch-plate-kit) | high |
+| Works Connection | Works Connection Hinson Billetproof Inner Hub | HR-H570 |  |  | [source](https://www.worksconnection.com/p18105-hinson-billetproof-inner-hub) | high |
+| Works Connection | Works Connection Hinson Billetproof Pressure Plate | HR-H571 |  |  | [source](https://www.worksconnection.com/p18107-hinson-billetproof-pressure-plate) | high |
 | ASV Inventions | EMIG F4 Pro Pack Hydraulic Clutch and Brake Lever Pair (KTM motocross) | EMF42303KTM | Maker: pivot design claimed unbreakable; on-the-fly reach adjust with 4in range; sealed pivot bearing; stock lever lengths. | Some GasGas/Triumph year entries look loose (e.g., 'MC 350'); verify. | [ASV Inventions](https://asvinventions.com/emig-f4-pro-pack-hydraulic-clutch-and-brake-lever-pair-pack-for-ktm-motocross/) | high |
 | AltRider | AltRider MAC Brembo Brake Lever KTM / Husqvarna / Gas Gas / Sherco / TM 125cc-500cc 2008-2027 | BR06-2-2703 |  |  | [source](https://www.cyclegear.com/parts/altrider-mac-brembo-brake-lever-ktm-husqvarna-gas-gas-sherco-tm-125cc-500cc-2008-2025) | medium |
 | AltRider | AltRider MAC Brembo Clutch And Brake Lever Combo KTM / Husqvarna / Gas Gas / Sherco / TM 2008-2027 | BR06-2-2704 |  |  | [source](https://www.cyclegear.com/parts/altrider-mac-brembo-clutch-and-brake-lever-combo-ktm-husqvarna-gas-gas-sherco-tm-2008-2025) | medium |
@@ -247,6 +316,11 @@
 | Puig | Puig Off Road Clutch Lever KTM / Husqvarna / Gas Gas / Beta / Sherco 125cc-525cc 2006-2027 | 20012N |  |  | [source](https://www.cyclegear.com/parts/puig-off-road-clutch-lever-ktm-husqvarna-gas-gas-beta-sherco-125cc-525cc-2006-2024) | medium |
 | RFX | RFX Frame Grip Tape Husqvarna / KTM 125cc-500cc | FXGT 50100 99BK, FXGT 50100 99GY |  |  | [source](https://www.cyclegear.com/parts/rfx-frame-grip-tape-husqvarna-ktm-125cc-500cc) | medium |
 | Scar Racing | Titanium Footpegs Gripper (KTM/Husqvarna/GasGas 2023+) | S5518, 60-2304.TIT.SCAR, SC-S5518 | Seller: hand-fabricated grade 5 Ti-6Al-4V peg, 60 mm wide with 27 sharp teeth; Firestorm says used by factory teams. | Fitment from retailers, not Scar's site; the two sellers' lists and weights differ (Oro2u omits KTM 250 XC; Firestorm lists 2023 only). The GasGas MC 450F etc.  | [Oro2u (UK)](https://www.oro2u.com/titanium-footpegs-23-26-gasgas-husqvarna-ktm-ec-ex-mc-tc-te-fc-fe-tx-fx-fs-sx-exc-xc-xw-scar-s5518) | medium |
+| Works Connection | Works Connection Foot Pegs-Pro Pegs Titanium | 20-426 |  |  | [source](https://www.worksconnection.com/p18089-foot-peg-pro-pegs-titanium) | high |
+| Works Connection | Works Connection Foot Peg - Pro Pegs Mud Titanium | 20-428 |  |  | [source](https://www.worksconnection.com/p935855-foot-peg-pro-pegs-mud-titanium) | high |
+| Works Connection | Works Connection Elite Throttle Tube | 22-500 |  |  | [source](https://www.worksconnection.com/p52075-throttle-tube-elite) | high |
+| Works Connection | Works Connection ARC Folding Clutch Lever | 32-203 |  |  | [source](https://www.worksconnection.com/p351532-clutch-lever) | high |
+| Works Connection | Works Connection ARC Folding Brake Lever | 33-104 |  |  | [source](https://www.worksconnection.com/p351282-brake-lever) | high |
 | XTrig | XTrig OEM PHDS Bar Mounts KTM / Husqvarna 125cc-450cc 2022-2027 | 501250500201 |  |  | [source](https://www.cyclegear.com/parts/xtrig-oem-phds-bar-mounts-ktm-husqvarna-125cc-450cc-2022-2024) | medium |
 | Zeta | Zeta Forged Pivot Brake Lever KTM / Husqvarna / Gas Gas / Sherco 125cc-501cc 2014-2027 | ZE41-3683 |  |  | [source](https://www.cyclegear.com/parts/zeta-forged-pivot-brake-lever-ktm-husqvarna-gas-gas-sherco-125cc-501cc-2014-2024) | medium |
 | Zeta | Zeta Forged Pivot Clutch Lever KTM / Husqvarna / Gas Gas / Beta / Sherco 125cc-525cc 2006-2027 | ZE42-4683 |  |  | [source](https://www.cyclegear.com/parts/zeta-forged-pivot-clutch-lever-ktm-husqvarna-gas-gas-beta-sherco-125cc-525cc-2006-2024) | medium |
@@ -305,6 +379,20 @@
 | Pro X | Pro X Connecting Rod Kit KTM / Husqvarna / Beta 250cc-300cc 2003-2027 | 3.6323/03.6323 |  |  | [source](https://www.cyclegear.com/parts/pro-x-connecting-rod-kit-ktm-husqvarna-beta-250cc-300cc-2003-2025) | medium |
 | Pro-X | Top End Gasket Kit, KTM / GasGas / Husqvarna 300cc two-stroke 2023-2027 | 35.6354 | Top-end gasket set for the 2023+ 300 two-stroke (TBI-generation) engine (retailer copy). | J&P lists 'TX300i 2023' (recorded only as a note; roster model TX 300 covers it if the app treats TX300i as TX 300). No 300 XC in visible list. MC 300 2025 list | [J&P Cycles](https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-ktm-gas-gas-husqvarna-300cc-2023-2025) | medium |
 | Slavens Racing | Slavens Mule 250/300 Cylinder Kits for '23-26 KTM/HQV/GG TBI |  | Bolt-on 300 cylinder kit that turns a 250 TBI into a 300, or upgrades a 300. Slavens says it raises compression for more low-end and mid-range torque, runs on pump fuel, and does not shorten engine li | Turning a 250 into a 300 changes displacement, which matters for race classes. Slavens is both maker and store; no SKU is printed. Years are as printed (23-26 C | [source](https://slavensracing.com/shop/slavens-mule-250-300-cylinder-kits-for-ktm-hqv-gg-tbi/) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-020 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-021 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-030 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-031 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Steering Stem Nut | 24-380 |  |  | [source](https://www.worksconnection.com/p18157-steering-stem-nuts) | high |
+| Works Connection | Works Connection Steering Stem Nut | 24-385 |  |  | [source](https://www.worksconnection.com/p18157-steering-stem-nuts) | high |
+| Works Connection | Works Connection Steering Stem Nut | 24-400 |  |  | [source](https://www.worksconnection.com/p18157-steering-stem-nuts) | high |
+| Works Connection | Works Connection Steering Stem Nut | 24-405 |  |  | [source](https://www.worksconnection.com/p18157-steering-stem-nuts) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-G020 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-K020 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-P022 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Fuel Vent Cap | 26-200 |  |  | [source](https://www.worksconnection.com/p18097-fuel-vent-cap) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Maintenance Timer | 37-200 |  |  | [source](https://www.worksconnection.com/p18160-tach-hour-meters) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Resettable Maintenance Timer Mount Bracket | 37-205 |  |  | [source](https://www.worksconnection.com/p18161-tach-hour-meter-mounts) | high |
 | FMF | PowerCore 2 / Shorty silencer - 250 SX, 250 XC, 300 SX, 300 XC, EX 250, EX 300, MC 250, TC 250, TC 300, TX 300 | 025337 | FMF: Shorty has a shorter core and aluminum canister tuned to maximize bottom and mid rpm power (tight tracks/SX). | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/powercore-2-025337) | high |
 | FMF | Fatty pipe - 250 SX, 250 XC, 300 SX, 300 XC, EX 250, EX 300, MC 250, TC 250, TC 300, TX 300 | 025288 | FMF: broadens/smooths the curve with gains across the band (low, mid, over-rev); nickel-plated carbon steel; works with FMF or stock silencer unless noted. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/fatty-025288) | high |
 | FMF | Factory Fatty pipe - 250 SX, 250 XC, 300 SX, 300 XC, EX 250, EX 300, MC 250, TC 250, TC 300, TX 300 | 025290 | FMF: 'works'/cone-style pipe; broadens and smooths the power curve with more low-end, mid and over-rev; 20-ga body, hand-pounded seams. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-fatty-025290) | high |
@@ -439,6 +527,7 @@
 | Polisport | Polisport Lower Chain Slider KTM / Husqvarna 125cc-501cc 2022-2027 | 8493900001 |  |  | [source](https://www.cyclegear.com/parts/polisport-lower-chain-slider-ktm-husqvarna-125cc-501cc-2022-2026) | medium |
 | TM Designworks | FX Slide-n-Guide Kit | FXK-KHG3-BLACK, FXK-KHG3-RED, FXK-KHG3-ORANGE | Maker claims: front slider lasts 'up to 3 times longer' than others; inner guide wing keeps the chain aligned and cuts tire buzz; damping pads reduce chain slap; Powerlip lower pad reduces drag; low-p | Dealer page also says 'No vehicle fitment set for this product yet'. Also lists 2022-2025 KTM 250/450 SX-F Factory Edition, 2022 Husqvarna Rockstar and 2023 Gas | [Triple Clamp Moto (Canada)](https://tripleclampmoto.ca/products/tmdesigns-fx-slide-n-guide-kit) | unverified |
 | TM Designworks | TM Designworks Full Coverage Skid Plate KTM / Husqvarna / Gas Gas 250cc-300cc 2023-2027 | KTMC-258-BK, KTMC-258-OR |  |  | [source](https://www.cyclegear.com/parts/tm-designworks-full-coverage-skid-plate-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024) | medium |
+| Works Connection | Works Connection Fork Guard Reinforcing Kit | 12-193 |  |  | [source](https://www.worksconnection.com/p1457836-fork-guard-reinforcing-kit) | high |
 | Zeta | Zeta Exhaust Flange Guard KTM / Husqvarna / Gas Gas 250cc-300cc 2017-2027 | ZE52-2782, ZE52-2783, ZE52-2786 |  |  | [source](https://www.cyclegear.com/parts/zeta-exhaust-flange-guard-ktm-husqvarna-gas-gas-250cc-300cc-2017-2025) | medium |
 | Factory Links | OEM Series® Linkage Bearing Rebuild Kits for GasGas, Husqvarna, and KTM (Late-Model) / LRK-T-034 | LRK-T-034 | Maker description: Restore smooth rear suspension performance with a premium GasGas, Husqvarna, and KTM linkage bearing rebuild kit from Factory Links. This linkage bearing rebuild kit is engineered s |  | [source](https://shopfactorylinks.com/products/lrk-t-034) | high |
 | Factory Links | Lower Shock Absorber Bearing Kits for: GAS GAS, HUSQVARNA, KTM for exact fitment check description. [LSA-T-007] / LSA-T- | LSA-T-007 | Maker description: Our premium kits contain all elements required for a full OEM quality service of your lower shock. Our dedicated off-road design of needle bearings, collars, pins and dustseals are  |  | [source](https://shopfactorylinks.com/products/lsa-t-007) | high |

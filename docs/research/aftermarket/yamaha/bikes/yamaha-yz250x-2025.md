@@ -1,6 +1,6 @@
 # Yamaha YZ250X 2025: aftermarket parts
 
-3221 listings whose stated fitment names this bike: 286 researched parts (with what they change and rider findings), 289 dealer and retailer listings specific to this bike, and 2646 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3302 listings whose stated fitment names this bike: 367 researched parts (with what they change and rider findings), 289 dealer and retailer listings specific to this bike, and 2646 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -117,6 +117,30 @@
 | Renthal | Renthal RC-1 Works Rear Brake Pads BP-104 | BP-104 |  |  | [source](https://www.cyclegear.com/parts/renthal-rc-1-works-rear-brake-pads-bp-104) | medium |
 | TM Designworks | TM Designworks Factory Edition #2 Rear Chain Guide Replacement Wear Pad Honda / Kawasaki / Suzuki / Yamaha / Fantic 125c | RCG-JBC-WP, RCG-KX3-WP |  |  | [source](https://www.cyclegear.com/parts/tm-designworks-chain-guide-replacement-wear-pad-honda-kawasaki-suzuki-yamaha-125cc-450cc-1997-2021) | medium |
 | Works Connection | Works Connection Rear Brake Reservoir Cover Yamaha / Fantic / Kawasaki 125cc-450cc 2003-2027 | 21-700, 21-718, 21705/21-705 |  |  | [source](https://www.cyclegear.com/parts/works-connection-rear-brake-reservoir-cover-yamaha-kawasaki-125cc-450cc-2003-2024) | medium |
+| Works Connection | Works Connection Brake Cap- Front | 21-031 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-031ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap- Front | 21-036 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-036ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap- Front | 21-136 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-136ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-700 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-705 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-715 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap- Front | 21-G031 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-G031ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-G700 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap- Front | 21-K031 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-K031ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-K700 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap- Front | 21-P032 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-P032ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-P701 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Clevis by FasstCo | 36-010 |  |  | [source](https://www.worksconnection.com/p18059-brake-clevis) | high |
+| Works Connection | Works Connection Brake Clevis by FasstCo | 36-015 |  |  | [source](https://www.worksconnection.com/p18059-brake-clevis) | high |
+| Works Connection | Works Connection Brake Clevis by FasstCo | 36-016 |  |  | [source](https://www.worksconnection.com/p18059-brake-clevis) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-100 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-105 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-106 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | FCP Racing | FCP Racing Engine Mount Kit | EMK-Y2T-001 | FCP kit: CNC-machined titanium front engine mounts and billet aluminium top mounts (head stays). Maker claims: AMA Limited/Stock class legal, increased torsional flex with the billet top mounts, plush |  | [source](https://fcpracing.com/product/yz-250-2005-2026/) | high |
 | Factory Links | Swingarm Bearing Kits for Fantic, GasGas, and Yamaha Motorcycles / SAK-Y-282 | SAK-Y-282 | Maker description: Restore smooth suspension movement and long-term durability with Factory Links Swingarm Bearing Kits for Fantic, GasGas, and Yamaha , engineered for OEM-quality fit and performance  |  | [source](https://shopfactorylinks.com/products/sak-y-282) | high |
 | Factory Links | Steering Stem Bearing Kits for: Fantic, Suzuki, Yamaha / SSK-Y-319 | SSK-Y-319 | Maker description: Factory Links OEM Series® steering stem bearing kits are designed to restore smooth steering performance and long-term durability to your motorcycle’s front end. Each kit includes h |  | [source](https://shopfactorylinks.com/products/ssk-y-319) | high |
@@ -124,6 +148,28 @@
 | GBrakes | GBrakes Rear Solid Mount Wave Rotor GBD9036X | GBD9036X |  |  | [source](https://www.cyclegear.com/parts/gbrakes-rear-solid-mount-wave-rotor-gbd9036x) | medium |
 | Luxon MX | Rubber Isolated Engine Mounts - 2002-26 Yamaha YZ250/YZ250X |  | Upper engine hangers isolated by rubber bushings so the upper frame spar can flex more for comfort and less vibration; two bushing sets (medium yellow, firm red) tune the feel. Two 7075-T6 brackets, s |  | [source](https://www.luxonmx.com/product-luxon-yamaha-rubber-engine-mounts-250t.html) | high |
 | Pivot Works | Pivot Works Steering Stem Bearing Kit Yamaha 125cc-450cc 1998-2027 | PWSSK-Y05-421 | Seller description: Elevate the performance of your motorcycle with a high-quality steering stem bearing replacement from Pivot Works. This product delivers the assurance of OEM quality, ensuring a sm |  | [source](https://www.cyclegear.com/parts/pivot-works-steering-stem-bearing-kit-yamaha-125cc-450cc-1998-2025) | medium |
+| Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Drill Guide | 12-177 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Hardware - Countersink | 12-178 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-416 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-B165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-B416 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-G165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-G416 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-K165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-K416 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-P416 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-265 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-270 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-275 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-320 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-G265 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-K265 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-P266 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Titanium Axle Adjuster Bolts | 70-630 |  |  | [source](https://www.worksconnection.com/p104037-titanium-axle-adjuster-bolts) | high |
 | Barnett | Barnett Clutch Basket Yamaha YZ250 / X 1993-2027 | 321-90-01004 |  |  | [source](https://www.cyclegear.com/parts/barnett-clutch-basket-yamaha-yz250-x-1993-2024) | medium |
 | Boyesen | Factory Racing Clutch Cover / Ignition Cover (Yamaha YZ125 / YZ250) | CC-32AB, CC-32AL, CC-32AM, SC-32AB, SC-32AL, SC-32AM, CC-33B, CC-33L, CC-33M, SC-33AB, SC-33AL, SC-33AM | Cast-aluminum, powder-coated replacement clutch and ignition covers: lightweight, won't warp, seal out dirt, and protect the engine cases. Appearance and protection, not power. |  | [source](https://boyesen.com/mx-offroad-mini/factory-racing-hard-parts/2026-yamaha-yz-250/factory-racing-clutch-cover-cc-32ab) | high |
 | Boyesen | Boyesen Clutch Cover Gasket Yamaha YZ250 / YZ250X 1999-2004 | CCG-32A |  |  | [source](https://www.cyclegear.com/parts/boyesen-clutch-cover-gasket-yamaha-yz250-yz250x-1999-2004) | medium |
@@ -135,6 +181,11 @@
 | Rekluse | Rekluse Radius CX 3.0 Replacement Clutch Pack Kit Yamaha / Gas Gas 250cc-450cc 1999-2027 | 751-07076 |  |  | [source](https://www.cyclegear.com/parts/rekluse-radius-cx-replacement-clutch-pack-kit-yamaha-gas-gas-250cc-450cc-1999-2023) | medium |
 | Rekluse | Rekluse Radius X 4.0 Clutch Kit Yamaha YZ250 / YZ250X 2002-2027 | RMS-8307070 |  |  | [source](https://www.cyclegear.com/parts/rekluse-radius-x-40-clutch-kit-yamaha-yz250-yz250x-2002-2023) | medium |
 | Rekluse | Rekluse Torq Drive Clutch Pack Yamaha YZ250 / YZ250X 2002-2027 | RMS-2807070 |  |  | [source](https://www.cyclegear.com/parts/rekluse-torq-drive-clutch-pack-yamaha-yz250-yz250x-2002-2023) | medium |
+| Works Connection | Works Connection Hinson Billetproof Clutch Cover | HR-C054 |  |  | [source](https://www.worksconnection.com/p18103-hinson-billetproof-cover) | high |
+| Works Connection | Works Connection Hinson FSC Clutch Plate Kit | HR-FSC213-8-001 |  |  | [source](https://www.worksconnection.com/p18115-hinson-fsc-clutch-plate-kit) | high |
+| Works Connection | Works Connection Hinson Billetproof Clutch Basket with Kickstart Gear | HR-H054 |  |  | [source](https://www.worksconnection.com/p18100-hinson-clutch-basket) | high |
+| Works Connection | Works Connection Hinson Billetproof Inner Hub | HR-H073 |  |  | [source](https://www.worksconnection.com/p18105-hinson-billetproof-inner-hub) | high |
+| Works Connection | Works Connection Hinson Billetproof Pressure Plate | HR-H099 |  |  | [source](https://www.worksconnection.com/p18107-hinson-billetproof-pressure-plate) | high |
 | Yamaha | Yamaha GYTR Billet Clutch Basket Yamaha YZ250 / YZ250X 2001-2027 | GYT-5XF56-10-00 |  |  | [source](https://www.cyclegear.com/parts/yamaha-gytr-billet-clutch-basket-yamaha-yz250-yz250x-2001-2026) | medium |
 | Yamaha | Yamaha GYTR Billet Clutch Cover Yamaha YZ250 / X 2001-2027 | GYT-5XF35-10-AL |  |  | [source](https://www.cyclegear.com/parts/yamaha-gytr-billet-clutch-cover-yamaha-yz250-x-2001-2026) | medium |
 | Acerbis | Acerbis K-Linear Handguards Yamaha / Kawasaki / Suzuki 125cc-450cc 2009-2027 | 2981391006, 2981391007, 2981391017, 2981391034, 2981391035, 2981391089 |  |  | [source](https://www.cyclegear.com/parts/acerbis-k-linear-handguards-yamaha-kawasaki-suzuki-125cc-450cc-2009-2024) | medium |
@@ -151,6 +202,19 @@
 | Polisport | Polisport MX Flow Handguards Yamaha 125cc-450cc 2008-2027 White/Blue [Open Box] | 8308200016 |  |  | [source](https://www.cyclegear.com/parts/polisport-mx-flow-handguards-yamaha-125cc-450cc-2008-2023-) | medium |
 | Pro Taper | Pro Taper Billet Throttle Tube Yamaha YZ125 / X / YZ250 / X / WR250 1997-2027 | 022873 |  |  | [source](https://www.cyclegear.com/parts/pro-taper-billet-throttle-tube-yamaha-yz125-x-yz250-x-wr250-1997-2025) | medium |
 | Scar Racing | Titanium Footpegs Anti-Mud (Yamaha YZ two-strokes and pre-2023/24 YZ-F) | S1516AM, 60-201.TIT.SCAR.N | Seller: hand-fabricated welded grade 5 titanium peg, 10 mm wider than OEM; 18-tooth anti-mud platform. | Retailer page states both 57 mm and 60 mm body width. Four-stroke fitment ends where S1517 begins (YZ450F 2023, YZ250F 2024). | [Oro2u (UK)](https://www.oro2u.com/titanium-footpegs-anti-mud-97-26-alta-fantic-yamaha-redshift-xe-xx-xef-xxf-yz-wr-tenere-scar-s1516am) | medium |
+| Works Connection | Works Connection Foot Pegs-Pro Pegs Titanium | 20-430 |  |  | [source](https://www.worksconnection.com/p18089-foot-peg-pro-pegs-titanium) | high |
+| Works Connection | Works Connection Foot Peg - Pro Pegs Mud Titanium | 20-431 |  |  | [source](https://www.worksconnection.com/p935855-foot-peg-pro-pegs-mud-titanium) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-200 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-300 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-400 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-500 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-508 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-G100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-K100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-P101 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection ARC Folding Clutch Lever | 32-311 |  |  | [source](https://www.worksconnection.com/p351532-clutch-lever) | high |
+| Works Connection | Works Connection ARC Folding Brake Lever | 33-401 |  |  | [source](https://www.worksconnection.com/p351282-brake-lever) | high |
 | Zeta | Zeta Max Footpegs Yamaha / Fantic 85cc-450cc 1999-2027 | ZE93-2630, ZE93-2635 |  |  | [source](https://www.cyclegear.com/parts/zeta-max-footpegs-yamaha-fantic-85cc-450cc-1999-2027) | medium |
 | Acerbis | Acerbis Radiator Louvers Yamaha YZ125 / X / YZ250 / X 2006-2027 Blue [Blemished - Very Good] | 2976210211 |  |  | [source](https://www.cyclegear.com/parts/acerbis-radiator-louvers-yamaha-yz125-x-yz250-x-20-1) | medium |
 | Acerbis | Acerbis Radiator Louvers Yamaha YZ125 / X / YZ250 / X 2006-2027 | 2976210001, 2976210114, 2976210211 |  |  | [source](https://www.cyclegear.com/parts/acerbis-radiator-louvers-yamaha-yz125-x-yz250-x-2006-2024) | medium |
@@ -195,6 +259,19 @@
 | Pro X | Pro X Connecting Rod Kit Yamaha YZ250 / YZ250X 1999-2027 | 3.2309/03.2309 |  |  | [source](https://www.cyclegear.com/parts/pro-x-connecting-rod-kit-yamaha-yz250-yz250x-1999-2022) | medium |
 | Pro X | Pro X Forged Piston Kit Yamaha / Suzuki 250cc 1999-2027 | 01.2321.A, 01.2321.B, 01.2321.C, 01.2321.D |  |  | [source](https://www.cyclegear.com/parts/pro-x-forged-piston-kit-yamaha-suzuki-250cc-1999-2022) | medium |
 | Vertex | Vertex Cast 2-Stroke Piston Kit Yamaha YZ250 / YZ250X 1999-2027 | VTK22584A-2, VTK22584B-2 |  |  | [source](https://www.cyclegear.com/parts/vertex-cast-2-stroke-piston-kit-yamaha-yz250-yz250x-1999-2025) | medium |
+| Works Connection | Works Connection Radiator Braces | 18-075 |  |  | [source](https://www.worksconnection.com/p18130-radiator-braces) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-001 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-002 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-003 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Steering Stem Nut | 24-360 |  |  | [source](https://www.worksconnection.com/p18157-steering-stem-nuts) | high |
+| Works Connection | Works Connection Steering Stem Nut | 24-365 |  |  | [source](https://www.worksconnection.com/p18157-steering-stem-nuts) | high |
+| Works Connection | Works Connection Steering Stem Nut | 24-370 |  |  | [source](https://www.worksconnection.com/p18157-steering-stem-nuts) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-G001 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-K001 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-P004 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Fuel Vent Cap | 26-200 |  |  | [source](https://www.worksconnection.com/p18097-fuel-vent-cap) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Maintenance Timer | 37-200 |  |  | [source](https://www.worksconnection.com/p18160-tach-hour-meters) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Resettable Maintenance Timer Mount Bracket | 37-205 |  |  | [source](https://www.worksconnection.com/p18161-tach-hour-meter-mounts) | high |
 | FMF | TurbineCore 2.1 silencer - YZ250X | 024067, 024091 | FMF: USFS-legal spark-arrestor silencer with Turbine Dampening System; straight-through, claimed unrestricted power. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/titanium-powercore-2-1-024091) | high |
 | FMF | Gnarly pipe - YZ250, YZ250X | 024054 | FMF: built to add low-rpm horsepower and torque ('4-stroke tractor-like' pull) for off-road; 18-gauge steel, nickel plated. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
 | FMF | FMF Pipe Spring & O-Ring Kit Yamaha YZ250 / X 1999-2027 | 011318/11318 |  |  | [source](https://www.cyclegear.com/parts/fmf-pipe-spring-o-ring-kit-yamaha-yz250-x-1999-2026) | medium |
@@ -264,6 +341,9 @@
 | Works Connection | Works Connection Frame Guards Fantic XE300 / Yamaha YZ125 / YZ250 2005-2027 | 15-235 |  |  | [source](https://www.cyclegear.com/parts/works-connection-frame-guards-yamaha-yz125-yz250-2005-2017) | medium |
 | Works Connection | Works Connection MX Skid Plate Fantic XE300 / Yamaha YZ250 2005-2027 | 10-245 |  |  | [source](https://www.cyclegear.com/parts/works-connection-mx-skid-plate-yamaha-yz250-2005-2021) | medium |
 | Works Connection | Works Connection Rear Caliper Guard Fantic XE300 / Yamaha YZ250F / YZ450F 2020-2027 | 25-034 |  |  | [source](https://www.cyclegear.com/parts/works-connection-rear-caliper-guard-yamaha-yz250f-yz450f-2020-2022) | medium |
+| Works Connection | Works Connection Fork Guard Reinforcing Kit | 12-190 |  |  | [source](https://www.worksconnection.com/p1457836-fork-guard-reinforcing-kit) | high |
+| Works Connection | Works Connection Rear Caliper Guard | 25-034 |  |  | [source](https://www.worksconnection.com/p18135-rear-caliper-guards) | high |
+| Works Connection | Works Connection Skid Plate-Titan | 38-650 |  |  | [source](https://www.worksconnection.com/p18149-skid-plate-titan) | high |
 | Yamaha | Yamaha GYTR Off-Road Billet Radiator Guards Yamaha YZ125 / YZ125X / YZ250 / YZ250X 2025-2027 | D68-E24D0-V0-00 |  |  | [source](https://www.cyclegear.com/parts/yamaha-gytr-off-road-billet-radiator-guards-yamaha-yz125-yz125x-yz250-yz250x-2025-2026) | medium |
 | Zeta | Zeta Case Saver With Cover Kit Yamaha YZ250 / YZ250X 2006-2027 | ZE80-8316 |  |  | [source](https://www.cyclegear.com/parts/zeta-case-saver-with-cover-kit-yamaha-yz250-yz250x-2006-2027) | medium |
 | Factory Links | OEM Series® Linkage Bearing Rebuild Kits for Yamaha and Fantic / LRK-Y-128 | LRK-Y-128 | Maker description: Restore smooth rear suspension performance with a premium Yamaha linkage bearing rebuild kit from Factory Links. This linkage bearing rebuild kit is engineered specifically for Yama |  | [source](https://shopfactorylinks.com/products/lrk-y-128) | high |
@@ -275,6 +355,7 @@
 | Pivot Works | Pivot Works Steering Stem Bearing Kit Yamaha 125cc-450cc 1998-2027 | PWSSK-Y05-421 |  |  | [source](https://www.cyclegear.com/parts/pivot-works-steering-stem-bearing-kit-yamaha-125cc-450cc-1998-2025) | medium |
 | Pro X | Pro X Crankshaft Bearing And Seal Kit Yamaha YZ250 / YZ250X 2001-2027 | 23.CBS23001 |  |  | [source](https://www.cyclegear.com/parts/pro-x-crankshaft-bearing-and-seal-kit-yamaha-yz250-yz250x-2001-2022) | medium |
 | Ride Engineering | YZ/YZF Adjustable Performance/Lowering Link | YZ-LKA43-BA, YZ-LKA43-MB, YZ-LKA45-BA (2T), YZ-LKA45-MB (2T) | Performance mode balances the bike; flip for 22 mm drop; sag 100-105 mm. |  | [source](https://ride-engineering.com/assets/images/pdfs/off%20road%20catalog.pdf) | high |
+| Works Connection | Works Connection Fork Adjusters (YZF) | 26-700 |  |  | [source](https://www.worksconnection.com/p1163945-fork-adjusters-yzf) | high |
 | Zeta | Zeta Preload Adjuster Honda / Kawasaki / Suzuki / Yamaha 125cc-450cc | ZE56-13026 |  |  | [source](https://www.cyclegear.com/parts/zeta-preload-adjuster-honda-kawasaki-suzuki-yamaha-125cc-450cc) | medium |
 | Excel | Excel Rear Wheel Spoke Set Yamaha 125cc-450cc 1998-2027 | XS8-41197, XS8-43187, XS8-46187 |  |  | [source](https://www.cyclegear.com/parts/excel-rear-wheel-spoke-set-yamaha-125cc-450cc-1998-2020) | medium |
 | Excel | Excel Takasago 1.85" x 19" Rear Rim Yamaha / Kawasaki / Suzuki 125cc-650cc 1989-2027 | GDB406, GDG406, GDK406, GDS406 |  |  | [source](https://www.cyclegear.com/parts/excel-takasago-185-x-19-rear-rim-yamaha-kawasaki-suzuki-125cc-650cc-1989-2023) | medium |

@@ -1,6 +1,6 @@
 # GasGas MC 85 2022: aftermarket parts
 
-1469 listings whose stated fitment names this bike: 133 researched parts (with what they change and rider findings), 188 dealer and retailer listings specific to this bike, and 1148 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1541 listings whose stated fitment names this bike: 205 researched parts (with what they change and rider findings), 188 dealer and retailer listings specific to this bike, and 1148 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -69,6 +69,55 @@
 | ARC | ARC Billet Formula Clutch / Left-Hand Brake Master Cylinder Cap AC-MC107 | AC-MC107-BK, AC-MC107-O | Billet replacement reservoir cap. | ARC fitment list end years vary by model (some stop at 2025, some 2026); 2027 not listed. | [source](https://arclevers.com/products/master-cylinder-caps-ac-mc107) | high |
 | EBC Brakes | EBC High Tensile Front and Rear Rotor Bolt Set Gas Gas MC 85 / Husqvarna TC85 / KTM 85 SX 2021-2027 | DB603 | Rotor mounting bolts. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). Some models list only one or two years; may be retailer data gaps. | [source](https://www.cyclegear.com/parts/ebc-high-tensile-front-and-rear-rotor-bolt-set-gas-gas-mc-85-husqvarna-tc85-ktm-85-sx-2021-2024) | medium |
 | Moto-Master | Moto Master Sinter Pro Racing Rear Brake Pads Gas Gas / Husqvarna / KTM 65cc-85cc | 96711-PU | Replacement brake pads. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). Some models list only one or two years; may be retailer data gaps. | [source](https://www.cyclegear.com/parts/moto-master-sinter-pro-racing-rear-brake-pads-gas-gas-husqvarna-ktm-65cc-85cc) | medium |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-080 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-080ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-081 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-081ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-082 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-082ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-083 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-083ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cover - Billet | 21-090 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-090ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Clutch Cover - Billet | 21-092 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-092ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Clutch Cover - Billet | 21-093 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-093ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Clutch Cover - Billet | 21-094 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-094ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-770 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-771 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-772 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-773 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-G041 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-G041ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cover - Billet | 21-G044 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-G044ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-G744 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front - Billet | 21-K041 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-K041ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cover - Billet | 21-K044 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-K044ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-K744 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap Billet - Front | 21-P084 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-P084ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cover - Billet | 21-P095 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-P095ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-P774 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Drill Guide | 12-177 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Hardware - Countersink | 12-178 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-722 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-B165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-B722 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-G165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-G722 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-K165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-K722 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-P722 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
 | Boyesen | Boyesen Factory Racing clutch cover CC-46Ax (85 SX 17/14, 85 SX 19/16, TC 85, MC 85) | CC-46AB, CC-46AL, CC-46AM, CC-46AO | Aftermarket clutch cover; Boyesen includes one gasket. | Fitment built from Boyesen's per-year product pages; some years are missing for some models (e.g. a model listed to 2023 or 2025 only), which may be a catalog g | [source](https://boyesen.com/mx-offroad-mini/factory-racing-hard-parts/2021-gas-gas-mc-85/factory-racing-clutch-cover-cc-46ab) | high |
 | Hinson | Hinson Billetproof Inner Hub Husqvarna / KTM / Gas Gas 85cc 2018-2027 | H472-IH-1801 | Billet clutch inner hub. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/hinson-billetproof-inner-hub-husqvarna-ktm-gas-gas-85cc-2018-2022) | medium |
 | Pro X | Pro X Clutch Plate Set KTM / Husqvarna / Gas Gas 85cc 2018-2027 | 16.CPS61018 | Friction and steel plate set. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/pro-x-clutch-plate-set-ktm-husqvarna-gas-gas-85cc-2018-2025) | medium |
@@ -85,6 +134,19 @@
 | RFX | RFX Factory Titanium Footpegs KTM / Gas Gas / Husqvarna 85cc-500cc | FXFR 50300 GPTI | Aftermarket footpegs. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rfx-factory-titanium-footpegs-ktm-gas-gas-husqvarna-85cc-500cc) | medium |
 | RFX | RFX Pro Flexi Tip Rear Brake Pedal Gas Gas MC 85 | FXRB 50700 99RD | Aftermarket rear brake pedal. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rfx-pro-flexi-tip-rear-brake-pedal-gas-gas-mc-85) | medium |
 | RFX | RFX Pro Titanium/Aluminum Footpegs KTM / Gas Gas / Husqvarna 85cc-500cc | FXFR 50300 99TA | Aftermarket footpegs. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rfx-pro-titaniumaluminum-footpegs-ktm-gas-gas-husqvarna-85cc-500cc) | medium |
+| Works Connection | Works Connection Foot Pegs-Pro Pegs Titanium | 20-425 |  |  | [source](https://www.worksconnection.com/p18089-foot-peg-pro-pegs-titanium) | high |
+| Works Connection | Works Connection Foot Peg - Pro Pegs Mud Titanium | 20-427 |  |  | [source](https://www.worksconnection.com/p935855-foot-peg-pro-pegs-mud-titanium) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-200 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-300 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-400 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-500 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-508 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-G100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-K100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-P101 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection ARC Folding Clutch Lever | 32-106 |  |  | [source](https://www.worksconnection.com/p351532-clutch-lever) | high |
+| Works Connection | Works Connection ARC Folding Brake Lever | 33-203 |  |  | [source](https://www.worksconnection.com/p351282-brake-lever) | high |
 | Renthal | Ultralight rear aluminum sprocket, KTM/Husqvarna/GasGas 85cc-105cc | Cycle Gear item P356637 (retailer number; Renthal numbers by tooth not shown) | Gearing change by tooth count; lighter than steel. | Retailer extends the old pattern to 2027, implying the 2025 new-gen 85 kept the sprocket bolt pattern; confirm with Renthal. | [Cycle Gear](https://www.cyclegear.com/parts/renthal-ultralight-rear-aluminum-sprocket-ktm-husqvarna-gas-gas-85cc-105cc-2004-2024) | medium |
 | Boyesen | Boyesen Factory Racing ignition cover SC-46Ax (85 SX 17/14, 85 SX 19/16, TC 85, MC 85) | SC-46AB, SC-46AM, SC-46AO, SC-46AL | Aftermarket ignition (stator) cover; includes gasket (and chain guard on Kawasaki/Yamaha versions per Boyesen). | Fitment built from Boyesen's per-year product pages; some years are missing for some models (e.g. a model listed to 2023 or 2025 only), which may be a catalog g | [source](https://boyesen.com/mx-offroad-mini/factory-racing-hard-parts/2021-gas-gas-mc-85/factory-racing-ignition-cover-sc-46ab) | high |
 | Pro X | Pro X Piston Kit KTM 85 SX / Husqvarna TC85 / Gas Gas MC 85 2003-2027 | 01.6105.A, 01.6105.B, 01.6105.C, 01.6105.D | Replacement piston kit for a top-end rebuild. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/pro-x-piston-kit-ktm-85-sx-husqvarna-tc85-gas-gas-mc-85-2003-2025) | medium |
@@ -93,6 +155,16 @@
 | Vertex | Vertex Cast 2-Stroke Piston Kit KTM / Husqvarna / Gas Gas 85cc 2018-2027 | VTK24212A-2, VTK24212B-2, VTK24212C-2 | Replacement piston kit for a top-end rebuild. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/vertex-cast-2-stroke-piston-kit-ktm-husqvarna-gas-gas-85cc-2018-2024) | medium |
 | Vertex | Vertex Race Evo 2-Stroke Piston Kit KTM / Husqvarna / Gas Gas 85cc | VTK24446A-2, VTK24446B-2 | Replacement piston kit for a top-end rebuild. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/vertex-race-evo-2-stroke-piston-kit-ktm-husqvarna-gas-gas-85cc) | medium |
 | Wiseco | Wiseco Racer Elite Piston Kit KTM / Husqvarna / Gas Gas 85cc 2003-2027 | RE910M04700 | Replacement piston kit for a top-end rebuild. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/wiseco-racer-elite-piston-kit-ktm-husqvarna-gas-gas-85cc-2003-2022) | medium |
+| Works Connection | Works Connection Oil Fill Plug | 24-020 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-021 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-030 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-031 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-G020 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-K020 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-P022 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Fuel Vent Cap | 26-200 |  |  | [source](https://www.worksconnection.com/p18097-fuel-vent-cap) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Maintenance Timer | 37-200 |  |  | [source](https://www.worksconnection.com/p18160-tach-hour-meters) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Resettable Maintenance Timer Mount Bracket | 37-205 |  |  | [source](https://www.worksconnection.com/p18161-tach-hour-meter-mounts) | high |
 | FMF | Factory Fatty pipe, KTM 85 SX / Husqvarna TC85 / GasGas MC85 | 025222 | FMF claim: more low-end, midrange and over-rev. | Not confirmed for 2025+ new-generation 85 SX. | [Oro2u (UK, trade)](https://www.oro2u.com/factory-fatty-exhaust-pipe-18-24-gasgas-husqvarna-ktm-85-mc-tc-sx-fmf-025222) | medium |
 | FMF | FMF PowerCore 2 silencer 025225 (85 SX 17/14, 85 SX 19/16, TC 85, MC 85) | 025225 | Replaces the stock silencer. FMF lists it as a bolt-on for this model; the listing gives no performance claim. | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/powercore-2-025225) | high |
 | FMF | FMF Shorty Big Bore silencer 025226 (85 SX 17/14, 85 SX 19/16, TC 85, MC 85) | 025226 | Replaces the stock silencer. FMF lists it as a bolt-on for this model; the listing gives no performance claim. | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/powercore-2-025226) | high |

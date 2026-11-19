@@ -1,6 +1,6 @@
 # GasGas MC 50 2023: aftermarket parts
 
-1037 listings whose stated fitment names this bike: 65 researched parts (with what they change and rider findings), 76 dealer and retailer listings specific to this bike, and 896 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1061 listings whose stated fitment names this bike: 89 researched parts (with what they change and rider findings), 76 dealer and retailer listings specific to this bike, and 896 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -35,10 +35,34 @@
 | Plews | MX2 Matterly GP Front Tire 12-inch |  | intermediate: Intermediate, built for tracks that change from wet morning to hard afternoon. | Marked NHS. | [source](https://plewstyres.com/) | high |
 | Plews | MX2 Matterly GP Rear Tire 10-inch |  | intermediate: Intermediate, built for tracks that change from wet morning to hard afternoon. | Marked NHS. | [source](https://plewstyres.com/) | high |
 | Plews | MX3 Foxhills GP Front Tire 12-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-770 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-771 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-772 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-773 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-G744 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-K744 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-P774 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
 | Ride Engineering | Full Performance linkage (KTM/GasGas, 2024.5 FE and 2025+) |  | More linear damping curve for balance and less pitching under braking and acceleration. | No part number; fitment from magazine test, not RE fitment page. 2026-2027 not stated. | [Ride Engineering (price via MXA)](https://www.ride-engineering.com) | medium |
+| Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Drill Guide | 12-177 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Hardware - Countersink | 12-178 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-731 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-B165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-B731 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-G165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-G731 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-K165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-K731 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-P731 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
 | ASV Inventions | EMIG F4 PRO PACK+ hydraulic clutch and brake lever pair pack, KTM motocross | EMF42303KTM | Pivoting crash-resistant levers with on-the-fly reach adjust (4 in range); pack includes ODI EMIG Pro V2 grips and rotator clamps. | 2026-2027 not listed. Confirm Brembo vs Braktec master cylinder on GasGas 2024+. 2024+ GasGas MC/EX use Braktec brakes, not Brembo: ARC says its Brembo-pattern  | [ASV Inventions](https://asvinventions.com/emig-f4-pro-pack-hydraulic-clutch-and-brake-lever-pair-pack-for-ktm-motocross/) | high |
 | Pro X | Pro X Piston Kit KTM / Husqvarna / Gas Gas 50cc 2009-2027 | 01.6019.B, 01.6019.C | Replacement piston kit for a top-end rebuild. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/pro-x-piston-kit-ktm-husqvarna-gas-gas-50cc-2009-2025) | medium |
 | Vertex | Vertex Cast 2-Stroke Piston Kit KTM / Husqvarna / Gas Gas 50cc 2009-2023 | VTK23429CD, VTK23429AB | Replacement piston kit for a top-end rebuild. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/vertex-cast-2-stroke-piston-kit-ktm-husqvarna-gas-gas-50cc-2009-2023) | medium |
+| Works Connection | Works Connection Fuel Vent Cap | 26-200 |  |  | [source](https://www.worksconnection.com/p18097-fuel-vent-cap) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Maintenance Timer | 37-200 |  |  | [source](https://www.worksconnection.com/p18160-tach-hour-meters) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Resettable Maintenance Timer Mount Bracket | 37-205 |  |  | [source](https://www.worksconnection.com/p18161-tach-hour-meter-mounts) | high |
 | FMF | FMF Powercore 2 silencer 025180 (50 SX, TC 50, MC 50) | 025180 | Replaces the stock silencer. FMF lists it as a bolt-on for this model; the listing gives no performance claim. | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/powercore-2-025180) | high |
 | FMF | FMF Fatty expansion chamber 025150 (50 SX, TC 50, MC 50) | 025150 | Replaces the stock expansion chamber. FMF sells it as a direct bolt-on pipe for this model; the listing itself gives no horsepower claim. | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/fatty-pipe-025150) | high |
 | FMF | FMF Factory Fatty expansion chamber 025101 (50 SX, TC 50, MC 50) | 025101 | Replaces the stock expansion chamber. FMF sells it as a direct bolt-on pipe for this model; the listing itself gives no horsepower claim. | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/factory-fatty-025101) | high |

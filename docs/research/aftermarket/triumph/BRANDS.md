@@ -4,6 +4,7 @@
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
+| Works Connection | 1385 | engine (365), chassis (357), clutch (216), brakes (209), protection (136), controls (66) | Cycle Gear 6, MotoSport 17, research 1362 |
 | FMF | 239 | exhaust (189), Exhaust (46), Tools and Maintenance (2), Uncategorised (1), Body (1) | Cycle Gear 33, MotoSport 17, research 189 |
 | Pro Circuit | 205 | exhaust (71), engine (69), Exhaust (27), suspension (16), controls (6), chassis (4) | Cycle Gear 16, MotoSport 17, research 172 |
 | Acerbis | 169 | Controls (38), Handlebars & Controls (33), Body (26), Uncategorised (18), protection (11), Bike Protection (9) | Cycle Gear 73, MotoSport 83, research 13 |
@@ -36,7 +37,6 @@
 | Bolt | 53 | Body (43), Drive (6), Wheels and Rims (2), Exhaust (1), Engine (1) | MotoSport 53 |
 | KTM PowerParts | 53 | Controls (16), Lights and Electrical (5), Drive (4), Body (4), Graphics (4), Tools and Maintenance (4) | MotoSport 44, research 9 |
 | Quad Lock | 53 | Lights and Electrical (53) | MotoSport 53 |
-| Works Connection | 53 | protection (10), chassis (9), controls (8), Suspension (5), Uncategorised (3), Brakes (3) | Cycle Gear 6, MotoSport 17, research 30 |
 | Boyesen | 52 | intake (23), engine (11), cooling (8), clutch (7), Uncategorised (2), Intake (1) | Cycle Gear 2, MotoSport 1, research 49 |
 | SP Connect | 51 | Lights and Electrical (51) | MotoSport 51 |
 | ARC | 49 | controls (23), Controls (17), brakes (5), Brakes (4) | MotoSport 21, research 28 |

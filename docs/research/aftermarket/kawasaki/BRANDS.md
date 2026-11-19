@@ -4,6 +4,7 @@
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
+| Works Connection | 1453 | engine (364), chassis (359), clutch (216), brakes (209), protection (140), controls (69) | Cycle Gear 44, research 1371, MotoSport 38 |
 | Moose Racing | 349 | Uncategorised (134), protection (34), Handlebars & Controls (30), controls (22), wheels (20), Bike Protection (15) | Cycle Gear 247, research 102 |
 | Acerbis | 321 | Handlebars & Controls (69), Uncategorised (69), Controls (38), Body (32), Bike Protection (28), Lighting (12) | Cycle Gear 197, MotoSport 99, research 25 |
 | FMF | 301 | exhaust (196), Exhaust (100), Uncategorised (2), Tools and Maintenance (2), Body (1) | Cycle Gear 85, research 196, MotoSport 20 |
@@ -20,7 +21,6 @@
 | Polisport | 131 | Uncategorised (27), Body (20), Bike Protection (17), Handlebars & Controls (15), Lighting (12), Exhaust (10) | Cycle Gear 79, MotoSport 39, research 13 |
 | Bolt Hardware | 130 | Uncategorised (106), Body & Fairing (10), Exhaust (8), Drive & Transmission (4), Chain & Sprocket (2) | Cycle Gear 130 |
 | Fire Power | 121 | Chain & Sprocket (32), Uncategorised (21), Handlebars & Controls (20), Drive (12), Batteries & Electrical (9), Gauges (8) | Cycle Gear 90, MotoSport 21, research 10 |
-| Works Connection | 121 | Uncategorised (19), Suspension (16), protection (14), controls (11), chassis (11), Bike Protection (10) | Cycle Gear 44, research 39, MotoSport 38 |
 | Vertex | 111 | engine (74), Uncategorised (23), Engine (11), Exhaust (3) | Cycle Gear 26, MotoSport 11, research 74 |
 | Rugged Radios | 105 | Vehicle Communication (60), Accessories (42), Helmets (3) | MotoSport 105 |
 | Rekluse | 103 | clutch (44), Drive & Transmission (26), Engine (25), engine (4), Uncategorised (2), Controls (1) | Cycle Gear 28, research 48, MotoSport 27 |

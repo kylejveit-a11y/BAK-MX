@@ -229,3 +229,21 @@ braces/guards, guards and skid plates from dealer fitment tables; mooseracing.co
 catalogue). Research fetches only accept exact URLs that came from search results or the chat, so sites that never appear in
 search (hotcams.com, cv4.com, vertexpistons.com, emigracing.com home) need their URL pasted into the chat to be read.
 Tag Metals has left motocross; appliedracing.com is a drag-racing store, not the clamp maker.
+
+## Every bike in scope (2026-11-19)
+
+Owner direction: every bike in the app gets a complete aftermarket list, older years and trail / enduro models included.
+
+- `roster-all.json` (all 898 bikes in shared/bike-support.json, 2010-2027) replaces `roster-2020-2027.json` in
+  `build_catalog.py`. Enduro and trail models (XC-W, XCF-W, TE, FE, EC, WR, CRF-X) are matched by exact model name only.
+  The app catalogs now carry 896 of 898 bikes (was 477).
+- Works Connection, maker-direct: `specialty/works-connection.json`, 1,332 SKUs with the maker's own year / make / model
+  fitment back to 2010 (axle blocks, Pro Launch, radiator braces, skid plates, guards, caps, Hinson parts). Read from the
+  product pages' bike selector, 1 request a second.
+- Retailer back-fill for the 441 bikes with little data (2010-2019 and trail / enduro): the Cycle Gear reader runs on the
+  owner's computer (`Downloads/bakmx-parts-research/`, honest client name, robots.txt respected, resumable). Convert with
+  `cyclegear_convert.py` when it finishes.
+- No public product feed (do not work around): Luxon, Enzo, Guts answer 403; REP and Fasst answer 429; FCP, Ride
+  Engineering, X-Trig, P3, Dubya, MX-Tech have plain pages that each need their own reader.
+- Sorting: kill switches, seat covers, gas caps, seal savers, spark plugs and bolt kits are no longer dropped by retailer
+  category.

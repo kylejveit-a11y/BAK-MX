@@ -4,6 +4,7 @@
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
+| Works Connection | 1518 | engine (366), chassis (360), clutch (216), brakes (213), protection (146), controls (72) | Cycle Gear 81, MotoSport 40, research 1397 |
 | Moose Racing | 651 | Uncategorised (229), protection (56), controls (53), Bike Protection (47), Handlebars & Controls (45), wheels (37) | Cycle Gear 413, research 238 |
 | Acerbis | 576 | Uncategorised (134), Handlebars & Controls (103), Bike Protection (61), Controls (38), Body (36), controls (36) | Cycle Gear 346, MotoSport 104, research 126 |
 | FMF | 441 | exhaust (244), Exhaust (184), protection (6), Uncategorised (3), Tools and Maintenance (2), Body (1) | Cycle Gear 151, MotoSport 39, research 251 |
@@ -19,7 +20,6 @@
 | Motion Pro | 237 | Uncategorised (52), Controls (42), Suspension (31), Air & Fuel (18), Tools and Maintenance (17), controls (17) | Cycle Gear 102, MotoSport 103, research 32 |
 | ODI | 235 | Uncategorised (114), controls (45), Controls (42), Handlebars & Controls (27), UTV / ATV Parts (3), body (3) | Cycle Gear 144, MotoSport 43, research 48 |
 | Fire Power | 231 | Chain & Sprocket (47), Uncategorised (44), Handlebars & Controls (30), controls (21), drivetrain (17), Batteries & Electrical (13) | Cycle Gear 146, MotoSport 22, research 63 |
-| Works Connection | 186 | Bike Protection (32), Uncategorised (25), Suspension (24), protection (20), controls (14), chassis (12) | Cycle Gear 81, MotoSport 40, research 65 |
 | Rekluse | 180 | clutch (74), Drive & Transmission (55), Engine (27), Uncategorised (14), engine (4), UTV / ATV Parts (2) | Cycle Gear 71, MotoSport 30, research 79 |
 | Vertex | 155 | engine (78), Uncategorised (42), Engine (17), Exhaust (7), suspension (5), electrics (3) | Cycle Gear 49, MotoSport 17, research 89 |
 | Hinson | 148 | Drive & Transmission (56), clutch (43), Engine (21), Uncategorised (11), drivetrain (10), engine (7) | Cycle Gear 67, MotoSport 21, research 60 |

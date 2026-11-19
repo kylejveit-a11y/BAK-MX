@@ -4,6 +4,7 @@
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
+| Works Connection | 1456 | engine (366), chassis (363), clutch (216), brakes (211), protection (137), controls (66) | Cycle Gear 49, KTM Twins 1, research 1374, MotoSport 32 |
 | KTM PowerParts | 1416 | Accessory (540), protection (118), body (90), tools (88), exhaust (68), controls (53) | Lings 540, research 691, MotoSport 185 |
 | Husqvarna Technical Accessories | 1332 | Accessory (546), protection (137), body (127), tools (83), exhaust (70), controls (40) | Lings 546, research 633, MotoSport 153 |
 | GasGas Technical Accessories | 928 | Accessory (377), protection (92), body (81), tools (66), exhaust (65), Uncategorised (47) | Lings 377, MotoSport 76, research 475 |
@@ -27,7 +28,6 @@
 | ODI | 146 | Uncategorised (75), Controls (42), Handlebars & Controls (18), Ergonomics (4), controls (4), UTV / ATV Parts (2) | Cycle Gear 95, KTM Twins 4, MotoSport 43, research 4 |
 | Fire Power | 138 | Chain & Sprocket (35), Uncategorised (27), Handlebars & Controls (20), Drive (12), Batteries & Electrical (10), Gauges (8) | Cycle Gear 102, MotoSport 22, research 14 |
 | Pro X | 125 | Uncategorised (70), Engine (18), engine (16), Brakes (5), clutch (5), Drive & Transmission (4) | Cycle Gear 78, research 25, MotoSport 22 |
-| Works Connection | 124 | Suspension (33), Uncategorised (17), chassis (15), protection (11), controls (8), Controls (5) | Cycle Gear 49, KTM Twins 1, research 42, MotoSport 32 |
 | Moto-Master | 113 | Brakes (43), brakes (34), Chain & Sprocket (19), drivetrain (6), gearing (6), Uncategorised (5) | Cycle Gear 54, research 46, MotoSport 13 |
 | Enduro Engineering | 107 | Bike Protection (36), protection (17), Handlebars & Controls (16), Uncategorised (11), Exhaust (6), UTV / ATV Parts (4) | Cycle Gear 73, KTM Twins 8, research 26 |
 | Rugged Radios | 105 | Vehicle Communication (60), Accessories (42), Helmets (3) | MotoSport 105 |

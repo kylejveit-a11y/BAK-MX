@@ -1,0 +1,14 @@
+# Husqvarna FC 350 2014: aftermarket parts
+
+5 listings whose stated fitment names this bike: 5 researched parts (with what they change and rider findings), 0 dealer and retailer listings specific to this bike, and 0 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+
+## Researched parts
+
+| Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
+|---|---|---|---|---|---|---|
+| ARC | Flex front brake lever, KTM/Husqvarna/GasGas/Sherco/TM/Kawasaki/Stark 125-501 2014-2027 | Cycle Gear item P308105 (retailer) | ARC claim: lever flexes away from the bar in a crash so the brake still works after a bar-bending impact; reach adjuster; forged blade, billet knee; made in USA. | Page states: only for OEM Brembo master cylinders; not compatible with Braktec, Nissin or Magura. The 2024 GasGas MC 250F Factory Edition listing implies FE mod | [Cycle Gear](https://www.cyclegear.com/parts/arc-flex-front-brake-lever-ktm-husqvarna-gas-gas-sherco-tm-kawasaki-stark-125cc-501cc-2014-2026) | medium |
+| EBC | MXS368 Race Series rear brake pads | MXS368 | EBC race-compound sintered rear pad. | KTM rows not captured (list cut off). FA368R (R-Series equivalent) listing exists at J&P but was not read. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs368-race-series-rear-brake-pads) | medium |
+| GBrakes | 270 mm non-floating Wave rotor plus bracket, KTM/Husqvarna/Husaberg/GasGas 125-530 2009-2027 | GBDOS220, J&P item 10570462 (retailer) | Larger disc increases braking leverage. | GBrakes code GBDOS220 resembles the Slavens Galfer kit SKU WP17-DOS220 (pass 1 galfer-270-wave-ktm); relationship between GBrakes and Galfer not confirmed. Year | [J&P Cycles](https://www.jpcycles.com/product/gbrakes-270mm-non-floating-wave-rotor-plus-bracket-ktm-husqvarna-husaberg-gas-gas-125cc-530cc) | medium |
+| ARC | Alloy brake lever, KTM Brembo | BR-214 (retailer code AC-BR-214) | Folding crash-resistant lever with reach adjust and claimed easier pull ratio. | Husqvarna FC listed only to 2023 though the bikes share Brembo masters with KTM - ask ARC. Not for Braktec GasGas 2024+. | [Johnstons Moto (NZ)](https://www.johnstonsmoto.co.nz/products/arc-brake-lever-alloy-ktm-brembo-sx-xc-exc-14-25-husky-tc-fc-14-24-gasgas-21-23) | medium |
+| KTM PowerParts / Husqvarna OEM | Map Switch 2-stroke (ignition curve on the handlebar) | 51539974200, supersedes 51539974000, 51539974100, 54839074000, 54839074100 | Switches between two ignition curves from the handlebar on bikes with pre-programmed curves. | Not confirmed for 2023+ TBI (those come with a green/white map switch as standard; TBI part number not found). Older 4T switch 77239974200 is 2012-2016 only. | [MotoSport](https://www.motosport.com/ktm-powerparts-map-switch-2stroke) | medium |
+

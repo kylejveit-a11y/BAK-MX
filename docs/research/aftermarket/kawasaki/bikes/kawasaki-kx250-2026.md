@@ -1,6 +1,6 @@
 # Kawasaki KX250 2026: aftermarket parts
 
-3108 listings whose stated fitment names this bike: 355 researched parts (with what they change and rider findings), 74 dealer and retailer listings specific to this bike, and 2679 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3233 listings whose stated fitment names this bike: 480 researched parts (with what they change and rider findings), 74 dealer and retailer listings specific to this bike, and 2679 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -137,6 +137,47 @@
 | Renthal | Renthal RC-1 Works Front Brake Pads BP-100 | BP-100 |  |  | [source](https://www.cyclegear.com/parts/renthal-rc-1-works-front-brake-pads-bp-100) | medium |
 | Renthal | Renthal RC-1 Works Rear Brake Pads BP-104 | BP-104 |  |  | [source](https://www.cyclegear.com/parts/renthal-rc-1-works-rear-brake-pads-bp-104) | medium |
 | TM Designworks | TM Designworks Lower Frame Pad Kawasaki KX250 / KX250X / KX450 / KX450X 2024-2026 | KXF-FP1-BK, KXF-FP1-GR |  |  | [source](https://www.cyclegear.com/parts/tm-designworks-lower-frame-pad-kawasaki-kx250-kx250x-kx450-kx450x-2024-2025) | medium |
+| Works Connection | Works Connection Brake Cap-Front | 21-000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-005 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-005ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-105 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-105ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-110 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-110ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cap | 21-150 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-150ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Clutch Cap | 21-151 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-151ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Clutch Cap | 21-152 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-152ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Clutch Cap | 21-153 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-153ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-700 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-705 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-715 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-718 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-G000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-G000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cap | 21-G150 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-G150ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-G700 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-K000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-K000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cap | 21-K150 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-K150ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-K700 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Cap-Front | 21-P002 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-P002ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
+| Works Connection | Works Connection Clutch Cap | 21-P155 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Custom Engrave Number | 21-P155ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
+| Works Connection | Works Connection Brake Cap-Rear | 21-P701 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Works Connection | Works Connection Brake Clevis by FasstCo | 36-030 |  |  | [source](https://www.worksconnection.com/p18059-brake-clevis) | high |
+| Works Connection | Works Connection Brake Clevis by FasstCo | 36-035 |  |  | [source](https://www.worksconnection.com/p18059-brake-clevis) | high |
+| Works Connection | Works Connection Brake Clevis by FasstCo | 36-036 |  |  | [source](https://www.worksconnection.com/p18059-brake-clevis) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-120 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-125 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-126 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | FCP Racing | FCP Racing Engine Mount Kit | EMK-K2F-004 | FCP kit: CNC-machined titanium front engine mounts and billet aluminium top mounts (head stays). Maker claims: AMA Limited/Stock class legal, increased torsional flex with the billet top mounts, plush |  | [source](https://fcpracing.com/product/kawasaki-kx250-x-2025-2026/) | high |
 | Factory Links | Swingarm Bearing Kits for Kawasaki KX250 and KX450 Motorcycles / SAK-K-190 | SAK-K-190 | Maker description: Restore smooth suspension movement and long-term durability with Factory Links Swingarm Bearing Kits for Kawasaki KX250 and KX450 off-road motorcycles , engineered for OEM-quality f |  | [source](https://shopfactorylinks.com/products/sak-k-190) | high |
 | Factory Links | Steering Stem Bearing Kits for: Kawasaki, Suzuki, Yamaha / SSK-K-210 | SSK-K-210 | Maker description: Factory Links OEM Series® steering stem bearing kits are designed to restore smooth steering performance and long-term durability to your motorcycle’s front end. Each kit includes h |  | [source](https://shopfactorylinks.com/products/ssk-k-210-legacy) | high |
@@ -147,11 +188,40 @@
 | Pro Circuit | Kawasaki Linkage System (KX450 2024-2026) | KLS24450 | Maker page gives no description. | KX250 fit only in image caption. | [Pro Circuit](https://procircuit.com/kx-450-linkage-system-2024.html) | high |
 | Pro Taper | Kawasaki (new style) bar mount cones, polyurethane | PTR021118 | Pro Taper (via retailer): polyurethane replacement for the stock rubber bar-mount cones, 'Built to resist crash damage', keeps vibration damping with better feel and durability than stock. | PTR021118 is the retailer SKU (Pro Taper number likely 021118, not confirmed). Relevant to the KX450 bar-twist complaint (MXA) as a cheaper fix than aftermarket | [Salmon Speedworx](https://www.salmonspeedworx.com/products/protaper-kawasaki-new-style-bar-mount-cones) | medium |
 | Ride Engineering | Split Triple Clamps - Kawasaki KX (22 / 23 mm) | KX-TBN22-*/TBN23-* (KX450 19-23, KX250 21-24), KX-TBN42-*/TBN43-* (KX450 24-26, KX250 25-26) | Billet split clamps with soft poly cones. |  | [source](https://ride-engineering.com/assets/images/pdfs/off%20road%20catalog.pdf) | high |
+| Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch - Replacement Drill Guide | 12-177 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Hardware - Countersink | 12-178 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-333 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-B165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-B333 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-G165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-G333 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-K165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-K333 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
+| Works Connection | Works Connection Pro Launch Kit | 12-P333 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-235 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-240 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-245 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-248 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-310 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-G235 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-K235 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Elite Axle Blocks | 17-P236 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
+| Works Connection | Works Connection Titanium Axle Adjuster Bolts | 70-630 |  |  | [source](https://www.worksconnection.com/p104037-titanium-axle-adjuster-bolts) | high |
 | Xtrig | ROCS Pro Triple Clamps 21-23mm (Kawasaki) | 501330300401, 30300401 | Listing: opposing self-locking clamp design reduces fork-tube deformation and resists twisting; adjustable offset; precision-finished bores; bolted stem; PHDS bar mounting where specified. | Stock status unclear (available and waitlist both shown). Hardware/offset vary by application. | [Tokyo Mods](https://tokyomods.com/shop/chassis/xtrig/xtrig-rocs-pro-clamps-kaw-21-23mm-kx250f-21-24-kx450f-19-24/) | medium |
 | Rekluse | Core Manual TorqDrive - KAW KX250F/X | RMS-7104140 | Rekluse says it fits up to 4 more friction discs than stock, raising torque capacity without stiffer pressure-plate springs, 'virtually eliminating' clutch fade, with more consistent lever feel and st | Fitment list is per model generic year selector: KX250X did not exist in every year 2021-2027 under that name; check your VIN. 'Show All' link suggested more ye | [Rekluse](https://www.rekluse.com/product/manual-clutches/core-manual-torq-drive/core-manual-torq-drive-clutches/core-manual-torqdrive-kaw-kx250f-x/) | high |
 | Rekluse | RadiusX 4.0 - KAW KX250F KX250X | RMS-8304140 | Rekluse claims: eliminates stalling, EXP 4.0 auto engagement with external adjustment; 'Allows riders to run a gear taller'. | Year list comes from the page's selector; spans the 2025 KX250 platform change, confirm with Rekluse. | [Rekluse](https://www.rekluse.com/product/auto-clutches/radiusx/radiusx-clutches/radiusx-4-0-kaw-kx250f-kx250x/) | high |
 | Rekluse | Rekluse APEX Manual Clutch Kit Kawasaki KX250 / KX250X 2021-2026 | RMS-7404140 |  |  | [source](https://www.cyclegear.com/parts/rekluse-apex-manual-clutch-kit-kawasaki-kx250-kx250x-2021-2025) | medium |
 | Rekluse | Rekluse Torq Drive Clutch Pack Kawasaki KX250 / KX250X 2021-2026 | RMS-2804140 |  |  | [source](https://www.cyclegear.com/parts/rekluse-torq-drive-clutch-pack-kawasaki-kx250-kx250x-2021-2025) | medium |
+| Works Connection | Works Connection Hinson Billetproof Clutch Cover | HR-C557-2101 |  |  | [source](https://www.worksconnection.com/p18103-hinson-billetproof-cover) | high |
+| Works Connection | Works Connection Hinson FSC Clutch Plate Kit | HR-FSC357-8-001 |  |  | [source](https://www.worksconnection.com/p18115-hinson-fsc-clutch-plate-kit) | high |
+| Works Connection | Works Connection Hinson Billetproof Clutch Basket with Cushions | HR-H257 |  |  | [source](https://www.worksconnection.com/p18100-hinson-clutch-basket) | high |
+| Works Connection | Works Connection Hinson Billetproof Inner Hub | HR-H557-IH-2101 |  |  | [source](https://www.worksconnection.com/p18105-hinson-billetproof-inner-hub) | high |
+| Works Connection | Works Connection Hinson Billetproof Pressure Plate | HR-H557-PP-2101 |  |  | [source](https://www.worksconnection.com/p18107-hinson-billetproof-pressure-plate) | high |
+| Works Connection | Works Connection Hinson Complete Billetproof Clutch Kit | HR-HC557-2102 |  |  | [source](https://www.worksconnection.com/p18112-hinson-complete-billetproof-clutch-kit) | high |
 | ARC | Billet Nissin clutch / rear brake master cylinder cap AC-MC104 | AC-MC104-BK, AC-MC104-R | Billet replacement reservoir cap for Nissin clutch or rear brake master cylinders. (ARC product page, summarised). | Fitment parsed from the ARC page application table; TF 250-E / TF 450-E enduro lines not mapped (out of scope). | [source](https://www.arclevers.com/products/master-cylinder-caps-ac-mc104) | high |
 | Acerbis | Acerbis K-Linear Handguards Kawasaki KX250 / X / KX450 / X 2019-2024 | 2981401007, 2981401035, 2981401089 |  |  | [source](https://www.cyclegear.com/parts/acerbis-k-linear-handguards-kawasaki-kx250-x-kx450-x-2019-2024) | medium |
 | Arc Levers | ARC Flex Clutch Lever Kawasaki KX250 / X / KX450 / X 2019-2026 | AC-CL-424-CT, CL-424-B/AC-CL-424-B, CL-424-C/AC-CL-424-C, CL-424/AC-CL-424 |  |  | [source](https://www.cyclegear.com/parts/arc-flex-clutch-lever-kawasaki-kx250-x-kx450-x-2019-2024) | medium |
@@ -199,6 +269,21 @@
 | Scar Racing | Titanium footpegs, anti-mud, 60 mm wide, 18 teeth | S3516AM | Retailer: anti-mud open design, 60 mm (10 mm wider than OEM), Grade 5 titanium, 18 teeth, 0.474 kg. | ['2027 not listed.', "Not confirmed on Scar's own page."] | [Oro2u (UK)](https://www.oro2u.com/titanium-footpegs-06-26-kawasaki-kx-250-450-f-x-anti-mud-60mm-wide-scar-s3516am) | medium |
 | Scar Racing | EVO footpegs, aluminium with stainless teeth, 57 mm, titanium-grey colour | S3515 | Retailer: 57 mm platform, 'platform width increase 25% wider than OEM'; aluminium body with stainless teeth; 0.326 kg; claimed up to 25% lighter than OEM. Also lists Honda CR/CRF fitment. | ['2027 not listed.', "Not confirmed on Scar's own page."] | [Oro2u (UK)](https://www.oro2u.com/evo-footpegs-titanium-color-02-26-honda-kawasaki-cr-crf-kx-125-150-250-300-450-1000-1100-57mm-scar-s3515) | medium |
 | Works Connection | Works Connection Foot Peg Mounts Kawasaki 250cc-450cc 2015-2026 | 20-525 |  |  | [source](https://www.cyclegear.com/parts/works-connection-foot-peg-mounts-kawasaki-250cc-450cc-2015-2026) | medium |
+| Works Connection | Works Connection Foot Pegs-Pro Pegs Titanium | 20-410 |  |  | [source](https://www.worksconnection.com/p18089-foot-peg-pro-pegs-titanium) | high |
+| Works Connection | Works Connection Foot Peg - Pro Pegs Mud Titanium | 20-411 |  |  | [source](https://www.worksconnection.com/p935855-foot-peg-pro-pegs-mud-titanium) | high |
+| Works Connection | Works Connection Foot Peg Mounts - Aluminum (KX) | 20-525 |  |  | [source](https://www.worksconnection.com/p1753265-foot-peg-mounts-aluminum) | high |
+| Works Connection | Works Connection Elite Throttle Tube | 22-500 |  |  | [source](https://www.worksconnection.com/p52075-throttle-tube-elite) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-400 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-500 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-508 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-G100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-K100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection Rotating Bar Clamp | 31-P101 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Works Connection | Works Connection ARC Folding Clutch Lever | 32-412 |  |  | [source](https://www.worksconnection.com/p351532-clutch-lever) | high |
+| Works Connection | Works Connection Adjustable Clutch Lever - ARC | 32-412i |  |  | [source](https://www.worksconnection.com/p351546-clutch-powerlever) | high |
+| Works Connection | Works Connection ARC Folding Brake Lever | 33-412 |  |  | [source](https://www.worksconnection.com/p351282-brake-lever) | high |
+| Works Connection | Works Connection Adjustable Brake Lever - ARC | 33-412i |  |  | [source](https://www.worksconnection.com/p351240-brake-powerlever) | high |
 | Zeta | Max footpegs (60 mm platform), Kawasaki KX250 / KX450 2006-2026 | ZE93-2650, ZE93-2655 | Hollow 60 mm-wide platform footpegs for grip and mud clearance (retailer copy). | Part number and fitment from the Cycle Gear product page read 2026-10-14; not yet confirmed on the maker site. Same part number already in kawasaki/p4-gapfill.j | [source](https://www.cyclegear.com/parts/zeta-max-footpegs-kawasaki-kx250-x-f-kx450-x-f-2006-2026) | medium |
 | Zeta | Forged Pivot Brake Lever (Kawasaki) |  | Listing: folds outward in a crash and springs back; 3-finger length with reach adjust; CNC knuckle fits OEM perch. | Retailer item P831645; title (2019-2024) conflicts with list. | [Cycle Gear](https://www.cyclegear.com/parts/zeta-forged-pivot-brake-lever-kawasaki-kx250-kx450-x-2019-2023) | medium |
 | Zeta | Zeta Forged Pivot Brake Lever Kawasaki KX250 / KX450 / X 2019-2024 | ZE41-3620 |  |  | [source](https://www.cyclegear.com/parts/zeta-forged-pivot-brake-lever-kawasaki-kx250-kx450-x-2019-2023) | medium |
@@ -242,6 +327,41 @@
 | Twisted Development | KX250 2025-26 TD Spec Race Head |  | Head machined and modified to TD spec for better combustion, throttle response and torque/hp across the range. |  | [source](https://www.td-racing.com/products/kx) | high |
 | Twisted Development | Kawasaki 25-26 KX250 TD Piston |  | Fits stock engine; power across the range without a remap. Kit: piston, DLC pin, clips, rings. |  | [source](https://www.td-racing.com/products/kawasaki-25-26-twisted-piston) | high |
 | Wiseco | Forged piston kit 78 mm, 14.5:1 (Kawasaki KX250 2025-2026) | W40328M07800, 56-W4099.B.WI | Forged replacement piston for the 2025+ KX250 engine at 14.5:1. | UK dealer listing; confirm stock compression for 2025+ KX250 before assuming a gain. | [source](https://www.oro2u.com/piston-kit-2025-26-kx250-78mm-b-wiseco-w40328m07800) | medium |
+| Works Connection | Works Connection Radiator Braces | 18-301 |  |  | [source](https://www.worksconnection.com/p18130-radiator-braces) | high |
+| Works Connection | Works Connection Radiator Braces | 18-B301 |  |  | [source](https://www.worksconnection.com/p18130-radiator-braces) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-190 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-191 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-192 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-198 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Steering Stem Nut | 24-320 |  |  | [source](https://www.worksconnection.com/p18157-steering-stem-nuts) | high |
+| Works Connection | Works Connection Steering Stem Nut | 24-325 |  |  | [source](https://www.worksconnection.com/p18157-steering-stem-nuts) | high |
+| Works Connection | Works Connection Steering Stem Nut | 24-330 |  |  | [source](https://www.worksconnection.com/p18157-steering-stem-nuts) | high |
+| Works Connection | Works Connection Steering Stem Nut | 24-338 |  |  | [source](https://www.worksconnection.com/p18157-steering-stem-nuts) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-620 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-621 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-622 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-623 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Radiator Plug | 24-630 |  |  | [source](https://www.worksconnection.com/p284557-radiator-plug) | high |
+| Works Connection | Works Connection Radiator Plug | 24-631 |  |  | [source](https://www.worksconnection.com/p284557-radiator-plug) | high |
+| Works Connection | Works Connection Radiator Plug | 24-632 |  |  | [source](https://www.worksconnection.com/p284557-radiator-plug) | high |
+| Works Connection | Works Connection Radiator Plug | 24-633 |  |  | [source](https://www.worksconnection.com/p284557-radiator-plug) | high |
+| Works Connection | Works Connection Radiator Plug | 24-634 |  |  | [source](https://www.worksconnection.com/p284557-radiator-plug) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-G190 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-G620 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-K190 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-K620 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Oil Fill Plug | 24-P194 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
+| Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-P624 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
+| Works Connection | Works Connection Fuel Vent Cap | 26-200 |  |  | [source](https://www.worksconnection.com/p18097-fuel-vent-cap) | high |
+| Works Connection | Works Connection Oil Filter Cover | 27-031 |  |  | [source](https://www.worksconnection.com/p18125-oil-filter-covers) | high |
+| Works Connection | Works Connection Oil Filter Cover | 27-036 |  |  | [source](https://www.worksconnection.com/p18125-oil-filter-covers) | high |
+| Works Connection | Works Connection Oil Filter Cover | 27-041 |  |  | [source](https://www.worksconnection.com/p18125-oil-filter-covers) | high |
+| Works Connection | Works Connection Oil Filter Cover | 27-046 |  |  | [source](https://www.worksconnection.com/p18125-oil-filter-covers) | high |
+| Works Connection | Works Connection Oil Filter Cover | 27-G030 |  |  | [source](https://www.worksconnection.com/p18125-oil-filter-covers) | high |
+| Works Connection | Works Connection Oil Filter Cover | 27-K030 |  |  | [source](https://www.worksconnection.com/p18125-oil-filter-covers) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Maintenance Timer | 37-200 |  |  | [source](https://www.worksconnection.com/p18160-tach-hour-meters) | high |
+| Works Connection | Works Connection Tach/Hour Meter/Clock with Resettable Maintenance Timer Mount Bracket | 37-205 |  |  | [source](https://www.worksconnection.com/p18161-tach-hour-meter-mounts) | high |
+| Works Connection | Works Connection 2 piece kit | 70-605 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
 | Akrapovic | Akrapovic Off Road Evolution Exhaust System Kawasaki KX250 / KX250X 2025-2026 | S-K2MET10-FDHLTA |  |  | [source](https://www.cyclegear.com/parts/akrapovic-off-road-evolution-exhaust-system-kawasaki-kx250-kx250x-2025-2026) | medium |
 | FMF | Q4 HEX spark-arrestor slip-on (Kawasaki KX250/X 2025-2026) | 042410 | Q4 HEX spark-arrestor slip-on; FMF pitches the Q4 as its quiet, spark-arrestor-approved trail muffler (lower sound than the race silencers) (FMF product copy, summarised). | Fitment from FMF fitment tags in the maker store feed (no fitment table text on the page). Competition use only. | [source](https://www.fmfracing.com/products/q4-hex-s-a-042410) | high |
 | FMF | PowerCore 4 HEX slip-on (Kawasaki KX250/X 2025-2026) | 042409 | PowerCore 4 HEX spark-arrestor slip-on; FMF markets it as a general performance replacement for the stock silencer with the spark arrestor built in (FMF product copy, summarised). | Fitment from FMF fitment tags in the maker store feed (no fitment table text on the page). Competition use only. | [source](https://www.fmfracing.com/products/powercore-4-hex-042409) | high |
@@ -308,6 +428,10 @@
 | Polisport | Polisport Bottom Fork Protectors Kawasaki KX250 / X / KX450 / X / SR 2019-2026 | 8157600001 |  |  | [source](https://www.cyclegear.com/parts/polisport-bottom-fork-protectors-kawasaki-kx250-x-kx450-x-sr-2019-2025) | medium |
 | Polisport | Polisport Front Rotor And Fork Protector Kawasaki KX250 / X / KX450 / X 2019-2026 | 8157500001, 8157500003 |  |  | [source](https://www.cyclegear.com/parts/polisport-front-rotor-and-fork-protector-kawasaki-kx250-x-kx450-x-2019-2025) | medium |
 | Works Connection | Works Connection Fork Guard Reinforcing Kit Kawasaki KX250 / F / KX450 / F 2016-2026 | 12-192 |  |  | [source](https://www.cyclegear.com/parts/works-connection-fork-guard-reinforcing-kit-kawasaki-kx250-f-kx450-f-2016-2025) | medium |
+| Works Connection | Works Connection Skid Plate w/ (RIMS) System | 10-299 |  |  | [source](https://www.worksconnection.com/p36294-skid-plate) | high |
+| Works Connection | Works Connection Fork Guard Reinforcing Kit | 12-192 |  |  | [source](https://www.worksconnection.com/p1457836-fork-guard-reinforcing-kit) | high |
+| Works Connection | Works Connection Rear Caliper Guard | 25-022 |  |  | [source](https://www.worksconnection.com/p18135-rear-caliper-guards) | high |
+| Works Connection | Works Connection Ti Bolt Kit-Rims Skid Plate (4 pcs) | 70-303 |  |  | [source](https://www.worksconnection.com/p36772-skid-plate-w-rims-system-titanium-bolt-kit) | high |
 | Acerbis | Acerbis Lower Fork Covers Kawasaki KX250 / KX450 / F / X / SR 2016-2026 | 2403060001/2982550001, 2403060006/2982550006, 2403060085, 2982550002, 2982550011 |  |  | [source](https://www.cyclegear.com/parts/acerbis-lower-fork-covers-kawasaki-kx250-kx450-f-x-2016-2022) | medium |
 | Factory Links | OEM Series® Linkage Bearing Rebuild Kits for KAWASAKI / LRK-K-113 | LRK-K-113 | Maker description: Restore smooth rear suspension performance with a premium Honda linkage bearing rebuild kit from Factory Links. This linkage bearing rebuild kit is engineered specifically for deliv |  | [source](https://shopfactorylinks.com/products/lrk-k-113) | high |
 | Factory Links | OEM Series® Lower Shock Absorber Bearing Kits for: Kawasaki, Suzuki / LSA-K-002 | LSA-K-002 | Maker description: Factory Links OEM Series® Lower Shock Bearing Kits provide a complete solution for rebuilding the lower shock mounting assembly—restoring smooth suspension movement, eliminating pla |  | [source](https://shopfactorylinks.com/products/lsa-k-002) | high |
@@ -322,6 +446,7 @@
 | Ride Engineering | Kawasaki KX Performance & Adjustable Links / Complete Linkage | KX-LKA39-GN/BA ($229.95, KX450 19-23, KX250 17-24), KX-LKA44-BA/GN ($274.95 adjustable, KX450 24-26, KX250 25), KX-LKN19-GN/KX-LKA19-BA ($474.95 full, KX450 19- | Link: better turning in flat/off-camber, straight in whoops; sag 100-105 mm; adjustable gives 24 mm drop. Full linkage: more linear to soak square edges; needs 1-1.5 rate stiffer spring. |  | [source](https://ride-engineering.com/assets/images/pdfs/off%20road%20catalog.pdf) | high |
 | Ride JBI | JBI Kawasaki KX Pro Fork & Shock Revalves |  | Custom revalve; send in. |  | [Ride JBI](https://www.ridejbi.com/jbi-suspension-kawasaki/) | high |
 | Showa (Astemo) | Showa Genuine KIT A - Kawasaki KX250 2025-2027 / KX450 2024-2027 | AKITKAW25 | Factory A-kit fork and shock for current Kawasaki chassis. |  | [source](https://teknikmotorsport.com/AKITKAW25-Showa-kawasaki-kxf-250-2025-kxf-450-2024-akitkawasaki) | medium |
+| Works Connection | Works Connection Fork Bleeder Valves | 26-321 |  |  | [source](https://www.worksconnection.com/p417280-fork-bleeders-shorty) | high |
 | Kawasaki | KX FI Calibration Kit (Handheld) | 99999-0615 | Rewrites fuel injection volume and ignition timing by throttle position and rpm; 7 preset track-condition settings; shows live engine status. | Fitment bullets on page conflict (KX250F 13-25 vs 13-20). Kawasaki's 2024 KX450 press release says Rideology app replaces the accessory FI calibration kit on th | [Kawasaki Australia (not sold online)](https://kawasaki.com.au/en-au/shop/maintenance/15827/kx-fi-calibration-kit-(handheld)) | high |
 | Kawasaki | RIDEOLOGY THE APP (KX) |  | Bluetooth app to adjust power-mode mapping (fuel and ignition timing) and keep a maintenance log; not for use while riding. Handlebar switch sets KTRC, power mode and launch control. | 2025 KX450 and KX250X/KX450X beyond 2024 not confirmed in sources fetched. | [App stores (free)](https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/734/fce21d08-20a4-4a1c-a25a-d6c9be58cba9.pdf) | high |
 | Twisted Development | Vortex ECU w/ 10 TD Maps (non-Yamaha) |  | New Vortex X10 ECU loaded with 10 TD fuel/ignition maps built for the bike's mods; X10 dial picks the map, LO/MID/HI trims add or remove 2.5% fuel per click. Not for two-strokes. Same unit can usually |  | [source](https://www.td-racing.com/products/vortex-ecu-w-10-td-maps) | high |

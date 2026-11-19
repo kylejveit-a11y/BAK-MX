@@ -4,6 +4,7 @@
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
+| Works Connection | 1476 | engine (369), chassis (358), clutch (216), brakes (211), protection (136), controls (68) | Cycle Gear 57, MotoSport 38, research 1381 |
 | Acerbis | 439 | Handlebars & Controls (101), Uncategorised (94), Controls (39), Bike Protection (38), Body (35), body (25) | Cycle Gear 276, MotoSport 103, research 60 |
 | Moose Racing | 434 | Uncategorised (155), Handlebars & Controls (45), protection (38), controls (28), Bike Protection (21), wheels (20) | Cycle Gear 293, research 141 |
 | Pro Taper | 322 | Uncategorised (105), Handlebars & Controls (74), Controls (51), Chain & Sprocket (50), controls (12), Drive (9) | Cycle Gear 241, MotoSport 67, research 14 |
@@ -20,7 +21,6 @@
 | ODI | 187 | Uncategorised (111), Controls (42), Handlebars & Controls (27), UTV / ATV Parts (3), controls (3), Body (1) | Cycle Gear 141, MotoSport 43, research 3 |
 | Fire Power | 169 | Chain & Sprocket (45), Uncategorised (31), Handlebars & Controls (30), Batteries & Electrical (14), Gauges (12), Drive (12) | Cycle Gear 132, MotoSport 21, research 16 |
 | Turner Performance Products | 149 | Controls (41), Drive (28), Brakes (21), Body (14), Wheels and Rims (14), Engine (9) | MotoSport 149 |
-| Works Connection | 144 | Uncategorised (30), Suspension (15), Controls (11), chassis (10), controls (10), protection (10) | Cycle Gear 57, MotoSport 38, research 49 |
 | Rekluse | 122 | clutch (53), Drive & Transmission (31), Engine (25), Uncategorised (4), engine (4), Controls (2) | Cycle Gear 35, research 59, MotoSport 28 |
 | Yoshimura | 113 | Exhaust (70), exhaust (37), Body & Fairing (3), Lights and Electrical (2), Body (1) | Cycle Gear 63, research 37, MotoSport 13 |
 | Vertex | 112 | engine (75), Uncategorised (13), Engine (13), Exhaust (3), suspension (3), electrics (2) | Cycle Gear 16, research 83, MotoSport 13 |
