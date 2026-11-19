@@ -62,3 +62,7 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
   related settings behind it. Front-end work; start after the data checklist above is finished.
 - Monetisation proposal (report dated 2026-11-19: affiliate parts links, banner ads on the free tier, ad-free Plus at $7.99).
   Reviewed in chat the same day. Kyle likes the affiliate links; researching retailer programs next. Banners and Plus: no decision.
+- Parts buying inside Ask BAK (Kyle's idea, 2026-11-19): when a rider works through a problem and needs a part, Ask BAK shows
+  the part that fits their Garage bike, where to buy it, and offers "save to my parts list". Later: live price and stock,
+  then ordering and order tracking through the app. Stage 1 uses the existing catalog and affiliate links; ordering needs
+  retailer agreements and is not confirmed possible. Commission must be disclosed, and parts ranked by fit, never by payout.
