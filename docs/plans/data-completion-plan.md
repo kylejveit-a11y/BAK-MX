@@ -33,7 +33,7 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
       Found and fixed while checking: the reader of the maker's standard sag missed Yamaha ("sunken length", 147 bike-years)
       and Triumph ("4.02 in (102 mm)") wording, could pick a Honda optional-spring or adjustment-range row, and treated
       Honda's 10-25 mm free-sag range as one number. Now strict, range-aware, and gives no target when standard rows disagree
-      (shared/suspension-physics.ts). Data conflict to look at: Honda CRF450R 2027 carries both 95 mm and 100 mm standard rows.
+      (shared/suspension-physics.ts). Checked: Honda CRF450R 2027's 95 mm and 100 mm rows are the standard and Works Edition variants, not a conflict.
 - [ ] Published kit data where the maker posts it (WP, Rekluse).
 
 ## 4. Track details (221 tracks: 130 low confidence, 207 with listed gaps; 11 riding areas without soil/layout)
