@@ -20,3 +20,9 @@ Scope recorded: the bike-years whose own manual was searched. KX85 2027 and KX11
 
 - Honda and Yamaha static (free) sag: no entry. Their manuals have to be read for it first.
 - Suzuki: no manufacturer-published RM-Z manual has been found online.
+
+## Yamaha YZ65 and YZ85: no sag figure in the owner's manual
+
+The owner's manuals for YZ65 2020–2025 and 2027 and YZ85 2020–2021 were downloaded from Yamaha's library and their text
+searched for "sag" and "sunken length": no match in any. These are owner's manuals without the service and tuning chapters.
+YZ65 2026 and YZ85 2022–2027 were not matched to a manual in this pass and carry no note.

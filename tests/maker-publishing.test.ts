@@ -10,6 +10,8 @@ test('Kawasaki bikes whose manual was searched carry the no-sag-figure note; oth
  // outside the searched manuals: no claim either way
  for(const [mk,m,y] of [['Kawasaki','KX85',2027],['Kawasaki','KX112',2027],['Kawasaki','KX450',2013],['Kawasaki','KX250X',2020],['Honda','CRF450R',2024],['Yamaha','YZ450F',2024]] as const)
   assert.equal(makerPublishingNotes(bike(mk,m,y)),null);
+ assert.ok(makerPublishingNotes(bike('Yamaha','YZ65',2027)));assert.ok(makerPublishingNotes(bike('Yamaha','YZ85',2021)));
+ assert.equal(makerPublishingNotes(bike('Yamaha','YZ65',2026)),null);assert.equal(makerPublishingNotes(bike('Yamaha','YZ85',2022)),null);
  assert.equal(makerPublishingNotes(null),null);
 });
 test('Ask BAK receives maker_publishing only for a covered bike',()=>{

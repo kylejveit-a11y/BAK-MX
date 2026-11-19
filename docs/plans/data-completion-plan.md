@@ -6,9 +6,10 @@ Kyle's instruction: no new features; bring these to launch-ready, finished. Work
 Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/Husqvarna (bar a handful), Honda 2020+, Yamaha 84/166.
 - [x] Kawasaki (60 bike-years): verified that no US KX owner's manual 2014-2027 prints a sag figure. Ask BAK told via
       `shared/maker-publishing.ts` (prompt 89). Nothing to load.
-- [ ] (scan running: scratchpad ym/scan.py -> scan.json) Yamaha 82 bike-years without a sag row: older manuals print "sunken length ... standard figure 90-100 mm" in the Tuning chapter.
-      Scan + load with path `Rear suspension setting / Choosing set length / Standard figure (sunken length, rider seated)`.
-      YZ65 / YZ85: owner's manuals without service tables; check what they print.
+- [x] Yamaha: the first audit over-counted (its pattern missed "sunken length"). Real holes were 17 bike-years
+      (WR250F 2010-13, 2015-17; WR450F 2010-18; YZ250FX 2018): loaded and verified 2026-11-18, all 90-100 mm.
+      YZ65 / YZ85 owner's manuals print no sag: recorded in maker-publishing. Open: YZ65 2026, YZ85 2022-2027 (no manual matched).
+      Report: docs/research/expansion/gaps/yamaha-sag/REPORT.md. Use the corrected SQL pattern (includes 'sunken length') for audits.
 - [ ] Honda 2010-2019 (44 bike-years): race sag is in the owner's manual; Honda's CDN refuses automated downloads (403).
       Needs the browser on Kyle's computer (ask before downloading).
 - [ ] Honda / Yamaha static (free) sag: read the manuals; if not printed, add a maker-publishing note.

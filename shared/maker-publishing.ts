@@ -8,10 +8,13 @@
  * - Kawasaki sag: the text layer of all 48 US KX owner's manuals 2014-2027 (KX65, KX85, KX112, KX250/KX250F, KX250X,
  *   KX450/KX450F, KX450X) was searched on 2026-11-18; none prints the word "sag". Kawasaki sets the rear spring by the
  *   spring preload adjusting nut position and lists standard and optional spring rates.
+ * - Yamaha YZ65 and YZ85 sag: the owner's manuals for YZ65 2020-2025 and 2027 and YZ85 2020-2021 were searched on
+ *   2026-11-18; none prints "sag" or "sunken length" (these are owner's manuals without the service and tuning chapters).
  *   See docs/research/expansion/gaps/maker-publishing/REPORT.md.
  */
 export type PublishingNote={topic:string;not_printed:string;printed_instead:string;checked:string};
-type Scope={manufacturer:string;years:Record<string,[number,number]>;notes:PublishingNote[]};
+/** `years`: [first,last] inclusive, or an explicit list when a year in between was not checked. */
+type Scope={manufacturer:string;years:Record<string,[number,number]|{only:number[]}>;notes:PublishingNote[]};
 
 const scopes:Scope[]=[
  {manufacturer:'Kawasaki',
@@ -20,12 +23,19 @@ const scopes:Scope[]=[
    not_printed:'Kawasaki’s owner’s manual for this bike prints no sag figure at all: no race (rider) sag and no static (free) sag.',
    printed_instead:'It sets the rear spring by the spring preload adjusting nut position (a standard length and an adjustable range, measured as the manual describes) and lists the standard and optional spring rates. Those figures come from verified_claims when they were retrieved.',
    checked:'Full text of the US owner’s manual searched, 2026-11-18.'}]},
+ {manufacturer:'Yamaha',
+  years:{YZ65:{only:[2020,2021,2022,2023,2024,2025,2027]},YZ85:[2020,2021]},
+  notes:[{topic:'sag',
+   not_printed:'Yamaha’s owner’s manual for this bike prints no sag (sunken length) figure. Unlike the full-size YZ manuals, it has no tuning chapter.',
+   printed_instead:'Use the suspension adjuster settings from verified_claims when they were retrieved.',
+   checked:'Full text of the US owner’s manual searched, 2026-11-18.'}]},
 ];
 
 /** Notes for this exact bike, or null when its manual has not been checked this way. */
 export function makerPublishingNotes(bike:{manufacturer:string;model:string;model_year:number}|null){
  if(!bike)return null;
  const s=scopes.find(x=>x.manufacturer===bike.manufacturer),range=s?.years[bike.model];
- if(!s||!range||bike.model_year<range[0]||bike.model_year>range[1])return null;
+ if(!s||!range)return null;
+ if(Array.isArray(range)?bike.model_year<range[0]||bike.model_year>range[1]:!range.only.includes(bike.model_year))return null;
  return {boundary:'What this maker’s own manual for this exact bike does not print. This is settled: the value is not missing from BAK, the maker does not publish it.',notes:s.notes};
 }
