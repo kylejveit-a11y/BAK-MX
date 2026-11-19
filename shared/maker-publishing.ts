@@ -14,6 +14,11 @@
  *   in full on 2026-11-18, and the 2022-2026 CRF250R/RX and CRF450R/RX competition handbooks and owner's manuals too;
  *   they print the standard race sag but no free (static) sag figure (the 2010-2013 era manuals do,
  *   and that figure is on file for those bikes).
+ * - KTM group, no US table: the 2026 Husqvarna FC 250 and FC 450 owner's manuals (3402884en, 3402886en) and the 2023
+ *   KTM 125 SX / 125 XC owner's manual (3214638en) were read on 2026-11-19. Their suspension tables are labelled for the
+ *   EU model and the Factory Edition (Husqvarna) or for "125 SX EU" and "125 XC US" (KTM); none is labelled for the US
+ *   standard model, so those figures are not loaded as verified US facts. The printed figures are quoted here with the
+ *   table they come from. See docs/research/expansion/gaps/ktm-group-sag/REPORT.md.
  *   See docs/research/expansion/gaps/maker-publishing/REPORT.md.
  */
 export type PublishingNote={topic:string;not_printed:string;printed_instead:string;checked:string};
@@ -40,6 +45,18 @@ const scopes:Scope[]=[
    not_printed:'Honda’s owner’s manual for this bike prints the standard race sag but no free (static) sag figure.',
    printed_instead:'The standard race sag and the standard and optional spring rates, from verified_claims when they were retrieved.',
    checked:'Full text of the US owner’s manual read, 2026-11-18.'}]},
+ {manufacturer:'Husqvarna',
+  years:{'FC 250':{only:[2026]},'FC 450':{only:[2026]}},
+  notes:[{topic:'sag and shock settings',
+   not_printed:'Husqvarna’s 2026 owner’s manual for this bike has no suspension table labelled for the US standard model. It prints one table for the model it labels EU and one for the Factory Edition.',
+   printed_instead:'Rider sag 105 mm in both tables. Static sag 35 mm in the EU-labelled table and 38 mm in the Factory Edition table. Give these figures and say which table each comes from; do not present them as a US-labelled figure.',
+   checked:'Full text of the owner’s manual read, 2026-11-19.'}]},
+ {manufacturer:'KTM',
+  years:{'125 SX':{only:[2023]}},
+  notes:[{topic:'sag and shock settings',
+   not_printed:'KTM’s 2023 owner’s manual for this bike has no suspension table labelled for a US 125 SX. It prints one table labelled 125 SX EU and one labelled 125 XC US.',
+   printed_instead:'Riding sag 105 mm (4.13 in) and static sag 35 mm (1.38 in) in both tables. Give these figures and say which table they come from; do not present them as a US-labelled 125 SX figure.',
+   checked:'Full text of the owner’s manual read, 2026-11-19.'}]},
 ];
 
 /** Notes for this exact bike, or null when its manual has not been checked this way. */
@@ -48,5 +65,5 @@ export function makerPublishingNotes(bike:{manufacturer:string;model:string;mode
  const s=scopes.find(x=>x.manufacturer===bike.manufacturer),range=s?.years[bike.model];
  if(!s||!range)return null;
  if(Array.isArray(range)?bike.model_year<range[0]||bike.model_year>range[1]:!range.only.includes(bike.model_year))return null;
- return {boundary:'What this maker’s own manual for this exact bike does not print. This is settled: the value is not missing from BAK, the maker does not publish it.',notes:s.notes};
+ return {boundary:'What this maker’s own manual for this exact bike does not print. This is settled: the value is not missing from BAK, the maker does not publish it for this model as labelled.',notes:s.notes};
 }

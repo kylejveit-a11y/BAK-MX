@@ -17,8 +17,10 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
 - [ ] Free sag: Honda 2010-2013 era prints 10-25 mm (loaded). Still to read: Honda 2020+ handbooks (gap log asks for it on CRF250R 2020 / 2024)
       and Yamaha; add a maker-publishing note where a manual prints none.
 - [ ] Suzuki RM-Z (16): no manufacturer-published manual found online. Stays unknown unless Kyle supplies manuals.
-- [ ] Small holes: Husqvarna FC 250/450 2026, TC 125/250 2014-15, KTM 125 SX 2023, Triumph TF 2027, bikes with no facts
-      (GasGas EC 250 2021, Husqvarna FE 450 2020-22, KX85/KX112 2027, RM-Z 2023).
+- [x] Small holes, 2026-11-19: Husqvarna FC 250/450 2026 and KTM 125 SX 2023 manuals print sag only in tables labelled EU /
+      Factory Edition / 125 XC US, none for the US standard model. Not loaded as US facts; quoted to Ask BAK with their table
+      labels via maker-publishing (prompt 90). Report: docs/research/expansion/gaps/ktm-group-sag/REPORT.md.
+      Still open (no manual facts at all): GasGas EC 250 2021, Husqvarna FE 450 2020-22, KX85/KX112 2027, RM-Z 2023.
 - [ ] Rider-weight spring charts: KTM group have them; Honda 4 bike-years detected; check Honda handbooks and Yamaha.
 
 ## 2. Manuals (manual_wanted: 83 HAVE / 359 WANTED)

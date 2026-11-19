@@ -14,6 +14,9 @@ test('Kawasaki bikes whose manual was searched carry the no-sag-figure note; oth
  assert.equal(makerPublishingNotes(bike('Yamaha','YZ65',2026)),null);assert.equal(makerPublishingNotes(bike('Yamaha','YZ85',2022)),null);
  assert.match(makerPublishingNotes(bike('Honda','CRF450R',2015))!.notes[0].not_printed,/no free/);
  assert.ok(makerPublishingNotes(bike('Honda','CRF250R',2024)));
+ assert.match(makerPublishingNotes(bike('Husqvarna','FC 450',2026))!.notes[0].printed_instead,/105 mm/);
+ assert.match(makerPublishingNotes(bike('KTM','125 SX',2023))!.notes[0].printed_instead,/105 mm/);
+ assert.equal(makerPublishingNotes(bike('Husqvarna','FC 450',2025)),null);assert.equal(makerPublishingNotes(bike('KTM','125 SX',2024)),null);
  assert.equal(makerPublishingNotes(null),null);
 });
 test('Ask BAK receives maker_publishing only for a covered bike',()=>{
