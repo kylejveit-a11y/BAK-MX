@@ -66,3 +66,6 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
   the part that fits their Garage bike, where to buy it, and offers "save to my parts list". Later: live price and stock,
   then ordering and order tracking through the app. Stage 1 uses the existing catalog and affiliate links; ordering needs
   retailer agreements and is not confirmed possible. Commission must be disclosed, and parts ranked by fit, never by payout.
+  Kyle's rule (2026-11-19): never push sales. Ask BAK only offers once, when a part is actually needed ("I can show you who
+  has that and give you a link if you want"), and it is better to offer too rarely than too often. Separate "parts hunter"
+  mode the rider opens on purpose to find a part and who sells it. More thought needed before any build.
