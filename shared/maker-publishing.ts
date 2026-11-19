@@ -11,7 +11,8 @@
  * - Yamaha YZ65 and YZ85 sag: the owner's manuals for YZ65 2020-2025 and 2027 and YZ85 2020-2021 were searched on
  *   2026-11-18; none prints "sag" or "sunken length" (these are owner's manuals without the service and tuning chapters).
  * - Honda free sag: the 2013 CRF450R and the 2014-2019 CRF250R / CRF450R / RX and 2019 CRF450X owner's manuals were read
- *   in full on 2026-11-18; they print the standard race sag but no free (static) sag figure (the 2010-2013 era manuals do,
+ *   in full on 2026-11-18, and the 2022-2026 CRF250R/RX and CRF450R/RX competition handbooks and owner's manuals too;
+ *   they print the standard race sag but no free (static) sag figure (the 2010-2013 era manuals do,
  *   and that figure is on file for those bikes).
  *   See docs/research/expansion/gaps/maker-publishing/REPORT.md.
  */
@@ -33,7 +34,8 @@ const scopes:Scope[]=[
    printed_instead:'Use the suspension adjuster settings from verified_claims when they were retrieved.',
    checked:'Full text of the US owner’s manual searched, 2026-11-18.'}]},
  {manufacturer:'Honda',
-  years:{CRF250R:[2014,2019],CRF450R:[2013,2019],CRF450RX:{only:[2017,2019]},CRF250RX:{only:[2019]},CRF450X:{only:[2019]}},
+  years:{CRF250R:{only:[2014,2015,2016,2017,2018,2019,2022,2023,2024,2025,2026]},CRF450R:{only:[2013,2014,2015,2016,2017,2018,2019,2022,2023,2024,2025,2026]},
+   CRF450RX:{only:[2017,2019,2022,2023,2024,2025,2026]},CRF250RX:{only:[2019,2022,2023,2024,2025,2026]},CRF450X:{only:[2019]}},
   notes:[{topic:'free sag',
    not_printed:'Honda’s owner’s manual for this bike prints the standard race sag but no free (static) sag figure.',
    printed_instead:'The standard race sag and the standard and optional spring rates, from verified_claims when they were retrieved.',

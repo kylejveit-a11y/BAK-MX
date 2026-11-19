@@ -32,3 +32,7 @@ YZ65 2026 and YZ85 2022–2027 were not matched to a manual in this pass and car
 Read in full in the browser (see ../honda-sag/REPORT.md): the words "free sag" do not appear in the 2013 CRF450R manual, the
 2014–2019 CRF250R and CRF450R manuals, the 2017 CRF450RX, the 2019 R/RX manuals or the 2019 CRF450X. They print the standard
 race sag only. The 2010–2013 era manuals print 10–25 mm and that is on file.
+
+Also read the same day in the browser: the 2022–2026 CRF250R/RX and CRF450R/RX(/RWE) competition handbooks and owner's
+manuals (20 documents). The handbooks print the race sag procedure; none prints "free sag", "static sag" or a
+without-rider figure. 2020 and 2021 were not read and carry no note.
