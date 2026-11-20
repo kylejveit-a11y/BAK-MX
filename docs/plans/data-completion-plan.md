@@ -185,3 +185,10 @@ Kawasaki and Honda fitments of the WP parts.
 Husqvarna FE 450 and FE 501 2020-2022 and GasGas EC 250 2021 now have their whole owner's manual on file (1,853 verified rows:
 sag 37 / 110 mm, rider-weight springs, clickers, torques, service schedule). Report: docs/research/expansion/gaps/enduro-sag-2026-11-20/REPORT.md.
 No roster bike in the KTM group is left without a sag figure or a recorded reason.
+
+## Track soil, native-soil pass (2026-11-20)
+71 places that had no soil on file now carry the USDA soil survey's surface texture at their position (loam 42, clay 15,
+sand 14), stored as low confidence with a note that it is the ground the track sits on, not a report of the racing surface.
+Research file docs/research/tracks/usda-native-soil-2026-11.json; applied to the database directly (only where soil was
+empty or unknown). 43 of 254 still have no soil: no position, an indoor venue, or a mixed map unit. Track websites were
+searched for soil wording (30 sites, saved pages): none state it. Layout is still empty for the same places.
