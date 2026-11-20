@@ -54,10 +54,12 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
 - [x] 2026-11-19 fixed: a stray word could pull two whole engine-rebuild jobs (460 KB, about 130,000 tokens) into an unrelated
       question (5 of 83 test questions). Long jobs now go in full only when the rider names them, otherwise as an outline.
       Also fixed while there: "rebuilding the top end" and "change the oil" matched no job at all (short words were dropped).
-- [ ] Lighter reasoning level for the answer: on 10 test questions the first word came at 3.9 s instead of 9.3 s and the whole
-      answer 5-6 s sooner; same answer type and confidence on all 10, slightly fewer cited specs, one different pick
-      (14/52 vs 14/53). Not switched on. Run the 100-question set at the lighter level and grade it before deciding.
-      (Switch: eval route trial.answer_effort; "minimal" and "none" are not accepted by the provider.)
+- [x] 2026-11-20 lighter reasoning level tested on 50 questions, same prompt (v91), run side by side. NOT switched on.
+      Speed: first word 11.0 s -> 6.0 s (median, whole request); full answer 24.6 s -> 19.9 s. No guard repairs either way,
+      no wrong facts seen. But it leaves out factory numbers the normal level volunteers: cited specs 2.2 -> 1.7 per answer,
+      and in about 8 of 50 answers a useful maker value was missing (plug gap and torque, valve clearances, stock jetting).
+      Those numbers are the point of BAK, so the default stays. Possible later: lighter level only for questions the
+      planning step marks as needing no factory values (needs its own test run; each run costs API money).
 - [ ] The planning call (2.5-3.3 s) is the next target: nothing lighter is accepted; a faster planning model is a config choice.
 - [ ] Eval set from real rider questions; rerun after every prompt change.
 
