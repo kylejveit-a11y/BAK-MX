@@ -1,0 +1,18 @@
+{
+ "note": "2026-11-20 second map pass: coordinates as listed on Wikipedia for the venue, and USGS ground elevation there.",
+ "updates": [
+  {
+   "id": "high-point-raceway",
+   "lat": 39.7346,
+   "lng": -80.0071,
+   "elevation_ft": 1101,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/High_Point_Raceway",
+     "title": "Wikipedia: coordinates listed for High Point Raceway",
+     "accessed": "2026-11-20"
+    }
+   ]
+  }
+ ]
+}

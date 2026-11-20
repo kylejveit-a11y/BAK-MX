@@ -1167,8 +1167,8 @@
   "city": "Ringgold",
   "county": null,
   "address": "Capehart Rd staging, near Ringgold, GA",
-  "lat": null,
-  "lng": null,
+  "lat": 34.7756,
+  "lng": -85.1252,
   "types": [
    "offroad"
   ],
@@ -1217,6 +1217,11 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_11801/ride_f9eb.htm",
     "title": "RiderPlanet USA - Houston Valley ORV Area",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://photon.komoot.io/",
+    "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Houston Valley ORV Area\"",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -1224,7 +1229,8 @@
    "Coordinates",
    "Dated dirt-bike reports"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-zzz-geo2-2026-11.json",
+  "elevation_ft": 1170
  },
  {
   "id": "iron-mountain-park",
@@ -2071,8 +2077,8 @@
   "city": "Clarkesville",
   "county": "Habersham",
   "address": "Burton Dam Rd, Clarkesville, GA 30523",
-  "lat": null,
-  "lng": null,
+  "lat": 34.753,
+  "lng": -83.5531,
   "types": [
    "offroad"
   ],
@@ -2116,6 +2122,11 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_05982/ride_bf93.htm",
     "title": "RiderPlanet USA - Oakey Mountain OHV",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://photon.komoot.io/",
+    "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Oakey Mountain OHV Trail\"",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -2123,7 +2134,8 @@
    "Soil",
    "Coordinates"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-zzz-geo2-2026-11.json",
+  "elevation_ft": 2714
  },
  {
   "id": "okefenokee-mx-park",
@@ -3038,8 +3050,8 @@
   "city": "Dahlonega",
   "county": "Lumpkin",
   "address": "Camp Wahsega Rd, Dahlonega, GA 30533",
-  "lat": null,
-  "lng": null,
+  "lat": 34.5965,
+  "lng": -84.0451,
   "types": [
    "offroad"
   ],
@@ -3078,13 +3090,19 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_09678/ride_3ec3.htm",
     "title": "RiderPlanet USA - Whissenhunt OHV",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://photon.komoot.io/",
+    "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Whissenhunt OHV trails (trailhead)\"",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
   "gaps": [
    "Coordinates"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-zzz-geo2-2026-11.json",
+  "elevation_ft": 1643
  },
  {
   "id": "windy-gap-ohv",

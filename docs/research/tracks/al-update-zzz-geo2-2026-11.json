@@ -1,0 +1,57 @@
+{
+ "note": "2026-11-20 second map pass: position of the place as mapped by name in OpenStreetMap, and ground elevation there (USGS Elevation Point Query Service, feet).",
+ "updates": [
+  {
+   "id": "birmingham-supercross",
+   "lat": 33.5276,
+   "lng": -86.8091,
+   "elevation_ft": 591,
+   "sources": [
+    {
+     "url": "https://photon.komoot.io/",
+     "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Protective Stadium\"",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "garrett-coliseum",
+   "lat": 32.403,
+   "lng": -86.2712,
+   "elevation_ft": 252,
+   "sources": [
+    {
+     "url": "https://photon.komoot.io/",
+     "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Garrett Coliseum\"",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "minooka-ohv-park",
+   "lat": 33.0218,
+   "lng": -86.731,
+   "elevation_ft": 582,
+   "sources": [
+    {
+     "url": "https://photon.komoot.io/",
+     "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Minooka Park\"",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "stony-lonesome-ohv-park",
+   "lat": 33.9642,
+   "lng": -86.9846,
+   "elevation_ft": 673,
+   "sources": [
+    {
+     "url": "https://photon.komoot.io/",
+     "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Stoney Lonesome OHV Park\"",
+     "accessed": "2026-11-20"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "note": "2026-11-20 second map pass: position of the place as mapped by name in OpenStreetMap, and ground elevation there (USGS Elevation Point Query Service, feet).",
+ "updates": [
+  {
+   "id": "houston-valley-orv",
+   "lat": 34.7756,
+   "lng": -85.1252,
+   "elevation_ft": 1170,
+   "sources": [
+    {
+     "url": "https://photon.komoot.io/",
+     "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Houston Valley ORV Area\"",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "oakey-mountain-ohv",
+   "lat": 34.753,
+   "lng": -83.5531,
+   "elevation_ft": 2714,
+   "sources": [
+    {
+     "url": "https://photon.komoot.io/",
+     "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Oakey Mountain OHV Trail\"",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "whissenhunt-ohv",
+   "lat": 34.5965,
+   "lng": -84.0451,
+   "elevation_ft": 1643,
+   "sources": [
+    {
+     "url": "https://photon.komoot.io/",
+     "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Whissenhunt OHV trails (trailhead)\"",
+     "accessed": "2026-11-20"
+    }
+   ]
+  }
+ ]
+}

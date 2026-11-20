@@ -1,0 +1,57 @@
+{
+ "note": "2026-11-20 second map pass, riding areas (their records are not in the state track files): position of the place as mapped by name in OpenStreetMap, and USGS ground elevation there. Applied to the database directly.",
+ "updates": [
+  {
+   "id": "redbird-crest-trail",
+   "lat": 37.0219,
+   "lng": -83.5338,
+   "elevation_ft": 967,
+   "sources": [
+    {
+     "url": "https://photon.komoot.io/",
+     "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Redbird Crest Trail #801\"",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "white-sulphur-ohv",
+   "lat": 38.1144,
+   "lng": -83.602,
+   "elevation_ft": 917,
+   "sources": [
+    {
+     "url": "https://photon.komoot.io/",
+     "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"White Sulphur OHV Trail\"",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "wayehutta-ohv",
+   "lat": 35.3566,
+   "lng": -83.1305,
+   "elevation_ft": 3007,
+   "sources": [
+    {
+     "url": "https://photon.komoot.io/",
+     "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Wayehutta OHV Trail System\"",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "wambaw-cycle-trail",
+   "lat": 33.1391,
+   "lng": -79.6346,
+   "elevation_ft": 48,
+   "sources": [
+    {
+     "url": "https://photon.komoot.io/",
+     "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Wambaw Cycle Trail (parking)\"",
+     "accessed": "2026-11-20"
+    }
+   ]
+  }
+ ]
+}

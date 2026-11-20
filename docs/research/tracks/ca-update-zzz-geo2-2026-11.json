@@ -1,0 +1,44 @@
+{
+ "note": "2026-11-20 second map pass: position of the place as mapped by name in OpenStreetMap, and ground elevation there (USGS Elevation Point Query Service, feet).",
+ "updates": [
+  {
+   "id": "hangtown-prairie-city",
+   "lat": 38.6013,
+   "lng": -121.1512,
+   "elevation_ft": 290,
+   "sources": [
+    {
+     "url": "https://photon.komoot.io/",
+     "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Prairie City State Vehicular Recreation Area\"",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "mammoth-motocross",
+   "lat": 37.6199,
+   "lng": -118.9565,
+   "elevation_ft": 7929,
+   "sources": [
+    {
+     "url": "https://photon.komoot.io/",
+     "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Motocross Track (raceway), Mammoth Lakes\"",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "pala-raceway",
+   "lat": 33.37,
+   "lng": -117.0506,
+   "elevation_ft": 638,
+   "sources": [
+    {
+     "url": "https://photon.komoot.io/",
+     "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Fox Raceway\"",
+     "accessed": "2026-11-20"
+    }
+   ]
+  }
+ ]
+}

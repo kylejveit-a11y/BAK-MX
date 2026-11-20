@@ -1,0 +1,18 @@
+{
+ "note": "2026-11-20 second map pass: position of the place as mapped by name in OpenStreetMap, and ground elevation there (USGS Elevation Point Query Service, feet).",
+ "updates": [
+  {
+   "id": "the-wick-338",
+   "lat": 42.0561,
+   "lng": -72.7505,
+   "elevation_ft": 190,
+   "sources": [
+    {
+     "url": "https://photon.komoot.io/",
+     "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"The Wick 338\"",
+     "accessed": "2026-11-20"
+    }
+   ]
+  }
+ ]
+}

@@ -177,8 +177,8 @@
   "city": "Birmingham",
   "county": "Jefferson",
   "address": null,
-  "lat": null,
-  "lng": null,
+  "lat": 33.5276,
+  "lng": -86.8091,
   "types": [
    "supercross"
   ],
@@ -244,6 +244,11 @@
     "url": "https://en.wikipedia.org/wiki/2026_AMA_Supercross_Championship",
     "title": "2026 AMA Supercross Championship",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://photon.komoot.io/",
+    "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Protective Stadium\"",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -251,7 +256,8 @@
    "Post-race rider accounts of breakdown",
    "Address/coordinates not verified"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-zzz-geo2-2026-11.json",
+  "elevation_ft": 591
  },
  {
   "id": "cash-brothers-mx",
@@ -894,8 +900,8 @@
   "city": "Montgomery",
   "county": "Montgomery",
   "address": null,
-  "lat": null,
-  "lng": null,
+  "lat": 32.403,
+  "lng": -86.2712,
   "types": [
    "arenacross"
   ],
@@ -944,6 +950,11 @@
     "url": "https://www.cyclenews.com/2026/10/article/2026-27-ama-arenacross-calendar/",
     "title": "Cycle News - 2026-27 AMA arenacross calendar",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://photon.komoot.io/",
+    "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Garrett Coliseum\"",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -952,7 +963,8 @@
    "Dirt and layout",
    "No rider reports"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-zzz-geo2-2026-11.json",
+  "elevation_ft": 252
  },
  {
   "id": "green-acres-mx",
@@ -1735,8 +1747,8 @@
   "city": "Jemison",
   "county": "Chilton",
   "address": "1922 County Rd 146, Jemison, AL 35085",
-  "lat": null,
-  "lng": null,
+  "lat": 33.0218,
+  "lng": -86.731,
   "types": [
    "offroad"
   ],
@@ -1775,6 +1787,11 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_07313/ride_d802.htm",
     "title": "RiderPlanet USA - Minooka OHV Park",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://photon.komoot.io/",
+    "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Minooka Park\"",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -1783,7 +1800,8 @@
    "Coordinates",
    "Rider reports"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-zzz-geo2-2026-11.json",
+  "elevation_ft": 582
  },
  {
   "id": "monster-mountain-mx",
@@ -2610,8 +2628,8 @@
   "city": "Bremen",
   "county": "Cullman",
   "address": "10075 AL Hwy 69 S, Bremen, AL 35033",
-  "lat": null,
-  "lng": null,
+  "lat": 33.9642,
+  "lng": -86.9846,
   "types": [
    "offroad"
   ],
@@ -2654,6 +2672,11 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_14226/ride_0d7f.htm",
     "title": "RiderPlanet USA - Stony Lonesome OHV Park",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://photon.komoot.io/",
+    "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Stoney Lonesome OHV Park\"",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -2661,7 +2684,8 @@
    "Dirt-bike-specific reports (park is 4x4/ATV oriented)",
    "Coordinates"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-zzz-geo2-2026-11.json",
+  "elevation_ft": 673
  },
  {
   "id": "styx-river-mx-atv-park",

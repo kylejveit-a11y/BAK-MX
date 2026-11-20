@@ -11,8 +11,8 @@
   "city": "Mt. Morris",
   "county": "Greene",
   "address": "281 Taylortown Road, Mt. Morris, PA 15349",
-  "lat": null,
-  "lng": null,
+  "lat": 39.7346,
+  "lng": -80.0071,
   "types": [
    "motocross",
    "offroad"
@@ -101,6 +101,7 @@
    "Phone",
    "Braking-bump behavior"
   ],
-  "research_file": "nationals.json + pa-update-zz-official-2026-11.json"
+  "research_file": "nationals.json + pa-update-zz-official-2026-11.json + pa-update-zzz-geo2-2026-11.json",
+  "elevation_ft": 1101
  }
 ]

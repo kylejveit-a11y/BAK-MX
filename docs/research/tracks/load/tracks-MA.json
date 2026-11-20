@@ -12,8 +12,8 @@
   "city": "Southwick",
   "county": "Hampden",
   "address": "Legion Road, Southwick, MA 01077",
-  "lat": null,
-  "lng": null,
+  "lat": 42.0561,
+  "lng": -72.7505,
   "types": [
    "motocross"
   ],
@@ -96,6 +96,11 @@
     "url": "https://thewick338.com/",
     "title": "The Wick 338 (Southwick): official site",
     "accessed": "2026-11-20"
+   },
+   {
+    "url": "https://photon.komoot.io/",
+    "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"The Wick 338\"",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "high",
@@ -106,6 +111,7 @@
    "Public practice schedule",
    "Elevation/hill profile"
   ],
-  "research_file": "nationals.json + ma-update-zz-official-2026-11.json"
+  "research_file": "nationals.json + ma-update-zz-official-2026-11.json + ma-update-zzz-geo2-2026-11.json",
+  "elevation_ft": 190
  }
 ]

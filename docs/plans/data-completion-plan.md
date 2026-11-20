@@ -154,3 +154,10 @@ be opened by the fetch tool (needs the link pasted in chat).
 Second batch the same day (16 rows, ids rmzp-450-12..16): RM-Z450 2022-2024 stock positions as printed in Motocross Action
 setup sheets (low confidence, conflicts stated), their 2021-2023 race setting, chain guide wear, measured power 2021, 2022, 2024.
 Total loaded today: 181 rows. Live check: a 2027 RM-Z250 question now warns that earlier fork settings may not suit the 2027 parts.
+
+## Track map, second pass (2026-11-20)
+16 more places have a position and elevation (OpenStreetMap by name, Wikipedia for High Point; USGS elevation): Protective
+Stadium, Garrett Coliseum, Minooka, Stony Lonesome, Prairie City (Hangtown), Mammoth, Pala, Houston Valley, Oakey Mountain,
+Whissenhunt, Redbird Crest, White Sulphur, The Wick 338, Wayehutta, Wambaw, High Point. 43 of 254 still have none: mostly
+closed or unknown-status tracks with no street address, plus Freestone, Florida Cracker Ranch, Moto Sandbox, Kentuck and a few
+Georgia and Carolina forest trailheads that OpenStreetMap does not name. Only results whose mapped name matched were used.

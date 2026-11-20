@@ -12,8 +12,8 @@
   "city": "Rancho Cordova",
   "county": "Sacramento",
   "address": "13300 White Rock Road, Rancho Cordova, CA 95742",
-  "lat": null,
-  "lng": null,
+  "lat": 38.6013,
+  "lng": -121.1512,
   "types": [
    "motocross",
    "offroad"
@@ -97,6 +97,11 @@
     "url": "https://hangtownmx.com/",
     "title": "Hangtown Motocross Classic track (Prairie City SVRA): official site",
     "accessed": "2026-11-20"
+   },
+   {
+    "url": "https://photon.komoot.io/",
+    "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Prairie City State Vehicular Recreation Area\"",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "high",
@@ -106,7 +111,8 @@
    "Rain/mud behavior",
    "Track phone"
   ],
-  "research_file": "nationals.json + ca-update-zz-official-2026-11.json"
+  "research_file": "nationals.json + ca-update-zz-official-2026-11.json + ca-update-zzz-geo2-2026-11.json",
+  "elevation_ft": 290
  },
  {
   "id": "mammoth-motocross",
@@ -120,8 +126,8 @@
   "city": "Mammoth Lakes",
   "county": "Mono",
   "address": "Motocross Access Road, Mammoth Lakes, CA 93546",
-  "lat": null,
-  "lng": null,
+  "lat": 37.6199,
+  "lng": -118.9565,
   "types": [
    "motocross"
   ],
@@ -194,6 +200,11 @@
     "url": "https://fasttimes.fasthouse.com/photos/racing-high-at-8-000ft",
     "title": "Fasthouse - Racing high at 8,000 ft",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://photon.komoot.io/",
+    "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Motocross Track (raceway), Mammoth Lakes\"",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -203,7 +214,8 @@
    "Altitude claims vary (8,000 ft per directory; one 2006 writer says ~10,000 ft)",
    "MXA column is undated (content suggests about 2020)"
   ],
-  "research_file": "nationals.json"
+  "research_file": "nationals.json + ca-update-zzz-geo2-2026-11.json",
+  "elevation_ft": 7929
  },
  {
   "id": "pala-raceway",
@@ -219,8 +231,8 @@
   "city": "Pala",
   "county": "San Diego",
   "address": "12799 Hwy 76, Pala, CA 92059 (Pala Band of Mission Indians land)",
-  "lat": null,
-  "lng": null,
+  "lat": 33.37,
+  "lng": -117.0506,
   "types": [
    "motocross",
    "supercross",
@@ -333,6 +345,11 @@
     "url": "https://raceway.palatribe.com",
     "title": "Pala Raceway (formerly Fox Raceway at Pala): official site",
     "accessed": "2026-11-20"
+   },
+   {
+    "url": "https://photon.komoot.io/",
+    "title": "OpenStreetMap (via the Photon geocoder): position of the mapped place \"Fox Raceway\"",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -343,6 +360,7 @@
    "Current track count and which are open to the public each day",
    "Braking-bump behavior not described"
   ],
-  "research_file": "nationals.json + ca-update-zz-official-2026-11.json"
+  "research_file": "nationals.json + ca-update-zz-official-2026-11.json + ca-update-zzz-geo2-2026-11.json",
+  "elevation_ft": 638
  }
 ]
