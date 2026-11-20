@@ -44,6 +44,13 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
       own fitment). Every one of the 898 bikes now has parts from these makers (was 395); median 43 per bike.
 
 ## 4. Track details (221 tracks: 130 low confidence, 207 with listed gaps; 11 riding areas without soil/layout)
+- [x] 2026-11-20 map and visit-info pass: 40 more places have a position (address geocoded), 191 have ground elevation
+      (was 1), 41 places show hours / fees / rules from the track's own site on the place page, 54 records got contact,
+      access, soil or social updates from official sites, and 6 website links that now lead to gambling or dead domains
+      were removed. Twelve of the 14 official sites were read; danwoodleyracing.com answers 403 and silverdollarmp.com and
+      hardrockoffroadpark.net only draw in a browser.
+- [ ] Still open: about 50 places with no position (no street number on file), soil / layout for tracks whose sites do
+      not describe them, and a second read of the track sites for layout and rider-condition detail.
 - [ ] Raise low-confidence tracks from official pages, most-used states first (FL, GA, AL, NC, SC, TN).
       2026-11-19: FL/GA open low-confidence rows already hold everything the directories and press say; what is left is on the
       tracks' own sites, which need Kyle to approve the page fetches (or paste the links): fasttraxxflorida.com,

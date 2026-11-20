@@ -22,8 +22,8 @@
   "status": "open",
   "website": "http://www.freestonemx.com",
   "phone": "(713) 962-3386",
-  "facebook": null,
-  "instagram": null,
+  "facebook": "https://www.facebook.com/freestonemx",
+  "instagram": "http://www.instagram.com/freestonemx",
   "tracks_on_site": [
    "main MX track",
    "second MX track"
@@ -97,6 +97,11 @@
     "url": "https://racerxonline.com/2011/05/28/freestone-practice-report",
     "title": "Racer X - Freestone practice report 2011",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://freestonemx.com/",
+    "title": "Freestone County Raceway: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -106,7 +111,7 @@
    "Coordinates",
    "Rain behavior"
   ],
-  "research_file": "nationals.json"
+  "research_file": "nationals.json + tx-update-zz-official-2026-11.json"
  },
  {
   "id": "lake-whitney-cycle-ranch",

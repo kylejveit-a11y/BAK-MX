@@ -21,8 +21,8 @@
   "status": "open",
   "website": "https://thewick338.com/",
   "phone": null,
-  "facebook": null,
-  "instagram": null,
+  "facebook": "https://www.facebook.com/thewick338motocross",
+  "instagram": "https://www.instagram.com/thewick338mx",
   "tracks_on_site": [
    "national sand track"
   ],
@@ -91,6 +91,11 @@
     "url": "https://www.njmotocross.com/nj-motocross/2025/2025-southwick-national-at-the-wick-338-only-the-strong-survive/",
     "title": "NJ Motocross - 2025 Southwick preview",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://thewick338.com/",
+    "title": "The Wick 338 (Southwick): official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "high",
@@ -101,6 +106,6 @@
    "Public practice schedule",
    "Elevation/hill profile"
   ],
-  "research_file": "nationals.json"
+  "research_file": "nationals.json + ma-update-zz-official-2026-11.json"
  }
 ]

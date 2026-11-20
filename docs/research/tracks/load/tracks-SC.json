@@ -1801,7 +1801,7 @@
   ],
   "access": "members",
   "status": "open",
-  "website": "https://revolutionmxtrack.com",
+  "website": null,
   "phone": null,
   "facebook": "https://www.facebook.com/p/Revolution-MX-Track-100088935945812/",
   "instagram": "https://www.instagram.com/revolutionmxpark/",
@@ -1868,9 +1868,10 @@
   ],
   "confidence": "medium",
   "gaps": [
-   "Rider descriptions of soil and wet behavior"
+   "Rider descriptions of soil and wet behavior",
+   "revolutionmxtrack.com no longer resolves (checked 2026-11-20); link removed"
   ],
-  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "research_file": "sc.json + sc-update-geo-2026-11.json + sc-update-zz-official-2026-11.json",
   "elevation_ft": 531
  },
  {
@@ -1968,7 +1969,7 @@
    "arenacross",
    "training"
   ],
-  "access": "unknown",
+  "access": "appointment",
   "status": "open",
   "website": "https://www.sobmx.com/",
   "phone": "(803) 757-9580",
@@ -2051,6 +2052,11 @@
     "url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-NC,1313098",
     "title": "Forum thread",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.sobmx.com/",
+    "title": "South of the Border Motocross: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -2058,7 +2064,7 @@
    "Current public practice access and fees",
    "Watering/prep routine"
   ],
-  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "research_file": "sc.json + sc-update-geo-2026-11.json + sc-update-zz-official-2026-11.json",
   "elevation_ft": 135
  },
  {
@@ -2262,7 +2268,7 @@
    "supercross",
    "training"
   ],
-  "access": "public",
+  "access": "appointment",
   "status": "open",
   "website": "http://www.theshoalsmx.com/",
   "phone": "(864) 391-6090",
@@ -2337,6 +2343,11 @@
     "url": "https://www.youtube.com/watch?v=Loe3NY0_SJc",
     "title": "Rider video (YouTube)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "http://www.theshoalsmx.com/",
+    "title": "The Shoals MX: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -2344,7 +2355,7 @@
    "Current open-practice days and fees",
    "How the red clay rides wet"
   ],
-  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "research_file": "sc.json + sc-update-geo-2026-11.json + sc-update-zz-official-2026-11.json",
   "elevation_ft": 699
  },
  {

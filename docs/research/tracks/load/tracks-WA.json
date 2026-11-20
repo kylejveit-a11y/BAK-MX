@@ -19,8 +19,8 @@
   "status": "seasonal",
   "website": "https://washougalmxpk.com/",
   "phone": "(360) 837-3975",
-  "facebook": null,
-  "instagram": null,
+  "facebook": "https://www.facebook.com/washougalmxpk",
+  "instagram": "https://www.instagram.com/washougalmxpk",
   "tracks_on_site": [
    "national MX track (lit)",
    "second MX track"
@@ -90,6 +90,11 @@
     "url": "https://www.openstreetmap.org/",
     "title": "OpenStreetMap: 40205, Northeast Borin Road, Washougal River, Washougal, Clark County, Washington, 98671, ",
     "accessed": "2026-11-20"
+   },
+   {
+    "url": "https://washougalmxpk.com/",
+    "title": "Washougal MX Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "high",
@@ -97,7 +102,7 @@
    "Rain-day behavior",
    "Soil description conflict between promo (loam) and racers (hardpack)"
   ],
-  "research_file": "nationals.json + wa-update-geo-2026-11.json",
+  "research_file": "nationals.json + wa-update-geo-2026-11.json + wa-update-zz-official-2026-11.json",
   "elevation_ft": 686
  }
 ]

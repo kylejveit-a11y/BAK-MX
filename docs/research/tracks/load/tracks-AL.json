@@ -1099,7 +1099,7 @@
   "state": "AL",
   "city": "Tuscumbia",
   "county": "Colbert",
-  "address": "3834 Hawk Pride Mountain Rd, Tuscumbia, AL 35674",
+  "address": "589 Hester Porter Road, Tuscumbia, AL 35674",
   "lat": 34.66866,
   "lng": -87.81108,
   "types": [
@@ -1109,8 +1109,8 @@
   "access": "public",
   "status": "seasonal",
   "website": "https://hawkpridemountainoffroad.com",
-  "phone": "(256) 577-1034",
-  "facebook": null,
+  "phone": "(256) 349-4150",
+  "facebook": "https://www.facebook.com/hawkpridemountain",
   "instagram": null,
   "tracks_on_site": [
    "about 1,000 acres of woods trails",
@@ -1155,14 +1155,20 @@
     "url": "https://geocoding.geo.census.gov/geocoder/",
     "title": "US Census Bureau geocoder: position of the listed street address (3834 Hawk Pride Mountain Rd, Tuscumbia, Al, 35674)",
     "accessed": "2026-11-20"
+   },
+   {
+    "url": "https://www.hawkpridemountainoffroad.com/",
+    "title": "Hawk Pride Mountain Offroad: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "MX track detail",
-   "Soil"
+   "Soil",
+   "The park's site now gives 589 Hester Porter Road; the coordinates on file come from the earlier listed address, 3834 Hawk Pride Mountain Rd"
   ],
-  "research_file": "al.json + al-update-geo-2026-11.json",
+  "research_file": "al.json + al-update-geo-2026-11.json + al-update-zz-official-2026-11.json",
   "elevation_ft": 781
  },
  {
@@ -1244,7 +1250,7 @@
   "website": "https://indianmtnatvpark.com",
   "phone": "(256) 300-1223",
   "facebook": null,
-  "instagram": null,
+  "instagram": "https://www.instagram.com/indian_mountain_atv_park",
   "tracks_on_site": [
    "4,700 acres of trails"
   ],
@@ -1282,6 +1288,11 @@
     "url": "https://geocoding.geo.census.gov/geocoder/",
     "title": "US Census Bureau geocoder: position of the listed street address (11620 Co Rd 8, Piedmont, Al, 36272)",
     "accessed": "2026-11-20"
+   },
+   {
+    "url": "https://indianmtnatvpark.com",
+    "title": "Indian Mountain ATV Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -1289,7 +1300,7 @@
    "Dirt-bike suitability",
    "Rider reports"
   ],
-  "research_file": "al.json + al-update-geo-2026-11.json",
+  "research_file": "al.json + al-update-geo-2026-11.json + al-update-zz-official-2026-11.json",
   "elevation_ft": 852
  },
  {
@@ -1449,16 +1460,16 @@
   "status": "open",
   "website": "https://mclartymxpark.com",
   "phone": "(256) 738-7926",
-  "facebook": null,
+  "facebook": "https://www.facebook.com/mclartymotocross",
   "instagram": null,
   "tracks_on_site": [
    "main natural-terrain track (about 1 mile)"
   ],
   "soil": {
-   "primary": "clay",
-   "secondary": "loam",
-   "notes": "Sources disagree: one directory says red clay mixed with wood shavings riding like sandy loam; another says loam and sand; riders in 2018 argued over whether it is sand-based. Expect a soft loamy surface, not a true sand track.",
-   "confidence": "low"
+   "primary": "loam",
+   "secondary": "clay",
+   "notes": "The track's own site (2026-11) describes two prepped tracks in sandy loam: Alabama red clay blended with the track's own wood shavings.",
+   "confidence": "medium"
   },
   "layout": {
    "speed": "fast",
@@ -1510,6 +1521,11 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_14816/ride_fb3d.htm",
     "title": "RiderPlanet USA - McLarty MX",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.mclartymxpark.com/",
+    "title": "McLarty MX Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -1518,7 +1534,7 @@
    "Wet behavior",
    "Jump sizes"
   ],
-  "research_file": "al.json + al-update-geo-2026-11.json",
+  "research_file": "al.json + al-update-geo-2026-11.json + al-update-zz-official-2026-11.json",
   "elevation_ft": 866
  },
  {
@@ -1542,8 +1558,8 @@
   "status": "seasonal",
   "website": "https://millcreekmx.com",
   "phone": null,
-  "facebook": null,
-  "instagram": null,
+  "facebook": "http://www.facebook.com/millcreekmx",
+  "instagram": "https://instagram.com/millcreekmx",
   "tracks_on_site": [
    "MX race track at Barber Motorsports Park"
   ],
@@ -1573,6 +1589,11 @@
     "url": "https://mxparks.com/motocross-tracks/alabama/millcreek-motocross-park-pell-city-relocated-to-barber-pell-city",
     "title": "MX Parks - MillCreek MX Park (Barber)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.millcreekmx.com/",
+    "title": "MillCreek MX Park at Barber Motorsports Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -1581,7 +1602,7 @@
    "Rider reports",
    "Phone"
   ],
-  "research_file": "al.json + al-update-geo-2026-11.json",
+  "research_file": "al.json + al-update-geo-2026-11.json + al-update-zz-official-2026-11.json",
   "elevation_ft": 662
  },
  {
@@ -1790,7 +1811,7 @@
   "status": "open",
   "website": "https://monstermx.com",
   "phone": "(334) 415-0415",
-  "facebook": null,
+  "facebook": "https://www.facebook.com/monstermountainmxpark",
   "instagram": null,
   "tracks_on_site": [
    "main national track (about 1.35 miles, Stairway to Heaven jump)",
@@ -1883,6 +1904,11 @@
     "url": "https://www.vitalmx.com/forums/Moto-Related,20/Heading-to-Monster-Mountain-Thursday-and-Need-Advice,1388193",
     "title": "Vital MX - Heading to Monster Mountain (2021/2025)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://monstermx.com/wp/",
+    "title": "Monster Mountain MX Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "high",
@@ -1891,7 +1917,7 @@
    "Watering setup",
    "Exact clay/sand split on the main track"
   ],
-  "research_file": "al.json + al-update-geo-2026-11.json",
+  "research_file": "al.json + al-update-geo-2026-11.json + al-update-zz-official-2026-11.json",
   "elevation_ft": 413
  },
  {
@@ -2268,7 +2294,7 @@
   "status": "open",
   "website": "https://riversidemotocross.net",
   "phone": "(334) 791-5440",
-  "facebook": null,
+  "facebook": "http://www.facebook.com/riversidemx",
   "instagram": null,
   "tracks_on_site": [
    "main track (about 1 mile)",
@@ -2322,6 +2348,11 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_07328/ride_bd90.htm",
     "title": "RiderPlanet USA - Riverside Motocross Park",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://riversidemotocross.net",
+    "title": "Riverside Motocross Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -2329,7 +2360,7 @@
    "Wet behavior",
    "Recent rider detail"
   ],
-  "research_file": "al.json + al-update-geo-2026-11.json",
+  "research_file": "al.json + al-update-geo-2026-11.json + al-update-zz-official-2026-11.json",
   "elevation_ft": 173
  },
  {
@@ -2350,7 +2381,7 @@
   ],
   "access": "public",
   "status": "open",
-  "website": "https://ridesandmountain.com",
+  "website": null,
   "phone": "(256) 572-3449",
   "facebook": null,
   "instagram": null,
@@ -2422,9 +2453,10 @@
   "confidence": "medium",
   "gaps": [
    "Wet and late-day behavior",
-   "Website may be outdated"
+   "Website may be outdated",
+   "ridesandmountain.com no longer resolves (checked 2026-11-20); link removed"
   ],
-  "research_file": "al.json + al-update-geo-2026-11.json",
+  "research_file": "al.json + al-update-geo-2026-11.json + al-update-zz-official-2026-11.json",
   "elevation_ft": 1127
  },
  {
@@ -2723,14 +2755,16 @@
   "status": "open",
   "website": "https://ridgeriding.com",
   "phone": "(205) 467-7433",
-  "facebook": null,
+  "facebook": "https://www.facebook.com/ridgeriding",
   "instagram": null,
   "tracks_on_site": [
    "35+ miles of one-way OHV trails",
    "15+ miles motorcycle-only single track",
    "MX track",
    "practice supercross",
-   "pee-wee track"
+   "pee-wee track",
+   "kids-only track",
+   "beginner riding field"
   ],
   "soil": {
    "primary": "unknown",
@@ -2767,6 +2801,11 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_04286/ride_e4b7.htm",
     "title": "RiderPlanet USA - The Ridge",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.ridgeriding.com/",
+    "title": "The Ridge - Alabama Outdoor Adventure Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -2775,7 +2814,7 @@
    "MX track detail",
    "Rider reports"
   ],
-  "research_file": "al.json + al-update-geo-2026-11.json",
+  "research_file": "al.json + al-update-geo-2026-11.json + al-update-zz-official-2026-11.json",
   "elevation_ft": 1330
  },
  {
@@ -2859,8 +2898,8 @@
   "status": "open",
   "website": "https://toptrails.net",
   "phone": "(256) 649-0245",
-  "facebook": null,
-  "instagram": null,
+  "facebook": "https://www.facebook.com/toptrailspark",
+  "instagram": "https://www.instagram.com/toptrails_park",
   "tracks_on_site": [
    "about 100 miles of OHV trails on 2,800+ acres",
    "kiddie track",
@@ -2906,6 +2945,11 @@
     "url": "https://www.openstreetmap.org/",
     "title": "OpenStreetMap: 1247, Horne Drive, Talladega, Talladega County, Alabama, 35160, United States",
     "accessed": "2026-11-20"
+   },
+   {
+    "url": "https://toptrails.net",
+    "title": "TOP Trails OHV Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -2914,7 +2958,7 @@
    "Soil",
    "Rider reports"
   ],
-  "research_file": "al.json + al-update-geo-2026-11.json",
+  "research_file": "al.json + al-update-geo-2026-11.json + al-update-zz-official-2026-11.json",
   "elevation_ft": 574
  },
  {

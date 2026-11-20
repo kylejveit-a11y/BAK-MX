@@ -21,8 +21,8 @@
   "status": "open",
   "website": "https://redbudmx.com",
   "phone": null,
-  "facebook": null,
-  "instagram": null,
+  "facebook": "https://www.facebook.com/redbudmx",
+  "instagram": "https://www.instagram.com/redbudmx",
   "tracks_on_site": [
    "pro national track (LaRocco's Leap, ~120 ft)",
    "KTM kids track",
@@ -93,6 +93,11 @@
     "url": "https://racerxonline.com/2022/07/05/breakdown-redbud",
     "title": "Racer X - Breakdown: RedBud 2022",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://redbudmx.com",
+    "title": "RedBud MX: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "high",
@@ -102,7 +107,7 @@
    "Public practice schedule",
    "Braking-bump behavior"
   ],
-  "research_file": "nationals.json + mi-update-geo-2026-11.json",
+  "research_file": "nationals.json + mi-update-geo-2026-11.json + mi-update-zz-official-2026-11.json",
   "elevation_ft": 779
  }
 ]

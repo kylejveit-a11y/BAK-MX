@@ -84,7 +84,7 @@ def main():
                 merged[r['id']] = r
     # Correction passes: <state>-update-*.json is {"updates": [{"id": ..., field: value, ...}]}. A listed scalar or dict
     # field replaces the old one (dicts merge key by key), sources/rider_reports/aliases/gaps/tracks_on_site are added
-    # to, and "remove_gaps" drops gaps the pass closed. Later passes win.
+    # to, "remove_gaps" drops gaps the pass closed and "clear" empties named fields. Later passes win.
     for f in sorted(glob.glob(os.path.join(DIR, f'{state.lower()}-update-*.json'))):
         for u in json.load(open(f)).get('updates', []):
             r = merged.get(u.get('id'))
@@ -92,7 +92,9 @@ def main():
                 problems.append(f"{u.get('id')}: update in {os.path.basename(f)} names no track"); continue
             for k, v in u.items():
                 if k in ('id', 'note') or v in (None, '', [], {}): continue
-                if k == 'remove_gaps':
+                if k == 'clear':                       # a field that is no longer true (a website that now belongs to someone else)
+                    for name in v: r[name] = None
+                elif k == 'remove_gaps':
                     r['gaps'] = [g for g in r['gaps'] if g not in v]
                 elif k in ('sources', 'rider_reports'):
                     key = 'url' if k == 'sources' else 'says'

@@ -317,7 +317,7 @@
   "access": "members",
   "status": "open",
   "website": "https://fastfarmsmxpark.com/",
-  "phone": null,
+  "phone": "(931) 409-4453",
   "facebook": "https://www.facebook.com/p/Fast-Farms-MX-Park-100063705066811/",
   "instagram": "https://instagram.com/fastfarmsmx",
   "tracks_on_site": [
@@ -397,13 +397,18 @@
     "url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
     "title": "Forum thread",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://fastfarmsmxpark.com/",
+    "title": "Fast Farms MX Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
   "gaps": [
    "Wet behavior"
   ],
-  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "research_file": "tn.json + tn-update-geo-2026-11.json + tn-update-zz-official-2026-11.json",
   "elevation_ft": 1961
  },
  {
@@ -1016,7 +1021,7 @@
   "access": "private",
   "status": "seasonal",
   "website": "https://lorettalynn.com/",
-  "phone": null,
+  "phone": "(931) 296-7700",
   "facebook": "https://www.facebook.com/LorettaLynnMX",
   "instagram": null,
   "tracks_on_site": [
@@ -1146,11 +1151,16 @@
     "url": "https://ultimatemotorcycling.com/2013/08/01/rain-halts-action-wednesday-at-loretta-lynn-ranch-amateur-mx/",
     "title": "Ultimate Motorcycling - Rain halts action (2013)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://lorettalynn.com/",
+    "title": "Loretta Lynn's Ranch: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "high",
   "gaps": [],
-  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "research_file": "tn.json + tn-update-geo-2026-11.json + tn-update-zz-official-2026-11.json",
   "elevation_ft": 415
  },
  {
@@ -1702,7 +1712,7 @@
   "access": "public",
   "status": "seasonal",
   "website": "https://robertsoncountyfair.com/",
-  "phone": null,
+  "phone": "(615) 382-1007",
   "facebook": "https://www.facebook.com/RobertsonCountyFair/",
   "instagram": "https://www.instagram.com/robertsoncountyfair/",
   "tracks_on_site": [],
@@ -1732,13 +1742,18 @@
     "url": "https://mxparks.com/motocross-tracks/tennessee/robertson-county-fairgrounds-springfield",
     "title": "MX Parks - Robertson County Fairgrounds listing (address, coordinates, schedule, fees, layout notes)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://robertsoncountyfair.com/",
+    "title": "Robertson County Fairgrounds: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Rider reports"
   ],
-  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "research_file": "tn.json + tn-update-geo-2026-11.json + tn-update-zz-official-2026-11.json",
   "elevation_ft": 553
  },
  {
@@ -1965,7 +1980,7 @@
   "website": "https://trialstrainingcenter.com/",
   "phone": "(423) 942-8688",
   "facebook": "https://www.facebook.com/trialstrainingcenter/",
-  "instagram": null,
+  "instagram": "https://www.instagram.com/trialstrainingcenter",
   "tracks_on_site": [],
   "soil": {
    "primary": "rock",
@@ -1993,13 +2008,18 @@
     "url": "https://mxparks.com/motocross-tracks/tennessee/trials-training-center-sequatchie",
     "title": "MX Parks - Trials Training Center listing (address, coordinates, schedule, fees, layout notes)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://trialstrainingcenter.com/",
+    "title": "Trials Training Center: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Not an MX track"
   ],
-  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "research_file": "tn.json + tn-update-geo-2026-11.json + tn-update-zz-official-2026-11.json",
   "elevation_ft": 757
  },
  {

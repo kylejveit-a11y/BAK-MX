@@ -22,7 +22,7 @@
   "website": "https://www.springcreekmotocross.com/",
   "phone": "(507) 753-2779",
   "facebook": null,
-  "instagram": null,
+  "instagram": "https://www.instagram.com/springcreekmx",
   "tracks_on_site": [
    "national MX track (lit)",
    "hare scramble trails"
@@ -103,6 +103,11 @@
     "url": "https://geocoding.geo.census.gov/geocoder/",
     "title": "US Census Bureau geocoder: position of the listed street address (63633 298Th Ave, Millville, Mn, 55957)",
     "accessed": "2026-11-20"
+   },
+   {
+    "url": "https://www.springcreekmotocross.com/",
+    "title": "Spring Creek MX Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "high",
@@ -110,7 +115,7 @@
    "Exact soil mix (loam vs sand share) - sources only name sand and hardpack",
    "County inferred from Millville location, not stated by a source"
   ],
-  "research_file": "nationals.json + mn-update-geo-2026-11.json",
+  "research_file": "nationals.json + mn-update-geo-2026-11.json + mn-update-zz-official-2026-11.json",
   "elevation_ft": 774
  }
 ]

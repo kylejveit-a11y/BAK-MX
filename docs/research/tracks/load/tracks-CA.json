@@ -22,7 +22,7 @@
   "status": "open",
   "website": "http://www.hangtownmx.com",
   "phone": null,
-  "facebook": null,
+  "facebook": "https://www.facebook.com/hangtownmx",
   "instagram": null,
   "tracks_on_site": [
    "national MX track inside Prairie City State Vehicular Recreation Area"
@@ -92,6 +92,11 @@
     "url": "https://racerxonline.com/2023/06/05/breakdown-hangtown",
     "title": "Racer X - Breakdown: Hangtown 2023",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://hangtownmx.com/",
+    "title": "Hangtown Motocross Classic track (Prairie City SVRA): official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "high",
@@ -101,7 +106,7 @@
    "Rain/mud behavior",
    "Track phone"
   ],
-  "research_file": "nationals.json"
+  "research_file": "nationals.json + ca-update-zz-official-2026-11.json"
  },
  {
   "id": "mammoth-motocross",
@@ -227,7 +232,7 @@
   "website": "https://raceway.palatribe.com",
   "phone": "(760) 891-3570",
   "facebook": null,
-  "instagram": null,
+  "instagram": "https://www.instagram.com/foxraceway",
   "tracks_on_site": [
    "national/pro outdoor track (practice layout differs from the race layout)",
    "supercross track (opened late 2021; AMA pro license required)",
@@ -323,6 +328,11 @@
     "url": "https://racerxonline.com/2019/05/23/3-on-3-riders-weigh-in-on-pala",
     "title": "Racer X - Riders weigh in on Pala (2019)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://raceway.palatribe.com",
+    "title": "Pala Raceway (formerly Fox Raceway at Pala): official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -333,6 +343,6 @@
    "Current track count and which are open to the public each day",
    "Braking-bump behavior not described"
   ],
-  "research_file": "nationals.json"
+  "research_file": "nationals.json + ca-update-zz-official-2026-11.json"
  }
 ]

@@ -1,0 +1,86 @@
+{
+ "note": "2026-11-20: facts read from each track's own website (contact details, access, soil where the track states it), and links removed where the address no longer leads to the track.",
+ "updates": [
+  {
+   "status": "open",
+   "access": "public",
+   "facebook": "https://www.facebook.com/brushymountainmotorsportspark",
+   "id": "brushy-mountain",
+   "sources": [
+    {
+     "url": "https://bmmspark.com/",
+     "title": "Brushy Mountain Motor Sports Park: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "phone": "(336) 239-7211",
+   "id": "svmx-park",
+   "sources": [
+    {
+     "url": "https://svmxpark.com",
+     "title": "SVMX Park (Silver Valley MX): official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "soil": {
+    "primary": "sand",
+    "notes": "The track's own site (2026-11) describes it as a 100% sand motocross track.",
+    "confidence": "medium"
+   },
+   "id": "jwtf-mx",
+   "sources": [
+    {
+     "url": "https://www.jwtfmx.com/",
+     "title": "JWTF MX (Jimmy Weinert Training Facility): official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "soil": {
+    "primary": "sand",
+    "notes": "The club's own site (2026-11) describes a fast, deep sand track.",
+    "confidence": "medium"
+   },
+   "id": "elizabeth-city-mx",
+   "sources": [
+    {
+     "url": "https://ecmx.com",
+     "title": "Elizabeth City Motocross Club: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "blackjack-mx",
+   "clear": [
+    "website"
+   ],
+   "gaps": [
+    "blackjackmx.com now shows an unrelated online gambling site (checked 2026-11-20); link removed"
+   ]
+  },
+  {
+   "id": "ironclad-mx",
+   "clear": [
+    "website"
+   ],
+   "gaps": [
+    "ironcladmotorsports.com is listed for sale by a domain broker (checked 2026-11-20); link removed"
+   ]
+  },
+  {
+   "id": "silver-creek-mx",
+   "clear": [
+    "website"
+   ],
+   "gaps": [
+    "silvercreekmx.com no longer resolves (checked 2026-11-20); link removed"
+   ]
+  }
+ ]
+}

@@ -19,8 +19,8 @@
   "status": "open",
   "website": "https://almamxpark.wixsite.com/almamxpark",
   "phone": "(904) 894-3730",
-  "facebook": null,
-  "instagram": null,
+  "facebook": "https://www.facebook.com/almamx.park",
+  "instagram": "https://www.instagram.com/almamxpark",
   "tracks_on_site": [
    "main MX track (about 1-1.25 miles)",
    "beginner/pee-wee track"
@@ -68,6 +68,11 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_11813/ride_7878.htm",
     "title": "RiderPlanet USA - Alma MX Park",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://almamxpark.wixsite.com/almamxpark",
+    "title": "Alma MX Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -75,7 +80,7 @@
    "Two different street addresses listed",
    "Wet/late-day behavior"
   ],
-  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "research_file": "ga.json + ga-update-geo-2026-11.json + ga-update-zz-official-2026-11.json",
   "elevation_ft": 168
  },
  {
@@ -647,7 +652,7 @@
   "access": "public",
   "status": "seasonal",
   "website": "https://echeconneemotox.com",
-  "phone": "(478) 956-1222",
+  "phone": "(678) 860-3038",
   "facebook": null,
   "instagram": null,
   "tracks_on_site": [
@@ -712,6 +717,11 @@
     "url": "https://atvmotocross.com/2026/04/02/echeconnee-atvmx-national-race-report",
     "title": "ATV Motocross - Echeconnee national report (2026)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://echeconneemotox.com",
+    "title": "Echeconnee MX: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -721,7 +731,7 @@
    "Directory claim of being Georgia's oldest track not verified",
    "Practice-day schedule"
   ],
-  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "research_file": "ga.json + ga-update-geo-2026-11.json + ga-update-zz-official-2026-11.json",
   "elevation_ft": 395
  },
  {
@@ -1302,12 +1312,13 @@
   "status": "open",
   "website": "https://lanefarmmx.com",
   "phone": "(912) 690-2143",
-  "facebook": null,
-  "instagram": null,
+  "facebook": "https://www.facebook.com/lanefarmmx92",
+  "instagram": "https://www.instagram.com/lane_farm_mx",
   "tracks_on_site": [
    "main MX track",
    "two flat turn tracks",
-   "several miles of wooded trail loops"
+   "several miles of wooded trail loops",
+   "RV hook-ups"
   ],
   "soil": {
    "primary": "unknown",
@@ -1349,6 +1360,11 @@
     "url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-mx-tracks,1397180",
     "title": "Vital MX - Georgia mx tracks (2021)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://lanefarmmx.com",
+    "title": "Lane Farm MX: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -1356,7 +1372,7 @@
    "Soil type",
    "First-hand riding reports"
   ],
-  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "research_file": "ga.json + ga-update-geo-2026-11.json + ga-update-zz-official-2026-11.json",
   "elevation_ft": 317
  },
  {
@@ -1684,8 +1700,8 @@
   "status": "open",
   "website": "https://mtfmx.com/",
   "phone": "(229) 377-8502",
-  "facebook": null,
-  "instagram": null,
+  "facebook": "https://www.facebook.com/mtfmx",
+  "instagram": "https://www.instagram.com/mtfmx",
   "tracks_on_site": [
    "national-caliber MX tracks",
    "supercross track (pro license)",
@@ -1744,6 +1760,11 @@
     "url": "https://geocoding.geo.census.gov/geocoder/",
     "title": "US Census Bureau geocoder: position of the listed street address (867 Bold Springs Rd, Cairo, Ga, 39828)",
     "accessed": "2026-11-20"
+   },
+   {
+    "url": "https://www.mtfmx.com/",
+    "title": "Millsaps Training Facility: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -1752,7 +1773,7 @@
    "Rider reports on how the tracks ride",
    "County inferred from Cairo, not stated by a source"
   ],
-  "research_file": "nationals.json + ga-update-geo-2026-11.json",
+  "research_file": "nationals.json + ga-update-geo-2026-11.json + ga-update-zz-official-2026-11.json",
   "elevation_ft": 268
  },
  {
@@ -1915,7 +1936,7 @@
   ],
   "access": "private",
   "status": "open",
-  "website": "https://motoxcompound.com",
+  "website": null,
   "phone": "(678) 860-3038",
   "facebook": null,
   "instagram": null,
@@ -1967,9 +1988,10 @@
   "gaps": [
    "No rider reports",
    "Soil only from directory",
-   "Track lengths"
+   "Track lengths",
+   "motoxcompound.com now shows an unrelated foreign-language sports and betting site (checked 2026-11-20); link removed"
   ],
-  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "research_file": "ga.json + ga-update-geo-2026-11.json + ga-update-zz-official-2026-11.json",
   "elevation_ft": 658
  },
  {
@@ -2546,7 +2568,7 @@
   "website": "https://stfraceway.com",
   "phone": "(229) 400-2522",
   "facebook": null,
-  "instagram": null,
+  "instagram": "https://www.instagram.com/stfraceway",
   "tracks_on_site": [
    "sand track (built by Brian Deegan)",
    "pro track",
@@ -2604,6 +2626,11 @@
     "url": "https://www.wtxl.com/bainbridge/see-why-bainbridge-motocross-training-facility-bringing-more-people-to-the-city",
     "title": "WTXL - Bainbridge training facility (2024)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://stfraceway.com",
+    "title": "Southern Training Facility & Raceway: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -2612,7 +2639,7 @@
    "Elevation claim unverified",
    "Watering"
   ],
-  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "research_file": "ga.json + ga-update-geo-2026-11.json + ga-update-zz-official-2026-11.json",
   "elevation_ft": 205
  },
  {
@@ -2732,7 +2759,7 @@
   "website": "https://tenmilemx.com",
   "phone": "(478) 290-0137",
   "facebook": null,
-  "instagram": null,
+  "instagram": "https://www.instagram.com/tenmilemx1",
   "tracks_on_site": [
    "main sand MX track",
    "lit SX/arenacross section",
@@ -2775,6 +2802,11 @@
     "url": "https://mxparks.com/motocross-tracks/georgia/tenmile-mx-cadwell",
     "title": "MX Parks - TenMile MX",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://tenmilemx.com",
+    "title": "TenMile MX: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -2782,7 +2814,7 @@
    "Rider description of the sand and how it ruts",
    "Coordinates from directory only"
   ],
-  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "research_file": "ga.json + ga-update-geo-2026-11.json + ga-update-zz-official-2026-11.json",
   "elevation_ft": 367
  },
  {
@@ -2941,9 +2973,9 @@
   "access": "public",
   "status": "open",
   "website": "https://victorytrainingfacility.com",
-  "phone": null,
-  "facebook": null,
-  "instagram": null,
+  "phone": "(518) 221-2062",
+  "facebook": "https://www.facebook.com/victorytrainingfacility",
+  "instagram": "https://www.instagram.com/victorytrainingfacility",
   "tracks_on_site": [
    "National track",
    "Night Cross track",
@@ -2951,7 +2983,8 @@
    "amateur supercross",
    "vet track",
    "training/cornering tracks",
-   "GNCC-style trails"
+   "GNCC-style trails",
+   "sand track"
   ],
   "soil": {
    "primary": "unknown",
@@ -2979,16 +3012,20 @@
     "url": "https://mxparks.com/motocross-tracks/georgia/climax-motorsports-park-climax",
     "title": "MX Parks - Victory Training Facility (formerly Climax Motorsports Park)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.victorytrainingfacility.com/",
+    "title": "Victory Training Facility: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Soil",
    "Layout",
-   "Rider reports",
-   "Phone"
+   "Rider reports"
   ],
-  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "research_file": "ga.json + ga-update-geo-2026-11.json + ga-update-zz-official-2026-11.json",
   "elevation_ft": 236
  },
  {

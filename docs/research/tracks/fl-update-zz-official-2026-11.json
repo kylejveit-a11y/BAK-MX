@@ -1,0 +1,201 @@
+{
+ "note": "2026-11-20: facts read from each track's own website (contact details, access, soil where the track states it), and links removed where the address no longer leads to the track.",
+ "updates": [
+  {
+   "access": "members",
+   "instagram": "https://instagram.com/fasttraxxflorida",
+   "remove_gaps": [
+    "Official site fasttraxxflorida.com could not be fetched in this pass"
+   ],
+   "id": "bushnell-mx",
+   "sources": [
+    {
+     "url": "https://fasttraxxflorida.com",
+     "title": "Bushnell MX: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "phone": "(786) 975-4024",
+   "tracks_on_site": [
+    "intermediate track"
+   ],
+   "remove_gaps": [
+    "Phone conflict: (407) 808-9420 in park notes vs (786) 975-4024 in MX Parks contact block, which is the same number listed for Miami MX Park; call to confirm",
+    "Official site mesamotocross.com could not be fetched in this pass"
+   ],
+   "id": "mesa-mx",
+   "sources": [
+    {
+     "url": "https://mesamotocross.com",
+     "title": "Mesa Motocross Park: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "phone": "(863) 899-3747",
+   "tracks_on_site": [
+    "turn-only tracks",
+    "start gates with their own start straight"
+   ],
+   "soil": {
+    "notes": "The facility's own site (2026-11) says both motocross tracks are sand, clay and dirt mixtures and the supercross tracks use two different soil types. A 2021 profile mentions capping clay hauled from an on-site stockpile. No rider confirmation.",
+    "confidence": "medium"
+   },
+   "layout": {
+    "traits": [
+     "whoops",
+     "big doubles/triples",
+     "rollers",
+     "off-cambers",
+     "sweepers",
+     "hairpins",
+     "tabletops",
+     "step-ups",
+     "dragon's back"
+    ]
+   },
+   "gaps": [
+    "City: the facility's site says Clermont; earlier sources say Groveland"
+   ],
+   "remove_gaps": [
+    "Soil confirmation",
+    "Official site motosandbox.com could not be fetched in this pass"
+   ],
+   "id": "moto-sandbox",
+   "sources": [
+    {
+     "url": "https://motosandbox.com",
+     "title": "Moto Sandbox MX Training Facility: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "remove_gaps": [
+    "Business phone varies: (904) 719-1010 on older listings, (904) 535-2290 on the lesson listing"
+   ],
+   "id": "harold-motor-sports",
+   "sources": [
+    {
+     "url": "https://haroldmotorsports.com",
+     "title": "Harold Motor Sports: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "remove_gaps": [
+    "Address conflict: older listing says County Road 202; current event and directory listings say 797 County Road 200"
+   ],
+   "id": "florida-cracker-ranch",
+   "sources": [
+    {
+     "url": "https://centralfloridaoffroad.com/",
+     "title": "Florida Cracker Ranch: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "phone": "(941) 875-8944",
+   "tracks_on_site": [
+    "sand turn track",
+    "beginner/kids track"
+   ],
+   "id": "74mx-at-the-rkc",
+   "sources": [
+    {
+     "url": "https://74famfunpark.wixsite.com/74mxoffroad",
+     "title": "74MX at the RKC: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "facebook": "https://www.facebook.com/miamimotocrosspark",
+   "instagram": "https://instagram.com/miamimxparkofficial",
+   "id": "miami-mx-park",
+   "sources": [
+    {
+     "url": "https://miamimxpark.com/",
+     "title": "Miami Motocross Park: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "instagram": "https://www.instagram.com/orlando.mx.park",
+   "id": "orlando-mx-park",
+   "sources": [
+    {
+     "url": "https://orlandomxpark.com/",
+     "title": "Orlando MX Park: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "phone": "(813) 781-9569",
+   "facebook": "https://www.facebook.com/dadecitymx",
+   "instagram": "https://www.instagram.com/dadecitymx",
+   "id": "dade-city-mx",
+   "sources": [
+    {
+     "url": "https://dadecitymx.com/",
+     "title": "Dade City Motocross: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "facebook": "https://www.facebook.com/dirtstarssmx",
+   "instagram": "https://www.instagram.com/sunshinestate_mx",
+   "id": "sunshine-state-mx-park",
+   "sources": [
+    {
+     "url": "https://www.dirtstarssmx.com/",
+     "title": "Sunshine State MX Park: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "facebook": "https://www.facebook.com/deckertrainingfacility",
+   "instagram": "https://www.instagram.com/deckertrainingfacility",
+   "id": "decker-training-facility-county-line-mx",
+   "sources": [
+    {
+     "url": "https://deckertrainingfacility.com",
+     "title": "Decker Training Facility at County Line MX: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "facebook": "https://www.facebook.com/paxtraxmx",
+   "instagram": "https://www.instagram.com/paxtraxmx",
+   "id": "pax-trax-mx",
+   "sources": [
+    {
+     "url": "https://paxtraxmxresort.com",
+     "title": "Pax Trax Motocross Park: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "instagram": "https://www.instagram.com/unlimitedsportsmx",
+   "id": "gatorback-cycle-park",
+   "sources": [
+    {
+     "url": "https://unlimitedsportsmx.com",
+     "title": "Gatorback Cycle Park: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "note": "2026-11-20: facts read from each track's own website (contact details, access, soil where the track states it), and links removed where the address no longer leads to the track.",
+ "updates": [
+  {
+   "facebook": "https://www.facebook.com/lanefarmmx92",
+   "instagram": "https://www.instagram.com/lane_farm_mx",
+   "tracks_on_site": [
+    "RV hook-ups"
+   ],
+   "id": "lane-farm-mx",
+   "sources": [
+    {
+     "url": "https://lanefarmmx.com",
+     "title": "Lane Farm MX: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "phone": "(518) 221-2062",
+   "facebook": "https://www.facebook.com/victorytrainingfacility",
+   "instagram": "https://www.instagram.com/victorytrainingfacility",
+   "tracks_on_site": [
+    "sand track"
+   ],
+   "remove_gaps": [
+    "Phone"
+   ],
+   "id": "victory-training-facility",
+   "sources": [
+    {
+     "url": "https://www.victorytrainingfacility.com/",
+     "title": "Victory Training Facility: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "instagram": "https://www.instagram.com/tenmilemx1",
+   "id": "tenmile-mx",
+   "sources": [
+    {
+     "url": "https://tenmilemx.com",
+     "title": "TenMile MX: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "instagram": "https://www.instagram.com/stfraceway",
+   "id": "southern-training-facility-raceway",
+   "sources": [
+    {
+     "url": "https://stfraceway.com",
+     "title": "Southern Training Facility & Raceway: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "phone": "(678) 860-3038",
+   "id": "echeconnee-mx",
+   "sources": [
+    {
+     "url": "https://echeconneemotox.com",
+     "title": "Echeconnee MX: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "facebook": "https://www.facebook.com/mtfmx",
+   "instagram": "https://www.instagram.com/mtfmx",
+   "id": "millsaps-training-facility",
+   "sources": [
+    {
+     "url": "https://www.mtfmx.com/",
+     "title": "Millsaps Training Facility: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "facebook": "https://www.facebook.com/almamx.park",
+   "instagram": "https://www.instagram.com/almamxpark",
+   "id": "alma-mx-park",
+   "sources": [
+    {
+     "url": "https://almamxpark.wixsite.com/almamxpark",
+     "title": "Alma MX Park: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "motox-compound",
+   "clear": [
+    "website"
+   ],
+   "gaps": [
+    "motoxcompound.com now shows an unrelated foreign-language sports and betting site (checked 2026-11-20); link removed"
+   ]
+  }
+ ]
+}

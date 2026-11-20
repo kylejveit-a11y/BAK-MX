@@ -1,0 +1,119 @@
+{
+ "note": "2026-11-20: facts read from each track's own website (contact details, access, soil where the track states it), and links removed where the address no longer leads to the track.",
+ "updates": [
+  {
+   "facebook": "https://www.facebook.com/mclartymotocross",
+   "soil": {
+    "primary": "loam",
+    "secondary": "clay",
+    "notes": "The track's own site (2026-11) describes two prepped tracks in sandy loam: Alabama red clay blended with the track's own wood shavings.",
+    "confidence": "medium"
+   },
+   "id": "mclarty-mx-park",
+   "sources": [
+    {
+     "url": "https://www.mclartymxpark.com/",
+     "title": "McLarty MX Park: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "facebook": "https://www.facebook.com/ridgeriding",
+   "tracks_on_site": [
+    "kids-only track",
+    "beginner riding field"
+   ],
+   "id": "the-ridge-alabama",
+   "sources": [
+    {
+     "url": "https://www.ridgeriding.com/",
+     "title": "The Ridge - Alabama Outdoor Adventure Park: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "facebook": "http://www.facebook.com/riversidemx",
+   "id": "riverside-motocross-park",
+   "sources": [
+    {
+     "url": "https://riversidemotocross.net",
+     "title": "Riverside Motocross Park: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "facebook": "https://www.facebook.com/toptrailspark",
+   "instagram": "https://www.instagram.com/toptrails_park",
+   "id": "top-trails-ohv-park",
+   "sources": [
+    {
+     "url": "https://toptrails.net",
+     "title": "TOP Trails OHV Park: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "facebook": "http://www.facebook.com/millcreekmx",
+   "instagram": "https://instagram.com/millcreekmx",
+   "id": "millcreek-mx-barber",
+   "sources": [
+    {
+     "url": "https://www.millcreekmx.com/",
+     "title": "MillCreek MX Park at Barber Motorsports Park: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "facebook": "https://www.facebook.com/monstermountainmxpark",
+   "id": "monster-mountain-mx",
+   "sources": [
+    {
+     "url": "https://monstermx.com/wp/",
+     "title": "Monster Mountain MX Park: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "phone": "(256) 349-4150",
+   "address": "589 Hester Porter Road, Tuscumbia, AL 35674",
+   "facebook": "https://www.facebook.com/hawkpridemountain",
+   "gaps": [
+    "The park's site now gives 589 Hester Porter Road; the coordinates on file come from the earlier listed address, 3834 Hawk Pride Mountain Rd"
+   ],
+   "id": "hawk-pride-mountain-offroad",
+   "sources": [
+    {
+     "url": "https://www.hawkpridemountainoffroad.com/",
+     "title": "Hawk Pride Mountain Offroad: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "instagram": "https://www.instagram.com/indian_mountain_atv_park",
+   "id": "indian-mountain-atv-park",
+   "sources": [
+    {
+     "url": "https://indianmtnatvpark.com",
+     "title": "Indian Mountain ATV Park: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "sand-mountain-mx",
+   "clear": [
+    "website"
+   ],
+   "gaps": [
+    "ridesandmountain.com no longer resolves (checked 2026-11-20); link removed"
+   ]
+  }
+ ]
+}

@@ -425,7 +425,7 @@
   ],
   "access": "public",
   "status": "open",
-  "website": "https://blackjackmx.com",
+  "website": null,
   "phone": "(252) 945-6056",
   "facebook": "https://facebook.com/blackjackmx",
   "instagram": null,
@@ -482,8 +482,10 @@
    }
   ],
   "confidence": "medium",
-  "gaps": [],
-  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "gaps": [
+   "blackjackmx.com now shows an unrelated online gambling site (checked 2026-11-20); link removed"
+  ],
+  "research_file": "nc.json + nc-update-geo-2026-11.json + nc-update-zz-official-2026-11.json",
   "elevation_ft": 46
  },
  {
@@ -565,11 +567,11 @@
    "offroad",
    "motocross"
   ],
-  "access": "members",
-  "status": "unknown",
+  "access": "public",
+  "status": "open",
   "website": "http://bmmspark.com",
   "phone": "(828) 635-7766",
-  "facebook": null,
+  "facebook": "https://www.facebook.com/brushymountainmotorsportspark",
   "instagram": null,
   "tracks_on_site": [
    "MX track",
@@ -619,13 +621,18 @@
     "url": "https://geocoding.geo.census.gov/geocoder/",
     "title": "US Census Bureau geocoder: position of the listed street address (2491 Lambert Fork Rd, Taylorsville, Nc, 28681)",
     "accessed": "2026-11-20"
+   },
+   {
+    "url": "https://bmmspark.com/",
+    "title": "Brushy Mountain Motor Sports Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "MX track condition"
   ],
-  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "research_file": "nc.json + nc-update-geo-2026-11.json + nc-update-zz-official-2026-11.json",
   "elevation_ft": 1445
  },
  {
@@ -1560,8 +1567,8 @@
   "soil": {
    "primary": "sand",
    "secondary": null,
-   "notes": "Known as a deep sand track; riders say sand tracks there are tough.",
-   "confidence": "high"
+   "notes": "The club's own site (2026-11) describes a fast, deep sand track.",
+   "confidence": "medium"
   },
   "layout": {
    "speed": "unknown",
@@ -1615,6 +1622,11 @@
     "url": "https://www.youtube.com/watch?v=hznK4cWTuD8",
     "title": "Rider video (YouTube)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://ecmx.com",
+    "title": "Elizabeth City Motocross Club: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -1622,7 +1634,7 @@
    "Recent rider reports",
    "Prep routine"
   ],
-  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "research_file": "nc.json + nc-update-geo-2026-11.json + nc-update-zz-official-2026-11.json",
   "elevation_ft": 12
  },
  {
@@ -1802,7 +1814,7 @@
   ],
   "access": "unknown",
   "status": "unknown",
-  "website": "https://ironcladmotorsports.com",
+  "website": null,
   "phone": "(252) 624-9808",
   "facebook": "https://www.facebook.com/p/Ironclad-Motocross-100057460899476",
   "instagram": null,
@@ -1849,9 +1861,10 @@
   ],
   "confidence": "low",
   "gaps": [
-   "Current status"
+   "Current status",
+   "ironcladmotorsports.com is listed for sale by a domain broker (checked 2026-11-20); link removed"
   ],
-  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "research_file": "nc.json + nc-update-geo-2026-11.json + nc-update-zz-official-2026-11.json",
   "elevation_ft": 35
  },
  {
@@ -1884,8 +1897,8 @@
   "soil": {
    "primary": "sand",
    "secondary": "loam",
-   "notes": "Riders describe sand; a 2018 poster called the region deep sandy loam.",
-   "confidence": "high"
+   "notes": "The track's own site (2026-11) describes it as a 100% sand motocross track.",
+   "confidence": "medium"
   },
   "layout": {
    "speed": "unknown",
@@ -1952,13 +1965,18 @@
     "url": "https://www.youtube.com/watch?v=M9t30AkZ4x8",
     "title": "Rider video (YouTube)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.jwtfmx.com/",
+    "title": "JWTF MX (Jimmy Weinert Training Facility): official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "high",
   "gaps": [
    "Prep schedule"
   ],
-  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "research_file": "nc.json + nc-update-geo-2026-11.json + nc-update-zz-official-2026-11.json",
   "elevation_ft": 22
  },
  {
@@ -2597,7 +2615,7 @@
   ],
   "access": "appointment",
   "status": "open",
-  "website": "https://silvercreekmx.com",
+  "website": null,
   "phone": "(828) 448-5643",
   "facebook": "https://www.facebook.com/silver.creekmx",
   "instagram": "https://www.instagram.com/silvercreekmx",
@@ -2657,8 +2675,10 @@
    }
   ],
   "confidence": "medium",
-  "gaps": [],
-  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "gaps": [
+   "silvercreekmx.com no longer resolves (checked 2026-11-20); link removed"
+  ],
+  "research_file": "nc.json + nc-update-geo-2026-11.json + nc-update-zz-official-2026-11.json",
   "elevation_ft": 1664
  },
  {
@@ -2680,7 +2700,7 @@
   "access": "unknown",
   "status": "open",
   "website": "https://svmxpark.com",
-  "phone": "(336) 906-8565",
+  "phone": "(336) 239-7211",
   "facebook": "https://www.facebook.com/@svmxpark",
   "instagram": "https://instagram.com/silvervalleymx",
   "tracks_on_site": [
@@ -2759,6 +2779,11 @@
     "url": "https://www.youtube.com/watch?v=bQnlhRBMUwA",
     "title": "Rider video (YouTube)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://svmxpark.com",
+    "title": "SVMX Park (Silver Valley MX): official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -2766,7 +2791,7 @@
    "Soil type",
    "Open schedule"
   ],
-  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "research_file": "nc.json + nc-update-geo-2026-11.json + nc-update-zz-official-2026-11.json",
   "elevation_ft": 794
  },
  {

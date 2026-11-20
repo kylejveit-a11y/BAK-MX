@@ -19,9 +19,9 @@
   "access": "unknown",
   "status": "open",
   "website": "https://buddscreek.com/",
-  "phone": null,
-  "facebook": null,
-  "instagram": null,
+  "phone": "(301) 475-2000",
+  "facebook": "https://www.facebook.com/buddscreek",
+  "instagram": "https://www.instagram.com/buddscreekmx",
   "tracks_on_site": [
    "national MX track"
   ],
@@ -85,6 +85,11 @@
     "url": "https://geocoding.geo.census.gov/geocoder/",
     "title": "US Census Bureau geocoder: position of the listed street address (27963 Budds Creek Rd, Mechanicsville, Md, 20659)",
     "accessed": "2026-11-20"
+   },
+   {
+    "url": "https://buddscreek.com/",
+    "title": "Budds Creek Motocross Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -94,7 +99,7 @@
    "Public practice schedule",
    "Braking-bump/rut depth on a dry year"
   ],
-  "research_file": "nationals.json + md-update-geo-2026-11.json",
+  "research_file": "nationals.json + md-update-geo-2026-11.json + md-update-zz-official-2026-11.json",
   "elevation_ft": 156
  }
 ]

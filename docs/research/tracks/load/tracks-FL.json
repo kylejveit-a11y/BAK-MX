@@ -21,7 +21,7 @@
   "access": "public",
   "status": "open",
   "website": "https://74famfunpark.wixsite.com/74mxoffroad",
-  "phone": "239-284-3687",
+  "phone": "(941) 875-8944",
   "facebook": "https://www.facebook.com/p/74MX-at-the-RKC-61551684457547/",
   "instagram": null,
   "tracks_on_site": [
@@ -115,6 +115,11 @@
     "url": "https://geocoding.geo.census.gov/geocoder/",
     "title": "US Census Bureau geocoder: position of the listed street address (44800 Bermont Rd, Punta Gorda, Fl, 33982)",
     "accessed": "2026-11-20"
+   },
+   {
+    "url": "https://74famfunpark.wixsite.com/74mxoffroad",
+    "title": "74MX at the RKC: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -124,7 +129,7 @@
    "Secondary phone (239) 788-4589 listed alongside (239) 284-3687; not confirmed which is current",
    "Hours conflict between MX Parks (Fri-Sun) and Wheree (also Mon/Tue)"
   ],
-  "research_file": "fl-south.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "research_file": "fl-south.json + fl-update-geo-2026-11.json + fl-update-south.json + fl-update-zz-official-2026-11.json",
   "elevation_ft": 40
  },
  {
@@ -784,12 +789,12 @@
    "motocross",
    "training"
   ],
-  "access": "public",
+  "access": "members",
   "status": "open",
   "website": "https://fasttraxxflorida.com",
   "phone": "(813) 686-4543",
   "facebook": null,
-  "instagram": null,
+  "instagram": "https://instagram.com/fasttraxxflorida",
   "tracks_on_site": [
    "Bushnell MX main track (rebuilt 2026)",
    "second track listed but unconfirmed"
@@ -854,6 +859,11 @@
     "url": "https://discoversumterfl.com/category/things-to-do/01-sporting/motorsports/",
     "title": "Discover Sumter (county tourism) - Spyder MX listing at 4222 N US Hwy 301, Wildwood",
     "accessed": "2026-10-25"
+   },
+   {
+    "url": "https://fasttraxxflorida.com",
+    "title": "Bushnell MX: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -861,10 +871,9 @@
    "Soil and layout of the 2026 rebuild",
    "Whether rider reports about Spyder still apply",
    "Former Spyder operators now run Venom Training Academy (private coaching) - location not confirmed",
-   "Official site fasttraxxflorida.com could not be fetched in this pass",
    "Original Spyder MX listed by Sumter County tourism at 4222 N US Hwy 301, Wildwood (undated listing, status not stated); not a current track"
   ],
-  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json + fl-update-zz-official-2026-11.json",
   "elevation_ft": 64
  },
  {
@@ -1096,9 +1105,9 @@
   "access": "public",
   "status": "open",
   "website": "http://dadecitymx.com",
-  "phone": "(352) 567-0792",
-  "facebook": null,
-  "instagram": null,
+  "phone": "(813) 781-9569",
+  "facebook": "https://www.facebook.com/dadecitymx",
+  "instagram": "https://www.instagram.com/dadecitymx",
   "tracks_on_site": [
    "main MX track (lit for night racing)",
    "extended track layout used on select Sunday practices",
@@ -1206,6 +1215,11 @@
     "url": "https://unlimitedsportsmx.com/?p=40",
     "title": "Unlimited Sports MX - Florida Gold Cup schedule",
     "accessed": "2026-10-24"
+   },
+   {
+    "url": "https://dadecitymx.com/",
+    "title": "Dade City Motocross: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -1217,7 +1231,7 @@
    "Official site dadecitymx.com and social pages could not be fetched directly",
    "Two other phone numbers appear in older listings (352-588-4697, 813-781-9569); current main line unconfirmed"
   ],
-  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json + fl-update-zz-official-2026-11.json",
   "elevation_ft": 124
  },
  {
@@ -1417,8 +1431,8 @@
   "status": "open",
   "website": "https://deckertrainingfacility.com",
   "phone": "(850) 722-7616",
-  "facebook": null,
-  "instagram": null,
+  "facebook": "https://www.facebook.com/deckertrainingfacility",
+  "instagram": "https://www.instagram.com/deckertrainingfacility",
   "tracks_on_site": [
    "pro national track",
    "amateur/beginner track",
@@ -1506,6 +1520,11 @@
     "url": "https://mx-tickets.com/en-US/t/dtf/info",
     "title": "MX Tickets - Decker Training Facility",
     "accessed": "2026-10-25"
+   },
+   {
+    "url": "https://deckertrainingfacility.com",
+    "title": "Decker Training Facility at County Line MX: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -1514,7 +1533,7 @@
    "No rider detail on ruts or late-day behavior",
    "Coordinates now from the facility's ticketing page map pin, not a surveyed gate"
   ],
-  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json + fl-update-zz-official-2026-11.json",
   "elevation_ft": 197
  },
  {
@@ -1649,16 +1668,20 @@
     "url": "https://braaply.com/trail-systems/541",
     "title": "Braaply - Florida Cracker Ranch",
     "accessed": "2026-10-25"
+   },
+   {
+    "url": "https://centralfloridaoffroad.com/",
+    "title": "Florida Cracker Ranch: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Soil",
    "Dirt-bike rider reports",
-   "Address conflict: older listing says County Road 202; current event and directory listings say 797 County Road 200",
    "Whether non-members can ride on day passes (one directory lists day rates, another says members only)"
   ],
-  "research_file": "fl-central.json + fl-update-north.json"
+  "research_file": "fl-central.json + fl-update-north.json + fl-update-zz-official-2026-11.json"
  },
  {
   "id": "florida-motoplex",
@@ -1966,7 +1989,7 @@
   "website": "https://unlimitedsportsmx.com",
   "phone": "(321) 689-3461",
   "facebook": "https://www.facebook.com/gatorbackcycleparkmx/",
-  "instagram": null,
+  "instagram": "https://www.instagram.com/unlimitedsportsmx",
   "tracks_on_site": [
    "main MX (about 1.2 mi)",
    "supercross track",
@@ -2078,6 +2101,11 @@
     "url": "https://www.floracing.com/events/15968118-2026-thor-mini-os-at-gatorback-cycle-park",
     "title": "FloRacing - 2026 Thor Mini O's at Gatorback",
     "accessed": "2026-10-25"
+   },
+   {
+    "url": "https://unlimitedsportsmx.com",
+    "title": "Gatorback Cycle Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "high",
@@ -2087,7 +2115,7 @@
    "No regular open practice; exact current layout of each track not published",
    "Directory soil labels (red clay) conflict with rider descriptions (limerock/clay with added sand)"
   ],
-  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json + fl-update-zz-official-2026-11.json",
   "elevation_ft": 75
  },
  {
@@ -2297,16 +2325,20 @@
     "url": "https://fun4firstcoastkids.com/Sports-Programs/Family-Sports/",
     "title": "Fun 4 First Coast Kids - Family Sports listing",
     "accessed": "2026-10-25"
+   },
+   {
+    "url": "https://haroldmotorsports.com",
+    "title": "Harold Motor Sports: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Soil unknown",
    "No rider reports",
-   "Business phone varies: (904) 719-1010 on older listings, (904) 535-2290 on the lesson listing",
    "Dirt type and layout detail not published"
   ],
-  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json + fl-update-zz-official-2026-11.json",
   "elevation_ft": 51
  },
  {
@@ -2645,14 +2677,15 @@
   "access": "public",
   "status": "open",
   "website": "https://mesamotocross.com",
-  "phone": "(407) 808-9420",
+  "phone": "(786) 975-4024",
   "facebook": null,
   "instagram": null,
   "tracks_on_site": [
    "main/front track",
    "back track (quads on Wednesdays)",
    "pee-wee track",
-   "main/front track (all levels)"
+   "main/front track (all levels)",
+   "intermediate track"
   ],
   "soil": {
    "primary": "unknown",
@@ -2702,17 +2735,20 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/florida_11734/ride_be95.htm",
     "title": "RiderPlanet USA - Mesa MX (terrain checklist: mostly loose dirt, little sand, all berms)",
     "accessed": "2026-10-25"
+   },
+   {
+    "url": "https://mesamotocross.com",
+    "title": "Mesa Motocross Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Soil",
    "Layout",
-   "Stable operating history (has closed and reopened)",
-   "Phone conflict: (407) 808-9420 in park notes vs (786) 975-4024 in MX Parks contact block, which is the same number listed for Miami MX Park; call to confirm",
-   "Official site mesamotocross.com could not be fetched in this pass"
+   "Stable operating history (has closed and reopened)"
   ],
-  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json + fl-update-zz-official-2026-11.json",
   "elevation_ft": 31
  },
  {
@@ -2738,8 +2774,8 @@
   "status": "open",
   "website": "https://www.miamimxpark.com",
   "phone": "786-975-4024",
-  "facebook": null,
-  "instagram": null,
+  "facebook": "https://www.facebook.com/miamimotocrosspark",
+  "instagram": "https://instagram.com/miamimxparkofficial",
   "tracks_on_site": [
    "main track (about half a mile, lit, starting gate)",
    "intermediate loop",
@@ -2828,6 +2864,11 @@
     "url": "https://flmotocross.com/track/miami-mx-park",
     "title": "FL Motocross - Miami MX Park",
     "accessed": "2026-10-24"
+   },
+   {
+    "url": "https://miamimxpark.com/",
+    "title": "Miami Motocross Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -2838,7 +2879,7 @@
    "Long-term county lease status after 2020 not confirmed",
    "No 2026 event or rider-dated post found; status relies on directory review dates (Aug 2026)"
   ],
-  "research_file": "fl-south.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "research_file": "fl-south.json + fl-update-geo-2026-11.json + fl-update-south.json + fl-update-zz-official-2026-11.json",
   "elevation_ft": 8
  },
  {
@@ -3195,19 +3236,21 @@
   "access": "appointment",
   "status": "open",
   "website": "https://motosandbox.com",
-  "phone": null,
+  "phone": "(863) 899-3747",
   "facebook": "https://www.facebook.com/motosandbox",
   "instagram": "https://www.instagram.com/motosandbox",
   "tracks_on_site": [
    "2 MX tracks",
    "2 SX tracks",
-   "skills section"
+   "skills section",
+   "turn-only tracks",
+   "start gates with their own start straight"
   ],
   "soil": {
    "primary": "sand",
    "secondary": "clay",
-   "notes": "Directory calls it sandy dirt; a 2021 Deere profile mentions hauling capping clay from an on-site stockpile for building, suggesting a sand base with clay used on features. No rider confirmation.",
-   "confidence": "low"
+   "notes": "The facility's own site (2026-11) says both motocross tracks are sand, clay and dirt mixtures and the supercross tracks use two different soil types. A 2021 profile mentions capping clay hauled from an on-site stockpile. No rider confirmation.",
+   "confidence": "medium"
   },
   "layout": {
    "speed": "unknown",
@@ -3216,7 +3259,13 @@
    "traits": [
     "whoops",
     "big doubles/triples",
-    "booter jump"
+    "rollers",
+    "off-cambers",
+    "sweepers",
+    "hairpins",
+    "tabletops",
+    "step-ups",
+    "dragon's back"
    ],
    "notes": "Pro-level training compound on a former flat cow pasture; built and constantly reshaped by Dream Traxx. Jumps up to about 100 ft and a booter around 40 ft tall; sections customized to each rider's weaknesses. Directory lists 2 MX and 2 SX tracks plus a skills section."
   },
@@ -3243,17 +3292,21 @@
     "url": "https://deere.com/en/publications/the-dirt/pushing-potential",
     "title": "John Deere The Dirt - Pushing Potential (Moto Sandbox, Groveland, Fall 2021)",
     "accessed": "2026-10-25"
+   },
+   {
+    "url": "https://motosandbox.com",
+    "title": "Moto Sandbox MX Training Facility: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
-   "Soil confirmation",
    "Rider reports",
    "Street address and coordinates (only city Groveland confirmed; directories say Clermont)",
    "No direct 2026 operating evidence beyond directory update",
-   "Official site motosandbox.com could not be fetched in this pass"
+   "City: the facility's site says Clermont; earlier sources say Groveland"
   ],
-  "research_file": "fl-central.json + fl-update-south.json"
+  "research_file": "fl-central.json + fl-update-south.json + fl-update-zz-official-2026-11.json"
  },
  {
   "id": "motobros-punta-gorda-mx",
@@ -3767,7 +3820,7 @@
   "website": "https://orlandomxpark.com/",
   "phone": "(863) 634-2742",
   "facebook": null,
-  "instagram": null,
+  "instagram": "https://www.instagram.com/orlando.mx.park",
   "tracks_on_site": [
    "main MX track (~1 mile, lit)",
    "pee-wee / pit bike track",
@@ -3846,6 +3899,11 @@
     "url": "https://flmotocross.com/track/orlando-mx-park",
     "title": "FL Motocross - Orlando MX Park",
     "accessed": "2026-10-24"
+   },
+   {
+    "url": "https://orlandomxpark.com/",
+    "title": "Orlando MX Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -3855,7 +3913,7 @@
    "Whether a separate sand track is still maintained",
    "Official site not fetched"
   ],
-  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json + fl-update-zz-official-2026-11.json",
   "elevation_ft": 73
  },
  {
@@ -3883,8 +3941,8 @@
   "status": "open",
   "website": "https://paxtraxmxresort.com",
   "phone": "(386) 263-2982",
-  "facebook": null,
-  "instagram": null,
+  "facebook": "https://www.facebook.com/paxtraxmx",
+  "instagram": "https://www.instagram.com/paxtraxmx",
   "tracks_on_site": [
    "main track (~1 mile, irrigated, lit, start gate)",
    "intermediate/vet step-up track",
@@ -3962,6 +4020,11 @@
     "url": "https://riderplanet-usa.com/atv/trails/info/florida_03326/ride_9ea6.htm",
     "title": "RiderPlanet USA - Pax Trax",
     "accessed": "2026-10-24"
+   },
+   {
+    "url": "https://paxtraxmxresort.com",
+    "title": "Pax Trax Motocross Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -3970,7 +4033,7 @@
    "Wet-weather drainage detail",
    "Street number (2529 vs 2535)"
   ],
-  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json + fl-update-zz-official-2026-11.json",
   "elevation_ft": 29
  },
  {
@@ -4354,8 +4417,8 @@
   "status": "open",
   "website": "https://dirtstarssmx.com",
   "phone": "(850) 559-7112",
-  "facebook": null,
-  "instagram": null,
+  "facebook": "https://www.facebook.com/dirtstarssmx",
+  "instagram": "https://www.instagram.com/sunshinestate_mx",
   "tracks_on_site": [
    "main MX (about 1.5 mi)",
    "sand track",
@@ -4418,6 +4481,11 @@
     "url": "https://floridaseries.com/tracks/",
     "title": "Florida Motocross Series - Tracks",
     "accessed": "2026-10-25"
+   },
+   {
+    "url": "https://www.dirtstarssmx.com/",
+    "title": "Sunshine State MX Park: official site",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
@@ -4427,7 +4495,7 @@
    "Only one rider report",
    "Exact relationship between Sunshine State MX Park and Dirt Star Moto branding not explained by operator"
   ],
-  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json + fl-update-zz-official-2026-11.json",
   "elevation_ft": 105
  },
  {

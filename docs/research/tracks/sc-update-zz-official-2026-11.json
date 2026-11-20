@@ -1,0 +1,36 @@
+{
+ "note": "2026-11-20: facts read from each track's own website (contact details, access, soil where the track states it), and links removed where the address no longer leads to the track.",
+ "updates": [
+  {
+   "access": "appointment",
+   "id": "south-of-the-border-mx",
+   "sources": [
+    {
+     "url": "https://www.sobmx.com/",
+     "title": "South of the Border Motocross: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "access": "appointment",
+   "id": "the-shoals-mx",
+   "sources": [
+    {
+     "url": "http://www.theshoalsmx.com/",
+     "title": "The Shoals MX: official site",
+     "accessed": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "revolution-mx-park",
+   "clear": [
+    "website"
+   ],
+   "gaps": [
+    "revolutionmxtrack.com no longer resolves (checked 2026-11-20); link removed"
+   ]
+  }
+ ]
+}
