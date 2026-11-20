@@ -3,7 +3,7 @@
 import React,{useEffect,useMemo,useState} from 'react';
 import {Linking,Platform,ScrollView,Text,TextInput,View} from 'react-native';
 import * as Location from 'expo-location';
-import {WHERE_COPY as W,WIDTHS,mapSeason,byDistance,directionsLink,eventsAt,filterPlaces,fmtDay,fmtMiles,forecastLine,onxLink,partialNote,placeSummary,statesOf,toggleSaved,trailName,widthColor,widthLabel,type DayForecast,type PlaceDetail,type PlaceKind,type PlaceRow,type PlaceWeather,type TrailLine} from '../../../shared/where-to-ride';
+import {WHERE_COPY as W,WIDTHS,isClosed,mapSeason,byDistance,directionsLink,eventsAt,filterPlaces,fmtDay,fmtMiles,forecastLine,onxLink,partialNote,placeSummary,statesOf,toggleSaved,trailName,widthColor,widthLabel,type DayForecast,type PlaceDetail,type PlaceKind,type PlaceRow,type PlaceWeather,type TrailLine} from '../../../shared/where-to-ride';
 import {today} from '../../../shared/race-day';
 import type {RideEvent} from '../../../shared/rider-types';
 import {api} from './api';
@@ -99,13 +99,16 @@ function PlaceList({onOpen,onClose}:{onOpen:(id:string)=>void;onClose?:()=>void}
 }
 
 function PlaceRowView({p,saved,first,onPress}:{p:PlaceRow&{miles:number|null};saved:boolean;first:boolean;onPress:()=>void}){
- const where=[p.city?`${p.city}, ${p.state}`:p.state,p.miles!=null?`${p.approx?'about ':''}${Math.round(p.miles)} mi`:''].filter(Boolean).join(' · ');
- return <Pressable accessibilityRole="button" accessibilityLabel={`${p.name}. ${placeSummary(p)}. ${where}${saved?'. Saved':''}`} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:14,borderTopWidth:first?0:1,borderTopColor:'#1f232b',opacity:pressed?0.6:1})}>
+ const where=[p.city?`${p.city}, ${p.state}`:p.state,p.miles!=null?`${p.approx?'about ':''}${Math.round(p.miles)} mi`:''].filter(Boolean).join(' · '),shut=isClosed(p);
+ return <Pressable accessibilityRole="button" accessibilityLabel={`${p.name}${shut?', listed as closed':''}. ${placeSummary(p)}. ${where}${saved?'. Saved':''}`} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:14,borderTopWidth:first?0:1,borderTopColor:'#1f232b',opacity:pressed?0.6:1})}>
   <Icon name={p.kind==='riding_area'?'moto':'flag'} size={20} color={colors.accent}/>
   <View style={{flex:1,gap:3}}>
-   <Text style={{color:colors.text,fontSize:16,fontWeight:'700'}} numberOfLines={2}>{p.name}</Text>
-   <Text style={{color:'#adb5c1',fontSize:13.5}} numberOfLines={2}>{placeSummary(p)}</Text>
-   <Text style={{color:'#8b93a0',fontSize:12.5}} numberOfLines={1}>{where}{p.status==='closed'?' · Listed as closed':''}{p.trail_map?' · Trail map':''}</Text>
+   <View style={{flexDirection:'row',alignItems:'center',gap:8}}>
+    <Text style={{color:shut?'#9aa1ad':colors.text,fontSize:16,fontWeight:'700',flexShrink:1}} numberOfLines={2}>{p.name}</Text>
+    {shut&&<Text style={{color:'#f0b4a8',fontSize:11.5,fontWeight:'700',borderWidth:1,borderColor:'#6b3a33',backgroundColor:'#2a1714',borderRadius:999,paddingHorizontal:9,paddingVertical:2,overflow:'hidden'}}>Closed</Text>}
+   </View>
+   <Text style={{color:shut?'#727a87':'#adb5c1',fontSize:13.5}} numberOfLines={2}>{placeSummary(p)}</Text>
+   <Text style={{color:shut?'#727a87':'#8b93a0',fontSize:12.5}} numberOfLines={1}>{where}{p.trail_map?' · Trail map':''}</Text>
   </View>
   {saved&&<Icon name="heartOn" size={16} color={colors.accent}/>}
   <Icon name="chevronRight" size={18} color="#6f7784"/>

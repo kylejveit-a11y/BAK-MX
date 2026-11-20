@@ -28,6 +28,7 @@ test('near me: nearest first, places with no location last',()=>{
  const rows=[row({id:'far',lat:34,lng:-84}),row({id:'none'}),row({id:'near',lat:28.4,lng:-82.2})];
  assert.deepEqual(byDistance(rows,{lat:28.3,lng:-82.2}).map(r=>r.id),['near','far','none']);
  assert.deepEqual(byDistance(rows,null).map(r=>r.id),['far','none','near']);
+ assert.deepEqual(byDistance(rows.map(r=>r.id==='near'?{...r,status:'closed'}:r),{lat:28.3,lng:-82.2}).map(r=>r.id),['far','none','near'],'closed places sink below open ones');
 });
 test('links: onX is a plain public link; directions go to the trailhead when known',()=>{
  assert.equal(onxLink('GA'),'https://www.onxmaps.com/offroad/trails/us/georgia');

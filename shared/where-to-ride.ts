@@ -113,11 +113,13 @@ export function milesBetween(a:{lat:number;lng:number},b:{lat:number;lng:number}
  const h=Math.sin(dLat/2)**2+Math.cos(rad(a.lat))*Math.cos(rad(b.lat))*Math.sin(dLng/2)**2;
  return 2*R*Math.asin(Math.min(1,Math.sqrt(h)));
 }
-/** Nearest first when a location is known; places with no location keep name order at the end. */
+export const isClosed=(p:{status:string})=>p.status==='closed';
+/** Nearest first when a location is known; places with no location keep name order at the end. Places listed as closed
+ *  always sit below the open ones, so a rider working down the list does not keep opening places that are shut. */
 export function byDistance(rows:PlaceRow[],from:{lat:number;lng:number}|null):(PlaceRow&{miles:number|null})[]{
  const withMiles=rows.map(r=>({...r,miles:from&&r.lat!=null&&r.lng!=null?milesBetween(from,{lat:r.lat,lng:r.lng}):null}));
- if(!from)return withMiles;
- return withMiles.sort((a,b)=>(a.miles??Infinity)-(b.miles??Infinity)||a.name.localeCompare(b.name));
+ if(from)withMiles.sort((a,b)=>(a.miles??Infinity)-(b.miles??Infinity)||a.name.localeCompare(b.name));
+ return withMiles.sort((a,b)=>Number(isClosed(a))-Number(isClosed(b)));
 }
 
 const STATE_NAMES:Record<string,string>={AL:'alabama',AK:'alaska',AZ:'arizona',AR:'arkansas',CA:'california',CO:'colorado',CT:'connecticut',DE:'delaware',FL:'florida',GA:'georgia',HI:'hawaii',ID:'idaho',IL:'illinois',IN:'indiana',IA:'iowa',KS:'kansas',KY:'kentucky',LA:'louisiana',ME:'maine',MD:'maryland',MA:'massachusetts',MI:'michigan',MN:'minnesota',MS:'mississippi',MO:'missouri',MT:'montana',NE:'nebraska',NV:'nevada',NH:'new-hampshire',NJ:'new-jersey',NM:'new-mexico',NY:'new-york',NC:'north-carolina',ND:'north-dakota',OH:'ohio',OK:'oklahoma',OR:'oregon',PA:'pennsylvania',RI:'rhode-island',SC:'south-carolina',SD:'south-dakota',TN:'tennessee',TX:'texas',UT:'utah',VT:'vermont',VA:'virginia',WA:'washington',WV:'west-virginia',WI:'wisconsin',WY:'wyoming'};

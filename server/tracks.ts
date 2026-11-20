@@ -59,7 +59,8 @@ export async function trackContext(db:SupabaseClient,owner:string,texts:string[]
  *  (location on file), and the location rounded to about a mile so the nearest tracks can be offered first. */
 export async function trackDirectory(db:SupabaseClient):Promise<{id:string;name:string;city:string|null;state:string;aliases:string[];weather:boolean;lat:number|null;lng:number|null;kind:'track'|'riding_area'}[]>{
  // Reference-only tracks (listed=false) are never offered to riders, only used when a rider names them.
- const {data,error}=await db.from('tracks').select('id,name,aliases,city,state,lat,lng,kind,area').eq('review_status','APPROVED').eq('listed',true).order('name').limit(2000);
+ // Places listed as closed are left out of the race-day and ride-report pickers; Where to Ride still shows them, marked Closed.
+ const {data,error}=await db.from('tracks').select('id,name,aliases,city,state,lat,lng,kind,area').eq('review_status','APPROVED').eq('listed',true).neq('status','closed').order('name').limit(2000);
  if(error||!Array.isArray(data))return [];
  const round=(v:unknown)=>typeof v==='number'&&Number.isFinite(v)?Math.round(v*100)/100:null;
  return data.map(r=>({id:r.id as string,name:r.name as string,city:(r.city as string|null)??null,state:r.state as string,aliases:(r.aliases as string[]|null)??[],

@@ -194,3 +194,9 @@ sand 14), stored as low confidence with a note that it is the ground the track s
 Research file docs/research/tracks/usda-native-soil-2026-11.json; applied to the database directly (only where soil was
 empty or unknown). 43 of 254 still have no soil: no position, an indoor venue, or a mixed map unit. Track websites were
 searched for soil wording (30 sites, saved pages): none state it. Layout is still empty for the same places.
+
+## Closed places marked in the list (Kyle, 2026-11-20)
+Kyle opened four closed places in a row from the Where to Ride list. Now: a Closed badge beside the name, the row dimmed, and
+closed places sorted below every open one (shared byDistance); closed places are left out of the race-day and ride-report
+pickers (server). Web is live on deploy; the phone list changes with the next app build (the picker change is server-side).
+Track layout is dropped as a data task (Kyle: tracks change layouts too often to keep current).

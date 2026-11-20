@@ -4,7 +4,7 @@
 import {useEffect,useMemo,useState} from 'react';
 import {ArrowLeft,ArrowUpRight,CalendarDays,ChevronRight,Heart,LocateFixed,MapPin,MessageSquare,Phone,Search,X} from 'lucide-react';
 import {api} from './client';
-import {WHERE_COPY as W,WIDTHS,byDistance,directionsLink,eventsAt,filterPlaces,fmtDay,fmtMiles,forecastLine,mapSeason,onxLink,partialNote,placeSummary,statesOf,toggleSaved,trailName,widthColor,widthLabel,type DayForecast,type PlaceDetail,type PlaceKind,type PlaceRow,type PlaceWeather,type TrailLine} from '../shared/where-to-ride';
+import {WHERE_COPY as W,WIDTHS,isClosed,byDistance,directionsLink,eventsAt,filterPlaces,fmtDay,fmtMiles,forecastLine,mapSeason,onxLink,partialNote,placeSummary,statesOf,toggleSaved,trailName,widthColor,widthLabel,type DayForecast,type PlaceDetail,type PlaceKind,type PlaceRow,type PlaceWeather,type TrailLine} from '../shared/where-to-ride';
 import './where.css';
 
 const SAVED_KEY='bakmx:where-saved';
@@ -50,8 +50,8 @@ function PlaceList({onOpen}:{onOpen:(id:string)=>void}){
   {error&&<div className="error" role="alert">{error}</div>}
   {!rows&&!error&&<p className="subtle" role="status">Loading places…</p>}
   {rows&&!shown.length&&<p className="subtle">{kind==='saved'&&!saved.length?W.savedNone:W.none}</p>}
-  {!!shown.length&&<ul className="wr-list">{shown.map(p=><li key={p.id}><button type="button" onClick={()=>onOpen(p.id)}>
-   <span className="wr-row-main"><b>{p.name}{saved.includes(p.id)&&<Heart size={13} className="wr-heart" aria-label="Saved"/>}</b>
+  {!!shown.length&&<ul className="wr-list">{shown.map(p=><li key={p.id} className={isClosed(p)?'wr-shut':undefined}><button type="button" onClick={()=>onOpen(p.id)}>
+   <span className="wr-row-main"><b>{p.name}{isClosed(p)&&<span className="wr-closed">Closed</span>}{saved.includes(p.id)&&<Heart size={13} className="wr-heart" aria-label="Saved"/>}</b>
     <small>{placeSummary(p)}</small>
     <small className="wr-where">{[p.city?`${p.city}, ${p.state}`:p.state,p.miles!=null?`${Math.round(p.miles)} mi away`:''].filter(Boolean).join(' · ')}</small></span>
    {!!p.widths.length&&<span className="wr-bars" aria-hidden="true">{p.widths.map(w=><i key={w} style={{background:widthColor(w)}}/>)}</span>}
