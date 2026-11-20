@@ -1,6 +1,6 @@
 # Kawasaki KX: aftermarket brands
 
-434 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
+437 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
@@ -80,8 +80,8 @@
 | Michelin | 41 | Tires (39), wheels (1), Mousse or tube (1) | MotoSport 23, research 18 |
 | Mika Metals | 41 | Handlebars & Controls (15), Drive (10), Controls (7), Uncategorised (6), Chain & Sprocket (1), controls (1) | Cycle Gear 22, MotoSport 17, research 2 |
 | P3 | 41 | Bike Protection (10), Exhaust (10), Skid Plates and Guards (8), protection (6), Body (5), Suspension (1) | Cycle Gear 15, MotoSport 20, research 6 |
+| XPR Motorsports | 41 | engine (21), tuning (20) | research 41 |
 | Namz Custom Cycle | 40 | Lights and Electrical (40) | MotoSport 40 |
-| XPR Motorsports | 40 | tuning (20), engine (20) | research 40 |
 | BBR Motorsports | 39 | Exhaust (15), Uncategorised (12), Handlebars & Controls (9), Air & Fuel (3) | Cycle Gear 39 |
 | Athena | 38 | Uncategorised (19), Engine (13), engine (6) | Cycle Gear 19, MotoSport 13, research 6 |
 | Throttle Syndicate | 38 | Graphics (35), Uncategorised (3) | Cycle Gear 3, MotoSport 35 |
@@ -100,7 +100,7 @@
 | Domino | 29 | Uncategorised (27), Controls (2) | Cycle Gear 27, MotoSport 2 |
 | Factory Connection | 29 | Suspension (15), suspension (14) | Cycle Gear 10, MotoSport 5, research 14 |
 | Maxima | 29 | oils (20), Suspension (5), Tools and Maintenance (4) | MotoSport 9, research 20 |
-| Race Tech | 28 | suspension (18), Suspension (9), engine (1) | Cycle Gear 4, MotoSport 5, research 19 |
+| Race Tech | 29 | suspension (18), Suspension (9), engine (2) | Cycle Gear 4, MotoSport 5, research 20 |
 | Hot Cams | 27 | engine (22), Uncategorised (5) | Cycle Gear 5, research 22 |
 | Pro-X | 27 | engine (25), clutch (2) | research 27 |
 | DP Brakes | 26 | Brakes (13), Drive & Transmission (5), brakes (4), Uncategorised (2), clutch (2) | Cycle Gear 20, research 6 |
@@ -361,6 +361,7 @@
 | Driven Racing | 1 | Controls (1) | MotoSport 1 |
 | DT-1 | 1 | intake (1) | research 1 |
 | Dubya | 1 | Wheels and Rims (1) | MotoSport 1 |
+| Dubya USA | 1 | wheels (1) | research 1 |
 | EKS Brand | 1 | Controls (1) | MotoSport 1 |
 | Factory Chassis Parts (FCP) | 1 | chassis (1) | research 1 |
 | Fastway (Pro Moto Billet) | 1 | controls (1) | research 1 |
@@ -428,9 +429,11 @@
 | Triumph | 1 | tuning (1) | research 1 |
 | Twisted Development (Pro X) | 1 | engine (1) | research 1 |
 | TZR | 1 | tuning (1) | research 1 |
+| Varner Motorsports | 1 | engine (1) | research 1 |
 | Vertex (via Pro Circuit) | 1 | engine (1) | research 1 |
 | VHM | 1 | intake (1) | research 1 |
 | Vortex (with FMF exhaust) | 1 | tuning (1) | research 1 |
+| Warp 9 Racing | 1 | wheels (1) | research 1 |
 | Wash-15 Offroad | 1 | Body (1) | MotoSport 1 |
 | WMR Racing Development | 1 | tuning (1) | research 1 |
 | XPR Motorsports (CP-Carrillo) | 1 | engine (1) | research 1 |

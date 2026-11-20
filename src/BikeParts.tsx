@@ -5,7 +5,7 @@ import {checkBuild} from '../shared/build-check';
 import {partSystems,readInstalled,writeInstalled,partLabel,MAX_PARTS,type InstalledPart,type PartSystem} from '../shared/installed-parts';
 import {partsForBike,type CatalogPart} from './partsCatalog';
 import {api} from './client';
-import {NOTE_HINT,WORK,providersFor,cleanName,pickerChoices,typesWithCounts,choicesOfType,brandsIn,productsOf,type Work,type PartColor} from '../shared/parts-picker';
+import {NOTE_HINT,WORK,WORK_KIND_HEADING,providersFor,cleanName,pickerChoices,typesWithCounts,choicesOfType,brandsIn,productsOf,type Work,type PartColor} from '../shared/parts-picker';
 import {fuelSystem,fuelSystemLabel} from '../shared/fuel-system';
 
 const ICON:Record<PartSystem,typeof Flame>={exhaust:Flame,suspension:MoveVertical,engine:Cog,clutch:Disc,tuning:Cpu,intake:Wind,gearing:LinkIcon,brakes:Disc3,controls:Hand,chassis:Frame,wheels:CircleDot,protection:Shield,body:Layers};
@@ -115,7 +115,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
     </ul></>}
     {screen.id==='type'&&system!=='tuning'&&workList}
     {screen.id==='work'&&(()=>{const w=screen.work,shops=w.kind?providersFor(w.kind,bike.manufacturer,bike.model):[],go=(who:string,r?:string)=>{setDetail('');push({id:'detail',work:w,who,...(r?{r}:{})})};return <>
-     {shops.length>0&&<><h3 className="nav-section">{w.kind==='ecu'?'TUNERS':'SUSPENSION SHOPS'}</h3><ul className="nav-list">
+     {shops.length>0&&<><h3 className="nav-section">{WORK_KIND_HEADING[w.kind??'suspension']}</h3><ul className="nav-list">
       {shops.map(p=><Row key={p.id} label={<><b>{p.brand}</b><small>{p.label}</small></>} onClick={()=>go(p.brand,p.exact?p.id:undefined)}/>)}</ul></>}
      <ul className="nav-list">
       <Row label={<b>Someone else</b>} detail="Type it" onClick={()=>{setCustom({b:'',n:w.label,p:''});push({id:'custom',brand:'',type:w.label})}}/>

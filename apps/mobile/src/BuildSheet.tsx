@@ -5,7 +5,7 @@ import {Modal,View,Text,ScrollView,TextInput,ActivityIndicator,KeyboardAvoidingV
 import {Pressable} from './Touch';
 import type {Bike} from '../../../shared/types';
 import {partSystems,readInstalled,writeInstalled,MAX_PARTS,type InstalledPart,type PartSystem} from '../../../shared/installed-parts';
-import {decodeFamily,familyOf,NOTE_HINT,WORK,providersFor,cleanName,canonBrand,pickerChoices,typesWithCounts,choicesOfType,sizesFor,chosenPartNumber,colorsFor,optionsFor,type CatalogPart,type FamilyFile,type Work,type Choice} from '../../../shared/parts-picker';
+import {decodeFamily,familyOf,NOTE_HINT,WORK,WORK_KIND_HEADING,providersFor,cleanName,canonBrand,pickerChoices,typesWithCounts,choicesOfType,sizesFor,chosenPartNumber,colorsFor,optionsFor,type CatalogPart,type FamilyFile,type Work,type Choice} from '../../../shared/parts-picker';
 import {checkBuild,typeOfPart,slotOf,type BuildCheck} from '../../../shared/build-check';
 import {fuelSystem,fuelSystemLabel} from '../../../shared/fuel-system';
 import {api,apiOrigin} from './api';
@@ -180,7 +180,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save,persist}:{system
      <Button disabled={busy} title={busy?'Saving…':'Done'} onPress={done}/>
     </>}
     {screen.id==='work'&&(()=>{const w=screen.work,shops=w.kind?providersFor(w.kind,bike.manufacturer,bike.model):[],go=(who:string,r?:string)=>push({id:'detail',work:w,who,...(r?{r}:{})});return <>
-     {shops.length>0&&<><Section title={w.kind==='ecu'?'TUNERS':'SUSPENSION SHOPS'}/><Group>{shops.map(p=><Row key={p.id} label={p.brand} small={p.label} onPress={()=>go(p.brand,p.exact?p.id:undefined)}/>)}</Group></>}
+     {shops.length>0&&<><Section title={WORK_KIND_HEADING[w.kind??'suspension']}/><Group>{shops.map(p=><Row key={p.id} label={p.brand} small={p.label} onPress={()=>go(p.brand,p.exact?p.id:undefined)}/>)}</Group></>}
      <Group>
       <Row label={w.kind==='ecu'?'My dealer':'My dealer or local shop'} onPress={()=>go(w.kind==='ecu'?'Dealer':'Local shop')}/>
       <Row label="I did it myself" onPress={()=>go('Myself')}/>

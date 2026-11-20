@@ -1,6 +1,6 @@
 # Triumph TF: aftermarket brands
 
-416 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
+419 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
@@ -59,8 +59,8 @@
 | JT Sprockets | 44 | gearing (43), Chain & Sprocket (1) | Cycle Gear 1, research 43 |
 | Michelin | 41 | Tires (39), wheels (1), Mousse or tube (1) | MotoSport 23, research 18 |
 | Twin Air | 41 | intake (13), Tools and Maintenance (11), Uncategorised (7), Air & Fuel (4), Engine (3), Exhaust (2) | Cycle Gear 13, MotoSport 15, research 13 |
+| XPR Motorsports | 41 | engine (21), tuning (20) | research 41 |
 | Namz Custom Cycle | 40 | Lights and Electrical (40) | MotoSport 40 |
-| XPR Motorsports | 40 | tuning (20), engine (20) | research 40 |
 | Moto-Master | 39 | brakes (25), Brakes (8), gearing (6) | MotoSport 8, research 31 |
 | Motolis | 37 | Chain & Sprocket (35), Handlebars & Controls (2) | Cycle Gear 37 |
 | REP Suspension (Research Engineering Performance) | 35 | suspension (31), chassis (4) | research 35 |
@@ -79,10 +79,10 @@
 | Pro-X | 27 | engine (25), clutch (2) | research 27 |
 | Supersprox | 27 | gearing (24), Drive (3) | MotoSport 3, research 24 |
 | BBR Motorsports | 26 | Exhaust (10), Uncategorised (8), Handlebars & Controls (6), Air & Fuel (2) | Cycle Gear 26 |
+| Race Tech | 26 | suspension (18), Suspension (6), engine (2) | Cycle Gear 2, MotoSport 4, research 20 |
 | IRC | 25 | Tires (25) | MotoSport 22, research 3 |
 | KYB | 25 | suspension (25) | research 25 |
 | Plews | 25 | Tires (24), Mousse or tube (1) | research 25 |
-| Race Tech | 25 | suspension (18), Suspension (6), engine (1) | Cycle Gear 2, MotoSport 4, research 19 |
 | WP | 25 | suspension (25) | research 25 |
 | Givi | 24 | Luggage and Racks (19), Farming and Hunting (5) | MotoSport 24 |
 | Hot Cams | 24 | engine (22), Uncategorised (2) | Cycle Gear 2, research 22 |
@@ -340,6 +340,7 @@
 | Dialed Mfg | 1 | suspension (1) | research 1 |
 | Driven Racing | 1 | Controls (1) | MotoSport 1 |
 | DT-1 | 1 | intake (1) | research 1 |
+| Dubya USA | 1 | wheels (1) | research 1 |
 | EKS Brand | 1 | Controls (1) | MotoSport 1 |
 | Factory Chassis Parts (FCP) | 1 | chassis (1) | research 1 |
 | Fastway (Pro Moto Billet) | 1 | controls (1) | research 1 |
@@ -410,9 +411,11 @@
 | Twisted Development (Pro X) | 1 | engine (1) | research 1 |
 | Twisted Development / Vortex | 1 | tuning (1) | research 1 |
 | TZR | 1 | tuning (1) | research 1 |
+| Varner Motorsports | 1 | engine (1) | research 1 |
 | Vertex (via Pro Circuit) | 1 | engine (1) | research 1 |
 | VHM | 1 | intake (1) | research 1 |
 | Vortex (with FMF exhaust) | 1 | tuning (1) | research 1 |
+| Warp 9 Racing | 1 | wheels (1) | research 1 |
 | Wash-15 Offroad | 1 | Body (1) | MotoSport 1 |
 | WMR Racing Development | 1 | tuning (1) | research 1 |
 | XPR Motorsports (CP-Carrillo) | 1 | engine (1) | research 1 |

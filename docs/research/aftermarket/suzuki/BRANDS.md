@@ -1,6 +1,6 @@
 # Suzuki RM-Z: aftermarket brands
 
-295 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
+298 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
@@ -39,8 +39,8 @@
 | EK Chain | 44 | Chain & Sprocket (44) | Cycle Gear 44 |
 | Hinson | 43 | clutch (23), Drive & Transmission (12), engine (6), Uncategorised (2) | Cycle Gear 14, research 29 |
 | Twin Air | 42 | intake (13), Uncategorised (12), Air & Fuel (8), Filters (5), Bike Protection (2), Exhaust (2) | Cycle Gear 29, research 13 |
+| XPR Motorsports | 41 | engine (21), tuning (20) | research 41 |
 | Motolis | 40 | Chain & Sprocket (36), Handlebars & Controls (2), Filters (2) | Cycle Gear 40 |
-| XPR Motorsports | 40 | tuning (20), engine (20) | research 40 |
 | Enduro Engineering | 39 | Handlebars & Controls (14), protection (8), Bike Protection (6), Uncategorised (4), UTV / ATV Parts (4), Exhaust (2) | Cycle Gear 30, research 9 |
 | Wiseco | 39 | engine (33), Uncategorised (6) | Cycle Gear 6, research 33 |
 | Koso | 38 | Gauges (30), Uncategorised (4), Lighting (4) | Cycle Gear 38 |
@@ -71,7 +71,7 @@
 | Supersprox | 24 | gearing (24) | research 24 |
 | Pirelli | 23 | Tires (21), Mousse or tube (2) | research 23 |
 | ProX | 22 | engine (22) | research 22 |
-| Race Tech | 21 | suspension (18), Suspension (2), engine (1) | Cycle Gear 2, research 19 |
+| Race Tech | 22 | suspension (18), Suspension (2), engine (2) | Cycle Gear 2, research 20 |
 | DRC | 20 | Uncategorised (14), Exhaust (6) | Cycle Gear 20 |
 | Excel | 20 | Uncategorised (16), wheels (4) | Cycle Gear 16, research 4 |
 | Maxima | 20 | oils (20) | research 20 |
@@ -246,6 +246,7 @@
 | DEP | 1 | exhaust (1) | research 1 |
 | Dialed Mfg | 1 | suspension (1) | research 1 |
 | DT-1 | 1 | intake (1) | research 1 |
+| Dubya USA | 1 | wheels (1) | research 1 |
 | Factory Chassis Parts (FCP) | 1 | chassis (1) | research 1 |
 | Fastway | 1 | controls (1) | research 1 |
 | Fastway (Pro Moto Billet) | 1 | controls (1) | research 1 |
@@ -292,9 +293,11 @@
 | Twisted Development (Pro X) | 1 | engine (1) | research 1 |
 | Twisted Development / Vortex | 1 | tuning (1) | research 1 |
 | TZR | 1 | tuning (1) | research 1 |
+| Varner Motorsports | 1 | engine (1) | research 1 |
 | Vertex (via Pro Circuit) | 1 | engine (1) | research 1 |
 | VHM | 1 | intake (1) | research 1 |
 | Vortex (with FMF exhaust) | 1 | tuning (1) | research 1 |
+| Warp 9 Racing | 1 | wheels (1) | research 1 |
 | WMR Racing Development | 1 | tuning (1) | research 1 |
 | XPR Motorsports (CP-Carrillo) | 1 | engine (1) | research 1 |
 | Yamaha | 1 | tuning (1) | research 1 |

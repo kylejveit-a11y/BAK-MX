@@ -1,6 +1,6 @@
 # Honda CRF: aftermarket brands
 
-440 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
+443 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
@@ -85,9 +85,9 @@
 | Fastway | 43 | Controls (30), Body (4), Exhaust (4), Skid Plates and Guards (1), Drive (1), Tools and Maintenance (1) | MotoSport 42, research 1 |
 | Cylinder Works | 42 | engine (29), Engine (7), Uncategorised (6) | Cycle Gear 6, MotoSport 7, research 29 |
 | Michelin | 41 | Tires (39), wheels (1), Mousse or tube (1) | MotoSport 23, research 18 |
+| XPR Motorsports | 41 | engine (21), tuning (20) | research 41 |
 | Maxima Lubricants | 40 | Air & Fuel (23), Filters (7), intake (5), Uncategorised (3), engine (2) | Cycle Gear 33, research 7 |
 | Namz Custom Cycle | 40 | Lights and Electrical (40) | MotoSport 40 |
-| XPR Motorsports | 40 | tuning (20), engine (20) | research 40 |
 | Scott | 39 | Uncategorised (31), UTV / ATV Parts (4), Controls (4) | Cycle Gear 35, MotoSport 4 |
 | Domino | 38 | Uncategorised (36), Controls (2) | Cycle Gear 36, MotoSport 2 |
 | DCOR | 36 | Uncategorised (17), Seats (8), Bike Protection (7), controls (3), body (1) | Cycle Gear 32, research 4 |
@@ -101,10 +101,10 @@
 | Puig | 33 | Uncategorised (15), Handlebars & Controls (10), Bike Protection (4), controls (3), Controls (1) | Cycle Gear 29, MotoSport 1, research 3 |
 | Husqvarna Technical Accessories | 32 | Controls (15), Body (5), Lights and Electrical (2), Skid Plates and Guards (2), Wheels and Rims (2), Fuel System (1) | MotoSport 31, research 1 |
 | PC Racing | 32 | Filters (11), Air & Fuel (10), Suspension (5), Engine (2), intake (2), Intake (1) | Cycle Gear 25, MotoSport 4, research 3 |
+| Race Tech | 32 | suspension (19), Suspension (11), engine (2) | Cycle Gear 6, MotoSport 5, research 21 |
 | Barnett | 31 | Drive & Transmission (13), clutch (12), Uncategorised (4), UTV / ATV Parts (2) | Cycle Gear 19, research 12 |
 | Hardline | 31 | Gauges (20), Lights and Electrical (6), Uncategorised (4), Wheels and Rims (1) | Cycle Gear 24, MotoSport 7 |
 | Maxxis | 31 | Tires (31) | MotoSport 6, research 25 |
-| Race Tech | 31 | suspension (19), Suspension (11), engine (1) | Cycle Gear 6, MotoSport 5, research 20 |
 | Uni Filter | 31 | Air & Fuel (21), Uncategorised (8), intake (2) | Cycle Gear 29, research 2 |
 | Factory Connection | 30 | suspension (17), Suspension (13) | Cycle Gear 11, research 17, MotoSport 2 |
 | Graves Motorsports | 30 | Exhaust (21), Uncategorised (7), Bike Protection (1), controls (1) | Cycle Gear 29, research 1 |
@@ -362,6 +362,7 @@
 | Driven Racing | 1 | Controls (1) | MotoSport 1 |
 | DT-1 | 1 | intake (1) | research 1 |
 | Dubya | 1 | Wheels and Rims (1) | MotoSport 1 |
+| Dubya USA | 1 | wheels (1) | research 1 |
 | EKS Brand | 1 | Controls (1) | MotoSport 1 |
 | Factory Chassis Parts (FCP) | 1 | chassis (1) | research 1 |
 | Fastway (Pro Moto Billet) | 1 | controls (1) | research 1 |
@@ -434,9 +435,11 @@
 | Twisted Development (Pro X) | 1 | engine (1) | research 1 |
 | Twisted Development / Vortex | 1 | tuning (1) | research 1 |
 | TZR | 1 | tuning (1) | research 1 |
+| Varner Motorsports | 1 | engine (1) | research 1 |
 | Vertex (via Pro Circuit) | 1 | engine (1) | research 1 |
 | VHM | 1 | intake (1) | research 1 |
 | Vortex (with FMF exhaust) | 1 | tuning (1) | research 1 |
+| Warp 9 Racing | 1 | wheels (1) | research 1 |
 | Wash-15 Offroad | 1 | Body (1) | MotoSport 1 |
 | WMR Racing Development | 1 | tuning (1) | research 1 |
 | XPR Motorsports (CP-Carrillo) | 1 | engine (1) | research 1 |

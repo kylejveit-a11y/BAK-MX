@@ -1,6 +1,6 @@
 # KTM family: aftermarket brands
 
-488 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
+491 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
@@ -94,8 +94,8 @@
 | XTrig | 43 | Suspension (26), Uncategorised (15), controls (1), suspension (1) | Cycle Gear 41, research 2 |
 | All Balls | 42 | Suspension (11), Brakes (9), Wheels and Rims (6), Engine (6), Fuel System (6), Controls (3) | MotoSport 42 |
 | Big Gun | 42 | Exhaust (40), exhaust (2) | Cycle Gear 32, MotoSport 8, research 2 |
+| XPR Motorsports | 41 | engine (21), tuning (20) | research 41 |
 | Namz Custom Cycle | 40 | Lights and Electrical (40) | MotoSport 40 |
-| XPR Motorsports | 40 | tuning (20), engine (20) | research 40 |
 | BBR Motorsports | 39 | Exhaust (15), Uncategorised (12), Handlebars & Controls (9), Air & Fuel (3) | Cycle Gear 39 |
 | Throttle Syndicate | 36 | Graphics (32), Uncategorised (4) | Cycle Gear 3, MotoSport 33 |
 | Giant Loop | 35 | Luggage and Racks (23), Exhaust (4), Lights and Electrical (3), Accessories (2), Farming and Hunting (1), Graphics (1) | Cycle Gear 3, MotoSport 32 |
@@ -116,10 +116,10 @@
 | EBC | 28 | Brakes (14), brakes (11), Engine (3) | KTM Twins 5, MotoSport 12, research 11 |
 | Factory Connection | 28 | Suspension (14), suspension (14) | Cycle Gear 11, MotoSport 3, research 14 |
 | Puig | 28 | Uncategorised (12), Handlebars & Controls (10), Bike Protection (3), controls (2), Controls (1) | Cycle Gear 25, MotoSport 1, research 2 |
+| Race Tech | 28 | suspension (18), Suspension (8), engine (2) | Cycle Gear 3, MotoSport 5, research 20 |
 | Supersprox | 28 | gearing (24), Drive (3), drivetrain (1) | research 25, MotoSport 3 |
 | DCOR | 27 | Seats (13), Uncategorised (12), Bike Protection (2) | Cycle Gear 27 |
 | Pro-X | 27 | engine (25), clutch (2) | research 27 |
-| Race Tech | 27 | suspension (18), Suspension (8), engine (1) | Cycle Gear 3, MotoSport 5, research 19 |
 | Barnett | 25 | clutch (10), Drive & Transmission (9), Uncategorised (3), UTV / ATV Parts (1), Clutches (1), Engine (1) | Cycle Gear 13, KTM Twins 1, MotoSport 1, research 10 |
 | Brembo | 25 | Brakes (23), brakes (2) | Cycle Gear 23, research 2 |
 | Guts | 25 | Uncategorised (25) | Cycle Gear 25 |
@@ -389,6 +389,7 @@
 | Driven Racing | 1 | Controls (1) | MotoSport 1 |
 | DT-1 | 1 | intake (1) | research 1 |
 | Dubya | 1 | Wheels and Rims (1) | MotoSport 1 |
+| Dubya USA | 1 | wheels (1) | research 1 |
 | D‘COR Visuals | 1 | Uncategorised (1) | MotoSport 1 |
 | EKS Brand | 1 | Controls (1) | MotoSport 1 |
 | Eline | 1 | Fuel Management (1) | KTM Twins 1 |
@@ -481,8 +482,10 @@
 | Twisted Development / Vortex | 1 | tuning (1) | research 1 |
 | TZR | 1 | tuning (1) | research 1 |
 | Unabiker | 1 | Bike Protection (1) | Cycle Gear 1 |
+| Varner Motorsports | 1 | engine (1) | research 1 |
 | Vertex (via Pro Circuit) | 1 | engine (1) | research 1 |
 | Vortex (with FMF exhaust) | 1 | tuning (1) | research 1 |
+| Warp 9 Racing | 1 | wheels (1) | research 1 |
 | Wash-15 Offroad | 1 | Body (1) | MotoSport 1 |
 | WCL | 1 | chassis (1) | research 1 |
 | WMR Racing Development | 1 | tuning (1) | research 1 |

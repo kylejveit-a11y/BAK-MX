@@ -1,6 +1,6 @@
 # Yamaha YZ: aftermarket brands
 
-438 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
+441 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
@@ -95,8 +95,8 @@
 | Bridgestone | 45 | Tires (44), Mousse or tube (1) | MotoSport 12, research 33 |
 | Yamaha GYTR | 44 | GYTR (44) | Yamaha dealer 44 |
 | Vortex Racing | 42 | Chain & Sprocket (22), drivetrain (10), Handlebars & Controls (8), controls (2) | Cycle Gear 30, research 12 |
+| XPR Motorsports | 42 | engine (21), tuning (20), intake (1) | research 42 |
 | Michelin | 41 | Tires (39), wheels (1), Mousse or tube (1) | MotoSport 23, research 18 |
-| XPR Motorsports | 41 | tuning (20), engine (20), intake (1) | research 41 |
 | Baja Designs | 40 | Lighting (29), electrics (11) | Cycle Gear 29, research 11 |
 | Namz Custom Cycle | 40 | Lights and Electrical (40) | MotoSport 40 |
 | Uni Filter | 39 | Air & Fuel (23), Uncategorised (8), intake (6), body (2) | Cycle Gear 31, research 8 |
@@ -111,9 +111,9 @@
 | REP Suspension (Research Engineering Performance) | 35 | suspension (31), chassis (4) | research 35 |
 | Shinko | 35 | Tires (35) | MotoSport 35 |
 | Öhlins | 35 | suspension (35) | research 35 |
+| Race Tech | 34 | suspension (20), Suspension (12), engine (2) | Cycle Gear 6, MotoSport 6, research 22 |
 | SealSavers | 34 | Bike Protection (12), Tools and Maintenance (5), Suspension (4), UTV / ATV Parts (4), Uncategorised (4), suspension (3) | Cycle Gear 24, MotoSport 5, research 5 |
 | PC Racing | 33 | Filters (11), Air & Fuel (9), Suspension (5), Engine (2), body (2), Intake (1) | Cycle Gear 24, MotoSport 4, research 5 |
-| Race Tech | 33 | suspension (20), Suspension (12), engine (1) | Cycle Gear 6, MotoSport 6, research 21 |
 | Husqvarna Technical Accessories | 32 | Controls (15), Body (5), Lights and Electrical (2), Skid Plates and Guards (2), Wheels and Rims (2), Fuel System (1) | MotoSport 31, research 1 |
 | E-Line | 31 | Bike Protection (11), protection (6), Exhaust (5), Lighting (4), Body (4), Suspension (1) | Cycle Gear 19, MotoSport 6, research 6 |
 | Maxxis | 31 | Tires (31) | MotoSport 6, research 25 |
@@ -366,6 +366,7 @@
 | Driven Racing | 1 | Controls (1) | MotoSport 1 |
 | DT-1 | 1 | intake (1) | research 1 |
 | Dubya | 1 | Wheels and Rims (1) | MotoSport 1 |
+| Dubya USA | 1 | wheels (1) | research 1 |
 | EKS Brand | 1 | Controls (1) | MotoSport 1 |
 | Factory Chassis Parts (FCP) | 1 | chassis (1) | research 1 |
 | Fastway (Pro Moto Billet) | 1 | controls (1) | research 1 |
@@ -434,8 +435,10 @@
 | Twisted Development (Pro X) | 1 | engine (1) | research 1 |
 | Twisted Development / Vortex | 1 | tuning (1) | research 1 |
 | TZR | 1 | tuning (1) | research 1 |
+| Varner Motorsports | 1 | engine (1) | research 1 |
 | Vertex (via Pro Circuit) | 1 | engine (1) | research 1 |
 | Vortex (with FMF exhaust) | 1 | tuning (1) | research 1 |
+| Warp 9 Racing | 1 | wheels (1) | research 1 |
 | Wash-15 Offroad | 1 | Body (1) | MotoSport 1 |
 | WMR Racing Development | 1 | tuning (1) | research 1 |
 | XPR Motorsports (CP-Carrillo) | 1 | engine (1) | research 1 |

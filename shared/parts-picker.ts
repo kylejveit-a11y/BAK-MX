@@ -59,16 +59,20 @@ export const WORK:Partial<Record<PartSystem,Work[]>>={
  suspension:[{label:'Fork revalved',kind:'suspension',detail:'Valving, springs, oil height',example:'e.g. stiffer mid-valve, 0.50 springs'},{label:'Shock revalved',kind:'suspension',detail:'Valving, spring rate',example:'e.g. more low-speed comp, 5.4 spring'},
   {label:'Fork serviced',kind:'suspension',detail:'Hours since, oil used',example:'e.g. 20 hours ago, stock valving'},{label:'Shock serviced',kind:'suspension',detail:'Hours since',example:'e.g. 20 hours ago'}],
  tuning:[{label:'ECU flashed or remapped',kind:'ecu',detail:'Map name or number, what it’s set up for',example:'e.g. green map, pump gas, FMF pipe'}],
- engine:[{label:'Head ported',detail:'What was done',example:'e.g. ported and polished, new valves'},{label:'Top end rebuilt',detail:'Hours since, piston used',example:'e.g. 5 hours ago, Vertex high comp'},{label:'Bottom end rebuilt',detail:'Hours since',example:'e.g. 30 hours ago'}],
+ engine:[{label:'Engine built or modified',kind:'engine',detail:'What the builder did',example:'e.g. stage 1 package, ported head, high-comp piston'},{label:'Head ported',kind:'engine',detail:'What was done',example:'e.g. ported and polished, new valves'},{label:'Top end rebuilt',kind:'engine',detail:'Hours since, piston used',example:'e.g. 5 hours ago, Vertex high comp'},{label:'Bottom end rebuilt',kind:'engine',detail:'Hours since',example:'e.g. 30 hours ago'}],
+ wheels:[{label:'Wheels built or laced',kind:'wheels',detail:'Rims, hubs and spokes used',example:'e.g. Excel A60 rims on stock hubs, stainless spokes'},{label:'Wheels rebuilt or trued',kind:'wheels',detail:'What was replaced, hours since',example:'e.g. new spokes and bearings, 10 hours ago'}],
  clutch:[{label:'Clutch rebuilt',detail:'Plates and springs used',example:'e.g. new plates, heavy springs'}],
 };
 /** Shops that list this exact model first, then this make, then shops with no bike list; one row per shop. The service name is
  *  shown only when the shop lists this model, so a 300 SX never reads "KTM 450 mail-in tuning". */
+/** What a shop is listed for when it publishes no bike list (or lists other bikes of this make). */
+export const WORK_KIND_LABEL:Record<WorkProvider['work'],string>={ecu:'ECU flash and mapping',suspension:'Revalves and suspension service',engine:'Engine building and head work',wheels:'Wheel building and repair'};
+export const WORK_KIND_HEADING:Record<WorkProvider['work'],string>={ecu:'TUNERS',suspension:'SUSPENSION SHOPS',engine:'ENGINE BUILDERS',wheels:'WHEEL BUILDERS'};
 export function providersFor(kind:WorkProvider['work'],make:string,model:string){
  const rank=(p:WorkProvider)=>p.models.includes(make+'|'+model)?2:p.makes.includes(make)?1:0;
  const m=new Map<string,WorkProvider>();
  for(const p of workProviders.filter(p=>p.work===kind&&(!p.makes.length||p.makes.includes(make))).sort((a,b)=>rank(b)-rank(a)))if(!m.has(p.brand))m.set(p.brand,p);
- return [...m.values()].map(p=>({...p,exact:rank(p)===2||!p.models.length,label:rank(p)===2?p.name:kind==='ecu'?'ECU flash and mapping':'Revalves and suspension service'}));
+ return [...m.values()].map(p=>({...p,exact:rank(p)===2||!p.models.length,label:rank(p)===2?p.name:WORK_KIND_LABEL[kind]}));
 }
 export type Choice={brand:string;name:string;pn:string;pns:string[];r?:string;verified:boolean;what:string;caution:string;testers:string[];type:string|null;colors?:PartColor[];desc?:string;opts?:PartOption[];links?:CatalogPart['links']};
 /** Every part number a listing carries (sellers paste one per size or colour into one field). */

@@ -165,3 +165,15 @@ test('placement leaves look-alikes where they belong',async()=>{
  const move:[string,string,string][]=[['suspension','Devol','X-Shot Holeshot System','chassis'],['chassis','DID Chain','DID 525 Standard Series Roller Chain','gearing'],['controls','Acerbis','X-Grip Frame Guards','protection'],['gearing','Acerbis','Chain Sliders','chassis']].map(x=>x as never);
  for(const [s,b,n,to] of move as unknown as string[][])assert.equal(placeSystem(s as never,b,n),to,n);
 });
+test('engine builders and wheel builders are offered under "who did it?" for engine and wheel work',async()=>{
+ const {providersFor,WORK,WORK_KIND_HEADING}=await import('../shared/parts-picker.ts');
+ const eng=providersFor('engine','Yamaha','YZ450F').map(p=>p.brand),wh=providersFor('wheels','Yamaha','YZ450F');
+ for(const b of ['Pro Circuit','Twisted Development','Race Tech','XPR Motorsports','Varner Motorsports'])assert.ok(eng.includes(b),b);
+ assert.equal(new Set(eng).size,eng.length);
+ assert.deepEqual(wh.map(p=>p.brand).sort(),['Dubya USA','Warp 9 Racing']);
+ assert.ok(wh.every(p=>p.label==='Wheel building and repair'));
+ assert.ok(WORK.engine!.every(w=>w.kind==='engine')&&WORK.wheels!.every(w=>w.kind==='wheels'));
+ assert.equal(WORK_KIND_HEADING.engine,'ENGINE BUILDERS');
+ // a shop that lists bikes is only offered for those makes
+ assert.ok(!providersFor('engine','Triumph','TF 250-X').some(p=>p.brand==='Slavens Racing'));
+});
