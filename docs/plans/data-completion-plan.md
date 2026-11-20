@@ -169,3 +169,14 @@ sheet (installed_parts -> maker_setup, prompt 93). First two: Rekluse RadiusCX o
 standard springs, 40 h service). To add next, each from its own document: WP XACT PRO 8950 shock (manual text not reachable
 through the fetch tool; needs the PDF link or file), Rekluse Radius X / Core EXP and the cable-clutch RadiusCX guides,
 Kawasaki and Honda fitments of the WP parts.
+
+## In progress at 2026-11-20 16:30 ET
+- Yamaha rider-weight charts: the 2024 YZ450F manual has none (it prints the optional spring rates with part numbers and ID
+  marks instead). A scan of all 135 Yamaha owner's service manuals in the index for a rider-weight chart is running in the
+  browser pane on Kyle's computer (window.__out on library.ymcapps.net; 52 of 135 read, no hits). When it finishes with no
+  hits, add a Yamaha "rider weight for springs: not printed" note to shared/maker-publishing.ts for the bikes scanned.
+- Sag gaps: Husqvarna FE 450 / FE 501 owner's manuals for 2020 (art. no. 3402343en, 20_3402343_en_OM) and 2021 (3402453en,
+  21_3402453_en_OM) are on the makers' document host and were read in the browser: static sag 37 mm, riding sag 110 mm, shock
+  springs 39 / 42 / 45 N/mm and fork springs 4.0 / 4.2 / 4.4 N/mm for 65-75 / 75-85 / 85-95 kg riders, both years.
+  Not loaded yet: the proper load is the whole manual through scripts/manual-textlayer (needs the PDFs in the workspace, so
+  Kyle's OK to download them). Still to find: the 2022 FE 450 and 2021 GasGas EC 250 document numbers.
