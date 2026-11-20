@@ -11,8 +11,8 @@
   "city": "New Berlin",
   "county": "Chenango",
   "address": "5986 State Hwy 8, New Berlin, NY 13411",
-  "lat": null,
-  "lng": null,
+  "lat": 42.70222,
+  "lng": -75.32042,
   "types": [
    "motocross"
   ],
@@ -91,15 +91,20 @@
     "url": "https://www.wktv.com/news/top-stories/39th-unadilla-national-kicks-off-this-weekend-shining-a-spotlight-on-iconic-motocross-track-in/article_6b967a2e-8117-42d6-9902-ff6a07c61abb.html",
     "title": "WKTV - 39th Unadilla National (2025)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (5986 State Rte 8, New Berlin, Ny, 13411)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "high",
   "gaps": [
-   "Coordinates",
    "Track website and phone",
    "Public practice schedule",
    "Gravity Cavity and other named sections not confirmed by a fetched source"
   ],
-  "research_file": "nationals.json"
+  "research_file": "nationals.json + ny-update-geo-2026-11.json",
+  "elevation_ft": 1234
  }
 ]

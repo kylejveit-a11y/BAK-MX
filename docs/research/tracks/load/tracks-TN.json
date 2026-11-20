@@ -7,8 +7,8 @@
   "city": "Memphis",
   "county": "Shelby",
   "address": "105 S Germantown Pkwy, Cordova, TN",
-  "lat": null,
-  "lng": null,
+  "lat": 35.12863,
+  "lng": -89.79806,
   "types": [
    "arenacross"
   ],
@@ -47,13 +47,19 @@
     "url": "https://www.midsoutharenacross.com/",
     "title": "MidSouth ArenaCross - 2026-2027 schedule",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (105 S Germantown Pkwy, Cordova, Tn, 38018)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Rider reports"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 285
  },
  {
   "id": "back-40-mx",
@@ -122,7 +128,8 @@
    "Soil",
    "Layout"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 438
  },
  {
   "id": "battleground-mx",
@@ -176,7 +183,8 @@
   "gaps": [
    "New track; nothing published on soil or layout"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 546
  },
  {
   "id": "christiana-mx",
@@ -287,7 +295,8 @@
   "gaps": [
    "Rider reports"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 798
  },
  {
   "id": "fast-farms-mx",
@@ -394,7 +403,8 @@
   "gaps": [
    "Wet behavior"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 1961
  },
  {
   "id": "fm-bank-arena",
@@ -404,8 +414,8 @@
   "city": "Clarksville",
   "county": "Montgomery",
   "address": null,
-  "lat": null,
-  "lng": null,
+  "lat": 36.52917,
+  "lng": -87.36009,
   "types": [
    "arenacross"
   ],
@@ -444,6 +454,11 @@
     "url": "https://www.cyclenews.com/2026/10/article/2026-27-ama-arenacross-calendar/",
     "title": "Cycle News - 2026-27 AMA Arenacross Calendar",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.openstreetmap.org/",
+    "title": "OpenStreetMap: F&M Bank Arena, Main Street, Historic Franklin Street, Clarksville, Montgomery County, Mid",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -451,7 +466,8 @@
    "Address",
    "Rider reports"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 475
  },
  {
   "id": "greenbrier-mx",
@@ -530,7 +546,8 @@
   "gaps": [
    "Soil type"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 959
  },
  {
   "id": "hidden-valley-mx-tn",
@@ -612,8 +629,8 @@
   "city": "Cookeville",
   "county": "Putnam",
   "address": "2390 Gainesboro Grade, Cookeville, TN",
-  "lat": null,
-  "lng": null,
+  "lat": 36.19895,
+  "lng": -85.53465,
   "types": [
    "arenacross"
   ],
@@ -657,13 +674,19 @@
     "url": "https://www.vitalmx.com/forums/USA-Southeast,13/AX-Tour-Heads-to-Cookeville-TN-Feb-2nd,1250194",
     "title": "Vital MX forum - AX Tour heads to Cookeville TN",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (2390 Gainesboro Grade, Cookeville, Tn, 38501)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Rider reports"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 1035
  },
  {
   "id": "i-40-motocross",
@@ -730,7 +753,8 @@
   "gaps": [
    "Closed; site converted per MX Parks"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 822
  },
  {
   "id": "i-81-motorsports-park",
@@ -820,7 +844,8 @@
   ],
   "confidence": "low",
   "gaps": [],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 1444
  },
  {
   "id": "indian-mound-mx",
@@ -830,8 +855,8 @@
   "city": "Sparta",
   "county": "White",
   "address": "575 South Pinhook Rd, Sparta, TN 38583",
-  "lat": null,
-  "lng": null,
+  "lat": 35.92054,
+  "lng": -85.6606,
   "types": [
    "motocross"
   ],
@@ -891,13 +916,17 @@
     "url": "https://www.vitalmx.com/comment/4127470",
     "title": "Forum thread",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (575 S Pin Hook Rd, Sparta, Tn, 38583)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
-  "gaps": [
-   "Closed 2026 per MX Parks; MX Parks coordinates did not match Sparta and were dropped"
-  ],
-  "research_file": "tn.json"
+  "gaps": [],
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 942
  },
  {
   "id": "little-valley-mx",
@@ -961,7 +990,8 @@
   ],
   "confidence": "low",
   "gaps": [],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 1291
  },
  {
   "id": "loretta-lynn-ranch",
@@ -1120,7 +1150,8 @@
   ],
   "confidence": "high",
   "gaps": [],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 415
  },
  {
   "id": "mountain-mx",
@@ -1186,7 +1217,8 @@
   "gaps": [
    "Community rebuild effort reported; reopening not confirmed"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 960
  },
  {
   "id": "muddy-creek-raceway",
@@ -1340,7 +1372,8 @@
   "gaps": [
    "Amateur-weekend prep differs from the pro years; few recent amateur condition reports"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 1471
  },
  {
   "id": "ned-mcwherter-ag-complex",
@@ -1396,7 +1429,8 @@
   "gaps": [
    "Rider reports"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 393
  },
  {
   "id": "plateau-mx",
@@ -1454,7 +1488,8 @@
    "Rider reports",
    "Soil"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 1937
  },
  {
   "id": "powerline-sx",
@@ -1537,7 +1572,8 @@
    "Soil",
    "Conditions"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 444
  },
  {
   "id": "r3-motoworx",
@@ -1647,7 +1683,8 @@
   "gaps": [
    "Soil detail"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 1587
  },
  {
   "id": "robertson-county-fairgrounds",
@@ -1701,7 +1738,8 @@
   "gaps": [
    "Rider reports"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 553
  },
  {
   "id": "shiloh-mx",
@@ -1757,7 +1795,8 @@
   "gaps": [
    "No rider reports; status unconfirmed"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 994
  },
  {
   "id": "sunvalley-mx",
@@ -1813,7 +1852,8 @@
   "gaps": [
    "No rider reports"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 408
  },
  {
   "id": "thunder-valley-tn",
@@ -1901,7 +1941,8 @@
   "gaps": [
    "Closure reported only by MX Parks"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 1098
  },
  {
   "id": "trials-training-center",
@@ -1958,7 +1999,8 @@
   "gaps": [
    "Not an MX track"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 757
  },
  {
   "id": "windrock-park",
@@ -2012,7 +2054,8 @@
   "gaps": [
    "Trail park, not a prepared MX track"
   ],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 812
  },
  {
   "id": "wmmx-tn",
@@ -2101,6 +2144,7 @@
   ],
   "confidence": "medium",
   "gaps": [],
-  "research_file": "tn.json"
+  "research_file": "tn.json + tn-update-geo-2026-11.json",
+  "elevation_ft": 1103
  }
 ]

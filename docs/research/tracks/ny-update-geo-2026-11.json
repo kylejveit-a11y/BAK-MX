@@ -1,0 +1,21 @@
+{
+ "note": "2026-11-20 map polish: coordinates from the listed street address (US Census geocoder, or OpenStreetMap where it names the place) and ground elevation at the coordinates (USGS Elevation Point Query Service, feet).",
+ "updates": [
+  {
+   "id": "unadilla-mx",
+   "lat": 42.70222,
+   "lng": -75.32042,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (5986 State Rte 8, New Berlin, Ny, 13411)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [
+    "Coordinates"
+   ],
+   "elevation_ft": 1234
+  }
+ ]
+}

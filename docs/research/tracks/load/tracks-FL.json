@@ -11,8 +11,8 @@
   "city": "Punta Gorda",
   "county": "Charlotte",
   "address": "44800 Bermont Rd, Punta Gorda, FL 33982",
-  "lat": null,
-  "lng": null,
+  "lat": 26.94595,
+  "lng": -81.76078,
   "types": [
    "motocross",
    "supercross",
@@ -110,17 +110,22 @@
     "url": "https://themxfactory.com/blogs/motocross-training-guide/best-motocross-tracks-in-the-southeast",
     "title": "The MX Factory - Best motocross tracks in the Southeast",
     "accessed": "2026-10-24"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (44800 Bermont Rd, Punta Gorda, Fl, 33982)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
   "gaps": [
-   "Coordinates withheld: MX Parks gives 26.9640625,-81.7201875 but uses nearly the same point for Florida Tracks & Trails at a different Bermont Rd address, and Wheree gives ~26.9639,-81.7155; needs confirmation",
    "No rider detail on ruts, whoops or wet behavior",
    "RiderPlanet listing still says closed (stale); meaning of 'RKC' unknown",
    "Secondary phone (239) 788-4589 listed alongside (239) 284-3687; not confirmed which is current",
    "Hours conflict between MX Parks (Fri-Sun) and Wheree (also Mon/Tue)"
   ],
-  "research_file": "fl-south.json + fl-update-south.json"
+  "research_file": "fl-south.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "elevation_ft": 40
  },
  {
   "id": "ace-mx-park",
@@ -367,7 +372,8 @@
    "FL Motocross (reviewed 2026-08) still lists it active with bartowmotocross.com; could not open that site to confirm",
    "Closure date"
   ],
-  "research_file": "fl-central.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json",
+  "elevation_ft": 123
  },
  {
   "id": "big-scrub-ohv",
@@ -456,7 +462,8 @@
    "Coordinates are the campground, not the separate Centennial OHV trailhead (USFS trailhead page could not be fetched)",
    "Recreation.gov still shows a post-Hurricane Milton (Oct 2024) closure note for Ocala OHV trails with no reopen date; confirm trail status with the Ocala NF office before riding"
   ],
-  "research_file": "fl-central.json + fl-update-north.json + fl-update-south.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-north.json + fl-update-south.json",
+  "elevation_ft": 140
  },
  {
   "id": "bone-yard-mx",
@@ -558,7 +565,8 @@
    "MX Parks still says opened Nov 2024; county release (Nov 12 2025) is treated as authoritative",
    "Official park site bonevalleyatv.com could not be fetched in this pass"
   ],
-  "research_file": "fl-central.json + fl-update-south.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "elevation_ft": 148
  },
  {
   "id": "bostwick-creek-mx-park",
@@ -665,7 +673,8 @@
    "Track count/names vary between directories",
    "Two phone numbers in circulation (386-295-4343 and 904-284-5221)"
   ],
-  "research_file": "fl-north.json + fl-update-north.json"
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "elevation_ft": 103
  },
  {
   "id": "brooksville-mx",
@@ -753,7 +762,8 @@
    "Soil still only from unclaimed directory copy (hard-pack); no rider confirmation",
    "No official website or confirmed Facebook URL (MX Parks only links a redirect)"
   ],
-  "research_file": "fl-central.json + fl-update-south.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "elevation_ft": 129
  },
  {
   "id": "bushnell-mx",
@@ -854,7 +864,8 @@
    "Official site fasttraxxflorida.com could not be fetched in this pass",
    "Original Spyder MX listed by Sumter County tourism at 4222 N US Hwy 301, Wildwood (undated listing, status not stated); not a current track"
   ],
-  "research_file": "fl-central.json + fl-update-south.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "elevation_ft": 64
  },
  {
   "id": "central-florida-motorsports-park",
@@ -867,8 +878,8 @@
   "city": "Astatula",
   "county": "Lake",
   "address": "24200 CR 561, Astatula, FL 34705",
-  "lat": null,
-  "lng": null,
+  "lat": 28.698,
+  "lng": -81.73114,
   "types": [
    "motocross",
    "offroad"
@@ -914,6 +925,11 @@
     "url": "https://riderplanet-usa.com/atv/trails/info/florida_14957/ride_b417.htm",
     "title": "RiderPlanet USA - Central Florida Motorsports Park (closed)",
     "accessed": "2026-10-24"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (24200 Co Rd 561, Astatula, Fl, 34705)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -921,7 +937,8 @@
    "Closure date",
    "Rider reports"
   ],
-  "research_file": "fl-central.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json",
+  "elevation_ft": 88
  },
  {
   "id": "croom-motorcycle-area",
@@ -1054,7 +1071,8 @@
    "Coordinates are the tourism listing's directions point for 6420 La Rose Rd (approximate entrance); onX uses a different map center 28.5659,-82.2514",
    "No 2026-dated status report found; latest is Sept 2025"
   ],
-  "research_file": "fl-central.json + fl-update-south.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "elevation_ft": 77
  },
  {
   "id": "dade-city-mx",
@@ -1199,7 +1217,8 @@
    "Official site dadecitymx.com and social pages could not be fetched directly",
    "Two other phone numbers appear in older listings (352-588-4697, 813-781-9569); current main line unconfirmed"
   ],
-  "research_file": "fl-central.json + fl-update-south.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "elevation_ft": 124
  },
  {
   "id": "dan-woodley-racing",
@@ -1275,7 +1294,8 @@
    "Only one rider/guest report, with no detail on dirt or layout",
    "Official site danwoodleyracing.com could not be fetched in this pass"
   ],
-  "research_file": "fl-central.json + fl-update-south.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "elevation_ft": 22
  },
  {
   "id": "daytona-supercross",
@@ -1367,7 +1387,8 @@
    "Exact RCSX dates per year",
    "Amateur-week surface vs pro-race surface differences"
   ],
-  "research_file": "fl-central.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json",
+  "elevation_ft": 28
  },
  {
   "id": "decker-training-facility-county-line-mx",
@@ -1493,7 +1514,8 @@
    "No rider detail on ruts or late-day behavior",
    "Coordinates now from the facility's ticketing page map pin, not a surveyed gate"
   ],
-  "research_file": "fl-north.json + fl-update-north.json"
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "elevation_ft": 197
  },
  {
   "id": "dirty-foot-adventures",
@@ -1742,7 +1764,8 @@
    "No operator contact or rider reports",
    "Newest operator-related evidence found is from 2022; no website, phone or social page located"
   ],
-  "research_file": "fl-north.json + fl-update-north.json"
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "elevation_ft": 97
  },
  {
   "id": "florida-tracks-and-trails",
@@ -1756,8 +1779,8 @@
   "city": "Punta Gorda",
   "county": "Charlotte",
   "address": "39450 Bermont Rd, Punta Gorda, FL 33982",
-  "lat": null,
-  "lng": null,
+  "lat": 26.94622,
+  "lng": -81.80567,
   "types": [
    "motocross",
    "offroad"
@@ -1835,15 +1858,20 @@
     "url": "https://solotravelgirl.com/a-muddy-thrill-at-florida-tracks-trails-in-punta-gorda",
     "title": "Solo Travel Girl - Florida Tracks & Trails (2015)",
     "accessed": "2026-10-24"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (39450 Bermont Rd, Punta Gorda, Fl, 33982)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
   "gaps": [
    "Closure date and reason unknown",
-   "Coordinates withheld: MX Parks point matches 74MX's point almost exactly despite a different address",
    "Soil sources conflict"
   ],
-  "research_file": "fl-south.json"
+  "research_file": "fl-south.json + fl-update-geo-2026-11.json",
+  "elevation_ft": 41
  },
  {
   "id": "forest-glen-motoplex",
@@ -2059,7 +2087,8 @@
    "No regular open practice; exact current layout of each track not published",
    "Directory soil labels (red clay) conflict with rider descriptions (limerock/clay with added sand)"
   ],
-  "research_file": "fl-north.json + fl-update-north.json"
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "elevation_ft": 75
  },
  {
   "id": "hardrock-cycle-park",
@@ -2197,7 +2226,8 @@
    "Official site and Yelp could not be fetched to confirm current hours and vehicle rules",
    "Whether any groomed MX track is still maintained"
   ],
-  "research_file": "fl-central.json + fl-update-north.json + fl-update-zreview.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-north.json + fl-update-zreview.json",
+  "elevation_ft": 94
  },
  {
   "id": "harold-motor-sports",
@@ -2276,7 +2306,8 @@
    "Business phone varies: (904) 719-1010 on older listings, (904) 535-2290 on the lesson listing",
    "Dirt type and layout detail not published"
   ],
-  "research_file": "fl-north.json + fl-update-north.json"
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "elevation_ft": 51
  },
  {
   "id": "l-cross-extreme-events",
@@ -2357,8 +2388,8 @@
   "city": "Lake City",
   "county": "Columbia",
   "address": "3320 N US Hwy 441, Lake City, FL 32055",
-  "lat": null,
-  "lng": null,
+  "lat": 30.23543,
+  "lng": -82.63866,
   "types": [
    "motocross",
    "offroad"
@@ -2405,16 +2436,21 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/florida_14273/ride_7e47.htm",
     "title": "RiderPlanet USA - Lake City Motocross (listed destroyed)",
     "accessed": "2026-10-24"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (3320 Us Hwy 441, Lake City, Fl, 32055)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Direct conflict: RiderPlanet says the track at this address no longer exists and the land was redeveloped; MX Parks (unclaimed listing) says open and upgraded",
-   "Coordinates left null: the only stated coordinates (30.2190,-82.6348) are low-precision from the unclaimed listing",
    "No operator website, phone or rider reports found",
    "No 2025-2026 operator activity of any kind found; the only 'open' claim is an unclaimed directory listing with no events or reviews"
   ],
-  "research_file": "fl-north.json + fl-update-north.json"
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "elevation_ft": 149
  },
  {
   "id": "lazy-springs-recreation-park",
@@ -2426,8 +2462,8 @@
   "city": "Felda",
   "county": "Hendry",
   "address": "9591 State Road 82, Felda, FL 33930",
-  "lat": null,
-  "lng": null,
+  "lat": 26.52329,
+  "lng": -81.55751,
   "types": [
    "offroad",
    "motocross"
@@ -2483,6 +2519,11 @@
     "accessed": "2026-10-24"
    },
    {
+    "url": "https://www.openstreetmap.org/",
+    "title": "OpenStreetMap: Lazy Springs Recreation Park, 9591, Hendry County, Florida, 33930, United States",
+    "accessed": "2026-11-20"
+   },
+   {
     "url": "https://www.wgcu.org/tags/lazy-springs",
     "title": "WGCU - Lazy Springs coverage (Oct 11, Oct 12, Nov 24 2025: sale and closure)",
     "accessed": "2026-10-25"
@@ -2501,10 +2542,10 @@
   "confidence": "high",
   "gaps": [
    "No dirt-bike rider reports",
-   "No coordinates",
    "Future use of the property after the 2025 sale unknown"
   ],
-  "research_file": "fl-south.json + fl-update-south.json"
+  "research_file": "fl-south.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "elevation_ft": 29
  },
  {
   "id": "mac-mx",
@@ -2581,7 +2622,8 @@
    "No rider reports; soil only from one directory (prepped clay)",
    "No dated 2025-2026 event or post confirming operation (Facebook not fetchable)"
   ],
-  "research_file": "fl-north.json + fl-update-north.json"
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "elevation_ft": 168
  },
  {
   "id": "mesa-mx",
@@ -2670,7 +2712,8 @@
    "Phone conflict: (407) 808-9420 in park notes vs (786) 975-4024 in MX Parks contact block, which is the same number listed for Miami MX Park; call to confirm",
    "Official site mesamotocross.com could not be fetched in this pass"
   ],
-  "research_file": "fl-central.json + fl-update-south.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "elevation_ft": 31
  },
  {
   "id": "miami-mx-park",
@@ -2795,7 +2838,8 @@
    "Long-term county lease status after 2020 not confirmed",
    "No 2026 event or rider-dated post found; status relies on directory review dates (Aug 2026)"
   ],
-  "research_file": "fl-south.json + fl-update-south.json"
+  "research_file": "fl-south.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "elevation_ft": 8
  },
  {
   "id": "milton-mx",
@@ -2888,7 +2932,8 @@
    "Coordinates from directory listing",
    "Facebook (the only operator channel) could not be fetched; no 2025-2026 dated post or event found"
   ],
-  "research_file": "fl-north.json + fl-update-north.json"
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "elevation_ft": 103
  },
  {
   "id": "moroso-pbir-mx",
@@ -2961,7 +3006,8 @@
    "No dirt, layout or rider information",
    "Address differs between sources (133 / 7133 / 17047 Beeline Hwy)"
   ],
-  "research_file": "fl-south.json"
+  "research_file": "fl-south.json + fl-update-geo-2026-11.json",
+  "elevation_ft": 24
  },
  {
   "id": "moto-bros-okeechobee",
@@ -3125,7 +3171,8 @@
    "Late-day rut depth",
    "Watering habits"
   ],
-  "research_file": "fl-central.json + fl-update-south.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "elevation_ft": 51
  },
  {
   "id": "moto-sandbox",
@@ -3328,7 +3375,8 @@
    "Jump sizes and lap length not stated",
    "Event calendar dates (Dec 5 2026 I4MX round) come from MX Parks, not the MotoBros calendar itself"
   ],
-  "research_file": "fl-south.json + fl-update-south.json"
+  "research_file": "fl-south.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "elevation_ft": 28
  },
  {
   "id": "motocross-of-marion-county",
@@ -3341,8 +3389,8 @@
   "city": "Citra",
   "county": "Marion",
   "address": "2035 NW 146th Place, Citra, FL 32113",
-  "lat": null,
-  "lng": null,
+  "lat": 29.36148,
+  "lng": -82.16327,
   "types": [
    "motocross"
   ],
@@ -3384,6 +3432,11 @@
     "url": "https://riderplanet-usa.com/atv/trails/info/florida_12973/ride_c13c.htm",
     "title": "RiderPlanet USA - Motocross of Marion County (closed)",
     "accessed": "2026-10-24"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (2035 Nw 146Th Pl, Citra, Fl, 32113)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -3391,7 +3444,8 @@
    "Closure date",
    "Sits just north of Ocala; may overlap North Florida file"
   ],
-  "research_file": "fl-central.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json",
+  "elevation_ft": 87
  },
  {
   "id": "mx-191",
@@ -3494,7 +3548,8 @@
    "No rider reports on wet behavior",
    "Coordinates are from the older Munson Hwy listing; not verified against 8500 Neptune Way"
   ],
-  "research_file": "fl-north.json + fl-update-north.json"
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "elevation_ft": 174
  },
  {
   "id": "north-florida-motocross-park",
@@ -3589,7 +3644,8 @@
    "Only one rider report; no wet/late-day detail",
    "No dated 2025-2026 event or post found; status rests on a 2026 directory review"
   ],
-  "research_file": "fl-north.json + fl-update-north.json"
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "elevation_ft": 96
  },
  {
   "id": "ocala-nf-ohv-trail-system",
@@ -3799,7 +3855,8 @@
    "Whether a separate sand track is still maintained",
    "Official site not fetched"
   ],
-  "research_file": "fl-central.json + fl-update-south.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "elevation_ft": 73
  },
  {
   "id": "pax-trax-mx",
@@ -3913,7 +3970,8 @@
    "Wet-weather drainage detail",
    "Street number (2529 vs 2535)"
   ],
-  "research_file": "fl-central.json + fl-update-south.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-south.json",
+  "elevation_ft": 29
  },
  {
   "id": "pepsi-air-dania-mx",
@@ -4060,7 +4118,8 @@
   "gaps": [
    "Closure date (RiderPlanet still listed open)"
   ],
-  "research_file": "fl-central.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json",
+  "elevation_ft": 134
  },
  {
   "id": "sand-mountain-raceway",
@@ -4213,8 +4272,8 @@
   "city": "Clearwater",
   "county": "Pinellas",
   "address": "4300 126th Avenue North, Clearwater, FL 33762",
-  "lat": null,
-  "lng": null,
+  "lat": 27.88646,
+  "lng": -82.69202,
   "types": [
    "motocross"
   ],
@@ -4256,13 +4315,19 @@
     "url": "https://riderplanet-usa.com/atv/trails/info/florida_03493/ride_365f.htm",
     "title": "RiderPlanet USA - Sunshine Motocross (destroyed)",
     "accessed": "2026-10-24"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (4300 126Th Ave N, Clearwater, Fl, 33762)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Not to be confused with Sunshine State MX in Jasper (North FL, open)"
   ],
-  "research_file": "fl-central.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json",
+  "elevation_ft": 11
  },
  {
   "id": "sunshine-state-mx-park",
@@ -4362,7 +4427,8 @@
    "Only one rider report",
    "Exact relationship between Sunshine State MX Park and Dirt Star Moto branding not explained by operator"
   ],
-  "research_file": "fl-north.json + fl-update-north.json"
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "elevation_ft": 105
  },
  {
   "id": "tampa-mx",
@@ -4456,7 +4522,8 @@
   "gaps": [
    "Official closure confirmation"
   ],
-  "research_file": "fl-central.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json",
+  "elevation_ft": 6
  },
  {
   "id": "waldo-mx",
@@ -4608,7 +4675,8 @@
    "Coordinates still from Campspot directions link (MX Parks gives 29.7921,-82.1545); older event listings use 16258 US-301",
    "Soil confirmed by operator and series pages but not by first-hand rider reports on wet/late-day behavior"
   ],
-  "research_file": "fl-north.json + fl-update-north.json"
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "elevation_ft": 148
  },
  {
   "id": "wandering-wiregrass-ohv",
@@ -4700,7 +4768,8 @@
    "Conflicting status: Braaply shows temporarily closed (undated); USFS (2025-05) lists open",
    "Peewee track at trailhead condition unknown"
   ],
-  "research_file": "fl-central.json + fl-update-north.json"
+  "research_file": "fl-central.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "elevation_ft": 113
  },
  {
   "id": "ww-ranch-motocross-park",
@@ -4832,6 +4901,7 @@
    "No rider reports of wet-track behavior",
    "Public practice reported closed (2026 directory citing operator); open-practice days, if any, unconfirmed"
   ],
-  "research_file": "fl-north.json + fl-update-north.json"
+  "research_file": "fl-north.json + fl-update-geo-2026-11.json + fl-update-north.json",
+  "elevation_ft": 85
  }
 ]

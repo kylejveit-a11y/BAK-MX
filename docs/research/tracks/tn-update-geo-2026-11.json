@@ -1,0 +1,151 @@
+{
+ "note": "2026-11-20 map polish: coordinates from the listed street address (US Census geocoder, or OpenStreetMap where it names the place) and ground elevation at the coordinates (USGS Elevation Point Query Service, feet).",
+ "updates": [
+  {
+   "id": "agricenter-showplace-arena",
+   "lat": 35.12863,
+   "lng": -89.79806,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (105 S Germantown Pkwy, Cordova, Tn, 38018)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 285
+  },
+  {
+   "id": "back-40-mx",
+   "elevation_ft": 438
+  },
+  {
+   "id": "battleground-mx",
+   "elevation_ft": 546
+  },
+  {
+   "id": "cooper-steel-arena",
+   "elevation_ft": 798
+  },
+  {
+   "id": "fast-farms-mx",
+   "elevation_ft": 1961
+  },
+  {
+   "id": "fm-bank-arena",
+   "lat": 36.52917,
+   "lng": -87.36009,
+   "sources": [
+    {
+     "url": "https://www.openstreetmap.org/",
+     "title": "OpenStreetMap: F&M Bank Arena, Main Street, Historic Franklin Street, Clarksville, Montgomery County, Mid",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 475
+  },
+  {
+   "id": "greenbrier-mx",
+   "elevation_ft": 959
+  },
+  {
+   "id": "hyder-burks-pavilion",
+   "lat": 36.19895,
+   "lng": -85.53465,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (2390 Gainesboro Grade, Cookeville, Tn, 38501)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 1035
+  },
+  {
+   "id": "i-40-motocross",
+   "elevation_ft": 822
+  },
+  {
+   "id": "i-81-motorsports-park",
+   "elevation_ft": 1444
+  },
+  {
+   "id": "indian-mound-mx",
+   "lat": 35.92054,
+   "lng": -85.6606,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (575 S Pin Hook Rd, Sparta, Tn, 38583)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [
+    "Closed 2026 per MX Parks; MX Parks coordinates did not match Sparta and were dropped"
+   ],
+   "elevation_ft": 942
+  },
+  {
+   "id": "little-valley-mx",
+   "elevation_ft": 1291
+  },
+  {
+   "id": "loretta-lynn-ranch",
+   "elevation_ft": 415
+  },
+  {
+   "id": "mountain-mx",
+   "elevation_ft": 960
+  },
+  {
+   "id": "muddy-creek-raceway",
+   "elevation_ft": 1471
+  },
+  {
+   "id": "ned-mcwherter-ag-complex",
+   "elevation_ft": 393
+  },
+  {
+   "id": "plateau-mx",
+   "elevation_ft": 1937
+  },
+  {
+   "id": "powerline-sx",
+   "elevation_ft": 444
+  },
+  {
+   "id": "r3-motoworx",
+   "elevation_ft": 1587
+  },
+  {
+   "id": "robertson-county-fairgrounds",
+   "elevation_ft": 553
+  },
+  {
+   "id": "shiloh-mx",
+   "elevation_ft": 994
+  },
+  {
+   "id": "sunvalley-mx",
+   "elevation_ft": 408
+  },
+  {
+   "id": "thunder-valley-tn",
+   "elevation_ft": 1098
+  },
+  {
+   "id": "trials-training-center",
+   "elevation_ft": 757
+  },
+  {
+   "id": "windrock-park",
+   "elevation_ft": 812
+  },
+  {
+   "id": "wmmx-tn",
+   "elevation_ft": 1103
+  }
+ ]
+}

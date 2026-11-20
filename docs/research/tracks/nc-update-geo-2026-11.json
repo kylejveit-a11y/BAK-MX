@@ -1,0 +1,179 @@
+{
+ "note": "2026-11-20 map polish: coordinates from the listed street address (US Census geocoder, or OpenStreetMap where it names the place) and ground elevation at the coordinates (USGS Elevation Point Query Service, feet).",
+ "updates": [
+  {
+   "id": "221-mx",
+   "elevation_ft": 981
+  },
+  {
+   "id": "421-mx",
+   "elevation_ft": 970
+  },
+  {
+   "id": "5-points-mx",
+   "elevation_ft": 28
+  },
+  {
+   "id": "ball-creek-mx",
+   "lat": 36.24325,
+   "lng": -79.33132,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (2031 Hughes Mill Rd, Burlington, Nc, 27217)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 688
+  },
+  {
+   "id": "black-ankle-raceway",
+   "elevation_ft": 743
+  },
+  {
+   "id": "blackjack-mx",
+   "elevation_ft": 46
+  },
+  {
+   "id": "bob-martin-center",
+   "elevation_ft": 78
+  },
+  {
+   "id": "brushy-mountain",
+   "lat": 35.98705,
+   "lng": -81.29063,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (2491 Lambert Fork Rd, Taylorsville, Nc, 28681)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 1445
+  },
+  {
+   "id": "catheys-creek-mx",
+   "elevation_ft": 1002
+  },
+  {
+   "id": "county-line-mx",
+   "elevation_ft": 59
+  },
+  {
+   "id": "cow-branch-mx",
+   "elevation_ft": 97
+  },
+  {
+   "id": "crmx",
+   "lat": 36.1916,
+   "lng": -80.74329,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (2521 Spencer Rd, Boonville, Nc, 27011)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 1050
+  },
+  {
+   "id": "daniels-ridge-mx",
+   "elevation_ft": 1279
+  },
+  {
+   "id": "devils-ridge-mx",
+   "elevation_ft": 355
+  },
+  {
+   "id": "dpg-mx-compound",
+   "elevation_ft": 908
+  },
+  {
+   "id": "dreamville-mx",
+   "elevation_ft": 239
+  },
+  {
+   "id": "east-bend-motorsports",
+   "elevation_ft": 984
+  },
+  {
+   "id": "elevation-mx",
+   "elevation_ft": 1726
+  },
+  {
+   "id": "elizabeth-city-mx",
+   "elevation_ft": 12
+  },
+  {
+   "id": "halfmoon-mx",
+   "elevation_ft": 41
+  },
+  {
+   "id": "hog-heaven-mx",
+   "elevation_ft": 177
+  },
+  {
+   "id": "ironclad-mx",
+   "elevation_ft": 35
+  },
+  {
+   "id": "jwtf-mx",
+   "elevation_ft": 22
+  },
+  {
+   "id": "lost-valley-mx",
+   "elevation_ft": 1346
+  },
+  {
+   "id": "moto-129",
+   "elevation_ft": 2072
+  },
+  {
+   "id": "ncmp",
+   "elevation_ft": 386
+  },
+  {
+   "id": "outback-motorsports",
+   "elevation_ft": 222
+  },
+  {
+   "id": "sandridge-mx",
+   "elevation_ft": 63
+  },
+  {
+   "id": "shelby-mx-express",
+   "elevation_ft": 874
+  },
+  {
+   "id": "silver-creek-mx",
+   "elevation_ft": 1664
+  },
+  {
+   "id": "svmx-park",
+   "elevation_ft": 794
+  },
+  {
+   "id": "top-gun-mx",
+   "elevation_ft": 933
+  },
+  {
+   "id": "walnut-tree-mx",
+   "elevation_ft": 2657
+  },
+  {
+   "id": "west-craven-mx",
+   "elevation_ft": 16
+  },
+  {
+   "id": "windy-hill-mx",
+   "elevation_ft": 505
+  },
+  {
+   "id": "zoo-city-mx",
+   "elevation_ft": 730
+  }
+ ]
+}

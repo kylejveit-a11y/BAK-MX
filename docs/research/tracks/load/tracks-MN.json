@@ -11,8 +11,8 @@
   "city": "Millville",
   "county": "Wabasha",
   "address": "63633 298th Avenue, Millville, MN 55957",
-  "lat": null,
-  "lng": null,
+  "lat": 44.30017,
+  "lng": -92.26065,
   "types": [
    "motocross",
    "offroad"
@@ -98,14 +98,19 @@
     "url": "https://racerxonline.com/2015/07/21/breakdown-spring-creek-technique",
     "title": "Racer X - Breakdown: Spring Creek technique 2015",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (63633 298Th Ave, Millville, Mn, 55957)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "high",
   "gaps": [
-   "Coordinates",
    "Exact soil mix (loam vs sand share) - sources only name sand and hardpack",
    "County inferred from Millville location, not stated by a source"
   ],
-  "research_file": "nationals.json"
+  "research_file": "nationals.json + mn-update-geo-2026-11.json",
+  "elevation_ft": 774
  }
 ]

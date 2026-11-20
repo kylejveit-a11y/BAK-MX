@@ -1,0 +1,239 @@
+{
+ "note": "2026-11-20 map polish: coordinates from the listed street address (US Census geocoder, or OpenStreetMap where it names the place) and ground elevation at the coordinates (USGS Elevation Point Query Service, feet).",
+ "updates": [
+  {
+   "id": "74mx-at-the-rkc",
+   "lat": 26.94595,
+   "lng": -81.76078,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (44800 Bermont Rd, Punta Gorda, Fl, 33982)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [
+    "Coordinates withheld: MX Parks gives 26.9640625,-81.7201875 but uses nearly the same point for Florida Tracks & Trails at a different Bermont Rd address, and Wheree gives ~26.9639,-81.7155; needs confirmation"
+   ],
+   "elevation_ft": 40
+  },
+  {
+   "id": "bartow-cycle-sports",
+   "elevation_ft": 123
+  },
+  {
+   "id": "big-scrub-ohv",
+   "elevation_ft": 140
+  },
+  {
+   "id": "bone-yard-mx",
+   "elevation_ft": 148
+  },
+  {
+   "id": "bostwick-creek-mx-park",
+   "elevation_ft": 103
+  },
+  {
+   "id": "brooksville-mx",
+   "elevation_ft": 129
+  },
+  {
+   "id": "bushnell-mx",
+   "elevation_ft": 64
+  },
+  {
+   "id": "central-florida-motorsports-park",
+   "lat": 28.698,
+   "lng": -81.73114,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (24200 Co Rd 561, Astatula, Fl, 34705)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 88
+  },
+  {
+   "id": "croom-motorcycle-area",
+   "elevation_ft": 77
+  },
+  {
+   "id": "dade-city-mx",
+   "elevation_ft": 124
+  },
+  {
+   "id": "dan-woodley-racing",
+   "elevation_ft": 22
+  },
+  {
+   "id": "daytona-supercross",
+   "elevation_ft": 28
+  },
+  {
+   "id": "decker-training-facility-county-line-mx",
+   "elevation_ft": 197
+  },
+  {
+   "id": "florida-motoplex",
+   "elevation_ft": 97
+  },
+  {
+   "id": "florida-tracks-and-trails",
+   "lat": 26.94622,
+   "lng": -81.80567,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (39450 Bermont Rd, Punta Gorda, Fl, 33982)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [
+    "Coordinates withheld: MX Parks point matches 74MX's point almost exactly despite a different address"
+   ],
+   "elevation_ft": 41
+  },
+  {
+   "id": "gatorback-cycle-park",
+   "elevation_ft": 75
+  },
+  {
+   "id": "hardrock-cycle-park",
+   "elevation_ft": 94
+  },
+  {
+   "id": "harold-motor-sports",
+   "elevation_ft": 51
+  },
+  {
+   "id": "lake-city-motorsports-park",
+   "lat": 30.23543,
+   "lng": -82.63866,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (3320 Us Hwy 441, Lake City, Fl, 32055)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [
+    "Coordinates left null: the only stated coordinates (30.2190,-82.6348) are low-precision from the unclaimed listing"
+   ],
+   "elevation_ft": 149
+  },
+  {
+   "id": "lazy-springs-recreation-park",
+   "lat": 26.52329,
+   "lng": -81.55751,
+   "sources": [
+    {
+     "url": "https://www.openstreetmap.org/",
+     "title": "OpenStreetMap: Lazy Springs Recreation Park, 9591, Hendry County, Florida, 33930, United States",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [
+    "No coordinates"
+   ],
+   "elevation_ft": 29
+  },
+  {
+   "id": "mac-mx",
+   "elevation_ft": 168
+  },
+  {
+   "id": "mesa-mx",
+   "elevation_ft": 31
+  },
+  {
+   "id": "miami-mx-park",
+   "elevation_ft": 8
+  },
+  {
+   "id": "milton-mx",
+   "elevation_ft": 103
+  },
+  {
+   "id": "moroso-pbir-mx",
+   "elevation_ft": 24
+  },
+  {
+   "id": "moto-bros-okeechobee",
+   "elevation_ft": 51
+  },
+  {
+   "id": "motobros-punta-gorda-mx",
+   "elevation_ft": 28
+  },
+  {
+   "id": "motocross-of-marion-county",
+   "lat": 29.36148,
+   "lng": -82.16327,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (2035 Nw 146Th Pl, Citra, Fl, 32113)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 87
+  },
+  {
+   "id": "mx-191",
+   "elevation_ft": 174
+  },
+  {
+   "id": "north-florida-motocross-park",
+   "elevation_ft": 96
+  },
+  {
+   "id": "orlando-mx-park",
+   "elevation_ft": 73
+  },
+  {
+   "id": "pax-trax-mx",
+   "elevation_ft": 29
+  },
+  {
+   "id": "quick-track-mx",
+   "elevation_ft": 134
+  },
+  {
+   "id": "sunshine-mx-clearwater",
+   "lat": 27.88646,
+   "lng": -82.69202,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (4300 126Th Ave N, Clearwater, Fl, 33762)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 11
+  },
+  {
+   "id": "sunshine-state-mx-park",
+   "elevation_ft": 105
+  },
+  {
+   "id": "tampa-mx",
+   "elevation_ft": 6
+  },
+  {
+   "id": "waldo-mx",
+   "elevation_ft": 148
+  },
+  {
+   "id": "wandering-wiregrass-ohv",
+   "elevation_ft": 113
+  },
+  {
+   "id": "ww-ranch-motocross-park",
+   "elevation_ft": 85
+  }
+ ]
+}

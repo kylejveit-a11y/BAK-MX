@@ -11,8 +11,8 @@
   "city": "Lakewood",
   "county": "Jefferson",
   "address": "701 South Rooney Road, Lakewood, CO 80401",
-  "lat": null,
-  "lng": null,
+  "lat": 39.70195,
+  "lng": -105.19625,
   "types": [
    "motocross"
   ],
@@ -86,15 +86,20 @@
     "url": "https://racerxonline.com/2018/06/05/breakdown-thunder-valley",
     "title": "Racer X - Breakdown: Thunder Valley 2018",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.openstreetmap.org/",
+    "title": "OpenStreetMap: Thunder Valley Park, 701, South Rooney Road, Morrison, Jefferson County, Colorado, 80465, ",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
   "gaps": [
    "Native soil type",
-   "Coordinates",
    "Dry-day hardness and braking-bump behavior",
    "Jetting/mapping specifics for amateurs"
   ],
-  "research_file": "nationals.json"
+  "research_file": "nationals.json + co-update-geo-2026-11.json",
+  "elevation_ft": 6110
  }
 ]

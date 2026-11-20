@@ -10,8 +10,8 @@
   "city": "Washougal",
   "county": "Clark",
   "address": "40205 NE Borin Road, Washougal, WA 98671",
-  "lat": null,
-  "lng": null,
+  "lat": 45.63265,
+  "lng": -122.25523,
   "types": [
    "motocross"
   ],
@@ -85,14 +85,19 @@
     "url": "https://racerxonline.com/2024/07/21/breakdown-washougal",
     "title": "Racer X - Breakdown: Washougal 2024",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.openstreetmap.org/",
+    "title": "OpenStreetMap: 40205, Northeast Borin Road, Washougal River, Washougal, Clark County, Washington, 98671, ",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "high",
   "gaps": [
-   "Coordinates",
    "Rain-day behavior",
    "Soil description conflict between promo (loam) and racers (hardpack)"
   ],
-  "research_file": "nationals.json"
+  "research_file": "nationals.json + wa-update-geo-2026-11.json",
+  "elevation_ft": 686
  }
 ]

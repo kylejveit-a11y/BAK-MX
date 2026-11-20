@@ -76,7 +76,8 @@
   "gaps": [
    "Public practice schedule"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 981
  },
  {
   "id": "421-mx",
@@ -174,7 +175,8 @@
   "gaps": [
    "Soil type"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 970
  },
  {
   "id": "5-points-mx",
@@ -243,7 +245,8 @@
   "gaps": [
    "Soil"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 28
  },
  {
   "id": "ball-creek-mx",
@@ -253,8 +256,8 @@
   "city": "Burlington",
   "county": "Alamance",
   "address": "2031 Hughes Mill Road, Burlington, NC 27217",
-  "lat": null,
-  "lng": null,
+  "lat": 36.24325,
+  "lng": -79.33132,
   "types": [
    "motocross",
    "supercross"
@@ -292,13 +295,19 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/north_carolina_15320/ride_d314.htm",
     "title": "RiderPlanet USA - Ball Creek MX (temporarily closed)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (2031 Hughes Mill Rd, Burlington, Nc, 27217)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Directory says closed until further notice"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 688
  },
  {
   "id": "black-ankle-raceway",
@@ -398,7 +407,8 @@
   "gaps": [
    "Wet behavior"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 743
  },
  {
   "id": "blackjack-mx",
@@ -473,7 +483,8 @@
   ],
   "confidence": "medium",
   "gaps": [],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 46
  },
  {
   "id": "bob-martin-center",
@@ -537,7 +548,8 @@
   "gaps": [
    "Rider reports"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 78
  },
  {
   "id": "brushy-mountain",
@@ -547,8 +559,8 @@
   "city": "Taylorsville",
   "county": "Alexander",
   "address": "2491 Lambert Fork Road, Taylorsville, NC 28681",
-  "lat": null,
-  "lng": null,
+  "lat": 35.98705,
+  "lng": -81.29063,
   "types": [
    "offroad",
    "motocross"
@@ -602,13 +614,19 @@
     "url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
     "title": "Forum thread",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (2491 Lambert Fork Rd, Taylorsville, Nc, 28681)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "MX track condition"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 1445
  },
  {
   "id": "cape-fear-atv-mx",
@@ -752,7 +770,8 @@
   ],
   "confidence": "low",
   "gaps": [],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 1002
  },
  {
   "id": "county-line-mx",
@@ -860,7 +879,8 @@
    "How clay rides wet",
    "Late-day behavior"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 59
  },
  {
   "id": "cow-branch-mx",
@@ -964,7 +984,8 @@
   ],
   "confidence": "medium",
   "gaps": [],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 97
  },
  {
   "id": "crmx",
@@ -974,8 +995,8 @@
   "city": "Boonville",
   "county": "Yadkin",
   "address": "2521 Spencer Road, Boonville, NC 27011",
-  "lat": null,
-  "lng": null,
+  "lat": 36.1916,
+  "lng": -80.74329,
   "types": [
    "motocross"
   ],
@@ -1012,13 +1033,19 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/north_carolina_01754/ride_42ee.htm",
     "title": "RiderPlanet USA - CRMX Motocross",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (2521 Spencer Rd, Boonville, Nc, 27011)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Status; no rider reports"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 1050
  },
  {
   "id": "daniels-ridge-mx",
@@ -1076,7 +1103,8 @@
    "Rider reports",
    "Soil"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 1279
  },
  {
   "id": "devils-ridge-mx",
@@ -1158,7 +1186,8 @@
   "gaps": [
    "Sale and closure in 2024 reported only by MX Parks"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 355
  },
  {
   "id": "dpg-mx-compound",
@@ -1239,7 +1268,8 @@
   "gaps": [
    "Soil type"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 908
  },
  {
   "id": "dreamville-mx",
@@ -1349,7 +1379,8 @@
   "gaps": [
    "Watering routine"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 239
  },
  {
   "id": "east-bend-motorsports",
@@ -1431,7 +1462,8 @@
   "gaps": [
    "Soil type"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 984
  },
  {
   "id": "elevation-mx",
@@ -1497,7 +1529,8 @@
   ],
   "confidence": "low",
   "gaps": [],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 1726
  },
  {
   "id": "elizabeth-city-mx",
@@ -1589,7 +1622,8 @@
    "Recent rider reports",
    "Prep routine"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 12
  },
  {
   "id": "halfmoon-mx",
@@ -1680,7 +1714,8 @@
   ],
   "confidence": "medium",
   "gaps": [],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 41
  },
  {
   "id": "hog-heaven-mx",
@@ -1746,7 +1781,8 @@
   "gaps": [
    "Status"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 177
  },
  {
   "id": "ironclad-mx",
@@ -1815,7 +1851,8 @@
   "gaps": [
    "Current status"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 35
  },
  {
   "id": "jwtf-mx",
@@ -1921,7 +1958,8 @@
   "gaps": [
    "Prep schedule"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 22
  },
  {
   "id": "lost-valley-mx",
@@ -1978,7 +2016,8 @@
   "gaps": [
    "MX track reports"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 1346
  },
  {
   "id": "morgans-corner",
@@ -2116,7 +2155,8 @@
   "gaps": [
    "Rider reports on soil"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 2072
  },
  {
   "id": "moto-40",
@@ -2297,7 +2337,8 @@
    "Soil detail from riders",
    "Exact watering setup"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 386
  },
  {
   "id": "outback-motorsports",
@@ -2376,7 +2417,8 @@
   ],
   "confidence": "medium",
   "gaps": [],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 222
  },
  {
   "id": "sandridge-mx",
@@ -2451,7 +2493,8 @@
   ],
   "confidence": "medium",
   "gaps": [],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 63
  },
  {
   "id": "shelby-mx-express",
@@ -2536,7 +2579,8 @@
   "gaps": [
    "Soil type"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 874
  },
  {
   "id": "silver-creek-mx",
@@ -2614,7 +2658,8 @@
   ],
   "confidence": "medium",
   "gaps": [],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 1664
  },
  {
   "id": "svmx-park",
@@ -2721,7 +2766,8 @@
    "Soil type",
    "Open schedule"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 794
  },
  {
   "id": "top-gun-mx",
@@ -2789,7 +2835,8 @@
    "Layout",
    "MX Parks says opened 2024, conflicting with a 2022 forum ride report"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 933
  },
  {
   "id": "walnut-tree-mx",
@@ -2843,7 +2890,8 @@
   "gaps": [
    "Rider reports"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 2657
  },
  {
   "id": "west-craven-mx",
@@ -2963,7 +3011,8 @@
   ],
   "confidence": "high",
   "gaps": [],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 16
  },
  {
   "id": "windy-hill-mx",
@@ -3056,7 +3105,8 @@
   ],
   "confidence": "high",
   "gaps": [],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 505
  },
  {
   "id": "zoo-city-mx",
@@ -3135,6 +3185,7 @@
   "gaps": [
    "Closed per MX Parks"
   ],
-  "research_file": "nc.json"
+  "research_file": "nc.json + nc-update-geo-2026-11.json",
+  "elevation_ft": 730
  }
 ]

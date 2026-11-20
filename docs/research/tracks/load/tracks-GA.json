@@ -75,7 +75,8 @@
    "Two different street addresses listed",
    "Wet/late-day behavior"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 168
  },
  {
   "id": "aonia-pass-mx",
@@ -171,7 +172,8 @@
    "Directory body text (130 RV hookups, daily practice) appears outdated and conflicts with the Closed status",
    "No rider description of soil, ruts or prep"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 497
  },
  {
   "id": "atlanta-supercross",
@@ -332,8 +334,8 @@
   "city": "Bremen",
   "county": "Haralson",
   "address": "372 Reid Rd, Bremen, GA 30110",
-  "lat": null,
-  "lng": null,
+  "lat": 33.72049,
+  "lng": -85.11377,
   "types": [
    "motocross"
   ],
@@ -385,6 +387,11 @@
     "url": "https://racerxonline.com/2013/09/19/king-of-the-ranch-at-bremen",
     "title": "Racer X - King of the Ranch at Bremen (2013)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (372 Reid Rd, Bremen, Ga, 30110)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -392,7 +399,8 @@
    "Soil and layout",
    "Closure date"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 1315
  },
  {
   "id": "calhoun-motocross",
@@ -488,7 +496,8 @@
    "Founding year conflict (1980 vs 1984)",
    "Website/socials not confirmed"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 620
  },
  {
   "id": "durhamtown",
@@ -614,7 +623,8 @@
    "Per-track soil for MX 2/4/5/6",
    "Watering practices"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 576
  },
  {
   "id": "echeconnee-mx",
@@ -711,7 +721,8 @@
    "Directory claim of being Georgia's oldest track not verified",
    "Practice-day schedule"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 395
  },
  {
   "id": "fannin-county-mx",
@@ -723,8 +734,8 @@
   "city": "Mineral Bluff",
   "county": "Fannin",
   "address": "2323 Cutcane Rd, Mineral Bluff, GA 30559",
-  "lat": null,
-  "lng": null,
+  "lat": 34.93223,
+  "lng": -84.24386,
   "types": [
    "motocross"
   ],
@@ -775,15 +786,20 @@
     "url": "https://www.vitalmx.com/forums/Moto-Related,20/Any-MX-in-Chattanooga-TN-Area,1393796",
     "title": "Vital MX - Any MX in Chattanooga area (2021)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (2323 Cutcane Rd, Mineral Bluff, Ga, 30559)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
-   "Coordinates in directory are rounded and were not used",
    "Soil and layout only from directory copy",
    "No rider description of conditions"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 1617
  },
  {
   "id": "fast-track-mx-ranch",
@@ -796,8 +812,8 @@
   "city": "Cairo",
   "county": "Grady",
   "address": "1096 Sherman Rd, Cairo, GA 39828",
-  "lat": null,
-  "lng": null,
+  "lat": 30.76893,
+  "lng": -84.31848,
   "types": [
    "motocross"
   ],
@@ -852,6 +868,11 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_09741/ride_57a4.htm",
     "title": "RiderPlanet USA - Fast Track MX Ranch (closed)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (1096 Sherman Rd, Cairo, Ga, 39828)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -859,7 +880,8 @@
    "Closure date",
    "Whether the 2021 mention refers to this site"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 254
  },
  {
   "id": "georgia-practice-facility",
@@ -946,7 +968,8 @@
    "Current track details (profile is from 2012)",
    "Wet behavior"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 256
  },
  {
   "id": "hazlehurst-mx-park",
@@ -1013,7 +1036,8 @@
    "Two different phone numbers in listings",
    "No rider reports"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 260
  },
  {
   "id": "highland-park-off-road-resort",
@@ -1120,7 +1144,8 @@
    "Wet-weather trail behavior",
    "Whether MX prep has improved since 2023"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 977
  },
  {
   "id": "houston-valley-orv",
@@ -1201,8 +1226,8 @@
   "city": "Dahlonega",
   "county": "Lumpkin",
   "address": "116 Iron Mountain Pkwy, Dahlonega, GA 30533",
-  "lat": null,
-  "lng": null,
+  "lat": 34.54389,
+  "lng": -84.13727,
   "types": [
    "offroad"
   ],
@@ -1241,6 +1266,11 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_16431/ride_72b3.htm",
     "title": "RiderPlanet USA - Iron Mountain Park",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (116 Iron Mountain Pkwy, Dahlonega, Ga, 30533)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -1248,7 +1278,8 @@
    "Dirt-bike-specific reports",
    "Whether any MX track exists"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 1702
  },
  {
   "id": "lane-farm-mx",
@@ -1325,7 +1356,8 @@
    "Soil type",
    "First-hand riding reports"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 317
  },
  {
   "id": "lazy-river-mx",
@@ -1411,7 +1443,8 @@
    "How the clay rides wet or late in the day",
    "Phone is from a 2015 article; may be outdated"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 673
  },
  {
   "id": "live-oak-motorpark",
@@ -1423,8 +1456,8 @@
   "city": "Daisy",
   "county": "Evans",
   "address": "521 Sheppard Ave, Daisy, GA 30417",
-  "lat": null,
-  "lng": null,
+  "lat": 32.14443,
+  "lng": -81.82393,
   "types": [
    "motocross",
    "offroad"
@@ -1471,6 +1504,11 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_14439/ride_928e.htm",
     "title": "RiderPlanet USA - Live Oak Motorpark (temporarily closed until further notice)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (521 Sheppard Ave, Daisy, Ga, 30423)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -1478,7 +1516,8 @@
    "Listed as temporarily closed; reopening unknown",
    "No rider reports"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 135
  },
  {
   "id": "locust-stake-ohv",
@@ -1550,8 +1589,8 @@
   "city": "Macon",
   "county": "Bibb",
   "address": "200 Coliseum Dr, Macon, GA 31217",
-  "lat": null,
-  "lng": null,
+  "lat": 32.84143,
+  "lng": -83.61849,
   "types": [
    "arenacross"
   ],
@@ -1605,6 +1644,11 @@
     "url": "https://www.cyclenews.com/2026/10/article/2026-27-ama-arenacross-calendar/",
     "title": "Cycle News - 2026-27 AMA arenacross calendar",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (200 Coliseum Dr, Macon, Ga, 31217)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -1613,7 +1657,8 @@
    "No rider reports",
    "Not on the 2026-27 calendar; a TriStar 2024-25 Atlanta round was announced but its venue was not found"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 311
  },
  {
   "id": "millsaps-training-facility",
@@ -1627,8 +1672,8 @@
   "city": "Cairo",
   "county": "Grady",
   "address": "867 Bold Springs Road, Cairo, GA 39828",
-  "lat": null,
-  "lng": null,
+  "lat": 30.89528,
+  "lng": -84.10763,
   "types": [
    "training",
    "motocross",
@@ -1694,16 +1739,21 @@
     "url": "https://mxparks.com/motocross-tracks/georgia/millsaps-training-facility-mtf-cairo",
     "title": "MX Parks - MTF",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (867 Bold Springs Rd, Cairo, Ga, 39828)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
   "gaps": [
    "Soil",
    "Rider reports on how the tracks ride",
-   "Coordinates",
    "County inferred from Cairo, not stated by a source"
   ],
-  "research_file": "nationals.json"
+  "research_file": "nationals.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 268
  },
  {
   "id": "moto-mountain-atv-park",
@@ -1842,7 +1892,8 @@
    "First-hand rider reports",
    "Website"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 298
  },
  {
   "id": "motox-compound",
@@ -1918,7 +1969,8 @@
    "Soil only from directory",
    "Track lengths"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 658
  },
  {
   "id": "next-level-motocross",
@@ -1983,7 +2035,8 @@
    "Layout",
    "Rider reports"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 232
  },
  {
   "id": "oakey-mountain-ohv",
@@ -2132,7 +2185,8 @@
    "Wet behavior",
    "Rider soil reports"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 70
  },
  {
   "id": "paradise-off-road-park",
@@ -2145,8 +2199,8 @@
   "city": "Macon",
   "county": null,
   "address": "1276 Sgoda Rd, Macon, GA 31217",
-  "lat": null,
-  "lng": null,
+  "lat": 32.74619,
+  "lng": -83.50931,
   "types": [
    "motocross",
    "offroad"
@@ -2205,6 +2259,11 @@
     "url": "https://racerxonline.com/2011/05/17/paradise-off-road-park-grand-opening",
     "title": "Racer X - Paradise Off-Road Park grand opening (2011)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (1276 Sgoda Rd, Macon, Ga, 31217)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -2212,7 +2271,8 @@
    "Closure date",
    "Soil"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 452
  },
  {
   "id": "rockcrusher-farm",
@@ -2281,7 +2341,8 @@
    "MX track detail",
    "Rider reports"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 1997
  },
  {
   "id": "scrubn-dirt-mx",
@@ -2373,7 +2434,8 @@
    "No rider description of how it rides dry, wet or late",
    "Elevation"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 805
  },
  {
   "id": "silver-dollar-motorsports-park",
@@ -2454,7 +2516,8 @@
    "Layout detail",
    "Rider condition reports"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 448
  },
  {
   "id": "southern-training-facility-raceway",
@@ -2549,7 +2612,8 @@
    "Elevation claim unverified",
    "Watering"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 205
  },
  {
   "id": "talking-rock-arena",
@@ -2640,7 +2704,8 @@
    "Late-day behavior",
    "Current open-day pattern"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 1111
  },
  {
   "id": "tenmile-mx",
@@ -2717,7 +2782,8 @@
    "Rider description of the sand and how it ruts",
    "Coordinates from directory only"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 367
  },
  {
   "id": "town-creek-ohv",
@@ -2922,7 +2988,8 @@
    "Rider reports",
    "Phone"
   ],
-  "research_file": "ga.json"
+  "research_file": "ga.json + ga-update-geo-2026-11.json",
+  "elevation_ft": 236
  },
  {
   "id": "whissenhunt-ohv",

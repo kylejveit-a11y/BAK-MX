@@ -11,8 +11,8 @@
   "city": "Mechanicsville",
   "county": "St. Mary's",
   "address": "27963 Budds Creek Road, Mechanicsville, MD 20659",
-  "lat": null,
-  "lng": null,
+  "lat": 38.40362,
+  "lng": -76.83514,
   "types": [
    "motocross"
   ],
@@ -80,16 +80,21 @@
     "url": "https://racerxonline.com/2024/08/19/breakdown-budds-creek",
     "title": "Racer X - Breakdown: Budds Creek 2024",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (27963 Budds Creek Rd, Mechanicsville, Md, 20659)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
   "gaps": [
    "Soil type named only by promo copy",
-   "Coordinates",
    "Phone",
    "Public practice schedule",
    "Braking-bump/rut depth on a dry year"
   ],
-  "research_file": "nationals.json"
+  "research_file": "nationals.json + md-update-geo-2026-11.json",
+  "elevation_ft": 156
  }
 ]

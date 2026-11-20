@@ -1,0 +1,205 @@
+{
+ "note": "2026-11-20 map polish: coordinates from the listed street address (US Census geocoder, or OpenStreetMap where it names the place) and ground elevation at the coordinates (USGS Elevation Point Query Service, feet).",
+ "updates": [
+  {
+   "id": "alma-mx-park",
+   "elevation_ft": 168
+  },
+  {
+   "id": "aonia-pass-mx",
+   "elevation_ft": 497
+  },
+  {
+   "id": "bremen-race-park",
+   "lat": 33.72049,
+   "lng": -85.11377,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (372 Reid Rd, Bremen, Ga, 30110)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 1315
+  },
+  {
+   "id": "calhoun-motocross",
+   "elevation_ft": 620
+  },
+  {
+   "id": "durhamtown",
+   "elevation_ft": 576
+  },
+  {
+   "id": "echeconnee-mx",
+   "elevation_ft": 395
+  },
+  {
+   "id": "fannin-county-mx",
+   "lat": 34.93223,
+   "lng": -84.24386,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (2323 Cutcane Rd, Mineral Bluff, Ga, 30559)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [
+    "Coordinates in directory are rounded and were not used"
+   ],
+   "elevation_ft": 1617
+  },
+  {
+   "id": "fast-track-mx-ranch",
+   "lat": 30.76893,
+   "lng": -84.31848,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (1096 Sherman Rd, Cairo, Ga, 39828)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 254
+  },
+  {
+   "id": "georgia-practice-facility",
+   "elevation_ft": 256
+  },
+  {
+   "id": "hazlehurst-mx-park",
+   "elevation_ft": 260
+  },
+  {
+   "id": "highland-park-off-road-resort",
+   "elevation_ft": 977
+  },
+  {
+   "id": "iron-mountain-park",
+   "lat": 34.54389,
+   "lng": -84.13727,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (116 Iron Mountain Pkwy, Dahlonega, Ga, 30533)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 1702
+  },
+  {
+   "id": "lane-farm-mx",
+   "elevation_ft": 317
+  },
+  {
+   "id": "lazy-river-mx",
+   "elevation_ft": 673
+  },
+  {
+   "id": "live-oak-motorpark",
+   "lat": 32.14443,
+   "lng": -81.82393,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (521 Sheppard Ave, Daisy, Ga, 30423)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 135
+  },
+  {
+   "id": "macon-coliseum",
+   "lat": 32.84143,
+   "lng": -83.61849,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (200 Coliseum Dr, Macon, Ga, 31217)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 311
+  },
+  {
+   "id": "millsaps-training-facility",
+   "lat": 30.89528,
+   "lng": -84.10763,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (867 Bold Springs Rd, Cairo, Ga, 39828)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [
+    "Coordinates"
+   ],
+   "elevation_ft": 268
+  },
+  {
+   "id": "moto-vip",
+   "elevation_ft": 298
+  },
+  {
+   "id": "motox-compound",
+   "elevation_ft": 658
+  },
+  {
+   "id": "next-level-motocross",
+   "elevation_ft": 232
+  },
+  {
+   "id": "okefenokee-mx-park",
+   "elevation_ft": 70
+  },
+  {
+   "id": "paradise-off-road-park",
+   "lat": 32.74619,
+   "lng": -83.50931,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (1276 Sgoda Rd, Macon, Ga, 31217)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 452
+  },
+  {
+   "id": "rockcrusher-farm",
+   "elevation_ft": 1997
+  },
+  {
+   "id": "scrubn-dirt-mx",
+   "elevation_ft": 805
+  },
+  {
+   "id": "silver-dollar-motorsports-park",
+   "elevation_ft": 448
+  },
+  {
+   "id": "southern-training-facility-raceway",
+   "elevation_ft": 205
+  },
+  {
+   "id": "talking-rock-arena",
+   "elevation_ft": 1111
+  },
+  {
+   "id": "tenmile-mx",
+   "elevation_ft": 367
+  },
+  {
+   "id": "victory-training-facility",
+   "elevation_ft": 236
+  }
+ ]
+}

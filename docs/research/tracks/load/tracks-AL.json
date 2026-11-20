@@ -11,8 +11,8 @@
   "city": "Atmore",
   "county": "Escambia",
   "address": "1022 Hope Grant Rd, Atmore, AL 36502",
-  "lat": null,
-  "lng": null,
+  "lat": 31.15123,
+  "lng": -87.39535,
   "types": [
    "motocross"
   ],
@@ -74,14 +74,19 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_07308/ride_7ebd.htm",
     "title": "RiderPlanet USA - Atmore Motox Park (closed)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (1022 Hope Grant Rd, Atmore, Al, 36502)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
-   "Closure date",
-   "Directory coordinates duplicate another track and were not used"
+   "Closure date"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 315
  },
  {
   "id": "big-springs-motocross",
@@ -158,7 +163,8 @@
    "Soil",
    "Track length"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 1282
  },
  {
   "id": "birmingham-supercross",
@@ -309,7 +315,8 @@
    "Soil and layout",
    "Whether it is the same site as the older Cadillac Ranch MX in Vance (2011 rider: mostly red clay, some hardpack)"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 562
  },
  {
   "id": "chandler-mountain-mx",
@@ -382,8 +389,8 @@
   "city": "Jacksonville",
   "county": "Calhoun",
   "address": "1312 Louise Dr SE, Jacksonville, AL 36265",
-  "lat": null,
-  "lng": null,
+  "lat": 33.81136,
+  "lng": -85.74174,
   "types": [
    "offroad"
   ],
@@ -422,6 +429,11 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_14561/ride_bec1.htm",
     "title": "RiderPlanet USA - Choccolocco Mountain ORV Park",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (1312 Louise Dr Se, Jacksonville, Al, 36265)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -429,7 +441,8 @@
    "Soil",
    "Dirt-bike-specific reports"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 860
  },
  {
   "id": "corner-mx-park",
@@ -515,7 +528,8 @@
    "Recent rider reports",
    "AAX schedule"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 758
  },
  {
   "id": "crossbone-mx-ranch",
@@ -603,7 +617,8 @@
    "Track length and jump sizes",
    "Late-day sand ruts"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 358
  },
  {
   "id": "cullman-ag-trade-center",
@@ -806,7 +821,8 @@
    "Layout and jump sizes",
    "First-hand riding reports"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 587
  },
  {
   "id": "extreme-mx-clubhouse",
@@ -948,8 +964,8 @@
   "city": "Andalusia",
   "county": "Covington",
   "address": "16273 County Rd 34, Andalusia, AL 36420",
-  "lat": null,
-  "lng": null,
+  "lat": 31.23163,
+  "lng": -86.44394,
   "types": [
    "motocross"
   ],
@@ -995,15 +1011,20 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_16365/ride_c721.htm",
     "title": "RiderPlanet USA - Green Acres MX",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (16273 Co Rd 34, Andalusia, Al, 36420)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Current status",
-   "Soil",
-   "Coordinates"
+   "Soil"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 223
  },
  {
   "id": "gulf-coast-motocross",
@@ -1079,8 +1100,8 @@
   "city": "Tuscumbia",
   "county": "Colbert",
   "address": "3834 Hawk Pride Mountain Rd, Tuscumbia, AL 35674",
-  "lat": null,
-  "lng": null,
+  "lat": 34.66866,
+  "lng": -87.81108,
   "types": [
    "offroad",
    "motocross"
@@ -1129,15 +1150,20 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_14224/ride_d04e.htm",
     "title": "RiderPlanet USA - Hawk Pride Mountain Offroad",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (3834 Hawk Pride Mountain Rd, Tuscumbia, Al, 35674)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "MX track detail",
-   "Soil",
-   "Coordinates"
+   "Soil"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 781
  },
  {
   "id": "hendrix-mx-compound",
@@ -1197,7 +1223,8 @@
    "Layout",
    "Rider reports"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 614
  },
  {
   "id": "indian-mountain-atv-park",
@@ -1207,8 +1234,8 @@
   "city": "Piedmont",
   "county": null,
   "address": "11620 County Rd 8, Piedmont, AL 36272",
-  "lat": null,
-  "lng": null,
+  "lat": 34.00941,
+  "lng": -85.44291,
   "types": [
    "offroad"
   ],
@@ -1250,15 +1277,20 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_16479/ride_001d.htm",
     "title": "RiderPlanet USA - Indian Mountain ATV Park",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (11620 Co Rd 8, Piedmont, Al, 36272)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Dirt-bike suitability",
-   "Coordinates",
    "Rider reports"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 852
  },
  {
   "id": "jb-motocross",
@@ -1270,8 +1302,8 @@
   "city": "Huntsville",
   "county": "Madison",
   "address": "125 Short Pike Rd, Huntsville, AL 35824",
-  "lat": null,
-  "lng": null,
+  "lat": 34.66282,
+  "lng": -86.7584,
   "types": [
    "motocross"
   ],
@@ -1318,6 +1350,11 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_02085/ride_b30e.htm",
     "title": "RiderPlanet USA - JB Motocross (closed)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (125 Short Pike Rd Sw, Huntsville, Al, 35824)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -1325,7 +1362,8 @@
    "Soil",
    "Closure date"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 601
  },
  {
   "id": "kentuck-orv-area",
@@ -1480,7 +1518,8 @@
    "Wet behavior",
    "Jump sizes"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 866
  },
  {
   "id": "millcreek-mx-barber",
@@ -1542,7 +1581,8 @@
    "Rider reports",
    "Phone"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 662
  },
  {
   "id": "millcreek-mx-pell-city",
@@ -1558,8 +1598,8 @@
   "city": "Pell City",
   "county": "St. Clair",
   "address": "1724 Roberts Mill Pond Rd, Pell City, AL 35125",
-  "lat": null,
-  "lng": null,
+  "lat": 33.5803,
+  "lng": -86.34008,
   "types": [
    "motocross",
    "supercross"
@@ -1652,13 +1692,17 @@
     "url": "https://racerxonline.com/2011/01/12/millcreek-motocross-celebrates-10-years-racing",
     "title": "Racer X - MillCreek celebrates 10 years (2011)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (1724 Roberts Mill Pond Rd, Pell City, Al, 35128)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "medium",
-  "gaps": [
-   "Coordinates of old site"
-  ],
-  "research_file": "al.json"
+  "gaps": [],
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 540
  },
  {
   "id": "minooka-ohv-park",
@@ -1847,7 +1891,8 @@
    "Watering setup",
    "Exact clay/sand split on the main track"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 413
  },
  {
   "id": "mulberry-creek-mx",
@@ -2060,7 +2105,8 @@
    "Soil",
    "Contacts"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 357
  },
  {
   "id": "phenix-city-motocross",
@@ -2072,8 +2118,8 @@
   "city": "Salem",
   "county": "Lee",
   "address": "101 Lamb Rd N, Salem, AL 36874",
-  "lat": null,
-  "lng": null,
+  "lat": 32.45897,
+  "lng": -85.27593,
   "types": [
    "motocross"
   ],
@@ -2124,14 +2170,19 @@
     "url": "https://mxparks.com/motocross-tracks/alabama/phenix-city-motocross-phenix-city",
     "title": "MX Parks - Phenix City Motocross",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (101 Lamb Rd N, Salem, Al, 36874)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
-   "Directory coordinates are rounded and were not used",
    "Rider reports with detail"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 502
  },
  {
   "id": "reedy-creek-motocross",
@@ -2195,7 +2246,8 @@
    "Soil",
    "Rider reports"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 393
  },
  {
   "id": "riverside-motocross-park",
@@ -2277,7 +2329,8 @@
    "Wet behavior",
    "Recent rider detail"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 173
  },
  {
   "id": "sand-mountain-mx",
@@ -2371,7 +2424,8 @@
    "Wet and late-day behavior",
    "Website may be outdated"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 1127
  },
  {
   "id": "shorter-mx",
@@ -2644,7 +2698,8 @@
    "Rider reports on the MX track",
    "Layout"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 79
  },
  {
   "id": "the-ridge-alabama",
@@ -2720,7 +2775,8 @@
    "MX track detail",
    "Rider reports"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 1330
  },
  {
   "id": "tnt-motorsports-park-al",
@@ -2780,7 +2836,8 @@
    "Schedule",
    "Rider reports"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 721
  },
  {
   "id": "top-trails-ohv-park",
@@ -2793,8 +2850,8 @@
   "city": "Talladega",
   "county": "Talladega",
   "address": "1247 Horne Dr, Talladega, AL 35160 (older listing: 550 Welch Ave)",
-  "lat": null,
-  "lng": null,
+  "lat": 33.47081,
+  "lng": -86.0628,
   "types": [
    "offroad"
   ],
@@ -2844,6 +2901,11 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_14760/ride_815f.htm",
     "title": "RiderPlanet USA - TOP Trails",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.openstreetmap.org/",
+    "title": "OpenStreetMap: 1247, Horne Drive, Talladega, Talladega County, Alabama, 35160, United States",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -2852,7 +2914,8 @@
    "Soil",
    "Rider reports"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 574
  },
  {
   "id": "war-eagle-mx-park",
@@ -2940,6 +3003,7 @@
    "Closure date (tourism page still lists it)",
    "Soil"
   ],
-  "research_file": "al.json"
+  "research_file": "al.json + al-update-geo-2026-11.json",
+  "elevation_ft": 513
  }
 ]

@@ -1,0 +1,211 @@
+{
+ "note": "2026-11-20 map polish: coordinates from the listed street address (US Census geocoder, or OpenStreetMap where it names the place) and ground elevation at the coordinates (USGS Elevation Point Query Service, feet).",
+ "updates": [
+  {
+   "id": "atmore-mx-park",
+   "lat": 31.15123,
+   "lng": -87.39535,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (1022 Hope Grant Rd, Atmore, Al, 36502)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [
+    "Directory coordinates duplicate another track and were not used"
+   ],
+   "elevation_ft": 315
+  },
+  {
+   "id": "big-springs-motocross",
+   "elevation_ft": 1282
+  },
+  {
+   "id": "cash-brothers-mx",
+   "elevation_ft": 562
+  },
+  {
+   "id": "choccolocco-mountain-orv",
+   "lat": 33.81136,
+   "lng": -85.74174,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (1312 Louise Dr Se, Jacksonville, Al, 36265)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 860
+  },
+  {
+   "id": "corner-mx-park",
+   "elevation_ft": 758
+  },
+  {
+   "id": "crossbone-mx-ranch",
+   "elevation_ft": 358
+  },
+  {
+   "id": "dodge-city-motosports",
+   "elevation_ft": 587
+  },
+  {
+   "id": "green-acres-mx",
+   "lat": 31.23163,
+   "lng": -86.44394,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (16273 Co Rd 34, Andalusia, Al, 36420)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [
+    "Coordinates"
+   ],
+   "elevation_ft": 223
+  },
+  {
+   "id": "hawk-pride-mountain-offroad",
+   "lat": 34.66866,
+   "lng": -87.81108,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (3834 Hawk Pride Mountain Rd, Tuscumbia, Al, 35674)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [
+    "Coordinates"
+   ],
+   "elevation_ft": 781
+  },
+  {
+   "id": "hendrix-mx-compound",
+   "elevation_ft": 614
+  },
+  {
+   "id": "indian-mountain-atv-park",
+   "lat": 34.00941,
+   "lng": -85.44291,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (11620 Co Rd 8, Piedmont, Al, 36272)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [
+    "Coordinates"
+   ],
+   "elevation_ft": 852
+  },
+  {
+   "id": "jb-motocross",
+   "lat": 34.66282,
+   "lng": -86.7584,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (125 Short Pike Rd Sw, Huntsville, Al, 35824)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 601
+  },
+  {
+   "id": "mclarty-mx-park",
+   "elevation_ft": 866
+  },
+  {
+   "id": "millcreek-mx-barber",
+   "elevation_ft": 662
+  },
+  {
+   "id": "millcreek-mx-pell-city",
+   "lat": 33.5803,
+   "lng": -86.34008,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (1724 Roberts Mill Pond Rd, Pell City, Al, 35128)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [
+    "Coordinates of old site"
+   ],
+   "elevation_ft": 540
+  },
+  {
+   "id": "monster-mountain-mx",
+   "elevation_ft": 413
+  },
+  {
+   "id": "noahs-motopark",
+   "elevation_ft": 357
+  },
+  {
+   "id": "phenix-city-motocross",
+   "lat": 32.45897,
+   "lng": -85.27593,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (101 Lamb Rd N, Salem, Al, 36874)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [
+    "Directory coordinates are rounded and were not used"
+   ],
+   "elevation_ft": 502
+  },
+  {
+   "id": "reedy-creek-motocross",
+   "elevation_ft": 393
+  },
+  {
+   "id": "riverside-motocross-park",
+   "elevation_ft": 173
+  },
+  {
+   "id": "sand-mountain-mx",
+   "elevation_ft": 1127
+  },
+  {
+   "id": "styx-river-mx-atv-park",
+   "elevation_ft": 79
+  },
+  {
+   "id": "the-ridge-alabama",
+   "elevation_ft": 1330
+  },
+  {
+   "id": "tnt-motorsports-park-al",
+   "elevation_ft": 721
+  },
+  {
+   "id": "top-trails-ohv-park",
+   "lat": 33.47081,
+   "lng": -86.0628,
+   "sources": [
+    {
+     "url": "https://www.openstreetmap.org/",
+     "title": "OpenStreetMap: 1247, Horne Drive, Talladega, Talladega County, Alabama, 35160, United States",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 574
+  },
+  {
+   "id": "war-eagle-mx-park",
+   "elevation_ft": 513
+  }
+ ]
+}

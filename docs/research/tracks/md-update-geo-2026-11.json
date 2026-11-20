@@ -1,0 +1,21 @@
+{
+ "note": "2026-11-20 map polish: coordinates from the listed street address (US Census geocoder, or OpenStreetMap where it names the place) and ground elevation at the coordinates (USGS Elevation Point Query Service, feet).",
+ "updates": [
+  {
+   "id": "budds-creek-mx",
+   "lat": 38.40362,
+   "lng": -76.83514,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (27963 Budds Creek Rd, Mechanicsville, Md, 20659)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [
+    "Coordinates"
+   ],
+   "elevation_ft": 156
+  }
+ ]
+}

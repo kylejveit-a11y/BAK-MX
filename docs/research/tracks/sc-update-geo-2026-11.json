@@ -1,0 +1,157 @@
+{
+ "note": "2026-11-20 map polish: coordinates from the listed street address (US Census geocoder, or OpenStreetMap where it names the place) and ground elevation at the coordinates (USGS Elevation Point Query Service, feet).",
+ "updates": [
+  {
+   "id": "battery-park-offroad",
+   "elevation_ft": 37
+  },
+  {
+   "id": "carolina-adventure-world",
+   "elevation_ft": 401
+  },
+  {
+   "id": "cedar-grove-mx-park",
+   "elevation_ft": 358
+  },
+  {
+   "id": "cgi-facility",
+   "elevation_ft": 339
+  },
+  {
+   "id": "club-mole-creek-mx",
+   "lat": 34.67677,
+   "lng": -81.90002,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (1150 Watson Rd, Enoree, Sc, 29335)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 617
+  },
+  {
+   "id": "clubmx",
+   "elevation_ft": 390
+  },
+  {
+   "id": "dna-motocross-park",
+   "elevation_ft": 423
+  },
+  {
+   "id": "florence-center",
+   "elevation_ft": 125
+  },
+  {
+   "id": "h5-mx-compound",
+   "elevation_ft": 93
+  },
+  {
+   "id": "hannah-creek-mx",
+   "lat": 34.69553,
+   "lng": -81.94094,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (1175 Hanna Creek Rd, Enoree, Sc, 29335)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 669
+  },
+  {
+   "id": "iron-city-mx",
+   "elevation_ft": 787
+  },
+  {
+   "id": "lakeside-mx",
+   "elevation_ft": 995
+  },
+  {
+   "id": "masters-motoplex",
+   "elevation_ft": 429
+  },
+  {
+   "id": "nxt-level-101",
+   "elevation_ft": 700
+  },
+  {
+   "id": "oak-and-harrow-mx",
+   "elevation_ft": 482
+  },
+  {
+   "id": "paradise-mx",
+   "elevation_ft": 108
+  },
+  {
+   "id": "pine-grove-mx",
+   "lat": 34.57371,
+   "lng": -83.04847,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (109 E Spearman Rd, Westminster, Sc, 29693)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 913
+  },
+  {
+   "id": "pineville-mx-park",
+   "elevation_ft": 57
+  },
+  {
+   "id": "revolution-mx-park",
+   "elevation_ft": 531
+  },
+  {
+   "id": "sand-hill-motorsports-park",
+   "lat": 34.70853,
+   "lng": -80.15125,
+   "sources": [
+    {
+     "url": "https://geocoding.geo.census.gov/geocoder/",
+     "title": "US Census Bureau geocoder: position of the listed street address (2140 Angelus Rd, Chesterfield, Sc, 29709)",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "remove_gaps": [],
+   "elevation_ft": 352
+  },
+  {
+   "id": "south-of-the-border-mx",
+   "elevation_ft": 135
+  },
+  {
+   "id": "strawberry-hill-mx",
+   "elevation_ft": 743
+  },
+  {
+   "id": "the-cut-mx",
+   "elevation_ft": 898
+  },
+  {
+   "id": "the-shoals-mx",
+   "elevation_ft": 699
+  },
+  {
+   "id": "timber-valley-mx",
+   "elevation_ft": 563
+  },
+  {
+   "id": "tnt-motorsports-park-sc",
+   "elevation_ft": 494
+  },
+  {
+   "id": "travelers-rest-mx",
+   "elevation_ft": 1117
+  },
+  {
+   "id": "turkey-creek-mx",
+   "elevation_ft": 397
+  }
+ ]
+}

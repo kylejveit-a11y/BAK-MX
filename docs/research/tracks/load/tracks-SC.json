@@ -121,7 +121,8 @@
   "gaps": [
    "Watering/prep routine"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 37
  },
  {
   "id": "carolina-adventure-world",
@@ -183,7 +184,8 @@
   "gaps": [
    "MX track condition and soil"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 401
  },
  {
   "id": "cedar-grove-mx-park",
@@ -267,7 +269,8 @@
   "gaps": [
    "Soil type"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 358
  },
  {
   "id": "cgi-facility",
@@ -381,7 +384,8 @@
    "Soil type",
    "Routine prep"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 339
  },
  {
   "id": "chauga-valley-mx",
@@ -477,8 +481,8 @@
   "city": "Enoree",
   "county": "Spartanburg",
   "address": "1150 Watson Road, Enoree, SC 29335",
-  "lat": null,
-  "lng": null,
+  "lat": 34.67677,
+  "lng": -81.90002,
   "types": [
    "motocross"
   ],
@@ -518,13 +522,19 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/south_carolina_15230/ride_34c6.htm",
     "title": "RiderPlanet USA - Club Mole Creek MX",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (1150 Watson Rd, Enoree, Sc, 29335)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Current status; no recent rider reports"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 617
  },
  {
   "id": "clubmx",
@@ -660,7 +670,8 @@
    "Per-track soil detail and watering method",
    "Current public fees"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 390
  },
  {
   "id": "dna-motocross-park",
@@ -747,7 +758,8 @@
   "gaps": [
    "Recent reports"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 423
  },
  {
   "id": "florence-center",
@@ -813,7 +825,8 @@
   "gaps": [
    "Rider reports on the AX track"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 125
  },
  {
   "id": "h5-mx-compound",
@@ -882,7 +895,8 @@
    "Layout",
    "Rider reports"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 93
  },
  {
   "id": "hannah-creek-mx",
@@ -894,8 +908,8 @@
   "city": "Enoree",
   "county": "Spartanburg",
   "address": "1175 Hanna Creek Road, Enoree, SC 29335",
-  "lat": null,
-  "lng": null,
+  "lat": 34.69553,
+  "lng": -81.94094,
   "types": [
    "motocross"
   ],
@@ -955,6 +969,11 @@
     "url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
     "title": "Forum thread",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (1175 Hanna Creek Rd, Enoree, Sc, 29335)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
@@ -962,7 +981,8 @@
    "Current status",
    "Schedule"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 669
  },
  {
   "id": "iron-city-mx",
@@ -1057,7 +1077,8 @@
   "gaps": [
    "Soil and conditions from recent riders"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 787
  },
  {
   "id": "lakeside-mx",
@@ -1115,7 +1136,8 @@
   "gaps": [
    "No recent rider reports; current status unconfirmed"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 995
  },
  {
   "id": "masters-motoplex",
@@ -1243,7 +1265,8 @@
    "Watering routine",
    "How the main track rides late day"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 429
  },
  {
   "id": "myrtle-beach-mx",
@@ -1415,7 +1438,8 @@
    "Soil type",
    "Open-practice frequency"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 700
  },
  {
   "id": "oak-and-harrow-mx",
@@ -1487,7 +1511,8 @@
    "Schedule and fees",
    "Rider reports on soil"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 482
  },
  {
   "id": "paradise-mx",
@@ -1595,7 +1620,8 @@
    "Late-day behavior",
    "Watering method"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 108
  },
  {
   "id": "pine-grove-mx",
@@ -1605,8 +1631,8 @@
   "city": "Westminster",
   "county": "Oconee",
   "address": "109 E. Spearman Road, Westminster, SC 29678",
-  "lat": null,
-  "lng": null,
+  "lat": 34.57371,
+  "lng": -83.04847,
   "types": [
    "motocross"
   ],
@@ -1643,13 +1669,19 @@
     "url": "https://www.riderplanet-usa.com/atv/trails/info/south_carolina_13486/ride_7afd.htm",
     "title": "RiderPlanet USA - Pine Grove Motocross",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (109 E Spearman Rd, Westminster, Sc, 29693)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Status and rider reports"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 913
  },
  {
   "id": "pineville-mx-park",
@@ -1746,7 +1778,8 @@
    "How it rides wet",
    "Watering/prep routine"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 57
  },
  {
   "id": "revolution-mx-park",
@@ -1837,7 +1870,8 @@
   "gaps": [
    "Rider descriptions of soil and wet behavior"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 531
  },
  {
   "id": "sand-hill-motorsports-park",
@@ -1850,8 +1884,8 @@
   "city": "Chesterfield",
   "county": "Chesterfield",
   "address": "2140 Angelus Road, Chesterfield, SC 29709",
-  "lat": null,
-  "lng": null,
+  "lat": 34.70853,
+  "lng": -80.15125,
   "types": [
    "motocross"
   ],
@@ -1900,13 +1934,19 @@
     "url": "https://www.youtube.com/watch?v=B77iPbZt_Pw",
     "title": "Rider video (YouTube)",
     "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "title": "US Census Bureau geocoder: position of the listed street address (2140 Angelus Rd, Chesterfield, Sc, 29709)",
+    "accessed": "2026-11-20"
    }
   ],
   "confidence": "low",
   "gaps": [
    "Current status; last rider report 2017"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 352
  },
  {
   "id": "south-of-the-border-mx",
@@ -2018,7 +2058,8 @@
    "Current public practice access and fees",
    "Watering/prep routine"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 135
  },
  {
   "id": "strawberry-hill-mx",
@@ -2118,7 +2159,8 @@
   "gaps": [
    "Closure reported only by MX Parks; confirm whether any events continue"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 743
  },
  {
   "id": "the-cut-mx",
@@ -2199,7 +2241,8 @@
   "gaps": [
    "Wet behavior"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 898
  },
  {
   "id": "the-shoals-mx",
@@ -2301,7 +2344,8 @@
    "Current open-practice days and fees",
    "How the red clay rides wet"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 699
  },
  {
   "id": "timber-valley-mx",
@@ -2370,7 +2414,8 @@
   "gaps": [
    "Closure (Aug 2026) reported only by MX Parks"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 563
  },
  {
   "id": "tnt-motorsports-park-sc",
@@ -2454,7 +2499,8 @@
   "gaps": [
    "Status conflict: MX Parks lists it open daily, 2018 forum posters said closed"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 494
  },
  {
   "id": "travelers-rest-mx",
@@ -2550,7 +2596,8 @@
   "gaps": [
    "Soil type"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 1117
  },
  {
   "id": "turkey-creek-mx",
@@ -2627,6 +2674,7 @@
    "Recent rider reports",
    "Wet behavior"
   ],
-  "research_file": "sc.json"
+  "research_file": "sc.json + sc-update-geo-2026-11.json",
+  "elevation_ft": 397
  }
 ]
