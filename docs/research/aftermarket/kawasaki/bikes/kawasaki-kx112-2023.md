@@ -1,6 +1,6 @@
 # Kawasaki KX112 2023: aftermarket parts
 
-1246 listings whose stated fitment names this bike: 170 researched parts (with what they change and rider findings), 150 dealer and retailer listings specific to this bike, and 926 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1252 listings whose stated fitment names this bike: 176 researched parts (with what they change and rider findings), 150 dealer and retailer listings specific to this bike, and 926 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -44,6 +44,10 @@
 | Moto-Master | Moto Master Flame 260mm Floating Front Rotor Kawasaki KX85 / KX100 / KX112 2001-2025 | 112255-PU | Replacement brake rotor. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moto-master-flame-260mm-floating-front-rotor-kawasaki-kx85-kx100-kx112-2001-2024) | medium |
 | Moto-Master | Moto Master Flame Fixed Rear Rotor Kawasaki KX85 / KX100 / KX112 2001-2025 | 110214-PU | Replacement brake rotor. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moto-master-flame-fixed-rear-rotor-kawasaki-kx85-kx100-kx112-2001-2023) | medium |
 | Moto-Master | Moto Master Flame Fixed Front Rotor Kawasaki KX85 / KX100 / KX112 2001-2025 | 110238-PU | Replacement brake rotor. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moto-master-flame-front-rotor-kawasaki-kx85-kx100-kx112-2001-2023) | medium |
+| Ride Engineering | Ride Engineering Mini Direct Route Braided Steel Brake Line | BL-M0012-CL |  |  | [source](https://ride-engineering.com/YZKX-Mini-Direct-Route-Braided-Steel-Brake-Line_p_1501.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp (BLACK) | RX-BLC00-BA |  |  | [source](https://ride-engineering.com/RM-KX-Brake-Line-Clamp-BLACK_p_1863.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp - Green | RX-BLC00-GN |  |  | [source](https://ride-engineering.com/KX-Brake-Line-Clamp--Green_p_1864.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp (BLUE) | RX-BLC00-MB |  |  | [source](https://ride-engineering.com/RM-KX-Brake-Line-Clamp-BLUE_p_1865.html) | medium |
 | Works Connection | Works Connection Brake Cap-Front | 21-020 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-020ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Brake Cap-Front | 21-025 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
@@ -64,6 +68,8 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-120 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-125 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-126 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover | MX-MCC0F-GN |  |  | [source](https://ride-engineering.com/Kawasaki-Front-Master-Cylinder-Cover_p_1782.html) | medium |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover | MX-MCC0F-MB |  |  | [source](https://ride-engineering.com/YamahaKawasakiSuzuki-Front-Master-Cylinder-Cover_p_1783.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |

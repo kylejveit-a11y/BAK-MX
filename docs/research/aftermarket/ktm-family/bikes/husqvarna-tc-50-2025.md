@@ -1,6 +1,6 @@
 # Husqvarna TC 50 2025: aftermarket parts
 
-1073 listings whose stated fitment names this bike: 116 researched parts (with what they change and rider findings), 46 dealer and retailer listings specific to this bike, and 911 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1077 listings whose stated fitment names this bike: 120 researched parts (with what they change and rider findings), 46 dealer and retailer listings specific to this bike, and 911 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -70,6 +70,9 @@
 | Works Connection | Works Connection Pro Launch Kit | 12-K731 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
 | Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch Kit | 12-P731 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 22 mm, orange | 40504008 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40504008) | high |
+| Xtrig | Xtrig ROCS Top Triple Clamp ; ; GG ; black | 40505013 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40505013) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 22 mm, black | 40704007 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40704007) | high |
 | ARC | ARC Folding Front Brake Lever AC-BR-350 | AC-BR-350, AC-BR-350-R, AC-BR-350-B, AC-BR-350-O, AC-BR-350-SK, AC-BR-350-C, AC-BR-350-CT | Folding front brake lever; ARC levers are built to fold instead of snap in a crash. | ARC fitment list end years vary by model (some stop at 2025, some 2026); 2027 not listed. | [source](https://arclevers.com/products/brake-ac-br-350) | high |
 | RFX | RFX Pro Aluminum Footpegs Husqvarna / KTM / Gas Gas 50cc-65cc | FXFR 50500 99RD, FXFR 50500 99OR, FXFR 50500 99BU | Aftermarket footpegs. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rfx-pro-aluminum-footpegs-husqvarna-ktm-gas-gas-50cc-65cc) | medium |
 | Works Connection | Works Connection Rotating Bar Clamp | 31-100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
@@ -120,6 +123,7 @@
 | WP SUSPENSION (KTM/Husqvarna/GasGas genuine) | WP Shock Absorber Fluid SAE 2.5 (5 L) | 50180751S1 | Factory-specified damping oil for WP XACT shocks. | Owner's manuals do not state a shock oil quantity (2026-2027 small-bike manuals say fill to the maximum mark). | [source](https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240038_en_BA.pdf) | high |
 | KTM PowerParts | Radiator Protection | A46035036044AB, A46035036044XX | Radiator guard. | The 'XX' suffix is an AOMC URL placeholder; actual colour-suffix numbers are not captured. | [AOMC (US)](https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html) | unverified |
 | P3 | P3 Carbon Fiber Skid Plate KTM / Husqvarna / Gas Gas 50cc | 301011 | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/p3-carbon-fiber-skid-plate-ktm-husqvarna-gas-gas-50cc) | medium |
+| P3 Carbon | P3 Carbon Pipe Guard | 101022 |  |  | [source](https://p3carbon.com/products/p3-carbon-pipe-guard-ktm-sx-50-husq-tc-50-gasgas-mc-50-2024-2026/) | medium |
 | KroozR (Krooztune) | WP35 Fork Flow Kit incl. air-to-spring conversion (50/65 cc 2020-2025) | KTFFK50-24N, KTFFK50-28N, KTFFK50-32N, KTFFK50-26N, KTFFK50-28N2S, KTFFK50-30N, KTFFK65-24N, KTFFK65-28N, KTFFK65-32N, KTFFK65-26N, KTFFK65-28N2S, KTFFK65-30N2S | Big-piston flow kit with top-out springs and conversion hardware turning the WP35 air fork into a dual-spring fork with real valving. |  | [source](https://ozmx.au/products/wp35-fork-flow-kit-ktm-group-50-65cc-2020-2025-including-air-to-spring-conversion-kroozr) | medium |
 | WP / KTM PowerParts | WP Factory Racing Front Wheel 1.6x21" and Rear Wheel 2.15x19" (black) | A46009901544C1A, A46010901544C1A | Factory-spec wheel set (see the orange wheel record for claims). | From AOMC related-product titles only; product pages not fetched. | [AOMC (US), front](https://aomc.mx/KTM-Factory-Front-Wheel-16-x-21-125-500-16-24-A4600990104404.html) | unverified |
 

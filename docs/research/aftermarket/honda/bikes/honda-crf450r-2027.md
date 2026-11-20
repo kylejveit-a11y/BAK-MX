@@ -1,6 +1,6 @@
 # Honda CRF450R 2027: aftermarket parts
 
-1159 listings whose stated fitment names this bike: 188 researched parts (with what they change and rider findings), 9 dealer and retailer listings specific to this bike, and 962 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1208 listings whose stated fitment names this bike: 237 researched parts (with what they change and rider findings), 9 dealer and retailer listings specific to this bike, and 962 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -80,6 +80,19 @@
 | Plews | MX3 Foxhills GP Front Tire 21-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
 | Plews | MX3 Foxhills GP Rear Tire 19-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
 | Galfer | Brake disc kit oversize 280mm front, Honda CRF250R / CRF450R 15- |  | Retailer copy: larger outer diameter gives more braking power; widely used in AMA SX and MXGP (maciag-offroad.com). | No Galfer part number shown (only EAN 8400170097091 and shop number SID130392). Open-ended '15-' fitment expanded here to 2020-2027 as listed; 2025+ and 2027 fo | [Maciag Offroad (DE)](https://www.maciag-offroad.com/galfer-brake-disc-kit-oversize-honda-crf-250r-crf-450r-15-280-mm-front-sid130392.html) | unverified |
+| Ride Engineering | Ride Engineering Braided Steel Brake Line Black | BL-01212-BK |  |  | [source](https://ride-engineering.com/Hon19KawiSuzYamBeta-Braided-Steel-Brake-Line-Black_p_1487.html) | medium |
+| Ride Engineering | Ride Engineering Braided Steel Brake Line Clear | BL-01212-CL |  |  | [source](https://ride-engineering.com/Hon19KawSuzYamBeta-Braided-Steel-Brake-Line-Clear_p_1488.html) | medium |
+| Ride Engineering | Ride Engineering braided Steel Rear Brake Line Black | BL-03020-BK |  |  | [source](https://ride-engineering.com/Honda-braided-Steel-Rear-Brake-Line-Black_p_1490.html) | medium |
+| Ride Engineering | Ride Engineering braided Steel Rear Brake Line Clear | BL-03020-CL |  |  | [source](https://ride-engineering.com/Honda-braided-Steel-Rear-Brake-Line-Clear_p_1491.html) | medium |
+| Ride Engineering | Ride Engineering 270mm Over-sized Pulse Rotor Kit-Honda | CR-00279-KT |  |  | [source](https://ride-engineering.com/2019-270mm-Over-sized-Pulse-Rotor-Kit-Honda_p_1510.html) | medium |
+| Ride Engineering | Ride Engineering Billet Rear Brake Clevis | CR-BC006-RA |  |  | [source](https://ride-engineering.com/Honda-Billet-Rear-Brake-Clevis_p_1517.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp BLUE | CR-BLC00-MB |  |  | [source](https://ride-engineering.com/CRYZ-Brake-Line-Clamp-BLUE_p_1525.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp RED | CR-BLC00-RA |  |  | [source](https://ride-engineering.com/CRYZ-Brake-Line-Clamp-RED_p_1526.html) | medium |
+| Ride Engineering | Ride Engineering 270MM Hanger Bracket | CR-HB279-BA |  |  | [source](https://ride-engineering.com/270MM-Hanger-Bracket-2019-Honda_p_1572.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Black | MX-BC000-BA |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Black_p_1732.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Silver | MX-BC000-CA |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Silver_p_1733.html) | medium |
+| Ride Engineering | Ride Engineering Caliper Pin & Spring | MX-BC000-KT |  |  | [source](https://ride-engineering.com/Caliper-Pin-Spring-_p_2149.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Brown | MX-BC000-WN |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Brown_p_2054.html) | medium |
 | Works Connection | Works Connection Brake Cap-Front | 21-000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Brake Cap-Front | 21-005 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
@@ -115,6 +128,29 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-100 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-105 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-106 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Ride Engineering | Ride Engineering OEM LOWER STEERING HEAD BEARING | CR-BE101-AS |  |  | [source](https://ride-engineering.com/CRCRF-OEM-LOWER-STEERING-HEAD-BEARING-_p_2152.html) | medium |
+| Ride Engineering | Ride Engineering Billet Ignition & Timing Plugs | CR-BIT00-BA |  |  | [source](https://ride-engineering.com/Billet-Ignition-Timing-Plugs_p_1521.html) | medium |
+| Ride Engineering | Ride Engineering Billet Ignition & Timing Plugs | CR-BIT00-RA |  |  | [source](https://ride-engineering.com/Billet-Ignition-Timing-Plugs_p_1522.html) | medium |
+| Ride Engineering | Ride Engineering Split Triple Clamp Set Stock Offset - Black | CR-BTB25-BA |  |  | [source](https://ride-engineering.com/2025-CRF-Split-Triple-Clamp-Set-Stock-Offset--Black-_p_2109.html) | medium |
+| Ride Engineering | Ride Engineering Split Triple Clamp Set Stock Offset - Red | CR-BTB25-RA |  |  | [source](https://ride-engineering.com/2025-CRF-Split-Triple-Clamp-Set-Stock-Offset--Red_p_2110.html) | medium |
+| Ride Engineering | Ride Engineering Split Triple Clamp Set 23mm Offset - Silver | CR-BTB35-00 |  |  | [source](https://ride-engineering.com/2025-CRF-Split-Triple-Clamp-Set-23mm-Offset--Silver_p_2120.html) | medium |
+| Ride Engineering | Ride Engineering Split Triple Clamp Set 23mm Offset - Black | CR-BTB35-BA |  |  | [source](https://ride-engineering.com/2025-CRF-Split-Triple-Clamp-Set-23mm-Offset--Black_p_2108.html) | medium |
+| Ride Engineering | Ride Engineering Split Triple Clamp Set 23mm Offset - Red | CR-BTB35-RA |  |  | [source](https://ride-engineering.com/2025-CRF-Split-Triple-Clamp-Set-23mm-Offset--Red-_p_2107.html) | medium |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover Green | CR-MCC0F-GN |  |  | [source](https://ride-engineering.com/Kawasaki-Front-Master-Cylinder-Cover-Green_p_1578.html) | medium |
+| Ride Engineering | Ride Engineering Rear Master Cylinder Cover | CR-MCC0R-RA |  |  | [source](https://ride-engineering.com/Honda-Rear-Master-Cylinder-Cover_p_1580.html) | medium |
+| Ride Engineering | Ride Engineering Reversible Billet Axle Blocks, BLACK | CR-RAB09-BA |  |  | [source](https://ride-engineering.com/Honda-Reversible-Billet-Axle-Blocks-BLACK_p_1584.html) | medium |
+| Ride Engineering | Ride Engineering Reversible Billet Axle Blocks, RED | CR-RAB09-RA |  |  | [source](https://ride-engineering.com/Honda-Reversible-Billet-Axle-Blocks-RED_p_1585.html) | medium |
+| Ride Engineering | Ride Engineering Performance Inserts 12mm Bolt +0.25mm | KX-12MM1-BA |  |  | [source](https://ride-engineering.com/Performance-Inserts-12mm-Bolt-025mm_p_2090.html) | medium |
+| Ride Engineering | Ride Engineering Performance Inserts 12mm Bolt -0.25mm | KX-12MM5-BA |  |  | [source](https://ride-engineering.com/Performance-Inserts-12mm-Bolt-025mm_p_2077.html) | medium |
+| Ride Engineering | Ride Engineering Billet Oil Cap (BLACK) | MX-BFP00-BA |  |  | [source](https://ride-engineering.com/YamahaHondaTriumph-Billet-Oil-Cap-BLACK_p_1739.html) | medium |
+| Ride Engineering | Ride Engineering Billet Oil Cap (BLUE) | MX-BFP00-MB |  |  | [source](https://ride-engineering.com/YamahaHondaTriumph-Billet-Oil-Cap-BLUE_p_1740.html) | medium |
+| Ride Engineering | Ride Engineering Billet Oil Cap (RED) | MX-BFP00-RA |  |  | [source](https://ride-engineering.com/YamahaHondaTriumph-Billet-Oil-Cap-RED_p_1741.html) | medium |
+| Ride Engineering | Ride Engineering Optional 0mm offset bases | MX-BMB00-00 |  |  | [source](https://ride-engineering.com/Optional-0mm-offset-bases--HonKaw-_p_2112.html) | medium |
+| Ride Engineering | Ride Engineering Optional 6mm offset bases | MX-BMB06-00 |  |  | [source](https://ride-engineering.com/Optional-6mm-offset-bases--HonKaw_p_1746.html) | medium |
+| Ride Engineering | Ride Engineering NEW! Optional 10mm offset bases | MX-BMB10-00 |  |  | [source](https://ride-engineering.com/NEW-Optional-10mm-offset-bases--Honda-Kawi_p_2064.html) | medium |
+| Ride Engineering | Ride Engineering Post Mount Extension for Scott's & GPR Sub Mounts | MX-EXT45-00 |  |  | [source](https://ride-engineering.com/Post-Mount-Extension-for-Scotts-GPR-Sub-Mounts_p_2027.html) | medium |
+| Ride Engineering | Ride Engineering WP Damper spacers for 7mm bolts (1 pair) | MX-SP007-SS |  |  | [source](https://ride-engineering.com/WP-Damper-spacers-for-7mm-bolts-1-pair_p_2057.html) | medium |
+| Ride Engineering | Ride Engineering Billet Throttle Mount Start Switch | MX-TS00B-AS |  |  | [source](https://ride-engineering.com/Billet-Throttle-Mount-Start-Switch_p_1805.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -138,8 +174,16 @@
 | Works Connection | Works Connection Elite Axle Blocks | 17-K220 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
 | Works Connection | Works Connection Elite Axle Blocks | 17-P221 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
 | Works Connection | Works Connection Titanium Axle Adjuster Bolts | 70-630 |  |  | [source](https://www.worksconnection.com/p104037-titanium-axle-adjuster-bolts) | high |
+| Xtrig | Xtrig ROCS pro triple clamps, offset 20-22 mm | 40101015 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40101015) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 22 mm, red | 40101016 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40101016) | high |
+| Xtrig | Xtrig Holeshot Kit 55mm | 70100004 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100004) | high |
+| Xtrig | Xtrig HiLo Holeshot Kit 55mm | 70100013 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100013) | high |
+| Ride Engineering | Ride Engineering Clutch Master Cylinder Cover Blue | RX-CMC00-MB |  |  | [source](https://ride-engineering.com/KXCRFYZF-Clutch-Master-Cylinder-Cover-Blue_p_2141.html) | medium |
+| Ride Engineering | Ride Engineering Clutch Master Cylinder Cover Red | RX-CMC00-RA |  |  | [source](https://ride-engineering.com/KXCRFYZF-Clutch-Master-Cylinder-Cover-Red_p_1867.html) | medium |
 | Flo Motorsports | Hydraulic clutch conversion line CMC-791 (Honda / Kawasaki) | CMC-791 | Line that goes with the Flo Motorsports clutch master cylinder to convert to (or replace) a hydraulic clutch line (retailer copy). | One of the few non-exhaust parts any retailer lists for the 2027 CRF450R. Price not captured (out of stock). | [source](https://www.cyclegear.com/parts/flo-motorsports-hydraulic-clutch-conversion-line-honda-250cc-450cc-2021-2027) | medium |
 | Renthal | Recommended bends: Yamaha / Honda / Kawasaki 250-450 four-strokes | 933 (Fatbar36), 996 (Twinwall), 827 (Fatbar), 931/998/603 (Yamaha tall), 930/997/604 (Honda & Kawasaki tall), 839 Fatbar (OE Honda 2019+, Kawasaki 2021+) | Maker: Yamaha's wide shrouds/low seat can feel cramped, so less sweep and/or more height recommended; 839 suits modern Honda/Kawasaki ergonomics better than the old 971. | Guidance page; open-ended years truncated to 2027. | [source](https://www.renthal.com/moto/2021-recommendations) | high |
+| Ride Engineering | Ride Engineering Over-sized (1 1/8") One Piece Bar Mount | MX-BBM00-CA |  |  | [source](https://ride-engineering.com/Over-sized-1-18-One-Piece-Bar-Mount-for-Honda-_p_1731.html) | medium |
+| Ride Engineering | Ride Engineering Bar Mount for Scott's & GPR Stabilizers | MX-SM106-00 |  |  | [source](https://ride-engineering.com/CRCRF-Bar-Mount-for-Scotts-GPR-Stabilizers_p_1789.html) | medium |
 | Works Connection | Works Connection Foot Pegs-Pro Pegs Titanium | 20-400 |  |  | [source](https://www.worksconnection.com/p18089-foot-peg-pro-pegs-titanium) | high |
 | Works Connection | Works Connection Foot Peg - Pro Pegs Mud Titanium | 20-401 |  |  | [source](https://www.worksconnection.com/p935855-foot-peg-pro-pegs-mud-titanium) | high |
 | Works Connection | Works Connection Foot Peg Mounts - Titanium (CRF) | 20-520 |  |  | [source](https://www.worksconnection.com/p1700907-foot-peg-mounts-titanium) | high |
@@ -188,6 +232,11 @@
 | Yoshimura | RS-12evo SS/Ti Full Exhaust (2027 CRF450R/RX) | 225870S720 | Full system for the 2027 engine. |  | [source](None) |  |
 | Yoshimura | RS-12evo Titanium Full Exhaust (2027 CRF450R/RX) | 225871S720 | Full titanium system with hydroformed Ti muffler. |  | [source](None) |  |
 | Renthal | Grooved front sprocket 253--520 (Honda 250-500, 1988-2027) | 253--520-13GP, 253--520-14GP, 253--520-15GP | Steel front sprocket with mud-relief grooves; tooth count changes final drive. | Keefer reports a 14T front is blocked by the clutch slave on the CRF450R (Honda pass 1); retailer lists 13-15T. 2027 CRF450R is a new engine; confirm countersha | [source](https://www.cyclegear.com/parts/renthal-grooved-front-sprocket-honda-250cc-500cc-1988-2027) | medium |
+| P3 Carbon | P3 Carbon Front Brake Guard R | 555001 |  |  | [source](https://p3carbon.com/products/p3-front-brake-guard-250-450-r-rx-2014-2025-see-fitment-tab/) | medium |
+| P3 Carbon | P3 Carbon Rear Pump Protection & 450R | 705004 |  |  | [source](https://p3carbon.com/products/p3-rear-pump-protection-crf250r-rx-450r-rx-2005-2025-see-fitment-tab/) | medium |
+| P3 Carbon | P3 Carbon Lithium Battery Holder R | 705005 |  |  | [source](https://p3carbon.com/products/p3-lithium-battery-holder-crf250-r-rx-450-r-rx-2021-2025-see-fitment-tab/) | medium |
+| P3 Carbon | P3 Carbon RWE Clutch Reservoir Protector | 705006-BLK |  |  | [source](https://p3carbon.com/products/p3-carbon-honda-clutch-reservoir-protector-crf450r-rx-rwe2021-2025/) | medium |
+| P3 Carbon | P3 Carbon Front Brake Reservoir Protector | 705007-BLK |  |  | [source](https://p3carbon.com/products/p3-carbon-honda-front-brake-reservoir-protector-2005-2025/) | medium |
 | Works Connection | Works Connection Rear Master Cylinder Guard | 15-706 |  |  | [source](https://www.worksconnection.com/p18136-rear-master-cylinder-guards) | high |
 | Works Connection | Works Connection Rear Caliper Guard | 25-014 |  |  | [source](https://www.worksconnection.com/p18135-rear-caliper-guards) | high |
 | Factory Connection | Shock Spring (ALL series) Honda CRF250R/CRF450R/RX/R-S/RL/L/X 2017-2027 | ALL-0047, ALL-0049, ALL-0051, ALL-0053, ALL-0057, ALL-0059, ALL-0061, ALL-0063 | Steel shock springs, rate per part number. |  | [source](None) |  |

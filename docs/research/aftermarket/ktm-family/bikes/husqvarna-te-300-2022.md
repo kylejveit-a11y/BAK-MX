@@ -1,12 +1,18 @@
 # Husqvarna TE 300 2022: aftermarket parts
 
-65 listings whose stated fitment names this bike: 65 researched parts (with what they change and rider findings), 0 dealer and retailer listings specific to this bike, and 0 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+89 listings whose stated fitment names this bike: 89 researched parts (with what they change and rider findings), 0 dealer and retailer listings specific to this bike, and 0 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
 | Moose Racing | Flex Forged Brake Lever (KTM / Husqvarna / GasGas / Sherco 125cc-501cc) |  | Front brake lever with forged 6061-T6 body and machined head; reach-adjustable and folds backward on impact instead of breaking. Fits the OEM master cylinder. | mooseracing.com could not be read in this session (permission request not answered), so fitment comes from Cycle Gear's per-item fitment table (Comoto-owned aut | [source](https://www.cyclegear.com/parts/moose-racing-flex-forged-brake-lever-ktm-husqvarna-gas-gas-sherco-125cc-501cc-2014-2024) | medium |
+| Ride Engineering | Ride Engineering braided Steel Rear Brake Line Black | BL-K9012-BK |  |  | [source](https://ride-engineering.com/KTMHUSQGASTRI-braided-Steel-Rear-Brake-Line-Black_p_1974.html) | medium |
+| Ride Engineering | Ride Engineering braided Steel Rear Brake Line Clear | BL-K9012-CL |  |  | [source](https://ride-engineering.com/KTMHUSQGASTRI-braided-Steel-Rear-Brake-Line-Clear_p_1500.html) | medium |
+| Ride Engineering | Ride Engineering 270mm Over-sized Pulse Rotor Kit-GASGAS (BrakTec) | BT-00270-KT |  |  | [source](https://ride-engineering.com/270mm-Over-sized-Pulse-Rotor-Kit-GASGAS-2024-BrakTec_p_1597.html) | medium |
+| Ride Engineering | Ride Engineering Hanger Bracket-BrakTec | BT-HB270-BA |  |  | [source](https://ride-engineering.com/GasGasHusq-270mm-Hanger-Bracket-BrakTec_p_2066.html) | medium |
+| Ride Engineering | Ride Engineering 270mm Pulse Rotor-KTM | KT-R0270-SS |  |  | [source](https://ride-engineering.com/270mm-Pulse-Rotor-KTMHUSKYGASGASBETATRIUMPH_p_1657.html) | medium |
+| Ride Engineering | Ride Engineering 270mm Pulse Rotor Kit-KTM/ for RE Brake Caliper | RT-00270-KT |  |  | [source](https://ride-engineering.com/270mm-Pulse-Rotor-Kit-KTMHusqGASTRI-for-RE-Brake-Caliper_p_2074.html) | medium |
 | Works Connection | Works Connection Braktek Brake Cap-Front | 21-041 |  |  | [source](https://www.worksconnection.com/p1430448-braktec-front-brake-caps) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-041ENG |  |  | [source](https://www.worksconnection.com/p1430448-braktec-front-brake-caps) | high |
 | Works Connection | Works Connection Braktek Brake Cap-Front | 21-046 |  |  | [source](https://www.worksconnection.com/p1430448-braktec-front-brake-caps) | high |
@@ -23,6 +29,21 @@
 | Works Connection | Works Connection Custom Engrave Number | 21-G054ENG |  |  | [source](https://www.worksconnection.com/p1430448-braktec-front-brake-caps) | high |
 | Works Connection | Works Connection Braktek Brake Cap-Front | 21-K054 |  |  | [source](https://www.worksconnection.com/p1430448-braktec-front-brake-caps) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-K054ENG |  |  | [source](https://www.worksconnection.com/p1430448-braktec-front-brake-caps) | high |
+| FCP Racing | FCP Racing Engine Mounts |  |  |  | [source](https://fcpracing.com/product/husqvarna-250-300i-te-2020-2022/) | high |
+| Ride Engineering | Ride Engineering OEM LOWER STEERING HEAD BEARING | KT-BE101-AS |  |  | [source](https://ride-engineering.com/KTMHUSGASTRIBETA-OEM-LOWER-STEERING-HEAD-BEARING-_p_2154.html) | medium |
+| Ride Engineering | Ride Engineering 22mm Offset off-road models, Rubber Mounted Split Triple Clamp Set - Silver | KT-BTB24-00 |  |  | [source](https://ride-engineering.com/22mm-Offset-2013-22-KTMHUSQ-23-off-road-models-21-23-GASGAS-Rubber-Mounted-Split-Triple-Clamp-Set--Silver_p_1617.html) | medium |
+| Ride Engineering | Ride Engineering 22mm Offset off-road models; Rubber Mounted Split Triple Clamp Set - Black | KT-BTB24-BA |  |  | [source](https://ride-engineering.com/22mm-Offset-2013-22-KTMHUSQ-23-off-road-models-21-23-GAS-Rubber-Mounted-Split-Triple-Clamp-Set--Black_p_1618.html) | medium |
+| Ride Engineering | Ride Engineering 22mm Offset off-road models, Rubber Mounted Split Triple Clamp Set Limited Edition - Blue | KT-BTB24-MB |  |  | [source](https://ride-engineering.com/22mm-Offset-2013-22-KTMHUSQ-23-off-road-models-21-23-GAS-Rubber-Mounted-Split-Triple-Clamp-Set-Limited-Edition--Blue_p_1621.html) | medium |
+| Ride Engineering | Ride Engineering 22mm Offset off-road models Rubber Mounted Split Triple Clamp Set - Red | KT-BTB24-RA |  |  | [source](https://ride-engineering.com/22mm-Offset-2021-23-GASGAS-13-22-KTMHUSQ-23-off-road-models-Rubber-Mounted-Split-Triple-Clamp-Set--Red_p_1622.html) | medium |
+| Ride Engineering | Ride Engineering Rear Master Cylinder Cover - Black | KT-MCC0R-BA |  |  | [source](https://ride-engineering.com/HUSQKTMGASTRI-Rear-Master-Cylinder-Cover--Black_p_1978.html) | medium |
+| Ride Engineering | Ride Engineering Nissin 11mm Front Master Cylinder Assembly - Red | MX-CRM11-RA |  |  | [source](https://ride-engineering.com/Nissin-11mm-Front-Master-Cylinder-Assembly--Red_p_2070.html) | medium |
+| Ride Engineering | Ride Engineering GAS 2-STROKE & TACH/HOUR METER WITH BRACKET | MX-HM000-BK |  |  | [source](https://ride-engineering.com/KTMHUSQGAS-2-STROKE-YAM-TACHHOUR-METER-WITH-BRACKET_p_1771.html) | medium |
+| Ride Engineering | Ride Engineering Billet Throttle Mount Start Switch | MX-TS00B-AS |  |  | [source](https://ride-engineering.com/Billet-Throttle-Mount-Start-Switch_p_1805.html) | medium |
+| Ride Engineering | Ride Engineering Valve Cap & Rim Lock Spacer Kit (BLACK) | MX-VCS00-BA |  |  | [source](https://ride-engineering.com/Valve-Cap-Rim-Lock-Spacer-Kit-BLACK_p_1806.html) | medium |
+| Ride Engineering | Ride Engineering Valve Cap & Rim Lock Spacer Kit (orange) | MX-VCS00-GE |  |  | [source](https://ride-engineering.com/Valve-Cap-Rim-Lock-Spacer-Kit-orange_p_1807.html) | medium |
+| Ride Engineering | Ride Engineering Valve Cap & Rim Lock Spacer Kit (GREEN) | MX-VCS00-GN |  |  | [source](https://ride-engineering.com/Valve-Cap-Rim-Lock-Spacer-Kit-GREEN_p_1808.html) | medium |
+| Ride Engineering | Ride Engineering Valve Cap & Rim Lock Spacer Kit (BLUE) | MX-VCS00-MB |  |  | [source](https://ride-engineering.com/Valve-Cap-Rim-Lock-Spacer-Kit-BLUE_p_1809.html) | medium |
+| Ride Engineering | Ride Engineering Valve Cap & Rim Lock Spacer Kit (RED) | MX-VCS00-RA |  |  | [source](https://ride-engineering.com/Valve-Cap-Rim-Lock-Spacer-Kit-RED_p_1810.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -43,6 +64,8 @@
 | Works Connection | Works Connection Elite Axle Block Kit | 17-460 |  |  | [source](https://www.worksconnection.com/p126059-elite-axle-block-kit-gasgas-husqvarna-ktm) | high |
 | Works Connection | Works Connection Elite Axle Block Kit | 17-463 |  |  | [source](https://www.worksconnection.com/p126059-elite-axle-block-kit-gasgas-husqvarna-ktm) | high |
 | Works Connection | Works Connection Titanium Axle Adjuster Bolts | 70-635 |  |  | [source](https://www.worksconnection.com/p104037-titanium-axle-adjuster-bolts) | high |
+| Xtrig | Xtrig Holeshot Kit Ø59 für WP48 fork | 70100008 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100008) | high |
+| Xtrig | Xtrig HiLo Holeshot Kit Ø59 for WP48 fork | 70100017 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100017) | high |
 | Boyesen | Factory Racing Clutch Cover (2017-2023 KTM / Husqvarna / GasGas 250/300 two-stroke) | CC-42CB, CC-42CL, CC-42CO, CC-42CM | Cast-aluminum, powder-coated outer clutch cover, same as the 2023+ CC-45C cover: lightweight, won't warp, seals out dirt, protects the engine. An appearance and protection part. | Some listing text has typos ('Jusqvarna', 'Husquvarna'); mapped to Husqvarna. | [source](https://boyesen.com/mx-offroad-mini/factory-racing-hard-parts/2020-ktm-250-sx/factory-racing-clutch-cover-cc-42cb) | high |
 | Works Connection | Works Connection Hinson FSC Clutch Plate Kit | HR-FSC373-8-002 |  |  | [source](https://www.worksconnection.com/p18115-hinson-fsc-clutch-plate-kit) | high |
 | Works Connection | Works Connection Hinson Billetproof Inner Hub | HR-H570 |  |  | [source](https://www.worksconnection.com/p18105-hinson-billetproof-inner-hub) | high |
@@ -50,6 +73,7 @@
 | Renthal | 36mm (36Tech) Bar Mounts Husq FE/TE 2018-22 / GasGas 2022 / KTM EXC/XC 2012-22 (CL061) | CL061, CL021 | Lets KTM XC/XC-W and Husqvarna FE/TE run a 36 mm Fatbar36 bar. | 'GasGas 2022' printed without models - in gaps. 'KTM EXC/XC' assumed to include XC-W and XC-F off-road models; US models are named XC/XC-W/XC-F. | [source](https://renthal.com/collections/bar-mounts) | medium |
 | Works Connection | Works Connection Foot Pegs-Pro Pegs Titanium | 20-425 |  |  | [source](https://www.worksconnection.com/p18089-foot-peg-pro-pegs-titanium) | high |
 | Works Connection | Works Connection Foot Peg - Pro Pegs Mud Titanium | 20-427 |  |  | [source](https://www.worksconnection.com/p935855-foot-peg-pro-pegs-mud-titanium) | high |
+| Xtrig | Xtrig PHDS OEM for 28,6mm handlebar M10 | 50100008 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/50100008) | high |
 | Slavens Racing | S3 Slavens Mule High Compression Component Cylinder Head Kit |  | Forged, CNC-machined replacement head (shell plus swappable insert) with higher compression chosen for your elevation. Slavens claims a 'big boost to low-end and mid-range performance and torque', say | Does not fit 2023+ TBI XC/TX models. No SKU printed. Sold only through Slavens and authorized Slavens dealers. | [source](https://slavensracing.com/shop/slavens-mule-high-compression-component-cylinder-head/) | high |
 | Slavens Racing | Head Mod (head machining modification) |  | Slavens machines your stock 300 cylinder head so the compression ratio suits the elevation you ride at. It works with a stock or ported cylinder. The page gives no machining amounts or compression fig | Turnaround 2-4 days. 300cc only. The list includes 'SX' in the 04-22 KTM range, but the KTM 300 SX is a roster model only from 2023, so it is not mapped. | [source](https://slavensracing.com/shop/head-mod/) | high |
 | Works Connection | Works Connection Oil Fill Plug | 24-020 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |

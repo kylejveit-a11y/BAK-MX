@@ -1,6 +1,6 @@
 # Kawasaki KX65 2021: aftermarket parts
 
-1198 listings whose stated fitment names this bike: 112 researched parts (with what they change and rider findings), 118 dealer and retailer listings specific to this bike, and 968 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1201 listings whose stated fitment names this bike: 115 researched parts (with what they change and rider findings), 118 dealer and retailer listings specific to this bike, and 968 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -56,6 +56,8 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-120 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-125 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-126 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover | MX-MCC0F-GN |  |  | [source](https://ride-engineering.com/Kawasaki-Front-Master-Cylinder-Cover_p_1782.html) | medium |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover | MX-MCC0F-MB |  |  | [source](https://ride-engineering.com/YamahaKawasakiSuzuki-Front-Master-Cylinder-Cover_p_1783.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -114,6 +116,7 @@
 | Boyesen | Boyesen SuperStock carbon reeds SSC010 (KX65) | SSC010 | Replacement carbon reed petals for the stock reed block (Boyesen: fits stock block only, single-stage). | Fitment built from Boyesen's per-year product pages; some years are missing for some models (e.g. a model listed to 2023 or 2025 only), which may be a catalog g | [source](https://boyesen.com/mx-offroad-mini/oem-replacement-reeds/2020-kawasaki-kx-65/superstock-reeds-carbon-ssc010) | high |
 | Boyesen | Boyesen SuperStock fiberglass reeds SSF010 (KX65) | SSF010 | Replacement fiberglass reed petals for the stock reed block (Boyesen: fits stock block only, single-stage). | Fitment built from Boyesen's per-year product pages; some years are missing for some models (e.g. a model listed to 2023 or 2025 only), which may be a catalog g | [source](https://boyesen.com/mx-offroad-mini/oem-replacement-reeds/2020-kawasaki-kx-65/superstock-reeds-fiber-ssf010) | high |
 | Moto Tassinari | V Force 3 Reed Valve System Kawasaki / Suzuki 60cc-65cc | V364A | Aftermarket reed cage and petals replacing the stock reed block. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/v-force-3-reed-valve-system-kawasaki-suzuki-60cc-65cc) | medium |
+| P3 Carbon | P3 Carbon Fuel Tank Cover | 776072 |  |  | [source](https://p3carbon.com/products/p3-fuel-tank-cover-klx110-kx65-2002-2022-see-fitment-tab-details/) | medium |
 | Works Connection | Works Connection Skid Plate | 10-102 |  |  | [source](https://www.worksconnection.com/p36294-skid-plate) | high |
 | Race Tech | Gold Valve Cartridge Emulator Kit - Kawasaki KX65 |  | Adds a tunable valve on top of the damping rod so the KX65's damping-rod fork behaves more like a cartridge fork; includes 4 valve-spring rates and bleed-plate options. | Small specialist dealer; no Race Tech part number shown. | [source](https://m.reach.dog/shop/factory-minibikes/products/gold-valve-cartridge-emulator-kit-kx65) | unverified |
 | Excel | Excel Takasago 1.40" x 14" Front Rim Kawasaki / Suzuki 65cc 2000-2027 | BBS361 | Replacement rim for a wheel rebuild. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/excel-takasago-140-x-14-front-rim-kawasaki-suzuki-65cc-2000-2023) | medium |

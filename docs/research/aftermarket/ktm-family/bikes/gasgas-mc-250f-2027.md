@@ -1,6 +1,6 @@
 # GasGas MC 250F 2027: aftermarket parts
 
-4178 listings whose stated fitment names this bike: 458 researched parts (with what they change and rider findings), 383 dealer and retailer listings specific to this bike, and 3337 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+4181 listings whose stated fitment names this bike: 461 researched parts (with what they change and rider findings), 383 dealer and retailer listings specific to this bike, and 3337 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -169,6 +169,7 @@
 | GasGas Technical Accessories | Factory Racing triple clamp | A46001999021FAA | CNC milled aluminum triple clamp; Elegant anodised surface; Optimally tuned steering stem stiffness; 100% alignment of the fork tubes; Ideal flexibility – precisely customised to the WP fork; Speciall |  | [source](https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111480&c2=1002622609&product=1003147247) | high |
 | GasGas Technical Accessories | Front axle puller | 79009981160C1 | Makes removal of the front wheel easier For all front axles with a diameter of 22 mm. |  | [source](https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111498&c2=1002150913&product=1002394299) | high |
 | GasGas Technical Accessories | Front axle puller | 79009981160FA | Makes removal of the front wheel easier |  | [source](https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111498&c2=1002150913&product=1003310411) | high |
+| Ride Engineering | Ride Engineering KAW 4 STROKE TACH/HOUR METER WITH BRACKET | MX-HM004-BK |  |  | [source](https://ride-engineering.com/HONSUZKTMHUSQGASKAW-4-STROKE-TACHHOUR-METER-WITH-BRACKET_p_1772.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -197,6 +198,8 @@
 | Works Connection | Works Connection Elite Axle Block Kit | 17-K251 |  |  | [source](https://www.worksconnection.com/p126059-elite-axle-block-kit-gasgas-husqvarna-ktm) | high |
 | Works Connection | Works Connection Elite Axle Block Kit | 17-P252 |  |  | [source](https://www.worksconnection.com/p126059-elite-axle-block-kit-gasgas-husqvarna-ktm) | high |
 | Works Connection | Works Connection Titanium Axle Adjuster Bolts | 70-635 |  |  | [source](https://www.worksconnection.com/p104037-titanium-axle-adjuster-bolts) | high |
+| Xtrig | Xtrig Holeshot Kit Ø59 für WP48 fork | 70100008 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100008) | high |
+| Xtrig | Xtrig HiLo Holeshot Kit Ø59 for WP48 fork | 70100017 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100017) | high |
 | GasGas Technical Accessories | Brake fluid reservoir and clutch reservoir cover | A54002933000FAA | CNC milled from high-strength aluminum; Elegant anodised surface Fits all Braktec brake- and clutch reservoirs |  | [source](https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111478&c2=1002150869&product=1003269604) | high |
 | GasGas Technical Accessories | HINSON-Inner clutch hub | A46032902000 | Improves clutch performance and durability; Hinson-typical surface treatment for significantly improved robustness compared to the standard part; Very clean running of the clutch, which leads to reduc |  | [source](https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111494&c2=1002150911&product=1003270880) | high |
 | GasGas Technical Accessories | HINSON-outer clutch cover | A59030926000 | CNC milled from high-strength aluminum; Resistant to the toughest stresses and strains; Weight-optimised |  | [source](https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111494&c2=1002150909&product=1003062006) | high |

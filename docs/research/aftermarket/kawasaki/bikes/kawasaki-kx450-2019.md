@@ -1,11 +1,25 @@
 # Kawasaki KX450 2019: aftermarket parts
 
-1632 listings whose stated fitment names this bike: 132 researched parts (with what they change and rider findings), 272 dealer and retailer listings specific to this bike, and 1228 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1703 listings whose stated fitment names this bike: 203 researched parts (with what they change and rider findings), 272 dealer and retailer listings specific to this bike, and 1228 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| Ride Engineering | Ride Engineering Braided Steel Brake Line Black | BL-01212-BK |  |  | [source](https://ride-engineering.com/Hon19KawiSuzYamBeta-Braided-Steel-Brake-Line-Black_p_1487.html) | medium |
+| Ride Engineering | Ride Engineering Braided Steel Brake Line Clear | BL-01212-CL |  |  | [source](https://ride-engineering.com/Hon19KawSuzYamBeta-Braided-Steel-Brake-Line-Clear_p_1488.html) | medium |
+| Ride Engineering | Ride Engineering Braided Steel Rear Brake Line Black | BL-04040-BK |  |  | [source](https://ride-engineering.com/RM-KX-Braided-Steel-Rear-Brake-Line-Black_p_1492.html) | medium |
+| Ride Engineering | Ride Engineering Braided Steel Rear Brake Line Clear | BL-04040-CL |  |  | [source](https://ride-engineering.com/RM-KX-Braided-Steel-Rear-Brake-Line-Clear_p_1493.html) | medium |
+| Ride Engineering | Ride Engineering 270mm Pulse Rotor Kit-Kawasaki | KX-00270-KT |  |  | [source](https://ride-engineering.com/270mm-Pulse-Rotor-Kit-Kawasaki_p_1667.html) | medium |
+| Ride Engineering | Ride Engineering 270mm Pulse Rotor | KX-R0270-SS |  |  | [source](https://ride-engineering.com/270mm-Pulse-Rotor--Kawasaki_p_1684.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Black | MX-BC000-BA |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Black_p_1732.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Silver | MX-BC000-CA |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Silver_p_1733.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Brown | MX-BC000-WN |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Brown_p_2054.html) | medium |
+| Ride Engineering | Ride Engineering Billet Rear Brake Clevis | MX-BC008-GN |  |  | [source](https://ride-engineering.com/Kawasaki-Billet-Rear-Brake-Clevis_p_1736.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp (BLACK) | RX-BLC00-BA |  |  | [source](https://ride-engineering.com/RM-KX-Brake-Line-Clamp-BLACK_p_1863.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp - Green | RX-BLC00-GN |  |  | [source](https://ride-engineering.com/KX-Brake-Line-Clamp--Green_p_1864.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp (BLUE) | RX-BLC00-MB |  |  | [source](https://ride-engineering.com/RM-KX-Brake-Line-Clamp-BLUE_p_1865.html) | medium |
+| Ride Engineering | Ride Engineering 270MM Hanger Bracket-Kawasaki | RX-HB270-BA |  |  | [source](https://ride-engineering.com/270MM-Hanger-Bracket-KawasakiSuzukiBeta_p_1869.html) | medium |
 | Works Connection | Works Connection Brake Cap-Front | 21-000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Brake Cap-Front | 21-005 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
@@ -47,6 +61,37 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-120 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-125 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-126 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| FCP Racing | FCP Racing Engine Mounts |  |  |  | [source](https://fcpracing.com/product/kawasaki-kx450-2019-2023/) | high |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover - Black | CR-MCC0F-BA |  |  | [source](https://ride-engineering.com/Honda-Beta-Front-Master-Cylinder-Cover--Black_p_1579.html) | medium |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover Green | CR-MCC0F-GN |  |  | [source](https://ride-engineering.com/Kawasaki-Front-Master-Cylinder-Cover-Green_p_1578.html) | medium |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover - Blue | CR-MCC0F-MB |  |  | [source](https://ride-engineering.com/Honda-Beta-Front-Master-Cylinder-Cover--Blue_p_2129.html) | medium |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover - Red | CR-MCC0F-RA |  |  | [source](https://ride-engineering.com/Honda-Beta-Front-Master-Cylinder-Cover--Red_p_2145.html) | medium |
+| Ride Engineering | Ride Engineering OEM LOWER STEERING HEAD BEARING | KX-BE112-AS |  |  | [source](https://ride-engineering.com/KX-OEM-LOWER-STEERING-HEAD-BEARING-_p_2153.html) | medium |
+| Ride Engineering | Ride Engineering Billet Ignition & Timing Plugs - BLACK | KX-BIT00-BA |  |  | [source](https://ride-engineering.com/KX250FKX450F-Billet-Ignition-Timing-Plugs--BLACK_p_2117.html) | medium |
+| Ride Engineering | Ride Engineering Billet Ignition & Timing Plugs | KX-BIT00-GN |  |  | [source](https://ride-engineering.com/KX250FKX450F-Billet-Ignition-Timing-Plugs_p_1671.html) | medium |
+| Ride Engineering | Ride Engineering Polyurethane Cones Firm | KX-PC000-KT |  |  | [source](https://ride-engineering.com/KX-Polyurethane-Cones-Firm_p_1682.html) | medium |
+| Ride Engineering | Ride Engineering Polyurethane Cones Soft | KX-PC00Y-KT |  |  | [source](https://ride-engineering.com/KX-Polyurethane-Cones-Soft_p_1683.html) | medium |
+| Ride Engineering | Ride Engineering BLACK Reversible Axle Blocks | KX-RAB16-BA |  |  | [source](https://ride-engineering.com/BLACK-2016-KXF450-2017-KX250F-Reversible-Axle-Blocks_p_1685.html) | medium |
+| Ride Engineering | Ride Engineering GREEN Reversible Axle Blocks | KX-RAB16-GN |  |  | [source](https://ride-engineering.com/GREEN-2016-KXF450-2017-KX250F-Reversible-Axle-Blocks_p_1686.html) | medium |
+| Ride Engineering | Ride Engineering STEM NUT & WASHER | KX-SN000-BA |  |  | [source](https://ride-engineering.com/KAWASAKI-STEM-NUT-WASHER_p_1993.html) | medium |
+| Ride Engineering | Ride Engineering Split 22mm offset Triple Clamp Set - Black | KX-TBN22-B9 |  |  | [source](https://ride-engineering.com/2019-23-KX-Split-22mm-offset-Triple-Clamp-Set--Black_p_1711.html) | medium |
+| Ride Engineering | Ride Engineering Split 22mm offset Triple Clamp Set - Green | KX-TBN22-G9 |  |  | [source](https://ride-engineering.com/2019-23-KX-Split-22mm-offset-Triple-Clamp-Set--Green_p_1713.html) | medium |
+| Ride Engineering | Ride Engineering Split 22mm offset Triple Clamp Set - Brown | KX-TBN22-W9 |  |  | [source](https://ride-engineering.com/2019-23-KX-Split-22mm-offset-Triple-Clamp-Set--Brown_p_1996.html) | medium |
+| Ride Engineering | Ride Engineering Split Triple Clamp Set - Stock offset | KX-TBN23-B9 |  |  | [source](https://ride-engineering.com/2019-23-KX-Split-Triple-Clamp-Set--Stock-offset-_p_2061.html) | medium |
+| Ride Engineering | Ride Engineering Split Triple Clamp Set - Stock offset | KX-TBN23-G9 |  |  | [source](https://ride-engineering.com/2019-23-KX-Split-Triple-Clamp-Set--Stock-offset_p_2063.html) | medium |
+| Ride Engineering | Ride Engineering Split Triple Clamp Set - Stock offset | KX-TBN23-W9 |  |  | [source](https://ride-engineering.com/2019-23-KX-Split-Triple-Clamp-Set--Stock-offset_p_2062.html) | medium |
+| Ride Engineering | Ride Engineering Rear Wheel Spacers | KX-WS00R-GN |  |  | [source](https://ride-engineering.com/Kawasaki-Rear-Wheel-Spacers_p_1722.html) | medium |
+| Ride Engineering | Ride Engineering Front Wheel Spacers - 22mm Axle | KX-WS09F-GN |  |  | [source](https://ride-engineering.com/2019-KX-Front-Wheel-Spacers--22mm-Axle_p_1724.html) | medium |
+| Ride Engineering | Ride Engineering Optional 0mm offset bases | MX-BMB00-00 |  |  | [source](https://ride-engineering.com/Optional-0mm-offset-bases--HonKaw-_p_2112.html) | medium |
+| Ride Engineering | Ride Engineering Optional 6mm offset bases | MX-BMB06-00 |  |  | [source](https://ride-engineering.com/Optional-6mm-offset-bases--HonKaw_p_1746.html) | medium |
+| Ride Engineering | Ride Engineering NEW! Optional 10mm offset bases | MX-BMB10-00 |  |  | [source](https://ride-engineering.com/NEW-Optional-10mm-offset-bases--Honda-Kawi_p_2064.html) | medium |
+| Ride Engineering | Ride Engineering Nissin 11mm Front Master Cylinder Assembly - Red | MX-CRM11-RA |  |  | [source](https://ride-engineering.com/Nissin-11mm-Front-Master-Cylinder-Assembly--Red_p_2070.html) | medium |
+| Ride Engineering | Ride Engineering Post Mount Extension for Scott's & GPR Sub Mounts | MX-EXT45-00 |  |  | [source](https://ride-engineering.com/Post-Mount-Extension-for-Scotts-GPR-Sub-Mounts_p_2027.html) | medium |
+| Ride Engineering | Ride Engineering KAW 4 STROKE TACH/HOUR METER WITH BRACKET | MX-HM004-BK |  |  | [source](https://ride-engineering.com/HONSUZKTMHUSQGASKAW-4-STROKE-TACHHOUR-METER-WITH-BRACKET_p_1772.html) | medium |
+| Ride Engineering | Ride Engineering NEW! Billet Oil Fill Plug-Black | RX-BFP00-BA |  |  | [source](https://ride-engineering.com/NEW-KX-Billet-Oil-Fill-Plug-Black_p_2047.html) | medium |
+| Ride Engineering | Ride Engineering Billet Oil Fill Plug | RX-BFP00-GN |  |  | [source](https://ride-engineering.com/KX-Billet-Oil-Fill-Plug_p_1859.html) | medium |
+| Ride Engineering | Ride Engineering Rear Master Cylinder Cover | RX-MCC0R-GN |  |  | [source](https://ride-engineering.com/Kawasaki-Rear-Master-Cylinder-Cover_p_1870.html) | medium |
+| Ride Engineering | Ride Engineering Rear Master Cylinder Cover (BLUE) | RX-MCC0R-MB |  |  | [source](https://ride-engineering.com/RMKX-Rear-Master-Cylinder-Cover-BLUE_p_1871.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -70,6 +115,15 @@
 | Works Connection | Works Connection Elite Axle Blocks | 17-K235 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
 | Works Connection | Works Connection Elite Axle Blocks | 17-P236 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
 | Works Connection | Works Connection Titanium Axle Adjuster Bolts | 70-630 |  |  | [source](https://www.worksconnection.com/p104037-titanium-axle-adjuster-bolts) | high |
+| Xtrig | Xtrig ROCS pro triple clamps, offset 21-23 mm | 40301006 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40301006) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 23 mm, green | 40301007 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40301007) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 23 mm, silver | 40301010 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40301010) | high |
+| Xtrig | Xtrig Top triple clamp, offset 23 mm | 40305001 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40305001) | high |
+| Xtrig | Xtrig Holeshot Kit 55mm | 70100004 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100004) | high |
+| Xtrig | Xtrig HiLo Holeshot Kit 55mm | 70100013 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100013) | high |
+| Ride Engineering | Ride Engineering Clutch Master Cylinder Cover Green | RX-CMC00-GN |  |  | [source](https://ride-engineering.com/KX-Clutch-Master-Cylinder-Cover-Green_p_1866.html) | medium |
+| Ride Engineering | Ride Engineering Clutch Master Cylinder Cover Blue | RX-CMC00-MB |  |  | [source](https://ride-engineering.com/KXCRFYZF-Clutch-Master-Cylinder-Cover-Blue_p_2141.html) | medium |
+| Ride Engineering | Ride Engineering Clutch Master Cylinder Cover Red | RX-CMC00-RA |  |  | [source](https://ride-engineering.com/KXCRFYZF-Clutch-Master-Cylinder-Cover-Red_p_1867.html) | medium |
 | Works Connection | Works Connection Hinson Billetproof Clutch Cover | HR-C563 |  |  | [source](https://www.worksconnection.com/p18103-hinson-billetproof-cover) | high |
 | Works Connection | Works Connection Hinson Hi-Temp Spring Kit | HR-CS264-5-0409 |  |  | [source](https://www.worksconnection.com/p18116-hinson-hi-temp-spring-kit) | high |
 | Works Connection | Works Connection Hinson Cushion Kit | HR-CU263 |  |  | [source](https://www.worksconnection.com/p18113-hinson-cushion-kit) | high |
@@ -78,6 +132,9 @@
 | Works Connection | Works Connection Hinson Clutch Basket | HR-H263 |  |  | [source](https://www.worksconnection.com/p18100-hinson-clutch-basket) | high |
 | Works Connection | Works Connection Hinson Billetproof Inner Hub with Pressure Plate Kit | HR-H267-IP-0602 |  |  | [source](https://www.worksconnection.com/p18106-hinson-billetproof-inner-hub-with-pressure-plate-kit) | high |
 | Works Connection | Works Connection Hinson Complete Billetproof Clutch Kit | HR-HC563-1901 |  |  | [source](https://www.worksconnection.com/p18112-hinson-complete-billetproof-clutch-kit) | high |
+| Ride Engineering | Ride Engineering One Piece Oversized Bar Mount | KX-BBM00-CA |  |  | [source](https://ride-engineering.com/KX-One-Piece-Oversized-Bar-Mount_p_1668.html) | medium |
+| Ride Engineering | Ride Engineering Bar Mount for Scott's & GPR Stabilizers | MX-SM100-00 |  |  | [source](https://ride-engineering.com/KXKXF-Bar-Mount-for-Scotts-GPR-Stabilizers-_p_1788.html) | medium |
+| Ride Engineering | Ride Engineering One Piece Bar Mount for Forward Holes (1 1/8" bar dia) | RM-BBM08-CA |  |  | [source](https://ride-engineering.com/One-Piece-Bar-Mount-for-RMRMZ-KX-Forward-Holes-1-18-bar-dia_p_1814.html) | medium |
 | Works Connection | Works Connection Foot Pegs-Pro Pegs Titanium | 20-410 |  |  | [source](https://www.worksconnection.com/p18089-foot-peg-pro-pegs-titanium) | high |
 | Works Connection | Works Connection Foot Peg - Pro Pegs Mud Titanium | 20-411 |  |  | [source](https://www.worksconnection.com/p935855-foot-peg-pro-pegs-mud-titanium) | high |
 | Works Connection | Works Connection Foot Peg Mounts - Aluminum (KX) | 20-525 |  |  | [source](https://www.worksconnection.com/p1753265-foot-peg-mounts-aluminum) | high |
@@ -132,12 +189,26 @@
 | Works Connection | Works Connection Tach/Hour Meter/Clock with Maintenance Timer | 37-200 |  |  | [source](https://www.worksconnection.com/p18160-tach-hour-meters) | high |
 | Works Connection | Works Connection Tach/Hour Meter/Clock with Resettable Maintenance Timer Mount Bracket | 37-205 |  |  | [source](https://www.worksconnection.com/p18161-tach-hour-meter-mounts) | high |
 | Works Connection | Works Connection 2 Piece Kit Honda Disc Guard | 70-606 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
+| P3 Carbon | P3 Carbon Heat Shield / MAXCoverage | 206074 |  |  | [source](https://p3carbon.com/products/p3-heat-shield-kawasaki-kx-450f-2019-2022/) | medium |
+| P3 Carbon | P3 Carbon Heat Shield FMF Megabomb | 216075-FMF |  |  | [source](https://p3carbon.com/products/p3-heat-shield-kawasaki-kx-450f-fmf-2019-2021/) | medium |
+| P3 Carbon | P3 Carbon Skid Plate / X/XC / KX450SR | 306072-BLK |  |  | [source](https://p3carbon.com/products/p3-skid-plate-kawasaki-kx450f-2019-2022-kx250f-xc-2021-2022/) | medium |
+| P3 Carbon | P3 Carbon Front Brake Disc Guard Kit | 516000-BLK |  |  | [source](https://p3carbon.com/products/p3-front-brake-disc-guard-kit-kawasaki-2006-2026/) | medium |
+| P3 Carbon | P3 Carbon Front Brake Guard | 516001 |  |  | [source](https://p3carbon.com/products/p3-carbon-front-brake-guard-kawasaki-kx250f-kx450f-2019-2026-see-fitment-chart/) | medium |
+| P3 Carbon | P3 Carbon Clutch Cover | 716070-BLK |  |  | [source](https://p3carbon.com/products/p3-clutch-cover-2019-2021-kx450f/) | medium |
+| P3 Carbon | P3 Carbon Air Box Cover | 716079 |  |  | [source](https://p3carbon.com/products/p3-air-box-cover-kawasaki-kx-450f-2019-2021/) | medium |
+| P3 Carbon | P3 Carbon Grip Guards Frame Protectors | 746070-BLK |  |  | [source](https://p3carbon.com/products/p3-grip-guards-frame-protectors-kx450f-2012-2021-kx250-2021/) | medium |
+| P3 Carbon | P3 Carbon Fuel Tank Cover | 776071-BLK |  |  | [source](https://p3carbon.com/products/p3-fuel-tank-cover-kawasaki-kx250-450f-2019-2026-see-fitment-chart/) | medium |
 | Works Connection | Works Connection Skid Plate w/ (RIMS) System | 10-298 |  |  | [source](https://www.worksconnection.com/p36294-skid-plate) | high |
 | Works Connection | Works Connection Skid Plate-Extended Coverage w/ (RIMS) System | 10-680 |  |  | [source](https://www.worksconnection.com/p35394-skid-plate-extended-coverage) | high |
 | Works Connection | Works Connection Fork Guard Reinforcing Kit | 12-192 |  |  | [source](https://www.worksconnection.com/p1457836-fork-guard-reinforcing-kit) | high |
 | Works Connection | Works Connection Rear Caliper Guard | 25-022 |  |  | [source](https://www.worksconnection.com/p18135-rear-caliper-guards) | high |
 | Works Connection | Works Connection Ti Bolt Kit-Rims Skid Plate (4 pcs) | 70-303 |  |  | [source](https://www.worksconnection.com/p36772-skid-plate-w-rims-system-titanium-bolt-kit) | high |
+| Ride Engineering | Ride Engineering Performance Link Black | KX-LKA39-BA |  |  | [source](https://ride-engineering.com/19-23-KX450-21-24-KX250-Performance-Link-Black_p_1680.html) | medium |
+| Ride Engineering | Ride Engineering Performance Link | KX-LKA39-GN |  |  | [source](https://ride-engineering.com/19-23-KX450-21-24-KX250-Performance-Link_p_1681.html) | medium |
+| Ride Engineering | Ride Engineering Full Performance Linkage - Black | KX-LKN19-BA |  |  | [source](https://ride-engineering.com/21-24-KX25019-23-KX450-Full-Performance-Linkage--Black-_p_2025.html) | medium |
+| Ride Engineering | Ride Engineering Full Performance Linkage - Green | KX-LKN19-GN |  |  | [source](https://ride-engineering.com/KX250450-Full-Performance-Linkage--Green_p_2026.html) | medium |
 | Works Connection | Works Connection Fork Bleeder Valves | 26-320 |  |  | [source](https://www.worksconnection.com/p417280-fork-bleeders-shorty) | high |
+| Xtrig | Xtrig Shock preload adjuster | 10300004 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/10300004) | high |
 
 ## Dealer and retailer listings for this bike
 

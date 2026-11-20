@@ -14,6 +14,7 @@
 | RFX | 493 | Uncategorised (245), Chain & Sprocket (33), controls (33), Air & Fuel (28), Drive & Transmission (22), Seats (22) | Cycle Gear 389, MotoSport 42, research 62 |
 | FMF | 460 | Exhaust (249), exhaust (205), Uncategorised (3), Tools and Maintenance (2), Body (1) | Cycle Gear 215, KTM Twins 6, research 205, MotoSport 34 |
 | Polisport | 418 | Uncategorised (148), Bike Protection (109), Handlebars & Controls (42), Body (31), Lighting (18), Exhaust (12) | Cycle Gear 336, MotoSport 57, research 25 |
+| Ride Engineering | 398 | chassis (222), brakes (53), suspension (46), Controls (22), controls (17), Brakes (9) | Cycle Gear 2, research 351, MotoSport 45 |
 | Pro Circuit | 379 | Exhaust (175), exhaust (84), engine (69), suspension (16), Uncategorised (10), controls (6) | Cycle Gear 162, research 185, MotoSport 32 |
 | Pro Taper | 375 | Uncategorised (138), Handlebars & Controls (81), Chain & Sprocket (63), Controls (51), controls (12), Drive (11) | Cycle Gear 294, research 12, MotoSport 69 |
 | Cycra | 346 | Handlebars & Controls (141), Uncategorised (68), Controls (55), Bike Protection (29), UTV / ATV Parts (24), Body (20) | Cycle Gear 262, KTM Twins 3, MotoSport 75, research 6 |
@@ -23,6 +24,7 @@
 | Rekluse | 284 | Drive & Transmission (157), clutch (57), Engine (29), Uncategorised (18), Clutches (15), engine (4) | Cycle Gear 175, KTM Twins 15, research 62, MotoSport 32 |
 | Factory Effex | 267 | Uncategorised (102), Graphics (90), Handlebars & Controls (27), Seats (22), Body (5), Controls (5) | Cycle Gear 154, MotoSport 103, research 10 |
 | Bolt Hardware | 237 | Uncategorised (183), Exhaust (21), Body & Fairing (15), engine (7), Drive & Transmission (6), Chain & Sprocket (3) | Cycle Gear 228, research 9 |
+| P3 Carbon | 236 | protection (235), chassis (1) | research 236 |
 | Pro X | 221 | Uncategorised (154), Engine (18), engine (16), Drive & Transmission (14), Brakes (7), clutch (5) | Cycle Gear 174, research 25, MotoSport 22 |
 | Fire Power | 204 | Chain & Sprocket (57), Uncategorised (45), Handlebars & Controls (30), Batteries & Electrical (19), Gauges (12), Drive (12) | Cycle Gear 168, MotoSport 22, research 14 |
 | Motion Pro | 202 | Uncategorised (46), Controls (36), Suspension (31), Air & Fuel (18), Tools and Maintenance (17), Fuel System (13) | Cycle Gear 95, KTM Twins 8, MotoSport 97, research 2 |
@@ -36,6 +38,7 @@
 | UFO | 133 | Uncategorised (105), Body (15), Lighting (6), body (4), protection (2), cooling (1) | Cycle Gear 111, KTM Twins 9, MotoSport 6, research 7 |
 | Trail Tech | 129 | Lights and Electrical (44), Gauges (33), Uncategorised (20), Engine (12), Batteries & Electrical (6), Bike Protection (3) | Cycle Gear 62, KTM Twins 5, research 2, MotoSport 60 |
 | Pivot Works | 124 | Suspension (48), Uncategorised (39), wheels (18), suspension (8), Wheels and Rims (7), chassis (4) | Cycle Gear 77, MotoSport 17, research 30 |
+| Xtrig | 124 | chassis (86), suspension (32), Controls (3), Suspension (2), controls (1) | research 119, MotoSport 5 |
 | All Balls Racing | 119 | Uncategorised (62), Suspension (31), wheels (12), chassis (3), suspension (3), brakes (3) | Cycle Gear 93, research 26 |
 | Hinson | 109 | Drive & Transmission (40), clutch (30), Uncategorised (18), Engine (13), engine (7), Clutches (1) | Cycle Gear 58, KTM Twins 1, research 37, MotoSport 13 |
 | RK | 108 | Chain & Sprocket (102), Drive (4), gearing (2) | Cycle Gear 102, MotoSport 4, research 2 |
@@ -46,8 +49,8 @@
 | TM Designworks | 101 | Drive & Transmission (39), Bike Protection (35), Drive (8), protection (5), drivetrain (3), brakes (3) | Cycle Gear 74, KTM Twins 3, research 15, MotoSport 9 |
 | DRC | 100 | Uncategorised (34), Exhaust (12), Controls (12), Lights and Electrical (12), Wheels and Rims (10), Suspension (8) | Cycle Gear 43, MotoSport 56, research 1 |
 | Flo Motorsports | 95 | Uncategorised (35), Handlebars & Controls (28), controls (12), Controls (11), Bike Protection (3), Chain & Sprocket (3) | Cycle Gear 69, MotoSport 13, research 13 |
+| FCP Racing | 90 | chassis (90) | research 90 |
 | No Toil | 89 | Air & Fuel (41), Uncategorised (20), Tools and Maintenance (17), intake (9), Fluids (1), Intake (1) | Cycle Gear 61, KTM Twins 1, research 9, MotoSport 18 |
-| Ride Engineering | 87 | Controls (22), chassis (20), suspension (13), Brakes (9), Suspension (6), engine (6) | Cycle Gear 2, research 40, MotoSport 45 |
 | Yoshimura | 87 | Exhaust (56), exhaust (25), Body & Fairing (3), Lights and Electrical (2), Body (1) | Cycle Gear 48, research 25, MotoSport 14 |
 | AXP Racing | 83 | Bike Protection (46), Protection (20), protection (12), Drive & Transmission (4), drivetrain (1) | Cycle Gear 50, KTM Twins 20, research 13 |
 | K&N | 83 | Air & Fuel (64), Tools and Maintenance (10), Uncategorised (3), Filters (3), engine (1), Engine (1) | Cycle Gear 70, research 1, MotoSport 12 |
@@ -117,7 +120,6 @@
 | DCOR | 27 | Seats (13), Uncategorised (12), Bike Protection (2) | Cycle Gear 27 |
 | Pro-X | 27 | engine (25), clutch (2) | research 27 |
 | Race Tech | 27 | suspension (18), Suspension (8), engine (1) | Cycle Gear 3, MotoSport 5, research 19 |
-| Xtrig | 27 | suspension (12), chassis (10), Controls (3), Suspension (2) | research 22, MotoSport 5 |
 | Barnett | 25 | clutch (10), Drive & Transmission (9), Uncategorised (3), UTV / ATV Parts (1), Clutches (1), Engine (1) | Cycle Gear 13, KTM Twins 1, MotoSport 1, research 10 |
 | Brembo | 25 | Brakes (23), brakes (2) | Cycle Gear 23, research 2 |
 | Guts | 25 | Uncategorised (25) | Cycle Gear 25 |
@@ -155,7 +157,6 @@
 | Vortex Racing | 17 | Chain & Sprocket (10), Handlebars & Controls (6), drivetrain (1) | Cycle Gear 16, research 1 |
 | Antigravity | 16 | Lights and Electrical (9), Tools and Maintenance (7) | MotoSport 16 |
 | ASV Inventions | 16 | Ergonomics (10), Handlebars & Controls (4), controls (2) | Cycle Gear 4, KTM Twins 10, research 2 |
-| FCP Racing | 16 | chassis (16) | research 16 |
 | FunnelWeb | 16 | Air & Fuel (13), intake (3) | Cycle Gear 13, research 3 |
 | Hammerhead Designs | 16 | Controls (8), Engine (3), Brakes (2), Wheels and Rims (1), Body (1), Skid Plates and Guards (1) | MotoSport 16 |
 | HP Tools | 16 | Suspension (6), Tools and Maintenance (4), Body (2), Controls (2), Exhaust (1), Engine (1) | MotoSport 16 |
@@ -224,7 +225,6 @@
 | Kite | 7 | wheels (7) | research 7 |
 | KTM PowerParts (FMF) | 7 | exhaust (7) | research 7 |
 | Nelson-Rigg | 7 | Luggage and Racks (7) | MotoSport 7 |
-| P3 Carbon | 7 | protection (6), chassis (1) | research 7 |
 | Red Line | 7 | Suspension (5), Engine (2) | MotoSport 7 |
 | VForce | 7 | Intake (6), Engine (1) | MotoSport 7 |
 | VHM | 7 | Engine (6), intake (1) | MotoSport 6, research 1 |

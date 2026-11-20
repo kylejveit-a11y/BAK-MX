@@ -37,7 +37,11 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
 - [ ] Published kit data where the maker posts it (WP, Rekluse).
 - [x] 2026-11-19: retailer parts back-fill loaded. The 441 bike-years the Cycle Gear read had missed (47 of them list nothing there)
       and 2,885 product pages not read before are in docs/research/aftermarket/*/cg-backfill-2026-11.json; app catalogs rebuilt.
-      Bikes with under 100 parts: 27 -> 14 (all GasGas EC enduro models).
+      Bikes with under 100 parts: 247 -> 35 (394 bikes gained parts). An earlier note here said 27 -> 14; that count was
+      read wrongly from the catalog file and is corrected. The 34 still under 100 are GasGas EC, Husqvarna TE / FE 2020-22,
+      TX 125, KTM 85 SX 19/16 2017-19, GasGas MC 50 2021 and Triumph TF 250-X 2027.
+- [x] 2026-11-20: maker-direct parts from X-Trig, Ride Engineering, P3 Carbon and FCP Racing (711 products with the makers'
+      own fitment). Every one of the 898 bikes now has parts from these makers (was 395); median 43 per bike.
 
 ## 4. Track details (221 tracks: 130 low confidence, 207 with listed gaps; 11 riding areas without soil/layout)
 - [ ] Raise low-confidence tracks from official pages, most-used states first (FL, GA, AL, NC, SC, TN).

@@ -1,6 +1,6 @@
 # Yamaha YZ85 2027: aftermarket parts
 
-1322 listings whose stated fitment names this bike: 148 researched parts (with what they change and rider findings), 3 dealer and retailer listings specific to this bike, and 1171 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1336 listings whose stated fitment names this bike: 162 researched parts (with what they change and rider findings), 3 dealer and retailer listings specific to this bike, and 1171 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -65,6 +65,9 @@
 | Plews | MX3 Foxhills GP Front Tire 19-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
 | Plews | MX3 Foxhills GP Rear Tire 14-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
 | Plews | MX3 Foxhills GP Rear Tire 16-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
+| Ride Engineering | Ride Engineering Mini Direct Route Braided Steel Brake Line | BL-M0012-CL |  |  | [source](https://ride-engineering.com/YZKX-Mini-Direct-Route-Braided-Steel-Brake-Line_p_1501.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp Black | CR-BLC00-BA |  |  | [source](https://ride-engineering.com/CRYZ-Brake-Line-Clamp-Black_p_1524.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp RED | CR-BLC00-RA |  |  | [source](https://ride-engineering.com/CRYZ-Brake-Line-Clamp-RED_p_1526.html) | medium |
 | Works Connection | Works Connection Brake Cap-Front | 21-030 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-030ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Brake Cap-Front | 21-035 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
@@ -86,6 +89,7 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-120 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-125 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-126 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover | MX-MCC0F-MB |  |  | [source](https://ride-engineering.com/YamahaKawasakiSuzuki-Front-Master-Cylinder-Cover_p_1783.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -101,12 +105,18 @@
 | Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch Kit | 12-P401 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
 | Works Connection | Works Connection Titanium Axle Adjuster Bolts | 70-630 |  |  | [source](https://www.worksconnection.com/p104037-titanium-axle-adjuster-bolts) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 25 mm | 40204001 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40204001) | high |
+| Xtrig | Xtrig Top triple clamp, offset 25 mm | 40205001 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40205001) | high |
+| Xtrig | Xtrig Holeshot Kit 47,2mm | 70100023 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100023) | high |
+| Xtrig | Xtrig HiLo Holeshot Kit 47,2mm | 70100024 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100024) | high |
 | Boyesen | Boyesen Factory Racing clutch cover CC-30x (YZ65, YZ85) | CC-30B, CC-30L, CC-30M | Aftermarket clutch cover; Boyesen includes one gasket. | Fitment built from Boyesen's per-year product pages; some years are missing for some models (e.g. a model listed to 2023 or 2025 only), which may be a catalog g | [source](https://boyesen.com/mx-offroad-mini/factory-racing-hard-parts/2020-yamaha-yz-65/factory-racing-clutch-cover-cc-30b) | high |
 | Works Connection | Works Connection Hinson Billetproof Clutch Cover | HR-C159 |  |  | [source](https://www.worksconnection.com/p18103-hinson-billetproof-cover) | high |
 | Works Connection | Works Connection Hinson FSC Clutch Plate Kit | HR-FSC159-7-001 |  |  | [source](https://www.worksconnection.com/p18115-hinson-fsc-clutch-plate-kit) | high |
 | Works Connection | Works Connection Hinson Clutch Basket | HR-H159 |  |  | [source](https://www.worksconnection.com/p18100-hinson-clutch-basket) | high |
 | Works Connection | Works Connection Hinson Billetproof Pressure Plate | HR-H379 |  |  | [source](https://www.worksconnection.com/p18107-hinson-billetproof-pressure-plate) | high |
 | Works Connection | Works Connection Hinson Billetproof Inner Hub | HR-H380 |  |  | [source](https://www.worksconnection.com/p18105-hinson-billetproof-inner-hub) | high |
+| Ride Engineering | Ride Engineering One-Piece Oversized Replacement Bar Mount | AF-BBM85-CA |  |  | [source](https://ride-engineering.com/Ride-Eng-One-Piece-Oversized-Replacement-Bar-Mount-YZ6585_p_1482.html) | medium |
+| Ride Engineering | Ride Engineering Bar Mount Bolt Kit | YZ-76275-KT |  |  | [source](https://ride-engineering.com/YZ6585-Bar-Mount-Bolt-Kit_p_1907.html) | medium |
 | Works Connection | Works Connection Brake Levers-Forged | 16-970 |  |  | [source](https://www.worksconnection.com/p18060-brake-levers-forged) | high |
 | Works Connection | Works Connection Brake Levers-Forged | 16-975 |  |  | [source](https://www.worksconnection.com/p18060-brake-levers-forged) | high |
 | Works Connection | Works Connection Foot Pegs-Pro Pegs Titanium | 20-430 |  |  | [source](https://www.worksconnection.com/p18089-foot-peg-pro-pegs-titanium) | high |
@@ -147,6 +157,10 @@
 | FMF | FMF KX125 88-02/YZ85 19-26/YZ125 22-26/YZ125X 23-26 PIPE SPRING & O-RING KIT | 011311 | Replacement O-rings and/or springs for the pipe joints; keeps the pipe sealed and quiet after removal. | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/acc-exhaust-011311) | high |
 | Renthal | Renthal Grooved Front Sprocket Yamaha YZ 85 2002-2027 | 257--428-13GP, 257--428-14GP | Countershaft sprocket; change tooth count to alter gearing. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/renthal-grooved-front-sprocket-yamaha-yz-85-2002-2027) | medium |
 | Renthal | Renthal Ultralight Rear Aluminum Sprocket Suzuki RM80 / RM85 / Yamaha YZ80 / YZ85 1986-2026 | 121U-428-46GPSI, 121U-428-47GPBK, 121U-428-47GPBU, 121U-428-47GPSI, 121U-428-48GPBK, 121U-428-48GPBU, 121U-428-48GPSI, 121U-428-49GPBK, 121U-428-49GPBU, 121U-42 | Rear sprocket; change tooth count to alter gearing. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/renthal-ultralight-rear-aluminum-sprocket-suzuki-rm80-rm85-yamaha-yz80-yz85-1986-2024) | medium |
+| P3 Carbon | P3 Carbon Pipe Guard | 107042 |  |  | [source](https://p3carbon.com/products/p3-pipe-guard-yamaha-yz85-2019-2026/) | medium |
+| P3 Carbon | P3 Carbon FMF Pipe Guard | 107045 |  |  | [source](https://p3carbon.com/products/p3-carbon-pipe-guard-yamaha-fmf-yz85-2019-2027/) | medium |
+| P3 Carbon | P3 Carbon Hybrid Skid Plate | 307030-BLK |  |  | [source](https://p3carbon.com/products/p3-hybrid-skid-plate-yamaha-yz85-2019-2026/) | medium |
+| P3 Carbon | P3 Carbon Grip Guards Frame Protectors | 747030-BLK |  |  | [source](https://p3carbon.com/products/p3-grip-guards-frame-protectors-yamaha-yz85-2005-2018/) | medium |
 | Works Connection | Works Connection Skid Plate Extended Coverage | 10-203 |  |  | [source](https://www.worksconnection.com/p35394-skid-plate-extended-coverage) | high |
 | K-Tech Suspension | Front Fork Off Road Valve System (ORVS) - YZ85 KYB | 20K-MXKYB500 | Replaces the complete stock compression and rebound damping system in the KYB fork for better damping and wider adjustment, per K-Tech. |  | [source](https://store.ktechsuspension.com/front-fork-off-road-valve-system-15480.html) | high |
 | KYB | KYB Factory Kit Fork - Yamaha YZ85 2019+ | 162019008501 | KYB kit fork with race-tuned damping, anodised/Kashima aluminium parts and DLC inner tubes for low friction; optional mid-speed valve widens adjustment; custom spring collar. | genuinepp body text says 'open cartridge' while the YZ65 page says 'closed cartridge'; confirm construction with dealer. | [source](https://genuinepp.com/front-fork-assy-kyb-kit-yamaha-yz85-2019-162019008501.html) | medium |

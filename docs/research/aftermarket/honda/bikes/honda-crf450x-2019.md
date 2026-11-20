@@ -1,11 +1,17 @@
 # Honda CRF450X 2019: aftermarket parts
 
-1596 listings whose stated fitment names this bike: 92 researched parts (with what they change and rider findings), 286 dealer and retailer listings specific to this bike, and 1218 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1608 listings whose stated fitment names this bike: 104 researched parts (with what they change and rider findings), 286 dealer and retailer listings specific to this bike, and 1218 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| Ride Engineering | Ride Engineering Braided Steel Brake Line | BL-30312-CL |  |  | [source](https://ride-engineering.com/CRXWRFBeta-RR-Braided-Steel-Brake-Line_p_1494.html) | medium |
+| Ride Engineering | Ride Engineering Billet Rear Brake Clevis | CR-BC006-RA |  |  | [source](https://ride-engineering.com/Honda-Billet-Rear-Brake-Clevis_p_1517.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Black | MX-BC000-BA |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Black_p_1732.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Silver | MX-BC000-CA |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Silver_p_1733.html) | medium |
+| Ride Engineering | Ride Engineering Caliper Pin & Spring | MX-BC000-KT |  |  | [source](https://ride-engineering.com/Caliper-Pin-Spring-_p_2149.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Brown | MX-BC000-WN |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Brown_p_2054.html) | medium |
 | Works Connection | Works Connection Blue | 21-001 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-001ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Red | 21-006 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
@@ -23,6 +29,11 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-100 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-105 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-106 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Ride Engineering | Ride Engineering OEM LOWER STEERING HEAD BEARING | CR-BE101-AS |  |  | [source](https://ride-engineering.com/CRCRF-OEM-LOWER-STEERING-HEAD-BEARING-_p_2152.html) | medium |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover Green | CR-MCC0F-GN |  |  | [source](https://ride-engineering.com/Kawasaki-Front-Master-Cylinder-Cover-Green_p_1578.html) | medium |
+| Ride Engineering | Ride Engineering Reversible Billet Axle Blocks, BLACK | CR-RAB09-BA |  |  | [source](https://ride-engineering.com/Honda-Reversible-Billet-Axle-Blocks-BLACK_p_1584.html) | medium |
+| Ride Engineering | Ride Engineering Reversible Billet Axle Blocks, RED | CR-RAB09-RA |  |  | [source](https://ride-engineering.com/Honda-Reversible-Billet-Axle-Blocks-RED_p_1585.html) | medium |
+| Ride Engineering | Ride Engineering Rear Wheel Spacers | CR-WS00R-RA |  |  | [source](https://ride-engineering.com/Honda-Rear-Wheel-Spacers_p_1588.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -93,6 +104,7 @@
 | Works Connection | Works Connection 2 Piece Kit Honda Disc Guard | 70-606 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
 | Works Connection | Works Connection 6 Piece Kit | 70-615 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
 | Works Connection | Works Connection 4 Piece Kit | 70-618 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
+| P3 Carbon | P3 Carbon Heat Shield Yoshimura: MAXCoverage /RL | 205079 |  |  | [source](https://p3carbon.com/products/p3-heat-shield-honda-crf-450x-450rl-yoshimura-2019-2021/) | medium |
 | Works Connection | Works Connection Skid Plate-Extended Coverage w/ (RIMS) System | 10-610  |  |  | [source](https://www.worksconnection.com/p35394-skid-plate-extended-coverage) | high |
 | Works Connection | Works Connection Rear Master Cylinder Guard | 15-705 |  |  | [source](https://www.worksconnection.com/p18136-rear-master-cylinder-guards) | high |
 | Works Connection | Works Connection Rear Caliper Guard | 25-014 |  |  | [source](https://www.worksconnection.com/p18135-rear-caliper-guards) | high |

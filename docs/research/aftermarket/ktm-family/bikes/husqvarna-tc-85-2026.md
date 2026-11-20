@@ -1,6 +1,6 @@
 # Husqvarna TC 85 2026: aftermarket parts
 
-1455 listings whose stated fitment names this bike: 184 researched parts (with what they change and rider findings), 120 dealer and retailer listings specific to this bike, and 1151 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1465 listings whose stated fitment names this bike: 194 researched parts (with what they change and rider findings), 120 dealer and retailer listings specific to this bike, and 1151 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -101,6 +101,8 @@
 | Works Connection | Works Connection Clutch Cover - Billet | 21-P095 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-P095ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
 | Works Connection | Works Connection Brake Cap-Rear | 21-P774 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Ride Engineering | Ride Engineering Replacement Rigid Mount Bar Mount for Stock Triple Clamps | KT-RMBM0-CA |  |  | [source](https://ride-engineering.com/GASGASKTMHUSKYBETASHERCO-Replacement-Rigid-Mount-Bar-Mount-for-Stock-Triple-Clamps_p_1658.html) | medium |
+| Ride Engineering | Ride Engineering GAS 2-STROKE & TACH/HOUR METER WITH BRACKET | MX-HM000-BK |  |  | [source](https://ride-engineering.com/KTMHUSQGAS-2-STROKE-YAM-TACHHOUR-METER-WITH-BRACKET_p_1771.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -115,6 +117,11 @@
 | Works Connection | Works Connection Pro Launch Kit | 12-K722 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
 | Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch Kit | 12-P722 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, orange | 40504011 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40504011) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, red | 40504012 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40504012) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, black | 40704009 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40704009) | high |
+| Xtrig | Xtrig Holeshot Kit 50mm | 70100025 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100025) | high |
+| Xtrig | Xtrig HiLo Holeshot Kit 50mm | 70100026 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100026) | high |
 | Hinson | Hinson Billetproof Inner Hub Husqvarna / KTM / Gas Gas 85cc 2018-2027 | H472-IH-1801 | Billet clutch inner hub. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/hinson-billetproof-inner-hub-husqvarna-ktm-gas-gas-85cc-2018-2022) | medium |
 | Pro X | Pro X Clutch Plate Set KTM / Husqvarna / Gas Gas 85cc 2018-2027 | 16.CPS61018 | Friction and steel plate set. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/pro-x-clutch-plate-set-ktm-husqvarna-gas-gas-85cc-2018-2025) | medium |
 | Rekluse | Rekluse Radius CX 3.0 Clutch Kit KTM / Husqvarna / Gas Gas 85cc 2018-2027 | RMS-7913051 | Rekluse auto clutch: engages by rpm so the bike will not stall when the lever is not used; lever still works. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rekluse-radius-cx-clutch-kit-ktm-husqvarna-gas-gas-85cc-2018-2021) | medium |
@@ -183,6 +190,8 @@
 | WP SUSPENSION (KTM/Husqvarna/GasGas genuine) | WP Front Fork Fluid SAE 4 (5 L) | 48601166S1 | Factory-specified damping oil for WP XACT / XACT AER forks; the manual part number for fork refills. | Sold in 5 L only at these dealers. Fill amounts differ by bike and year (see fluid_specs). Lings price is GBP 91.86. | [source](https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240038_en_BA.pdf) | high |
 | WP SUSPENSION (KTM/Husqvarna/GasGas genuine) | WP Shock Absorber Fluid SAE 2.5 (5 L) | 50180751S1 | Factory-specified damping oil for WP XACT shocks. | Owner's manuals do not state a shock oil quantity (2026-2027 small-bike manuals say fill to the maximum mark). | [source](https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240038_en_BA.pdf) | high |
 | Acerbis | Acerbis Off-Road Skid Plate KTM / Husqvarna / Gas Gas 85cc 2025-2027 | 2986770001 | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/acerbis-off-road-skid-plate-ktm-husqvarna-gas-gas-85cc-2025-2026) | medium |
+| P3 Carbon | P3 Carbon Pipe Guard | 101033 |  |  | [source](https://p3carbon.com/products/p3-carbon-pipe-guard-ktm-sx-xc-85-husq-tc-85-gasgas-mc-85-2025-2026/) | medium |
+| P3 Carbon | P3 Carbon Front Brake Disc Guard Kit | 511030-BLK |  |  | [source](https://p3carbon.com/products/p3-front-brake-disc-guard-kit-ktm-husq-85-sx-tc-2013-2026/) | medium |
 | Works Connection | Works Connection Fork Guard Reinforcing Kit | 12-196 |  |  | [source](https://www.worksconnection.com/p1457836-fork-guard-reinforcing-kit) | high |
 | Factory Connection | Factory Connection shock spring - KTM / Husqvarna / GasGas 85cc | P401282 (Cycle Gear item) | Aftermarket shock spring to match rider weight. | Cycle Gear lists 85 SX 19/16 only up to 2016, so it is left out; almost certainly a listing gap. Per-rate part numbers not shown. | [source](https://www.cyclegear.com/parts/factory-connection-shock-spring-ktm-husqvarna-gas-gas-85cc-105cc) | medium |
 | KroozR (Krooztune) | KTM Group 85cc shock setup kit 2025+ | KTSSUK85-OR, KTSSUK85-MX, KTSSUK85-ORNB, KTSSUK85-MXNB | New shock piston with KYB band and valving, plus a balance plate that raises the rear 5 mm to fix the low stock rear; optional bladder conversion. | 2026-2027 inferred from '2025+'. | [source](https://ozmx.au/products/ktm-group-85cc-shock-setup-kit-2025-kroozr) | medium |
@@ -190,6 +199,7 @@
 | WP | XACT PRO 7543 Cone Valve spring fork (85 cc, 18-26 set) | A410C104Y203220 | Same 7543 Cone Valve fork; AOMC lists external adjustment, higher bottoming resistance and friction-optimised parts. | AOMC's fitment table on the page was empty; fitment comes from the product title only. Likely the current set number for 2025+ chassis, but confirm with an auth | [source](https://aomc.mx/XACT-PRO-7543-spring-fork-A410C104Y203220.html) | medium |
 | WP | XACT PRO 8946 Supertrax shock (85 cc, 2025+ chassis) | A410C404Y311220 | WP: Supertrax rebound bypass for rear traction and comfort, lighter shock; all adjustments external. | 2026-2027 included because WP says 'from 2025'; no source names those years explicitly. | [source](https://www.cyclecanadaweb.com/2024/07/29/wp-suspension-introduces-cutting-edge-pro-components-for-2025-85cc-motocross-models) | medium |
 | WP | WP shock spring 85 cc 2017+ | 91010271S, 91010240S, 91010161S, 91010201, 91010080, 91010170S | OEM WP shock springs to match rider weight on the 85 PDS / 8946 shock. | '+' years expanded to app years; 2025+ chassis spring length not confirmed. | [source](https://bfdmoto.com/products/wp-shock-absorber-spring-85-2017) | medium |
+| Xtrig | Xtrig Shock preload adjuster | 10500009 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/10500009) | high |
 
 ## Dealer and retailer listings for this bike
 

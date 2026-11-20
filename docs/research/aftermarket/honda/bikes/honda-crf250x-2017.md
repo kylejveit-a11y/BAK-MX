@@ -1,11 +1,16 @@
 # Honda CRF250X 2017: aftermarket parts
 
-1641 listings whose stated fitment names this bike: 81 researched parts (with what they change and rider findings), 328 dealer and retailer listings specific to this bike, and 1232 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1653 listings whose stated fitment names this bike: 93 researched parts (with what they change and rider findings), 328 dealer and retailer listings specific to this bike, and 1232 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| Ride Engineering | Ride Engineering Braided Steel Brake Line | BL-30312-CL |  |  | [source](https://ride-engineering.com/CRXWRFBeta-RR-Braided-Steel-Brake-Line_p_1494.html) | medium |
+| Ride Engineering | Ride Engineering Billet Rear Brake Clevis | CR-BC006-RA |  |  | [source](https://ride-engineering.com/Honda-Billet-Rear-Brake-Clevis_p_1517.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Black | MX-BC000-BA |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Black_p_1732.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Silver | MX-BC000-CA |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Silver_p_1733.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Brown | MX-BC000-WN |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Brown_p_2054.html) | medium |
 | Works Connection | Works Connection Brake Cap-Front | 21-000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Brake Cap-Front | 21-005 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
@@ -29,6 +34,11 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-100 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-105 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-106 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Ride Engineering | Ride Engineering Billet Timing Plug Black | CR-BIP00-BA |  |  | [source](https://ride-engineering.com/CRFTF-Billet-Timing-Plug-Black_p_1519.html) | medium |
+| Ride Engineering | Ride Engineering Billet Timing Plug Red | CR-BIP00-RA |  |  | [source](https://ride-engineering.com/CRFTF-Billet-Timing-Plug-Red_p_1520.html) | medium |
+| Ride Engineering | Ride Engineering Billet Ignition & Timing Plugs | CR-BIT00-BA |  |  | [source](https://ride-engineering.com/Billet-Ignition-Timing-Plugs_p_1521.html) | medium |
+| Ride Engineering | Ride Engineering Billet Ignition & Timing Plugs | CR-BIT00-RA |  |  | [source](https://ride-engineering.com/Billet-Ignition-Timing-Plugs_p_1522.html) | medium |
+| Ride Engineering | Ride Engineering Rear Wheel Spacers | CR-WS00R-RA |  |  | [source](https://ride-engineering.com/Honda-Rear-Wheel-Spacers_p_1588.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -83,6 +93,8 @@
 | Works Connection | Works Connection Tach/Hour Meter/Clock with Resettable Maintenance Timer Mount Bracket | 37-205 |  |  | [source](https://www.worksconnection.com/p18161-tach-hour-meter-mounts) | high |
 | Works Connection | Works Connection 2 Piece Kit Honda Disc Guard | 70-606 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
 | Works Connection | Works Connection 6 Piece Kit | 70-615 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
+| P3 Carbon | P3 Carbon Heat Shield | 205056 |  |  | [source](https://p3carbon.com/products/p3-heat-shield-honda-crf-250x-2004-2017/) | medium |
+| P3 Carbon | P3 Carbon Skid Plate | 305051-BLK |  |  | [source](https://p3carbon.com/products/p3-skid-plate-honda-crf-250x-2004-2018/) | medium |
 | Works Connection | Works Connection Skid Plate | 10-070 |  |  | [source](https://www.worksconnection.com/p36294-skid-plate) | high |
 | Works Connection | Works Connection Right Side | 23-251 |  |  | [source](https://www.worksconnection.com/p18075-engine-guards) | high |
 | Works Connection | Works Connection Rear Caliper Guard | 25-014 |  |  | [source](https://www.worksconnection.com/p18135-rear-caliper-guards) | high |

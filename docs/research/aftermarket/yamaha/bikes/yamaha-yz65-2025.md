@@ -1,6 +1,6 @@
 # Yamaha YZ65 2025: aftermarket parts
 
-1241 listings whose stated fitment names this bike: 152 researched parts (with what they change and rider findings), 184 dealer and retailer listings specific to this bike, and 905 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1250 listings whose stated fitment names this bike: 161 researched parts (with what they change and rider findings), 184 dealer and retailer listings specific to this bike, and 905 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -38,6 +38,9 @@
 | ARC | ARC Billet Nissin Rear Brake Master Cylinder Cap AC-MC110 | AC-MC110-B, AC-MC110-BK | Billet replacement reservoir cap. | ARC fitment list end years vary by model (some stop at 2025, some 2026); 2027 not listed. | [source](https://arclevers.com/products/master-cylinder-caps-ac-mc110) | high |
 | ARC | ARC Billet Nissin Master Cylinder Cap AC-MC103 | AC-MC103-BK | Billet replacement reservoir cap. | ARC fitment list end years vary by model (some stop at 2025, some 2026); 2027 not listed. | [source](https://arclevers.com/products/master-cylinder-caps-ac-mc103) | high |
 | Moto-Master | Moto Master Flame Fixed Rear Rotor Yamaha YZ65 / YZ80 / YZ85 1993-2027 | 110224-PU | Replacement brake rotor. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moto-master-flame-fixed-rear-rotor-yamaha-yz65-yz80-yz85-1993-2023) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp Black | CR-BLC00-BA |  |  | [source](https://ride-engineering.com/CRYZ-Brake-Line-Clamp-Black_p_1524.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp BLUE | CR-BLC00-MB |  |  | [source](https://ride-engineering.com/CRYZ-Brake-Line-Clamp-BLUE_p_1525.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp RED | CR-BLC00-RA |  |  | [source](https://ride-engineering.com/CRYZ-Brake-Line-Clamp-RED_p_1526.html) | medium |
 | Works Connection | Works Connection Brake Cap-Front | 21-030 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-030ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Brake Cap-Front | 21-035 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
@@ -59,6 +62,7 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-120 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-125 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-126 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover | MX-MCC0F-MB |  |  | [source](https://ride-engineering.com/YamahaKawasakiSuzuki-Front-Master-Cylinder-Cover_p_1783.html) | medium |
 | Works Connection | Works Connection Body | 12-155 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -74,6 +78,9 @@
 | Works Connection | Works Connection Body | 12-P155 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch Kit | 12-P410 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
 | Works Connection | Works Connection Titanium Axle Adjuster Bolts | 70-630 |  |  | [source](https://www.worksconnection.com/p104037-titanium-axle-adjuster-bolts) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 25 mm | 40204001 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40204001) | high |
+| Xtrig | Xtrig Top triple clamp, offset 25 mm | 40205001 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40205001) | high |
+| Xtrig | Xtrig HiLo Holeshot Kit 46mm | 70100021 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100021) | high |
 | Barnett | Barnett Clutch Kit Yamaha YZ65 / YZ85 2002-2027 | 303-90-10058 | Friction/steel plates and springs kit. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/barnett-clutch-kit-yamaha-yz65-yz85-2002-2023) | medium |
 | Boyesen | Boyesen Factory Racing clutch cover CC-30x (YZ65, YZ85) | CC-30B, CC-30L, CC-30M | Aftermarket clutch cover; Boyesen includes one gasket. | Fitment built from Boyesen's per-year product pages; some years are missing for some models (e.g. a model listed to 2023 or 2025 only), which may be a catalog g | [source](https://boyesen.com/mx-offroad-mini/factory-racing-hard-parts/2020-yamaha-yz-65/factory-racing-clutch-cover-cc-30b) | high |
 | Hinson | Hinson Billetproof Clutch Basket Yamaha YZ65 / YZ85 2002-2027 | H159 | Billet clutch basket replacing the stock basket. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/hinson-billetproof-clutch-basket-yamaha-yz65-yz85-2002-2025) | medium |
@@ -97,6 +104,8 @@
 | Pro Circuit | Pro Circuit shift lever YZ65 2018-2025 | YSL1865 | Aftermarket shift lever. | Year range from the Pro Circuit item title. | [source](https://www.procircuit.com/shift-lever-yz65-18-23) | high |
 | RFX | RFX Pro Aluminum Footpegs Yamaha 65cc-450cc | FXFR 40100 99BU | Aftermarket footpegs. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rfx-pro-aluminum-footpegs-yamaha-65cc-450cc) | medium |
 | RFX | RFX Pro Solid Tip Rear Brake Pedal Yamaha YZ65 / YZ85 | FXRB 40301 99BU | Aftermarket rear brake pedal. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rfx-pro-solid-tip-rear-brake-pedal-yamaha-yz65-yz85) | medium |
+| Ride Engineering | Ride Engineering One-Piece Oversized Replacement Bar Mount | AF-BBM85-CA |  |  | [source](https://ride-engineering.com/Ride-Eng-One-Piece-Oversized-Replacement-Bar-Mount-YZ6585_p_1482.html) | medium |
+| Ride Engineering | Ride Engineering Bar Mount Bolt Kit | YZ-76275-KT |  |  | [source](https://ride-engineering.com/YZ6585-Bar-Mount-Bolt-Kit_p_1907.html) | medium |
 | Works Connection | Works Connection Brake Levers-Forged | 16-970 |  |  | [source](https://www.worksconnection.com/p18060-brake-levers-forged) | high |
 | Works Connection | Works Connection Brake Levers-Forged | 16-975 |  |  | [source](https://www.worksconnection.com/p18060-brake-levers-forged) | high |
 | Works Connection | Works Connection Foot Pegs-Pro Pegs Titanium | 20-430 |  |  | [source](https://www.worksconnection.com/p18089-foot-peg-pro-pegs-titanium) | high |

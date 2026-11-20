@@ -1,6 +1,6 @@
 # Kawasaki KX112 2026: aftermarket parts
 
-1169 listings whose stated fitment names this bike: 135 researched parts (with what they change and rider findings), 146 dealer and retailer listings specific to this bike, and 888 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1176 listings whose stated fitment names this bike: 142 researched parts (with what they change and rider findings), 146 dealer and retailer listings specific to this bike, and 888 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -40,6 +40,10 @@
 | Plews | MX3 Foxhills GP Front Tire 19-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
 | Plews | MX3 Foxhills GP Rear Tire 16-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
 | Moto-Master | Moto Master Caliper Adapter 260 Kawasaki KX85 / KX100 / KX112 2001-2027 | 211075-PU | Bracket that relocates the front caliper for a larger rotor. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moto-master-caliper-adapter-260-kawasaki-kx85-kx100-kx112-2001-2024) | medium |
+| Ride Engineering | Ride Engineering Mini Direct Route Braided Steel Brake Line | BL-M0012-CL |  |  | [source](https://ride-engineering.com/YZKX-Mini-Direct-Route-Braided-Steel-Brake-Line_p_1501.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp (BLACK) | RX-BLC00-BA |  |  | [source](https://ride-engineering.com/RM-KX-Brake-Line-Clamp-BLACK_p_1863.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp - Green | RX-BLC00-GN |  |  | [source](https://ride-engineering.com/KX-Brake-Line-Clamp--Green_p_1864.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp (BLUE) | RX-BLC00-MB |  |  | [source](https://ride-engineering.com/RM-KX-Brake-Line-Clamp-BLUE_p_1865.html) | medium |
 | Works Connection | Works Connection Brake Cap-Front | 21-000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Brake Cap-Front | 21-005 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
@@ -60,6 +64,9 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-120 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-125 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-126 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| FCP Racing | FCP Racing Engine Mounts |  |  |  | [source](https://fcpracing.com/product/kawasaki-kx112-2024-2026/) | high |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover | MX-MCC0F-GN |  |  | [source](https://ride-engineering.com/Kawasaki-Front-Master-Cylinder-Cover_p_1782.html) | medium |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover | MX-MCC0F-MB |  |  | [source](https://ride-engineering.com/YamahaKawasakiSuzuki-Front-Master-Cylinder-Cover_p_1783.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch Kit | 12-303 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
 | Works Connection | Works Connection Body | 12-B165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |

@@ -1,6 +1,6 @@
 # Husqvarna TC 65 2022: aftermarket parts
 
-1194 listings whose stated fitment names this bike: 130 researched parts (with what they change and rider findings), 149 dealer and retailer listings specific to this bike, and 915 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1198 listings whose stated fitment names this bike: 134 researched parts (with what they change and rider findings), 149 dealer and retailer listings specific to this bike, and 915 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -46,6 +46,7 @@
 | Works Connection | Works Connection Brake Cap-Rear | 21-G744 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
 | Works Connection | Works Connection Brake Cap-Rear | 21-K744 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
 | Works Connection | Works Connection Brake Cap-Rear | 21-P774 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Ride Engineering | Ride Engineering GAS 2-STROKE & TACH/HOUR METER WITH BRACKET | MX-HM000-BK |  |  | [source](https://ride-engineering.com/KTMHUSQGAS-2-STROKE-YAM-TACHHOUR-METER-WITH-BRACKET_p_1771.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -60,6 +61,9 @@
 | Works Connection | Works Connection Pro Launch Kit | 12-K711 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
 | Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch Kit | 12-P711 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 22 mm, orange | 40504007 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40504007) | high |
+| Xtrig | Xtrig ROCS Top Triple Clamp ; ; GG ; black | 40505013 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40505013) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 22 mm, black | 40704006 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40704006) | high |
 | RFX | RFX Clutch Cover Gas Gas / KTM / Husqvarna 65cc | FXCC 51000 99H2 | Aftermarket clutch cover. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rfx-clutch-cover-gas-gas-ktm-husqvarna-65cc) | medium |
 | Rekluse | Rekluse Manual Slave Cylinder KTM / Husqvarna / Gas Gas 65cc 2009-2023 | RMS-2400020 | Replacement hydraulic clutch slave cylinder (Rekluse). | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rekluse-manual-slave-cylinder-ktm-husqvarna-gas-gas-65cc-2009-2021) | medium |
 | ARC | ARC Folding Front Brake Lever AC-BR-350 | AC-BR-350, AC-BR-350-R, AC-BR-350-B, AC-BR-350-O, AC-BR-350-SK, AC-BR-350-C, AC-BR-350-CT | Folding front brake lever; ARC levers are built to fold instead of snap in a crash. | ARC fitment list end years vary by model (some stop at 2025, some 2026); 2027 not listed. | [source](https://arclevers.com/products/brake-ac-br-350) | high |

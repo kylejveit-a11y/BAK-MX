@@ -243,7 +243,20 @@ Owner direction: every bike in the app gets a complete aftermarket list, older y
 - Retailer back-fill for the 441 bikes with little data (2010-2019 and trail / enduro): the Cycle Gear reader runs on the
   owner's computer (`Downloads/bakmx-parts-research/`, honest client name, robots.txt respected, resumable). Convert with
   `cyclegear_convert.py` when it finishes.
-- No public product feed (do not work around): Luxon, Enzo, Guts answer 403; REP and Fasst answer 429; FCP, Ride
-  Engineering, X-Trig, P3, Dubya, MX-Tech have plain pages that each need their own reader.
+- No public product feed (do not work around): Luxon, Enzo, Guts answer 403; REP and Fasst answer 429.
+- Maker pages read 2026-11-20 on the owner's computer (`Downloads/bakmx-parts-research/makers/fetch.py`: sitemap URLs only,
+  one request a second, honest client name, robots.txt checked for each site) and converted by
+  `scripts/aftermarket/maker_pages_convert.py`, which reads each maker's own fitment line with
+  `scripts/aftermarket/fitment_text.py` (run that file on its own for its checks):
+  - `specialty/xtrig.json`: 97 products from xtrig-shop.com "fits on" lines (triple clamps, preload adjusters, holeshot kits).
+  - `specialty/ride-engineering.json`: 311 products from the Application line / Application Info tab.
+  - `specialty/p3-carbon.json`: 229 products from product titles (fitment tabs are drawn in the browser and were not read).
+  - `specialty/fcp-racing.json`: 74 engine-mount kits, one maker page per bike.
+  Each file has an `unread` list: products whose fitment line could not be read with confidence (brand named without
+  models, "see fitment chart", bikes outside the app, special editions, a line where years and bikes do not pair up
+  cleanly). Those are given to no bike. Free-text reads are marked confidence medium; X-Trig and FCP high.
+  The saved pages are not in the repo.
+- Read and left out: Dubya (wheel builds and apparel, not sold by bike) and MX-Tech (shims, seals, tools and kits by fork
+  type, not by bike).
 - Sorting: kill switches, seat covers, gas caps, seal savers, spark plugs and bolt kits are no longer dropped by retailer
   category.

@@ -1,11 +1,13 @@
 # Husqvarna FE 501 2015: aftermarket parts
 
-1645 listings whose stated fitment names this bike: 89 researched parts (with what they change and rider findings), 345 dealer and retailer listings specific to this bike, and 1211 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1655 listings whose stated fitment names this bike: 99 researched parts (with what they change and rider findings), 345 dealer and retailer listings specific to this bike, and 1211 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| Ride Engineering | Ride Engineering braided Steel Rear Brake Line Black | BL-K9012-BK |  |  | [source](https://ride-engineering.com/KTMHUSQGASTRI-braided-Steel-Rear-Brake-Line-Black_p_1974.html) | medium |
+| Ride Engineering | Ride Engineering braided Steel Rear Brake Line Clear | BL-K9012-CL |  |  | [source](https://ride-engineering.com/KTMHUSQGASTRI-braided-Steel-Rear-Brake-Line-Clear_p_1500.html) | medium |
 | Works Connection | Works Connection Brake Cap-Front - Billet | 21-040 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-040ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Brake Cap-Front - Billet | 21-045 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
@@ -43,6 +45,8 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-140 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-145 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-146 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Ride Engineering | Ride Engineering KAW 4 STROKE TACH/HOUR METER WITH BRACKET | MX-HM004-BK |  |  | [source](https://ride-engineering.com/HONSUZKTMHUSQGASKAW-4-STROKE-TACHHOUR-METER-WITH-BRACKET_p_1772.html) | medium |
+| Ride Engineering | Ride Engineering Billet Throttle Mount Start Switch | MX-TS00B-AS |  |  | [source](https://ride-engineering.com/Billet-Throttle-Mount-Start-Switch_p_1805.html) | medium |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Drill Guide KTM | 12-177K |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -58,6 +62,8 @@
 | Works Connection | Works Connection Elite Axle Block Kit | 17-460 |  |  | [source](https://www.worksconnection.com/p126059-elite-axle-block-kit-gasgas-husqvarna-ktm) | high |
 | Works Connection | Works Connection Elite Axle Block Kit | 17-463 |  |  | [source](https://www.worksconnection.com/p126059-elite-axle-block-kit-gasgas-husqvarna-ktm) | high |
 | Works Connection | Works Connection Titanium Axle Adjuster Bolts | 70-635 |  |  | [source](https://www.worksconnection.com/p104037-titanium-axle-adjuster-bolts) | high |
+| Xtrig | Xtrig Holeshot Kit Ø59 für WP48 fork | 70100008 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100008) | high |
+| Xtrig | Xtrig HiLo Holeshot Kit Ø59 for WP48 fork | 70100017 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100017) | high |
 | Works Connection | Works Connection Hinson Billetproof Clutch Cover | HR-C454 |  |  | [source](https://www.worksconnection.com/p18103-hinson-billetproof-cover) | high |
 | Works Connection | Works Connection Hinson FSC Clutch Plate Kit | HR-FSC373-8-002 |  |  | [source](https://www.worksconnection.com/p18115-hinson-fsc-clutch-plate-kit) | high |
 | Works Connection | Works Connection Hinson Billetproof Inner Hub | HR-H370 |  |  | [source](https://www.worksconnection.com/p18105-hinson-billetproof-inner-hub) | high |
@@ -74,6 +80,7 @@
 | Works Connection | Works Connection Rotating Bar Clamp | 31-G100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
 | Works Connection | Works Connection Rotating Bar Clamp | 31-K100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
 | Works Connection | Works Connection Rotating Bar Clamp | 31-P101 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
+| Xtrig | Xtrig PHDS OEM for 28,6mm handlebar M10 | 50100008 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/50100008) | high |
 | Works Connection | Works Connection Oil Fill Plug | 24-020 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
 | Works Connection | Works Connection Oil Fill Plug | 24-021 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
 | Works Connection | Works Connection Oil Fill Plug | 24-030 |  |  | [source](https://www.worksconnection.com/p18124-oil-fill-plug) | high |
@@ -92,6 +99,9 @@
 | Works Connection | Works Connection Oil Filter Cover | 27-125 |  |  | [source](https://www.worksconnection.com/p18125-oil-filter-covers) | high |
 | Works Connection | Works Connection Tach/Hour Meter/Clock with Maintenance Timer | 37-200 |  |  | [source](https://www.worksconnection.com/p18160-tach-hour-meters) | high |
 | Works Connection | Works Connection Tach/Hour Meter/Clock with Resettable Maintenance Timer Mount Bracket | 37-205 |  |  | [source](https://www.worksconnection.com/p18161-tach-hour-meter-mounts) | high |
+| P3 Carbon | P3 Carbon Heat Shield Factory E. / SMR | 201075-Standard |  |  | [source](https://p3carbon.com/products/p3-heat-shield-ktm-husqvarna-450-501-fc-fe-sxf-xcf-2014-2016/) | medium |
+| P3 Carbon | P3 Carbon Heat Shield Husaberg | 202071 |  |  | [source](https://p3carbon.com/products/p3-heat-shield-husqvarna-husaberg-450-501-fe-fc-2013-2016/) | medium |
+| P3 Carbon | P3 Carbon Grip Guards Frame Protectors Husqvarna 125-501 / FC/TC / FE/TE | 743015-BLK |  |  | [source](https://p3carbon.com/products/p3-grip-guards-frame-protectors-husqvarna-125-501-fc-tc-2014-2015-fe-te-2014-2016/) | medium |
 | Works Connection | Works Connection Skid Plate w/ (RIMS) System | 10-456 |  |  | [source](https://www.worksconnection.com/p36294-skid-plate) | high |
 | Works Connection | Works Connection Ti Bolt Kit-Rims Skid Plate (4 pcs) | 70-303 |  |  | [source](https://www.worksconnection.com/p36772-skid-plate-w-rims-system-titanium-bolt-kit) | high |
 | Works Connection | Works Connection Fork Bleeder Valves | 26-330 |  |  | [source](https://www.worksconnection.com/p417280-fork-bleeders-shorty) | high |

@@ -1,6 +1,6 @@
 # Kawasaki KX65 2020: aftermarket parts
 
-1162 listings whose stated fitment names this bike: 124 researched parts (with what they change and rider findings), 113 dealer and retailer listings specific to this bike, and 925 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1165 listings whose stated fitment names this bike: 127 researched parts (with what they change and rider findings), 113 dealer and retailer listings specific to this bike, and 925 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -56,6 +56,8 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-120 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-125 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-126 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover | MX-MCC0F-GN |  |  | [source](https://ride-engineering.com/Kawasaki-Front-Master-Cylinder-Cover_p_1782.html) | medium |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover | MX-MCC0F-MB |  |  | [source](https://ride-engineering.com/YamahaKawasakiSuzuki-Front-Master-Cylinder-Cover_p_1783.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -126,6 +128,7 @@
 | Maxima | Maxima DOT 4 Brake Fluid | 80-86916 | DOT 4 brake and clutch fluid (maker). | 2027 KTM-group small-bike manuals list DOT 5.1 only. Maxima lists no bike fitment; fit shown is a spec match against the owner's manual, not a Maxima claim | [source](https://www.maximausa.com/products/dot-4-brake-fluid) | unverified |
 | Maxima | Maxima Racing DOT 4 Brake Fluid | 80-87916 | Synthetic high-temperature racing DOT 4 (maker). | Maxima lists no bike fitment; fit shown is a spec match against the owner's manual, not a Maxima claim | [source](https://www.maximausa.com/products/racing-dot-4-brake-fluid) | unverified |
 | Motul | Motul RBF 600 Factory Line | 100949 | Synthetic racing brake fluid, high boiling point. | Motul's US shop lists no bike fitment | [source](https://shopusa.motul.com/products/motul-rbf-600-factory-line) | unverified |
+| P3 Carbon | P3 Carbon Fuel Tank Cover | 776072 |  |  | [source](https://p3carbon.com/products/p3-fuel-tank-cover-klx110-kx65-2002-2022-see-fitment-tab-details/) | medium |
 | Works Connection | Works Connection Skid Plate | 10-102 |  |  | [source](https://www.worksconnection.com/p36294-skid-plate) | high |
 | Race Tech | Gold Valve Cartridge Emulator Kit - Kawasaki KX65 |  | Adds a tunable valve on top of the damping rod so the KX65's damping-rod fork behaves more like a cartridge fork; includes 4 valve-spring rates and bleed-plate options. | Small specialist dealer; no Race Tech part number shown. | [source](https://m.reach.dog/shop/factory-minibikes/products/gold-valve-cartridge-emulator-kit-kx65) | unverified |
 | Excel | Excel Takasago 1.40" x 14" Front Rim Kawasaki / Suzuki 65cc 2000-2027 | BBS361 | Replacement rim for a wheel rebuild. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/excel-takasago-140-x-14-front-rim-kawasaki-suzuki-65cc-2000-2023) | medium |

@@ -1,11 +1,21 @@
 # Honda CRF250RX 2019: aftermarket parts
 
-1709 listings whose stated fitment names this bike: 106 researched parts (with what they change and rider findings), 386 dealer and retailer listings specific to this bike, and 1217 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1739 listings whose stated fitment names this bike: 136 researched parts (with what they change and rider findings), 386 dealer and retailer listings specific to this bike, and 1217 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| Ride Engineering | Ride Engineering Braided Steel Brake Line Black | BL-01212-BK |  |  | [source](https://ride-engineering.com/Hon19KawiSuzYamBeta-Braided-Steel-Brake-Line-Black_p_1487.html) | medium |
+| Ride Engineering | Ride Engineering Braided Steel Brake Line Clear | BL-01212-CL |  |  | [source](https://ride-engineering.com/Hon19KawSuzYamBeta-Braided-Steel-Brake-Line-Clear_p_1488.html) | medium |
+| Ride Engineering | Ride Engineering braided Steel Rear Brake Line Black | BL-03020-BK |  |  | [source](https://ride-engineering.com/Honda-braided-Steel-Rear-Brake-Line-Black_p_1490.html) | medium |
+| Ride Engineering | Ride Engineering braided Steel Rear Brake Line Clear | BL-03020-CL |  |  | [source](https://ride-engineering.com/Honda-braided-Steel-Rear-Brake-Line-Clear_p_1491.html) | medium |
+| Ride Engineering | Ride Engineering 270mm Over-sized Pulse Rotor Kit-Honda | CR-00270-KT |  |  | [source](https://ride-engineering.com/15-18-270mm-Over-sized-Pulse-Rotor-Kit-Honda_p_1509.html) | medium |
+| Ride Engineering | Ride Engineering 270mm Over-sized Pulse Rotor Kit-Honda | CR-00279-KT |  |  | [source](https://ride-engineering.com/2019-270mm-Over-sized-Pulse-Rotor-Kit-Honda_p_1510.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp BLUE | CR-BLC00-MB |  |  | [source](https://ride-engineering.com/CRYZ-Brake-Line-Clamp-BLUE_p_1525.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp RED | CR-BLC00-RA |  |  | [source](https://ride-engineering.com/CRYZ-Brake-Line-Clamp-RED_p_1526.html) | medium |
+| Ride Engineering | Ride Engineering 270MM Hanger Bracket | CR-HB279-BA |  |  | [source](https://ride-engineering.com/270MM-Hanger-Bracket-2019-Honda_p_1572.html) | medium |
+| Ride Engineering | Ride Engineering Caliper Pin & Spring | MX-BC000-KT |  |  | [source](https://ride-engineering.com/Caliper-Pin-Spring-_p_2149.html) | medium |
 | Works Connection | Works Connection Brake Cap-Front | 21-000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Brake Cap-Front | 21-005 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
@@ -29,6 +39,18 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-100 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-105 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-106 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| FCP Racing | FCP Racing Engine Mounts |  |  |  | [source](https://fcpracing.com/product/honda-crf250r-rx-2018-2021/) | high |
+| Ride Engineering | Ride Engineering OEM LOWER STEERING HEAD BEARING | CR-BE101-AS |  |  | [source](https://ride-engineering.com/CRCRF-OEM-LOWER-STEERING-HEAD-BEARING-_p_2152.html) | medium |
+| Ride Engineering | Ride Engineering billet oil cap | CR-BFP00-RA |  |  | [source](https://ride-engineering.com/CRF-billet-oil-cap_p_1518.html) | medium |
+| Ride Engineering | Ride Engineering Rear Master Cylinder Cover | CR-MCC0R-RA |  |  | [source](https://ride-engineering.com/Honda-Rear-Master-Cylinder-Cover_p_1580.html) | medium |
+| Ride Engineering | Ride Engineering Reversible Billet Axle Blocks, BLACK | CR-RAB09-BA |  |  | [source](https://ride-engineering.com/Honda-Reversible-Billet-Axle-Blocks-BLACK_p_1584.html) | medium |
+| Ride Engineering | Ride Engineering Reversible Billet Axle Blocks, RED | CR-RAB09-RA |  |  | [source](https://ride-engineering.com/Honda-Reversible-Billet-Axle-Blocks-RED_p_1585.html) | medium |
+| Ride Engineering | Ride Engineering Rear Wheel Spacers | CR-WS00R-RA |  |  | [source](https://ride-engineering.com/Honda-Rear-Wheel-Spacers_p_1588.html) | medium |
+| Ride Engineering | Ride Engineering NEW! Optional 10mm offset bases | MX-BMB10-00 |  |  | [source](https://ride-engineering.com/NEW-Optional-10mm-offset-bases--Honda-Kawi_p_2064.html) | medium |
+| Ride Engineering | Ride Engineering Post Mount Extension for Scott's & GPR Sub Mounts | MX-EXT45-00 |  |  | [source](https://ride-engineering.com/Post-Mount-Extension-for-Scotts-GPR-Sub-Mounts_p_2027.html) | medium |
+| Ride Engineering | Ride Engineering Showa 24mm Steering Dampener | MX-HPSD1-10 |  |  | [source](https://ride-engineering.com/Showa-24mm-Steering-Dampener_p_1774.html) | medium |
+| Ride Engineering | Ride Engineering WP Damper spacers for 7mm bolts (1 pair) | MX-SP007-SS |  |  | [source](https://ride-engineering.com/WP-Damper-spacers-for-7mm-bolts-1-pair_p_2057.html) | medium |
+| Ride Engineering | Ride Engineering WP Steering Damper Kit | MX-WPD00-KT |  |  | [source](https://ride-engineering.com/WP-Steering-Damper-Kit_p_2050.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -56,6 +78,8 @@
 | Works Connection | Works Connection Hinson Billetproof Inner Hub | HR-H422 |  |  | [source](https://www.worksconnection.com/p18105-hinson-billetproof-inner-hub) | high |
 | Works Connection | Works Connection Hinson Billetproof Pressure Plate | HR-H794-PP-0817 |  |  | [source](https://www.worksconnection.com/p18107-hinson-billetproof-pressure-plate) | high |
 | Works Connection | Works Connection Hinson Complete Billetproof Clutch Kit | HR-HC794-1801 |  |  | [source](https://www.worksconnection.com/p18112-hinson-complete-billetproof-clutch-kit) | high |
+| Ride Engineering | Ride Engineering Over-sized (1 1/8") One Piece Bar Mount | MX-BBM00-CA |  |  | [source](https://ride-engineering.com/Over-sized-1-18-One-Piece-Bar-Mount-for-Honda-_p_1731.html) | medium |
+| Ride Engineering | Ride Engineering Bar Mount for Scott's & GPR Stabilizers | MX-SM106-00 |  |  | [source](https://ride-engineering.com/CRCRF-Bar-Mount-for-Scotts-GPR-Stabilizers_p_1789.html) | medium |
 | Works Connection | Works Connection Foot Pegs-Pro Pegs Titanium | 20-400 |  |  | [source](https://www.worksconnection.com/p18089-foot-peg-pro-pegs-titanium) | high |
 | Works Connection | Works Connection Foot Peg - Pro Pegs Mud Titanium | 20-401 |  |  | [source](https://www.worksconnection.com/p935855-foot-peg-pro-pegs-mud-titanium) | high |
 | Works Connection | Works Connection CRF Titanium Foot Peg Pins | 20-521 |  |  | [source](https://www.worksconnection.com/p1664044-crf-titanium-foot-peg-pins) | high |
@@ -101,6 +125,11 @@
 | Works Connection | Works Connection 2 Piece Kit Honda Disc Guard | 70-606 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
 | Works Connection | Works Connection 6 Piece Kit | 70-615 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
 | Yoshimura | RS-9T Dual Stainless Full Exhaust (2018-21 CRF250R / RX) | 22843AR520 | Dual-header system. |  | [source](None) |  |
+| P3 Carbon | P3 Carbon Hybrid Skid PlateHonda | 305073-BLK |  |  | [source](https://p3carbon.com/products/p3-hybrid-skid-platehonda-crf-250-rx-2019-2021-crf-450-rwe-2019-crf250r-2018-2021-crf450r-2017-2020-crf450rx-2017-2020/) | medium |
+| P3 Carbon | P3 Carbon Enduro Skid Plate | 305074-BLK |  |  | [source](https://p3carbon.com/products/p3-enduro-skid-plate-honda-crf-250-rx-2019-2021-crf-450-rwe-2019-2020-crf250r-2018-2021-crf450r-2017-2020-crf450rx-2017-2020/) | medium |
+| P3 Carbon | P3 Carbon Rear Pump Protection & 450R | 705004 |  |  | [source](https://p3carbon.com/products/p3-rear-pump-protection-crf250r-rx-450r-rx-2005-2025-see-fitment-tab/) | medium |
+| P3 Carbon | P3 Carbon Front Brake Reservoir Protector | 705007-BLK |  |  | [source](https://p3carbon.com/products/p3-carbon-honda-front-brake-reservoir-protector-2005-2025/) | medium |
+| P3 Carbon | P3 Carbon Clutch Cover | 715060 |  |  | [source](https://p3carbon.com/products/p3-clutch-cover-honda-crf-250r-rx-2018-2025-see-fitment-tab/) | medium |
 | Works Connection | Works Connection Skid Plate-Extended Coverage w/ (RIMS) System | 10-677 |  |  | [source](https://www.worksconnection.com/p35394-skid-plate-extended-coverage) | high |
 | Works Connection | Works Connection Rear Master Cylinder Guard | 15-705 |  |  | [source](https://www.worksconnection.com/p18136-rear-master-cylinder-guards) | high |
 | Works Connection | Works Connection Rear Caliper Guard | 25-014 |  |  | [source](https://www.worksconnection.com/p18135-rear-caliper-guards) | high |
@@ -111,6 +140,7 @@
 | Factory Links | Linkage Bearing Rebuild Kit Honda 250-450 | P1077861 (retailer item #) | OEM-quality linkage service parts. |  | [source](None) |  |
 | Pro Circuit | Pull Rods CRF450R 17-20 / 450RX 19-20 / CRF250R 18-21 / 250RX 19-21 | HPA17450 | Linkage pull rods (changes linkage ratio). |  | [source](None) |  |
 | Race Tech | Fork Springs CRF250RX '19-24 | FRSP 4547 | Rider-weight fork springs. |  | [source](None) |  |
+| Ride Engineering | Ride Engineering Pull Rods | CR-DLA46-RA |  |  | [source](https://ride-engineering.com/17-18-CRF450-18-21-CRF250-Pull-Rods_p_1563.html) | medium |
 | Works Connection | Works Connection Fork Bleeder Valves | 26-321 |  |  | [source](https://www.worksconnection.com/p417280-fork-bleeders-shorty) | high |
 
 ## Dealer and retailer listings for this bike

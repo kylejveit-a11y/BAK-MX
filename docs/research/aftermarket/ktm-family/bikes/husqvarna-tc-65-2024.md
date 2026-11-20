@@ -1,6 +1,6 @@
 # Husqvarna TC 65 2024: aftermarket parts
 
-1142 listings whose stated fitment names this bike: 164 researched parts (with what they change and rider findings), 27 dealer and retailer listings specific to this bike, and 951 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1147 listings whose stated fitment names this bike: 169 researched parts (with what they change and rider findings), 27 dealer and retailer listings specific to this bike, and 951 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -73,6 +73,7 @@
 | Works Connection | Works Connection Custom Engrave Number | 21-P095ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
 | Works Connection | Works Connection Brake Cap-Rear | 21-P774 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
 | Ride Engineering | Full Performance linkage (KTM/GasGas, 2024.5 FE and 2025+) |  | More linear damping curve for balance and less pitching under braking and acceleration. | No part number; fitment from magazine test, not RE fitment page. 2026-2027 not stated. | [Ride Engineering (price via MXA)](https://www.ride-engineering.com) | medium |
+| Ride Engineering | Ride Engineering GAS 2-STROKE & TACH/HOUR METER WITH BRACKET | MX-HM000-BK |  |  | [source](https://ride-engineering.com/KTMHUSQGAS-2-STROKE-YAM-TACHHOUR-METER-WITH-BRACKET_p_1771.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -87,6 +88,9 @@
 | Works Connection | Works Connection Pro Launch Kit | 12-K711 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
 | Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch Kit | 12-P711 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 22 mm, orange | 40504009 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40504009) | high |
+| Xtrig | Xtrig ROCS Top Triple Clamp ; ; GG ; black | 40505013 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40505013) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 22 mm, black | 40704008 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40704008) | high |
 | Pro X | Pro X Clutch Plate Set KTM / Husqvarna / Gas Gas 65cc 2024-2027 | 16.CPS60024 | Friction and steel plate set. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/pro-x-clutch-plate-set-ktm-husqvarna-gas-gas-65cc-2024-2025) | medium |
 | RFX | RFX Clutch Cover Gas Gas / KTM / Husqvarna 65cc | FXCC 51000 99H2 | Aftermarket clutch cover. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rfx-clutch-cover-gas-gas-ktm-husqvarna-65cc) | medium |
 | Rekluse | Rekluse Standard Clutch Cover KTM / Husqvarna / Gas Gas 65cc 2024-2027 | RMS-0413065 | Aftermarket clutch cover. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rekluse-standard-clutch-cover-ktm-husqvarna-gas-gas-65cc-2024) | medium |
@@ -157,6 +161,7 @@
 | WP SUSPENSION (KTM/Husqvarna/GasGas genuine) | WP Shock Absorber Fluid SAE 2.5 (5 L) | 50180751S1 | Factory-specified damping oil for WP XACT shocks. | Owner's manuals do not state a shock oil quantity (2026-2027 small-bike manuals say fill to the maximum mark). | [source](https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240038_en_BA.pdf) | high |
 | KTM PowerParts | Radiator Protection | A46035036044AB, A46035036044XX | Radiator guard. | The 'XX' suffix is an AOMC URL placeholder; actual colour-suffix numbers are not captured. | [AOMC (US)](https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html) | unverified |
 | P3 | P3 Carbon Fiber Skid Plate KTM / Husqvarna / Gas Gas 65cc | 301022-BLK | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/p3-carbon-fiber-skid-plate-ktm-husqvarna-gas-gas-65cc) | medium |
+| P3 Carbon | P3 Carbon Pipe Guard | 101023 |  |  | [source](https://p3carbon.com/products/p3-carbon-pipe-guard-ktm-65sx-husq-tc65-gasgas-mc65-2024-2026/) | medium |
 | Works Connection | Works Connection Fork Guard Reinforcing Kit | 12-196 |  |  | [source](https://www.worksconnection.com/p1457836-fork-guard-reinforcing-kit) | high |
 | KroozR (Krooztune) | WP35 Fork Flow Kit incl. air-to-spring conversion (50/65 cc 2020-2025) | KTFFK50-24N, KTFFK50-28N, KTFFK50-32N, KTFFK50-26N, KTFFK50-28N2S, KTFFK50-30N, KTFFK65-24N, KTFFK65-28N, KTFFK65-32N, KTFFK65-26N, KTFFK65-28N2S, KTFFK65-30N2S | Big-piston flow kit with top-out springs and conversion hardware turning the WP35 air fork into a dual-spring fork with real valving. |  | [source](https://ozmx.au/products/wp35-fork-flow-kit-ktm-group-50-65cc-2020-2025-including-air-to-spring-conversion-kroozr) | medium |
 | KroozR (Krooztune) | WP65 Mini Cartridge (dual-spring, zero air) | KTMINICRG65, KTMINICRG65-26, KTMINICRG65-28, KTMINICRG65-30, KTMINICRG65-32 | Complete replacement cartridge for the WP35 fork: dual coil springs, compression 'Flow Adjuster', wide clicker range and hydraulic bottoming. |  | [source](https://ozmx.au/products/wp65-mini-cartridge-kroozr) | medium |

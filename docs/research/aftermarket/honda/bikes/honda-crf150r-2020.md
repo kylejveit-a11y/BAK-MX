@@ -1,6 +1,6 @@
 # Honda CRF150R 2020: aftermarket parts
 
-1601 listings whose stated fitment names this bike: 191 researched parts (with what they change and rider findings), 273 dealer and retailer listings specific to this bike, and 1137 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1609 listings whose stated fitment names this bike: 199 researched parts (with what they change and rider findings), 273 dealer and retailer listings specific to this bike, and 1137 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -66,6 +66,8 @@
 | Plews | MX3 Foxhills GP Rear Tire 14-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
 | Plews | MX3 Foxhills GP Rear Tire 16-inch |  | hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking. | Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE. | [source](https://plewstyres.com/) | high |
 | ARC | ARC Billet Nissin Front Brake Master Cylinder Cap AC-MC100 | AC-MC100-BK, AC-MC100-R | Billet replacement reservoir cap. | ARC fitment list end years vary by model (some stop at 2025, some 2026); 2027 not listed. | [source](https://arclevers.com/products/master-cylinder-caps-ac-mc100) | high |
+| Ride Engineering | Ride Engineering Braided Steel Brake Line | BL-3M312-CL |  |  | [source](https://ride-engineering.com/CRF150-Braided-Steel-Brake-Line_p_1495.html) | medium |
+| Ride Engineering | Ride Engineering Billet Rear Brake Clevis | CR-BC006-RA |  |  | [source](https://ride-engineering.com/Honda-Billet-Rear-Brake-Clevis_p_1517.html) | medium |
 | Works Connection | Works Connection Brake Cap-Front | 21-000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Brake Cap-Front | 21-005 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
@@ -89,6 +91,8 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-100 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-105 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-106 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Ride Engineering | Ride Engineering Billet Ignition & Timing Plugs | CR-BIT00-BA |  |  | [source](https://ride-engineering.com/Billet-Ignition-Timing-Plugs_p_1521.html) | medium |
+| Ride Engineering | Ride Engineering Billet Ignition & Timing Plugs | CR-BIT00-RA |  |  | [source](https://ride-engineering.com/Billet-Ignition-Timing-Plugs_p_1522.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -104,6 +108,9 @@
 | Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch Kit | 12-P200 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
 | Works Connection | Works Connection Titanium Axle Adjuster Bolts | 70-630 |  |  | [source](https://www.worksconnection.com/p104037-titanium-axle-adjuster-bolts) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 28 mm, red | 40104001 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40104001) | high |
+| Xtrig | Xtrig Top triple clamp, offset 28 mm | 40105001 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40105001) | high |
+| Xtrig | Xtrig HiLo Holeshot Kit 49,5mm | 70100020 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100020) | high |
 | Barnett | Barnett Clutch Kit Honda CRF150R 2007-2026 | 303-35-20030 | Friction/steel plates and springs kit. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/barnett-clutch-kit-honda-crf150r-2007-2025) | medium |
 | DP Brakes | DP Brakes Clutch Kit Honda CRF150R / CRF150RB Expert 2007-2026 | DPK203 | Friction/steel plates and springs kit. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/dp-brakes-clutch-kit-honda-crf150r-crf150rb-expert-2007-2023) | medium |
 | Hinson | Hinson Fiber Clutch Plates Honda CRF150R 2007-2026 | FP290-6-001 | Replacement friction plates. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/hinson-fiber-clutch-plates-honda-crf150r-2007-2019) | medium |
@@ -184,6 +191,7 @@
 | Moose Racing | Moose Racing Pro Skid Plate Honda CRF150R / CRF150R Expert 2007-2026 | PX1321 | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moose-racing-pro-skid-plate-honda-crf150r-2007-2018) | medium |
 | Moose Racing | Moose Racing Skid Plate Honda CRF150R / Expert 2007-2026 | 422 | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moose-racing-skid-plate-honda-crf150r-expert-2007-2020) | medium |
 | P3 | P3 Carbon Fiber Heat Shield Honda CRF125R / CRF150R | 205011 | Pipe heat shield. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/p3-carbon-fiber-heat-shield-honda-crf125r-crf150r) | medium |
+| P3 Carbon | P3 Carbon Heat Shield | 205011 |  |  | [source](https://p3carbon.com/products/p3-carbon-heat-shield-honda-crf125-2019-2025/) | medium |
 | TM Designworks | TM Designworks Full Coverage Skid Plate Honda CRF150R / CRF150R Expert 2007-2026 | HOMC-150-BK | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/tm-designworks-full-coverage-skid-plate-honda-crf150r-crf150r-expert-2007-2022) | medium |
 | Works Connection | Works Connection MX Skid Plate Honda CRF150R / CRF150R Expert 2007-2026 | 10-008 | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/works-connection-mx-skid-plate-honda-crf150r-crf150r-expert-2007-2024) | medium |
 | Works Connection | Works Connection Skid Plate | 10-008 |  |  | [source](https://www.worksconnection.com/p36294-skid-plate) | high |

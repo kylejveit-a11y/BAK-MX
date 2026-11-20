@@ -1,11 +1,13 @@
 # Honda CRF150R 2015: aftermarket parts
 
-1553 listings whose stated fitment names this bike: 83 researched parts (with what they change and rider findings), 263 dealer and retailer listings specific to this bike, and 1207 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1561 listings whose stated fitment names this bike: 91 researched parts (with what they change and rider findings), 263 dealer and retailer listings specific to this bike, and 1207 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| Ride Engineering | Ride Engineering Braided Steel Brake Line | BL-3M312-CL |  |  | [source](https://ride-engineering.com/CRF150-Braided-Steel-Brake-Line_p_1495.html) | medium |
+| Ride Engineering | Ride Engineering Billet Rear Brake Clevis | CR-BC006-RA |  |  | [source](https://ride-engineering.com/Honda-Billet-Rear-Brake-Clevis_p_1517.html) | medium |
 | Works Connection | Works Connection Brake Cap-Front | 21-000 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-000ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Brake Cap-Front | 21-005 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
@@ -29,6 +31,8 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-100 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-105 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-106 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Ride Engineering | Ride Engineering Billet Ignition & Timing Plugs | CR-BIT00-BA |  |  | [source](https://ride-engineering.com/Billet-Ignition-Timing-Plugs_p_1521.html) | medium |
+| Ride Engineering | Ride Engineering Billet Ignition & Timing Plugs | CR-BIT00-RA |  |  | [source](https://ride-engineering.com/Billet-Ignition-Timing-Plugs_p_1522.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -44,6 +48,9 @@
 | Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch Kit | 12-P200 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
 | Works Connection | Works Connection Titanium Axle Adjuster Bolts | 70-630 |  |  | [source](https://www.worksconnection.com/p104037-titanium-axle-adjuster-bolts) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 28 mm, red | 40104001 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40104001) | high |
+| Xtrig | Xtrig Top triple clamp, offset 28 mm | 40105001 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40105001) | high |
+| Xtrig | Xtrig HiLo Holeshot Kit 49,5mm | 70100020 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100020) | high |
 | Works Connection | Works Connection Hinson Hi-Temp Spring Kit | HR-CS290-4-0710 |  |  | [source](https://www.worksconnection.com/p18116-hinson-hi-temp-spring-kit) | high |
 | Works Connection | Works Connection Hinson Fiber Plates | HR-FP290-6-001 |  |  | [source](https://www.worksconnection.com/p18114-hinson-fiber-plates) | high |
 | Works Connection | Works Connection Hinson FSC Clutch Plate Kit | HR-FSC290-6-001 |  |  | [source](https://www.worksconnection.com/p18115-hinson-fsc-clutch-plate-kit) | high |
@@ -84,6 +91,7 @@
 | Works Connection | Works Connection 6 Piece Kit | 70-615 |  |  | [source](https://www.worksconnection.com/p36354-ti-bolts) | high |
 | Pro Circuit | T-6 Exhaust System CRF150R / RB Expert | 0111415G | Full exhaust replacement. |  | [source](None) |  |
 | Pro Circuit | CRF150R T-6 Stainless Slip-On and Ti-6 Pro system | 0111415A, 0311415FP | Muffler / full system. |  | [source](None) |  |
+| P3 Carbon | P3 Carbon Heat Shield | 205011 |  |  | [source](https://p3carbon.com/products/p3-carbon-heat-shield-honda-crf125-2019-2025/) | medium |
 | Works Connection | Works Connection Skid Plate | 10-008 |  |  | [source](https://www.worksconnection.com/p36294-skid-plate) | high |
 | Works Connection | Works Connection Engine Guards - Pair | 23-008 |  |  | [source](https://www.worksconnection.com/p18075-engine-guards) | high |
 | Works Connection | Works Connection Rear Caliper Guard | 25-014 |  |  | [source](https://www.worksconnection.com/p18135-rear-caliper-guards) | high |

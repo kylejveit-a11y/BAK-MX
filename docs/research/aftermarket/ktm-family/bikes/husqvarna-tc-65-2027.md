@@ -1,6 +1,6 @@
 # Husqvarna TC 65 2027: aftermarket parts
 
-1054 listings whose stated fitment names this bike: 130 researched parts (with what they change and rider findings), 1 dealer and retailer listings specific to this bike, and 923 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1058 listings whose stated fitment names this bike: 134 researched parts (with what they change and rider findings), 1 dealer and retailer listings specific to this bike, and 923 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -70,6 +70,7 @@
 | Works Connection | Works Connection Clutch Cover - Billet | 21-P095 |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-P095ENG |  |  | [source](https://www.worksconnection.com/p35398-clutch-caps) | high |
 | Works Connection | Works Connection Brake Cap-Rear | 21-P774 |  |  | [source](https://www.worksconnection.com/p35399-brake-caps-rear) | high |
+| Ride Engineering | Ride Engineering GAS 2-STROKE & TACH/HOUR METER WITH BRACKET | MX-HM000-BK |  |  | [source](https://ride-engineering.com/KTMHUSQGAS-2-STROKE-YAM-TACHHOUR-METER-WITH-BRACKET_p_1771.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -84,6 +85,8 @@
 | Works Connection | Works Connection Pro Launch Kit | 12-K711 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
 | Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch Kit | 12-P711 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 22 mm, orange | 40504009 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40504009) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 22 mm, black | 40704008 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40704008) | high |
 | Works Connection | Works Connection Elite Throttle Tube | 22-500 |  |  | [source](https://www.worksconnection.com/p52075-throttle-tube-elite) | high |
 | Works Connection | Works Connection Rotating Bar Clamp | 31-100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
 | Works Connection | Works Connection Rotating Bar Clamp | 31-200 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
@@ -133,6 +136,7 @@
 | WP SUSPENSION (KTM/Husqvarna/GasGas genuine) | WP Front Fork Fluid SAE 4 (5 L) | 48601166S1 | Factory-specified damping oil for WP XACT / XACT AER forks; the manual part number for fork refills. | Sold in 5 L only at these dealers. Fill amounts differ by bike and year (see fluid_specs). Lings price is GBP 91.86. | [source](https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240038_en_BA.pdf) | high |
 | WP SUSPENSION (KTM/Husqvarna/GasGas genuine) | WP Shock Absorber Fluid SAE 2.5 (5 L) | 50180751S1 | Factory-specified damping oil for WP XACT shocks. | Owner's manuals do not state a shock oil quantity (2026-2027 small-bike manuals say fill to the maximum mark). | [source](https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240038_en_BA.pdf) | high |
 | KTM PowerParts | Radiator Protection | A46035036044AB, A46035036044XX | Radiator guard. | The 'XX' suffix is an AOMC URL placeholder; actual colour-suffix numbers are not captured. | [AOMC (US)](https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html) | unverified |
+| P3 Carbon | P3 Carbon Pipe Guard | 101023 |  |  | [source](https://p3carbon.com/products/p3-carbon-pipe-guard-ktm-65sx-husq-tc65-gasgas-mc65-2024-2026/) | medium |
 | Works Connection | Works Connection Fork Guard Reinforcing Kit | 12-196 |  |  | [source](https://www.worksconnection.com/p1457836-fork-guard-reinforcing-kit) | high |
 | Lainer Suspension | MINIPRO Cartridge-2 - WP AER 35 (65 cc, 2026-2027) | MINIPRO_2026_AER35 | Replaces the hydraulic side while keeping the air spring; full compression/rebound adjustment and better hydraulic bottoming. | Only upgrade found so far for the 2026-2027 65cc fork. | [source](https://lainersuspensionusa.com/shop/ktm-husqvarna-gasgas-upgrades/minipro-cartridge-2-wp-aer-35-sx65-tc65-mc65-2026-2027/) | medium |
 | WP / KTM PowerParts | WP Factory Racing Front Wheel 1.6x21" and Rear Wheel 2.15x19" (black) | A46009901544C1A, A46010901544C1A | Factory-spec wheel set (see the orange wheel record for claims). | From AOMC related-product titles only; product pages not fetched. | [AOMC (US), front](https://aomc.mx/KTM-Factory-Front-Wheel-16-x-21-125-500-16-24-A4600990104404.html) | unverified |

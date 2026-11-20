@@ -1,6 +1,6 @@
 # Yamaha YZ125 2027: aftermarket parts
 
-3292 listings whose stated fitment names this bike: 381 researched parts (with what they change and rider findings), 265 dealer and retailer listings specific to this bike, and 2646 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3343 listings whose stated fitment names this bike: 432 researched parts (with what they change and rider findings), 265 dealer and retailer listings specific to this bike, and 2646 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -121,6 +121,21 @@
 | Rekluse | Rekluse Left Hand Rear Brake Kit Yamaha / Fantic 125cc-450cc 2009-2027 | RMS-5300004 |  |  | [source](https://www.cyclegear.com/parts/rekluse-left-hand-rear-brake-kit-yamaha-125cc-450cc-2009-2021) | medium |
 | Renthal | Renthal RC-1 Works Front Brake Pads Yamaha / Fantic 125cc-450cc 2008-2027 | BP-106/BP106 |  |  | [source](https://www.cyclegear.com/parts/renthal-rc-1-works-front-brake-pads-yamaha-125cc-450cc-2008-2024) | medium |
 | Renthal | Renthal RC-1 Works Rear Brake Pads BP-104 | BP-104 |  |  | [source](https://www.cyclegear.com/parts/renthal-rc-1-works-rear-brake-pads-bp-104) | medium |
+| Ride Engineering | Ride Engineering Braided Steel Brake Line Black | BL-01212-BK |  |  | [source](https://ride-engineering.com/Hon19KawiSuzYamBeta-Braided-Steel-Brake-Line-Black_p_1487.html) | medium |
+| Ride Engineering | Ride Engineering Braided Steel Brake Line Clear | BL-01212-CL |  |  | [source](https://ride-engineering.com/Hon19KawSuzYamBeta-Braided-Steel-Brake-Line-Clear_p_1488.html) | medium |
+| Ride Engineering | Ride Engineering Braided Steel Rear Brake Line Black | BL-Y2012-BK |  |  | [source](https://ride-engineering.com/2021-Yamaha-Braided-Steel-Rear-Brake-Line-Black_p_2142.html) | medium |
+| Ride Engineering | Ride Engineering Braided Steel Rear Brake Line Clear | BL-Y2012-CL |  |  | [source](https://ride-engineering.com/2021-Yamaha-Braided-Steel-Rear-Brake-Line-Clear-_p_1997.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp Black | CR-BLC00-BA |  |  | [source](https://ride-engineering.com/CRYZ-Brake-Line-Clamp-Black_p_1524.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp BLUE | CR-BLC00-MB |  |  | [source](https://ride-engineering.com/CRYZ-Brake-Line-Clamp-BLUE_p_1525.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp RED | CR-BLC00-RA |  |  | [source](https://ride-engineering.com/CRYZ-Brake-Line-Clamp-RED_p_1526.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Black | MX-BC000-BA |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Black_p_1732.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Silver | MX-BC000-CA |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Silver_p_1733.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Brown | MX-BC000-WN |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Brown_p_2054.html) | medium |
+| Ride Engineering | Ride Engineering Billet Rear Brake Clevis-BLACK | MX-BC006-BA |  |  | [source](https://ride-engineering.com/YamahaSuzuki-Billet-Rear-Brake-Clevis-BLACK-_p_2132.html) | medium |
+| Ride Engineering | Ride Engineering Billet Rear Brake Clevis | MX-BC006-MB |  |  | [source](https://ride-engineering.com/YamahaSuzuki-Billet-Rear-Brake-Clevis_p_1734.html) | medium |
+| Ride Engineering | Ride Engineering 270mm Pulse Rotor Kit-Yamaha | YZ-00270-KT |  |  | [source](https://ride-engineering.com/270mm-Pulse-Rotor-Kit-Yamaha_p_1902.html) | medium |
+| Ride Engineering | Ride Engineering 270mm Hanger Bracket-Yamaha | YZ-HB270-BA |  |  | [source](https://ride-engineering.com/270mm-Hanger-Bracket-Yamaha_p_1926.html) | medium |
+| Ride Engineering | Ride Engineering 270mm Pulse Rotor-Yamaha | YZ-R0270-SS |  |  | [source](https://ride-engineering.com/270mm-Pulse-Rotor-Yamaha_p_1937.html) | medium |
 | TM Designworks | TM Designworks Factory Edition #2 Rear Chain Guide Replacement Wear Pad Honda / Kawasaki / Suzuki / Yamaha / Fantic 125c | RCG-JBC-WP, RCG-KX3-WP |  |  | [source](https://www.cyclegear.com/parts/tm-designworks-chain-guide-replacement-wear-pad-honda-kawasaki-suzuki-yamaha-125cc-450cc-1997-2021) | medium |
 | Works Connection | Works Connection Front Brake Reservoir Cover Yamaha / Fantic 125cc-450cc 2007-2027 | 21-031, 21036/21-036 |  |  | [source](https://www.cyclegear.com/parts/works-connection-front-brake-reservoir-cover-yamaha-125cc-450cc-2007-2024) | medium |
 | Works Connection | Works Connection Rear Brake Reservoir Cover Yamaha / Fantic / Kawasaki 125cc-450cc 2003-2027 | 21-700, 21-718, 21705/21-705 |  |  | [source](https://www.cyclegear.com/parts/works-connection-rear-brake-reservoir-cover-yamaha-kawasaki-125cc-450cc-2003-2024) | medium |
@@ -155,6 +170,26 @@
 | Moose Racing | Moose Racing Steering Stem Nut Yamaha 125cc-450cc 1994-2027 | C23-4244L |  |  | [source](https://www.cyclegear.com/parts/moose-racing-steering-stem-nut-yamaha-125cc-450cc-1994-2022) | medium |
 | Pivot Works | Pivot Works Steering Stem Bearing Kit Yamaha 125cc-450cc 1998-2027 | PWSSK-Y05-421 | Seller description: Elevate the performance of your motorcycle with a high-quality steering stem bearing replacement from Pivot Works. This product delivers the assurance of OEM quality, ensuring a sm |  | [source](https://www.cyclegear.com/parts/pivot-works-steering-stem-bearing-kit-yamaha-125cc-450cc-1998-2025) | medium |
 | Pivot Works | Pivot Works Swingarm Bearing Kit Yamaha YZ125 2005-2027 | PWSAK-Y24-421 |  |  | [source](https://www.cyclegear.com/parts/pivot-works-swingarm-bearing-kit-yamaha-yz125-2005-2022) | medium |
+| Ride Engineering | Ride Engineering One-Piece Bar Mount for Stock Triple Clamps | AF-BBM00-CA |  |  | [source](https://ride-engineering.com/One-Piece-Bar-Mount-for-Stock-Yamaha-Triple-Clamps-YZF-06-13-YZ125250-06_p_1481.html) | medium |
+| Ride Engineering | Ride Engineering Nissin 11mm Front Master Cylinder Assembly - Red | MX-CRM11-RA |  |  | [source](https://ride-engineering.com/Nissin-11mm-Front-Master-Cylinder-Assembly--Red_p_2070.html) | medium |
+| Ride Engineering | Ride Engineering WP Damper spacers for 7mm bolts (1 pair) | MX-SP007-SS |  |  | [source](https://ride-engineering.com/WP-Damper-spacers-for-7mm-bolts-1-pair_p_2057.html) | medium |
+| Ride Engineering | Ride Engineering Bolt Kit required for Plus 10mm Spacers | YZ-76225-KT |  |  | [source](https://ride-engineering.com/Bolt-Kit-required-for-Plus-10mm-Spacers_p_1906.html) | medium |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover | YZ-MCC0F-MB |  |  | [source](https://ride-engineering.com/Yamaha-Front-Master-Cylinder-Cover_p_1931.html) | medium |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover (RED) | YZ-MCC0F-RA |  |  | [source](https://ride-engineering.com/Yamaha-Front-Master-Cylinder-Cover-RED_p_1932.html) | medium |
+| Ride Engineering | Ride Engineering Rear Master Cylinder Cover | YZ-MCC0R-MB |  |  | [source](https://ride-engineering.com/YamahaKawiBeta-Rear-Master-Cylinder-Cover_p_1933.html) | medium |
+| Ride Engineering | Ride Engineering Rear Master Cylinder Cover | YZ-MCC0R-RA |  |  | [source](https://ride-engineering.com/YamahaKawiBeta-Rear-Master-Cylinder-Cover_p_1934.html) | medium |
+| Ride Engineering | Ride Engineering Reversible Axle Blocks 22mm Axle, Black | YZ-RAB00-BA |  |  | [source](https://ride-engineering.com/Reversible-Yamaha-Axle-Blocks-22mm-Axle-Black_p_2121.html) | medium |
+| Ride Engineering | Ride Engineering Reversible Axle Blocks 22mm Axle, Blue | YZ-RAB00-MB |  |  | [source](https://ride-engineering.com/Reversible-Yamaha-Axle-Blocks-22mm-Axle-Blue_p_1938.html) | medium |
+| Ride Engineering | Ride Engineering Reversable axle blocks, 22mm Axle Red | YZ-RAB00-RA |  |  | [source](https://ride-engineering.com/Reversable-Yamaha-axle-blocks-22mm-Axle-Red_p_1939.html) | medium |
+| Ride Engineering | Ride Engineering Steering Head Stabilizer Bracket | YZ-SHSB0-00 |  |  | [source](https://ride-engineering.com/14-Steering-Head-Stabilizer-Bracket-for-YZYZF-_p_1943.html) | medium |
+| Ride Engineering | Ride Engineering Stem Nut & Washer | YZ-SN000-BA |  |  | [source](https://ride-engineering.com/Yamaha-and-Suzuki-Stem-Nut-Washer_p_1992.html) | medium |
+| Ride Engineering | Ride Engineering 22MM Offset Split Triple Clamp Set-Full Rubber Mount Design, BLUE | YZ-TBN12-MB |  |  | [source](https://ride-engineering.com/Ride-Eng-22MM-Offset-YZ125-Split-Triple-Clamp-Set-Full-Rubber-Mount-Design-BLUE_p_1990.html) | medium |
+| Ride Engineering | Ride Engineering 23.5MM Offset Split Triple Clamp Set-Full Rubber Mount Design, Black | YZ-TBN13-BA |  |  | [source](https://ride-engineering.com/235MM-Offset-YZ125-Split-Triple-Clamp-Set-Full-Rubber-Mount-Design-Black_p_2136.html) | medium |
+| Ride Engineering | Ride Engineering 23.5MM Offset Split Triple Clamp Set-Full Rubber Mount Design, Limited Edition Purple | YZ-TBN13-PP |  |  | [source](https://ride-engineering.com/235MM-Offset-YZ125-Split-Triple-Clamp-Set-Full-Rubber-Mount-Design-Limited-Edition-Purple_p_2028.html) | medium |
+| Ride Engineering | Ride Engineering Axle Rear Wheel Spacers | YZ-WS00R-MB |  |  | [source](https://ride-engineering.com/Yamaha-22mm-Axle-Rear-Wheel-Spacers_p_1963.html) | medium |
+| Ride Engineering | Ride Engineering Axle Rear Wheel Spacers, red | YZ-WS00R-RA |  |  | [source](https://ride-engineering.com/Yamaha-22mm-Axle-Rear-Wheel-Spacers-red_p_1964.html) | medium |
+| Ride Engineering | Ride Engineering Front Wheel Spacers, Small Axle | YZ-WS07F-MB |  |  | [source](https://ride-engineering.com/Yamaha-Front-Wheel-Spacers-Small-Axle_p_1965.html) | medium |
+| Ride Engineering | Ride Engineering Front Wheel Spacers, Small Axle, Red | YZ-WS07F-RA |  |  | [source](https://ride-engineering.com/Yamaha-Front-Wheel-Spacers-Small-Axle-Red_p_1966.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -177,6 +212,11 @@
 | Works Connection | Works Connection Elite Axle Blocks | 17-K265 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
 | Works Connection | Works Connection Elite Axle Blocks | 17-P266 |  |  | [source](https://www.worksconnection.com/p126071-elite-axle-blocks) | high |
 | Works Connection | Works Connection Titanium Axle Adjuster Bolts | 70-630 |  |  | [source](https://www.worksconnection.com/p104037-titanium-axle-adjuster-bolts) | high |
+| Xtrig | Xtrig ROCS pro triple clamps, offset 23-25 mm | 40201007 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40201007) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 25 mm, blue | 40201011 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40201011) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 25 mm | 40201022 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40201022) | high |
+| Xtrig | Xtrig Holeshot Kit 54mm | 70100003 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100003) | high |
+| Xtrig | Xtrig HiLo Holeshot Kit 54mm | 70100012 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100012) | high |
 | Zeta | Zeta Steering Stem Nut Suzuki RM / RMZ / Yamaha WR / YZ / YZ-F / YZ-X | ZE58-2223, ZE58-2222 |  |  | [source](https://www.cyclegear.com/parts/zeta-steering-stem-nut-suzuki-rm-rmz-yamaha-wr-yz-yz-f-yz-x) | medium |
 | Zeta | Zeta Steering Stem Nut Suzuki RM / RMZ / Yamaha WR / YZ / YZ-F / YZ-X | ZE58-2222, ZE58-2223 |  |  | [source](https://www.cyclegear.com/parts/zeta-steering-stem-nut-suzuki-rm-rmz-yamaha-wr-yz-yz-f-yz-x) | medium |
 | Barnett | Barnett Clutch Basket Yamaha YZ125 2005-2027 | 321-90-01033 |  |  | [source](https://www.cyclegear.com/parts/barnett-clutch-basket-yamaha-yz125-2005-2022) | medium |
@@ -227,6 +267,7 @@
 | Puig | Puig Off Road Clutch Lever Yamaha 65cc-450cc 2009-2027 | 20010N |  |  | [source](https://www.cyclegear.com/parts/puig-off-road-clutch-lever-yamaha-65cc-450cc-2009-2024) | medium |
 | Puig | Puig Off-Road Footpegs Yamaha WR / YZ 125 / 250 / 450 1999-2027 | 20559A, 20559N |  |  | [source](https://www.cyclegear.com/parts/puig-off-road-footpegs-yamaha-wr-yz-125-250-450-1999-2022) | medium |
 | Raptor | Raptor Titanium Footpegs Yamaha YZ / YZF / FX 125cc-450cc 1999-2027 | RX003 |  |  | [source](https://www.cyclegear.com/parts/raptor-titanium-footpegs-yamaha-yz-yzf-fx-125cc-450cc-1999-2023) | medium |
+| Ride Engineering | Ride Engineering AF Bar Mount Bolt Kit | YZ-76175-KT |  |  | [source](https://ride-engineering.com/AF-Bar-Mount-Bolt-Kit_p_1905.html) | medium |
 | Works Connection | Works Connection Aluminum Offset Foot Peg Mounts - Yamaha Aluminum | 20-513 |  |  | [source](https://www.worksconnection.com/p1700908-foot-peg-mounts-offset) | high |
 | Works Connection | Works Connection Rotating Bar Clamp | 31-100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
 | Works Connection | Works Connection Rotating Bar Clamp | 31-200 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
@@ -319,6 +360,13 @@
 | Moose Racing | Moose Racing Radiator Guards Yamaha YZ125 / YZ125X 2002-2027 | 12-5002 |  |  | [source](https://www.cyclegear.com/parts/moose-racing-radiator-guards-yamaha-yz125-yz125x-2002-2022) | medium |
 | Moose Racing | Moose Racing Rear Rotor Guard Yamaha 125cc-450cc | B06-4301L |  |  | [source](https://www.cyclegear.com/parts/moose-racing-rear-rotor-guard-yamaha-125cc-450cc) | medium |
 | P3 | P3 Carbon Fiber Skid Plate Yamaha YZ125 / YZ125X | 307041 |  |  | [source](https://www.cyclegear.com/parts/p3-carbon-fiber-skid-plate-yamaha-yz125-yz125x) | medium |
+| P3 Carbon | P3 Carbon Pipe Guard | 107043 |  |  | [source](https://p3carbon.com/products/p3-carbon-pipe-guard-yamaha-yz125-yz125x-2022-2026/) | medium |
+| P3 Carbon | P3 Carbon FMF Pipe Guard | 107044-FMF |  |  | [source](https://p3carbon.com/products/p3-carbon-fmf-pipe-guard-yamaha-yz125-2022-2027-yamaha-yz125x-2023-2027-fmf/) | medium |
+| P3 Carbon | P3 Carbon Skid Plate | 307041-BLK |  |  | [source](https://p3carbon.com/products/p3-skid-plate-yamaha-yz125-2019-2026-yz125x-2020-2026/) | medium |
+| P3 Carbon | P3 Carbon Front Brake Guard / (X) & (X) | 517002 |  |  | [source](https://p3carbon.com/products/p3-front-brake-guard-yz125-250x-yz250-450fx-2008-2027/) | medium |
+| P3 Carbon | P3 Carbon Rear Master Cylinder Guard | 707021 |  |  | [source](https://p3carbon.com/products/p3-rear-pump-protection-yamaha-yz250f-yz450f-yz125-wr450f-wr250-f-2006-2026-see-fitment-tab/) | medium |
+| P3 Carbon | P3 Carbon Grip Guards Frame Protectors | 747040-BLK |  |  | [source](https://p3carbon.com/products/p3-grip-guards-frame-protectors-yamaha-yz125-yz250-2005-2019-yz250x-2016-2026/) | medium |
+| P3 Carbon | P3 Carbon Frame Guards | 747075 |  |  | [source](https://p3carbon.com/products/p3-carbon-fiber-frame-guards-yamaha-2006-2027-yz125x-yz250x/) | medium |
 | Polisport | Polisport Bottom Fork Protectors Fantic XE300 / Yamaha 125cc-450cc | 8151700001, 8151700002, 8151700003 |  |  | [source](https://www.cyclegear.com/parts/polisport-bottom-fork-protectors-yamaha-125cc-450cc) | medium |
 | Polisport | Polisport Fork Guards Yamaha YZ250F / FX / YZ450F / FX 2010-2027 / YZ125 / X / YZ250 / X 2015-2027 | 8352000001, 8352000002, 8352000003, 8352000007 |  |  | [source](https://www.cyclegear.com/parts/polisport-fork-guards-yamaha-yz250f-fx-yz450f-fx-2010-2022-yz125-x-yz250-x-2015-2022) | medium |
 | Polisport | Polisport Frame Protectors Fantic XE300 / Yamaha 125cc-250cc 2005-2027 | 8466700001, 8466700002 |  |  | [source](https://www.cyclegear.com/parts/polisport-frame-protectors-fantic-xe300-yamaha-125cc-250cc-2005-2026) | medium |
@@ -351,8 +399,11 @@
 | Pivot Works | Pivot Works Steering Stem Bearing Kit Yamaha 125cc-450cc 1998-2027 | PWSSK-Y05-421 |  |  | [source](https://www.cyclegear.com/parts/pivot-works-steering-stem-bearing-kit-yamaha-125cc-450cc-1998-2025) | medium |
 | Pivot Works | Pivot Works Swingarm Bearing Kit Yamaha YZ125 2005-2027 | PWSAK-Y24-421 |  |  | [source](https://www.cyclegear.com/parts/pivot-works-swingarm-bearing-kit-yamaha-yz125-2005-2022) | medium |
 | Pro X | Pro X Crankshaft Bearing And Seal Kit Yamaha YZ125 / YZ125X 2005-2027 | 23.CBS22005 |  |  | [source](https://www.cyclegear.com/parts/pro-x-crankshaft-bearing-and-seal-kit-yamaha-yz125-yz125x-2005-2022) | medium |
+| Ride Engineering | Ride Engineering Performance/Lowering Link | YZ-LKA45-BA |  |  | [source](https://ride-engineering.com/YZ125250-PerformanceLowering-Link_p_1928.html) | medium |
+| Ride Engineering | Ride Engineering Performance/Lowering Link - Blue | YZ-LKA45-MB |  |  | [source](https://ride-engineering.com/YZ125250-PerformanceLowering-Link--Blue_p_1929.html) | medium |
 | Vertex | Vertex Complete Gasket Set With Oil Seals YZ125 / YZ125X 2022-2027 | 8110054 |  |  | [source](https://www.cyclegear.com/parts/vertex-complete-gasket-set-with-oil-seals-yz125-yz125x-2022-2023) | medium |
 | XTrig | XTrig Rocs Tech Triple Clamps Yamaha YZ125 / YZ125X 2006-2027 | 501330801201 |  |  | [source](https://www.cyclegear.com/parts/xtrig-rocs-tech-triple-clamps-yamaha-yz125-yz125x-2006-2022) | medium |
+| Xtrig | Xtrig Shock preload adjuster | 10200002 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/10200002) | high |
 | Zeta | Zeta Lowering Link Yamaha 125cc-250cc 2006-2027 | ZE56-05616 |  |  | [source](https://www.cyclegear.com/parts/zeta-lowering-link-yamaha-125cc-250cc-2006-2022) | medium |
 | Zeta | Zeta Preload Adjuster Honda / Kawasaki / Suzuki / Yamaha 125cc-450cc | ZE56-13026 |  |  | [source](https://www.cyclegear.com/parts/zeta-preload-adjuster-honda-kawasaki-suzuki-yamaha-125cc-450cc) | medium |
 | Excel | Excel A60 Rear Rim KTM / Yamaha / Suzuki 125cc-525cc 1991-2027 | FEK622, GDK622, GEK622 |  |  | [source](https://www.cyclegear.com/parts/excel-a60-rear-rim-ktm-yamaha-suzuki-125cc-525cc-1991-2015) | medium |

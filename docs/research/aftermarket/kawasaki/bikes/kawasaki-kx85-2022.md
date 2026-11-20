@@ -1,6 +1,6 @@
 # Kawasaki KX85 2022: aftermarket parts
 
-1317 listings whose stated fitment names this bike: 212 researched parts (with what they change and rider findings), 166 dealer and retailer listings specific to this bike, and 939 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1328 listings whose stated fitment names this bike: 223 researched parts (with what they change and rider findings), 166 dealer and retailer listings specific to this bike, and 939 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -70,6 +70,10 @@
 | Moto-Master | Moto Master Flame 260mm Floating Front Rotor Kawasaki KX85 / KX100 / KX112 2001-2025 | 112255-PU | Replacement brake rotor. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moto-master-flame-260mm-floating-front-rotor-kawasaki-kx85-kx100-kx112-2001-2024) | medium |
 | Moto-Master | Moto Master Flame Fixed Rear Rotor Kawasaki KX85 / KX100 / KX112 2001-2025 | 110214-PU | Replacement brake rotor. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moto-master-flame-fixed-rear-rotor-kawasaki-kx85-kx100-kx112-2001-2023) | medium |
 | Moto-Master | Moto Master Flame Fixed Front Rotor Kawasaki KX85 / KX100 / KX112 2001-2025 | 110238-PU | Replacement brake rotor. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moto-master-flame-front-rotor-kawasaki-kx85-kx100-kx112-2001-2023) | medium |
+| Ride Engineering | Ride Engineering Mini Direct Route Braided Steel Brake Line | BL-M0012-CL |  |  | [source](https://ride-engineering.com/YZKX-Mini-Direct-Route-Braided-Steel-Brake-Line_p_1501.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp (BLACK) | RX-BLC00-BA |  |  | [source](https://ride-engineering.com/RM-KX-Brake-Line-Clamp-BLACK_p_1863.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp - Green | RX-BLC00-GN |  |  | [source](https://ride-engineering.com/KX-Brake-Line-Clamp--Green_p_1864.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp (BLUE) | RX-BLC00-MB |  |  | [source](https://ride-engineering.com/RM-KX-Brake-Line-Clamp-BLUE_p_1865.html) | medium |
 | Works Connection | Works Connection Brake Cap-Front | 21-020 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-020ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Brake Cap-Front | 21-025 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
@@ -90,6 +94,8 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-120 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-125 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-126 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover | MX-MCC0F-GN |  |  | [source](https://ride-engineering.com/Kawasaki-Front-Master-Cylinder-Cover_p_1782.html) | medium |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover | MX-MCC0F-MB |  |  | [source](https://ride-engineering.com/YamahaKawasakiSuzuki-Front-Master-Cylinder-Cover_p_1783.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -104,6 +110,10 @@
 | Works Connection | Works Connection Pro Launch Kit | 12-K302 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
 | Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch Kit | 12-P302 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 25 mm, brown | 40304001 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40304001) | high |
+| Xtrig | Xtrig Top triple clamp, offset 25 mm | 40305002 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40305002) | high |
+| Xtrig | Xtrig Holeshot Kit 45mm | 70100000 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100000) | high |
+| Xtrig | Xtrig HiLo Holeshot Kit 45mm | 70100010 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/70100010) | high |
 | Barnett | Barnett Clutch Basket Kawasaki KX80 / 85 / 100 1998-2027 | 321-45-01002 | Billet clutch basket replacing the stock basket. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/barnett-clutch-basket-kawasaki-kx80-85-100-1998-2022) | medium |
 | Boyesen | Boyesen Factory Racing clutch cover CC-10x (KX85, KX112) | CC-10B, CC-10L, CC-10M | Aftermarket clutch cover; Boyesen includes one gasket. | Fitment built from Boyesen's per-year product pages; some years are missing for some models (e.g. a model listed to 2023 or 2025 only), which may be a catalog g | [source](https://boyesen.com/mx-offroad-mini/factory-racing-hard-parts/2020-kawasaki-kx-100/factory-racing-clutch-cover-cc-10b) | high |
 | Hinson | Hinson Billetproof Clutch Basket Kawasaki KX80 / KX85 / KX100 / KX112 1998-2027 | H068 | Billet clutch basket replacing the stock basket. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/hinson-billetproof-clutch-basket-kawasaki-kx80-kx85-kx100-kx112-1998-2022) | medium |
@@ -204,6 +214,7 @@
 | Motul | Motul RBF 600 Factory Line | 100949 | Synthetic racing brake fluid, high boiling point. | Motul's US shop lists no bike fitment | [source](https://shopusa.motul.com/products/motul-rbf-600-factory-line) | unverified |
 | Moose Racing | Moose Racing Pro Skid Plate Kawasaki KX85 2006-2027 | PX1057 | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moose-racing-pro-skid-plate-kawasaki-kx85-2006-2015) | medium |
 | Moose Racing | Moose Racing Skid Plate Kawasaki KX80 / KX85 / KX100 / KX112 / Suzuki RM100 1997-2027 | 220 | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moose-racing-skid-plate-kawasaki-kx80-kx85-kx100-kx112-suzuki-rm100-1997-2022) | medium |
+| P3 Carbon | P3 Carbon Grip Guards Frame Protectors | 746030-BLK |  |  | [source](https://p3carbon.com/products/p3-grip-guards-frame-protectors-kx85-100-2005-2026/) | medium |
 | TM Designworks | TM Designworks Full Coverage Skid Plate Kawasaki KX85 / KX100 / KX112 2004-2027 | KXMC-085-BK | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/tm-designworks-full-coverage-skid-plate-kawasaki-kx85-kx100-kx112-2004-2022) | medium |
 | Works Connection | Works Connection Frame Guards Kawasaki KX85 / KX100 / KX112 2014-2027 | 15-109 | Frame protection guards. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/works-connection-frame-guards-kawasaki-kx85-kx100-kx112-2014-2022) | medium |
 | Works Connection | Works Connection MX Skid Plate Kawasaki KX85 / KX112 2022-2027 | 10-110 | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/works-connection-mx-skid-plate-kawasaki-kx85-kx112-2022-2023) | medium |

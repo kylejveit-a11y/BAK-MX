@@ -5,8 +5,10 @@
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
 | Works Connection | 1395 | engine (364), chassis (357), clutch (216), brakes (209), protection (136), controls (66) | Cycle Gear 34, research 1361 |
+| Ride Engineering | 349 | chassis (219), brakes (53), suspension (46), controls (17), engine (6), clutch (6) | Cycle Gear 2, research 347 |
 | Moose Racing | 274 | Uncategorised (117), protection (33), Handlebars & Controls (27), controls (16), Suspension (12), UTV / ATV Parts (10) | Cycle Gear 207, research 67 |
 | FMF | 243 | exhaust (185), Exhaust (56), Uncategorised (2) | Cycle Gear 58, research 185 |
+| P3 Carbon | 233 | protection (233) | research 233 |
 | Pro Circuit | 203 | engine (69), exhaust (65), Exhaust (25), suspension (16), Uncategorised (8), controls (6) | Cycle Gear 37, research 166 |
 | Renthal | 186 | Uncategorised (49), gearing (45), Handlebars & Controls (36), Chain & Sprocket (26), controls (24), Brakes (4) | Cycle Gear 117, research 69 |
 | Acerbis | 178 | Handlebars & Controls (66), Uncategorised (47), Bike Protection (23), Lighting (12), protection (10), Drive & Transmission (8) | Cycle Gear 168, research 10 |
@@ -15,9 +17,11 @@
 | Cycra | 133 | Handlebars & Controls (95), UTV / ATV Parts (16), Uncategorised (12), Bike Protection (7), protection (3) | Cycle Gear 130, research 3 |
 | RFX | 129 | Uncategorised (57), controls (21), Chain & Sprocket (13), Handlebars & Controls (12), Bike Protection (6), Air & Fuel (4) | Cycle Gear 102, research 27 |
 | Bolt Hardware | 128 | Uncategorised (104), Body & Fairing (10), Exhaust (8), Drive & Transmission (4), Chain & Sprocket (2) | Cycle Gear 128 |
+| Xtrig | 117 | chassis (84), suspension (32), controls (1) | research 117 |
 | ODI | 100 | Uncategorised (77), Handlebars & Controls (18), controls (3), UTV / ATV Parts (2) | Cycle Gear 97, research 3 |
 | Fire Power | 96 | Chain & Sprocket (29), Uncategorised (25), Handlebars & Controls (20), Batteries & Electrical (8), Gauges (8), gearing (2) | Cycle Gear 90, research 6 |
 | Vertex | 82 | engine (74), Uncategorised (8) | Cycle Gear 8, research 74 |
+| FCP Racing | 78 | chassis (78) | research 78 |
 | RK | 71 | Chain & Sprocket (69), gearing (2) | Cycle Gear 69, research 2 |
 | Helix Racing Products | 70 | Uncategorised (24), Exhaust (18), Air & Fuel (18), Batteries & Electrical (4), Filters (2), Body & Fairing (2) | Cycle Gear 70 |
 | Barkbusters | 69 | Handlebars & Controls (55), UTV / ATV Parts (12), Uncategorised (2) | Cycle Gear 69 |
@@ -40,7 +44,6 @@
 | Enduro Engineering | 39 | Handlebars & Controls (14), protection (8), Bike Protection (6), Uncategorised (4), UTV / ATV Parts (4), Exhaust (2) | Cycle Gear 30, research 9 |
 | Wiseco | 39 | engine (33), Uncategorised (6) | Cycle Gear 6, research 33 |
 | Koso | 38 | Gauges (30), Uncategorised (4), Lighting (4) | Cycle Gear 38 |
-| Ride Engineering | 38 | chassis (17), suspension (13), engine (6), Gauges (2) | Cycle Gear 2, research 36 |
 | BILT FACTORY | 37 | Uncategorised (18), Handlebars & Controls (8), Brakes (6), controls (3), Exhaust (2) | Cycle Gear 34, research 3 |
 | Pro X | 36 | Uncategorised (21), engine (8), clutch (4), Drive & Transmission (3) | Cycle Gear 24, research 12 |
 | REP Suspension (Research Engineering Performance) | 35 | suspension (31), chassis (4) | research 35 |
@@ -73,7 +76,6 @@
 | Excel | 20 | Uncategorised (16), wheels (4) | Cycle Gear 16, research 4 |
 | Maxima | 20 | oils (20) | research 20 |
 | Mika Metals | 20 | Handlebars & Controls (10), Chain & Sprocket (4), Uncategorised (4), controls (1), gearing (1) | Cycle Gear 18, research 2 |
-| Xtrig | 20 | suspension (12), chassis (8) | research 20 |
 | All Balls Racing | 19 | Suspension (9), Uncategorised (6), brakes (2), engine (1), engine (fuel system) (1) | Cycle Gear 15, research 4 |
 | Factory Connection | 19 | suspension (14), Suspension (5) | Cycle Gear 5, research 14 |
 | No Toil | 19 | Air & Fuel (10), Uncategorised (6), intake (3) | Cycle Gear 16, research 3 |
@@ -161,7 +163,6 @@
 | CP-Carrillo | 4 | engine (4) | research 4 |
 | Custom Dynamics | 4 | Lighting (4) | Cycle Gear 4 |
 | Doubletake | 4 | Uncategorised (4) | Cycle Gear 4 |
-| FCP Racing | 4 | chassis (4) | research 4 |
 | FCP Racing (Factory Chassis Parts) | 4 | chassis (4) | research 4 |
 | G2 Ergonomics | 4 | Handlebars & Controls (4) | Cycle Gear 4 |
 | Galfer (GBrakes) | 4 | brakes (4) | research 4 |
@@ -170,7 +171,6 @@
 | Kriega | 4 | Bike Protection (2), Uncategorised (2) | Cycle Gear 4 |
 | LeoVince | 4 | Exhaust (4) | Cycle Gear 4 |
 | Orbit | 4 | Chain & Sprocket (4) | Cycle Gear 4 |
-| P3 Carbon | 4 | protection (4) | research 4 |
 | Preston Petty | 4 | Uncategorised (4) | Cycle Gear 4 |
 | RAM Mounts | 4 | Uncategorised (4) | Cycle Gear 4 |
 | Rox Risers | 4 | UTV / ATV Parts (2), Handlebars & Controls (2) | Cycle Gear 4 |

@@ -1,11 +1,22 @@
 # Yamaha WR450F 2012: aftermarket parts
 
-1657 listings whose stated fitment names this bike: 82 researched parts (with what they change and rider findings), 324 dealer and retailer listings specific to this bike, and 1251 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1682 listings whose stated fitment names this bike: 107 researched parts (with what they change and rider findings), 324 dealer and retailer listings specific to this bike, and 1251 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| Ride Engineering | Ride Engineering Braided Steel Brake Line | BL-30312-CL |  |  | [source](https://ride-engineering.com/CRXWRFBeta-RR-Braided-Steel-Brake-Line_p_1494.html) | medium |
+| Ride Engineering | Ride Engineering Braided Steel Rear Brake Line Black | BL-Y4020-BK |  |  | [source](https://ride-engineering.com/2024-KX450-Yamaha-Braided-Steel-Rear-Brake-Line-Black_p_1504.html) | medium |
+| Ride Engineering | Ride Engineering Braided Steel Rear Brake Line Clear | BL-Y4020-CL |  |  | [source](https://ride-engineering.com/2024-KX450-Yamaha-Braided-Steel-Rear-Brake-Line-Clear_p_1505.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp Black | CR-BLC00-BA |  |  | [source](https://ride-engineering.com/CRYZ-Brake-Line-Clamp-Black_p_1524.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp BLUE | CR-BLC00-MB |  |  | [source](https://ride-engineering.com/CRYZ-Brake-Line-Clamp-BLUE_p_1525.html) | medium |
+| Ride Engineering | Ride Engineering Brake Line Clamp RED | CR-BLC00-RA |  |  | [source](https://ride-engineering.com/CRYZ-Brake-Line-Clamp-RED_p_1526.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Black | MX-BC000-BA |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Black_p_1732.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Silver | MX-BC000-CA |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Silver_p_1733.html) | medium |
+| Ride Engineering | Ride Engineering Billet Front Brake Caliper-Brown | MX-BC000-WN |  |  | [source](https://ride-engineering.com/Billet-Front-Brake-Caliper-Brown_p_2054.html) | medium |
+| Ride Engineering | Ride Engineering Billet Rear Brake Clevis-BLACK | MX-BC006-BA |  |  | [source](https://ride-engineering.com/YamahaSuzuki-Billet-Rear-Brake-Clevis-BLACK-_p_2132.html) | medium |
+| Ride Engineering | Ride Engineering Billet Rear Brake Clevis | MX-BC006-MB |  |  | [source](https://ride-engineering.com/YamahaSuzuki-Billet-Rear-Brake-Clevis_p_1734.html) | medium |
 | Works Connection | Works Connection Brake Cap-Front | 21-030 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Custom Engrave Number | 21-030ENG |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
 | Works Connection | Works Connection Brake Cap-Front | 21-035 |  |  | [source](https://www.worksconnection.com/p35397-brake-caps-front) | high |
@@ -30,6 +41,18 @@
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-100 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-105 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
 | Works Connection | Works Connection Brake Spring Return Kit by FasstCo | 36-106 |  |  | [source](https://www.worksconnection.com/p18061-brake-spring-return-kits) | high |
+| Ride Engineering | Ride Engineering One-Piece Bar Mount for Stock Triple Clamps | AF-BBM00-CA |  |  | [source](https://ride-engineering.com/One-Piece-Bar-Mount-for-Stock-Yamaha-Triple-Clamps-YZF-06-13-YZ125250-06_p_1481.html) | medium |
+| Ride Engineering | Ride Engineering Nissin 11mm Front Master Cylinder Assembly - Red | MX-CRM11-RA |  |  | [source](https://ride-engineering.com/Nissin-11mm-Front-Master-Cylinder-Assembly--Red_p_2070.html) | medium |
+| Ride Engineering | Ride Engineering Front Master Cylinder Cover | MX-MCC0F-MB |  |  | [source](https://ride-engineering.com/YamahaKawasakiSuzuki-Front-Master-Cylinder-Cover_p_1783.html) | medium |
+| Ride Engineering | Ride Engineering Rear Master Cylinder Cover | YZ-MCC0R-MB |  |  | [source](https://ride-engineering.com/YamahaKawiBeta-Rear-Master-Cylinder-Cover_p_1933.html) | medium |
+| Ride Engineering | Ride Engineering Rear Master Cylinder Cover | YZ-MCC0R-RA |  |  | [source](https://ride-engineering.com/YamahaKawiBeta-Rear-Master-Cylinder-Cover_p_1934.html) | medium |
+| Ride Engineering | Ride Engineering Stem Nut & Washer | YZ-SN000-BA |  |  | [source](https://ride-engineering.com/Yamaha-and-Suzuki-Stem-Nut-Washer_p_1992.html) | medium |
+| Ride Engineering | Ride Engineering 23.5MM Offset Split Triple Clamp Set-Full Rubber Mount Design, Black | YZ-TBN23-BA |  |  | [source](https://ride-engineering.com/235MM-Offset-YZ250-Split-Triple-Clamp-Set-Full-Rubber-Mount-Design-Black_p_2102.html) | medium |
+| Ride Engineering | Ride Engineering 23.5MM Offset Split Triple Clamp Set-Full Rubber Mount Design, Blue | YZ-TBN23-MB |  |  | [source](https://ride-engineering.com/235MM-Offset-YZ250-Split-Triple-Clamp-Set-Full-Rubber-Mount-Design-Blue-_p_2029.html) | medium |
+| Ride Engineering | Ride Engineering 23.5MM Offset Split Triple Clamp Set-Full Rubber Mount Design, Limited Edition Purple | YZ-TBN23-PP |  |  | [source](https://ride-engineering.com/235MM-Offset-YZ250-Split-Triple-Clamp-Set-Full-Rubber-Mount-Design-Limited-Edition-Purple_p_2037.html) | medium |
+| Ride Engineering | Ride Engineering 22MM Offset Split Triple Clamp Set-Full Rubber Mount Design, Blue | YZ-TBN24-MB |  |  | [source](https://ride-engineering.com/Ride-Eng-22MM-Offset-YZ250-Split-Triple-Clamp-Set-Full-Rubber-Mount-Design-Blue_p_1973.html) | medium |
+| Ride Engineering | Ride Engineering Axle Rear Wheel Spacers | YZ-WS00R-MB |  |  | [source](https://ride-engineering.com/Yamaha-22mm-Axle-Rear-Wheel-Spacers_p_1963.html) | medium |
+| Ride Engineering | Ride Engineering Axle Rear Wheel Spacers, red | YZ-WS00R-RA |  |  | [source](https://ride-engineering.com/Yamaha-22mm-Axle-Rear-Wheel-Spacers-red_p_1964.html) | medium |
 | Works Connection | Works Connection Body | 12-165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Mounting Screws (2) | 12-175 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
 | Works Connection | Works Connection Pro Launch - Replacement Washers (2) | 12-176 |  |  | [source](https://www.worksconnection.com/p120735-replacement-pro-launch-hardware) | high |
@@ -85,6 +108,8 @@
 | Works Connection | Works Connection Engine Plugs - 2 plugs in kit | 24-P551 |  |  | [source](https://www.worksconnection.com/p18082-engine-plugs) | high |
 | Works Connection | Works Connection Fuel Vent Cap | 26-200 |  |  | [source](https://www.worksconnection.com/p18097-fuel-vent-cap) | high |
 | Works Connection | Works Connection Tach/Hour Meter/Clock with Maintenance Timer | 37-200 |  |  | [source](https://www.worksconnection.com/p18160-tach-hour-meters) | high |
+| P3 Carbon | P3 Carbon Skid Plate | 307052-BLK |  |  | [source](https://p3carbon.com/products/p3-skid-plate-yamaha-wr450f-12-18-wr250f-15-19-450fx-16-18-250fx-15-19-wr250fk-2019/) | medium |
+| P3 Carbon | P3 Carbon Rear Master Cylinder Guard | 707021 |  |  | [source](https://p3carbon.com/products/p3-rear-pump-protection-yamaha-yz250f-yz450f-yz125-wr450f-wr250-f-2006-2026-see-fitment-tab/) | medium |
 | Works Connection | Works Connection Rear Master Cylinder Guard | 15-279 |  |  | [source](https://www.worksconnection.com/p18136-rear-master-cylinder-guards) | high |
 | Works Connection | Works Connection Rear Caliper Guard | 25-033 |  |  | [source](https://www.worksconnection.com/p18135-rear-caliper-guards) | high |
 | Works Connection | Works Connection Ti Bolt Kit-Rims Skid Plate (4 pcs) | 70-303 |  |  | [source](https://www.worksconnection.com/p36772-skid-plate-w-rims-system-titanium-bolt-kit) | high |

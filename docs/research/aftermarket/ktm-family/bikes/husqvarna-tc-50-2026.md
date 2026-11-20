@@ -1,6 +1,6 @@
 # Husqvarna TC 50 2026: aftermarket parts
 
-1097 listings whose stated fitment names this bike: 113 researched parts (with what they change and rider findings), 5 dealer and retailer listings specific to this bike, and 979 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1100 listings whose stated fitment names this bike: 116 researched parts (with what they change and rider findings), 5 dealer and retailer listings specific to this bike, and 979 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -70,6 +70,8 @@
 | Works Connection | Works Connection Pro Launch Kit | 12-K731 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
 | Works Connection | Works Connection Body | 12-P165 |  |  | [source](https://www.worksconnection.com/p1319032-body-only-red-kash-grey-purple-blue) | high |
 | Works Connection | Works Connection Pro Launch Kit | 12-P731 |  |  | [source](https://www.worksconnection.com/p1313203-pro-launch-kit) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 22 mm, orange | 40504008 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40504008) | high |
+| Xtrig | Xtrig ROCS tech triple clamps, offset 22 mm, black | 40704007 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/40704007) | high |
 | RFX | RFX Pro Aluminum Footpegs Husqvarna / KTM / Gas Gas 50cc-65cc | FXFR 50500 99RD, FXFR 50500 99OR, FXFR 50500 99BU | Aftermarket footpegs. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rfx-pro-aluminum-footpegs-husqvarna-ktm-gas-gas-50cc-65cc) | medium |
 | Works Connection | Works Connection Rotating Bar Clamp | 31-100 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
 | Works Connection | Works Connection Rotating Bar Clamp | 31-200 |  |  | [source](https://www.worksconnection.com/p18139-rotating-bar-clamps) | high |
@@ -118,6 +120,7 @@
 | WP SUSPENSION (KTM/Husqvarna/GasGas genuine) | WP Shock Absorber Fluid SAE 2.5 (5 L) | 50180751S1 | Factory-specified damping oil for WP XACT shocks. | Owner's manuals do not state a shock oil quantity (2026-2027 small-bike manuals say fill to the maximum mark). | [source](https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240038_en_BA.pdf) | high |
 | KTM PowerParts | Radiator Protection | A46035036044AB, A46035036044XX | Radiator guard. | The 'XX' suffix is an AOMC URL placeholder; actual colour-suffix numbers are not captured. | [AOMC (US)](https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html) | unverified |
 | P3 | P3 Carbon Fiber Skid Plate KTM / Husqvarna / Gas Gas 50cc | 301011 | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/p3-carbon-fiber-skid-plate-ktm-husqvarna-gas-gas-50cc) | medium |
+| P3 Carbon | P3 Carbon Pipe Guard | 101022 |  |  | [source](https://p3carbon.com/products/p3-carbon-pipe-guard-ktm-sx-50-husq-tc-50-gasgas-mc-50-2024-2026/) | medium |
 | WP / KTM PowerParts | WP Factory Racing Front Wheel 1.6x21" and Rear Wheel 2.15x19" (black) | A46009901544C1A, A46010901544C1A | Factory-spec wheel set (see the orange wheel record for claims). | From AOMC related-product titles only; product pages not fetched. | [AOMC (US), front](https://aomc.mx/KTM-Factory-Front-Wheel-16-x-21-125-500-16-24-A4600990104404.html) | unverified |
 
 ## Dealer and retailer listings for this bike
