@@ -123,3 +123,19 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
   tuner-proprietary), not the agent plumbing.
 - Race Tech's Motorcycle Suspension Bible: a book in print and under copyright. No free legal copy; not fetched. If Kyle buys
   a copy and supplies it, read it for the ideas and methods in our own words (facts only, text not stored).
+
+## Suzuki RM-Z from public sources only (Kyle, 2026-11-20) — ACTIVE
+
+Kyle is not buying Suzuki manuals: do not raise it again. Build RM-Z250 / RM-Z450 from the public web (magazine tests, tester
+baselines, retailer torque pages, forums, Suzuki's own pages and brochures), under the existing COMMUNITY-tier rule in
+`docs/research/expansion/suzuki/rmz-community-knowledge.json` (two independent sources agree, or stored as a spread).
+State today: 2-61 facts per bike-year against 300-700 for a Honda; 120 community rows loaded 2026-11-03.
+Open holes, in order:
+1. RM-Z450 2022-2026 clickers, sag and shock spring (two manual editions disagree; settle with magazine stock boxes per year).
+2. 2027 for both models (RM-Z450 moved to KYB; RM-Z250 KYB re-tuned): nothing loaded.
+3. Torques, valve clearances, maintenance intervals, RM-Z250 fluids and gearing (single-source so far). Leads: MotoSport's
+   per-bike torque pages, Dirt Rider technical-information pages (2023, 2025), Suzuki global and Australia spec pages.
+4. 2023 (no facts at all) and the thin 2020-2022 years: Suzuki says the bikes carried over; find a source that says so per year.
+First leads read 2026-11-20: Keefer 2026 450 baseline article (RM-Z450 fork 5.0 N/mm, 9 comp / 14 reb, height 3-5 mm; shock
+54 N/mm, 105 mm, 1.25 / 1.5 turns; "settings haven't changed" from 2025); Ultimate Motorcycling 2027 RM-Z450 first look (KYB
+fork and shock, new upper clamp, RK Excel rims, 247 lb wet). Not loaded yet.
