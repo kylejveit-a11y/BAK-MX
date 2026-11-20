@@ -15,6 +15,10 @@
  *   they print the standard race sag but no free (static) sag figure (the 2010-2013 era manuals do,
  *   and that figure is on file for those bikes). The 2021 CRF250R/RX and CRF450R/RX and 2027 CRF450R/RX competition
  *   handbooks were searched the same way on 2026-11-20.
+ * - Yamaha rider weight for springs: all 135 owner's (service) manuals in the two Yamaha manual indexes (YZ and WR models,
+ *   2010-2027) were searched in full on 2026-11-20 for a rider-weight range or spring chart; none prints one (the only hits
+ *   are the YZ85's "Maximum rider weight" specification). The 2024 YZ450F tuning chapter was read by eye: it lists the optional
+ *   spring rates, part numbers and I.D. marks instead.
  * - Honda rider weight for springs: the 2021-2026 CRF250R/RX and 2021-2027 CRF450R/RX competition handbooks (13 documents)
  *   were searched on 2026-11-20 for a rider-weight range or chart; none prints one. The 2020 CRF250R/RX manual does
  *   ("between 170 lb (77 kg) and 200 lb (91 kg) (less riding gear)" for the fork springs) and that is on file for 2020.
@@ -49,6 +53,12 @@ const scopes:Scope[]=[
    not_printed:'Honda’s owner’s manual for this bike prints the standard race sag but no free (static) sag figure.',
    printed_instead:'The standard race sag and the standard and optional spring rates, from verified_claims when they were retrieved.',
    checked:'Full text of the US owner’s manual read, 2026-11-18.'}]},
+ {manufacturer:'Yamaha',
+  years:{WR250F:{only:[2010,2011,2012,2013,2015,2016,2017,2018,2019]},WR450F:[2010,2019],YZ125:[2010,2027],YZ125X:[2021,2027],YZ250:{only:[2010,2011,2012,2013,2014,2015,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027]},YZ250F:[2010,2027],YZ250FX:[2015,2027],YZ250X:[2016,2027],YZ450F:[2010,2027],YZ450FX:[2016,2027]},
+  notes:[{topic:'spring rate for rider weight',
+   not_printed:'Yamaha’s owner’s service manual for this bike prints no rider-weight range or chart for choosing springs.',
+   printed_instead:'It lists the standard and optional fork and shock spring rates with their part numbers and identification marks, and the standard sag figure (from verified_claims when they were retrieved). Choose between the listed rates from the rider’s sag, not from a Yamaha weight figure.',
+   checked:'Full text of the US owner’s service manual searched, 2026-11-20.'}]},
  {manufacturer:'Honda',
   years:{CRF250R:[2021,2026],CRF250RX:[2021,2026],CRF450R:[2021,2027],CRF450RX:[2021,2027]},
   notes:[{topic:'spring rate for rider weight',

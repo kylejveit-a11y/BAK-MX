@@ -25,7 +25,9 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
       (13 documents, read in the browser on Kyle's computer) print no rider-weight range or chart; only the 2020 manual does
       (fork springs, 170-200 lb without gear, on file). Recorded in maker-publishing so Ask BAK says so. The same read found no
       free sag in the 2021 and 2027 handbooks. Not checked: 2027 CRF250R handbook (file name on record answered 404).
-- [ ] Rider-weight spring charts, Yamaha: none on file; the YZ manuals show it as a graph, not text. Still to read.
+- [x] Rider-weight spring charts, Yamaha (2026-11-20): all 135 owner's service manuals in the indexes searched in full on Kyle's
+      computer; none prints a rider-weight range or chart (they list optional spring rates with part numbers and ID marks).
+      Recorded in maker-publishing for YZ125/125X/250/250X/250F/250FX/450F/450FX and WR250F/WR450F to 2019.
 
 ## 2. Manuals (manual_wanted: 83 HAVE / 359 WANTED)
 - [x] Reconciled 2026-11-18: all 359 WANTED rows are paid factory service/repair manuals (Helm $50, Kawasaki ~$103, KTM print shop);
