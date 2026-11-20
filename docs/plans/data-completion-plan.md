@@ -21,7 +21,11 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
       Factory Edition / 125 XC US, none for the US standard model. Not loaded as US facts; quoted to Ask BAK with their table
       labels via maker-publishing (prompt 90). Report: docs/research/expansion/gaps/ktm-group-sag/REPORT.md.
       Still open (no manual facts at all): GasGas EC 250 2021, Husqvarna FE 450 2020-22, KX85/KX112 2027, RM-Z 2023.
-- [ ] Rider-weight spring charts: KTM group have them; Honda 4 bike-years detected; check Honda handbooks and Yamaha.
+- [x] Rider-weight spring charts, Honda (2026-11-20): the 2021-2026 CRF250R/RX and 2021-2027 CRF450R/RX competition handbooks
+      (13 documents, read in the browser on Kyle's computer) print no rider-weight range or chart; only the 2020 manual does
+      (fork springs, 170-200 lb without gear, on file). Recorded in maker-publishing so Ask BAK says so. The same read found no
+      free sag in the 2021 and 2027 handbooks. Not checked: 2027 CRF250R handbook (file name on record answered 404).
+- [ ] Rider-weight spring charts, Yamaha: none on file; the YZ manuals show it as a graph, not text. Still to read.
 
 ## 2. Manuals (manual_wanted: 83 HAVE / 359 WANTED)
 - [x] Reconciled 2026-11-18: all 359 WANTED rows are paid factory service/repair manuals (Helm $50, Kawasaki ~$103, KTM print shop);

@@ -13,7 +13,11 @@
  * - Honda free sag: the 2013 CRF450R and the 2014-2019 CRF250R / CRF450R / RX and 2019 CRF450X owner's manuals were read
  *   in full on 2026-11-18, and the 2022-2026 CRF250R/RX and CRF450R/RX competition handbooks and owner's manuals too;
  *   they print the standard race sag but no free (static) sag figure (the 2010-2013 era manuals do,
- *   and that figure is on file for those bikes).
+ *   and that figure is on file for those bikes). The 2021 CRF250R/RX and CRF450R/RX and 2027 CRF450R/RX competition
+ *   handbooks were searched the same way on 2026-11-20.
+ * - Honda rider weight for springs: the 2021-2026 CRF250R/RX and 2021-2027 CRF450R/RX competition handbooks (13 documents)
+ *   were searched on 2026-11-20 for a rider-weight range or chart; none prints one. The 2020 CRF250R/RX manual does
+ *   ("between 170 lb (77 kg) and 200 lb (91 kg) (less riding gear)" for the fork springs) and that is on file for 2020.
  * - KTM group, no US table: the 2026 Husqvarna FC 250 and FC 450 owner's manuals (3402884en, 3402886en) and the 2023
  *   KTM 125 SX / 125 XC owner's manual (3214638en) were read on 2026-11-19. Their suspension tables are labelled for the
  *   EU model and the Factory Edition (Husqvarna) or for "125 SX EU" and "125 XC US" (KTM); none is labelled for the US
@@ -39,12 +43,18 @@ const scopes:Scope[]=[
    printed_instead:'Use the suspension adjuster settings from verified_claims when they were retrieved.',
    checked:'Full text of the US owner’s manual searched, 2026-11-18.'}]},
  {manufacturer:'Honda',
-  years:{CRF250R:{only:[2014,2015,2016,2017,2018,2019,2022,2023,2024,2025,2026]},CRF450R:{only:[2013,2014,2015,2016,2017,2018,2019,2022,2023,2024,2025,2026]},
-   CRF450RX:{only:[2017,2019,2022,2023,2024,2025,2026]},CRF250RX:{only:[2019,2022,2023,2024,2025,2026]},CRF450X:{only:[2019]}},
+  years:{CRF250R:{only:[2014,2015,2016,2017,2018,2019,2021,2022,2023,2024,2025,2026]},CRF450R:{only:[2013,2014,2015,2016,2017,2018,2019,2021,2022,2023,2024,2025,2026,2027]},
+   CRF450RX:{only:[2017,2019,2021,2022,2023,2024,2025,2026,2027]},CRF250RX:{only:[2019,2021,2022,2023,2024,2025,2026]},CRF450X:{only:[2019]}},
   notes:[{topic:'free sag',
    not_printed:'Honda’s owner’s manual for this bike prints the standard race sag but no free (static) sag figure.',
    printed_instead:'The standard race sag and the standard and optional spring rates, from verified_claims when they were retrieved.',
    checked:'Full text of the US owner’s manual read, 2026-11-18.'}]},
+ {manufacturer:'Honda',
+  years:{CRF250R:[2021,2026],CRF250RX:[2021,2026],CRF450R:[2021,2027],CRF450RX:[2021,2027]},
+  notes:[{topic:'spring rate for rider weight',
+   not_printed:'Honda’s competition handbook for this bike prints no rider-weight range for the standard springs and no chart of spring rate by rider weight. (The 2020 manual said the standard fork springs suit riders of about 170 to 200 lb without gear; from 2021 that line is gone.)',
+   printed_instead:'The standard and optional soft and stiff spring rates for the fork and shock, and the standard race sag, from verified_claims when they were retrieved. Choose between them from the rider’s race sag and free sag, not from a Honda weight figure.',
+   checked:'Full text of the US competition handbook searched, 2026-11-20.'}]},
  {manufacturer:'Husqvarna',
   years:{'FC 250':{only:[2026]},'FC 450':{only:[2026]}},
   notes:[{topic:'sag and shock settings',
@@ -62,8 +72,8 @@ const scopes:Scope[]=[
 /** Notes for this exact bike, or null when its manual has not been checked this way. */
 export function makerPublishingNotes(bike:{manufacturer:string;model:string;model_year:number}|null){
  if(!bike)return null;
- const s=scopes.find(x=>x.manufacturer===bike.manufacturer),range=s?.years[bike.model];
- if(!s||!range)return null;
- if(Array.isArray(range)?bike.model_year<range[0]||bike.model_year>range[1]:!range.only.includes(bike.model_year))return null;
- return {boundary:'What this maker’s own manual for this exact bike does not print. This is settled: the value is not missing from BAK, the maker does not publish it for this model as labelled.',notes:s.notes};
+ const notes=scopes.filter(x=>{const range=x.manufacturer===bike.manufacturer?x.years[bike.model]:undefined;
+  return !!range&&(Array.isArray(range)?bike.model_year>=range[0]&&bike.model_year<=range[1]:range.only.includes(bike.model_year));}).flatMap(x=>x.notes);
+ if(!notes.length)return null;
+ return {boundary:'What this maker’s own manual for this exact bike does not print. This is settled: the value is not missing from BAK, the maker does not publish it for this model as labelled.',notes};
 }
