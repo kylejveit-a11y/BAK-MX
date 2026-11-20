@@ -12,7 +12,7 @@ const norm=(s:string)=>s.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g,'').
 
 const cache=new Map<string,{at:number;file:Promise<FamilyFile|null>}>();
 function siteOrigin(){return (process.env.PUBLIC_SITE_URL||'https://bakmx.com').replace(/\/$/,'');}
-function loadFamily(name:string){
+export function loadFamily(name:string){
  const hit=cache.get(name);if(hit&&Date.now()-hit.at<30*60_000)return hit.file;
  const file=fetch(`${siteOrigin()}/parts-catalog/${name}.json`,{signal:AbortSignal.timeout(4000)}).then(r=>r.ok?r.json() as Promise<FamilyFile>:null).catch(()=>{cache.delete(name);return null;});
  cache.set(name,{at:Date.now(),file});return file;

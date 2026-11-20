@@ -92,3 +92,11 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
   Kyle's rule (2026-11-19): never push sales. Ask BAK only offers once, when a part is actually needed ("I can show you who
   has that and give you a link if you want"), and it is better to offer too rarely than too often. Separate "parts hunter"
   mode the rider opens on purpose to find a part and who sells it. More thought needed before any build.
+
+
+## Aftermarket springs in Ask BAK (2026-11-20)
+
+- `server/spring-options.ts`: on spring, sag or rider-weight questions Ask BAK now gets the aftermarket fork and shock springs listed for the rider's exact bike with the rates each company offers (N/mm plus the company's own label), and the listed rate nearest the one worked out from sag or the maker's rider-weight table, with the next step softer and stiffer.
+- Coverage from the parts lists: 688 of 898 bikes have something; 578 have a shock rate list, 534 a fork rate list (Factory Connection, REP Suspension, WP, some Race Tech). Store listings that cover every bike in one long drop-down are not used as a rate list; the company is only named.
+- Aftermarket companies do not publish static rider-weight charts (they use rate finders or a phone call), so BAK never says a company recommends a rate for a weight unless that company's own guide is on file (one so far: Ride JBI). Race Tech's rate finder is proprietary and is not copied.
+- Not read yet: Cannon Racecraft application chart PDF (link is in record es-027); needs Kyle to paste the link in chat so it can be opened.
