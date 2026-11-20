@@ -206,3 +206,7 @@ cable clutches (guide 191-6300; Yamaha, Suzuki, Honda except the hydraulic 450 f
 years). The RadiusCX entry is now limited to the 250-501 cc DDS bikes. Not read yet: RadiusCX on cable clutches, the
 hydraulic Honda / Kawasaki guides, WP XACT PRO 8950 shock (WP's site has no manual link; needs the PDF).
 One more position: Apalachicola Springhill trails. 42 of 254 places still have none (9 open, 3 seasonal, 16 closed, 14 unknown).
+Kit guides, third batch (2026-11-20): RadiusCX on cable clutches (guide 191-7900A: YZ450F/FX and WR450F 6 mm, the other
+named bikes 3 mm; YZ250F/FX, YZ125, CRF250X, RM-Z450) and the DDS RadiusCX wear limits. Searched and not found in public:
+RadiusCX guides for the hydraulic Honda CRF450R (2021+) and Kawasaki KX450/KX250, and the text of the WP XACT PRO 8950 shock
+manual (only its contents page is online). Kits are done as far as public documents go.

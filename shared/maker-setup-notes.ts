@@ -21,7 +21,19 @@ const entries:{match:RegExp;makes?:string[];applies?:(b:B)=>boolean;setup:MakerS
    'Idle: set so there is slight drag in gear when warm; the bike should not creep at closed throttle but should move with a small throttle opening.',
    'Oil: clean JASO MA or MA2 oil; soak new friction disks and the EXP disk in fresh oil at least 5 minutes before fitting. Centre clutch nut 68 N·m (50 lbf-ft).',
    'Do not ride with the gap unset, and do not make third-gear starts. To bump start, back the slave cylinder adjuster out (counterclockwise) until there is no resistance, start it, then reset the installed gap.',
-   'A squeal or chatter at low rpm is generally harmless and gap adjustment does not change it; fresh oil can reduce it. Friction-disk wear limits are on the kit\'s own setup sheet.']}},
+   'A squeal or chatter at low rpm is generally harmless and gap adjustment does not change it; fresh oil can reduce it.',
+   'Wear limits in the guide: EXP disk no thinner than 10.6 mm (0.416 in); clutch pack between 22.7 and 24.0 mm (0.895-0.945 in), measured to the pad on the EXP. Pressure plate screws 6 N·m (55 in-lb). If you keep having to move the slave cylinder adjuster to cure drag or lost free play gain, the disks are probably worn.']}},
+ {match:/rekluse.*radius\s?cx/i,applies:b=>cable(b)&&/^(YZ450F|YZ450FX|WR450F|YZ250F|YZ250FX|YZ125|CRF250X|RM-Z450)$/.test(b.model??''),setup:{title:'Rekluse RadiusCX on cable clutches',read:'2026-11-20',
+  source:'Rekluse RadiusCX Installation Guide, cable-actuated bikes (document 191-7900A)',
+  facts:[
+   'Free play gain, before every ride: in neutral, engine warmed 2-3 minutes, rev quickly to 5,000-7,000 rpm and watch the lever. Target at the ball end of the lever: 6 mm (1/4 in) on the YZ450F, YZ450FX and WR450F; 3 mm (1/8 in) on the other bikes the guide covers. After break-in, anything from 3 to 6 mm warm is acceptable.',
+   'Outside adjustment is at the cable: the guide\'s starting point is the in-line adjuster expanded 5 turns from zero slack, then fine-tune by free play gain.',
+   'Inside, the gap is set on the pressure plate\'s adjuster ring, one circle detent at a time: counterclockwise makes the gap bigger (less free play gain), clockwise smaller. The guide\'s starting point is the ring turned counterclockwise to its stop, then one full turn, then 3 more detents.',
+   'Break-in after install or new friction disks, EXP bases, pads or wedges: 10 revs in neutral, 10 roll-on starts in first gear to about 5,000 rpm, 10 in second, then recheck free play gain warm.',
+   'Centre clutch nut 68 N·m (50 lbf-ft); pressure plate bolts 12 N·m (9 lbf-ft). Do not reuse the stock pressure plate springs or bolts.',
+   'Oil: fresh JASO MA oil; soak friction disks and EXP bases at least 5 minutes before fitting. Not for a notched basket or worn dampers. No third-gear starts.',
+   'Never ride with the gap unset. Friction-disk and pack thickness limits are on the kit\'s own setup sheet, not in the guide.']}},
+
  {match:/rekluse.*(radius\s?x\b|core\s?exp|\bexp\b)/i,applies:dds,setup:{title:'Rekluse EXP auto clutch (Radius X, Core EXP) on KTM / Husqvarna / GasGas hydraulic (DDS) clutches',read:'2026-11-20',
   source:'Rekluse EXP Installation Guide, KTM DDS (document 191-6301)',
   facts:[
