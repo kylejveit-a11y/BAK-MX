@@ -1,6 +1,6 @@
 # Kawasaki KX450 2015: aftermarket parts
 
-1790 listings whose stated fitment names this bike: 153 researched parts (with what they change and rider findings), 404 dealer and retailer listings specific to this bike, and 1233 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1791 listings whose stated fitment names this bike: 154 researched parts (with what they change and rider findings), 404 dealer and retailer listings specific to this bike, and 1233 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -157,6 +157,7 @@
 | Works Connection | Works Connection Engine Guard - Right Side | 23-296 |  |  | [source](https://www.worksconnection.com/p18075-engine-guards) | high |
 | Works Connection | Works Connection Rear Caliper Guard | 25-022 |  |  | [source](https://www.worksconnection.com/p18135-rear-caliper-guards) | high |
 | Works Connection | Works Connection Ti Bolt Kit-Rims Skid Plate (4 pcs) | 70-303 |  |  | [source](https://www.worksconnection.com/p36772-skid-plate-w-rims-system-titanium-bolt-kit) | high |
+| Cannon Racecraft | Cannon Racecraft Shock Spring 67265 (3.6-6.8) |  | Replacement shock spring in a choice of rates to suit the rider. | Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before orderin | [source](https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf) | medium |
 | Ride Engineering | Ride Engineering Suspension Lowering Link | KX-LKA35-GN |  |  | [source](https://ride-engineering.com/09-15-KX450F-Suspension-Lowering-Link_p_1677.html) | medium |
 | Xtrig | Xtrig Shock preload adjuster | 10300002 |  |  | [source](https://www.xtrig-shop.com/epages/XtrigRacing.sf/en_US/?ObjectPath=/Shops/XtrigRacing/Products/10300002) | high |
 

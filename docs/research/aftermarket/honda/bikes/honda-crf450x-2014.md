@@ -1,6 +1,6 @@
 # Honda CRF450X 2014: aftermarket parts
 
-1683 listings whose stated fitment names this bike: 100 researched parts (with what they change and rider findings), 349 dealer and retailer listings specific to this bike, and 1234 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1685 listings whose stated fitment names this bike: 102 researched parts (with what they change and rider findings), 349 dealer and retailer listings specific to this bike, and 1234 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -105,6 +105,8 @@
 | Works Connection | Works Connection Skid Plate Off-Road | 10-087 |  |  | [source](https://www.worksconnection.com/p36501-off-road-skid-plate) | high |
 | Works Connection | Works Connection Rear Master Cylinder Guard | 15-087 |  |  | [source](https://www.worksconnection.com/p18136-rear-master-cylinder-guards) | high |
 | Works Connection | Works Connection Rear Caliper Guard | 25-014 |  |  | [source](https://www.worksconnection.com/p18135-rear-caliper-guards) | high |
+| Cannon Racecraft | Cannon Racecraft Fork Springs 43495 (.36-.70) |  | Replacement fork springs in a choice of rates to suit the rider. | Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before orderin | [source](https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf) | medium |
+| Cannon Racecraft | Cannon Racecraft Shock Spring 67265 (3.6-6.8) |  | Replacement shock spring in a choice of rates to suit the rider. | Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before orderin | [source](https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf) | medium |
 | Works Connection | Works Connection Fork Bleeder Valves | 26-320 |  |  | [source](https://www.worksconnection.com/p417280-fork-bleeders-shorty) | high |
 
 ## Dealer and retailer listings for this bike

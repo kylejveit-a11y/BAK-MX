@@ -51,6 +51,7 @@
 | BikeMaster | 50 | Chain & Sprocket (20), Tools and Maintenance (7), Uncategorised (6), Suspension (5), Drive (2), Lights and Electrical (2) | Cycle Gear 26, MotoSport 24 |
 | Namz | 50 | Batteries & Electrical (50) | Cycle Gear 50 |
 | ARC | 49 | controls (23), Controls (17), brakes (5), Brakes (4) | MotoSport 21, research 28 |
+| Cannon Racecraft | 47 | suspension (47) | research 47 |
 | Koso | 47 | Gauges (30), Lights and Electrical (7), Uncategorised (4), Lighting (4), Controls (2) | Cycle Gear 38, MotoSport 9 |
 | Kriega | 47 | Luggage and Racks (27), Riding Gear (13), Bike Protection (2), Uncategorised (2), Farming and Hunting (2), Suspension (1) | Cycle Gear 4, MotoSport 43 |
 | Bridgestone | 45 | Tires (44), Mousse or tube (1) | MotoSport 12, research 33 |
@@ -213,7 +214,6 @@
 | All Balls Racing | 4 | brakes (2), engine (1), engine (fuel system) (1) | research 4 |
 | ASV Inventions | 4 | Handlebars & Controls (3), controls (1) | Cycle Gear 3, research 1 |
 | Avon Tire | 4 | Tires (4) | MotoSport 4 |
-| Cannon Racecraft | 4 | suspension (4) | research 4 |
 | CP-Carrillo | 4 | engine (4) | research 4 |
 | Dirt Tricks | 4 | Drive (2), Chain & Sprocket (1), Engine (1) | Cycle Gear 1, MotoSport 3 |
 | Doubletake | 4 | Uncategorised (4) | Cycle Gear 4 |

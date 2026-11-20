@@ -1,0 +1,4035 @@
+{
+ "slice": "Cannon Racecraft: the maker's printed spring application chart (fork and shock spring part numbers and the rates offered, by bike and year)",
+ "source": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+ "retrieved": "2026-11-20",
+ "notes": "Read from the PDF chart supplied by the owner; the PDF is not kept. No rider-weight recommendations are printed. Rows for bikes outside the app, or whose model wording is not mapped, are in unread.",
+ "products": [
+  {
+   "id": "cannon-fork-32448-0",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 32448 (.26-.50)",
+   "part_numbers": [],
+   "variants": [
+    ".26 = 32448",
+    ".28 = 32448",
+    ".30 = 32448",
+    ".32 = 32448",
+    ".34 = 32448",
+    ".36 = 32448",
+    ".38 = 32448",
+    ".40 = 32448",
+    ".42 = 32448",
+    ".44 = 32448",
+    ".46 = 32448",
+    ".48 = 32448",
+    ".50 = 32448"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF150R",
+     "years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2007-2025 CRF 150R/RB EXP"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2007-2025 | CRF 150R/RB EXP | 32448 | .26-.50 EVEN RATES | 55240 | 3.2-7.6",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-55240-1",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 55240",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF150R",
+     "years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2007-2025 CRF 150R/RB EXP"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2000-2025 KX 85"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX112",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 1995-2025 KX 100/112"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2007-2025 | CRF 150R/RB EXP | 32448 | .26-.50 EVEN RATES | 55240 | 3.2-7.6 ; 2000-2025 | KX 85 | 31428 | .24,.26,.28,.30,.32,.34,.36,.38.40 | 55240 | 3.2-7.6 ; 1995-2025 | KX 100/112 | 31428 | .24,.26,.28,.30,.32,.34,.36,.38.40 | 55240 | 3.2-7.6",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Rates as printed: 3.2-7.6. Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-45503-2",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 45503 (.36-.70)",
+   "part_numbers": [],
+   "variants": [
+    ".36 = 45503",
+    ".38 = 45503",
+    ".40 = 45503",
+    ".42 = 45503",
+    ".44 = 45503",
+    ".46 = 45503",
+    ".48 = 45503",
+    ".50 = 45503",
+    ".52 = 45503",
+    ".54 = 45503",
+    ".56 = 45503",
+    ".58 = 45503",
+    ".60 = 45503",
+    ".62 = 45503",
+    ".64 = 45503",
+    ".66 = 45503",
+    ".68 = 45503",
+    ".70 = 45503"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2025
+     ],
+     "notes": "Chart: 2025 CRF250R"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2025
+     ],
+     "notes": "Chart: 2025 CRF450R"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2025 | CRF250R | 45503 | .36 - .70 EVEN RATES | 67240 | 4.4 - 6.8 ; 2025 | CRF450R | 45503 | .36 - .70 EVEN RATES | 67240 | 4.4 - 6.8",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-67240-3",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 67240 (4.4-6.8)",
+   "part_numbers": [],
+   "variants": [
+    "4.4 = 67240",
+    "4.6 = 67240",
+    "4.8 = 67240",
+    "5.0 = 67240",
+    "5.2 = 67240",
+    "5.4 = 67240",
+    "5.6 = 67240",
+    "5.8 = 67240",
+    "6.0 = 67240",
+    "6.2 = 67240",
+    "6.4 = 67240",
+    "6.6 = 67240",
+    "6.8 = 67240"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2025 CRF250R"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2025 CRF450R"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450X",
+     "years": [
+      2019
+     ],
+     "notes": "Chart: 2018-2024 CRF450X"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2025
+     ],
+     "notes": "Chart: 2025 KX250/250F"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2019-2025 KX450F/450X"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2019-2025 KX450F/450X"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2025 | CRF250R | 45503 | .36 - .70 EVEN RATES | 67240 | 4.4 - 6.8 ; 2018-2024 | CRF250R | 45470 | .36 - .70 EVEN RATES | 67240 | 4.4 - 6.8 ; 2025 | CRF450R | 45503 | .36 - .70 EVEN RATES | 67240 | 4.4 - 6.8 ; 2017-2024 | CRF 450R | 45470 | .36 - .70 EVEN RATES | 67240 | 4.4 - 6.8 ; 2018-2024 | CRF450X | 45470 | .36-.70 EVEN RATES | 67240 | 4.4-6.8 ; 2025 | KX250/250F | 45470 | .36 - .70 EVEN RATES | 67240 | 4.4 - 6.8 ; 2019-2025 | KX450F/450X | 45470 | .36 - .70 EVEN RATES | 67240 | 4.4-6.8",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-45470-4",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 45470 (.36-.70)",
+   "part_numbers": [],
+   "variants": [
+    ".36 = 45470",
+    ".38 = 45470",
+    ".40 = 45470",
+    ".42 = 45470",
+    ".44 = 45470",
+    ".46 = 45470",
+    ".48 = 45470",
+    ".50 = 45470",
+    ".52 = 45470",
+    ".54 = 45470",
+    ".56 = 45470",
+    ".58 = 45470",
+    ".60 = 45470",
+    ".62 = 45470",
+    ".64 = 45470",
+    ".66 = 45470",
+    ".68 = 45470",
+    ".70 = 45470"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2018-2024 CRF250R"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2017-2024 CRF 450R"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450X",
+     "years": [
+      2019
+     ],
+     "notes": "Chart: 2018-2024 CRF450X"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2025
+     ],
+     "notes": "Chart: 2025 KX250/250F"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2019-2025 KX450F/450X"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2019-2025 KX450F/450X"
+    },
+    {
+     "make": "Suzuki",
+     "model": "RM-Z450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2018-2024 RMZ 450"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2018-2024 | CRF250R | 45470 | .36 - .70 EVEN RATES | 67240 | 4.4 - 6.8 ; 2017-2024 | CRF 450R | 45470 | .36 - .70 EVEN RATES | 67240 | 4.4 - 6.8 ; 2018-2024 | CRF450X | 45470 | .36-.70 EVEN RATES | 67240 | 4.4-6.8 ; 2025 | KX250/250F | 45470 | .36 - .70 EVEN RATES | 67240 | 4.4 - 6.8 ; 2019-2025 | KX450F/450X | 45470 | .36 - .70 EVEN RATES | 67240 | 4.4-6.8 ; 2018-2024 | RMZ 450 | 45470 | .36 - .70 EVEN RATES | 67240 | 3.6-6.8",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-43461-5",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 43461 (.36-.70)",
+   "part_numbers": [],
+   "variants": [
+    ".36 = 43461",
+    ".38 = 43461",
+    ".40 = 43461",
+    ".42 = 43461",
+    ".44 = 43461",
+    ".46 = 43461",
+    ".48 = 43461",
+    ".50 = 43461",
+    ".52 = 43461",
+    ".54 = 43461",
+    ".56 = 43461",
+    ".58 = 43461",
+    ".60 = 43461",
+    ".62 = 43461",
+    ".64 = 43461",
+    ".66 = 43461",
+    ".68 = 43461",
+    ".70 = 43461"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+     ],
+     "notes": "Chart: 2014-2016 CRF 250R"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2010,
+      2011,
+      2012
+     ],
+     "notes": "Chart: 2009-2012 CRF 450R"
+    },
+    {
+     "make": "Yamaha",
+     "model": "WR250F",
+     "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+     ],
+     "notes": "Chart: 2015-2019 WR250F"
+    },
+    {
+     "make": "Yamaha",
+     "model": "WR450F",
+     "years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018
+     ],
+     "notes": "Chart: 2005-2018 WR 450F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2014-2016 | CRF 250R | 43461 | .36 - .70 EVEN RATES | 67250 | 3.6-6.8 ; 2010-2013 | CRF 250R | 43461 | .36 - .70 EVEN RATES | 67265 | 3.6-6.8 ; 2009-2012 | CRF 450R | 43461 | .36 - .70 EVEN RATES | 64258 | 4.2-6.8 ; 2004-2006 | RMZ 250 | 43461 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8 ; 2015-2019 | WR250F | 43461 | .36-.70 EVEN RATES | 64275 | 3.6-6.8 ; 2005-2018 | WR 450F | 43461 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-67250-6",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 67250 (3.6-6.8)",
+   "part_numbers": [],
+   "variants": [
+    "3.6 = 67250",
+    "3.8 = 67250",
+    "4.0 = 67250",
+    "4.2 = 67250",
+    "4.4 = 67250",
+    "4.6 = 67250",
+    "4.8 = 67250",
+    "5.0 = 67250",
+    "5.2 = 67250",
+    "5.4 = 67250",
+    "5.6 = 67250",
+    "5.8 = 67250",
+    "6.0 = 67250",
+    "6.2 = 67250",
+    "6.4 = 67250",
+    "6.6 = 67250",
+    "6.8 = 67250"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2014,
+      2015,
+      2016
+     ],
+     "notes": "Chart: 2014-2016 CRF 250R"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2014-2016 | CRF 250R | 43461 | .36 - .70 EVEN RATES | 67250 | 3.6-6.8",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-67265-7",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 67265 (3.6-6.8)",
+   "part_numbers": [],
+   "variants": [
+    "3.6 = 67265",
+    "3.8 = 67265",
+    "4.0 = 67265",
+    "4.2 = 67265",
+    "4.4 = 67265",
+    "4.6 = 67265",
+    "4.8 = 67265",
+    "5.0 = 67265",
+    "5.2 = 67265",
+    "5.4 = 67265",
+    "5.6 = 67265",
+    "5.8 = 67265",
+    "6.0 = 67265",
+    "6.2 = 67265",
+    "6.4 = 67265",
+    "6.6 = 67265",
+    "6.8 = 67265"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2010,
+      2011,
+      2012,
+      2013
+     ],
+     "notes": "Chart: 2010-2013 CRF 250R"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250X",
+     "years": [
+      2012,
+      2013,
+      2015,
+      2016
+     ],
+     "notes": "Chart: 2004-2016 CRF 250X"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450X",
+     "years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017
+     ],
+     "notes": "Chart: 2005-2017 CRF450X"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+     ],
+     "notes": "Chart: 2013-2019 KX 250F"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2015,
+      2016,
+      2017,
+      2018
+     ],
+     "notes": "Chart: 2015-2018 KX 450F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2010-2013 | CRF 250R | 43461 | .36 - .70 EVEN RATES | 67265 | 3.6-6.8 ; 2004-2016 | CRF 250X | 43495 | .36 - .70 EVEN RATES | 67265 | 3.6-6.8 ; 2002-2008 | CRF 450R | 43495 | .36-.70 EVEN RATES | 67265 | 3.6-6.8 ; 2005-2017 | CRF450X | 43495 | .36 - .70 EVEN RATES | 67265 | 3.6 - 6.8 ; 2013-2019 | KX 250F | 44664 | .84 .86 .88 .90 .92 .94 .96 .98 1.0 1.02 1.04 | 67265 | 3.6-6.8 ; 2011-2012 | KX 250F | 43743 | SPECIAL VERIFY | 67265 | 3.6-6.8 ; 2006-2010 | KX 250F | 43495 | .36-.70 EVEN RATES | 67265 | 3.6-6.8 ; 2015-2018 | KX 450F | AIR | N/A | 67265 | 3.6-6.8 ; 2013-2015 | RMZ 250 | 44664 | .84 .86 .88 .90 .92 .94 .96 .98 1.0 1.02 1.04 | 67265 | 3.6-6.8 ; 2007-2012 | RMZ 250 | 43495 | .36 - .70 EVEN RATES | 67265 | 3.6-6.8 ; 2015-2017 | RMZ 450 | AIR | N/A | 67265 | 3.6 - 6.8 ; 2013-2014 | RMZ 450 | 44664 | .84 .86 .88 .90 .92 .94 .96 .98 1.0 1.02 1.04 | 67265 | 3.6-6.8 ; 2005-2012 | RMZ 450 | 43495 | .36 - .70 EVEN RATES | 67265 | 3.6-6.8",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-43495-8",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 43495 (.36-.70)",
+   "part_numbers": [],
+   "variants": [
+    ".36 = 43495",
+    ".38 = 43495",
+    ".40 = 43495",
+    ".42 = 43495",
+    ".44 = 43495",
+    ".46 = 43495",
+    ".48 = 43495",
+    ".50 = 43495",
+    ".52 = 43495",
+    ".54 = 43495",
+    ".56 = 43495",
+    ".58 = 43495",
+    ".60 = 43495",
+    ".62 = 43495",
+    ".64 = 43495",
+    ".66 = 43495",
+    ".68 = 43495",
+    ".70 = 43495"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250X",
+     "years": [
+      2012,
+      2013,
+      2015,
+      2016
+     ],
+     "notes": "Chart: 2004-2016 CRF 250X"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450X",
+     "years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017
+     ],
+     "notes": "Chart: 2005-2017 CRF450X"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2004-2016 | CRF 250X | 43495 | .36 - .70 EVEN RATES | 67265 | 3.6-6.8 ; 2002-2008 | CRF 450R | 43495 | .36-.70 EVEN RATES | 67265 | 3.6-6.8 ; 2005-2017 | CRF450X | 43495 | .36 - .70 EVEN RATES | 67265 | 3.6 - 6.8 ; 2006-2010 | KX 250F | 43495 | .36-.70 EVEN RATES | 67265 | 3.6-6.8 ; 2007-2012 | RMZ 250 | 43495 | .36 - .70 EVEN RATES | 67265 | 3.6-6.8 ; 2005-2012 | RMZ 450 | 43495 | .36 - .70 EVEN RATES | 67265 | 3.6-6.8",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-64258-9",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 64258 (4.2-6.8)",
+   "part_numbers": [],
+   "variants": [
+    "4.2 = 64258",
+    "4.4 = 64258",
+    "4.6 = 64258",
+    "4.8 = 64258",
+    "5.0 = 64258",
+    "5.2 = 64258",
+    "5.4 = 64258",
+    "5.6 = 64258",
+    "5.8 = 64258",
+    "6.0 = 64258",
+    "6.2 = 64258",
+    "6.4 = 64258",
+    "6.6 = 64258",
+    "6.8 = 64258"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+     ],
+     "notes": "Chart: 2013-2016 CRF 450R"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2013-2016 | CRF 450R | AIR | N/A | 64258 | 4.2-6.8 ; 2009-2012 | CRF 450R | 43461 | .36 - .70 EVEN RATES | 64258 | 4.2-6.8",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-27500-10",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 27500 (.24-.38)",
+   "part_numbers": [],
+   "variants": [
+    ".24 = 27500",
+    ".26 = 27500",
+    ".28 = 27500",
+    ".30 = 27500",
+    ".32 = 27500",
+    ".34 = 27500",
+    ".36 = 27500",
+    ".38 = 27500"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX65",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2002-2025 KX 65"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2002-2025 | KX 65 | 27500 | .24,.26,.28,.30,.32.34.36.38 | 46212 | 3.2-6.6",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-46212-11",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 46212 (3.2-6.6)",
+   "part_numbers": [],
+   "variants": [
+    "3.2 = 46212",
+    "3.4 = 46212",
+    "3.6 = 46212",
+    "3.8 = 46212",
+    "4.0 = 46212",
+    "4.2 = 46212",
+    "4.4 = 46212",
+    "4.6 = 46212",
+    "4.8 = 46212",
+    "5.0 = 46212",
+    "5.2 = 46212",
+    "5.4 = 46212",
+    "5.6 = 46212",
+    "5.8 = 46212",
+    "6.0 = 46212",
+    "6.2 = 46212",
+    "6.4 = 46212",
+    "6.6 = 46212"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX65",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2002-2025 KX 65"
+    },
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Chart: 2017-2023 65 SX"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2002-2025 | KX 65 | 27500 | .24,.26,.28,.30,.32.34.36.38 | 46212 | 3.2-6.6 ; 2017-2023 | 65 SX | AER | 46212 | 3.2-6.6 ; 2012-2016 | 65 SX | 30370 | .26,.28,.30,.32,.34,.36,.38 | 46212 | 3.2-6.6",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-31428-12",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 31428 (.24-.40)",
+   "part_numbers": [],
+   "variants": [
+    ".24 = 31428",
+    ".26 = 31428",
+    ".28 = 31428",
+    ".30 = 31428",
+    ".32 = 31428",
+    ".34 = 31428",
+    ".36 = 31428",
+    ".38 = 31428",
+    ".40 = 31428"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2000-2025 KX 85"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX112",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 1995-2025 KX 100/112"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Chart: 1999-2026 YZ 85"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2000-2025 | KX 85 | 31428 | .24,.26,.28,.30,.32,.34,.36,.38.40 | 55240 | 3.2-7.6 ; 1995-2025 | KX 100/112 | 31428 | .24,.26,.28,.30,.32,.34,.36,.38.40 | 55240 | 3.2-7.6 ; 1999-2026 | YZ 85 | 31428 | .24,.26,.28,.30,.32,.34,.36,.38 .40 | 55225 | 3.4-6.8",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-44664-13",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 44664 (.84-1.04)",
+   "part_numbers": [],
+   "variants": [
+    ".84 = 44664",
+    ".86 = 44664",
+    ".88 = 44664",
+    ".90 = 44664",
+    ".92 = 44664",
+    ".94 = 44664",
+    ".96 = 44664",
+    ".98 = 44664",
+    "1.00 = 44664",
+    "1.02 = 44664",
+    "1.04 = 44664"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+     ],
+     "notes": "Chart: 2013-2019 KX 250F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2013-2019 | KX 250F | 44664 | .84 .86 .88 .90 .92 .94 .96 .98 1.0 1.02 1.04 | 67265 | 3.6-6.8 ; 2013-2015 | RMZ 250 | 44664 | .84 .86 .88 .90 .92 .94 .96 .98 1.0 1.02 1.04 | 67265 | 3.6-6.8 ; 2013-2014 | RMZ 450 | 44664 | .84 .86 .88 .90 .92 .94 .96 .98 1.0 1.02 1.04 | 67265 | 3.6-6.8",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-44497-15",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 44497 (.36-.70)",
+   "part_numbers": [],
+   "variants": [
+    ".36 = 44497",
+    ".38 = 44497",
+    ".40 = 44497",
+    ".42 = 44497",
+    ".44 = 44497",
+    ".46 = 44497",
+    ".48 = 44497",
+    ".50 = 44497",
+    ".52 = 44497",
+    ".54 = 44497",
+    ".56 = 44497",
+    ".58 = 44497",
+    ".60 = 44497",
+    ".62 = 44497",
+    ".64 = 44497",
+    ".66 = 44497",
+    ".68 = 44497",
+    ".70 = 44497"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2020-2024 KX250/ KX250F/X"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2020-2024 KX250/ KX250F/X"
+    },
+    {
+     "make": "Suzuki",
+     "model": "RM-Z250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2019-2024 RMZ250"
+    },
+    {
+     "make": "Yamaha",
+     "model": "WR250F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2020-2024 WR250F"
+    },
+    {
+     "make": "Yamaha",
+     "model": "WR450F",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2019-2024 WR 450F"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Chart: 2022- 2026 YZ250"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Chart: 2014-2026 YZ 250F"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Chart: 2014-2026 YZ 450F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2020-2024 | KX250/ | KX250F/X | 44497 | .36 - .70 EVEN RATES | 64258 | 3.6 - 6.8 ; 2019-2024 | RMZ250 | 44497 | .36 - .70 EVEN RATES | 64258 | 3.6 - 6.8 ; 2020-2024 | WR250F | 44497 | .36-.70 EVEN RATES | 64258/64275 | 3.6-6.8 ; 2019-2024 | WR 450F | 44497 | .36-.70 EVEN RATES | 64258/64275 | 3.6-6.8 ; 2022- 2026 | YZ250 | 44497 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8 ; 2014-2026 | YZ 250F | 44497 | .36 - .70 EVEN RATES | 64258/64275 | 4.6-6.8 ; 2014-2026 | YZ 450F | 44497 | .36 - .70 EVEN RATES | 64258/64275 | 4.6-6.8",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-64258-16",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 64258 (3.6-6.8)",
+   "part_numbers": [],
+   "variants": [
+    "3.6 = 64258",
+    "3.8 = 64258",
+    "4.0 = 64258",
+    "4.2 = 64258",
+    "4.4 = 64258",
+    "4.6 = 64258",
+    "4.8 = 64258",
+    "5.0 = 64258",
+    "5.2 = 64258",
+    "5.4 = 64258",
+    "5.6 = 64258",
+    "5.8 = 64258",
+    "6.0 = 64258",
+    "6.2 = 64258",
+    "6.4 = 64258",
+    "6.6 = 64258",
+    "6.8 = 64258"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2020-2024 KX250/ KX250F/X"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2020-2024 KX250/ KX250F/X"
+    },
+    {
+     "make": "Suzuki",
+     "model": "RM-Z250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2019-2024 RMZ250"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2020-2024 | KX250/ | KX250F/X | 44497 | .36 - .70 EVEN RATES | 64258 | 3.6 - 6.8 ; 2019-2024 | RMZ250 | 44497 | .36 - .70 EVEN RATES | 64258 | 3.6 - 6.8",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-64258-17",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 64258 (4.6-6.8)",
+   "part_numbers": [],
+   "variants": [
+    "4.6 = 64258",
+    "4.8 = 64258",
+    "5.0 = 64258",
+    "5.2 = 64258",
+    "5.4 = 64258",
+    "5.6 = 64258",
+    "5.8 = 64258",
+    "6.0 = 64258",
+    "6.2 = 64258",
+    "6.4 = 64258",
+    "6.6 = 64258",
+    "6.8 = 64258"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2014
+     ],
+     "notes": "Chart: 2013-2014 KX 450F"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2010,
+      2011,
+      2013
+     ],
+     "notes": "Chart: 2010-2013 YZ 450F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2013-2014 | KX 450F | AIR | N/A | 64258 | 4.6-6.8 ; 2009-2012 | KX 450F | 44470 | .36 -.70 EVEN RATES | 64258 | 4.6-6.8 ; 2010-2013 | YZ 450F | 44470 | .36 - .70 EVEN RATES | 64258 | 4.6-6.8",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-44470-18",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 44470 (.36-.70)",
+   "part_numbers": [],
+   "variants": [
+    ".36 = 44470",
+    ".38 = 44470",
+    ".40 = 44470",
+    ".42 = 44470",
+    ".44 = 44470",
+    ".46 = 44470",
+    ".48 = 44470",
+    ".50 = 44470",
+    ".52 = 44470",
+    ".54 = 44470",
+    ".56 = 44470",
+    ".58 = 44470",
+    ".60 = 44470",
+    ".62 = 44470",
+    ".64 = 44470",
+    ".66 = 44470",
+    ".68 = 44470",
+    ".70 = 44470"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2014-2025 300 XC"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2025
+     ],
+     "notes": "Chart: 2025 450 XCF"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2010,
+      2011,
+      2013
+     ],
+     "notes": "Chart: 2010-2013 YZ 450F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2009-2012 | KX 450F | 44470 | .36 -.70 EVEN RATES | 64258 | 4.6-6.8 ; 2007-2008 | KX 450F | 44470 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8 ; 2014-2025 | 300 XC | 44470 | .36 - .70 EVEN RATES | 62260/62250 | 4.2-10.0 ; 2025 | 450 XCF | 44470 | .36 - .70 EVEN RATES | 62250 | 3.4-5.8 ; 2016-2017 | 450 XC-F | 44470 | .36 - .70 EVEN RATES | 62250 | 3.4 - 5.8 ; 2014-2015 | 450 XC-F | 44470 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0 ; 2010-2013 | YZ 450F | 44470 | .36 - .70 EVEN RATES | 64258 | 4.6-6.8",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-59270-19",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 59270",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "WR450F",
+     "years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018
+     ],
+     "notes": "Chart: 2005-2018 WR 450F"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ125",
+     "years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Chart: 2022-2026 YZ 125"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250",
+     "years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Chart: 2022- 2026 YZ250"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2010,
+      2011,
+      2012,
+      2013
+     ],
+     "notes": "Chart: 2006-2013 YZ 250F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2007-2008 | KX 450F | 44470 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8 ; 2006 | KX 450F | 44480 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 59270 | 3.6-7.8 ; 2004-2006 | RMZ 250 | 43461 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8 ; 2005-2018 | WR 450F | 43461 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8 ; 2003-2004 | WR 450F | 41460 | .36,.38,.40,.42,.44,.46,.48,.50,.52.54 | 59270 | 3.6-7.8 ; 2022-2026 | YZ 125 | 44497 | JH | 59270 | 3.6-7.8 ; 2006-2021 | YZ 125 | 44453 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8 ; 2005 | YZ 125 | 44467 | .36,.38,.40,.42,.44,.46,.48,.50 .52 .54 | 59270 | 3.6-7.8 ; 2004 | YZ 125 | 44480 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 59270 | 3.6-7.8 ; 1996-2003 | YZ 125 | 41460 | .36,.38,.40,.42,.44,.46,.48,.50,.52 .54 | 59270 | 3.6-7.8 ; 2022- 2026 | YZ250 | 44497 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8 ; 2006-2021 | YZ 250 | 44453 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8 ; 1996-2003 | YZ 250 | 41460 | .36,.38,.40,.42,.44,.46,.48,.50,.52 .54 | 59270 | 3.6-7.8 ; 2006-2013 | YZ 250F | 44453 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8 ; 2001-2003 | YZ 250F | 41460 | .36,.38,.40,.42,.44,.46,.48,.50,.52 .54 | 59270 | 3.6-7.8 ; 2006-2009 | YZ 450F | 44453 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8 ; 2005 | YZ 450F | 44467 | .36,.38,.40,.42,.44,.46,.48,.50 .52 .54 | 59270 | 3.6-7.8 ; 2004 | YZ 450F | 44480 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 59270 | 3.6-7.8 ; 1998-2003 | YZ 450F | 41460 | .36,.38,.40,.42,.44,.46,.48,.50,.52 .54 | 59270 | 3.6-7.8",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Rates as printed: 3.6-7.8. Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-30338-21",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 30338 (.16-.24)",
+   "part_numbers": [],
+   "variants": [
+    ".16 = 30338",
+    ".18 = 30338",
+    ".20 = 30338",
+    ".22 = 30338",
+    ".24 = 30338"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "50 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2012-2024 50 SX"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2012-2024 | 50 SX | 30338 | .16,.18,.20,.22,.24 | 46130 SR | 3.0-4.4",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-46130 SR-22",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 46130 SR (3.0-4.4)",
+   "part_numbers": [],
+   "variants": [
+    "3.0 = 46130 SR",
+    "3.2 = 46130 SR",
+    "3.4 = 46130 SR",
+    "3.6 = 46130 SR",
+    "3.8 = 46130 SR",
+    "4.0 = 46130 SR",
+    "4.2 = 46130 SR",
+    "4.4 = 46130 SR"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "50 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2012-2024 50 SX"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2012-2024 | 50 SX | 30338 | .16,.18,.20,.22,.24 | 46130 SR | 3.0-4.4",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-46190-23",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 46190 (3.0-5.0)",
+   "part_numbers": [],
+   "variants": [
+    "3.0 = 46190",
+    "3.2 = 46190",
+    "3.4 = 46190",
+    "3.6 = 46190",
+    "3.8 = 46190",
+    "4.0 = 46190",
+    "4.2 = 46190",
+    "4.4 = 46190",
+    "4.6 = 46190",
+    "4.8 = 46190",
+    "5.0 = 46190"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2024-2025 65 SX"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2024-2025 | 65 SX | AER | 46190 | 3.0-5.0",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-38425-25",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 38425 (.26-.40)",
+   "part_numbers": [],
+   "variants": [
+    ".26 = 38425",
+    ".28 = 38425",
+    ".30 = 38425",
+    ".32 = 38425",
+    ".34 = 38425",
+    ".36 = 38425",
+    ".38 = 38425",
+    ".40 = 38425"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2012-2024 85 SX"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2012-2024 85 SX"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2012-2024 | 85 SX | 38425 | .26,.28,.30,.32,.34,.36,.38,.40 | 60215 | 3.0-7.8",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-60215-26",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 60215",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2012-2024 85 SX"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2012-2024 85 SX"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2012-2024 | 85 SX | 38425 | .26,.28,.30,.32,.34,.36,.38,.40 | 60215 | 3.0-7.8",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Rates as printed: 3.0-7.8. Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-44470-27",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 44470 (.36-.54) (coil conversion, air-fork models)",
+   "part_numbers": [],
+   "variants": [
+    ".36 = 44470",
+    ".38 = 44470",
+    ".40 = 44470",
+    ".42 = 44470",
+    ".44 = 44470",
+    ".46 = 44470",
+    ".48 = 44470",
+    ".50 = 44470",
+    ".52 = 44470",
+    ".54 = 44470"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2016-2025 125 SX"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2016-2025 | 125 SX | 44470/AER | .36 .38 .40 .42 .44 .46 .48 .50 .52 .54 | 62250 | 3.4 -5.8",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Chart lists this beside the air fork (AER): the springs are for coil-spring forks or a coil conversion. Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-62250-28",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 62250 (3.4-5.8)",
+   "part_numbers": [],
+   "variants": [
+    "3.4 = 62250",
+    "3.6 = 62250",
+    "3.8 = 62250",
+    "4.0 = 62250",
+    "4.2 = 62250",
+    "4.4 = 62250",
+    "4.6 = 62250",
+    "4.8 = 62250",
+    "5.0 = 62250",
+    "5.2 = 62250",
+    "5.4 = 62250",
+    "5.6 = 62250",
+    "5.8 = 62250"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2016-2025 125 SX"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2025
+     ],
+     "notes": "Chart: 2016-2025 150 SX"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2016-2025 250 SX/SX-F"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2016-2025 250 SX/SX-F"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2016-2024 250 XC/XC-F"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2016-2024 250 XC/XC-F"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2016-2025 350 SX-F / XC-F"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2016-2025 350 SX-F / XC-F"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2025 450 XCF"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Chart: 2016-2026 450 SX-F/XC-F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2016-2025 | 125 SX | 44470/AER | .36 .38 .40 .42 .44 .46 .48 .50 .52 .54 | 62250 | 3.4 -5.8 ; 2016-2025 | 150 SX | 44470/AER | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62250 | 3.4 - 5.8 ; 2016-2025 | 250 SX/SX-F | 44470/AER | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62250 | 3.4 - 5.8 ; 2016-2024 | 250 XC/XC-F | 44470 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62250 | 3.4 - 5.8 ; 2016-2025 | 350 SX-F / XC-F | AER/44470 | 62250 | 3.4 - 5.8 ; 2025 | 450 XCF | 44470 | .36 - .70 EVEN RATES | 62250 | 3.4-5.8 ; 2018-2024 | 450 XC-F | AER/44470 | 62250 | 3.4-5.8 ; 2016-2017 | 450 XC-F | 44470 | .36 - .70 EVEN RATES | 62250 | 3.4 - 5.8 ; 2016-2026 | 450 SX-F/XC-F | AER | 62250 | 3.4 -5.8",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-43485-29",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 43485 (.36-.54)",
+   "part_numbers": [],
+   "variants": [
+    ".36 = 43485",
+    ".38 = 43485",
+    ".40 = 43485",
+    ".42 = 43485",
+    ".44 = 43485",
+    ".46 = 43485",
+    ".48 = 43485",
+    ".50 = 43485",
+    ".52 = 43485",
+    ".54 = 43485"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+     ],
+     "notes": "Chart: 2008-2015 125 SX"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+     ],
+     "notes": "Chart: 2009-2015 150 SX"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+     ],
+     "notes": "Chart: 2008-2015 250 SX/SX-F"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+     ],
+     "notes": "Chart: 2008-2015 250 SX/SX-F"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2011,
+      2012,
+      2013
+     ],
+     "notes": "Chart: 2008-2013 250 XC/XC-F"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2011,
+      2012,
+      2013
+     ],
+     "notes": "Chart: 2008-2013 250 XC/XC-F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2008-2015 | 125 SX | 43485 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0 ; 2009-2015 | 150 SX | 43485 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0 ; 2008-2015 | 250 SX/SX-F | 43485 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0 ; 2008-2013 | 250 XC/XC-F | 43485 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-62260-30",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 62260",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+     ],
+     "notes": "Chart: 2008-2015 125 SX"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+     ],
+     "notes": "Chart: 2009-2015 150 SX"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+     ],
+     "notes": "Chart: 2008-2015 250 SX/SX-F"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+     ],
+     "notes": "Chart: 2008-2015 250 SX/SX-F"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+     ],
+     "notes": "Chart: 2014-2015 250 XC/XC-F"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+     ],
+     "notes": "Chart: 2014-2015 250 XC/XC-F"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC-W",
+     "years": [
+      2013,
+      2014,
+      2015,
+      2016
+     ],
+     "notes": "Chart: 2006-2016 300 XC-W"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2011,
+      2012,
+      2013
+     ],
+     "notes": "Chart: 2008-2013 300 XC"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+     ],
+     "notes": "Chart: 2011-2015 350 SX-F"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2013,
+      2014,
+      2015
+     ],
+     "notes": "Chart: 2014-2015 450 XC-F"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+     ],
+     "notes": "Chart: 2008-2015 450 SX-F"
+    },
+    {
+     "make": "KTM",
+     "model": "500 XC-W",
+     "years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+     ],
+     "notes": "Chart: 2012-2016 500 XC-W/EXC"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2008-2015 | 125 SX | 43485 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0 ; 2007 | 125 SX | 43457 | .36,.38,.40,.42,.44,.46,.48,.50,.52 | 62260 | 4.2-10.0 ; 2002-2006 | 125 SX | 43505 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0 ; 1999-2001 | 125 SX | 38510 | .36,.38,.40,.42,.44,.46,.48,.50,.52 | 62260 | 4.2-10.0 ; 2009-2015 | 150 SX | 43485 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0 ; 2008-2015 | 250 SX/SX-F | 43485 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0 ; 2007 | 250 SX/SX-F | 43457 | .36,.38,.40,.42,.44,.46,.48,.50,.52 | 62260 | 4.2-10.0 ; 2014-2015 | 250 XC/XC-F | 44470 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0 ; 2008-2013 | 250 XC/XC-F | 43485 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0 ; 2006-2016 | 300 XC-W | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0 ; 2008-2013 | 300 XC | 43485 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0 ; 2006-2007 | 300 XC | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0 ; 2011-2015 | 350 SX-F | 43485 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0 ; 2014-2015 | 450 XC-F | 44470 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0 ; 2008-2013 | 450 XC-F | 43485 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0 ; 2008-2015 | 450 SX-F | 43485 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0 ; 2007 | 450 SX-F | 43457 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0 ; 2012-2016 | 500 XC-W/EXC | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Rates as printed: 4.2-10.0. Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-44470-34",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 44470 (.36-.54) (coil conversion, air-fork models)",
+   "part_numbers": [],
+   "variants": [
+    ".36 = 44470",
+    ".38 = 44470",
+    ".40 = 44470",
+    ".42 = 44470",
+    ".44 = 44470",
+    ".46 = 44470",
+    ".48 = 44470",
+    ".50 = 44470",
+    ".52 = 44470",
+    ".54 = 44470"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2025
+     ],
+     "notes": "Chart: 2016-2025 150 SX"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2016-2025 250 SX/SX-F"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2016-2025 250 SX/SX-F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2016-2025 | 150 SX | 44470/AER | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62250 | 3.4 - 5.8 ; 2016-2025 | 250 SX/SX-F | 44470/AER | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62250 | 3.4 - 5.8",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Chart lists this beside the air fork (AER): the springs are for coil-spring forks or a coil conversion. Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-44470-35",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 44470 (.36-.54)",
+   "part_numbers": [],
+   "variants": [
+    ".36 = 44470",
+    ".38 = 44470",
+    ".40 = 44470",
+    ".42 = 44470",
+    ".44 = 44470",
+    ".46 = 44470",
+    ".48 = 44470",
+    ".50 = 44470",
+    ".52 = 44470",
+    ".54 = 44470"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2016-2024 250 XC/XC-F"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2016-2024 250 XC/XC-F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2016-2024 | 250 XC/XC-F | 44470 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62250 | 3.4 - 5.8 ; 2014-2015 | 250 XC/XC-F | 44470 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-43505-36",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 43505 (.36-.70)",
+   "part_numbers": [],
+   "variants": [
+    ".36 = 43505",
+    ".38 = 43505",
+    ".40 = 43505",
+    ".42 = 43505",
+    ".44 = 43505",
+    ".46 = 43505",
+    ".48 = 43505",
+    ".50 = 43505",
+    ".52 = 43505",
+    ".54 = 43505",
+    ".56 = 43505",
+    ".58 = 43505",
+    ".60 = 43505",
+    ".62 = 43505",
+    ".64 = 43505",
+    ".66 = 43505",
+    ".68 = 43505",
+    ".70 = 43505"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "300 XC-W",
+     "years": [
+      2013,
+      2014,
+      2015,
+      2016
+     ],
+     "notes": "Chart: 2006-2016 300 XC-W"
+    },
+    {
+     "make": "KTM",
+     "model": "500 XC-W",
+     "years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+     ],
+     "notes": "Chart: 2012-2016 500 XC-W/EXC"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2006-2016 | 300 XC-W | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0 ; 2006-2007 | 300 XC | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0 ; 2012-2016 | 500 XC-W/EXC | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-62260-62250-37",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 62260/62250",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2014-2025 300 XC"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2014-2025 | 300 XC | 44470 | .36 - .70 EVEN RATES | 62260/62250 | 4.2-10.0",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Rates as printed: 4.2-10.0. Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-43485-38",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 43485 (.36-.70)",
+   "part_numbers": [],
+   "variants": [
+    ".36 = 43485",
+    ".38 = 43485",
+    ".40 = 43485",
+    ".42 = 43485",
+    ".44 = 43485",
+    ".46 = 43485",
+    ".48 = 43485",
+    ".50 = 43485",
+    ".52 = 43485",
+    ".54 = 43485",
+    ".56 = 43485",
+    ".58 = 43485",
+    ".60 = 43485",
+    ".62 = 43485",
+    ".64 = 43485",
+    ".66 = 43485",
+    ".68 = 43485",
+    ".70 = 43485"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2011,
+      2012,
+      2013
+     ],
+     "notes": "Chart: 2008-2013 300 XC"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+     ],
+     "notes": "Chart: 2011-2015 350 SX-F"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2013
+     ],
+     "notes": "Chart: 2008-2013 450 XC-F"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+     ],
+     "notes": "Chart: 2008-2015 450 SX-F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2008-2013 | 300 XC | 43485 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0 ; 2011-2015 | 350 SX-F | 43485 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0 ; 2008-2013 | 450 XC-F | 43485 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0 ; 2008-2015 | 450 SX-F | 43485 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-44470-39",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 44470 (coil conversion, air-fork models)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2016-2025 350 SX-F / XC-F"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Chart: 2016-2025 350 SX-F / XC-F"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2018-2024 450 XC-F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2016-2025 | 350 SX-F / XC-F | AER/44470 | 62250 | 3.4 - 5.8 ; 2018-2024 | 450 XC-F | AER/44470 | 62250 | 3.4-5.8",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Chart lists this beside the air fork (AER): the springs are for coil-spring forks or a coil conversion. No rates printed for this row. Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-67240-42",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 67240 (3.6-6.8)",
+   "part_numbers": [],
+   "variants": [
+    "3.6 = 67240",
+    "3.8 = 67240",
+    "4.0 = 67240",
+    "4.2 = 67240",
+    "4.4 = 67240",
+    "4.6 = 67240",
+    "4.8 = 67240",
+    "5.0 = 67240",
+    "5.2 = 67240",
+    "5.4 = 67240",
+    "5.6 = 67240",
+    "5.8 = 67240",
+    "6.0 = 67240",
+    "6.2 = 67240",
+    "6.4 = 67240",
+    "6.6 = 67240",
+    "6.8 = 67240"
+   ],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2018-2024 RMZ 450"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2018-2024 | RMZ 450 | 45470 | .36 - .70 EVEN RATES | 67240 | 3.6-6.8",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-64258-64275-43",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 64258/64275 (3.6-6.8)",
+   "part_numbers": [],
+   "variants": [
+    "3.6 = 64258/64275",
+    "3.8 = 64258/64275",
+    "4.0 = 64258/64275",
+    "4.2 = 64258/64275",
+    "4.4 = 64258/64275",
+    "4.6 = 64258/64275",
+    "4.8 = 64258/64275",
+    "5.0 = 64258/64275",
+    "5.2 = 64258/64275",
+    "5.4 = 64258/64275",
+    "5.6 = 64258/64275",
+    "5.8 = 64258/64275",
+    "6.0 = 64258/64275",
+    "6.2 = 64258/64275",
+    "6.4 = 64258/64275",
+    "6.6 = 64258/64275",
+    "6.8 = 64258/64275"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "WR250F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2020-2024 WR250F"
+    },
+    {
+     "make": "Yamaha",
+     "model": "WR450F",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Chart: 2019-2024 WR 450F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2020-2024 | WR250F | 44497 | .36-.70 EVEN RATES | 64258/64275 | 3.6-6.8 ; 2019-2024 | WR 450F | 44497 | .36-.70 EVEN RATES | 64258/64275 | 3.6-6.8",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-64275-44",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 64275 (3.6-6.8)",
+   "part_numbers": [],
+   "variants": [
+    "3.6 = 64275",
+    "3.8 = 64275",
+    "4.0 = 64275",
+    "4.2 = 64275",
+    "4.4 = 64275",
+    "4.6 = 64275",
+    "4.8 = 64275",
+    "5.0 = 64275",
+    "5.2 = 64275",
+    "5.4 = 64275",
+    "5.6 = 64275",
+    "5.8 = 64275",
+    "6.0 = 64275",
+    "6.2 = 64275",
+    "6.4 = 64275",
+    "6.6 = 64275",
+    "6.8 = 64275"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "WR250F",
+     "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+     ],
+     "notes": "Chart: 2015-2019 WR250F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2015-2019 | WR250F | 43461 | .36-.70 EVEN RATES | 64275 | 3.6-6.8",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-31334-46",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 31334 (.24-.38)",
+   "part_numbers": [],
+   "variants": [
+    ".24 = 31334",
+    ".26 = 31334",
+    ".28 = 31334",
+    ".30 = 31334",
+    ".32 = 31334",
+    ".34 = 31334",
+    ".36 = 31334",
+    ".38 = 31334"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ65",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Chart: 2018-2026 YZ 65"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2018-2026 | YZ 65 | 31334 | .24 .26 .28 .30 .32 .34 .36 .38 | 55208 | 3.4-6.4",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-55208-47",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 55208 (3.4-6.4)",
+   "part_numbers": [],
+   "variants": [
+    "3.4 = 55208",
+    "3.6 = 55208",
+    "3.8 = 55208",
+    "4.0 = 55208",
+    "4.2 = 55208",
+    "4.4 = 55208",
+    "4.6 = 55208",
+    "4.8 = 55208",
+    "5.0 = 55208",
+    "5.2 = 55208",
+    "5.4 = 55208",
+    "5.6 = 55208",
+    "5.8 = 55208",
+    "6.0 = 55208",
+    "6.2 = 55208",
+    "6.4 = 55208"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ65",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Chart: 2018-2026 YZ 65"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2018-2026 | YZ 65 | 31334 | .24 .26 .28 .30 .32 .34 .36 .38 | 55208 | 3.4-6.4",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-55225-48",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 55225 (3.4-6.8)",
+   "part_numbers": [],
+   "variants": [
+    "3.4 = 55225",
+    "3.6 = 55225",
+    "3.8 = 55225",
+    "4.0 = 55225",
+    "4.2 = 55225",
+    "4.4 = 55225",
+    "4.6 = 55225",
+    "4.8 = 55225",
+    "5.0 = 55225",
+    "5.2 = 55225",
+    "5.4 = 55225",
+    "5.6 = 55225",
+    "5.8 = 55225",
+    "6.0 = 55225",
+    "6.2 = 55225",
+    "6.4 = 55225",
+    "6.6 = 55225",
+    "6.8 = 55225"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Chart: 1999-2026 YZ 85"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "1999-2026 | YZ 85 | 31428 | .24,.26,.28,.30,.32,.34,.36,.38 .40 | 55225 | 3.4-6.8",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-44497-49",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 44497",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ125",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Chart: 2022-2026 YZ 125"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2022-2026 | YZ 125 | 44497 | JH | 59270 | 3.6-7.8",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Rates as printed: JH. Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-fork-44453-50",
+   "category": "suspension",
+   "subcategory": "fork spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Fork Springs 44453 (.36-.70)",
+   "part_numbers": [],
+   "variants": [
+    ".36 = 44453",
+    ".38 = 44453",
+    ".40 = 44453",
+    ".42 = 44453",
+    ".44 = 44453",
+    ".46 = 44453",
+    ".48 = 44453",
+    ".50 = 44453",
+    ".52 = 44453",
+    ".54 = 44453",
+    ".56 = 44453",
+    ".58 = 44453",
+    ".60 = 44453",
+    ".62 = 44453",
+    ".64 = 44453",
+    ".66 = 44453",
+    ".68 = 44453",
+    ".70 = 44453"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ125",
+     "years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+     ],
+     "notes": "Chart: 2006-2021 YZ 125"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250",
+     "years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+     ],
+     "notes": "Chart: 2006-2021 YZ 250"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2010,
+      2011,
+      2012,
+      2013
+     ],
+     "notes": "Chart: 2006-2013 YZ 250F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2006-2021 | YZ 125 | 44453 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8 ; 2006-2021 | YZ 250 | 44453 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8 ; 2006-2013 | YZ 250F | 44453 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8 ; 2006-2009 | YZ 450F | 44453 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8",
+   "what_it_changes": "Replacement fork springs in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  },
+  {
+   "id": "cannon-shock-64258-64275-52",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Cannon Racecraft",
+   "product": "Cannon Racecraft Shock Spring 64258/64275 (4.6-6.8)",
+   "part_numbers": [],
+   "variants": [
+    "4.6 = 64258/64275",
+    "4.8 = 64258/64275",
+    "5.0 = 64258/64275",
+    "5.2 = 64258/64275",
+    "5.4 = 64258/64275",
+    "5.6 = 64258/64275",
+    "5.8 = 64258/64275",
+    "6.0 = 64258/64275",
+    "6.2 = 64258/64275",
+    "6.4 = 64258/64275",
+    "6.6 = 64258/64275",
+    "6.8 = 64258/64275"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Chart: 2014-2026 YZ 250F"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Chart: 2014-2026 YZ 450F"
+    }
+   ],
+   "fitment_source_url": "https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf",
+   "fitment_line": "2014-2026 | YZ 250F | 44497 | .36 - .70 EVEN RATES | 64258/64275 | 4.6-6.8 ; 2014-2026 | YZ 450F | 44497 | .36 - .70 EVEN RATES | 64258/64275 | 4.6-6.8",
+   "what_it_changes": "Replacement shock spring in a choice of rates to suit the rider.",
+   "supporting_parts": "",
+   "caveats": "Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before ordering.",
+   "price": "",
+   "confidence": "medium"
+  }
+ ],
+ "unread": [
+  {
+   "page": 2,
+   "line": "1996-2001 | CR 80R/RB EXP | 32448 | .26-.50 EVEN RATES | 55240 | 3.2-7.6",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 2,
+   "line": "2002-2025 | CR 85R/RB EXP | 32448 | .26-.50 EVEN RATES | 55240 | 3.2-7.6",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 2,
+   "line": "2001-2007 | CR 125R | 41485 | .36,.38,.40,.42,.44,.46,.48,.50.52.54 | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 2,
+   "line": "1997-2000 | CR 125R | 41470 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 2,
+   "line": "2003-2009 | CRF 230F | 30597 | .40,.42,.44,.46,.48 | SPECIAL",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 2,
+   "line": "2000-2009 | CR 250R/ CRF 250R | 43495 | .36 - .70 EVEN RATES | 67265 | 3.6-6.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 2,
+   "line": "1997-1999 | CR 250R | 43495 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 2,
+   "line": "1996 | CR 250R | 41470 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 2,
+   "line": "1996- 2002 | CR500R | 41470 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 59270 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 2,
+   "line": "1996-2004 | XR 250R | 34444 | .36,.38,.40,.42,.44,.46,.48,.50,.52.54 | 57190 | 11.0-12.6",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 2,
+   "line": "2000-2004 | XR 400R | SPECIAL VERIFY | 64220 | 8.0-12.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 2,
+   "line": "1996-1999 | XR 400R | 37505 | .42,.44,.46,.48,.50,.52,.54 | 64220 | 8.0-12.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 2,
+   "line": "1996-2000 | XR 600R | SPECIAL VERIFY | 64220 | 8.0-12.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 2,
+   "line": "2000-2024 | XR 650R | 39505 | .42,.44,.46,.48,.50,.52,.54 | 62247 | 8.4-11.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 2,
+   "line": "1993-2024 | XR 650L | 37505 | .42,.44,.46,.48,.50,.52,.54 | 64220 | 8.0-12.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "1992-2000 | KX 80 | 31428 | .24,.26,.28,.30,.32,.34,.36,.38.40 | 55240 | 3.2-7.6",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "2003-2007 | KX 125 | 43461 | .36,.38,.40,.42,.44,.46,.48,.50,.52.54 | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "2004-2005 | KX 250F (4 STR) | 43461 | .36-.70 EVEN RATES | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "2005-2007 | KX 250 (2 STR) | 44467 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 59270 | 3.6-6.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "2003-2004 | KX 250 | 43461 | .36-.70 EVEN RATES | 59270 | 3.6-6.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "2002 | KX 250 | SPECIAL VERIFY | 59270 | 3.6-6.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "1996-2001 | KX 250 | 41470 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 59270 | 3.6-6.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "1997-2004 | KX 500 | 41470 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "1991-1993 | KX 500 | 38510 | .36,.38,.40,.42,.44,.46,.48,.50,.52.54 | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "1993-2006 | KDX 200 | 36472 | SPECIAL VERIFY | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "1997-2005 | KDX 220 | 36472 | SPECIAL VERIFY | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "2002-2012 | KLX 110 | SPECIAL VERIFY | 48143 | SPECIAL",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "2002-2003 | KLX 125 | SPECIAL VERIFY | SPECIAL"
+  },
+  {
+   "page": 3,
+   "line": "2006-2008 | KLX 250 | SPECIAL VERIFY | 5661257 | 6.0-8.4",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "2009-2012 | KLX 250S/SF | SPECIAL VERIFY | 5661257 | 6.0-8.4",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "1994-2025 | KLX 300 | 39462 | .36 - .54 EVEN RATES | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "2003-2004 | KLX 400 | 43505 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "2008-2010 | KLX 450/KLX 450R | 43461 | .36 -.70 EVEN RATES | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 3,
+   "line": "2008-2009 | KLR 650 | SPECIAL VERIFY | SPECIAL"
+  },
+  {
+   "page": 3,
+   "line": "1995-2007 | KLR 650 | SPECIAL VERIFY | 55240 | 3.2-7.6",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2011 | 50 JR/SR | SPECIAL VERIFY | 46130J(46x42x130) | SPECIAL"
+  },
+  {
+   "page": 4,
+   "line": "2002-2011 | 65 SX/XC | 30382 | .26,.28,.30,.32,.34,.36,.38 | 46212 | 3.2-6.6",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2004-2011 | 85 SX/XC | 38425 | .26,.28,.30,.32,.34,.36,.38, .40 | 60238 | 3.0-6.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2004-2011 | 105 SX/XC | 38425 | .26,.28,.30,.32,.34,.36,.38,.40 | 60238 | 3.0-6.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2013-2016 | 125 EXC SIX DAYS | 44465 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2003-2016 | 125 EXC | 43505 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "1999-2002 | 125 EXC | 38510 | .36,.38,.40,.42,.44,.46,.48,.50,.52 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2007-2008 | 125 XC-W | 43505 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2016 | 150 XC | 44470 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62250 | 3.4 - 5.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2014-2015 | 150 XC | 44465 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2009-2013 | 150 XC | 43485 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2006-2016 | 200 XC-W | 43505 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2003-2005 | 200 EXC/MXC | 43505 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "1999-2002 | 200 EXC/MXC | 38510 | .36,.38,.40,.42,.44,.46,.48,.50,.52 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2008-2010 | 200 XC | 43457 | .36,.38,.40,.42,.44,.46,.48,.50,.52 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2006-2007 | 200 XC | 43505 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2003-2005 | 200 SX | 43505 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2002-2006 | 250 SX | 43505 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2000-2001 | 250 SX | 38510 | .36,.38,.40,.42,.44,.46,.48,.50,.52 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2017-2025 | 250 XCF-W/XC-W | 44470 | .36-.70 EVEN RATES | 60230 | 5.1-5.7/8.4-9.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2008-2016 | 250 XCF-W/XC-W | 43505 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54, | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2007 | 250 XC/XC-F/XCF-W/XC-W | 43505 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2006-2007 | 250 XC/SX-F/SX | 43505 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2017-2024 | 250 EXC | 44470 | .36-.70 EVEN RATES | 60230 | 5.1-5.7/8.4-9.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2003-2016 | 250 EXC | 43505 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 4,
+   "line": "2000-2002 | 250 EXC/MXC | 38510 | .36,.38,.40,.42,.44,.46,.48,.50,.52 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2013-2016 | 250/300 EXC SIX DAYS | 44465 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2003-2015 | 300 EXC/MXC | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2000-2002 | 300 EXC/MXC | 38510 | .36,.38,.40,.42,.44,.46,.48,.50,.52.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2017-2025 | 350EXC-F/XCF-W | 44470 | .36-.70 EVEN RATES | 60230 | 5.1-5.7/8.4-9.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2012-2015 | 350 EXC-F/XCF-W | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2014 | 350 XC-F | 44470 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2011-2013 | 350 XC-F | 43485 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2013-2014 | 350 EXC-F SIX DAYS | 44465 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "07,09-10 | 400 XC-W | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0"
+  },
+  {
+   "page": 5,
+   "line": "2002 | 400 SX | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2000-2001 | 400 SX/EXC | 38510 | .36,.38,.40,.42,.44,.46,.48,.50,.52 .54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2001-2002 | 400 LC4 DUAL SPORT | 38510 | .36,.38,.40,.42,.44,.46,.48,.50,.52 .54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2003-2006 | 450 SX | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2017-2024 | 450 XCF-W/EXC-F | 44470 | .36-.70 EVEN RATES | 60230 | 5.1-5.7/8.4-9.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2006-2016 | 450 XC-W | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2009-2011 | 450 EXC | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2014 | 450 EXC SIX DAYS | 44465 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2017-2024 | 500 XCF-W/EXC-F | 44470 | .36-.70 EVEN RATES | 60230 | 5.1-5.7/8.4-9.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2013-2016 | 500 EXC SIX DAYS | 44465 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2008-2009 | 505 XC-F/SX-F | 43485 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2000-2002 | 520 EXC | 38510 | .36,.38,.40,.42,.44,.46,.48,.50,.52 .54 | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 5,
+   "line": "2002 | 520 SX | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2006-2007 | 525 XC-W/XC | 43505 | .36-.70 EVEN RATES | 62260 | 4.2-10.00",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2006 | 525 EXC-G RACING | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2006 | 525 XC-G RACING | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2009-2011 | 530 EXC | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2008-2010 | 530 XC-W | 43505 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2008 | 560 SMR | 43485 | .36 - .70 EVEN RATES | 62260 | 4.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2003-2006 | 640 LC4 ADVENTURE | 43485 | .36 - .70 EVEN RATES | 59250 | Special",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2001-2004 | 640 LC4 DUAL SPORT | 38510 | .36,.38,.40,.42,.44,.46,.48,.50,.52 .54 | 59250 | Special",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2019-2024 | 690/HUSKY 701 | 435430 | .62-.72 EVEN RATES",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2012-2018 | 690 ENDURO R | 44470 | .36 - .70 EVEN RATES | 61220 | 7.0-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2008-2011 | 690 ENDURO R | 43485 | .36 - .70 EVEN RATES | 61220 | 7.0-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2008-2010 | 690 SMC/SMR | 43485 | .36 - .70 EVEN RATES | 61220 | 7.0-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2009 | 690 DUKE | 43485 | .36 - .70 EVEN RATES | 61220 | 7.0-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2008 | 690 ENDURO | 43465 | .38 -.70 EVEN RATES | 61220 | 7.0-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2008 | 690 SM | 43505 | .36 - .70 EVEN RATES | 61220 | 7.0-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2019-2022 | 790/890 ADVENTURE | 438460 | .68-.80 EVEN RATES | 59210 | 10.0-11.2",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2009 | 950 S | 43465 | .38 -.70 EVEN RATES | SPECIAL",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2007-2008 | 950 SM | 43457 | .36 - .70 EVEN RATES",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2007-2008 | 950 SUPER ENDURO | 43457 | .36 - .70 EVEN RATES",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "2004-2006 | 950 ADVENTURE | 43485 | .36 - .70 EVEN RATES",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "09,11-12 | 990 ADVENTURE R | 43465 | .38-.70 EVEN RATES | SPECIAL"
+  },
+  {
+   "page": 6,
+   "line": "2007-2010 | 990 ADVENTURE S | 43465 | .38-.70 EVEN RATES | SPECIAL",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 6,
+   "line": "1090/1190/1290ADV | 59205 | 19.4 & 20.4"
+  },
+  {
+   "page": 7,
+   "line": "60215, 60238 | 3.2-4.0 | VARIABLE RATE SHOCK SPRINGS FOR KTM 85/105SX"
+  },
+  {
+   "page": 7,
+   "line": "60215, 60238 | 3.6-4.6 | VARIABLE RATE SHOCK SPRINGS FOR KTM 85/105SX"
+  },
+  {
+   "page": 7,
+   "line": "60215, 60238 | 4.0-5.0 | VARIABLE RATE SHOCK SPRINGS FOR KTM 85/105SX"
+  },
+  {
+   "page": 7,
+   "line": "60230 | 5.1 - 5.7 | VARIABLE RATE SHOCK SPRINGS FOR KTM"
+  },
+  {
+   "page": 7,
+   "line": "60230 | 5.4 - 6.0 | VARIABLE RATE SHOCK SPRINGS FOR KTM"
+  },
+  {
+   "page": 7,
+   "line": "60230 | 5.7 - 6.3 | VARIABLE RATE SHOCK SPRINGS FOR KTM"
+  },
+  {
+   "page": 7,
+   "line": "60230 | 6.0 - 6.6 | VARIABLE RATE SHOCK SPRINGS FOR KTM"
+  },
+  {
+   "page": 7,
+   "line": "60230 | 6.3 - 6.9 | VARIABLE RATE SHOCK SPRINGS FOR KTM"
+  },
+  {
+   "page": 7,
+   "line": "60230 | 6.6 - 7.2 | VARIABLE RATE SHOCK SPRINGS FOR KTM"
+  },
+  {
+   "page": 7,
+   "line": "60230 | 6.9 - 7.5 | VARIABLE RATE SHOCK SPRINGS FOR KTM"
+  },
+  {
+   "page": 7,
+   "line": "60230 | 7.2 - 7.8 | VARIABLE RATE SHOCK SPRINGS FOR KTM"
+  },
+  {
+   "page": 7,
+   "line": "60230 | 7.5 - 8.1 | VARIABLE RATE SHOCK SPRINGS FOR KTM"
+  },
+  {
+   "page": 7,
+   "line": "60230 | 7.8 - 8.4 | VARIABLE RATE SHOCK SPRINGS FOR KTM"
+  },
+  {
+   "page": 7,
+   "line": "60230 | 8.1 - 8.6 | VARIABLE RATE SHOCK SPRINGS FOR KTM"
+  },
+  {
+   "page": 7,
+   "line": "60230 | 8.4 - 9.0 | VARIABLE RATE SHOCK SPRINGS FOR KTM"
+  },
+  {
+   "page": 7,
+   "line": "46212 | 3.0-4.0 | VARIABLE RATE SHOCK SPRINGS FOR KTM 65SX/KX65"
+  },
+  {
+   "page": 7,
+   "line": "46212 | 3.2-5.0 | VARIABLE RATE SHOCK SPRINGS FOR KTM 65SX/KX65"
+  },
+  {
+   "page": 7,
+   "line": "46212 | 3.5-5.2 | VARIABLE RATE SHOCK SPRINGS FOR KTM 65SX/KX65"
+  },
+  {
+   "page": 7,
+   "line": "46212 | 3.6-4.6 | VARIABLE RATE SHOCK SPRINGS FOR KTM 65SX/KX65"
+  },
+  {
+   "page": 7,
+   "line": "46212 | 3.8-5.0 | VARIABLE RATE SHOCK SPRINGS FOR KTM 65SX/KX65"
+  },
+  {
+   "page": 7,
+   "line": "46212 | 3.8-6.0 | VARIABLE RATE SHOCK SPRINGS FOR KTM 65SX/KX65"
+  },
+  {
+   "page": 7,
+   "line": "VARIABLE: -2 | 6.0-8.0 | VARIABLE RATE SHOCK SPRING FOR PDS STYLE SHOCK"
+  },
+  {
+   "page": 7,
+   "line": "VARIABLE: -5 | 6.6-8.6 | VARIABLE RATE SHOCK SPRING FOR PDS STYLE SHOCK"
+  },
+  {
+   "page": 7,
+   "line": "VARIABLE: -6 | 7.0-9.0 | VARIABLE RATE SHOCK SPRING FOR PDS STYLE SHOCK"
+  },
+  {
+   "page": 7,
+   "line": "VARIABLE: -7 | 7.6-9.6 | VARIABLE RATE SHOCK SPRING FOR PDS STYLE SHOCK"
+  },
+  {
+   "page": 7,
+   "line": "VARIABLE: -8 | 8.0-10.0 | VARIABLE RATE SHOCK SPRING FOR PDS STYLE SHOCK"
+  },
+  {
+   "page": 7,
+   "line": "VARIABLE: -10 | 8.5-11.5 | VARIABLE RATE SHOCK SPRING FOR PDS STYLE SHOCK"
+  },
+  {
+   "page": 7,
+   "line": "VARIABLE: -11 | 9.5-12.0 | VARIABLE RATE SHOCK SPRING FOR PDS STYLE SHOCK"
+  },
+  {
+   "page": 7,
+   "line": "VARIABLE: -12 | 10.0-13.0 | VARIABLE RATE SHOCK SPRING FOR PDS STYLE SHOCK"
+  },
+  {
+   "page": 7,
+   "line": "VARIABLE: -13 | 11.0-14.0 | VARIABLE RATE SHOCK SPRING FOR PDS STYLE SHOCK"
+  },
+  {
+   "page": 7,
+   "line": "VARIABLE: -14 | 11.0-17.0 | VARIABLE RATE SHOCK SPRING FOR PDS STYLE SHOCK"
+  },
+  {
+   "page": 7,
+   "line": "VARIABLE: -LIGHT | 5.8-7.4 | VARIABLE RATE SHOCK SPRING FOR PDS STYLE SHOCK"
+  },
+  {
+   "page": 7,
+   "line": "VARIABLE: -X-LIGHT | 4.8-6.6 | VARIABLE RATE SHOCK SPRING FOR PDS STYLE SHOCK"
+  },
+  {
+   "page": 7,
+   "line": "VARIABLE: -XX-LIGHT | 4.0-6.0 | VARIABLE RATE SHOCK SPRING FOR PDS STYLE SHOCK"
+  },
+  {
+   "page": 7,
+   "line": "VARIABLE: P20C | 8.0-13.4 | VARIABLE RATE SHOCK SPRING FOR PDS STYLE SHOCK"
+  },
+  {
+   "page": 7,
+   "line": "VARIABLE: P25C | 8.9-14.8 | VARIABLE RATE SHOCK SPRING FOR PDS STYLE SHOCK"
+  },
+  {
+   "page": 8,
+   "line": "2006-2009 | DRZ 125 | SPECIAL VERIFY | NEED CONFIRMATION"
+  },
+  {
+   "page": 8,
+   "line": "2003 | DRZ 125 | SPECIAL VERIFY | SPECIAL"
+  },
+  {
+   "page": 8,
+   "line": "2000-2024 | DRZ 400E/S | 43505 | .36 - .70 EVEN RATES | 67265 | 3.6-6.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 8,
+   "line": "2005-2024 | DRZ 400SM | 43450 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 67265 | 3.6-6.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 8,
+   "line": "2001-2008 | DRZ 400 | 43505 | .36 - .70 EVEN RATES | 67265 | 3.6-6.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 8,
+   "line": "2024 | DR 650S | 37550 | Special | 5661257 | 6.0-8.4",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 8,
+   "line": "1999-2018 | DR 650SE | 37505 | .42,.44,.46,.48,.50,.52,.54 | 5661257 | 6.0-8.4",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 8,
+   "line": "2003-2006 | RM 65 | 27500 | .24,.26,.28,.30,.32,.34,.36 .38 | 46212 | 3.2-6.6",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 8,
+   "line": "2005-2024 | RM 85 | 32448 | .22-.50 EVEN RATES | 55240 | 3.2-7.6",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 8,
+   "line": "2002-2004 | RM 85 | 32448 | .22-.50 EVEN RATES | SPECIAL",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 8,
+   "line": "2007-2014 | RM 85L | 32448 | .22-.50 EVEN RATES | 55240 | 3.2-7.6",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 8,
+   "line": "2002-2006 | RM 100 | 31428 | .24,.26,.28,.30,.32,.34,.36,.38 .40 | 55240 | 3.2-7.6",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 8,
+   "line": "2004-2008 | RM 125 | 43495 | .36 - .70 EVEN RATES | 67265 | 3.6-6.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 8,
+   "line": "2004-2009 | RM 250 | 43495 | .36 - .70 EVEN RATES | 67265 | 3.6-6.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 8,
+   "line": "2003 | RM 250 | 41460 | .36,.38,.40,.42,.44,.46,.48,.50,.52 .54 | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 8,
+   "line": "2001-2002 | RM 250 | 41470 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 9,
+   "line": "2001-2009 | PW 50 | Forks | 26lbs, 37lbs, 44lbs | Shock | 25lb 35lb 45lb"
+  },
+  {
+   "page": 9,
+   "line": "2005-2014 | WR 250F | 43461 | .36 - .70 EVEN RATES | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 9,
+   "line": "2001-2004 | WR 250F | 41460 | .36,.38,.40,.42,.44,.46,.48,.50,.52 .54 | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 9,
+   "line": "1993-2001 | YZ 80 | 31428 | .24,.26,.28,.30,.32,.34,.36,.38 .40 | 55225 | 3.4-6.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 9,
+   "line": "2005 | YZ 250/250F | 44467 | .36,.38,.40,.42,.44,.46,.48,.50 .52 .54 | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 9,
+   "line": "2004 | YZ 250/250F | 44480 | .36,.38,.40,.42,.44,.46,.48,.50,.52,.54 | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 9,
+   "line": "2000-2007 | TTR 125 | SPECIAL VERIFY | SPECIAL"
+  },
+  {
+   "page": 9,
+   "line": "1999-2006 | TTR 225 | SPECIAL VERIFY | SPECIAL"
+  },
+  {
+   "page": 9,
+   "line": "2005-2024 | TTR 230 | 29614 | .36-.54 EVEN RATES | 57210 | 7.2-10.0",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 9,
+   "line": "1999-2007 | TTR 250 | SPECIAL VERIFY | 59270 | 3.6-7.8",
+   "why": "model not in the app or not mapped"
+  },
+  {
+   "page": 9,
+   "line": "Tenerea 700 (T7) | 38425 | .65 .70 .75 .80 | 55240 | 7.0 -9.5"
+  },
+  {
+   "page": 10,
+   "line": "I.C.S. | KYB: 106MM | STRAIGHT RATES: 1.0, 1.2, 1.4, 1.6, 1.8, 2.0, 2.2, 2.4, 2.6"
+  },
+  {
+   "page": 10,
+   "line": "MARZOCCHI | 45MM | 40462 | .36,.38,.40,.42,.44,.46,.48,50,.52"
+  },
+  {
+   "page": 10,
+   "line": "48MM | 44470 | .36,.38,.40,.42,.44,.46,.48,50,.52"
+  },
+  {
+   "page": 10,
+   "line": "50MM | 46450 | SPECIAL | UPSIDE DOWN-OPEN CARTRIDGE"
+  },
+  {
+   "page": 10,
+   "line": "50MM | 46465 | .36,.38,.40,.42,.44,.46,.48,50,.52,.54 | SHIVER-SEALED CARTRIDGE"
+  },
+  {
+   "page": 10,
+   "line": "OHLINS | 48MM | 43.8 x 465 | SPECIAL"
+  },
+  {
+   "page": 10,
+   "line": "SACHS | 48MM | 44467/43461 | .36,.38,.40,.42,.44,.46,.48,.50"
+  },
+  {
+   "page": 10,
+   "line": "OHLINS | 59275 | SPECIAL"
+  },
+  {
+   "page": 10,
+   "line": "SACHS | 60260 | 4.4-8.6"
+  },
+  {
+   "page": 10,
+   "line": "BANSHEE | 56235 | 5.8-9.6"
+  },
+  {
+   "page": 10,
+   "line": "HONDA | 1987-2007 | CR 80/85 | .834 OD x 1.555 FL | 4 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "07-09,12-16 | CRF 150R | .848 OD x 1.845 FL | 5 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2010-2016 | CRF 250R | .726 OD x 1.99 FL | 5 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2004-2009 | CRF 250R | .712 OD x 1.663 FL | 5 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2013-2016 | CRF 450R | .73 OD x 2.2 FL | 6 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2009-2012 | CRF 450R | .74 OD x 2.1 FL | 4 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "02-03,06-08 | CRF 450R | 0.732 OD x 2.055 FL | 6 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "KAWASAKI | 2006-2016 | KX 250F | .705 OD x 2.065 FL | 5 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2006-2016 | KX 450F | .785 OD x 2.03 FL | 5 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2006-2016 | KX 450F HD | .785 OD x 1.9 FL | 5 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "KTM | 2014 | 50SX SR | .545 OD x .660 FL | 6 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2009-2012 | 50 SX/SXS SR | .74 OD x 1.145 FL | 3 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2009-2014 | 65 SX | .720 OD x .95 FL | 6 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2003-2014 | 85 SX/105 SX | .577 OD x 1.55 FL | 5 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2006-2012 | 250 SX/XC/XC-W | .702 OD x 1.48 FL | 6 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2006-2012 | 250 SX-F/XC-F/XC-W | .703 OD x 1.7 FL | 5 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2011-2012 | 350 SX-F/XC-F | .728 OD x 1.8 FL | 6 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "SUZUKI | 2005-2015 | RMZ 250 | .705 OD x 2.065 FL | 5 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2008-2015 | RMZ 450 | .735 OD x 2.2 FL | 6 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "YAMAHA | 1981-2016 | PW 50 | 32# & 40# | 2 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2014-2016 | YZ 250F | .68 OD x 1.95 FL | 5 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2008-2013 | YZ 250F | .67 OD x 1.7 FL | 5 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2001-2007 | YZ 250F | .675 OD x 1.825 FL | 5 TO A SET"
+  },
+  {
+   "page": 10,
+   "line": "2006-2016 | YZ 450F | .67 OD x 2.14 FL | 6 TO A SET"
+  },
+  {
+   "page": 11,
+   "line": "FORK PART # | OD x LENGTH | FORK PART # | OD x LENGTH | SHOCK PART # | ID x LENGTH"
+  },
+  {
+   "page": 11,
+   "line": "24380 | 24.3 x 380 | 43485 | 43.5 x 485 | 46130 | 46.32 x 130"
+  },
+  {
+   "page": 11,
+   "line": "26380 | 26 x 380 | 43495 | 42.8 x 495 | 46190 | 46.5 x 190"
+  },
+  {
+   "page": 11,
+   "line": "27500 | 27 x 500 | 43505 | 43 x 505 | 46212 | 45.75 x 212"
+  },
+  {
+   "page": 11,
+   "line": "29380 | 29 x 380 | 435430 | 43.5 x 430 | 55225 | 55 x 225"
+  },
+  {
+   "page": 11,
+   "line": "30270 | 30 x 270 | 438450 | 43.8 x 450 | 55240 | 55 x 240"
+  },
+  {
+   "page": 11,
+   "line": "30338 | 30 x 338 | 438460 | 43.8 x 460 | 56235 | 56 x 235"
+  },
+  {
+   "page": 11,
+   "line": "30370 | 30 x 370 | 44453 | 44 x 453 | 57190 | 57 x 190"
+  },
+  {
+   "page": 11,
+   "line": "30382 | 30 x 382 | 44465 | 44 x 465 | 57210 | 57 x 210"
+  },
+  {
+   "page": 11,
+   "line": "30597 | 30 x 597 | 44467 | 43.5 x 467 | 59215 | 59 x 215"
+  },
+  {
+   "page": 11,
+   "line": "31334 | 31.2 x 334 | 44470 | 43.8 x 470 | 59250 | 59 x 250"
+  },
+  {
+   "page": 11,
+   "line": "31428 | 31.2 x 428 | 44480 | 43.5 x 480 | 59270 | 59.4 x 61 x 270"
+  },
+  {
+   "page": 11,
+   "line": "32340 | 31.7 x 340 | 44497 | 43.8 x 497 | 60215 | 60 x 215"
+  },
+  {
+   "page": 11,
+   "line": "32448 | 32.4 x 448 | 44664 | 44 x 664 | 60230 | 60 x 230"
+  },
+  {
+   "page": 11,
+   "line": "33370 | 32.8 x 370 | 45470 | 44.8 x 470 | 60238 | 60 x 238"
+  },
+  {
+   "page": 11,
+   "line": "34444 | 34.4 x 444 | 45503 | 45.1 x 503 | 60260 | 60 x 260"
+  },
+  {
+   "page": 11,
+   "line": "3530 | 35.2 x 300 | 46465 | 45.7 x 465 | 61220 | 61 x 220"
+  },
+  {
+   "page": 11,
+   "line": "3534 | 34.7 x 340 | 62225 | 62 x 225"
+  },
+  {
+   "page": 11,
+   "line": "37505 | 36.7 x 505 | 62247 | 61.5 x 56 x 247"
+  },
+  {
+   "page": 11,
+   "line": "38415 | 38 x 415 | 62250 | 62 x 250"
+  },
+  {
+   "page": 11,
+   "line": "38425 | 38 x 425 | 62260 | 62.18 x 260"
+  },
+  {
+   "page": 11,
+   "line": "38510 | 37.7 x 510 | 64220 | 63.5 x 59.5 x 220"
+  },
+  {
+   "page": 11,
+   "line": "38553 | 38.3 x 553 | 64258 | 63.5 x 65.5 x 258"
+  },
+  {
+   "page": 11,
+   "line": "39462 | 38.6 x 462 | 64275 | 64 x 66 x 275"
+  },
+  {
+   "page": 11,
+   "line": "39505 | 38.8 x 505 | 67240 | 64 x 66.6 x 240"
+  },
+  {
+   "page": 11,
+   "line": "40462 | 40.2 x 462 | 67250 | 64 x 66.6 x 250"
+  },
+  {
+   "page": 11,
+   "line": "41460 | 41.2 x 460 | 67265 | 64 x 66.6 x 265"
+  }
+ ]
+}

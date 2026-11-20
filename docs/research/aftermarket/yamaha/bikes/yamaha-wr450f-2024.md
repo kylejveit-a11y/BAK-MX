@@ -1,6 +1,6 @@
 # Yamaha WR450F 2024: aftermarket parts
 
-1539 listings whose stated fitment names this bike: 120 researched parts (with what they change and rider findings), 211 dealer and retailer listings specific to this bike, and 1208 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1541 listings whose stated fitment names this bike: 122 researched parts (with what they change and rider findings), 211 dealer and retailer listings specific to this bike, and 1208 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -118,6 +118,8 @@
 | Works Connection | Works Connection Rear Master Cylinder Guard | 15-268 |  |  | [source](https://www.worksconnection.com/p18136-rear-master-cylinder-guards) | high |
 | Works Connection | Works Connection Rear Caliper Guard | 25-033 |  |  | [source](https://www.worksconnection.com/p18135-rear-caliper-guards) | high |
 | Works Connection | Works Connection Ti Bolt Kit-Rims Skid Plate (4 pcs) | 70-303 |  |  | [source](https://www.worksconnection.com/p36772-skid-plate-w-rims-system-titanium-bolt-kit) | high |
+| Cannon Racecraft | Cannon Racecraft Fork Springs 44497 (.36-.70) |  | Replacement fork springs in a choice of rates to suit the rider. | Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before orderin | [source](https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf) | medium |
+| Cannon Racecraft | Cannon Racecraft Shock Spring 64258/64275 (3.6-6.8) |  | Replacement shock spring in a choice of rates to suit the rider. | Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before orderin | [source](https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf) | medium |
 | Cannon Racecraft | Fork springs / shock springs (Yamaha) | 44497, 44453, 59270, 64258, 64275 | Replacement fork and/or shock springs in rider-weight-specific rates; a heavier or lighter rider can set sag and ride height correctly instead of running a stock spring that is too soft or too stiff.  | Cannon's chart says: 'MAKES NO CLAIMS AS TO THE 100% ACCURACY OF THE SUGGESTED APPLICATION ... ITEMS ARE ONLY SUGGESTIONS.' The PDF is filed as '2024 Catalog' b | [source](https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf) | medium |
 | Ride Engineering | Ride Engineering Performance/Lowering Link | YZ-LKA43-BA |  |  | [source](https://ride-engineering.com/YZF-PerformanceLowering-Link_p_1927.html) | medium |
 | Ride Engineering | Ride Engineering Performance/Lowering Link Blue | YZ-LKA43-MB |  |  | [source](https://ride-engineering.com/YZF-PerformanceLowering-Link-Blue_p_2051.html) | medium |

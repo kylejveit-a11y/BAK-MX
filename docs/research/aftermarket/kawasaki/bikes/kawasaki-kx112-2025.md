@@ -1,6 +1,6 @@
 # Kawasaki KX112 2025: aftermarket parts
 
-1321 listings whose stated fitment names this bike: 177 researched parts (with what they change and rider findings), 155 dealer and retailer listings specific to this bike, and 989 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1323 listings whose stated fitment names this bike: 179 researched parts (with what they change and rider findings), 155 dealer and retailer listings specific to this bike, and 989 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -180,6 +180,8 @@
 | Works Connection | Works Connection Radiator Braces Kawasaki KX85 / KX100 / KX112 2014-2027 | 18-046 | Radiator braces that stiffen radiators against impact. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/works-connection-radiator-braces-kawasaki-kx85-kx100-kx112-2014-2022) | medium |
 | Works Connection | Works Connection Skid Plate | 10-110 |  |  | [source](https://www.worksconnection.com/p36294-skid-plate) | high |
 | Works Connection | Works Connection Frame Guards | 15-109 |  |  | [source](https://www.worksconnection.com/p18094-frame-guards) | high |
+| Cannon Racecraft | Cannon Racecraft Fork Springs 31428 (.24-.40) |  | Replacement fork springs in a choice of rates to suit the rider. | Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before orderin | [source](https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf) | medium |
+| Cannon Racecraft | Cannon Racecraft Shock Spring 55240 |  | Replacement shock spring in a choice of rates to suit the rider. | Rates as printed: 3.2-7.6. Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions | [source](https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf) | medium |
 | Factory Connection | Factory Connection Fork Springs - Kawasaki / Yamaha / Suzuki 80-112cc | P401802 (Cycle Gear item) | Replacement fork springs in rider-weight rates. | Cycle Gear item number, not FC's own part number; KX65/YZ65 not in the visible list. | [source](https://www.cyclegear.com/parts/factory-connection-fork-springs-kawasaki-yamaha-suzuki-80cc-112cc) | medium |
 | Factory Connection | Factory Connection Shock Spring - Honda / Suzuki / Kawasaki / Yamaha 80-150cc | P401206 (Cycle Gear item) | Replacement shock spring in rider-weight rates. | YZ85 listed only to 2017; KX65/YZ65 not listed. | [source](https://www.cyclegear.com/parts/factory-connection-shock-spring-honda-suzuki-kawasaki-yamaha-80cc-150cc) | medium |
 | Works Connection | Works Connection Fork Bleeder Valves | 26-320 |  |  | [source](https://www.worksconnection.com/p417280-fork-bleeders-shorty) | high |

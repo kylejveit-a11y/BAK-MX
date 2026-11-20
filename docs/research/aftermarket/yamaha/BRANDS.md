@@ -90,6 +90,7 @@
 | Scott | 48 | Uncategorised (31), controls (9), UTV / ATV Parts (4), Controls (4) | Cycle Gear 35, MotoSport 4, research 9 |
 | Afam Sprockets | 47 | Chain & Sprocket (38), drivetrain (9) | Cycle Gear 38, research 9 |
 | Barnett | 47 | Drive & Transmission (26), clutch (14), Uncategorised (4), Engine (2), wheels (1) | Cycle Gear 30, MotoSport 2, research 15 |
+| Cannon Racecraft | 47 | suspension (47) | research 47 |
 | Domino | 47 | Uncategorised (36), controls (9), Controls (2) | Cycle Gear 36, MotoSport 2, research 9 |
 | Puig | 46 | Handlebars & Controls (15), Uncategorised (15), controls (10), Bike Protection (4), Mirrors (1), Controls (1) | Cycle Gear 35, MotoSport 1, research 10 |
 | Bridgestone | 45 | Tires (44), Mousse or tube (1) | MotoSport 12, research 33 |
@@ -272,7 +273,6 @@
 | Akrapovič (KTM PowerParts) | 4 | exhaust (4) | research 4 |
 | Avon Tire | 4 | Tires (4) | MotoSport 4 |
 | BS Battery | 4 | Batteries & Electrical (3), UTV / ATV Parts (1) | Cycle Gear 4 |
-| Cannon Racecraft | 4 | suspension (4) | research 4 |
 | Cometic | 4 | engine (3), Engine (1) | MotoSport 1, research 3 |
 | CP-Carrillo | 4 | engine (4) | research 4 |
 | FCP Racing (Factory Chassis Parts) | 4 | chassis (4) | research 4 |

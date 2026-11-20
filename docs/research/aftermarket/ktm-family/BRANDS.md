@@ -85,6 +85,7 @@
 | SP Connect | 51 | Lights and Electrical (51) | MotoSport 51 |
 | Kriega | 49 | Luggage and Racks (27), Riding Gear (13), Bike Protection (3), Uncategorised (3), Farming and Hunting (2), Suspension (1) | Cycle Gear 6, MotoSport 43 |
 | DP Brakes | 48 | Brakes (22), Drive & Transmission (15), brakes (7), Uncategorised (2), clutch (2) | Cycle Gear 38, KTM Twins 1, research 9 |
+| Cannon Racecraft | 47 | suspension (47) | research 47 |
 | Moto Tassinari | 47 | Uncategorised (28), intake (17), Air & Fuel (2) | Cycle Gear 30, research 17 |
 | Nihilo | 46 | Engine (20), Controls (8), Skid Plates and Guards (5), Fuel System (3), Body (3), Brakes (3) | MotoSport 46 |
 | DID Chain | 45 | Chain & Sprocket (45) | Cycle Gear 45 |
@@ -265,7 +266,6 @@
 | UNI | 5 | Tools and Maintenance (4), Intake (1) | MotoSport 5 |
 | WPS | 5 | Tools and Maintenance (3), Wheels and Rims (1), Exhaust (1) | MotoSport 5 |
 | Avon Tire | 4 | Tires (4) | MotoSport 4 |
-| Cannon Racecraft | 4 | suspension (4) | research 4 |
 | CP-Carrillo | 4 | engine (4) | research 4 |
 | DrySpec | 4 | Exhaust (4) | Cycle Gear 3, MotoSport 1 |
 | EVS | 4 | Uncategorised (3), Controls (1) | Cycle Gear 3, MotoSport 1 |

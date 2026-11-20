@@ -1,6 +1,6 @@
 # Yamaha WR450F 2011: aftermarket parts
 
-1677 listings whose stated fitment names this bike: 102 researched parts (with what they change and rider findings), 324 dealer and retailer listings specific to this bike, and 1251 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1679 listings whose stated fitment names this bike: 104 researched parts (with what they change and rider findings), 324 dealer and retailer listings specific to this bike, and 1251 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -108,6 +108,8 @@
 | Works Connection | Works Connection Tach/Hour Meter/Clock with Maintenance Timer | 37-200 |  |  | [source](https://www.worksconnection.com/p18160-tach-hour-meters) | high |
 | P3 Carbon | P3 Carbon Rear Master Cylinder Guard | 707021 |  |  | [source](https://p3carbon.com/products/p3-rear-pump-protection-yamaha-yz250f-yz450f-yz125-wr450f-wr250-f-2006-2026-see-fitment-tab/) | medium |
 | Works Connection | Works Connection Rear Caliper Guard | 25-033 |  |  | [source](https://www.worksconnection.com/p18135-rear-caliper-guards) | high |
+| Cannon Racecraft | Cannon Racecraft Fork Springs 43461 (.36-.70) |  | Replacement fork springs in a choice of rates to suit the rider. | Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before orderin | [source](https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf) | medium |
+| Cannon Racecraft | Cannon Racecraft Shock Spring 59270 |  | Replacement shock spring in a choice of rates to suit the rider. | Rates as printed: 3.6-7.8. Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions | [source](https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf) | medium |
 
 ## Dealer and retailer listings for this bike
 

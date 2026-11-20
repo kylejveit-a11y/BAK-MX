@@ -1,6 +1,6 @@
 # Yamaha WR450F 2010: aftermarket parts
 
-1575 listings whose stated fitment names this bike: 24 researched parts (with what they change and rider findings), 301 dealer and retailer listings specific to this bike, and 1250 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1577 listings whose stated fitment names this bike: 26 researched parts (with what they change and rider findings), 301 dealer and retailer listings specific to this bike, and 1250 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -30,6 +30,8 @@
 | Ride Engineering | Ride Engineering Axle Rear Wheel Spacers | YZ-WS00R-MB |  |  | [source](https://ride-engineering.com/Yamaha-22mm-Axle-Rear-Wheel-Spacers_p_1963.html) | medium |
 | Ride Engineering | Ride Engineering Axle Rear Wheel Spacers, red | YZ-WS00R-RA |  |  | [source](https://ride-engineering.com/Yamaha-22mm-Axle-Rear-Wheel-Spacers-red_p_1964.html) | medium |
 | P3 Carbon | P3 Carbon Rear Master Cylinder Guard | 707021 |  |  | [source](https://p3carbon.com/products/p3-rear-pump-protection-yamaha-yz250f-yz450f-yz125-wr450f-wr250-f-2006-2026-see-fitment-tab/) | medium |
+| Cannon Racecraft | Cannon Racecraft Fork Springs 43461 (.36-.70) |  | Replacement fork springs in a choice of rates to suit the rider. | Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions with Cannon before orderin | [source](https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf) | medium |
+| Cannon Racecraft | Cannon Racecraft Shock Spring 59270 |  | Replacement shock spring in a choice of rates to suit the rider. | Rates as printed: 3.6-7.8. Cannon's chart prints no unit; rates are read as kg/mm. The chart says part numbers are not guaranteed: check the spring's dimensions | [source](https://img1.wsimg.com/blobby/go/77a65b09-0aaa-4e4f-8c98-cdbee819e847/2024%20Catalog%20(3).pdf) | medium |
 
 ## Dealer and retailer listings for this bike
 

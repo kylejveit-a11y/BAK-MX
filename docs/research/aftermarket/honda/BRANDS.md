@@ -78,6 +78,7 @@
 | Kriega | 51 | Luggage and Racks (27), Riding Gear (13), Bike Protection (4), Uncategorised (4), Farming and Hunting (2), Suspension (1) | Cycle Gear 8, MotoSport 43 |
 | SP Connect | 51 | Lights and Electrical (51) | MotoSport 51 |
 | Factory Links | 48 | Suspension (21), wheels (8), suspension (8), Uncategorised (7), chassis (4) | Cycle Gear 28, research 20 |
+| Cannon Racecraft | 47 | suspension (47) | research 47 |
 | Bridgestone | 45 | Tires (44), Mousse or tube (1) | MotoSport 12, research 33 |
 | Arc Levers | 44 | Handlebars & Controls (36), controls (6), Uncategorised (2) | Cycle Gear 38, research 6 |
 | Excel | 44 | Uncategorised (28), wheels (10), Wheels and Rims (6) | Cycle Gear 28, MotoSport 6, research 10 |
@@ -253,7 +254,6 @@
 | Avon Tire | 4 | Tires (4) | MotoSport 4 |
 | Biker's Choice | 4 | Uncategorised (4) | Cycle Gear 4 |
 | Bill's Pipes | 4 | Exhaust (4) | MotoSport 4 |
-| Cannon Racecraft | 4 | suspension (4) | research 4 |
 | Cometic | 4 | engine (3), Engine (1) | MotoSport 1, research 3 |
 | CP-Carrillo | 4 | engine (4) | research 4 |
 | FCP Racing (Factory Chassis Parts) | 4 | chassis (4) | research 4 |

@@ -103,4 +103,23 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
 - `server/spring-options.ts`: on spring, sag or rider-weight questions Ask BAK now gets the aftermarket fork and shock springs listed for the rider's exact bike with the rates each company offers (N/mm plus the company's own label), and the listed rate nearest the one worked out from sag or the maker's rider-weight table, with the next step softer and stiffer.
 - Coverage from the parts lists: 688 of 898 bikes have something; 578 have a shock rate list, 534 a fork rate list (Factory Connection, REP Suspension, WP, some Race Tech). Store listings that cover every bike in one long drop-down are not used as a rate list; the company is only named.
 - Aftermarket companies do not publish static rider-weight charts (they use rate finders or a phone call), so BAK never says a company recommends a rate for a weight unless that company's own guide is on file (one so far: Ride JBI). Race Tech's rate finder is proprietary and is not copied.
-- Not read yet: Cannon Racecraft application chart PDF (link is in record es-027); needs Kyle to paste the link in chat so it can be opened.
+- Cannon Racecraft chart: read 2026-11-20, see below.
+
+## Cannon Racecraft application chart (2026-11-20)
+
+- Kyle supplied the maker's chart PDF. `scripts/aftermarket/cannon_chart_convert.py` reads its table rows into
+  `docs/research/aftermarket/specialty/cannon-racecraft.json`: 43 spring products, 812 bike-year fits, rate lists per bike
+  (fork and shock). Rows for bikes outside the app are in the file's `unread` list. The PDF is not kept.
+- The chart prints no rider-weight recommendations and no units (read as kg/mm); it says part numbers are not guaranteed, which
+  is carried as a caveat on every record.
+
+## Parked ideas from Kyle (do not lose)
+
+- Specialist agents under the one rider-facing BAK agent (2026-11-20): a Suspension specialist (every shock, clicker, spring,
+  dimension, valving stack, shim, bushing; rebuild, tune, maintain), an Engine specialist (full teardown and rebuild, custom
+  tuning, porting explained correctly), maybe a Bike set-up specialist. Riders still talk to one BAK. Assessment given to Kyle:
+  helps if built as deep knowledge packs plus a router and scored by specialist question sets; hurts if it becomes several
+  separate chatbots or slows answers. The limit is data (valving stacks and shim specs are mostly paid service-manual or
+  tuner-proprietary), not the agent plumbing.
+- Race Tech's Motorcycle Suspension Bible: a book in print and under copyright. No free legal copy; not fetched. If Kyle buys
+  a copy and supplies it, read it for the ideas and methods in our own words (facts only, text not stored).

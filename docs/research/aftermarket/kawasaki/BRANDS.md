@@ -71,6 +71,7 @@
 | SP Connect | 51 | Lights and Electrical (51) | MotoSport 51 |
 | Kriega | 49 | Luggage and Racks (27), Riding Gear (13), Bike Protection (3), Uncategorised (3), Farming and Hunting (2), Suspension (1) | Cycle Gear 6, MotoSport 43 |
 | Arc Levers | 47 | Handlebars & Controls (40), controls (5), Uncategorised (2) | Cycle Gear 42, research 5 |
+| Cannon Racecraft | 47 | suspension (47) | research 47 |
 | Bridgestone | 45 | Tires (44), Mousse or tube (1) | MotoSport 12, research 33 |
 | DID Chain | 45 | Chain & Sprocket (45) | Cycle Gear 45 |
 | IMS | 44 | Uncategorised (25), controls (9), Controls (6), Body (3), Brakes (1) | Cycle Gear 25, MotoSport 10, research 9 |
@@ -243,7 +244,6 @@
 | Akrapovič (KTM PowerParts) | 4 | exhaust (4) | research 4 |
 | Avon Tire | 4 | Tires (4) | MotoSport 4 |
 | Bullet Proof Designs | 4 | Engine (1), Body (1), Controls (1), protection (1) | MotoSport 3, research 1 |
-| Cannon Racecraft | 4 | suspension (4) | research 4 |
 | Cometic | 4 | engine (3), Engine (1) | MotoSport 1, research 3 |
 | CP-Carrillo | 4 | engine (4) | research 4 |
 | DrySpec | 4 | Exhaust (4) | Cycle Gear 3, MotoSport 1 |

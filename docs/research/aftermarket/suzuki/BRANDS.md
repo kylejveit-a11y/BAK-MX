@@ -35,6 +35,7 @@
 | Yoshimura | 52 | Exhaust (27), exhaust (23), Body & Fairing (2) | Cycle Gear 29, research 23 |
 | Namz | 50 | Batteries & Electrical (50) | Cycle Gear 50 |
 | JT Sprockets | 49 | gearing (43), Chain & Sprocket (6) | Cycle Gear 6, research 43 |
+| Cannon Racecraft | 47 | suspension (47) | research 47 |
 | K&N | 46 | Air & Fuel (42), Filters (2), Uncategorised (2) | Cycle Gear 46 |
 | EK Chain | 44 | Chain & Sprocket (44) | Cycle Gear 44 |
 | Hinson | 43 | clutch (23), Drive & Transmission (12), engine (6), Uncategorised (2) | Cycle Gear 14, research 29 |
@@ -158,7 +159,6 @@
 | SKF | 5 | Suspension (3), Uncategorised (2) | Cycle Gear 5 |
 | Sunstar | 5 | gearing (3), Chain & Sprocket (2) | Cycle Gear 2, research 3 |
 | Akrapovič (KTM PowerParts) | 4 | exhaust (4) | research 4 |
-| Cannon Racecraft | 4 | suspension (4) | research 4 |
 | Counteract | 4 | Uncategorised (4) | Cycle Gear 4 |
 | CP-Carrillo | 4 | engine (4) | research 4 |
 | Custom Dynamics | 4 | Lighting (4) | Cycle Gear 4 |
