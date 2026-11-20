@@ -36,3 +36,17 @@ test('an engine rebuild walkthrough keeps its job and finds the job that covers 
  const f:any={...bike,model:'YZ450F',model_year:2022};
  assert.ok(workshopContext(f,[],'How tight do the cylinder head bolts go?').relevant_operations.every(p=>!/brake|caliper/i.test(p.title)));
 });
+test('a long job is sent in full only when the rider names it; a stray word inside its steps gets the outline',()=>{
+ const yz:any={...bike,manufacturer:'Yamaha',model:'YZ450F',model_year:2023};
+ const ops=(h:string[],m:string)=>workshopContext(yz,h.map(content=>({role:'user',content})) as any,m).relevant_operations as any[];
+ // a gearing question that only shares a word with the rebuild's steps
+ const stray=ops([],'Anyone running a 14/53 gear setup? Looking to lug 3rd around the track.');
+ assert.ok(stray.every(o=>o.steps.length===0&&o.steps_loaded===false&&o.step_titles.length>20));
+ assert.ok(JSON.stringify(stray).length<60000);
+ // asked for by name, in the words riders use, and on the follow-up
+ const named=ops([],'walk me through rebuilding the top end');
+ assert.match(named[0].title,/top end/i);assert.ok(named[0].steps.length>50&&named[0].steps_loaded===undefined);
+ assert.ok(ops(['walk me through rebuilding the top end'],'done, what is next?')[0].steps.length>50);
+ assert.ok(ops([],'How tight do the cylinder head bolts go?')[0].steps.length>50);
+ assert.match(ops([],'how do I change the oil')[0].title,/oil/i);
+});

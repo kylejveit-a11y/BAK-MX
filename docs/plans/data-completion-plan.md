@@ -48,7 +48,17 @@ Audit (2026-11-18, roster 898 bike-years): race sag on file for all KTM/GasGas/H
       victorytrainingfacility.com, ironmountainresort.com. Silver Dollar: 2020 rebuild note and source added.
 
 ## 5. Ask BAK speed and regression set
-- [ ] Measure where the ~21 s goes; trim.
+- [x] 2026-11-19 measured (38 live answers, 14 days): median 23 s. Planning call 3.3 s, database 0.3 s, answer 18.7 s, of
+      which about 7 s passes before the first word and the rest is writing (about 900 tokens at roughly 50-80 a second).
+      Context size is not the driver (50k-90k tokens made no visible difference to the first word).
+- [x] 2026-11-19 fixed: a stray word could pull two whole engine-rebuild jobs (460 KB, about 130,000 tokens) into an unrelated
+      question (5 of 83 test questions). Long jobs now go in full only when the rider names them, otherwise as an outline.
+      Also fixed while there: "rebuilding the top end" and "change the oil" matched no job at all (short words were dropped).
+- [ ] Lighter reasoning level for the answer: on 10 test questions the first word came at 3.9 s instead of 9.3 s and the whole
+      answer 5-6 s sooner; same answer type and confidence on all 10, slightly fewer cited specs, one different pick
+      (14/52 vs 14/53). Not switched on. Run the 100-question set at the lighter level and grade it before deciding.
+      (Switch: eval route trial.answer_effort; "minimal" and "none" are not accepted by the provider.)
+- [ ] The planning call (2.5-3.3 s) is the next target: nothing lighter is accepted; a faster planning model is a config choice.
 - [ ] Eval set from real rider questions; rerun after every prompt change.
 
 ## Log
