@@ -185,5 +185,11 @@ test('a fitted part carries its own maker\'s setup notes, only on the bikes the 
  const by=(re:RegExp)=>f.find(x=>re.test(x.part));
  assert.match(by(/Rekluse/)!.maker_setup!.facts.join(' '),/3 mm/);assert.match(by(/7548/)!.maker_setup!.facts.join(' '),/15 \/ 12 \/ 9/);assert.equal(by(/FMF/)!.maker_setup,undefined);
  assert.ok((installedPartsContext(cfg,honda)!.fitted as {maker_setup?:unknown}[]).every(x=>!x.maker_setup));
- assert.equal(makerSetupFor('Rekluse Core EXP 3.0','KTM'),null);
+ assert.equal(makerSetupFor('Rekluse Core EXP 3.0',{manufacturer:'KTM',model:'85 SX 17/14',model_year:2024}),null);
+ assert.match(makerSetupFor('Rekluse Radius X 4.0 Clutch Kit',ktm)!.source,/191-6301/);
+ assert.match(makerSetupFor('Rekluse Radius X 4.0 Clutch Kit',{manufacturer:'Suzuki',model:'RM-Z450',model_year:2024})!.source,/191-6300/);
+ assert.equal(makerSetupFor('Rekluse Radius CX 4.0 Clutch Kit',{manufacturer:'Suzuki',model:'RM-Z450',model_year:2024}),null,'no RadiusCX cable guide read yet');
+ assert.match(makerSetupFor('Rekluse Core EXP 3.0',{manufacturer:'Yamaha',model:'YZ85',model_year:2024})!.title,/cable/);
+ assert.equal(makerSetupFor('Rekluse Radius X 4.0',{manufacturer:'Honda',model:'CRF450R',model_year:2023}),null,'hydraulic Honda 450 is not covered by the cable guide');
+ assert.equal(makerSetupFor('Rekluse Radius X 4.0',{manufacturer:'Kawasaki',model:'KX450',model_year:2022}),null);
 });

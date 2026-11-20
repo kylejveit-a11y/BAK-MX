@@ -200,3 +200,9 @@ Kyle opened four closed places in a row from the Where to Ride list. Now: a Clos
 closed places sorted below every open one (shared byDistance); closed places are left out of the race-day and ride-report
 pickers (server). Web is live on deploy; the phone list changes with the next app build (the picker change is server-side).
 Track layout is dropped as a data task (Kyle: tracks change layouts too often to keep current).
+
+Kit guides, second batch (2026-11-20): Rekluse EXP (Radius X, Core EXP) on KTM-group DDS clutches (guide 191-6301) and on
+cable clutches (guide 191-6300; Yamaha, Suzuki, Honda except the hydraulic 450 from 2021, Kawasaki before its hydraulic
+years). The RadiusCX entry is now limited to the 250-501 cc DDS bikes. Not read yet: RadiusCX on cable clutches, the
+hydraulic Honda / Kawasaki guides, WP XACT PRO 8950 shock (WP's site has no manual link; needs the PDF).
+One more position: Apalachicola Springhill trails. 42 of 254 places still have none (9 open, 3 seasonal, 16 closed, 14 unknown).
