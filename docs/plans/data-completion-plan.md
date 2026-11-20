@@ -161,3 +161,11 @@ Stadium, Garrett Coliseum, Minooka, Stony Lonesome, Prairie City (Hangtown), Mam
 Whissenhunt, Redbird Crest, White Sulphur, The Wick 338, Wayehutta, Wambaw, High Point. 43 of 254 still have none: mostly
 closed or unknown-status tracks with no street address, plus Freestone, Florida Cracker Ranch, Moto Sandbox, Kentuck and a few
 Georgia and Carolina forest trailheads that OpenStreetMap does not name. Only results whose mapped name matched were used.
+
+## Maker kit setup notes (2026-11-20)
+`shared/maker-setup-notes.ts`: setup facts read from the part maker's own document, attached to that part on the rider's build
+sheet (installed_parts -> maker_setup, prompt 93). First two: Rekluse RadiusCX on KTM-group hydraulic clutches (free play gain
+3 mm, adjustment, break-in, symptoms) and the WP XACT PRO 7548 fork (comfort / standard / sport clicks by model, 75-85 kg
+standard springs, 40 h service). To add next, each from its own document: WP XACT PRO 8950 shock (manual text not reachable
+through the fetch tool; needs the PDF link or file), Rekluse Radius X / Core EXP and the cable-clutch RadiusCX guides,
+Kawasaki and Honda fitments of the WP parts.

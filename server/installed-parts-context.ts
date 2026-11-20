@@ -3,6 +3,7 @@ import {researchedParts} from '../shared/aftermarket-research.ts';
 import {workProviders} from '../shared/work-providers.ts';
 import {checkBuild} from '../shared/build-check.ts';
 import {LEGACY_PART_FIELDS} from '../shared/garage-fields.ts';
+import {makerSetupFor} from '../shared/maker-setup-notes.ts';
 /** What the rider has fitted, for the answer model: each part by system with the research notes BAK holds for it, the systems
  *  confirmed stock, and the systems not recorded (unknown, not stock). Null when nothing has been recorded. */
 /** A shop's service notes describe the bikes it lists (a two-stroke ECU remap is not a 450 four-stroke remap): attach them only
@@ -22,6 +23,7 @@ export function installedPartsContext(configuration:Record<string,unknown>|null|
  const known=new Set([...parts.filter(p=>!p.o).map(p=>p.s),...stock]);
  const describe=(p:typeof parts[number])=>{const r=researchFor(p.r,bike);return {system:systemLabel(p.s),part:[p.b,p.n].filter(Boolean).join(' '),...(p.v?{size:p.v}:{}),...(p.k?{color:p.k}:{}),...(p.p?{part_number:p.p}:{}),...(p.d?{rider_detail:p.d}:{}),
    source:p.x?'typed by the rider':'picked from the parts list for this bike',
+   ...(makerSetupFor([p.b,p.n,r?.product].filter(Boolean).join(' '),bike?.manufacturer)?{maker_setup:makerSetupFor([p.b,p.n,r?.product].filter(Boolean).join(' '),bike?.manufacturer)}:{}),
    ...(r?{research:{listed_as:[r.brand,r.product].filter(Boolean).join(' '),what_it_changes:r.what_it_changes,caveats:r.caveats,tester_notes:r.tester_notes,fit_confidence:r.confidence==='high'?'maker lists this fit':'dealer or retailer listing'}}:{})};};
  const checks=bike?checkBuild({manufacturer:bike.manufacturer,model:bike.model,model_year:bike.model_year??0,configuration}):[];
  return {

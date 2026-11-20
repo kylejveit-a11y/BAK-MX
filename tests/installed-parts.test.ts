@@ -177,3 +177,13 @@ test('engine builders and wheel builders are offered under "who did it?" for eng
  // a shop that lists bikes is only offered for those makes
  assert.ok(!providersFor('engine','Triumph','TF 250-X').some(p=>p.brand==='Slavens Racing'));
 });
+test('a fitted part carries its own maker\'s setup notes, only on the bikes the maker\'s document covers',async()=>{
+ const {makerSetupFor}=await import('../shared/maker-setup-notes.ts');
+ const ktm={manufacturer:'KTM',model:'450 SX-F',model_year:2024},honda={manufacturer:'Honda',model:'CRF450R',model_year:2024};
+ const cfg={installed_parts:[{s:'engine',b:'Rekluse',n:'RadiusCX 4.0 Clutch Kit',x:true},{s:'suspension',b:'WP',n:'XACT PRO 7548 Cone Valve fork',x:true},{s:'exhaust',b:'FMF',n:'4.1',x:true}]};
+ const f=installedPartsContext(cfg,ktm)!.fitted as {part:string;maker_setup?:{title:string;facts:string[]}}[];
+ const by=(re:RegExp)=>f.find(x=>re.test(x.part));
+ assert.match(by(/Rekluse/)!.maker_setup!.facts.join(' '),/3 mm/);assert.match(by(/7548/)!.maker_setup!.facts.join(' '),/15 \/ 12 \/ 9/);assert.equal(by(/FMF/)!.maker_setup,undefined);
+ assert.ok((installedPartsContext(cfg,honda)!.fitted as {maker_setup?:unknown}[]).every(x=>!x.maker_setup));
+ assert.equal(makerSetupFor('Rekluse Core EXP 3.0','KTM'),null);
+});
