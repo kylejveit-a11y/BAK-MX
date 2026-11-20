@@ -17,3 +17,6 @@ cross-check passed). The FE rows were staged through `private.kg` as differences
 (browser read for 2020 and 2021, text re-read for 2022): 1,616 rows.
 All three FE years print static sag 37 mm, riding sag 110 mm, and shock springs 39 / 42 / 45 N/mm by rider weight.
 The PDFs were deleted after reading.
+
+GasGas EC 250 2021: staged from `ec-0.json` (fetched by the database from the pinned commit 9f18e1aa, hash matched, 237 rows) and
+promoted after its suspension rows were found equal to the verified EC 300 2021 rows read from the same pages. Total 1,853 rows.

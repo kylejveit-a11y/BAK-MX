@@ -180,3 +180,8 @@ Kawasaki and Honda fitments of the WP parts.
   springs 39 / 42 / 45 N/mm and fork springs 4.0 / 4.2 / 4.4 N/mm for 65-75 / 75-85 / 85-95 kg riders, both years.
   Not loaded yet: the proper load is the whole manual through scripts/manual-textlayer (needs the PDFs in the workspace, so
   Kyle's OK to download them). Still to find: the 2022 FE 450 and 2021 GasGas EC 250 document numbers.
+
+## Sag gaps closed (2026-11-20)
+Husqvarna FE 450 and FE 501 2020-2022 and GasGas EC 250 2021 now have their whole owner's manual on file (1,853 verified rows:
+sag 37 / 110 mm, rider-weight springs, clickers, torques, service schedule). Report: docs/research/expansion/gaps/enduro-sag-2026-11-20/REPORT.md.
+No roster bike in the KTM group is left without a sag figure or a recorded reason.
