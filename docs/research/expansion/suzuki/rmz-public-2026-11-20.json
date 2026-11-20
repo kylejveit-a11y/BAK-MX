@@ -80,6 +80,30 @@
    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
    "date": "n.d."
+  },
+  "mxa450_21": {
+   "type": "magazine",
+   "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+   "date": "2021"
+  },
+  "mxa450_22": {
+   "type": "magazine",
+   "name": "Motocross Action, race test of the 2022 Suzuki RM-Z450",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-suzuki-rm-z450",
+   "date": "2022"
+  },
+  "mxa450_23": {
+   "type": "magazine",
+   "name": "Motocross Action, race test of the 2023 Suzuki RM-Z450",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2023-suzuki-rm-z450",
+   "date": "2023"
+  },
+  "mxa450_24": {
+   "type": "magazine",
+   "name": "Motocross Action, race test of the 2024 Suzuki RM-Z450",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-suzuki-rm-z450",
+   "date": "2024"
   }
  },
  "records": [
@@ -875,6 +899,127 @@
    ],
    "confidence": "medium",
    "notes": "Two magazine reports of Suzuki's 2027 announcement. No public stock clicker figures for the 2027 settings were found as of 2026-11-20."
+  },
+  {
+   "id": "rmzp-450-12",
+   "model": "RM-Z450",
+   "years": [
+    2022,
+    2023,
+    2024
+   ],
+   "domain": "suspension",
+   "topic": "stock clicker positions and sag as listed by testers",
+   "statement": "Stock positions for the {y} RM-Z450 as printed in Motocross Action setup sheets (not from a Suzuki-published source): fork compression 6 clicks out, shock compression 1.5 turns out, shock rebound 3 turns out, race sag 108 mm. Sources disagree: their 2022 sheet prints 12 clicks for the fork, and one owner's-manual copy of unknown year lists fork 9 clicks, shock 2 turns and 1 turn, and 110 mm sag. Write down where your own adjusters are before changing anything.",
+   "vals": {
+    "fork_compression_clicks_out": 6,
+    "shock_compression_turns_out": 1.5,
+    "shock_rebound_turns_out": 3,
+    "race_sag_mm": 108
+   },
+   "tier": "COMMUNITY",
+   "sources": [
+    "mxa450_23",
+    "mxa450_22",
+    "mxa450_21"
+   ],
+   "confidence": "low",
+   "notes": "One publication repeating its stock box 2021-2023; conflicts noted in the statement."
+  },
+  {
+   "id": "rmzp-450-13",
+   "model": "RM-Z450",
+   "years": [
+    2021,
+    2022,
+    2023
+   ],
+   "domain": "setups",
+   "topic": "magazine race setting, motocross",
+   "statement": "Motocross Action race setting for the {y} RM-Z450 (stock valving): fork 5.0 N/mm springs, compression 10 clicks out (they ran 7 to 12 depending on rider speed and track), rebound 12 clicks out, fork height set for handling; shock 54 N/mm spring, race sag 105 mm, compression 1 turn out, rebound 1 turn out, with a 1 mm longer shock linkage to lower the rear. On the 2021 bike they also added 10 cc of oil to each fork leg to stop bottoming.",
+   "vals": {
+    "fork_compression_clicks_out": 10,
+    "fork_rebound_clicks_out": 12,
+    "race_sag_mm": 105,
+    "shock_compression_turns_out": 1,
+    "shock_rebound_turns_out": 1,
+    "shock_spring_n_mm": 54
+   },
+   "tier": "TUNER",
+   "sources": [
+    "mxa450_21",
+    "mxa450_22",
+    "mxa450_23"
+   ],
+   "confidence": "medium",
+   "notes": "Same test crew, three model years. A magazine's setting, not the factory standard."
+  },
+  {
+   "id": "rmzp-450-14",
+   "model": "RM-Z450",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "known_issues",
+   "topic": "chain guide wear",
+   "statement": "Motocross Action reports the stock chain guide on the RM-Z450 wears quickly and replaces it with an aftermarket guide. Check it for wear at every chain adjustment.",
+   "vals": {},
+   "tier": "COMMUNITY",
+   "sources": [
+    "mxa450_21"
+   ],
+   "confidence": "low",
+   "notes": "Motocross Action 2021 race test; the bike is mechanically unchanged 2020-2025."
+  },
+  {
+   "id": "rmzp-450-15",
+   "model": "RM-Z450",
+   "years": [
+    2021,
+    2022
+   ],
+   "domain": "power_feel",
+   "topic": "measured power and weight",
+   "statement": "Measured by Motocross Action on the {y} RM-Z450: 54.39 peak hp at 8,800 rpm on their dyno; 241 lb without fuel.",
+   "vals": {
+    "hp": 54.39,
+    "hp_rpm": 8800,
+    "weight_no_fuel_lb": 241
+   },
+   "tier": "MEASURED",
+   "sources": [
+    "mxa450_21",
+    "mxa450_22"
+   ],
+   "confidence": "medium",
+   "notes": "One magazine's dyno and scale; dyno numbers differ between dynos."
+  },
+  {
+   "id": "rmzp-450-16",
+   "model": "RM-Z450",
+   "years": [
+    2024
+   ],
+   "domain": "power_feel",
+   "topic": "measured power and weight",
+   "statement": "Measured by Motocross Action on the 2024 RM-Z450 (with the edition's Pro Circuit exhaust): 56.7 peak hp at 9,000 rpm on their dyno; 241 lb without fuel.",
+   "vals": {
+    "hp": 56.7,
+    "hp_rpm": 9000,
+    "weight_no_fuel_lb": 241
+   },
+   "tier": "MEASURED",
+   "sources": [
+    "mxa450_24"
+   ],
+   "confidence": "medium",
+   "notes": "One magazine's dyno and scale."
   }
  ],
  "rows": [
@@ -5415,6 +5560,490 @@
    "notes": "Two magazine reports of Suzuki's 2027 announcement. No public stock clicker figures for the 2027 settings were found as of 2026-11-20.",
    "status": "APPROVED",
    "research_id": "rmzp-250-40"
+  },
+  {
+   "id": "rmzp-450-12|Suzuki|RM-Z450|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2022,
+   "domain": "suspension",
+   "topic": "2022 RM-Z450 stock clicker positions and sag as listed by testers",
+   "statement": "Stock positions for the 2022 RM-Z450 as printed in Motocross Action setup sheets (not from a Suzuki-published source): fork compression 6 clicks out, shock compression 1.5 turns out, shock rebound 3 turns out, race sag 108 mm. Sources disagree: their 2022 sheet prints 12 clicks for the fork, and one owner's-manual copy of unknown year lists fork 9 clicks, shock 2 turns and 1 turn, and 110 mm sag. Write down where your own adjusters are before changing anything.",
+   "vals": {
+    "fork_compression_clicks_out": 6,
+    "shock_compression_turns_out": 1.5,
+    "shock_rebound_turns_out": 3,
+    "race_sag_mm": 108
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-suzuki-rm-z450",
+    "date": "2023",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action, race test of the 2022 Suzuki RM-Z450",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2022-suzuki-rm-z450",
+      "date": "2022"
+     },
+     {
+      "type": "magazine",
+      "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+      "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "low",
+   "notes": "One publication repeating its stock box 2021-2023; conflicts noted in the statement.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-12"
+  },
+  {
+   "id": "rmzp-450-12|Suzuki|RM-Z450|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2023,
+   "domain": "suspension",
+   "topic": "2023 RM-Z450 stock clicker positions and sag as listed by testers",
+   "statement": "Stock positions for the 2023 RM-Z450 as printed in Motocross Action setup sheets (not from a Suzuki-published source): fork compression 6 clicks out, shock compression 1.5 turns out, shock rebound 3 turns out, race sag 108 mm. Sources disagree: their 2022 sheet prints 12 clicks for the fork, and one owner's-manual copy of unknown year lists fork 9 clicks, shock 2 turns and 1 turn, and 110 mm sag. Write down where your own adjusters are before changing anything.",
+   "vals": {
+    "fork_compression_clicks_out": 6,
+    "shock_compression_turns_out": 1.5,
+    "shock_rebound_turns_out": 3,
+    "race_sag_mm": 108
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-suzuki-rm-z450",
+    "date": "2023",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action, race test of the 2022 Suzuki RM-Z450",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2022-suzuki-rm-z450",
+      "date": "2022"
+     },
+     {
+      "type": "magazine",
+      "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+      "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "low",
+   "notes": "One publication repeating its stock box 2021-2023; conflicts noted in the statement.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-12"
+  },
+  {
+   "id": "rmzp-450-12|Suzuki|RM-Z450|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2024,
+   "domain": "suspension",
+   "topic": "2024 RM-Z450 stock clicker positions and sag as listed by testers",
+   "statement": "Stock positions for the 2024 RM-Z450 as printed in Motocross Action setup sheets (not from a Suzuki-published source): fork compression 6 clicks out, shock compression 1.5 turns out, shock rebound 3 turns out, race sag 108 mm. Sources disagree: their 2022 sheet prints 12 clicks for the fork, and one owner's-manual copy of unknown year lists fork 9 clicks, shock 2 turns and 1 turn, and 110 mm sag. Write down where your own adjusters are before changing anything.",
+   "vals": {
+    "fork_compression_clicks_out": 6,
+    "shock_compression_turns_out": 1.5,
+    "shock_rebound_turns_out": 3,
+    "race_sag_mm": 108
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-suzuki-rm-z450",
+    "date": "2023",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action, race test of the 2022 Suzuki RM-Z450",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2022-suzuki-rm-z450",
+      "date": "2022"
+     },
+     {
+      "type": "magazine",
+      "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+      "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "low",
+   "notes": "One publication repeating its stock box 2021-2023; conflicts noted in the statement.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-12"
+  },
+  {
+   "id": "rmzp-450-13|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "setups",
+   "topic": "2021 RM-Z450 magazine race setting, motocross",
+   "statement": "Motocross Action race setting for the 2021 RM-Z450 (stock valving): fork 5.0 N/mm springs, compression 10 clicks out (they ran 7 to 12 depending on rider speed and track), rebound 12 clicks out, fork height set for handling; shock 54 N/mm spring, race sag 105 mm, compression 1 turn out, rebound 1 turn out, with a 1 mm longer shock linkage to lower the rear. On the 2021 bike they also added 10 cc of oil to each fork leg to stop bottoming.",
+   "vals": {
+    "fork_compression_clicks_out": 10,
+    "fork_rebound_clicks_out": 12,
+    "race_sag_mm": 105,
+    "shock_compression_turns_out": 1,
+    "shock_rebound_turns_out": 1,
+    "shock_spring_n_mm": 54
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action, race test of the 2022 Suzuki RM-Z450",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2022-suzuki-rm-z450",
+      "date": "2022"
+     },
+     {
+      "type": "magazine",
+      "name": "Motocross Action, race test of the 2023 Suzuki RM-Z450",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2023-suzuki-rm-z450",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Same test crew, three model years. A magazine's setting, not the factory standard.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-13"
+  },
+  {
+   "id": "rmzp-450-13|Suzuki|RM-Z450|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2022,
+   "domain": "setups",
+   "topic": "2022 RM-Z450 magazine race setting, motocross",
+   "statement": "Motocross Action race setting for the 2022 RM-Z450 (stock valving): fork 5.0 N/mm springs, compression 10 clicks out (they ran 7 to 12 depending on rider speed and track), rebound 12 clicks out, fork height set for handling; shock 54 N/mm spring, race sag 105 mm, compression 1 turn out, rebound 1 turn out, with a 1 mm longer shock linkage to lower the rear. On the 2021 bike they also added 10 cc of oil to each fork leg to stop bottoming.",
+   "vals": {
+    "fork_compression_clicks_out": 10,
+    "fork_rebound_clicks_out": 12,
+    "race_sag_mm": 105,
+    "shock_compression_turns_out": 1,
+    "shock_rebound_turns_out": 1,
+    "shock_spring_n_mm": 54
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action, race test of the 2022 Suzuki RM-Z450",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2022-suzuki-rm-z450",
+      "date": "2022"
+     },
+     {
+      "type": "magazine",
+      "name": "Motocross Action, race test of the 2023 Suzuki RM-Z450",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2023-suzuki-rm-z450",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Same test crew, three model years. A magazine's setting, not the factory standard.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-13"
+  },
+  {
+   "id": "rmzp-450-13|Suzuki|RM-Z450|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2023,
+   "domain": "setups",
+   "topic": "2023 RM-Z450 magazine race setting, motocross",
+   "statement": "Motocross Action race setting for the 2023 RM-Z450 (stock valving): fork 5.0 N/mm springs, compression 10 clicks out (they ran 7 to 12 depending on rider speed and track), rebound 12 clicks out, fork height set for handling; shock 54 N/mm spring, race sag 105 mm, compression 1 turn out, rebound 1 turn out, with a 1 mm longer shock linkage to lower the rear. On the 2021 bike they also added 10 cc of oil to each fork leg to stop bottoming.",
+   "vals": {
+    "fork_compression_clicks_out": 10,
+    "fork_rebound_clicks_out": 12,
+    "race_sag_mm": 105,
+    "shock_compression_turns_out": 1,
+    "shock_rebound_turns_out": 1,
+    "shock_spring_n_mm": 54
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action, race test of the 2022 Suzuki RM-Z450",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2022-suzuki-rm-z450",
+      "date": "2022"
+     },
+     {
+      "type": "magazine",
+      "name": "Motocross Action, race test of the 2023 Suzuki RM-Z450",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2023-suzuki-rm-z450",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Same test crew, three model years. A magazine's setting, not the factory standard.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-13"
+  },
+  {
+   "id": "rmzp-450-14|Suzuki|RM-Z450|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2020,
+   "domain": "known_issues",
+   "topic": "2020 RM-Z450 chain guide wear",
+   "statement": "Motocross Action reports the stock chain guide on the RM-Z450 wears quickly and replaces it with an aftermarket guide. Check it for wear at every chain adjustment.",
+   "vals": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2021"
+   },
+   "confidence": "low",
+   "notes": "Motocross Action 2021 race test; the bike is mechanically unchanged 2020-2025.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-14"
+  },
+  {
+   "id": "rmzp-450-14|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "known_issues",
+   "topic": "2021 RM-Z450 chain guide wear",
+   "statement": "Motocross Action reports the stock chain guide on the RM-Z450 wears quickly and replaces it with an aftermarket guide. Check it for wear at every chain adjustment.",
+   "vals": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2021"
+   },
+   "confidence": "low",
+   "notes": "Motocross Action 2021 race test; the bike is mechanically unchanged 2020-2025.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-14"
+  },
+  {
+   "id": "rmzp-450-14|Suzuki|RM-Z450|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2022,
+   "domain": "known_issues",
+   "topic": "2022 RM-Z450 chain guide wear",
+   "statement": "Motocross Action reports the stock chain guide on the RM-Z450 wears quickly and replaces it with an aftermarket guide. Check it for wear at every chain adjustment.",
+   "vals": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2021"
+   },
+   "confidence": "low",
+   "notes": "Motocross Action 2021 race test; the bike is mechanically unchanged 2020-2025.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-14"
+  },
+  {
+   "id": "rmzp-450-14|Suzuki|RM-Z450|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2023,
+   "domain": "known_issues",
+   "topic": "2023 RM-Z450 chain guide wear",
+   "statement": "Motocross Action reports the stock chain guide on the RM-Z450 wears quickly and replaces it with an aftermarket guide. Check it for wear at every chain adjustment.",
+   "vals": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2021"
+   },
+   "confidence": "low",
+   "notes": "Motocross Action 2021 race test; the bike is mechanically unchanged 2020-2025.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-14"
+  },
+  {
+   "id": "rmzp-450-14|Suzuki|RM-Z450|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2024,
+   "domain": "known_issues",
+   "topic": "2024 RM-Z450 chain guide wear",
+   "statement": "Motocross Action reports the stock chain guide on the RM-Z450 wears quickly and replaces it with an aftermarket guide. Check it for wear at every chain adjustment.",
+   "vals": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2021"
+   },
+   "confidence": "low",
+   "notes": "Motocross Action 2021 race test; the bike is mechanically unchanged 2020-2025.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-14"
+  },
+  {
+   "id": "rmzp-450-14|Suzuki|RM-Z450|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2025,
+   "domain": "known_issues",
+   "topic": "2025 RM-Z450 chain guide wear",
+   "statement": "Motocross Action reports the stock chain guide on the RM-Z450 wears quickly and replaces it with an aftermarket guide. Check it for wear at every chain adjustment.",
+   "vals": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2021"
+   },
+   "confidence": "low",
+   "notes": "Motocross Action 2021 race test; the bike is mechanically unchanged 2020-2025.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-14"
+  },
+  {
+   "id": "rmzp-450-14|Suzuki|RM-Z450|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2026,
+   "domain": "known_issues",
+   "topic": "2026 RM-Z450 chain guide wear",
+   "statement": "Motocross Action reports the stock chain guide on the RM-Z450 wears quickly and replaces it with an aftermarket guide. Check it for wear at every chain adjustment.",
+   "vals": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2021"
+   },
+   "confidence": "low",
+   "notes": "Motocross Action 2021 race test; the bike is mechanically unchanged 2020-2025.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-14"
+  },
+  {
+   "id": "rmzp-450-15|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "power_feel",
+   "topic": "2021 RM-Z450 measured power and weight",
+   "statement": "Measured by Motocross Action on the 2021 RM-Z450: 54.39 peak hp at 8,800 rpm on their dyno; 241 lb without fuel.",
+   "vals": {
+    "hp": 54.39,
+    "hp_rpm": 8800,
+    "weight_no_fuel_lb": 241
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action, race test of the 2022 Suzuki RM-Z450",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2022-suzuki-rm-z450",
+      "date": "2022"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "One magazine's dyno and scale; dyno numbers differ between dynos.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-15"
+  },
+  {
+   "id": "rmzp-450-15|Suzuki|RM-Z450|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2022,
+   "domain": "power_feel",
+   "topic": "2022 RM-Z450 measured power and weight",
+   "statement": "Measured by Motocross Action on the 2022 RM-Z450: 54.39 peak hp at 8,800 rpm on their dyno; 241 lb without fuel.",
+   "vals": {
+    "hp": 54.39,
+    "hp_rpm": 8800,
+    "weight_no_fuel_lb": 241
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action, race test of the 2022 Suzuki RM-Z450",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2022-suzuki-rm-z450",
+      "date": "2022"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "One magazine's dyno and scale; dyno numbers differ between dynos.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-15"
+  },
+  {
+   "id": "rmzp-450-16|Suzuki|RM-Z450|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2024,
+   "domain": "power_feel",
+   "topic": "2024 RM-Z450 measured power and weight",
+   "statement": "Measured by Motocross Action on the 2024 RM-Z450 (with the edition's Pro Circuit exhaust): 56.7 peak hp at 9,000 rpm on their dyno; 241 lb without fuel.",
+   "vals": {
+    "hp": 56.7,
+    "hp_rpm": 9000,
+    "weight_no_fuel_lb": 241
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 Suzuki RM-Z450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-suzuki-rm-z450",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "One magazine's dyno and scale.",
+   "status": "APPROVED",
+   "research_id": "rmzp-450-16"
   }
  ]
 }

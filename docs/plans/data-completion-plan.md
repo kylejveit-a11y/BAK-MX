@@ -151,3 +151,6 @@ Still open for Suzuki: RM-Z450 2022-2024 fork compression and sag (sources disag
 2027 stock clickers, sag and springs for both bikes (none published yet); valve clearances; triple-clamp, caliper, sprocket
 and linkage torques; RM-Z250 gearing; 2026 RM-Z250 carry-over statement. suzukicycles.com/motocross/2027/rm-z250 could not
 be opened by the fetch tool (needs the link pasted in chat).
+Second batch the same day (16 rows, ids rmzp-450-12..16): RM-Z450 2022-2024 stock positions as printed in Motocross Action
+setup sheets (low confidence, conflicts stated), their 2021-2023 race setting, chain guide wear, measured power 2021, 2022, 2024.
+Total loaded today: 181 rows. Live check: a 2027 RM-Z250 question now warns that earlier fork settings may not suit the 2027 parts.
