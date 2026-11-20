@@ -139,3 +139,15 @@ Open holes, in order:
 First leads read 2026-11-20: Keefer 2026 450 baseline article (RM-Z450 fork 5.0 N/mm, 9 comp / 14 reb, height 3-5 mm; shock
 54 N/mm, 105 mm, 1.25 / 1.5 turns; "settings haven't changed" from 2025); Ultimate Motorcycling 2027 RM-Z450 first look (KYB
 fork and shock, new upper clamp, RK Excel rims, 247 lb wet). Not loaded yet.
+
+Loaded 2026-11-20 (first public-sources pass): 165 rows, ids `rmzp-*`, from `scripts/knowledge/rmz_public_rows.py` ->
+`docs/research/expansion/suzuki/rmz-public-2026-11-20.json` (hash-guarded insert, on conflict do nothing; values read back).
+RM-Z450: shock spring 54 N/mm 2022-2026 (56 noted), tester baseline 2025-2026, model history, known issues (clutch, coolant
+and radiator cap, shock and fork), gearing tip, measured power and weight (2023, 2025), chassis figures 2020-2023, couplers,
+eight single-source maintenance values (torques, idle, tire pressure, intervals), what changed for 2027.
+RM-Z250: model history 2020-2025, known issues, measured weight and power, couplers and MX-Tuner, five single-source values
+(oil, coolant, plug torque, shock spring set length, fork oil range), what changed for 2027.
+Still open for Suzuki: RM-Z450 2022-2024 fork compression and sag (sources disagree; only spreads for 2020-2021 on file);
+2027 stock clickers, sag and springs for both bikes (none published yet); valve clearances; triple-clamp, caliper, sprocket
+and linkage torques; RM-Z250 gearing; 2026 RM-Z250 carry-over statement. suzukicycles.com/motocross/2027/rm-z250 could not
+be opened by the fetch tool (needs the link pasted in chat).
