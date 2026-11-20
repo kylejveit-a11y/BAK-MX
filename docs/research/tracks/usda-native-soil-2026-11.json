@@ -1,0 +1,507 @@
+{
+ "note": "2026-11-20: native surface soil at the track position from the USDA NRCS soil survey (Soil Data Access, surface horizon of the dominant component of the mapped unit). This is the ground the track sits on, not a report of the prepared racing surface; stored with low confidence and only where no soil was on file.",
+ "source": {
+  "url": "https://sdmdataaccess.sc.egov.usda.gov/",
+  "title": "USDA NRCS Soil Data Access (SSURGO soil survey)",
+  "accessed": "2026-11-20"
+ },
+ "rows": [
+  {
+   "id": "221-mx",
+   "primary": "loam",
+   "texture": "Sandy loam",
+   "map_unit": "Rion sandy loam, 25 to 45 percent slopes",
+   "component_pct": 90
+  },
+  {
+   "id": "421-mx",
+   "primary": "clay",
+   "texture": "Sandy clay loam",
+   "map_unit": "Clifford sandy clay loam, 2 to 6 percent slopes, moderately eroded",
+   "component_pct": 90
+  },
+  {
+   "id": "5-points-mx",
+   "primary": "loam",
+   "texture": "Silt loam",
+   "map_unit": "Leaf silt loam",
+   "component_pct": 80
+  },
+  {
+   "id": "back-40-mx",
+   "primary": "loam",
+   "texture": "Silt loam",
+   "map_unit": "Providence silt loam, 2 to 5 percent slopes, eroded",
+   "component_pct": 100
+  },
+  {
+   "id": "battleground-mx",
+   "primary": "clay",
+   "texture": "Silty clay loam",
+   "map_unit": "Pickwick silty clay loam, 8 to 12 percent slopes, severely eroded",
+   "component_pct": 100
+  },
+  {
+   "id": "big-springs-motocross",
+   "primary": "loam",
+   "texture": "Gravelly fine sandy loam",
+   "map_unit": "Madison gravelly fine sandy loam, 2 to 6 percent slopes, eroded",
+   "component_pct": 90
+  },
+  {
+   "id": "black-ankle-raceway",
+   "primary": "loam",
+   "texture": "Silt loam",
+   "map_unit": "Herndon silt loam, 8 to 15 percent slopes, very stony",
+   "component_pct": 95
+  },
+  {
+   "id": "bone-yard-mx",
+   "primary": "sand",
+   "texture": "Sand",
+   "map_unit": "Arents-Water complex",
+   "component_pct": 50
+  },
+  {
+   "id": "bremen-race-park",
+   "primary": "loam",
+   "texture": "Gravelly fine sandy loam",
+   "map_unit": "Madison gravelly fine sandy loam, 6 to 10 percent slopes, moderately eroded",
+   "component_pct": 100
+  },
+  {
+   "id": "brown-mountain-ohv",
+   "primary": "loam",
+   "texture": "Fine sandy loam",
+   "map_unit": "Chestnut-Buladean complex, 8 to 15 percent slopes, rocky",
+   "component_pct": 55
+  },
+  {
+   "id": "brushy-mountain",
+   "primary": "loam",
+   "texture": "Gravelly sandy loam",
+   "map_unit": "Evard-Cowee complex, 25 to 60 percent slopes, stony",
+   "component_pct": 60
+  },
+  {
+   "id": "budds-creek-mx",
+   "primary": "loam",
+   "texture": "Silt loam",
+   "map_unit": "Beltsville silt loam, 2 to 5 percent slopes, moderately eroded",
+   "component_pct": 70
+  },
+  {
+   "id": "bushnell-mx",
+   "primary": "sand",
+   "texture": "Fine sand",
+   "map_unit": "Sparr fine sand, bouldery subsurface, 0 to 5 percent slopes",
+   "component_pct": 80
+  },
+  {
+   "id": "calhoun-motocross",
+   "primary": "loam",
+   "texture": "Fine sandy loam",
+   "map_unit": "Shady-Whitwell complex, 2 to 6 percent slopes, rarely flooded",
+   "component_pct": 65
+  },
+  {
+   "id": "carolina-adventure-world",
+   "primary": "loam",
+   "texture": "Sandy loam",
+   "map_unit": "Wilkes sandy loam, 15 to 40 percent slopes",
+   "component_pct": 75
+  },
+  {
+   "id": "cash-brothers-mx",
+   "primary": "loam",
+   "texture": "Fine sandy loam",
+   "map_unit": "Nauvoo fine sandy loam, 4 to 10 percent slopes",
+   "component_pct": 85
+  },
+  {
+   "id": "cedar-grove-mx-park",
+   "primary": "loam",
+   "texture": "Sandy loam",
+   "map_unit": "Hiwassee sandy loam, 2 to 6 percent slopes",
+   "component_pct": 85
+  },
+  {
+   "id": "cgi-facility",
+   "primary": "loam",
+   "texture": "Silt loam",
+   "map_unit": "Georgeville silt loam, 6 to 10 percent slopes",
+   "component_pct": 90
+  },
+  {
+   "id": "choccolocco-mountain-orv",
+   "primary": "clay",
+   "texture": "Gravelly clay loam",
+   "map_unit": "Anniston gravelly clay loam 6 to 10 percent slopes, severely eroded",
+   "component_pct": 85
+  },
+  {
+   "id": "club-mole-creek-mx",
+   "primary": "clay",
+   "texture": "Clay loam",
+   "map_unit": "Cecil clay loam, 6 to 10 percent slopes, severely eroded",
+   "component_pct": 95
+  },
+  {
+   "id": "crmx",
+   "primary": "clay",
+   "texture": "Sandy clay loam",
+   "map_unit": "Clifford sandy clay loam, 6 to 10 percent slopes, moderately eroded",
+   "component_pct": 85
+  },
+  {
+   "id": "dan-woodley-racing",
+   "primary": "sand",
+   "texture": "Sand",
+   "map_unit": "Riviera sand, frequently ponded, 0 to 1 percent slopes",
+   "component_pct": 85
+  },
+  {
+   "id": "daniels-ridge-mx",
+   "primary": "clay",
+   "texture": "Sandy clay loam",
+   "map_unit": "Fairview sandy clay loam, 2 to 8 percent slopes, moderately eroded",
+   "component_pct": 88
+  },
+  {
+   "id": "dodge-city-motosports",
+   "primary": "loam",
+   "texture": "Channery silt loam",
+   "map_unit": "Pottsville (Montevallo) channery silt loam, 15 to 45 percent slopes",
+   "component_pct": 85
+  },
+  {
+   "id": "dpg-mx-compound",
+   "primary": "clay",
+   "texture": "Gravelly sandy clay loam",
+   "map_unit": "Madison gravelly sandy clay loam, 2 to 8 percent slopes, moderately eroded",
+   "component_pct": 85
+  },
+  {
+   "id": "east-bend-motorsports",
+   "primary": "loam",
+   "texture": "Gravelly sandy loam",
+   "map_unit": "Clifford gravelly fine sandy loam, 2 to 6 percent slopes",
+   "component_pct": 100
+  },
+  {
+   "id": "green-acres-mx",
+   "primary": "sand",
+   "texture": "Loamy sand",
+   "map_unit": "Cowarts-Dothan complex, 5 to 10 percent slopes",
+   "component_pct": 70
+  },
+  {
+   "id": "h5-mx-compound",
+   "primary": "sand",
+   "texture": "Loamy sand",
+   "map_unit": "Lynchburg loamy sand, 0 to 2 percent slopes",
+   "component_pct": 95
+  },
+  {
+   "id": "harold-motor-sports",
+   "primary": "sand",
+   "texture": "Sand",
+   "map_unit": "Arents, nearly level",
+   "component_pct": 94
+  },
+  {
+   "id": "hawk-pride-mountain-offroad",
+   "primary": "loam",
+   "texture": "Fine sandy loam",
+   "map_unit": "Nectar and Nauvoo fine sandy loams, 6 to 10 percent slopes",
+   "component_pct": 50
+  },
+  {
+   "id": "hendrix-mx-compound",
+   "primary": "loam",
+   "texture": "Silt loam",
+   "map_unit": "Dewey silt loam, 2 to 6 percent slopes",
+   "component_pct": 85
+  },
+  {
+   "id": "hyder-burks-pavilion",
+   "primary": "loam",
+   "texture": "Silt loam",
+   "map_unit": "Landisburg silt loam, 2 to 5 percent slopes",
+   "component_pct": 100
+  },
+  {
+   "id": "i-40-motocross",
+   "primary": "loam",
+   "texture": "Silt loam",
+   "map_unit": "Fullerton silt loam, moderately steep phase (Dewey)",
+   "component_pct": 100
+  },
+  {
+   "id": "i-81-motorsports-park",
+   "primary": "loam",
+   "texture": "Silt loam",
+   "map_unit": "Greendale silt loam, 0 to 6 percent slopes, rarely flooded",
+   "component_pct": 90
+  },
+  {
+   "id": "jb-motocross",
+   "primary": "loam",
+   "texture": "Silt loam",
+   "map_unit": "Etowah silt loam, 0 to 2 percent slopes",
+   "component_pct": 90
+  },
+  {
+   "id": "lane-farm-mx",
+   "primary": "sand",
+   "texture": "Loamy sand",
+   "map_unit": "Cowarts loamy sand, 2 to 5 percent slopes",
+   "component_pct": 80
+  },
+  {
+   "id": "little-valley-mx",
+   "primary": "loam",
+   "texture": "Silt loam",
+   "map_unit": "Leadvale silt loam, rolling phase",
+   "component_pct": 100
+  },
+  {
+   "id": "lost-valley-mx",
+   "primary": "clay",
+   "texture": "Sandy clay loam",
+   "map_unit": "Fairview sandy clay loam, 8 to 15 percent slopes, moderately eroded",
+   "component_pct": 88
+  },
+  {
+   "id": "mesa-mx",
+   "primary": "sand",
+   "texture": "Fine sand",
+   "map_unit": "Wabasso-Wabasso, wet, fine sand, 0 to 2 percent slopes",
+   "component_pct": 70
+  },
+  {
+   "id": "millsaps-training-facility",
+   "primary": "sand",
+   "texture": "Loamy sand",
+   "map_unit": "Tifton loamy sand, 0 to 2 percent slopes",
+   "component_pct": 85
+  },
+  {
+   "id": "moroso-pbir-mx",
+   "primary": "sand",
+   "texture": "Sand",
+   "map_unit": "Arents-Urban land complex, 0 to 5 percent slopes",
+   "component_pct": 60
+  },
+  {
+   "id": "moto-129",
+   "primary": "loam",
+   "texture": "Channery loam",
+   "map_unit": "Udorthents-Urban land complex, 0 to 5 percent slopes, rarely flooded",
+   "component_pct": 60
+  },
+  {
+   "id": "ned-mcwherter-ag-complex",
+   "primary": "loam",
+   "texture": "Silt loam",
+   "map_unit": "Loring silt loam, 8 to 12 percent slopes, severely eroded",
+   "component_pct": 100
+  },
+  {
+   "id": "noahs-motopark",
+   "primary": "loam",
+   "texture": "Sandy loam",
+   "map_unit": "Shubuta sandy loam, 2 to 15 percent slopes, eroded",
+   "component_pct": 85
+  },
+  {
+   "id": "nxt-level-101",
+   "primary": "clay",
+   "texture": "Sandy clay loam",
+   "map_unit": "Cecil sandy clay loam, 2 to 6 percent slopes, moderately eroded",
+   "component_pct": 92
+  },
+  {
+   "id": "oakey-mountain-ohv",
+   "primary": "loam",
+   "texture": "Fine sandy loam",
+   "map_unit": "Halewood (Evard) fine sandy loam, 15 to 25 percent slopes",
+   "component_pct": 100
+  },
+  {
+   "id": "paradise-off-road-park",
+   "primary": "sand",
+   "texture": "Loamy sand",
+   "map_unit": "Orangeburg loamy sand, 5 to 8 percent slopes, moderately eroded",
+   "component_pct": 80
+  },
+  {
+   "id": "plateau-mx",
+   "primary": "loam",
+   "texture": "Loam",
+   "map_unit": "Lily loam, 2 to 6 percent slopes",
+   "component_pct": 85
+  },
+  {
+   "id": "powerline-sx",
+   "primary": "loam",
+   "texture": "Silt loam",
+   "map_unit": "Loring silt loam, 2 to 5 percent slopes, severely eroded",
+   "component_pct": 100
+  },
+  {
+   "id": "redbird-crest-trail",
+   "primary": "loam",
+   "texture": "Fine sandy loam",
+   "map_unit": "Pope fine sandy loam, occasionally flooded",
+   "component_pct": 90
+  },
+  {
+   "id": "reedy-creek-motocross",
+   "primary": "loam",
+   "texture": "Loam",
+   "map_unit": "Mantachie loam, 0 to 2 percent slopes, occasionally flooded",
+   "component_pct": 95
+  },
+  {
+   "id": "rockcrusher-farm",
+   "primary": "loam",
+   "texture": "Loam",
+   "map_unit": "Hayesville loam, 15 to 30 percent slopes",
+   "component_pct": 90
+  },
+  {
+   "id": "scrubn-dirt-mx",
+   "primary": "clay",
+   "texture": "Clay loam",
+   "map_unit": "Lloyd (Gwinnett) clay loam, 6 to 10 percent slopes, severely eroded",
+   "component_pct": 100
+  },
+  {
+   "id": "shiloh-mx",
+   "primary": "loam",
+   "texture": "Channery silt loam",
+   "map_unit": "Nonaburg channery silt loam, 12 to 25 percent slopes, severely eroded, rocky",
+   "component_pct": 85
+  },
+  {
+   "id": "silver-dollar-motorsports-park",
+   "primary": "sand",
+   "texture": "Loamy sand",
+   "map_unit": "Norfolk loamy sand, 0 to 2 percent slopes",
+   "component_pct": 100
+  },
+  {
+   "id": "stony-lonesome-ohv-park",
+   "primary": "loam",
+   "texture": "Fine sandy loam",
+   "map_unit": "Linker fine sandy loam, 6 to 10 percent slopes",
+   "component_pct": 85
+  },
+  {
+   "id": "sunvalley-mx",
+   "primary": "clay",
+   "texture": "Silty clay loam",
+   "map_unit": "Melvin silt loam",
+   "component_pct": 100
+  },
+  {
+   "id": "svmx-park",
+   "primary": "loam",
+   "texture": "Silt loam",
+   "map_unit": "Georgeville silt loam, 2 to 8 percent slopes",
+   "component_pct": 85
+  },
+  {
+   "id": "the-ridge-alabama",
+   "primary": "loam",
+   "texture": "Fine sandy loam",
+   "map_unit": "Linker fine sandy loam, 10 to 15 percent slopes",
+   "component_pct": 85
+  },
+  {
+   "id": "thunder-valley-mx",
+   "primary": "clay",
+   "texture": "Clay loam",
+   "map_unit": "Englewood clay loam, 0 to 2 percent slopes",
+   "component_pct": 85
+  },
+  {
+   "id": "thunder-valley-tn",
+   "primary": "loam",
+   "texture": "Cobbly loam",
+   "map_unit": "Sengtown cobbly loam, 12 to 20 percent slopes, eroded",
+   "component_pct": 85
+  },
+  {
+   "id": "tnt-motorsports-park-al",
+   "primary": "loam",
+   "texture": "Gravelly silt loam",
+   "map_unit": "Baxter (Fullerton) gravelly silt loam, 2 to 6 percent slopes, eroded",
+   "component_pct": 85
+  },
+  {
+   "id": "tnt-motorsports-park-sc",
+   "primary": "clay",
+   "texture": "Sandy clay loam",
+   "map_unit": "Cecil sandy clay loam, 2 to 6 percent slopes, moderately eroded",
+   "component_pct": 92
+  },
+  {
+   "id": "top-gun-mx",
+   "primary": "clay",
+   "texture": "Silty clay loam",
+   "map_unit": "Georgeville clay loam, 2 to 8 percent slopes, moderately eroded",
+   "component_pct": 90
+  },
+  {
+   "id": "top-trails-ohv-park",
+   "primary": "loam",
+   "texture": "Gravelly loam",
+   "map_unit": "Townley gravelly loam, 2 to 6 percent slopes",
+   "component_pct": 90
+  },
+  {
+   "id": "travelers-rest-mx",
+   "primary": "loam",
+   "texture": "Sandy loam",
+   "map_unit": "Hiwassee sandy loam, 6 to 10 percent slopes",
+   "component_pct": 100
+  },
+  {
+   "id": "victory-training-facility",
+   "primary": "sand",
+   "texture": "Loamy sand",
+   "map_unit": "Dothan loamy sand, 2 to 5 percent slopes",
+   "component_pct": 80
+  },
+  {
+   "id": "walnut-tree-mx",
+   "primary": "clay",
+   "texture": "Sandy clay loam",
+   "map_unit": "Udorthents, loamy",
+   "component_pct": 90
+  },
+  {
+   "id": "wambaw-cycle-trail",
+   "primary": "sand",
+   "texture": "Fine sand",
+   "map_unit": "Cainhoy fine sand, 0 to 6 percent slopes",
+   "component_pct": 100
+  },
+  {
+   "id": "wayehutta-ohv",
+   "primary": "loam",
+   "texture": "Gravelly loam",
+   "map_unit": "Saunook gravelly loam, 15 to 30 percent slopes, stony",
+   "component_pct": 80
+  },
+  {
+   "id": "white-sulphur-ohv",
+   "primary": "loam",
+   "texture": "Silt loam",
+   "map_unit": "Gilpin silt loam, 6 to 20 percent slopes, eroded",
+   "component_pct": 80
+  }
+ ]
+}
