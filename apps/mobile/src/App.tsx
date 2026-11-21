@@ -37,6 +37,7 @@ import {TourHost,TourOffer,AppHelpHint,startTour} from './Tour';
 import {syncBikeWidget,clearBikeWidget,endGuideActivity,syncNextEventWidget,clearNextEventWidget,endRaceActivity} from './widgets/sync';
 import {parseAppLink,takePendingLink,watchPendingLinks,usedLinkTokens,type AppLink} from './appLinks';
 import {configureNotifications,registerIfAllowed,enablePushAfterReminder,unregisterPush,watchNotificationTaps} from './push';
+import {InviteCard} from './InviteCard';
 import {NotificationsCard} from './NotificationsCard';
 import {createBottomTabNavigator,type BottomTabScreenProps} from '@react-navigation/bottom-tabs';
 import {StatusBar} from 'expo-status-bar';
@@ -744,7 +745,7 @@ function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSum
  <Section icon="trash" title="Delete account" summary="Removes your Garage, chats and service history"><Copy>Deletion removes your Garage, conversations and service history. Cancel your subscription in the App Store before deleting your account.</Copy><Field label="Type DELETE to confirm" placeholder="DELETE" autoCapitalize="characters" value={confirm} onChangeText={setConfirm}/><Button secondary disabled={busy||confirm!=='DELETE'} title="Permanently delete account" onPress={()=>Alert.alert('Permanently delete account?','This action cannot be undone. Export your data first if you need a copy.',[{text:'Cancel',style:'cancel'},{text:'Delete account',style:'destructive',onPress:()=>void task(async()=>{await api('/api/account','DELETE',{confirmation:'DELETE'});await endShareOnSignOut();clearProgress(session.user.id);await supabase!.auth.signOut({scope:'local'});})}])}/></Section>
  <View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}/>
  </View>
- <AccountRow icon="share" title="Tell a friend about BAK MX" summary="Send them the link" onPress={()=>{void Share.share({message:'I use BAK MX for my bike: specs, setup and answers for my exact bike. Get it here: https://bakmx.com',url:'https://bakmx.com'}).catch(()=>{});}}/>
+ <Section icon="share" title="Invite a friend" summary="Free questions and free months for bringing riders in"><InviteCard/></Section>
  <AccountRow icon="signout" title="Sign out" summary={session.user.email??''} onPress={()=>{if(!busy)void task(async()=>{await unregisterPush();await endShareOnSignOut();const r=await supabase!.auth.signOut();if(r.error)throw r.error;});}}/></Page>}
 
 /** An Account row that opens a screen, drawn like the folding Section rows around it. */

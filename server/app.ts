@@ -26,11 +26,12 @@ import {gapIsForBike} from '../shared/bike-identity.ts';
 import {limitMessage,canCoachClips,CLIP_PRO_NOTE} from '../shared/plans.ts';
 import {handleMobileBilling} from './mobile-billing.ts';
 import {handleRiderSurfaces} from './rider-surfaces.ts';
+import {handleInvites,rewardJoin,runInviteCron} from './invites.ts';
 import {handleTrackReports} from './track-reports.ts';
 import {handleTrackCheckins} from './track-checkins.ts';
 import {handleTrackHistory} from './track-history.ts';
 import {clearFinishedShares,handlePublicShare,handleRideShares,runSafetyCron} from './ride-shares.ts';
-import {cronAuthorized} from './notifications.ts';
+import {cronAuthorized,inBackground} from './notifications.ts';
 // Tables with column-level grants: the export reads only the columns a rider may see (the share link's secret never leaves).
 const EXPORT_COLUMNS:Record<string,string>={ride_shares:'id,user_id,rider_name,created_at,expires_at,ended_at,back_by,alert_at,alerted_at,all_clear_at,track_name,last_lat,last_lng,last_accuracy_m,last_at',safety_contacts:'id,user_id,name,phone,email,introduced_at,created_at'};
 import {handleTuningNotes} from './tuning-notes.ts';
@@ -63,7 +64,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
  if(path==='/api/eval/ask'&&method==='POST')return await handleEval(req);
  if(path==='/api/eval/photo-edit'&&method==='POST')return await handleEvalPhotoEdit(req);
  // Vercel Cron: scheduled notifications. Checked against CRON_SECRET, not a rider's sign-in.
- if(path==='/api/cron/notifications'&&(method==='GET'||method==='POST')){const res=await handleNotificationCron(req);if(res.status<400)await clearFinishedShares();return res;}
+ if(path==='/api/cron/notifications'&&(method==='GET'||method==='POST')){const res=await handleNotificationCron(req);if(res.status<400){await clearFinishedShares();await runInviteCron().catch(()=>{});}return res;}
  // Ride safety: every minute, alert the contacts of riders 30 minutes past their back-by time. Same cron secret.
  if(path==='/api/cron/ride-safety'&&(method==='GET'||method==='POST')){
   if(!cronAuthorized(req.headers.get('authorization'),process.env.CRON_SECRET))return json({error:'Not authorized'},401);
@@ -82,7 +83,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
  {const coaching=await handleCoaching(req,path,method,url,owner,db);if(coaching)return json(coaching);}
  if(path==='/api/bikes'){
   if(method==='GET')return json(checked(await db.from('bikes').select('*').eq('user_id',owner).order('created_at',{ascending:false})));
-  if(method==='POST'){const input=createInput(await readJson(req)),data=bikeSchema.parse(input.data),saved=await createRecord(db,'bikes',owner,data,input.id);return json(saved.record,saved.replayed?200:201);}
+  if(method==='POST'){const input=createInput(await readJson(req)),data=bikeSchema.parse(input.data),saved=await createRecord(db,'bikes',owner,data,input.id);if(!saved.replayed)inBackground(()=>rewardJoin(owner));return json(saved.record,saved.replayed?200:201);}
  }
  const bikeMatch=path.match(/^\/api\/bikes\/([^/]+)$/);
  if(bikeMatch){const id=uuid.parse(bikeMatch[1]);if(method==='PUT'||method==='PATCH'){const data=bikeSchema.parse(await readJson(req));const bike=checked(await db.from('bikes').update({...data,updated_at:new Date().toISOString()}).eq('id',id).eq('user_id',owner).select().maybeSingle());if(!bike)throw new HttpError(404,'Bike not found');return json(bike);}if(method==='DELETE'){const rows=checked(await db.from('bikes').delete().eq('id',id).eq('user_id',owner).select('id'));if(!rows?.length)throw new HttpError(404,'Bike not found');return json({deleted:true});}}
@@ -188,6 +189,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
  if(path==='/api/account/export'&&method==='GET'){const tables=['bikes','service_events','conversations','messages','subscriptions','mobile_entitlements','setup_logs','track_reports','track_checkins','track_presence','ride_shares','safety_contacts','tuning_notes','fuel_profiles','posts','post_comments','events','feedback','rider_preferences','notification_preferences','notifications','push_devices'] as const;const entries=await Promise.all(tables.map(async t=>{const primaryKey=t==='subscriptions'||t==='mobile_entitlements'||t==='rider_preferences'||t==='notification_preferences'?'user_id':'id';return [t,await collectPages((from,to)=>db.from(t).select((EXPORT_COLUMNS[t]??'*') as '*',{count:'exact'}).eq('user_id',owner).order(primaryKey,{ascending:true}).range(from,to),{label:t,key:r=>r[primaryKey]})];}));const requests=await collectPages((from,to)=>adminDb().from('ai_requests').select('request_id,conversation_id,input,state,response,bike_snapshot,claims_snapshot,model,prompt_version,error_code,received_at,created_at,completed_at',{count:'exact'}).eq('user_id',owner).order('request_id',{ascending:true}).range(from,to),{label:'Request history',key:r=>r.request_id});if(Buffer.byteLength(JSON.stringify({entries,requests}),'utf8')>60000000)throw new HttpError(413,'Account export exceeds the download size limit. Contact support for a complete export.');return json({exported_at:new Date().toISOString(),user:{id:owner,email:user.email},...Object.fromEntries(entries),requests});}
  if(path==='/api/auth/apple/exchange'&&method==='POST')return json(await exchangeAppleCode(owner,await readJson(req)));
  if(path==='/api/account'&&method==='DELETE'){const data=await readJson(req);if(data?.confirmation!=='DELETE')throw new HttpError(400,'Confirm deletion by sending DELETE');await prepareAccountDeletion(owner);await revokeAppleSignIn(owner);const admin=adminDb();{for(let off=0;;off+=100){const files=await admin.storage.from('rider-manuals').list(owner,{limit:100,offset:off});const names=files.data?.map(f=>`${owner}/${f.name}`)??[];if(names.length)await admin.storage.from('rider-manuals').remove(names);if(names.length<100)break;}}{const photos=(await admin.from('rider_photos').select('storage_path').eq('user_id',owner).limit(5000)).data as {storage_path:string}[]|null;for(let i=0;i<(photos?.length??0);i+=500)await admin.storage.from(PHOTO_BUCKET).remove(photos!.slice(i,i+500).map(p=>p.storage_path));}{const clips=(await admin.from('rider_videos').select('storage_path').eq('user_id',owner).limit(5000)).data as {storage_path:string}[]|null;for(let i=0;i<(clips?.length??0);i+=500)await admin.storage.from('rider-videos').remove(clips!.slice(i,i+500).map(p=>p.storage_path));}const signout=await admin.auth.admin.signOut(token,'global');if(signout.error)throw new HttpError(503,'Could not revoke sessions');const deleted=await admin.auth.admin.deleteUser(owner);if(deleted.error)throw new HttpError(503,'Could not delete account. Contact support before signing up again.');return json({deleted:true});}
+ {const invite=await handleInvites(req,path,method,user);if(invite)return json(invite);}
  {const surface=await handleRiderSurfaces(req,url,path,method,db,owner);if(surface)return surface;}
  {const reports=await handleTrackReports(req,url,path,method,db,owner);if(reports)return reports;}
  {const checkins=await handleTrackCheckins(req,url,path,method,db,owner);if(checkins)return checkins;}

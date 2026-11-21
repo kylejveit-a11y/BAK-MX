@@ -5,5 +5,7 @@ import './styles.css'; // first, so the per-feature stylesheets (home.css, rider
 import {App} from './App';
 import {LegalPage,LEGAL_PATHS} from './LegalPage';
 import {SharePage} from './SharePage';
+import {InvitePage} from './Invite';
 const shareLink=/^\/s\/([A-Za-z0-9_-]{32})\/?$/.exec(location.pathname)?.[1];
-createRoot(document.getElementById('root')!).render(<React.StrictMode>{shareLink?<SharePage secret={shareLink}/>:LEGAL_PATHS.includes(location.pathname.replace(/\/$/,''))?<LegalPage path={location.pathname.replace(/\/$/,'')}/>:<App/>}</React.StrictMode>);
+const inviteCode=/^\/invite(?:\/([A-Za-z0-9-]{0,20}))?\/?$/.exec(location.pathname);
+createRoot(document.getElementById('root')!).render(<React.StrictMode>{shareLink?<SharePage secret={shareLink}/>:inviteCode?<InvitePage raw={inviteCode[1]??''}/>:LEGAL_PATHS.includes(location.pathname.replace(/\/$/,''))?<LegalPage path={location.pathname.replace(/\/$/,'')}/>:<App/>}</React.StrictMode>);

@@ -25,16 +25,26 @@ export function creditPacks(raw:string|undefined):Map<string,number>{
 }
 
 const live=(status:string|null|undefined,end:string|null|undefined)=>['active','trialing'].includes(status||'')&&!!end&&Date.parse(end)>Date.now();
-/** Reads tier from stored subscription rows. Callers that need freshness run the provider sync first (hasPaidAccess does). */
-export async function resolveTier(userId:string,db=admin()):Promise<Tier>{
- const [web,store,comp]=await Promise.all([db.from('subscriptions').select('status,current_period_end,price_id').eq('user_id',userId).maybeSingle(),db.from('mobile_entitlements').select('status,current_period_end,product_identifier,is_sandbox').eq('user_id',userId).maybeSingle(),complimentaryTier(userId,db)]);
+/** The plan a rider is paying for right now (store or web), or null. Gifts and invite rewards do not count as paying. */
+export async function paidTier(userId:string,db=admin()):Promise<Tier|null>{
+ const [web,store]=await Promise.all([db.from('subscriptions').select('status,current_period_end,price_id').eq('user_id',userId).maybeSingle(),db.from('mobile_entitlements').select('status,current_period_end,product_identifier,is_sandbox').eq('user_id',userId).maybeSingle()]);
  if(web.error)throw web.error;if(store.error)throw store.error;
  const sandboxOk=process.env.ALLOW_SANDBOX_PURCHASES==='true'&&process.env.APP_ENV!=='production';
  const s=store.data,w=web.data;
  const storeT=s&&live(s.status,s.current_period_end)&&(!s.is_sandbox||sandboxOk)?storeTier(s.product_identifier):null;
  // A web row from before plan tiers has no price id; it was the single (Pro) membership.
  const webT=w&&live(w.status,w.current_period_end)?(w.price_id?stripePlanPrices().get(w.price_id)??null:'pro'):null;
- return bestTier(storeT,webT,comp);
+ const best=bestTier(storeT,webT);return best==='free'?null:best;
+}
+/** Reads tier from stored subscription rows. Callers that need freshness run the provider sync first (hasPaidAccess does). */
+export async function resolveTier(userId:string,db=admin()):Promise<Tier>{
+ const [paid,comp,bonus]=await Promise.all([paidTier(userId,db),complimentaryTier(userId,db),inviteBonusTier(userId,db)]);
+ return bestTier(paid,comp,bonus);
+}
+/** A free month earned by inviting friends (invite_months, opened by BAK for riders on the free plan). Never fails the request. */
+async function inviteBonusTier(userId:string,db:SupabaseClient):Promise<Tier|null>{
+ const at=new Date().toISOString();const {data,error}=await db.from('invite_months').select('tier').eq('user_id',userId).eq('how','unlock').lte('starts_at',at).gt('ends_at',at);
+ if(error||!data?.length)return null;return data.some(m=>m.tier==='pro')?'pro':'premium';
 }
 /** A plan Kyle gave an account permanently (complimentary_access). Never fails the request: no row or an error means none. */
 export async function complimentaryTier(userId:string,db=admin()):Promise<Tier|null>{

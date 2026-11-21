@@ -34,6 +34,7 @@ import type {AppActionHost,AppScreen} from '../shared/app-actions';
 import {Plans,NextSetButton} from './Plans';
 import {isLimitMessage} from '../shared/pro-flow';
 import {NotificationBell,NotificationSettingsPanel} from './Notifications';
+import {InvitePanel} from './Invite';
 import type {NotificationLink} from '../shared/notification-links';
 import {aiConsentKey,AI_CONSENT_PREVIOUS,aiConsentUpdatedTitle,aiConsentUpdatedIntro,aiConsentTitle,aiConsentPoints,aiConsentAgree} from '../shared/ai-consent';
 import type {SetupLog} from '../shared/rider-types';
@@ -169,6 +170,7 @@ export function App(){
  {page==='Account'&&<div className="account-sections">
   <details className="section" open><summary><ShieldCheck size={18}/><span><b>Plan and account</b><small>{session?'Membership, sign out, your data':'Sign in or create your account'}</small></span></summary><div className="section-body"><Account key={session?.user.id||'signed-out'} session={session} onSignIn={()=>setAuth(true)} onSignedOut={()=>{setBikes([]);go('Overview')}}/></div></details>
   {session&&<details className="section"><summary><Bell size={18}/><span><b>Notifications</b><small>Messages, comments, event reminders, service due</small></span></summary><div className="section-body"><NotificationSettingsPanel/></div></details>}
+  {session&&<details className="section"><summary><Users size={18}/><span><b>Invite a friend</b><small>Free questions and free months for bringing riders in</small></span></summary><div className="section-body"><InvitePanel/></div></details>}
   {session&&<details className="section"><summary><Settings2 size={18}/><span><b>Preferences</b><small>Units, answer length and tone, race number</small></span></summary><div className="section-body"><Preferences/></div></details>}
   <details className="section"><summary><Gauge size={18}/><span><b>App colour</b><small>{colorMode==='bike'?'Follows your bike':'BAK blue everywhere'}</small></span></summary><div className="section-body"><AppColor bike={bike} mode={colorMode} onChange={m=>{setColorMode(m);try{localStorage.setItem('bak.app-color',m);}catch{}}}/></div></details>
   <details className="section"><summary><MessageSquare size={18}/><span><b>Feedback</b><small>Tell us what worked and what didn’t</small></span></summary><div className="section-body"><Feedback signedIn={!!session} bike={bike}/></div></details>

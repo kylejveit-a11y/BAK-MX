@@ -35,7 +35,7 @@ export function FirstLoginSetup({visible,name,onName,colorMode,setColorMode,onBi
  /** The Home step's answers (null = not answered): the caller switches the matching Home blocks. */ onHome:(a:{races:boolean|null;coaching:boolean|null})=>void;onFinish:(how:'tour'|'app'|'skipped')=>void}){
  const insets=useSafeAreaInsets();
  const [step,setStep]=useState<WelcomeStep>('hello'),[bike,setBike]=useState<Bike|null>(null),[shopping,setShopping]=useState(false);
- const [draftName,setDraftName]=useState(name),[pick,setPick]=useState<{make:string;model:string;year:string}|null>(null),[wheel,setWheel]=useState(false);
+ const [draftName,setDraftName]=useState(name),[friendCode,setFriendCode]=useState(''),[pick,setPick]=useState<{make:string;model:string;year:string}|null>(null),[wheel,setWheel]=useState(false);
  const [weight,setWeight]=useState(''),[level,setLevel]=useState(''),[discipline,setDiscipline]=useState(''),[dirt,setDirt]=useState('');
  const [prefs,setPrefs]=useState<Prefs>({units:'us',answer_length:'full',tone:'straight'});
  const [races,setRaces]=useState<boolean|null>(null),[coaching,setCoaching]=useState<boolean|null>(null);
@@ -75,7 +75,9 @@ export function FirstLoginSetup({visible,name,onName,colorMode,setColorMode,onBi
  const body:Record<WelcomeStep,React.ReactNode>={
   hello:<>{title('Welcome to BAK MX','A minute of setup so BAK knows you and your bike. Then a quick look around.')}
    <View style={{gap:8}}>{label('What should BAK call you?','First name is plenty. Optional.')}
-    <TextInput value={draftName} onChangeText={v=>setDraftName(v.slice(0,40))} placeholder="Your name" placeholderTextColor="#7d8593" autoCapitalize="words" autoCorrect={false} returnKeyType="done" onSubmitEditing={()=>Keyboard.dismiss()} accessibilityLabel="Your name" style={{color:colors.text,fontSize:20,fontWeight:'700',borderBottomWidth:1,borderBottomColor:colors.accent,paddingVertical:8}}/></View></>,
+    <TextInput value={draftName} onChangeText={v=>setDraftName(v.slice(0,40))} placeholder="Your name" placeholderTextColor="#7d8593" autoCapitalize="words" autoCorrect={false} returnKeyType="done" onSubmitEditing={()=>Keyboard.dismiss()} accessibilityLabel="Your name" style={{color:colors.text,fontSize:20,fontWeight:'700',borderBottomWidth:1,borderBottomColor:colors.accent,paddingVertical:8}}/></View>
+   <View style={{gap:8}}>{label('Did a friend invite you?','Enter their code and they get 10 free Ask BAK questions once you add your bike. Optional.')}
+    <TextInput value={friendCode} onChangeText={v=>setFriendCode(v.toUpperCase().replace(/[^A-Z0-9-]/g,'').slice(0,13))} placeholder="Friend's code" placeholderTextColor="#7d8593" autoCapitalize="characters" autoCorrect={false} returnKeyType="done" onSubmitEditing={()=>Keyboard.dismiss()} accessibilityLabel="Friend's invite code" style={{color:colors.text,fontSize:17,fontWeight:'600',letterSpacing:1,borderBottomWidth:1,borderBottomColor:'#2a2f39',paddingVertical:8}}/></View></>,
   bike:<>{title('Which bike are you on?','Pick make, model and year. BAK loads its stock setup, specs and service schedule.')}
    <Pressable accessibilityRole="button" accessibilityLabel={pick?`Bike: ${pick.year} ${pick.make} ${pick.model}. Tap to change`:'Choose your bike'} disabled={busy} onPress={()=>setWheel(true)} style={({pressed})=>({borderWidth:1,borderColor:pick?colors.accent:'#2a2f39',backgroundColor:'#0e1015',borderRadius:16,paddingVertical:16,paddingHorizontal:16,gap:3,opacity:pressed||busy?0.7:1})}>
     <Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>Bike</Text><Text style={{color:pick?colors.text:colors.accent,fontSize:19,fontWeight:'800'}}>{pick?`${pick.year} ${pick.make} ${pick.model}`:'Choose your bike'}</Text></Pressable>
@@ -103,7 +105,7 @@ export function FirstLoginSetup({visible,name,onName,colorMode,setColorMode,onBi
   done:<>{title(draftName.trim()?`You’re set, ${draftName.trim()}`:'You’re set',bike?'Your bike is in the Garage and BAK knows the basics. Want a 30-second look around?':shopping?'Add your bike from the Garage when you have one. Want a 30-second look around first?':'Want a 30-second look around?')}</>,
  };
  const primary:Record<WelcomeStep,{title:string;onPress:()=>void;disabled?:boolean}>={
-  hello:{title:'Continue',onPress:()=>{onName(draftName.trim());next();}},
+  hello:{title:'Continue',disabled:busy,onPress:()=>{onName(draftName.trim());if(!friendCode.trim()){next();return;}void run(async()=>{await api('/api/invite/redeem','POST',{code:friendCode.trim()});setFriendCode('');next();});}},
   bike:{title:busy?'Adding…':'Add this bike',onPress:()=>void saveBike(),disabled:!pick||busy},
   you:{title:busy?'Saving…':'Save and continue',onPress:()=>void saveYou(),disabled:!youReady||busy},
   answers:{title:busy?'Saving…':'Save and continue',onPress:()=>void savePrefs(),disabled:busy},
