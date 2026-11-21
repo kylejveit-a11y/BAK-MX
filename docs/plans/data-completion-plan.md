@@ -239,3 +239,10 @@ to approve first; affiliate applications after the Google launch (Kyle, 2026-11-
 - Parts hunter: design in PARTS_HUNTER.md, waiting for Kyle's yes and two decisions.
 - Specialists: design and test plan in SPECIALISTS.md, waiting for Kyle's yes and three decisions.
 - Affiliates: applications after the Google launch.
+
+## Parked list progress, later on 2026-11-21
+
+- Find a part: built (app, website, server). Factory list search over 434 bikes' parts lists plus the aftermarket lists; stores are Rocky Mountain ATV/MC, MotoSport and Partzilla (factory parts) search pages, each checked by hand, plus store pages already on file. Saved parts list is on the account. One quiet line in Ask BAK, switch on the Find a part card.
+- Specialists: three packs and three 100-question exams built. Packs are off for riders until each wins on its exam (see SPECIALISTS.md "Built and first scores"). Engine and set-up re-runs are waiting on the daily test allowance (rolling 24 hours, frees up from about 07:30 Eastern on 2026-11-22). Before-scores are saved in docs/research/specialists/results.
+- Website welcome sheet: bike or "still shopping", and a friend's code.
+- Still to do before 1.0.12: engine and set-up pack re-runs and the on/off decision for each; the 1.0.12 build walkthrough.
