@@ -231,3 +231,11 @@ Checked: typecheck, tests, iOS bundle export. NOT yet seen on a device or simula
 Kyle (2026-11-21): every planned piece must be in before 1.0.12 goes to review.
 Next on the parked list: invite-a-friend, then the 1.0.12 build; parts hunter and specialist agents get a design for Kyle
 to approve first; affiliate applications after the Google launch (Kyle, 2026-11-21).
+
+## Parked list progress (2026-11-21)
+
+- Invite a friend: built and live on the server and website (see INVITE_REWARDS.md "Built"). App screens ride in 1.0.12.
+- First-login setup: app version built (name, friend's code, bike or still shopping, rider basics, answers, look, Home, reminders, tour). Website version not built.
+- Parts hunter: design in PARTS_HUNTER.md, waiting for Kyle's yes and two decisions.
+- Specialists: design and test plan in SPECIALISTS.md, waiting for Kyle's yes and three decisions.
+- Affiliates: applications after the Google launch.
