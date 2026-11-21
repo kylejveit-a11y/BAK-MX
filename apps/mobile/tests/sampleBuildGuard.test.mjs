@@ -5,7 +5,7 @@ const eas=JSON.parse(readFileSync(new URL('../eas.json',import.meta.url),'utf8')
 
 test('store builds never carry sample mode',()=>{
  for(const [name,profile] of Object.entries(eas.build)){
-  if(name.startsWith('android-sample')||name==='ios-sample'||name==='ios-store')continue;
+  if(name.startsWith('android-sample')||name==='ios-sample'||name==='ios-sample-new'||name==='ios-store')continue;
   const env=profile.env??{};
   assert.equal(env.EXPO_PUBLIC_SAMPLE_BUILD,undefined,`${name} must not set EXPO_PUBLIC_SAMPLE_BUILD`);
   assert.equal(env.EXPO_PUBLIC_SAMPLE_MODE,undefined,`${name} must not set EXPO_PUBLIC_SAMPLE_MODE`);
