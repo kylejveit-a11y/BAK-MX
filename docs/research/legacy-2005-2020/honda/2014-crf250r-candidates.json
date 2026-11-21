@@ -1,0 +1,407 @@
+{
+  "target": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2014,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "honda-2014-crf250r-dimension-overall-length",
+      "property": "dimensions",
+      "joint": "Dimension / Overall length",
+      "value": "2181",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059313+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-dimension-overall-width",
+      "property": "dimensions",
+      "joint": "Dimension / Overall width",
+      "value": "827",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059335+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-dimension-overall-height",
+      "property": "dimensions",
+      "joint": "Dimension / Overall height",
+      "value": "1271",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059703+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1489",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059714+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-dimension-seat-height",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height",
+      "value": "951",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059721+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-dimension-footpeg-height",
+      "property": "dimensions",
+      "joint": "Dimension / Footpeg height",
+      "value": "418",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059727+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-dimension-ground-clearance",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance",
+      "value": "322",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059733+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-engine-gearing-engine-bore",
+      "property": "dimensions",
+      "joint": "Engine / Bore",
+      "value": "76.8",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059313+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-engine-gearing-engine-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Stroke",
+      "value": "53.8",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059313+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-engine-gearing-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "249.4",
+      "unit": "cm³",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059313+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-engine-gearing-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "13.5:1",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059313+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-engine-gearing-drive-train-primary-reduction",
+      "property": "other",
+      "joint": "Drive train / Primary reduction",
+      "value": "3.166",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059313+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-engine-gearing-drive-train-gear-ratio-i",
+      "property": "other",
+      "joint": "Drive train / Gear ratio I",
+      "value": "2.357",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059313+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-engine-gearing-drive-train-gear-ratio-ii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio II",
+      "value": "1.888",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059313+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-engine-gearing-drive-train-gear-ratio-iii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio III",
+      "value": "1.555",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059313+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-engine-gearing-drive-train-gear-ratio-iv",
+      "property": "other",
+      "joint": "Drive train / Gear ratio IV",
+      "value": "1.333",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059313+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-engine-gearing-drive-train-gear-ratio-v",
+      "property": "other",
+      "joint": "Drive train / Gear ratio V",
+      "value": "1.136",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059313+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-engine-gearing-drive-train-final-reduction",
+      "property": "other",
+      "joint": "Drive train / Final reduction",
+      "value": "3.769",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059313+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-engine-gearing-frame-fuel-tank-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel tank capacity",
+      "value": "6.3",
+      "unit": "L",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059313+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf250r-engine-gearing-dimension-trail-length",
+      "property": "dimensions",
+      "joint": "Dimension / Trail length",
+      "value": "118",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31krn700_crf250r.pdf",
+      "locator": "PDF page 156; printed page 151",
+      "document_sha256": "643dd5eda1d4e16a5fae196d8f204d259c084cb34a64489f194611b524aa128b",
+      "document_revision": "2014 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:44.059313+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}

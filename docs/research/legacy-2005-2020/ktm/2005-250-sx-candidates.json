@@ -1,0 +1,354 @@
+{
+  "target": {
+    "manufacturer": "KTM",
+    "model": "250 SX",
+    "model_year": 2005,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "ktm-2005-250-sx-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "249",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 53; printed page 52",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363882+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-engine-bore-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Bore / stroke",
+      "value": "66.4 / 72",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 53; printed page 52",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363896+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-drive-train-primary-gear-tooth-ratio",
+      "property": "other",
+      "joint": "Drive train / Primary gear tooth ratio",
+      "value": "26:72",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 53; printed page 52",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363902+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-drive-train-number-of-gears",
+      "property": "other",
+      "joint": "Drive train / Number of gears",
+      "value": "5",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 53; printed page 52",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363906+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-electrical-spark-plug",
+      "property": "other",
+      "joint": "Electrical / Spark plug",
+      "value": "NGK BR8 ECM",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 53; printed page 52",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363910+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-drive-train-gear-1-tooth-ratio",
+      "property": "other",
+      "joint": "Drive train / Gear 1 tooth ratio",
+      "value": "14:28",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 53; printed page 52",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363917+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-drive-train-gear-2-tooth-ratio",
+      "property": "other",
+      "joint": "Drive train / Gear 2 tooth ratio",
+      "value": "16:26",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 53; printed page 52",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363921+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-drive-train-gear-3-tooth-ratio",
+      "property": "other",
+      "joint": "Drive train / Gear 3 tooth ratio",
+      "value": "18:24",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 53; printed page 52",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363925+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-drive-train-gear-4-tooth-ratio",
+      "property": "other",
+      "joint": "Drive train / Gear 4 tooth ratio",
+      "value": "21:24",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 53; printed page 52",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363929+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-drive-train-gear-5-tooth-ratio",
+      "property": "other",
+      "joint": "Drive train / Gear 5 tooth ratio",
+      "value": "22:21",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 53; printed page 52",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363934+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1475 ± 10",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 51; printed page 50",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363939+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-dimension-seat-height-unloaded",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height unloaded",
+      "value": "925",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 51; printed page 50",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363943+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-dimension-ground-clearance-unloaded",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance unloaded",
+      "value": "385",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 51; printed page 50",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363947+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-frame-fuel-tank-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel tank capacity",
+      "value": "7.5",
+      "unit": "L",
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 51; printed page 50",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363951+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-suspension-front-wheel-travel",
+      "property": "dimensions",
+      "joint": "Suspension / Front wheel travel",
+      "value": "300",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 51; printed page 50",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363954+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-suspension-rear-wheel-travel",
+      "property": "dimensions",
+      "joint": "Suspension / Rear wheel travel",
+      "value": "335",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 51; printed page 50",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363958+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "ktm-2005-250-sx-suspension-standard-fork-spring-rate",
+      "property": "other",
+      "joint": "Suspension / Standard fork spring rate",
+      "value": "4.4",
+      "unit": "N/mm",
+      "conditions": [
+        "Exact 2005 stock SX column; EXC and MXC columns excluded.",
+        "English multi-market OEM-authored manual hosted by KTM dealer; US applicability and mirror authenticity require independent review."
+      ],
+      "source_url": "https://mobil.ktmshop.se/bike-manuals/6101E9_OM_EN.pdf",
+      "locator": "PDF page 51; printed page 50",
+      "document_sha256": "faf25d0236296d0a5d38e9fa9f887b44e4c8eea18dc7734907ab96bd6fb12928",
+      "document_revision": "2005 KTM Owner’s Manual 3.211.38",
+      "retrieved_at": "2026-10-16T15:44:58.363962+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine and chassis columns visually inspected. Dealer mirror; independent authenticity, market and conflict review required.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}

@@ -1,0 +1,127 @@
+{
+  "scope": "Selected exact 2020 MX rows explicitly reported by prior repository reviews; not a full roster and not a live database audit.",
+  "records": [
+    {
+      "model": "KTM 85 SX 17/14",
+      "year": 2020,
+      "repository_report": "docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md",
+      "reported_spec_schedule_damper_cell": "181/46/15",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "KTM 85 SX 19/16",
+      "year": 2020,
+      "repository_report": "docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md",
+      "reported_spec_schedule_damper_cell": "181/46/15",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "KTM 125 SX",
+      "year": 2020,
+      "repository_report": "docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md",
+      "reported_spec_schedule_damper_cell": "196/47/15",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "KTM 150 SX",
+      "year": 2020,
+      "repository_report": "docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md",
+      "reported_spec_schedule_damper_cell": "196/47/15",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "KTM 250 SX",
+      "year": 2020,
+      "repository_report": "docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md",
+      "reported_spec_schedule_damper_cell": "191/47/15",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "KTM 250 SX-F",
+      "year": 2020,
+      "repository_report": "docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md",
+      "reported_spec_schedule_damper_cell": "209/52/15",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "KTM 350 SX-F",
+      "year": 2020,
+      "repository_report": "docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md",
+      "reported_spec_schedule_damper_cell": "211/52/15",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "KTM 450 SX-F",
+      "year": 2020,
+      "repository_report": "docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md",
+      "reported_spec_schedule_damper_cell": "196/51/15",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "Husqvarna FC 250",
+      "year": 2020,
+      "repository_report": "docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md",
+      "reported_spec_schedule_damper_cell": "258/52/15",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "Husqvarna FC 350",
+      "year": 2020,
+      "repository_report": "docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md",
+      "reported_spec_schedule_damper_cell": "263/52/15",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "Husqvarna FC 450",
+      "year": 2020,
+      "repository_report": "docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md",
+      "reported_spec_schedule_damper_cell": "251/51/15",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "Husqvarna TC 125",
+      "year": 2020,
+      "repository_report": "docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md",
+      "reported_spec_schedule_damper_cell": "229/38/15",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "Husqvarna TC 250",
+      "year": 2020,
+      "repository_report": "docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md",
+      "reported_spec_schedule_damper_cell": "237/47/15",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "Kawasaki KX250",
+      "year": 2020,
+      "manual": "99803-0080",
+      "reported_rows": 107,
+      "repository_report": "docs/research/expansion/kawasaki/OWNERS_MANUAL_REVIEW_2026-10-13.md",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "Kawasaki KX450",
+      "year": 2020,
+      "manual": "99803-0044",
+      "reported_rows": 113,
+      "repository_report": "docs/research/expansion/kawasaki/OWNERS_MANUAL_REVIEW_2026-10-13.md",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "Yamaha YZ125",
+      "year": 2020,
+      "reported_rows": 180,
+      "repository_report": "docs/research/expansion/yamaha/TEXT_LAYER_REVIEW_2026-10-13.md",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    },
+    {
+      "model": "Yamaha YZ250",
+      "year": 2020,
+      "reported_rows": 179,
+      "repository_report": "docs/research/expansion/yamaha/TEXT_LAYER_REVIEW_2026-10-13.md",
+      "status": "REPOSITORY_REPORT_ONLY_LIVE_NOT_CHECKED"
+    }
+  ],
+  "import_instruction": "Reconcile these existing records before any import. Current legacy candidates are extraction/review artifacts, not proof of net-new production facts."
+}

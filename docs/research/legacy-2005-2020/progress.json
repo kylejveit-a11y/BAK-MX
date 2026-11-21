@@ -1,0 +1,113 @@
+{
+  "scope": {
+    "first_year": 2005,
+    "last_year": 2020,
+    "order": "ascending",
+    "first_unfinished_year": 2005
+  },
+  "status": "INCOMPLETE",
+  "candidate_models": 90,
+  "candidate_facts": 2069,
+  "acquired_documents": 76,
+  "complete_models": 0,
+  "live_imported": 0,
+  "years": [
+    {
+      "year": 2005,
+      "status": "PARTIAL",
+      "candidate_models": 10,
+      "complete_models": 0
+    },
+    {
+      "year": 2006,
+      "status": "PARTIAL",
+      "candidate_models": 6,
+      "complete_models": 0
+    },
+    {
+      "year": 2007,
+      "status": "PARTIAL",
+      "candidate_models": 6,
+      "complete_models": 0
+    },
+    {
+      "year": 2008,
+      "status": "SOURCE_GAP",
+      "candidate_models": 0,
+      "complete_models": 0
+    },
+    {
+      "year": 2009,
+      "status": "PARTIAL",
+      "candidate_models": 2,
+      "complete_models": 0
+    },
+    {
+      "year": 2010,
+      "status": "PARTIAL",
+      "candidate_models": 2,
+      "complete_models": 0
+    },
+    {
+      "year": 2011,
+      "status": "PARTIAL",
+      "candidate_models": 2,
+      "complete_models": 0
+    },
+    {
+      "year": 2012,
+      "status": "PARTIAL",
+      "candidate_models": 4,
+      "complete_models": 0
+    },
+    {
+      "year": 2013,
+      "status": "PARTIAL",
+      "candidate_models": 4,
+      "complete_models": 0
+    },
+    {
+      "year": 2014,
+      "status": "PARTIAL",
+      "candidate_models": 4,
+      "complete_models": 0
+    },
+    {
+      "year": 2015,
+      "status": "PARTIAL",
+      "candidate_models": 4,
+      "complete_models": 0
+    },
+    {
+      "year": 2016,
+      "status": "PARTIAL",
+      "candidate_models": 8,
+      "complete_models": 0
+    },
+    {
+      "year": 2017,
+      "status": "PARTIAL",
+      "candidate_models": 9,
+      "complete_models": 0
+    },
+    {
+      "year": 2018,
+      "status": "PARTIAL",
+      "candidate_models": 10,
+      "complete_models": 0
+    },
+    {
+      "year": 2019,
+      "status": "PARTIAL",
+      "candidate_models": 9,
+      "complete_models": 0
+    },
+    {
+      "year": 2020,
+      "status": "PARTIAL",
+      "candidate_models": 10,
+      "complete_models": 0
+    }
+  ],
+  "resume": "COLLECTION_STATUS.md"
+}

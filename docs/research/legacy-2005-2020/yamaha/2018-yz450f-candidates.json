@@ -1,0 +1,332 @@
+{
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2018,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "yamaha-2018-yz450f-dimension-overall-length",
+      "property": "dimensions",
+      "joint": "Dimension / Overall length",
+      "value": "2185",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 44; printed page 2-1",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975236+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz450f-dimension-overall-width",
+      "property": "dimensions",
+      "joint": "Dimension / Overall width",
+      "value": "825",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 44; printed page 2-1",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975262+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz450f-dimension-overall-height",
+      "property": "dimensions",
+      "joint": "Dimension / Overall height",
+      "value": "1285",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 44; printed page 2-1",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975274+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz450f-dimension-seat-height",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height",
+      "value": "965",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 44; printed page 2-1",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975284+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz450f-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1485",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 44; printed page 2-1",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975293+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz450f-dimension-ground-clearance",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance",
+      "value": "335",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 44; printed page 2-1",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975301+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz450f-weight-curb-weight",
+      "property": "other",
+      "joint": "Weight / Curb weight",
+      "value": "111",
+      "unit": "kg",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants.",
+        "Curb weight is not dry weight."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 44; printed page 2-1",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975310+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz450f-engine-page-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "449",
+      "unit": "cm³",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 45; printed page 2-2",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975236+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz450f-engine-page-engine-bore",
+      "property": "dimensions",
+      "joint": "Engine / Bore",
+      "value": "97.0",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 45; printed page 2-2",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975236+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz450f-engine-page-engine-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Stroke",
+      "value": "60.8",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 45; printed page 2-2",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975236+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz450f-engine-page-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "12.8:1",
+      "unit": null,
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 45; printed page 2-2",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975236+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz450f-engine-page-frame-fuel-tank-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel tank capacity",
+      "value": "6.2",
+      "unit": "L",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 45; printed page 2-2",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975236+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz450f-engine-page-cooling-capacity-including-all-routes",
+      "property": "other",
+      "joint": "Cooling / Capacity including all routes",
+      "value": "1.03",
+      "unit": "L",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending.",
+        "Includes all routes; not a radiator-only quantity. Follow the manufacturer filling and bleeding procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 45; printed page 2-2",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975236+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz450f-engine-page-engine-oil-quantity-disassembled",
+      "property": "other",
+      "joint": "Engine oil / Quantity disassembled",
+      "value": "0.90",
+      "unit": "L",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending.",
+        "Use only for the named service operation; specification-table quantity must be reconciled with the level-check procedure before use."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 45; printed page 2-2",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975236+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz450f-engine-page-engine-oil-with-oil-filter-removal-or-replacement",
+      "property": "other",
+      "joint": "Engine oil / With oil filter removal or replacement",
+      "value": "0.64",
+      "unit": "L",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending.",
+        "Use only for the named service operation; specification-table quantity must be reconciled with the level-check procedure before use."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 45; printed page 2-2",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975236+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz450f-engine-page-engine-oil-oil-change-without-filter-replacement",
+      "property": "other",
+      "joint": "Engine oil / Oil change without filter replacement",
+      "value": "0.62",
+      "unit": "L",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending.",
+        "Use only for the named service operation; specification-table quantity must be reconciled with the level-check procedure before use."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+      "locator": "PDF page 45; printed page 2-2",
+      "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+      "document_revision": "BR9-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.975236+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}

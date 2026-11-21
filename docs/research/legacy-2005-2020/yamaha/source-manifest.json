@@ -1,0 +1,418 @@
+[
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2016,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2016-yz125-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SR-28199-14_02.pdf",
+    "document_sha256": "e5785ae11e1ab6f681f31898582623cc10d0bd38baf8c6adcaf0e9fcc9bbb8ca",
+    "facts": 13,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2016,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2016-yz250f-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SM-28199-12_02.pdf",
+    "document_sha256": "015e19a38f7b2453ef2c638dea356ee16afc4cccce803501bc2d3fcfed1b18fe",
+    "facts": 16,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2016,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2016-yz450f-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B11-28199-10_02.pdf",
+    "document_sha256": "ca884697e15e7f3849677cde4665faa8162ed740c44e0c9410583281c2df90ef",
+    "facts": 16,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ85",
+      "model_year": 2016,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2016-yz85-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SN-28199-14_02.pdf",
+    "document_sha256": "7dbd200dfadf6043c3704575cd05ddfc41e54b79ebc63aaaf54e5adc9a86ddee",
+    "facts": 19,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2017,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2017-yz125-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SR-28199-15_02.pdf",
+    "document_sha256": "cf271992b68af55b28ced193b86bd761ac62733ee610416d83461a02a1cb95de",
+    "facts": 13,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2017,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2017-yz250-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SS-28199-15_02.pdf",
+    "document_sha256": "f2b75732f0bd146800a732825e935ae0a9426de1c973465f7ea9bf312b20d21f",
+    "facts": 10,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2017,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2017-yz250f-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SM-28199-13_02.pdf",
+    "document_sha256": "f1e685f441c90938e93d8a5996940e7839dfb3f580bf7ddd357f57df81c3d260",
+    "facts": 16,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2017,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2017-yz450f-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B11-28199-11_02.pdf",
+    "document_sha256": "4a62f7cc0af779d6c3ccdbad93cc3539fcf3389795827770bea8b0071be3ad69",
+    "facts": 16,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ85",
+      "model_year": 2017,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2017-yz85-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SN-28199-15_02.pdf",
+    "document_sha256": "4b5dee1bb698a5763fcd8bb2ec8d7ec97dadd41eeffcc0007eaa90aa5778bffc",
+    "facts": 19,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2018,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2018-yz125-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SR-28199-16_02.pdf",
+    "document_sha256": "e30a65d70fa7da935df290ba95e6955db44363ac05608f2335cd2b4031887ada",
+    "facts": 13,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2018,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2018-yz250-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SS-28199-16_02.pdf",
+    "document_sha256": "8d1f262136e91314e5ca6e37a015c6d7774af8967851d1301e69c41349146df1",
+    "facts": 10,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2018,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2018-yz250f-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SM-28199-14_02.pdf",
+    "document_sha256": "8c8402d90e5bb834bca74b14a0baafcff744bac0e6395ad13f4de256c7de4fb3",
+    "facts": 16,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2018,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2018-yz450f-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
+    "document_sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+    "facts": 16,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ65",
+      "model_year": 2018,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2018-yz65-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-10_02.pdf",
+    "document_sha256": "286bbb3d7cecd0a07e42e2b43a28b311c18d42982c03fa60d4f697efe479c1e5",
+    "facts": 19,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ85",
+      "model_year": 2018,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2018-yz85-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SN-28199-16_02.pdf",
+    "document_sha256": "efc962c02d96778e0626b8d1d7298f65066a22eb81a9a2347a7b7ae563ef4974",
+    "facts": 19,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2019,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2019-yz125-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B0V-28199-10_02.pdf",
+    "document_sha256": "67cc34c147cec8399f0156beda971d1d72928c1d2585459f256d4175dc5d6c3d",
+    "facts": 13,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2019,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2019-yz250-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-10_02.pdf",
+    "document_sha256": "8675828b0bc9c2ac8493c16bd5dce92b9cd46d51dc53983e681f4f2c82555c49",
+    "facts": 10,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2019,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2019-yz250f-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-10_02.pdf",
+    "document_sha256": "058809affb7915aa597b13b45c40adc1e70251fc9e748322abb405d24fda01ce",
+    "facts": 16,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2019,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2019-yz450f-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-11_02.pdf",
+    "document_sha256": "ed57946c3cf5ff5c68842b4241e52079ea1fc1e1da3ce5f835aee129d2321779",
+    "facts": 16,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ85",
+      "model_year": 2019,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2019-yz85-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-10_02.pdf",
+    "document_sha256": "ffae173a798fad19fdf7d36bd2a23b853da69b7a7c5445740fc79b0e1fe5795c",
+    "facts": 19,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2020,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2020-yz125-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B0V-28199-11_02.pdf",
+    "document_sha256": "6101b0090bca1208bb27b1e0b55ce2f473c50e01cbdb740cfa5c07355554d8cc",
+    "facts": 11,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2020,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2020-yz250-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf",
+    "document_sha256": "112713a7256a234953896fb34d9ddfd308a897c1c623fe29f95a344080a4ce2e",
+    "facts": 10,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2020,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2020-yz250f-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf",
+    "document_sha256": "0a680d50262a0cab7323e3b97bf0565d358a726852610ee41ed48d747a4cd054",
+    "facts": 16,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2020,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2020-yz450f-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-28199-10_02.pdf",
+    "document_sha256": "ee1b8c9747c089fe345097dc16955d7fa30e005a1c77b6d81e919d6ee3f6080e",
+    "facts": 16,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ65",
+      "model_year": 2020,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2020-yz65-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-11_02.pdf",
+    "document_sha256": "52bc6b234a7106bb238ba8f093881a01d88df2f94c7c7ef595ccf1ad474205ec",
+    "facts": 18,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ85",
+      "model_year": 2020,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "yamaha/2020-yz85-candidates.json",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-11_02.pdf",
+    "document_sha256": "f6773e25306aaaa08780c743cd65a728d01724f1656f79001fbc12ae5a904667",
+    "facts": 18,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  }
+]
