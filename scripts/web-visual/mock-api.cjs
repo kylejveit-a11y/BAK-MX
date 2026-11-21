@@ -66,7 +66,9 @@ const prepAnswer={kind:'answer',summary:'The night before: tires, chain, air fil
  setup_changes:[],observations:['Race this weekend'],systems:[],hypotheses:[],unknowns:['What the track is like this weekend'],
  next_step:{action:'Start Race day on Home with the track, so BAK can plan for the dirt and the forecast.',purpose:'Your prep list and a starting setup for that track.',stop_conditions:[]},
  evidence_ids:[],specifications:[{claim_id:'c9',value:'Chassis / Offroad tire pressure / front: 1.0 bar (15 psi)'}],confidence:'SUPPORTED',references:[]};
-const pickAnswer=t=>/front|push|tuck|wash/i.test(t)?frontAnswer:/rear|kick|braking bump/i.test(t)?storeAnswer:/sag|clicker/i.test(t)?sagAnswer:/race|weekend|check/i.test(t)?prepAnswer:answer;
+// A worn-part answer, so the one quiet "See parts that fit your bike" line can be checked.
+const padsAnswer={...answer,summary:'The grinding is the rear pads down to their backing plates.',answer:'That grinding under the rear brake is metal on metal: the pad material is gone and the backing plate is on the rotor. Replace the rear brake pads before the next ride, and check the rotor for scoring while the wheel is out. Bed the new pads in with a few firm stops before you race on them.',setup_changes:[],specifications:[]};
+const pickAnswer=t=>/grind|pads?\b/i.test(t)?padsAnswer:/front|push|tuck|wash/i.test(t)?frontAnswer:/rear|kick|braking bump/i.test(t)?storeAnswer:/sag|clicker/i.test(t)?sagAnswer:/race|weekend|check/i.test(t)?prepAnswer:answer;
 const chats={};
 // The writing preview shows whole sentences only, so it never cuts a number in half ("sag at 10…").
 const firstSentence=t=>{const m=t.replace(/\*\*/g,'').match(/^.*?[.!?](\s|$)/);return (m?m[0]:t).trim();};
@@ -130,8 +132,17 @@ const USED_UP=['free_out','free_set_done','premium_out'].includes(USAGE_STATE);
 let fuelProfiles=STORE?[{id:'f1',kind:'self',name:'',weight_kg:86.2,weight_unit:'lb',height_cm:180,age:34,sex:'male',nervous_stomach:false,caffeine:true,moto_minutes:20,sweat_rate_lph:null,sweat_test_at:null,sweat_test_hot:null,screen:[],cleared:false,created_at:iso(now-30*day),updated_at:iso(now-30*day)}]:[];
 let sent=false;
 /** Answers one /api call: {status,body} for JSON or {status,events} for the streamed chat. q has get(name). */
+let addedBike=null,savedParts=[];
+let invite={code:'KYLE-7Q2',link:'https://bakmx.com/invite/KYLE-7Q2',message:'Come ride with me on BAK MX: specs, setup and answers for your exact bike. Use my code KYLE-7Q2 when you sign up: https://bakmx.com/invite/KYLE-7Q2',joined:4,waiting:1,questions_earned:40,paying:3,months_earned:1,months:[{seq:1,tier:'premium',how:'unlock',ends_at:new Date(Date.now()+18*864e5).toISOString(),offer_code:null}],invited_by:false,can_enter:true};
+const stores=(pn,factory)=>[{store:'Rocky Mountain ATV/MC',url:'https://www.rockymountainatvmc.com/search?term='+pn,how:'search'},{store:'MotoSport',url:'https://www.motosport.com/search?textsearch='+pn,how:'search'},...(factory?[{store:'Partzilla',url:'https://www.partzilla.com/search?q='+pn,how:'search'}]:[])];
 function respond(p,q,method,post){
- if(p==='/api/bikes')return J(method==='GET'?(NEW_RIDER?[]:LONG_BIKE?[bike,bike2,bike3]:[bike,bike2]):{...bike});
+ if(p==='/api/bikes'){if(method==='POST')addedBike={...bike,...(post||{}),id:bike.id};return J(method==='GET'?(NEW_RIDER?(addedBike?[addedBike]:[]):LONG_BIKE?[bike,bike2,bike3]:[bike,bike2]):{...(addedBike||bike)});}
+ if(p==='/api/invite')return J(invite);
+ if(p==='/api/invite/redeem'){const c=String((post&&post.code)||'').toUpperCase();if(!/^[A-Z0-9]{2,8}-[A-Z0-9]{3,4}$/.test(c))return J({error:'That code is not right. Check it with your friend.'},400);invite={...invite,invited_by:true,can_enter:false};return J(invite);}
+ if(p==='/api/parts/find'){const w=(q.get('q')||'').toLowerCase();const hit=/pad|brake/.test(w);return J({query:q.get('q')||'',has_factory_list:true,has_aftermarket_list:true,
+  factory:hit?[{kind:'factory',brand:'KTM',name:'BRAKE PAD SET REAR TOYO',part_number:'54813090300',where:'REAR BRAKE CALIPER',stores:stores('54813090300',true)}]:[],
+  aftermarket:hit?[{kind:'aftermarket',brand:'Galfer',name:'Sintered rear brake pads',part_number:'FD326G1396',where:'brakes',stores:stores('FD326G1396',false)},{kind:'aftermarket',brand:'Renthal',name:'RC-1 Works rear brake pads',part_number:'BP-105',where:'brakes',stores:stores('BP-105',false)}]:[]});}
+ if(p==='/api/saved-parts'){if(method==='POST'){savedParts=[{id:'sp-'+(savedParts.length+1),...post,stores:stores(post.part_number,post.kind==='factory')},...savedParts];return J({saved:true},201);}if(method==='DELETE'){savedParts=savedParts.filter(x=>x.id!==q.get('id'));return J({deleted:true});}return J(savedParts);}
  if(p==='/api/coverage')return J(coverage);
  if(p==='/api/entitlement')return J(entitlement);
  if(p==='/api/profile')return J(NEW_RIDER&&method==='GET'?null:profile);
