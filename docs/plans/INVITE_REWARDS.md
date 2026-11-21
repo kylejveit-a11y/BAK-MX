@@ -15,3 +15,5 @@
 - Free inviter: Premium opens on the account for 30 days (`resolveTier` reads `invite_months`). Paying inviter: a row with `how='offer_code'`; the code is filled from `invite_offer_codes` when one for their store and plan is free. Empty pool = "on its way" in the app.
 - App: Account > Invite a friend; friend's code field on the first setup screen. Web: Account > Invite a friend; public page `bakmx.com/invite/CODE`.
 - Kyle's part before paying riders can be rewarded: create offer codes in App Store Connect (and Play later) and hand them over to be loaded into `invite_offer_codes`. A paying rider on the web (card) plan has no store, so their month stays "owed" for Kyle to credit by hand.
+
+Offer codes: Kyle will wait on creating them (2026-11-21). Paying inviters' months show as "on its way" until then.

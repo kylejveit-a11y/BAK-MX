@@ -44,3 +44,7 @@ paid service manuals or belong to tuners. The pack gets deeper every time a manu
    marketing once the exam scores prove it. Yes, or name it in the app from day one.
 3. Whether this has to be finished before 1.0.12 goes to review. It lives on the server, so it can ship any day without a
    new app build; it does not need to hold the build.
+
+## Kyle's answers (2026-11-21)
+
+Start with Suspension, then Engine and Bike set-up. All three are finished before the next app build (1.0.12). Server-side only and invisible to riders: no specialist name in the app.

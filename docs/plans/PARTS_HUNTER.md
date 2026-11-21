@@ -42,3 +42,7 @@ Live prices, stock, ordering and order tracking. These need agreements with stor
 1. Which stores to list in "Where to buy" before any affiliate deal exists (suggestion: Rocky Mountain ATV/MC, MotoSport,
    Partzilla for factory parts, and the part maker's own site).
 2. Whether the offer line under Ask BAK answers ships in 1.0.12, or only the Find a part screen first.
+
+## Kyle's answers (2026-11-21)
+
+Approved. Stores: Rocky Mountain ATV/MC, MotoSport, Partzilla (factory parts), and the part maker's own site. The Ask BAK line is included.

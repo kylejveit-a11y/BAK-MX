@@ -10,6 +10,9 @@ import {readInstalled,systemLabel,partLabel} from '../shared/installed-parts.ts'
 import {canonBrand,cleanName} from '../shared/parts-picker.ts';
 import {collectPages} from './pagination.ts';
 import {HttpError,readJson,uuid} from './validation.ts';
+import {termPatterns,storeLinks,findAftermarket,type FoundPart} from '../shared/parts-hunter.ts';
+import {decodeFamily,familyOf} from '../shared/parts-picker.ts';
+import {loadFamily} from './part-options.ts';
 import {objectionable} from './content-rules.ts';
 import {exactBikeScope} from '../shared/bike-identity.ts';
 import {trackDirectory} from './tracks.ts';
@@ -23,6 +26,7 @@ import type {Bike} from '../shared/types.ts';
  * same routes work behind the single serverless entry point. */
 
 const text=(max:number)=>z.string().trim().min(1).max(max);
+const savedPartSchema=z.object({bike_id:uuid,kind:z.enum(['factory','aftermarket']),brand:z.string().trim().max(80).default(''),name:text(200),part_number:z.string().trim().max(60).default('')}).strict();
 const optionalText=(max:number)=>z.string().trim().max(max).default('');
 export const POST_CATEGORIES=['build','setup_question','ride_plan','general'] as const;
 export const EVENT_TYPES=['ride_day','race','practice','clinic','meetup'] as const;
@@ -388,6 +392,27 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
   if(!catalogs.length)return json({catalog:null,assemblies:[]});
   const assemblies=checked(await db.from('part_assemblies').select('id,name,diagram_url,source_url,position').eq('catalog_id',catalogs[0].id).order('position',{ascending:true}).limit(400));
   return json({catalog:catalogs[0],assemblies:assemblies??[]});
+ }
+ // ---- Find a part: this exact bike's factory list and aftermarket list, searched by the rider's words. Nothing that is not on file for the bike.
+ if(path==='/api/parts/find'&&method==='GET'){
+  const bike=checked(await db.from('bikes').select('manufacturer,model,model_year,variant,region').eq('id',id('bike_id')).eq('user_id',owner).maybeSingle()) as Row|null;
+  if(!bike)throw new HttpError(404,'Bike not found');
+  const query=(q('q')??'').trim().slice(0,80),patterns=termPatterns(query);
+  if(!patterns.length)return json({query,factory:[],aftermarket:[],has_factory_list:false,has_aftermarket_list:false});
+  const catalogs=(checked(await db.from('part_catalogs').select('id').match(exactBikeScope(bike as Pick<Bike,'manufacturer'|'model'|'model_year'|'variant'|'region'>)).order('complete',{ascending:false}).order('part_count',{ascending:false}).limit(1))??[]) as Row[];
+  const make=String(bike.manufacturer),family=familyOf(make);
+  const [rows,list]=await Promise.all([catalogs.length?db.rpc('part_search',{p_catalog:catalogs[0].id,p_patterns:patterns}).then(r=>(checked(r)??[]) as Row[]):Promise.resolve([] as Row[]),family?loadFamily(family).then(f=>decodeFamily(f,make,String(bike.model),Number(bike.model_year))):Promise.resolve(null)]);
+  const seen=new Set<string>();const factory:FoundPart[]=[];
+  for(const r of rows){const pn=String(r.part_number);if(seen.has(pn))continue;seen.add(pn);factory.push({kind:'factory',brand:make,name:String(r.description),part_number:pn,where:String(r.assembly),stores:storeLinks({kind:'factory',brand:make,name:String(r.description),part_number:pn})});if(factory.length>=20)break;}
+  return json({query,factory,aftermarket:list?findAftermarket(list,query):[],has_factory_list:catalogs.length>0,has_aftermarket_list:!!list});
+ }
+ if(path==='/api/saved-parts'){
+  if(method==='GET'){const rows=checked(await db.from('saved_parts').select('id,bike_id,kind,brand,name,part_number,created_at').eq('user_id',owner).eq('bike_id',id('bike_id')).order('created_at',{ascending:false}).limit(200)) as Row[]|null;
+   return json((rows??[]).map(r=>({...r,stores:storeLinks({kind:r.kind as 'factory'|'aftermarket',brand:String(r.brand),name:String(r.name),part_number:String(r.part_number)})})));}
+  if(method==='POST'){const b=savedPartSchema.parse(await readJson(req));
+   const bike=checked(await db.from('bikes').select('id').eq('id',b.bike_id).eq('user_id',owner).maybeSingle());if(!bike)throw new HttpError(404,'Bike not found');
+   const r=await db.from('saved_parts').upsert({user_id:owner,...b},{onConflict:'user_id,bike_id,kind,brand,name,part_number',ignoreDuplicates:true});if(r.error)throw r.error;return json({saved:true},201);}
+  if(method==='DELETE'){const rows=checked(await db.from('saved_parts').delete().eq('id',id('id')).eq('user_id',owner).select('id'));if(!rows?.length)throw new HttpError(404,'Not found');return json({deleted:true});}
  }
  if(path==='/api/parts/fitment'&&method==='GET'){
   const number=(q('part_number')??'').trim();
