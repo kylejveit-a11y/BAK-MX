@@ -35,6 +35,7 @@ import {Plans,NextSetButton} from './Plans';
 import {isLimitMessage} from '../shared/pro-flow';
 import {NotificationBell,NotificationSettingsPanel} from './Notifications';
 import {InvitePanel} from './Invite';
+import {WelcomeSheet,welcomeDone} from './Welcome';
 import {FindPart,PartOfferLine,partsOfferOn} from './FindPart';
 import {partOffer} from '../shared/parts-hunter';
 import type {NotificationLink} from '../shared/notification-links';
@@ -106,6 +107,7 @@ export function App(){
  const [barsHidden,setBarsHidden]=useState(false);
  useEffect(()=>{let last=window.scrollY,ticking=false;const onScroll=()=>{if(ticking)return;ticking=true;requestAnimationFrame(()=>{ticking=false;if(document.querySelector('.content.chat-page')){setBarsHidden(false);last=window.scrollY;return;}const y=window.scrollY,max=document.documentElement.scrollHeight-window.innerHeight;if(y<60||y<last-6)setBarsHidden(false);else if(y>last+6&&y<max-4)setBarsHidden(true);last=y;});};window.addEventListener('scroll',onScroll,{passive:true});return()=>window.removeEventListener('scroll',onScroll);},[]);
  useEffect(()=>{setBarsHidden(false)},[page,menu]);
+ const [welcomeClosed,setWelcomeClosed]=useState(false);
  function go(p:Page){setPage(p);setMenu(false);setError('')}
  useEffect(()=>{const open=()=>{setPage('Specs');setMenu(false);setTimeout(()=>document.getElementById('find-a-part')?.scrollIntoView({behavior:'smooth',block:'start'}),150);};window.addEventListener('bak:find-part',open);return()=>window.removeEventListener('bak:find-part',open);},[]);
  // Home, the rider's way: blocks on this browser, and race day (saved here too, per rider and bike).
@@ -145,6 +147,7 @@ export function App(){
  })}</div>
  {session&&<div className="hb-home-foot">{bike?<div className="hb-row" style={{gap:18}}><button type="button" className="hb-link" onClick={()=>setStartingRace('race')}><Flag size={16}/>{raceDay.upcoming?'Change race':'Race day'}</button>{!raceDay.upcoming&&<button type="button" className="hb-link" onClick={()=>setStartingRace('practice')}><Clock size={16}/>Practice day</button>}</div>:<span/>}<button type="button" className="hb-link muted" onClick={()=>setEditingHome(true)}>Edit Home</button></div>}</>}
  {editingHome&&<HomeEditor layout={home.layout} onChange={home.save} onReset={home.reset} onClose={()=>setEditingHome(false)} error={home.error}/>}
+ {session&&bikesLoaded&&!bikes.length&&!welcomeClosed&&!welcomeDone(session.user.id)&&page==='Overview'&&<WelcomeSheet userId={session.user.id} onAddBike={()=>go('Garage')} onClose={()=>setWelcomeClosed(true)}/>}
  {firstOpen&&bike&&session&&<FirstSetupSheet key={bike.id} bike={bike} onClose={()=>setFirstOpen(false)} onSaved={()=>void refresh()} onAsk={q=>askAbout(q,true,'setup')}/>}
  {startingRace&&bike&&session&&<RaceDayStart initialKind={startingRace} bike={bike} bikes={bikes} onSwitch={selectBike} onClose={()=>setStartingRace(false)} onStart={(t,d,k)=>{raceDay.start(t,d,k);setStartingRace(false);window.scrollTo({top:0});}}/>}
  {page==='Garage'&&bikes.length>1&&<div className="garage-switch" role="tablist" aria-label="Your bikes">{bikes.map(b=><button key={b.id} role="tab" aria-selected={bike?.id===b.id} className={'hb-cchip'+(bike?.id===b.id?' on':'')} onClick={()=>selectBike(b.id)}><BikeIcon size={14}/><span>{b.nickname||`${b.model_year} ${b.model}`}</span></button>)}</div>}

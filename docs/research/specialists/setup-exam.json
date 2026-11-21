@@ -1,0 +1,1576 @@
+{
+ "specialty": "bike set-up",
+ "written": "2026-11-21",
+ "questions": [
+  {
+   "id": "set-001",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What's the stock gearing?",
+   "must": [
+    "13",
+    "51"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-002",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What rear sprocket sizes does KTM offer?",
+   "must": [
+    "47",
+    "52"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-003",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Stock tire pressures?",
+   "must": [
+    "1\\.0 ?bar|14\\.5|14 ?psi|15 ?psi"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-004",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Handlebar clamp torque?",
+   "must": [
+    "\\b20 ?N|14\\.8"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-005",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Torque for the bar mounts into the triple clamp?",
+   "must": [
+    "\\b40 ?N|29\\.5",
+    "loctite|thread ?lock|243"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-006",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Spoke torque?",
+   "must": [
+    "\\b6 ?N|4\\.4"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-007",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How often should I change brake fluid?",
+   "must": [
+    "90",
+    "24 months|2 years|two years"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-008",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How much fuel does the tank hold?",
+   "must": [
+    "7\\.2|1\\.9"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-009",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What's the seat height?",
+   "must": [
+    "958|37\\.7"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-010",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What rear sprocket and chain length is stock?",
+   "must": [
+    "\\b50",
+    "114"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-011",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What brake fluid?",
+   "must": [
+    "DOT ?4"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-012",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How much free play at the clutch lever?",
+   "must": [
+    "10",
+    "20"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-013",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Throttle free play?",
+   "must": [
+    "\\b2\\b.{0,12}\\b6\\b|2 ?(-|\u2013|to) ?6"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-014",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Front and rear axle nut torque?",
+   "must": [
+    "\\b88\\b|64\\.9|65 ?(ft|lb)",
+    "\\b128\\b|94\\.4|94 ?(ft|lb)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-015",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Spoke torque?",
+   "must": [
+    "3\\.7|2\\.7 ?(ft|lb)|33 ?in"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-016",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Handlebar holder torques?",
+   "must": [
+    "\\b22\\b|16\\.2|16 ?(ft|lb)",
+    "\\b44\\b|32\\.5|32 ?(ft|lb)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-017",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Rear tire pressure from Honda?",
+   "must": [
+    "100 ?kPa|14\\.5|15 ?psi|14 ?psi"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-018",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How often does Honda say to replace brake fluid?",
+   "must": [
+    "2 years|two years|24 months"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-019",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How much chain slack should I run?",
+   "must": [
+    "\\d{2} ?(-|\u2013|to) ?\\d{2} ?mm|\\d(\\.\\d)? ?(-|\u2013|to) ?\\d(\\.\\d)? ?in|not (on file|confirmed|listed)|isn.t on file|don.t have"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-020",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What chain slack does KTM want?",
+   "must": [
+    "\\d{2} ?(-|\u2013|to) ?\\d{2} ?mm|\\d{2} ?mm|not (on file|confirmed|listed)|isn.t on file|don.t have"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-021",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What happens if I add two teeth to the rear sprocket?",
+   "must": [
+    "(lower|shorter) gear|accelerat|bottom|pull|snap",
+    "top speed|rev out|shift (sooner|more|earlier)|run out",
+    "chain|length|adjust|wheelbase|axle"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-022",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "I'm between second and third in most corners. Gearing fix?",
+   "must": [
+    "tooth|teeth",
+    "(rear|countershaft|front)",
+    "(up|add|bigger|larger|down|smaller|one)",
+    "(carry|pull|third|second|shift|lug)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-023",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Is one tooth on the front the same as on the rear?",
+   "must": [
+    "(front|countershaft)",
+    "(rear)",
+    "(3|three|about 3|2\\.5|3\\.5|4)",
+    "(ratio|bigger change|more)",
+    "(chain (wear|slider|guide)|swingarm|tight radius|rub)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-024",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Do I need a new chain when I change sprockets?",
+   "must": [
+    "(wear|worn|together|set)",
+    "(length|links|114)",
+    "(new chain on old|old chain|hook|shark)",
+    "(adjust|axle|slack)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-025",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Gearing for a tight supercross-style track vs a fast outdoor track?",
+   "must": [
+    "(tight|SX|supercross).{0,120}(lower|shorter|more teeth|bigger rear|add)|(add|more teeth|bigger rear).{0,120}(tight|SX)",
+    "(fast|outdoor|open).{0,120}(taller|higher|fewer|smaller rear|drop)|(taller|fewer).{0,120}(fast|outdoor)",
+    "(47|48|49|50|51|52|one tooth|tooth at a time)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-026",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Gearing for deep sand?",
+   "must": [
+    "sand",
+    "(tooth|teeth|gear)",
+    "(load|drag|bog|pull|rpm|power)",
+    "(rear|add|lower|shorter|one)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-027",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How does gearing change wheelbase and handling?",
+   "must": [
+    "wheelbase",
+    "axle",
+    "(longer|shorter|forward|back)",
+    "(stab|turn|traction|straight)",
+    "(chain|link|length)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-028",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I work out a gear ratio?",
+   "must": [
+    "(divide|\u00f7|/)",
+    "(rear|driven)",
+    "(front|countershaft|drive)",
+    "(ratio|3\\.\\d)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-029",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How do I tell when sprockets are worn out?",
+   "must": [
+    "(hook|shark|point|cup)",
+    "teeth",
+    "(chain|pull|lift|away from)",
+    "(replace|set|together)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-030",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Steel or aluminum rear sprocket?",
+   "must": [
+    "steel",
+    "alumin",
+    "(weight|light)",
+    "(wear|last|life)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-031",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How do I check chain alignment?",
+   "must": [
+    "(marks|adjuster)",
+    "(measure|tool|straight edge|sight|string)",
+    "(axle|swingarm pivot|sprocket)",
+    "(wear|side|one side|noise)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-032",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I check chain slack correctly?",
+   "must": [
+    "(mid|middle|halfway|behind the (slider|guide)|point)",
+    "(stand|unloaded|wheel off)",
+    "(tight spot|rotate|several)",
+    "(too tight|tight).{0,80}(bearing|countershaft|seal|suspension|travel|snap)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-033",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Why does a too-tight chain matter so much on a dirt bike?",
+   "must": [
+    "(swingarm|suspension|compress|travel)",
+    "(tight(en|er)|tightest)",
+    "(countershaft|output|bearing|seal)",
+    "(snap|break|wear|power)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-034",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "When is a chain worn out?",
+   "must": [
+    "(stretch|length|pins|links)",
+    "(measure|pull|lift)",
+    "(kink|stiff|tight spot|seized)",
+    "(o.?ring|x.?ring|sprocket)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-035",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "O-ring chain or non-O-ring for racing?",
+   "must": [
+    "o.?ring|x.?ring",
+    "(friction|drag|power)",
+    "(last|life|maintenance|lube|sealed)",
+    "(weight|mud|sand)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-036",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How should I set my handlebar position?",
+   "must": [
+    "(roll|forward|back|rotate)",
+    "(neutral|stand|attack|elbow)",
+    "(clamp|mount|22|torque)",
+    "(small|mark|mm|test)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-037",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Lever position for brake and clutch?",
+   "must": [
+    "(level|angle|below|down|line)",
+    "(forearm|arm|wrist|stand)",
+    "(reach|adjust)",
+    "(inboard|spin|rotate in a crash|teflon|snug|not (fully|too) tight)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-038",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "I'm 6'3. How do I make the bike fit?",
+   "must": [
+    "(bar|rise|mount|forward)",
+    "(seat|tall seat|foam)",
+    "(peg|lower pegs|footpeg)",
+    "(knee|cramp|stand|leg)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-039",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "I'm 5'5 and can't touch the ground. Options?",
+   "must": [
+    "(seat|shave|low seat|foam)",
+    "(link|linkage|lower|sag)",
+    "(fork|clamp|slide|balance)",
+    "(geometry|handling|travel|trade)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-040",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What bar bend should I use?",
+   "must": [
+    "(rise|height)",
+    "(sweep|pull.?back)",
+    "(width|cut)",
+    "(tall|short|stand|preference|try)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-041",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Should I cut my handlebars narrower?",
+   "must": [
+    "(width|narrow)",
+    "(leverage|control)",
+    "(trees|woods|shoulder|elbow)",
+    "(small|mm|each side|test|can.t (put|add))"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-042",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Where should my shift lever and brake pedal sit?",
+   "must": [
+    "(boot|toe|foot)",
+    "(level|height|peg)",
+    "(sitting|standing|both)",
+    "(spline|tooth|adjust|drag|ride the brake)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-043",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Grips: how do I fit them so they don't spin?",
+   "must": [
+    "(glue|grip glue|cement)",
+    "(wire|safety wire|lock.?on)",
+    "(clean|contact|brake) cleaner|clean",
+    "(dry|cure|hours|overnight)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-044",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Is clutch lever free play important?",
+   "must": [
+    "free ?play",
+    "10|20",
+    "(slip|drag|disengag|burn)",
+    "(hot|adjust|perch|barrel)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-045",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Throttle sticks slightly when I turn the bars.",
+   "must": [
+    "cable",
+    "(rout|pinch|kink)",
+    "(free ?play|adjust)",
+    "(tube|grip|bar end|housing|lube|clean)",
+    "(danger|don.t ride|fix (it )?before|safety)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-046",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What's the best footpeg position or should I change pegs?",
+   "must": [
+    "(peg|footpeg)",
+    "(wide|sharp|teeth|grip)",
+    "(low|back|position|mount)",
+    "(boot|knee|tall|stand|leverage)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-047",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How tight should the lever perches be?",
+   "must": [
+    "(rotate|spin|move)",
+    "crash",
+    "(snug|not (fully|too) tight|just)",
+    "(teflon|tape|break|lever)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-048",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Steering feels notchy at center.",
+   "must": [
+    "(steering|stem|head) bearing",
+    "(notch|dent|brinell|race)",
+    "(grease|replace)",
+    "(adjust|preload|torque|play)",
+    "(stand|wheel off|turn)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-049",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How do I check and adjust steering head bearings?",
+   "must": [
+    "(stand|front wheel off)",
+    "(play|rock|forks? forward|push.?pull)",
+    "(fall|flop|drag|smooth)",
+    "(adjust|nut|torque|preload)",
+    "(grease|notch)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-050",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What does a steering damper do for motocross?",
+   "must": [
+    "damper|stabil",
+    "(headshake|deflect|kick)",
+    "(low speed|turn|effort|slow)",
+    "(adjust|setting|not a fix|mask|suspension|geometry)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-051",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What tire pressure should I run on hard pack vs mud?",
+   "must": [
+    "(1\\.0 ?bar|14\\.5|1[2-5] ?psi)",
+    "(hard).{0,100}(higher|more|up)|(mud|soft).{0,100}(lower|less|down)",
+    "(rim|pinch|flat|dent)",
+    "(gauge|cold|check)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-052",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Which tire for sandy tracks?",
+   "must": [
+    "(sand|soft)",
+    "(scoop|paddle|tall|open|spaced)",
+    "(front|rear)",
+    "(soft.?terrain|soft (to )?intermediate|pattern)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-053",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Soft, intermediate or hard terrain tire: how do I choose?",
+   "must": [
+    "soft",
+    "hard",
+    "intermediate",
+    "(compound|knob|spacing|stiff|flex)",
+    "(track|dirt|most of the time)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-054",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "When should I flip or replace the rear tire?",
+   "must": [
+    "(round|edge|leading|knob)",
+    "(flip|turn|reverse)",
+    "(directional|arrow)",
+    "(tear|chunk|crack|start|drive|braking)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-055",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How do I change a tire without pinching the tube?",
+   "must": [
+    "(spoon|iron|lever)",
+    "(small bites|little|drop center|well)",
+    "(lube|soap|lubric)",
+    "(air in the tube|little air|inflate slightly|partial)",
+    "(rim lock|bead)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-056",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What does the rim lock do and how tight?",
+   "must": [
+    "rim lock",
+    "(spin|slip|valve|tear)",
+    "(low pressure|pressure)",
+    "(torque|snug|not on file|tight)",
+    "(balance|bead|seat)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-057",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Tubes, heavy duty tubes, or mousse?",
+   "must": [
+    "(mousse|bib)",
+    "(heavy|thick|HD)",
+    "(flat|pinch)",
+    "(weight|feel|heat|life|lube|pressure equivalent)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-058",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I check spokes?",
+   "must": [
+    "(tap|ring|tone|sound)",
+    "(torque|3\\.7|wrench)",
+    "(every (third|other|4th|fourth)|pattern|skip|quarter turn)",
+    "(new|break.?in|first|after)",
+    "(rim|true|crack)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-059",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Wheel has a wobble. How do I true it?",
+   "must": [
+    "(stand|truing|zip tie|pointer|indicator)",
+    "(tighten|loosen)",
+    "(side|lateral|hop|radial)",
+    "(small|quarter|half) ?(turn)?|a little at a time",
+    "(6 ?N|torque|bent|rim)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-060",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I check wheel bearings?",
+   "must": [
+    "(stand|wheel off the ground)",
+    "(play|rock|side to side|wiggle)",
+    "(spin|rough|notch|gritty|noise)",
+    "(seal|grease|replace|both|spacer)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-061",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Front tire washes out mid corner on hard pack.",
+   "must": [
+    "(pressure|psi)",
+    "(tire|knob|worn|compound|edge)",
+    "(sag|fork|balance|weight|body|suspension)",
+    "(throttle|brake|technique|lean|line)?"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-062",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How much does 1 psi matter?",
+   "must": [
+    "(feel|grip|traction|hook)",
+    "(deflect|harsh|roll|squirm|fold)",
+    "(rim|pinch|flat)",
+    "(gauge|cold|same gauge|consist)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-063",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Do I need to balance dirt bike wheels?",
+   "must": [
+    "(rim lock)",
+    "(speed|vibrat|fast)",
+    "(weight|second rim lock|opposite)",
+    "(not|rarely|most|optional|helps)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-064",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Front brake feels spongy.",
+   "must": [
+    "(bleed|air)",
+    "(fluid|DOT ?4)",
+    "(pad|rotor|caliper|pins|line|hose|lever)",
+    "(master|banjo|reservoir|top)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-065",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How do I bleed the front brake?",
+   "must": [
+    "(bleed(er)? (screw|nipple|valve))",
+    "(pump|squeeze|hold)",
+    "(reservoir|level|top up|don.t let)",
+    "(open|close)",
+    "(fluid|DOT|paint|rag|cover)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-066",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I bed in new brake pads?",
+   "must": [
+    "(bed|break.?in)",
+    "(stops|slow|speed)",
+    "(heat|cool|gradual|not.{0,20}lock)",
+    "(rotor|clean|contamin|oil|sand)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-067",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Rear brake fades and the pedal goes long on long motos.",
+   "must": [
+    "(heat|hot|boil)",
+    "(fluid|DOT|change|fresh)",
+    "(drag|riding the pedal|pedal height|foot)",
+    "(pad|rotor|glaz|guard|bleed)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-068",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Brake pads: sintered or organic?",
+   "must": [
+    "sinter",
+    "organic|resin",
+    "(mud|wet|heat|life|last)",
+    "(rotor|feel|bite|wear)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-069",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How do I know my brake rotor is done?",
+   "must": [
+    "(thickness|min|minimum)",
+    "(warp|bent|run.?out|pulse)",
+    "(stamped|marked|not on file|measure|caliper|micrometer)",
+    "(groove|blue|crack|score)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-070",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What should I check on wheels after a muddy race?",
+   "must": [
+    "(bearing|seal)",
+    "(spoke)",
+    "(wash|clean|pressure wash)",
+    "(rim|tire|axle|grease|chain|brake)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-071",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Give me a pre-race checklist for the bike.",
+   "must": [
+    "(tire|pressure)",
+    "(chain|sprocket)",
+    "(spoke)",
+    "(oil|coolant|fluid)",
+    "(bolt|torque|axle|pinch)",
+    "(air filter)",
+    "(brake|pad|lever|control)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-072",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What do I check between motos?",
+   "must": [
+    "(air filter)",
+    "(chain)",
+    "(tire|pressure)",
+    "(fuel|gas)",
+    "(bleed|fork|spoke|bolt|coolant|radiator|lever)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-073",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How do I set the bike up for a start on concrete?",
+   "must": [
+    "(tire|pressure|clean)",
+    "(launch|map|traction|holeshot|start device)",
+    "(body|weight|forward|sit)",
+    "(clutch|rpm|throttle)",
+    "(gate|rut|pad|sweep|spin)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-074",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What does a holeshot device do and where do I set it?",
+   "must": [
+    "(fork|front)",
+    "(compress|lower|hold down|latch)",
+    "(wheelie|front (end|wheel)|weight)",
+    "(mm|travel|depth|position|guard|release|brake)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-075",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How does launch control work on my bike?",
+   "must": [
+    "(launch)",
+    "(idle|neutral|stationary|activate|button|switch)",
+    "(rpm|ignition|timing|limit)",
+    "(deactivat|after|gear|seconds|shift|not on file)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-076",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "When should I use traction control?",
+   "must": [
+    "traction control",
+    "(slick|hard|wet|mud|loose)",
+    "(spin|rear wheel|ignition|power)",
+    "(off|deep sand|loam|berm|preference)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-077",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Track went from tacky in the morning to dry and slick by afternoon. What do I change?",
+   "must": [
+    "(tire|pressure)",
+    "(map|power|smooth|mellow|gear|tooth)",
+    "(suspension|clicker|compression|rebound|soft)",
+    "(one (change|thing)|small|note)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-078",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Mud race bike prep?",
+   "must": [
+    "(foam|skid|fender|spray|non.?stick|silicone)",
+    "(radiator|overheat|fins|guard)",
+    "(tire|pressure)",
+    "(grip|goggle|lever|peg|seat|weight|gearing|sag)",
+    "(air filter|cover|airbox)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-079",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Sand track bike prep?",
+   "must": [
+    "(tire|paddle|scoop|pressure)",
+    "(gear|tooth|sprocket)",
+    "(air filter|skin|spare)",
+    "(chain|lube|wear)",
+    "(suspension|sag|rebound|stiff|fork height)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-080",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Riding at 7000 ft elevation this weekend. Anything to change on a fuel injected bike?",
+   "must": [
+    "(injection|EFI|ECU|sensor|compensat|adjusts)",
+    "(power|less|thin|density)",
+    "(gear|tooth|sprocket)",
+    "(coolant|boil|map|not need|no jet)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-081",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Very hot day, 100 degrees. Bike care?",
+   "must": [
+    "(coolant|radiator|overheat|boil)",
+    "(idle|sit|airflow|shut off)",
+    "(tire|pressure|rise)",
+    "(fuel|vapor|clutch|oil|shade|fork|air)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-082",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Arenacross vs outdoor setup differences?",
+   "must": [
+    "(tight|jump|whoop|rhythm|short)",
+    "(stiff|compression|spring|valv)",
+    "(gear|tooth|sprocket)",
+    "(tire|pressure|hard pack|map|start)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-083",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "New bike day: what should I set up before I ride it?",
+   "must": [
+    "sag",
+    "(bar|lever|control)",
+    "(tire|pressure)",
+    "(spoke|bolt|torque|chain)",
+    "(grease|break.?in|oil|air filter)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-084",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How should I break in a brand new bike?",
+   "must": [
+    "(heat cycle|warm|easy|vary)",
+    "(oil|filter)",
+    "(spoke|bolt|chain|re-?torque|check)",
+    "(not on file|maker|KTM|manual|hour)",
+    "(suspension|sag|settle)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-085",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Why do pros run their fork tubes at different heights at different tracks?",
+   "must": [
+    "(clamp|height|mm)",
+    "(turn|steer|front weight)",
+    "(stab|headshake|straight|fast)",
+    "(sag|balance|rear)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-086",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How do I make the bike turn better without touching clickers?",
+   "must": [
+    "sag",
+    "(fork (height|tube)|clamp)",
+    "(tire|pressure)",
+    "(bar|body|position|weight|gearing|chain|wheelbase|axle)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-087",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How does rear axle position affect handling?",
+   "must": [
+    "(wheelbase)",
+    "(forward|back)",
+    "(turn|stab|traction|straight|wheelie)",
+    "(link|chain|sprocket|tooth)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-088",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What should be in my track toolbox?",
+   "must": [
+    "(gauge|pressure)",
+    "(spoke|T.?handle|wrench|socket)",
+    "(chain|lube|master link)",
+    "(lever|tube|plug|filter|spare)",
+    "(tape|zip|sag|stand|fuel)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-089",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What spares should I carry for a race weekend?",
+   "must": [
+    "(lever)",
+    "(tube|tire)",
+    "(air filter)",
+    "(plug|chain|master link|sprocket|pads?|cable|oil)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-090",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How do I wash the bike without hurting it?",
+   "must": [
+    "(exhaust|plug|airbox|cover|wash plug)",
+    "(pressure washer|bearing|seal|electr|not (aim|point|blast))",
+    "(dry|lube|chain|WD|water dispers)",
+    "(cool|not hot|soap|degreas)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-091",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How often do I really need to clean the air filter?",
+   "must": [
+    "(every ride|each ride|every moto|after each)",
+    "(dust|sand|mud|conditions)",
+    "(oil|tack)",
+    "(seal|rim|grease|cage|seat)",
+    "(spare|second|pre.?oiled)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-092",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Bolt check: which ones come loose on a motocross bike?",
+   "must": [
+    "(spoke)",
+    "(sprocket)",
+    "(axle|pinch)",
+    "(subframe|engine mount|triple|clamp|bar|peg|shroud|skid|caliper|linkage)",
+    "(torque|thread ?lock|loctite|mark)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-093",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What's a good logbook to keep for setup?",
+   "must": [
+    "(clicker|sag|setting)",
+    "(track|condition|dirt|weather)",
+    "(hour|maintenance|service)",
+    "(tire|pressure|gear|result|feel|what changed)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-094",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Which map should I use for a slick hard pack track?",
+   "must": [
+    "map",
+    "(mellow|smooth|soft|less aggressive|traction|standard)",
+    "(spin|traction|hook)",
+    "(try|both|back.to.back|preference|not on file|maker)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-095",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "My bike vibrates more than it used to.",
+   "must": [
+    "(engine mount|bolt|loose)",
+    "(chain|sprocket|wheel|bearing|tire|rim lock|balance)",
+    "(bar|mount|grip)",
+    "(engine|crank|counterbalanc|clutch|bottom end)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-096",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Bike pulls to one side with hands off.",
+   "must": [
+    "(axle|rear wheel|alignment|chain adjust)",
+    "(fork|twist|clamp|bent)",
+    "(bar|subframe|frame|swingarm|crash)",
+    "(tire|wheel|spoke|true|offset)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-097",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I set the bike up for my kid moving up from an 85?",
+   "must": [
+    "sag",
+    "(spring|weight|light)",
+    "(bar|lever|reach|control)",
+    "(seat|height|lower|foot)",
+    "(gear|power|map|throttle|mellow)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-098",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Graphics and plastics aside, what makes the biggest difference for a vet rider's comfort?",
+   "must": [
+    "(suspension|spring|sag|valv|soft)",
+    "(bar|grip|lever|mount|vibration)",
+    "(seat|peg|ergonom)",
+    "(tire|pressure|map|gear|smooth)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-099",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I get more grip out of corners without more power?",
+   "must": [
+    "(tire|pressure)",
+    "(gear|tooth|one gear higher|taller)",
+    "(map|smooth|throttle|clutch)",
+    "(sag|rebound|compression|suspension|chain)"
+   ],
+   "never": []
+  },
+  {
+   "id": "set-100",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Does fuel load change handling over a long moto?",
+   "must": [
+    "(weight|lighter|kg|lb)",
+    "(front|sag|balance|high)",
+    "(7\\.2|tank|full|half)",
+    "(start|set (sag|it)|measure|consisten)"
+   ],
+   "never": []
+  }
+ ]
+}

@@ -1,0 +1,1533 @@
+{
+ "specialty": "suspension",
+ "written": "2026-11-21",
+ "questions": [
+  {
+   "id": "sus-001",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "What air pressure should my fork have stock?",
+   "must": [
+    "10\\.4|151"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-002",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "What's the nitrogen pressure in my shock?",
+   "must": [
+    "\\b10 ?bar|145"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-003",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "What should my static sag and rider sag be?",
+   "must": [
+    "\\b35\\b",
+    "\\b105\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-004",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "What are the standard fork clicker settings?",
+   "must": [
+    "\\b12\\b",
+    "compression",
+    "rebound"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-005",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "Where should the shock clickers be for the standard setting?",
+   "must": [
+    "\\b15\\b",
+    "1\\.5|1 ?1/2|one and a half",
+    "high.?speed",
+    "rebound"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-006",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "What are the comfort and sport fork settings?",
+   "must": [
+    "\\b17\\b",
+    "\\b7\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-007",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "I weigh 200 lb. What shock spring does the factory say I need?",
+   "must": [
+    "\\b45\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-008",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "I'm 150 lb. Which shock spring rate does the manual list for me?",
+   "must": [
+    "\\b39\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-009",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "What's the stock shock spring for a 175 lb rider?",
+   "must": [
+    "\\b42\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-010",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "How much oil goes in the right fork cartridge and what weight?",
+   "must": [
+    "\\b380\\b",
+    "SAE ?4|4 ?wt|4W"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-011",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "What are the sport settings for the shock?",
+   "must": [
+    "\\b13\\b",
+    "\\b1 turn|one turn|1\\.0"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-012",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "How much oil in the outer chamber of each fork leg?",
+   "must": [
+    "\\b230\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-013",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What's the standard race sag?",
+   "must": [
+    "\\b105\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-014",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What range of race sag is allowed?",
+   "must": [
+    "\\b95\\b",
+    "\\b115\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-015",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What are the standard fork compression and rebound positions?",
+   "must": [
+    "\\b12\\b",
+    "\\b13\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-016",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Standard shock settings?",
+   "must": [
+    "\\b11\\b",
+    "\\b6\\b",
+    "2 ?1/6|2\\.17|2\\.2"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-017",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What are the stock fork and shock spring rates?",
+   "must": [
+    "4\\.8",
+    "\\b50\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-018",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What optional fork springs does Honda list?",
+   "must": [
+    "4\\.6",
+    "5\\.0|\\b5 N"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-019",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What optional shock springs are there from Honda?",
+   "must": [
+    "\\b48\\b",
+    "\\b52\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-020",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How much fork oil per leg in the outer tube, standard spring?",
+   "must": [
+    "\\b380\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-021",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What's the minimum and maximum fork oil I can run with the standard spring?",
+   "must": [
+    "\\b323\\b",
+    "\\b410\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-022",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How big a step should I change fork oil by?",
+   "must": [
+    "\\b5 ?(cm|cc|ml)"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-023",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How often should I change the fork oil?",
+   "must": [
+    "9 races|22\\.5"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-024",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What fork oil does Honda call for?",
+   "must": [
+    "5 ?W"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-025",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What nitrogen pressure does my shock take?",
+   "must": [
+    "not (on file|given|listed|published|confirmed|printed)|don.t have|isn.t (on file|given|listed|published)|no (published|listed) (value|pressure|number)"
+   ],
+   "never": [
+    "\\b1[4-9]\\d ?psi\\b",
+    "\\b1\\d(\\.\\d)? ?bar\\b"
+   ]
+  },
+  {
+   "id": "sus-026",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What sag should I run for a sand track?",
+   "must": [
+    "\\+ ?5|5 (to|-|\u2013) ?10|more sag|110|115",
+    "rebound"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-027",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "What are the stock spring rates front and rear?",
+   "must": [
+    "\\b5(\\.0)? ?N|5\\.0",
+    "\\b56\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-028",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "What stiffer springs does Honda offer?",
+   "must": [
+    "5\\.2",
+    "\\b58\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-029",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "Standard fork clickers?",
+   "must": [
+    "\\b10\\b",
+    "\\b13\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-030",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "Standard race sag and shock low speed compression?",
+   "must": [
+    "\\b105\\b",
+    "\\b6\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-031",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "The rear kicks me on braking bumps coming into corners. What do I change first?",
+   "must": [
+    "sag",
+    "rebound",
+    "(slow|stiff|more|add|in).{0,40}rebound|rebound.{0,60}(slow|in\\b|clockwise|stiff|more)|rebound.{0,60}(fast|soft|out)",
+    "one (change|click|thing) at a time|a click or two|[12] clicks?"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-032",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Front end pushes in flat corners and won't bite. Ideas?",
+   "must": [
+    "sag",
+    "fork (height|tube)|tubes? (up|in the clamps)|raise the forks|clamps",
+    "compression|rebound",
+    "tire|pressure"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-033",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "Fork feels harsh on small chop but still bottoms on big landings.",
+   "must": [
+    "air pressure|pressure",
+    "compression",
+    "oil (level|volume|height)|bottoming",
+    "(mid|initial|top).{0,20}stroke|small bump"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-034",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "Bike headshakes at speed down the fast straight.",
+   "must": [
+    "sag",
+    "fork (height|tube)|forks? (down|flush|lower)|drop the forks",
+    "rebound",
+    "steering|head bearing|stem|tire|wheel"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-035",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Rear end squats and wallows out of corners under power.",
+   "must": [
+    "sag|preload",
+    "compression",
+    "spring",
+    "low.?speed"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-036",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "The back end packs down in a set of whoops and gets lower every bump.",
+   "must": [
+    "pack",
+    "rebound",
+    "(fast|quick|soft|less|out).{0,40}rebound|rebound.{0,60}(fast|quick|out|counter|less|soft)"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-037",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "The rear bounces and feels like a pogo stick after jumps.",
+   "must": [
+    "rebound",
+    "(slow|more|stiff|in\\b|add).{0,40}rebound|rebound.{0,60}(slow|in\\b|clockwise|more|stiff)"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-038",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "My fork dives hard under braking.",
+   "must": [
+    "air pressure|pressure",
+    "compression",
+    "(stiff|more|add|in\\b).{0,40}compression|compression.{0,60}(stiff|in\\b|clockwise|more)|raise.{0,30}pressure"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-039",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Bike feels tall and won't settle in ruts, stands up mid corner.",
+   "must": [
+    "sag",
+    "rebound|compression",
+    "fork (height|tube)|forks? up|balance"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-040",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "It's deflecting off square edge bumps and my hands are getting beat up.",
+   "must": [
+    "compression",
+    "(soft|less|out|open).{0,40}compression|compression.{0,60}(soft|out|counter|less)",
+    "high.?speed|rebound|pressure|bleed"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-041",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Should I adjust high speed or low speed compression for g-outs and jump faces?",
+   "must": [
+    "low.?speed",
+    "high.?speed",
+    "shaft|speed of the (shaft|suspension)|how fast"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-042",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "What does the high speed compression adjuster on the shock actually change?",
+   "must": [
+    "high.?speed",
+    "shaft|sharp|square|fast (hits|movement)",
+    "ride height|holds? (up|the rear)|chassis|rear (height|sits)|blow.?off|spring"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-043",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How many clicks should I change at a time when testing?",
+   "must": [
+    "one click|1 click|one at a time|a click at a time|[12] clicks?",
+    "one (change|thing|adjust)|same (section|lap|track)|write|note|log|back.to.back"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-044",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "Track is deep sand this weekend. How should I set the suspension?",
+   "must": [
+    "sag",
+    "rebound",
+    "(slow|stiff|more).{0,40}rebound|rebound.{0,60}(slow|stiff|in\\b|more)",
+    "fork|front|compression|pressure"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-045",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Hard pack blue groove track, bike feels skatey. What to change?",
+   "must": [
+    "(soft|less|out).{0,40}compression|compression.{0,60}(soft|out|less)",
+    "rebound",
+    "tire|pressure",
+    "sag|balance"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-046",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "Mud race tomorrow. Any suspension changes?",
+   "must": [
+    "sag|preload",
+    "(stiff|more).{0,30}(compression|spring)|compression.{0,40}(stiff|in\\b|more)|weight",
+    "mud"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-047",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "I ran out of rebound clicks on the shock and it's still too fast.",
+   "must": [
+    "service|oil|worn|fade|nitrogen|rebuild",
+    "revalv|valving|shim",
+    "spring|sag"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-048",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "After 20 minutes the shock goes soft and bouncy. Fine when cold.",
+   "must": [
+    "fade|heat|hot",
+    "oil",
+    "nitrogen|gas|bladder|service|rebuild"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-049",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "Fork feels different lap to lap, firmer at the end of a moto.",
+   "must": [
+    "air",
+    "heat|temperature|warm",
+    "pressure",
+    "check|set.{0,30}cold|bleed|before"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-050",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "One fork leg is weeping oil. Can I still ride and what causes it?",
+   "must": [
+    "seal",
+    "dirt|debris|nick|scratch|clean",
+    "brake|pad|rotor|caliper",
+    "replace|seal (saver|mate|cleaner)|clean"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-051",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "Bike is unbalanced, the rear rides low and the front high. How do I check balance?",
+   "must": [
+    "sag",
+    "fork (height|tube)|clamps",
+    "push|bounce|level|together|even"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-052",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I tell if a harsh feeling is too stiff or too soft?",
+   "must": [
+    "travel|o-?ring|zip tie|bottom",
+    "harsh",
+    "(too soft|soft).{0,80}(deep|stiff part|bottom|low in the stroke)|riding (low|deep)|deep in the (stroke|travel)"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-053",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "Does tire pressure change how the suspension feels?",
+   "must": [
+    "psi|pressure",
+    "harsh|deflect|small bump|feel",
+    "1[0-4]|check|gauge"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-054",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "The rear steps out sideways on acceleration bumps.",
+   "must": [
+    "rebound",
+    "compression|sag",
+    "(fast|slow)",
+    "one (change|click)|a click or two|[12] clicks?"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-055",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Chain torque makes the rear feel stiff on throttle. Is that suspension?",
+   "must": [
+    "chain|squat|anti.?squat|torque",
+    "sag|slack|tension",
+    "swingarm|linkage|geometry|angle"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-056",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I measure race sag properly?",
+   "must": [
+    "unloaded|off the ground|on (a|the) stand|fully extended",
+    "gear|riding gear",
+    "fender|axle|fixed point|same (two )?points",
+    "subtract|difference|minus"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-057",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What is static sag and what does it tell me?",
+   "must": [
+    "static|free sag",
+    "without (the|a) rider|bike.s own weight|no rider",
+    "spring (rate|is)|too (soft|stiff)",
+    "(too little|not enough|less than).{0,80}(soft)|(too much|more than).{0,80}(stiff)"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-058",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "My rider sag is right at 105 but static sag is only 20 mm. What does that mean?",
+   "must": [
+    "spring",
+    "too soft|soft(er)? (spring|for)|stiffer spring|heavier spring|next (rate|spring) up",
+    "preload"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-059",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "Rider sag is 105 and static sag is 50 mm. Spring right?",
+   "must": [
+    "too stiff|stiff for|softer spring|lighter spring|next (rate|spring) (down|softer)",
+    "preload"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-060",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "I weigh 230 lb. Do I need different springs?",
+   "must": [
+    "sag",
+    "stiff|heavier|5\\.2|58",
+    "static|free sag|measure",
+    "fork|front|both ends|balance"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-061",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "I'm 130 lb. Is the stock setup too stiff for me?",
+   "must": [
+    "sag",
+    "soft|4\\.6|48|lighter",
+    "static|free sag|measure"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-062",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How does preload differ from spring rate?",
+   "must": [
+    "preload",
+    "rate",
+    "ride height|sag|where (the bike|it) sits|initial",
+    "does(n.t| not) (change|make)|same rate|doesn.t (get )?stiff"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-063",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "How much preload is too much on the shock spring?",
+   "must": [
+    "preload",
+    "static|free sag",
+    "stiffer spring|next (rate|spring)|wrong spring|spring rate",
+    "mm|turns"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-064",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Do I need to change fork springs if I change the shock spring?",
+   "must": [
+    "balance",
+    "fork|front",
+    "rate|weight",
+    "pitch|geometry|sag|ride height"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-065",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "How do I set up an air fork for my weight instead of changing springs?",
+   "must": [
+    "pressure",
+    "psi|bar",
+    "cold|before riding|temperature",
+    "(small|[12]|0\\.[12]).{0,20}(psi|bar)|step|increment",
+    "pump|gauge"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-066",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What's the effect of adding 10 cc of oil to each fork leg?",
+   "must": [
+    "air (gap|chamber|volume|spring)|oil (level|height|volume)",
+    "(last|end|bottom|deep|final).{0,30}(part|third|stroke|travel)|bottoming|progress",
+    "(doesn.t|not|little).{0,40}(initial|top|small bump|first part)|only.{0,40}(deep|end|last)"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-067",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "Linear vs progressive springs for motocross?",
+   "must": [
+    "linear|straight.?rate",
+    "progressive",
+    "predictable|consistent|valving|linkage|oil (level|height)|air"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-068",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Sag keeps changing ride to ride. Why?",
+   "must": [
+    "spring|preload|lock ?ring|collar",
+    "measure|same (points|way|gear)",
+    "linkage|bearing|sack|settle|fuel|worn|nitrogen|shock"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-069",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "What does the linkage do and does a different pull rod help?",
+   "must": [
+    "leverage|ratio|rising rate|progress",
+    "pull rod|link",
+    "ride height|rear (lower|height)|sag|geometry",
+    "spring|valving|stiffer|firmer|initial"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-070",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I set fork height in the clamps and what does it change?",
+   "must": [
+    "clamp",
+    "(up|raise|higher).{0,80}(turn|quick|steer)|(turn|steer).{0,80}(up|raise)",
+    "stab|headshake|straight",
+    "mm|line|flush|small"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-071",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Walk me through replacing fork seals.",
+   "must": [
+    "seal driver",
+    "bushing",
+    "(inspect|check).{0,60}(tube|nick|scratch|chrome)|nick|scratch",
+    "oil",
+    "dust (seal|wiper)|wiper",
+    "tape|bag|cover.{0,30}(edge|thread|bushing groove)|grease the seal|lube the seal"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-072",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I change fork oil on my twin chamber fork?",
+   "must": [
+    "outer (chamber|tube)",
+    "inner (chamber|cartridge)|cartridge",
+    "380|measure|volume|cc|cm",
+    "5 ?W|oil (type|weight|viscosity)",
+    "bleed|pump|stroke"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-073",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "How do I bleed the air out of my forks and when?",
+   "must": [
+    "bleed(er)?( screw| valve)?",
+    "(unloaded|off the ground|stand|extended|wheel off)",
+    "before|between motos|each ride|every ride",
+    "spring fork|coil|not.{0,30}air fork|atmospher|built.?up"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-074",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "How often should the shock be serviced and what gets done?",
+   "must": [
+    "hours|races|interval",
+    "oil",
+    "nitrogen|gas|bladder",
+    "seal|bushing|bumper|shaft",
+    "shop|tools|special|pressure"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-075",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Can I recharge the shock nitrogen myself?",
+   "must": [
+    "nitrogen",
+    "regulator|needle|no.?loss|chuck|tank",
+    "(not|never|don.t).{0,30}(air|compressed air)|only nitrogen|dry",
+    "shop|pressure (not|isn.t)|not (on file|given|listed|published)|service manual"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-076",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "How do I check linkage and swingarm bearings?",
+   "must": [
+    "stand|wheel off the ground|lift",
+    "play|movement|clunk|knock",
+    "grease",
+    "seal|bearing|needle|collar|sleeve",
+    "torque"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-077",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What's the right way to grease the linkage?",
+   "must": [
+    "remove|disassemble|take.{0,20}(off|apart)",
+    "needle|bearing",
+    "waterproof|grease",
+    "seal|collar|sleeve",
+    "torque|interval|hours"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-078",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "How do I service the air side of my AER fork?",
+   "must": [
+    "air",
+    "pressure|release|depressur",
+    "seal|o.?ring|grease|lubric",
+    "hours|interval|service",
+    "pump|cold|check"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-079",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "My fork seals keep leaking after I replace them. Why?",
+   "must": [
+    "(nick|scratch|pit|chrome|tube)",
+    "bushing",
+    "install|driver|lip|backwards|tape|damage",
+    "clean|dirt|dust (seal|wiper)|mud"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-080",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What tools do I need to rebuild my forks at home?",
+   "must": [
+    "seal driver",
+    "(cartridge|damper) (holder|tool)|fork cap (wrench|tool)|cap wrench",
+    "vise|soft jaws",
+    "oil|measur|graduated|level (tool|gauge)",
+    "torque"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-081",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "How do I check fork alignment after a crash or wheel change?",
+   "must": [
+    "axle",
+    "pinch bolts?",
+    "(pump|compress|bounce).{0,40}(fork|front)|let the fork (find|settle)",
+    "torque|sequence|order",
+    "bind|stiction|twist"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-082",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What is stiction and how do I reduce it?",
+   "must": [
+    "friction|stick",
+    "seal|bushing",
+    "align|axle|pinch",
+    "grease|lubric|clean|oil",
+    "harsh|small bump|initial"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-083",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "Do I need to break in new suspension or freshly rebuilt forks?",
+   "must": [
+    "break.?in|bed|settle",
+    "seal|bushing|stiff",
+    "hours|ride|laps",
+    "re.?check|sag|clickers|oil"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-084",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "When do fork bushings need replacing?",
+   "must": [
+    "teflon|coating|bronze|copper|worn (through)?|wear",
+    "play|slop|stiction|leak",
+    "inspect|every (seal|service)|when.{0,30}(seal|apart)",
+    "inner|outer|slide|guide"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-085",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "What does old shock oil do to the ride?",
+   "must": [
+    "fade|consist|damping (loss|fades|goes)",
+    "viscosity|thin|break(s)? down|shear|contaminat|air|aerat|foam",
+    "rebound|bounc|pogo|kick",
+    "service|interval|hours"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-086",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I set oil level vs oil volume on a fork?",
+   "must": [
+    "volume|cc|ml|cm",
+    "level|height|air gap",
+    "(spring (out|removed)|fully compressed|collapsed)|from the top",
+    "twin chamber|closed cartridge|open (bath|cartridge)|this fork|your fork"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-087",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "Shock bumper is cracked and crumbling. Problem?",
+   "must": [
+    "bump(er| stop| rubber)",
+    "bottom",
+    "replace",
+    "shaft|seal head|service|apart|rebuild",
+    "damage|harsh|metal"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-088",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "How do I check if my shock needs a rebuild?",
+   "must": [
+    "leak|oil (on|around)",
+    "rebound|damping|fade|bounc",
+    "hours|interval",
+    "shaft|seal|bumper|pitting|nitrogen|gas"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-089",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How should I store the bike so the suspension lasts?",
+   "must": [
+    "stand",
+    "clean|wash|dirt",
+    "seal|wiper|tube|chrome",
+    "air|bleed|pressure|unloaded|strap|tie.?down"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-090",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "I tie the bike down hard in the truck. Does it hurt the forks?",
+   "must": [
+    "seal|spring|pressure",
+    "(not|don.t).{0,40}(all the way|fully|bottom|crank)|fork (saver|brace|support|block)|just enough|snug",
+    "bleed|air|release"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-091",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How does a shim stack work?",
+   "must": [
+    "shim",
+    "piston",
+    "(flex|bend|deflect)",
+    "oil|flow|port",
+    "stiff|thick|diameter|more shims|stack"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-092",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "What's the difference between the base valve and the mid valve in a fork?",
+   "must": [
+    "base valve",
+    "mid.?valve",
+    "(low|high).?speed|shaft|displace|rod",
+    "compression",
+    "piston|cartridge"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-093",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What does a revalve actually change that clickers can't?",
+   "must": [
+    "shim|stack|valving",
+    "clicker|bleed|bypass|needle",
+    "(range|low.?speed|small part|fine.?tun|limited)",
+    "high.?speed|mid|whole (range|stroke)|weight|speed|track|riding"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-094",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "Can you give me the stock shim stack for my shock?",
+   "must": [
+    "not (on file|confirmed|published|listed|available)|don.t have|isn.t (on file|published|something)|can.t give",
+    "shim|stack|valving",
+    "tuner|shop|service manual|measure|record|micrometer|write"
+   ],
+   "never": [
+    "\\b\\d{2}(\\.\\d)? ?x ?0?\\.\\d{1,2}\\b.*\\b\\d{2}(\\.\\d)? ?x ?0?\\.\\d{1,2}\\b.*\\b\\d{2}(\\.\\d)? ?x ?0?\\.\\d{1,2}\\b"
+   ]
+  },
+  {
+   "id": "sus-095",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What does heavier fork oil do?",
+   "must": [
+    "viscosity|thick|heavier",
+    "damping",
+    "(more|slow|stiff).{0,40}(damping|rebound|compression)|slows",
+    "clicker|temperature|cold|low.?speed|bleed|not a substitute|cSt"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-096",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "What's cavitation in a shock?",
+   "must": [
+    "cavitat",
+    "pressure",
+    "nitrogen|gas|bladder|reservoir",
+    "(bubble|vapor|foam|air)",
+    "damping|fade|loss|inconsistent"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-097",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What is the bladder or reservoir on the shock for?",
+   "must": [
+    "nitrogen|gas",
+    "oil",
+    "shaft (displac|volume|enter)|displac|rod",
+    "cavitat|pressure|foam|separat"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-098",
+   "bike": {
+    "manufacturer": "GasGas",
+    "model": "MC 250F",
+    "model_year": 2023
+   },
+   "q": "How does an air fork differ from a spring fork inside?",
+   "must": [
+    "air",
+    "spring",
+    "pressure",
+    "(one|left|right) leg|damping (leg|side)|split|separate",
+    "temperature|heat|progress|ramp|adjust|light|weight"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-099",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   "q": "What is a bleed shim or bleed circuit?",
+   "must": [
+    "bleed",
+    "low.?speed",
+    "(bypass|around|before).{0,40}(shim|stack|piston)|needle|clicker|orifice|hole",
+    "shim|stack|piston"
+   ],
+   "never": []
+  },
+  {
+   "id": "sus-100",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Why do tuners talk about oil height for bottoming instead of clickers?",
+   "must": [
+    "air (gap|spring|volume|chamber)|oil (height|level|volume)",
+    "(end|last|bottom|deep).{0,30}(stroke|travel|part)|bottoming",
+    "progress|ramp|compress(es|ed|ing)? the air",
+    "clicker.{0,80}(low.?speed|don.t|not|little|bleed)|speed.?sensitive|position"
+   ],
+   "never": []
+  }
+ ]
+}

@@ -1,0 +1,1576 @@
+{
+ "specialty": "engine",
+ "written": "2026-11-21",
+ "questions": [
+  {
+   "id": "eng-001",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What are the valve clearances?",
+   "must": [
+    "0\\.10",
+    "0\\.15",
+    "0\\.12",
+    "0\\.17"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-002",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What spark plug and gap?",
+   "must": [
+    "LMAR9AI",
+    "1\\.0 ?mm|0\\.039|\\.040"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-003",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What should it idle at?",
+   "must": [
+    "2[,.]?100",
+    "2[,.]?200"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-004",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Valve clearance specs?",
+   "must": [
+    "0\\.10",
+    "0\\.20",
+    "cold"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-005",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What plug does it take and do I gap it?",
+   "must": [
+    "SILMAR9A",
+    "(do not|don.t|not).{0,30}(gap|adjust|clean)|iridium"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-006",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How much oil after a normal oil change?",
+   "must": [
+    "1\\.05"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-007",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How much oil after a full engine rebuild?",
+   "must": [
+    "1\\.35"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-008",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "When does Honda say to replace the piston and rings?",
+   "must": [
+    "6 races|15(\\.0)? ?h"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-009",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What idle speed?",
+   "must": [
+    "2[,.]?000"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-010",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What's the clutch spring free length?",
+   "must": [
+    "53\\.13|53\\.1"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-011",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How much clutch plate warp is too much?",
+   "must": [
+    "0\\.10|0\\.1 ?mm|0\\.004"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-012",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "What's the stock jetting?",
+   "must": [
+    "160",
+    "\\b75\\b",
+    "NYDF"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-013",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Where should the air screw be set stock?",
+   "must": [
+    "2.?5/8|2\\.625|2 and 5/8"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-014",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "What premix ratio?",
+   "must": [
+    "30 ?: ?1|30 to 1|\\b30\\b"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-015",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Float height?",
+   "must": [
+    "6\\.5"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-016",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Which spark plug and what gap?",
+   "must": [
+    "BR9EVX",
+    "0\\.6",
+    "0\\.7"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-017",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Cylinder head nut torque?",
+   "must": [
+    "\\b28\\b|20\\.?[0-9]? ?(ft|lb)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-018",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "How much transmission oil and what kind?",
+   "must": [
+    "0\\.7",
+    "10W-?40"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-019",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "How much coolant does it hold?",
+   "must": [
+    "0\\.9"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-020",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "How often should I do a piston?",
+   "must": [
+    "fifth race|5th race|five races|12\\.5"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-021",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Clutch plate thickness spec?",
+   "must": [
+    "1\\.50?",
+    "1\\.70?"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-022",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Clutch spring free length?",
+   "must": [
+    "41\\.2"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-023",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "What main jet for cold sandy conditions?",
+   "must": [
+    "165"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-024",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What's the compression ratio and bore and stroke?",
+   "must": [
+    "not (on file|confirmed|listed)|don.t have|isn.t on file|\\d{2}(\\.\\d)? ?(mm|:)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-025",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What's the cam chain tensioner torque?",
+   "must": [
+    "not (on file|confirmed|listed|published)|don.t have|isn.t on file|\\d+ ?N"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-026",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Walk me through checking valve clearances.",
+   "must": [
+    "cold",
+    "TDC|top dead cent",
+    "compression stroke|timing marks?|lobes? (point|facing)",
+    "feeler",
+    "0\\.10|0\\.20",
+    "(write|record|note)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-027",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "My intake valves are tight. How do I work out the new shim?",
+   "must": [
+    "shim",
+    "measure|micrometer|marked|stamped|number on",
+    "(old|current|existing) shim",
+    "(clearance|measured).{0,60}(minus|subtract|\\-|less|difference)|difference|formula|thinner",
+    "cam|bucket|tappet|rocker"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-028",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Valves keep tightening up every few hours. What does that mean?",
+   "must": [
+    "valve (face|seat)|seat|recess|cup|wear|sink",
+    "replace|new valves|cut|seat (cut|work)|head (shop|work)",
+    "air filter|dirt|dust",
+    "intake|titanium|coating"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-029",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I know when the top end is due on a 250F?",
+   "must": [
+    "hours|15|6 races",
+    "compression|leak.?down",
+    "start|power|smok|oil (use|consum)|noise",
+    "measure|ring (end )?gap|piston|skirt|cylinder|wear"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-030",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Steps for a top end on my 250F?",
+   "must": [
+    "TDC|top dead cent|timing marks?",
+    "cam chain|tensioner",
+    "ring (end )?gap|ring gaps|rings?",
+    "circlip|clip",
+    "torque",
+    "gasket"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-031",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How do I set cam timing after putting the head back on?",
+   "must": [
+    "TDC|top dead cent",
+    "marks?",
+    "tensioner",
+    "(turn|rotate).{0,40}(by hand|twice|two (full )?(turns|revolutions)|over)",
+    "crank|flywheel|locking"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-032",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What happens if cam timing is a tooth off?",
+   "must": [
+    "valve",
+    "piston",
+    "(hit|contact|bend|bent|damage)|hard (to )?start|power|backfire|won.t run",
+    "by hand|rotate|turn it over|re-?check"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-033",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What is a leak-down test and what does it tell me that a compression test doesn't?",
+   "must": [
+    "leak.?down",
+    "air|pressur",
+    "TDC|top dead cent",
+    "(intake|exhaust|crankcase|breather|radiator|airbox|pipe)",
+    "percent|%|rings?|valves?|head gasket"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-034",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Do I need to hone or replate the cylinder with a new piston?",
+   "must": [
+    "plat(ed|ing)|nikasil|coating",
+    "(not|don.t|never).{0,30}hone|deglaze|scotch|ball hone",
+    "measure|bore gauge|wear|scor|taper|out of round",
+    "replat|replace|sleeve"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-035",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How do I break in a fresh top end?",
+   "must": [
+    "heat cycle|warm|operating temp",
+    "(vary|varying|different).{0,30}(rpm|throttle|load)|not.{0,30}(hold|constant|lug)|load",
+    "oil|filter",
+    "re-?check|re-?torque|valve|coolant"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-036",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Bike is hard to start hot and pops on decel.",
+   "must": [
+    "valve",
+    "clearance|tight",
+    "(lean|air leak|exhaust leak|idle|fuel|mixture)",
+    "check|measure|feeler|hot start|plug"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-037",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "White smoke and losing coolant with no leaks.",
+   "must": [
+    "head gasket",
+    "coolant",
+    "(oil|milky|combustion|cylinder|exhaust)",
+    "(pressure test|leak.?down|bubbles|radiator|warp|flat|straight edge)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-038",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Milky oil in the sight glass.",
+   "must": [
+    "coolant|water",
+    "water pump|seal|head gasket",
+    "(stop|don.t|do not) (riding|ride|run)|bearing|damage",
+    "change|flush|replace"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-039",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Blue smoke on startup and it's using oil.",
+   "must": [
+    "rings?",
+    "valve (stem )?seals?|guides?",
+    "compression|leak.?down",
+    "hours|top end|piston|worn"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-040",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What should I measure when the piston is out?",
+   "must": [
+    "ring (end )?gap",
+    "bore|cylinder",
+    "piston|skirt|clearance",
+    "pin|small end|rod|side clearance|big end",
+    "(service )?limit|spec"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-041",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Is it OK to reuse the head gasket and base gasket?",
+   "must": [
+    "(no|not|never|don.t|always (use|fit) new|replace)",
+    "gasket",
+    "torque|sequence|pattern|criss|stages",
+    "clean|surface|flat|warp"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-042",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I torque the cylinder head correctly?",
+   "must": [
+    "(criss|cross|diagonal|pattern|sequence)",
+    "stages|steps|increments",
+    "oil|thread|washer|clean",
+    "(not on file|spec|value|N.?m|manual)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-043",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Engine makes a ticking noise up top. Valves or cam chain?",
+   "must": [
+    "valve",
+    "cam chain|tensioner",
+    "clearance|loose",
+    "(listen|stethoscope|screwdriver|cold|warm|rpm|check|measure)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-044",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Can I run pump gas or do I need race fuel?",
+   "must": [
+    "octane",
+    "(deton|knock|ping)",
+    "premium|9[1-5]|maker|manual|not on file",
+    "ethanol|fresh|stale|map|compression"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-045",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What does a bigger bore kit change besides power?",
+   "must": [
+    "compression|heat|cooling",
+    "fuel|map|ECU|tun",
+    "reliab|wear|piston|interval|stress",
+    "class|rules|legal|displacement"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-046",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Steps for a top end rebuild on my 125?",
+   "must": [
+    "circlip|clip",
+    "ring (end )?gap|ring gap",
+    "arrow|exhaust (side|port)|dot",
+    "small end|needle|bearing|pin",
+    "28|torque",
+    "gasket"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-047",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "How do I check ring end gap?",
+   "must": [
+    "(square|push).{0,40}(piston|bore)|square in the bore|into the (cylinder|bore)",
+    "feeler",
+    "(service )?limit|spec|not on file",
+    "file|replace|new ring"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-048",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Why does the piston have an arrow or mark and which way does it go?",
+   "must": [
+    "exhaust",
+    "(ring|locating|peg|pin)",
+    "port|snag|catch|rotate",
+    "front"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-049",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Bike revs to the moon by itself and won't come down. What is it?",
+   "must": [
+    "air leak",
+    "lean",
+    "(crank seal|seal|gasket|intake|reed|manifold|boot)",
+    "(kill|choke|stop|shut).{0,40}|seiz|damage",
+    "leak.?down|pressure test|spray"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-050",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "How do I do a leak-down or pressure test on a two-stroke?",
+   "must": [
+    "(block|plug|seal).{0,40}(intake|exhaust)|intake.{0,40}exhaust",
+    "psi|pressure|low pressure|few (psi|pounds)",
+    "(hold|drop|gauge|minutes)",
+    "soap|spray|bubbles",
+    "crank seal|seal|gasket|power valve"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-051",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "What do reeds do and when do I replace them?",
+   "must": [
+    "reed",
+    "(one.?way|back.?flow|crankcase|intake)",
+    "(chip|crack|fray|gap|seal|light|daylight)",
+    "start|idle|bottom|throttle response|power"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-052",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "What does the power valve do and how do I service it?",
+   "must": [
+    "power valve",
+    "exhaust port|port (height|timing)",
+    "low|bottom|top|rpm",
+    "carbon|clean|stick|sticky",
+    "(governor|linkage|adjust|align|free|seal|o.?ring)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-053",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "What's squish and why do builders set it?",
+   "must": [
+    "squish",
+    "piston",
+    "head",
+    "(solder|measure)",
+    "(deton|compression|burn|combustion|turbulence|efficien)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-054",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "My piston has four-corner scuffing. What happened?",
+   "must": [
+    "(cold seiz|four.?corner|4.?corner)",
+    "warm.?up|warm it|cold",
+    "clearance|expan",
+    "(coolant|jet|lean|air leak|check)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-055",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "What premix oil ratio should I run and does it change jetting?",
+   "must": [
+    "30",
+    "(more oil|richer in oil|less (fuel|gas)).{0,80}lean|lean",
+    "(consisten|same|stick with|measure)",
+    "jet"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-056",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "How do I tell a seized piston from a stuck ring?",
+   "must": [
+    "compression",
+    "(scor|scuff|smear|aluminum|transfer)",
+    "ring",
+    "(exhaust port|look|inspect|pull|pipe off)",
+    "(cause|lean|air leak|oil|coolant|warm)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-057",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Can I just hone my two-stroke cylinder and put in a new piston?",
+   "must": [
+    "plat(ed|ing)|nikasil|coating",
+    "(measure|bore gauge|wear|worn through|scor)",
+    "(deglaze|scotch|not.{0,20}hone|light)",
+    "replat|sleeve|replace",
+    "(port|chamfer|edge)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-058",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "How do I break in a new two-stroke piston?",
+   "must": [
+    "heat cycle|warm",
+    "cool",
+    "(vary|blip|not.{0,20}(hold|lug)|short)",
+    "(re-?torque|head nuts|check|plug|coolant)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-059",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Crank seals: how do I know they're gone?",
+   "must": [
+    "(left|ignition|stator|mag|flywheel) side",
+    "(right|clutch|drive|primary) side",
+    "(lean|air leak|hang|idle)",
+    "(smok|trans(mission)? oil|gear oil|burn|level drop)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-060",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Is porting worth it and what does it actually do?",
+   "must": [
+    "port",
+    "(timing|height|duration|open)",
+    "(area|width|flow|shape)",
+    "(powerband|top end|bottom|trade|shift|where)",
+    "(builder|tuner|experienc|irreversible|can.t (be )?undo|ruin)|not on file"
+   ],
+   "never": [
+    "\\b(raise|grind|widen).{0,40}\\b\\d+(\\.\\d+)? ?mm\\b"
+   ]
+  },
+  {
+   "id": "eng-061",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Bike bogs and sputters at full throttle but cleans up when I back off.",
+   "must": [
+    "rich",
+    "main jet",
+    "(smaller|leaner|down|drop)",
+    "(one|1|a) (size|step)|one at a time|plug|test"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-062",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "It surges and feels flat on top and the plug is white.",
+   "must": [
+    "lean",
+    "main jet",
+    "(bigger|larger|richer|up)",
+    "(seiz|damage|stop|air leak|hot)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-063",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Hesitates right off idle, air screw doesn't seem to do much.",
+   "must": [
+    "pilot",
+    "air screw",
+    "(turns|1 to|between|range|more than|less than)",
+    "(bigger|smaller|size|next)",
+    "(clean|float|clog|block)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-064",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Which circuit controls which throttle position?",
+   "must": [
+    "pilot",
+    "needle",
+    "main",
+    "(1/4|quarter|closed|idle)",
+    "(3/4|three.quarter|full|wide open)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-065",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "What does moving the needle clip do?",
+   "must": [
+    "clip",
+    "(raise|lower|up|down)",
+    "(rich|lean)",
+    "(mid|1/4|3/4|quarter|part throttle)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-066",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "How do I jet for a hot humid day versus a cold dry morning?",
+   "must": [
+    "(hot|humid).{0,120}(lean|smaller|down)|(lean|smaller).{0,120}(hot|humid)",
+    "(cold|dry).{0,120}(rich|bigger|up)|(rich|bigger).{0,120}(cold|dry)",
+    "(density|air|oxygen)",
+    "(main|needle|pilot|one (size|step))"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-067",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Going from sea level to 6000 ft. Jetting?",
+   "must": [
+    "lean",
+    "(smaller|down|drop)",
+    "(thinner|less|density|oxygen)",
+    "(main|pilot|needle|air screw)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-068",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "How do I do a plug chop?",
+   "must": [
+    "(wide open|full throttle|WOT)",
+    "(kill|cut|stop).{0,40}(engine|switch|ignition)|clutch in",
+    "(new|clean|fresh) plug",
+    "(color|colour|tan|brown|white|black|ring|insulator)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-069",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Fuel pours out the overflow.",
+   "must": [
+    "float",
+    "(needle|valve|seat)",
+    "(stuck|dirt|debris|worn|height|level)",
+    "(tap|clean|6\\.5|adjust|replace)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-070",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "My fuel injected bike feels lean and pops. Can I change jets?",
+   "must": [
+    "(no jets|injected|EFI|injection)",
+    "(map|ECU|tun)",
+    "(fuel pump|filter|pressure|injector)",
+    "(air leak|exhaust leak|valve|filter|sensor)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-071",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What's the difference between the two maps on the bar switch?",
+   "must": [
+    "map",
+    "(ignition|timing|fuel|power (delivery|curve)|throttle)",
+    "(aggressive|mellow|soft|standard|traction)",
+    "(not on file|maker|KTM|switch|conditions|track)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-072",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Bike stalls in corners and is hard to restart. EFI.",
+   "must": [
+    "idle",
+    "(fuel|pump|filter|pressure)",
+    "(valve|clearance)",
+    "(clutch|drag|stall|flame.?out|map|air filter|plug)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-073",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How do I look after the fuel pump and filter on a fuel injected bike?",
+   "must": [
+    "filter",
+    "(clean|replace|inspect)",
+    "(fuel|gas).{0,30}(clean|fresh|ethanol|strain)|ethanol|strain|funnel",
+    "(pressure|pump|hours|interval)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-074",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Does ethanol pump gas hurt my two-stroke?",
+   "must": [
+    "ethanol",
+    "(water|moisture|absorb|phase)",
+    "(lean|jet)",
+    "(fresh|drain|store|stabil|non.?ethanol)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-075",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What does detonation sound like and what causes it?",
+   "must": [
+    "(ping|knock|rattle|marbles)",
+    "(octane|fuel)",
+    "(lean|timing|heat|hot|carbon|compression)",
+    "(piston|damage|stop|back off)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-076",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Clutch slips in the upper gears under load.",
+   "must": [
+    "(friction|plates?)",
+    "springs?",
+    "53|free length|thickness|limit|measure",
+    "(cable|free play|adjust)",
+    "(oil|JASO|MA|friction modif)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-077",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Clutch drags and it creeps with the lever in.",
+   "must": [
+    "(warp|plate)",
+    "(cable|free play|adjust)",
+    "(basket|notch|groove)",
+    "(oil|level|type)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-078",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I inspect a clutch basket and hub?",
+   "must": [
+    "basket",
+    "(notch|groove|finger|tang)",
+    "(hub|inner)",
+    "(file|replace)",
+    "(plates?|springs?|measure)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-079",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Order for replacing clutch plates?",
+   "must": [
+    "(soak|oil)",
+    "(friction|steel|alternat)",
+    "(springs?|bolts?)",
+    "(criss|cross|even|stages|pattern|torque)",
+    "(free play|cable|adjust)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-080",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I know the crank or bottom end is going?",
+   "must": [
+    "(big end|rod|bearing|main)",
+    "(play|up and down|radial|side clearance)",
+    "(vibrat|rumble|knock|noise)",
+    "(metal|glitter|filter|oil|screen)",
+    "(hours|rebuild|split)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-081",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "How do I check the connecting rod for wear with the cylinder off?",
+   "must": [
+    "(up and down|radial|vertical)",
+    "(side|axial)",
+    "(feeler|clearance|limit)",
+    "(small end|pin|bearing)",
+    "(not on file|spec|limit|replace|rebuild)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-082",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What gets done in a full bottom end rebuild?",
+   "must": [
+    "(split|cases)",
+    "(crank|rod|big end)",
+    "(main )?bearings?",
+    "seals?",
+    "(transmission|gear|shift|oil pump)",
+    "(gasket|torque|measure|true)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-083",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Metal flakes on the oil filter. How worried should I be?",
+   "must": [
+    "(aluminum|steel|brass|bronze|magnet)",
+    "(clutch|basket|bearing|gear|cam|piston)",
+    "(amount|size|how much|fine|chunks)",
+    "(stop|inspect|open|change|next)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-084",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What oil should I run and how often to change it?",
+   "must": [
+    "(JASO|MA|motorcycle|wet clutch)",
+    "(viscosity|10W|weight|not on file|maker)",
+    "(hours|races|interval)",
+    "filter"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-085",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "How often should I change transmission oil on a two-stroke?",
+   "must": [
+    "(hours|rides|races)",
+    "0\\.7|10W-?40",
+    "(clutch|plates|debris|metal)",
+    "(drain|magnet|bolt|washer|level)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-086",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Bike overheats and pukes coolant on tight trails.",
+   "must": [
+    "(radiator|fins|bent|blocked|mud)",
+    "(cap|pressure)",
+    "(coolant|level|mix|bleed|air)",
+    "(water pump|impeller|head gasket|lean|fan|airflow|clutch)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-087",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "How do I change coolant and bleed the system?",
+   "must": [
+    "drain",
+    "(bleed|air|burp)",
+    "(mix|50|ethylene|silicate|coolant type)",
+    "(cap|level|warm|run|top)",
+    "(cold|not hot|cool)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-088",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Water pump seal: how do I know it's leaking?",
+   "must": [
+    "(weep|tell.?tale|drain) hole",
+    "(coolant|oil|milky)",
+    "(seal|shaft|bearing)",
+    "(replace|impeller|groove|wear)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-089",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Won't start after sitting for two months.",
+   "must": [
+    "(fuel|gas|stale)",
+    "(battery|voltage|charge)",
+    "(plug|spark)",
+    "(air|filter|compression|valve|injector|pump)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-090",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "I dropped it in a creek and it sucked water. What now?",
+   "must": [
+    "(don.t|do not|not).{0,30}(start|crank)|hydro",
+    "plug",
+    "(airbox|filter|intake)",
+    "oil",
+    "(crank|turn|pump out|drain|exhaust)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-091",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "Kickstarter is hard to push through all of a sudden.",
+   "must": [
+    "(hydro|fuel|flood)",
+    "plug",
+    "(seiz|piston|ring|bearing|crank)",
+    "(don.t force|stop|pull|remove|check)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-092",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How do I measure compression and what's a good number?",
+   "must": [
+    "(gauge|tester)",
+    "(throttle (wide )?open|WOT)",
+    "(kick|crank).{0,40}(until|stops|several)|several",
+    "(not on file|decompress|auto.?decomp|compare|baseline|trend)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-093",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "What is the decompression system and can it fool a compression test?",
+   "must": [
+    "decomp",
+    "(cam|exhaust valve)",
+    "(start|kick|crank)",
+    "(low|read|fool|leak.?down)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-094",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "How do I check the timing chain and tensioner for wear?",
+   "must": [
+    "(tensioner)",
+    "(stretch|extension|click|plunger|travel)",
+    "(guide|slider|sprocket|teeth)",
+    "(hours|interval|replace|rattle|noise)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-095",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Air filter care: how much does it really matter for the engine?",
+   "must": [
+    "(dirt|dust)",
+    "(valve|ring|piston|cylinder|seat)",
+    "(oil|tack|grease|seal|rim)",
+    "(every ride|each ride|clean|inspect)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-096",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "How do I repack the silencer and does it change how it runs?",
+   "must": [
+    "pack",
+    "(rivet|drill|bolt|end cap)",
+    "(loud|sound|noise)",
+    "(power|back.?pressure|over.?rev|performance|hours)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-097",
+   "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022
+   },
+   "q": "Exhaust header glows red at idle. Normal?",
+   "must": [
+    "(lean|idle|airflow|no air)",
+    "(normal|common|thin|stationary|sitting)",
+    "(valve|clearance|map|air leak|fuel)",
+    "(don.t|avoid|long).{0,40}idle|ride|move"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-098",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "What does an aftermarket exhaust change and do I need to remap?",
+   "must": [
+    "(flow|weight|power|curve)",
+    "(map|fuel|ECU|tun)",
+    "(lean|rich)",
+    "(sound|noise|dB|spark arrest|rules)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-099",
+   "bike": {
+    "manufacturer": "Yamaha",
+    "model": "YZ125",
+    "model_year": 2022
+   },
+   "q": "What's the right way to warm up a two-stroke?",
+   "must": [
+    "(warm|temperature|operating)",
+    "(blip|vary|not.{0,20}rev|easy|gentle)",
+    "(cold seiz|expan|piston|clearance)",
+    "(radiator|touch|minute|ride easy)"
+   ],
+   "never": []
+  },
+  {
+   "id": "eng-100",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   "q": "Hours on the engine: what should I be checking at 50 hours?",
+   "must": [
+    "(valve|clearance)",
+    "(piston|top end|rings?)",
+    "(oil|filter)",
+    "(not on file|schedule|maker|KTM|service)",
+    "(clutch|chain|tensioner|bearings?|coolant|plug)"
+   ],
+   "never": []
+  }
+ ]
+}
