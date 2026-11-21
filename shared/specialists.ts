@@ -269,3 +269,6 @@ export function engineWorkshop(message:string,history:string[]=[],kind:EngineKin
 /** Bike set-up rulebook sections for this question (gearing, chain, controls, tires, wheels, brakes, race day). */
 export const setupWorkshop=(message:string,history:string[]=[])=>workshop(SETUP,SETUP_TOPIC,message,history);
 export const SPECIALIST_FIELDS=['suspension_workshop','engine_workshop','setup_workshop'] as const;
+/** Which packs riders get. A pack is switched on only after it beats today's BAK on its exam without slowing answers
+ *  (docs/plans/SPECIALISTS.md has the scores). Off packs still run for the exam route so they can be measured. */
+export const WORKSHOPS_LIVE:Record<typeof SPECIALIST_FIELDS[number],boolean>={suspension_workshop:false,engine_workshop:false,setup_workshop:false};

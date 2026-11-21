@@ -1,6 +1,6 @@
 """Run a specialist exam against the live Ask BAK and score it (docs/plans/SPECIALISTS.md).
 Usage: python3 scripts/specialists/run_exam.py <exam.json> <out.json> [workers]
-Needs BAK_EVAL_TOKEN_FILE (path to the eval token). Answers are scored on everything the rider would see."""
+Needs BAK_EVAL_TOKEN_FILE (path to the eval token). EXAM_WORKSHOPS=1 asks with the specialist packs switched on. Answers are scored on everything the rider would see."""
 import json,os,re,sys,time,urllib.request,concurrent.futures as cf
 exam=json.load(open(sys.argv[1]));out=sys.argv[2];workers=int(sys.argv[3]) if len(sys.argv)>3 else 4
 token=open(os.environ['BAK_EVAL_TOKEN_FILE']).read().strip()
@@ -16,7 +16,7 @@ def shown(resp):
     return '\n'.join(parts)
 def ask(q):
     if q['id'] in done:return done[q['id']]
-    body=json.dumps({'bike':q['bike'],'message':q['q']}).encode()
+    body=json.dumps({'bike':q['bike'],'message':q['q'],**({'trial':{'workshops':True}} if os.environ.get('EXAM_WORKSHOPS')=='1' else {})}).encode()
     for attempt in range(2):
         try:
             t=time.time()

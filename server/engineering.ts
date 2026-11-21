@@ -1,6 +1,6 @@
 import type {RaceForecast} from './weather.ts';
 import {coachingKnowledge} from '../shared/riding-coach.ts';
-import {suspensionWorkshop,engineWorkshop,setupWorkshop} from '../shared/specialists.ts';
+import {suspensionWorkshop,engineWorkshop,setupWorkshop,SPECIALIST_FIELDS,WORKSHOPS_LIVE} from '../shared/specialists.ts';
 import {garageModelInfo} from '../shared/garage-models.ts';
 import {coachFocus,type ChatMedia} from '../shared/coach-focus.ts';
 import {factSystem} from '../shared/fact-system.ts';
@@ -64,7 +64,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-94';
+export const PROMPT_VERSION='mx-engineering-95';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -500,7 +500,7 @@ export function riderMedia(media:ChatMedia|null,count:number,before:Before|null=
 /** Steps 3 and 4. `claims` is the retrieved exact-bike evidence. */
 /** How the rider wants answers: units first, quick or full, straight or encouraging. Saved in Account › Preferences. */
 export type RiderPreferences={units:'us'|'metric';answer_length:'quick'|'full';tone:'straight'|'encouraging'};
-export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[],guided?:GuidedStep|null,voice=false,riderManual:{page:number;text:string}[]=[],images:string[]=[],tracks:TrackProfile[]=[],media:ChatMedia|null=null,coaching:Coaching|null=null,preferences:RiderPreferences|null=null,race:RaceMode|null=null,physics:unknown=null,app:AppContext|null=null,compared:ComparisonFacts[]=[],riderWear:unknown=null,/** Speed tests from the evaluation route only. */trial:{effort?:Effort}|null=null){
+export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[],guided?:GuidedStep|null,voice=false,riderManual:{page:number;text:string}[]=[],images:string[]=[],tracks:TrackProfile[]=[],media:ChatMedia|null=null,coaching:Coaching|null=null,preferences:RiderPreferences|null=null,race:RaceMode|null=null,physics:unknown=null,app:AppContext|null=null,compared:ComparisonFacts[]=[],riderWear:unknown=null,/** Speed tests from the evaluation route only. */trial:{effort?:Effort;workshops?:boolean}|null=null){
  const before=coaching?.before&&media?.kind==='clip'?coaching.before:null;if(before)images=[...images,...before.urls];
  const started=Date.now(),fitted=bike?readInstalled(bike.configuration).parts.map(p=>p.b).filter(Boolean):[];
  const coachingMore=coachingExtrasFor([message,...history.filter(m=>m.role==='user').slice(-2).map(m=>typeof m.content==='string'?m.content:'')].join(' ')+(media?' '+(media.focus??''):''));
@@ -508,6 +508,8 @@ export async function generateAnswer(bike:Bike|null,history:Message[],claims:Cla
  const partOptions=await partOptionsFor(bike,message,history.map(m=>({role:m.role,content:typeof m.content==='string'?m.content:null}))).catch(()=>null);
  const springs=await springOptionsFor(bike,[message,...history.filter(m=>m.role==='user').slice(-2).map(m=>typeof m.content==='string'?m.content:'')].join(' '),physics).catch(()=>null);
  const input={...(app?{app_context:app}:{}),...buildEngineeringInput(bike,history,claims,message,setupHistory,knowledge,guided,voice,riderManual,tracks,compared),...(riderWear?{rider_wear_data:riderWear}:{}),...(physics||springs?{engineering_numbers:{rules:'Worked out in code from this bike\'s published values, the rider\'s own Garage numbers, the track elevation and the race forecast. Follow ENGINEERING NUMBERS.',...((physics??{}) as object),...(springs?{aftermarket_springs:springs}:{})}}:{}),...(Object.keys(coachingMore).length?{coaching_more:{rules:'More from coaches for the skills this question is about: extra keys, faults (how they look, why, fix, drill), drills with how to know you have it, pro tips, and coaches_differ (where coaches disagree: give the rider the choice and when each works, never a pretend consensus). Use with coaching_knowledge; never name a coach or outlet.',skills:coachingMore}}:{}),...(jumping?{jumping_knowledge:{about:'How a bike flies, building and reading jumps, freestyle ramps and setup for jumping. Its rules list says how to talk about jumps: follow it. Physics is for understanding only, never a launch speed.',...jumping}}:{}),...(partOptions?{part_options:{rules:'Parts from this bike\'s own parts list that match what the rider is choosing between. Follow PARTS ADVICE.',...partOptions}}:{}),spec_lookups_performed:lookups,rider_photos_attached:images.length,...(images.length?{rider_media:riderMedia(media,images.length-(before?.urls.length??0),before)}:{}),...(coaching?.history.length?{coaching_history:coaching.history}:{}),...(preferences?{rider_preferences:preferences}:{}),...(race?{race_mode:{on:true,...(race.track?{track:race.track}:{}),...(race.date?{date:race.date}:{}),...(race.setup?{request:'starting_setup'}:{}),...(race.forecast?{forecast:race.forecast}:{})}}:{})};
+ // Specialist method packs reach riders only once they have earned it on their exam; the exam route can ask for them.
+ for(const k of SPECIALIST_FIELDS)if(!WORKSHOPS_LIVE[k]&&trial?.workshops!==true)delete (input as Record<string,unknown>)[k];
  const {wire:full,real}=toWire(input);
  // The provider caches the instructions block as a unit. The reference library is identical on every request, so it rides
  // there; only what changes per question (bike, conversation, retrieved evidence, message) is sent as input.
