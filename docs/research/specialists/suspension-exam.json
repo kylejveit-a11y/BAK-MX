@@ -340,7 +340,7 @@
    },
    "q": "What nitrogen pressure does my shock take?",
    "must": [
-    "not (on file|given|listed|published|confirmed|printed)|don.t have|isn.t (on file|given|listed|published)|no (published|listed) (value|pressure|number)"
+    "not (on file|given|listed|published|confirmed|printed)|don.t have|isn.t (on file|given|listed|published|confirmed)|doesn.t give|no (published|listed) (value|pressure|number)"
    ],
    "never": [
     "\\b1[4-9]\\d ?psi\\b",

@@ -34,7 +34,7 @@ q(H2,"What's the minimum and maximum fork oil I can run with the standard spring
 q(H2,"How big a step should I change fork oil by?",[r"\b5 ?(cm|cc|ml)"])
 q(H2,"How often should I change the fork oil?",[r"9 races|22\.5"])
 q(H2,"What fork oil does Honda call for?",[r"5 ?W"])
-q(H2,"What nitrogen pressure does my shock take?",[r"not (on file|given|listed|published|confirmed|printed)|don.t have|isn.t (on file|given|listed|published)|no (published|listed) (value|pressure|number)"],[r"\b1[4-9]\d ?psi\b",r"\b1\d(\.\d)? ?bar\b"])
+q(H2,"What nitrogen pressure does my shock take?",[r"not (on file|given|listed|published|confirmed|printed)|don.t have|isn.t (on file|given|listed|published|confirmed)|doesn.t give|no (published|listed) (value|pressure|number)"],[r"\b1[4-9]\d ?psi\b",r"\b1\d(\.\d)? ?bar\b"])
 q(H2,"What sag should I run for a sand track?",[r"\+ ?5|5 (to|-|–) ?10|more sag|110|115",r"rebound"])
 q(H4,"What are the stock spring rates front and rear?",[r"\b5(\.0)? ?N|5\.0",r"\b56\b"])
 q(H4,"What stiffer springs does Honda offer?",[r"5\.2",r"\b58\b"])
