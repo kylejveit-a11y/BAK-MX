@@ -225,7 +225,9 @@ an account with no bike (existing riders never see it). Steps: name (optional) -
 or "My bike isn't listed" which opens the Garage form) -> weight, level, riding, usual dirt (saved on the bike) -> units,
 answer length, tone (rider preferences) -> app color -> "Show me around" starts the existing 30-second tour.
 "Skip setup" at the top at every step; the rider, answers and color steps have "Skip this"; the bike step needs an answer.
-Checked: typecheck, tests, iOS bundle export. NOT yet seen on a device or simulator. Not built: the same flow on the website;
-a Home-blocks / widgets question (Home reads its layout once at mount, so it needs a small change first); notifications ask.
+Added the same day: a Home step (Do you race? -> race prep on Home; last coaching fix on Home) and a reminders step (service
+due, events, messages, comments; all off unless switched on, which is when the phone is asked for permission).
+Checked: typecheck, tests, iOS bundle export. NOT yet seen on a device or simulator. Not built: the same flow on the website.
+Kyle (2026-11-21): every planned piece must be in before 1.0.12 goes to review.
 Next on the parked list: invite-a-friend, then the 1.0.12 build; parts hunter and specialist agents get a design for Kyle
 to approve first; affiliate applications after the Google launch (Kyle, 2026-11-21).

@@ -66,7 +66,8 @@ import {RacePlate} from './RacePlate';
 import {RacePrepSheet,RacePrepBlock} from './RacePrep';
 import {FirstSetupSheet,needsFirstSetup} from './FirstSetup';
 import {FirstLoginSetup} from './Welcome';
-import {shouldShowWelcome} from '../../../shared/welcome-flow';
+import {shouldShowWelcome,homeLayoutFromAnswers} from '../../../shared/welcome-flow';
+import {saveHomeLayout,readHomeLayout} from './HomeBlocks';
 import {PracticeDayHome} from './PracticeDay';
 import {HomeEditor,useHomeLayout,useRaceDay,readRace,readRaceDay,RaceCountdown,useRaceWidget,daysToGo,RaceDayHome,RaceDayStart,UpNextBlock,CoachingBlock,type HomeBlock} from './HomeBlocks';
 import {themeFor,allThemes,type ThemeMode} from '../../../shared/brand-theme';
@@ -255,6 +256,7 @@ function WelcomeGate({toGarage}:{toGarage:()=>void}){
  const finish=(how:'tour'|'app'|'skipped')=>{setDone(true);try{writeProgress(account,'tour-offer-v1',{answered:true});}catch{}if(how==='tour')setTimeout(startTour,350);};
  return <FirstLoginSetup visible name={name} onName={setName} colorMode={colorMode} setColorMode={setColorMode}
   onBike={async b=>{await reload().catch(()=>{});select(b.id);}} onShopping={()=>{try{writeProgress(account,'still-shopping',true);}catch{}}}
+  onHome={a=>saveHomeLayout(account,homeLayoutFromAnswers(readHomeLayout(account),a))}
   onUnlisted={()=>{setDone(true);toGarage();}} onFinish={finish}/>;
 }
 function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,session,bikesLoaded,bikesError,select,reload}=useContext(Ctx);

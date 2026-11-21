@@ -39,8 +39,13 @@ const time=(iso:string)=>new Date(iso).toLocaleTimeString([],{hour:'numeric',min
 // ------------------------------------------------------------------ layout
 import {HOME_BLOCKS,DEFAULT_LAYOUT,migrateLayout,type HomeBlock,type Layout} from './homeLayout';
 export {HOME_BLOCKS,type HomeBlock};
+const layoutListeners=new Set<()=>void>();
+/** Home's layout was changed somewhere other than Home's own editor (first-login setup): every open Home re-reads it. */
+export function saveHomeLayout(account:string,next:Layout){try{writeProgress(account,'home-layout',next);}catch{}for(const l of layoutListeners)l();}
+export const readHomeLayout=(account:string):Layout=>migrateLayout(readProgress<{id:string;on:boolean}[]|null>(account,'home-layout',null));
 export function useHomeLayout(account:string){
- const [layout,setLayout]=useState<Layout>(()=>migrateLayout(readProgress<{id:string;on:boolean}[]|null>(account,'home-layout',null)));
+ const [layout,setLayout]=useState<Layout>(()=>readHomeLayout(account));
+ useEffect(()=>{const l=()=>setLayout(readHomeLayout(account));layoutListeners.add(l);return()=>{layoutListeners.delete(l);};},[account]);
  const save=(next:Layout)=>{setLayout(next);try{writeProgress(account,'home-layout',next);}catch{}};
  return {layout,save,reset:()=>save(DEFAULT_LAYOUT)};
 }

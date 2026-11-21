@@ -1,4 +1,5 @@
 // First-login setup: one short pass that gets a new rider's basics in, then hands over to the 30-second tour.
+// name -> bike -> about you -> how BAK answers -> color -> what goes on Home -> reminders -> look around.
 // Shown once, only to an account with no bike yet. The bike step asks for a real answer (pick the bike, or say you are
 // still shopping); everything else has "Skip this", and "Skip setup" at the top leaves at any point. Nothing here is a new
 // setting: each answer is saved through the same place the Garage and Account screens use, so it can be changed there.
@@ -12,9 +13,11 @@ import {sortBikeNames} from '../../../shared/bike-identity';
 import {garageModels as models,garageModelYears} from '../../../shared/garage-models';
 import {RIDING_TYPES} from '../../../shared/garage-fields';
 import {WELCOME_STEPS,welcomeSteps,type WelcomeStep} from '../../../shared/welcome-flow';
+import type {NotificationSettings} from '../../../shared/notifications';
+import {enablePushAfterReminder} from './push';
 import {api} from './api';
 import {Pressable} from './Touch';
-import {Button,Copy,Notice,colors,PickChip} from './ui';
+import {Button,Copy,Notice,colors,PickChip,Switch} from './ui';
 import {DISPLAY} from './theme';
 import {BikeWheel} from './Wheel';
 import {randomUUID} from 'expo-crypto';
@@ -24,16 +27,19 @@ const DIRT=['Sand','Loam','Hard-pack','Clay','Mixed','Mud / wet'];
 type Prefs={units:'us'|'metric';answer_length:'quick'|'full';tone:'straight'|'encouraging'};
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 
-export function FirstLoginSetup({visible,name,onName,colorMode,setColorMode,onBike,onUnlisted,onShopping,onFinish}:{
+export function FirstLoginSetup({visible,name,onName,colorMode,setColorMode,onBike,onUnlisted,onShopping,onHome,onFinish}:{
  visible:boolean;name:string;onName:(n:string)=>void;colorMode:ThemeMode;setColorMode:(m:ThemeMode)=>void;
  /** The bike was created: reload the Garage and select it. */ onBike:(b:Bike)=>Promise<void>;
  /** "My bike isn't listed": leave setup and open the Garage's own form for a bike typed by hand. */ onUnlisted:()=>void;
- onShopping:()=>void;onFinish:(how:'tour'|'app'|'skipped')=>void}){
+ onShopping:()=>void;
+ /** The Home step's answers (null = not answered): the caller switches the matching Home blocks. */ onHome:(a:{races:boolean|null;coaching:boolean|null})=>void;onFinish:(how:'tour'|'app'|'skipped')=>void}){
  const insets=useSafeAreaInsets();
  const [step,setStep]=useState<WelcomeStep>('hello'),[bike,setBike]=useState<Bike|null>(null),[shopping,setShopping]=useState(false);
  const [draftName,setDraftName]=useState(name),[pick,setPick]=useState<{make:string;model:string;year:string}|null>(null),[wheel,setWheel]=useState(false);
  const [weight,setWeight]=useState(''),[level,setLevel]=useState(''),[discipline,setDiscipline]=useState(''),[dirt,setDirt]=useState('');
  const [prefs,setPrefs]=useState<Prefs>({units:'us',answer_length:'full',tone:'straight'});
+ const [races,setRaces]=useState<boolean|null>(null),[coaching,setCoaching]=useState<boolean|null>(null);
+ const [alerts,setAlerts]=useState<NotificationSettings>({messages:false,replies:false,events:false,service_due:false}),[pushOff,setPushOff]=useState(false);
  const [busy,setBusy]=useState(false),[notice,setNotice]=useState('');
  const steps=welcomeSteps({hasBike:!!bike}),at=steps.indexOf(step),go=(s:WelcomeStep)=>{setNotice('');Keyboard.dismiss();setStep(s);},next=()=>go(steps[Math.min(at+1,steps.length-1)]),back=()=>go(steps[Math.max(at-1,0)]);
  async function run(work:()=>Promise<void>){if(busy)return;setBusy(true);setNotice('');try{await work();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
@@ -49,6 +55,15 @@ export function FirstLoginSetup({visible,name,onName,colorMode,setColorMode,onBi
   setBike(saved);await onBike(saved);next();
  });
  const savePrefs=()=>run(async()=>{await api('/api/preferences','PUT',prefs);next();});
+ const zone=()=>{try{return Intl.DateTimeFormat().resolvedOptions().timeZone||undefined;}catch{return undefined;}};
+ // Reminders are off until the rider turns one on here; that tap is the moment the phone is asked for permission.
+ const saveAlerts=()=>run(async()=>{
+  const any=Object.values(alerts).some(Boolean);
+  if(any){await api('/api/notification-settings','PUT',{...alerts,...(zone()?{time_zone:zone()}:{})});const ok=await enablePushAfterReminder();if(!ok&&!pushOff){setPushOff(true);return;}}
+  next();
+ });
+ const yesNo=(value:boolean|null,set:(v:boolean)=>void)=><View style={{flexDirection:'row',gap:8}}><PickChip radio label="Yes" on={value===true} onPress={()=>set(true)}/><PickChip radio label="No" on={value===false} onPress={()=>set(false)}/></View>;
+ const alertRow=(key:keyof NotificationSettings,t:string,d:string)=><View key={key} style={{flexDirection:'row',alignItems:'center',gap:12}}><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'600'}}>{t}</Text><Text style={{color:colors.muted,fontSize:13}}>{d}</Text></View><Switch value={alerts[key]} disabled={busy} onValueChange={v=>{setPushOff(false);setAlerts({...alerts,[key]:v});}} accessibilityLabel={t}/></View>;
 
  const title=(t:string,sub?:string)=><View style={{gap:8}}><Text accessibilityRole="header" style={{color:colors.text,...DISPLAY,fontSize:24,lineHeight:31}}>{t}</Text>{!!sub&&<Copy>{sub}</Copy>}</View>;
  const label=(t:string,sub?:string)=><View style={{gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'800'}}>{t}</Text>{!!sub&&<Text style={{color:'#8f97a4',fontSize:13}}>{sub}</Text>}</View>;
@@ -78,6 +93,13 @@ export function FirstLoginSetup({visible,name,onName,colorMode,setColorMode,onBi
    <View style={{gap:10}}>{label('Tone')}{choice('tone',[['straight','Straight','Just the facts.'],['encouraging','Encouraging','Same facts, a bit more coaching.']])}</View></>,
   look:<>{title('Pick your color','The app can wear your bike’s color or stay BAK blue.')}
    <View style={{gap:10}}>{swatch('bike','Match my bike',bike?(own.key==='bak'?'This bike uses BAK blue':`${own.label} for your ${bike.manufacturer}. Changes when you switch bikes.`):'Follows the bike you have selected',own.deep)}{swatch('bak','BAK blue','The same blue on every bike',bak.deep)}</View></>,
+  home:<>{title('What do you want on Home?','Home stays short: the question bar, your bike and what’s up next. Two extras are yours to add.')}
+   <View style={{gap:10}}>{label('Do you race?','Yes puts your race prep checklist on Home, from the week before to after the last moto.')}{yesNo(races,setRaces)}</View>
+   <View style={{gap:10}}>{label('Want your last coaching fix on Home?','Your latest fix and drill from Ask BAK, where you’ll see it before you ride.')}{yesNo(coaching,setCoaching)}</View>
+   <Text style={{color:'#7d8593',fontSize:12.5,lineHeight:18}}>Change it any time with Edit Home. BAK MX home-screen widgets are added from your phone’s own widget menu.</Text></>,
+  alerts:<>{title('Want any reminders?','All off unless you turn one on. Change them any time in Account.')}
+   <View style={{gap:16}}>{alertRow('service_due','Service due','When a job is close or overdue, by the hours on your bike.')}{alertRow('events','Event reminders','The evening before and the morning of events you’re going to.')}{alertRow('messages','New messages','When a rider sends you a message.')}{alertRow('replies','Comments on your posts','When someone comments on your post.')}</View>
+   {pushOff&&<Text style={{color:colors.muted,fontSize:13,lineHeight:18}}>Notifications are off for BAK MX on this phone, so these are saved but won’t show until you turn them on in your phone’s Settings. Tap Continue to carry on.</Text>}</>,
   done:<>{title(draftName.trim()?`You’re set, ${draftName.trim()}`:'You’re set',bike?'Your bike is in the Garage and BAK knows the basics. Want a 30-second look around?':shopping?'Add your bike from the Garage when you have one. Want a 30-second look around first?':'Want a 30-second look around?')}</>,
  };
  const primary:Record<WelcomeStep,{title:string;onPress:()=>void;disabled?:boolean}>={
@@ -86,10 +108,12 @@ export function FirstLoginSetup({visible,name,onName,colorMode,setColorMode,onBi
   you:{title:busy?'Saving…':'Save and continue',onPress:()=>void saveYou(),disabled:!youReady||busy},
   answers:{title:busy?'Saving…':'Save and continue',onPress:()=>void savePrefs(),disabled:busy},
   look:{title:'Continue',onPress:next},
+  home:{title:'Continue',onPress:()=>{onHome({races,coaching});next();}},
+  alerts:{title:busy?'Saving…':'Continue',onPress:()=>void saveAlerts(),disabled:busy},
   done:{title:'Show me around',onPress:()=>onFinish('tour')},
  };
  // The bike step has no "Skip this": the rider picks a bike or says they are still shopping.
- const skippable=step==='you'||step==='answers'||step==='look';
+ const skippable=step==='you'||step==='answers'||step==='look'||step==='home'||step==='alerts';
  return <Modal visible={visible} animationType="fade" presentationStyle="fullScreen" onRequestClose={()=>{if(at>0)back();}}>
   <View style={{flex:1,backgroundColor:colors.bg,paddingTop:insets.top}}>
    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:20,paddingVertical:12}}>
