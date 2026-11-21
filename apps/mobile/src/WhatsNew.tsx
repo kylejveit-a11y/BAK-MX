@@ -1,5 +1,5 @@
 // One-time "new in this version" card on Home. It closes with one tap and retires itself after a few app opens,
-// so it is never a nag. 1.0.11's features work on iPhone and Android, so it shows on both.
+// so it is never a nag. 1.0.12's features work on iPhone and Android, so it shows on both.
 import React,{useEffect,useState} from 'react';
 import {Platform,Text,View} from 'react-native';
 import {Pressable} from './Touch';
@@ -8,16 +8,15 @@ import {Disclosure} from './RichText';
 import {MetalMark,Button,Card,colors} from './ui';
 import {useProgress} from './localProgress';
 
-const KEY='whats-new-2026-11-where-to-ride',MAX_OPENS=4;
-const TITLE='Ride Day and Where to Ride';
+const KEY='whats-new-2026-11-find-a-part',MAX_OPENS=4;
+const TITLE='Find a part and invite a friend';
 let countedThisLaunch=false;
 
 const items:[IconName,string,string][]=[
- ['moto','Ride Day mode','Big buttons for gloves, the screen stays on and a tap lock, for logging between sessions.'],
- ['location','Ride safety','Pick when you’ll be back. Your contacts get a link to where you were last seen, and an email only if you don’t check in.'],
- ['flag','Where to Ride','Tracks and riding areas across the Southeast in one list: what you can ride and how wide, passes and rules from the official pages, the forecast, Forest Service trail maps, and Saved for the ones you ride.'],
- ['pulse','Right now','Riders at the track say if it’s open, watered, muddy or busy. Check in with two taps.'],
- ['history','What I ran here','Your setup, tire pressures and the weather from your last visits to the same track.'],
+ ['search','Find a part','In Specs and parts: type what you need and see the factory and aftermarket parts on file for your exact bike, with part numbers, where to buy them, and a parts list you can save to.'],
+ ['share','Invite a friend','In Account: share your code. You get 10 free Ask BAK questions when a friend joins and adds their bike, and a free month for every 3 friends who go on a paid plan.'],
+ ['flag','Closed tracks marked','Where to Ride now tags tracks that have closed and moves them to the bottom of the list.'],
+ ['moto','Springs for your weight','Ask BAK now names real aftermarket springs listed for your bike near the rate it works out for you.'],
 ];
 
 export function WhatsNewCard({account,show=Platform.OS!=='web'}:{account:string;show?:boolean}){
