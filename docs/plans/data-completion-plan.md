@@ -210,3 +210,11 @@ Kit guides, third batch (2026-11-20): RadiusCX on cable clutches (guide 191-7900
 named bikes 3 mm; YZ250F/FX, YZ125, CRF250X, RM-Z450) and the DDS RadiusCX wear limits. Searched and not found in public:
 RadiusCX guides for the hydraulic Honda CRF450R (2021+) and Kawasaki KX450/KX250, and the text of the WP XACT PRO 8950 shock
 manual (only its contents page is online). Kits are done as far as public documents go.
+
+## Planning-step speed test (2026-11-20) — keep the planning step
+83 question pairs from the 100-question set (17 questions are rejected by the eval route: bike not valid), prompt 93.
+With planning: median 25.0 s total, plan 2.3 s, first word 10.3 s, 2.54 factory values cited per answer, 27 answers with none.
+Planning skipped (rider's words plus stock lookups): 21.7 s, first word 8.3 s, 1.55 values per answer, 39 answers with none;
+34 answers cited fewer values, 9 more, and 14 lost every factory value they had. Median saving 2.5 s.
+Verdict: not worth it; planning stays. The provider lists no smaller sibling of the current model, so "a faster planning
+model" is not available as a simple switch; its paid fast mode (2x price) is the only speed lever left on that step.
