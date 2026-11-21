@@ -106,7 +106,7 @@ export function FirstLoginSetup({visible,name,onName,colorMode,setColorMode,onBi
   done:<>{title(draftName.trim()?`You’re set, ${draftName.trim()}`:'You’re set',bike?'Your bike is in the Garage and BAK knows the basics. Want a 30-second look around?':shopping?'Add your bike from the Garage when you have one. Want a 30-second look around first?':'Want a 30-second look around?')}</>,
  };
  const primary:Record<WelcomeStep,{title:string;onPress:()=>void;disabled?:boolean}>={
-  hello:{title:'Continue',disabled:busy,onPress:()=>{onName(draftName.trim());if(!friendCode.trim()){next();return;}void run(async()=>{await api('/api/invite/redeem','POST',{code:friendCode.trim()});setFriendCode('');next();});}},
+  hello:{title:'Continue',disabled:busy,onPress:()=>{Keyboard.dismiss();onName(draftName.trim());if(!friendCode.trim()){next();return;}void run(async()=>{await api('/api/invite/redeem','POST',{code:friendCode.trim()});setFriendCode('');next();});}},
   bike:{title:busy?'Adding…':'Add this bike',onPress:()=>void saveBike(),disabled:!pick||busy},
   you:{title:busy?'Saving…':'Save and continue',onPress:()=>void saveYou(),disabled:!youReady||busy},
   answers:{title:busy?'Saving…':'Save and continue',onPress:()=>void savePrefs(),disabled:busy},

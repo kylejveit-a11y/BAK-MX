@@ -246,3 +246,10 @@ to approve first; affiliate applications after the Google launch (Kyle, 2026-11-
 - Specialists: three packs and three 100-question exams built. Packs are off for riders until each wins on its exam (see SPECIALISTS.md "Built and first scores"). Engine and set-up re-runs are waiting on the daily test allowance (rolling 24 hours, frees up from about 07:30 Eastern on 2026-11-22). Before-scores are saved in docs/research/specialists/results.
 - Website welcome sheet: bike or "still shopping", and a friend's code.
 - Still to do before 1.0.12: engine and set-up pack re-runs and the on/off decision for each; the 1.0.12 build walkthrough.
+
+## Seen on the iPhone simulator, 2026-11-21
+
+Built the `ios-sample-new` profile (sample data, brand-new rider) three times and walked it on a cloud iPhone simulator.
+Worked as intended: first-login setup end to end (name, friend's code good and bad, bike picked, rider basics, answers, colour, Home questions, reminders, tour), the "still shopping" path and adding a bike later from the Garage, Home showing Race prep and Last coaching after answering Yes, Invite a friend, Find a part (search, where to buy, save), and the Ask BAK line opening Find a part with the search filled in.
+Fixed after seeing it: Continue hidden behind the keyboard; the wrong-code message covered the code box; "still shopping" did not look tappable; Invite a friend was at the very bottom of Account under Delete account; Find a part was at the very bottom of a long Specs page.
+Not checked on the simulator: real sign-in, real server answers, the reminders permission prompt, the share sheet, store links opening, Android.
