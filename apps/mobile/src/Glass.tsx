@@ -94,9 +94,11 @@ function HeaderEdge(){
  </View>;
 }
 
-/** Header text button (Account). The icon prop is kept for callers but the label is what shows. */
+/** Header menu button: three lines, the way most apps mark a menu. Opens the app menu (Account and every screen that has no tab). */
 export function HeaderButton({label,onPress}:{label:string;icon?:IconName;onPress:()=>void}){
- return <Pressable accessibilityRole="button" accessibilityLabel={label} hitSlop={12} onPress={onPress} style={({pressed})=>({marginRight:18,paddingVertical:6,opacity:pressed?0.55:1})}><Text style={{color:'#f6f7f9',fontSize:16,fontWeight:'700',letterSpacing:0.1}}>{label}</Text></Pressable>;
+ return <Pressable accessibilityRole="button" accessibilityLabel={label} hitSlop={12} onPress={onPress} style={({pressed})=>({width:40,height:36,marginRight:14,alignItems:'center',justifyContent:'center',gap:5,opacity:pressed?0.55:1})}>
+  {[0,1,2].map(i=><View key={i} style={{width:22,height:2,borderRadius:1,backgroundColor:'#f6f7f9'}}/>)}
+ </Pressable>;
 }
 /** Header icon button for Messages. A small badge in the bike's colour counts what's new; nothing shows at zero. */
 export function HeaderMessages({unread,onPress}:{unread:number;onPress:()=>void}){
