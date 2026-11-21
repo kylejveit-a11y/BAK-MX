@@ -13,10 +13,26 @@ type MonthRow={seq:number;tier:'premium'|'pro';how:'unlock'|'offer_code';starts_
 const ok=<T>(r:{data:T;error:unknown}):T=>{if(r.error)throw r.error;return r.data;};
 const DAY=86400000;
 
-async function codeFor(userId:string,admin:Db):Promise<string>{
- const have=ok(await admin.from('invite_codes').select('code').eq('user_id',userId).maybeSingle());if(have)return have.code as string;
- const prof=await admin.from('profiles').select('handle,display_name').eq('user_id',userId).maybeSingle();
- const hint=(prof.data?.display_name as string|undefined)?.split(/\s+/)[0]||(prof.data?.handle as string|undefined)||'';
+type Who={id:string;created_at?:string;user_metadata?:Record<string,unknown>|null};
+/** A first name to build the code from: the rider profile, else the name the sign-in provider gave. */
+async function nameHint(user:Who,admin:Db,told=''):Promise<string>{
+ const prof=await admin.from('profiles').select('handle,display_name').eq('user_id',user.id).maybeSingle();
+ const meta=user.user_metadata??{};const given=[meta.given_name,meta.full_name,meta.name].find(v=>typeof v==='string'&&v.trim()) as string|undefined;
+ return ((prof.data?.display_name as string|undefined)||told||given||(prof.data?.handle as string|undefined)||'').trim().split(/\s+/)[0]??'';
+}
+async function codeFor(user:Who,admin:Db,told=''):Promise<string>{
+ const userId=user.id;
+ const have=ok(await admin.from('invite_codes').select('code').eq('user_id',userId).maybeSingle());
+ // A code made before BAK knew the rider's name (BAK-XXX) is swapped for one with their name, but only while nobody has used it.
+ if(have&&!String(have.code).startsWith('BAK-'))return have.code as string;
+ const hint=await nameHint(user,admin,told);
+ if(have){
+  if(makeInviteCode(hint).startsWith('BAK-'))return have.code as string;
+  const used=await admin.from('invites').select('friend_id',{count:'exact',head:true}).eq('code',have.code);
+  if(used.error||(used.count??0)>0)return have.code as string;
+  for(let i=0;i<4;i++){const code=makeInviteCode(hint);const up=await admin.from('invite_codes').update({code}).eq('user_id',userId).eq('code',have.code).select('code');if(!up.error&&up.data?.length)return code;}
+  return have.code as string;
+ }
  for(let i=0;i<8;i++){
   const code=makeInviteCode(i<6?hint:'');
   const ins=await admin.from('invite_codes').insert({user_id:userId,code});
@@ -27,8 +43,8 @@ async function codeFor(userId:string,admin:Db):Promise<string>{
  throw new HttpError(503,'Could not make an invite code. Try again.');
 }
 
-export async function inviteSummary(user:{id:string;created_at?:string},admin:Db=adminDb()):Promise<InviteSummary>{
- const code=await codeFor(user.id,admin);
+export async function inviteSummary(user:Who,admin:Db=adminDb(),told=''):Promise<InviteSummary>{
+ const code=await codeFor(user,admin,told);
  const [mine,sent,months]=await Promise.all([
   admin.from('invites').select('friend_id').eq('friend_id',user.id).maybeSingle(),
   admin.from('invites').select('joined_rewarded_at,paid_counted_at').eq('inviter_id',user.id).limit(2000),
@@ -131,8 +147,10 @@ export async function runInviteCron(admin:Db=adminDb(),now=new Date(),grant:Gran
 }
 
 const redeemSchema=z.object({code:z.string().trim().min(3).max(20)});
-export async function handleInvites(req:Request,path:string,method:string,user:{id:string;created_at?:string}):Promise<unknown|null>{
+export async function handleInvites(req:Request,path:string,method:string,user:Who):Promise<unknown|null>{
  if(path==='/api/invite'&&method==='GET')return inviteSummary(user);
+ // The app passes the first name the rider gave in setup, so their code can carry it (KYLE-7Q2 rather than BAK-7Q2).
+ if(path==='/api/invite'&&method==='POST'){const {name}=z.object({name:z.string().trim().max(40)}).parse(await readJson(req));return inviteSummary(user,adminDb(),name);}
  if(path==='/api/invite/redeem'&&method==='POST'){const {code}=redeemSchema.parse(await readJson(req));await redeemInvite(user,code);return inviteSummary(user);}
  return null;
 }

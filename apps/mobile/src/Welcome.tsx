@@ -118,13 +118,13 @@ export function FirstLoginSetup({visible,name,onName,colorMode,setColorMode,onBi
  // The bike step has no "Skip this": the rider picks a bike or says they are still shopping.
  const skippable=step==='you'||step==='answers'||step==='look'||step==='home'||step==='alerts';
  return <Modal visible={visible} animationType="fade" presentationStyle="fullScreen" onRequestClose={()=>{if(at>0)back();}}>
-  <KeyboardAvoidingView behavior={Platform.OS==='ios'?'padding':undefined} style={{flex:1,backgroundColor:colors.bg,paddingTop:insets.top}}>
+  <KeyboardAvoidingView behavior={Platform.OS==='ios'&&step==='hello'?'padding':undefined} style={{flex:1,backgroundColor:colors.bg,paddingTop:insets.top}}>
    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:20,paddingVertical:12}}>
     {at>0&&step!=='done'?<Pressable accessibilityRole="button" onPress={back} hitSlop={10}><Text style={{color:colors.muted,fontSize:16}}>Back</Text></Pressable>:<View/>}
     <View accessible accessibilityLabel={`Step ${at+1} of ${steps.length}`} style={{flexDirection:'row',gap:6}}>{steps.map((s,i)=><View key={s} style={{width:i===at?18:6,height:6,borderRadius:3,backgroundColor:i<=at?colors.accent:'#2a2f39'}}/>)}</View>
     {step!=='done'?<Pressable accessibilityRole="button" accessibilityHint="Leaves setup. You can fill everything in later from the Garage and Account." onPress={()=>onFinish('skipped')} hitSlop={10}><Text style={{color:colors.muted,fontSize:16}}>Skip setup</Text></Pressable>:<View/>}
    </View>
-   <ScrollView keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" style={{flex:1}} contentContainerStyle={{padding:20,paddingTop:14,paddingBottom:24,gap:22}}>{body[step]}</ScrollView>
+   <ScrollView keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets={step!=='hello'} style={{flex:1}} contentContainerStyle={{padding:20,paddingTop:14,paddingBottom:24,gap:22}}>{body[step]}</ScrollView>
    <View style={{paddingHorizontal:20,paddingTop:12,paddingBottom:Math.max(insets.bottom,12)+8,gap:10,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',backgroundColor:colors.bg}}>
     {step!=='hello'&&<Notice text={notice} tone={notice?'warn':undefined}/>}
     <Button title={primary[step].title} disabled={primary[step].disabled} onPress={primary[step].onPress}/>

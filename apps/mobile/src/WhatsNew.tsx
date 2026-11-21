@@ -9,6 +9,8 @@ import {MetalMark,Button,Card,colors} from './ui';
 import {useProgress} from './localProgress';
 
 const KEY='whats-new-2026-11-find-a-part',MAX_OPENS=4;
+/** First-login setup retires this card: everything is new to a rider who joined today. */
+export const WHATS_NEW_KEY=KEY;
 const TITLE='Find a part and invite a friend';
 let countedThisLaunch=false;
 

@@ -1,5 +1,5 @@
 import {File,Paths,Directory} from 'expo-file-system';
-import {useState} from 'react';
+import {useEffect,useState} from 'react';
 import {createProgressStorage,decodeSnapshot} from './progressStorage';
 
 // Rider drafts and notes are device-local, partitioned by account and bike.
@@ -9,7 +9,9 @@ function progressStorage(account:string){return createProgressStorage({read:key=
 export function readProgress<T>(account:string,key:string,fallback:T):T{
  try{const value=progressStorage(account).read(key);if(value===undefined||(value===null&&fallback!==null))return fallback;if(Array.isArray(fallback)&&!Array.isArray(value))return fallback;if(fallback!==null&&typeof value!==typeof fallback)return fallback;return value as T;}catch{return fallback;}
 }
-export function writeProgress<T>(account:string,key:string,value:T){progressStorage(account).write(key,value);}
+// Screens that are already open hear about a value another screen writes (first-login setup retiring Home's tour offer).
+const watchers=new Map<string,Set<(value:unknown)=>void>>();
+export function writeProgress<T>(account:string,key:string,value:T){progressStorage(account).write(key,value);watchers.get(account+'|'+key)?.forEach(f=>{try{f(value);}catch{}});}
 export function exportProgress(account:string){
  const prefix=`bakmx-${encodeURIComponent(account)}-`;
  return Object.fromEntries(new Directory(Paths.document).list().filter((file):file is File=>file instanceof File&&file.name.startsWith(prefix)).map(file=>{
@@ -23,6 +25,7 @@ export function clearProgress(account:string){
 export function useProgress<T>(account:string,key:string,fallback:T,options:{durable?:boolean}={}){
  const [value,setValue]=useState<T>(()=>readProgress(account,key,fallback));
  const [error,setError]=useState('');
+ useEffect(()=>{const id=account+'|'+key,hear=(v:unknown)=>setValue(v as T);let set=watchers.get(id);if(!set)watchers.set(id,set=new Set());set.add(hear);return()=>{set!.delete(hear);};},[account,key]);
  function save(next:T){if(!options.durable)setValue(next);try{writeProgress(account,key,next);if(options.durable)setValue(next);setError('');return true;}catch{setError('This device could not save your latest progress. Keep this screen open and try again.');return false;}}
  return [value,save,error] as const;
 }

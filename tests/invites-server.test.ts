@@ -94,3 +94,12 @@ test('invite: a paying inviter gets a store code for their own plan, owed until 
  r=await runInviteCron(w.db,new Date('2026-12-16T01:00:00Z'),w.grant);assert.equal(r.codes_filled,1);assert.equal(r.owed,0);
  assert.equal(w.tables.invite_months[0].offer_code,'APPLEPRO1');assert.equal(w.tables.invite_offer_codes[1].given_to,'kyle');assert.equal(w.tables.invite_offer_codes[0].given_to,null);
 });
+test('invite: a code made before BAK knew the name is swapped for one with the name, unless a friend already used it',async()=>{
+ const w=world();w.tables.invite_codes.push({user_id:'f3',code:'BAK-MQ6'},{user_id:'f4',code:'BAK-ZZ2'});
+ const s=await inviteSummary({id:'f3',created_at:new Date().toISOString(),user_metadata:{full_name:'Kyle Veit'}},w.db);
+ assert.match(s.code,/^KYLE-[A-Z0-9]{3}$/);assert.equal(w.tables.invite_codes.find(c=>c.user_id==='f3')!.code,s.code);
+ assert.equal((await inviteSummary({id:'f3',user_metadata:{full_name:'Kyle Veit'}},w.db)).code,s.code,'stays the same after that');
+ w.tables.invites.push({friend_id:'f1',inviter_id:'f4',code:'BAK-ZZ2',joined_rewarded_at:null,paid_counted_at:null});
+ assert.equal((await inviteSummary({id:'f4',user_metadata:{name:'Bell'}},w.db)).code,'BAK-ZZ2');
+ assert.equal((await inviteSummary({id:'kyle',user_metadata:{}},w.db)).code,'KYLE-7Q2');
+});

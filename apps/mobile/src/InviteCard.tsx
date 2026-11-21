@@ -9,9 +9,9 @@ const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong.
 const day=(iso:string|null)=>iso?new Date(iso).toLocaleDateString(undefined,{month:'short',day:'numeric'}):'';
 const plan=(t:'premium'|'pro')=>t==='pro'?'Pro':'Premium';
 
-export function InviteCard(){
+export function InviteCard({name=''}:{name?:string}){
  const [s,setS]=useState<InviteSummary|null>(null),[notice,setNotice]=useState(''),[code,setCode]=useState(''),[busy,setBusy]=useState(false),[done,setDone]=useState('');
- useEffect(()=>{api<InviteSummary>('/api/invite').then(setS).catch(e=>setNotice(errorText(e)));},[]);
+ useEffect(()=>{(name?api<InviteSummary>('/api/invite','POST',{name}):api<InviteSummary>('/api/invite')).then(setS).catch(e=>setNotice(errorText(e)));},[name]);
  async function enter(){
   if(busy||!code.trim())return;setBusy(true);setNotice('');
   try{setS(await api<InviteSummary>('/api/invite/redeem','POST',{code:code.trim()}));setCode('');setDone('Code saved. Your friend gets their questions once your bike is in the Garage.');}

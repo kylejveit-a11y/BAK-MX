@@ -32,7 +32,7 @@ import {ChatHero,ChatStarters} from './ChatEmpty';
 import {chatStarters,applyStarter} from './chatStarters';
 import {SafeAreaProvider,useSafeAreaInsets} from 'react-native-safe-area-context';
 import {NavigationContainer,DarkTheme,useFocusEffect,useIsFocused,createNavigationContainerRef} from '@react-navigation/native';
-import {WhatsNewCard} from './WhatsNew';
+import {WHATS_NEW_KEY,WhatsNewCard} from './WhatsNew';
 import {TourHost,TourOffer,AppHelpHint,startTour} from './Tour';
 import {syncBikeWidget,clearBikeWidget,endGuideActivity,syncNextEventWidget,clearNextEventWidget,endRaceActivity} from './widgets/sync';
 import {parseAppLink,takePendingLink,watchPendingLinks,usedLinkTokens,type AppLink} from './appLinks';
@@ -250,13 +250,13 @@ function WorkshopJob({navigation}:BottomTabScreenProps<Tabs,'Workshop'>){const{b
  *  rider lands; it covers the whole screen until they finish or skip. */
 function WelcomeGate({toGarage}:{toGarage:()=>void}){
  const{bikes,session,bikesLoaded,select,reload,colorMode,setColorMode}=useContext(Ctx),account=session.user.id;
- const [done,setDone]=useProgress(account,'welcome-v1',false),[name,setNameState]=useProgress(account,'rider-name',readProgress<string>(DEVICE,'apple-name','')),[started,setStarted]=useState(false);
+ const [done,setDone]=useProgress(account,'welcome-v1',false),[name,setNameState]=useProgress(account,'rider-name',readProgress<string>(DEVICE,'apple-name','').trim().split(/\s+/)[0]??''),[started,setStarted]=useState(false);
  // The name also pre-fills the rider profile form later (it reads the same key Sign in with Apple fills).
- const setName=(n:string)=>{setNameState(n);if(n)try{writeProgress(DEVICE,'apple-name',n);}catch{}};
+ const setName=(n:string)=>{setNameState(n);if(n&&!readProgress<string>(DEVICE,'apple-name',''))try{writeProgress(DEVICE,'apple-name',n);}catch{}};
  const show=shouldShowWelcome({done,bikesLoaded,bikeCount:bikes.length,started});
  useEffect(()=>{if(show&&!started)setStarted(true);},[show,started]);
  if(!show)return null;
- const finish=(how:'tour'|'app'|'skipped')=>{setDone(true);try{writeProgress(account,'tour-offer-v1',{answered:true});}catch{}if(how==='tour')setTimeout(startTour,350);};
+ const finish=(how:'tour'|'app'|'skipped')=>{setDone(true);try{writeProgress(account,'tour-offer-v1',{answered:true});writeProgress(account,WHATS_NEW_KEY,{dismissed:true,opens:0});}catch{}if(how==='tour')setTimeout(startTour,350);};
  return <FirstLoginSetup visible name={name} onName={setName} colorMode={colorMode} setColorMode={setColorMode}
   onBike={async b=>{await reload().catch(()=>{});select(b.id);}} onShopping={()=>{try{writeProgress(account,'still-shopping',true);}catch{}}}
   onHome={a=>saveHomeLayout(account,homeLayoutFromAnswers(readHomeLayout(account),a))}
@@ -737,7 +737,7 @@ function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSum
  <View>
  {plan.usage&&plan.usage.tier!=='pro'&&<AccountRow icon="sparkle" title="Go Pro" summary="Unlimited questions, clip coaching, more photo edits" onPress={()=>{if(navRef.isReady())navRef.navigate('Pro');}}/>}
  <Section icon="pulse" title="Ask BAK plan" summary={plan.summary}><PlansCard bare onPro={()=>{if(navRef.isReady())navRef.navigate('Pro');}}/></Section>
- <Section icon="share" title="Invite a friend" summary="Free questions and free months for bringing riders in"><InviteCard/></Section>
+ <Section icon="share" title="Invite a friend" summary="Free questions and free months for bringing riders in"><InviteCard name={readProgress<string>(session.user.id,'rider-name','')}/></Section>
  <Section icon="gauge" title="App color" summary={colorMode==='bak'?'BAK blue on every bike':'Matches the bike you pick'}><AppColorCard bare/></Section>
  <Section icon="notes" title="Preferences" summary="Units, answer length, how BAK talks, vibration"><PreferencesCard bare/></Section>
  <Section icon="messages" title="Notifications" summary="Messages, comments, event reminders, service due"><NotificationsCard/></Section>
