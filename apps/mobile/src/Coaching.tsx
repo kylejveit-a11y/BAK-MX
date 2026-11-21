@@ -1,6 +1,7 @@
 // Coaching history for a bike: every clip or riding photo BAK coached, newest first, with the fix and drill up front and
 // the frames and full answer one tap away. The same list feeds "Compare with an earlier clip" in Ask BAK.
 import React,{useCallback,useEffect,useState} from 'react';
+import {CopyText} from './copy';
 import {ActivityIndicator,Image,ScrollView,Text,View} from 'react-native';
 import {Pressable} from './Touch';
 import type {Bike} from '../../../shared/types';
@@ -50,8 +51,8 @@ function Session({s,first}:{s:CoachingSession;first:boolean}){
    {!!s.photos[0]&&<Image source={{uri:s.photos[Math.floor(s.photos.length/2)].url}} style={{width:64,height:64,borderRadius:10,backgroundColor:'#101217'}} accessibilityIgnoresInvertColors/>}
    <View style={{flex:1,gap:4}}>
     <Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{sessionLabel(s)}{s.media.kind==='clip'?` · ${s.media.duration.toFixed(0)} s clip`:''}</Text>
-    {!!s.fix&&<Text selectable style={{color:colors.text,fontSize:14.5,lineHeight:21}}><Text style={{color:colors.text,fontWeight:'700'}}>Fix: </Text>{s.fix}</Text>}
-    {!!s.drill&&<Text selectable style={{color:colors.muted,fontSize:14,lineHeight:20}}><Text style={{fontWeight:'700'}}>Drill: </Text>{s.drill}</Text>}
+    {!!s.fix&&<CopyText style={{color:colors.text,fontSize:14.5,lineHeight:21}}><Text style={{color:colors.text,fontWeight:'700'}}>Fix: </Text>{s.fix}</CopyText>}
+    {!!s.drill&&<CopyText style={{color:colors.muted,fontSize:14,lineHeight:20}}><Text style={{fontWeight:'700'}}>Drill: </Text>{s.drill}</CopyText>}
     {s.tried&&<Text style={{color:s.tried.result==='better'?'#7fd09a':colors.muted,fontSize:13.5,fontWeight:'600'}}>You said it {TRIED.find(t=>t.key===s.tried!.result)?.said}{s.tried.note?`: ${s.tried.note}`:''}</Text>}
    </View>
   </View>

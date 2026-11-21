@@ -16,3 +16,10 @@ test('invite rewards: a month per three paying friends; only new accounts can en
  assert.equal(paidCounts('2026-11-10T00:00:00Z',true,now),true);assert.equal(paidCounts('2026-11-20T00:00:00Z',true,now),false);
  assert.equal(paidCounts('2026-11-10T00:00:00Z',false,now),false);assert.equal(paidCounts(null,true,now),false);
 });
+import {inviteCodeFromText,inviteMessage} from '../shared/invites.ts';
+test('friend code box: a pasted invite message or link gives the code; typing is tidied',()=>{
+ assert.equal(inviteCodeFromText(inviteMessage('GOD-TPZ')),'GOD-TPZ');
+ assert.equal(inviteCodeFromText('https://bakmx.com/invite/kyle-wnv'),'KYLE-WNV');
+ assert.equal(inviteCodeFromText('my code is god-tpz bro'),'GOD-TPZ');
+ assert.equal(inviteCodeFromText('god-tp'),'GOD-TP');assert.equal(inviteCodeFromText(' god-tpz '),'GOD-TPZ');assert.equal(inviteCodeFromText('g!o d'),'GOD');
+});

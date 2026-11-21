@@ -1,4 +1,5 @@
 import React,{useEffect,useRef,useState} from 'react';
+import {CopyText} from './copy';
 import {syncGuideActivity} from './widgets/sync';
 import {Linking,View,Share,Text,TextInput,Pressable,ScrollView} from 'react-native';
 import type {Bike} from '../../../shared/types';
@@ -117,7 +118,7 @@ function ProcedureSteps({procedure,run,save,start,onAsk,setFooter,toTop}:{proced
    <View style={{height:4,borderRadius:2,backgroundColor:'#232833',overflow:'hidden'}}><View style={{height:4,width:`${Math.round(done/procedure.steps.length*100)}%`,backgroundColor:colors.accent}}/></View>
   </View>
   <Text style={{color:colors.text,fontSize:22,fontWeight:'800',letterSpacing:-0.3}}>{step.title}</Text>
-  <Text selectable style={{color:colors.text,fontSize:17,lineHeight:26}}>{step.instruction}</Text>
+  <CopyText style={{color:colors.text,fontSize:17,lineHeight:26}}>{step.instruction}</CopyText>
   {step.source_links.map((url,i)=><Button key={i} secondary title={step.diagram_reference_required?'Open the diagram for this step':'Open the source for this step'} onPress={()=>void Linking.openURL(url).catch(()=>setNotice('The source could not open. Try again when connected.'))}/>)}
   {step.verification.length>0&&<View style={{gap:6,borderLeftWidth:2,borderLeftColor:colors.accent,paddingLeft:12}}>
    <Eyebrow>CHECK BEFORE YOU MOVE ON</Eyebrow>

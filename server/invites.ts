@@ -3,7 +3,7 @@ import {z} from 'zod';
 import {adminDb} from './database.ts';
 import {HttpError,readJson} from './validation.ts';
 import {grantCredits,paidTier} from './plans.ts';
-import {INVITE,INVITE_CODE,canRedeem,inviteLink,inviteMessage,makeInviteCode,monthsEarned,normalizeInviteCode,paidCounts,type InviteSummary} from '../shared/invites.ts';
+import {INVITE,INVITE_CODE,inviteCodeFromText,canRedeem,inviteLink,inviteMessage,makeInviteCode,monthsEarned,normalizeInviteCode,paidCounts,type InviteSummary} from '../shared/invites.ts';
 import type {Tier} from '../shared/plans.ts';
 
 /** Invite a friend (docs/plans/INVITE_REWARDS.md). Every table here is server-only: the service role reads and writes, riders never touch them directly. */
@@ -59,7 +59,7 @@ export async function inviteSummary(user:Who,admin:Db=adminDb(),told=''):Promise
 
 /** The friend enters the inviter's code. One code per account, new accounts only, never your own. */
 export async function redeemInvite(user:{id:string;created_at?:string},raw:string,admin:Db=adminDb(),grant:Grant=grantCredits):Promise<{ok:true}>{
- const code=normalizeInviteCode(raw);const wrong=new HttpError(400,'That code is not right. Check it with your friend.');
+ const code=normalizeInviteCode(inviteCodeFromText(raw));const wrong=new HttpError(400,'That code is not right. Check it with your friend.');
  if(!INVITE_CODE.test(code))throw wrong;
  const owner=ok(await admin.from('invite_codes').select('user_id').eq('code',code).maybeSingle());if(!owner)throw wrong;
  const inviter=owner.user_id as string;
@@ -146,7 +146,7 @@ export async function runInviteCron(admin:Db=adminDb(),now=new Date(),grant:Gran
  return {joined,counted,months,codes_filled:filled,owed};
 }
 
-const redeemSchema=z.object({code:z.string().trim().min(3).max(20)});
+const redeemSchema=z.object({code:z.string().trim().min(3).max(400)});
 export async function handleInvites(req:Request,path:string,method:string,user:Who):Promise<unknown|null>{
  if(path==='/api/invite'&&method==='GET')return inviteSummary(user);
  // The app passes the first name the rider gave in setup, so their code can carry it (KYLE-7Q2 rather than BAK-7Q2).

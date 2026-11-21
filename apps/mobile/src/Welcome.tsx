@@ -4,6 +4,7 @@
 // still shopping); everything else has "Skip this", and "Skip setup" at the top leaves at any point. Nothing here is a new
 // setting: each answer is saved through the same place the Garage and Account screens use, so it can be changed there.
 import React,{useState} from 'react';
+import {inviteCodeFromText} from '../../../shared/invites';
 import {Keyboard,KeyboardAvoidingView,Modal,Platform,ScrollView,StyleSheet,Text,TextInput,View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import type {Bike} from '../../../shared/types';
@@ -77,7 +78,7 @@ export function FirstLoginSetup({visible,name,onName,colorMode,setColorMode,onBi
    <View style={{gap:8}}>{label('What should BAK call you?','First name is plenty. Optional.')}
     <TextInput value={draftName} onChangeText={v=>setDraftName(v.slice(0,40))} placeholder="Your name" placeholderTextColor="#7d8593" autoCapitalize="words" autoCorrect={false} returnKeyType="done" onSubmitEditing={()=>Keyboard.dismiss()} accessibilityLabel="Your name" style={{color:colors.text,fontSize:20,fontWeight:'700',borderBottomWidth:1,borderBottomColor:colors.accent,paddingVertical:8}}/></View>
    <View style={{gap:8}}>{label('Did a friend invite you?','Enter their code and they get 10 free Ask BAK questions once you add your bike. Optional.')}
-    <TextInput value={friendCode} onChangeText={v=>{setFriendCode(v.toUpperCase().replace(/[^A-Z0-9-]/g,'').slice(0,13));if(notice)setNotice('');}} placeholder="Friend's code" placeholderTextColor="#7d8593" autoCapitalize="characters" autoCorrect={false} returnKeyType="done" onSubmitEditing={()=>Keyboard.dismiss()} accessibilityLabel="Friend's invite code" style={{color:colors.text,fontSize:17,fontWeight:'600',letterSpacing:1,borderBottomWidth:1,borderBottomColor:notice?'#c8553d':'#2a2f39',paddingVertical:8}}/>
+    <TextInput value={friendCode} onChangeText={v=>{setFriendCode(inviteCodeFromText(v));if(notice)setNotice('');}} placeholder="Friend's code" placeholderTextColor="#7d8593" autoCapitalize="characters" autoCorrect={false} returnKeyType="done" onSubmitEditing={()=>Keyboard.dismiss()} accessibilityLabel="Friend's invite code" style={{color:colors.text,fontSize:17,fontWeight:'600',letterSpacing:1,borderBottomWidth:1,borderBottomColor:notice?'#c8553d':'#2a2f39',paddingVertical:8}}/>
     {!!notice&&<Text accessibilityRole="alert" style={{color:'#f0a090',fontSize:14,lineHeight:19}}>{notice} Or clear the box to carry on without a code.</Text>}</View></>,
   bike:<>{title('Which bike are you on?','Pick make, model and year. BAK loads its stock setup, specs and service schedule.')}
    <Pressable accessibilityRole="button" accessibilityLabel={pick?`Bike: ${pick.year} ${pick.make} ${pick.model}. Tap to change`:'Choose your bike'} disabled={busy} onPress={()=>setWheel(true)} style={({pressed})=>({borderWidth:1,borderColor:pick?colors.accent:'#2a2f39',backgroundColor:'#0e1015',borderRadius:16,paddingVertical:16,paddingHorizontal:16,gap:3,opacity:pressed||busy?0.7:1})}>

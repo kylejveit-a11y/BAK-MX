@@ -2,7 +2,7 @@
 // link opens (bakmx.com/invite/CODE): the code, how to use it, where to get the app. No sign-in on the public page.
 import React,{useEffect,useState} from 'react';
 import {api} from './client';
-import {INVITE,INVITE_CODE,normalizeInviteCode,type InviteSummary} from '../shared/invites';
+import {INVITE,INVITE_CODE,inviteCodeFromText,normalizeInviteCode,type InviteSummary} from '../shared/invites';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 const day=(iso:string|null)=>iso?new Date(iso).toLocaleDateString(undefined,{month:'short',day:'numeric'}):'';
@@ -39,7 +39,7 @@ export function InvitePanel(){
   {s.months.map(m=><div key={m.seq} style={{padding:12,border:'1px solid #2a2f38',borderRadius:12}}><b>Free month of {plan(m.tier)}</b>
    <p className="subtle" style={{margin:'4px 0 0'}}>{m.how==='unlock'?(m.ends_at&&Date.parse(m.ends_at)>Date.now()?`${plan(m.tier)} is open on your account until ${day(m.ends_at)}.`:`Used. It ended ${day(m.ends_at)}.`):m.offer_code?<>Redeem <b style={{userSelect:'all'}}>{m.offer_code}</b> in your phone’s store to get the month free.</>:'Earned. Your store code is on its way and will show here.'}</p></div>)}
   {s.can_enter&&<form onSubmit={enter} style={{display:'grid',gap:8}}>
-   <label><span>Have a friend’s code?</span><input value={code} onChange={e=>setCode(e.target.value.toUpperCase().replace(/[^A-Z0-9-]/g,'').slice(0,13))} placeholder="Their code" autoCapitalize="characters" autoCorrect="off" spellCheck={false}/></label>
+   <label><span>Have a friend’s code?</span><input value={code} onChange={e=>setCode(inviteCodeFromText(e.target.value))} placeholder="Their code" autoCapitalize="characters" autoCorrect="off" spellCheck={false}/></label>
    <button type="submit" disabled={busy||!code.trim()}>Save their code</button></form>}
   {note&&<p className="subtle" role="status" style={{margin:0}}>{note}</p>}
   {error&&<div className="error" role="alert">{error}</div>}

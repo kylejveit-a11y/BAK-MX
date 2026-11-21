@@ -26,3 +26,11 @@ export function paidCounts(paidSince:string|Date|null,stillPaid:boolean,now:Date
 }
 export type InviteSummary={code:string;link:string;message:string;joined:number;waiting:number;questions_earned:number;paying:number;months_earned:number;
  months:{seq:number;tier:'premium'|'pro';how:'unlock'|'offer_code';ends_at:string|null;offer_code:string|null}[];invited_by:boolean;can_enter:boolean};
+/** What a rider types or pastes into the friend's-code box, turned into a code. Pasting the whole invite message or
+ *  the link works: the code is picked out of it. Otherwise the typing is tidied to code characters. */
+export function inviteCodeFromText(raw:string):string{
+ const text=(raw??'').toUpperCase();
+ const link=/\/INVITE\/([A-Z0-9]{2,8}-[A-Z0-9]{3,4})\b/.exec(text);if(link)return link[1];
+ if(/\s/.test(text.trim())){const found=/\bCODE\s+([A-Z0-9]{2,8}-[A-Z0-9]{3,4})\b/.exec(text)??/\b([A-Z0-9]{2,8}-[A-Z0-9]{3,4})\b/.exec(text);if(found)return found[1];}
+ return text.replace(/[^A-Z0-9-]/g,'').slice(0,13);
+}

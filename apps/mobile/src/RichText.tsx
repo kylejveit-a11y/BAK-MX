@@ -1,6 +1,7 @@
 // Native version of the web's RichText: the small subset of Markdown Ask BAK replies use (headings, bold, bullets, numbered
 // steps, tables as rows). Everything is placed in Text nodes, so nothing a model or a rider writes becomes markup.
 import React from 'react';
+import {copyText,CopyText} from './copy';
 import {Pressable,Text,View} from 'react-native';
 import {colors,SettingRow} from './ui';
 import {PhotoViewer} from './PhotoUI';
@@ -33,7 +34,7 @@ export function RichText({text,frames}:{text:string;frames?:{times:number[];phot
   const line=lines[i];
   if(!line.trim()){i++;continue;}
   const heading=line.match(/^\s{0,3}#{1,4}\s+(.*)$/);
-  if(heading){out.push(<Text key={k++} selectable style={{...base,fontSize:17,fontWeight:'800',marginTop:4}}>{inline(heading[1].replace(/\s*#+\s*$/,''),'h'+k,ft)}</Text>);i++;continue;}
+  if(heading){out.push(<Text key={k++} onLongPress={()=>copyText(heading[1].replace(/[*_`#]/g,''))} style={{...base,fontSize:17,fontWeight:'800',marginTop:4}}>{inline(heading[1].replace(/\s*#+\s*$/,''),'h'+k,ft)}</Text>);i++;continue;}
   if(/^\s*\|.*\|\s*$/.test(line)&&i+1<lines.length&&/^\s*\|?[\s:|-]+\|?\s*$/.test(lines[i+1])&&lines[i+1].includes('-')){
    const head=cells(line),rows:string[][]=[];i+=2;
    while(i<lines.length&&/^\s*\|.*\|\s*$/.test(lines[i])){rows.push(cells(lines[i]));i++;}
@@ -42,18 +43,18 @@ export function RichText({text,frames}:{text:string;frames?:{times:number[];phot
    const bare=(v?:string)=>(v??'').replace(/\*\*/g,'').trim();
    if(cs>=0&&cy>=0&&head.length<=3&&(cst>=0||head.length===2)){out.push(<View key={k++}>{rows.map((r,n)=><SettingRow key={n} first={n===0} label={bare(r[cs])} mine={bare(r[cy])} stock={cst>=0?bare(r[cst]):undefined}/>)}</View>);continue;}
    // a phone is too narrow for a grid: each row reads "Header: value · Header: value"
-   out.push(<View key={k++} style={{gap:6}}>{rows.map((r,n)=><Text key={n} selectable style={{...base,fontSize:15,lineHeight:22}}>{head.map((h,m)=>r[m]?[<Text key={'l'+m} style={{color:colors.muted}}>{m?' · ':''}{h}: </Text>,...inline(r[m],'c'+n+m,ft)]:null)}</Text>)}</View>);
+   out.push(<View key={k++} style={{gap:6}}>{rows.map((r,n)=><CopyText key={n} style={{...base,fontSize:15,lineHeight:22}}>{head.map((h,m)=>r[m]?[<Text key={'l'+m} style={{color:colors.muted}}>{m?' · ':''}{h}: </Text>,...inline(r[m],'c'+n+m,ft)]:null)}</CopyText>)}</View>);
    continue;
   }
   if(bullet.test(line)||numbered.test(line)){
    const ordered=numbered.test(line),mark=ordered?numbered:bullet,items:string[]=[];
    while(i<lines.length&&(mark.test(lines[i])||(/^\s{2,}\S/.test(lines[i])&&items.length&&!bullet.test(lines[i])&&!numbered.test(lines[i])))){if(mark.test(lines[i]))items.push(lines[i].replace(mark,''));else items[items.length-1]+=' '+lines[i].trim();i++;}
-   out.push(<View key={k++} style={{gap:6}}>{items.map((item,n)=><View key={n} style={{flexDirection:'row',gap:8}}><Text style={{...base,color:colors.muted,minWidth:16}}>{ordered?`${n+1}.`:'•'}</Text><Text selectable style={{...base,flex:1}}>{inline(item,'li'+n,ft)}</Text></View>)}</View>);
+   out.push(<View key={k++} style={{gap:6}}>{items.map((item,n)=><View key={n} style={{flexDirection:'row',gap:8}}><Text style={{...base,color:colors.muted,minWidth:16}}>{ordered?`${n+1}.`:'•'}</Text><CopyText style={{...base,flex:1}}>{inline(item,'li'+n,ft)}</CopyText></View>)}</View>);
    continue;
   }
   const para:string[]=[];
   while(i<lines.length&&lines[i].trim()&&!/^\s{0,3}#{1,4}\s+/.test(lines[i])&&!bullet.test(lines[i])&&!numbered.test(lines[i])&&!/^\s*\|.*\|\s*$/.test(lines[i])){para.push(lines[i].trim());i++;}
-  out.push(<Text key={k++} selectable style={base}>{inline(para.join(' '),'p'+k,ft)}</Text>);
+  {const whole=para.join(' ');out.push(<Text key={k++} onLongPress={()=>copyText(whole.replace(/[*_`]/g,''))} style={base}>{inline(whole,'p'+k,ft)}</Text>);}
  }
  return <View style={{gap:12}}>{out}{ft&&<PhotoViewer photos={frames!.photos} times={frames!.times} start={viewer} onClose={()=>setViewer(null)}/>}</View>;
 }

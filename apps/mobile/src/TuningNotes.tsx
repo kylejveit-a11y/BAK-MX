@@ -2,6 +2,7 @@
 // notes, and "Check it with a photo". Notes are saved to the rider's account (shared/tuning-notes.ts). Notes this phone kept
 // before that move up to the account once, on the first launch after the update; the phone's copy stays as a backup.
 import React,{useEffect,useRef,useState} from 'react';
+import {copyText,CopyText} from './copy';
 import {AccessibilityInfo,Alert,Platform,ScrollView,Share,StyleSheet,Text,View} from 'react-native';
 import {success} from './haptics';
 import * as Sharing from 'expo-sharing';
@@ -75,6 +76,7 @@ export function AnswerNoteBar({bike,message,question,notes}:{bike?:Bike;message:
  return <View style={{gap:6}}>
   <View style={a.row}>
    {bike&&notes&&(saved?<Action icon="check" title="Saved" accessibilityLabel="Saved to bike" done/>:<Action icon="notes" title={busy?'Saving…':'Save to bike'} disabled={busy} onPress={()=>void save()}/>)}
+   <Action icon="notes" title="Copy" accessibilityLabel="Copy this answer" onPress={()=>copyText([message.response?.summary,message.response?.answer].filter(Boolean).join('\n\n').replace(/[*_`#]/g,''),'Answer copied')}/>
    <Action icon="share" title="Share" onPress={()=>void shareNote(saved??draft).catch(e=>setError(errorText(e)))}/>
   </View>
   {!!error&&<Text style={{color:'#ffb4ae',fontSize:13}}>{error}</Text>}
@@ -97,7 +99,7 @@ export function ChatNoteBox({bike,conversation,notes,onOpenGarage,collapsed=fals
    <Field label="New note" multiline value={draft} onChangeText={setDraft} maxLength={4000} placeholder="Rebound 2 slower. Rear stayed down in the braking bumps."/>
    <Notice text={error||notes.error}/>
    <Button disabled={!draft.trim()||busy} title={busy?'Saving…':'Save note'} onPress={()=>void save()}/>
-   {list.slice(0,3).map(n=><View key={n.id} style={{gap:2,paddingTop:8,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#232833'}}><Text style={{color:'#adb5c1',fontSize:12.5}}>{new Date(n.noted_at).toLocaleString()}</Text><Text selectable style={{color:colors.text,fontSize:15,lineHeight:22}}>{n.rider_note||n.title}</Text></View>)}
+   {list.slice(0,3).map(n=><View key={n.id} style={{gap:2,paddingTop:8,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#232833'}}><Text style={{color:'#adb5c1',fontSize:12.5}}>{new Date(n.noted_at).toLocaleString()}</Text><CopyText style={{color:colors.text,fontSize:15,lineHeight:22}}>{n.rider_note||n.title}</CopyText></View>)}
    {onOpenGarage&&list.length>0&&<LinkAction muted title="All notes for this bike" onPress={onOpenGarage}/>}
   </View>}
  </View>;
@@ -118,10 +120,10 @@ export function NotesList({bike,onAsk}:{bike:Bike;onAsk:(text:string)=>void}){
    <Pressable accessibilityRole="button" accessibilityState={{expanded:isOpen}} onPress={()=>setOpen(isOpen?'':n.id)} style={{flexDirection:'row',alignItems:'center',gap:10,paddingVertical:12}}><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>{n.title}</Text><Text style={{color:'#adb5c1',fontSize:13}}>{shortDay(n.noted_at)}{n.setup_changes.length?` · ${n.setup_changes.length} change${n.setup_changes.length>1?'s':''}`:''}{!n.answer?' · your note':''}</Text></View><Icon name={isOpen?'chevronUp':'chevronDown'} size={17} color="#7d8593"/></Pressable>
    {isOpen&&<View style={{gap:10,paddingBottom:14}}>
     {renaming===n.id&&<View style={{gap:8}}><Field label="Note name" value={name} onChangeText={setName} maxLength={120} autoFocus/><View style={{flexDirection:'row',gap:10}}><View style={{flex:1}}><Button title="Save name" disabled={busy||!name.trim()} onPress={()=>void rename(n)}/></View><View style={{flex:1}}><Button secondary title="Cancel" onPress={()=>setRenaming('')}/></View></View></View>}
-    {!!n.question&&<View style={{gap:4}}><Eyebrow>YOU ASKED</Eyebrow><Text selectable style={{color:colors.text,fontSize:15,lineHeight:22}}>{n.question}</Text></View>}
+    {!!n.question&&<View style={{gap:4}}><Eyebrow>YOU ASKED</Eyebrow><CopyText style={{color:colors.text,fontSize:15,lineHeight:22}}>{n.question}</CopyText></View>}
     {!!n.answer&&<View style={{gap:4}}><Eyebrow>BAK</Eyebrow><RichText text={n.answer}/></View>}
-    {table.rows.length>0&&<View style={{gap:0}}><Eyebrow>SETUP CHANGES</Eyebrow>{table.rows.map((r,i)=><View key={i} style={{paddingVertical:8,borderTopWidth:i?StyleSheet.hairlineWidth:0,borderTopColor:colors.line,gap:2}}><Text selectable style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{r[0]}: {r[1]}</Text>{r.length>2&&<Text selectable style={{color:'#adb5c1',fontSize:13.5}}>Stock: {r[2]}</Text>}</View>)}</View>}
-    {!!n.rider_note&&<View style={{gap:4}}><Eyebrow>YOUR NOTE</Eyebrow><Text selectable style={{color:colors.text,fontSize:15,lineHeight:22}}>{n.rider_note}</Text></View>}
+    {table.rows.length>0&&<View style={{gap:0}}><Eyebrow>SETUP CHANGES</Eyebrow>{table.rows.map((r,i)=><View key={i} style={{paddingVertical:8,borderTopWidth:i?StyleSheet.hairlineWidth:0,borderTopColor:colors.line,gap:2}}><CopyText style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{r[0]}: {r[1]}</CopyText>{r.length>2&&<CopyText style={{color:'#adb5c1',fontSize:13.5}}>Stock: {r[2]}</CopyText>}</View>)}</View>}
+    {!!n.rider_note&&<View style={{gap:4}}><Eyebrow>YOUR NOTE</Eyebrow><CopyText style={{color:colors.text,fontSize:15,lineHeight:22}}>{n.rider_note}</CopyText></View>}
     <View style={a.row}>
      <Action icon="chat" title="Ask BAK about this note" onPress={()=>onAsk(askAboutNote(n))}/>
      <Action icon="share" title="Share" onPress={()=>void shareNote(n).catch(e=>setError(errorText(e)))}/>

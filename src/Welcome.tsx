@@ -3,6 +3,7 @@
 // opens once a bike is added, and answers, look and reminders are in Account. Mirrors the app's first-login setup.
 import {useState} from 'react';
 import {api} from './client';
+import {inviteCodeFromText} from '../shared/invites';
 import {Sheet,errorText} from './HomeBlocks';
 
 const key=(userId:string)=>`bak.welcome-v1.${userId}`;
@@ -26,7 +27,7 @@ export function WelcomeSheet({userId,onAddBike,onClose}:{userId:string;onAddBike
    <button type="button" disabled={busy} onClick={()=>void leave('shopping')}>I’m still shopping for one</button>
   </div>
   <label className="field" style={{marginTop:16}}><span>Did a friend invite you? Enter their code (optional)</span>
-   <input value={code} disabled={saved} onChange={e=>setCode(e.target.value.toUpperCase().replace(/[^A-Z0-9-]/g,'').slice(0,13))} placeholder="Friend’s code" autoCapitalize="characters" autoCorrect="off" spellCheck={false}/></label>
+   <input value={code} disabled={saved} onChange={e=>setCode(inviteCodeFromText(e.target.value))} placeholder="Friend’s code" autoCapitalize="characters" autoCorrect="off" spellCheck={false}/></label>
   <small className="subtle">{saved?'Code saved. Your friend gets 10 free questions once your bike is in the Garage.':'They get 10 free Ask BAK questions once you add your bike.'}</small>
   {notice&&<div className="error" role="alert">{notice} You can clear the box and carry on.</div>}
   <p className="subtle" style={{marginBottom:0}}>After your bike is in, BAK asks four quick things about you and writes a starting setup. Answer style, colours and reminders are under Account whenever you want them.</p>

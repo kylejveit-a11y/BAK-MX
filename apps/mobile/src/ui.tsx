@@ -1,6 +1,7 @@
 import React from 'react';
 import {Animated,Text,View,Image,TextInput,ScrollView,StyleSheet,InputAccessoryView,Keyboard,Platform,Switch as RNSwitch,type ImageProps,type TextInputProps,type SwitchProps} from 'react-native';
 import {Pressable} from './Touch';
+import {copyText,textOf,CopyText} from './copy';
 import {HeaderHeightContext} from '@react-navigation/elements';
 import {useNavigation} from '@react-navigation/native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -90,7 +91,7 @@ function BottomScrim({height}:{height:number}){
 export function PageTitle({children}:{children:React.ReactNode}){return <View style={{gap:9}}><Text style={s.title}>{children}</Text><View style={{flexDirection:'row',gap:4}}><MetalMark width={26}/><MetalMark width={8} dim/></View></View>}
 /** A section: a hairline above, room around it. No boxes. */
 export function Card({children}:{children:React.ReactNode}){return <View style={s.card}>{children}</View>}
-export function Copy({children,strong=false}:{children:React.ReactNode;strong?:boolean}){return <Text selectable style={[s.copy,strong&&{color:colors.text,...DISPLAY,fontSize:15.5,lineHeight:22}]}>{children}</Text>}
+export function Copy({children,strong=false}:{children:React.ReactNode;strong?:boolean}){return <Text onLongPress={()=>copyText(textOf(children))} style={[s.copy,strong&&{color:colors.text,...DISPLAY,fontSize:15.5,lineHeight:22}]}>{children}</Text>}
 /** Primary: solid steel pill. Secondary: outline pill. Disabled reads as inactive, not broken. */
 export function Button({title,onPress,secondary=false,disabled=false}:{title:string;onPress:()=>void;secondary?:boolean;disabled?:boolean}){return <Pressable haptic={secondary?'tap':'press'} accessibilityRole="button" accessibilityState={{disabled}} disabled={disabled} onPress={onPress} style={({pressed})=>[s.button,secondary&&s.ghost,!secondary&&!disabled&&[blueLift,pressed&&{shadowOpacity:0.3,transform:[{translateY:1}]}],disabled&&(secondary?{borderColor:'#1f232b'}:{backgroundColor:'#16191f'}),secondary&&pressed&&{opacity:0.6}]}>{({pressed})=><>{!secondary&&!disabled&&<BlueFace radius={28} pressed={pressed}/>}<Text style={[{color:disabled?'#7d8593':secondary?colors.text:'#ffffff',fontSize:13.5,...LABEL,letterSpacing:0.4,textAlign:'center'},!secondary&&!disabled&&onBlueText]}>{title}</Text></>}</Pressable>}
 /** Text field: label above, value on an underline. */
@@ -152,7 +153,7 @@ export function IconAction({icon,label,onPress,active=false,danger=false}:{icon:
 export function SettingRow({label,mine,stock,first=false}:{label:string;mine?:string;stock?:string;first?:boolean}){
  return <View accessible accessibilityLabel={`${label}: ${mine?`yours ${mine}`:'yours not set'}${stock?`, stock ${stock}`:''}`} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',gap:12,borderTopWidth:first?0:1,borderTopColor:colors.line,paddingVertical:10}}>
   <Text style={{color:colors.text,fontSize:15,flex:1}}>{label}</Text>
-  <View style={{alignItems:'flex-end',maxWidth:'55%'}}><Text selectable style={{color:colors.text,fontSize:15,fontWeight:'700',textAlign:'right'}}>{mine||'—'}</Text>{!!stock&&<Text selectable style={{color:colors.muted,fontSize:12.5,textAlign:'right'}}>stock {stock}</Text>}</View>
+  <View style={{alignItems:'flex-end',maxWidth:'55%'}}><CopyText style={{color:colors.text,fontSize:15,fontWeight:'700',textAlign:'right'}}>{mine||'—'}</CopyText>{!!stock&&<CopyText style={{color:colors.muted,fontSize:12.5,textAlign:'right'}}>stock {stock}</CopyText>}</View>
  </View>;
 }
 /** The one toggle: on is the bike's accent, off is the dark rail, on every screen. Use this, never react-native's Switch. */

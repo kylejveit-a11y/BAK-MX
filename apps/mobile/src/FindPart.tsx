@@ -6,6 +6,7 @@ import {ActivityIndicator,Linking,ScrollView,Text,View} from 'react-native';
 import {api} from './api';
 import {Button,Card,colors,Copy,Field,LinkAction,Notice,Switch} from './ui';
 import {Pressable} from './Touch';
+import {copyText,CopyText} from './copy';
 import type {Bike} from '../../../shared/types';
 import type {FoundPart,StoreLink} from '../../../shared/parts-hunter';
 
@@ -27,10 +28,11 @@ function Stores({stores}:{stores:StoreLink[]}){
 function Row({p,saved,onSave,busy}:{p:FoundPart;saved:boolean;onSave:()=>void;busy:boolean}){
  const [open,setOpen]=useState(false);
  return <View style={{borderTopWidth:1,borderTopColor:colors.line,paddingTop:10,gap:6}}>
-  <Text selectable style={{color:colors.text,fontSize:15.5,fontWeight:'600'}}>{p.kind==='aftermarket'?`${p.brand} ${p.name}`:p.name}</Text>
-  <Text selectable style={{color:colors.muted,fontSize:13.5}}>{[p.kind==='factory'?`${p.brand} factory part`:'Aftermarket',p.part_number&&`Part no. ${p.part_number}`,p.kind==='factory'&&p.where&&`From: ${p.where.toLowerCase()}`].filter(Boolean).join('  ·  ')}</Text>
+  <CopyText style={{color:colors.text,fontSize:15.5,fontWeight:'600'}}>{p.kind==='aftermarket'?`${p.brand} ${p.name}`:p.name}</CopyText>
+  <CopyText style={{color:colors.muted,fontSize:13.5}}>{[p.kind==='factory'?`${p.brand} factory part`:'Aftermarket',p.part_number&&`Part no. ${p.part_number}`,p.kind==='factory'&&p.where&&`From: ${p.where.toLowerCase()}`].filter(Boolean).join('  ·  ')}</CopyText>
   <View style={{flexDirection:'row',gap:18}}>
    <Pressable accessibilityRole="button" accessibilityState={{expanded:open}} onPress={()=>setOpen(!open)} hitSlop={8}><Text style={{color:colors.text,fontWeight:'700',fontSize:14.5}}>{open?'Hide stores':'Where to buy'}</Text></Pressable>
+   {!!p.part_number&&<Pressable accessibilityRole="button" accessibilityLabel={`Copy part number ${p.part_number}`} onPress={()=>copyText(p.part_number,'Part number copied')} hitSlop={8}><Text style={{color:colors.text,fontWeight:'700',fontSize:14.5}}>Copy no.</Text></Pressable>}
    <Pressable accessibilityRole="button" disabled={saved||busy} onPress={onSave} hitSlop={8}><Text style={{color:saved?colors.muted:colors.text,fontWeight:'700',fontSize:14.5}}>{saved?'On my parts list':'Save to my parts list'}</Text></Pressable>
   </View>
   {open&&<Stores stores={p.stores}/>}
@@ -70,8 +72,8 @@ export function FindPartCard({bike,offerOn,setOfferOn}:{bike?:Bike;offerOn:boole
   {!!found&&!none&&<Copy>The factory list is the maker’s own for your year. One search can list a few versions of a part; match the part number to the one on your bike.</Copy>}
   {!!saved.length&&<View style={{gap:10,marginTop:8}}><Text style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700'}}>My parts list ({saved.length})</Text>
    {saved.map(s=><View key={s.id} style={{borderTopWidth:1,borderTopColor:colors.line,paddingTop:10,gap:6}}>
-    <Text selectable style={{color:colors.text,fontSize:15.5,fontWeight:'600'}}>{s.kind==='aftermarket'?`${s.brand} ${s.name}`:s.name}</Text>
-    {!!s.part_number&&<Text selectable style={{color:colors.muted,fontSize:13.5}}>Part no. {s.part_number}</Text>}
+    <CopyText style={{color:colors.text,fontSize:15.5,fontWeight:'600'}}>{s.kind==='aftermarket'?`${s.brand} ${s.name}`:s.name}</CopyText>
+    {!!s.part_number&&<CopyText style={{color:colors.muted,fontSize:13.5}}>Part no. {s.part_number}</CopyText>}
     <View style={{flexDirection:'row',gap:18}}>
      <Pressable accessibilityRole="button" onPress={()=>setOpenSaved(openSaved===s.id?'':s.id)} hitSlop={8}><Text style={{color:colors.text,fontWeight:'700',fontSize:14.5}}>{openSaved===s.id?'Hide stores':'Where to buy'}</Text></Pressable>
      <Pressable accessibilityRole="button" disabled={busy} onPress={()=>void remove(s)} hitSlop={8}><Text style={{color:colors.muted,fontWeight:'700',fontSize:14.5}}>Remove</Text></Pressable>

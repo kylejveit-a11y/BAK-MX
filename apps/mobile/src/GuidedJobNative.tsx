@@ -1,4 +1,5 @@
 import React,{useCallback,useEffect,useRef,useState} from 'react';
+import {CopyText} from './copy';
 import {DISPLAY} from './theme';
 import {View,Text,Linking,StyleSheet} from 'react-native';
 import {Pressable} from './Touch';
@@ -129,7 +130,7 @@ export function GuidedJobCardNative({job,voice,onSay,busy,compact=false}:{job:Na
   </View>
   <Text numberOfLines={1} style={{color:'#adb5c1',fontSize:13,fontWeight:'600'}}>{procedure.title}</Text>
   <View style={{height:3,borderRadius:2,backgroundColor:'#222834',overflow:'hidden'}}><View style={{height:3,width:`${100*done/procedure.steps.length}%`,backgroundColor:colors.accent}}/></View>
-  {step&&<><Text style={{color:colors.text,fontSize:19,...DISPLAY,letterSpacing:0,lineHeight:25}}>{riderText(step.title)}</Text><Text selectable numberOfLines={open?undefined:5} style={{color:colors.text,fontSize:18,lineHeight:27}}>{riderText(step.instruction)}</Text>
+  {step&&<><Text style={{color:colors.text,fontSize:19,...DISPLAY,letterSpacing:0,lineHeight:25}}>{riderText(step.title)}</Text><CopyText numberOfLines={open?undefined:5} style={{color:colors.text,fontSize:18,lineHeight:27}}>{riderText(step.instruction)}</CopyText>
    <Pressable accessibilityRole="button" hitSlop={8} onPress={()=>setOpen(!open)} style={{flexDirection:'row',alignItems:'center',gap:6,alignSelf:'flex-start'}}><Text style={{color:colors.text,fontWeight:'700'}}>{open?'Less':'More, and how to check it'}</Text><Icon name={open?'chevronUp':'chevronDown'} size={14} color={colors.accent} weight={2.2}/></Pressable>
    {open&&step.verification.map((v,i)=><View key={i} style={{flexDirection:'row',gap:8}}><Icon name="check" size={16} color="#7fd09a" weight={2.2}/><Text style={{color:colors.muted,fontSize:15,lineHeight:22,flex:1}}>{riderText(v)}</Text></View>)}</>}
   {link&&<LinkAction title="Show the picture for this step" onPress={()=>void Linking.openURL(link).catch(()=>{})}/>}

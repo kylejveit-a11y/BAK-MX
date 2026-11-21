@@ -1,4 +1,5 @@
 import {BIKE_LABELS,BIKE_SIZES,DISCIPLINES,DISCIPLINE_LABELS,NO_FILTER,SKILL_LABELS,SKILL_LEVELS,crewTags,filterCount,type BikeSize,type CrewFilter,type Discipline,type SkillLevel} from '../../../shared/crew';
+import {CopyText} from './copy';
 import {readProgress} from './localProgress';
 import {PageSheet} from './PageSheet';
 import {garageModelInfo} from '../../../shared/garage-models';
@@ -227,7 +228,7 @@ function PostView({p,open,onOpen,onLike,onMore,onRider,onRiderId,onLikers,onCoun
    <Pressable accessibilityRole="button" accessibilityLabel="More options" hitSlop={12} onPress={onMore}><Icon name="more" size={22} color="#adb5c1"/></Pressable>
   </View>
   <Pressable onPress={long?()=>setFull(!full):undefined} style={{paddingHorizontal:20}} disabled={!long}>
-   <Text selectable numberOfLines={full||!long?undefined:6} style={{color:colors.text,fontSize:16.5,lineHeight:25}}>{p.body}</Text>
+   <CopyText numberOfLines={full||!long?undefined:6} style={{color:colors.text,fontSize:16.5,lineHeight:25}}>{p.body}</CopyText>
    {long&&<Text style={{color:'#adb5c1',fontSize:14,fontWeight:'600',marginTop:4}}>{full?'Show less':'See more'}</Text>}
   </Pressable>
   {p.video&&<PostClip video={p.video}/>}
@@ -394,7 +395,7 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
    <View style={{gap:6}}><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="clock" size={17} color="#adb5c1"/><Text style={{color:'#c9cfd9',fontSize:15}}>{when(ev.starts_at)}{ev.ends_at?' – '+when(ev.ends_at):''}</Text></View><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="location" size={17} color="#adb5c1"/><Text style={{color:'#c9cfd9',fontSize:15,flex:1}}>{ev.location_name}</Text></View></View>
    {/* The going count lives on the tappable row below when there is one, so the host line does not repeat it. */}
    <Pressable accessibilityRole="button" accessibilityLabel={'View '+riderName(ev.host)} disabled={ev.mine} onPress={()=>setViewing(ev.user_id)} hitSlop={4}><Copy>{eventHostLine(riderName(ev.host),ev.going_count>0&&scope==='upcoming'?{...ev,going_count:0}:ev,scope==='past')}</Copy></Pressable>
-   {open===ev.id&&!!ev.description&&<Text selectable style={{color:colors.text,fontSize:15,lineHeight:23}}>{ev.description}</Text>}
+   {open===ev.id&&!!ev.description&&<CopyText style={{color:colors.text,fontSize:15,lineHeight:23}}>{ev.description}</CopyText>}
    {ev.going_count>0&&scope==='upcoming'&&<Pressable accessibilityRole="button" accessibilityLabel="See who's going" onPress={()=>setGoing(ev)} style={{flexDirection:'row',alignItems:'center',gap:8}}>
     {!!(ev.going_riders??[]).length&&<View style={{flexDirection:'row'}}>{(ev.going_riders??[]).slice(0,5).map((r,i)=><View key={r.user_id} style={{marginLeft:i?-8:0,borderRadius:14,borderWidth:2,borderColor:colors.panel}}><Avatar name={riderName(r)} uri={r.avatar_url} size={24}/></View>)}</View>}
     <Text style={{color:'#adb5c1',fontSize:13.5,flex:1}}>{(ev.going_riders??[]).length?`${(ev.going_riders??[]).slice(0,2).map(r=>r.me?'You':riderName(r)).join(', ')}${ev.going_count>2?` and ${ev.going_count-Math.min(2,(ev.going_riders??[]).length)} more`:''} going`:`${ev.going_count} going`}</Text>
@@ -435,7 +436,7 @@ export function MessagesScreen({startWith,onStarted}:{startWith?:RiderRef;onStar
   <Pressable accessibilityRole="button" onPress={()=>setViewing(active.user_id)} style={{flexDirection:'row',alignItems:'center',gap:10}}><Avatar name={riderName(active)} uri={active.avatar_url} size={32}/><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>View profile</Text></Pressable>
   <Notice text={notice}/>
   {!messages.length&&<Copy>No messages yet. Say hello.</Copy>}
-  {messages.map(m=><View key={m.id} style={{alignSelf:m.mine?'flex-end':'flex-start',maxWidth:'85%',backgroundColor:m.mine?'#1b2130':'#121418',borderRadius:18,paddingHorizontal:14,paddingVertical:10,gap:3}}><Text selectable style={{color:colors.text,fontSize:16,lineHeight:22}}>{m.body}</Text><Text style={{color:'#7c858e',fontSize:11}}>{when(m.created_at)}</Text></View>)}
+  {messages.map(m=><View key={m.id} style={{alignSelf:m.mine?'flex-end':'flex-start',maxWidth:'85%',backgroundColor:m.mine?'#1b2130':'#121418',borderRadius:18,paddingHorizontal:14,paddingVertical:10,gap:3}}><CopyText style={{color:colors.text,fontSize:16,lineHeight:22}}>{m.body}</CopyText><Text style={{color:'#7c858e',fontSize:11}}>{when(m.created_at)}</Text></View>)}
   <RiderActions rider={active} target={{type:'profile',id:active.user_id}} onBlocked={()=>{setActive(null);void loadThreads();}}/>
  </Page>;
 }
@@ -487,7 +488,7 @@ export function SetupLogCard({bike,onAsk,prefill}:{bike?:Bike;onAsk:(text:string
    {!!log.conditions&&<Copy>{log.conditions}</Copy>}
    {!!log.change_made&&<Text style={{color:colors.text,fontSize:15,lineHeight:22}}>Changed: {log.change_made}</Text>}
    {diff.map(d=><Text key={d.key} style={{color:colors.primary,fontSize:14,lineHeight:21}}>• {d.label}: {d.from} → {d.to}</Text>)}
-   {!!log.notes&&<Text selectable style={{color:colors.text,fontSize:15,lineHeight:22}}>{log.notes}</Text>}
+   {!!log.notes&&<CopyText style={{color:colors.text,fontSize:15,lineHeight:22}}>{log.notes}</CopyText>}
    <Copy>{describe(log)||'No settings recorded.'}</Copy>
    <Row><Link title="Ask BAK about this" onPress={()=>onAsk(`Setup log from ${day(log.recorded_at)}${log.track?' at '+log.track:''}${log.conditions?' ('+log.conditions+')':''}. Settings: ${describe(log)||'none recorded'}.${log.change_made?' Change made: '+log.change_made+'.':''} Result: ${SETUP_RESULT_LABELS[log.result]}.${log.notes?' Notes: '+log.notes:''}\n\nWhat should I try next?`)}/>
     {/* Delete lives behind More, away from the primary action, so a glove never lands on it by mistake. */}
@@ -536,7 +537,7 @@ export function PartsCatalogCard({bike}:{bike?:Bike}){
     <Pressable accessibilityRole="button" accessibilityState={{expanded:open===a.id}} onPress={()=>void show(a)} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:40}}><Text style={{color:colors.text,fontSize:16,flex:1}}>{sectionName(a.name)}</Text><Icon name={open===a.id?'chevronDown':'chevronRight'} size={17} color="#adb5c1"/></Pressable>
     {open===a.id&&<View style={{gap:8}}>
      {hasDiagram(a.diagram_url)&&<Diagram uri={a.diagram_url} title={sectionName(a.name)}/>}
-     {parts===null?<Copy>Loading parts…</Copy>:!parts.length?<Copy>{notice?'The parts list didn’t load. Tap the section to try again.':'No parts listed for this section.'}</Copy>:parts.map(p=><View key={p.id} style={{flexDirection:'row',gap:10}}><Text style={{color:colors.text,width:30,fontWeight:'700'}}>{p.callout}</Text><View style={{flex:1}}><Text selectable style={{color:colors.text,fontSize:15}}>{p.description}</Text><Text selectable style={{color:colors.muted,fontSize:13}}>{[p.part_number||'No part number',p.quantity_raw&&p.quantity_raw!=='0'?`Qty ${p.quantity_raw}`:'',p.remarks].filter(Boolean).join(' · ')}</Text></View></View>)}
+     {parts===null?<Copy>Loading parts…</Copy>:!parts.length?<Copy>{notice?'The parts list didn’t load. Tap the section to try again.':'No parts listed for this section.'}</Copy>:parts.map(p=><View key={p.id} style={{flexDirection:'row',gap:10}}><Text style={{color:colors.text,width:30,fontWeight:'700'}}>{p.callout}</Text><View style={{flex:1}}><CopyText style={{color:colors.text,fontSize:15}}>{p.description}</CopyText><CopyText style={{color:colors.muted,fontSize:13}}>{[p.part_number||'No part number',p.quantity_raw&&p.quantity_raw!=='0'?`Qty ${p.quantity_raw}`:'',p.remarks].filter(Boolean).join(' · ')}</CopyText></View></View>)}
      <Copy>Quantities are per assembly, not whole-bike totals.</Copy>
     </View>}
    </View>)]:[];})}
@@ -572,13 +573,13 @@ export function RiderProfileView({riderId,from='Community',onBack,onMessage}:{ri
     <Avatar name={riderName(data.profile)} uri={data.profile.avatar_url} size={92}/>
     <View style={{flexDirection:'row',alignItems:'center',gap:10}}>{!!data.profile.race_number&&<RacePlate number={data.profile.race_number}/>}<Text style={{color:colors.text,fontSize:21,...DISPLAY,letterSpacing:0}}>{riderName(data.profile)}</Text></View>
     <Text style={{color:'#adb5c1',fontSize:14}}>@{data.profile.handle}{data.profile.location?' · '+data.profile.location:''}{data.profile.riding_class?' · '+data.profile.riding_class:''}</Text>
-    {!!data.profile.bio&&<Text selectable style={{color:colors.text,fontSize:15.5,lineHeight:23,textAlign:'center'}}>{data.profile.bio}</Text>}
+    {!!data.profile.bio&&<CopyText style={{color:colors.text,fontSize:15.5,lineHeight:23,textAlign:'center'}}>{data.profile.bio}</CopyText>}
     <Text style={{color:'#9aa2ae',fontSize:12.5}}>Riding with BAK MX since {new Date(data.profile.created_at).toLocaleDateString([],{month:'long',year:'numeric'})}</Text>
     {!data.mine&&<RiderActions rider={data.profile} target={{type:'profile',id:data.profile.user_id}} onMessage={onMessage} onBlocked={onBack}/>}
    </View>
    <PublicGarage bikes={data.bikes??[]} raceNumber={data.profile.race_number}/>
    <Eyebrow>RECENT POSTS</Eyebrow>{!data.posts.length&&<Copy>No posts yet.</Copy>}
-   <View style={{marginHorizontal:-20}}>{data.posts.map(p=><View key={p.id} style={{paddingVertical:16,gap:10,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}><Text style={{color:'#adb5c1',fontSize:12.5,paddingHorizontal:20}}><Text style={{color:colors.text,fontWeight:'700'}}>{POST_CATEGORY_LABELS[p.category]}</Text>{p.bike_label?' · '+p.bike_label:''} · {ago(p.created_at)}</Text><Text selectable style={{color:colors.text,fontSize:16,lineHeight:24,paddingHorizontal:20}}>{p.body}</Text>{p.video&&<PostClip video={p.video}/>}{!!p.photos?.length&&<PostPhotos photos={p.photos}/>}</View>)}</View>
+   <View style={{marginHorizontal:-20}}>{data.posts.map(p=><View key={p.id} style={{paddingVertical:16,gap:10,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}><Text style={{color:'#adb5c1',fontSize:12.5,paddingHorizontal:20}}><Text style={{color:colors.text,fontWeight:'700'}}>{POST_CATEGORY_LABELS[p.category]}</Text>{p.bike_label?' · '+p.bike_label:''} · {ago(p.created_at)}</Text><CopyText style={{color:colors.text,fontSize:16,lineHeight:24,paddingHorizontal:20}}>{p.body}</CopyText>{p.video&&<PostClip video={p.video}/>}{!!p.photos?.length&&<PostPhotos photos={p.photos}/>}</View>)}</View>
   </>}
  </Page>;
 }

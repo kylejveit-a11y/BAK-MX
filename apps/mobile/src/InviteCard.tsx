@@ -3,7 +3,9 @@ import {useEffect,useState} from 'react';
 import {ActivityIndicator,Share,Text,View} from 'react-native';
 import {api} from './api';
 import {Button,colors,Copy,Field,Notice} from './ui';
-import {INVITE,type InviteSummary} from '../../../shared/invites';
+import {INVITE,inviteCodeFromText,type InviteSummary} from '../../../shared/invites';
+import {Pressable} from './Touch';
+import {copyText} from './copy';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 const day=(iso:string|null)=>iso?new Date(iso).toLocaleDateString(undefined,{month:'short',day:'numeric'}):'';
@@ -20,11 +22,13 @@ export function InviteCard({name=''}:{name?:string}){
  if(!s)return <View style={{gap:12}}>{!notice&&<ActivityIndicator color={colors.accent}/>}<Notice text={notice}/></View>;
  const toNext=INVITE.friendsPerMonth-(s.paying%INVITE.friendsPerMonth);
  return <View style={{gap:16}}>
-  <View style={{gap:4,alignItems:'center',paddingVertical:14,borderRadius:14,borderWidth:1,borderColor:'#2a2f39',backgroundColor:'#12151b'}}>
+  <Pressable accessibilityRole="button" accessibilityLabel={`Your invite code is ${s.code.split('').join(' ')}. Tap to copy`} onPress={()=>copyText(s.code,'Code copied')} style={({pressed})=>({gap:4,alignItems:'center',paddingVertical:14,borderRadius:14,borderWidth:1,borderColor:'#2a2f39',backgroundColor:'#12151b',opacity:pressed?0.7:1})}>
    <Text style={{color:colors.muted,fontSize:13}}>Your invite code</Text>
-   <Text selectable accessibilityLabel={`Your invite code is ${s.code.split('').join(' ')}`} style={{color:colors.text,fontSize:28,fontWeight:'800',letterSpacing:2}}>{s.code}</Text>
-  </View>
+   <Text style={{color:colors.text,fontSize:28,fontWeight:'800',letterSpacing:2}}>{s.code}</Text>
+   <Text style={{color:colors.muted,fontSize:12.5}}>Tap to copy</Text>
+  </Pressable>
   <Button title="Share my code" onPress={()=>{void Share.share({message:s.message}).catch(()=>{});}}/>
+  <Button secondary title="Copy my code" onPress={()=>copyText(s.code,'Code copied')}/>
   <View style={{gap:6}}>
    <Copy strong>What you get</Copy>
    <Copy>{INVITE.joinQuestions} free Ask BAK questions each time a friend signs up with your code and adds their bike.</Copy>
@@ -39,11 +43,11 @@ export function InviteCard({name=''}:{name?:string}){
   {s.months.map(m=><View key={m.seq} style={{gap:2,padding:12,borderRadius:12,borderWidth:1,borderColor:'#2a2f39'}}>
    <Copy strong>Free month of {plan(m.tier)}</Copy>
    {m.how==='unlock'?<Copy>{m.ends_at&&Date.parse(m.ends_at)>Date.now()?`${plan(m.tier)} is open on your account until ${day(m.ends_at)}.`:`Used. It ended ${day(m.ends_at)}.`}</Copy>
-    :m.offer_code?<><Text selectable style={{color:colors.text,fontSize:18,fontWeight:'800',letterSpacing:1}}>{m.offer_code}</Text><Copy>Redeem this code in your phone’s store to get the month free.</Copy></>
+    :m.offer_code?<><Text onPress={()=>copyText(m.offer_code!,'Code copied')} style={{color:colors.text,fontSize:18,fontWeight:'800',letterSpacing:1}}>{m.offer_code}</Text><Copy>Redeem this code in your phone’s store to get the month free.</Copy></>
     :<Copy>Earned. Your store code is on its way and will show here.</Copy>}
   </View>)}
   {s.can_enter&&<View style={{gap:10,paddingTop:4}}>
-   <Field label="Have a friend’s code?" placeholder="Their code" autoCapitalize="characters" autoCorrect={false} value={code} onChangeText={v=>setCode(v.toUpperCase().replace(/[^A-Z0-9-]/g,'').slice(0,13))}/>
+   <Field label="Have a friend’s code?" placeholder="Their code" autoCapitalize="characters" autoCorrect={false} value={code} onChangeText={v=>setCode(inviteCodeFromText(v))}/>
    <Button secondary disabled={busy||!code.trim()} title="Save their code" onPress={()=>void enter()}/>
   </View>}
   <Notice text={done}/>

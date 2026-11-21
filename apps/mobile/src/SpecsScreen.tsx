@@ -1,6 +1,7 @@
 // Specs on the phone, in rider words: the values riders look up most, their own settings next to stock, then every
 // published value grouped by part of the bike, one plain row each. Same wording rules as the website (shared/specs-view).
 import React,{useEffect,useMemo,useState} from 'react';
+import {CopyText} from './copy';
 import {ActivityIndicator,Linking,Text,View} from 'react-native';
 import {Pressable} from './Touch';
 import {api} from './api';
@@ -17,7 +18,7 @@ function Row({r,open,onToggle}:{r:SpecRow;open:boolean;onToggle:()=>void}){
  return <View style={{borderTopWidth:1,borderTopColor:colors.line}}>
   <Pressable accessibilityRole="button" accessibilityState={{expanded:open}} accessibilityLabel={`${r.name}, ${r.value||'no value'}`} onPress={onToggle} style={{paddingVertical:11,flexDirection:long?'column':'row',justifyContent:'space-between',alignItems:long?'flex-start':'center',gap:long?3:12}}>
    <Text style={{color:colors.text,fontSize:15,lineHeight:21,flex:long?undefined:1}}>{r.name}</Text>
-   <Text selectable style={{color:colors.text,fontSize:15,lineHeight:21,fontWeight:'700',textAlign:long?'left':'right',maxWidth:long?undefined:'48%'}}>{r.value||'—'}</Text>
+   <CopyText style={{color:colors.text,fontSize:15,lineHeight:21,fontWeight:'700',textAlign:long?'left':'right',maxWidth:long?undefined:'48%'}}>{r.value||'—'}</CopyText>
   </Pressable>
   {open&&<View style={{paddingBottom:12,gap:6}}>
    {!!r.note&&<Copy>{r.note}</Copy>}
@@ -42,8 +43,8 @@ export function SpecsView({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
   <Notice text={notice}/>
   {!!rows.length&&<>
    {(oil||quick.length>0)&&<View style={{flexDirection:'row',flexWrap:'wrap',gap:10}}>
-    {oil&&<View style={{width:'100%',padding:16,borderRadius:18,backgroundColor:'#12141a',borderWidth:1,borderColor:'rgba(255,255,255,.08)',gap:4}}><Text style={label}>Engine oil</Text>{!!oil.amount&&<Text selectable style={{color:colors.text,fontSize:22,fontWeight:'800'}}>{oil.amount}</Text>}{!!oil.grade&&<Text selectable style={{color:colors.text,fontSize:15,lineHeight:21}}>{oil.grade}</Text>}</View>}
-    {quick.map(t=><View key={t.label} style={{flexBasis:'47%',flexGrow:1,padding:14,borderRadius:18,backgroundColor:'#12141a',borderWidth:1,borderColor:'rgba(255,255,255,.08)',gap:4}}><Text style={label}>{t.label}</Text><Text selectable numberOfLines={3} style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:22}}>{t.value}</Text></View>)}
+    {oil&&<View style={{width:'100%',padding:16,borderRadius:18,backgroundColor:'#12141a',borderWidth:1,borderColor:'rgba(255,255,255,.08)',gap:4}}><Text style={label}>Engine oil</Text>{!!oil.amount&&<CopyText style={{color:colors.text,fontSize:22,fontWeight:'800'}}>{oil.amount}</CopyText>}{!!oil.grade&&<CopyText style={{color:colors.text,fontSize:15,lineHeight:21}}>{oil.grade}</CopyText>}</View>}
+    {quick.map(t=><View key={t.label} style={{flexBasis:'47%',flexGrow:1,padding:14,borderRadius:18,backgroundColor:'#12141a',borderWidth:1,borderColor:'rgba(255,255,255,.08)',gap:4}}><Text style={label}>{t.label}</Text><CopyText numberOfLines={3} style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:22}}>{t.value}</CopyText></View>)}
    </View>}
    <Card>
     <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Eyebrow>YOUR SETTINGS NOW</Eyebrow><Pressable accessibilityRole="button" hitSlop={8} onPress={onGarage}><Text style={{color:colors.text,fontSize:14,fontWeight:'700'}}>{mine.any?'Update':'Add yours'}</Text></Pressable></View>
