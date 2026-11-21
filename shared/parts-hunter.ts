@@ -16,19 +16,28 @@ const hits=(text:string,patterns:string[])=>patterns.every(p=>new RegExp(`(^|[^a
 
 export type FoundPart={kind:'factory'|'aftermarket';brand:string;name:string;part_number:string;where:string;stores:StoreLink[]};
 export type StoreLink={store:string;url:string;how:'listing'|'search'};
-/** Search pages checked by hand 2026-11-21 (each opened and returned results for a real search). */
-const SEARCH:{store:string;url:(q:string)=>string;factory:boolean;aftermarket:boolean}[]=[
- {store:'Rocky Mountain ATV/MC',url:q=>`https://www.rockymountainatvmc.com/search?term=${q}`,factory:true,aftermarket:true},
- {store:'MotoSport',url:q=>`https://www.motosport.com/search?textsearch=${q}`,factory:true,aftermarket:true},
- {store:'Partzilla',url:q=>`https://www.partzilla.com/search?q=${q}`,factory:true,aftermarket:false},
-];
-/** Where to buy: store pages already on file for this exact part first, then each store's own search for the part
- *  number (or brand and name when there is no number). A factory part with no part number gets no links. */
+/** Where to buy. Checked by hand on 2026-11-21 with real part numbers from the parts lists on file, because a store
+ *  that cannot look a part up by the maker's number is no use (Kyle: "just pulling the store with a part number they
+ *  can't identify isn't really a tool"):
+ *  - MotoSport has a page per factory part number for Honda, Yamaha, Kawasaki, KTM, Husqvarna and GasGas (not Triumph).
+ *  - Partzilla's search finds the exact factory part for Honda, Yamaha, Kawasaki and Suzuki (it does not sell KTM-group or Triumph).
+ *  - Rocky Mountain's search does NOT understand factory part numbers (it returned unrelated products), so it is not used for them.
+ *  - Aftermarket parts carry the store pages already on file for that exact product; nothing is guessed. */
+const MOTOSPORT_OEM=new Set(['honda','yamaha','kawasaki','ktm','husqvarna','gasgas']);
+const PARTZILLA_OEM=new Set(['honda','yamaha','kawasaki','suzuki']);
+const NOT_A_STORE=/scene7|cloudfront|cdn\.|\.(png|jpe?g|webp|pdf)(\?|$)/i;
 export function storeLinks(p:{kind:'factory'|'aftermarket';brand:string;name:string;part_number:string;links?:{seller:string;url:string}[]}):StoreLink[]{
  const out:StoreLink[]=[];const seen=new Set<string>();
- for(const l of p.links??[]){if(!/^https:\/\//.test(l.url)||seen.has(l.seller))continue;seen.add(l.seller);out.push({store:l.seller,url:l.url,how:'listing'});}
- const q=p.part_number.trim()||(p.kind==='aftermarket'?`${p.brand} ${p.name}`.trim():'');if(!q)return out;
- for(const s of SEARCH){if(!(p.kind==='factory'?s.factory:s.aftermarket)||seen.has(s.store))continue;out.push({store:s.store,url:s.url(encodeURIComponent(q.slice(0,80))),how:'search'});}
+ for(const l of p.links??[]){if(!/^https:\/\//.test(l.url)||NOT_A_STORE.test(l.url)||NOT_A_STORE.test(l.seller)||seen.has(l.seller))continue;seen.add(l.seller);out.push({store:l.seller,url:l.url,how:'listing'});if(out.length>=4)break;}
+ const pn=p.part_number.trim();
+ if(p.kind==='factory'){
+  if(!pn)return out;const make=p.brand.toLowerCase().replace(/[^a-z]/g,'');
+  if(MOTOSPORT_OEM.has(make))out.push({store:'MotoSport',url:`https://www.motosport.com/oem-parts/part-number/${encodeURIComponent(pn)}`,how:'listing'});
+  if(PARTZILLA_OEM.has(make))out.push({store:'Partzilla',url:`https://www.partzilla.com/search?q=${encodeURIComponent(pn)}`,how:'listing'});
+  return out;
+ }
+ // An aftermarket part with no store page on file: a word search by brand and name at a store whose search takes words.
+ if(!out.length){const q=encodeURIComponent(`${p.brand} ${p.name}`.trim().slice(0,80));if(q)out.push({store:'MotoSport',url:`https://www.motosport.com/search?textsearch=${q}`,how:'search'});}
  return out;
 }
 /** Aftermarket parts on this bike's list that match the rider's words, best match first. Payout is never an input. */

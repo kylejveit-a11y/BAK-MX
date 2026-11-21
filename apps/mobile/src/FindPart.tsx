@@ -21,9 +21,9 @@ let pending='';const waiting=new Set<(q:string)=>void>();
 export function openFindPart(query:string,go:()=>void){pending=query;go();waiting.forEach(f=>f(query));}
 
 function Stores({stores}:{stores:StoreLink[]}){
- if(!stores.length)return <Copy>No part number on file, so BAK can’t point you at a store for this one.</Copy>;
+ if(!stores.length)return <Copy>BAK hasn’t found a store that can look this one up by its number. Copy the part number and give it to your dealer.</Copy>;
  return <View style={{gap:2}}>{stores.map(s=><LinkAction key={s.store} title={s.how==='listing'?`${s.store}: this part`:`Search ${s.store}`} onPress={()=>{void Linking.openURL(s.url).catch(()=>{});}}/>)}
-  <Text style={{color:colors.muted,fontSize:12.5,lineHeight:17}}>Opens the store. Check the fit for your year there before you order. BAK shows no prices and earns nothing from these links.</Text></View>;
+  <Text style={{color:colors.muted,fontSize:12.5,lineHeight:17}}>Opens that part’s page at the store. Check the fit for your year there before you order. BAK earns nothing from these links.</Text></View>;
 }
 function Row({p,saved,onSave,busy}:{p:FoundPart;saved:boolean;onSave:()=>void;busy:boolean}){
  const [open,setOpen]=useState(false);

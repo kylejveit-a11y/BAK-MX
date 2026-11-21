@@ -134,7 +134,7 @@ let sent=false;
 /** Answers one /api call: {status,body} for JSON or {status,events} for the streamed chat. q has get(name). */
 let addedBike=null,savedParts=[];
 let invite={code:'KYLE-7Q2',link:'https://bakmx.com/invite/KYLE-7Q2',message:'Come ride with me on BAK MX: specs, setup and answers for your exact bike. Use my code KYLE-7Q2 when you sign up: https://bakmx.com/invite/KYLE-7Q2',joined:4,waiting:1,questions_earned:40,paying:3,months_earned:1,months:[{seq:1,tier:'premium',how:'unlock',ends_at:new Date(Date.now()+18*864e5).toISOString(),offer_code:null}],invited_by:false,can_enter:true};
-const stores=(pn,factory)=>[{store:'Rocky Mountain ATV/MC',url:'https://www.rockymountainatvmc.com/search?term='+pn,how:'search'},{store:'MotoSport',url:'https://www.motosport.com/search?textsearch='+pn,how:'search'},...(factory?[{store:'Partzilla',url:'https://www.partzilla.com/search?q='+pn,how:'search'}]:[])];
+const stores=(pn,factory)=>factory?[{store:'MotoSport',url:'https://www.motosport.com/oem-parts/part-number/'+pn,how:'listing'}]:[{store:'MotoSport',url:'https://www.motosport.com/search?textsearch='+pn,how:'listing'}];
 function respond(p,q,method,post){
  if(p==='/api/bikes'){if(method==='POST')addedBike={...bike,...(post||{}),id:bike.id};return J(method==='GET'?(NEW_RIDER?(addedBike?[addedBike]:[]):LONG_BIKE?[bike,bike2,bike3]:[bike,bike2]):{...(addedBike||bike)});}
  if(p==='/api/invite')return J(invite);

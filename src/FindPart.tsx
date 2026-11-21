@@ -19,9 +19,9 @@ let pending='';
 export function openFindPart(query:string){pending=query;window.dispatchEvent(new CustomEvent('bak:find-part',{detail:query}));}
 
 function Stores({stores}:{stores:StoreLink[]}){
- if(!stores.length)return <p className="subtle">No part number on file, so BAK can’t point you at a store for this one.</p>;
+ if(!stores.length)return <p className="subtle">BAK hasn’t found a store that can look this one up by its number. Copy the part number and give it to your dealer.</p>;
  return <div style={{display:'grid',gap:6}}>{stores.map(s=><a key={s.store} href={s.url} target="_blank" rel="noreferrer">{s.how==='listing'?`${s.store}: this part`:`Search ${s.store}`}</a>)}
-  <small className="subtle">Opens the store. Check the fit for your year there before you order. BAK shows no prices and earns nothing from these links.</small></div>;
+  <small className="subtle">Opens that part’s page at the store. Check the fit for your year there before you order. BAK earns nothing from these links.</small></div>;
 }
 const linkBtn:React.CSSProperties={background:'none',border:0,padding:0,color:'inherit',fontWeight:700,cursor:'pointer',font:'inherit'};
 function Row({p,saved,onSave,busy}:{p:FoundPart;saved:boolean;onSave:()=>void;busy:boolean}){

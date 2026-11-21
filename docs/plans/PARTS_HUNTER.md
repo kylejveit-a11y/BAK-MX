@@ -46,3 +46,13 @@ Live prices, stock, ordering and order tracking. These need agreements with stor
 ## Kyle's answers (2026-11-21)
 
 Approved. Stores: Rocky Mountain ATV/MC, MotoSport, Partzilla (factory parts), and the part maker's own site. The Ask BAK line is included.
+
+## Where to buy, corrected 2026-11-21 (Kyle's test on build 185)
+
+Kyle found the store links pulled nothing. Checked each store with real factory part numbers from the parts lists on file:
+- Rocky Mountain ATV/MC: its search does not understand factory part numbers (searching `06435-MKE-AA1` showed "You Searched: 06435 Mke" and unrelated products). Removed for factory parts.
+- MotoSport: has a page per factory part number at `/oem-parts/part-number/<number>`. Worked for Honda, Yamaha, Kawasaki, KTM, Husqvarna and GasGas numbers; Triumph numbers returned not found.
+- Partzilla: search finds the exact part for Honda, Yamaha, Kawasaki and Suzuki numbers; nothing for KTM-group or Triumph (it does not sell them).
+- Aftermarket: every part on the lists already carries the store page it was found on, so those pages are used and nothing is searched. Image-host links are dropped.
+- Triumph factory parts: no checked store yet; the app says so and offers Copy.
+Stores identify aftermarket parts by their own stock numbers; BAK does not have those, which is why only pages already on file are linked.

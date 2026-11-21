@@ -11,7 +11,7 @@ import {canonBrand,cleanName} from '../shared/parts-picker.ts';
 import {collectPages} from './pagination.ts';
 import {HttpError,readJson,uuid} from './validation.ts';
 import {termPatterns,storeLinks,findAftermarket,type FoundPart} from '../shared/parts-hunter.ts';
-import {decodeFamily,familyOf} from '../shared/parts-picker.ts';
+import {decodeFamily,familyOf,type CatalogPart} from '../shared/parts-picker.ts';
 import {loadFamily} from './part-options.ts';
 import {objectionable} from './content-rules.ts';
 import {exactBikeScope} from '../shared/bike-identity.ts';
@@ -408,7 +408,12 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
  }
  if(path==='/api/saved-parts'){
   if(method==='GET'){const rows=checked(await db.from('saved_parts').select('id,bike_id,kind,brand,name,part_number,created_at').eq('user_id',owner).eq('bike_id',id('bike_id')).order('created_at',{ascending:false}).limit(200)) as Row[]|null;
-   return json((rows??[]).map(r=>({...r,stores:storeLinks({kind:r.kind as 'factory'|'aftermarket',brand:String(r.brand),name:String(r.name),part_number:String(r.part_number)})})));}
+   // A saved aftermarket part gets back the store pages on file for that exact product.
+   const hasAftermarket=(rows??[]).some(r=>r.kind==='aftermarket');let list:CatalogPart[]|null=null;
+   if(hasAftermarket){const bike=checked(await db.from('bikes').select('manufacturer,model,model_year').eq('id',id('bike_id')).eq('user_id',owner).maybeSingle()) as Row|null;const family=bike?familyOf(String(bike.manufacturer)):null;
+    if(bike&&family)list=await loadFamily(family).then(f=>f?decodeFamily(f,String(bike.manufacturer),String(bike.model),Number(bike.model_year)):null).catch(()=>null);}
+   const linksFor=(r:Row)=>r.kind==='aftermarket'?list?.find(p=>p.brand===r.brand&&p.name===r.name&&p.pn===r.part_number)?.links:undefined;
+   return json((rows??[]).map(r=>({...r,stores:storeLinks({kind:r.kind as 'factory'|'aftermarket',brand:String(r.brand),name:String(r.name),part_number:String(r.part_number),links:linksFor(r)})})));}
   if(method==='POST'){const b=savedPartSchema.parse(await readJson(req));
    const bike=checked(await db.from('bikes').select('id').eq('id',b.bike_id).eq('user_id',owner).maybeSingle());if(!bike)throw new HttpError(404,'Bike not found');
    const r=await db.from('saved_parts').upsert({user_id:owner,...b},{onConflict:'user_id,bike_id,kind,brand,name,part_number',ignoreDuplicates:true});if(r.error)throw r.error;return json({saved:true},201);}

@@ -11,14 +11,18 @@ test('find a part: rider words become patterns that match factory short forms',(
  assert.ok(!termPatterns('front brake pads').every(p=>re(p).test('PAD SET, RR. BRAKE')));
  assert.equal(termPatterns('a.*b); drop table').join(' ').includes('*'),false);
 });
-test('find a part: where to buy uses pages on file first, then each store search by part number',()=>{
- const links=storeLinks({kind:'aftermarket',brand:'Galfer',name:'Brake pads',part_number:'FD326G1054',links:[{seller:'MotoSport',url:'https://www.motosport.com/galfer-pads'}]});
- assert.deepEqual(links.map(l=>[l.store,l.how]),[['MotoSport','listing'],['Rocky Mountain ATV/MC','search']]);
- assert.equal(links[1].url,'https://www.rockymountainatvmc.com/search?term=FD326G1054');
- const f=storeLinks({kind:'factory',brand:'Honda',name:'PAD SET, RR. BRAKE',part_number:'06435-MEN-A41'});
- assert.deepEqual(f.map(l=>l.store),['Rocky Mountain ATV/MC','MotoSport','Partzilla']);assert.equal(f[2].url,'https://www.partzilla.com/search?q=06435-MEN-A41');
+test('find a part: where to buy only points at stores that can look the part up',()=>{
+ const am=storeLinks({kind:'aftermarket',brand:'Galfer',name:'Brake pads',part_number:'FD326G1054',links:[{seller:'MotoSport',url:'https://www.motosport.com/galfer-pads'},{seller:'s7d1.scene7.com',url:'https://s7d1.scene7.com/is/image/x'}]});
+ assert.deepEqual(am.map(l=>[l.store,l.how]),[['MotoSport','listing']]);
+ const honda=storeLinks({kind:'factory',brand:'Honda',name:'PAD SET, RR.',part_number:'06435-MKE-AA1'});
+ assert.deepEqual(honda.map(l=>l.url),['https://www.motosport.com/oem-parts/part-number/06435-MKE-AA1','https://www.partzilla.com/search?q=06435-MKE-AA1']);
+ assert.deepEqual(storeLinks({kind:'factory',brand:'KTM',name:'Brake pad rear',part_number:'79013090100'}).map(l=>l.store),['MotoSport']);
+ assert.deepEqual(storeLinks({kind:'factory',brand:'GasGas',name:'Air filter',part_number:'A46006015000'}).map(l=>l.store),['MotoSport']);
+ assert.deepEqual(storeLinks({kind:'factory',brand:'Triumph',name:'Pad',part_number:'A9610139'}),[]);
  assert.deepEqual(storeLinks({kind:'factory',brand:'Honda',name:'BOLT',part_number:''}),[]);
- assert.ok(storeLinks({kind:'aftermarket',brand:'Pro Taper',name:'Pillow Top grips',part_number:''})[0].url.endsWith('term=Pro%20Taper%20Pillow%20Top%20grips'));
+ assert.ok(honda.every(l=>!/rockymountain/.test(l.url)));
+ const bare=storeLinks({kind:'aftermarket',brand:'Pro Taper',name:'Pillow Top grips',part_number:''});
+ assert.equal(bare.length,1);assert.equal(bare[0].how,'search');assert.ok(bare[0].url.endsWith('textsearch=Pro%20Taper%20Pillow%20Top%20grips'));
 });
 test('find a part: only parts on the bike list that match every word, no duplicates',()=>{
  const list=[part('Galfer','Rear brake pads','A'),part('Galfer','Front brake pads','B'),part('Renthal','Rear sprocket','C'),part('Galfer','Rear brake pads','A')];
