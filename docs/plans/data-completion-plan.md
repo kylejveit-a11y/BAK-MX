@@ -218,3 +218,14 @@ Planning skipped (rider's words plus stock lookups): 21.7 s, first word 8.3 s, 1
 34 answers cited fewer values, 9 more, and 14 lost every factory value they had. Median saving 2.5 s.
 Verdict: not worth it; planning stays. The provider lists no smaller sibling of the current model, so "a faster planning
 model" is not available as a simple switch; its paid fast mode (2x price) is the only speed lever left on that step.
+
+## First-login setup flow (built 2026-11-21, phone app; ships in the next app build)
+`apps/mobile/src/Welcome.tsx` (FirstLoginSetup) + `shared/welcome-flow.ts`, mounted on Home by WelcomeGate. Shown once, only to
+an account with no bike (existing riders never see it). Steps: name (optional) -> bike (pick it, "I'm still shopping for one",
+or "My bike isn't listed" which opens the Garage form) -> weight, level, riding, usual dirt (saved on the bike) -> units,
+answer length, tone (rider preferences) -> app color -> "Show me around" starts the existing 30-second tour.
+"Skip setup" at the top at every step; the rider, answers and color steps have "Skip this"; the bike step needs an answer.
+Checked: typecheck, tests, iOS bundle export. NOT yet seen on a device or simulator. Not built: the same flow on the website;
+a Home-blocks / widgets question (Home reads its layout once at mount, so it needs a small change first); notifications ask.
+Next on the parked list: invite-a-friend, then the 1.0.12 build; parts hunter and specialist agents get a design for Kyle
+to approve first; affiliate applications after the Google launch (Kyle, 2026-11-21).

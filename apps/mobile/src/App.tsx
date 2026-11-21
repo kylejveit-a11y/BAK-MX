@@ -65,6 +65,8 @@ import {setHapticsEnabled} from './haptics';
 import {RacePlate} from './RacePlate';
 import {RacePrepSheet,RacePrepBlock} from './RacePrep';
 import {FirstSetupSheet,needsFirstSetup} from './FirstSetup';
+import {FirstLoginSetup} from './Welcome';
+import {shouldShowWelcome} from '../../../shared/welcome-flow';
 import {PracticeDayHome} from './PracticeDay';
 import {HomeEditor,useHomeLayout,useRaceDay,readRace,readRaceDay,RaceCountdown,useRaceWidget,daysToGo,RaceDayHome,RaceDayStart,UpNextBlock,CoachingBlock,type HomeBlock} from './HomeBlocks';
 import {themeFor,allThemes,type ThemeMode} from '../../../shared/brand-theme';
@@ -240,6 +242,21 @@ function CommunityTab({navigation,route}:BottomTabScreenProps<Tabs,'Community'>)
 function EventsTab({navigation}:BottomTabScreenProps<Tabs,'Events'>){return <EventsScreen onMessage={rider=>navigation.navigate('Messages',{rider})}/>;}
 function MessagesTab({navigation,route}:BottomTabScreenProps<Tabs,'Messages'>){return <MessagesScreen startWith={route.params?.rider} onStarted={()=>navigation.setParams({rider:undefined})}/>;}
 function WorkshopJob({navigation}:BottomTabScreenProps<Tabs,'Workshop'>){const{bike,session}=useContext(Ctx);return <WorkshopScreen bike={bike} ownerId={session.user.id} onAddBike={()=>navigation.navigate('Garage')} onPhotoCheck={check=>navigation.navigate('Ask BAK',{mode:'ask',photoCheck:check,photoCheckToken:randomUUID()})} onAsk={context=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',context:`Help me with this workshop step on my ${bike.model_year} ${bike.manufacturer} ${bike.model}, ${bike.variant}, ${bike.region}.\n\n${context}`,contextToken:randomUUID(),contextBikeId:bike.id});}}/>;}
+/** First-login setup, shown once to an account with no bike (see Welcome.tsx). Lives on Home because Home is where a new
+ *  rider lands; it covers the whole screen until they finish or skip. */
+function WelcomeGate({toGarage}:{toGarage:()=>void}){
+ const{bikes,session,bikesLoaded,select,reload,colorMode,setColorMode}=useContext(Ctx),account=session.user.id;
+ const [done,setDone]=useProgress(account,'welcome-v1',false),[name,setNameState]=useProgress(account,'rider-name',readProgress<string>(DEVICE,'apple-name','')),[started,setStarted]=useState(false);
+ // The name also pre-fills the rider profile form later (it reads the same key Sign in with Apple fills).
+ const setName=(n:string)=>{setNameState(n);if(n)try{writeProgress(DEVICE,'apple-name',n);}catch{}};
+ const show=shouldShowWelcome({done,bikesLoaded,bikeCount:bikes.length,started});
+ useEffect(()=>{if(show&&!started)setStarted(true);},[show,started]);
+ if(!show)return null;
+ const finish=(how:'tour'|'app'|'skipped')=>{setDone(true);try{writeProgress(account,'tour-offer-v1',{answered:true});}catch{}if(how==='tour')setTimeout(startTour,350);};
+ return <FirstLoginSetup visible name={name} onName={setName} colorMode={colorMode} setColorMode={setColorMode}
+  onBike={async b=>{await reload().catch(()=>{});select(b.id);}} onShopping={()=>{try{writeProgress(account,'still-shopping',true);}catch{}}}
+  onUnlisted={()=>{setDone(true);toGarage();}} onFinish={finish}/>;
+}
 function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,session,bikesLoaded,bikesError,select,reload}=useContext(Ctx);
  const {layout,save,reset}=useHomeLayout(session.user.id),{race,start,end,isToday,upcoming,setNext}=useRaceDay(session.user.id),[editing,setEditing]=useState(false),[starting,setStarting]=useState<false|'race'|'practice'>(false),[prepOpen,setPrepOpen]=useState(false);
  const ask=(text:string)=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',context:text,contextToken:randomUUID(),contextBikeId:bike.id});};
@@ -305,6 +322,7 @@ function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,s
  </View>
  {bike&&<RacePrepSheet visible={prepOpen} onClose={()=>setPrepOpen(false)} account={session.user.id} bike={bike} startPhase={upcoming?phaseForDaysOut(daysToGo(race.day)):'week'}/>}
  <HomeEditor visible={editing} layout={layout} onChange={save} onReset={reset} onClose={()=>setEditing(false)}/>
+ <WelcomeGate toGarage={()=>navigation.navigate('Garage')}/>
  {bike&&<FirstSetupSheet visible={firstOpen} bike={bike} onClose={()=>setFirstOpen(false)} onSaved={()=>{void reload().catch(()=>{});}} onAsk={q=>navigation.navigate('Ask BAK',{mode:'setup',prompt:q,promptToken:randomUUID()})}/>}
  {bike&&<RaceDayStart visible={!!starting} initialKind={starting||'race'} bike={bike} bikes={bikes} onSwitch={select} onClose={()=>setStarting(false)} onStart={(t,d,w,k)=>{start(t,d,w,k);setStarting(false);}}/>}
  </Page>}
