@@ -4,7 +4,7 @@
 // still shopping); everything else has "Skip this", and "Skip setup" at the top leaves at any point. Nothing here is a new
 // setting: each answer is saved through the same place the Garage and Account screens use, so it can be changed there.
 import React,{useState} from 'react';
-import {Keyboard,Modal,ScrollView,StyleSheet,Text,TextInput,View} from 'react-native';
+import {Keyboard,KeyboardAvoidingView,Modal,Platform,ScrollView,StyleSheet,Text,TextInput,View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import type {Bike} from '../../../shared/types';
 import type {ThemeMode} from '../../../shared/brand-theme';
@@ -82,7 +82,7 @@ export function FirstLoginSetup({visible,name,onName,colorMode,setColorMode,onBi
    <Pressable accessibilityRole="button" accessibilityLabel={pick?`Bike: ${pick.year} ${pick.make} ${pick.model}. Tap to change`:'Choose your bike'} disabled={busy} onPress={()=>setWheel(true)} style={({pressed})=>({borderWidth:1,borderColor:pick?colors.accent:'#2a2f39',backgroundColor:'#0e1015',borderRadius:16,paddingVertical:16,paddingHorizontal:16,gap:3,opacity:pressed||busy?0.7:1})}>
     <Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>Bike</Text><Text style={{color:pick?colors.text:colors.accent,fontSize:19,fontWeight:'800'}}>{pick?`${pick.year} ${pick.make} ${pick.model}`:'Choose your bike'}</Text></Pressable>
    <BikeWheel visible={wheel} makes={sortBikeNames(Object.keys(models))} modelsFor={m=>models[m]??[]} yearsFor={garageModelYears} initial={pick??undefined} onClose={()=>setWheel(false)} footer={{label:'My bike isn’t listed',onPress:()=>{setWheel(false);onUnlisted();}}} onDone={b=>{setWheel(false);setPick(b);}}/>
-   <Pressable accessibilityRole="button" disabled={busy} onPress={()=>{setShopping(true);onShopping();go('answers');}} hitSlop={6}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>I’m still shopping for one</Text><Text style={{color:colors.muted,fontSize:13,marginTop:2}}>Fine. Add your bike from the Garage when you have it.</Text></Pressable></>,
+   <Pressable accessibilityRole="button" disabled={busy} onPress={()=>{setShopping(true);onShopping();go('answers');}} style={{borderWidth:1,borderColor:'#2a2f39',borderRadius:14,paddingVertical:14,paddingHorizontal:16,backgroundColor:'#12151b'}}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>I’m still shopping for one</Text><Text style={{color:colors.muted,fontSize:13,marginTop:2}}>Fine. Add your bike from the Garage when you have it.</Text></Pressable></>,
   you:<>{title('A little about you',bike?`BAK sets the ${bike.model_year} ${bike.manufacturer} ${bike.model} up for your weight, level and the riding you do.`:undefined)}
    <View style={{gap:10}}>{label('Weight in riding gear','Boots, helmet, the lot. Springs and sag come from this.')}
     <View style={{flexDirection:'row',alignItems:'flex-end',gap:8}}><TextInput value={weight} onChangeText={v=>setWeight(v.replace(/[^0-9]/g,'').slice(0,3))} keyboardType="number-pad" returnKeyType="done" onSubmitEditing={()=>Keyboard.dismiss()} placeholder="185" placeholderTextColor="#7d8593" accessibilityLabel="Weight in riding gear, pounds" style={{color:colors.text,fontSize:25.5,...DISPLAY,borderBottomWidth:1,borderBottomColor:colors.accent,paddingVertical:6,minWidth:110}}/><Text style={{color:colors.muted,fontSize:16,paddingBottom:12}}>lb</Text></View></View>
@@ -117,20 +117,20 @@ export function FirstLoginSetup({visible,name,onName,colorMode,setColorMode,onBi
  // The bike step has no "Skip this": the rider picks a bike or says they are still shopping.
  const skippable=step==='you'||step==='answers'||step==='look'||step==='home'||step==='alerts';
  return <Modal visible={visible} animationType="fade" presentationStyle="fullScreen" onRequestClose={()=>{if(at>0)back();}}>
-  <View style={{flex:1,backgroundColor:colors.bg,paddingTop:insets.top}}>
+  <KeyboardAvoidingView behavior={Platform.OS==='ios'?'padding':undefined} style={{flex:1,backgroundColor:colors.bg,paddingTop:insets.top}}>
    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:20,paddingVertical:12}}>
     {at>0&&step!=='done'?<Pressable accessibilityRole="button" onPress={back} hitSlop={10}><Text style={{color:colors.muted,fontSize:16}}>Back</Text></Pressable>:<View/>}
     <View accessible accessibilityLabel={`Step ${at+1} of ${steps.length}`} style={{flexDirection:'row',gap:6}}>{steps.map((s,i)=><View key={s} style={{width:i===at?18:6,height:6,borderRadius:3,backgroundColor:i<=at?colors.accent:'#2a2f39'}}/>)}</View>
     {step!=='done'?<Pressable accessibilityRole="button" accessibilityHint="Leaves setup. You can fill everything in later from the Garage and Account." onPress={()=>onFinish('skipped')} hitSlop={10}><Text style={{color:colors.muted,fontSize:16}}>Skip setup</Text></Pressable>:<View/>}
    </View>
-   <ScrollView keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets style={{flex:1}} contentContainerStyle={{padding:20,paddingTop:14,paddingBottom:24,gap:22}}>{body[step]}</ScrollView>
+   <ScrollView keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" style={{flex:1}} contentContainerStyle={{padding:20,paddingTop:14,paddingBottom:24,gap:22}}>{body[step]}</ScrollView>
    <View style={{paddingHorizontal:20,paddingTop:12,paddingBottom:Math.max(insets.bottom,12)+8,gap:10,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',backgroundColor:colors.bg}}>
-    <Notice text={notice} tone={notice?'warn':undefined}/>
+    <Notice text={notice&&step==='hello'?`${notice} Or clear the code box to carry on without one.`:notice} tone={notice?'warn':undefined}/>
     <Button title={primary[step].title} disabled={primary[step].disabled} onPress={primary[step].onPress}/>
     {skippable&&<Pressable accessibilityRole="button" disabled={busy} onPress={next} hitSlop={6} style={{alignSelf:'center',paddingVertical:4}}><Text style={{color:colors.muted,fontSize:15}}>Skip this</Text></Pressable>}
     {step==='done'&&<Pressable accessibilityRole="button" onPress={()=>onFinish('app')} hitSlop={6} style={{alignSelf:'center',paddingVertical:4}}><Text style={{color:colors.muted,fontSize:15}}>No thanks, take me to the app</Text></Pressable>}
    </View>
-  </View>
+  </KeyboardAvoidingView>
  </Modal>;
 }
 export {WELCOME_STEPS};

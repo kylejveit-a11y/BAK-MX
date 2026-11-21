@@ -656,7 +656,7 @@ function Ride({navigation,route}:BottomTabScreenProps<Tabs,'Ride'>){const{sessio
   if(race.on&&race.track&&race.track!==name)Alert.alert('Ride here today?',`This ends your ${race.kind==='practice'?'practice':'race'} day at ${race.track} and starts one at ${name}.`,[{text:'Cancel',style:'cancel'},{text:'Ride here',onPress:go}]);else go();};
  return <Page title=""><WhereToRide key={route.params?.token??'list'} initialId={route.params?.id} initialMap={!!route.params?.map} onClose={usePageBack()?.onPress} onRideToday={rideToday} onAsk={text=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',prompt:text,promptToken:randomUUID()});else navigation.navigate('Ask BAK');}}/></Page>;}
 function Specs(){const{bike}=useContext(Ctx);return <SpecsForBike key={bikeScope(bike)}/>;}
-function SpecsForBike(){const{bike,session}=useContext(Ctx);const nav=navRef,back=usePageBack();const [offerOn,setOfferOn]=useProgress(session.user.id,'parts-offer',true);return <Page title="Specs and parts" back={back}><BikeSelect/><SpecsView bike={bike} onGarage={()=>{if(nav.isReady())nav.navigate('Garage' as never);}}/><FindPartCard bike={bike} offerOn={offerOn} setOfferOn={v=>{setOfferOn(v);}}/><PartsCatalogCard bike={bike}/></Page>}
+function SpecsForBike(){const{bike,session}=useContext(Ctx);const nav=navRef,back=usePageBack();const [offerOn,setOfferOn]=useProgress(session.user.id,'parts-offer',true);return <Page title="Specs and parts" back={back}><BikeSelect/><FindPartCard bike={bike} offerOn={offerOn} setOfferOn={v=>{setOfferOn(v);}}/><SpecsView bike={bike} onGarage={()=>{if(nav.isReady())nav.navigate('Garage' as never);}}/><PartsCatalogCard bike={bike}/></Page>}
 /** While Ask BAK works (usually 20-40 s): what it is doing and how long it has been, so a long answer never looks stuck. */
 /** BAK MX's own legal and support pages. A build setting may only point somewhere on bakmx.com, so a value copied from
  *  another app (BAK Tech EMOTO is a separate product and subscription) can never send riders to the wrong support page. */
@@ -737,6 +737,7 @@ function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSum
  <View>
  {plan.usage&&plan.usage.tier!=='pro'&&<AccountRow icon="sparkle" title="Go Pro" summary="Unlimited questions, clip coaching, more photo edits" onPress={()=>{if(navRef.isReady())navRef.navigate('Pro');}}/>}
  <Section icon="pulse" title="Ask BAK plan" summary={plan.summary}><PlansCard bare onPro={()=>{if(navRef.isReady())navRef.navigate('Pro');}}/></Section>
+ <Section icon="share" title="Invite a friend" summary="Free questions and free months for bringing riders in"><InviteCard/></Section>
  <Section icon="gauge" title="App color" summary={colorMode==='bak'?'BAK blue on every bike':'Matches the bike you pick'}><AppColorCard bare/></Section>
  <Section icon="notes" title="Preferences" summary="Units, answer length, how BAK talks, vibration"><PreferencesCard bare/></Section>
  <Section icon="messages" title="Notifications" summary="Messages, comments, event reminders, service due"><NotificationsCard/></Section>
@@ -750,7 +751,6 @@ function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSum
  <Section icon="trash" title="Delete account" summary="Removes your Garage, chats and service history"><Copy>Deletion removes your Garage, conversations and service history. Cancel your subscription in the App Store before deleting your account.</Copy><Field label="Type DELETE to confirm" placeholder="DELETE" autoCapitalize="characters" value={confirm} onChangeText={setConfirm}/><Button secondary disabled={busy||confirm!=='DELETE'} title="Permanently delete account" onPress={()=>Alert.alert('Permanently delete account?','This action cannot be undone. Export your data first if you need a copy.',[{text:'Cancel',style:'cancel'},{text:'Delete account',style:'destructive',onPress:()=>void task(async()=>{await api('/api/account','DELETE',{confirmation:'DELETE'});await endShareOnSignOut();clearProgress(session.user.id);await supabase!.auth.signOut({scope:'local'});})}])}/></Section>
  <View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}/>
  </View>
- <Section icon="share" title="Invite a friend" summary="Free questions and free months for bringing riders in"><InviteCard/></Section>
  <AccountRow icon="signout" title="Sign out" summary={session.user.email??''} onPress={()=>{if(!busy)void task(async()=>{await unregisterPush();await endShareOnSignOut();const r=await supabase!.auth.signOut();if(r.error)throw r.error;});}}/></Page>}
 
 /** An Account row that opens a screen, drawn like the folding Section rows around it. */

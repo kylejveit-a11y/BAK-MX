@@ -2,7 +2,7 @@
 // where to buy each, and a saved parts list. Also the one quiet line under an Ask BAK answer that opens it.
 // Rules (Kyle): never push sales, nothing shown that is not on file for the bike, no prices BAK cannot stand behind.
 import {useCallback,useEffect,useState} from 'react';
-import {ActivityIndicator,Linking,Text,View} from 'react-native';
+import {ActivityIndicator,Linking,ScrollView,Text,View} from 'react-native';
 import {api} from './api';
 import {Button,Card,colors,Copy,Field,LinkAction,Notice,Switch} from './ui';
 import {Pressable} from './Touch';
@@ -58,10 +58,10 @@ export function FindPartCard({bike,offerOn,setOfferOn}:{bike?:Bike;offerOn:boole
  if(!bike)return null;
  const savedKeys=new Set(saved.map(keyOf));const none=found&&!found.factory.length&&!found.aftermarket.length;
  return <Card><Copy strong>Find a part</Copy>
-  <Copy>Parts on file for your {bike.model_year} {bike.model}. Type what you need.</Copy>
+  <Copy>Parts on file for your {bike.model_year} {bike.model}, and where to buy them.</Copy>
   <Field label="What do you need?" placeholder="Rear brake pads" value={q} onChangeText={setQ} returnKeyType="search" autoCorrect={false} onSubmitEditing={()=>void search(q)}/>
-  <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{QUICK.map(w=><Pressable key={w} accessibilityRole="button" onPress={()=>{setQ(w);void search(w);}} style={{paddingHorizontal:12,paddingVertical:7,borderRadius:16,borderWidth:1,borderColor:'#2a2f39'}}><Text style={{color:colors.text,fontSize:13.5}}>{w}</Text></Pressable>)}</View>
-  <Button title="Find it" disabled={busy||!q.trim()} onPress={()=>void search(q)}/>
+  <ScrollView horizontal showsHorizontalScrollIndicator={false} keyboardShouldPersistTaps="handled" contentContainerStyle={{gap:8,paddingRight:8}}>{QUICK.map(w=><Pressable key={w} accessibilityRole="button" onPress={()=>{setQ(w);void search(w);}} style={{paddingHorizontal:12,paddingVertical:7,borderRadius:16,borderWidth:1,borderColor:'#2a2f39'}}><Text style={{color:colors.text,fontSize:13.5}}>{w}</Text></Pressable>)}</ScrollView>
+  {!!q.trim()&&<Button title="Find it" disabled={busy} onPress={()=>void search(q)}/>}
   {busy&&<ActivityIndicator color={colors.accent}/>}
   <Notice text={notice} tone={notice?'warn':undefined}/>
   {none&&<Copy>{!found.has_factory_list&&!found.has_aftermarket_list?'BAK has no parts list for this exact bike yet, so there is nothing to show.':`Nothing on file for “${found.query}” on this bike. Try fewer words, like “brake pads” or “chain”.`}</Copy>}
@@ -78,10 +78,10 @@ export function FindPartCard({bike,offerOn,setOfferOn}:{bike?:Bike;offerOn:boole
     </View>
     {openSaved===s.id&&<Stores stores={s.stores}/>}
    </View>)}</View>}
-  <View style={{flexDirection:'row',alignItems:'center',gap:12,borderTopWidth:1,borderTopColor:colors.line,paddingTop:12,marginTop:6}}>
+  {(!!found||!!saved.length||!offerOn)&&<View style={{flexDirection:'row',alignItems:'center',gap:12,borderTopWidth:1,borderTopColor:colors.line,paddingTop:12,marginTop:6}}>
    <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:15,fontWeight:'600'}}>Suggest parts in Ask BAK</Text><Text style={{color:colors.muted,fontSize:13}}>One small line, at most once a chat, when an answer says a part needs replacing.</Text></View>
    <Switch value={offerOn} onValueChange={setOfferOn} accessibilityLabel="Suggest parts in Ask BAK"/>
-  </View>
+  </View>}
  </Card>;
 }
 
