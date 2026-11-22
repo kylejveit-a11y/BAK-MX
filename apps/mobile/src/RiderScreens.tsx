@@ -5,7 +5,7 @@ import {PageSheet} from './PageSheet';
 import {garageModelInfo} from '../../../shared/garage-models';
 import {PublicGarage,type PublicBike} from './GarageSharing';
 import {RacePlate} from './RacePlate';
-import {motion,DISPLAY} from './theme';
+import {motion,DISPLAY,LABEL} from './theme';
 import {usedLinkTokens} from './appLinks';
 import {PART_AREAS,partArea,niceName} from '../../../shared/specs-view';
 import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
@@ -535,14 +535,14 @@ export function PartsCatalogCard({bike}:{bike?:Bike}){
   {!catalog?<Copy>No parts catalog for this bike yet. Parts are only shown when they’re listed for your exact year and version, never borrowed from a neighboring year.</Copy>:<>
    <Copy>{catalog.assembly_count} sections · {catalog.part_count} parts{catalog.complete?'':' · not every section is listed yet'}</Copy>
    <Field label="Find an assembly" value={find} onChangeText={setFind}/>
-   {PART_AREAS.flatMap(area=>{const list=shown.filter(a=>partArea(a.name)===area);return list.length?[<Text key={'h-'+area} style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700',letterSpacing:0,marginTop:10}}>{area.charAt(0).toUpperCase()+area.slice(1)}</Text>,...list.map(a=><View key={a.id} style={{borderTopWidth:1,borderTopColor:colors.line,paddingTop:10,gap:8}}>
-    <Pressable accessibilityRole="button" accessibilityState={{expanded:open===a.id}} onPress={()=>void show(a)} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:40}}><Text style={{color:colors.text,fontSize:16,flex:1}}>{sectionName(a.name)}</Text><Icon name={open===a.id?'chevronDown':'chevronRight'} size={17} color="#adb5c1"/></Pressable>
-    {open===a.id&&<View style={{gap:8}}>
+   {PART_AREAS.flatMap(area=>{const list=shown.filter(a=>partArea(a.name)===area);return list.length?[<Text key={'h-'+area} accessibilityRole="header" style={{color:'#8b93a0',fontSize:12.5,...LABEL,letterSpacing:0.6,marginTop:12,paddingLeft:4}}>{area.charAt(0).toUpperCase()+area.slice(1)}</Text>,<Raised key={'p-'+area} radius={18}><View style={{paddingHorizontal:16}}>{list.map((a,i)=><View key={a.id} style={{borderTopWidth:i?StyleSheet.hairlineWidth:0,borderTopColor:'rgba(255,255,255,0.09)'}}>
+    <Pressable accessibilityRole="button" accessibilityState={{expanded:open===a.id}} onPress={()=>void show(a)} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:54,gap:12}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'600',flex:1}}>{sectionName(a.name)}</Text><Icon name={open===a.id?'chevronDown':'chevronRight'} size={16} color="#8f97a4"/></Pressable>
+    {open===a.id&&<View style={{gap:8,paddingBottom:14}}>
      {hasDiagram(a.diagram_url)&&<Diagram uri={a.diagram_url} title={sectionName(a.name)}/>}
      {parts===null?<Copy>Loading parts…</Copy>:!parts.length?<Copy>{notice?'The parts list didn’t load. Tap the section to try again.':'No parts listed for this section.'}</Copy>:parts.map(p=><View key={p.id} style={{flexDirection:'row',gap:10}}><Text style={{color:colors.text,width:30,fontWeight:'700'}}>{p.callout}</Text><View style={{flex:1}}><CopyText style={{color:colors.text,fontSize:15}}>{p.description}</CopyText><CopyText style={{color:colors.muted,fontSize:13}}>{[p.part_number||'No part number',p.quantity_raw&&p.quantity_raw!=='0'?`Qty ${p.quantity_raw}`:'',p.remarks].filter(Boolean).join(' · ')}</CopyText></View></View>)}
      <Copy>Quantities are per assembly, not whole-bike totals.</Copy>
     </View>}
-   </View>)]:[];})}
+   </View>)}</View></Raised>]:[];})}
   </>}
  </Card>;
 }
@@ -553,13 +553,16 @@ export function SetupGuideCard({onAsk,bike}:{onAsk?:(text:string)=>void;bike?:Bi
  const engine=bike?garageModelInfo[`${bike.manufacturer}|${bike.model}`]?.engine:undefined;
  const shownAdjusters=adjusters.filter(a=>!(engine==='4-stroke'&&a.id==='two_stroke_jetting'));
  const [view,setView]=useState<'feel'|'adjusters'>('feel'),[open,setOpen]=useState('');
- const head=(id:string,label:string,sub?:string)=><Pressable accessibilityRole="button" accessibilityState={{expanded:open===id}} onPress={()=>setOpen(open===id?'':id)} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:44,borderTopWidth:1,borderTopColor:colors.line,paddingTop:10}}><View style={{flex:1}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>{label}</Text>{!!sub&&<Text style={{color:colors.muted,fontSize:12}}>{sub}</Text>}</View><Icon name={open===id?'chevronDown':'chevronRight'} size={17} color="#adb5c1"/></Pressable>;
+ const head=(id:string,label:string,sub?:string)=><Pressable accessibilityRole="button" accessibilityState={{expanded:open===id}} onPress={()=>setOpen(open===id?'':id)} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:54,paddingVertical:10,gap:12}}><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'600'}}>{label}</Text>{!!sub&&<Text numberOfLines={1} style={{color:'#9aa2ae',fontSize:13}}>{sub}</Text>}</View><Icon name={open===id?'chevronDown':'chevronRight'} size={16} color="#8f97a4"/></Pressable>;
+ const line=(i:number)=>({borderTopWidth:i?StyleSheet.hairlineWidth:0,borderTopColor:'rgba(255,255,255,0.09)'});
  return <Card>
   <Segments value={view} items={[{value:'feel',label:'By what you feel'},{value:'adjusters',label:'By adjustment'}]} onChange={v=>{setView(v);setOpen('');}}/>
-  {view==='feel'?symptomGuides.map(g=><View key={g.id} style={{gap:8}}>{head(g.id,`“${g.rider_says[0]}”`,g.rider_says.slice(1,4).join(', '))}
-   {open===g.id&&<View style={{gap:8}}><Copy>{g.where}</Copy><Text style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700',letterSpacing:0}}>Check first</Text>{g.check_first.map((c,i)=><Text key={i} style={{color:colors.text,fontSize:15,lineHeight:22}}>• {c}</Text>)}<Text style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700',letterSpacing:0}}>Likely causes</Text>{g.likely.map((l,i)=><View key={i} style={{gap:2}}><Text style={{color:colors.text,fontSize:15,fontWeight:'700',lineHeight:22}}>{l.cause}</Text><Copy>{l.tell}</Copy><Text style={{color:colors.primary,fontSize:15,lineHeight:22}}>First change: {l.first_change}</Text></View>)}{onAsk&&<Link title="Ask BAK about this on my bike" onPress={()=>onAsk(`My bike ${g.rider_says[0]}. `)}/>}</View>}</View>)
-  :shownAdjusters.map(a=><View key={a.id} style={{gap:8}}>{head(a.id,a.name)}
-   {open===a.id&&<View style={{gap:8}}><Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{a.controls}</Text><Text style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700',letterSpacing:0}}>Firmer / more</Text><Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{a.firmer_or_more}</Text><Copy>Too much: {a.too_much}</Copy><Text style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700',letterSpacing:0}}>Softer / less</Text><Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{a.softer_or_less}</Text><Copy>Too little: {a.too_little}</Copy><Copy>{a.notes}</Copy></View>}</View>)}
+  <Raised radius={18}><View style={{paddingHorizontal:16}}>
+  {view==='feel'?symptomGuides.map((g,i)=><View key={g.id} style={line(i)}>{head(g.id,`“${g.rider_says[0]}”`,g.rider_says.slice(1,4).join(', '))}
+   {open===g.id&&<View style={{gap:8,paddingBottom:14}}><Copy>{g.where}</Copy><Text style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700',letterSpacing:0}}>Check first</Text>{g.check_first.map((c,i)=><Text key={i} style={{color:colors.text,fontSize:15,lineHeight:22}}>• {c}</Text>)}<Text style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700',letterSpacing:0}}>Likely causes</Text>{g.likely.map((l,i)=><View key={i} style={{gap:2}}><Text style={{color:colors.text,fontSize:15,fontWeight:'700',lineHeight:22}}>{l.cause}</Text><Copy>{l.tell}</Copy><Text style={{color:colors.primary,fontSize:15,lineHeight:22}}>First change: {l.first_change}</Text></View>)}{onAsk&&<Link title="Ask BAK about this on my bike" onPress={()=>onAsk(`My bike ${g.rider_says[0]}. `)}/>}</View>}</View>)
+  :shownAdjusters.map((a,i)=><View key={a.id} style={line(i)}>{head(a.id,a.name)}
+   {open===a.id&&<View style={{gap:8,paddingBottom:14}}><Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{a.controls}</Text><Text style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700',letterSpacing:0}}>Firmer / more</Text><Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{a.firmer_or_more}</Text><Copy>Too much: {a.too_much}</Copy><Text style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'700',letterSpacing:0}}>Softer / less</Text><Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{a.softer_or_less}</Text><Copy>Too little: {a.too_little}</Copy><Copy>{a.notes}</Copy></View>}</View>)}
+  </View></Raised>
   <View style={{marginTop:6}}><Eyebrow>BEFORE YOU TOUCH A CLICKER</Eyebrow></View>{beforeYouTune.map((b,i)=><Copy key={i}>• {b}</Copy>)}
  </Card>;
 }

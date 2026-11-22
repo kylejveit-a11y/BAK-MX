@@ -692,7 +692,7 @@ function MaintenanceForBike({openWorkshop}:{openWorkshop:()=>void}){const pageBa
  // "Log it" on a Coming up row prefills the form the same way the schedule rows do; the schedule then skips these jobs.
  const logPlanItem=(item:PlanItem)=>{if(!bike)return;const h=bike.engine_hours;setCategory(item.category);setDate(new Date().toISOString().slice(0,10));setHours(h!=null?String(h):'');setDue(h!=null?String(Math.round((h+item.every_hours)*10)/10):'');setSource(`Maker’s schedule · every ${item.every_hours} h`);setReminderOpen(true);setAdding(true);};
  const planFor=(category:string)=>plan?.find(i=>i.category.toLowerCase()===category.toLowerCase());
- const due0=dueList.length?dueList.map(({key,category,left,at})=>{const item=planFor(category);const when=left===null?`at ${at} hours`:left<=0?'due now':`in ${Number.isInteger(left)?left:left.toFixed(1)} hours`;return <View key={key} style={{flexDirection:'row',alignItems:'center',gap:12}}><Text style={{flex:1,color:left!==null&&left<=0?'#f0b4bd':colors.text,fontSize:15,lineHeight:22}}>{category}: {when}</Text>{item&&<RaisedButton title="Log it" label={`Log ${category}`} onPress={()=>logPlanItem(item)}/>}</View>;}):bike?<Copy>{loggedAny?'Nothing due in the next 10 hours.':'Log your last oil change, filter or top end and BAK works out what’s next.'}</Copy>:null;
+ const due0=dueList.length?dueList.map(({key,category,left,at})=>{const item=planFor(category);const when=left===null?`at ${at} hours`:left<=0?'due now':`in ${Number.isInteger(left)?left:left.toFixed(1)} hours`;return <View key={key} style={{flexDirection:'row',alignItems:'center',gap:12,minHeight:58}}><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'600'}}>{category}</Text><Text style={{color:left!==null&&left<=0?'#f0b4bd':'#9aa2ae',fontSize:13}}>{when.charAt(0).toUpperCase()+when.slice(1)}</Text></View>{item&&<RaisedButton title="Log it" label={`Log ${category}`} onPress={()=>logPlanItem(item)}/>}</View>;}):bike?<Copy>{loggedAny?'Nothing due in the next 10 hours.':'Log your last oil change, filter or top end and BAK works out what’s next.'}</Copy>:null;
  // Save rides in the page footer, above the tab bar and the keyboard, so the long form never hides its own button.
  const saveFooter=adding?<View style={{padding:12}}><Button disabled={busy||!bike} title={busy?'Saving…':'Save service'} onPress={()=>void save()}/></View>:undefined;
  return <Page title="Service log" back={pageBack} footer={saveFooter} footerForAction><BikeSelect/><Notice text={notice}/>
@@ -705,7 +705,7 @@ function MaintenanceForBike({openWorkshop}:{openWorkshop:()=>void}){const pageBa
   <Field editable={!busy} label="Notes (optional)" value={notes} onChangeText={setNotes} multiline/>
   <Disclosure title="Remind me when it's due next" open={reminderOpen} onToggle={setReminderOpen}><Field editable={!busy} label="Next due at hours" value={due} onChangeText={setDue} keyboardType="decimal-pad"/><Field editable={!busy} label="Why that interval (optional)" placeholder="Your own rule, race schedule, dealer advice…" value={source} onChangeText={setSource}/><Text style={{color:colors.muted,fontSize:13,lineHeight:18}}>BAK sends a notification when it’s within 3 hours or overdue. Turn it off in Account › Notifications.</Text></Disclosure>
  </Card>:<StartRow icon="oil" title="Log service" detail="What you did and at how many hours" onPress={()=>setAdding(true)}/>}
- {due0&&<Card><Eyebrow>COMING UP</Eyebrow>{due0}</Card>}
+ {due0&&<Card><Eyebrow>COMING UP</Eyebrow>{Array.isArray(due0)?<Raised radius={18}><View style={{paddingHorizontal:16}}>{due0.map((row,i)=><View key={row.key} style={{borderTopWidth:i?StyleSheet.hairlineWidth:0,borderTopColor:'rgba(255,255,255,0.09)'}}>{row}</View>)}</View></Raised>:due0}</Card>}
  {bike&&!adding&&<ServicePlanCard bike={bike} plan={plan} events={events} skip={new Set(dueList.map(d=>d.category.toLowerCase()))} onLog={logPlanItem}/>}
  <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingTop:4}}><Copy strong>History</Copy><Pressable accessibilityRole="button" accessibilityLabel="Refresh" disabled={busy||!bike} hitSlop={8} onPress={()=>void refresh().catch(e=>setNotice(errorText(e)))}><Icon name="refresh" size={20} color="#b2b9c4"/></Pressable></View>
  {events.length===0&&<Copy>Nothing logged yet. Log your first oil change or filter and BAK can tell you what's due.</Copy>}
@@ -764,10 +764,12 @@ function ServicePlanCard({bike,plan,events,skip,onLog}:{bike:Bike;plan:PlanItem[
  return <Card>
   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>{bike.manufacturer}’S SCHEDULE FOR THIS BIKE</Eyebrow></View>
   <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>From the owner’s manual service table{skip?.size?', after what’s coming up':''}. {h==null?'Add the hours on the bike in Garage to see what’s due.':'Log a job and the next one is set from the maker’s interval.'}</Text>
-  {shown.map(({item,last,left})=><View key={item.category} style={{flexDirection:'row',alignItems:'center',gap:12,paddingVertical:9,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}>
-   <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'600'}}>{item.category}</Text><Text style={{color:left!=null&&left<=0?'#ef9aa1':'#9aa2ae',fontSize:13}}>{dueLine({item,last,left})}</Text></View>
+  <Raised radius={18}><View style={{paddingHorizontal:16}}>
+  {shown.map(({item,last,left},i)=><View key={item.category} style={{flexDirection:'row',alignItems:'center',gap:12,minHeight:58,borderTopWidth:i?StyleSheet.hairlineWidth:0,borderTopColor:'rgba(255,255,255,0.09)'}}>
+   <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'600'}}>{item.category}</Text><Text style={{color:left!=null&&left<=0?'#ef9aa1':'#9aa2ae',fontSize:13}}>{dueLine({item,last,left})}</Text></View>
    <RaisedButton title="Log it" label={`Log ${item.category}`} onPress={()=>onLog(item)}/>
   </View>)}
+  </View></Raised>
   {rows.length>4&&<Pressable accessibilityRole="button" onPress={()=>setOpen(!open)} hitSlop={6}><Text style={{color:'#b2b9c4',fontSize:14,fontWeight:'600'}}>{open?'Show fewer':`Show all ${rows.length}`}</Text></Pressable>}
  </Card>;
 }
