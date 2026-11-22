@@ -2,7 +2,8 @@
 // top edge, a darker bottom edge and a soft shadow, so boxes read as objects on the page instead of flat outlines.
 // Lighter than MetalPanel (which is for the one hero plate on a screen).
 import React from 'react';
-import {Image,StyleSheet,View,type StyleProp,type ViewStyle} from 'react-native';
+import {Image,StyleSheet,Text,View,type StyleProp,type ViewStyle} from 'react-native';
+import {Pressable} from './Touch';
 import Svg,{Defs,LinearGradient,Rect,Stop} from 'react-native-svg';
 
 /** The shadow for a raised surface. Put it on the outer view (shadows need overflow visible). */
@@ -31,3 +32,12 @@ export function RaisedFace({radius,pressed=false,tint}:{radius:number;pressed?:b
 export function Raised({children,radius=18,tint,style}:{children:React.ReactNode;radius?:number;tint?:'blue';style?:StyleProp<ViewStyle>}){
  return <View style={[{borderRadius:radius},raisedLift,style]}><RaisedFace radius={radius} tint={tint}/>{children}</View>;
 }
+
+/** A small raised button for a row's one action ("Log it"): reads as a pressable key, not a flat outline. */
+export function RaisedButton({title,onPress,label,disabled=false}:{title:string;onPress:()=>void;label?:string;disabled?:boolean}){
+ return <Pressable haptic="press" accessibilityRole="button" accessibilityLabel={label??title} disabled={disabled} onPress={onPress} hitSlop={8}
+  style={({pressed})=>[{minHeight:38,paddingHorizontal:16,borderRadius:13,alignItems:'center',justifyContent:'center',opacity:disabled?0.5:1},raisedLift,{shadowRadius:6,shadowOffset:{width:0,height:3}},pressed&&{transform:[{translateY:1}]}]}>
+  {({pressed})=><><RaisedFace radius={13} pressed={pressed}/><Text style={{color:'#f2f4f7',fontSize:14,fontWeight:'700'}}>{title}</Text></>}</Pressable>;
+}
+/** The finish for a field the rider types in: sunk into the page (dark top edge, faint lit bottom edge), the opposite of raised. */
+export const well={backgroundColor:'#07080b',borderWidth:1,borderTopColor:'rgba(0,0,0,0.9)',borderLeftColor:'rgba(0,0,0,0.6)',borderRightColor:'rgba(255,255,255,0.05)',borderBottomColor:'rgba(255,255,255,0.11)'} as const;

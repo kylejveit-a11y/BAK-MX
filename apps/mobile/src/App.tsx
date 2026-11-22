@@ -43,6 +43,8 @@ import {CopiedToast,CopyText} from './copy';
 import {FindPartCard,MyPartsList,PartOfferLine,openFindPart} from './FindPart';
 import {openPartsTab,takePartsTab,onPartsTab,requestHomeStart,takeHomeStart,onHomeStart,type PartsTab} from './menuActions';
 import {RideSafetyPanel} from './RideSafety';
+import {RaisedFace,raisedLift,RaisedButton} from './Raised';
+import {onBlueText} from './BlueFace';
 import {partOffer} from '../../../shared/parts-hunter';
 import {NotificationsCard} from './NotificationsCard';
 import {createBottomTabNavigator,type BottomTabScreenProps} from '@react-navigation/bottom-tabs';
@@ -393,10 +395,11 @@ function HeaderRight({screen,open}:{screen:string;open:(to:string)=>void}){
      <Pressable accessibilityRole="button" onPress={()=>setMenu(false)} hitSlop={10}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Close</Text></Pressable>
     </View>
     <ScrollView contentContainerStyle={{paddingHorizontal:22,paddingTop:10,paddingBottom:insets.bottom+28,gap:22}}>
-     <Pressable haptic="tap" accessibilityRole="button" accessibilityLabel="Account and settings" onPress={()=>{setMenu(false);open('Account');}} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:14,paddingVertical:14,paddingHorizontal:16,borderRadius:18,borderWidth:1,borderColor:'#2a2f39',backgroundColor:pressed?'#171b23':'#101319'})}>
-      <View style={{width:44,height:44,borderRadius:22,borderWidth:1.5,borderColor:colors.accent,backgroundColor:'#0b0d11',alignItems:'center',justifyContent:'center'}}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'800',letterSpacing:0.5}}>{initials}</Text></View>
-      <View style={{flex:1,gap:2}}><Text numberOfLines={1} style={{color:colors.text,fontSize:17,fontWeight:'700'}}>{name||'Your account'}</Text><Text style={{color:'#9aa2ae',fontSize:13.5}}>Account, plan and settings</Text></View>
-      <Icon name="chevronRight" size={18} color="#8b93a0"/>
+     <Pressable haptic="tap" accessibilityRole="button" accessibilityLabel="Account and settings" onPress={()=>{setMenu(false);open('Account');}} style={({pressed})=>[{flexDirection:'row',alignItems:'center',gap:15,paddingVertical:18,paddingHorizontal:18,borderRadius:20},raisedLift,pressed&&{transform:[{translateY:1}]}]}>
+      {({pressed})=><><RaisedFace radius={20} pressed={pressed}/>
+      <View style={[{width:50,height:50,borderRadius:25,alignItems:'center',justifyContent:'center'},blueLift]}><BlueFace radius={25}/><Text style={[{fontSize:17,fontWeight:'800',letterSpacing:0.5},onBlueText]}>{initials}</Text></View>
+      <View style={{flex:1,gap:3}}><Text numberOfLines={1} style={{color:colors.text,fontSize:18,fontWeight:'700'}}>{name||'Your account'}</Text><Text style={{color:'#aab1bd',fontSize:13.5}}>Account, plan and settings</Text></View>
+      <Icon name="chevronRight" size={18} color="#9aa2ae"/></>}
      </Pressable>
      {MENU.map(group=><View key={group.label} style={{gap:4}}>
       <Text accessibilityRole="header" style={{color:'#8b93a0',fontSize:12.5,...LABEL,letterSpacing:0.6,marginBottom:2}}>{group.label}</Text>
@@ -684,7 +687,7 @@ function MaintenanceForBike({openWorkshop}:{openWorkshop:()=>void}){const pageBa
  // "Log it" on a Coming up row prefills the form the same way the schedule rows do; the schedule then skips these jobs.
  const logPlanItem=(item:PlanItem)=>{if(!bike)return;const h=bike.engine_hours;setCategory(item.category);setDate(new Date().toISOString().slice(0,10));setHours(h!=null?String(h):'');setDue(h!=null?String(Math.round((h+item.every_hours)*10)/10):'');setSource(`Maker’s schedule · every ${item.every_hours} h`);setReminderOpen(true);setAdding(true);};
  const planFor=(category:string)=>plan?.find(i=>i.category.toLowerCase()===category.toLowerCase());
- const due0=dueList.length?dueList.map(({key,category,left,at})=>{const item=planFor(category);const when=left===null?`at ${at} hours`:left<=0?'due now':`in ${Number.isInteger(left)?left:left.toFixed(1)} hours`;return <View key={key} style={{flexDirection:'row',alignItems:'center',gap:12}}><Text style={{flex:1,color:left!==null&&left<=0?'#f0b4bd':colors.text,fontSize:15,lineHeight:22}}>{category}: {when}</Text>{item&&<Pressable accessibilityRole="button" accessibilityLabel={`Log ${category}`} onPress={()=>logPlanItem(item)} hitSlop={8} style={({pressed})=>({paddingHorizontal:12,paddingVertical:7,borderRadius:12,borderWidth:1,borderColor:'#3a414d',backgroundColor:'#1e232c',opacity:pressed?0.7:1})}><Text style={{color:colors.text,fontSize:13.5,fontWeight:'700'}}>Log it</Text></Pressable>}</View>;}):bike?<Copy>{loggedAny?'Nothing due in the next 10 hours.':'Log your last oil change, filter or top end and BAK works out what’s next.'}</Copy>:null;
+ const due0=dueList.length?dueList.map(({key,category,left,at})=>{const item=planFor(category);const when=left===null?`at ${at} hours`:left<=0?'due now':`in ${Number.isInteger(left)?left:left.toFixed(1)} hours`;return <View key={key} style={{flexDirection:'row',alignItems:'center',gap:12}}><Text style={{flex:1,color:left!==null&&left<=0?'#f0b4bd':colors.text,fontSize:15,lineHeight:22}}>{category}: {when}</Text>{item&&<RaisedButton title="Log it" label={`Log ${category}`} onPress={()=>logPlanItem(item)}/>}</View>;}):bike?<Copy>{loggedAny?'Nothing due in the next 10 hours.':'Log your last oil change, filter or top end and BAK works out what’s next.'}</Copy>:null;
  // Save rides in the page footer, above the tab bar and the keyboard, so the long form never hides its own button.
  const saveFooter=adding?<View style={{padding:12}}><Button disabled={busy||!bike} title={busy?'Saving…':'Save service'} onPress={()=>void save()}/></View>:undefined;
  return <Page title="Service log" back={pageBack} footer={saveFooter} footerForAction><BikeSelect/><Notice text={notice}/>
@@ -758,7 +761,7 @@ function ServicePlanCard({bike,plan,events,skip,onLog}:{bike:Bike;plan:PlanItem[
   <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>From the owner’s manual service table{skip?.size?', after what’s coming up':''}. {h==null?'Add the hours on the bike in Garage to see what’s due.':'Log a job and the next one is set from the maker’s interval.'}</Text>
   {shown.map(({item,last,left})=><View key={item.category} style={{flexDirection:'row',alignItems:'center',gap:12,paddingVertical:9,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}>
    <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'600'}}>{item.category}</Text><Text style={{color:left!=null&&left<=0?'#ef9aa1':'#9aa2ae',fontSize:13}}>{dueLine({item,last,left})}</Text></View>
-   <Pressable accessibilityRole="button" accessibilityLabel={`Log ${item.category}`} onPress={()=>onLog(item)} hitSlop={8} style={({pressed})=>({paddingHorizontal:12,paddingVertical:7,borderRadius:12,borderWidth:1,borderColor:'#3a414d',backgroundColor:'#1e232c',opacity:pressed?0.7:1})}><Text style={{color:colors.text,fontSize:13.5,fontWeight:'700'}}>Log it</Text></Pressable>
+   <RaisedButton title="Log it" label={`Log ${item.category}`} onPress={()=>onLog(item)}/>
   </View>)}
   {rows.length>4&&<Pressable accessibilityRole="button" onPress={()=>setOpen(!open)} hitSlop={6}><Text style={{color:'#b2b9c4',fontSize:14,fontWeight:'600'}}>{open?'Show fewer':`Show all ${rows.length}`}</Text></Pressable>}
  </Card>;

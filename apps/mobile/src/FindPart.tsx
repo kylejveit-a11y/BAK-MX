@@ -9,6 +9,7 @@ import {tint,DISPLAY} from './theme';
 import {Icon} from './Icon';
 import {partSystems} from '../../../shared/installed-parts';
 import {Pressable} from './Touch';
+import {RaisedFace,raisedLift,well} from './Raised';
 import {copyText} from './copy';
 import type {Bike} from '../../../shared/types';
 import type {FoundPart,StoreLink} from '../../../shared/parts-hunter';
@@ -41,7 +42,7 @@ function Stores({stores}:{stores:StoreLink[]}){
 function PartCard({p,saved,onSave,busy}:{p:FoundPart;saved:boolean;onSave:()=>void;busy:boolean}){
  const [open,setOpen]=useState(false),[allNumbers,setAllNumbers]=useState(false);
  const numbers=p.numbers?.length?p.numbers:p.part_number?[p.part_number]:[];const shown=allNumbers?numbers:numbers.slice(0,1);
- return <View style={{borderWidth:1,borderColor:EDGE,borderRadius:16,backgroundColor:TILE,padding:14,gap:12}}>
+ return <View style={[{borderRadius:16,padding:15,gap:12},raisedLift]}><RaisedFace radius={16}/>
   <View style={{flexDirection:'row',gap:12}}>
    <View accessibilityElementsHidden importantForAccessibility="no" style={{width:46,height:46,borderRadius:12,borderWidth:1,borderColor:p.kind==='factory'?colors.accent:EDGE,backgroundColor:'#0b0d11',alignItems:'center',justifyContent:'center'}}>
     <Text style={{color:p.kind==='factory'?colors.text:'#c9cfd9',fontSize:monogram(p.brand).length>2?12.5:15,fontWeight:'800',letterSpacing:0.5}}>{monogram(p.brand)}</Text></View>
@@ -57,7 +58,7 @@ function PartCard({p,saved,onSave,busy}:{p:FoundPart;saved:boolean;onSave:()=>vo
   </View>
   {!!p.note&&<Text numberOfLines={3} style={{color:'#c9cfd9',fontSize:14,lineHeight:20}}>{p.note}</Text>}
   {!!numbers.length&&<View style={{gap:6}}>
-   {shown.map(n=><Pressable key={n} accessibilityRole="button" accessibilityLabel={`Part number ${n}. Tap to copy`} onPress={()=>copyText(n,'Part number copied')} style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingVertical:8,paddingHorizontal:12,borderRadius:10,backgroundColor:'#0b0d11'}}>
+   {shown.map(n=><Pressable key={n} accessibilityRole="button" accessibilityLabel={`Part number ${n}. Tap to copy`} onPress={()=>copyText(n,'Part number copied')} style={[{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingVertical:9,paddingHorizontal:12,borderRadius:10},well]}>
     <Text style={{color:colors.text,fontSize:14.5,fontWeight:'600',letterSpacing:0.3}}>No. {n}</Text><Text style={{color:SOFT,fontSize:12.5,fontWeight:'700'}}>Copy</Text></Pressable>)}
    {numbers.length>1&&<Pressable accessibilityRole="button" onPress={()=>setAllNumbers(!allNumbers)} hitSlop={8}><Text style={{color:SOFT,fontSize:13,fontWeight:'700'}}>{allNumbers?'Show fewer numbers':`Show all ${numbers.length} part numbers`}</Text></Pressable>}
   </View>}
@@ -80,7 +81,7 @@ function Results({found,savedKeys,busy,onSave}:{found:Found;savedKeys:Set<string
  const brands:[string,FoundPart[]][]=[];for(const p of afterShown){const g=brands.find(b=>b[0]===p.brand);if(g)g[1].push(p);else brands.push([p.brand,[p]]);}
  const seg=(v:Show,label:string,n:number)=><Pressable key={v} accessibilityRole="button" accessibilityState={{selected:show===v}} onPress={()=>setShow(v)} style={{flex:1,alignItems:'center',paddingVertical:9,borderRadius:10,backgroundColor:show===v?'#232934':'transparent'}}><Text style={{color:show===v?colors.text:SOFT,fontSize:13.5,fontWeight:'700'}}>{label} {n}</Text></Pressable>;
  return <View style={{gap:14}}>
-  {found.factory.length>0&&found.aftermarket.length>0&&<View style={{flexDirection:'row',padding:3,borderRadius:13,borderWidth:1,borderColor:EDGE}}>{seg('all','All',all.length)}{seg('factory','Factory',found.factory.length)}{seg('aftermarket','Aftermarket',found.aftermarket.length)}</View>}
+  {found.factory.length>0&&found.aftermarket.length>0&&<View style={[{flexDirection:'row',padding:3,borderRadius:13},well]}>{seg('all','All',all.length)}{seg('factory','Factory',found.factory.length)}{seg('aftermarket','Aftermarket',found.aftermarket.length)}</View>}
   {types.length>1&&<View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>
    {[{label:'',count:found.aftermarket.length},...types].map(t=>{const on=type===t.label;return <Pressable key={t.label||'all'} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>{setType(t.label);setMore(false);}} style={{paddingHorizontal:13,paddingVertical:8,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:EDGE,backgroundColor:on?tint(0.14):'transparent'}}><Text style={{color:colors.text,fontSize:13.5,fontWeight:'600'}}>{t.label||'All'} <Text style={{color:SOFT}}>{t.count}</Text></Text></Pressable>;})}
   </View>}
@@ -118,7 +119,7 @@ export function FindPartCard({bike,offerOn,setOfferOn}:{bike?:Bike;offerOn:boole
  const savedKeys=new Set(saved.map(keyOf));const none=found&&!found.factory.length&&!found.aftermarket.length;
  const sys=partSystems.find(x=>x.key===system);
  return <View style={{gap:16}}>
-  {!sys&&<View style={{flexDirection:'row',alignItems:'center',gap:10,borderWidth:1,borderColor:EDGE,borderRadius:14,backgroundColor:'#0d0f14',paddingHorizontal:14}}>
+  {!sys&&<View style={[{flexDirection:'row',alignItems:'center',gap:10,borderRadius:14,paddingHorizontal:14},well]}>
    <Icon name="search" size={18} color={SOFT}/>
    <TextInput value={q} onChangeText={setQ} placeholder={`Search parts for your ${bike.model}`} placeholderTextColor="#7d8593" returnKeyType="search" autoCorrect={false} onSubmitEditing={()=>search(q)} accessibilityLabel="Search parts" style={{flex:1,color:colors.text,fontSize:16,paddingVertical:13}}/>
    {(!!q||!!found)&&<Pressable accessibilityRole="button" accessibilityLabel="Clear search" onPress={reset} hitSlop={10}><Text style={{color:SOFT,fontSize:14,fontWeight:'700'}}>Clear</Text></Pressable>}
@@ -129,10 +130,10 @@ export function FindPartCard({bike,offerOn,setOfferOn}:{bike?:Bike;offerOn:boole
   </View>}
   {busy&&<ActivityIndicator color={colors.accent}/>}
   <Notice text={notice} tone={notice?'warn':undefined}/>
-  {!sys&&!found&&!busy&&<View style={{gap:10}}>
+  {!sys&&!found&&!busy&&<View style={{gap:12}}>
    <SectionLabel text="Browse by system"/>
-   <View style={{flexDirection:'row',flexWrap:'wrap',gap:10}}>{partSystems.map(x=><Pressable key={x.key} haptic="tap" accessibilityRole="button" accessibilityLabel={`${x.label}. ${x.hint}`} onPress={()=>browse(x.key)} style={({pressed})=>({width:'48.4%',borderWidth:1,borderColor:EDGE,borderRadius:16,backgroundColor:pressed?'#171b23':'#0d0f14',paddingVertical:13,paddingHorizontal:14,gap:3})}>
-    <Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{x.label}</Text><Text numberOfLines={1} style={{color:SOFT,fontSize:12.5}}>{x.hint}</Text></Pressable>)}</View>
+   <View style={{flexDirection:'row',flexWrap:'wrap',justifyContent:'space-between',rowGap:12}}>{partSystems.map(x=><Pressable key={x.key} haptic="tap" accessibilityRole="button" accessibilityLabel={`${x.label}. ${x.hint}`} onPress={()=>browse(x.key)} style={({pressed})=>[{width:'48.2%',minHeight:88,borderRadius:16,paddingVertical:14,paddingHorizontal:15,gap:5},raisedLift,pressed&&{transform:[{translateY:1}]}]}>
+    {({pressed})=><><RaisedFace radius={16} pressed={pressed}/><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{x.label}</Text><Text numberOfLines={2} style={{color:'#aab1bd',fontSize:12.5,lineHeight:17}}>{x.hint}</Text></>}</Pressable>)}</View>
   </View>}
   {none&&<Copy>{!found.has_factory_list&&!found.has_aftermarket_list?'BAK has no parts list for this exact bike yet, so there is nothing to show.':sys?`Nothing on file under ${sys.label} for this bike yet.`:`Nothing on file for “${found.query}” on this bike. Try fewer words, like “brake pads” or “chain”, or browse by system.`}</Copy>}
   {!!found&&!none&&<Results key={found.query+'|'+system} found={found} savedKeys={savedKeys} busy={busy} onSave={p=>void save(p)}/>}

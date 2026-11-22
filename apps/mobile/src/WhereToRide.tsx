@@ -9,6 +9,7 @@ import type {RideEvent} from '../../../shared/rider-types';
 import {api} from './api';
 import {readProgress,writeProgress} from './localProgress';
 import {Pressable} from './Touch';
+import {RaisedFace,raisedLift,well} from './Raised';
 import {BackLink,Button,Card,Copy,Eyebrow,Icon,LinkAction,Notice,PageTitle,PickChip,colors} from './ui';
 import {LiveConditionsCard} from './LiveConditions';
 import {TrackHistoryCard} from './TrackHistory';
@@ -18,7 +19,7 @@ import {TrailMap,MAP_NOTE} from './TrailMap';
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 const open=(url:string|null|undefined)=>{if(url&&/^(https?:|tel:)/.test(url))void Linking.openURL(url).catch(()=>{});};
 const platform=Platform.OS==='ios'?'ios':Platform.OS==='android'?'android':'web';
-const input={color:colors.text,fontSize:16,borderWidth:1,borderColor:'#2f3540',borderRadius:14,paddingHorizontal:14,paddingVertical:11,flex:1} as const;
+const input={color:colors.text,fontSize:16,borderRadius:14,paddingHorizontal:14,paddingVertical:12,flex:1,...well} as const;
 type Filter='all'|PlaceKind|'saved';
 
 let listCache:PlaceRow[]|null=null;
@@ -83,8 +84,8 @@ function PlaceList({onOpen,onClose}:{onOpen:(id:string)=>void;onClose?:()=>void}
   <Copy>{W.intro}</Copy>
   <View style={{flexDirection:'row',gap:10,alignItems:'center'}}>
    <View style={{flex:1,flexDirection:'row',alignItems:'center'}}><TextInput value={query} onChangeText={setQuery} placeholder={W.search} placeholderTextColor="#7d8593" selectionColor={colors.accent} style={input} accessibilityLabel={W.search} returnKeyType="search" autoCorrect={false}/></View>
-   <Pressable haptic="select" accessibilityRole="button" accessibilityLabel={here?'Sort by name':'Nearest first'} accessibilityState={{selected:!!here}} onPress={()=>void nearMe()} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,paddingHorizontal:12,paddingVertical:10,borderRadius:14,borderWidth:1,borderColor:here?colors.accent:'#2f3540',opacity:pressed||finding?0.6:1})}>
-    <Icon name="location" size={17} color={here?colors.accent:colors.text}/><Text style={{color:colors.text,fontSize:14.5,fontWeight:'700'}}>{finding?'Finding…':'Near me'}</Text></Pressable>
+   <Pressable haptic="select" accessibilityRole="button" accessibilityLabel={here?'Sort by name':'Nearest first'} accessibilityState={{selected:!!here}} onPress={()=>void nearMe()} style={({pressed})=>[{paddingHorizontal:16,minHeight:46,justifyContent:'center',borderRadius:14,opacity:finding?0.6:1},raisedLift,{shadowRadius:6,shadowOffset:{width:0,height:3}},pressed&&{transform:[{translateY:1}]}]}>
+    {({pressed})=><><RaisedFace radius={14} pressed={pressed} tint={here?'blue':undefined}/><Text style={{color:colors.text,fontSize:14.5,fontWeight:'700'}}>{finding?'Finding…':'Near me'}</Text></>}</Pressable>
   </View>
   <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{chips.map(k=><PickChip key={k} label={k==='saved'?`${W.saved}${saved.length?` (${saved.length})`:''}`:W.filters[k]} on={kind===k} radio onPress={()=>pickKind(k)}/>)}</View>
   {!here&&kind!=='saved'&&states.length>1&&<ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8,paddingRight:8}}>
@@ -100,11 +101,10 @@ function PlaceList({onOpen,onClose}:{onOpen:(id:string)=>void;onClose?:()=>void}
 
 function PlaceRowView({p,saved,first,onPress}:{p:PlaceRow&{miles:number|null};saved:boolean;first:boolean;onPress:()=>void}){
  const where=[p.city?`${p.city}, ${p.state}`:p.state,p.miles!=null?`${p.approx?'about ':''}${Math.round(p.miles)} mi`:''].filter(Boolean).join(' · '),shut=isClosed(p);
- return <Pressable accessibilityRole="button" accessibilityLabel={`${p.name}${shut?', listed as closed':''}. ${placeSummary(p)}. ${where}${saved?'. Saved':''}`} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:14,borderTopWidth:first?0:1,borderTopColor:'#1f232b',opacity:pressed?0.6:1})}>
-  <Icon name={p.kind==='riding_area'?'moto':'flag'} size={20} color={colors.accent}/>
+ return <Pressable accessibilityRole="button" accessibilityLabel={`${p.name}${shut?', listed as closed':''}. ${placeSummary(p)}. ${where}${saved?'. Saved':''}`} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:16,borderTopWidth:first?0:1,borderTopColor:'#1f232b',opacity:pressed?0.6:1})}>
   <View style={{flex:1,gap:3}}>
    <View style={{flexDirection:'row',alignItems:'center',gap:8}}>
-    <Text style={{color:shut?'#9aa1ad':colors.text,fontSize:16,fontWeight:'700',flexShrink:1}} numberOfLines={2}>{p.name}</Text>
+    <Text style={{color:shut?'#9aa1ad':colors.text,fontSize:17,fontWeight:'700',flexShrink:1}} numberOfLines={2}>{p.name}</Text>
     {shut&&<Text style={{color:'#f0b4a8',fontSize:11.5,fontWeight:'700',borderWidth:1,borderColor:'#6b3a33',backgroundColor:'#2a1714',borderRadius:999,paddingHorizontal:9,paddingVertical:2,overflow:'hidden'}}>Closed</Text>}
    </View>
    <Text style={{color:shut?'#727a87':'#adb5c1',fontSize:13.5}} numberOfLines={2}>{placeSummary(p)}</Text>
