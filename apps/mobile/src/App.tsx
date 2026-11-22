@@ -43,7 +43,7 @@ import {CopiedToast,CopyText} from './copy';
 import {FindPartCard,MyPartsList,PartOfferLine,openFindPart} from './FindPart';
 import {openPartsTab,takePartsTab,onPartsTab,requestHomeStart,takeHomeStart,onHomeStart,type PartsTab} from './menuActions';
 import {RideSafetyPanel} from './RideSafety';
-import {RaisedFace,raisedLift,RaisedButton} from './Raised';
+import {Raised,RaisedFace,raisedLift,RaisedButton} from './Raised';
 import {onBlueText} from './BlueFace';
 import {partOffer} from '../../../shared/parts-hunter';
 import {NotificationsCard} from './NotificationsCard';
@@ -817,26 +817,61 @@ function AppColorCard({bare=false}:{bare?:boolean}){
   {option('bak','BAK blue','The same blue on every bike',bak.deep)}
  </Wrap>;
 }
-function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSummary(),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false),[confirm,setConfirm]=useState('');async function task(action:()=>Promise<unknown>,success?:string){setBusy(true);try{await action();if(success)setNotice(success);}catch(e){if((e as {userCancelled?:boolean}).userCancelled)setNotice('Purchase cancelled.');else setNotice(errorText(e));}finally{setBusy(false);}}async function exportData(){const data=await api('/api/account/export');const file=new File(Paths.cache,'bakmx-account-export.json');try{file.create({overwrite:true});file.write(JSON.stringify({account:data,device_local_progress:exportProgress(session.user.id)},null,2));if(!await Sharing.isAvailableAsync())throw new Error('File sharing is unavailable on this device.');await Sharing.shareAsync(file.uri,{mimeType:'application/json',UTI:'public.json'});}finally{if(file.exists)file.delete();}}return <Page title="Account"><Copy>{session.user.email}</Copy><Notice text={notice}/><ProfileCard/>
- {/* Everything below is folded by topic so the page stays short; each row says what's inside. */}
- <View>
- {plan.usage&&plan.usage.tier!=='pro'&&<AccountRow icon="sparkle" title="Go Pro" summary="Unlimited questions, clip coaching, more photo edits" onPress={()=>{if(navRef.isReady())navRef.navigate('Pro');}}/>}
- <Section icon="pulse" title="Ask BAK plan" summary={plan.summary}><PlansCard bare onPro={()=>{if(navRef.isReady())navRef.navigate('Pro');}}/></Section>
- <Section icon="share" title="Invite a friend" summary="Free questions and free months for bringing riders in"><InviteCard name={readProgress<string>(session.user.id,'rider-name','')}/></Section>
- <Section icon="gauge" title="App color" summary={colorMode==='bak'?'BAK blue on every bike':'Matches the bike you pick'}><AppColorCard bare/></Section>
- <Section icon="notes" title="Preferences" summary="Units, answer length, how BAK talks, vibration"><PreferencesCard bare/></Section>
- <Section icon="messages" title="Notifications" summary="Messages, comments, event reminders, service due"><NotificationsCard/></Section>
- <Section icon="location" title="Ride safety" summary="Who gets your ride link and, if you don’t check in, an alert"><SafetyContactsCard/></Section>
- <Section icon="comment" title="Feedback" summary="A wrong answer, missing data, a bug or an idea"><FeedbackCard bike={bike} bare/></Section>
- <AccountRow icon="document" title="How BAK works" summary="The app in a minute: Ask BAK, Garage, logs, race day" onPress={()=>{if(navRef.isReady())navRef.navigate('Help');}}/>
- <AccountRow icon="moto" title="Supported bikes" summary="What BAK covers, by year" onPress={()=>{if(navRef.isReady())navRef.navigate('Bikes');}}/>
- {Platform.OS==='android'&&<AndroidWidgetRow/>}
- <Section icon="verified" title="Your data and legal" summary="Export, privacy, terms, support"><TileGrid><Tile icon="export" title="Export my data" detail="A copy of your Garage, chats and logs" onPress={()=>{if(!busy)void task(exportData);}}/>{([['Privacy policy',mxPage(process.env.EXPO_PUBLIC_PRIVACY_URL,'privacy'),'verified'],['Terms of service',mxPage(process.env.EXPO_PUBLIC_TERMS_URL,'terms'),'document'],['Contact support',mxPage(process.env.EXPO_PUBLIC_SUPPORT_URL,'support'),'mail']] as [string,string|undefined,IconName][]).map(([label,url,icon])=><Tile key={label} icon={icon} title={label} detail={label==='Contact support'?'Questions, bugs, billing':'Opens in your browser'} onPress={()=>url?void Linking.openURL(url).catch(e=>setNotice(errorText(e))):setNotice(`${label} is not configured in this build.`)}/>)}</TileGrid></Section>
- <Section icon="mail" title="Email and password" summary={session.user.email??'Change how you sign in'}><SignInCard email={session.user.email??''}/></Section>
- <Section icon="trash" title="Delete account" summary="Removes your Garage, chats and service history"><Copy>Deletion removes your Garage, conversations and service history. Cancel your subscription in the App Store before deleting your account.</Copy><Field label="Type DELETE to confirm" placeholder="DELETE" autoCapitalize="characters" value={confirm} onChangeText={setConfirm}/><Button secondary disabled={busy||confirm!=='DELETE'} title="Permanently delete account" onPress={()=>Alert.alert('Permanently delete account?','This action cannot be undone. Export your data first if you need a copy.',[{text:'Cancel',style:'cancel'},{text:'Delete account',style:'destructive',onPress:()=>void task(async()=>{await api('/api/account','DELETE',{confirmation:'DELETE'});await endShareOnSignOut();clearProgress(session.user.id);await supabase!.auth.signOut({scope:'local'});})}])}/></Section>
- <View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}/>
- </View>
- <AccountRow icon="signout" title="Sign out" summary={session.user.email??''} onPress={()=>{if(!busy)void task(async()=>{await unregisterPush();await endShareOnSignOut();const r=await supabase!.auth.signOut();if(r.error)throw r.error;});}}/></Page>}
+function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSummary(),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false),[confirm,setConfirm]=useState('');async function task(action:()=>Promise<unknown>,success?:string){setBusy(true);try{await action();if(success)setNotice(success);}catch(e){if((e as {userCancelled?:boolean}).userCancelled)setNotice('Purchase cancelled.');else setNotice(errorText(e));}finally{setBusy(false);}}async function exportData(){const data=await api('/api/account/export');const file=new File(Paths.cache,'bakmx-account-export.json');try{file.create({overwrite:true});file.write(JSON.stringify({account:data,device_local_progress:exportProgress(session.user.id)},null,2));if(!await Sharing.isAvailableAsync())throw new Error('File sharing is unavailable on this device.');await Sharing.shareAsync(file.uri,{mimeType:'application/json',UTI:'public.json'});}finally{if(file.exists)file.delete();}}const [page,setPage]=useState<AccPage>(''),insets=useSafeAreaInsets();
+ const go=(to:string)=>{if(navRef.isReady())navRef.navigate(to as never);};
+ const pro=plan.usage?.tier==='pro';
+ const titles:Record<Exclude<AccPage,''>,string>={plan:'Ask BAK plan',invite:'Invite a friend',prefs:'Preferences',notify:'Notifications',safety:'Ride safety contacts',feedback:'Send feedback',legal:'Your data and legal',signin:'Email and password',delete:'Delete account'};
+ return <Page title="Account"><Notice text={notice}/><ProfileCard/>
+ {/* Grouped like a phone's own settings: a few short groups, one row per topic, each opening its own page. */}
+ {plan.usage&&!pro&&<AccountGroup><AccountRow title="Go Pro" value="Unlimited questions" onPress={()=>go('Pro')}/></AccountGroup>}
+ <AccountGroup title="Membership">
+  <AccountRow title="Ask BAK plan" value={pro?'Pro':plan.usage?.tier==='premium'?'Premium':plan.usage?'Free':''} onPress={()=>setPage('plan')}/>
+  <AccountRow title="Invite a friend" value="Earn free months" onPress={()=>setPage('invite')}/>
+ </AccountGroup>
+ <AccountGroup title="Settings">
+  <AccountRow title="Preferences" value={colorMode==='bak'?'Units, BAK blue':'Units, bike color'} onPress={()=>setPage('prefs')}/>
+  <AccountRow title="Notifications" onPress={()=>setPage('notify')}/>
+  <AccountRow title="Ride safety contacts" onPress={()=>setPage('safety')}/>
+  {Platform.OS==='android'&&<AndroidWidgetRow/>}
+ </AccountGroup>
+ <AccountGroup title="Help">
+  <AccountRow title="How BAK works" onPress={()=>go('Help')}/>
+  <AccountRow title="Supported bikes" onPress={()=>go('Bikes')}/>
+  <AccountRow title="Send feedback" onPress={()=>setPage('feedback')}/>
+ </AccountGroup>
+ <AccountGroup title="Account">
+  <AccountRow title="Email and password" value={session.user.email??''} onPress={()=>setPage('signin')}/>
+  <AccountRow title="Your data and legal" onPress={()=>setPage('legal')}/>
+ </AccountGroup>
+ <AccountGroup><AccountRow title="Sign out" plain onPress={()=>{if(!busy)void task(async()=>{await unregisterPush();await endShareOnSignOut();const r=await supabase!.auth.signOut();if(r.error)throw r.error;});}}/></AccountGroup>
+ <Pressable accessibilityRole="button" onPress={()=>setPage('delete')} hitSlop={10} style={{alignSelf:'center',paddingVertical:6}}><Text style={{color:'#8b93a0',fontSize:13.5}}>Delete account</Text></Pressable>
+ <PageSheet visible={!!page} animationType="slide" onRequestClose={()=>setPage('')}>
+  <View style={{flex:1,backgroundColor:colors.bg,paddingTop:18}}>
+   <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:22,paddingBottom:8}}>
+    <View style={{gap:7,flex:1}}><Text accessibilityRole="header" numberOfLines={1} style={{color:colors.text,fontSize:21,...DISPLAY,letterSpacing:0}}>{page?titles[page]:''}</Text><View style={{flexDirection:'row',gap:4}}><MetalMark width={26}/><MetalMark width={8} dim/></View></View>
+    <Pressable accessibilityRole="button" onPress={()=>setPage('')} hitSlop={10}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Done</Text></Pressable>
+   </View>
+   <ScrollView keyboardShouldPersistTaps="handled" automaticallyAdjustKeyboardInsets contentContainerStyle={{paddingHorizontal:22,paddingTop:12,paddingBottom:insets.bottom+36,gap:16}}>
+    <Notice text={notice}/>
+    {page==='plan'&&<PlansCard bare onPro={()=>{setPage('');go('Pro');}}/>}
+    {page==='invite'&&<InviteCard name={readProgress<string>(session.user.id,'rider-name','')}/>}
+    {page==='prefs'&&<><Text accessibilityRole="header" style={{color:'#8b93a0',fontSize:12.5,...LABEL,letterSpacing:0.6}}>App color</Text><AppColorCard bare/><View style={{height:StyleSheet.hairlineWidth,backgroundColor:'#2a2f39',marginVertical:4}}/><PreferencesCard bare/></>}
+    {page==='notify'&&<NotificationsCard/>}
+    {page==='safety'&&<SafetyContactsCard/>}
+    {page==='feedback'&&<FeedbackCard bike={bike} bare/>}
+    {page==='legal'&&<TileGrid><Tile icon="export" title="Export my data" detail="A copy of your Garage, chats and logs" onPress={()=>{if(!busy)void task(exportData);}}/>{([['Privacy policy',mxPage(process.env.EXPO_PUBLIC_PRIVACY_URL,'privacy'),'verified'],['Terms of service',mxPage(process.env.EXPO_PUBLIC_TERMS_URL,'terms'),'document'],['Contact support',mxPage(process.env.EXPO_PUBLIC_SUPPORT_URL,'support'),'mail']] as [string,string|undefined,IconName][]).map(([label,url,icon])=><Tile key={label} icon={icon} title={label} detail={label==='Contact support'?'Questions, bugs, billing':'Opens in your browser'} onPress={()=>url?void Linking.openURL(url).catch(e=>setNotice(errorText(e))):setNotice(`${label} is not configured in this build.`)}/>)}</TileGrid>}
+    {page==='signin'&&<SignInCard email={session.user.email??''}/>}
+    {page==='delete'&&<><Copy>Deletion removes your Garage, conversations and service history. Cancel your subscription in the App Store before deleting your account.</Copy><Field label="Type DELETE to confirm" placeholder="DELETE" autoCapitalize="characters" value={confirm} onChangeText={setConfirm}/><Button secondary disabled={busy||confirm!=='DELETE'} title="Permanently delete account" onPress={()=>Alert.alert('Permanently delete account?','This action cannot be undone. Export your data first if you need a copy.',[{text:'Cancel',style:'cancel'},{text:'Delete account',style:'destructive',onPress:()=>void task(async()=>{await api('/api/account','DELETE',{confirmation:'DELETE'});await endShareOnSignOut();clearProgress(session.user.id);await supabase!.auth.signOut({scope:'local'});})}])}/></>}
+   </ScrollView>
+  </View>
+ </PageSheet></Page>}
+type AccPage=''|'plan'|'invite'|'prefs'|'notify'|'safety'|'feedback'|'legal'|'signin'|'delete';
+/** One short group of Account rows on a raised panel, with a quiet label over it. */
+function AccountGroup({title,children}:{title?:string;children:React.ReactNode}){
+ const rows=React.Children.toArray(children).filter(Boolean);
+ return <View style={{gap:9}}>{!!title&&<Text accessibilityRole="header" style={{color:'#8b93a0',fontSize:12.5,...LABEL,letterSpacing:0.6,paddingLeft:4}}>{title}</Text>}
+  <Raised radius={18}><View style={{paddingHorizontal:16}}>{rows.map((r,i)=><View key={i} style={{borderTopWidth:i?StyleSheet.hairlineWidth:0,borderTopColor:'rgba(255,255,255,0.09)'}}>{r}</View>)}</View></Raised></View>;
+}
 
 /** An Account row that opens a screen, drawn like the folding Section rows around it. */
 /** Android: puts the "Your bike" widget on the home screen in one tap (the phone asks the rider to confirm). */
@@ -845,7 +880,7 @@ function AndroidWidgetRow(){
  const add=()=>{try{const {requestPinWidget}=require('react-native-android-widget') as typeof import('react-native-android-widget');
   void requestPinWidget({widgetName:'BakBike'}).then(ok=>setNote(ok?'Your phone asks to place it: tap Add. If nothing pops up, long-press an empty spot on the home screen, tap Widgets, then find BAK MX.':'This home screen can’t add widgets from an app. Long-press an empty spot on the home screen, tap Widgets, then find BAK MX.')).catch(()=>setNote('Long-press an empty spot on the home screen, tap Widgets, then find BAK MX.'));}catch{setNote('Long-press an empty spot on the home screen, tap Widgets, then find BAK MX.');}};
  return <View style={{gap:6}}>
-  <AccountRow icon="gauge" title="Home screen widget" summary="Hours, next service and your next race at a glance" onPress={add}/>
+  <AccountRow title="Home screen widget" onPress={add}/>
   {note?<Text style={{color:colors.muted,fontSize:13,lineHeight:18,paddingHorizontal:4}}>{note}</Text>:null}
   {/* Sample preview builds only: draw the widgets here so they can be checked without a home screen. */}
   {process.env.EXPO_PUBLIC_SAMPLE_BUILD==='1'&&<AndroidWidgetPreviews/>}
@@ -862,12 +897,12 @@ function AndroidWidgetPreviews(){
   </View>
  </View>;
 }
-function AccountRow({icon,title,summary,onPress}:{icon:IconName;title:string;summary:string;onPress:()=>void}){
- return <View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}><Pressable haptic="select" accessibilityRole="button" accessibilityLabel={`${title}, ${summary}`} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:14,paddingVertical:16,opacity:pressed?0.6:1})}>
-  <View style={{width:36,height:36,borderRadius:11,borderWidth:1,borderColor:'#262b34',backgroundColor:'#0e1015',alignItems:'center',justifyContent:'center'}}><Icon name={icon} size={18} color="#b2b9c4"/></View>
-  <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'700'}}>{title}</Text><Text numberOfLines={2} style={{color:'#8f97a4',fontSize:13.5,lineHeight:18}}>{summary}</Text></View>
-  <Icon name="chevronRight" size={17} color="#8f97a4"/>
- </Pressable></View>;
+function AccountRow({title,value,onPress,plain=false}:{title:string;value?:string;onPress:()=>void;plain?:boolean}){
+ return <Pressable haptic="select" accessibilityRole="button" accessibilityLabel={value?`${title}, ${value}`:title} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,minHeight:54,opacity:pressed?0.6:1})}>
+  <Text style={{color:colors.text,fontSize:16.5,fontWeight:'600',flexShrink:0}}>{title}</Text>
+  <Text numberOfLines={1} style={{flex:1,textAlign:'right',color:'#9aa2ae',fontSize:14.5}}>{value??''}</Text>
+  {!plain&&<Icon name="chevronRight" size={16} color="#8f97a4"/>}
+ </Pressable>;
 }
 /** Account › How BAK works: the shared rider's guide (shared/how-bak-works.ts), the same words the website and Ask BAK use. */
 function HowBakWorks({navigation}:BottomTabScreenProps<Tabs,'Help'>){
