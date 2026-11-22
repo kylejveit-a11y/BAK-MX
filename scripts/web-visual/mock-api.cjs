@@ -140,8 +140,16 @@ function respond(p,q,method,post){
  if(p==='/api/invite')return J(invite);
  if(p==='/api/invite/redeem'){const c=String((post&&post.code)||'').toUpperCase();if(!/^[A-Z0-9]{2,8}-[A-Z0-9]{3,4}$/.test(c))return J({error:'That code is not right. Check it with your friend.'},400);invite={...invite,invited_by:true,can_enter:false};return J(invite);}
  if(p==='/api/parts/find'){const w=(q.get('q')||'').toLowerCase();const hit=/pad|brake/.test(w);return J({query:q.get('q')||'',has_factory_list:true,has_aftermarket_list:true,
-  factory:hit?[{kind:'factory',brand:'KTM',name:'BRAKE PAD SET REAR TOYO',part_number:'54813090300',where:'REAR BRAKE CALIPER',stores:stores('54813090300',true)}]:[],
-  aftermarket:hit?[{kind:'aftermarket',brand:'Galfer',name:'Sintered rear brake pads',part_number:'FD326G1396',where:'brakes',stores:stores('FD326G1396',false)},{kind:'aftermarket',brand:'Renthal',name:'RC-1 Works rear brake pads',part_number:'BP-105',where:'brakes',stores:stores('BP-105',false)}]:[]});}
+  factory:hit?[{kind:'factory',brand:'KTM',name:'BRAKE PAD SET REAR TOYO',part_number:'54813090300',numbers:['54813090300'],position:'rear',where:'REAR BRAKE CALIPER',stores:stores('54813090300',true)},{kind:'factory',brand:'KTM',name:'Brake pad front',part_number:'77713030100',numbers:['77713030100'],position:'front',where:'FRONT BRAKE CALIPER',stores:stores('77713030100',true)}]:[],
+  aftermarket:hit?[
+   {kind:'aftermarket',brand:'KTM PowerParts',name:'Brake pad',part_number:'54813990100',numbers:['54813990100','54813990200','59013930200'],where:'brakes',stores:stores('54813990100',false)},
+   {kind:'aftermarket',brand:'All Balls',name:'Sintered Brake Pads',part_number:'18-8001',numbers:['18-8001','18-8002','18-8003','18-8004','18-8005'],where:'brakes',note:'Sintered metal compound for wet and muddy use.',stores:stores('18-8001',false)},
+   {kind:'aftermarket',brand:'All Balls',name:'Brake Pad Retaining Pin Kit',part_number:'18-7000',numbers:['18-7000','18-7002'],where:'brakes',stores:stores('18-7000',false)},
+   {kind:'aftermarket',brand:'BILT',name:'FACTORY FA181R Sintered Front Brake Pads',part_number:'YL-F073',numbers:['YL-F073'],position:'front',where:'brakes',stores:stores('YL-F073',false)},
+   {kind:'aftermarket',brand:'BILT',name:'FACTORY FA368R Sintered Rear Brake Pads',part_number:'YL-F152',numbers:['YL-F152'],position:'rear',where:'brakes',stores:stores('YL-F152',false)},
+   {kind:'aftermarket',brand:'Braking',name:'CM44 Sintered Sport Brake Pads',part_number:'703CM44',numbers:['703CM44','772CM44','705CM44'],where:'brakes',stores:[]},
+   {kind:'aftermarket',brand:'Galfer',name:'Sintered rear brake pads',part_number:'FD326G1396',numbers:['FD326G1396'],position:'rear',where:'brakes',stores:stores('FD326G1396',false)},
+   {kind:'aftermarket',brand:'Renthal',name:'RC-1 Works rear brake pads',part_number:'BP-105',numbers:['BP-105'],position:'rear',where:'brakes',stores:stores('BP-105',false)}]:[]});}
  if(p==='/api/saved-parts'){if(method==='POST'){savedParts=[{id:'sp-'+(savedParts.length+1),...post,stores:stores(post.part_number,post.kind==='factory')},...savedParts];return J({saved:true},201);}if(method==='DELETE'){savedParts=savedParts.filter(x=>x.id!==q.get('id'));return J({deleted:true});}return J(savedParts);}
  if(p==='/api/coverage')return J(coverage);
  if(p==='/api/entitlement')return J(entitlement);

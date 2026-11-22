@@ -25,9 +25,9 @@ test('find a part: where to buy only points at stores that can look the part up'
  assert.equal(bare.length,1);assert.equal(bare[0].how,'search');assert.ok(bare[0].url.endsWith('textsearch=Pro%20Taper%20Pillow%20Top%20grips'));
 });
 test('find a part: only parts on the bike list that match every word, no duplicates',()=>{
- const list=[part('Galfer','Rear brake pads','A'),part('Galfer','Front brake pads','B'),part('Renthal','Rear sprocket','C'),part('Galfer','Rear brake pads','A')];
- assert.deepEqual(findAftermarket(list,'rear brake pads').map(p=>p.part_number),['A']);
- assert.deepEqual(findAftermarket(list,'brake pads').map(p=>p.part_number).sort(),['A','B']);
+ const list=[part('Galfer','Rear brake pads','FD-A1'),part('Galfer','Front brake pads','FD-B2'),part('Renthal','Rear sprocket','RS-C3'),part('Galfer','Rear brake pads','FD-A1')];
+ assert.deepEqual(findAftermarket(list,'rear brake pads').map(p=>p.part_number),['FD-A1']);
+ assert.deepEqual(findAftermarket(list,'brake pads').map(p=>p.part_number).sort(),['FD-A1','FD-B2']);
  assert.deepEqual(findAftermarket(list,'for my bike'),[]);
 });
 test('ask bak offer: only when the answer says a wear part needs replacing; rare by design',()=>{
@@ -40,4 +40,15 @@ test('ask bak offer: only when the answer says a wear part needs replacing; rare
  assert.equal(partOffer('Set the sag to 105 mm and go two clicks stiffer on rebound. That should settle the rear over braking bumps without making it harsh on the small chop.',on),null);
  assert.equal(partOffer('Clean and oil the air filter after every ride in sand. You do not need to replace the air filter unless the foam is torn or the seams are coming apart.',on),null,'told not to replace');
  assert.deepEqual(partOffer('The chain is past its wear limit at 275 mm over 18 pins. A stretched chain eats sprockets, so order a new chain and sprockets together and fit them as a set.',on),{query:'sprocket'});
+});
+
+import {positionOf} from '../shared/parts-hunter.ts';
+test('find a part: one card per product with all its numbers, and front or rear read from the name',()=>{
+ const list=[part('KTM PowerParts','Brake pad','54813990100'),part('KTM PowerParts','Brake pad','54813990200'),part('All Balls','Sintered Brake Pads','18-8001, 18-8002, 18-8003, 18-'),part('BILT','FA368R Sintered Rear Brake Pads','YL-F152')];
+ const found=findAftermarket(list,'brake pads');
+ assert.equal(found.length,3);
+ assert.deepEqual(found.find(p=>p.brand==='KTM PowerParts')!.numbers,['54813990100','54813990200']);
+ assert.deepEqual(found.find(p=>p.brand==='All Balls')!.numbers,['18-8001','18-8002','18-8003'],'the cut-off number is dropped');
+ assert.equal(found.find(p=>p.brand==='BILT')!.position,'rear');
+ assert.equal(positionOf('PAD SET, RR.'),'rear');assert.equal(positionOf('Front and rear pads'),undefined);assert.equal(positionOf('Brake pad'),undefined);
 });

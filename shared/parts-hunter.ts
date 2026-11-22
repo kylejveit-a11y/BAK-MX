@@ -14,7 +14,18 @@ export function termPatterns(query:string):string[]{
 }
 const hits=(text:string,patterns:string[])=>patterns.every(p=>new RegExp(`(^|[^a-z0-9])${p}($|[^a-z0-9])`,'i').test(text));
 
-export type FoundPart={kind:'factory'|'aftermarket';brand:string;name:string;part_number:string;where:string;stores:StoreLink[]};
+export type FoundPart={kind:'factory'|'aftermarket';brand:string;name:string;part_number:string;where:string;stores:StoreLink[];
+ /** every part number on file for this product (versions, sizes, front and rear); part_number is the first */
+ numbers?:string[];
+ /** which end of the bike, when the name says so */
+ position?:'front'|'rear';
+ /** one line on what it is or changes, when on file */
+ note?:string};
+/** Front or rear, read from the part's own name. */
+export function positionOf(name:string):'front'|'rear'|undefined{
+ const front=/\b(front|fr\.?)\b/i.test(name),rear=/\b(rear|rr\.?)\b/i.test(name);return front===rear?undefined:front?'front':'rear';
+}
+const splitNumbers=(pn:string)=>[...new Set(pn.split(/[,;]\s*/).map(x=>x.trim()).filter(x=>x.length>=3&&!/-$/.test(x)))];
 export type StoreLink={store:string;url:string;how:'listing'|'search'};
 /** Where to buy. Checked by hand on 2026-11-21 with real part numbers from the parts lists on file, because a store
  *  that cannot look a part up by the maker's number is no use (Kyle: "just pulling the store with a part number they
@@ -47,9 +58,16 @@ export function findAftermarket(parts:CatalogPart[],query:string,limit=30):Found
  for(const p of parts){const name=`${p.brand} ${p.name}`;if(!hits(`${name} ${p.system}`,patterns))continue;
   scored.push({p,s:(hits(p.name,patterns)?4:0)+(p.verified?2:0)+(p.pn?1:0)+(p.links.length?1:0)});}
  scored.sort((a,b)=>b.s-a.s||a.p.brand.localeCompare(b.p.brand)||a.p.name.localeCompare(b.p.name));
- const seen=new Set<string>();const out:FoundPart[]=[];
- for(const {p} of scored){const key=`${p.brand}|${p.name}|${p.pn}`.toLowerCase();if(seen.has(key))continue;seen.add(key);
-  out.push({kind:'aftermarket',brand:p.brand,name:p.name,part_number:p.pn,where:p.system,stores:storeLinks({kind:'aftermarket',brand:p.brand,name:p.name,part_number:p.pn,links:p.links})});if(out.length>=limit)break;}
+ // One card per product: the same brand and name listed under several part numbers (versions, front and rear sets)
+ // is one product with several numbers, not a wall of identical rows.
+ const byProduct=new Map<string,FoundPart>();const out:FoundPart[]=[];
+ for(const {p} of scored){const key=`${p.brand}|${p.name}`.toLowerCase();const numbers=splitNumbers(p.pn);
+  const have=byProduct.get(key);
+  if(have){for(const n of numbers)if(!have.numbers!.includes(n))have.numbers!.push(n);if(!have.stores.length)have.stores=storeLinks({kind:'aftermarket',brand:p.brand,name:p.name,part_number:p.pn,links:p.links});continue;}
+  if(out.length>=limit)continue;
+  const position=positionOf(p.name),note=(p.desc||p.what||'').trim();
+  const part:FoundPart={kind:'aftermarket',brand:p.brand,name:p.name,part_number:numbers[0]??'',where:p.system,numbers,stores:storeLinks({kind:'aftermarket',brand:p.brand,name:p.name,part_number:p.pn,links:p.links}),...(position?{position}:{}),...(note?{note:note.length>140?note.slice(0,137).trimEnd()+'…':note}:{})};
+  byProduct.set(key,part);out.push(part);}
  return out;
 }
 

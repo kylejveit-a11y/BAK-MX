@@ -10,7 +10,7 @@ import {readInstalled,systemLabel,partLabel} from '../shared/installed-parts.ts'
 import {canonBrand,cleanName} from '../shared/parts-picker.ts';
 import {collectPages} from './pagination.ts';
 import {HttpError,readJson,uuid} from './validation.ts';
-import {termPatterns,storeLinks,findAftermarket,type FoundPart} from '../shared/parts-hunter.ts';
+import {termPatterns,storeLinks,findAftermarket,positionOf,type FoundPart} from '../shared/parts-hunter.ts';
 import {decodeFamily,familyOf,type CatalogPart} from '../shared/parts-picker.ts';
 import {loadFamily} from './part-options.ts';
 import {objectionable} from './content-rules.ts';
@@ -403,7 +403,7 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
   const make=String(bike.manufacturer),family=familyOf(make);
   const [rows,list]=await Promise.all([catalogs.length?db.rpc('part_search',{p_catalog:catalogs[0].id,p_patterns:patterns}).then(r=>(checked(r)??[]) as Row[]):Promise.resolve([] as Row[]),family?loadFamily(family).then(f=>decodeFamily(f,make,String(bike.model),Number(bike.model_year))):Promise.resolve(null)]);
   const seen=new Set<string>();const factory:FoundPart[]=[];
-  for(const r of rows){const pn=String(r.part_number);if(seen.has(pn))continue;seen.add(pn);factory.push({kind:'factory',brand:make,name:String(r.description),part_number:pn,where:String(r.assembly),stores:storeLinks({kind:'factory',brand:make,name:String(r.description),part_number:pn})});if(factory.length>=20)break;}
+  for(const r of rows){const pn=String(r.part_number);if(seen.has(pn))continue;seen.add(pn);{const name=String(r.description),where=String(r.assembly),position=positionOf(name)??positionOf(where);factory.push({kind:'factory',brand:make,name,part_number:pn,numbers:[pn],where,stores:storeLinks({kind:'factory',brand:make,name,part_number:pn}),...(position?{position}:{})});}if(factory.length>=20)break;}
   return json({query,factory,aftermarket:list?findAftermarket(list,query):[],has_factory_list:catalogs.length>0,has_aftermarket_list:!!list});
  }
  if(path==='/api/saved-parts'){
