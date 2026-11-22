@@ -66,7 +66,7 @@ export function Choices<T extends string>({label,value,items,onChange,disabled=f
 }
 /** Tap-to-start row: an open line with a plus, not a box. */
 /** The row's bottom line doubles as the top line of the card under it, so the two never stack into a pair of lines. */
-export function StartRow({icon,title,detail,onPress}:{icon:IconName;title:string;detail?:string;onPress:()=>void}){return <View style={{marginBottom:-18}}><TileGrid><Tile icon={icon} title={title} detail={detail} trailing="plus" onPress={onPress}/></TileGrid></View>;}
+export function StartRow({icon,title,detail,onPress}:{icon:IconName;title:string;detail?:string;onPress:()=>void}){return <TileGrid><Tile icon={icon} title={title} detail={detail} trailing="plus" onPress={onPress}/></TileGrid>;}
 export function FormHead({title,onCancel}:{title:string;onCancel:()=>void}){return <SectionHead title={title} action="Cancel" onAction={onCancel}/>;}
 
 function useProfile(){

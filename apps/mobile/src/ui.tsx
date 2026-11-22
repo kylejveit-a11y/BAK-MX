@@ -10,7 +10,7 @@ import {BottomTabBarHeightContext} from '@react-navigation/bottom-tabs';
 import {Glass,useKeyboardHeight,useTabSpace} from './Glass';
 import {Icon,type IconName} from './Icon';
 import {BlueFace,blueLift,onBlueText} from './BlueFace';
-import {RaisedFace,raisedLift} from './Raised';
+import {Raised,RaisedFace,raisedLift} from './Raised';
 export {BlueFace,blueLift,onBlueText};
 export {Icon,type IconName};
 import {colors,tint,metalHighlight,motion,DISPLAY,LABEL} from './theme';
@@ -129,10 +129,18 @@ export function Eyebrow({children,bare=false}:{children:React.ReactNode;bare?:bo
 export function Chip({label,done}:{label:string;done:boolean}){return <View style={{flexDirection:'row',alignItems:'center',gap:5,paddingVertical:2,marginRight:6}}>{done?<Icon name="check" size={14} color="#9fdcb3" weight={2.2}/>:<View style={{width:6,height:6,borderRadius:3,backgroundColor:'#58606e',marginHorizontal:4}}/>}<Text style={{color:done?'#d8f0df':'#a7afbd',fontSize:13}}>{label}</Text></View>}
 /** Open list row: icon, title, one short line, and a chevron (or plus). Hairline below. */
 /** `expanded` (true/false) makes the row a group header: its one affordance is a chevron that points down when shut, up when open. */
-export function Tile({icon,title,detail,onPress,trailing='chevron',right,expanded}:{icon?:IconName|React.ReactNode;title:string;detail?:string;onPress:()=>void;trailing?:'chevron'|'plus'|'none';right?:string;expanded?:boolean}){return <Pressable accessibilityRole="button" accessibilityLabel={title+(detail?'. '+detail:'')} accessibilityState={expanded===undefined?undefined:{expanded}} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:14,paddingVertical:15,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#2a2f39',opacity:pressed?0.6:1})}>{typeof icon==='string'?<Icon name={icon as IconName} size={22} color="#b2b9c4"/>:icon}<View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>{title}</Text>{!!detail&&<Text style={{color:'#adb5c1',fontSize:13,lineHeight:18}}>{detail}</Text>}</View>{!!right&&<Text style={{color:'#b2b9c4',fontSize:13.5,fontWeight:'600'}}>{right}</Text>}{trailing!=='none'&&<Icon name={expanded!==undefined?(expanded?'chevronUp':'chevronDown'):trailing==='plus'?'plus':'chevronRight'} size={trailing==='plus'&&expanded===undefined?20:17} color="#7d8593"/>}</Pressable>}
+/** Rows on a raised panel. TileGrid is the panel; a Tile used by itself gets a panel of its own. A row is words first:
+ *  the small generic line icons are gone (a picture passed in, such as a thumbnail, still shows). */
+const InPanel=React.createContext(false);
+const PANEL_LINE='rgba(255,255,255,0.09)';
+export function Tile({icon,title,detail,onPress,trailing='chevron',right,expanded}:{icon?:IconName|React.ReactNode;title:string;detail?:string;onPress:()=>void;trailing?:'chevron'|'plus'|'none';right?:string;expanded?:boolean}){
+ const inPanel=React.useContext(InPanel);
+ const row=<Pressable accessibilityRole="button" accessibilityLabel={title+(detail?'. '+detail:'')} accessibilityState={expanded===undefined?undefined:{expanded}} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,minHeight:56,paddingVertical:11,opacity:pressed?0.6:1})}>{typeof icon==='string'||!icon?null:icon}<View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'600'}}>{title}</Text>{!!detail&&<Text style={{color:'#9aa2ae',fontSize:13,lineHeight:18}}>{detail}</Text>}</View>{!!right&&<Text style={{color:'#b2b9c4',fontSize:14,fontWeight:'600'}}>{right}</Text>}{trailing!=='none'&&<Icon name={expanded!==undefined?(expanded?'chevronUp':'chevronDown'):trailing==='plus'?'plus':'chevronRight'} size={trailing==='plus'&&expanded===undefined?19:16} color="#8f97a4"/>}</Pressable>;
+ return inPanel?row:<Raised radius={18}><View style={{paddingHorizontal:16}}>{row}</View></Raised>;
+}
 /** A compact entry tile for a side-by-side pair: icon, title, one short line. */
 export function EntryTile({icon,title,detail,onPress}:{icon:IconName;title:string;detail:string;onPress:()=>void}){return <Pressable accessibilityRole="button" accessibilityLabel={title+'. '+detail} onPress={onPress} style={({pressed})=>[{flex:1,minWidth:0,gap:8,paddingVertical:13,paddingHorizontal:14,borderRadius:18},raisedLift,pressed&&{transform:[{translateY:1}],shadowOpacity:0.25}]}>{({pressed})=><><RaisedFace radius={18} pressed={pressed}/><View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}><Icon name={icon} size={21} color={colors.accent}/><Icon name="chevronRight" size={15} color="#7d8593"/></View><View style={{gap:2}}><Text numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.85} style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{title}</Text><Text numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.85} style={{color:'#adb5c1',fontSize:12.5}}>{detail}</Text></View></>}</Pressable>}
-export function TileGrid({children}:{children:React.ReactNode}){return <View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',marginTop:4}}>{children}</View>}
+export function TileGrid({children}:{children:React.ReactNode}){const rows=React.Children.toArray(children);if(!rows.length)return null;return <Raised radius={18}><View style={{paddingHorizontal:16}}><InPanel.Provider value={true}>{rows.map((r,i)=><View key={i} style={{borderTopWidth:i?StyleSheet.hairlineWidth:0,borderTopColor:PANEL_LINE}}>{r}</View>)}</InPanel.Provider></View></Raised>}
 /** The home prompt: an open line that opens chat. */
 /** The question bar. `onTrouble` adds one small line under it, "Something’s wrong?", which opens Ask BAK in diagnose mode. */
 export function AskBar({onPress,onSnap,onTrouble}:{onPress:()=>void;onSnap?:()=>void;onTrouble?:()=>void}){const bar=<Pressable accessibilityRole="button" accessibilityLabel="Ask BAK about your bike" onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,borderRadius:28,borderWidth:1,borderColor:'#343a45',paddingVertical:8,paddingLeft:20,paddingRight:8,opacity:pressed?0.7:1})}><Text style={{color:'#c9cfd9',fontSize:16,fontWeight:'500',flex:1}}>Ask BAK about your bike…</Text>{onSnap&&<Pressable accessibilityRole="button" accessibilityLabel="Snap a part and ask BAK" hitSlop={6} onPress={onSnap} style={({pressed})=>({width:40,height:40,borderRadius:20,borderWidth:1,borderColor:'#343a45',backgroundColor:'#14171d',alignItems:'center',justifyContent:'center',opacity:pressed?0.6:1})}><Icon name="camera" size={20} color="#e6e9ef"/></Pressable>}<View style={[{borderRadius:20,width:40,height:40,alignItems:'center',justifyContent:'center'},blueLift]}><BlueFace radius={20}/><Icon name="arrowUp" size={20} color="#ffffff" weight={2.4}/></View></Pressable>;
@@ -187,15 +195,14 @@ export function Segmented<T extends string>({value,items,onChange,disabled=false
 /** A collapsed group of settings: a row with what's inside and its current state; tap to open. */
 export function Section({icon,title,summary,children,startOpen=false}:{icon:IconName;title:string;summary?:string;children:React.ReactNode;startOpen?:boolean}){
  const [open,setOpen]=React.useState(startOpen);
- return <View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}>
-  <Pressable haptic="select" accessibilityRole="button" accessibilityState={{expanded:open}} accessibilityLabel={`${title}${summary?`, ${summary}`:''}`} onPress={()=>setOpen(!open)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:14,paddingVertical:16,opacity:pressed?0.6:1})}>
-   <View style={{width:36,height:36,borderRadius:11,borderWidth:1,borderColor:'#262b34',backgroundColor:'#0e1015',alignItems:'center',justifyContent:'center'}}><Icon name={icon} size={18} color={open?colors.accent:'#b2b9c4'}/></View>
-   <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'700'}}>{title}</Text>{!!summary&&<Text numberOfLines={2} style={{color:'#8f97a4',fontSize:13.5,lineHeight:18}}>{summary}</Text>}</View>
-   <Icon name={open?'chevronUp':'chevronDown'} size={17} color="#8f97a4"/>
+ return <Raised radius={18}><View style={{paddingHorizontal:16}}>
+  <Pressable haptic="select" accessibilityRole="button" accessibilityState={{expanded:open}} accessibilityLabel={`${title}${summary?`, ${summary}`:''}`} onPress={()=>setOpen(!open)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,minHeight:56,paddingVertical:11,opacity:pressed?0.6:1})}>
+   <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'600'}}>{title}</Text>{!!summary&&<Text numberOfLines={2} style={{color:'#9aa2ae',fontSize:13,lineHeight:18}}>{summary}</Text>}</View>
+   <Icon name={open?'chevronUp':'chevronDown'} size={16} color="#8f97a4"/>
   </Pressable>
   {/* Full width and allowed to shrink, so body text wraps inside the page instead of running off the right edge. */}
   {open&&<View style={{gap:14,paddingBottom:20,alignSelf:'stretch',width:'100%'}}>{children}</View>}
- </View>;
+ </View></Raised>;
 }
 
 /** A "Done" bar above the number keyboard, which has no return key of its own. Give a numeric TextInput

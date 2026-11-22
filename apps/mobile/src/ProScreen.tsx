@@ -36,7 +36,7 @@ function BuyButton({title,price,disabled,onPress}:{title:string;price:string;dis
 /** One value row: icon in a dark well, the title, one line under it. */
 function ValueRow({icon,title,detail,last}:{icon:IconName;title:string;detail:string;last:boolean}){
  return <View accessible accessibilityLabel={`${title}. ${detail}`} style={[{flexDirection:'row',gap:14,paddingVertical:14},!last&&{borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'rgba(255,255,255,0.08)'}]}>
-  <View style={{width:40,height:40,borderRadius:12,borderWidth:1,borderColor:'rgba(255,255,255,0.10)',backgroundColor:'rgba(0,0,0,0.30)',alignItems:'center',justifyContent:'center'}}><Icon name={icon} size={20} color={colors.accent}/></View>
+  
   <View style={{flex:1,gap:3}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'800',letterSpacing:-0.2}}>{title}</Text><Text style={{color:'#b9c0cb',fontSize:13.5,lineHeight:19}}>{detail}</Text></View>
  </View>;
 }

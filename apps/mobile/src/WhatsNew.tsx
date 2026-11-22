@@ -49,7 +49,6 @@ export function WhatsNewCard({account,show=Platform.OS!=='web'}:{account:string;
   <Text style={{color:colors.text,fontSize:20,fontWeight:'800',letterSpacing:-0.4}}>{TITLE}</Text>
   <View style={{gap:12}}>
    {items.map(([icon,title,detail])=><View key={title} style={{flexDirection:'row',gap:12,alignItems:'flex-start'}}>
-    <View style={{width:34,height:34,borderRadius:10,backgroundColor:'#16202e',borderWidth:1,borderColor:'#26354a',alignItems:'center',justifyContent:'center'}}><Icon name={icon} size={18} color="#9cc4ff"/></View>
     <View style={{flex:1,gap:1}}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{title}</Text><Text style={{color:'#a7b0bd',fontSize:13.5,lineHeight:19}}>{detail}</Text></View>
    </View>)}
   </View>
