@@ -374,7 +374,7 @@ const MENU:{label:string;items:MenuItem[]}[]=[
   {title:'Service log',summary:'What is due and what is done',go:open=>open('Maintenance')}]},
  {label:'Riding',items:[
   {title:'Where to Ride',summary:'Tracks and riding areas near you',go:open=>open('Ride')},
-  {title:'Ride safety',summary:'A back-by timer and a live link for someone at home',go:(_o,show)=>show('safety')},
+  {title:'Ride safety',summary:'Back-by timer and a live link for home',go:(_o,show)=>show('safety')},
   {title:'Race day',summary:'Prep list, motos, changes between them',go:open=>{requestHomeStart('race');open('Home');}},
   {title:'Practice day',summary:'Plan a ride day and log each session',go:open=>{requestHomeStart('practice');open('Home');}}]},
  {label:'More',items:[
@@ -404,12 +404,14 @@ function HeaderRight({screen,open}:{screen:string;open:(to:string)=>void}){
       <View style={{flex:1,gap:3}}><Text numberOfLines={1} style={{color:colors.text,fontSize:18,fontWeight:'700'}}>{name||'Your account'}</Text><Text style={{color:'#aab1bd',fontSize:13.5}}>Account, plan and settings</Text></View>
       <Icon name="chevronRight" size={18} color="#9aa2ae"/></>}
      </Pressable>
-     {MENU.map(group=><View key={group.label} style={{gap:4}}>
-      <Text accessibilityRole="header" style={{color:'#8b93a0',fontSize:12.5,...LABEL,letterSpacing:0.6,marginBottom:2}}>{group.label}</Text>
-      {group.items.map((it,i)=><Pressable key={it.title} haptic="tap" accessibilityRole="button" accessibilityLabel={`${it.title}. ${it.summary}`} onPress={()=>pick(it)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:13,borderTopWidth:i?StyleSheet.hairlineWidth:0,borderTopColor:colors.line,opacity:pressed?0.55:1})}>
-       <View style={{flex:1,gap:3}}><Text style={{color:colors.text,fontSize:18,fontWeight:'700',letterSpacing:-0.1}}>{it.title}</Text><Text style={{color:'#9aa2ae',fontSize:13.5,lineHeight:18}}>{it.summary}</Text></View>
-       <Icon name="chevronRight" size={17} color="#59616f"/>
+     {MENU.map(group=><View key={group.label} style={{gap:9}}>
+      <Text accessibilityRole="header" style={{color:'#8b93a0',fontSize:12.5,...LABEL,letterSpacing:0.6,paddingLeft:4}}>{group.label}</Text>
+      <Raised radius={18}><View style={{paddingHorizontal:16}}>
+      {group.items.map((it,i)=><Pressable key={it.title} haptic="tap" accessibilityRole="button" accessibilityLabel={`${it.title}. ${it.summary}`} onPress={()=>pick(it)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:13,borderTopWidth:i?StyleSheet.hairlineWidth:0,borderTopColor:'rgba(255,255,255,0.09)',opacity:pressed?0.55:1})}>
+       <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'600'}}>{it.title}</Text><Text numberOfLines={1} style={{color:'#9aa2ae',fontSize:13}}>{it.summary}</Text></View>
+       <Icon name="chevronRight" size={16} color="#8f97a4"/>
       </Pressable>)}
+      </View></Raised>
      </View>)}
     </ScrollView>
    </View>

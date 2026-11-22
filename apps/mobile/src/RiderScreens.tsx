@@ -12,7 +12,7 @@ import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
 import {useKeyboardHeight} from './Glass';
 import {ActivityIndicator,Alert,Animated,Image,KeyboardAvoidingView,Linking,Modal,Platform,ScrollView,Share,StyleSheet,Text,TextInput,View} from 'react-native';
 import {Pressable} from './Touch';
-import {RaisedFace,raisedLift} from './Raised';
+import {Raised,RaisedFace,raisedLift} from './Raised';
 import {PostClip,PhotoEditSheet,clipLength} from './PostMedia';
 import {File as FsFile,Paths} from 'expo-file-system';
 import * as Sharing from 'expo-sharing';
@@ -117,6 +117,8 @@ function JoinSheet({visible,onClose,onSaved,why}:{visible:boolean;onClose:()=>vo
 
 /** The profile could not be read (no signal, server down): say so and offer a retry. Never the set-up form, which is for a rider who has none. */
 function ProfileUnavailable({error,onRetry}:{error:string;onRetry:()=>void}){return <><Notice text={error}/><Button secondary title="Retry" onPress={onRetry}/></>;}
+/** The profile sits on the same raised panel as the Account groups under it. */
+function ProfileShell({children}:{children:React.ReactNode}){return <Raised radius={20}><View style={{padding:16,gap:14}}>{children}</View></Raised>;}
 export function ProfileCard(){
  const {profile,setProfile,profileError}=useProfile();
  const [editing,setEditing]=useState(false),[photoBusy,setPhotoBusy]=useState(false),[photoNote,setPhotoNote]=useState('');
@@ -124,10 +126,10 @@ export function ProfileCard(){
  const [blocks,setBlocks]=useState<{blocked_id:string;created_at:string}[]>([]);
  useFocusEffect(useCallback(()=>{api<{blocked_id:string;created_at:string}[]>('/api/blocks').then(setBlocks).catch(()=>setBlocks([]));},[]));
  // While the profile loads, hold its space so the rest of Account doesn't jump down when it arrives.
- if(profile===undefined)return <Card><View accessibilityLabel="Loading your profile" style={{flexDirection:'row',alignItems:'center',gap:14}}><View style={{width:56,height:56,borderRadius:28,backgroundColor:'#15181e'}}/><View style={{flex:1,gap:8}}><View style={{width:'55%',height:16,borderRadius:5,backgroundColor:'#15181e'}}/><View style={{width:'80%',height:12,borderRadius:4,backgroundColor:'#121519'}}/></View></View></Card>;
- return <Card>{profile?<View style={{flexDirection:'row',alignItems:'center',gap:14}}><Pressable accessibilityRole="button" accessibilityLabel="Change profile photo" disabled={photoBusy} onPress={()=>void changePhoto()}><Avatar name={riderName(profile)} uri={profile.avatar_url} size={56}/><View style={{position:'absolute',right:-2,bottom:-2,width:24,height:24,borderRadius:12,alignItems:'center',justifyContent:'center',...blueLift}}><BlueFace radius={12}/>{photoBusy?<ActivityIndicator size="small" color="#ffffff"/>:<Icon name="camera" size={12} color="#ffffff" weight={2.2}/>}</View></Pressable><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:20,fontWeight:'800'}}>{riderName(profile)}</Text><Text style={{color:'#adb5c1',fontSize:13.5}}>@{profile.handle}{profile.location?' · '+profile.location:''}{profile.riding_class?' · '+profile.riding_class:''}</Text></View><Pressable accessibilityRole="button" hitSlop={10} onPress={()=>setEditing(!editing)}><Text style={{color:editing?colors.muted:colors.text,fontWeight:'700',fontSize:15}}>{editing?'Cancel':'Edit'}</Text></Pressable></View>:<Copy strong>Rider profile</Copy>}{!!profile?.bio&&!editing&&<Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{profile.bio}</Text>}<Notice text={profileError||photoNote}/>{(!profile||editing)&&<ProfileEditor profile={profile} onSaved={p=>{setProfile(p);setEditing(false);}}/>}
+ if(profile===undefined)return <ProfileShell><View accessibilityLabel="Loading your profile" style={{flexDirection:'row',alignItems:'center',gap:14}}><View style={{width:56,height:56,borderRadius:28,backgroundColor:'#15181e'}}/><View style={{flex:1,gap:8}}><View style={{width:'55%',height:16,borderRadius:5,backgroundColor:'#15181e'}}/><View style={{width:'80%',height:12,borderRadius:4,backgroundColor:'#121519'}}/></View></View></ProfileShell>;
+ return <ProfileShell>{profile?<View style={{flexDirection:'row',alignItems:'center',gap:14}}><Pressable accessibilityRole="button" accessibilityLabel="Change profile photo" disabled={photoBusy} onPress={()=>void changePhoto()}><Avatar name={riderName(profile)} uri={profile.avatar_url} size={56}/><View style={{position:'absolute',right:-2,bottom:-2,width:24,height:24,borderRadius:12,alignItems:'center',justifyContent:'center',...blueLift}}><BlueFace radius={12}/>{photoBusy?<ActivityIndicator size="small" color="#ffffff"/>:<Icon name="camera" size={12} color="#ffffff" weight={2.2}/>}</View></Pressable><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:20,fontWeight:'800'}}>{riderName(profile)}</Text><Text style={{color:'#adb5c1',fontSize:13.5}}>@{profile.handle}{profile.location?' · '+profile.location:''}{profile.riding_class?' · '+profile.riding_class:''}</Text></View><Pressable accessibilityRole="button" hitSlop={10} onPress={()=>setEditing(!editing)}><Text style={{color:editing?colors.muted:colors.text,fontWeight:'700',fontSize:15}}>{editing?'Cancel':'Edit'}</Text></Pressable></View>:<Copy strong>Rider profile</Copy>}{!!profile?.bio&&!editing&&<Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{profile.bio}</Text>}<Notice text={profileError||photoNote}/>{(!profile||editing)&&<ProfileEditor profile={profile} onSaved={p=>{setProfile(p);setEditing(false);}}/>}
   {blocks.length>0&&<View style={{gap:8}}><Copy strong>Blocked riders</Copy>{blocks.map(b=><Row key={b.blocked_id}><Copy>Blocked {day(b.created_at)}</Copy><Link title="Unblock" onPress={()=>void api('/api/blocks?user_id='+b.blocked_id,'DELETE').then(()=>setBlocks(old=>old.filter(x=>x.blocked_id!==b.blocked_id))).catch(()=>{})}/></Row>)}</View>}
- </Card>;
+ </ProfileShell>;
 }
 export function FeedbackCard({bike,bare=false}:{bike?:Bike;bare?:boolean}){
  const [category,setCategory]=useState('missing_data'),[body,setBody]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
