@@ -218,7 +218,10 @@ function LinkActionLite({title,onPress,muted=false}:{title:string;onPress:()=>vo
 
 function PostView({p,open,onOpen,onLike,onMore,onRider,onRiderId,onLikers,onCount,report,canWrite=true,onJoin}:{p:Post;open:boolean;onOpen:()=>void;onLike:()=>void;onMore:()=>void;onRider:()=>void;onRiderId:(id:string)=>void;onLikers:(path:string)=>void;onCount:(n:number)=>void;report:React.ReactNode;canWrite?:boolean;onJoin?:(why:string)=>void}){
  const [full,setFull]=useState(false),long=p.body.length>320||p.body.split('\n').length>6;
- return <View style={{paddingTop:18,paddingBottom:6,gap:12,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}>
+ return <View>
+  {/* A solid band between posts, so where one ends and the next starts is never in doubt. */}
+  <View accessibilityElementsHidden importantForAccessibility="no" style={{height:10,backgroundColor:'#12151b',borderTopWidth:StyleSheet.hairlineWidth,borderBottomWidth:StyleSheet.hairlineWidth,borderTopColor:'rgba(255,255,255,0.10)',borderBottomColor:'rgba(0,0,0,0.8)'}}/>
+  <View style={{paddingTop:18,paddingBottom:14,gap:12}}>
   <View style={{flexDirection:'row',alignItems:'center',gap:12,paddingHorizontal:20}}>
    <Pressable accessibilityRole="button" accessibilityLabel={'View '+riderName(p.author)} onPress={onRider}><Avatar name={riderName(p.author)} uri={p.author.avatar_url} size={42}/></Pressable>
    <Pressable accessibilityRole="button" accessibilityLabel={'View '+riderName(p.author)} onPress={onRider} style={{flex:1,gap:2}}>
@@ -243,6 +246,7 @@ function PostView({p,open,onOpen,onLike,onMore,onRider,onRiderId,onLikers,onCoun
   </View>
   {!open&&p.comment_count>0&&<Pressable onPress={onOpen} style={{paddingHorizontal:20}}><Text style={{color:'#adb5c1',fontSize:14}}>View {p.comment_count===1?'1 comment':`all ${p.comment_count} comments`}</Text></Pressable>}
   {open&&<Comments postId={p.id} onCount={onCount} onLikers={onLikers} onRiderId={onRiderId} canWrite={canWrite} onJoin={onJoin}/>}
+  </View>
  </View>;
 }
 

@@ -1,8 +1,9 @@
 // The build sheet as a finished document: a header plate for the bike, a short summary, then each area of the bike with what's
 // fitted, set out like a team's spec sheet. Used in Garage (your bike) and on profiles (a public build sheet).
 import React from 'react';
-import {DISPLAY} from './theme';
-import {Text,View} from 'react-native';
+import {DISPLAY,LABEL} from './theme';
+import {StyleSheet,Text,View} from 'react-native';
+import {Raised,well} from './Raised';
 import {partSystems,type PartSystem} from '../../../shared/installed-parts';
 import {RacePlate} from './RacePlate';
 import {Eyebrow,MetalMark,colors,tint} from './ui';
@@ -26,7 +27,7 @@ export function BuildSheetDoc({data,mine=false}:{data:SheetData;mine?:boolean}){
  const label=(k:PartSystem)=>partSystems.find(s=>s.key===k)?.label??k;
  return <View style={{gap:18}}>
   {/* header plate */}
-  <View style={{borderRadius:16,borderWidth:1,borderColor:'#262b34',backgroundColor:'#0d0f13',padding:16,gap:10,overflow:'hidden'}}>
+  <Raised radius={20}><View style={{padding:18,gap:12,borderRadius:20,overflow:'hidden'}}>
    <View style={{position:'absolute',left:0,top:0,bottom:0,width:4,backgroundColor:colors.accent}}/>
    <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
     <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Eyebrow>BUILD SHEET</Eyebrow></View>
@@ -39,13 +40,13 @@ export function BuildSheetDoc({data,mine=false}:{data:SheetData;mine?:boolean}){
      {!!data.subtitle&&<Text style={{color:colors.muted,fontSize:14}}>{data.subtitle}</Text>}
     </View>
    </View>
-   <View style={{flexDirection:'row',borderTopWidth:1,borderTopColor:'#1f242c',paddingTop:10}}>
+   <View style={[{flexDirection:'row',borderRadius:12,paddingVertical:10,paddingHorizontal:12},well]}>
     <Stat value={String(on.length)} label={on.length===1?'part':'parts'}/>
     <Stat value={String(modified.size)} label="changed"/>
     <Stat value={String(stock.length)} label="stock"/>
     {data.hours!=null&&<Stat value={String(data.hours)} label="hours"/>}
    </View>
-  </View>
+  </View></Raised>
 
   {!!data.checks?.length&&<View style={{gap:6,borderLeftWidth:3,borderLeftColor:AMBER,paddingLeft:12}}>
    <Text style={{color:AMBER,fontSize:12,fontWeight:'800',letterSpacing:1}}>{data.checks.length===1?'1 THING TO CHECK':`${data.checks.length} THINGS TO CHECK`}</Text>
@@ -56,23 +57,23 @@ export function BuildSheetDoc({data,mine=false}:{data:SheetData;mine?:boolean}){
 
   {GROUPS.map(g=>{const rows=g.systems.filter(k=>modified.has(k)||stock.includes(k));if(!rows.length)return null;
    return <View key={g.label} style={{gap:10}}>
-    <Text style={{color:'#8b93a1',fontSize:13,fontWeight:'800',letterSpacing:0}}>{g.label}</Text>
-    <View style={{borderRadius:14,borderWidth:1,borderColor:'#20242c',backgroundColor:'#0c0e12',overflow:'hidden'}}>
+    <Text accessibilityRole="header" style={{color:'#8b93a0',fontSize:12.5,...LABEL,letterSpacing:0.6,paddingLeft:4}}>{g.label}</Text>
+    <Raised radius={18}><View style={{paddingHorizontal:16}}>
      {rows.map((k,i)=>{const parts=on.filter(p=>p.system===k);
-      return <View key={k} style={{flexDirection:'row',gap:12,padding:14,borderTopWidth:i?1:0,borderTopColor:'#1a1e25'}}>
+      return <View key={k} style={{flexDirection:'row',gap:12,paddingVertical:15,borderTopWidth:i?StyleSheet.hairlineWidth:0,borderTopColor:'rgba(255,255,255,0.09)'}}>
        <View style={{width:96,gap:4}}>
-        <Text style={{color:colors.text,fontSize:13.5,fontWeight:'800'}}>{label(k)}</Text>
+        <Text style={{color:colors.text,fontSize:14.5,fontWeight:'700'}}>{label(k)}</Text>
         {parts.length?<Text style={{color:'#9aa2ae',fontSize:11,fontWeight:'800',letterSpacing:0.8}}>MODIFIED</Text>:<View style={{alignSelf:'flex-start',paddingHorizontal:7,paddingVertical:2,borderRadius:6,backgroundColor:tint(0.12)}}><Text style={{color:'#9aa2ae',fontSize:11,fontWeight:'800',letterSpacing:0.8}}>STOCK</Text></View>}
        </View>
        <View style={{flex:1,gap:10}}>
         {parts.length?parts.map((p,j)=><PartLine key={j} p={p}/>):<Text style={{color:colors.muted,fontSize:14}}>As it came from the factory</Text>}
        </View>
       </View>;})}
-    </View>
+    </View></Raised>
    </View>;})}
 
   {spares.length>0&&<View style={{gap:10}}>
-   <Text style={{color:'#8b93a1',fontSize:13,fontWeight:'800',letterSpacing:0}}>Off the bike: spares and swaps</Text>
+   <Text accessibilityRole="header" style={{color:'#8b93a0',fontSize:12.5,...LABEL,letterSpacing:0.6,paddingLeft:4}}>Off the bike: spares and swaps</Text>
    <View style={{borderRadius:14,borderWidth:1,borderColor:'#20242c',borderStyle:'dashed',padding:14,gap:10}}>
     {spares.map((p,j)=><View key={j} style={{gap:2}}><Text style={{color:'#9aa2ae',fontSize:11,fontWeight:'800',letterSpacing:0.8}}>{label(p.system).toUpperCase()}</Text><PartLine p={p}/></View>)}
    </View>
