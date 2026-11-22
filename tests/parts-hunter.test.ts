@@ -52,3 +52,14 @@ test('find a part: one card per product with all its numbers, and front or rear 
  assert.equal(found.find(p=>p.brand==='BILT')!.position,'rear');
  assert.equal(positionOf('PAD SET, RR.'),'rear');assert.equal(positionOf('Front and rear pads'),undefined);assert.equal(positionOf('Brake pad'),undefined);
 });
+
+import {browseSystem,isPartSystem} from '../shared/parts-hunter.ts';
+test('browse by system: every product in the system, grouped by kind of part',()=>{
+ const mk=(brand:string,name:string,system:string,pn='X-100')=>({...part(brand,name,pn),system:system as never});
+ const list=[mk('Rekluse','RadiusCX auto clutch','clutch','RMS-1'),mk('Rekluse','TorqDrive clutch pack','clutch','RMS-2'),mk('Hinson','Billetproof clutch basket','clutch','H-3'),mk('Galfer','Rear brake pads','brakes','G-4'),mk('Rekluse','RadiusCX auto clutch','clutch','RMS-9')];
+ const b=browseSystem(list,'clutch' as never);
+ assert.deepEqual(b.parts.map(p=>p.type),['Auto clutch','Plates','Basket or hub']);
+ assert.deepEqual(b.parts[0].numbers,['RMS-1','RMS-9']);
+ assert.deepEqual(b.types,[{label:'Auto clutch',count:1},{label:'Plates',count:1},{label:'Basket or hub',count:1}]);
+ assert.equal(isPartSystem('clutch'),true);assert.equal(isPartSystem('nope'),false);
+});

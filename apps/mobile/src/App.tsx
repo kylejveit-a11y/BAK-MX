@@ -40,7 +40,9 @@ import {configureNotifications,registerIfAllowed,enablePushAfterReminder,unregis
 import {InviteCard} from './InviteCard';
 import {PageSheet} from './PageSheet';
 import {CopiedToast,CopyText} from './copy';
-import {FindPartCard,PartOfferLine,openFindPart} from './FindPart';
+import {FindPartCard,MyPartsList,PartOfferLine,openFindPart} from './FindPart';
+import {openPartsTab,takePartsTab,onPartsTab,requestHomeStart,takeHomeStart,onHomeStart,type PartsTab} from './menuActions';
+import {RideSafetyPanel} from './RideSafety';
 import {partOffer} from '../../../shared/parts-hunter';
 import {NotificationsCard} from './NotificationsCard';
 import {createBottomTabNavigator,type BottomTabScreenProps} from '@react-navigation/bottom-tabs';
@@ -266,6 +268,7 @@ function WelcomeGate({toGarage}:{toGarage:()=>void}){
 }
 function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,session,bikesLoaded,bikesError,select,reload}=useContext(Ctx);
  const {layout,save,reset}=useHomeLayout(session.user.id),{race,start,end,isToday,upcoming,setNext}=useRaceDay(session.user.id),[editing,setEditing]=useState(false),[starting,setStarting]=useState<false|'race'|'practice'>(false),[prepOpen,setPrepOpen]=useState(false);
+ useEffect(()=>{const k=takeHomeStart();if(k)setStarting(k);return onHomeStart(kind=>{takeHomeStart();setStarting(kind);});},[]);
  const ask=(text:string)=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',context:text,contextToken:randomUUID(),contextBikeId:bike.id});};
  // Quick ask on race day: sent straight away, no typing.
  const quick=(text:string)=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',prompt:text,promptToken:randomUUID()});};
@@ -305,7 +308,7 @@ function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,s
   next:bike?<UpNextBlock bike={bike} onService={()=>navigation.navigate('Maintenance')} onEvents={()=>navigation.navigate('Events')} onSetup={()=>navigation.navigate('Setup')}/>:null,
   coaching:bike?<CoachingBlock bike={bike} onOpen={()=>navigation.navigate('Garage',{open:'coaching',token:randomUUID()})} onCoach={()=>navigation.navigate('Ask BAK',{clip:randomUUID()})}/>:null,
  };
- const more:[string,()=>void][]=[['Find a part',()=>navigation.navigate('Specs')],['Setup log',()=>navigation.navigate('Setup')],['Workshop',()=>navigation.navigate('Workshop')],['Specs & parts',()=>navigation.navigate('Specs')],['Where to Ride',()=>navigation.navigate('Ride')],['Service log',()=>navigation.navigate('Maintenance')],['Know-how',()=>navigation.navigate('Learn')],['Messages',()=>navigation.navigate('Messages')]];
+ const more:[string,()=>void][]=[['Parts',()=>{openPartsTab('find');navigation.navigate('Specs');}],['Setup log',()=>navigation.navigate('Setup')],['Workshop',()=>navigation.navigate('Workshop')],['Where to Ride',()=>navigation.navigate('Ride')],['Service log',()=>navigation.navigate('Maintenance')],['Know-how',()=>navigation.navigate('Learn')],['Messages',()=>navigation.navigate('Messages')]];
  return <Page title=""><RideSafetyBanner/><View style={{gap:10,paddingTop:6}}><Text style={{color:colors.text,...DISPLAY,fontSize:27,lineHeight:35,letterSpacing:0}}>Know what works.{'\n'}<Text style={{color:'#7a8291'}}>Before your next ride.</Text></Text><Copy>Tell BAK what the bike is doing, the way you’d tell your buddy.</Copy></View>
  {/* Update news is for riders who already use the app; a brand-new rider sees Add your bike first. */}
  {bike&&<WhatsNewCard account={session.user.id}/>}
@@ -358,33 +361,63 @@ function TabStrip<T extends string>({tabs,value,onChange}:{tabs:readonly (readon
 /** One stable header title component, so the navigator never remounts the wordmark between renders. */
 const HeaderBrand=()=><Brand compact/>;
 /** Right side of every header: Messages (with a count when something is new), then Account. Each hides on its own screen. */
-// The menu behind the three lines at the top right: Account first, then every screen that has no tab of its own.
-const MENU:[IconName,string,string,string][]=[
- ['helmet','Account','Profile, plan, invite a friend, settings','Account'],
- ['gauge','Find a part','Parts that fit your bike and where to buy them','Specs'],
- ['document','Specs and parts','Factory specs, your settings, parts lists','Specs'],
- ['location','Where to Ride','Tracks and riding areas near you','Ride'],
- ['notes','Setup log','What you changed and how it felt','Setup'],
- ['oil','Service log','What is due and what you have done','Maintenance'],
- ['shock','Workshop','Guided jobs, hands-free','Workshop'],
- ['sparkle','Know-how','Short guides on setup and riding','Learn'],
- ['messages','Messages','Private messages with other riders','Messages'],
+// The menu behind the three lines at the top right. The bottom bar holds the main pages; the menu lists every feature
+// so nothing a rider is paying for has to be discovered by accident. Type and spacing carry it, not a tile of icons.
+type MenuItem={title:string;summary:string;go:(open:(to:string)=>void,show:(sheet:'safety')=>void)=>void};
+const MENU:{label:string;items:MenuItem[]}[]=[
+ {label:'Your bike',items:[
+  {title:'Parts',summary:'Find parts, specs, diagrams, your list',go:open=>{openPartsTab('find');open('Specs');}},
+  {title:'Workshop',summary:'Guided jobs, step by step, hands-free',go:open=>open('Workshop')},
+  {title:'Setup log',summary:'What you changed and how it felt',go:open=>open('Setup')},
+  {title:'Service log',summary:'What is due and what is done',go:open=>open('Maintenance')}]},
+ {label:'Riding',items:[
+  {title:'Where to Ride',summary:'Tracks and riding areas near you',go:open=>open('Ride')},
+  {title:'Ride safety',summary:'A back-by timer and a live link for someone at home',go:(_o,show)=>show('safety')},
+  {title:'Race day',summary:'Prep list, motos, changes between them',go:open=>{requestHomeStart('race');open('Home');}},
+  {title:'Practice day',summary:'Plan a ride day and log each session',go:open=>{requestHomeStart('practice');open('Home');}}]},
+ {label:'More',items:[
+  {title:'Know-how',summary:'Short guides on setup and riding',go:open=>open('Learn')},
+  {title:'Messages',summary:'Private messages with other riders',go:open=>open('Messages')},
+  {title:'Invite a friend',summary:'Free questions and free months',go:open=>open('Account')}]},
 ];
 function HeaderRight({screen,open}:{screen:string;open:(to:string)=>void}){
- const{unread}=useContext(Ctx),[menu,setMenu]=useState(false),insets=useSafeAreaInsets();
+ const{unread,session}=useContext(Ctx),[menu,setMenu]=useState(false),[safety,setSafety]=useState(false),insets=useSafeAreaInsets();
+ const name=readProgress<string>(session.user.id,'rider-name','')||readProgress<string>(DEVICE,'apple-name','').trim().split(/\s+/)[0]||'';
+ const initials=(name||session.user.email||'?').replace(/[^A-Za-z ]/g,' ').trim().split(/\s+/).slice(0,2).map(w=>w[0]).join('').toUpperCase()||'?';
+ const pick=(it:MenuItem)=>{setMenu(false);it.go(open,()=>setTimeout(()=>setSafety(true),350));};
  return <View style={{flexDirection:'row',alignItems:'center'}}>{screen!=='Messages'&&<HeaderMessages unread={unread} onPress={()=>open('Messages')}/>}<HeaderButton label="Menu" onPress={()=>setMenu(true)}/>
   <PageSheet visible={menu} animationType="slide" onRequestClose={()=>setMenu(false)}>
    <View style={{flex:1,backgroundColor:colors.bg,paddingTop:18}}>
-    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:20,paddingBottom:10}}>
-     <Text accessibilityRole="header" style={{color:colors.text,fontSize:22.5,...DISPLAY,letterSpacing:0}}>Menu</Text>
+    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:22,paddingBottom:8}}>
+     <View style={{gap:7}}><Text accessibilityRole="header" style={{color:colors.text,fontSize:22.5,...DISPLAY,letterSpacing:0}}>Menu</Text><View style={{flexDirection:'row',gap:4}}><MetalMark width={26}/><MetalMark width={8} dim/></View></View>
      <Pressable accessibilityRole="button" onPress={()=>setMenu(false)} hitSlop={10}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Close</Text></Pressable>
     </View>
-    <ScrollView contentContainerStyle={{paddingHorizontal:20,paddingBottom:insets.bottom+24}}>
-     {MENU.map(([icon,title,summary,to])=><Pressable key={title} haptic="tap" accessibilityRole="button" accessibilityLabel={`${title}. ${summary}`} onPress={()=>{setMenu(false);open(to);}} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:14,paddingVertical:14,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:colors.line,opacity:pressed?0.6:1})}>
-      <View style={{width:38,height:38,borderRadius:11,borderWidth:1,borderColor:'#2a2f39',alignItems:'center',justifyContent:'center'}}><Icon name={icon} size={19} color="#c9cfd9"/></View>
-      <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'700'}}>{title}</Text><Text style={{color:colors.muted,fontSize:13.5}}>{summary}</Text></View>
-      <Text style={{color:colors.muted,fontSize:20}}>›</Text>
-     </Pressable>)}
+    <ScrollView contentContainerStyle={{paddingHorizontal:22,paddingTop:10,paddingBottom:insets.bottom+28,gap:22}}>
+     <Pressable haptic="tap" accessibilityRole="button" accessibilityLabel="Account and settings" onPress={()=>{setMenu(false);open('Account');}} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:14,paddingVertical:14,paddingHorizontal:16,borderRadius:18,borderWidth:1,borderColor:'#2a2f39',backgroundColor:pressed?'#171b23':'#101319'})}>
+      <View style={{width:44,height:44,borderRadius:22,borderWidth:1.5,borderColor:colors.accent,backgroundColor:'#0b0d11',alignItems:'center',justifyContent:'center'}}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'800',letterSpacing:0.5}}>{initials}</Text></View>
+      <View style={{flex:1,gap:2}}><Text numberOfLines={1} style={{color:colors.text,fontSize:17,fontWeight:'700'}}>{name||'Your account'}</Text><Text style={{color:'#9aa2ae',fontSize:13.5}}>Account, plan and settings</Text></View>
+      <Icon name="chevronRight" size={18} color="#8b93a0"/>
+     </Pressable>
+     {MENU.map(group=><View key={group.label} style={{gap:4}}>
+      <Text accessibilityRole="header" style={{color:'#8b93a0',fontSize:12.5,...LABEL,letterSpacing:0.6,marginBottom:2}}>{group.label}</Text>
+      {group.items.map((it,i)=><Pressable key={it.title} haptic="tap" accessibilityRole="button" accessibilityLabel={`${it.title}. ${it.summary}`} onPress={()=>pick(it)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:13,borderTopWidth:i?StyleSheet.hairlineWidth:0,borderTopColor:colors.line,opacity:pressed?0.55:1})}>
+       <View style={{flex:1,gap:3}}><Text style={{color:colors.text,fontSize:18,fontWeight:'700',letterSpacing:-0.1}}>{it.title}</Text><Text style={{color:'#9aa2ae',fontSize:13.5,lineHeight:18}}>{it.summary}</Text></View>
+       <Icon name="chevronRight" size={17} color="#59616f"/>
+      </Pressable>)}
+     </View>)}
+    </ScrollView>
+   </View>
+  </PageSheet>
+  <PageSheet visible={safety} animationType="slide" onRequestClose={()=>setSafety(false)}>
+   <View style={{flex:1,backgroundColor:colors.bg,paddingTop:18}}>
+    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:22,paddingBottom:8}}>
+     <View style={{gap:7}}><Text accessibilityRole="header" style={{color:colors.text,fontSize:22.5,...DISPLAY,letterSpacing:0}}>Ride safety</Text><View style={{flexDirection:'row',gap:4}}><MetalMark width={26}/><MetalMark width={8} dim/></View></View>
+     <Pressable accessibilityRole="button" onPress={()=>setSafety(false)} hitSlop={10}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Close</Text></Pressable>
+    </View>
+    <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{paddingHorizontal:22,paddingTop:10,paddingBottom:insets.bottom+28,gap:18}}>
+     <Copy>Tell BAK when you expect to be back. Someone you choose gets a link to where you are, and an alert if you don’t check in.</Copy>
+     <RideSafetyPanel/>
+     <View style={{gap:10}}><Text accessibilityRole="header" style={{color:'#8b93a0',fontSize:12.5,...LABEL,letterSpacing:0.6}}>Who gets told</Text><SafetyContactsCard/></View>
     </ScrollView>
    </View>
   </PageSheet>
@@ -482,7 +515,7 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  const modeRef=useRef(mode);const setMode=(m:Conversation['mode'])=>{modeRef.current=m;setModeState(m);};
  // What Ask BAK's confirm cards run with: the rider's own session and this app's screens.
  const appHost:AppActionHost={api:(path,method,body)=>api('/api'+path,method,body),bikes,refreshBikes:reload,selectBike:select,setTheme:setColorMode,newId:randomUUID,
-  open:(screen:AppScreen)=>{const to:Record<AppScreen,keyof Tabs>={home:'Home',garage:'Garage',build_sheet:'Garage',ask:'Ask BAK',community:'Community',events:'Events',messages:'Messages',workshop:'Workshop',setup_log:'Setup',maintenance:'Maintenance',specs:'Specs',account:'Account'};
+  open:(screen:AppScreen)=>{if(screen==='specs')openPartsTab('specs');const to:Record<AppScreen,keyof Tabs>={home:'Home',garage:'Garage',build_sheet:'Garage',ask:'Ask BAK',community:'Community',events:'Events',messages:'Messages',workshop:'Workshop',setup_log:'Setup',maintenance:'Maintenance',specs:'Specs',account:'Account'};
    if(screen==='build_sheet')navigation.navigate('Garage',{open:'build',token:randomUUID()});else navigation.navigate(to[screen] as never);},
   draftPost:(category,body,photoIds)=>navigation.navigate('Community',{draft:{category,body,photoIds},draftToken:randomUUID()})};
  const[attached,setAttached]=useState<Photo[]>([]),[clip,setClip]=useState<{duration:number;frames:number[]}|null>(null),[focus,setFocus]=useState<CoachFocus|null>(null),[slowmo,setSlowmo]=useState(false),[compareTo,setCompareTo]=useState<string|null>(null),[where,setWhere]=useState<string|null>(null),[uploading,setUploading]=useState(0);
@@ -607,7 +640,7 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  <Notice text={notice||draftError}/>
  {messages.map((m,mi)=>m.role==='user'?<View key={m.id} style={{alignSelf:'flex-end',maxWidth:'85%',gap:6}}>{!!m.photos?.length&&<MessagePhotos photos={m.photos} times={m.media?.kind==='clip'&&m.media.frames.length===m.photos.length?m.media.frames:undefined}/>}<View style={{alignSelf:'flex-end'}}><MetalBubble><CopyText style={{color:colors.text,fontSize:15.5,lineHeight:22}}>{m.content}</CopyText></MetalBubble></View></View>:<Card key={m.id}><View style={{flexDirection:'row',alignItems:'center',gap:7}}><Eyebrow>BAK</Eyebrow></View>{!m.response?.answer&&<Copy>{m.response?.summary??m.content}</Copy>}{m.response&&<>
  
- {!!m.response.answer&&<RichText text={m.response.answer} frames={clipOf(messages[mi-1])}/>}{m.id===offer?.id&&!!bike&&!busy&&<PartOfferLine bikeId={bike.id} query={offer.query} onOpen={()=>openFindPart(offer.query,()=>navigation.navigate('Specs'))}/>}{!!m.response.setup_changes?.length&&<><Copy strong>Try in this order — one at a time</Copy>{m.response.setup_changes.map((c,i)=><View key={i} style={{gap:3}}><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{i+1}. {c.setting}: {c.change}</Text><Copy>{c.expect}</Copy><Copy>Go back if: {c.go_back_if}</Copy></View>)}{bike&&<RideCheckCard bike={bike} messageId={m.id} changes={m.response.setup_changes} logged={rideLogs.find(l=>l.settings?.bak_suggestion===m.id)} onLogged={l=>setRideLogs([l,...rideLogs])} onAsk={setDraft}/>}</>}{bike&&!!m.response.garage_updates?.length&&<GarageUpdatesCard bike={bike} updates={m.response.garage_updates} onSaved={()=>{void reload();}}/>}{!!m.response.app_actions?.length&&<AppActionsCard ownerId={session.user.id} messageId={m.id} actions={m.response.app_actions} host={appHost}/>}{messages[mi-1]?.role==='user'&&<RodeTrackOffer text={messages[mi-1].content} at={messages[mi-1].created_at}/>}{m.response.next_step&&<View style={{gap:6,borderLeftWidth:2,borderLeftColor:colors.accent,paddingLeft:12}}><Eyebrow>{m.response.kind==='setup'?'DO THIS FIRST':'YOUR NEXT STEP'}</Eyebrow><CopyText style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:23}}>{m.response.next_step.action}</CopyText>{!!m.response.next_step.purpose&&<Copy>{m.response.next_step.purpose}</Copy>}{m.response.next_step.stop_conditions.map((t,i)=><Copy key={i}>Safety: {t}</Copy>)}</View>}
+ {!!m.response.answer&&<RichText text={m.response.answer} frames={clipOf(messages[mi-1])}/>}{m.id===offer?.id&&!!bike&&!busy&&<PartOfferLine bikeId={bike.id} query={offer.query} onOpen={()=>openFindPart(offer.query,()=>{openPartsTab('find');navigation.navigate('Specs');})}/>}{!!m.response.setup_changes?.length&&<><Copy strong>Try in this order — one at a time</Copy>{m.response.setup_changes.map((c,i)=><View key={i} style={{gap:3}}><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{i+1}. {c.setting}: {c.change}</Text><Copy>{c.expect}</Copy><Copy>Go back if: {c.go_back_if}</Copy></View>)}{bike&&<RideCheckCard bike={bike} messageId={m.id} changes={m.response.setup_changes} logged={rideLogs.find(l=>l.settings?.bak_suggestion===m.id)} onLogged={l=>setRideLogs([l,...rideLogs])} onAsk={setDraft}/>}</>}{bike&&!!m.response.garage_updates?.length&&<GarageUpdatesCard bike={bike} updates={m.response.garage_updates} onSaved={()=>{void reload();}}/>}{!!m.response.app_actions?.length&&<AppActionsCard ownerId={session.user.id} messageId={m.id} actions={m.response.app_actions} host={appHost}/>}{messages[mi-1]?.role==='user'&&<RodeTrackOffer text={messages[mi-1].content} at={messages[mi-1].created_at}/>}{m.response.next_step&&<View style={{gap:6,borderLeftWidth:2,borderLeftColor:colors.accent,paddingLeft:12}}><Eyebrow>{m.response.kind==='setup'?'DO THIS FIRST':'YOUR NEXT STEP'}</Eyebrow><CopyText style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:23}}>{m.response.next_step.action}</CopyText>{!!m.response.next_step.purpose&&<Copy>{m.response.next_step.purpose}</Copy>}{m.response.next_step.stop_conditions.map((t,i)=><Copy key={i}>Safety: {t}</Copy>)}</View>}
  {!!messages[mi-1]?.media&&(()=>{const sess=coachingSessions.sessions?.find(x=>x.message_id===m.id);return sess?<TriedCard messageId={m.id} tried={sess.tried} onSaved={()=>void coachingSessions.reload()} onAsk={setDraft}/>:null;})()}
  {m.response.hypotheses.length>0&&<Disclosure title={`Possible causes (${m.response.hypotheses.length})`}>{m.response.hypotheses.map((h,i)=><View key={i} style={{gap:3}}><CopyText style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{h.mechanism}</CopyText><Copy>{h.explains}</Copy><Copy>Points to it: {h.confirm}</Copy><Copy>Rules it out: {h.reject}</Copy></View>)}</Disclosure>}
  {m.response.unknowns.length>0&&<Disclosure title={`What BAK still needs to know (${m.response.unknowns.length})`}>{m.response.unknowns.map((u,i)=><Copy key={i}>• {u.replace(/[.;]\s*$/,'')}</Copy>)}</Disclosure>}
@@ -689,7 +722,21 @@ function Ride({navigation,route}:BottomTabScreenProps<Tabs,'Ride'>){const{sessio
   if(race.on&&race.track&&race.track!==name)Alert.alert('Ride here today?',`This ends your ${race.kind==='practice'?'practice':'race'} day at ${race.track} and starts one at ${name}.`,[{text:'Cancel',style:'cancel'},{text:'Ride here',onPress:go}]);else go();};
  return <Page title=""><WhereToRide key={route.params?.token??'list'} initialId={route.params?.id} initialMap={!!route.params?.map} onClose={usePageBack()?.onPress} onRideToday={rideToday} onAsk={text=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',prompt:text,promptToken:randomUUID()});else navigation.navigate('Ask BAK');}}/></Page>;}
 function Specs(){const{bike}=useContext(Ctx);return <SpecsForBike key={bikeScope(bike)}/>;}
-function SpecsForBike(){const{bike,session}=useContext(Ctx);const nav=navRef,back=usePageBack();const [offerOn,setOfferOn]=useProgress(session.user.id,'parts-offer',true);return <Page title="Specs and parts" back={back}><BikeSelect/><FindPartCard bike={bike} offerOn={offerOn} setOfferOn={v=>{setOfferOn(v);}}/><SpecsView bike={bike} onGarage={()=>{if(nav.isReady())nav.navigate('Garage' as never);}}/><PartsCatalogCard bike={bike}/></Page>}
+const PARTS_TABS:[PartsTab,string][]=[['find','Find'],['specs','Specs'],['diagrams','Diagrams'],['list','My list']];
+/** Parts: one page for everything about the bike's parts. Find (search and browse), Specs, Diagrams (the factory parts lists) and the rider's saved list. */
+function SpecsForBike(){const{bike,session}=useContext(Ctx);const nav=navRef,back=usePageBack();const [offerOn,setOfferOn]=useProgress(session.user.id,'parts-offer',true);
+ const [tab,setTab]=useState<PartsTab>(()=>takePartsTab()||'find');
+ useEffect(()=>onPartsTab(t=>{takePartsTab();setTab(t);}),[]);
+ return <Page title="Parts" back={back}><BikeSelect/>
+  <View accessibilityRole="tablist" style={{flexDirection:'row',gap:22,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:colors.line}}>
+   {PARTS_TABS.map(([key,label])=>{const on=tab===key;return <Pressable key={key} haptic="select" accessibilityRole="tab" accessibilityState={{selected:on}} onPress={()=>setTab(key)} hitSlop={6} style={{paddingVertical:10,borderBottomWidth:3,borderBottomColor:on?colors.accent:'transparent',marginBottom:-StyleSheet.hairlineWidth}}>
+    <Text style={{color:on?colors.text:'#8b93a0',fontSize:15.5,fontWeight:'700'}}>{label}</Text></Pressable>;})}
+  </View>
+  {tab==='find'&&<FindPartCard bike={bike} offerOn={offerOn} setOfferOn={v=>{setOfferOn(v);}}/>}
+  {tab==='specs'&&<SpecsView bike={bike} onGarage={()=>{if(nav.isReady())nav.navigate('Garage' as never);}}/>}
+  {tab==='diagrams'&&<PartsCatalogCard bike={bike}/>}
+  {tab==='list'&&<MyPartsList bike={bike}/>}
+ </Page>}
 /** While Ask BAK works (usually 20-40 s): what it is doing and how long it has been, so a long answer never looks stuck. */
 /** BAK MX's own legal and support pages. A build setting may only point somewhere on bakmx.com, so a value copied from
  *  another app (BAK Tech EMOTO is a separate product and subscription) can never send riders to the wrong support page. */

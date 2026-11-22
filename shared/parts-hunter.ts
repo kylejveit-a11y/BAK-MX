@@ -2,6 +2,8 @@
  *  answer. Pure and shared by the server, the website and the app. Kyle's rules: never push sales, rank by fit and never
  *  by payout, say nothing rather than point at something that may not fit. */
 import type {CatalogPart} from './parts-picker.ts';
+import {partSystems,type PartSystem} from './installed-parts.ts';
+import {partTypes,typeOf} from './part-types.ts';
 
 const STOP=new Set(['the','and','for','with','my','bike','a','an','of','to','new','need','some','i','on','in','set','kit','part','parts','oem','stock','factory','replacement','replace','find','buy','where','get']);
 /** Words riders use and the short forms factory parts lists print. */
@@ -20,7 +22,9 @@ export type FoundPart={kind:'factory'|'aftermarket';brand:string;name:string;par
  /** which end of the bike, when the name says so */
  position?:'front'|'rear';
  /** one line on what it is or changes, when on file */
- note?:string};
+ note?:string;
+ /** the kind of part inside its system (Auto clutch, Plates, Fork springs…), for the browse filters */
+ type?:string};
 /** Front or rear, read from the part's own name. */
 export function positionOf(name:string):'front'|'rear'|undefined{
  const front=/\b(front|fr\.?)\b/i.test(name),rear=/\b(rear|rr\.?)\b/i.test(name);return front===rear?undefined:front?'front':'rear';
@@ -94,4 +98,26 @@ export function partOffer(answer:string,opts:{offeredAlready:boolean;enabled:boo
   for(const [re,query] of NEEDS)if(re.test(sentence))return {query};
  }
  return null;
+}
+
+/* ------------------------------------------------------------------ Browse by system */
+/** How the factory parts list names each system, so a system page can show the maker's parts beside the aftermarket ones. */
+const FACTORY_SYSTEM:Record<PartSystem,string>={suspension:'(fork|shock|suspension|linkage|swing ?arm)',chassis:'(frame|triple clamp|steering|chain guide|subframe)',engine:'(piston|cylinder|crank(shaft|case)?|cam(shaft)?|valve|radiator|water pump|cooling)',
+ intake:'(air filter|air cleaner|air box|airbox|intake|element)',exhaust:'(exhaust|muffler|silencer|manifold)',tuning:'(throttle body|injection|injector|fuel pump|carburetor|ecu|control unit)',clutch:'clutch',
+ gearing:'(sprocket|chain|drive)',brakes:'brake',wheels:'(wheel|tire|rim|spoke|hub)',controls:'(handlebar|handle|grip|lever|footrest|foot ?peg|throttle grip|cable)',protection:'(guard|skid|protector)',body:'(seat|fender|shroud|tank|number plate|side cover|spoiler|decal)'};
+export const isPartSystem=(k:string):k is PartSystem=>partSystems.some(s=>s.key===k);
+export const factorySystemPatterns=(system:PartSystem):string[]=>[FACTORY_SYSTEM[system]];
+const OTHER='Small parts and accessories';
+/** Everything on this bike's aftermarket list for one system, one card per product, ordered by kind of part then brand.
+ *  `types` lists the kinds present with counts, in the order riders think about that system. */
+export function browseSystem(parts:CatalogPart[],system:PartSystem,limit=240):{parts:FoundPart[];types:{label:string;count:number}[]}{
+ const order=[...(partTypes[system]??[]).map(t=>t.label),OTHER];
+ const byProduct=new Map<string,FoundPart>();
+ for(const p of parts){if(p.system!==system||p.service)continue;const key=`${p.brand}|${p.name}`.toLowerCase();const numbers=splitNumbers(p.pn);
+  const have=byProduct.get(key);if(have){for(const n of numbers)if(!have.numbers!.includes(n))have.numbers!.push(n);continue;}
+  const position=positionOf(p.name),note=(p.desc||p.what||'').trim(),type=typeOf(system,p.name)??OTHER;
+  byProduct.set(key,{kind:'aftermarket',brand:p.brand,name:p.name,part_number:numbers[0]??'',where:p.system,numbers,type,stores:storeLinks({kind:'aftermarket',brand:p.brand,name:p.name,part_number:p.pn,links:p.links}),...(position?{position}:{}),...(note?{note:note.length>140?note.slice(0,137).trimEnd()+'…':note}:{})});}
+ const all=[...byProduct.values()].sort((a,b)=>order.indexOf(a.type!)-order.indexOf(b.type!)||a.brand.localeCompare(b.brand)||a.name.localeCompare(b.name));
+ const types=order.map(label=>({label,count:all.filter(p=>p.type===label).length})).filter(t=>t.count>0);
+ return {parts:all.slice(0,limit),types};
 }
