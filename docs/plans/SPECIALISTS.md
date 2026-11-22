@@ -58,3 +58,10 @@ Start with Suspension, then Engine and Bike set-up. All three are finished befor
 - Engine and bike set-up with their packs: not measured yet. The daily test allowance (600 questions) ran out 19 questions into the engine re-run. Both packs stay OFF for riders until measured.
 - Switch: `WORKSHOPS_LIVE` in `shared/specialists.ts`. The exam route can ask with the packs on (`trial.workshops`), so they are measured without riders seeing them.
 - What the first result says: on shop-level questions BAK is already near the top of what a marking sheet can measure. Where it loses marks is two-stroke rebuild detail and general engine care (89 to 91), which is where the engine pack has the best chance. The gap to "pro shops envy it" is data BAK does not have (shim stacks, port maps, tuner settings), as said in "What limits it".
+
+## Engine and bike set-up packs measured (2026-11-22, prompt 95)
+
+- Engine, no pack: 95.0 (same-day re-run on prompt 95; the 2026-11-21 baseline of 94.2 was on prompt 93). With the pack: 95.9. Question by question: 7 better, 4 worse, 89 the same. Median answer time 18.3 s without, 18.4 s with. Nothing invented.
+- Bike set-up, no pack: 95.9. With the pack: 96.2. 7 better, 5 worse, 88 the same. 17.2 s without, 17.1 s with. Nothing invented.
+- Decision: neither is a clear gain (under one point on the same prompt, about as many answers worse as better), so by the rule above all three packs stay OFF in `WORKSHOPS_LIVE`. They cost no speed and did no harm, so they stay in the code for re-testing.
+- What this says: method rulebooks do not move the score because BAK already reasons at this level. The next real gain is data (shim stacks, port and tuner settings, more service-manual facts), not more instructions. Re-run the three exams whenever a batch of that data is added.
