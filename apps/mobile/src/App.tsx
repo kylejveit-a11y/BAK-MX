@@ -415,9 +415,8 @@ function HeaderRight({screen,open}:{screen:string;open:(to:string)=>void}){
      <Pressable accessibilityRole="button" onPress={()=>setSafety(false)} hitSlop={10}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Close</Text></Pressable>
     </View>
     <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{paddingHorizontal:22,paddingTop:10,paddingBottom:insets.bottom+28,gap:18}}>
-     <Copy>Tell BAK when you expect to be back. Someone you choose gets a link to where you are, and an alert if you don’t check in.</Copy>
+     {/* The panel is the whole flow: contacts first if there are none, then the back-by time. Nothing is repeated around it. */}
      <RideSafetyPanel/>
-     <View style={{gap:10}}><Text accessibilityRole="header" style={{color:'#8b93a0',fontSize:12.5,...LABEL,letterSpacing:0.6}}>Who gets told</Text><SafetyContactsCard/></View>
     </ScrollView>
    </View>
   </PageSheet>
