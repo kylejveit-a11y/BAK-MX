@@ -2,11 +2,11 @@
 // where to buy each, and a saved parts list. Also the one quiet line under an Ask BAK answer that opens it.
 // Rules (Kyle): never push sales, nothing shown that is not on file for the bike, no prices BAK cannot stand behind.
 import {useCallback,useEffect,useState} from 'react';
-import {ActivityIndicator,Linking,Text,TextInput,View} from 'react-native';
+import {ActivityIndicator,Linking,StyleSheet,Text,TextInput,View} from 'react-native';
 import {api} from './api';
 import {Button,Card,colors,Copy,Field,LinkAction,Notice,Switch} from './ui';
 import {tint,DISPLAY} from './theme';
-import {Icon} from './Icon';
+import {Icon,type IconName} from './Icon';
 import {partSystems} from '../../../shared/installed-parts';
 import {Pressable} from './Touch';
 import {RaisedFace,raisedLift,well} from './Raised';
@@ -24,7 +24,7 @@ const keyOf=(p:{kind:string;brand:string;name:string;part_number:string})=>`${p.
 let pending='';const waiting=new Set<(q:string)=>void>();
 export function openFindPart(query:string,go:()=>void){pending=query;go();waiting.forEach(f=>f(query));}
 
-const SOFT='#9aa2ae',EDGE='#2a2f39',TILE='#12151b';
+const SOFT='#9aa2ae',EDGE='#2a2f39';
 /** Two or three letters that stand for the brand, so a list can be scanned by eye before any photos exist. */
 const monogram=(brand:string)=>{const words=brand.replace(/[^A-Za-z0-9 ]/g,' ').trim().split(/\s+/).filter(Boolean);if(!words.length)return '?';return (words.length===1?words[0].slice(0,3):words.slice(0,3).map(w=>w[0]).join('')).toUpperCase();};
 const tidy=(name:string)=>name===name.toUpperCase()&&/[A-Z]/.test(name)?name.toLowerCase().replace(/(^|[\s,(])([a-z])/g,(_,a,b)=>a+b.toUpperCase()).replace(/\bRr\b\.?/g,'Rear').replace(/\bFr\b\.?/g,'Front'):name;
@@ -32,12 +32,24 @@ function Pill({title,onPress,strong=false,disabled=false,label}:{title:string;on
  return <Pressable accessibilityRole="button" accessibilityLabel={label??title} disabled={disabled} onPress={onPress} style={({pressed})=>({paddingHorizontal:14,paddingVertical:9,borderRadius:18,borderWidth:1,borderColor:strong?colors.accent:EDGE,backgroundColor:strong?tint(0.14):'transparent',opacity:disabled?0.55:pressed?0.6:1})}>
   <Text style={{color:colors.text,fontSize:14,fontWeight:'700'}}>{title}</Text></Pressable>;
 }
+/** A raised key for a card's own actions (Where to buy, Save): reads as a pressable button, not an outline. */
+function Key({title,onPress,icon,on=false,plain=false,disabled=false,label,expanded}:{title:string;onPress:()=>void;icon?:IconName;on?:boolean;plain?:boolean;disabled?:boolean;label?:string;expanded?:boolean}){
+ return <Pressable haptic="tap" accessibilityRole="button" accessibilityLabel={label??title} accessibilityState={{disabled,expanded}} disabled={disabled} onPress={onPress}
+  style={({pressed})=>[{minHeight:40,paddingHorizontal:15,borderRadius:12,flexDirection:'row',alignItems:'center',justifyContent:'center',gap:7,opacity:disabled&&!on?0.5:1},raisedLift,{shadowRadius:6,shadowOffset:{width:0,height:3}},pressed&&{transform:[{translateY:1}]}]}>
+  {({pressed})=><><RaisedFace radius={12} pressed={pressed||on} tint={on||plain?undefined:'blue'}/><Text style={{color:'#f2f4f7',fontSize:14,fontWeight:'700'}}>{title}</Text>{!!icon&&<Icon name={icon} size={15} color={on?'#9fdcb3':'#c9d4e6'} weight={2.1}/>}</>}</Pressable>;
+}
 function Tag({text,accent=false}:{text:string;accent?:boolean}){return <View style={{paddingHorizontal:8,paddingVertical:3,borderRadius:8,backgroundColor:accent?tint(0.18):'#1b2029'}}><Text style={{color:accent?colors.text:'#c9cfd9',fontSize:12,fontWeight:'700'}}>{text}</Text></View>;}
 function Stores({stores}:{stores:StoreLink[]}){
- if(!stores.length)return <Text style={{color:SOFT,fontSize:13.5,lineHeight:19}}>BAK hasn’t found a store that can look this one up by its number. Copy the part number and give it to your dealer.</Text>;
+ if(!stores.length)return <View style={[{borderRadius:12,padding:13},well]}><Text style={{color:SOFT,fontSize:13.5,lineHeight:19}}>BAK hasn’t found a store that can look this one up by its number. Copy the part number and give it to your dealer.</Text></View>;
  return <View style={{gap:8}}>
-  <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{stores.map(s=><Pill key={s.store} strong title={s.how==='listing'?`${s.store} ›`:`Search ${s.store} ›`} label={`Open this part at ${s.store}`} onPress={()=>{void Linking.openURL(s.url).catch(()=>{});}}/>)}</View>
-  <Text style={{color:SOFT,fontSize:12.5,lineHeight:17}}>Opens that part’s page at the store. Check the fit for your year before you order. BAK earns nothing from these links.</Text></View>;
+  <View style={[{borderRadius:12,overflow:'hidden'},well]}>
+   {stores.map((s,i)=><Pressable key={s.store} accessibilityRole="link" accessibilityLabel={`Open this part at ${s.store}`} onPress={()=>{void Linking.openURL(s.url).catch(()=>{});}}
+    style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:12,paddingHorizontal:14,borderTopWidth:i?StyleSheet.hairlineWidth:0,borderTopColor:'rgba(255,255,255,0.08)',backgroundColor:pressed?'rgba(255,255,255,0.04)':'transparent'})}>
+    <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{s.store}</Text><Text style={{color:SOFT,fontSize:12.5}}>{s.how==='listing'?'Opens this part’s page':'Searches the store by part number'}</Text></View>
+    <Icon name="arrowRight" size={16} color="#9aa2ae" weight={2}/>
+   </Pressable>)}
+  </View>
+  <Text style={{color:SOFT,fontSize:12,lineHeight:17,paddingHorizontal:2}}>Check the fit for your year before you order. BAK earns nothing from these links.</Text></View>;
 }
 function PartCard({p,saved,onSave,busy}:{p:FoundPart;saved:boolean;onSave:()=>void;busy:boolean}){
  const [open,setOpen]=useState(false),[allNumbers,setAllNumbers]=useState(false);
@@ -62,9 +74,9 @@ function PartCard({p,saved,onSave,busy}:{p:FoundPart;saved:boolean;onSave:()=>vo
     <Text style={{color:colors.text,fontSize:14.5,fontWeight:'600',letterSpacing:0.3}}>No. {n}</Text><Text style={{color:SOFT,fontSize:12.5,fontWeight:'700'}}>Copy</Text></Pressable>)}
    {numbers.length>1&&<Pressable accessibilityRole="button" onPress={()=>setAllNumbers(!allNumbers)} hitSlop={8}><Text style={{color:SOFT,fontSize:13,fontWeight:'700'}}>{allNumbers?'Show fewer numbers':`Show all ${numbers.length} part numbers`}</Text></Pressable>}
   </View>}
-  <View style={{flexDirection:'row',gap:8}}>
-   <Pill strong title={open?'Hide stores':'Where to buy'} onPress={()=>setOpen(!open)}/>
-   <Pill title={saved?'Saved ✓':'Save'} label={saved?'On my parts list':'Save to my parts list'} disabled={saved||busy} onPress={onSave}/>
+  <View style={{flexDirection:'row',gap:10}}>
+   <Key title="Where to buy" icon={open?'chevronUp':'chevronDown'} expanded={open} onPress={()=>setOpen(!open)}/>
+   <Key title={saved?'Saved':'Save'} icon={saved?'check':undefined} on={saved} label={saved?'On my parts list':'Save to my parts list'} disabled={saved||busy} onPress={onSave}/>
   </View>
   {open&&<Stores stores={p.stores}/>}
  </View>;
@@ -159,13 +171,13 @@ export function MyPartsList({bike}:{bike?:Bike}){
  return <View style={{gap:12}}>
   <Notice text={notice} tone={notice?'warn':undefined}/>
   {!saved.length&&<View style={{gap:6,paddingVertical:18}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'700'}}>Nothing saved yet</Text><Text style={{color:SOFT,fontSize:14.5,lineHeight:20}}>Tap Save on any part under Find and it lands here, with where to buy it.</Text></View>}
-  {saved.map(s=><View key={s.id} style={{borderWidth:1,borderColor:EDGE,borderRadius:16,backgroundColor:TILE,padding:14,gap:12}}>
+  {saved.map(s=><View key={s.id} style={[{borderRadius:16,padding:15,gap:12},raisedLift]}><RaisedFace radius={16}/>
    <View style={{flexDirection:'row',gap:12,alignItems:'center'}}>
     <View accessibilityElementsHidden importantForAccessibility="no" style={{width:46,height:46,borderRadius:12,borderWidth:1,borderColor:s.kind==='factory'?colors.accent:EDGE,backgroundColor:'#0b0d11',alignItems:'center',justifyContent:'center'}}><Text style={{color:'#c9cfd9',fontSize:monogram(s.brand).length>2?12.5:15,fontWeight:'800'}}>{monogram(s.brand)}</Text></View>
     <View style={{flex:1,gap:4}}><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{tidy(s.name)}</Text><Text style={{color:SOFT,fontSize:13}}>{s.kind==='factory'?`${s.brand} factory part`:s.brand}</Text></View>
    </View>
-   {!!s.part_number&&<Pressable accessibilityRole="button" accessibilityLabel={`Part number ${s.part_number}. Tap to copy`} onPress={()=>copyText(s.part_number,'Part number copied')} style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingVertical:8,paddingHorizontal:12,borderRadius:10,backgroundColor:'#0b0d11'}}><Text style={{color:colors.text,fontSize:14.5,fontWeight:'600',letterSpacing:0.3}}>No. {s.part_number}</Text><Text style={{color:SOFT,fontSize:12.5,fontWeight:'700'}}>Copy</Text></Pressable>}
-   <View style={{flexDirection:'row',gap:8}}><Pill strong title={open===s.id?'Hide stores':'Where to buy'} onPress={()=>setOpen(open===s.id?'':s.id)}/><Pill title="Remove" disabled={busy} onPress={()=>void remove(s)}/></View>
+   {!!s.part_number&&<Pressable accessibilityRole="button" accessibilityLabel={`Part number ${s.part_number}. Tap to copy`} onPress={()=>copyText(s.part_number,'Part number copied')} style={[{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingVertical:9,paddingHorizontal:12,borderRadius:10},well]}><Text style={{color:colors.text,fontSize:14.5,fontWeight:'600',letterSpacing:0.3}}>No. {s.part_number}</Text><Text style={{color:SOFT,fontSize:12.5,fontWeight:'700'}}>Copy</Text></Pressable>}
+   <View style={{flexDirection:'row',gap:10}}><Key title="Where to buy" icon={open===s.id?'chevronUp':'chevronDown'} expanded={open===s.id} onPress={()=>setOpen(open===s.id?'':s.id)}/><Key title="Remove" plain disabled={busy} onPress={()=>void remove(s)}/></View>
    {open===s.id&&<Stores stores={s.stores}/>}
   </View>)}
  </View>;

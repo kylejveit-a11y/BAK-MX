@@ -2,7 +2,7 @@
 // top edge, a darker bottom edge and a soft shadow, so boxes read as objects on the page instead of flat outlines.
 // Lighter than MetalPanel (which is for the one hero plate on a screen).
 import React from 'react';
-import {Image,StyleSheet,Text,View,type StyleProp,type ViewStyle} from 'react-native';
+import {Image,StyleSheet,Text,View,type LayoutChangeEvent,type StyleProp,type ViewStyle} from 'react-native';
 import {Pressable} from './Touch';
 import Svg,{Defs,LinearGradient,Rect,Stop} from 'react-native-svg';
 
@@ -14,15 +14,19 @@ export function RaisedFace({radius,pressed=false,tint}:{radius:number;pressed?:b
  const id=React.useId().replace(/[^a-zA-Z0-9]/g,'');
  const top=tint==='blue'?(pressed?'#1a2536':'#1f2c42'):(pressed?'#1a1d23':'#23272e');
  const bottom=tint==='blue'?'#0c121c':'#0e1014';
- return <View pointerEvents="none" style={[StyleSheet.absoluteFill,{borderRadius:radius,overflow:'hidden'}]}>
-  <Svg width="100%" height="100%" style={StyleSheet.absoluteFill}>
+ // A card grows when it opens (where to buy, a longer answer). SVG sized in percent keeps the size it first measured on iOS,
+ // so the finish stopped partway and left a dark band under the new content. Measure and draw it in points instead.
+ const [box,setBox]=React.useState({w:0,h:0});
+ const onLayout=(e:LayoutChangeEvent)=>{const {width:w,height:h}=e.nativeEvent.layout;setBox(b=>b.w===w&&b.h===h?b:{w,h});};
+ return <View pointerEvents="none" onLayout={onLayout} style={[StyleSheet.absoluteFill,{borderRadius:radius,overflow:'hidden',backgroundColor:bottom}]}>
+  {box.w>0&&<Svg key={`${box.w}x${box.h}`} width={box.w} height={box.h} style={StyleSheet.absoluteFill}>
    <Defs>
     <LinearGradient id={'r'+id} x1="0" y1="0" x2="0" y2="1"><Stop offset="0" stopColor={top}/><Stop offset="1" stopColor={bottom}/></LinearGradient>
     <LinearGradient id={'s'+id} x1="0" y1="0" x2="1" y2="0"><Stop offset="0" stopColor="#ffffff" stopOpacity="0"/><Stop offset="0.35" stopColor="#ffffff" stopOpacity={pressed?0.015:0.04}/><Stop offset="0.65" stopColor="#ffffff" stopOpacity="0"/></LinearGradient>
    </Defs>
-   <Rect x="0" y="0" width="100%" height="100%" fill={`url(#r${id})`}/>
-   <Rect x="0" y="0" width="100%" height="100%" fill={`url(#s${id})`}/>
-  </Svg>
+   <Rect x="0" y="0" width={box.w} height={box.h} fill={`url(#r${id})`}/>
+   <Rect x="0" y="0" width={box.w} height={box.h} fill={`url(#s${id})`}/>
+  </Svg>}
   <Image source={require('../assets/metal-grain.png')} resizeMode="repeat" style={[StyleSheet.absoluteFill,{opacity:0.08,width:'100%',height:'100%'}]} accessibilityIgnoresInvertColors/>
   <View style={[StyleSheet.absoluteFill,{borderRadius:radius,borderWidth:1,borderTopColor:pressed?'rgba(255,255,255,0.08)':tint==='blue'?'rgba(140,180,255,0.28)':'rgba(255,255,255,0.16)',borderLeftColor:'rgba(255,255,255,0.06)',borderRightColor:'rgba(0,0,0,0.35)',borderBottomColor:'rgba(0,0,0,0.7)'}]}/>
  </View>;

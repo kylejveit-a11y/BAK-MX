@@ -5,13 +5,14 @@ import {CopyText} from './copy';
 import {ActivityIndicator,Linking,Text,View} from 'react-native';
 import {Pressable} from './Touch';
 import {api} from './api';
-import {Card,Copy,Eyebrow,Field,Icon,LinkAction,Notice,SettingRow,colors} from './ui';
+import {Card,Copy,Eyebrow,Field,Icon,LinkAction,Notice,SettingRow,colors,tint} from './ui';
+import {Raised,well} from './Raised';
 import type {Bike,Claim} from '../../../shared/types';
 import {friendlyLocator,specRows,groupSpecRows,quickSpecs,oilSummary,yourSettings,SPEC_KINDS,type SpecRow} from '../../../shared/specs-view';
 import type {FactKind} from '../../../shared/fact-system';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
-const label={color:'#c3c9d3',fontSize:13.5,fontWeight:'800' as const,letterSpacing:0};
+const label={color:'#aab1bd',fontSize:13,fontWeight:'700' as const,letterSpacing:0.2};
 
 function Row({r,open,onToggle}:{r:SpecRow;open:boolean;onToggle:()=>void}){
  const long=r.value.length>28;
@@ -43,14 +44,18 @@ export function SpecsView({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
   <Notice text={notice}/>
   {!!rows.length&&<>
    {(oil||quick.length>0)&&<View style={{flexDirection:'row',flexWrap:'wrap',gap:10}}>
-    {oil&&<View style={{width:'100%',padding:16,borderRadius:18,backgroundColor:'#12141a',borderWidth:1,borderColor:'rgba(255,255,255,.08)',gap:4}}><Text style={label}>Engine oil</Text>{!!oil.amount&&<CopyText style={{color:colors.text,fontSize:22,fontWeight:'800'}}>{oil.amount}</CopyText>}{!!oil.grade&&<CopyText style={{color:colors.text,fontSize:15,lineHeight:21}}>{oil.grade}</CopyText>}</View>}
-    {quick.map(t=><View key={t.label} style={{flexBasis:'47%',flexGrow:1,padding:14,borderRadius:18,backgroundColor:'#12141a',borderWidth:1,borderColor:'rgba(255,255,255,.08)',gap:4}}><Text style={label}>{t.label}</Text><CopyText numberOfLines={3} style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:22}}>{t.value}</CopyText></View>)}
+    {oil&&<Raised radius={18} style={{width:'100%'}}><View style={{padding:18,gap:6}}>
+     <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="oil" size={17} color="#aab1bd"/><Text style={label}>Engine oil</Text></View>
+     {!!oil.amount&&<CopyText style={{color:colors.text,fontSize:26,fontWeight:'800',letterSpacing:-0.3}}>{oil.amount}</CopyText>}
+     {!!oil.grade&&<View style={[{alignSelf:'flex-start',marginTop:4,paddingHorizontal:11,paddingVertical:7,borderRadius:10},well]}><CopyText style={{color:'#dfe3e9',fontSize:14,lineHeight:19,fontWeight:'600'}}>{oil.grade}</CopyText></View>}
+    </View></Raised>}
+    {quick.map(t=><Raised key={t.label} radius={16} style={{flexBasis:'47%',flexGrow:1}}><View style={{paddingVertical:15,paddingHorizontal:16,gap:6}}><Text style={label}>{t.label}</Text><CopyText numberOfLines={3} style={{color:colors.text,fontSize:18,fontWeight:'800',lineHeight:23}}>{t.value}</CopyText></View></Raised>)}
    </View>}
-   <Card>
-    <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Eyebrow>YOUR SETTINGS NOW</Eyebrow><Pressable accessibilityRole="button" hitSlop={8} onPress={onGarage}><Text style={{color:colors.text,fontSize:14,fontWeight:'700'}}>{mine.any?'Update':'Add yours'}</Text></Pressable></View>
-    {!mine.any&&<Copy>Add your clickers, sag and tire pressure in your Garage and they show here next to stock.</Copy>}
-    {mine.list.map(y=><SettingRow key={y.key} label={y.label} mine={y.mine} stock={y.stock}/>)}
-   </Card>
+   <Raised radius={18}><View style={{paddingTop:16,paddingBottom:6,paddingHorizontal:18,gap:6}}>
+    <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',paddingBottom:4}}><Eyebrow>YOUR SETTINGS NOW</Eyebrow><Pressable accessibilityRole="button" hitSlop={8} onPress={onGarage} style={({pressed})=>({paddingHorizontal:12,paddingVertical:6,borderRadius:12,backgroundColor:tint(0.14),borderWidth:1,borderColor:tint(0.35),opacity:pressed?0.6:1})}><Text style={{color:colors.text,fontSize:13.5,fontWeight:'700'}}>{mine.any?'Update':'Add yours'}</Text></Pressable></View>
+    {!mine.any&&<View style={{paddingBottom:12}}><Copy>Add your clickers, sag and tire pressure in your Garage and they show here next to stock.</Copy></View>}
+    {mine.list.map((y,i)=><SettingRow key={y.key} first={i===0} label={y.label} mine={y.mine} stock={y.stock}/>)}
+   </View></Raised>
    <Card>
     <Copy strong>Everything published for this bike</Copy>
     <Copy>{rows.length} values. Tap one for its conditions and source. A value that isn’t here is unknown, not zero.</Copy>
@@ -58,12 +63,12 @@ export function SpecsView({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
     <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{SPEC_KINDS.map(k=>{const on=kind===k.k;return <Pressable key={k.k} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setKind(k.k)} style={{paddingHorizontal:14,height:34,borderRadius:17,justifyContent:'center',borderWidth:1,borderColor:on?colors.accent:'rgba(255,255,255,.12)',backgroundColor:on?'rgba(255,255,255,.06)':'transparent'}}><Text style={{color:colors.text,fontSize:14,fontWeight:on?'700':'500'}}>{k.label}</Text></Pressable>;})}</View>
     {!groups.length&&<Copy>Nothing published matches that for this exact bike.</Copy>}
    </Card>
-   {groups.map(g=>{const closed=q?false:(shut[g.s]??groups.length>3);return <Card key={g.s}>
-    <Pressable accessibilityRole="button" accessibilityState={{expanded:!closed}} onPress={()=>setShut(o=>({...o,[g.s]:!closed}))} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:36}}><Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>{g.s} <Text style={{color:colors.muted,fontWeight:'500',fontSize:14}}>{g.items.length+g.service.length}</Text></Text><Icon name={closed?'chevronRight':'chevronDown'} size={17} color={colors.accent}/></Pressable>
+   {groups.map(g=>{const closed=q?false:(shut[g.s]??groups.length>3);return <Raised key={g.s} radius={16}><View style={{paddingVertical:8,paddingHorizontal:16}}>
+    <Pressable accessibilityRole="button" accessibilityState={{expanded:!closed}} onPress={()=>setShut(o=>({...o,[g.s]:!closed}))} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:44}}><Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>{g.s} <Text style={{color:colors.muted,fontWeight:'500',fontSize:14}}>{g.items.length+g.service.length}</Text></Text><Icon name={closed?'chevronRight':'chevronDown'} size={17} color={colors.accent}/></Pressable>
     {!closed&&g.items.map(r=><Row key={r.c.id} r={r} open={open===r.c.id} onToggle={()=>setOpen(open===r.c.id?'':r.c.id)}/>)}
     {/* The part's service intervals sit together under their own label, apart from its settings and torques. */}
-    {!closed&&g.service.length>0&&<>{g.items.length>0&&<Text style={[label,{marginTop:12}]}>Service</Text>}{g.service.map(r=><Row key={r.c.id} r={r} open={open===r.c.id} onToggle={()=>setOpen(open===r.c.id?'':r.c.id)}/>)}</>}
-   </Card>;})}
+    {!closed&&g.service.length>0&&<>{g.items.length>0&&<Text style={[label,{marginTop:12,marginBottom:4}]}>Service</Text>}{g.service.map(r=><Row key={r.c.id} r={r} open={open===r.c.id} onToggle={()=>setOpen(open===r.c.id?'':r.c.id)}/>)}</>}
+   </View></Raised>;})}
   </>}
  </>;
 }

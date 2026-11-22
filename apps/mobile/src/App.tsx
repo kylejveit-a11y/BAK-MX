@@ -17,7 +17,7 @@ import {checkVin,cleanVin} from '../../../shared/vin';
 import {BIKE_EDITIONS,BIKE_MARKETS,sortBikeNames} from '../../../shared/bike-identity';
 import {RichText,Disclosure} from './RichText';
 import React,{useEffect,useState,createContext,useContext,useCallback,useRef,useMemo} from 'react';
-import {AccessibilityInfo,AppState,Alert,Linking,Platform,Share,View,Text,ActivityIndicator,StyleSheet,TextInput,ScrollView,useWindowDimensions} from 'react-native';
+import {AccessibilityInfo,AppState,Alert,Image,Linking,Platform,Share,View,Text,ActivityIndicator,StyleSheet,TextInput,ScrollView,useWindowDimensions} from 'react-native';
 import {Pressable} from './Touch';
 import {BikeWheel,PickButton} from './Wheel';
 import {DateField,recentDays,formatValue} from './DateSheet';
@@ -387,6 +387,9 @@ function HeaderRight({screen,open}:{screen:string;open:(to:string)=>void}){
  const name=readProgress<string>(session.user.id,'rider-name','')||readProgress<string>(DEVICE,'apple-name','').trim().split(/\s+/)[0]||'';
  const initials=(name||session.user.email||'?').replace(/[^A-Za-z ]/g,' ').trim().split(/\s+/).slice(0,2).map(w=>w[0]).join('').toUpperCase()||'?';
  const pick=(it:MenuItem)=>{setMenu(false);it.go(open,()=>setTimeout(()=>setSafety(true),350));};
+ // The rider's profile photo for the account circle. The link is short-lived, so it is fetched once up front and again each time the menu opens.
+ const [photo,setPhoto]=useState(''),[photoFailed,setPhotoFailed]=useState(false);
+ useEffect(()=>{if(!menu&&photo)return;let live=true;api<{avatar_url?:string}|null>('/api/profile').then(p=>{if(live){setPhoto(p?.avatar_url||'');setPhotoFailed(false);}}).catch(()=>{});return()=>{live=false;};},[menu]);
  return <View style={{flexDirection:'row',alignItems:'center'}}>{screen!=='Messages'&&<HeaderMessages unread={unread} onPress={()=>open('Messages')}/>}<HeaderButton label="Menu" onPress={()=>setMenu(true)}/>
   <PageSheet visible={menu} animationType="slide" onRequestClose={()=>setMenu(false)}>
    <View style={{flex:1,backgroundColor:colors.bg,paddingTop:18}}>
@@ -397,7 +400,7 @@ function HeaderRight({screen,open}:{screen:string;open:(to:string)=>void}){
     <ScrollView contentContainerStyle={{paddingHorizontal:22,paddingTop:10,paddingBottom:insets.bottom+28,gap:22}}>
      <Pressable haptic="tap" accessibilityRole="button" accessibilityLabel="Account and settings" onPress={()=>{setMenu(false);open('Account');}} style={({pressed})=>[{flexDirection:'row',alignItems:'center',gap:15,paddingVertical:18,paddingHorizontal:18,borderRadius:20},raisedLift,pressed&&{transform:[{translateY:1}]}]}>
       {({pressed})=><><RaisedFace radius={20} pressed={pressed}/>
-      <View style={[{width:50,height:50,borderRadius:25,alignItems:'center',justifyContent:'center'},blueLift]}><BlueFace radius={25}/><Text style={[{fontSize:17,fontWeight:'800',letterSpacing:0.5},onBlueText]}>{initials}</Text></View>
+      <View style={[{width:52,height:52,borderRadius:26,alignItems:'center',justifyContent:'center'},raisedLift,{shadowRadius:6,shadowOffset:{width:0,height:3}}]}><RaisedFace radius={26}/>{photo&&!photoFailed?<Image source={{uri:photo}} onError={()=>setPhotoFailed(true)} accessibilityIgnoresInvertColors style={{width:48,height:48,borderRadius:24,backgroundColor:'#14171d'}}/>:<Text style={{color:'#e6e9ee',fontSize:17,fontWeight:'800',letterSpacing:0.8}}>{initials}</Text>}</View>
       <View style={{flex:1,gap:3}}><Text numberOfLines={1} style={{color:colors.text,fontSize:18,fontWeight:'700'}}>{name||'Your account'}</Text><Text style={{color:'#aab1bd',fontSize:13.5}}>Account, plan and settings</Text></View>
       <Icon name="chevronRight" size={18} color="#9aa2ae"/></>}
      </Pressable>
