@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {questionOf,instructionsOf} from './wire-helpers.ts';
 import assert from 'node:assert/strict';
 import {generateAnswer} from '../server/engineering.ts';
 const bike:any={id:'bike',user_id:'owner',manufacturer:'Yamaha',model:'YZ450F',model_year:2026,region:'US',variant:'standard',configuration:{engine:'stock'}};
@@ -11,7 +12,7 @@ test('provider transport and audit retain the same reviewed operation snapshot',
   globalThis.fetch=async(url,options)=>{assert.equal(url,'https://api.openai.com/v1/responses');sent=JSON.parse(String(options?.body));return new Response(JSON.stringify({status:'completed',output:[{content:[{type:'output_text',text:JSON.stringify(response)}]}]}),{status:200});};
   const result=await generateAnswer(bike,[],[],'Help with valve inspection');
   assert.equal(sent.store,false);
-  const input=JSON.parse(sent.input);
+  const input=questionOf(sent);
   assert.ok(input.reviewed_workshop.relevant_operations.length);
   assert.deepEqual(result.raw.bakmx_reviewed_workshop,input.reviewed_workshop);
   assert.ok(result.response.references?.some(r=>r.kind==='SOURCE_REVIEWED_OPERATION'));

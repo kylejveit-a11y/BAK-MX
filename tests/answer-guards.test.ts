@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {questionOf,instructionsOf} from './wire-helpers.ts';
 import assert from 'node:assert/strict';
 import {comparisonBikes,reportedBy,type Knowledge} from '../server/knowledge.ts';
 import {makerPrecedence,scopeRecalls,riderVin,vinRanges,vinInRange,vinSplit,withChangeLines,proSupercross,supplementalLookups,gearPairs} from '../server/answer-guards.ts';
@@ -44,7 +45,7 @@ test('compared bikes reach the model labelled with their own bike and can be cit
  try{
   process.env.OPENAI_API_KEY='test-only';process.env.OPENAI_MODEL='test-only';
   const reply={kind:'answer',summary:'Fork compression went from 14 to 13 out.',answer:'Fork compression: **14** clicks out on the 2026, **13** on the 2027.',setup_changes:[],observations:[],systems:[],hypotheses:[],unknowns:[],next_step:null,evidence_ids:['c1','o1'],specifications:[{claim_id:'c1'},{claim_id:'o1'}],claims:[{claim:'2027 fork compression',tier:'PUBLISHED',evidence_ids:['c1']},{claim:'2026 fork compression',tier:'PUBLISHED',evidence_ids:['o1']}],data_gaps:[],confidence:'SUPPORTED'};
-  globalThis.fetch=async(_u,o)=>{sent=JSON.parse(JSON.parse(String(o?.body)).input);return new Response(JSON.stringify({status:'completed',output:[{content:[{type:'output_text',text:JSON.stringify(reply)}]}]}));};
+  globalThis.fetch=async(_u,o)=>{sent=questionOf(JSON.parse(String(o?.body)));return new Response(JSON.stringify({status:'completed',output:[{content:[{type:'output_text',text:JSON.stringify(reply)}]}]}));};
   const {response}=await generateAnswer(b27,[],[mine],'what changed vs 2026?',[],undefined,[],[],null,false,[],[],[],null,null,null,null,null,null,[{bike:'2026 Triumph TF 450-X',relation:'other_year',claims:[other]}]);
   assert.equal(sent.compared_bikes[0].verified_claims[0].id,'o1');
   assert.ok(!JSON.stringify(sent).includes(other.id));

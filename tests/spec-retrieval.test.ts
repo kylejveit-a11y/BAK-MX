@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {questionOf,instructionsOf} from './wire-helpers.ts';
 import assert from 'node:assert/strict';
 import {planSpecLookups,generateAnswer} from '../server/engineering.ts';
 import {searchBikeClaims} from '../server/claims.ts';
@@ -15,7 +16,7 @@ test('lookup planning sends no evidence and returns deduplicated search terms',a
  await withProvider(s=>{sent=s;return ok({queries:['rear axle nut torque',' rear axle nut torque ','chain slack']});},async()=>{
   const queries=await planSpecLookups(bike,[],'what do I torque the back axle to');
   assert.deepEqual(queries,['rear axle nut torque','chain slack']);
-  const input=JSON.parse(sent.input);
+  const input=questionOf(sent);
   assert.equal(sent.text.format.name,'mx_spec_lookup');assert.equal(sent.store,false);
   assert.equal(input.verified_claims,undefined);assert.equal(input.bike.model_year,2025);
  });
@@ -44,7 +45,7 @@ test('the answer sees only retrieved evidence and may cite only that evidence',a
  let sent:any;
  await withProvider(s=>{sent=s;return ok({...base,evidence_ids:[retrieved[0].id],specifications:[{claim_id:retrieved[0].id,value:retrieved[0].statement}]});},async()=>{
   const result=await generateAnswer(bike,[],retrieved as any,'rear axle torque?',['rear axle nut torque']);
-  const input=JSON.parse(sent.input);
+  const input=questionOf(sent);
   assert.equal(input.verified_claims.length,1);assert.deepEqual(input.spec_lookups_performed,['rear axle nut torque']);
   assert.match(input.evidence_boundary,/not on file for this answer/);
   assert.deepEqual(result.raw.bakmx_spec_lookups,['rear axle nut torque']);
@@ -80,7 +81,7 @@ test('confidence tiers: published needs retrieved evidence, general guidance doe
  assert.match(responseViolations(leaked,retrieved as any)[0],/internal identifier/);
  // First draft overclaims; the repair call fixes it and the repaired reply is the one returned.
  let calls=0;
- await withProvider(sent=>{calls++;return ok(calls===1?{...shape,claims:[{claim:'Fork compression is 12 clicks stock',tier:'PUBLISHED',evidence_ids:[]}]}:(assert.match(sent.instructions,/previous draft broke these rules/),{...shape,data_gaps:['Stock fork clicker settings'],claims:[{claim:'Rider sag 105 mm',tier:'PUBLISHED',evidence_ids:[retrieved[0].id]}]}));},async()=>{
+ await withProvider(sent=>{calls++;return ok(calls===1?{...shape,claims:[{claim:'Fork compression is 12 clicks stock',tier:'PUBLISHED',evidence_ids:[]}]}:(assert.match(instructionsOf(sent),/previous draft broke these rules/),{...shape,data_gaps:['Stock fork clicker settings'],claims:[{claim:'Rider sag 105 mm',tier:'PUBLISHED',evidence_ids:[retrieved[0].id]}]}));},async()=>{
   const result=await generateAnswer(bike,[],retrieved as any,'what sag and clickers',['rider sag']);
   assert.equal(calls,2);assert.equal(result.raw.bakmx_repaired,true);assert.deepEqual(result.response.data_gaps,['Stock fork clicker settings']);
  });

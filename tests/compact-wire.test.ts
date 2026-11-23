@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {questionOf,instructionsOf} from './wire-helpers.ts';
 import assert from 'node:assert/strict';
 import {generateAnswer} from '../server/engineering.ts';
 import {factSystem} from '../shared/fact-system.ts';
@@ -16,7 +17,7 @@ async function withProvider(handler:(sent:any)=>Response,run:()=>Promise<void>){
 }
 test('model sees aliases and slim claims; saved reply carries the real id and exact statement',async()=>{
  let sent:any;
- await withProvider(body=>{sent=JSON.parse(body.input);return ok(reply('c1'));},async()=>{
+ await withProvider(body=>{sent=questionOf(body);return ok(reply('c1'));},async()=>{
   const {response}=await generateAnswer(bike,[],[claim] as any,'rear axle torque?',['rear axle nut torque']);
   assert.deepEqual(sent.verified_claims,[{id:'c1',domain:'chassis',system:factSystem(claim),statement:claim.statement,source_locator:'p. 157'}]);
   assert.ok(!JSON.stringify(sent.verified_claims).includes(id));
@@ -31,7 +32,7 @@ test('an alias that was never offered is refused, not saved',async()=>{
 test('earlier replies are sent as context without audit lists or identifiers',async()=>{
  let sent:any;const earlier={...reply(id),specifications:[{claim_id:id,value:claim.statement}]};
  const history:any=[{id:'m1',conversation_id:'c',user_id:'owner',role:'user',content:'rear axle torque?',response:null,created_at:''},{id:'m2',conversation_id:'c',user_id:'owner',role:'assistant',content:'',response:earlier,created_at:''}];
- await withProvider(body=>{sent=JSON.parse(body.input);return ok(reply('c1'));},async()=>{
+ await withProvider(body=>{sent=questionOf(body);return ok(reply('c1'));},async()=>{
   await generateAnswer(bike,history,[claim] as any,'and the front?',[]);
   assert.equal(sent.conversation[1].content.answer,earlier.answer);
   assert.ok(!JSON.stringify(sent.conversation).includes(id));

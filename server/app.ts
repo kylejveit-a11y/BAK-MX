@@ -17,7 +17,7 @@ import type {Bike,Claim,Message} from '../shared/types.ts';
 import {authenticate,adminDb,checked,configured} from './database.ts';
 import {HttpError,readJson,bikeSchema,serviceSchema,conversationSchema,chatSchema,uuid} from './validation.ts';
 import {raceForecast,raceTrackAt} from './weather.ts';
-import {applicableClaims,generateAnswer,planSpecLookups,raceLookups,PROMPT_VERSION,type RiderPreferences} from './engineering.ts';
+import {applicableClaims,generateAnswer,planSpecLookups,raceLookups,PROMPT_VERSION,type RiderPreferences,warmAnswerCache} from './engineering.ts';
 import type {SupabaseClient} from '@supabase/supabase-js';
 import {handleBilling,hasPaidAccess,prepareAccountDeletion} from './billing.ts';
 import {resolveTier,usageFor,reserveQuestion,ensureTrial,startNextTrialSet} from './plans.ts';
@@ -69,7 +69,14 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
  // Ride safety: every minute, alert the contacts of riders 30 minutes past their back-by time. Same cron secret.
  if(path==='/api/cron/ride-safety'&&(method==='GET'||method==='POST')){
   if(!cronAuthorized(req.headers.get('authorization'),process.env.CRON_SECRET))return json({error:'Not authorized'},401);
-  const r=await runSafetyCron(adminDb());await clearFinishedShares();return json(r);
+  const r=await runSafetyCron(adminDb());await clearFinishedShares();
+  // Every 20 minutes, unless a rider's answer already refreshed it: keep the answer briefing in the provider's cache.
+  if(new Date().getUTCMinutes()%20===0){
+   try{const recent=await adminDb().from('ai_requests').select('id',{count:'exact',head:true}).eq('state','complete').gte('completed_at',new Date(Date.now()-15*60000).toISOString());
+    if(!recent.count){const usage=await warmAnswerCache();console.log('[ask-bak] keep-warm',JSON.stringify(usage));}}
+   catch(e){console.error('[ask-bak] keep-warm error',String((e as Error)?.message??e));}
+  }
+  return json(r);
  }
  // Safety share link: the public page reads it with no sign-in (the link's secret is the key).
  if(path==='/api/share'&&method==='GET')return await handlePublicShare(url);
