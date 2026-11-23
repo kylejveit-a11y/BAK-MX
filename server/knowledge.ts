@@ -34,8 +34,11 @@ const DOMAIN_HINTS:[RegExp,string][]=[
 ];
 const words=(s:string)=>new Set(s.toLowerCase().match(/[a-z0-9]{3,}/g)??[]);
 /** Rank the bike's knowledge for this question: domain hints from the rider's words, then word overlap. */
-export function rankKnowledge(rows:Knowledge[],text:string,limit=MAX_ROWS):Knowledge[]{
+/** Words that say nothing about the subject. Lean ranking ignores them so "what is the" cannot make a row look relevant. */
+const FILLER=new Set(['the','and','for','are','you','how','can','its','not','but','was','has','why','get','what','when','with','that','this','have','does','should','much','many','about','your','bike','there','from','they','them','into','will','would','could','any','all','mine','just','need','want','use','used','using','one','out','off','too','than','then','which','where','who','best','good','way','make','made','does','did','been','being','after','before','over','under','more','less','most','each','every','also','very','still','keeps','keep','set','put','tell','know','like','new','old','stock']);
+export function rankKnowledge(rows:Knowledge[],text:string,limit=MAX_ROWS,lean=false):Knowledge[]{
  const want=new Set(DOMAIN_HINTS.filter(([re])=>re.test(text)).map(([,d])=>d)),q=words(text);
+ if(lean)for(const w of FILLER)q.delete(w);
  // 'Torque' next to a fastener means tightening torque, not engine torque.
  if(/\b(bolt|bolts|nut|nuts|screw|axle|tighten\w*|n·?m|ft[- ]?lbs?|lb[- ]?ft)\b/i.test(text))want.delete('power_feel');
  const score=(k:Knowledge)=>{let s=want.has(k.domain)?10:0;for(const w of words(k.topic+' '+k.statement))if(q.has(w))s+=1;s+=k.tier==='OEM'||k.tier==='MEASURED'?1:0;return s;};
@@ -63,13 +66,13 @@ export function withinBudget(rows:Knowledge[],budget=36000):Knowledge[]{
  for(const k of rows){const n=JSON.stringify(k).length;if(used+n>budget&&out.length)continue;used+=n;out.push(k);}
  return out;
 }
-export async function bikeKnowledge(db:SupabaseClient,bike:Bike,message:string,lookups:string[]=[]):Promise<Knowledge[]>{
+export async function bikeKnowledge(db:SupabaseClient,bike:Bike,message:string,lookups:string[]=[],trial?:{budget?:number;lean?:boolean}):Promise<Knowledge[]>{
  const s=exactBikeScope(bike);
  const {data,error}=await db.from('bike_knowledge').select(KNOWLEDGE_COLUMNS).eq('manufacturer',s.manufacturer).eq('model',s.model).eq('model_year',s.model_year).eq('status','APPROVED').limit(600);
  if(error||!Array.isArray(data))return [];// Deep knowledge is additive; a read failure must not block the answer.
  const rows=(data as Row[]).map(r=>toKnowledge(r));
  const q=[message,...lookups].join(' ');
- return withinBudget(rankKnowledge(rows,q).map(k=>focusRow(k,q)));
+ return withinBudget(rankKnowledge(rows,q,MAX_ROWS,trial?.lean===true).map(k=>focusRow(k,q)),trial?.budget??36000);
 }
 /** Which answer tier each knowledge tier may support. */
 export const knowledgeClaimTier:Record<KnowledgeTier,'PUBLISHED'|'COMMUNITY'|'ENGINEERING'>={OEM:'PUBLISHED',MEASURED:'COMMUNITY',TUNER:'COMMUNITY',COMMUNITY:'COMMUNITY',DERIVED:'ENGINEERING'};
