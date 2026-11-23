@@ -507,9 +507,10 @@ export function riderMedia(media:ChatMedia|null,count:number,before:Before|null=
 /** Steps 3 and 4. `claims` is the retrieved exact-bike evidence. */
 /** How the rider wants answers: units first, quick or full, straight or encouraging. Saved in Account › Preferences. */
 export type RiderPreferences={units:'us'|'metric';answer_length:'quick'|'full';tone:'straight'|'encouraging'};
-/** Riders' answers use the pinned request shape only once the keep-warm request (same shape, every 20 minutes) has been
- *  seen to work in the logs. Until then answers go out the way they always have. */
-const PINNED_LIVE=false;
+/** Riders' answers use the pinned request shape. Confirmed 2026-11-23 by the keep-warm request (same shape): the provider
+ *  accepted it and matched all 45,723 tokens of the briefing against the copy cached by ordinary requests, so the model
+ *  reads exactly the same text either way. If the provider ever rejects the shape, the request is re-sent the old way. */
+const PINNED_LIVE=true;
 /** The block that is identical on every answer: the rules plus the reference library. Built in one place so the
  *  keep-warm request sends exactly the same text as a real answer (the provider's cache matches on the exact text). */
 function answerBriefing(lib:{hypothesis_boundary:unknown;authored_hypotheses:unknown;setup_knowledge:unknown;racing_knowledge:unknown}){
