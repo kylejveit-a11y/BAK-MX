@@ -36,7 +36,7 @@ const body=z.object({
  race:z.object({track:z.string().trim().max(120).optional(),date:z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),setup:z.boolean().optional()}).strict().optional(),
  preferences:z.object({units:z.enum(['us','metric']),answer_length:z.enum(['quick','full']),tone:z.enum(['straight','encouraging'])}).strict().optional(),
  // Speed tests: try a lighter reasoning level for the answer or the lookup planning, or skip the planning call. Riders never send this.
- trial:z.object({answer_effort:z.enum(['none','minimal','low','medium']).optional(),plan_effort:z.enum(['none','minimal','low','medium']).optional(),skip_plan:z.boolean().optional(),workshops:z.boolean().optional(),model:z.enum(['gpt-6.1-sol','gpt-6.2-sol','gpt-6.1-terra','gpt-6-luna']).optional(),knowledge_budget:z.number().int().min(2000).max(36000).optional(),lean_rank:z.boolean().optional(),shape:z.boolean().optional()}).strict().optional(),
+ trial:z.object({answer_effort:z.enum(['none','minimal','low','medium']).optional(),plan_effort:z.enum(['none','minimal','low','medium']).optional(),skip_plan:z.boolean().optional(),workshops:z.boolean().optional(),model:z.enum(['gpt-6.1-sol','gpt-6.2-sol','gpt-6.1-terra','gpt-6-luna']).optional(),knowledge_budget:z.number().int().min(2000).max(36000).optional(),lean_rank:z.boolean().optional(),knowledge_rows:z.number().int().min(2).max(28).optional(),shape:z.boolean().optional()}).strict().optional(),
  setup_history:z.array(z.object({recorded_at:z.string().default(()=>new Date().toISOString()),track:z.string().max(120).default(''),conditions:z.string().max(120).default(''),
   change_made:z.string().max(1000).default(''),result:z.enum(['better','no_change','worse','not_tested']),notes:z.string().max(1000).default('')})).max(8).default([]),
 });
@@ -75,7 +75,7 @@ export async function handleEval(req:Request):Promise<Response>{
   const extra=bike?supplementalLookups(data.message,bike):[];
   const claims=bike?(extra.length?mergeSearchResults([await searchBikeClaims(admin,bike,lookups),await searchBikeClaims(admin,bike,extra)]):await searchBikeClaims(admin,bike,lookups)):[];
   const compared=bike?await comparisonClaims(admin,bike,data.message,lookups):[];
-  const knowledge=bike?[...await bikeKnowledge(admin,bike,data.message,lookups,{budget:data.trial?.knowledge_budget,lean:data.trial?.lean_rank}),...await comparisonKnowledge(admin,bike,data.message)]:[];
+  const knowledge=bike?[...await bikeKnowledge(admin,bike,data.message,lookups,{budget:data.trial?.knowledge_budget,lean:data.trial?.lean_rank,rows:data.trial?.knowledge_rows}),...await comparisonKnowledge(admin,bike,data.message)]:[];
   const tracks=data.race?.track?await trackContext(admin,ID+'02',[data.race.track,data.message]):[];
   const race=data.race?{...data.race,...(data.race.date&&data.race.track?{forecast:await raceForecast(...raceTrackAt(tracks,data.race.track),data.race.date,new Date().toISOString().slice(0,10))}:{})}:null;
   // Same engineering numbers as the live route (chassis, gearing, air and jetting), so tests cover them too.

@@ -41,6 +41,10 @@ export function rankKnowledge(rows:Knowledge[],text:string,limit=MAX_ROWS,lean=f
  if(lean)for(const w of FILLER)q.delete(w);
  // 'Torque' next to a fastener means tightening torque, not engine torque.
  if(/\b(bolt|bolts|nut|nuts|screw|axle|tighten\w*|n·?m|ft[- ]?lbs?|lb[- ]?ft)\b/i.test(text))want.delete('power_feel');
+ // Lean: the rider's own subject words decide, and a matching topic counts double. The domain alone still qualifies a row
+ // (riders say "bogs", the row says "off-idle response"), but only behind the rows that share the question's words.
+ if(lean){const sc=(k:Knowledge)=>{const t=words(k.topic);let o=0,b=0;for(const w of t)if(q.has(w))o+=2;for(const w of words(k.statement))if(q.has(w)&&!t.has(w))b++;o+=Math.min(b,4);return {o,s:o+(want.has(k.domain)?4:0)+(k.tier==='OEM'||k.tier==='MEASURED'?1:0)};};
+  return rows.map(k=>({k,...sc(k)})).filter(x=>x.s>=4&&(x.o>0||want.has(x.k.domain))).sort((a,b)=>b.s-a.s).slice(0,limit).map(x=>x.k);}
  const score=(k:Knowledge)=>{let s=want.has(k.domain)?10:0;for(const w of words(k.topic+' '+k.statement))if(q.has(w))s+=1;s+=k.tier==='OEM'||k.tier==='MEASURED'?1:0;return s;};
  return rows.map(k=>({k,s:score(k)})).filter(x=>x.s>=3).sort((a,b)=>b.s-a.s).slice(0,limit).map(x=>x.k);
 }
@@ -66,13 +70,13 @@ export function withinBudget(rows:Knowledge[],budget=36000):Knowledge[]{
  for(const k of rows){const n=JSON.stringify(k).length;if(used+n>budget&&out.length)continue;used+=n;out.push(k);}
  return out;
 }
-export async function bikeKnowledge(db:SupabaseClient,bike:Bike,message:string,lookups:string[]=[],trial?:{budget?:number;lean?:boolean}):Promise<Knowledge[]>{
+export async function bikeKnowledge(db:SupabaseClient,bike:Bike,message:string,lookups:string[]=[],trial?:{budget?:number;lean?:boolean;rows?:number}):Promise<Knowledge[]>{
  const s=exactBikeScope(bike);
  const {data,error}=await db.from('bike_knowledge').select(KNOWLEDGE_COLUMNS).eq('manufacturer',s.manufacturer).eq('model',s.model).eq('model_year',s.model_year).eq('status','APPROVED').limit(600);
  if(error||!Array.isArray(data))return [];// Deep knowledge is additive; a read failure must not block the answer.
  const rows=(data as Row[]).map(r=>toKnowledge(r));
  const q=[message,...lookups].join(' ');
- return withinBudget(rankKnowledge(rows,q,MAX_ROWS,trial?.lean===true).map(k=>focusRow(k,q)),trial?.budget??36000);
+ return withinBudget(rankKnowledge(rows,q,trial?.rows??MAX_ROWS,trial?.lean===true).map(k=>focusRow(k,q)),trial?.budget??36000);
 }
 /** Which answer tier each knowledge tier may support. */
 export const knowledgeClaimTier:Record<KnowledgeTier,'PUBLISHED'|'COMMUNITY'|'ENGINEERING'>={OEM:'PUBLISHED',MEASURED:'COMMUNITY',TUNER:'COMMUNITY',COMMUNITY:'COMMUNITY',DERIVED:'ENGINEERING'};
