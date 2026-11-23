@@ -609,6 +609,8 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  const openThread=(v:string)=>{if(sending.current)return;if(!v){newChat();return;}refreshVersion.current.invalidate();setId(v);setMessages([]);setDraft('');setNotice('');setLimit(null);rememberRequest(null);follow.current=true;setMode(threads.find(t=>t.id===v)?.mode??'ask');};
  const coachingSessions=useCoachingSessions(bike?.id,true),recentTracks=[...new Set(rideLogs.map(l=>l.track?.trim()).filter((t):t is string=>!!t))].slice(0,4);
  const canSend=!busy&&!!bike&&!uploading&&(!!draft.trim()||attached.length>0)&&draft.length<=8000;
+ // Talk to BAK takes the send button's place while the box is empty (testers only until voice launches).
+ const voiceStatus=useVoiceStatus(),talkReady=!!voiceStatus&&voiceStatus.why!=='not_in_test',[talk,setTalk]=useState(false);
  async function attachClip(){if(attached.length||!bike)return;try{const c=await pickClipFrames();if(!c)return;setUploading(c.frames.length);const done:typeof attached=[];for(const f of c.frames){done.push(await uploadPhoto(f.asset,'chat',bike.id));setUploading(n=>Math.max(0,n-1));}setAttached(done);setClip({duration:c.duration,frames:c.frames.map(f=>Math.round(f.time*100)/100)});}catch(e){setNotice(errorText(e));}finally{setUploading(0);}}
  async function attach(from?:'camera'|'library'){if(attached.length>=4||clip||!bike)return;const source=from??await chooseChatSource();if(!source)return;if(source==='video'){/* Clip coaching is Pro; the server checks too. */const u=await api<{tier:Tier}>('/api/usage').catch(()=>null);if(u&&!canCoachClips(u.tier)){Alert.alert('Pro feature',CLIP_PRO_NOTE);return;}await attachClip();return;}try{const picked=await pickImages(source,4-attached.length);if(!picked.length)return;setUploading(picked.length);for(const a of picked){const p=await uploadPhoto(a,'chat',bike.id);setAttached(old=>[...old,p]);setUploading(n=>Math.max(0,n-1));}}catch(e){setNotice(errorText(e));}finally{setUploading(0);}}
  // The composer: the message on top with room to write, one row of controls under it (like the chat apps riders know).
@@ -631,7 +633,8 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
    <View style={{flexDirection:'row',alignItems:'center',gap:4,flexShrink:0}}>
     {hasChats&&<PickButton title="Your chats" accessibilityLabel={`Chats: ${id?threads.find(t=>t.id===id)?.title??'this chat':'new chat'}. Change`} disabled={busy} value={id} options={[{value:'',label:'New chat'},...threads.map(t=>({value:t.id,label:`${chatTopic(t.title,t.mode)} · ${t.title}`}))]} onChange={openThread}><View style={iconBtn}><Icon name="history" size={21} color="#c9cfd9"/></View></PickButton>}
     <Pressable haptic="select" accessibilityRole="switch" accessibilityState={{checked:fast}} accessibilityLabel="Race mode: short, fast answers" accessibilityHint={fast?'On. Answers are the one change to make, short.':'Off. Answers are full depth.'} disabled={busy} onPress={()=>setFastPick({day:new Date().toDateString(),on:!fast})} hitSlop={4} style={({pressed})=>[fast?[chip,{height:36,borderRadius:18,paddingHorizontal:10,borderColor:colors.accent,backgroundColor:tint(0.14)}]:iconBtn,{opacity:pressed?0.7:1}]}><Icon name="bolt" size={fast?15:21} color={fast?colors.accent:'#c9cfd9'}/>{fast&&<Text numberOfLines={1} style={{color:colors.text,fontSize:13.5,fontWeight:'700'}}>Race</Text>}</Pressable>
-    <Pressable haptic="press" accessibilityRole="button" accessibilityLabel="Send to BAK" accessibilityState={{disabled:!canSend}} disabled={!canSend} onPress={submit} style={({pressed})=>[{width:38,height:38,borderRadius:19,marginLeft:2,backgroundColor:canSend?'transparent':'#23272f',alignItems:'center',justifyContent:'center'},canSend&&blueLift,pressed&&{transform:[{translateY:1}]}]}>{({pressed})=><>{canSend&&<BlueFace radius={19} pressed={pressed}/>}{busy?<ActivityIndicator size="small" color={colors.text}/>:<Icon name="arrowUp" size={20} color={canSend?'#ffffff':'#7d8593'} weight={2.2}/>}</>}</Pressable>
+    {talkReady&&!draft.trim()&&!attached.length&&!busy&&!!bike?<Pressable haptic="press" accessibilityRole="button" accessibilityLabel="Talk to BAK" accessibilityHint="Opens a voice conversation about your bike" onPress={()=>setTalk(true)} style={({pressed})=>[{width:38,height:38,borderRadius:19,marginLeft:2,alignItems:'center',justifyContent:'center'},blueLift,pressed&&{transform:[{translateY:1}]}]}>{({pressed})=><><BlueFace radius={19} pressed={pressed}/><Icon name="voice" size={20} color="#ffffff" weight={2.2}/></>}</Pressable>:
+    <Pressable haptic="press" accessibilityRole="button" accessibilityLabel="Send to BAK" accessibilityState={{disabled:!canSend}} disabled={!canSend} onPress={submit} style={({pressed})=>[{width:38,height:38,borderRadius:19,marginLeft:2,backgroundColor:canSend?'transparent':'#23272f',alignItems:'center',justifyContent:'center'},canSend&&blueLift,pressed&&{transform:[{translateY:1}]}]}>{({pressed})=><>{canSend&&<BlueFace radius={19} pressed={pressed}/>}{busy?<ActivityIndicator size="small" color={colors.text}/>:<Icon name="arrowUp" size={20} color={canSend?'#ffffff':'#7d8593'} weight={2.2}/>}</>}</Pressable>}
    </View>
   </View>
   {(()=>{const n=composerNudge(usage);return n&&n.key!==nudgeHidden&&!limit?<ComposerNudge text={n.text} action={n.action} onPress={()=>{if(n.action==='pro')openPro();else void nextSet().catch(e=>setNotice(errorText(e)));}} onDismiss={()=>setNudgeHidden(n.key)}/>:null;})()}
@@ -644,6 +647,7 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  // Before consent the footer is the Agree button, so it sits above the tab bar from the start instead of under it.
  const agree=!aiOk?<View style={{padding:12}}><Button title={aiConsentAgree} onPress={()=>{try{writeProgress(session.user.id,'ai-consent-'+AI_CONSENT_VERSION,true);}catch{}setAiOk(true);}}/></View>:null;
  return <Page title="" fill={hero} footer={agree??composer} footerForAction={!aiOk} scrollRef={chatScroll} onContentSizeChange={()=>{/* the empty chat stays put when the keyboard opens: the phrase and starters remain in view */if(!hero)followEnd(messages.length>0);}} onScrollBeginDrag={()=>{follow.current=false;}}>
+  <TalkSheet visible={talk} onClose={()=>{setTalk(false);void api<Conversation[]>('/api/conversations').then(r=>{if(alive.current)setThreads(r);}).catch(()=>{});}} bike={bike} ownerId={session.user.id} host={appHost} onSaved={()=>void reload()}/>
  {/* The bike, chats and race mode live on the composer (like other chat apps), so the conversation gets the screen. */}
  {(empty&&!hero||!bike)&&<View style={{gap:14}}>{empty&&!hero&&<PageTitle>Ask BAK</PageTitle>}
   {!bike&&<NoBike what="to ask about it"/>}
@@ -880,6 +884,21 @@ function Account(){const{session,bike,bikes,reload,select,setColorMode,colorMode
    </ScrollView>
   </View>
  </PageSheet></Page>}
+/** Talk to BAK as its own sheet, opened from the chat box. Changes it proposes use the same confirm cards as typed chat. */
+function TalkSheet({visible,onClose,bike,ownerId,host,onSaved}:{visible:boolean;onClose:()=>void;bike?:Bike;ownerId:string;host:AppActionHost;onSaved:()=>void}){
+ const insets=useSafeAreaInsets();
+ return <PageSheet visible={visible} animationType="slide" onRequestClose={onClose}>
+  <View style={{flex:1,backgroundColor:colors.bg,paddingTop:18}}>
+   <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:22,paddingBottom:8}}>
+    <View style={{gap:7,flex:1}}><Text accessibilityRole="header" numberOfLines={1} style={{color:colors.text,fontSize:21,...DISPLAY,letterSpacing:0}}>Talk to BAK</Text><View style={{flexDirection:'row',gap:4}}><MetalMark width={26}/><MetalMark width={8} dim/></View></View>
+    <Pressable accessibilityRole="button" onPress={onClose} hitSlop={10}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Done</Text></Pressable>
+   </View>
+   <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{paddingHorizontal:22,paddingTop:12,paddingBottom:insets.bottom+36,gap:16}}>
+    {visible&&<VoiceProof bike={bike} ownerId={ownerId} renderChanges={(response,messageId)=>bike?<View style={{gap:12}}><GarageUpdatesCard bike={bike} updates={response.garage_updates} onSaved={onSaved}/><AppActionsCard ownerId={ownerId} messageId={messageId} actions={response.app_actions} host={host}/></View>:null}/>}
+   </ScrollView>
+  </View>
+ </PageSheet>;
+}
 type AccPage=''|'plan'|'invite'|'prefs'|'notify'|'safety'|'feedback'|'legal'|'signin'|'delete'|'voice';
 /** One short group of Account rows on a raised panel, with a quiet label over it. */
 function AccountGroup({title,children}:{title?:string;children:React.ReactNode}){

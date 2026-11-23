@@ -61,6 +61,8 @@ export const iconData:Record<string,Shape[]>={
  chevronUp:[{d:'M5.6 14.6 L12 8.2 L18.4 14.6'}],
  expand:[{d:'M7.6 9.2 L12 4.8 L16.4 9.2'},{d:'M7.6 14.8 L12 19.2 L16.4 14.8'}],
  plus:[{d:'M12 5 L12 19 M5 12 L19 12'}],
+ // Sound bars: Talk to BAK.
+ voice:[{d:'M4.6 10 L4.6 14 M9.5 6.2 L9.5 17.8 M14.5 8.4 L14.5 15.6 M19.4 10.4 L19.4 13.6'}],
  close:[{d:'M6.2 6.2 L17.8 17.8 M17.8 6.2 L6.2 17.8'}],
  arrowUp:[{d:'M12 19.4 L12 5.2'},{d:'M6.2 11 L12 5.2 L17.8 11'}],
  arrowRight:[{d:'M4.6 12 L18.8 12'},{d:'M13 6.2 L18.8 12 L13 17.8'}],
