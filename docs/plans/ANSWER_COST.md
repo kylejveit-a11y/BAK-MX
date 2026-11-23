@@ -24,3 +24,18 @@ Largest parts when present (characters): rider knowledge notes for the bike 30,7
 installed parts 13,700; retrieved published facts 10,300; bike overview 5,400.
 Plan: tighten each to what the question needs, run the three 100-question exams before and after, ship only if scores
 hold and nothing invented appears. Needs the private test key, which expired 2026-11-23 00:56 UTC.
+
+## Model comparison (2026-11-23)
+
+60 mixed exam questions (20 suspension, 20 engine, 20 setup), one run each, through the private test route. Raw results in `docs/research/models/`.
+
+| Model | Score | Full marks | Wrong | Median time | Cost per answer (warm) |
+|---|---|---|---|---|---|
+| gpt-6.1-sol (live) | 96.9 | 53/60 | 0 | 26.2 s | ~4.8 cents |
+| gpt-6.2-sol | 95.6 | 50/60 | 0 | 18.1 s | ~5.0 cents |
+| gpt-6.1-terra | 93.2 | 45/60 | 0 | 13.4 s | ~2.5 cents |
+| gpt-6-luna | 90.2 | 44/60 | 0 | 14.2 s | ~0.3 cents |
+
+By subject (sol 6.1 / sol 6.2 / terra / luna): suspension 98.8 / 97.5 / 97.5 / 93.3, engine 96.2 / 95.0 / 90.2 / 85.0, setup 95.7 / 94.3 / 92.0 / 92.2.
+
+Caveats: single run, run-to-run noise is about 1 to 2 points. Cached-input prices for terra and luna were assumed at 0.05x of input (not listed). No model switch has been made.
