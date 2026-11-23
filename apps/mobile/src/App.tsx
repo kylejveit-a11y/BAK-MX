@@ -44,6 +44,7 @@ import {FindPartCard,MyPartsList,PartOfferLine,openFindPart} from './FindPart';
 import {openPartsTab,takePartsTab,onPartsTab,requestHomeStart,takeHomeStart,onHomeStart,type PartsTab} from './menuActions';
 import {RideSafetyPanel} from './RideSafety';
 import {Raised,RaisedFace,raisedLift,RaisedButton} from './Raised';
+import {VoiceProof,useVoiceStatus} from './VoiceProof';
 import {onBlueText} from './BlueFace';
 import {partOffer} from '../../../shared/parts-hunter';
 import {NotificationsCard} from './NotificationsCard';
@@ -824,7 +825,8 @@ function AppColorCard({bare=false}:{bare?:boolean}){
 function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSummary(),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false),[confirm,setConfirm]=useState('');async function task(action:()=>Promise<unknown>,success?:string){setBusy(true);try{await action();if(success)setNotice(success);}catch(e){if((e as {userCancelled?:boolean}).userCancelled)setNotice('Purchase cancelled.');else setNotice(errorText(e));}finally{setBusy(false);}}async function exportData(){const data=await api('/api/account/export');const file=new File(Paths.cache,'bakmx-account-export.json');try{file.create({overwrite:true});file.write(JSON.stringify({account:data,device_local_progress:exportProgress(session.user.id)},null,2));if(!await Sharing.isAvailableAsync())throw new Error('File sharing is unavailable on this device.');await Sharing.shareAsync(file.uri,{mimeType:'application/json',UTI:'public.json'});}finally{if(file.exists)file.delete();}}const [page,setPage]=useState<AccPage>(''),insets=useSafeAreaInsets();
  const go=(to:string)=>{if(navRef.isReady())navRef.navigate(to as never);};
  const pro=plan.usage?.tier==='pro';
- const titles:Record<Exclude<AccPage,''>,string>={plan:'Ask BAK plan',invite:'Invite a friend',prefs:'Preferences',notify:'Notifications',safety:'Ride safety contacts',feedback:'Send feedback',legal:'Your data and legal',signin:'Email and password',delete:'Delete account'};
+ const voice=useVoiceStatus(),voiceTest=!!voice&&voice.why!=='not_in_test';
+ const titles:Record<Exclude<AccPage,''>,string>={plan:'Ask BAK plan',invite:'Invite a friend',prefs:'Preferences',notify:'Notifications',safety:'Ride safety contacts',feedback:'Send feedback',legal:'Your data and legal',signin:'Email and password',delete:'Delete account',voice:'Talk to BAK'};
  return <Page title="Account"><Notice text={notice}/><ProfileCard/>
  {/* Grouped like a phone's own settings: a few short groups, one row per topic, each opening its own page. */}
  {plan.usage&&!pro&&<AccountGroup><AccountRow title="Go Pro" value="Unlimited questions" onPress={()=>go('Pro')}/></AccountGroup>}
@@ -842,6 +844,7 @@ function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSum
   <AccountRow title="How BAK works" onPress={()=>go('Help')}/>
   <AccountRow title="Supported bikes" onPress={()=>go('Bikes')}/>
   <AccountRow title="Send feedback" onPress={()=>setPage('feedback')}/>
+  {voiceTest&&<AccountRow title="Talk to BAK" value="Test" onPress={()=>setPage('voice')}/>}
  </AccountGroup>
  <AccountGroup title="Account">
   <AccountRow title="Email and password" value={session.user.email??''} onPress={()=>setPage('signin')}/>
@@ -863,13 +866,14 @@ function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSum
     {page==='notify'&&<NotificationsCard/>}
     {page==='safety'&&<SafetyContactsCard/>}
     {page==='feedback'&&<FeedbackCard bike={bike} bare/>}
+    {page==='voice'&&<VoiceProof bike={bike}/>}
     {page==='legal'&&<TileGrid><Tile icon="export" title="Export my data" detail="A copy of your Garage, chats and logs" onPress={()=>{if(!busy)void task(exportData);}}/>{([['Privacy policy',mxPage(process.env.EXPO_PUBLIC_PRIVACY_URL,'privacy'),'verified'],['Terms of service',mxPage(process.env.EXPO_PUBLIC_TERMS_URL,'terms'),'document'],['Contact support',mxPage(process.env.EXPO_PUBLIC_SUPPORT_URL,'support'),'mail']] as [string,string|undefined,IconName][]).map(([label,url,icon])=><Tile key={label} icon={icon} title={label} detail={label==='Contact support'?'Questions, bugs, billing':'Opens in your browser'} onPress={()=>url?void Linking.openURL(url).catch(e=>setNotice(errorText(e))):setNotice(`${label} is not configured in this build.`)}/>)}</TileGrid>}
     {page==='signin'&&<SignInCard email={session.user.email??''}/>}
     {page==='delete'&&<><Copy>Deletion removes your Garage, conversations and service history. Cancel your subscription in the App Store before deleting your account.</Copy><Field label="Type DELETE to confirm" placeholder="DELETE" autoCapitalize="characters" value={confirm} onChangeText={setConfirm}/><Button secondary disabled={busy||confirm!=='DELETE'} title="Permanently delete account" onPress={()=>Alert.alert('Permanently delete account?','This action cannot be undone. Export your data first if you need a copy.',[{text:'Cancel',style:'cancel'},{text:'Delete account',style:'destructive',onPress:()=>void task(async()=>{await api('/api/account','DELETE',{confirmation:'DELETE'});await endShareOnSignOut();clearProgress(session.user.id);await supabase!.auth.signOut({scope:'local'});})}])}/></>}
    </ScrollView>
   </View>
  </PageSheet></Page>}
-type AccPage=''|'plan'|'invite'|'prefs'|'notify'|'safety'|'feedback'|'legal'|'signin'|'delete';
+type AccPage=''|'plan'|'invite'|'prefs'|'notify'|'safety'|'feedback'|'legal'|'signin'|'delete'|'voice';
 /** One short group of Account rows on a raised panel, with a quiet label over it. */
 function AccountGroup({title,children}:{title?:string;children:React.ReactNode}){
  const rows=React.Children.toArray(children).filter(Boolean);

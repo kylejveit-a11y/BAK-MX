@@ -27,6 +27,7 @@ import {limitMessage,canCoachClips,CLIP_PRO_NOTE} from '../shared/plans.ts';
 import {handleMobileBilling} from './mobile-billing.ts';
 import {handleRiderSurfaces} from './rider-surfaces.ts';
 import {handleInvites,rewardJoin,runInviteCron} from './invites.ts';
+import {handleVoice} from './voice.ts';
 import {handleTrackReports} from './track-reports.ts';
 import {handleTrackCheckins} from './track-checkins.ts';
 import {handleTrackHistory} from './track-history.ts';
@@ -190,6 +191,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
  if(path==='/api/auth/apple/exchange'&&method==='POST')return json(await exchangeAppleCode(owner,await readJson(req)));
  if(path==='/api/account'&&method==='DELETE'){const data=await readJson(req);if(data?.confirmation!=='DELETE')throw new HttpError(400,'Confirm deletion by sending DELETE');await prepareAccountDeletion(owner);await revokeAppleSignIn(owner);const admin=adminDb();{for(let off=0;;off+=100){const files=await admin.storage.from('rider-manuals').list(owner,{limit:100,offset:off});const names=files.data?.map(f=>`${owner}/${f.name}`)??[];if(names.length)await admin.storage.from('rider-manuals').remove(names);if(names.length<100)break;}}{const photos=(await admin.from('rider_photos').select('storage_path').eq('user_id',owner).limit(5000)).data as {storage_path:string}[]|null;for(let i=0;i<(photos?.length??0);i+=500)await admin.storage.from(PHOTO_BUCKET).remove(photos!.slice(i,i+500).map(p=>p.storage_path));}{const clips=(await admin.from('rider_videos').select('storage_path').eq('user_id',owner).limit(5000)).data as {storage_path:string}[]|null;for(let i=0;i<(clips?.length??0);i+=500)await admin.storage.from('rider-videos').remove(clips!.slice(i,i+500).map(p=>p.storage_path));}const signout=await admin.auth.admin.signOut(token,'global');if(signout.error)throw new HttpError(503,'Could not revoke sessions');const deleted=await admin.auth.admin.deleteUser(owner);if(deleted.error)throw new HttpError(503,'Could not delete account. Contact support before signing up again.');return json({deleted:true});}
  {const invite=await handleInvites(req,path,method,user);if(invite)return json(invite);}
+ {const voice=await handleVoice(req,path,method,user);if(voice)return json(voice);}
  {const surface=await handleRiderSurfaces(req,url,path,method,db,owner);if(surface)return surface;}
  {const reports=await handleTrackReports(req,url,path,method,db,owner);if(reports)return reports;}
  {const checkins=await handleTrackCheckins(req,url,path,method,db,owner);if(checkins)return checkins;}
