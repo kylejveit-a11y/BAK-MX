@@ -447,7 +447,7 @@ async function callModel(model:string,args:Call):Promise<{parsed:unknown;raw:Pro
   :{instructions:args.instructions+(args.addendum?'\n\n'+args.addendum:''),input:args.images?.length?[{role:'user',content:userParts}]:JSON.stringify(args.input)};
  const res=await fetch('https://api.openai.com/v1/responses',{method:'POST',headers:{Authorization:`Bearer ${key}`,'Content-Type':'application/json'},body:JSON.stringify({model,...shape,text:{format:{type:'json_schema',name:args.name,schema:args.schema,strict:true}},max_output_tokens:args.maxTokens,store:false,...(args.effort?{reasoning:{effort:args.effort}}:{}),...(args.onText?{stream:true}:{})}),signal:AbortSignal.timeout(args.timeoutMs)});
  // A provider that rejects the pinned shape must not cost the rider an answer: send it the ordinary way.
- if(!res.ok&&args.pinned){let why=`provider_${res.status}`;try{const b=await res.json() as {error?:{code?:string|null;type?:string|null;param?:string|null;message?:string|null}};if(b.error)why+=`:${String(b.error.code||b.error.type||'unknown').slice(0,60)}:${String(b.error.param||'').slice(0,60)}:${String(b.error.message||'').slice(0,200)}`;}catch{/* not JSON */}
+ if(!res.ok&&args.pinned&&res.status>=400&&res.status<500){let why=`provider_${res.status}`;try{const b=await res.json() as {error?:{code?:string|null;type?:string|null;param?:string|null;message?:string|null}};if(b.error)why+=`:${String(b.error.code||b.error.type||'unknown').slice(0,60)}:${String(b.error.param||'').slice(0,60)}:${String(b.error.message||'').slice(0,200)}`;}catch{/* not JSON */}
   const {pinned:_p,...plain}=args;void _p;console.error('[ask-bak] pinned prefix failed; sent unpinned',why);return callModel(model,plain);}
  if(!res.ok&&res.status===400&&args.effort){const {effort:_dropped,...plain}=args;void _dropped;return callModel(model,plain);}
  if(!res.ok){
@@ -507,6 +507,9 @@ export function riderMedia(media:ChatMedia|null,count:number,before:Before|null=
 /** Steps 3 and 4. `claims` is the retrieved exact-bike evidence. */
 /** How the rider wants answers: units first, quick or full, straight or encouraging. Saved in Account › Preferences. */
 export type RiderPreferences={units:'us'|'metric';answer_length:'quick'|'full';tone:'straight'|'encouraging'};
+/** Riders' answers use the pinned request shape only once the keep-warm request (same shape, every 20 minutes) has been
+ *  seen to work in the logs. Until then answers go out the way they always have. */
+const PINNED_LIVE=false;
 /** The block that is identical on every answer: the rules plus the reference library. Built in one place so the
  *  keep-warm request sends exactly the same text as a real answer (the provider's cache matches on the exact text). */
 function answerBriefing(lib:{hypothesis_boundary:unknown;authored_hypotheses:unknown;setup_knowledge:unknown;racing_knowledge:unknown}){
@@ -538,7 +541,7 @@ export async function generateAnswer(bike:Bike|null,history:Message[],claims:Cla
  // there; only what changes per question (bike, conversation, retrieved evidence, message) is sent as input.
  const {authored_hypotheses,setup_knowledge,racing_knowledge,hypothesis_boundary,...wire}=full;
  const briefing=answerBriefing({hypothesis_boundary,authored_hypotheses,setup_knowledge,racing_knowledge});
- const call:Call={pinned:true,instructions:briefing,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:race?2000:5000,timeoutMs:images.length>8?80000:45000,...(trial?.effort?{effort:trial.effort}:race?{effort:'low' as const}:{}),...(images.length?{images}:{})};
+ const call:Call={pinned:PINNED_LIVE,instructions:briefing,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:race?2000:5000,timeoutMs:images.length>8?80000:45000,...(trial?.effort?{effort:trial.effort}:race?{effort:'low' as const}:{}),...(images.length?{images}:{})};
  // The rider-facing text is shown while it is written. It is a draft until the checks below pass on the finished reply.
  let firstText=0;
  const first=await callWithBackup(answerModel(),onDraft?{...call,onText:soFar=>{const draft={summary:partialJsonString(soFar,'summary'),answer:partialJsonString(soFar,'answer')};if(!firstText&&(draft.summary||draft.answer))firstText=Date.now()-started;onDraft(draft);}}:call);
