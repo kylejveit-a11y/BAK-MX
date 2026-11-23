@@ -14,7 +14,7 @@ import {Pressable} from './Touch';
 import {readProgress,writeProgress} from './localProgress';
 
 type Phase='idle'|'starting'|'live'|'ending';
-type Line={who:'you'|'bak';text:string};
+type Line={who:'you'|'bak';text:string;at:number};
 const clock=(s:number)=>`${Math.floor(s/60)}:${String(Math.max(0,s)%60).padStart(2,'0')}`;
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Try again.';
 /** A written answer made speakable: no markdown marks, and short enough for one handoff. */
@@ -35,7 +35,14 @@ export function VoiceProof({bike,ownerId,renderChanges}:{bike?:Bike;ownerId:stri
   if(s>=c.limit){setNotice('That’s your talk time for now.');void stop();}
   else if(Date.now()-c.lastWords>VOICE.idleEndSeconds*1000){setNotice('Ended after 10 minutes of quiet.');void stop();}},1000);return()=>clearInterval(t);},[phase]);
 
- const say=(who:Line['who'],delta:string)=>setLines(old=>{const last=old[old.length-1];if(last&&last.who===who)return[...old.slice(0,-1),{who,text:last.text+delta}];return[...old.slice(-11),{who,text:delta}];});
+ // Words arrive in small pieces, and the two speakers' pieces can cross. A piece joins the speaker's own last line when
+ // that line is the newest one, or when it was still being written a moment ago (so one reply is never split in two).
+ const say=(who:Line['who'],delta:string)=>setLines(old=>{const now=Date.now(),last=old[old.length-1];
+  if(last&&last.who===who)return[...old.slice(0,-1),{who,text:last.text+delta,at:now}];
+  const mine=old.length>=2?old[old.length-2]:undefined;
+  if(mine&&mine.who===who&&now-mine.at<2500)return[...old.slice(0,-2),{who,text:mine.text+delta,at:now},old[old.length-1]];
+  if(!delta.trim())return old;
+  return[...old.slice(-11),{who,text:delta.replace(/^\s+/,''),at:now}];});
  const send=(event:Record<string,unknown>)=>{const dc=call.current?.dc;if(dc&&dc.readyState==='open')dc.send(JSON.stringify(event));};
 
  async function answer(delegationId:string){
@@ -45,7 +52,7 @@ export function VoiceProof({bike,ownerId,renderChanges}:{bike?:Bike;ownerId:stri
   setWorking(true);
   try{
    if(!c.conversation){const conv=await api<Conversation>('/api/conversations','POST',{bike_id:bike.id,title:('Talk to BAK: '+question).slice(0,100),mode:'ask',create_id:randomUUID()});c.conversation=conv.id;}
-   const r=await apiStream<{response:EngineeringResponse;message?:{id?:string}}>('/api/chat',{conversation_id:c.conversation,request_id:randomUUID(),message:question},()=>{});
+   const r=await apiStream<{response:EngineeringResponse;message?:{id?:string}}>('/api/chat',{conversation_id:c.conversation,request_id:randomUUID(),message:question,voice:true},()=>{});
    const changes=[...(r.response.garage_updates??[]).map(u=>`${u.field||u.name} ${u.value}`.trim()),...(r.response.app_actions??[]).map(a=>a.type.replace(/_/g,' '))];
    if(changes.length)setPending(old=>[...old.slice(-2),{id:r.message?.id||randomUUID(),response:r.response}]);
    send({type:'session.commentary.append',event_id:randomUUID(),delegation_id:delegationId,content:(speakable(r.response)+(changes.length?`\nA change is waiting on the rider's screen for them to confirm with a tap: ${changes.join('; ')}. It is NOT saved yet.`:'')).slice(0,1900)});
@@ -96,7 +103,7 @@ export function VoiceProof({bike,ownerId,renderChanges}:{bike?:Bike;ownerId:stri
  const left=status?Math.max(0,status.seconds_left-(phase==='live'?seconds:0)):0;
  const blocked=status&&!status.allowed?(status.why==='not_pro'?'Talk to BAK is part of Pro.':status.why==='used_up'?'You’ve used this month’s talk time. It resets on the 1st.':'Talk to BAK isn’t switched on for this account yet.'):'';
  return <View style={{gap:16}}>
-  <Copy>Test version. Ask about your bike out loud. BAK checks your bike’s data before it answers, so there’s a short pause after each question. The full answer is saved in your chats.</Copy>
+  <Copy>Test version. Ask about your bike out loud. BAK checks your bike’s data before it answers, so there’s a short pause after each question. The conversation is saved in your chats.</Copy>
   <Notice text={notice||blocked} tone={notice||blocked?'warn':undefined}/>
   <Raised radius={20}><View style={{padding:20,gap:14,alignItems:'center'}}>
    <Text style={{color:'#9aa2ae',fontSize:13}}>{phase==='live'?(working?'Checking your bike’s data…':'Listening'):phase==='starting'?'Connecting…':phase==='ending'?'Ending…':'Ready'}</Text>
