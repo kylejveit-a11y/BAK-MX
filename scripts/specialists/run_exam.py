@@ -1,6 +1,6 @@
 """Run a specialist exam against the live Ask BAK and score it (docs/plans/SPECIALISTS.md).
 Usage: python3 scripts/specialists/run_exam.py <exam.json> <out.json> [workers]
-Needs BAK_EVAL_TOKEN_FILE (path to the eval token). EXAM_WORKSHOPS=1 asks with the specialist packs switched on. Answers are scored on everything the rider would see."""
+Needs BAK_EVAL_TOKEN_FILE (path to the eval token). EXAM_WORKSHOPS=1 asks with the specialist packs switched on. EXAM_MODEL=<name> answers with another model (test route only). Each result keeps the provider's token usage. Answers are scored on everything the rider would see."""
 import json,os,re,sys,time,urllib.request,concurrent.futures as cf
 exam=json.load(open(sys.argv[1]));out=sys.argv[2];workers=int(sys.argv[3]) if len(sys.argv)>3 else 4
 token=open(os.environ['BAK_EVAL_TOKEN_FILE']).read().strip()
@@ -16,7 +16,8 @@ def shown(resp):
     return '\n'.join(parts)
 def ask(q):
     if q['id'] in done:return done[q['id']]
-    body=json.dumps({'bike':q['bike'],'message':q['q'],**({'trial':{'workshops':True}} if os.environ.get('EXAM_WORKSHOPS')=='1' else {})}).encode()
+    trial={**({'workshops':True} if os.environ.get('EXAM_WORKSHOPS')=='1' else {}),**({'model':os.environ['EXAM_MODEL']} if os.environ.get('EXAM_MODEL') else {})}
+    body=json.dumps({'bike':q['bike'],'message':q['q'],**({'trial':trial} if trial else {})}).encode()
     for attempt in range(2):
         try:
             t=time.time()
@@ -26,7 +27,7 @@ def ask(q):
             if not text.strip():raise RuntimeError('empty answer: '+json.dumps(d)[:200])
             hit=[bool(re.search(p,text,re.I|re.S)) for p in q['must']]
             bad=[p for p in q['never'] if re.search(p,text,re.I|re.S)]
-            return {'id':q['id'],'ok':True,'score':sum(hit)/len(hit),'hit':hit,'bad':bad,'seconds':round(time.time()-t,1),'prompt_version':d.get('prompt_version'),'specs':len((d.get('response') or {}).get('specifications') or []),'text':text}
+            return {'id':q['id'],'ok':True,'score':sum(hit)/len(hit),'hit':hit,'bad':bad,'seconds':round(time.time()-t,1),'prompt_version':d.get('prompt_version'),'specs':len((d.get('response') or {}).get('specifications') or []),'model':d.get('model'),'usage':(d.get('timing') or {}).get('usage'),'text':text}
         except Exception as e:
             err=str(e)[:200];time.sleep(3)
     return {'id':q['id'],'ok':False,'error':err}
