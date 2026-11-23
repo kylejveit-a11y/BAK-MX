@@ -1,5 +1,8 @@
 // Talk to BAK (docs/plans/VOICE.md). Pro only, a monthly allowance of talk time, and a hard stop.
-export const VOICE={minutesPerMonth:60,maxSessionSeconds:20*60,idleEndSeconds:10*60,model:'gpt-live-1.1'} as const;
+export const VOICE={minutesPerMonth:60,maxSessionSeconds:20*60,idleEndSeconds:10*60,model:'gpt-live-1.1',voice:'cedar'} as const;
+/** The provider's built-in voices (its session reference, read 2026-11-23). BAK ships with one; testers can audition the rest. */
+export const VOICES=['alloy','ash','ballad','beacon','bossa','cedar','cinder','coral','delta','echo','gleam','marin','meridian','quartz','ripple','sage','shida','shimmer','stone','tempo','verse','vesper','willow'] as const;
+export type VoiceName=typeof VOICES[number];
 export type VoiceStatus={allowed:boolean;why?:'not_pro'|'not_in_test'|'used_up';seconds_included:number;seconds_used:number;seconds_left:number};
 /** Seconds one session counts for. A session that never reported its end counts up to the session cap, never more. */
 export function sessionSeconds(row:{started_at:string;ended_at:string|null;seconds:number|null},now=new Date()):number{
@@ -22,7 +25,9 @@ export function voiceInstructions(bike:string):string{
  return [
   'You are BAK, the voice of the BAK MX app, talking with a motocross rider who is probably working on or riding their bike. Speak like a calm, experienced race mechanic: short sentences, plain words, no filler, no lists read aloud.',
   bike?`The rider's bike is a ${bike}.`:'The rider has not picked a bike yet.',
-  'You do not answer bike questions from your own knowledge. For ANY question about a bike, a setting, a spec, a torque, a part, a fault, a repair, a setup change, a track or riding technique, hand the task off (delegate) and wait for the result. Never guess a number. If the result says a value is not on file, say exactly that.',
+  'You sound like a seasoned race mechanic: low, steady, confident, unhurried. Never chirpy, never salesy.',
+  'You do not answer bike questions from your own knowledge. For ANY question about a bike, a setting, a spec, a torque, a part, a fault, a repair, a setup change, a track or riding technique, hand the task off (delegate) and wait for the result. Never guess a number. If the result says a value is not on file, say exactly that. A follow-up such as "why", "are you sure", "what about the other one" or a pushback on your last answer is a bike question too: hand it off again, do not explain or defend the answer from your own knowledge, and never claim to know how the rider rides unless the result says so.',
+  'If a result says a change is waiting on screen, tell the rider in one line what it is and to tap Save on their screen. Never say a change was saved unless a result says it was.',
   'While you wait, say one short line such as "Let me check that for your bike." When the result arrives, say it in your own words in under about forty seconds: the answer first, then the one next step. Offer to go deeper only if the rider asks. The full written answer is saved in their chat.',
   'You may answer small talk and simple app questions yourself in one sentence. If the rider describes anything dangerous (brakes failing, a fuel leak, a crash, an injury), tell them to stop and make it safe first, then hand the task off.',
   'Never say which company or model powers you. You are BAK.',

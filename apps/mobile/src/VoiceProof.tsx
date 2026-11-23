@@ -9,7 +9,9 @@ import {api,apiStream} from './api';
 import {colors,Copy,Notice} from './ui';
 import {Raised,RaisedButton,well} from './Raised';
 import type {Bike,Conversation,EngineeringResponse} from '../../../shared/types';
-import {VOICE,type VoiceStatus} from '../../../shared/voice';
+import {VOICE,VOICES,type VoiceName,type VoiceStatus} from '../../../shared/voice';
+import {Pressable} from './Touch';
+import {readProgress,writeProgress} from './localProgress';
 
 type Phase='idle'|'starting'|'live'|'ending';
 type Line={who:'you'|'bak';text:string};
@@ -20,7 +22,10 @@ const speakable=(r:EngineeringResponse)=>[r.summary,r.answer??'',r.next_step?.ac
 
 export function useVoiceStatus(){const [status,setStatus]=useState<VoiceStatus|null>(null);useEffect(()=>{let live=true;api<VoiceStatus>('/api/voice').then(s=>{if(live)setStatus(s);}).catch(()=>{});return()=>{live=false;};},[]);return status;}
 
-export function VoiceProof({bike}:{bike?:Bike}){
+type Pending={id:string;response:EngineeringResponse};
+const cap=(s:string)=>s.charAt(0).toUpperCase()+s.slice(1);
+export function VoiceProof({bike,ownerId,renderChanges}:{bike?:Bike;ownerId:string;/** the same confirm cards typed chat shows for a Garage or settings change */renderChanges?:(response:EngineeringResponse,messageId:string)=>React.ReactNode}){
+ const [voice,setVoice]=useState<VoiceName>(()=>{const saved=readProgress<string>(ownerId,'voice-name',VOICE.voice);return (VOICES as readonly string[]).includes(saved)?saved as VoiceName:VOICE.voice;}),[pending,setPending]=useState<Pending[]>([]);
  const [phase,setPhase]=useState<Phase>('idle'),[notice,setNotice]=useState(''),[status,setStatus]=useState<VoiceStatus|null>(null),[seconds,setSeconds]=useState(0),[lines,setLines]=useState<Line[]>([]),[working,setWorking]=useState(false);
  const call=useRef<{pc:any;dc:any;stream:any;id:string;started:number;limit:number;heard:string;conversation:string;lastWords:number;closed?:()=>void}|null>(null);
  const refresh=()=>api<VoiceStatus>('/api/voice').then(setStatus).catch(e=>setNotice(errorText(e)));
@@ -40,8 +45,10 @@ export function VoiceProof({bike}:{bike?:Bike}){
   setWorking(true);
   try{
    if(!c.conversation){const conv=await api<Conversation>('/api/conversations','POST',{bike_id:bike.id,title:('Talk to BAK: '+question).slice(0,100),mode:'ask',create_id:randomUUID()});c.conversation=conv.id;}
-   const r=await apiStream<{response:EngineeringResponse}>('/api/chat',{conversation_id:c.conversation,request_id:randomUUID(),message:question},()=>{});
-   send({type:'session.commentary.append',event_id:randomUUID(),delegation_id:delegationId,content:speakable(r.response)});
+   const r=await apiStream<{response:EngineeringResponse;message?:{id?:string}}>('/api/chat',{conversation_id:c.conversation,request_id:randomUUID(),message:question},()=>{});
+   const changes=[...(r.response.garage_updates??[]).map(u=>`${u.field||u.name} ${u.value}`.trim()),...(r.response.app_actions??[]).map(a=>a.type.replace(/_/g,' '))];
+   if(changes.length)setPending(old=>[...old.slice(-2),{id:r.message?.id||randomUUID(),response:r.response}]);
+   send({type:'session.commentary.append',event_id:randomUUID(),delegation_id:delegationId,content:(speakable(r.response)+(changes.length?`\nA change is waiting on the rider's screen for them to confirm with a tap: ${changes.join('; ')}. It is NOT saved yet.`:'')).slice(0,1900)});
   }catch(e){send({type:'session.commentary.append',event_id:randomUUID(),delegation_id:delegationId,content:'The answer did not come through. Tell the rider to ask again in a moment.'});setNotice(errorText(e));}
   finally{setWorking(false);}
  }
@@ -56,7 +63,7 @@ export function VoiceProof({bike}:{bike?:Bike}){
   else if(e.type==='error')setNotice(String(e.error?.message||e.message||'The voice session reported a problem.'));
  }
  async function start(){
-  if(phase!=='idle')return;setNotice('');setLines([]);setSeconds(0);setPhase('starting');
+  if(phase!=='idle')return;setNotice('');setLines([]);setPending([]);setSeconds(0);setPhase('starting');
   let stream:any=null,pc:any=null;
   try{
    const rtc=require('react-native-webrtc');
@@ -67,7 +74,7 @@ export function VoiceProof({bike}:{bike?:Bike}){
    call.current={pc,dc,stream,id:'',started:Date.now(),limit:VOICE.maxSessionSeconds,heard:'',conversation:'',lastWords:Date.now()};
    dc.addEventListener('message',(m:any)=>onEvent(String(m.data)));
    const offer=await pc.createOffer({});await pc.setLocalDescription(offer);
-   const res=await api<{session_id:string;sdp:string;seconds_left:number}>('/api/voice/session','POST',{sdp:offer.sdp,bike:bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:undefined});
+   const res=await api<{session_id:string;sdp:string;seconds_left:number}>('/api/voice/session','POST',{sdp:offer.sdp,voice,bike:bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:undefined});
    call.current.id=res.session_id;call.current.limit=res.seconds_left;
    await pc.setRemoteDescription(new rtc.RTCSessionDescription({type:'answer',sdp:res.sdp}));
    try{const InCall=require('react-native-incall-manager').default;InCall.start({media:'audio'});InCall.setForceSpeakerphoneOn(true);}catch{/* speaker routing is a nicety */}
@@ -97,6 +104,8 @@ export function VoiceProof({bike}:{bike?:Bike}){
    {phase==='idle'?<RaisedButton title="Start talking" disabled={!status?.allowed} onPress={()=>void start()}/>:<RaisedButton title="End" disabled={phase==='ending'} onPress={()=>void stop()}/>}
    {!!status&&<Text style={{color:'#9aa2ae',fontSize:13}}>{Math.floor(left/60)} of {Math.round(status.seconds_included/60)} minutes left this month</Text>}
   </View></Raised>
+  {!!bike&&!!renderChanges&&pending.map(p=><View key={p.id}>{renderChanges(p.response,p.id)}</View>)}
+  {phase==='idle'&&<View style={{gap:9}}><Text style={{color:'#8b93a0',fontSize:13,fontWeight:'700'}}>Voice (test: pick one, start talking, then try another)</Text><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{VOICES.map(n=>{const on=n===voice;return <Pressable key={n} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>{setVoice(n);writeProgress(ownerId,'voice-name',n);}} style={{paddingHorizontal:13,height:36,borderRadius:18,justifyContent:'center',borderWidth:1,borderColor:on?colors.accent:'rgba(255,255,255,.14)',backgroundColor:on?'rgba(255,255,255,.07)':'transparent'}}><Text style={{color:colors.text,fontSize:14,fontWeight:on?'700':'500'}}>{cap(n)}</Text></Pressable>;})}</View></View>}
   {lines.length>0&&<View style={[{borderRadius:14,padding:14,gap:10},well]}>{lines.map((l,i)=><View key={i} style={{gap:2}}><Text style={{color:'#8b93a0',fontSize:12,fontWeight:'700'}}>{l.who==='you'?'You':'BAK'}</Text><Text style={{color:l.who==='you'?'#c9cfd9':colors.text,fontSize:15,lineHeight:21}}>{l.text.trim()}</Text></View>)}</View>}
  </View>;
 }

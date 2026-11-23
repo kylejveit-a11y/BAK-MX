@@ -66,7 +66,30 @@ export async function apiQueued<T extends {id:string}>(path:string,body:unknown,
 /** Posts a chat question and follows the reply as it is written: the server sends one JSON event per line ("status", "draft",
  *  then "done" or "error"). React Native's fetch cannot read a body in pieces, so this uses XMLHttpRequest, whose progress
  *  events carry the text received so far. If the server answers with plain JSON instead, that is used as is. */
+const pause=(ms:number)=>new Promise<void>(done=>setTimeout(done,ms));
+/** True for a reply that was cut off on the way back (the app went to the background, the signal dropped), not one the server refused. */
+const cutOff=(e:unknown)=>e instanceof Error&&!(e instanceof ApiError)&&/connection dropped|could not reach|timed out/i.test(e.message);
+/** A chat question keeps being answered on the server after the phone stops listening (switching apps does that). So when
+ *  the reply is cut off, ask again under the SAME request id: the server hands back the finished answer, says it is still
+ *  working (wait and ask again), or re-runs a request that failed. The rider never has to resend. */
 export async function apiStream<T>(path:string,body:unknown,onEvent:(event:{type:string;[key:string]:unknown})=>void):Promise<T>{
+ const id=body&&typeof body==='object'?(body as {request_id?:unknown}).request_id:undefined;
+ try{return await streamOnce<T>(path,body,onEvent);}
+ catch(first){
+  if(SAMPLE||typeof id!=='string'||!cutOff(first))throw first;
+  const until=Date.now()+150000;let wait=1500,last:unknown=first;
+  while(Date.now()<until){
+   await pause(wait);wait=Math.min(5000,wait+1000);
+   try{return await streamOnce<T>(path,body,onEvent);}
+   catch(e){last=e;
+    if(e instanceof ApiError&&e.status===409&&/still processing/i.test(e.message))continue;
+    if(cutOff(e))continue;
+    throw e;}
+  }
+  throw last;
+ }
+}
+async function streamOnce<T>(path:string,body:unknown,onEvent:(event:{type:string;[key:string]:unknown})=>void):Promise<T>{
  if(SAMPLE&&sample)return sample.sampleStream<T>(path,body,onEvent);
  if(!configured||!supabase)throw new Error('BAK MX services are not configured in this build.');
  const {data,error}=await supabase.auth.getSession();if(error)throw error;if(!data.session)throw new Error('Sign in to continue.');

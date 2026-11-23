@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {VOICE,monthStart,sessionSeconds,voiceInstructions,voiceStatus} from '../shared/voice.ts';
+import {VOICE,VOICES,monthStart,sessionSeconds,voiceInstructions,voiceStatus} from '../shared/voice.ts';
 
 test('voice is Pro only, testers only, and stops at the allowance',()=>{
  assert.equal(voiceStatus('pro',true,0).allowed,true);
@@ -24,3 +24,4 @@ test('the voice instructions hand bike questions off and never name the provider
  assert.match(text,/2025 KTM 450 SX-F/);assert.match(text,/delegate/);assert.match(text,/not on file/);
  assert.doesNotMatch(text,/openai|gpt/i);
 });
+test('the shipped voice is one of the provider voices',()=>{assert.ok((VOICES as readonly string[]).includes(VOICE.voice));});

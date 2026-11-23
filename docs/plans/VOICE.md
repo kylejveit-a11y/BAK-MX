@@ -69,3 +69,17 @@ Kyle wants BAK to talk with the rider, using OpenAI's GPT-Live-1.1. Planned as t
   `{"type":"session.close"}`, wait for `session.closed` (it carries final `usage`), then close.
 - Delegation and tool event names are in a separate guide, not read yet. `voice`, `wake_policy` and
   `idle_timeout_s` were not on this page; still to confirm against the Create session reference.
+
+## First test on Kyle's phone (2026-11-23, build 1.0.13 (195)): it works
+Connects, hears him, speaks answers from the Ask BAK engine. Findings and what changed for the next build:
+- Default voice (`marin`) is a woman's voice; Kyle wants a voice that fits BAK. The session reference lists 23 built-in
+  voices (no descriptions). Default is now `cedar`; the test screen has a picker so Kyle can audition all 23. The voice
+  cannot change mid-session.
+- Leaving the app mid-answer lost the reply (also in typed chat). The server keeps working after the phone stops
+  listening, so the app now asks again under the same request id and gets the finished answer; no resend, no error.
+- A "why that one?" follow-up was answered from the voice model's own head ("the way you ride"). Instructions now say
+  follow-ups and pushback are handed off too.
+- Voice now shows the same confirm cards as typed chat for Garage and settings changes; BAK says a change is waiting
+  and the rider taps Save. Saying "yes" out loud to confirm is not built.
+- Background audio mode added so a conversation survives the screen locking. Needs a line in the App Review notes.
+- Standby pricing fields are not in the session reference; every minute is billed at the active rate for now.
