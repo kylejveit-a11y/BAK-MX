@@ -39,3 +39,26 @@ hold and nothing invented appears. Needs the private test key, which expired 202
 By subject (sol 6.1 / sol 6.2 / terra / luna): suspension 98.8 / 97.5 / 97.5 / 93.3, engine 96.2 / 95.0 / 90.2 / 85.0, setup 95.7 / 94.3 / 92.0 / 92.2.
 
 Caveats: single run, run-to-run noise is about 1 to 2 points. Cached-input prices for terra and luna were assumed at 0.05x of input (not listed). No model switch has been made.
+
+## Trimmed the changing part (live 2026-11-23)
+
+What changed:
+1. Bike knowledge notes: 12 rows ranked by the rider's subject words within 16,000 characters, was 28 rows within 36,000. The old ranking let filler words ("the", "what") and a broad domain match fill the block: "What should it idle at?" carried dyno charts, sprocket part numbers and clutch plate interchange.
+2. Workshop job list: titles only, was id + title + scope for every job. A selected job still arrives in full.
+
+Checked on the private test route before going live (results in `docs/research/answer-cost/`):
+
+| Run | Questions | Score | Full marks | Wrong | Input tokens | Cost per answer |
+|---|---|---|---|---|---|---|
+| Baseline, first run | 60 mixed | 96.9 | 53 | 0 | 63,482 | 4.8 cents |
+| Baseline, second run (same settings) | 60 mixed | 94.9 | 49 | 0 | 64,228 | 4.9 cents |
+| Trimmed knowledge | 60 mixed | 95.3 | 51 | 0 | 58,710 | 3.8 cents |
+| Trimmed knowledge + short job list | 60 mixed | 95.2 | 50 | 0 | 57,560 | 3.6 cents |
+| Stored baselines (11-21/22) | 120 other | 96.5 | 106 | 0 | n/a | n/a |
+| Trimmed knowledge + short job list | same 120 | 96.1 | 105 | 0 | 58,676 | 3.9 cents |
+
+Reading: the same settings run twice differ by 2 points, so the trimmed runs sit inside normal wobble. No run said anything wrong. The lower-scoring answers were read side by side: same facts, different wording. About 25% off the cost of an exam answer.
+
+This also means the model comparison above is weaker than it looked: gpt-6.2-sol (95.6) ties the live model, and only gpt-6-luna is clearly lower.
+
+Not yet touched: the rider's installed parts (13,700 characters when a full build sheet is saved), bike overview (5,300), published facts (8,300). The test route is capped at 600 questions a day, which is why this was 180 questions and not all 300.

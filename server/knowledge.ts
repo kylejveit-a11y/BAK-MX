@@ -18,7 +18,7 @@ export function reportedBy(tier:string,sourceType:unknown):string|undefined{
 type Row={id:string;domain:string;topic:string;statement:string;tier:KnowledgeTier;vals:Record<string,unknown>|null;notes:string|null;confidence:string;source?:{type?:string}|null};
 const toKnowledge=(r:Row,bike?:string):Knowledge=>{const by=reportedBy(r.tier,r.source?.type);return {...(bike?{bike}:{}),id:'K-'+r.id,domain:r.domain,topic:r.topic,statement:r.statement,tier:r.tier,values:r.vals??{},notes:r.notes??'',confidence:r.confidence,...(by?{reported_by:by}:{})};};
 const KNOWLEDGE_COLUMNS='id,domain,topic,statement,tier,vals,notes,confidence,source';
-const MAX_ROWS=28;
+const MAX_ROWS=28,LIVE_ROWS=12,LIVE_BUDGET=16000;
 const DOMAIN_HINTS:[RegExp,string][]=[
  [/\b(map|maps|mapping|power tuner|ecu|ignition|fuel(ing)?|traction control|launch|quickshift|tc\b|mode|app)\b/i,'ecu_electronics'],
  [/\b(dyno|horse ?power|hp|torque|power|pull|hit|bottom|mid ?range|top ?end|over-?rev|rev|rpm|fast|slow|feel|character|engine braking|vibration)\b/i,'power_feel'],
@@ -76,7 +76,9 @@ export async function bikeKnowledge(db:SupabaseClient,bike:Bike,message:string,l
  if(error||!Array.isArray(data))return [];// Deep knowledge is additive; a read failure must not block the answer.
  const rows=(data as Row[]).map(r=>toKnowledge(r));
  const q=[message,...lookups].join(' ');
- return withinBudget(rankKnowledge(rows,q,trial?.rows??MAX_ROWS,trial?.lean===true).map(k=>focusRow(k,q)),trial?.budget??36000);
+ // Live since 2026-11-23 (docs/plans/ANSWER_COST.md): 12 rows ranked by the rider's subject words, 16,000 characters. The
+ // earlier 28 rows / 36,000 filled up with rows that only shared a domain or a filler word; 180 exam questions scored the same without them.
+ return withinBudget(rankKnowledge(rows,q,trial?.rows??LIVE_ROWS,trial?.lean!==false).map(k=>focusRow(k,q)),trial?.budget??LIVE_BUDGET);
 }
 /** Which answer tier each knowledge tier may support. */
 export const knowledgeClaimTier:Record<KnowledgeTier,'PUBLISHED'|'COMMUNITY'|'ENGINEERING'>={OEM:'PUBLISHED',MEASURED:'COMMUNITY',TUNER:'COMMUNITY',COMMUNITY:'COMMUNITY',DERIVED:'ENGINEERING'};
