@@ -21,7 +21,9 @@ async function statusFor(user:Who):Promise<VoiceStatus>{
   unlimitedAccess(user.id),hasPaidAccess(user.id)]);
  const used=(ok(rows) as {started_at:string;ended_at:string|null;seconds:number|null}[]).reduce((n,r)=>n+sessionSeconds(r),0);
  const tier=paid?await resolveTier(user.id):'free';
- return voiceStatus(tier,Boolean(ok(tester)),used,unlimited);
+ // While voice is a proof, the people testing it are not held to the monthly allowance.
+ const inTest=Boolean(ok(tester));
+ return voiceStatus(tier,inTest,used,unlimited||inTest);
 }
 const WHY:Record<NonNullable<VoiceStatus['why']>,string>={not_in_test:'Talk to BAK is not switched on for this account yet.',not_pro:'Talk to BAK is part of Pro.',used_up:'You have used this month’s talk time. It resets on the 1st.'};
 
