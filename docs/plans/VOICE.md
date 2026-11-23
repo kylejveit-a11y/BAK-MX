@@ -56,3 +56,16 @@ Kyle wants BAK to talk with the rider, using OpenAI's GPT-Live-1.1. Planned as t
 ## Still needs Kyle
 - Minutes per month included on Pro (rough cost: 60 min of active talk is about $3 plus answer costs).
 - Version: ships in the build after 1.0.12.
+
+## Kyle approved the plan (2026-11-22)
+60 minutes a month included on Pro to start; 1.0.12 goes to Apple first; then the hidden proof on Kyle's phone.
+
+## Live API connection, from the provider's Live WebRTC guide (read 2026-11-22)
+- The app makes a WebRTC offer and posts it to OUR server. Our server calls `POST /v1/live/sessions` with our key and a
+  body of `session` (model `gpt-live-1.1`, `instructions`, `delegation`) and `transport` (`type: "webrtc"`, `sdp`).
+  It answers 201 with `session.id` and `transport.sdp`, which we pass back to the app. No client secret is involved
+  for Live; the key and the session settings stay on our server.
+- Data channel label `oai-events`, created before the offer. Wait for `session.started`. To end: send
+  `{"type":"session.close"}`, wait for `session.closed` (it carries final `usage`), then close.
+- Delegation and tool event names are in a separate guide, not read yet. `voice`, `wake_policy` and
+  `idle_timeout_s` were not on this page; still to confirm against the Create session reference.
