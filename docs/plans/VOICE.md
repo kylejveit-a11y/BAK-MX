@@ -119,3 +119,15 @@ Connects, hears him, speaks answers from the Ask BAK engine. Findings and what c
   Not in that arithmetic: the answer engine's cost for each spoken question, which is billed separately and has not
   been measured. A cap near 1,000 minutes leaves $12 to $25 a month of room for it. Not built; needs the real
   per-answer cost and which store cut applies before a number is fixed.
+
+## What an answer costs, measured (2026-11-23)
+From the saved usage of the last 7 days of finished answers (30 answers, all Kyle's own testing, model gpt-6.1-sol):
+average 67,439 input tokens of which 31,901 cached, 714 output tokens. At the provider's listed prices ($2.00 per
+million input, $0.10 cached input, $10.00 output): 35,538 x 2.00 + 31,901 x 0.10 + 714 x 10.00 per million
+= $0.071 + $0.003 + $0.007 = about $0.081 per answer. Not included: the separate planning call made before each
+answer (its usage is not saved). Small sample, one rider.
+- Consequence for plans: after a 15% store cut Pro ($14.99) nets $12.74, which pays for about 156 answers a month;
+  Premium ($7.99) nets $6.79, about 83 answers. Input size is the cost: 88% of each answer's cost is uncached input.
+- Voice: $0.05 a minute plus about one answer per minute of conversation (an assumption, not measured) is roughly
+  $0.13 a minute all-in. The $100 tier's extra $75.25 (15% cut) or $62.50 (30% cut) then buys about 580 or 480 minutes,
+  not the 1,250 to 1,505 the voice-only arithmetic gave.
