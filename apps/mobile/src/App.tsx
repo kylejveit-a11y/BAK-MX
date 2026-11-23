@@ -569,6 +569,8 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
    if(!conversation){const body={bike_id:bike.id,title:text.trim().slice(0,100),mode:modeNow},attemptKey=`conversation-create-${bike.id}-${modeNow}`,attempt=createAttempt(readProgress(session.user.id,attemptKey,null),body,randomUUID);writeProgress(session.user.id,attemptKey,attempt);const r=await api<Conversation>('/api/conversations','POST',{...body,create_id:attempt.id});if(!alive.current)return;conversation=r.id;if(setId(conversation)){try{writeProgress(session.user.id,attemptKey,null);}catch{}}setThreads(old=>old.some(t=>t.id===r.id)?old:[r,...old]);}
    rememberRequest(retryRequest(request.current,text,conversation,randomUUID));
    if(alive.current)setLive({question:text,summary:'',answer:''});
+   // The question leaves the box the moment it is sent (it shows above as the rider's message). It comes back only if the send fails.
+   if(spoken===undefined&&alive.current)setDraft('');
    const sent=await apiStream<{message:Message;request_id:string}>('/api/chat',{conversation_id:conversation,message:text,request_id:request.current!.id,tz:(()=>{try{return Intl.DateTimeFormat().resolvedOptions().timeZone||undefined;}catch{return undefined;}})(),...(fast?{race:raceDay?.track?{track:raceDay.track.slice(0,120)}:{}}:{}),...(job.guided?{guided:job.guided}:{}),...(voice.on?{voice:true}:{}),...(photosNow.length?{photo_ids:photosNow.map(p=>p.id),...(clipNow?{media:{kind:'clip' as const,...clipNow,...(focus?{focus}:{}),...(slowmo?{slowmo:true}:{}),...(compareTo?{compare_to:compareTo}:{}),...(where?{track:where}:{})}}:focus?{media:{kind:'photos' as const,focus,...(where?{track:where}:{})}}:{})}:{})},event=>{if(event.type==='draft'&&alive.current)setLive(l=>l&&{...l,summary:String(event.summary||''),answer:String(event.answer||'')});});
    if(!alive.current)return;
    follow.current=true;setMessages(old=>[...old,sent.message]);maybeAskForReview(sent.message.response?.kind);if(spoken===undefined){setDraft('');setAttached([]);setClip(null);setFocus(null);setSlowmo(false);setCompareTo(null);setWhere(null);void coachingSessions.reload();}rememberRequest(null);
@@ -579,6 +581,7 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
    // The answer is in; now (never during it) the nudge can learn whether that set just finished.
    void refreshUsage().catch(()=>{});
   }catch(e){if(alive.current){
+   if(spoken===undefined&&draft.trim())setDraft(draft);
    // Allowance used up: the card where the answer would be, the question still in the box. Anything else keeps the ordinary notice.
    const card=e instanceof ApiError&&isLimitStatus(e.status)?limitCard(await refreshUsage().catch(()=>null),true):null;
    if(!alive.current)return;if(card){setLimit(card);rememberRequest(null);}else setNotice(errorText(e));

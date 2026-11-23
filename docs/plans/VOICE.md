@@ -83,3 +83,12 @@ Connects, hears him, speaks answers from the Ask BAK engine. Findings and what c
   and the rider taps Save. Saying "yes" out loud to confirm is not built.
 - Background audio mode added so a conversation survives the screen locking. Needs a line in the App Review notes.
 - Standby pricing fields are not in the session reference; every minute is billed at the active rate for now.
+
+## Second test (2026-11-23, build 196)
+- Kyle picked the voice: `echo`. It is now the default for everyone; the picker stays on the test screen only.
+- Voice settings that exist in the provider's session reference: the voice name (fixed for the session) and the
+  written instructions. No speed, pitch or style setting is documented. Character and tone are set in the
+  instructions; they now ask for pit-lane rider talk while staying the experienced race mechanic.
+- Settings changes by voice work. Kyle says the conversation is "kind of glitchy"; specifics not yet collected.
+- Typed chat kept the question in the box while the answer was written; it now clears on send and returns only if
+  the send fails.
