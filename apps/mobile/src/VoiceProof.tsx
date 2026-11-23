@@ -41,7 +41,8 @@ export function VoiceProof({bike,ownerId,renderChanges,applyChanges,job}:{bike?:
   if(mine&&mine.who===who&&now-mine.at<2500)return[...old.slice(0,-2),{who,text:mine.text+delta,at:now},old[old.length-1]];
   if(!delta.trim())return old;
   return[...old.slice(-11),{who,text:delta.replace(/^\s+/,''),at:now}];});
- const send=(event:Record<string,unknown>)=>{const dc=call.current?.dc;if(dc&&dc.readyState==='open')dc.send(JSON.stringify(event));};
+ // The voice reads the capitals B-A-K as letters or as "back", so anything it will say carries the name as the word "Bock". Screens keep BAK.
+ const send=(event:Record<string,unknown>)=>{const dc=call.current?.dc;if(typeof event.content==='string')event={...event,content:event.content.replace(/\bBAK\b/g,'Bock')};if(dc&&dc.readyState==='open')dc.send(JSON.stringify(event));};
 
  async function answer(delegationId:string){
   const c=call.current;if(!c)return;const question=c.heard.trim();c.heard='';
@@ -125,6 +126,6 @@ export function VoiceProof({bike,ownerId,renderChanges,applyChanges,job}:{bike?:
   </View></Raised>
   {!!bike&&!!renderChanges&&pending.map(p=><View key={p.id}>{renderChanges(p.response,p.id)}</View>)}
   {saved.length>0&&<View style={[{borderRadius:14,padding:14,gap:4},well]}><Text style={{color:'#9fdcb3',fontSize:13,fontWeight:'700'}}>Saved</Text>{saved.map((s,k)=><Text key={k} style={{color:colors.text,fontSize:14.5}}>{s}</Text>)}</View>}
-  {lines.length>0&&<View style={[{borderRadius:14,padding:14,gap:10},well]}>{lines.map((l,i)=><View key={i} style={{gap:2}}><Text style={{color:'#8b93a0',fontSize:12,fontWeight:'700'}}>{l.who==='you'?'You':'BAK'}</Text><Text style={{color:l.who==='you'?'#c9cfd9':colors.text,fontSize:15,lineHeight:21}}>{l.text.trim()}</Text></View>)}</View>}
+  {lines.length>0&&<View style={[{borderRadius:14,padding:14,gap:10},well]}>{lines.map((l,i)=><View key={i} style={{gap:2}}><Text style={{color:'#8b93a0',fontSize:12,fontWeight:'700'}}>{l.who==='you'?'You':'BAK'}</Text><Text style={{color:l.who==='you'?'#c9cfd9':colors.text,fontSize:15,lineHeight:21}}>{l.text.trim().replace(/\b(Bock|Bach|Bahk)\b(?=\s+MX\b|[’']s\b)|\bBock\b/g,'BAK')}</Text></View>)}</View>}
  </View>;
 }
