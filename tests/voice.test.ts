@@ -25,3 +25,4 @@ test('the voice instructions hand bike questions off and never name the provider
  assert.doesNotMatch(text,/openai|gpt/i);
 });
 test('the shipped voice is one of the provider voices',()=>{assert.ok((VOICES as readonly string[]).includes(VOICE.voice));});
+test('in a guided job the voice reads steps as written and one at a time',()=>{const t=voiceInstructions('2025 KTM 450 SX-F','Top end rebuild');assert.match(t,/Top end rebuild/);assert.match(t,/torque value/);assert.match(t,/one step at a time/);assert.doesNotMatch(voiceInstructions('2025 KTM 450 SX-F'),/guided workshop job/);});

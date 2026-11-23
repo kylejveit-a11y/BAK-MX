@@ -10,7 +10,7 @@ import {VOICE,VOICES,monthStart,sessionSeconds,voiceInstructions,voiceStatus,typ
 
 type Who={id:string};
 const ok=<T>(r:{data:T;error:unknown}):T=>{if(r.error)throw r.error;return r.data;};
-const startSchema=z.object({sdp:z.string().min(20).max(60000),bike:z.string().trim().max(120).optional(),voice:z.enum(VOICES).optional()}).strict();
+const startSchema=z.object({sdp:z.string().min(20).max(60000),bike:z.string().trim().max(120).optional(),voice:z.enum(VOICES).optional(),job:z.string().trim().max(160).optional()}).strict();
 const endSchema=z.object({session_id:z.string().min(3).max(200),seconds:z.number().int().min(0).max(86400).optional()}).strict();
 
 async function statusFor(user:Who):Promise<VoiceStatus>{
@@ -34,7 +34,7 @@ export async function handleVoice(req:Request,path:string,method:string,user:Who
   const status=await statusFor(user);if(!status.allowed)throw new HttpError(403,WHY[status.why??'not_in_test']);
   const key=process.env.OPENAI_API_KEY;if(!key)throw new HttpError(503,'Voice is not configured');
   const r=await fetch('https://api.openai.com/v1/live/sessions',{method:'POST',headers:{Authorization:`Bearer ${key}`,'Content-Type':'application/json'},
-   body:JSON.stringify({session:{model:VOICE.model,instructions:voiceInstructions(data.bike??''),audio:{output:{voice:data.voice??VOICE.voice}},delegation:{type:'client',acknowledgement_delay_ms:400}},transport:{type:'webrtc',sdp:data.sdp}}),signal:AbortSignal.timeout(20000)});
+   body:JSON.stringify({session:{model:VOICE.model,instructions:voiceInstructions(data.bike??'',data.job??''),audio:{output:{voice:data.voice??VOICE.voice}},delegation:{type:'client',acknowledgement_delay_ms:400}},transport:{type:'webrtc',sdp:data.sdp}}),signal:AbortSignal.timeout(20000)});
   if(!r.ok){const detail=(await r.text().catch(()=>'')).slice(0,400);console.error('voice session failed',r.status,detail);throw new HttpError(502,'BAK could not start the voice session. Try again in a moment.');}
   const body=await r.json() as {session?:{id?:string};transport?:{sdp?:string}};
   if(!body.session?.id||!body.transport?.sdp)throw new HttpError(502,'BAK could not start the voice session. Try again in a moment.');

@@ -92,3 +92,16 @@ Connects, hears him, speaks answers from the Ask BAK engine. Findings and what c
 - Settings changes by voice work. Kyle says the conversation is "kind of glitchy"; specifics not yet collected.
 - Typed chat kept the question in the box while the answer was written; it now clears on send and returns only if
   the send fails.
+
+## Third test and Workshop (2026-11-23)
+- Build 199: Kyle says tone and pause are right ("super fast") with the short spoken-answer path and Echo.
+- Entry points: the send button in Ask BAK becomes Talk to BAK while the box is empty; the Home ask bar's blue button
+  opens chat with the voice sheet up. Rule from Kyle: voice goes where there is a text box to ask BAK, not on plain
+  "Ask BAK" buttons, and not in the Garage.
+- Workshop: Talk to BAK opened during a guided job knows the job and the step. "Next", "repeat", "go back", "where am
+  I" run the job's own step logic and BAK reads the step as written; questions go to the engine with the step attached.
+  Workshop's free on-device listening pauses while the conversation is open and resumes when it closes. The free
+  on-device hands-free mode stays for long jobs: a whole job on live voice would use the month's minutes in one sitting
+  until a cheaper standby rate is confirmed.
+- Testers are not held to the 60 minutes during the proof.
+- 1.0.12 (194) was submitted to Apple on 2026-11-23.

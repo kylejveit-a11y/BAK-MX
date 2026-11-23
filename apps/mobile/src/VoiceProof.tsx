@@ -24,7 +24,7 @@ export function useVoiceStatus(){const [status,setStatus]=useState<VoiceStatus|n
 
 type Pending={id:string;response:EngineeringResponse};
 const cap=(s:string)=>s.charAt(0).toUpperCase()+s.slice(1);
-export function VoiceProof({bike,ownerId,renderChanges}:{bike?:Bike;ownerId:string;/** the same confirm cards typed chat shows for a Garage or settings change */renderChanges?:(response:EngineeringResponse,messageId:string)=>React.ReactNode}){
+export function VoiceProof({bike,ownerId,renderChanges,job}:{bike?:Bike;ownerId:string;/** a guided job in progress: its name, the step BAK should answer about, and a handler that runs "next", "repeat" and the like and returns the line to read out (null when the words are a question) */job?:{title:string;guided?:{procedure_id:string;step_index:number}|null;command:(heard:string)=>string|null};/** the same confirm cards typed chat shows for a Garage or settings change */renderChanges?:(response:EngineeringResponse,messageId:string)=>React.ReactNode}){
  const [voice,setVoice]=useState<VoiceName>(()=>{const saved=readProgress<string>(ownerId,'voice-name',VOICE.voice);return (VOICES as readonly string[]).includes(saved)?saved as VoiceName:VOICE.voice;}),[pending,setPending]=useState<Pending[]>([]);
  const [phase,setPhase]=useState<Phase>('idle'),[notice,setNotice]=useState(''),[status,setStatus]=useState<VoiceStatus|null>(null),[seconds,setSeconds]=useState(0),[lines,setLines]=useState<Line[]>([]),[working,setWorking]=useState(false);
  const call=useRef<{pc:any;dc:any;stream:any;id:string;started:number;limit:number;heard:string;conversation:string;lastWords:number;closed?:()=>void}|null>(null);
@@ -49,10 +49,12 @@ export function VoiceProof({bike,ownerId,renderChanges}:{bike?:Bike;ownerId:stri
   const c=call.current;if(!c)return;const question=c.heard.trim();c.heard='';
   send({type:'session.thinking.append',event_id:randomUUID(),delegation_id:delegationId,content:''});
   if(!bike||!question){send({type:'session.commentary.append',event_id:randomUUID(),delegation_id:delegationId,content:bike?'I did not catch the question. Ask the rider to say it again.':'The rider has not added a bike yet. Ask them to add their bike in the Garage first.'});return;}
+  const line=job?.command(question)??null;
+  if(line){send({type:'session.commentary.append',event_id:randomUUID(),delegation_id:delegationId,content:`Read this step out as written, then wait: ${line}`.slice(0,1900)});return;}
   setWorking(true);
   try{
    if(!c.conversation){const conv=await api<Conversation>('/api/conversations','POST',{bike_id:bike.id,title:('Talk to BAK: '+question).slice(0,100),mode:'ask',create_id:randomUUID()});c.conversation=conv.id;}
-   const r=await apiStream<{response:EngineeringResponse;message?:{id?:string}}>('/api/chat',{conversation_id:c.conversation,request_id:randomUUID(),message:question,voice:true},()=>{});
+   const r=await apiStream<{response:EngineeringResponse;message?:{id?:string}}>('/api/chat',{conversation_id:c.conversation,request_id:randomUUID(),message:question,voice:true,...(job?.guided?{guided:job.guided}:{})},()=>{});
    const changes=[...(r.response.garage_updates??[]).map(u=>`${u.field||u.name} ${u.value}`.trim()),...(r.response.app_actions??[]).map(a=>a.type.replace(/_/g,' '))];
    if(changes.length)setPending(old=>[...old.slice(-2),{id:r.message?.id||randomUUID(),response:r.response}]);
    send({type:'session.commentary.append',event_id:randomUUID(),delegation_id:delegationId,content:(speakable(r.response)+(changes.length?`\nA change is waiting on the rider's screen for them to confirm with a tap: ${changes.join('; ')}. It is NOT saved yet.`:'')).slice(0,1900)});
@@ -81,7 +83,7 @@ export function VoiceProof({bike,ownerId,renderChanges}:{bike?:Bike;ownerId:stri
    call.current={pc,dc,stream,id:'',started:Date.now(),limit:VOICE.maxSessionSeconds,heard:'',conversation:'',lastWords:Date.now()};
    dc.addEventListener('message',(m:any)=>onEvent(String(m.data)));
    const offer=await pc.createOffer({});await pc.setLocalDescription(offer);
-   const res=await api<{session_id:string;sdp:string;seconds_left:number}>('/api/voice/session','POST',{sdp:offer.sdp,voice,bike:bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:undefined});
+   const res=await api<{session_id:string;sdp:string;seconds_left:number}>('/api/voice/session','POST',{sdp:offer.sdp,voice,job:job?.title.slice(0,160),bike:bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:undefined});
    call.current.id=res.session_id;call.current.limit=res.seconds_left;
    await pc.setRemoteDescription(new rtc.RTCSessionDescription({type:'answer',sdp:res.sdp}));
    try{const InCall=require('react-native-incall-manager').default;InCall.start({media:'audio'});InCall.setForceSpeakerphoneOn(true);}catch{/* speaker routing is a nicety */}
