@@ -105,3 +105,17 @@ Connects, hears him, speaks answers from the Ask BAK engine. Findings and what c
   until a cheaper standby rate is confirmed.
 - Testers are not held to the 60 minutes during the proof.
 - 1.0.12 (194) was submitted to Apple on 2026-11-23.
+
+## Spoken confirm, final wording, and a higher tier (2026-11-23)
+- A waiting change can be confirmed out loud. Only a plain yes ("yes", "save it", "go ahead"…) or no counts, matched
+  on the whole utterance; anything else is treated as a new question. Yes runs the same saves as the confirm cards.
+  Actions that only open a screen or a draft still need a tap.
+- "Test version" text, the voice picker and the Account test row are gone. Voice is still limited to the tester list
+  on the server until launch.
+- Kyle wants a roughly $100 a month tier with far more voice, sized so it earns at least the same dollars as Pro.
+  Arithmetic (voice at $0.05 a minute; Pro is $14.99 with 60 minutes = $3 of voice):
+    store keeps 15%: $99.99 nets $84.99, Pro nets $12.74. Extra to spend on voice = 84.99 - 12.74 + 3.00 = $75.25 = 1,505 minutes (about 25 hours).
+    store keeps 30%: $99.99 nets $69.99, Pro nets $10.49. Extra = 69.99 - 10.49 + 3.00 = $62.50 = 1,250 minutes (about 21 hours).
+  Not in that arithmetic: the answer engine's cost for each spoken question, which is billed separately and has not
+  been measured. A cap near 1,000 minutes leaves $12 to $25 a month of room for it. Not built; needs the real
+  per-answer cost and which store cut applies before a number is fixed.

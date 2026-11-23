@@ -117,6 +117,18 @@ export function GarageUpdatesCard({bike,updates,onSaved}:{bike:Bike;updates:Gara
   <Button disabled={busy||!chosen.length} title={busy?'Saving…':chosen.length===pending.length?'Save to Garage':`Save ${chosen.length} to Garage`} onPress={()=>void save()}/>
  </View>;
 }
+/** The same saves the two confirm cards make, run in one go for a spoken "yes" in Talk to BAK. Returns what was done, in
+ *  words. Actions that only open a screen or a draft are left for a tap: saying yes should never move the rider away. */
+export async function applyResponseChanges(bike:Bike,response:{garage_updates?:GarageUpdate[];app_actions?:AppAction[]},host:AppActionHost):Promise<string[]>{
+ const done:string[]=[],pending=pendingGarageUpdates(bike.configuration,response.garage_updates);
+ if(pending.length){
+  await api<Bike>(`/api/bikes?id=${bike.id}`,'PATCH',{manufacturer:bike.manufacturer,model:bike.model,model_year:bike.model_year,variant:bike.variant,region:bike.region,nickname:bike.nickname??'',engine_hours:bike.engine_hours,configuration:applyGarageUpdates(bike.configuration,pending)});
+  for(const u of pending)done.push(u.type==='setting'?`${garageFieldLabel(u.field)} ${u.value}`:[u.brand,u.name].filter(Boolean).join(' '));
+  await host.refreshBikes();
+ }
+ for(const a of response.app_actions??[]){if(a.type==='open'||a.type==='draft_post')continue;done.push(await runAppAction(a,host));}
+ return done;
+}
 /** Under a BAK reply: what the rider asked BAK to do in the app, spelled out. Nothing runs until they tap Apply; each action
  *  runs with their own session and the card says what happened to each. Same rules as the website. */
 export function AppActionsCard({ownerId,messageId,actions,host}:{ownerId:string;messageId:string;actions:AppAction[]|undefined;host:AppActionHost}){

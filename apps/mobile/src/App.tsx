@@ -88,7 +88,7 @@ import {SupportPicker,SupportedBikesScreen} from './BikeSupport';
 import WorkshopScreen from './WorkshopScreen';
 import {BuildSheet} from './BuildSheet';
 import {SharingCard} from './GarageSharing';
-import {TriageCard,RideCheckCard,GarageUpdatesCard,AppActionsCard} from './ChatExtras';
+import {TriageCard,RideCheckCard,GarageUpdatesCard,AppActionsCard,applyResponseChanges} from './ChatExtras';
 import {RodeTrackOffer,TrackReportCard} from './TrackReport';
 import type {AppActionHost,AppScreen} from '../../../shared/app-actions';
 import type {PostCategory,ThreadSummary} from '../../../shared/rider-types';
@@ -835,15 +835,11 @@ function AppColorCard({bare=false}:{bare?:boolean}){
   {option('bak','BAK blue','The same blue on every bike',bak.deep)}
  </Wrap>;
 }
-function Account(){const{session,bike,bikes,reload,select,setColorMode,colorMode}=useContext(Ctx),plan=usePlanSummary(),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false),[confirm,setConfirm]=useState('');async function task(action:()=>Promise<unknown>,success?:string){setBusy(true);try{await action();if(success)setNotice(success);}catch(e){if((e as {userCancelled?:boolean}).userCancelled)setNotice('Purchase cancelled.');else setNotice(errorText(e));}finally{setBusy(false);}}async function exportData(){const data=await api('/api/account/export');const file=new File(Paths.cache,'bakmx-account-export.json');try{file.create({overwrite:true});file.write(JSON.stringify({account:data,device_local_progress:exportProgress(session.user.id)},null,2));if(!await Sharing.isAvailableAsync())throw new Error('File sharing is unavailable on this device.');await Sharing.shareAsync(file.uri,{mimeType:'application/json',UTI:'public.json'});}finally{if(file.exists)file.delete();}}const [page,setPage]=useState<AccPage>(''),insets=useSafeAreaInsets();
+function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSummary(),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false),[confirm,setConfirm]=useState('');async function task(action:()=>Promise<unknown>,success?:string){setBusy(true);try{await action();if(success)setNotice(success);}catch(e){if((e as {userCancelled?:boolean}).userCancelled)setNotice('Purchase cancelled.');else setNotice(errorText(e));}finally{setBusy(false);}}async function exportData(){const data=await api('/api/account/export');const file=new File(Paths.cache,'bakmx-account-export.json');try{file.create({overwrite:true});file.write(JSON.stringify({account:data,device_local_progress:exportProgress(session.user.id)},null,2));if(!await Sharing.isAvailableAsync())throw new Error('File sharing is unavailable on this device.');await Sharing.shareAsync(file.uri,{mimeType:'application/json',UTI:'public.json'});}finally{if(file.exists)file.delete();}}const [page,setPage]=useState<AccPage>(''),insets=useSafeAreaInsets();
  const go=(to:string)=>{if(navRef.isReady())navRef.navigate(to as never);};
  const pro=plan.usage?.tier==='pro';
- const voice=useVoiceStatus(),voiceTest=!!voice&&voice.why!=='not_in_test';
- // Voice can ask for the same app changes typed chat can; they run through the same confirm cards and the same host.
- const voiceHost:AppActionHost={api:(path,method,body)=>api('/api'+path,method,body),bikes,refreshBikes:reload,selectBike:select,setTheme:setColorMode,newId:randomUUID,
-  open:(screen:AppScreen)=>{setPage('');const to:Record<AppScreen,string>={home:'Home',garage:'Garage',build_sheet:'Garage',ask:'Ask BAK',community:'Community',events:'Events',messages:'Messages',workshop:'Workshop',setup_log:'Setup',maintenance:'Maintenance',specs:'Specs',account:'Account'};if(screen==='specs')openPartsTab('specs');go(to[screen]);},
-  draftPost:(category,body,photoIds)=>{setPage('');if(navRef.isReady())(navRef.navigate as (name:string,params:unknown)=>void)('Community',{draft:{category,body,photoIds},draftToken:randomUUID()});}};
- const titles:Record<Exclude<AccPage,''>,string>={plan:'Ask BAK plan',invite:'Invite a friend',prefs:'Preferences',notify:'Notifications',safety:'Ride safety contacts',feedback:'Send feedback',legal:'Your data and legal',signin:'Email and password',delete:'Delete account',voice:'Talk to BAK'};
+
+ const titles:Record<Exclude<AccPage,''>,string>={plan:'Ask BAK plan',invite:'Invite a friend',prefs:'Preferences',notify:'Notifications',safety:'Ride safety contacts',feedback:'Send feedback',legal:'Your data and legal',signin:'Email and password',delete:'Delete account'};
  return <Page title="Account"><Notice text={notice}/><ProfileCard/>
  {/* Grouped like a phone's own settings: a few short groups, one row per topic, each opening its own page. */}
  {plan.usage&&!pro&&<AccountGroup><AccountRow title="Go Pro" value="Unlimited questions" onPress={()=>go('Pro')}/></AccountGroup>}
@@ -861,7 +857,6 @@ function Account(){const{session,bike,bikes,reload,select,setColorMode,colorMode
   <AccountRow title="How BAK works" onPress={()=>go('Help')}/>
   <AccountRow title="Supported bikes" onPress={()=>go('Bikes')}/>
   <AccountRow title="Send feedback" onPress={()=>setPage('feedback')}/>
-  {voiceTest&&<AccountRow title="Talk to BAK" value="Test" onPress={()=>setPage('voice')}/>}
  </AccountGroup>
  <AccountGroup title="Account">
   <AccountRow title="Email and password" value={session.user.email??''} onPress={()=>setPage('signin')}/>
@@ -883,7 +878,6 @@ function Account(){const{session,bike,bikes,reload,select,setColorMode,colorMode
     {page==='notify'&&<NotificationsCard/>}
     {page==='safety'&&<SafetyContactsCard/>}
     {page==='feedback'&&<FeedbackCard bike={bike} bare/>}
-    {page==='voice'&&<VoiceProof bike={bike} ownerId={session.user.id} renderChanges={(response,messageId)=>bike?<View style={{gap:12}}><GarageUpdatesCard bike={bike} updates={response.garage_updates} onSaved={()=>void reload()}/><AppActionsCard ownerId={session.user.id} messageId={messageId} actions={response.app_actions} host={voiceHost}/></View>:null}/>}
     {page==='legal'&&<TileGrid><Tile icon="export" title="Export my data" detail="A copy of your Garage, chats and logs" onPress={()=>{if(!busy)void task(exportData);}}/>{([['Privacy policy',mxPage(process.env.EXPO_PUBLIC_PRIVACY_URL,'privacy'),'verified'],['Terms of service',mxPage(process.env.EXPO_PUBLIC_TERMS_URL,'terms'),'document'],['Contact support',mxPage(process.env.EXPO_PUBLIC_SUPPORT_URL,'support'),'mail']] as [string,string|undefined,IconName][]).map(([label,url,icon])=><Tile key={label} icon={icon} title={label} detail={label==='Contact support'?'Questions, bugs, billing':'Opens in your browser'} onPress={()=>url?void Linking.openURL(url).catch(e=>setNotice(errorText(e))):setNotice(`${label} is not configured in this build.`)}/>)}</TileGrid>}
     {page==='signin'&&<SignInCard email={session.user.email??''}/>}
     {page==='delete'&&<><Copy>Deletion removes your Garage, conversations and service history. Cancel your subscription in the App Store before deleting your account.</Copy><Field label="Type DELETE to confirm" placeholder="DELETE" autoCapitalize="characters" value={confirm} onChangeText={setConfirm}/><Button secondary disabled={busy||confirm!=='DELETE'} title="Permanently delete account" onPress={()=>Alert.alert('Permanently delete account?','This action cannot be undone. Export your data first if you need a copy.',[{text:'Cancel',style:'cancel'},{text:'Delete account',style:'destructive',onPress:()=>void task(async()=>{await api('/api/account','DELETE',{confirmation:'DELETE'});await endShareOnSignOut();clearProgress(session.user.id);await supabase!.auth.signOut({scope:'local'});})}])}/></>}
@@ -900,12 +894,12 @@ function TalkSheet({visible,onClose,bike,ownerId,host,onSaved,job}:{visible:bool
     <Pressable accessibilityRole="button" onPress={onClose} hitSlop={10}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Done</Text></Pressable>
    </View>
    <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{paddingHorizontal:22,paddingTop:12,paddingBottom:insets.bottom+36,gap:16}}>
-    {visible&&<VoiceProof bike={bike} ownerId={ownerId} job={job} renderChanges={(response,messageId)=>bike?<View style={{gap:12}}><GarageUpdatesCard bike={bike} updates={response.garage_updates} onSaved={onSaved}/><AppActionsCard ownerId={ownerId} messageId={messageId} actions={response.app_actions} host={host}/></View>:null}/>}
+    {visible&&<VoiceProof bike={bike} ownerId={ownerId} job={job} applyChanges={bike?async response=>{const done=await applyResponseChanges(bike,response,host);onSaved();return done;}:undefined} renderChanges={(response,messageId)=>bike?<View style={{gap:12}}><GarageUpdatesCard bike={bike} updates={response.garage_updates} onSaved={onSaved}/><AppActionsCard ownerId={ownerId} messageId={messageId} actions={response.app_actions} host={host}/></View>:null}/>}
    </ScrollView>
   </View>
  </PageSheet>;
 }
-type AccPage=''|'plan'|'invite'|'prefs'|'notify'|'safety'|'feedback'|'legal'|'signin'|'delete'|'voice';
+type AccPage=''|'plan'|'invite'|'prefs'|'notify'|'safety'|'feedback'|'legal'|'signin'|'delete';
 /** One short group of Account rows on a raised panel, with a quiet label over it. */
 function AccountGroup({title,children}:{title?:string;children:React.ReactNode}){
  const rows=React.Children.toArray(children).filter(Boolean);
