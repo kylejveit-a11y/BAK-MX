@@ -1,0 +1,30 @@
+appId: com.bakmx.app
+---
+- tapOn:
+    text: "Menu"
+- waitForAnimationToEnd:
+    timeout: 2000
+- extendedWaitUntil:
+    visible: "zz-never-zz"
+    timeout: 500
+    optional: true
+- tapOn:
+    text: "Service log\\..*"
+- waitForAnimationToEnd:
+    timeout: 2000
+- extendedWaitUntil:
+    visible: "zz-never-zz"
+    timeout: 900
+    optional: true
+- swipe:
+    start: "50%,72%"
+    end: "50%,34%"
+    duration: 1100
+- swipe:
+    start: "50%,72%"
+    end: "50%,34%"
+    duration: 1100
+- extendedWaitUntil:
+    visible: "zz-never-zz"
+    timeout: 900
+    optional: true

@@ -1,0 +1,48 @@
+appId: com.bakmx.app
+---
+- tapOn:
+    text: "Garage"
+- waitForAnimationToEnd:
+    timeout: 2000
+- extendedWaitUntil:
+    visible: "zz-never-zz"
+    timeout: 800
+    optional: true
+- swipe:
+    start: "50%,72%"
+    end: "50%,34%"
+    duration: 1100
+- swipe:
+    start: "50%,72%"
+    end: "50%,34%"
+    duration: 1100
+- extendedWaitUntil:
+    visible: "zz-never-zz"
+    timeout: 500
+    optional: true
+- swipe:
+    direction: DOWN
+    duration: 300
+- swipe:
+    direction: DOWN
+    duration: 300
+- tapOn:
+    text: "Build sheet"
+- waitForAnimationToEnd:
+    timeout: 2000
+- extendedWaitUntil:
+    visible: "zz-never-zz"
+    timeout: 700
+    optional: true
+- swipe:
+    start: "50%,72%"
+    end: "50%,34%"
+    duration: 1100
+- swipe:
+    start: "50%,72%"
+    end: "50%,34%"
+    duration: 1100
+- extendedWaitUntil:
+    visible: "zz-never-zz"
+    timeout: 800
+    optional: true

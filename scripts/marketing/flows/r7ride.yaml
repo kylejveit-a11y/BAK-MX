@@ -1,0 +1,56 @@
+appId: com.bakmx.app
+---
+- tapOn:
+    text: "Menu"
+- waitForAnimationToEnd:
+    timeout: 2000
+- extendedWaitUntil:
+    visible: "zz-never-zz"
+    timeout: 500
+    optional: true
+- tapOn:
+    text: "Where to Ride\\..*"
+- waitForAnimationToEnd:
+    timeout: 2000
+- extendedWaitUntil:
+    visible: "zz-never-zz"
+    timeout: 1200
+    optional: true
+- swipe:
+    start: "50%,72%"
+    end: "50%,34%"
+    duration: 1100
+- swipe:
+    start: "50%,72%"
+    end: "50%,34%"
+    duration: 1100
+- swipe:
+    start: "50%,72%"
+    end: "50%,34%"
+    duration: 1100
+- extendedWaitUntil:
+    visible: "zz-never-zz"
+    timeout: 600
+    optional: true
+- swipe:
+    direction: DOWN
+    duration: 300
+- swipe:
+    direction: DOWN
+    duration: 300
+- tapOn:
+    text: "Tracks"
+- waitForAnimationToEnd:
+    timeout: 2000
+- extendedWaitUntil:
+    visible: "zz-never-zz"
+    timeout: 1200
+    optional: true
+- tapOn:
+    text: "FL"
+- waitForAnimationToEnd:
+    timeout: 2000
+- extendedWaitUntil:
+    visible: "zz-never-zz"
+    timeout: 1500
+    optional: true

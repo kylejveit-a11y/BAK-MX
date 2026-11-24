@@ -1,0 +1,39 @@
+appId: com.bakmx.app
+---
+- tapOn:
+    text: "Chat"
+- waitForAnimationToEnd:
+    timeout: 2000
+- tapOn:
+    text: "Message BAK.*"
+- waitForAnimationToEnd:
+    timeout: 2000
+- inputText: "Front pushes in flat corners"
+- extendedWaitUntil:
+    visible: "zz-never-zz"
+    timeout: 700
+    optional: true
+- tapOn:
+    text: "Send to BAK"
+- waitForAnimationToEnd:
+    timeout: 2000
+- extendedWaitUntil:
+    visible: "zz-never-zz"
+    timeout: 5000
+    optional: true
+- swipe:
+    start: "50%,72%"
+    end: "50%,34%"
+    duration: 1100
+- swipe:
+    start: "50%,72%"
+    end: "50%,34%"
+    duration: 1100
+- swipe:
+    start: "50%,72%"
+    end: "50%,34%"
+    duration: 1100
+- extendedWaitUntil:
+    visible: "zz-never-zz"
+    timeout: 1200
+    optional: true
