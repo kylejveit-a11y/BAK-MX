@@ -11,6 +11,10 @@ export const HOW_BAK_WORKS:HowSection[]=[
   'Describe what the bike is doing the way you’d tell a buddy: “front pushes in flat turns”, “bogs off the bottom”.',
   'Add a photo any time with the camera button. With more than one bike, pick which one in the chat box.',
   'Race mode comes on by itself on race day: short answers, one change at a time. Tap “Something’s wrong?” on Home for a fault.']},
+ {id:'talk',title:'Talk to BAK',lines:[
+  'On Pro, tap the blue voice button beside any Ask BAK box and ask out loud. BAK checks your bike’s data first, so there is a short pause, then it answers by voice.',
+  'When BAK suggests a change, say “yes” to save it to your Garage or “no” to leave it. In a guided Workshop job say “next”, “go back” or “repeat”.',
+  'Pro includes 60 minutes of talk time a month; the meter is on the screen. Tap End when you are done. The conversation is saved in your chats.']},
  {id:'garage',title:'Garage',lines:[
   'Your bikes, your weight and level, and where your clickers and sag are now.',
   'The build sheet is what’s stock and what’s changed. The more of it you fill in, the more exact BAK’s answers get for your bike.']},
@@ -22,6 +26,7 @@ export const HOW_BAK_WORKS:HowSection[]=[
   'Hands-free: turn on voice and say “next”, “back” or ask a question while you work.']},
  {id:'specs',title:'Specs and parts',lines:[
   'Your bike’s published figures: clickers, sag, fluids, torques, gearing, and the parts that fit it.',
+  'Find a part (menu › Parts): browse by system or search to see the factory and aftermarket parts on file for your bike, copy the part number, see where to buy, and save parts to your own list.',
   'Every figure says where it came from.']},
  {id:'service',title:'Service log',lines:[
   'Log your last oil change, filter or top end with the hours on the bike.',
@@ -35,7 +40,7 @@ export const HOW_BAK_WORKS:HowSection[]=[
   'Ride safety: pick when you’ll be back and BAK texts and emails the people you choose a link to where you were last seen. You get three reminders first; only if you don’t check in 30 minutes after your time does BAK email them. Tap I’m back to end it. Only your last spot is kept.',
   'Right now shows what riders at the track say today (open, watered, muddy, busy). What I ran here shows your setup, tires and weather from your last visits to the same track.']},
  {id:'where',title:'Where to Ride',lines:[
-  'Tracks and riding areas in one list (Home › More). For a riding area: what you can ride and how wide, passes, season, hours and rules from the official pages, how riders say it’s riding today, and a trail map for National Forest areas.',
+  'Tracks and riding areas in one list (menu › Where to Ride). For a riding area: what you can ride and how wide, passes, season, hours and rules from the official pages, how riders say it’s riding today, and a trail map for National Forest areas.',
   'Each place has today’s and tomorrow’s forecast and any community events there. Save the ones you ride; they stay on this phone.',
   'Ride here today starts a practice day there. Closures change: check the official page before a long drive.']},
  {id:'fuel',title:'Fuel plan',lines:[
@@ -48,11 +53,14 @@ export const HOW_BAK_WORKS:HowSection[]=[
  {id:'widgets',title:'Widgets and Siri',lines:[
   'The Home Screen widget shows hours, next service and your last setup change. The Lock Screen counts down to your next moto and keeps your workshop step up.',
   'Say “Hey Siri, ask BAK” and ask the question. iPhone only.']},
+ {id:'menu',title:'The menu and inviting a friend',lines:[
+  'The three lines at the top right open the menu: every feature is listed there, with your account at the top.',
+  'Invite a friend (menu › Invite a friend): share your code. You get 10 free Ask BAK questions when a friend joins and adds a bike, and a free month for every 3 friends who go on a paid plan.']},
  {id:'notifications',title:'Notifications',lines:[
   'Messages, comments, event reminders and service due. Turn each one on or off in Account.']},
  {id:'plans',title:'Plans',lines:[
   `${TIER_LABEL.free}: ${TRIAL_BLOCKS} sets of ${TRIAL_BLOCK_SIZE} Ask BAK questions to start, plus the Garage, the logs, race day, the community and events.`,
-  `${TIER_LABEL.premium} adds ${DEFAULT_DAILY.premium} questions a day. ${TIER_LABEL.pro} adds unlimited questions (fair use), coaching from riding clips and more Action photo edits. Plans are in Account under Go Pro, with the store’s own prices; when your questions are used up the chat shows the way on. Nothing is charged unless you choose a plan.`]},
+  `${TIER_LABEL.premium} adds ${DEFAULT_DAILY.premium} questions a day. ${TIER_LABEL.pro} adds unlimited questions (fair use), Talk to BAK, coaching from riding clips and more Action photo edits. Plans are in Account under Ask BAK plan, with the store’s own prices; when your questions are used up the chat shows the way on. Nothing is charged unless you choose a plan.`]},
 ];
 
 export const HOW_BAK_WORKS_CLOSING='Ask BAK how to do anything in the app and it will tell you.';

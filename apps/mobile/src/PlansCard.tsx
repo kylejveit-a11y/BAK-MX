@@ -6,6 +6,7 @@ import type {PurchasesPackage} from 'react-native-purchases';
 import {TIER_LABEL,TIER_BLURB,canStartTrialSet,type Usage} from '../../../shared/plans';
 import {api} from './api';
 import {offerings,purchase,restore} from './billing';
+import {useVoiceStatus} from './VoiceProof';
 import {Button,Card,Copy,Eyebrow,LinkAction,Notice,Tile,colors} from './ui';
 
 type UsageView=Usage&{access_mode:'beta'|'subscription'};
@@ -23,6 +24,7 @@ export function PlansCard({bare=false,onPro}:{bare?:boolean;/** opens the BAK Pr
  const meter=(used:number,total:number)=><View style={{height:3,borderRadius:2,backgroundColor:'#222834',overflow:'hidden'}}><View style={{height:3,width:`${Math.min(100,total?100*used/total:0)}%`,backgroundColor:colors.accent}}/></View>;
  const line=(label:string,value:string)=><View style={{flexDirection:'row',justifyContent:'space-between'}}><Text style={{color:'#adb5c1',fontSize:14}}>{label}</Text><Text style={{color:colors.text,fontSize:14,fontWeight:'700'}}>{value}</Text></View>;
  const manage=()=>void Linking.openURL(Platform.OS==='ios'?'https://apps.apple.com/account/subscriptions':'https://play.google.com/store/account/subscriptions').catch(e=>setNotice(errorText(e)));
+ const voice=useVoiceStatus();
  const Wrap=bare?View:Card;
  return <Wrap style={bare?{gap:12}:undefined}>
   {!bare&&<Eyebrow>ASK BAK PLAN</Eyebrow>}
@@ -31,6 +33,8 @@ export function PlansCard({bare=false,onPro}:{bare?:boolean;/** opens the BAK Pr
    <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>{usage.access_mode==='beta'?`Launch offer: every rider gets ${usage.daily_limit} questions a day for now.`:TIER_BLURB[tier]}</Text>
    <View style={{gap:8,paddingTop:2}}>
     {usage.unlimited?line('Questions','Unlimited'):usage.daily_limit>0&&<>{line('Used today',`${usage.used_today} of ${usage.daily_limit}`)}{meter(usage.used_today,usage.daily_limit)}</>}
+    {/* Talk time shows only on an account that can use it, so nothing is promised to a rider who cannot. */}
+    {voice?.allowed&&line('Talk to BAK',`${Math.floor(voice.seconds_left/60)} of ${Math.round(voice.seconds_included/60)} min left`)}
     {/* Pack credits only when there are some; the free sets come straight from /api/usage and show only when it sends them. */}
     {usage.credits>0&&line(tier==='free'?'Extra questions (from packs)':'Credits',String(usage.credits))}
     {usage.trial&&usage.trial.blocks!=null&&line('Free sets left',`${usage.trial.remaining_sets} of ${usage.trial.blocks}`)}
