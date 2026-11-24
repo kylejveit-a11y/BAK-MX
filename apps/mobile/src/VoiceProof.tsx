@@ -1,13 +1,16 @@
-// Talk to BAK, proof screen (docs/plans/VOICE.md). Hidden: it only shows for accounts on the server's tester list.
+// Talk to BAK (docs/plans/VOICE.md). One round key to start, End to stop; the key is not a stop button, so a glove brushing it cannot end a talk.
 // The voice model only listens and speaks. When it hands a bike question off, this screen sends the rider's words to
 // the normal Ask BAK engine and gives the answer back to be spoken, so voice follows the same data and safety rules
 // as typed answers. No audio is kept; the conversation lands in the rider's chats like any other.
 import React,{useEffect,useRef,useState} from 'react';
-import {Text,View} from 'react-native';
+import {Animated,Easing,Text,View} from 'react-native';
+import {Pressable} from './Touch';
+import {Icon} from './Icon';
+import {motion} from './theme';
 import {randomUUID} from 'expo-crypto';
 import {api,apiStream} from './api';
 import {colors,Copy,Notice} from './ui';
-import {Raised,RaisedButton,well} from './Raised';
+import {RaisedButton,RaisedFace,raisedLift,well} from './Raised';
 import type {Bike,Conversation,EngineeringResponse} from '../../../shared/types';
 import {VOICE,type VoiceStatus} from '../../../shared/voice';
 
@@ -115,17 +118,60 @@ export function VoiceProof({bike,ownerId,renderChanges,applyChanges,job}:{bike?:
  }
  const left=status?Math.max(0,status.seconds_left-(phase==='live'?seconds:0)):0;
  const blocked=status&&!status.allowed?(status.why==='not_pro'?'Talk to BAK is part of Pro.':status.why==='used_up'?'You’ve used this month’s talk time. It resets on the 1st.':'Talk to BAK isn’t switched on for this account yet.'):'';
- return <View style={{gap:16}}>
-  <Copy>Ask about your bike out loud. BAK checks your bike’s data before it answers, so there’s a short pause after each question. The conversation is saved in your chats.</Copy>
+ const total=status?Math.max(1,status.seconds_included):1,share=status?Math.min(1,left/total):0;
+ const word=phase==='live'?(working?'Checking your bike’s data':'Listening'):phase==='starting'?'Connecting':phase==='ending'?'Ending':'Tap to talk';
+ const shown=(t:string)=>t.trim().replace(/\b(Bock|Bach|Bahk)\b(?=\s+MX\b|[’']s\b)|\bBock\b/g,'BAK');
+ return <View style={{gap:22}}>
   <Notice text={notice||blocked} tone={notice||blocked?'warn':undefined}/>
-  <Raised radius={20}><View style={{padding:20,gap:14,alignItems:'center'}}>
-   <Text style={{color:'#9aa2ae',fontSize:13}}>{phase==='live'?(working?'Checking your bike’s data…':'Listening'):phase==='starting'?'Connecting…':phase==='ending'?'Ending…':'Ready'}</Text>
-   <Text accessibilityLabel={`${clock(seconds)} talked`} style={{color:colors.text,fontSize:44,fontWeight:'800',letterSpacing:-1,fontVariant:['tabular-nums']}}>{clock(seconds)}</Text>
-   {phase==='idle'?<RaisedButton title="Start talking" disabled={!status?.allowed} onPress={()=>void start()}/>:<RaisedButton title="End" disabled={phase==='ending'} onPress={()=>void stop()}/>}
-   {!!status&&<Text style={{color:'#9aa2ae',fontSize:13}}>{Math.floor(left/60)} of {Math.round(status.seconds_included/60)} minutes left this month</Text>}
-  </View></Raised>
+  {/* The stage: one round key. Tap it to start; while it listens, rings move out from it. */}
+  <View style={{alignItems:'center',gap:18,paddingTop:lines.length?4:28,paddingBottom:lines.length?0:8}}>
+   {!!bike&&<Text numberOfLines={1} style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'600'}}>{bike.model_year} {bike.manufacturer} {bike.model}</Text>}
+   <TalkKey phase={phase} working={working} blocked={phase==='idle'&&!status?.allowed} onPress={()=>void start()}/>
+   <View style={{alignItems:'center',gap:6}}>
+    <Text accessibilityLiveRegion="polite" style={{color:colors.text,fontSize:21,fontWeight:'800',letterSpacing:-0.2}}>{word}</Text>
+    {phase==='idle'
+     ?<Text style={{color:'#9aa2ae',fontSize:14,lineHeight:20,textAlign:'center',maxWidth:300}}>BAK checks your bike’s data before it answers, so expect a short pause.</Text>
+     :<Text accessibilityLabel={`${clock(seconds)} talked`} style={{color:'#9aa2ae',fontSize:15,fontWeight:'600',fontVariant:['tabular-nums']}}>{clock(seconds)}</Text>}
+   </View>
+   {phase!=='idle'&&<RaisedButton title="End" disabled={phase==='ending'} onPress={()=>void stop()}/>}
+  </View>
+  {phase==='idle'&&!lines.length&&!blocked&&<View style={[{borderRadius:16,paddingVertical:6,paddingHorizontal:16},well]}>
+   {['“What should my sag be?”','“It’s pushing in flat corners.”','“What’s the torque on the rear axle?”'].map((q,i)=><Text key={q} style={{color:'#c9cfd9',fontSize:15,paddingVertical:11,borderTopWidth:i?1:0,borderTopColor:'rgba(255,255,255,0.06)'}}>{q}</Text>)}
+  </View>}
   {!!bike&&!!renderChanges&&pending.map(p=><View key={p.id}>{renderChanges(p.response,p.id)}</View>)}
-  {saved.length>0&&<View style={[{borderRadius:14,padding:14,gap:4},well]}><Text style={{color:'#9fdcb3',fontSize:13,fontWeight:'700'}}>Saved</Text>{saved.map((s,k)=><Text key={k} style={{color:colors.text,fontSize:14.5}}>{s}</Text>)}</View>}
-  {lines.length>0&&<View style={[{borderRadius:14,padding:14,gap:10},well]}>{lines.map((l,i)=><View key={i} style={{gap:2}}><Text style={{color:'#8b93a0',fontSize:12,fontWeight:'700'}}>{l.who==='you'?'You':'BAK'}</Text><Text style={{color:l.who==='you'?'#c9cfd9':colors.text,fontSize:15,lineHeight:21}}>{l.text.trim().replace(/\b(Bock|Bach|Bahk)\b(?=\s+MX\b|[’']s\b)|\bBock\b/g,'BAK')}</Text></View>)}</View>}
+  {saved.length>0&&<View style={[{borderRadius:14,padding:14,gap:4},well]}><Text style={{color:'#9fdcb3',fontSize:13,fontWeight:'700'}}>Saved</Text>{saved.map((x,k)=><Text key={k} style={{color:colors.text,fontSize:14.5}}>{x}</Text>)}</View>}
+  {lines.length>0&&<View style={{gap:12}}>{lines.map((l,i)=>l.who==='you'
+   ?<View key={i} accessible accessibilityLabel={`You said: ${shown(l.text)}`} style={{alignSelf:'flex-end',maxWidth:'86%',backgroundColor:'#161a21',borderRadius:18,borderBottomRightRadius:6,paddingHorizontal:14,paddingVertical:10}}><Text style={{color:'#dfe3ea',fontSize:15,lineHeight:21}}>{shown(l.text)}</Text></View>
+   :<View key={i} accessible accessibilityLabel={`BAK said: ${shown(l.text)}`} style={{alignSelf:'flex-start',maxWidth:'92%',flexDirection:'row',gap:12}}><View style={{width:2,borderRadius:1,backgroundColor:colors.accent,opacity:0.8}}/><Text style={{flex:1,color:colors.text,fontSize:15.5,lineHeight:22}}>{shown(l.text)}</Text></View>)}</View>}
+  {!!status&&<View style={{gap:8,paddingTop:4}}>
+   <View style={[{height:6,borderRadius:3,overflow:'hidden'},well]}><View style={{width:`${Math.round(share*100)}%`,height:'100%',borderRadius:3,backgroundColor:colors.accent,opacity:0.85}}/></View>
+   <Text style={{color:'#9aa2ae',fontSize:13,textAlign:'center'}}>{Math.floor(left/60)} of {Math.round(status.seconds_included/60)} minutes left this month · saved in your chats</Text>
+  </View>}
+ </View>;
+}
+
+
+/** The round key the rider taps to talk. Raised graphite at rest; while a talk is live it turns blue and two rings move
+ * out from it, slowly while it listens and quicker while BAK is checking the bike's data. Still when motion is reduced. */
+function TalkKey({phase,working,blocked,onPress}:{phase:Phase;working:boolean;/** talk is not available on this account */blocked:boolean;onPress:()=>void}){
+ const SIZE=148,live=phase==='live',busy=phase==='starting'||phase==='ending';
+ const a=useRef(new Animated.Value(0)).current,b=useRef(new Animated.Value(0)).current;
+ useEffect(()=>{
+  if(!live||motion.reduced){a.setValue(0);b.setValue(0);return;}
+  const ms=working?1100:2200;
+  const ring=(v:Animated.Value)=>Animated.loop(Animated.timing(v,{toValue:1,duration:ms,easing:Easing.out(Easing.quad),useNativeDriver:true}));
+  a.setValue(0);b.setValue(0);
+  const one=ring(a),two=ring(b);one.start();const t=setTimeout(()=>two.start(),ms/2);
+  return()=>{clearTimeout(t);one.stop();two.stop();};
+ },[live,working]);
+ const ringStyle=(v:Animated.Value)=>({position:'absolute' as const,width:SIZE,height:SIZE,borderRadius:SIZE/2,borderWidth:1.5,borderColor:colors.accent,opacity:v.interpolate({inputRange:[0,1],outputRange:[0.55,0]}),transform:[{scale:v.interpolate({inputRange:[0,1],outputRange:[1,1.55]})}]});
+ return <View style={{width:SIZE*1.6,height:SIZE*1.6,alignItems:'center',justifyContent:'center'}}>
+  {/* the seat the key sits in */}
+  <View style={[{position:'absolute',width:SIZE+26,height:SIZE+26,borderRadius:(SIZE+26)/2},well]}/>
+  {live&&!motion.reduced&&<><Animated.View pointerEvents="none" style={ringStyle(a)}/><Animated.View pointerEvents="none" style={ringStyle(b)}/></>}
+  <Pressable haptic="press" accessibilityRole="button" accessibilityLabel="Start talking" accessibilityState={{disabled:blocked,busy}} disabled={phase!=='idle'||blocked} onPress={onPress}
+   style={({pressed})=>[{width:SIZE,height:SIZE,borderRadius:SIZE/2,alignItems:'center',justifyContent:'center',opacity:blocked?0.5:1},raisedLift,pressed&&{transform:[{translateY:2}]}]}>
+   {({pressed})=><><RaisedFace radius={SIZE/2} pressed={pressed} tint={live?'blue':undefined}/><Icon name="voice" size={56} color={live?'#eaf1ff':'#f2f4f7'} bg={live?'#162030':'#191c22'} weight={1.6}/></>}
+  </Pressable>
  </View>;
 }
