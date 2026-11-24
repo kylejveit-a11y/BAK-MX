@@ -1,6 +1,6 @@
 # BAK MX Privacy Policy
 
-Effective date: November 12, 2026
+Effective date: November 24, 2026
 
 BAK MX is operated by Kyle Veit, Tarpon Springs, Florida, USA ("BAK MX", "we", "us"). This policy explains what we collect
 when you use the BAK MX app for iPhone and Android and the website at bakmx.com, how we use it, and the choices you have.
@@ -24,6 +24,12 @@ photos, your edits until you post them, and your manuals stay private to you.
 specifications used to answer, the AI model and timing) so answers can be checked and improved. We also log specifications
 riders ask for that we don't have yet, without your identity attached to the published data.
 
+**Talk to BAK and workshop voice.** When you start a voice conversation, the app uses your microphone and sends the audio
+to our AI provider so it can understand you and answer out loud. We do not store the audio. The written conversation is saved
+in your chats like any typed question, and we keep when each voice conversation started and how long it ran, to count your
+monthly talk time. In workshop mode, spoken commands such as "next" or "repeat" are turned into text by your phone's own
+speech recognition (Apple or Google).
+
 **Community and messages.** Your profile (handle, display name, bio, location and riding class you choose to enter), posts,
 comments, likes, events you create and RSVPs, direct messages with other riders, riders you block, and reports you file.
 
@@ -35,7 +41,7 @@ are processed by Stripe. We never receive or store your card number.
 
 We do not use advertising SDKs, do not track you across other companies' apps or websites, and do not sell or rent personal
 information. The app does not access your contacts or location. It opens your camera or photo library only when you choose
-to add a photo.
+to add a photo, and uses the microphone only while a voice conversation or workshop mode you started is running.
 
 ## How we use it
 
@@ -56,7 +62,7 @@ for you to tap Post. That data is not used to train the provider's models.
 ## Who we share it with
 
 Service providers that run BAK MX for us, only as needed: Supabase (database, file storage and sign-in), Vercel (hosting),
-OpenAI (writing Ask BAK answers and making photo edits you ask for), RevenueCat, Apple and Google (App Store and Google Play purchases) and Stripe (web purchases). Other riders see what
+OpenAI (writing Ask BAK answers, voice conversations you start and photo edits you ask for), RevenueCat, Apple and Google (App Store and Google Play purchases) and Stripe (web purchases). Other riders see what
 you post in the community (profile, posts, comments, events) and the messages you send them. We may disclose information when
 the law requires it or to protect riders and the service.
 
