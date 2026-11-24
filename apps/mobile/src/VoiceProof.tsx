@@ -10,7 +10,8 @@ import {motion} from './theme';
 import {randomUUID} from 'expo-crypto';
 import {api,apiStream} from './api';
 import {colors,Copy,Notice} from './ui';
-import {RaisedButton,RaisedFace,raisedLift,well} from './Raised';
+import {RaisedButton,well} from './Raised';
+import {BlueFace,blueLift} from './BlueFace';
 import type {Bike,Conversation,EngineeringResponse} from '../../../shared/types';
 import {VOICE,type VoiceStatus} from '../../../shared/voice';
 
@@ -124,7 +125,7 @@ export function VoiceProof({bike,ownerId,renderChanges,applyChanges,job}:{bike?:
  return <View style={{gap:22}}>
   <Notice text={notice||blocked} tone={notice||blocked?'warn':undefined}/>
   {/* The stage: one round key. Tap it to start; while it listens, rings move out from it. */}
-  <View style={{alignItems:'center',gap:18,paddingTop:lines.length?4:28,paddingBottom:lines.length?0:8}}>
+  <View style={{alignItems:'center',gap:14,paddingTop:lines.length?0:14,paddingBottom:lines.length?0:8}}>
    {!!bike&&<Text numberOfLines={1} style={{color:'#9aa2ae',fontSize:13.5,fontWeight:'600'}}>{bike.model_year} {bike.manufacturer} {bike.model}</Text>}
    <TalkKey phase={phase} working={working} blocked={phase==='idle'&&!status?.allowed} onPress={()=>void start()}/>
    <View style={{alignItems:'center',gap:6}}>
@@ -154,7 +155,7 @@ export function VoiceProof({bike,ownerId,renderChanges,applyChanges,job}:{bike?:
 /** The round key the rider taps to talk. Raised graphite at rest; while a talk is live it turns blue and two rings move
  * out from it, slowly while it listens and quicker while BAK is checking the bike's data. Still when motion is reduced. */
 function TalkKey({phase,working,blocked,onPress}:{phase:Phase;working:boolean;/** talk is not available on this account */blocked:boolean;onPress:()=>void}){
- const SIZE=148,live=phase==='live',busy=phase==='starting'||phase==='ending';
+ const SIZE=168,live=phase==='live',busy=phase==='starting'||phase==='ending';
  const a=useRef(new Animated.Value(0)).current,b=useRef(new Animated.Value(0)).current;
  useEffect(()=>{
   if(!live||motion.reduced){a.setValue(0);b.setValue(0);return;}
@@ -164,14 +165,16 @@ function TalkKey({phase,working,blocked,onPress}:{phase:Phase;working:boolean;/*
   const one=ring(a),two=ring(b);one.start();const t=setTimeout(()=>two.start(),ms/2);
   return()=>{clearTimeout(t);one.stop();two.stop();};
  },[live,working]);
- const ringStyle=(v:Animated.Value)=>({position:'absolute' as const,width:SIZE,height:SIZE,borderRadius:SIZE/2,borderWidth:1.5,borderColor:colors.accent,opacity:v.interpolate({inputRange:[0,1],outputRange:[0.55,0]}),transform:[{scale:v.interpolate({inputRange:[0,1],outputRange:[1,1.55]})}]});
- return <View style={{width:SIZE*1.6,height:SIZE*1.6,alignItems:'center',justifyContent:'center'}}>
-  {/* the seat the key sits in */}
-  <View style={[{position:'absolute',width:SIZE+26,height:SIZE+26,borderRadius:(SIZE+26)/2},well]}/>
+ const ringStyle=(v:Animated.Value)=>({position:'absolute' as const,width:SIZE,height:SIZE,borderRadius:SIZE/2,borderWidth:1.5,borderColor:colors.accent,opacity:v.interpolate({inputRange:[0,1],outputRange:[0.55,0]}),transform:[{scale:v.interpolate({inputRange:[0,1],outputRange:[1,1.5]})}]});
+ // The key is BAK blue, the same finish as the voice button that opened this screen, so it reads as the one thing to press.
+ // It sits in a recessed seat with a fine lit rim. The rings overflow the layout box, so they take no room at rest.
+ return <View style={{width:SIZE+36,height:SIZE+36,alignItems:'center',justifyContent:'center',marginVertical:14}}>
+  <View style={[{position:'absolute',width:SIZE+36,height:SIZE+36,borderRadius:(SIZE+36)/2},well]}/>
+  <View pointerEvents="none" style={{position:'absolute',width:SIZE+14,height:SIZE+14,borderRadius:(SIZE+14)/2,borderWidth:1,borderColor:'rgba(140,180,255,0.16)'}}/>
   {live&&!motion.reduced&&<><Animated.View pointerEvents="none" style={ringStyle(a)}/><Animated.View pointerEvents="none" style={ringStyle(b)}/></>}
   <Pressable haptic="press" accessibilityRole="button" accessibilityLabel="Start talking" accessibilityState={{disabled:blocked,busy}} disabled={phase!=='idle'||blocked} onPress={onPress}
-   style={({pressed})=>[{width:SIZE,height:SIZE,borderRadius:SIZE/2,alignItems:'center',justifyContent:'center',opacity:blocked?0.5:1},raisedLift,pressed&&{transform:[{translateY:2}]}]}>
-   {({pressed})=><><RaisedFace radius={SIZE/2} pressed={pressed} tint={live?'blue':undefined}/><Icon name="voice" size={56} color={live?'#eaf1ff':'#f2f4f7'} bg={live?'#162030':'#191c22'} weight={1.6}/></>}
+   style={({pressed})=>[{width:SIZE,height:SIZE,borderRadius:SIZE/2,alignItems:'center',justifyContent:'center',opacity:blocked?0.45:busy?0.8:1},blueLift,pressed&&{transform:[{translateY:2}]}]}>
+   {({pressed})=><><BlueFace radius={SIZE/2} pressed={pressed}/><Icon name="voice" size={68} color="#ffffff" weight={2}/></>}
   </Pressable>
  </View>;
 }
