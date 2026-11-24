@@ -155,6 +155,8 @@ function respond(p,q,method,post){
    {kind:'aftermarket',brand:'Galfer',name:'Sintered rear brake pads',part_number:'FD326G1396',numbers:['FD326G1396'],position:'rear',where:'brakes',stores:stores('FD326G1396',false)},
    {kind:'aftermarket',brand:'Renthal',name:'RC-1 Works rear brake pads',part_number:'BP-105',numbers:['BP-105'],position:'rear',where:'brakes',stores:stores('BP-105',false)}]:[]});}
  if(p==='/api/saved-parts'){if(method==='POST'){savedParts=[{id:'sp-'+(savedParts.length+1),...post,stores:stores(post.part_number,post.kind==='factory')},...savedParts];return J({saved:true},201);}if(method==='DELETE'){savedParts=savedParts.filter(x=>x.id!==q.get('id'));return J({deleted:true});}return J(savedParts);}
+ // Talk to BAK: the sample rider is on Pro with most of the month left, so the voice screen can be opened and photographed. A talk itself needs a real build.
+ if(p==='/api/voice')return J({allowed:true,seconds_included:3600,seconds_used:420,seconds_left:3180});
  if(p==='/api/coverage')return J(coverage);
  if(p==='/api/entitlement')return J(entitlement);
  if(p==='/api/profile')return J(NEW_RIDER&&method==='GET'?null:profile);
