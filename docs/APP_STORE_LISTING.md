@@ -19,7 +19,7 @@ Covers most Honda and Yamaha bikes from 2010, KTM from 2011, Husqvarna and Kawas
 
 ASK BAK
 - Describe a problem in plain words: "front pushes in flat corners", "rear kicks on braking bumps", "bogs out of turns".
-- Get one change to try at a time, with what you should feel and when to go back.
+- Get one change to try, with what you should feel and when to go back.
 - Answers use your bike's published stock settings and what's on your bike now, and say so plainly when a number isn't published.
 - Is something normal? Ask, and BAK tells you, explains why, and lists the signs that would mean it isn't.
 - Race mode gives short, fast answers between motos.
