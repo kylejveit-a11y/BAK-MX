@@ -30,6 +30,10 @@ in your chats like any typed question, and we keep when each voice conversation 
 monthly talk time. In workshop mode, spoken commands such as "next" or "repeat" are turned into text by your phone's own
 speech recognition (Apple or Google).
 
+**Location.** If you allow it, the app uses your location to put the tracks and riding areas nearest you first. When you turn
+on Ride safety, the app saves where you were last seen and shares it by link with the people you choose, on iPhone including
+while the phone is in your pocket, until you tap I'm back or the timer ends. That position is erased shortly after the ride ends.
+
 **Community and messages.** Your profile (handle, display name, bio, location and riding class you choose to enter), posts,
 comments, likes, events you create and RSVPs, direct messages with other riders, riders you block, and reports you file.
 
@@ -40,7 +44,7 @@ and your question and credit balance. App Store and Google Play purchases are pr
 are processed by Stripe. We never receive or store your card number.
 
 We do not use advertising SDKs, do not track you across other companies' apps or websites, and do not sell or rent personal
-information. The app does not access your contacts or location. It opens your camera or photo library only when you choose
+information. The app does not access your contacts, and uses your location only as described above. It opens your camera or photo library only when you choose
 to add a photo, and uses the microphone only while a voice conversation or workshop mode you started is running.
 
 ## How we use it
