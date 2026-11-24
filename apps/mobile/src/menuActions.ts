@@ -13,3 +13,9 @@ let homeStart:HomeStart|''='';const homeHearers=new Set<(k:HomeStart)=>void>();
 export function requestHomeStart(kind:HomeStart){homeStart=kind;homeHearers.forEach(f=>f(kind));}
 export function takeHomeStart():HomeStart|''{const k=homeStart;homeStart='';return k;}
 export function onHomeStart(f:(k:HomeStart)=>void){homeHearers.add(f);return()=>{homeHearers.delete(f);};}
+
+let accountPage='';const accountHearers=new Set<(p:string)=>void>();
+/** Ask the Account page to open one of its sub-pages (Invite a friend from the menu). */
+export function requestAccountPage(page:string){accountPage=page;accountHearers.forEach(f=>f(page));}
+export function takeAccountPage():string{const p=accountPage;accountPage='';return p;}
+export function onAccountPage(f:(p:string)=>void){accountHearers.add(f);return()=>{accountHearers.delete(f);};}

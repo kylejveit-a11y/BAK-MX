@@ -1,5 +1,5 @@
 // One-time "new in this version" card on Home. It closes with one tap and retires itself after a few app opens,
-// so it is never a nag. 1.0.12's features work on iPhone and Android, so it shows on both.
+// so it is never a nag. 1.0.13's features work on iPhone and Android, so it shows on both.
 import React,{useEffect,useState} from 'react';
 import {Platform,Text,View} from 'react-native';
 import {Pressable} from './Touch';
@@ -8,17 +8,17 @@ import {Disclosure} from './RichText';
 import {MetalMark,Button,Card,colors} from './ui';
 import {useProgress} from './localProgress';
 
-const KEY='whats-new-2026-11-find-a-part',MAX_OPENS=4;
+const KEY='whats-new-2026-11-talk-to-bak',MAX_OPENS=4;
 /** First-login setup retires this card: everything is new to a rider who joined today. */
 export const WHATS_NEW_KEY=KEY;
-const TITLE='Find a part and invite a friend';
+const TITLE='Talk to BAK';
 let countedThisLaunch=false;
 
 const items:[IconName,string,string][]=[
- ['search','Find a part','In Specs and parts: type what you need and see the factory and aftermarket parts on file for your exact bike, with part numbers, where to buy them, and a parts list you can save to.'],
- ['share','Invite a friend','In Account: share your code. You get 10 free Ask BAK questions when a friend joins and adds their bike, and a free month for every 3 friends who go on a paid plan.'],
- ['flag','Closed tracks marked','Where to Ride now tags tracks that have closed and moves them to the bottom of the list.'],
- ['moto','Springs for your weight','Ask BAK now names real aftermarket springs listed for your bike near the rate it works out for you.'],
+ ['voice','Talk to BAK','On Pro: tap the blue button beside any Ask BAK box and ask out loud. BAK checks your bike’s data, answers by voice, and saves the conversation in your chats.'],
+ ['check','Say yes to save','When BAK suggests a change while you’re talking, say yes and it’s saved to your Garage. Say no and nothing changes.'],
+ ['tools','Hands-free in the Workshop','In a guided job, talk your way through it: say next, go back or repeat, or ask about the step you’re on.'],
+ ['chat','Answers wait for you','Leave the app while BAK is working and the answer is there when you come back.'],
 ];
 
 export function WhatsNewCard({account,show=Platform.OS!=='web'}:{account:string;show?:boolean}){

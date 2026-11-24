@@ -41,7 +41,7 @@ import {InviteCard} from './InviteCard';
 import {PageSheet} from './PageSheet';
 import {CopiedToast,CopyText} from './copy';
 import {FindPartCard,MyPartsList,PartOfferLine,openFindPart} from './FindPart';
-import {openPartsTab,takePartsTab,onPartsTab,requestHomeStart,takeHomeStart,onHomeStart,type PartsTab} from './menuActions';
+import {openPartsTab,takePartsTab,onPartsTab,requestHomeStart,takeHomeStart,onHomeStart,requestAccountPage,takeAccountPage,onAccountPage,type PartsTab} from './menuActions';
 import {RideSafetyPanel} from './RideSafety';
 import {Raised,RaisedFace,raisedLift,RaisedButton} from './Raised';
 import {VoiceProof,useVoiceStatus} from './VoiceProof';
@@ -377,12 +377,12 @@ const MENU:{label:string;items:MenuItem[]}[]=[
  {label:'Riding',items:[
   {title:'Where to Ride',summary:'Tracks and riding areas near you',go:open=>open('Ride')},
   {title:'Ride safety',summary:'Back-by timer and a live link for home',go:(_o,show)=>show('safety')},
-  {title:'Race day',summary:'Prep list, motos, changes between them',go:open=>{requestHomeStart('race');open('Home');}},
-  {title:'Practice day',summary:'Plan a ride day and log each session',go:open=>{requestHomeStart('practice');open('Home');}}]},
+  {title:'Race day',summary:'Prep list, motos, changes between them',go:open=>{open('Home');/* the day sheet can only open once the menu sheet has finished closing: iOS drops a sheet presented during another's dismissal */setTimeout(()=>requestHomeStart('race'),450);}},
+  {title:'Practice day',summary:'Plan a ride day and log each session',go:open=>{open('Home');/* the day sheet can only open once the menu sheet has finished closing: iOS drops a sheet presented during another's dismissal */setTimeout(()=>requestHomeStart('practice'),450);}}]},
  {label:'More',items:[
   {title:'Know-how',summary:'Short guides on setup and riding',go:open=>open('Learn')},
   {title:'Messages',summary:'Private messages with other riders',go:open=>open('Messages')},
-  {title:'Invite a friend',summary:'Free questions and free months',go:open=>open('Account')}]},
+  {title:'Invite a friend',summary:'Free questions and free months',go:open=>{open('Account');/* after the menu sheet has closed, so the invite sheet can open */setTimeout(()=>requestAccountPage('invite'),450);}}]},
 ];
 function HeaderRight({screen,open}:{screen:string;open:(to:string)=>void}){
  const{unread,session}=useContext(Ctx),[menu,setMenu]=useState(false),[safety,setSafety]=useState(false),insets=useSafeAreaInsets();
@@ -836,6 +836,7 @@ function AppColorCard({bare=false}:{bare?:boolean}){
  </Wrap>;
 }
 function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSummary(),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false),[confirm,setConfirm]=useState('');async function task(action:()=>Promise<unknown>,success?:string){setBusy(true);try{await action();if(success)setNotice(success);}catch(e){if((e as {userCancelled?:boolean}).userCancelled)setNotice('Purchase cancelled.');else setNotice(errorText(e));}finally{setBusy(false);}}async function exportData(){const data=await api('/api/account/export');const file=new File(Paths.cache,'bakmx-account-export.json');try{file.create({overwrite:true});file.write(JSON.stringify({account:data,device_local_progress:exportProgress(session.user.id)},null,2));if(!await Sharing.isAvailableAsync())throw new Error('File sharing is unavailable on this device.');await Sharing.shareAsync(file.uri,{mimeType:'application/json',UTI:'public.json'});}finally{if(file.exists)file.delete();}}const [page,setPage]=useState<AccPage>(''),insets=useSafeAreaInsets();
+ useEffect(()=>{const p=takeAccountPage();if(p)setPage(p as AccPage);return onAccountPage(q=>{takeAccountPage();setPage(q as AccPage);});},[]);
  const go=(to:string)=>{if(navRef.isReady())navRef.navigate(to as never);};
  const pro=plan.usage?.tier==='pro';
 

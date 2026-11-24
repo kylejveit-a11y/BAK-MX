@@ -9,7 +9,7 @@ import type {RideEvent} from '../../../shared/rider-types';
 import {api} from './api';
 import {readProgress,writeProgress} from './localProgress';
 import {Pressable} from './Touch';
-import {RaisedFace,raisedLift,well} from './Raised';
+import {Raised,RaisedFace,raisedLift,well} from './Raised';
 import {BackLink,Button,Card,Copy,Eyebrow,Icon,LinkAction,Notice,PageTitle,PickChip,colors} from './ui';
 import {LiveConditionsCard} from './LiveConditions';
 import {TrackHistoryCard} from './TrackHistory';
@@ -95,13 +95,14 @@ function PlaceList({onOpen,onClose}:{onOpen:(id:string)=>void;onClose?:()=>void}
   <Notice text={locNote}/>
   <Notice text={error}/>
   {!shown.length&&!!rows.length&&<Copy>{kind==='saved'&&!saved.length?W.savedNone:W.none}</Copy>}
-  <View>{shown.slice(0,200).map((p,i)=><PlaceRowView key={p.id} p={p} saved={saved.includes(p.id)} first={i===0} onPress={()=>onOpen(p.id)}/>)}</View>
+  {/* Raised panels of eight places each: the list reads as objects on the page like the menu, and no single finish has to cover two hundred rows. */}
+  <View style={{gap:14}}>{Array.from({length:Math.ceil(Math.min(shown.length,200)/8)},(_,g)=>shown.slice(g*8,Math.min(g*8+8,200))).map((group,g)=><Raised key={g} radius={18}><View style={{paddingHorizontal:16}}>{group.map((p,i)=><PlaceRowView key={p.id} p={p} saved={saved.includes(p.id)} first={i===0} onPress={()=>onOpen(p.id)}/>)}</View></Raised>)}</View>
  </View>;
 }
 
 function PlaceRowView({p,saved,first,onPress}:{p:PlaceRow&{miles:number|null};saved:boolean;first:boolean;onPress:()=>void}){
  const where=[p.city?`${p.city}, ${p.state}`:p.state,p.miles!=null?`${p.approx?'about ':''}${Math.round(p.miles)} mi`:''].filter(Boolean).join(' · '),shut=isClosed(p);
- return <Pressable accessibilityRole="button" accessibilityLabel={`${p.name}${shut?', listed as closed':''}. ${placeSummary(p)}. ${where}${saved?'. Saved':''}`} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:16,borderTopWidth:first?0:1,borderTopColor:'#1f232b',opacity:pressed?0.6:1})}>
+ return <Pressable accessibilityRole="button" accessibilityLabel={`${p.name}${shut?', listed as closed':''}. ${placeSummary(p)}. ${where}${saved?'. Saved':''}`} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:15,borderTopWidth:first?0:1,borderTopColor:'rgba(255,255,255,0.07)',opacity:pressed?0.6:1})}>
   <View style={{flex:1,gap:3}}>
    <View style={{flexDirection:'row',alignItems:'center',gap:8}}>
     <Text style={{color:shut?'#9aa1ad':colors.text,fontSize:17,fontWeight:'700',flexShrink:1}} numberOfLines={2}>{p.name}</Text>

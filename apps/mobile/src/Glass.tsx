@@ -48,6 +48,7 @@ export function FloatingTabBar({state,navigation}:BottomTabBarProps){
  const routes=state.routes.filter(r=>icons[r.name]);
  const current=state.routes[state.index]?.name;
  return <View pointerEvents="box-none" style={{position:'absolute',left:0,right:0,bottom:tabBottom(insets.bottom),alignItems:'center'}}>
+  <TabFade height={tabBottom(insets.bottom)+TAB_H+34} drop={tabBottom(insets.bottom)}/>
   <View style={{width:'92%',maxWidth:460,borderRadius:TAB_H/2,shadowColor:'#000',shadowOpacity:0.5,shadowRadius:18,shadowOffset:{width:0,height:8}}}><TabGlow/><Glass strong style={{height:TAB_H,borderRadius:TAB_H/2,flexDirection:'row',alignItems:'center',paddingHorizontal:6}}>
    {routes.map(r=>{const on=r.name===current;
     return <Pressable key={r.key} haptic="select" accessibilityRole="tab" accessibilityState={{selected:on}} accessibilityLabel={labels[r.name]??r.name} onPress={()=>{const e=navigation.emit({type:'tabPress',target:r.key,canPreventDefault:true});if(!on&&!e.defaultPrevented)navigation.navigate(r.name as never);}} style={({pressed})=>({flex:1,alignItems:'center',justifyContent:'center',height:TAB_H,opacity:pressed?0.6:1})}>
@@ -59,6 +60,13 @@ export function FloatingTabBar({state,navigation}:BottomTabBarProps){
  </View>;
 }
 
+/** The page fades into the background behind and below the bar, so a half line of text never shows under it. */
+function TabFade({height,drop}:{height:number;drop:number}){
+ const id=React.useId().replace(/[^a-zA-Z0-9]/g,'');
+ return <View pointerEvents="none" style={{position:'absolute',left:0,right:0,bottom:-drop,height}}>
+  <Svg width="100%" height="100%"><Defs><LinearGradient id={'tf'+id} x1="0" y1="0" x2="0" y2="1"><Stop offset="0" stopColor={colors.bg} stopOpacity="0"/><Stop offset="0.45" stopColor={colors.bg} stopOpacity="0.82"/><Stop offset="1" stopColor={colors.bg} stopOpacity="1"/></LinearGradient></Defs><Rect x="0" y="0" width="100%" height="100%" fill={`url(#tf${id})`}/></Svg>
+ </View>;
+}
 /** Active-tab stripe in the metal finish (drawn here: ui.tsx imports this file). */
 function TabMark(){
  const id=React.useId().replace(/[^a-zA-Z0-9]/g,'');
