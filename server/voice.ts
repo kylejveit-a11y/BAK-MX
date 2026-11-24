@@ -1,6 +1,6 @@
 // Talk to BAK (docs/plans/VOICE.md): the phone sends its call offer here, this server opens the voice session with the
-// provider, and the provider's key and settings never reach the phone. Pro only, a monthly allowance, testers only
-// until the proof is approved. Audio is never stored; only when a session started and how long it ran.
+// provider, and the provider's key and settings never reach the phone. Pro only, with a monthly allowance. Open to every
+// Pro rider since 2026-11-24 (Kyle's call); before that it was limited to the voice_testers list. Audio is never stored; only when a session started and how long it ran.
 import {z} from 'zod';
 import {adminDb} from './database.ts';
 import {HttpError,readJson} from './validation.ts';
@@ -21,9 +21,9 @@ async function statusFor(user:Who):Promise<VoiceStatus>{
   unlimitedAccess(user.id),hasPaidAccess(user.id)]);
  const used=(ok(rows) as {started_at:string;ended_at:string|null;seconds:number|null}[]).reduce((n,r)=>n+sessionSeconds(r),0);
  const tier=paid?await resolveTier(user.id):'free';
- // While voice is a proof, the people testing it are not held to the monthly allowance.
+ // Voice is on for every Pro rider. The people on the testers list keep it without Pro and are not held to the allowance.
  const inTest=Boolean(ok(tester));
- return voiceStatus(tier,inTest,used,unlimited||inTest);
+ return voiceStatus(tier,true,used,unlimited||inTest);
 }
 const WHY:Record<NonNullable<VoiceStatus['why']>,string>={not_in_test:'Talk to BAK is not switched on for this account yet.',not_pro:'Talk to BAK is part of Pro.',used_up:'You have used this month’s talk time. It resets on the 1st.'};
 

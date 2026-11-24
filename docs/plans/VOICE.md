@@ -110,8 +110,8 @@ Connects, hears him, speaks answers from the Ask BAK engine. Findings and what c
 - A waiting change can be confirmed out loud. Only a plain yes ("yes", "save it", "go ahead"…) or no counts, matched
   on the whole utterance; anything else is treated as a new question. Yes runs the same saves as the confirm cards.
   Actions that only open a screen or a draft still need a tap.
-- "Test version" text, the voice picker and the Account test row are gone. Voice is still limited to the tester list
-  on the server until launch.
+- "Test version" text, the voice picker and the Account test row are gone. Voice was limited to the tester list
+  on the server until 2026-11-24 (see the end of this file).
 - Kyle wants a roughly $100 a month tier with far more voice, sized so it earns at least the same dollars as Pro.
   Arithmetic (voice at $0.05 a minute; Pro is $14.99 with 60 minutes = $3 of voice):
     store keeps 15%: $99.99 nets $84.99, Pro nets $12.74. Extra to spend on voice = 84.99 - 12.74 + 3.00 = $75.25 = 1,505 minutes (about 25 hours).
@@ -131,3 +131,6 @@ answer (its usage is not saved). Small sample, one rider.
 - Voice: $0.05 a minute plus about one answer per minute of conversation (an assumption, not measured) is roughly
   $0.13 a minute all-in. The $100 tier's extra $75.25 (15% cut) or $62.50 (30% cut) then buys about 580 or 480 minutes,
   not the 1,250 to 1,505 the voice-only arithmetic gave.
+
+## Open to every Pro rider (2026-11-24)
+Kyle switched voice on for all Pro riders. The server no longer checks the tester list to decide who gets voice; the list now only means "has it without Pro and is not held to the 60 minutes". Free and Premium riders see the blue button and the voice screen tells them it is part of Pro.
