@@ -1,0 +1,25 @@
+Sign-in is required: use the demo account below. It is on the Pro plan, so every feature is available.
+
+NEW IN 1.0.13: TALK TO BAK
+Version 1.0.13 adds Talk to BAK, a voice conversation with the same Ask BAK assistant.
+
+Where it is: a blue voice button beside the Ask BAK box on Home and in Chat. Tap it, then tap the round "Tap to talk" key and ask a question about the bike out loud, for example "What does high-speed compression do?" BAK answers by voice in a few seconds and the written conversation is saved in Chat. Talk to BAK is part of the Pro subscription; on a Free account the same button opens the voice screen, which says it is part of Pro and does not start.
+
+Microphone: the app asks for the microphone the first time the rider taps the "Tap to talk" key, and only then. Audio is streamed to our AI service to be understood and answered, and is not stored. The written conversation is saved in the rider's chats like any typed question. This is covered by the same consent screen as typed questions (shown the first time Chat is opened).
+
+Background audio: the app declares the audio background mode so a voice conversation keeps going when the screen locks or the rider puts the phone down while working on the bike. Audio only runs during a conversation the rider started, and ends when they tap End, after 10 minutes of silence, or at 20 minutes.
+
+Limits: 60 minutes of talk time a month on Pro, shown on the screen as a meter.
+
+EVERYTHING ELSE (unchanged)
+Ask BAK: open Chat. The first time, the app asks permission to share questions with our AI service; tap Agree and continue. Try "What does high-speed compression do?" Typed answers take 20-40 seconds.
+
+In-app purchases: menu > the account card at the top > Ask BAK plan shows Premium, Pro and the two credit packs (StoreKit sandbox works in review).
+
+Account deletion: menu > the account card at the top > scroll to the bottom > Delete account > Permanently delete account.
+
+Community content: riders can report posts, comments and messages and block other riders from the ... menu on any post or profile. Reports are reviewed by us and content is removed within 24 hours.
+
+Location: used only if the rider allows it. Where to Ride uses it to list the nearest tracks and riding areas first. Ride safety (menu > Ride safety) shares where the rider was last seen with people they choose, and keeps updating in the background only while Ride safety is on, until they tap I'm back.
+
+The app does not use contacts, tracking or advertising. Camera and photos are only used when the rider chooses to add a photo.
