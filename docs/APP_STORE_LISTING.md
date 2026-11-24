@@ -1,4 +1,4 @@
-# BAK MX App Store listing (version 1.0.11)
+# BAK MX App Store listing (version 1.0.13)
 
 Text Kyle approved for App Store Connect. Keep in sync with what is entered there.
 
@@ -10,7 +10,7 @@ Text Kyle approved for App Store Connect. Keep in sync with what is entered ther
 - Price: Free (in-app purchases: Premium, Pro, credit packs)
 
 ## Promotional text (170)
-Tell BAK what the bike is doing and get one clear change to try for your exact bike. New: Where to Ride trail maps, Ride Day mode and Ride safety.
+New: Talk to BAK. Ask about your bike out loud and get the answer by voice, hands on the bike. Plus Find a part, Race day and Where to Ride trail maps.
 
 ## Description (4000)
 BAK MX is a setup and tuning partner for motocross and off-road riders. Tell it what the bike is doing, the way you'd tell your buddy at the track, and BAK answers for your exact bike, year and settings.
@@ -24,16 +24,24 @@ ASK BAK
 - Is something normal? Ask, and BAK tells you, explains why, and lists the signs that would mean it isn't.
 - Race mode gives short, fast answers between motos.
 
+TALK TO BAK (PRO)
+- Tap the blue button beside any Ask BAK box and ask out loud, hands on the bike.
+- BAK checks your bike's data before it answers, then says it in plain words.
+- Say yes to save a change it suggests. The conversation is saved in your chats.
+- Talk your way through a guided Workshop job: next, go back, repeat.
+
 YOUR GARAGE
 - Your bikes with clickers, sag, springs, tire pressures, gearing and parts.
 - A build sheet of what's stock and what's changed, plus bike photos.
-- Readiness at a glance, so BAK always has the right context.
+
+FIND A PART
+- Browse by system or search: factory and aftermarket parts on file for your exact bike.
+- Part numbers you can copy, and where to buy. Save parts to your own list.
 
 SPECS IN RIDER WORDS
 - Engine oil amount and type, riding sag, tire pressure, spark plug and coolant up top.
 - Your settings next to stock.
 - Torques, service intervals and settings grouped by part of the bike, with search.
-- Exact-year parts catalog grouped by area.
 
 KEEP IT RUNNING
 - Service log with the maker's schedule: what's due and how many hours are left.
@@ -57,17 +65,15 @@ RIDE DAY AND RIDE SAFETY
 
 RIDERS AND EVENTS
 - Post builds, setup questions and ride plans.
-- Find ride days, races, practice nights and clinics, and RSVP.
-- Message other riders.
+- Find ride days, races, practice nights and clinics, RSVP, and message riders.
 
 ON YOUR PHONE
 - Home Screen and Lock Screen widgets with hours, next service and your next event.
 - "Hey Siri, ask BAK."
 - Reminders when service is due or an event is coming up.
-- Ask BAK how to use any screen or setting and it walks you through it.
 
 PLANS
-BAK MX is free to download with a Garage, logs, specs, community, 7 starter sets of 20 Ask BAK questions and 3 Action photo edits to try. Premium adds 100 Ask BAK questions a day and 5 photo edits a month. Pro adds unlimited questions (fair use), coaching from riding clips and 15 photo edits a month. Question packs add extra questions that never expire. Prices are shown in the app from the App Store. Subscriptions renew automatically unless cancelled at least 24 hours before the period ends; manage or cancel them in your Apple ID settings.
+BAK MX is free to download with a Garage, logs, specs, community, 7 starter sets of 20 Ask BAK questions and 3 Action photo edits to try. Premium adds 100 Ask BAK questions a day and 5 photo edits a month. Pro adds unlimited questions (fair use), Talk to BAK (60 minutes a month), coaching from riding clips and 15 photo edits a month. Question packs add extra questions that never expire. Prices are shown in the app from the App Store. Subscriptions renew automatically unless cancelled at least 24 hours before the period ends; manage or cancel them in your Apple ID settings.
 
 Always double-check torque values and anything safety-critical before you ride. BAK MX gives guidance; you make the call on your bike.
 
@@ -77,11 +83,11 @@ Privacy Policy: https://bakmx.com/privacy
 ## Keywords (100)
 motocross,dirt bike,suspension,sag,clickers,fork,shock,jetting,trails,ohv,specs,enduro,honda,yamaha
 
-## What's New (1.0.7)
-Race-day fuel plan: what to eat and drink, and when, built from your height, weight and age, timed to your motos.
-A cleaner Home and a new Chat with starter questions. Ask BAK about any screen or setting in the app and it explains it.
-Notifications for service due and your next event.
-Specs list cleaned up, Garage sharing in one place, and dozens of fixes.
+## What's New (1.0.13)
+See `docs/release/1.0.13-review-notes.md`.
+
+## Screenshots (1.0.13)
+Nine 1206x2622 images made on 2026-11-24 with `scripts/marketing/store_shots.py`: chat, Talk to BAK, garage build sheet, find a part, specs, service log, race day, where to ride, events.
 
 ## URLs
 - Support: https://bakmx.com/support
