@@ -9,13 +9,19 @@ export const TIERS:Tier[]=['free','premium','pro'];
 export const DEFAULT_DAILY:Record<Tier,number>={free:0,premium:100,pro:300};
 export const TRIAL_BLOCKS=7,TRIAL_BLOCK_SIZE=20,BETA_DAILY=40;
 export const TIER_LABEL:Record<Tier,string>={free:'Free',premium:'Premium',pro:'Pro'};
+const VOICE_MINUTES_PREMIUM=15,VOICE_MINUTES_PRO=60,CLIPS_PREMIUM=3;
 export const TIER_BLURB:Record<Tier,string>={
  free:`${TRIAL_BLOCKS} sets of ${TRIAL_BLOCK_SIZE} Ask BAK questions to start, plus your Garage, setup log and community.`,
- premium:'100 Ask BAK questions a day for riders who tune every weekend.',
- pro:'Unlimited Ask BAK questions (fair use) and coaching from riding clips, for racers, mechanics and shops.'};
-/** Coaching from a riding clip (video frames) is a Pro feature (Kyle, 2026-11-01). Photos stay on every plan. */
-export const canCoachClips=(t:Tier)=>t==='pro';
-export const CLIP_PRO_NOTE='Coaching from a riding clip is part of Pro. Photos of you riding still work on every plan, or upgrade in Account › Ask BAK plan.';
+ premium:`100 Ask BAK questions a day for riders who tune every weekend, with ${VOICE_MINUTES_PREMIUM} minutes of Talk to BAK and ${CLIPS_PREMIUM} riding clips a month.`,
+ pro:`Unlimited Ask BAK questions (fair use), ${VOICE_MINUTES_PRO} minutes of Talk to BAK a month and coaching from riding clips, for racers, mechanics and shops.`};
+/** Coaching from a riding clip (video frames). Kyle, 2026-11-25: everything in Pro is also in Premium, with a smaller allowance,
+ *  so Premium is a preview of what Pro gives more of. Clips a month: null is no monthly limit (fair use). Photos stay on every plan. */
+export const CLIPS_MONTHLY:Record<Tier,number|null>={free:0,premium:CLIPS_PREMIUM,pro:null};
+export const canCoachClips=(t:Tier)=>CLIPS_MONTHLY[t]!==0;
+export const CLIP_PRO_NOTE=`Coaching from a riding clip comes with Premium (${CLIPS_MONTHLY.premium} clips a month) and Pro. Photos of you riding still work on every plan, or upgrade in Account › Ask BAK plan.`;
+export const CLIP_USED_NOTE=`You’ve used this month’s ${CLIPS_MONTHLY.premium} riding clips. Pro has no monthly limit; photos of you riding still work, and clips reset on the 1st.`;
+/** Talk to BAK minutes a month. */
+export const VOICE_MINUTES:Record<Tier,number>={free:0,premium:VOICE_MINUTES_PREMIUM,pro:VOICE_MINUTES_PRO};
 export const tierRank=(t:Tier)=>TIERS.indexOf(t);
 export const bestTier=(...t:(Tier|null|undefined)[]):Tier=>t.filter((x):x is Tier=>!!x).sort((a,b)=>tierRank(b)-tierRank(a))[0]??'free';
 export function dailyLimit(tier:Tier,env:Record<string,string|undefined>={}):number{

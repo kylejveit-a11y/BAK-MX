@@ -134,3 +134,8 @@ answer (its usage is not saved). Small sample, one rider.
 
 ## Open to every Pro rider (2026-11-24)
 Kyle switched voice on for all Pro riders. The server no longer checks the tester list to decide who gets voice; the list now only means "has it without Pro and is not held to the 60 minutes". Free and Premium riders see the blue button and the voice screen tells them it is part of Pro.
+
+## Premium gets a preview (2026-11-25)
+Kyle: everything in Pro is also in Premium with a smaller allowance, so Premium riders can try it and know what Pro gives more of.
+Talk to BAK: Premium 15 minutes a month, Pro 60 (shared/plans.ts VOICE_MINUTES). Riding clips: Premium 3 a month, Pro no monthly limit (CLIPS_MONTHLY).
+Voice for Premium is live on the server at once. Clips for Premium need app 1.0.14 or later, because older apps stop Premium riders before the clip is sent.

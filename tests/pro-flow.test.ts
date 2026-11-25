@@ -74,13 +74,14 @@ test('the Pro screen promises only what the plan code gates',()=>{
  const rows=proValueRows();
  assert.equal(rows.length,3);
  assert.equal(rows[0].title,'Unlimited Ask BAK questions');
- assert.equal(rows[1].title,'Coaching from your riding clips');assert.ok(canCoachClips('pro')&&!canCoachClips('premium'));
+ assert.equal(rows[1].title,'Coaching from your riding clips');assert.ok(canCoachClips('pro')&&canCoachClips('premium')&&!canCoachClips('free'));
  assert.equal(rows[2].title,`${editAllowance('pro').included} Action photo edits a month`);
  for(const r of rows)assert.doesNotMatch(r.title+r.detail,/\$|price|setup history|saved tuning/i);
  const cmp=planComparison();
  const by=(f:string)=>cmp.find(r=>r.feature===f)!;
  assert.deepEqual(by('Ask BAK questions'),{feature:'Ask BAK questions',free:`${TRIAL_BLOCKS} sets of ${TRIAL_BLOCK_SIZE} to start`,premium:`${DEFAULT_DAILY.premium} a day`,pro:'Unlimited, fair use'});
- assert.deepEqual(by('Coaching from riding clips'),{feature:'Coaching from riding clips',free:'—',premium:'—',pro:'Included'});
+ assert.deepEqual(by('Coaching from riding clips'),{feature:'Coaching from riding clips',free:'—',premium:'3 a month',pro:'No monthly limit'});
+ assert.deepEqual(by('Talk to BAK (voice)'),{feature:'Talk to BAK (voice)',free:'—',premium:'15 min a month',pro:'60 min a month'});
  assert.deepEqual(by('Action photo edits'),{feature:'Action photo edits',free:'3 to try',premium:'5 a month',pro:'15 a month'});
  // Everything that is not gated is shown as included on every plan: no fake Pro-only features.
  for(const f of ['Garage, specs, setup and service logs','Tuning notes and saved chats','Community, events, messages','Coaching from photos'])assert.deepEqual([by(f).free,by(f).premium,by(f).pro],['Included','Included','Included']);

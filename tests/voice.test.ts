@@ -2,9 +2,11 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {VOICE,VOICES,monthStart,sessionSeconds,voiceInstructions,voiceStatus} from '../shared/voice.ts';
 
-test('voice is Pro only, testers only, and stops at the allowance',()=>{
+test('voice comes with Premium (a preview) and Pro, and stops at the allowance',()=>{
  assert.equal(voiceStatus('pro',true,0).allowed,true);
- assert.equal(voiceStatus('premium',true,0).why,'not_pro');
+ assert.equal(voiceStatus('premium',true,0).allowed,true);assert.equal(voiceStatus('premium',true,0).seconds_included,15*60);
+ assert.equal(voiceStatus('premium',true,15*60).why,'used_up');assert.equal(voiceStatus('premium',true,14*60).seconds_left,60);
+ assert.equal(voiceStatus('pro',true,0).seconds_included,60*60);
  assert.equal(voiceStatus('free',true,0).why,'not_pro');
  assert.equal(voiceStatus('pro',false,0).why,'not_in_test');
  assert.equal(voiceStatus('pro',true,VOICE.minutesPerMonth*60).why,'used_up');

@@ -4,6 +4,7 @@
 // as typed answers. No audio is kept; the conversation lands in the rider's chats like any other.
 import React,{useEffect,useRef,useState} from 'react';
 import {Animated,Easing,Text,View} from 'react-native';
+import {VOICE_MINUTES} from '../../../shared/plans';
 import {Pressable} from './Touch';
 import {Icon} from './Icon';
 import {motion} from './theme';
@@ -118,7 +119,7 @@ export function VoiceProof({bike,ownerId,renderChanges,applyChanges,job}:{bike?:
   if(!silent)setPhase('idle');
  }
  const left=status?Math.max(0,status.seconds_left-(phase==='live'?seconds:0)):0;
- const blocked=status&&!status.allowed?(status.why==='not_pro'?'Talk to BAK is part of Pro.':status.why==='used_up'?'You’ve used this month’s talk time. It resets on the 1st.':'Talk to BAK isn’t switched on for this account yet.'):'';
+ const blocked=status&&!status.allowed?(status.why==='not_pro'?`Talk to BAK comes with Premium (${VOICE_MINUTES.premium} min a month) and Pro (${VOICE_MINUTES.pro} min).`:status.why==='used_up'?(status.seconds_included<VOICE_MINUTES.pro*60?`You’ve used this month’s ${Math.round(status.seconds_included/60)} minutes. Pro has ${VOICE_MINUTES.pro}. It resets on the 1st.`:'You’ve used this month’s talk time. It resets on the 1st.'):'Talk to BAK isn’t switched on for this account yet.'):'';
  const total=status?Math.max(1,status.seconds_included):1,share=status?Math.min(1,left/total):0;
  const word=phase==='live'?(working?'Checking your bike’s data':'Listening'):phase==='starting'?'Connecting':phase==='ending'?'Ending':'Tap to talk';
  const shown=(t:string)=>t.trim().replace(/\b(Bock|Bach|Bahk)\b(?=\s+MX\b|[’']s\b)|\bBock\b/g,'BAK');

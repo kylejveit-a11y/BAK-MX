@@ -2,7 +2,7 @@
 // the quiet nudges and the Account plan row. Everything here is derived from shared/plans.ts and shared/photo-edit.ts,
 // so the screen can never promise a feature the plans do not gate. Prices are never written here: the store (RevenueCat
 // on the phone, Stripe on the web) is the only source of a price.
-import {TIER_LABEL,TRIAL_BLOCKS,TRIAL_BLOCK_SIZE,DEFAULT_DAILY,canCoachClips,canStartTrialSet,type Tier,type Usage} from './plans.ts';
+import {TIER_LABEL,TRIAL_BLOCKS,TRIAL_BLOCK_SIZE,DEFAULT_DAILY,CLIPS_MONTHLY,VOICE_MINUTES,canStartTrialSet,type Tier,type Usage} from './plans.ts';
 import {editAllowance} from './photo-edit.ts';
 
 export type UsageView=Usage&{access_mode:'beta'|'subscription'};
@@ -15,23 +15,27 @@ export const LAUNCH_OFFER='Launch offer';
 
 export type ValueRow={icon:'chat'|'video'|'image';title:string;detail:string};
 /** The three things Pro adds. Each is gated in code: unlimited questions (plans.ts unlimited), clip coaching
- *  (canCoachClips), and the Pro photo-edit allowance (photo-edit.ts). Nothing else in the app is Pro-only. */
+ *  (CLIPS_MONTHLY), talk time (VOICE_MINUTES) and the photo-edit allowance (photo-edit.ts). Since 2026-11-25 nothing is Pro-only:
+ *  Premium has a smaller allowance of each, so Pro is more of the same things. */
 export function proValueRows(env:Record<string,string|undefined>={}):ValueRow[]{
  const edits=editAllowance('pro',env);
  return [
-  {icon:'chat',title:'Unlimited Ask BAK questions',detail:'Setup, jetting, diagnosis, race-day calls, as many as you need. Fair use only stops abuse; it never stops a rider tuning hard.'},
-  {icon:'video',title:'Coaching from your riding clips',detail:'Send a short clip of a corner, jump or section. BAK comes back with the one fix and a drill, and every session is saved so you can send a new clip to check it stuck.'},
+  {icon:'chat',title:'Unlimited Ask BAK questions',detail:`Setup, jetting, diagnosis, race-day calls, as many as you need, typed or out loud with ${VOICE_MINUTES.pro} minutes of Talk to BAK a month. Fair use only stops abuse; it never stops a rider tuning hard.`},
+  {icon:'video',title:'Coaching from your riding clips',detail:'As many as you need. Send a short clip of a corner, jump or section. BAK comes back with the one fix and a drill, and every session is saved so you can send a new clip to check it stuck.'},
   {icon:'image',title:`${edits.included} Action photo edits a month`,detail:'Your own shots graded like a magazine cover: light, colour, contrast and sharpness only. You, your bike and your numbers stay exactly as shot.'}];
 }
 
 export type ComparisonRow={feature:string;free:string;premium:string;pro:string};
 const yes='Included',no='—';
 const editsText=(t:Tier,env:Record<string,string|undefined>)=>{const a=editAllowance(t,env);return a.period==='lifetime'?`${a.included} to try`:`${a.included} a month`;};
+const minutesText=(t:Tier)=>VOICE_MINUTES[t]?`${VOICE_MINUTES[t]} min a month`:no;
+const clipsText=(t:Tier)=>CLIPS_MONTHLY[t]===null?'No monthly limit':CLIPS_MONTHLY[t]?`${CLIPS_MONTHLY[t]} a month`:no;
 /** Free / Premium / Pro side by side, every cell read from the plan code. */
 export function planComparison(env:Record<string,string|undefined>={}):ComparisonRow[]{
  return [
   {feature:'Ask BAK questions',free:`${TRIAL_BLOCKS} sets of ${TRIAL_BLOCK_SIZE} to start`,premium:`${DEFAULT_DAILY.premium} a day`,pro:'Unlimited, fair use'},
-  {feature:'Coaching from riding clips',free:canCoachClips('free')?yes:no,premium:canCoachClips('premium')?yes:no,pro:canCoachClips('pro')?yes:no},
+  {feature:'Talk to BAK (voice)',free:minutesText('free'),premium:minutesText('premium'),pro:minutesText('pro')},
+  {feature:'Coaching from riding clips',free:clipsText('free'),premium:clipsText('premium'),pro:clipsText('pro')},
   {feature:'Coaching from photos',free:yes,premium:yes,pro:yes},
   {feature:'Action photo edits',free:editsText('free',env),premium:editsText('premium',env),pro:editsText('pro',env)},
   {feature:'Garage, specs, setup and service logs',free:yes,premium:yes,pro:yes},

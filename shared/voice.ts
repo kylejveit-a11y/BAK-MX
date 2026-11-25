@@ -1,4 +1,6 @@
-// Talk to BAK (docs/plans/VOICE.md). Pro only, a monthly allowance of talk time, and a hard stop.
+// Talk to BAK (docs/plans/VOICE.md). Premium and Pro, each with a monthly allowance of talk time (Premium's is a preview
+// of Pro's), and a hard stop.
+import {VOICE_MINUTES,type Tier} from './plans.ts';
 export const VOICE={minutesPerMonth:60,maxSessionSeconds:20*60,idleEndSeconds:10*60,model:'gpt-live-1.1',voice:'echo'} as const;
 /** The provider's built-in voices (its session reference, read 2026-11-23). BAK ships with one; testers can audition the rest. */
 export const VOICES=['alloy','ash','ballad','beacon','bossa','cedar','cinder','coral','delta','echo','gleam','marin','meridian','quartz','ripple','sage','shida','shimmer','stone','tempo','verse','vesper','willow'] as const;
@@ -13,10 +15,10 @@ export function sessionSeconds(row:{started_at:string;ended_at:string|null;secon
 /** First instant of the calendar month (UTC) the allowance runs over. */
 export const monthStart=(now=new Date())=>new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),1)).toISOString();
 export function voiceStatus(tier:string,inTest:boolean,usedSeconds:number,unlimited=false):VoiceStatus{
- const included=VOICE.minutesPerMonth*60,used=Math.max(0,Math.round(usedSeconds)),left=unlimited?included:Math.max(0,included-used);
+ const minutes=unlimited?VOICE.minutesPerMonth:VOICE_MINUTES[tier as Tier]??0,included=minutes*60,used=Math.max(0,Math.round(usedSeconds)),left=unlimited?included:Math.max(0,included-used);
  const base={seconds_included:included,seconds_used:used,seconds_left:left};
  if(!inTest)return{allowed:false,why:'not_in_test',...base};
- if(tier!=='pro'&&!unlimited)return{allowed:false,why:'not_pro',...base};
+ if(!minutes)return{allowed:false,why:'not_pro',...base};
  if(left<=0)return{allowed:false,why:'used_up',...base};
  return{allowed:true,...base};
 }

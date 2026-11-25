@@ -21,10 +21,11 @@ import {raceForecast,raceTrackAt} from './weather.ts';
 import {applicableClaims,generateAnswer,planSpecLookups,raceLookups,PROMPT_VERSION,type RiderPreferences,warmAnswerCache} from './engineering.ts';
 import type {SupabaseClient} from '@supabase/supabase-js';
 import {handleBilling,hasPaidAccess,prepareAccountDeletion} from './billing.ts';
-import {resolveTier,usageFor,reserveQuestion,ensureTrial,startNextTrialSet} from './plans.ts';
+import {resolveTier,unlimitedAccess,usageFor,reserveQuestion,ensureTrial,startNextTrialSet} from './plans.ts';
 import {smallTalkKind,smallTalkReply} from '../shared/small-talk.ts';
 import {gapIsForBike} from '../shared/bike-identity.ts';
-import {limitMessage,canCoachClips,CLIP_PRO_NOTE} from '../shared/plans.ts';
+import {limitMessage,canCoachClips,CLIP_PRO_NOTE,CLIP_USED_NOTE,CLIPS_MONTHLY} from '../shared/plans.ts';
+import {monthStart} from '../shared/voice.ts';
 import {handleMobileBilling} from './mobile-billing.ts';
 import {handleRiderSurfaces} from './rider-surfaces.ts';
 import {handleInvites,rewardJoin,runInviteCron} from './invites.ts';
@@ -152,6 +153,8 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
   // Plan rules: Free riders use their trial sets and any credits; Premium and Pro get their daily allowance, then credits.
   const paid=await hasPaidAccess(owner),tier=paid?await resolveTier(owner):'free',mode=aiAccessMode();await ensureTrial(owner,tier);
   if(data.media?.kind==='clip'&&!canCoachClips(tier))throw new HttpError(403,CLIP_PRO_NOTE);
+  // Premium's clips are a monthly preview of Pro's. A re-run of a clip already sent is not counted again; riders with full access are never held to it.
+  if(data.media?.kind==='clip'&&CLIPS_MONTHLY[tier]!==null&&!existing&&!await unlimitedAccess(owner)){const used=await admin.from('messages').select('id',{count:'exact',head:true}).eq('user_id',owner).eq('role','user').eq('media->>kind','clip').gte('created_at',monthStart());if((used.count??0)>=(CLIPS_MONTHLY[tier]??0))throw new HttpError(403,CLIP_USED_NOTE);}
   const conversation=checked(await db.from('conversations').select('*').eq('id',data.conversation_id).eq('user_id',owner).maybeSingle());if(!conversation)throw new HttpError(404,'Conversation not found');
   const photoIds=data.photo_ids??[];await requireOwnPhotos(owner,photoIds,'chat');
   // A conversation without a build is a general question: no saved bike, no published-value lookup.
