@@ -40,6 +40,11 @@ export const HOW_BAK_WORKS:HowSection[]=[
   'Ride Day mode is the practice day in big, glove-size buttons: log a session or start a timer, log a setup change in two taps, see your setup, check in how the track is riding. The screen stays on, and a tap lock (auto after 3 minutes if you choose) ignores bumps. Back goes one step at a time.',
   'Ride safety: pick when you’ll be back and BAK texts and emails the people you choose a link to where you were last seen. You get three reminders first; only if you don’t check in 30 minutes after your time does BAK email them. Tap I’m back to end it. Only your last spot is kept.',
   'Right now shows what riders at the track say today (open, watered, muddy, busy). What I ran here shows your setup, tires and weather from your last visits to the same track.']},
+ {id:'rides',title:'Ride tracking and lap times',lines:[
+  'On a practice day or race day, tap Start recording, put the phone in a zipped pocket and ride. It works with the screen off.',
+  'At a track, laps count themselves: every lap time, your best and your average. On a trail you get the route, distance, riding time and top speed.',
+  'Lap times from a phone are good to about a second. A stop or a trip through the pits shows as a slow lap and is left out of best and average.',
+  'All rides keeps every ride. Open one to see the route and add its riding time to the bike’s hours. Free on every plan. No signal at the track? The ride waits on your phone and sends later.']},
  {id:'where',title:'Where to Ride',lines:[
   'Tracks and riding areas in one list (menu › Where to Ride). For a riding area: what you can ride and how wide, passes, season, hours and rules from the official pages, how riders say it’s riding today, and a trail map for National Forest areas.',
   'Each place has today’s and tomorrow’s forecast and any community events there. Save the ones you ride; they stay on this phone.',

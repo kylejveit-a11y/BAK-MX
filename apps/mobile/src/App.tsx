@@ -57,6 +57,7 @@ import {randomUUID} from 'expo-crypto';
 import {File,Paths} from 'expo-file-system';
 import * as Sharing from 'expo-sharing';
 import {shareCsv} from './logExport';
+import {setRideHoursListener} from './RideRecorder';
 import {logFileName,serviceLogCsv} from '../../../shared/log-export';
 import {bikeLabel} from '../../../shared/tuning-notes';
 import type {Session} from '@supabase/supabase-js';
@@ -526,6 +527,7 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  // prompt in the same navigation (first setup's "Save and get my setup") starts a 'setup' conversation, not 'ask'.
  const modeRef=useRef(mode);const setMode=(m:Conversation['mode'])=>{modeRef.current=m;setModeState(m);};
  // What Ask BAK's confirm cards run with: the rider's own session and this app's screens.
+ useEffect(()=>{setRideHoursListener(()=>{void reload();});return()=>setRideHoursListener(null);},[reload]);
  const appHost:AppActionHost={api:(path,method,body)=>api('/api'+path,method,body),bikes,refreshBikes:reload,selectBike:select,setTheme:setColorMode,newId:randomUUID,
   open:(screen:AppScreen)=>{if(screen==='specs')openPartsTab('specs');const to:Record<AppScreen,keyof Tabs>={home:'Home',garage:'Garage',build_sheet:'Garage',ask:'Ask BAK',community:'Community',events:'Events',messages:'Messages',workshop:'Workshop',setup_log:'Setup',maintenance:'Maintenance',specs:'Specs',account:'Account'};
    if(screen==='build_sheet')navigation.navigate('Garage',{open:'build',token:randomUUID()});else navigation.navigate(to[screen] as never);},

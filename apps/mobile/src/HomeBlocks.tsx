@@ -26,6 +26,7 @@ import {endRaceActivity,setRaceStatus,setRaceWidget,syncRaceActivity} from './wi
 import {upNext,type PlanItem} from '../../../shared/service-plan';
 import {RichText} from './RichText';
 import {LiveConditionsCard} from './LiveConditions';
+import {RideRecorderCard} from './RideRecorder';
 import {TrackHistoryCard} from './TrackHistory';
 import {warmOffline} from './warmOffline';
 import {TrackReportCard} from './TrackReport';
@@ -336,6 +337,7 @@ export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenC
    <Text style={{color:colors.muted,fontSize:14}}>{bike.model_year} {bike.manufacturer} {bike.model}{bike.engine_hours!=null?` · ${bike.engine_hours} h`:''}</Text>
   </View>
   <LiveConditionsCard track={track}/>
+  <RideRecorderCard bike={bike} track={track}/>
   {onNext&&<NextUpCard race={day} labels={MOTOS} onSet={onNext}/>}
   <RaceSetupCard account={account} bike={bike} track={track} day={today()} onOpenChat={onOpenChat}/>
   <FuelPlanCard account={account} race={day} kind="race"/>

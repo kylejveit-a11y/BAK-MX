@@ -23,6 +23,7 @@ import {FuelPlanCard} from './FuelPlan';
 import {RideDayMode} from './RideDay';
 import {warmOffline} from './warmOffline';
 import {LiveConditionsCard} from './LiveConditions';
+import {RideRecorderCard} from './RideRecorder';
 import {TrackHistoryCard} from './TrackHistory';
 import {RIDE_DAY_COPY} from '../../../shared/ride-day';
 
@@ -102,6 +103,7 @@ export function PracticeDayHome({bike,account,race,onEnd,onAsk,onNext}:{bike:Bik
   </Pressable>
   <RideDayMode visible={rideDay} onClose={()=>setRideDay(false)} bike={bike} track={track} sessions={sessions} onLog={logDraft} onRate={rate} onAsk={()=>onAsk(practiceAskText({track,bike:bikeName,setup:bikeSetup(bike),sessions}))}/>
   <LiveConditionsCard track={track}/>
+  <RideRecorderCard bike={bike} track={track}/>
   <NextUpCard race={race} labels={labels} onSet={onNext}/>
   <BikeNowCard bike={bike}/>
   <TrackHistoryCard track={track} bikeId={bike.id}/>
