@@ -1,0 +1,893 @@
+{
+ "slice": "Pre-2020 off-road and cross-country models from independent tests: KTM 350 XCF-W, 300/250 XC-W, 450/250 XC-F, 250/300 XC; Yamaha YZ450FX, WR450F, YZ250FX (knowledge push 2026-11)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "350 XCF-W",
+   "300 XC-W",
+   "250 XC-W",
+   "450 XC-F",
+   "250 XC-F",
+   "250 XC",
+   "300 XC",
+   "YZ450FX",
+   "WR450F",
+   "YZ250FX"
+  ],
+  "years": [
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ]
+ },
+ "records": [
+  {
+   "id": "o-off-001",
+   "domain": "identity",
+   "topic": "350 XCF-W: what it is",
+   "applies_to": {
+    "models": [
+     "350 XCF-W"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 350 XCF-W is KTM's single-track trail version of the 350: a six-speed gearbox, an open-cartridge WP fork with preload adjusters, the linkless PDS shock with a high-speed compression adjuster, a 2.2 gal tank, lights and a radiator fan. The street-legal EXC is the same idea with a plate; the XC-F and SX-F are the linkage bikes for tracks and GP-style races. The 2015 added an orange frame, black rims, a digital speedometer, Neken bars and Dunlop AT81 tyres and listed at $9,599.",
+   "values": {
+    "gearbox": "6-speed",
+    "rear": "PDS (no linkage)",
+    "tank_gal": 2.2,
+    "msrp_usd_2015": 9599
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 KTM 350 XCF-W",
+    "url": "https://dirtbiketest.com/bike-tests/2015-ktm-350-xcf-w/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-002",
+   "domain": "power_feel",
+   "topic": "2015 350 XCF-W weight, range and power",
+   "applies_to": {
+    "models": [
+     "350 XCF-W"
+    ],
+    "years": [
+     2015,
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "An independent tester weighed the 2015 350 XCF-W at 241 lb empty and 255 lb fuelled, and rode over 70 miles of trail on a tank. Power is smooth and linear from low rpm to nearly 12,000, with strong torque off idle and no tendency to stall. Sixth gear is good for about 85 mph. It is jetted lean for emissions at low rpm and wants the cold-start lever when cold; the fuelling held from sea level to 8,500 ft.",
+   "values": {
+    "weight_lb_empty": 241,
+    "weight_lb_fuelled": 255,
+    "range_miles": "70+",
+    "top_speed_mph": 85
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 KTM 350 XCF-W",
+    "url": "https://dirtbiketest.com/bike-tests/2015-ktm-350-xcf-w/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-003",
+   "domain": "setups",
+   "topic": "2015 350 XCF-W tester setup",
+   "applies_to": {
+    "models": [
+     "350 XCF-W"
+    ],
+    "years": [
+     2015,
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "An independent tester ran the 2015 350 XCF-W at 105 mm of rider sag with the clickers left stock, and found the stock settings right for riders of about 165-200 lb on trails. For sand, big whoops or motocross jumps add compression; each extra 5 mm of rear sag slows the steering and takes bite off the front. Bleed the air from the fork before riding.",
+   "values": {
+    "sag_mm": 105,
+    "rider_weight_lb": "165-200"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 KTM 350 XCF-W",
+    "url": "https://dirtbiketest.com/bike-tests/2015-ktm-350-xcf-w/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-004",
+   "domain": "known_issues",
+   "topic": "2015 350 XCF-W complaints",
+   "applies_to": {
+    "models": [
+     "350 XCF-W"
+    ],
+    "years": [
+     2015,
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "Tester complaints on the 2015 350 XCF-W: the two-piece hand guards break easily, the seat foam bottoms out toward the rear under taller or heavier riders, and it is not at its best in deep whoops without stiffer settings.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 KTM 350 XCF-W",
+    "url": "https://dirtbiketest.com/bike-tests/2015-ktm-350-xcf-w/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-005",
+   "domain": "identity",
+   "topic": "2017 XC-W two-stroke redesign",
+   "applies_to": {
+    "models": [
+     "300 XC-W",
+     "250 XC-W"
+    ],
+    "years": [
+     2017,
+     2018
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2017 300 XC-W and 250 XC-W were all new: an engine with the crank 27 mm higher and the clutch shaft 8 mm higher, a counterbalancer shaft that cuts vibration, a new cylinder and power valve, the electric starter moved under the cases, a reworked six-speed gearbox, a diaphragm-spring hydraulic clutch, a 38 mm Mikuni TMX carburettor in place of the Keihin, a new chrome-moly frame with 22 mm offset clamps, the WP Xplor 48 fork (compression in the left leg, rebound in the right) and the WP Xplor PDS shock with a smaller 46 mm piston. A lithium battery is standard.",
+   "values": {
+    "carb": "Mikuni TMX 38",
+    "fork": "WP Xplor 48",
+    "rear": "WP Xplor PDS",
+    "counterbalancer": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 KTM 300 XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2017-ktm-300-xc-w/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-006",
+   "domain": "power_feel",
+   "topic": "2017 300 XC-W weight and character",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2017,
+     2018
+    ],
+    "make": "KTM"
+   },
+   "statement": "An independent tester weighed the 2017 300 XC-W at 224 lb empty and 239 lb with its 2.5 gal tank full. The power is smooth torque with much less vibration than before, lively into the midrange and willing to rev. List price $9,099.",
+   "values": {
+    "weight_lb_empty": 224,
+    "weight_lb_full": 239,
+    "tank_gal": 2.5,
+    "msrp_usd": 9099
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 KTM 300 XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2017-ktm-300-xc-w/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-007",
+   "domain": "setups",
+   "topic": "2017-2018 300 XC-W jetting and premix",
+   "applies_to": {
+    "models": [
+     "300 XC-W",
+     "250 XC-W"
+    ],
+    "years": [
+     2017,
+     2018
+    ],
+    "make": "KTM"
+   },
+   "statement": "The carburetted 2017-2018 XC-W runs lean and then rich as the power valve opens on its stock jetting. An independent tester found it had to be run on fresh fuel at 60:1; at 40:1 the jetting became hard to sort. A pilot in the 32.5-35 range with the needle half a clip leaner was the starting point, and an aftermarket jet kit with its own needles (one for slow trail work, one for aggressive riding) cured the hesitation. About half a turn of the power-valve adjuster changes the feel; the stock spring was preferred.",
+   "values": {
+    "premix": "60:1",
+    "pilot": "32.5-35",
+    "power_valve": "about 1/2 turn changes feel"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 KTM 300 XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2017-ktm-300-xc-w/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-008",
+   "domain": "known_issues",
+   "topic": "2017-2018 XC-W notes",
+   "applies_to": {
+    "models": [
+     "300 XC-W",
+     "250 XC-W"
+    ],
+    "years": [
+     2017,
+     2018
+    ],
+    "make": "KTM"
+   },
+   "statement": "Tester notes on the 2017-2018 XC-W: the rear spring rate matters more than usual on the PDS shock (too heavy a rider and it squats, too light and it is unstable), the fork seals needed replacing after muddy rides, the lithium battery wants a short tap of the starter about 20 seconds before cranking on a cold morning, and the brakes have less outright bite and more control than the earlier bikes.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 KTM 300 XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2017-ktm-300-xc-w/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-009",
+   "domain": "identity",
+   "topic": "2016-2018 450 XC-F against the SX-F",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2016,
+     2017,
+     2018
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2016-2018 450 XC-F is the 450 SX-F of the same year with an 18 in rear wheel, a larger tank (about 2.2 gal), a side stand, hand guards, a stronger battery, softer off-road suspension settings and Dunlop AT81 tyres. It keeps the five-speed close-ratio gearbox. The 2016 has the WP 4CS fork; the 2017 changed to the WP AER 48 air fork and added the map switch with traction control.",
+   "values": {
+    "gearbox": "5-speed close ratio",
+    "rear_wheel": "18 in",
+    "tank_gal": 2.2
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 KTM 450 XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2016-ktm-450-xc-f/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-010",
+   "domain": "power_feel",
+   "topic": "2016-2018 450 XC-F weight, range and speed",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2016,
+     2017,
+     2018
+    ],
+    "make": "KTM"
+   },
+   "statement": "An independent tester weighed the 450 XC-F at 232 lb empty and 245 lb full in 2016, and 230 and 241 lb in 2017. Range is about 50 miles in most conditions. Top speed is 91 mph at the rev limiter on stock gearing. It makes strong torque that hooks up rather than spins, but the light flywheel stalls easily at closed throttle and first gear is tall, so it needs re-gearing for tight trails. List price $9,999 in 2016 and $10,099 in 2017.",
+   "values": {
+    "weight_lb_empty": "230-232",
+    "weight_lb_full": "241-245",
+    "range_miles": 50,
+    "top_speed_mph": 91
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 KTM 450 XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2016-ktm-450-xc-f/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-011",
+   "domain": "setups",
+   "topic": "2016 450 XC-F tester setup (4CS)",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "An independent tester's 2016 450 XC-F setup: rider sag 103-108 mm; off-road, fork compression and rebound 12-13 clicks out with the shock's compression about 5 clicks softer than standard; on a motocross track, up to 5 clicks more low-speed compression at the rear.",
+   "values": {
+    "sag_mm": "103-108",
+    "fork": "12-13 out, both adjusters"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 KTM 450 XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2016-ktm-450-xc-f/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-012",
+   "domain": "setups",
+   "topic": "2017-2018 450 XC-F tester setup (AER)",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2017,
+     2018
+    ],
+    "make": "KTM"
+   },
+   "statement": "An independent tester's 2017 450 XC-F setup: rider sag 103-108 mm, fork with 1 psi more than standard and a few clicks of compression, shock standard with up to five more clicks of low-speed compression for motocross. The aggressive map suits good traction; the milder map with traction control suits wide-open riding on loose ground.",
+   "values": {
+    "sag_mm": "103-108",
+    "fork": "+1 psi, a few clicks more compression"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 KTM 450 XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2017-ktm-450xc-f/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-013",
+   "domain": "known_issues",
+   "topic": "2016-2018 450 XC-F findings",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2016,
+     2017,
+     2018
+    ],
+    "make": "KTM"
+   },
+   "statement": "Tester findings on the 2016-2018 450 XC-F: it stalls at low throttle (keep a finger on the clutch), the clutch puts heat into the engine quickly and its rubber dampers should be checked every 20 hours, the stock muffler is loud and is not a spark arrestor, there is no skid plate, the hand guards are weak and the push-button fuel cap is awkward with cold hands. On two 2016 test bikes the shock piston band seized and locked the rebound.",
+   "values": {
+    "clutch_damper_check_h": 20
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 KTM 450 XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2017-ktm-450xc-f/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-014",
+   "domain": "identity",
+   "topic": "2015 250 XC-F against the SX-F",
+   "applies_to": {
+    "models": [
+     "250 XC-F"
+    ],
+    "years": [
+     2013,
+     2014,
+     2015
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2013-2015 250 XC-F is the 250 SX-F with a 2.4 gal tank, a side stand, an 18 in rear wheel, hand guards, off-road suspension valving and a six-speed semi-wide gearbox. The 2015 has the WP 4CS fork, a plain-bearing big end, a lighter clutch basket and a 22 mm front axle. List price $8,599 in 2015.",
+   "values": {
+    "tank_gal": 2.4,
+    "gearbox": "6-speed semi-wide",
+    "msrp_usd_2015": 8599
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 KTM 250 XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2015-ktm-250-xc-f/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-015",
+   "domain": "power_feel",
+   "topic": "2015 250 XC-F weight, range and speed",
+   "applies_to": {
+    "models": [
+     "250 XC-F"
+    ],
+    "years": [
+     2015
+    ],
+    "make": "KTM"
+   },
+   "statement": "An independent tester weighed the 2015 250 XC-F at 247 lb full of fuel (about 15 lb less empty) and got almost 70 miles from a tank on a steady trail ride. On stock gearing it ran 89-90 mph. The engine revs to about 14,000 rpm with a long, flat torque curve and very little flywheel, so it stalls easily.",
+   "values": {
+    "weight_lb_full": 247,
+    "range_miles": "almost 70",
+    "top_speed_mph": "89-90"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 KTM 250 XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2015-ktm-250-xc-f/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-016",
+   "domain": "setups",
+   "topic": "2015 250 XC-F tester setup",
+   "applies_to": {
+    "models": [
+     "250 XC-F"
+    ],
+    "years": [
+     2015
+    ],
+    "make": "KTM"
+   },
+   "statement": "An independent tester's 2015 250 XC-F setup: sag 100-105 mm; for motocross stay near stock (softer springs under about 165 lb); for trail go 3-5 clicks softer on fork compression and rebound, match the shock and take half a turn off the high-speed compression. For tighter racing add a couple of teeth at the rear or drop one at the front. Bleed the fork and keep the seals wet to reduce stiction; add a skid plate and, for trail use, a spark arrestor.",
+   "values": {
+    "sag_mm": "100-105",
+    "trail": "fork 3-5 clicks softer, shock HSC 1/2 turn softer"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 KTM 250 XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2015-ktm-250-xc-f/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-017",
+   "domain": "identity",
+   "topic": "2019 250 XC and 300 XC",
+   "applies_to": {
+    "models": [
+     "250 XC",
+     "300 XC"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2019 250 XC and 300 XC are carburetted two-stroke cross-country racers built on the SX: the stiffer 2019 frame, a subframe 40 mm longer, an axle slot 5 mm longer, radiators 12 mm lower, a new pipe and silencer and new carburettor settings, with electric start, a six-speed close-ratio gearbox, a hydraulic clutch, the WP AER 48 air fork, a linkage shock, a 2.65 gal tank, an 18 in rear wheel, hand guards, a side stand and a slightly heavier flywheel than the SX. The 250 XC listed at $9,399.",
+   "values": {
+    "fuel_system": "carburettor (Mikuni)",
+    "tank_gal": 2.65,
+    "fork": "WP AER 48",
+    "gearbox": "6-speed close ratio",
+    "msrp_usd_250xc": 9399
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2019 KTM 250 XC",
+    "url": "https://dirtbiketest.com/bike-tests/2019-ktm-250-xc/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-018",
+   "domain": "setups",
+   "topic": "2019 250 XC tester setup",
+   "applies_to": {
+    "models": [
+     "250 XC"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "KTM"
+   },
+   "statement": "An independent tester's 2019 250 XC setup: fork air 140 psi (KTM's base is 136 psi, 9.4 bar), compression 10 clicks out, rebound 15 out, shock at 105 mm sag. Stock jetting was kept with the idle turned nearly closed, on a 50/50 mix of race and pump fuel. Power valve: the aggressive (red) spring in place of the stock yellow one, with the adjuster 1-1/2 turns in from fully out. The stock suspension suits tight woods; fast, rough western terrain needs a stiffer shock spring and firmer valving. It ran over 80 mph stock.",
+   "values": {
+    "fork_psi": "140 (base 136)",
+    "fork": "comp 10 out, reb 15 out",
+    "sag_mm": 105,
+    "power_valve": "red spring, 1-1/2 turns in"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2019 KTM 250 XC",
+    "url": "https://dirtbiketest.com/bike-tests/2019-ktm-250-xc/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-019",
+   "domain": "known_issues",
+   "topic": "2019 250 XC findings",
+   "applies_to": {
+    "models": [
+     "250 XC",
+     "300 XC"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "KTM"
+   },
+   "statement": "Tester findings on the 2019 250 XC: brake pedal return springs wore out repeatedly (an aftermarket spring kit or the earlier round spring), and the fuel tap leaked into the carburettor when turned off; leaving it on reserve stopped it.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2019 KTM 250 XC",
+    "url": "https://dirtbiketest.com/bike-tests/2019-ktm-250-xc/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-020",
+   "domain": "identity",
+   "topic": "2016-2018 YZ450FX against the YZ450F",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2016,
+     2017,
+     2018
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "The 2016-2018 YZ450FX is the 2016 YZ450F with a five-speed wide-ratio gearbox (30% wider spread), electric start with a larger generator, its own ECU, an off-road clutch with different plates and lighter springs, 22 mm offset clamps (the 2016 YZ450F went to 25), thinner engine mounts (6 mm instead of 8), softer fork springs with cross-country valving, an 18 in rear wheel, a skid plate, an O-ring chain, a side stand and Dunlop AT81 tyres. The tank is the motocross bike's 2.0 gal. List price $8,990 in 2016.",
+   "values": {
+    "gearbox": "5-speed wide ratio",
+    "offset_mm": 22,
+    "tank_gal": 2.0,
+    "msrp_usd_2016": 8990
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 Yamaha YZ450FX",
+    "url": "https://dirtbiketest.com/bike-tests/2016-yamaha-yz450fx/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-021",
+   "domain": "power_feel",
+   "topic": "2016 YZ450FX weight, range and speed",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2016,
+     2017,
+     2018
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "An independent tester weighed the 2016 YZ450FX at 253 lb empty and 264 lb full. A tank lasts about 60 miles, with the last 20 uncertain. It ran 97 mph on a dry lake. The engine is snappy off the bottom and pulls to a long top end; with so little flywheel it stalls if the throttle is shut or mistimed.",
+   "values": {
+    "weight_lb_empty": 253,
+    "weight_lb_full": 264,
+    "range_miles": 60,
+    "top_speed_mph": 97
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 Yamaha YZ450FX",
+    "url": "https://dirtbiketest.com/bike-tests/2016-yamaha-yz450fx/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-022",
+   "domain": "setups",
+   "topic": "2016 YZ450FX tester setup",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2016,
+     2017,
+     2018
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "An independent tester ran the 2016 YZ450FX at about 103 mm of sag (headshake creeps in near 100 mm) and, for slower trail riding, 4 clicks softer on low-speed compression at both ends. With the Power Tuner, a mellower bottom-end map improved traction and reduced stalling without costing mid or top. The frame has tabs for Yamaha's accessory radiator fan, worth fitting for tight riding; the skid plate has to come off for oil changes.",
+   "values": {
+    "sag_mm": 103,
+    "trail": "4 clicks softer LSC front and rear"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 Yamaha YZ450FX",
+    "url": "https://dirtbiketest.com/bike-tests/2016-yamaha-yz450fx/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-023",
+   "domain": "identity",
+   "topic": "2016-2018 WR450F against the YZ450FX",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2016,
+     2017,
+     2018
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "The 2016-2018 WR450F shares the reversed-cylinder engine, five-speed wide-ratio gearbox, 22 mm offset clamps and spring rates of the YZ450FX, with a much lower first gear, heavier balance shafts, lights run from the ECU, a radiator fan, a plastic skid plate, a fuel-level sensor in the 2.0 gal tank, softer valving, a locked ECU and a quiet, restricted muffler. No hand guards are fitted. It weighed 256 lb empty and 268 lb fuelled on an independent tester's scale, about 4 lb more than the FX. List price $8,990 in 2016.",
+   "values": {
+    "weight_lb_empty": 256,
+    "weight_lb_full": 268,
+    "tank_gal": 2.0,
+    "msrp_usd_2016": 8990
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 Yamaha WR450F",
+    "url": "https://dirtbiketest.com/bike-tests/2016-yamaha-wr450f/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-024",
+   "domain": "engine_mods",
+   "topic": "2016-2018 WR450F closed-course uncorking",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2016,
+     2017,
+     2018
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "As delivered the 2016-2018 WR450F is very quiet and soft below half throttle. For closed-course use testers removed the intake baffle, replaced the throttle stop with the YZ part and took the smallest restrictor out of the muffler. Yamaha's GYTR competition kit unlocks the ECU so the Power Tuner can change fuel and ignition (map 1 aggressive, map 2 close to stock). Uncorked it revs quickly and comes close to the YZ450FX at high rpm, with less punch low down. Top speed about 95 mph; plan on 60 miles a tank.",
+   "values": {
+    "top_speed_mph": 95,
+    "range_miles": 60
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 Yamaha WR450F",
+    "url": "https://dirtbiketest.com/bike-tests/2016-yamaha-wr450f/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-025",
+   "domain": "setups",
+   "topic": "2016 WR450F tester setup",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2016,
+     2017,
+     2018
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "An independent tester's 2016 WR450F setup: fork compression 13 and rebound 13 clicks out; shock low-speed compression 5 clicks from full stiff, a quarter turn more high-speed compression and rebound at 17 clicks; rear sag 100 mm (under 95 mm it became unstable). The chain slider wore out in about 20 hours.",
+   "values": {
+    "fork": "comp 13, reb 13",
+    "shock": "LSC 5 from stiff, HSC +1/4 turn, reb 17",
+    "sag_mm": 100
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 Yamaha WR450F",
+    "url": "https://dirtbiketest.com/bike-tests/2016-yamaha-wr450f/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-026",
+   "domain": "identity",
+   "topic": "2015-2019 YZ250FX against the YZ250F",
+   "applies_to": {
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2015,
+     2016,
+     2017,
+     2018,
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "The YZ250FX arrived for 2015 on the WR250F frame with the YZ250F engine from throttle body to muffler: a six-speed wide-ratio gearbox (lower first, taller sixth), electric start with kick backup, a 160 W alternator and extra flywheel, a clutch with lighter springs and different plates, an 18 in rear wheel, a side stand, the KYB SSS fork with a spring one step softer and softer valving, and a tank of about 2 gal. Maps can be changed with the GYTR Power Tuner. List price $7,890 in 2015.",
+   "values": {
+    "gearbox": "6-speed wide ratio",
+    "starter": "electric plus kick",
+    "msrp_usd_2015": 7890
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 Yamaha YZ250FX",
+    "url": "https://dirtbiketest.com/bike-tests/2015-yamaha-yz250fx/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-027",
+   "domain": "power_feel",
+   "topic": "2015 YZ250FX weight, range and speed",
+   "applies_to": {
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2015,
+     2016,
+     2017,
+     2018,
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "An independent tester weighed the 2015 YZ250FX at 247.5 lb with a full tank. A tank lasted into the high 60s of miles on a desert trail ride but only around 30 miles at race pace. It ran 89 mph on stock gearing. Power is linear to a limiter near 13,000 rpm, softer off the bottom than the YZ250F and it hooks up well; the fuelling was right even at 7,500 ft.",
+   "values": {
+    "weight_lb_full": 247.5,
+    "range_miles": "30 racing, high 60s trail",
+    "top_speed_mph": 89
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 Yamaha YZ250FX",
+    "url": "https://dirtbiketest.com/bike-tests/2015-yamaha-yz250fx/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-off-028",
+   "domain": "known_issues",
+   "topic": "2015-2019 YZ250FX notes",
+   "applies_to": {
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2015,
+     2016,
+     2017,
+     2018,
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "Tester notes on the YZ250FX: the small tank limits race distance, the muffler is loud for trail use (a quiet aftermarket muffler tames it at some cost in response), the front air filter needs cleaning often in dust and roost, and it comes without hand guards or a skid plate. About 110 mm of rider sag was used in testing. The frame has a plug for an optional radiator fan.",
+   "values": {
+    "sag_mm": 110
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 Yamaha YZ250FX",
+    "url": "https://dirtbiketest.com/bike-tests/2015-yamaha-yz250fx/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://dirtbiketest.com/bike-tests/2015-ktm-250-xc-f/",
+  "https://dirtbiketest.com/bike-tests/2015-ktm-350-xcf-w/",
+  "https://dirtbiketest.com/bike-tests/2015-yamaha-yz250fx/",
+  "https://dirtbiketest.com/bike-tests/2016-ktm-450-xc-f/",
+  "https://dirtbiketest.com/bike-tests/2016-yamaha-wr450f/",
+  "https://dirtbiketest.com/bike-tests/2016-yamaha-yz450fx/",
+  "https://dirtbiketest.com/bike-tests/2017-ktm-300-xc-w/",
+  "https://dirtbiketest.com/bike-tests/2017-ktm-450xc-f/",
+  "https://dirtbiketest.com/bike-tests/2019-ktm-250-xc/"
+ ]
+}
