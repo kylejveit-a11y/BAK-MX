@@ -1,0 +1,866 @@
+{
+ "slice": "Second fill of pre-2020 models with no second-hand coverage: Yamaha WR250F/WR450F/YZ450FX, KTM 2011 SX two-strokes, 85 SX 2013-2017, XC/XC-W/XC-F years, Husqvarna TE/TX/FX, from magazine tests (knowledge push 2026-11)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "250 SX"
+  ],
+  "years": [
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ]
+ },
+ "records": [
+  {
+   "id": "o-gq-001",
+   "domain": "identity",
+   "topic": "WR250F 2018 update",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2018,
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "For 2018 the WR250F got almost all-new engine internals (cams, head, piston, gearbox parts), a recalibrated ECU, a frame based on the current YZ250F with new engine mounts, firmer suspension and a new fork seal wiper. The kickstarter was dropped, leaving electric start only. Engine: 77.0 x 53.6 mm, 13.5:1, 44 mm Keihin throttle body. Travel is 12.2 in front and 12.5 in rear. It weighs 258 lb wet, holds 2.0 gallons, has a 38.0 in seat and listed at $8,099.",
+   "values": {
+    "wet_weight_lb": 258,
+    "tank_gal": 2.0,
+    "seat_in": 38.0,
+    "compression": "13.5:1",
+    "msrp_usd_2018": 8099,
+    "starter": "electric only"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2018 Yamaha WR250F review",
+    "url": "https://ultimatemotorcycling.com/2018/03/13/2018-yamaha-wr250f-review-12-fast-facts/",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2018; applied to 2018-2019."
+  },
+  {
+   "id": "o-gq-002",
+   "domain": "engine_mods",
+   "topic": "WR250F 2018 uncorked feel",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2018,
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "With the throttle stop, airbox restrictor and exhaust restrictor removed for closed-course use (spark arrestor kept), the 2018 WR250F is soft right off the bottom, has good lower-midrange pull and a healthy midrange, and revs strongly to the limiter. The gain over the earlier engine is modest.",
+   "values": {
+    "uncork": "throttle stop, airbox restrictor, exhaust restrictor"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2018 Yamaha WR250F review",
+    "url": "https://ultimatemotorcycling.com/2018/03/13/2018-yamaha-wr250f-review-12-fast-facts/",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2018; applied to 2018-2019."
+  },
+  {
+   "id": "o-gq-003",
+   "domain": "known_issues",
+   "topic": "WR250F 2018 complaints from testing",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2018,
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "Complaints on the 2018 WR250F: the clutch drags when warm and more when cold (find neutral before restarting if it stalls often), first gear is tall for tight single-track (a tooth or two on the rear sprocket helps), it feels loose at speed in sand and loose ground (a steering damper helps), the seat is tall for shorter riders and there are no handguards. The suspension is plush and trail-biased, not a race setup.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2018 Yamaha WR250F review",
+    "url": "https://ultimatemotorcycling.com/2018/03/13/2018-yamaha-wr250f-review-12-fast-facts/",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2018; applied to 2018-2019."
+  },
+  {
+   "id": "o-gq-004",
+   "domain": "identity",
+   "topic": "WR450F 2012-2015 generation",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "For 2012 the WR450F changed from a carburettor to fuel injection with a tunable ECU, in a chassis that mixed existing WR parts with newer YZ parts. It has a wide-ratio five-speed, electric start, a 48 mm KYB cartridge fork with 11.8 in of travel and a linkage KYB shock with 11.6 in. Claimed wet weight is 273 lb, the tank holds 2.1 gallons and it listed at $8,290 in 2013. The bike was replaced by a YZ450F-based model for 2016.",
+   "values": {
+    "wet_weight_lb": 273,
+    "tank_gal": 2.1,
+    "gearbox": "5-speed wide ratio",
+    "fork": "KYB 48 mm, 11.8 in",
+    "msrp_usd_2013": 8290
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Off-Road.com - 2013 Yamaha WR450F review",
+    "url": "https://www.off-road.com/dirtbike/review/2013-yamaha-wr450f-review-53764.html?printable",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2013; applied to the 2012-2015 fuel-injected generation."
+  },
+  {
+   "id": "o-gq-005",
+   "domain": "power_feel",
+   "topic": "WR450F 2012-2015 engine feel",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "The 2012-2015 WR450F has broad, strong power with a snappy, motocross-style delivery. It is racier through the middle and top than a Honda CRF450X but less forgiving on tight, technical obstacles, where it needs careful throttle and clutch. It vibrates less than a YZ. Shifting is notchier than some rivals.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Off-Road.com - 2013 Yamaha WR450F review",
+    "url": "https://www.off-road.com/dirtbike/review/2013-yamaha-wr450f-review-53764.html?printable",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2013; applied to the 2012-2015 fuel-injected generation."
+  },
+  {
+   "id": "o-gq-006",
+   "domain": "engine_mods",
+   "topic": "WR450F 2012-2015 closed-course uncorking",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "The 2012-2015 WR450F is delivered with a restrictive muffler baffle and an emissions throttle stop. For closed-course use, riders remove the baffle and fit the throttle housing from the same-year YZ to lose the stop. After that the bike is no longer legal for public land.",
+   "values": {
+    "uncork": "muffler baffle out, YZ throttle housing"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Off-Road.com - 2013 Yamaha WR450F review",
+    "url": "https://www.off-road.com/dirtbike/review/2013-yamaha-wr450f-review-53764.html?printable",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2013; applied to the 2012-2015 fuel-injected generation."
+  },
+  {
+   "id": "o-gq-007",
+   "domain": "chassis",
+   "topic": "WR450F 2012-2015 standing against the 2016 bike",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "Testers who rode both described the 2012-2015 WR450F as a compromise that never stood out, and the YZ450F-based 2016 model as a much better platform. Buyers comparing used bikes should treat 2016 as the real step.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 Yamaha WR450F",
+    "url": "https://dirtbiketest.com/bike-tests/2016-yamaha-wr450f/",
+    "date": "2016"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-008",
+   "domain": "identity",
+   "topic": "YZ450FX 2019 redesign",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "The YZ450FX was new for 2019 on the current YZ450F platform: new engine, frame, suspension and slimmer, lower bodywork, about six pounds lighter by Yamaha's figures. It gained the free Power Tuner phone app and a two-position map switch on the bar, and has its own 2.2-gallon tank (1.6 on the YZ450F), electric start and a five-speed wide-ratio gearbox. A test bike was listed at 256 lb and $9,499.",
+   "values": {
+    "tank_gal": 2.2,
+    "gearbox": "5-speed wide ratio",
+    "weight_lb": 256,
+    "msrp_usd": 9499,
+    "tuner": "phone app, 2 maps on bar switch"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2019 Yamaha YZ450FX first impression",
+    "url": "https://www.cyclenews.com/2018/09/article/2019-yamaha-yz450fx-first-impression/",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-009",
+   "domain": "ecu_electronics",
+   "topic": "YZ450FX 2019: tame the stock map for trail",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "With the stock map the 2019 YZ450FX hits hard at low rpm, which is tiring on tight trail and makes it stall. A softer low-rpm map loaded through the app smoothed the bottom-to-mid delivery, cleaned up the fuelling and nearly ended the stalling. Two maps can be kept on the bar switch, so one bike can be set for tight woods and open desert. Testers found first gear a little too low.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2019 Yamaha YZ450FX first impression",
+    "url": "https://www.cyclenews.com/2018/09/article/2019-yamaha-yz450fx-first-impression/",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-010",
+   "domain": "identity",
+   "topic": "250 SX 2011 changes",
+   "applies_to": {
+    "models": [
+     "250 SX"
+    ],
+    "years": [
+     2011
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2011 250 SX got a new chromoly frame and one-piece cast swingarm with a shock 11 mm longer (5 mm more shaft travel) laid over for a more progressive PDS action. In the engine the exhaust port was lowered about 1 mm, the power-valve spring wire went from 2.0 to 1.8 mm and keystone rings were fitted, with a new pipe and a silencer core enlarged from 26 to 28 mm on a more flexible mount with a riveted end cap. Airbox, bodywork and fork settings were also new. List price $6,699.",
+   "values": {
+    "shock": "+11 mm length, +5 mm shaft travel",
+    "silencer_core_mm": 28,
+    "msrp_usd": 6699
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2011 KTM 250SX test",
+    "url": "https://motocrossactionmag.com/2011-ktm-250sx-motocross-test-not-a-warmed-over-bng-bike-but-a-totally-new-two-stroke-for-the-next-generation",
+    "date": "2010"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-011",
+   "domain": "setups",
+   "topic": "250 SX 2011 tester fork and shock settings",
+   "applies_to": {
+    "models": [
+     "250 SX"
+    ],
+    "years": [
+     2011
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2011 250 SX came with soft springs. A magazine crew's setup. Fork: 0.46 kg/mm springs (stock 0.44), oil 370 cc (stock 380), compression 12 clicks out, rebound 9 out (stock 12), legs 5 mm up (flush for sand). Shock: 7.2 kg/mm spring (stock 6.9; riders under 170 lb can keep the 6.9), race sag 105 mm, high-speed compression 1 turn out (stock 1-1/2), low-speed compression 10 clicks out (stock 15), rebound 18 out (stock 22).",
+   "values": {
+    "fork_spring": "0.46 kg/mm (stock 0.44)",
+    "fork_oil_cc": "370 (stock 380)",
+    "fork_comp": "12 out",
+    "fork_reb": "9 out (stock 12)",
+    "shock_spring": "7.2 kg/mm (stock 6.9)",
+    "sag_mm": 105,
+    "hsc": "1 turn (stock 1-1/2)",
+    "lsc": "10 out (stock 15)",
+    "shock_reb": "18 out (stock 22)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2011 KTM 250SX test",
+    "url": "https://motocrossactionmag.com/2011-ktm-250sx-motocross-test-not-a-warmed-over-bng-bike-but-a-totally-new-two-stroke-for-the-next-generation",
+    "date": "2010"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-012",
+   "domain": "setups",
+   "topic": "250 SX 2011 jetting",
+   "applies_to": {
+    "models": [
+     "250 SX"
+    ],
+    "years": [
+     2011
+    ],
+    "make": "KTM"
+   },
+   "statement": "Testers raced the 2011 250 SX on its stock jetting: 158 main, 42 pilot, N1EI needle on the third clip from the top, 6.5 slide and the air screw at 1-1/2 turns, moved for weather and altitude.",
+   "values": {
+    "main": 158,
+    "pilot": 42,
+    "needle": "N1EI clip 3",
+    "slide": 6.5,
+    "air_screw": "1.5 turns"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2011 KTM 250SX test",
+    "url": "https://motocrossactionmag.com/2011-ktm-250sx-motocross-test-not-a-warmed-over-bng-bike-but-a-totally-new-two-stroke-for-the-next-generation",
+    "date": "2010"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-013",
+   "domain": "power_feel",
+   "topic": "250 SX 2011 power feel",
+   "applies_to": {
+    "models": [
+     "250 SX"
+    ],
+    "years": [
+     2011
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2011 250 SX has a stronger hit just before the midrange than the earlier engine, pulls hard and keeps a good top end; the very bottom is not noticeably better. The delivery is abrupt and takes time to learn. The locking fuel cap is hard to remove and its lipless opening lets dirt in.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2011 KTM 250SX test",
+    "url": "https://motocrossactionmag.com/2011-ktm-250sx-motocross-test-not-a-warmed-over-bng-bike-but-a-totally-new-two-stroke-for-the-next-generation",
+    "date": "2010"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-014",
+   "domain": "identity",
+   "topic": "150 SX 2011 changes",
+   "applies_to": {
+    "models": [
+     "150 SX"
+    ],
+    "years": [
+     2011
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2011 150 SX got the new frame (more torsional, less longitudinal stiffness), a one-piece cast swingarm, a shock laid down further with an 11 mm longer shaft and 5 mm more shaft travel, a nylon preload ring, a new airbox and boot, and new rear bodywork. The engine was essentially unchanged from 2010. It is a six-speed with a 38 mm Keihin PWK and a Magura hydraulic clutch, and weighs under 200 lb.",
+   "values": {
+    "gearbox": "6-speed",
+    "carb": "Keihin PWK 38",
+    "weight_lb": "under 200"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2011 KTM 150SX test",
+    "url": "https://motocrossactionmag.com/2011-ktm-150sx-motocross-test-perhaps-the-best-bike-for-riders-looking-to-maximize-the-fun-of-racing",
+    "date": "2010"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-015",
+   "domain": "setups",
+   "topic": "150 SX 2011 tester fork and shock settings",
+   "applies_to": {
+    "models": [
+     "150 SX"
+    ],
+    "years": [
+     2011
+    ],
+    "make": "KTM"
+   },
+   "statement": "A magazine crew's 2011 150 SX setup. Fork: 0.42 kg/mm springs (0.44 for heavier or faster riders), 350 cc oil, compression 6 clicks out (stock 12), rebound 10 out (stock 12). Shock: 6.3 kg/mm spring, race sag 105 mm, high-speed compression 1-1/4 turns out (stock 1-1/2), low-speed compression 10 clicks out (stock 15), rebound 14 out (stock 22). If free sag is over 35 mm the spring is wrong for the rider; KTM listed springs from 6.0 to 7.2 kg/mm.",
+   "values": {
+    "fork_spring": "0.42 kg/mm (0.44 heavier)",
+    "fork_comp": "6 out (stock 12)",
+    "fork_reb": "10 out (stock 12)",
+    "shock_spring": "6.3 kg/mm",
+    "sag_mm": 105,
+    "hsc": "1-1/4 turns (stock 1-1/2)",
+    "lsc": "10 out (stock 15)",
+    "shock_reb": "14 out (stock 22)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2011 KTM 150SX test",
+    "url": "https://motocrossactionmag.com/2011-ktm-150sx-motocross-test-perhaps-the-best-bike-for-riders-looking-to-maximize-the-fun-of-racing",
+    "date": "2010"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-016",
+   "domain": "setups",
+   "topic": "150 SX 2011 jetting and gearing",
+   "applies_to": {
+    "models": [
+     "150 SX"
+    ],
+    "years": [
+     2011
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2011 150 SX pings if it is lean. Testers went up from the stock 182 main to a 185 or 190, with a 40 pilot, NOZI needle and the air screw at 1-1/2 turns. They also added a tooth at the rear, 51 in place of the stock 50.",
+   "values": {
+    "main": "185 or 190 (stock 182)",
+    "pilot": 40,
+    "needle": "NOZI",
+    "air_screw": "1.5 turns",
+    "rear_sprocket": "51 (stock 50)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2011 KTM 150SX test",
+    "url": "https://motocrossactionmag.com/2011-ktm-150sx-motocross-test-perhaps-the-best-bike-for-riders-looking-to-maximize-the-fun-of-racing",
+    "date": "2010"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-017",
+   "domain": "known_issues",
+   "topic": "150 SX 2011 things to watch",
+   "applies_to": {
+    "models": [
+     "150 SX"
+    ],
+    "years": [
+     2011
+    ],
+    "make": "KTM"
+   },
+   "statement": "On the 2011 150 SX the power is all at the top and it must be kept on the pipe. Keep an eye on the rear sprocket bolts, shift lever bolt and top shock bolt, and look after the nylon preload ring. The crank and head problems of the earlier 144 engine were resolved by this point.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2011 KTM 150SX test",
+    "url": "https://motocrossactionmag.com/2011-ktm-150sx-motocross-test-perhaps-the-best-bike-for-riders-looking-to-maximize-the-fun-of-racing",
+    "date": "2010"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-018",
+   "domain": "identity",
+   "topic": "85 SX 2013-2017 generation",
+   "applies_to": {
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2013-2017 85 SX has the overhauled engine with a 47 mm bore, a compact cylinder with a centrifugally controlled exhaust valve and a VForce3 reed block as standard, a six-speed gearbox and hydraulic clutch, in a chromoly frame with an aluminium subframe, 43 mm WP fork and no-linkage PDS shock. The 17/14 swingarm will accept a 16-inch rear wheel. List price was $5,349 in 2013.",
+   "values": {
+    "bore_mm": 47,
+    "gearbox": "6-speed",
+    "fork": "WP 43 mm",
+    "rear": "PDS",
+    "msrp_usd_2013": 5349
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2014 KTM 85SXS test",
+    "url": "https://motocrossactionmag.com/mxas-2014-ktm-85sxs-motocross-test-a-bike-so-special-that-they-sell-out-like-new-iphones-on-the-first-day",
+    "date": "2013"
+   },
+   "confidence": "low",
+   "notes": "Source tested the limited SXS version of this generation; only points it states about the standard 85 SX are recorded."
+  },
+  {
+   "id": "o-gq-019",
+   "domain": "power_feel",
+   "topic": "85 SX 2013-2017 power feel",
+   "applies_to": {
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2013-2017 85 SX has an expert-level powerband: weak off the bottom and very fast once revved, so the rider has to use the clutch to keep it on the pipe. An aftermarket pipe and silencer is worth roughly 1.5 hp.",
+   "values": {
+    "pipe_gain_hp": "about 1.5"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2014 KTM 85SXS test",
+    "url": "https://motocrossactionmag.com/mxas-2014-ktm-85sxs-motocross-test-a-bike-so-special-that-they-sell-out-like-new-iphones-on-the-first-day",
+    "date": "2013"
+   },
+   "confidence": "low",
+   "notes": "Source tested the limited SXS version of this generation; only points it states about the standard 85 SX are recorded."
+  },
+  {
+   "id": "o-gq-020",
+   "domain": "known_issues",
+   "topic": "300 XC-W 2016 and earlier against the 2017 engine",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2013,
+     2014,
+     2015,
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "Testers who moved from the 2016-and-earlier 300 XC-W to the 2017 bike noted what the older one does differently. It has no counterbalancer, so it vibrates more. Its starter drive could wear the engine cases. Its Keihin carburettor is less sensitive to temperature and altitude than the later Mikuni. The front end feels more planted, the brakes bite harder, and it is fussier about rear ride height.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 KTM 300 XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2017-ktm-300-xc-w/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-021",
+   "domain": "known_issues",
+   "topic": "450 XC-F 2015 4CS fork",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2015
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 4CS fork on the 2015 450 XC-F was a common complaint: stiff and spiky in the first part and middle of the stroke, with adjusters that confused riders. The 2016 bike's revised 4CS lost the spike and resisted bottoming better, and the 2016 chassis was noticeably lighter.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 KTM 450 XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2016-ktm-450-xc-f/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-022",
+   "domain": "identity",
+   "topic": "TE 150 2018 layout",
+   "applies_to": {
+    "models": [
+     "TE 150"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The 2018 TE 150 is a 144 cc power-valve two-stroke with electric start and a kick backup, a six-speed gearbox, a 38 mm Mikuni TMX and 60:1 premix. It has linkage rear suspension with a WP shock (13.0 in travel), the WP Xplor 48 fork (11.8 in) with tool-free adjusters, Magura brakes and a 2.6-gallon tank. It weighs 219 lb with a full tank, has a 37.8 in seat and listed at $8,299. It replaced the TE 125 with a bigger bore and a heavier ignition rotor.",
+   "values": {
+    "displacement_cc": 144,
+    "carb": "Mikuni TMX 38",
+    "premix": "60:1",
+    "tank_gal": 2.6,
+    "weight_lb_full": 219,
+    "seat_in": 37.8,
+    "msrp_usd": 8299
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2018 Husqvarna TE 150 review",
+    "url": "https://ultimatemotorcycling.com/2018/08/07/2018-husqvarna-te-150-review-lightweight-fun/",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-023",
+   "domain": "power_feel",
+   "topic": "TE 150 2018 engine feel and fit",
+   "applies_to": {
+    "models": [
+     "TE 150"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The 2018 TE 150 is torquey for its size with no flat spot and no hit, a strong midrange, and it rarely stalls or runs out on slow climbs. The suspension is soft, absorbs slow hits and stays predictable at speed; heavier or faster riders will want more. It is a technical-trail bike, not one for whoops and big jumps.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2018 Husqvarna TE 150 review",
+    "url": "https://ultimatemotorcycling.com/2018/08/07/2018-husqvarna-te-150-review-lightweight-fun/",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-024",
+   "domain": "identity",
+   "topic": "TE 250 and TE 300 2017 redesign",
+   "applies_to": {
+    "models": [
+     "TE 250",
+     "TE 300"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The TE 250 and TE 300 were about 90% new for 2017: a counterbalanced engine (vibration cut by more than half, by the maker's claim) with new ports and exhaust valve, the starter moved below the cases, a six-speed gearbox in place of the five-speed, a 38 mm Mikuni carburettor, and a new frame with skid-plate mounts. The fork is the WP Xplor coil unit (compression left, rebound right, preload on top) and the linkage shock has off-road valving and a softer spring. The bar map switch gives a standard map and a softer one for slippery ground.",
+   "values": {
+    "gearbox": "6-speed (was 5)",
+    "carb": "Mikuni TMX 38",
+    "fork": "WP Xplor 48",
+    "maps": "1 standard, 2 soft"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2017 Husqvarna TE 250/300 quick spin",
+    "url": "https://www.cyclenews.com/2016/08/article/quick-spin-2017-husqvarna-te-250300/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-025",
+   "domain": "power_feel",
+   "topic": "TE 250 against TE 300 (2017)",
+   "applies_to": {
+    "models": [
+     "TE 250",
+     "TE 300"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "Of the 2017 pair, the TE 300 has the torque and roll-on power and rewards short-shifting in the midrange; it does not rev as cleanly or as far as the 250. The TE 250 revs further, carries each gear longer and still pulls well low down, which suits lighter riders. Both were a little rich just off idle as first delivered, and the Mikuni is fussier about altitude than the Keihin it replaced. For soft sand, testers ran full fork preload and opened the rebound to hold the front up.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2017 Husqvarna TE 250/300 quick spin",
+    "url": "https://www.cyclenews.com/2016/08/article/quick-spin-2017-husqvarna-te-250300/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-026",
+   "domain": "setups",
+   "topic": "TX 300 2017 off-road air-fork baseline",
+   "applies_to": {
+    "models": [
+     "TX 300"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "An off-road baseline for the 2017 TX 300's AER 48 fork from its launch test: 142 psi with compression and rebound both at 12 clicks, for riders of 150-170 lb, and 105-110 mm of rear sag. Add air and compression for motocross. It weighed 216.9 lb without fuel. The air fork is 3.6 lb lighter than the 4CS it replaced. It can feel harsh in very rocky ground.",
+   "values": {
+    "fork_psi": 142,
+    "fork_clicks": "12 / 12",
+    "sag_mm": "105-110",
+    "weight_lb_no_fuel": 216.9
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2017 Husqvarna TX 300 first ride",
+    "url": "https://cyclenews.com/2016/06/article/first-ride-2017-husqvarna-tx-300",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-027",
+   "domain": "identity",
+   "topic": "FX 450 2017: how it differs from the FC 450",
+   "applies_to": {
+    "models": [
+     "FX 450"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The 2017 FX 450 is the cross-country version of the FC 450: the same SOHC engine with a slower-building delivery, WP AER 48 air fork, an 18-inch rear wheel, a clear 2.2-gallon tank, a removable side stand, a slightly softer shock, two ignition maps (mellow and aggressive) and traction control that works on either map and can be switched while riding. It has a hydraulic clutch and a larger lithium battery for the starter.",
+   "values": {
+    "tank_gal": 2.2,
+    "rear_wheel_in": 18,
+    "fork": "WP AER 48",
+    "maps": 2,
+    "traction_control": "yes"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2017 Husqvarna FX 450 first ride",
+    "url": "https://ultimatemotorcycling.com/2016/06/08/2017-husqvarna-fx-450-first-ride-review-10-fast-facts/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gq-028",
+   "domain": "setups",
+   "topic": "FX 450 2017 fork fix for motocross hits",
+   "applies_to": {
+    "models": [
+     "FX 450"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "At delivered settings the 2017 FX 450's air fork bottomed on heavy motocross landings. About 5 psi more air and six clicks more damping stopped it and made the fork feel more compliant. The mellow map suits tight single-track and the aggressive map the motocross track. The 2.2-gallon tank means extra fuel stops in long races.",
+   "values": {
+    "fork": "+5 psi, +6 clicks"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2017 Husqvarna FX 450 first ride",
+    "url": "https://ultimatemotorcycling.com/2016/06/08/2017-husqvarna-fx-450-first-ride-review-10-fast-facts/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://cyclenews.com/2016/06/article/first-ride-2017-husqvarna-tx-300",
+  "https://dirtbiketest.com/bike-tests/2016-ktm-450-xc-f/",
+  "https://dirtbiketest.com/bike-tests/2016-yamaha-wr450f/",
+  "https://dirtbiketest.com/bike-tests/2017-ktm-300-xc-w/",
+  "https://motocrossactionmag.com/2011-ktm-150sx-motocross-test-perhaps-the-best-bike-for-riders-looking-to-maximize-the-fun-of-racing",
+  "https://motocrossactionmag.com/2011-ktm-250sx-motocross-test-not-a-warmed-over-bng-bike-but-a-totally-new-two-stroke-for-the-next-generation",
+  "https://motocrossactionmag.com/mxas-2014-ktm-85sxs-motocross-test-a-bike-so-special-that-they-sell-out-like-new-iphones-on-the-first-day",
+  "https://ultimatemotorcycling.com/2016/06/08/2017-husqvarna-fx-450-first-ride-review-10-fast-facts/",
+  "https://ultimatemotorcycling.com/2018/03/13/2018-yamaha-wr250f-review-12-fast-facts/",
+  "https://ultimatemotorcycling.com/2018/08/07/2018-husqvarna-te-150-review-lightweight-fun/",
+  "https://www.cyclenews.com/2016/08/article/quick-spin-2017-husqvarna-te-250300/",
+  "https://www.cyclenews.com/2018/09/article/2019-yamaha-yz450fx-first-impression/",
+  "https://www.off-road.com/dirtbike/review/2013-yamaha-wr450f-review-53764.html?printable"
+ ]
+}
