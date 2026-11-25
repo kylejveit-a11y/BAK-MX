@@ -56,6 +56,9 @@ import * as StoreReview from 'expo-store-review';
 import {randomUUID} from 'expo-crypto';
 import {File,Paths} from 'expo-file-system';
 import * as Sharing from 'expo-sharing';
+import {shareCsv} from './logExport';
+import {logFileName,serviceLogCsv} from '../../../shared/log-export';
+import {bikeLabel} from '../../../shared/tuning-notes';
 import type {Session} from '@supabase/supabase-js';
 import {TIER_LABELS,type Bike,type ServiceEvent,type Conversation,type Message,type Claim} from '../../../shared/types';
 import {finalDrive,sagPercent,gearingChange,speedKmh,displacementCc,springRateNmm,compressionRatio} from '../../../shared/calculators';
@@ -721,7 +724,7 @@ function MaintenanceForBike({openWorkshop}:{openWorkshop:()=>void}){const pageBa
  </Card>:<StartRow icon="oil" title="Log service" detail="What you did and at how many hours" onPress={()=>setAdding(true)}/>}
  {due0&&<Card><Eyebrow>COMING UP</Eyebrow>{Array.isArray(due0)?<Raised radius={18}><View style={{paddingHorizontal:16}}>{due0.map((row,i)=><View key={row.key} style={{borderTopWidth:i?StyleSheet.hairlineWidth:0,borderTopColor:'rgba(255,255,255,0.09)'}}>{row}</View>)}</View></Raised>:due0}</Card>}
  {bike&&!adding&&<ServicePlanCard bike={bike} plan={plan} events={events} skip={new Set(dueList.map(d=>d.category.toLowerCase()))} onLog={logPlanItem}/>}
- <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingTop:4}}><Copy strong>History</Copy><Pressable accessibilityRole="button" accessibilityLabel="Refresh" disabled={busy||!bike} hitSlop={8} onPress={()=>void refresh().catch(e=>setNotice(errorText(e)))}><Icon name="refresh" size={20} color="#b2b9c4"/></Pressable></View>
+ <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingTop:4}}><Copy strong>History</Copy><View style={{flexDirection:'row',alignItems:'center',gap:18}}>{!!bike&&events.length>0&&<LinkAction title="Export" arrow={false} onPress={()=>{const made=new Date().toISOString(),label=bikeLabel(bike);void shareCsv(logFileName('service',label,made),serviceLogCsv(label,events,made),'Service history').catch(e=>setNotice(errorText(e)));}}/>}<Pressable accessibilityRole="button" accessibilityLabel="Refresh" disabled={busy||!bike} hitSlop={8} onPress={()=>void refresh().catch(e=>setNotice(errorText(e)))}><Icon name="refresh" size={20} color="#b2b9c4"/></Pressable></View></View>
  {events.length===0&&<Copy>Nothing logged yet. Log your first oil change or filter and BAK can tell you what's due.</Copy>}
  <TileGrid>{events.map(e=><ServiceRow key={e.id} e={e} hoursNow={bike?.engine_hours??null} onDelete={()=>Alert.alert('Delete service entry?','This entry will be permanently removed.',[{text:'Cancel',style:'cancel'},{text:'Delete',style:'destructive',onPress:()=>void api(`/api/services?id=${e.id}`,'DELETE').then(refresh).catch(err=>setNotice(errorText(err)))}])}/>)}</TileGrid>
  <LinkAction title="Guided jobs for this bike" onPress={openWorkshop}/>

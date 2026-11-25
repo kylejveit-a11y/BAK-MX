@@ -16,6 +16,9 @@ import {Raised,RaisedFace,raisedLift} from './Raised';
 import {PostClip,PhotoEditSheet,clipLength} from './PostMedia';
 import {File as FsFile,Paths} from 'expo-file-system';
 import * as Sharing from 'expo-sharing';
+import {shareCsv} from './logExport';
+import {logFileName,setupLogCsv} from '../../../shared/log-export';
+import {bikeLabel} from '../../../shared/tuning-notes';
 import {success} from './haptics';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {tap as hTap,select as hSelect} from './haptics';
@@ -486,6 +489,7 @@ export function SetupLogCard({bike,onAsk,prefill}:{bike?:Bike;onAsk:(text:string
     <Button disabled={busy} title={busy?'Saving…':'Save'} onPress={()=>void save()}/>
    </View>}
    {!logs.length&&!adding&&<Copy>Log one change and how it rode. Next time at this track you’ll know what worked.</Copy>}
+   {logs.length>0&&!adding&&!!bike&&<Link title="Export this log" onPress={()=>{const made=new Date().toISOString(),label=bikeLabel(bike);void shareCsv(logFileName('setup',label,made),setupLogCsv(label,logs,made),'Setup log').catch(e=>setNotice(errorText(e)));}}/>}
   </Card>
   {justLogged&&!adding&&<TrackReportCard track={justLogged.track} day={justLogged.day} setupLogId={justLogged.id} setupLabel={justLogged.change} recent={logs.map(l=>l.track)} showOthers onClose={()=>setJustLogged(null)}/>}
   {logs.map((log,i)=>{const prior=logs[i+1],diff=prior?setupDifferences(prior.settings,log.settings):[];return <Card key={log.id}>

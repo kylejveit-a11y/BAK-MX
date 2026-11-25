@@ -30,7 +30,8 @@ export const HOW_BAK_WORKS:HowSection[]=[
   'Every figure says where it came from.']},
  {id:'service',title:'Service log',lines:[
   'Log your last oil change, filter or top end with the hours on the bike.',
-  'BAK tracks what’s next from the maker’s intervals. A job you’ve never logged is never called due.']},
+  'BAK tracks what’s next from the maker’s intervals. A job you’ve never logged is never called due.',
+  'Export gives you the whole history as a spreadsheet file to keep, send to your mechanic or hand to a buyer. The Setup log has the same.']},
  {id:'race',title:'Race day, practice day and race prep',lines:[
   'Set a race from Home and it counts down with your prep list. BAK works out a starting setup for the track and the forecast.',
   'On the day, Home becomes your track screen: next moto, quick ask, a fast change log and today’s entries, with the Lock Screen counting down to your next moto. It ends by itself the day after.',
