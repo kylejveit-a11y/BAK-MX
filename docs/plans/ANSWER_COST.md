@@ -62,3 +62,30 @@ Reading: the same settings run twice differ by 2 points, so the trimmed runs sit
 This also means the model comparison above is weaker than it looked: gpt-6.2-sol (95.6) ties the live model, and only gpt-6-luna is clearly lower.
 
 Not yet touched: the rider's installed parts (13,700 characters when a full build sheet is saved), bike overview (5,300), published facts (8,300). The test route is capped at 600 questions a day, which is why this was 180 questions and not all 300.
+
+## Answer speed: the thinking setting (live 2026-11-25)
+
+Kyle asked for typed answers to get the speed-up voice got. Measured first, on the private test route (12 questions each):
+
+| Setting | Total | Plan | First word after plan | Whole answer | Written | Thinking tokens |
+|---|---|---|---|---|---|---|
+| As it was (default thinking) | 15.4 s | 2.0 s | 5.1 s | 12.7 s | 650 | 97 |
+| Light thinking | 16.3 s | 1.7 s | 6.2 s | 13.9 s | 485 | 0 |
+| Light thinking, no plan step | 16.9 s | 0 | 6.5 s | 16.1 s | 470 | 0 |
+| Light thinking, lighter plan step | 15.3 s | 2.0 s | 4.1 s | 12.7 s | 494 | 0 |
+
+On the bare test bike the setting makes no difference: the default hardly thinks there. Real rider questions are different.
+Kyle's own, from the saved timings: default thinking used 200 to 350 thinking tokens and took 10 to 17 s to the first word and
+17 to 29 s in all; the one answer on light thinking (a voice turn) reached its first word in 5.3 s and finished in 7.7 s.
+A full Garage gives the model more to chew on, and that is where the time went.
+
+Exam check, 60 mixed questions on light thinking (`docs/research/answer-speed/low-a.json`): 95.7, 51 full marks, nothing wrong
+said. Baselines on the same exam: 94.9, 95.2 and 96.9. Inside normal wobble.
+
+Changed: every written answer now uses light thinking, as voice and race mode already did. Pictures and riding clips keep the
+default. Not proven yet: the exam bikes have no Garage, so accuracy with a full build sheet rests on the exam plus the rule
+that nothing is stated without a fact on file. Watch real answers.
+
+What did not help: skipping the plan step. What is left: the model takes about 5 s to start writing with 55,000 tokens of
+instructions and bike data in front of it, and about 7 s to write. Cutting that further means shrinking the standing
+instructions (45,700 tokens), which needs its own exam runs.

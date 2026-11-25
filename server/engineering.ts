@@ -542,7 +542,11 @@ export async function generateAnswer(bike:Bike|null,history:Message[],claims:Cla
  // there; only what changes per question (bike, conversation, retrieved evidence, message) is sent as input.
  const {authored_hypotheses,setup_knowledge,racing_knowledge,hypothesis_boundary,...wire}=full;
  const briefing=answerBriefing({hypothesis_boundary,authored_hypotheses,setup_knowledge,racing_knowledge});
- const call:Call={pinned:PINNED_LIVE,instructions:briefing,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:race?2000:5000,timeoutMs:images.length>8?80000:45000,...(trial?.effort?{effort:trial.effort}:race||voice?{effort:'low' as const}:{}),...(images.length?{images}:{})};
+ // Thinking setting: light for every written or spoken answer (2026-11-25). On the 60-question exam it scored the same as the
+ // default (95.7 against 94.9 to 96.9, nothing wrong said), and on real rider questions the default spent 200-350 thinking tokens
+ // and 10-17 s before the first word, against about 5 s on light. Pictures and clips keep the default: reading a riding clip is
+ // the one job where the extra thought showed.
+ const call:Call={pinned:PINNED_LIVE,instructions:briefing,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:race?2000:5000,timeoutMs:images.length>8?80000:45000,...(trial?.effort?{effort:trial.effort}:images.length?{}:{effort:'low' as const}),...(images.length?{images}:{})};
  // The rider-facing text is shown while it is written. It is a draft until the checks below pass on the finished reply.
  let firstText=0;
  const first=await callWithBackup(trial?.model||answerModel(),onDraft?{...call,onText:soFar=>{const draft={summary:partialJsonString(soFar,'summary'),answer:partialJsonString(soFar,'answer')};if(!firstText&&(draft.summary||draft.answer))firstText=Date.now()-started;onDraft(draft);}}:call);

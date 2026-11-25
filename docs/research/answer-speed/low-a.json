@@ -1,0 +1,1962 @@
+{
+ "summary": {
+  "asked": 60,
+  "answered": 60,
+  "score": 95.7,
+  "full_marks": 51,
+  "said_something_wrong": 0,
+  "median_seconds": 19.4,
+  "prompt_version": [
+   "mx-engineering-95"
+  ]
+ },
+ "results": [
+  {
+   "id": "sus-003",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 18.7,
+   "prompt_version": "mx-engineering-95",
+   "specs": 2,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 55468,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 313,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 55781
+   },
+   "text": "Your 2023 GasGas MC 250F targets are:\n- **Static sag: 35 mm (1.38 in)** \u2014 bike upright, no rider.\n- **Rider sag: 105 mm (4.13 in)** \u2014 you aboard in full riding gear, feet on the pegs.\n\nMeasure both from the rear axle to the same fender mark, subtracting each reading from the measurement with the rear wheel hanging free. Set rider sag first, then check static sag: too little static sag means the shock spring is too soft; too much means it is too stiff.\nSet static sag to 35 mm and rider sag to 105 mm on your 2023 GasGas MC 250F.\n[{\"claim_id\": \"a54b3ac0-ea5f-8e74-1933-b8d693852037\", \"value\": \"Shock absorber / Static sag: 35 mm (1.38 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.\"}, {\"claim_id\": \"c13c968f-a27b-03fc-2c96-d31b6e5464c0\", \"value\": \"Shock absorber / Riding sag: 105 mm (4.13 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.\"}]"
+  },
+  {
+   "id": "sus-008",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true
+   ],
+   "bad": [],
+   "seconds": 16.3,
+   "prompt_version": "mx-engineering-95",
+   "specs": 3,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 54041,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 45723,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 45723,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 326,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 54367
+   },
+   "text": "GasGas lists a **shock spring 39 N/mm (223 lb/in)** for riders weighing **65\u201375 kg (143\u2013165 lb)**, which includes your 150 lb.\n\nRead that weight in full riding gear. After fitting, set riding sag to **105 mm (4.13 in)** and check static sag against **35 mm (1.38 in)** to confirm the spring suits you.\nThe manual lists a 39 N/mm shock spring for your 150 lb weight.\n[{\"claim_id\": \"d9b3aa69-4f6e-94b4-e887-52c3ce881458\", \"value\": \"Shock absorber / Spring rate / Weight of rider: 65 \\u2026 75 kg (143 \\u2026 165 lb.): 39 N/mm (223 lb/in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"a54b3ac0-ea5f-8e74-1933-b8d693852037\", \"value\": \"Shock absorber / Static sag: 35 mm (1.38 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.\"}, {\"claim_id\": \"c13c968f-a27b-03fc-2c96-d31b6e5464c0\", \"value\": \"Shock absorber / Riding sag: 105 mm (4.13 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.\"}]"
+  },
+  {
+   "id": "sus-013",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true
+   ],
+   "bad": [],
+   "seconds": 17.1,
+   "prompt_version": "mx-engineering-95",
+   "specs": 3,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 56840,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 276,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 57116
+   },
+   "text": "Honda\u2019s standard race sag for your 2022 CRF250R is **105 mm (4.1 in)** with the standard shock spring.\n\nMeasure with full riding gear and the bike at race weight: rear suspension fully extended minus the measurement with you seated in your normal riding position. Use the center of the left rear fender bolt and the center of the chain-adjuster locknut as your two points.\nStandard race sag is 105 mm (4.1 in) with the standard shock spring.\n[{\"claim_id\": \"abe9038d-f57b-0d41-90fb-68652ee186a5\", \"value\": \"Shock / Race sag / Standard (standard spring): 105 mm. Applies to the standard R model named in this handbook; other variants covered by the same handbook have different values. Stock OEM parts only. Race sag is the unloaded measurement minus the rider-aboard measurement with the bike at race weight, per the procedure on the cited page.\"}, {\"claim_id\": \"bfed04d5-b5a4-54e0-bd3c-bf97c617ac04\", \"value\": \"Suspension / Shock / Race sag standard: 105 mm (4.1 in). CRF250R standard spring rider aboard, race weight (fuel to bottom of filler neck)\"}, {\"claim_id\": \"98e69dab-807a-5c08-95b4-3f2a707cb972\", \"value\": \"Suspension / Shock / Race sag measurement points: Center of left side rear fender bolt to center of drive chain adjuster lock nut, unloaded (rear wheel off ground) minus loaded with rider. CRF250R\"}]"
+  },
+  {
+   "id": "sus-018",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 19.3,
+   "prompt_version": "mx-engineering-95",
+   "specs": 3,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 60215,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 357,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 60572
+   },
+   "text": "Honda lists two optional fork springs for your 2022 CRF250R:\n- **Soft fork spring: 4.6 N/mm** \u2014 identified by 1 slit.\n- **Stiff fork spring: 5.0 N/mm** \u2014 identified by 2 slits.\n\nThe standard fork spring is **4.8 N/mm**. Softer gives more compliance; stiffer adds hold-up and bottoming resistance. Marks alone don\u2019t prove which springs are currently fitted.\nHonda lists optional fork springs of 4.6 N/mm (soft) and 5.0 N/mm (stiff) for your 2022 CRF250R.\n[{\"claim_id\": \"1d6ae1b0-dbeb-5a66-b844-4eccf485b69b\", \"value\": \"Suspension / Fork / Optional spring soft: 4.6 N/mm (26.3 lbf/in), ID: 1 slit. CRF250R optional part\"}, {\"claim_id\": \"175d664e-03e7-5cf0-b0c8-97b10e8307e3\", \"value\": \"Suspension / Fork / Optional spring stiff: 5.0 N/mm (28.6 lbf/in), ID: 2 slits. CRF250R optional part\"}, {\"claim_id\": \"15db18d1-b87c-51fb-a96d-c53bed18ad21\", \"value\": \"Fork standard spring rate: 4.8 N/mm. Applies to the standard R model configuration identified by this table; optional rates are alternatives, not stock specification. Factory springs may be unmarked; marks alone do not prove spring identity.\"}]"
+  },
+  {
+   "id": "sus-023",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true
+   ],
+   "bad": [],
+   "seconds": 16.7,
+   "prompt_version": "mx-engineering-95",
+   "specs": 4,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 60853,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 503,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 61356
+   },
+   "text": "Honda calls for fork oil changes on your 2022 CRF250R **every 9 races or about 22.5 riding hours**, plus **after the first break-in ride**. Treat that as the maximum interval; service sooner for hard sand riding or if damping starts fading or becoming inconsistent.\n\nUse **5W fork fluid**. With the standard fork springs, the outer-chamber oil capacity is **380 cm\u00b3 (12.9 US fl oz) per leg**\u2014that\u2019s the total target, not how much to pour in after draining, because some oil stays inside.\n\nI can walk you through \u201cChange the fork oil and set the oil volume.\u201d Tap **\u201cWorking on the bike?\u201d** above the message box to start.\nChange the fork oil every 9 races or about 22.5 riding hours, and after the first break-in ride.\n[{\"claim_id\": \"a8e8d3d7-cdd8-5d32-b96d-96e5d3f2b9d5\", \"value\": \"Maintenance Schedule / Fork oil / Replace: every 9 races or about 22.5 hours interval. CRF250R\"}, {\"claim_id\": \"9cf5f6d5-fc03-5a12-b85b-64b5c7489d69\", \"value\": \"Maintenance Schedule / Fork oil / Break-in: Replace after the first break-in ride. CRF250R\"}, {\"claim_id\": \"7f567b34-8a2a-539f-bb1c-bc61cf5642e8\", \"value\": \"Suspension / Fork / Recommended fork oil: Fork Fluid (Viscosity: 5W). CRF250R\"}, {\"claim_id\": \"58c37c84-aa91-5f85-bf66-dc92566ffe9b\", \"value\": \"Suspension / Fork / Oil capacity standard (outer tube, per leg): 380 cm3 (12.9 US oz, 13.4 Imp oz). CRF250R outer chamber (outer tube) oil, per leg standard spring same amount in both legs\"}]"
+  },
+  {
+   "id": "sus-028",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 16.9,
+   "prompt_version": "mx-engineering-95",
+   "specs": 4,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 58004,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 395,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 58399
+   },
+   "text": "Honda offers these stiffer springs for your **2023 CRF450R standard model**:\n\n| End | Standard | Honda stiff option |\n|---|---|---|\n| Fork springs | 5.0 N/mm | **5.2 N/mm** |\n| Shock spring | 56 N/mm | **58 N/mm** |\n\nThose are the published stiff options\u2014not a weight-based recommendation. Honda doesn\u2019t publish a rider-weight spring chart for this bike; choose the rates for your weight and pace, then confirm the shock choice with rider sag and free sag.\nHonda\u2019s stiffer options for your 2023 CRF450R are fork springs 5.2 N/mm and a shock spring 58 N/mm.\n[{\"claim_id\": \"009fd937-4034-53f6-b61d-a979db3a9a6a\", \"value\": \"Suspension / Fork spring / Stiff spring rate: 5.2 N/mm (29.7 lbf/in). optional spring\"}, {\"claim_id\": \"6d1de7d1-985c-538e-8567-25f3fc278a10\", \"value\": \"Suspension / Shock spring / Stiff spring rate: 58 N/mm (331.2 lbf/in). optional spring\"}, {\"claim_id\": \"028eeeae-2cc3-5c16-8f4d-65dea463cd76\", \"value\": \"Suspension / Fork spring / Standard spring rate: 5.0 N/mm (28.6 lbf/in). standard spring\"}, {\"claim_id\": \"b28cac5c-016f-5d5e-b0f1-1629ba6dc28f\", \"value\": \"Suspension / Shock spring / Standard spring rate: 56 N/mm (319.8 lbf/in). standard spring\"}]"
+  },
+  {
+   "id": "sus-033",
+   "ok": true,
+   "score": 0.75,
+   "hit": [
+    true,
+    true,
+    true,
+    false
+   ],
+   "bad": [],
+   "seconds": 29.6,
+   "prompt_version": "mx-engineering-95",
+   "specs": 2,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 56730,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 853,
+    "output_tokens_details": {
+     "reasoning_tokens": 57
+    },
+    "total_tokens": 57583
+   },
+   "text": "That combination often means the fork is **too soft and riding deep in its stroke**\u2014backing compression out can make both problems worse.\n\n1. **Fork air:** check it cold with the front wheel off the ground; if below GASGAS\u2019s standard **10.4 bar (151 psi)**, restore that reference before testing. Bleed the outer chambers through the bleeder screws, not the main air valve.\n2. **Fork compression:** if pressure is correct, try **2 clicks in from your current position** for more hold-up. The stock reference is **12 clicks out**; if you\u2019re there now, test **10 out**. Leave rebound unchanged.\n\nUse the same chop and a familiar landing. You want less dive and bottoming without sharper hits through the bars; undo the compression change if deflection increases. If support improves but chop stays harsh, check fork alignment and seal drag before chasing more clicks or oil volume.\n\n**What do you weigh in riding gear?** That decides whether the stock air-pressure reference needs moving upward or downward.\n\n**Changes to try, one at a time:**\n- **Fork air pressure:** If below the stock reference, restore to 10.4 bar (151 psi), checked cold with the front wheel unloaded.\n- **Fork compression:** With air pressure established, turn 2 clicks in from the current setting; from 12 to 10 clicks out if currently stock.\nHarsh chop plus bottoming often means the fork is riding too deep, not that it needs softer compression. Check cold air pressure first, then test slightly firmer compression.\n[{\"setting\": \"Fork air pressure\", \"change\": \"If below the stock reference, restore to 10.4 bar (151 psi), checked cold with the front wheel unloaded.\", \"expect\": \"More usable ride height and less bottoming.\", \"go_back_if\": \"Do not keep adding pressure if chop becomes sharper or the fork deflects.\"}, {\"setting\": \"Fork compression\", \"change\": \"With air pressure established, turn 2 clicks in from the current setting; from 12 to 10 clicks out if currently stock.\", \"expect\": \"Better hold-up and less bottoming without losing small-bump comfort.\", \"go_back_if\": \"Sharper impacts through the bars or increased deflection.\"}]\n[{\"claim_id\": \"b145037a-ce22-42a3-d31c-b1f6654f8f8b\", \"value\": \"Fork / Air pressure: 10.4 bar (151 psi). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"a88eca06-9eae-8c4f-68e9-03e4d847099a\", \"value\": \"Fork / Compression damping / Standard: 12 clicks. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Counted counterclockwise (softer) from the adjuster turned clockwise to its stop or last click, as the adjustment section of the same manual describes.\"}]\n[\"Rider weight in gear\", \"Current cold fork pressure and clicker settings\"]\n{\"action\": \"Check cold fork air pressure with the front wheel off the ground before changing compression.\", \"purpose\": \"Establish spring support before testing damping over the same section.\", \"stop_conditions\": [\"Fork oil leakage\", \"Binding or damaged fork components\"]}"
+  },
+  {
+   "id": "sus-038",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 25.4,
+   "prompt_version": "mx-engineering-95",
+   "specs": 4,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 61092,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 753,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 61845
+   },
+   "text": "Your fork needs more support under braking\u2014check its air spring before adding compression damping.\n\n- **Fork air:** GASGAS\u2019s stock reference is **10.4 bar (151 psi)**. Check it cold with the front wheel off the ground; correct it to that reference if low. Rider weight may call for a different pressure.\n- **Fork compression:** try **2 clicks in from your current position**. If it is at the stock 12 clicks out, go **from 12 to 10 clicks out**. Leave rebound unchanged; stock rebound is 12 out. Count from lightly seated, never forced.\n\nRetest the same braking zone for a few controlled laps. You want less dive without the front becoming sharp or losing grip; undo the compression change if that happens. Check rear balance too: stock targets are **105 mm rider sag and 35 mm static sag**\u2014a rear riding too high loads the fork.\n\nFor braking, stand and brace with your legs before squeezing the brake, keeping hips back over the pegs and arms loose. Practice five progressive straight-line stops, not harder brake grabs.\n\nWhat do you weigh in riding gear? That will help set the fork pressure correctly.\n\n**Changes to try, one at a time:**\n- **Fork air pressure:** Check cold, front wheel unloaded; restore to 10.4 bar (151 psi) if below the stock reference.\n- **Fork compression:** Turn 2 clicks in from current; if at stock, from 12 to 10 clicks out.\nCheck fork air pressure first, then try two clicks firmer fork compression to reduce braking dive.\n[{\"setting\": \"Fork air pressure\", \"change\": \"Check cold, front wheel unloaded; restore to 10.4 bar (151 psi) if below the stock reference.\", \"expect\": \"More spring support if low pressure caused the dive.\", \"go_back_if\": \"If already at reference, do not add pressure blindly; establish rider weight first.\"}, {\"setting\": \"Fork compression\", \"change\": \"Turn 2 clicks in from current; if at stock, from 12 to 10 clicks out.\", \"expect\": \"Less braking dive with usable front grip.\", \"go_back_if\": \"Front becomes harsh, deflects or loses corner-entry grip.\"}]\n[{\"claim_id\": \"a88eca06-9eae-8c4f-68e9-03e4d847099a\", \"value\": \"Fork / Compression damping / Standard: 12 clicks. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Counted counterclockwise (softer) from the adjuster turned clockwise to its stop or last click, as the adjustment section of the same manual describes.\"}, {\"claim_id\": \"e43665cb-46ef-70e7-dca4-d7c96c784373\", \"value\": \"Fork / Rebound damping / Standard: 12 clicks. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Counted counterclockwise (softer) from the adjuster turned clockwise to its stop or last click, as the adjustment section of the same manual describes.\"}, {\"claim_id\": \"c13c968f-a27b-03fc-2c96-d31b6e5464c0\", \"value\": \"Shock absorber / Riding sag: 105 mm (4.13 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.\"}, {\"claim_id\": \"a54b3ac0-ea5f-8e74-1933-b8d693852037\", \"value\": \"Shock absorber / Static sag: 35 mm (1.38 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.\"}]\n[\"Rider weight in gear\", \"Current cold fork pressure and compression position\"]\n{\"action\": \"Check cold fork pressure with the front wheel off the ground before testing compression.\", \"purpose\": \"Establish spring support before tuning damping.\", \"stop_conditions\": [\"Visible fork oil leakage or damaged components\"]}"
+  },
+  {
+   "id": "sus-043",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 15.7,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 56348,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 383,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 56731
+   },
+   "text": "**One click at a time** is the best testing step on your 2022 CRF250R\u2014testers consistently find this suspension sensitive to small changes. Two clicks can make a difference easier to feel, but start with one.\n\n- **Clockwise/in:** more damping\u2014firmer compression or slower rebound.\n- **Counterclockwise/out:** less damping\u2014softer compression or faster rebound.\n\nWrite down your starting position, change one adjuster, then ride the same section for a few laps at a consistent pace. Keep it only if the feel improves; otherwise return to baseline before trying something else.\n\nThe shock\u2019s **high-speed compression uses turns, not clicks**; common practice is a small **1/12-turn** test on a sensitive setup like this.\nChange one click at a time on this Honda, testing only one adjuster at a time."
+  },
+  {
+   "id": "sus-048",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 23.9,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 60278,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 645,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 60923
+   },
+   "text": "**That sounds like shock damping fading as it heats up.** Oil thinning can reduce damping, but a pronounced change from controlled cold to soft and bouncy hot warrants checking the shock\u2014not fitting a stiffer spring or winding in clickers.\n\nMost likely is tired oil or worn internal sealing; low nitrogen charge and oil aeration are another possibility. Both can let the shock compress too easily and rebound without control once hot. Cooling back to normal supports a heat-related fault but doesn't identify which one.\n\n**First, with the bike cool, engine off and securely supported, inspect the shock shaft, seal area and reservoir for oil or damage.** Note when it was last serviced. A dry shock can still have an internal fault, so have a suspension shop check its charge, oil and internal sealing before further hard riding. Honda specifically calls for checking nitrogen loss if rear ride height drops after riding; that drop hasn't been established here.\n\nDon't ride it while the rear is bouncing uncontrollably. Don't open the pressurized reservoir yourself.\nSoft and bouncy only after 20 minutes points to heat-related damping fade, not a spring problem. Check for leakage first; don't chase it with clickers.\n[{\"mechanism\": \"Heat-related damping loss from degraded oil or worn internal sealing.\", \"explains\": \"Damping is adequate cold but loses compression and rebound control hot.\", \"confirm\": \"Shock inspection identifies degraded oil or internal wear consistent with damping loss.\", \"reject\": \"Oil and internal sealing check satisfactory and another fault is demonstrated.\"}, {\"mechanism\": \"Low nitrogen charge or gas/oil separation failure allows aeration.\", \"explains\": \"Damping becomes inconsistent as the shock works and heats.\", \"confirm\": \"Suspension technician verifies charge loss or separator/sealing failure.\", \"reject\": \"Charge and separation system meet applicable service criteria.\"}]\n[\"Shock service history and installed shock identity.\", \"Whether rear ride height also drops after riding.\", \"Presence of external oil leakage.\"]\n{\"action\": \"Inspect the cool shock externally for oil leakage and damage.\", \"purpose\": \"Identify an external fault before a suspension-shop charge and internal inspection.\", \"stop_conditions\": [\"Oil leakage or damaged shock components.\", \"Uncontrolled rear bouncing; no further riding until checked.\", \"Do not open the pressurized reservoir.\"]}"
+  },
+  {
+   "id": "sus-053",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 15.7,
+   "prompt_version": "mx-engineering-95",
+   "specs": 2,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 60102,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 471,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 60573
+   },
+   "text": "Yes\u2014the tires absorb the first part of every bump, so pressure can make the suspension feel harsh or soft without touching a clicker.\n\n- **Higher pressure:** firmer feel, more deflection over chop, but better rim protection on rocks, square edges and hard landings.\n- **Lower pressure:** more compliance and grip, but too low feels vague or squirmy and risks pinch flats and rim damage.\n\nHonda\u2019s baseline for your 2023 CRF450R is **100 kPa (15 psi) cold, front and rear**. Set that before judging the suspension. As general tuning practice, adjust only one tire by about **1 psi at a time**: lower for smooth slick dirt or deep sand, higher for sharp impacts. Ride the same section to compare; stop lowering at the first rim strike or squirm.\n\nCheck pressures cold at the track. Don\u2019t bleed a hot tire back down to the cold baseline\u2014pressure naturally rises as it heats.\nYes\u2014tire pressure changes bump absorption and grip enough to feel like a suspension change. Start your CRF450R at Honda\u2019s cold baseline of 100 kPa (15 psi) front and rear.\n[{\"claim_id\": \"0784989d-059e-59f0-ac32-c54681102846\", \"value\": \"Front tire pressure: 100 kPa. OEM cold-tire baseline; measure tires cold. Terrain and aftermarket tires require contextual review.\"}, {\"claim_id\": \"20065727-fd89-5d02-a17d-ab55db56edb7\", \"value\": \"Rear tire pressure: 100 kPa. OEM cold-tire baseline; measure tires cold. Terrain and aftermarket tires require contextual review.\"}]"
+  },
+  {
+   "id": "sus-058",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 18.8,
+   "prompt_version": "mx-engineering-95",
+   "specs": 2,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 56850,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 578,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 57428
+   },
+   "text": "**Your shock spring is likely too soft for your weight.** Getting rider sag to 105 mm has taken enough preload that the rear barely settles under the bike\u2019s own weight.\n\nGASGAS specifies **105 mm rider sag and 35 mm static sag**. Your 20 mm static sag is 15 mm short. Assuming the linkage moves freely and the measurements repeat, that points toward a stiffer shock spring\u2014not a clicker change. Simply backing off preload will increase static sag but also put rider sag beyond its target.\n\nRecheck both measurements using the same axle-to-fender points, settling the rear from both directions; noticeably different readings suggest linkage or seal friction. Once a stiffer spring is fitted, reset rider sag to 105 mm and confirm static sag comes close to 35 mm.\n\nWhat do you weigh in full riding gear, and what rate is marked on your current shock spring? Those two details decide the next spring rate.\nYour shock spring is likely too soft: reaching 105 mm rider sag takes excessive preload, leaving only 20 mm static sag.\n[{\"claim_id\": \"c13c968f-a27b-03fc-2c96-d31b6e5464c0\", \"value\": \"Shock absorber / Riding sag: 105 mm (4.13 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.\"}, {\"claim_id\": \"a54b3ac0-ea5f-8e74-1933-b8d693852037\", \"value\": \"Shock absorber / Static sag: 35 mm (1.38 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.\"}]\n[\"Rider weight in full gear.\", \"Installed shock spring rate.\", \"Measurement repeatability and linkage freedom.\"]\n{\"action\": \"Repeat rider and static sag measurements, settling the rear from both directions.\", \"purpose\": \"Confirm the spring-rate indication and rule out friction affecting sag.\", \"stop_conditions\": [\"Binding or play in the linkage or shock mounts.\"]}"
+  },
+  {
+   "id": "sus-063",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 20.8,
+   "prompt_version": "mx-engineering-95",
+   "specs": 5,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 60580,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 631,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 61211
+   },
+   "text": "On your 2023 CRF450R\u2019s **standard shock spring 56 N/mm, anything shorter than 222.9 mm (8.78 in) installed length is too much preload**. Measure the spring seat-to-seat with the rear wheel off the ground\u2014not the exposed shock threads.\n\nHonda\u2019s allowed installed-length range is **222.9\u2013233 mm**, with **232.3 mm (9.15 in)** standard. Shortening the spring adds preload and reduces sag; lengthening it does the opposite. One adjuster turn changes spring length by **1.5 mm**\u2014that is not 1.5 mm of rider sag.\n\nAim for **105 mm rider sag** on the standard spring. If you still have too much sag at the shortest allowed spring length, you need a stiffer spring, not more preload. Preload changes ride height; it does not stiffen the spring rate.\n\nAlso check free sag with you off the bike: very little free sag after setting rider sag points to a spring that\u2019s too soft. Honda publishes no free-sag target for this bike; **roughly 30\u201340 mm is general tuning guidance**, not Honda\u2019s specification. These installed-length limits apply only to the standard spring.\nOn your 2023 CRF450R\u2019s standard shock spring, preload is too much if installed spring length falls below 222.9 mm. Use sag\u2014not a universal preload number\u2014to decide whether the spring suits you.\n[{\"claim_id\": \"e00c4124-4c89-5c46-9c34-c6154f1aeca8\", \"value\": \"Suspension / Shock / Spring installed length range standard spring: 222.9 - 233 mm (8.78 - 9.20 in). standard spring 56 N/mm\"}, {\"claim_id\": \"2d441efe-b0c3-5e81-a522-da8b6be610de\", \"value\": \"Suspension / Shock / Spring installed length standard: 232.3 mm (9.15 in). standard spring preload baseline\"}, {\"claim_id\": \"ba0aa51b-188a-5956-b35b-b6dd5e0f3b4e\", \"value\": \"Suspension / Shock / Preload per adjuster turn: 1 turn = 1.5 mm spring length = 84 N preload. standard spring\"}, {\"claim_id\": \"dddea2b1-0f3f-89bd-0b12-d5c290c06046\", \"value\": \"Shock / Race sag / Standard (standard spring): 105 mm. Applies to the standard R model named in this handbook; other variants covered by the same handbook have different values. Stock OEM parts only. Race sag is the unloaded measurement minus the rider-aboard measurement with the bike at race weight, per the procedure on the cited page.\"}, {\"claim_id\": \"b28cac5c-016f-5d5e-b0f1-1629ba6dc28f\", \"value\": \"Suspension / Shock spring / Standard spring rate: 56 N/mm (319.8 lbf/in). standard spring\"}]\n{\"action\": \"Measure installed spring length with the rear wheel unloaded, then measure rider sag in full gear.\", \"purpose\": \"Check preload against the standard spring\\u2019s allowed range and 105 mm sag target.\", \"stop_conditions\": [\"Installed standard spring length below 222.9 mm: do not add more preload.\"]}"
+  },
+  {
+   "id": "sus-068",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 26.4,
+   "prompt_version": "mx-engineering-95",
+   "specs": 2,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 61913,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 743,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 62656
+   },
+   "text": "**Most often it\u2019s how or when you measure it.** Different gear, fuel, mud on the bike, rider position, or cold-versus-just-ridden measurements can all move the reading.\n\nCheck in this order:\n1. **Repeat the measurement consistently:** same gear, fuel load, upright bike and rider position. Honda\u2019s standard race sag is **105 mm (4.1 in)** with the standard shock spring. Measure from the center of the left rear-fender bolt to the center of the chain-adjuster locknut, first with the rear wheel off the ground, then rider aboard.\n2. **Check for sticking:** take the rider-aboard reading after pushing the rear down, then again after lifting it and letting it settle. Different readings point toward friction in the linkage, swingarm or shock\u2014not a preload adjustment.\n3. **Check the preload lock rings:** mark their position and see whether they move between rides. A new spring can also settle initially; continued drift needs checking.\n\nHonda publishes no static-sag target for this bike; recording rider-off sag alongside race sag helps separate measurement changes from mechanical changes. Don\u2019t ride if you find loose hardware, bearing play or a shock leak.\n\nHow many millimeters does it change, measured cold under the same conditions?\nChanging sag usually comes from inconsistent measuring conditions, suspension friction, or a preload collar moving\u2014not a spring changing rate between rides.\n[{\"claim_id\": \"abe9038d-f57b-0d41-90fb-68652ee186a5\", \"value\": \"Shock / Race sag / Standard (standard spring): 105 mm. Applies to the standard R model named in this handbook; other variants covered by the same handbook have different values. Stock OEM parts only. Race sag is the unloaded measurement minus the rider-aboard measurement with the bike at race weight, per the procedure on the cited page.\"}, {\"claim_id\": \"98e69dab-807a-5c08-95b4-3f2a707cb972\", \"value\": \"Suspension / Shock / Race sag measurement points: Center of left side rear fender bolt to center of drive chain adjuster lock nut, unloaded (rear wheel off ground) minus loaded with rider. CRF250R\"}]\n[{\"mechanism\": \"Measurement conditions or rider position vary.\", \"explains\": \"Sag changes without a change in spring preload.\", \"confirm\": \"Repeated measurements agree when load, position and temperature are controlled.\", \"reject\": \"Sag still drifts under identical measuring conditions.\"}, {\"mechanism\": \"Suspension friction prevents repeatable settling.\", \"explains\": \"Different resting heights after compressing versus lifting the rear.\", \"confirm\": \"Readings differ consistently depending on settling direction.\", \"reject\": \"Both settling directions produce consistent readings.\"}, {\"mechanism\": \"Preload rings move or a newly fitted spring settles.\", \"explains\": \"Persistent ride-to-ride change under otherwise identical conditions.\", \"confirm\": \"Witness marks move, or initial settling stabilizes afterward.\", \"reject\": \"Preload position remains unchanged and no recent spring installation occurred.\"}]\n[\"Size of sag change.\", \"Cold versus hot measurement consistency.\", \"Preload-ring security and suspension bearing condition.\"]\n{\"action\": \"Repeat cold race-sag measurements with identical load, approaching the resting position from both directions.\", \"purpose\": \"Separate measurement variation from suspension friction before adjusting preload.\", \"stop_conditions\": [\"Loose suspension hardware or bearing play.\", \"Shock oil leakage.\"]}"
+  },
+  {
+   "id": "sus-073",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 16.9,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 57792,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 445,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 58237
+   },
+   "text": "**Bleed the forks after practice and between motos**, with the front wheel off the ground and the forks fully extended.\n\n1. Let the forks cool, then put the bike securely on a stand so the front wheel hangs free.\n2. Clean around the small air-release screw on top of each fork leg.\n3. Slowly loosen each release screw to let trapped air hiss out\u2014do not loosen the large fork cap or the damping adjuster.\n4. Once the hissing stops, gently reseat each screw. Don\u2019t overtighten them.\n\nYour CRF450R has coil-spring forks: you\u2019re releasing unwanted pressure, **not setting an air-spring pressure**. Built-up air can make the forks feel firmer as you ride.\n\nFor the guided job, tap **\u201cWorking on the bike?\u201d** above the message box and choose **\u201cRelease built-up air from the fork.\u201d**\nBleed built-up fork air after practice and between motos, with the front wheel off the ground and the forks fully extended."
+  },
+  {
+   "id": "sus-078",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 24.4,
+   "prompt_version": "mx-engineering-95",
+   "specs": 3,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 56681,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 819,
+    "output_tokens_details": {
+     "reasoning_tokens": 59
+    },
+    "total_tokens": 57500
+   },
+   "text": "**Don\u2019t loosen the air-side cap until the main air spring has been depressurised by the correct service procedure.** The small bleeder screw only vents the outer chamber\u2014it does not empty the pressurised air spring.\n\nFor routine care on your 2023 MC 250F:\n1. With the fork cold, put the bike on a secure stand with the front wheel off the ground.\n2. Loosen the small bleeder screw on each fork leg to release trapped outer-chamber pressure, then close both screws.\n3. Check the main air-spring pressure with a suspension pump. GASGAS\u2019s stock reference is **10.4 bar (151 psi)**.\n4. Clean the dust boots and tubes; keep oil and cleaner off the brake disc. A leaking oil seal needs checking before riding.\n\nFor **internal air-side service**, GASGAS specifies left outer-chamber oil as **230 +10 ml (7.78 +0.34 fl oz), SAE 4**. That is not an instruction to pour oil into the air valve. Fork service is due **once after 10 hours, then every 40 hours**, sooner in harsh conditions.\n\nThe internal air-spring teardown, depressurisation sequence and cap torque aren\u2019t confirmed here; those require the matching WP service procedure before opening it.\n\nI can guide the routine job, **\u201cRelease built-up air from the fork and clean the dust boots.\u201d** Tap **\u201cWorking on the bike?\u201d** above the message box; have a stand, bleeder screwdriver, clean rags and universal oil spray ready.\nRoutine air-side care is pressure checking, bleeding the outer chambers and cleaning the dust boots. Internal air-spring service requires a separate depressurisation and rebuild procedure; bleeding the outer chambers does not make it safe to dismantle.\n[{\"claim_id\": \"b145037a-ce22-42a3-d31c-b1f6654f8f8b\", \"value\": \"Fork / Air pressure: 10.4 bar (151 psi). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"1800089e-dc4b-5c0b-ef4b-afadfcb581bf\", \"value\": \"Service schedule / Service the fork: once after 10 operating hours; every 40 operating hours. From the manufacturer service schedule for the US standard model. \\\"once\\\" marks a one-time interval; the other entries repeat. The same manual says harsh conditions can call for shorter intervals.\"}, {\"claim_id\": \"ed86e933-fc9f-8a63-fa7c-096371648def\", \"value\": \"Fork / Oil capacity external mechanism left: 230 +10 ml (7.78 +0.34 fl. oz.); Fork oil (SAE 4) (48601166S1). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}]\n{\"action\": \"Start the guided fork-bleeding and dust-boot-cleaning job with the fork cold.\", \"purpose\": \"Complete external maintenance without opening the pressurised air spring.\", \"stop_conditions\": [\"Oil leaking from a fork seal\", \"Unstable bike support\"]}"
+  },
+  {
+   "id": "sus-083",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 23.3,
+   "prompt_version": "mx-engineering-95",
+   "specs": 3,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 63407,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 571,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 63978
+   },
+   "text": "**Yes\u2014give new suspension or freshly rebuilt forks a bedding-in ride before judging the setup.** New seals and bushings can feel tight initially; a rebuild that reused them may change very little.\n\nA suspension-specific break-in duration for your 2023 CRF450R isn't confirmed here. As general shop practice, start with an easy session, build the loads progressively, then reassess once everything is warm. Don\u2019t immediately soften all the clickers to chase initial stiffness.\n\nAfterward:\n- Check for leaks and smooth, consistent movement. Binding, knocking or lost damping needs checking\u2014not more break-in.\n- Release built-up fork air with the front wheel off the ground and forks fully extended, after practice and between motos. Retighten the fork plug bolts to **1.3 N\u00b7m (about 12 in-lb)**.\n- Recheck rear race sag after new or rebuilt rear suspension settles: Honda\u2019s standard-spring target is **105 mm**.\n\nHonda also calls for fork-oil replacement after the first break-in ride on new suspension; the regular interval is every **9 races (about 22.5 hours)**. For freshly rebuilt forks, follow the rebuilder\u2019s initial-service instructions rather than assuming another immediate oil change is required.\nYes\u2014new suspension and freshly rebuilt forks need a short bedding-in period before you judge the settings. Initial tightness should ease, not become binding or inconsistent.\n[{\"claim_id\": \"c059e0f3-5a4a-5455-adea-e535b4ca54da\", \"value\": \"Fork plug bolt: 1.3 N\\u00b7m. Use OEM installation procedure; torque alone is not a complete service instruction.\"}, {\"claim_id\": \"dddea2b1-0f3f-89bd-0b12-d5c290c06046\", \"value\": \"Shock / Race sag / Standard (standard spring): 105 mm. Applies to the standard R model named in this handbook; other variants covered by the same handbook have different values. Stock OEM parts only. Race sag is the unloaded measurement minus the rider-aboard measurement with the bike at race weight, per the procedure on the cited page.\"}, {\"claim_id\": \"6244d660-ee86-5cd3-9acb-cd56767588bf\", \"value\": \"Maintenance schedule / Fork Oil / Replace: every 9 races (about 22.5 hours). Note 3: replace after the first break-in ride\"}]"
+  },
+  {
+   "id": "sus-088",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 21.9,
+   "prompt_version": "mx-engineering-95",
+   "specs": 3,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 54876,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 632,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 55508
+   },
+   "text": "On your 2023 MC 250F, GASGAS calls for **shock service once at 20 hours, then every 40 hours**, sooner in harsh conditions. If its service history is unknown, book a service rather than waiting for it to feel bad.\n\nHere\u2019s the general workshop check:\n1. **Clean and inspect:** look for fresh oil that returns around the shaft seal after cycling the suspension, a nicked or rusty shaft, and damage to the shock body. Dirt stuck to an oily film deserves a closer look.\n2. **Check play:** secure the bike on a stand with the rear wheel unloaded, then gently lift the wheel. Watch the linkage and shock mounts for movement before the shock compresses. Bearing play needs repair, but does not automatically mean the damper needs rebuilding.\n3. **Push and release the rear:** it should compress and return smoothly, without sticking or repeated bouncing. This catches obvious problems\u2014not worn oil or lost gas pressure reliably.\n4. **Consider its recent behavior:** new pogoing, bottoming or kicking at unchanged settings, especially worsening during a moto, warrants damper inspection.\n\nSag checks spring setup, not internal condition: GASGAS targets **105 mm riding sag and 35 mm static sag**.\n\nStop riding for active leakage, shaft damage or uncontrolled bouncing. Internal oil, seal and nitrogen work belongs with a suspension shop.\nYour shock is due for its first service at 20 hours, then every 40 hours. Check for leakage, shaft damage, bearing play and weak or inconsistent damping; sag alone does not tell you it needs rebuilding.\n[{\"claim_id\": \"57221296-c315-18c7-1509-5233574f1aca\", \"value\": \"Service schedule / Perform the shock absorber service: once after 20 operating hours; every 40 operating hours. From the manufacturer service schedule for the US standard model. \\\"once\\\" marks a one-time interval; the other entries repeat. The same manual says harsh conditions can call for shorter intervals.\"}, {\"claim_id\": \"a54b3ac0-ea5f-8e74-1933-b8d693852037\", \"value\": \"Shock absorber / Static sag: 35 mm (1.38 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.\"}, {\"claim_id\": \"c13c968f-a27b-03fc-2c96-d31b6e5464c0\", \"value\": \"Shock absorber / Riding sag: 105 mm (4.13 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.\"}]\n[\"Hours since the shock's last service and its current condition.\"]\n{\"action\": \"Clean the shock and inspect the shaft, seal area and mounts with the bike securely supported.\", \"purpose\": \"Separate visible shock damage or leakage from linkage and mount wear.\", \"stop_conditions\": [\"Active shock oil leakage\", \"Damaged shaft or loose mounts\", \"Bike cannot be supported securely\"]}"
+  },
+  {
+   "id": "sus-093",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 22.2,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 56360,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 513,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 56873
+   },
+   "text": "**Clickers trim the damping; a revalve changes how the damping builds through a hit.**\n\n- **Clickers** adjust an existing oil-flow circuit. They can make compression firmer or softer, or rebound slower or faster, but only within the limits of the internal design. Their effects overlap\u2014you can't precisely isolate small chop from hard landings.\n- **A revalve** changes the internal shim stacks and, where needed, piston flow characteristics. That changes how readily the valves open and how resistance increases with suspension speed. Suspension speed means how fast the fork or shock moves\u2014not bike speed.\n\nThat lets a tuner target **less sting over sharp chop while retaining support under braking and on landings**, rather than backing the compression out until it's comfortable but dives. It isn't automatically softer: a revalve can add support, free up sharp-hit response, or reshape rebound control.\n\nTesters consistently report a firm, harsh fork paired with a softer shock on your 2022 CRF250R, so balancing both ends matters more than simply softening the fork.\n\n**Revalving won't fix wrong springs, binding or worn parts.** Get those right first; consider valving when improving one part of the track consistently makes another worse.\nClickers fine-tune the damping available; a revalve changes the underlying damping curve so comfort and support can be tuned separately."
+  },
+  {
+   "id": "sus-098",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 21.3,
+   "prompt_version": "mx-engineering-95",
+   "specs": 1,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 56433,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 481,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 56914
+   },
+   "text": "**An air fork uses compressed air instead of a steel coil spring to support the bike and rider. Both still use oil to control movement.**\n\n- **Air fork inside:** a sealed piston compresses an air chamber as the fork moves down. The farther it compresses, the more strongly the air resists. A negative-air chamber helps counter that force near full extension so the fork starts moving more easily.\n- **Coil-spring fork inside:** a steel coil compresses as the fork moves down. With a straight-rate spring, its force builds roughly evenly through the stroke. Trapped air above the oil adds extra resistance near bottoming.\n- **Damping in both:** oil flows through pistons, valves and shim stacks to control compression and rebound. The spring supports the load; the damping stops it bouncing uncontrollably.\n\nYour MC 250F has a **WP XACT AER**, with the air-spring assembly in the left leg and the main damping cartridge in the right. You adjust spring support with air pressure rather than swapping coils. Air saves weight and makes support easy to adjust; coils need fewer pressure checks and are less sensitive to temperature. Neither design automatically guarantees better damping.\nBoth use oil damping; the difference is what carries the load: compressed air versus a steel coil spring.\n[{\"claim_id\": \"34772cdb-7bd0-4af5-28f4-86ef5c06fb18\", \"value\": \"Fork / Fork: WP XACT AER. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}]"
+  },
+  {
+   "id": "eng-003",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 13.1,
+   "prompt_version": "mx-engineering-95",
+   "specs": 1,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 51066,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 212,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 51278
+   },
+   "text": "Your 2023 KTM 450 SX-F should idle at **2,100\u20132,200 rpm**, with the engine fully warmed up. Check it with a tachometer rather than by ear\u2014a big four-stroke MX bike idles faster than you might expect.\nYour 2023 KTM 450 SX-F should idle at 2,100\u20132,200 rpm.\n[{\"claim_id\": \"f67a1401-eb34-d86c-25ff-e44b699a40a0\", \"value\": \"Engine / Idle speed: 2,100 \\u2026 2,200 rpm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}]"
+  },
+  {
+   "id": "eng-008",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true
+   ],
+   "bad": [],
+   "seconds": 14.3,
+   "prompt_version": "mx-engineering-95",
+   "specs": 2,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 55219,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 252,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 55471
+   },
+   "text": "Honda says to replace the **piston and rings every 6 races or about 15.0 hours** on your 2022 CRF250R. The **piston pin is due at the same interval**.\n\nThat\u2019s Honda\u2019s race-service schedule\u2014plan replacement at or before it, not beyond it based on how well the engine still runs.\nHonda specifies replacing the piston and rings every 6 races or about 15 hours on your 2022 CRF250R.\n[{\"claim_id\": \"f670dc30-8f6e-5c90-8621-8a3e3662a9b8\", \"value\": \"Maintenance Schedule / Piston and piston rings / Replace: every 6 races or about 15.0 hours interval. CRF250R\"}, {\"claim_id\": \"6877a8c4-9f44-5837-8b92-ede0d81f97c6\", \"value\": \"Maintenance Schedule / Piston pin / Replace: every 6 races or about 15.0 hours interval. CRF250R\"}]"
+  },
+  {
+   "id": "eng-013",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true
+   ],
+   "bad": [],
+   "seconds": 14.9,
+   "prompt_version": "mx-engineering-95",
+   "specs": 1,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 55585,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 233,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 55818
+   },
+   "text": "Yamaha\u2019s stock air screw setting for your 2022 YZ125 is **2-5/8 turns out from lightly seated**. Turn it in gently until it just seats\u2014don\u2019t tighten it\u2014then back it out 2 full turns plus 5/8 turn.\n\nOut makes the low-speed mixture leaner; in makes it richer.\nThe stock air screw setting is 2-5/8 turns out from lightly seated.\n[{\"claim_id\": \"ddea1056-3445-dcc1-c740-f8fee917f064\", \"value\": \"Carburetor / Air screw turns out: 2-5/8. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.\"}]"
+  },
+  {
+   "id": "eng-018",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 16.6,
+   "prompt_version": "mx-engineering-95",
+   "specs": 3,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 58084,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 415,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 58499
+   },
+   "text": "Your 2022 YZ125 takes **0.7 L (0.74 US qt) of SAE 10W-40 motor oil, API SG or higher**, for a normal transmission oil change. Choose oil suitable for a motorcycle wet clutch.\n\nAfter complete transmission disassembly, the fill is **0.76 L (0.80 US qt)** instead. Verify the level with the bike upright at the oil-check bolt, with the oil cool enough to handle safely.\nUse 0.7 L (0.74 US qt) of SAE 10W-40 motor oil, API SG or higher, for a normal transmission oil change.\n[{\"claim_id\": \"3cee1430-077d-47bd-c9a3-356369d1ce90\", \"value\": \"Transmission oil / Type: Motor oil SAE 10W-40 type SG or higher. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.\"}, {\"claim_id\": \"ad6a3259-83be-38ba-c201-2ecfe99f3c61\", \"value\": \"Transmission oil / Quantity: 0.7 L. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Retain the stated periodic-change or disassembled fill condition; verify level by OEM procedure.\"}, {\"claim_id\": \"79fda88e-10c2-efbd-efdc-854a9a47cdcf\", \"value\": \"Transmission oil / Quantity (disassembled): 0.76 L. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Retain the stated periodic-change or disassembled fill condition; verify level by OEM procedure.\"}]"
+  },
+  {
+   "id": "eng-023",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true
+   ],
+   "bad": [],
+   "seconds": 17.0,
+   "prompt_version": "mx-engineering-95",
+   "specs": 1,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 59067,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 300,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 59367
+   },
+   "text": "**#165 main jet** is Yamaha\u2019s starting point for sandy conditions below **10\u00b0C (50\u00b0F)** on your 2022 YZ125 with the stock engine and exhaust.\n\nThe matching setting is **NYDF needle, clip 2 from the top; #75 pilot; #35 power jet; air screw at its factory-set position**. Cold air and sustained sand load call for richer jetting.\n\nWhat track or elevation in feet are you riding? That determines whether this starting point needs correcting. Stop if it pings, detonates or loses power suddenly.\nRun a #165 main as Yamaha\u2019s cold-sand starting point below 50\u00b0F, for the stock engine and exhaust.\n[{\"claim_id\": \"5ed948eb-71ba-ea8e-03e0-032ab8038b18\", \"value\": \"Carburetor tuning / sandy condition / under 10 \\u00b0C (50 \\u00b0F), winter: main jet #165; jet needle-clip position NYDF-2; pilot jet #75; pilot air screw at the ex-factory setting; power jet #35. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.\"}]\n[\"Riding elevation\", \"Whether engine and exhaust are stock\"]"
+  },
+  {
+   "id": "eng-028",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 26.4,
+   "prompt_version": "mx-engineering-95",
+   "specs": 4,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 53169,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 804,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 53973
+   },
+   "text": "**Valves tightening every few hours usually means the valve faces or seats are wearing**, letting the valves sit farther into the head and closing the clearance. Repeatedly fitting thinner shims restores the gap temporarily\u2014it does not fix the cause.\n\nFirst confirm the readings with the engine cold, at compression TDC, using the same measuring method. KTM specifies at **20 \u00b0C (68 \u00b0F)**:\n- Intake: **0.10\u20130.15 mm (0.0039\u20130.0059 in)**.\n- Exhaust: **0.12\u20130.17 mm (0.0047\u20130.0067 in)**.\n\nIf that repeat check confirms the trend, the head needs inspection for valve-face and seat wear, valve damage and sealing. The usual lasting repair is replacement valves and properly restored seats, with springs and related hardware assessed\u2014not another round of shims. Check the intake tract for dust getting past the filter, too.\n\n**Don't keep riding or reshimming around this:** a valve that loses its clearance can stop sealing and burn. KTM schedules clearance checks after the first hour and every 45 hours, with valve replacement in the 90-hour major service; your tightening trend calls for attention now, regardless of hours.\n\nAre the intakes tightening, the exhausts, or both?\nClearances tightening every few hours usually mean valve-face or seat wear, not routine adjustment. Stop riding until the trend is confirmed and the head is checked; repeated reshimming does not fix the wear.\n[{\"claim_id\": \"84a39470-dfd2-4879-dcdc-5a07b2db31c1\", \"value\": \"Engine / Valve clearance / Intake at: 20 \\u00b0C (68 \\u00b0F): 0.10 \\u2026 0.15 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"4056e9fc-e0e6-9ace-eb9c-bca348e5ed17\", \"value\": \"Engine / Valve clearance / Exhaust at: 20 \\u00b0C (68 \\u00b0F): 0.12 \\u2026 0.17 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"b4ee5911-95b8-50b7-eb57-9e58041b8456\", \"value\": \"Service schedule / Perform major engine service, engine is removed. (Change valves, valve springs, valve spring seats, and valve spring retainer. Change the connecting rod, conrod bearing and crank pin. Check the transmission and the shift mechanism. Check the oil pressure control valve. Change the suction pump. Check the force pump and lubrication system. Change the timing chain. Change all engine bearings and all gaskets. Change the freewheel.): every 90 operating hours. From the manufacturer service schedule for the US standard model. \\\"once\\\" marks a one-time interval; the other entries repeat. The same manual says harsh conditions can call for shorter intervals.\"}, {\"claim_id\": \"b7159778-4f1c-124c-6a90-c6a36756fe88\", \"value\": \"Service schedule / Check the valve clearance: once after 1 operating hour; every 45 operating hours; every 90 operating hours. From the manufacturer service schedule for the US standard model. \\\"once\\\" marks a one-time interval; the other entries repeat. The same manual says harsh conditions can call for shorter intervals.\"}]\n[{\"mechanism\": \"Valve-face or seat wear allows valves to recede into the head.\", \"explains\": \"Repeated loss of clearance after adjustment.\", \"confirm\": \"Consistent cold measurements and head inspection demonstrate recession or worn sealing surfaces.\", \"reject\": \"Correctly repeated measurements remain stable and previous readings prove inconsistent.\"}, {\"mechanism\": \"Inconsistent temperature or crank position changes measured clearance.\", \"explains\": \"Apparent tightening without established component wear.\", \"confirm\": \"Readings differ when checked cold at compression TDC.\", \"reject\": \"The same controlled measurement method repeatedly confirms shrinking clearance.\"}]\n[\"Which valves are tightening and their measured clearance history.\", \"Engine hours and previous shim changes.\"]\n{\"action\": \"With the engine cold, recheck and record each valve clearance at compression TDC before further running.\", \"purpose\": \"Confirm genuine clearance loss before arranging head inspection.\", \"stop_conditions\": [\"Any valve has no measurable clearance.\", \"Confirmed repeated tightening.\", \"Hard starting or abnormal mechanical noise.\"]}"
+  },
+  {
+   "id": "eng-033",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 18.1,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 50312,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 467,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 50779
+   },
+   "text": "**A leak-down test tells you where cylinder pressure is escaping\u2014not just whether cranking pressure is low.**\n\n- **Compression test:** a gauge records pressure as the starter turns the engine. It\u2019s a quick overall check, but the reading changes with cranking speed, throttle position and decompression hardware. Low pressure alone doesn\u2019t tell you which part is leaking.\n- **Leak-down test:** with the piston held at top dead center on the compression stroke and both valves closed, regulated compressed air enters through the spark-plug hole. The tester indicates leakage, and you listen for its path:\n  - Intake: intake valves leaking.\n  - Exhaust: exhaust valves leaking.\n  - Crankcase breather: leakage past the rings/piston into the cylinder wall clearance; some is normal.\n  - Bubbles in coolant: possible head-gasket, head or cylinder sealing problem.\n\nLeak-down is better for separating **valve leakage from ring/cylinder leakage**. It doesn\u2019t directly check oil-control rings or prove the engine is healthy under load, and readings depend on the tester and procedure.\n\nCompressed air can turn the engine suddenly, so the crank must be secured correctly; inspect coolant only with the engine cold.\nA compression test checks pressure built while cranking; a leak-down test checks how well the cylinder seals and helps locate where pressure escapes."
+  },
+  {
+   "id": "eng-038",
+   "ok": true,
+   "score": 0.5,
+   "hit": [
+    true,
+    false,
+    false,
+    true
+   ],
+   "bad": [],
+   "seconds": 22.8,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 59543,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 614,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 60157
+   },
+   "text": "**Shut it off and don\u2019t restart it to warm the oil.** Milky oil can mean water or coolant mixing into it; a light haze confined to the sight glass can also be condensation.\n\nLet the engine cool completely, then drain a small oil sample into a clean, clear container without running it. Cloudy, creamy oil or separated water means contamination\u2014not an oil change and ride situation. With everything cold, also check whether the coolant level has dropped.\n\nIf the sample is contaminated, the next checks are cooling-system pressure testing and tracing water entry before refilling and running it. Coolant loss points toward an internal cooling-system leak; recent washing or water crossings point toward outside water entry. Neither is confirmed yet.\n\nIs the whole oil level creamy, or is there only a pale film on the glass?\nMilky oil can mean water or coolant contamination. Don\u2019t restart it until you establish whether the oil itself is milky or only the sight glass is fogged.\n[{\"mechanism\": \"Coolant leaking internally into the shared engine oil.\", \"explains\": \"Water-based coolant emulsifies with oil, producing a milky appearance.\", \"confirm\": \"Contaminated drained oil plus coolant loss or a pressure test locating internal leakage.\", \"reject\": \"Clear oil sample and verified cooling-system integrity weaken this explanation.\"}, {\"mechanism\": \"Outside water entry or condensation.\", \"explains\": \"Water can emulsify in oil; condensation may leave haze on the window.\", \"confirm\": \"Water in the sample with recent water exposure, or haze confined to glass with clear oil.\", \"reject\": \"Demonstrated internal coolant leakage points elsewhere.\"}]\n[\"Whether the oil itself is milky.\", \"Coolant level trend and recent washing or water exposure.\"]\n{\"action\": \"Let it cool fully and collect a drained oil sample without restarting.\", \"purpose\": \"Distinguish contaminated oil from sight-glass haze.\", \"stop_conditions\": [\"Milky oil, separated water or metal: leave the engine off pending investigation.\"]}"
+  },
+  {
+   "id": "eng-043",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 26.7,
+   "prompt_version": "mx-engineering-95",
+   "specs": 4,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 58524,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 847,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 59371
+   },
+   "text": "**Could be either\u2014sound alone won\u2019t settle it.** A crisp, regular tick suggests valve lash or rocker wear; a loose metallic rattle, especially at startup or as rpm falls, points more toward the cam chain or tensioner. Tight valves can stay quiet, so ticking doesn\u2019t prove the valves need adjustment.\n\nFirst, with the engine cold and the bike upright on level ground, check that the oil reaches the middle of the sight glass. Don\u2019t restart it just to reproduce a new or worsening tick; a loud rattle, knock, metal in the oil or low oil means stop until checked.\n\nThen measure clearances at **20 \u00b0C (68 \u00b0F)**:\n- Intake: **0.10\u20130.15 mm (0.0039\u20130.0059 in)**.\n- Exhaust: **0.12\u20130.17 mm (0.0047\u20130.0067 in)**.\n\nIf clearances are correct, inspect the rocker/cam contact surfaces and timing-chain system next\u2014not just replace the tensioner by guesswork. KTM calls for valve checks after the first hour, then every **45 hours**, and timing-chain replacement at the **90-hour** major service.\n\nDoes it tick only on a cold start, or stay there fully warm? That distinction helps choose the next inspection.\nSound alone won\u2019t separate valve lash from cam-chain or tensioner noise. Check oil level first, then cold valve clearances before disturbing the tensioner.\n[{\"claim_id\": \"4056e9fc-e0e6-9ace-eb9c-bca348e5ed17\", \"value\": \"Engine / Valve clearance / Exhaust at: 20 \\u00b0C (68 \\u00b0F): 0.12 \\u2026 0.17 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"84a39470-dfd2-4879-dcdc-5a07b2db31c1\", \"value\": \"Engine / Valve clearance / Intake at: 20 \\u00b0C (68 \\u00b0F): 0.10 \\u2026 0.15 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"b7159778-4f1c-124c-6a90-c6a36756fe88\", \"value\": \"Service schedule / Check the valve clearance: once after 1 operating hour; every 45 operating hours; every 90 operating hours. From the manufacturer service schedule for the US standard model. \\\"once\\\" marks a one-time interval; the other entries repeat. The same manual says harsh conditions can call for shorter intervals.\"}, {\"claim_id\": \"b4ee5911-95b8-50b7-eb57-9e58041b8456\", \"value\": \"Service schedule / Perform major engine service, engine is removed. (Change valves, valve springs, valve spring seats, and valve spring retainer. Change the connecting rod, conrod bearing and crank pin. Check the transmission and the shift mechanism. Check the oil pressure control valve. Change the suction pump. Check the force pump and lubrication system. Change the timing chain. Change all engine bearings and all gaskets. Change the freewheel.): every 90 operating hours. From the manufacturer service schedule for the US standard model. \\\"once\\\" marks a one-time interval; the other entries repeat. The same manual says harsh conditions can call for shorter intervals.\"}]\n[{\"mechanism\": \"Excess valve lash or rocker/cam contact wear.\", \"explains\": \"A regular top-end tick.\", \"confirm\": \"Cold clearance measurement or contact-surface inspection reveals a fault.\", \"reject\": \"Clearances and contact surfaces pass inspection; investigate other sources.\"}, {\"mechanism\": \"Cam-chain slack or tensioner malfunction.\", \"explains\": \"Possible metallic top-end rattle, particularly during startup or deceleration.\", \"confirm\": \"Applicable timing-system inspection identifies slack, wear or tensioner malfunction.\", \"reject\": \"Timing system passes the applicable inspection.\"}]\n[\"Noise onset, severity and temperature dependence.\", \"Engine hours and service history.\", \"Oil level and measured valve clearances.\"]\n{\"action\": \"Check cold oil level with the bike upright on level ground.\", \"purpose\": \"Exclude an obvious lubrication concern before further engine operation.\", \"stop_conditions\": [\"Oil below the required level.\", \"New or worsening loud rattle or knock.\", \"Metal contamination in oil.\"]}"
+  },
+  {
+   "id": "eng-048",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 14.8,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 61348,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 363,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 61711
+   },
+   "text": "The direction arrow or mark on your YZ125\u2019s piston crown goes **toward the exhaust port\u2014the front of the engine**.\n\nIt makes sure the piston and ring locating pin sit correctly relative to the cylinder ports. Installing it backward can let a ring end catch a port and damage the ring, piston and cylinder.\n\nWhen fitting it, keep the ring gap centered around its locating pin, and don\u2019t force the cylinder down if it won\u2019t slide over the ring. A size letter or grade mark isn\u2019t the direction arrow; with an aftermarket piston, follow that piston maker\u2019s orientation instructions.\nOn your 2022 YZ125, the piston crown\u2019s direction mark points toward the exhaust port\u2014the front of the engine."
+  },
+  {
+   "id": "eng-053",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 19.3,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 55543,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 532,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 56075
+   },
+   "text": "**Squish is the gap between the piston crown and the outer band of the cylinder head when the piston is at top dead center.** As the piston comes up, that band squeezes mixture toward the spark plug, creating turbulence that helps it burn faster and more evenly.\n\nBuilders set it to sharpen response and make combustion more consistent\u2014not simply to raise compression. Band shape, combustion-chamber volume, fuel octane and ignition timing all work together.\n\n- **Too wide:** less effective mixture movement and less benefit from the squish band.\n- **Too tight:** the piston can touch the head as parts heat up and stretch at high rpm. Changes that also raise compression can increase detonation risk.\n\nCommon builder practice for small-bore two-strokes is roughly **0.8\u20131.0 mm (0.031\u20130.039 in)**, but that is a tuner starting range, **not Yamaha\u2019s specification or a machining target for your YZ125**. Its exact factory squish figure isn\u2019t confirmed here.\n\nBuilders measure the assembled clearance with soft solder across the squish band, then check the chamber volume and intended fuel before deciding whether any head work is needed. Leave machining to a two-stroke engine builder.\nSquish is the tight clearance between the piston crown and the head\u2019s outer band at top dead center. Builders set it to improve combustion while leaving enough clearance for the engine at racing rpm."
+  },
+  {
+   "id": "eng-058",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 19.4,
+   "prompt_version": "mx-engineering-95",
+   "specs": 1,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 65237,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 734,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 65971
+   },
+   "text": "For your 2022 YZ125, **a new piston and rings need about 30 minutes of riding at half throttle or less**, varying speed. Don\u2019t lug it or rev it hard\u2014repeated stationary heat cycles aren\u2019t the prescribed break-in.\n\n1. Before starting, confirm assembly is complete, the air filter is oiled and seated, and coolant and transmission oil are full. Mix fresh premium unleaded with YAMALUBE 2R or equivalent at **15:1 for break-in**.\n2. Start cold with the choke on and throttle closed. Warm it at idle or slightly above for **one to two minutes**, then push the choke in once it responds cleanly. Check for leaks.\n3. Ride the 30-minute break-in, changing speed and load without exceeding half throttle.\n4. Afterwards, check leaks, fasteners, controls, chain and spokes; recheck the specified torque-check points and change the transmission oil. Then switch to **30:1 normal premix**, using the same oil.\n\n**Stop immediately for pinging, new mechanical noise, leaks, sudden power loss or tightening up.**\n\nIf you also replaced the cylinder or crankshaft, Yamaha instead specifies about 20 minutes at half throttle or less, then about 40 minutes at three-quarter throttle or less, with a pit check between stages.\n\nFor guided checks, tap **\u201cWorking on the bike?\u201d** above the message box and choose **\u201cFirst start, break-in, premix and jetting checks after an engine rebuild.\u201d** Have a torque wrench, premix measuring jug, fresh fuel and transmission oil ready.\nFor a piston-and-rings-only replacement on your 2022 YZ125, Yamaha calls for about 30 minutes at half throttle or less, varying speed, with 15:1 break-in premix.\n[{\"claim_id\": \"24109479-3922-036b-e34e-733d741c1944\", \"value\": \"Engine oil / Premix ratio: 30. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Printed as a single number in the specification table; the fuel section of the same manual says to mix the named oil with the gasoline at this ratio. Confirm against the manual before mixing.\"}]"
+  },
+  {
+   "id": "eng-063",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 26.3,
+   "prompt_version": "mx-engineering-95",
+   "specs": 3,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 60855,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 831,
+    "output_tokens_details": {
+     "reasoning_tokens": 61
+    },
+    "total_tokens": 61686
+   },
+   "text": "**Check the pilot circuit before fitting a smaller jet.** Hesitation right off idle plus little response to the air screw commonly means a blocked pilot jet/passage, or an idle set high enough to bypass the screw\u2019s useful range.\n\n1. With the engine warm and choke fully off, check that the idle isn\u2019t being held unusually high. Record the air screw\u2019s current position by counting turns to lightly seated, then restore it. Yamaha\u2019s reference is **2-5/8 turns out**, but the factory setting is individually adjusted.\n2. If the screw still has little effect, shut down and let the bike cool. Inspect and clean the pilot jet and its passages; don\u2019t enlarge the jet with wire. Yamaha\u2019s stock pilot is **#75**. Check the screw tip, spring, washer and O-ring for damage or missing pieces.\n3. If those checks pass, check fuel level/float operation\u2014stock float height is **6.5 mm (0.26 in)**\u2014and intake sealing.\n\nConfirm the repair by a clear idle response to screw adjustment and clean pickup off idle. **Stop if it pings or the idle hangs instead of returning normally.**\nAn air screw that barely changes the running points first to a pilot-circuit restriction or an idle setting that masks the screw\u2014not automatically the wrong pilot jet.\n[{\"claim_id\": \"ddea1056-3445-dcc1-c740-f8fee917f064\", \"value\": \"Carburetor / Air screw turns out: 2-5/8. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.\"}, {\"claim_id\": \"c8d74627-d06f-5acc-c34e-5717465228e8\", \"value\": \"Carburetor / Pilot jet: #75. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.\"}, {\"claim_id\": \"ed8175ec-4fe3-f543-bd55-9e368afa4923\", \"value\": \"Carburetor / Float height: 6.5 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.\"}]\n[{\"mechanism\": \"Restricted pilot jet or pilot passage limits low-speed fuel delivery.\", \"explains\": \"Off-idle hesitation and weak response to air-screw adjustment.\", \"confirm\": \"Restriction found; cleaning restores screw response and clean pickup.\", \"reject\": \"Pilot circuit verified clear and the complaint remains.\"}, {\"mechanism\": \"High throttle-slide opening masks the air screw\\u2019s idle influence.\", \"explains\": \"Little adjustment response despite an otherwise functioning screw.\", \"confirm\": \"Normal warm idle setting restores adjustment response.\", \"reject\": \"Slide and idle setting are correct but screw remains ineffective.\"}, {\"mechanism\": \"Incorrect fuel level or an intake leak disrupts low-speed mixture.\", \"explains\": \"Persistent hesitation after the pilot circuit is verified.\", \"confirm\": \"Float-operation or intake-integrity inspection identifies a fault.\", \"reject\": \"Fuel level and intake sealing pass appropriate checks.\"}]\n[\"Current pilot jet and air-screw position.\", \"Whether the hesitation is rich blubbering or a lean, hollow bog.\"]\n{\"action\": \"Warm the engine with the choke off, check idle setting, and record then restore the air-screw position.\", \"purpose\": \"Determine whether idle setup is masking screw response before carburetor cleaning.\", \"stop_conditions\": [\"Pinging or detonation.\", \"Hanging idle.\", \"Fuel leakage.\"]}"
+  },
+  {
+   "id": "eng-068",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 21.1,
+   "prompt_version": "mx-engineering-95",
+   "specs": 3,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 62850,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 586,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 63436
+   },
+   "text": "A plug chop means **running under load at one throttle opening, then killing the engine and pulling the clutch together** so idling doesn\u2019t overwrite the reading.\n\n1. Warm your YZ125 fully, then stop. Start with a clean, known-good **NGK BR9EVX**, gap **0.6\u20130.7 mm (0.024\u20130.028 in)**. Fit it by hand first, then torque to **20 N\u00b7m (15 ft-lb)**.\n2. Pick the circuit you\u2019re checking. For the main jet, use full throttle under load\u2014not revving on a stand. For a midrange complaint, hold that throttle opening instead.\n3. On a closed course with clear runoff, hold the chosen opening steadily long enough for the engine to settle. Don\u2019t force a long wide-open run if space is limited.\n4. At the end, **press the kill switch and pull the clutch simultaneously**, close the throttle, and coast to a safe stop. Don\u2019t restart or idle back.\n5. Let the engine cool before removing the plug. Dry brown is reassuring; wet soot suggests fouling/rich running. Blistering, melted electrodes or metallic specks mean stop and investigate.\n\n**Stop immediately if it pings or loses power.** Modern fuel and two-stroke oil make color alone unreliable; a fresh plug can stay pale. Judge it alongside how the engine runs, and never lean it just to chase a tan color.\nA plug chop captures the plug condition at one throttle opening by killing the engine and pulling the clutch together, without letting it idle afterward.\n[{\"claim_id\": \"3ac29508-e0a8-18ff-547f-631a9e3889c2\", \"value\": \"Spark plug(s) / Spark plug gap: 0.6\\u20130.7 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.\"}, {\"claim_id\": \"c3261420-fdf5-4914-349a-7cc5dfa58bf2\", \"value\": \"Spark plug(s) / Manufacturer/model: NGK/BR9EVX. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.\"}, {\"claim_id\": \"2a03907e-a3a0-8c26-9c08-560a434551b7\", \"value\": \"Tightening torques / Engine / Spark plug (M14S, qty 1): 20 N\\u00b7m. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.\"}]"
+  },
+  {
+   "id": "eng-073",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 22.9,
+   "prompt_version": "mx-engineering-95",
+   "specs": 5,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 59300,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 669,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 59969
+   },
+   "text": "On your **2023 KTM 450 SX-F**, clean fuel and scheduled screen/filter changes are the main ways to protect the pump.\n\n- **Fuel screen:** replace after the first operating hour, then every **15 hours or 24 months**, whichever comes first. The screen and fuel filter are separate service items.\n- **Fuel filter:** replace every **90 hours or 24 months**, whichever comes first; dusty or harsh use can call for earlier attention.\n- **Fuel-pressure check:** after the first hour, then every **45 hours or 24 months**. The exact pressure and filter-replacement procedure aren't confirmed here; KTM's service manual fuel-system section carries those details.\n\nAs general practice, clean around the filler before opening it, use a clean fuel can, keep dirt and water out, and avoid repeatedly running the tank dry. Use fresh fuel; KTM allows **up to 10% ethanol (E10)**, not E15 or E85. For storage, use a fuel-compatible stabilizer according to its label rather than leaving untreated fuel sitting for months.\n\nIf it starts hesitating under load or becomes hard to start, check tank-vent routing and have fuel pressure tested before buying a pump. **Open fuel connections only with the bike cool, ignition off, and pressure relieved by the correct procedure\u2014away from flames and sparks.**\nKeep dirt and stale fuel out, replace the fuel screen every 15 hours after its first-hour change, and replace the fuel filter every 90 hours or 24 months.\n[{\"claim_id\": \"24332e3a-904c-dd57-917e-d9b9a2d970d8\", \"value\": \"Service schedule / Change the fuel filter: every 90 operating hours; every 24 months. From the manufacturer service schedule for the US standard model. \\\"once\\\" marks a one-time interval; the other entries repeat. The same manual says harsh conditions can call for shorter intervals.\"}, {\"claim_id\": \"cae98083-ac13-4c04-9ee4-b64c04b3f3eb\", \"value\": \"Service schedule / Check the fuel pressure: once after 1 operating hour; every 45 operating hours; every 90 operating hours; every 24 months. From the manufacturer service schedule for the US standard model. \\\"once\\\" marks a one-time interval; the other entries repeat. The same manual says harsh conditions can call for shorter intervals.\"}, {\"claim_id\": \"4571eda2-a927-b5cf-41be-ed4ca2026885\", \"value\": \"Service schedule / Change the fuel screen: once after 1 operating hour; every 15 operating hours; every 45 operating hours; every 90 operating hours; every 24 months. From the manufacturer service schedule for the US standard model. \\\"once\\\" marks a one-time interval; the other entries repeat. The same manual says harsh conditions can call for shorter intervals.\"}, {\"claim_id\": \"7bdf35e3-1093-95b0-50b1-6c0a5178fa6b\", \"value\": \"Fuel / Ethanol: fuel with up to 10% ethanol (E10) is safe to use. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"e9c02535-3efe-fb1e-4447-b3ac4cddc1e9\", \"value\": \"Fuel / Fuels not to use: methanol fuel (M15, M85, M100) or more than 10% ethanol (E15, E25, E85, E100). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}]\n{\"action\": \"Check service hours and dates for the fuel screen and fuel filter.\", \"purpose\": \"Establish whether either replacement is due.\", \"stop_conditions\": [\"Visible fuel leakage or strong unexplained fuel odor: do not start the engine.\"]}"
+  },
+  {
+   "id": "eng-078",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 22.1,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 59590,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 544,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 60134
+   },
+   "text": "**Check the basket fingers and hub splines where the clutch plates contact them.** Grooves there can hang up the plates and cause clutch drag or grabby engagement.\n\nWith the engine cold and the clutch pack removed:\n1. **Basket:** Clean the fingers and inspect both contact faces for grooves, peening, cracks or broken edges. Run a fingernail across each plate-contact track; a distinct catch deserves closer inspection.\n2. **Hub:** Check the splines where the steel plates ride for steps, burrs and cracks. Inspect the pressure-plate seating surfaces and spring posts for damage.\n3. **Plate movement:** Using an undamaged friction disc in the basket and steel plate on the hub, check that each slides freely along its working travel without catching. This is a general workshop check, not a measured wear limit.\n4. **Basket drive:** Check for loose rivets, damaged gear teeth or obvious basket-to-drive-gear movement. Overall assembly movement alone does not prove wear.\n\nHonda\u2019s exact basket/hub wear limits and removal procedure aren't confirmed here. **Don't file away notches as a routine fix**\u2014it increases clearance. Replace cracked parts or parts that trap the plates; don't ride with those faults.\n\nI can guide the pack removal through **\u201cCheck and adjust the clutch, inspect the clutch pack\u201d** under **\u201cWorking on the bike?\u201d**; that job does not cover basket or hub removal.\nInspect the basket fingers and hub splines for notches, cracks and damage that keep the clutch plates from sliding freely. Separate basket-to-gear looseness from normal assembly movement before condemning parts.\n{\"action\": \"Inspect the cleaned basket contact tracks and hub splines, then check plate movement.\", \"purpose\": \"Identify notching or damage that prevents clean clutch release.\", \"stop_conditions\": [\"Cracks or broken fingers\", \"Loose basket rivets\", \"Plates catch on damaged contact surfaces\"]}"
+  },
+  {
+   "id": "eng-083",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 24.1,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 59904,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 665,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 60569
+   },
+   "text": "**Worried enough not to restart it.** Visible flakes in your CRF250R\u2019s oil filter need investigating\u2014not just fresh oil and another ride. The engine, gearbox and clutch share the oil, so the filter alone cannot identify the source.\n\nWith the engine cold, keep the filter and drain the oil into a clean pan without warming the engine. Spread the filter pleats and photograph the debris beside a ruler. Check a few particles with a magnet through a clean plastic bag: magnetic particles suggest steel wear; nonmagnetic particles can be aluminum or other material, but neither result identifies the failed part.\n\nA faint metallic haze is different from distinct flakes, chips or slivers. Numerous flakes, copper-colored debris, or any recent knocking, shifting trouble or oil loss mean an internal inspection before running it again. Don\u2019t flush it by running the engine.\n\n**Are you seeing a few fine glitter specks, or distinct flakes across several filter pleats?** Keep the filter and oil for inspection either way.\nMetal flakes in the oil filter warrant stopping the engine until you establish how much metal is present and where it came from.\n[{\"mechanism\": \"Wear in shared-oil engine, transmission or clutch components produces debris.\", \"explains\": \"Metal particles trapped by the oil filter.\", \"confirm\": \"Debris examination and component inspection identify matching damage.\", \"reject\": \"Material is established as nonmetallic contamination; source still requires checking.\"}]\n[\"Particle quantity, size, color and magnetic response.\", \"Recent rebuild or clutch work.\", \"Associated noise, oil loss or shifting changes.\"]\n{\"action\": \"With the engine cold and off, preserve the filter and drain the oil into a clean pan for debris inspection.\", \"purpose\": \"Establish debris severity without circulating more metal.\", \"stop_conditions\": [\"Do not restart while visible metal flakes remain unexplained.\", \"Internal inspection required for chips, substantial debris or accompanying mechanical symptoms.\"]}"
+  },
+  {
+   "id": "eng-088",
+   "ok": true,
+   "score": 0.75,
+   "hit": [
+    true,
+    true,
+    true,
+    false
+   ],
+   "bad": [],
+   "seconds": 19.2,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 57703,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 553,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 58256
+   },
+   "text": "**Coolant repeatedly coming from the water-pump weep/drain hole points to a leaking coolant-side seal.** General mechanical guidance: don\u2019t confuse it with coolant running down from a hose or the pump-cover gasket; the exact drain-hole location on your YZ125 isn\u2019t confirmed here.\n\n- With the engine fully cold, clean and dry the pump area, then check for wetness or dried coolant tracks. Trace them upward to find the first wet spot.\n- Check the cold coolant level and inspect the transmission oil. Milky oil or an unexplained rise in oil level can mean coolant contamination, though neither alone proves the pump seal is responsible.\n- If the source stays unclear, a cold cooling-system pressure test will help locate it without running the engine.\n\n**Don\u2019t ride with active coolant loss, milky transmission oil, or overheating; never remove the radiator cap hot.**\n\nSeparate check: Yamaha recalled certain 2022 YZ125s for a gear-shift assembly that can cause unexpected shifts. Have a Yamaha dealer confirm whether yours needs the free repair.\nLook for recurring coolant at the water-pump weep hole, unexplained coolant loss, or milky transmission oil. A cover-gasket or hose leak can look similar, so locate the first wet spot.\n{\"action\": \"With the engine cold, clean and dry the water-pump area and trace any coolant staining to its highest point.\", \"purpose\": \"Separate seal drainage from a hose or cover-gasket leak.\", \"stop_conditions\": [\"Active coolant loss\", \"Milky transmission oil\", \"Overheating\"]}"
+  },
+  {
+   "id": "eng-093",
+   "ok": true,
+   "score": 0.75,
+   "hit": [
+    true,
+    false,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 18.6,
+   "prompt_version": "mx-engineering-95",
+   "specs": 2,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 57991,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 466,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 58457
+   },
+   "text": "**Yes\u2014an automatic decompressor can fool a conventional compression test.** It makes starting easier by holding a valve slightly open at cranking speed, bleeding off some cylinder pressure. Once the engine starts, it disengages so the valve closes normally. That is the general operating principle; the exact mechanism and compression-test pressure for your 2022 CRF250R aren't confirmed here.\n\nA gauge measures pressure while cranking\u2014not the engine\u2019s compression ratio\u2014so a low reading alone does **not** condemn the piston, rings or valves. Cranking speed and the test method also affect the result.\n\nFor a useful condition check, use the Honda compression-test procedure, or a cylinder leak-down test with the valves fully closed and the decompressor accounted for. Otherwise, decompressor-induced exhaust leakage can also mislead the leak-down test. Secure the crank correctly: test air can rotate the engine.\n\nHonda calls for inspecting valve clearance and the decompressor after the first break-in ride, then **every 6 races or about 15 hours**.\nYes\u2014automatic decompression can make cranking compression read low without proving worn rings or leaking valves.\n[{\"claim_id\": \"d5abc4d6-a7b2-5dea-8621-e6a1cee5965e\", \"value\": \"Maintenance Schedule / Valve clearance and decompressor system / Inspect: every 6 races or about 15.0 hours interval. CRF250R\"}, {\"claim_id\": \"df0990c2-db95-541b-9f88-773db540aa05\", \"value\": \"Maintenance Schedule / Valve clearance and decompressor system / Break-in: Inspect after the first break-in ride. CRF250R\"}]"
+  },
+  {
+   "id": "eng-098",
+   "ok": true,
+   "score": 0.75,
+   "hit": [
+    true,
+    true,
+    false,
+    true
+   ],
+   "bad": [],
+   "seconds": 20.8,
+   "prompt_version": "mx-engineering-95",
+   "specs": 2,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 55964,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 601,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 56565
+   },
+   "text": "An aftermarket exhaust changes **where your 450 SX-F pulls hardest**, not just peak power\u2014and louder does not necessarily mean faster.\n\n- **Slip-on:** generally a smaller power-delivery change, with sound and potential weight savings being the bigger differences. A remap is not automatically required if the exhaust maker approves it with stock fueling.\n- **Full system:** the header and muffler together can shift the power more noticeably. Testers found an FMF system on this model improved midrange and top-end pull but softened low-end response slightly.\n\n**For a full system, I\u2019d budget for a matching ECU tune**, especially if you also change the intake. Whether it is required comes down to the exact exhaust and its maker\u2019s instructions. Your stock white Map 1 is linear; green Map 2 is more aggressive, but selecting Map 2 is **not an exhaust-specific remap**.\n\nFor a healthy stock bike, my pick is to keep the stock ECU with an approved slip-on; spend on matched tuning if you buy a full system. If it develops hesitation, hanging idle or excessive heat afterward, check installation and fueling rather than riding around it.\n\nWhich exhaust are you considering\u2014slip-on or full system?\nAn aftermarket exhaust mainly changes power delivery, sound and weight. A slip-on does not automatically need a remap; with a full system, budget for a matching tune.\n[{\"claim_id\": \"6754aa02-facc-2450-2ab6-184de277f72b\", \"value\": \"Engine management / Mapping / STANDARD: STANDARD mapping; indicator lamp A lights up white. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"85abb2fb-daea-4034-845c-823836702032\", \"value\": \"Engine management / Mapping / ADVANCED: ADVANCED mapping; indicator lamp B lights up green. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}]"
+  },
+  {
+   "id": "set-003",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true
+   ],
+   "bad": [],
+   "seconds": 13.4,
+   "prompt_version": "mx-engineering-95",
+   "specs": 2,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 51781,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 215,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 51996
+   },
+   "text": "KTM\u2019s stock cold tire pressures for your 2023 450 SX-F are **1.0 bar (14.5 psi) front and rear**. Check them before riding, with the tires cold.\nStock cold tire pressure is 1.0 bar (14.5 psi) front and rear.\n[{\"claim_id\": \"30c4702a-9cdc-e59c-2e2d-25c6deb0b962\", \"value\": \"Chassis / Offroad tire pressure / front: 1.0 bar. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"724b9824-b34b-5299-b50a-c44532aa7876\", \"value\": \"Chassis / Offroad tire pressure / rear: 1.0 bar. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}]"
+  },
+  {
+   "id": "set-008",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true
+   ],
+   "bad": [],
+   "seconds": 13.0,
+   "prompt_version": "mx-engineering-95",
+   "specs": 1,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 54952,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 55120
+   },
+   "text": "Your 2023 KTM 450 SX-F\u2019s stock fuel tank holds approximately **7.2 liters (1.9 US gallons)**.\nThe stock tank holds approximately 7.2 liters (1.9 US gallons).\n[{\"claim_id\": \"afbb6c5c-2f47-f436-84ac-021aea417208\", \"value\": \"Capacities / Total fuel tank capacity, approx. / Super unleaded (ROZ 95): 7.2 l (1.9 US gal). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}]"
+  },
+  {
+   "id": "set-013",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true
+   ],
+   "bad": [],
+   "seconds": 12.7,
+   "prompt_version": "mx-engineering-95",
+   "specs": 1,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 54019,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 248,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 54267
+   },
+   "text": "Your 2022 CRF250R\u2019s throttle free play is **2\u20136 mm (1/16\u20131/4 in)**, measured at the grip flange before the cable starts pulling.\n\nWith the engine off, check it with the bars straight and at both steering stops\u2014the throttle must move smoothly and snap shut in every position. If it hangs up or tightens as you turn the bars, fix it before riding.\nThrottle free play is 2\u20136 mm (1/16\u20131/4 in), measured at the throttle grip flange.\n[{\"claim_id\": \"7fc178bc-7791-5a57-a568-54e42bc26907\", \"value\": \"Engine / Throttle / Freeplay: 2 - 6 mm (1/16 - 1/4 in). CRF250R measured at throttle grip flange\"}]"
+  },
+  {
+   "id": "set-018",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true
+   ],
+   "bad": [],
+   "seconds": 11.5,
+   "prompt_version": "mx-engineering-95",
+   "specs": 4,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 58004,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 285,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 58289
+   },
+   "text": "Honda says to **replace the brake fluid every 2 years** on your 2022 CRF250R. Inspect the fluid and brake system **each race or about every 2.5 hours**, and use **Honda DOT 4 brake fluid** from a sealed container.\nHonda specifies replacing brake fluid every 2 years on your 2022 CRF250R.\n[{\"claim_id\": \"a3413218-5c17-5123-b1de-4b99148ce681\", \"value\": \"Maintenance Schedule / Brake fluid / Calendar replacement: Replace every 2 years. CRF250R\"}, {\"claim_id\": \"aaca6c4c-e757-53a5-8c9e-3f2377c52867\", \"value\": \"Chassis / Brakes / Fluid: Honda DOT 4 brake fluid. CRF250R\"}, {\"claim_id\": \"07388dd5-4e2a-50fc-80ca-89d0f4ea802e\", \"value\": \"Maintenance Schedule / Brake fluid / Inspect: each race or about 2.5 hours interval. CRF250R\"}, {\"claim_id\": \"bde3b0ab-68c0-54d6-ae68-a8a534b4b448\", \"value\": \"Maintenance Schedule / Brake system / Inspect: each race or about 2.5 hours interval. CRF250R\"}]"
+  },
+  {
+   "id": "set-023",
+   "ok": true,
+   "score": 0.6,
+   "hit": [
+    true,
+    true,
+    true,
+    false,
+    false
+   ],
+   "bad": [],
+   "seconds": 13.0,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 53906,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 351,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 54257
+   },
+   "text": "No\u2014**one tooth on the front is roughly three to four teeth on the rear**, with the opposite effect.\n\n- **Bigger front or smaller rear:** taller gearing\u2014longer between shifts, softer pull.\n- **Smaller front or bigger rear:** shorter gearing\u2014stronger pull, shifts come sooner.\n\nKTM lists **13/51** as stock for your 2023 450 SX-F. For fine-tuning, common practice is one rear tooth at a time; a front-tooth change is a much bigger step.\nNo\u2014one front tooth changes gearing roughly as much as three to four rear teeth, in the opposite direction."
+  },
+  {
+   "id": "set-028",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 16.3,
+   "prompt_version": "mx-engineering-95",
+   "specs": 1,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 61500,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 488,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 61988
+   },
+   "text": "**Divide rear sprocket teeth by front sprocket teeth.** That gives your final-drive ratio\u2014not the internal transmission ratio.\n\nYour 2022 CRF250R\u2019s stock gearing is **13 front / 50 rear**:\n**50 \u00f7 13 = 3.85:1**. The countershaft turns about 3.85 times for each rear-wheel revolution.\n\n- **Higher number:** shorter gearing\u2014stronger pull, earlier shifts, less speed at the same engine rpm.\n- **Lower number:** taller gearing\u2014longer gears, less pull, more speed at the same rpm.\n\nFor example, 13/51 gives **3.92:1**, about **2% shorter** than 13/50.\n\nTo work out the complete engine-to-wheel ratio in a particular gear, multiply **primary ratio \u00d7 transmission gear ratio \u00d7 final-drive ratio**.\nFinal-drive gear ratio is rear sprocket teeth divided by front sprocket teeth. Your CRF250R\u2019s stock 13/50 gearing works out to 3.85:1.\n[{\"claim_id\": \"bbf38126-1bd6-507d-a7b7-f4538c58f68d\", \"value\": \"Drive / Sprocket / Driven sprocket standard: 50T aluminum with 114-link chain teeth. CRF250R\"}]"
+  },
+  {
+   "id": "set-033",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 17.9,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 60275,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 515,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 60790
+   },
+   "text": "**The chain tightens as the rear suspension compresses.** It reaches its tightest point when the countershaft, swingarm pivot and rear axle line up. Without enough slack, it acts like a restraint on suspension travel instead of just driving the wheel.\n\nThat causes two expensive problems:\n- **Poor suspension action and traction:** the rear can feel harsh and skip over bumps, even with the clickers set correctly.\n- **Overloaded drivetrain parts:** extra tension pulls on the countershaft and rear wheel bearings, accelerates chain and sprocket wear, and can damage the chain or engine cases if something fails.\n\nOn your 2023 450 SX-F, KTM specifies **58\u201361 mm (2.28\u20132.4 in)** using its particular measurement: rear wheel hanging free, pull the upper chain run upward at the rear end of the chain slider and measure the gap, with the lower run taut. Rotate the wheel and check several positions\u2014set it so the tightest position is within range. Don\u2019t judge it by how loose it looks on the stand; dirt-bike chains need that room to let the suspension work. Check with the engine off.\nA too-tight chain can bind the rear suspension and overload the countershaft and wheel bearings as the swingarm moves."
+  },
+  {
+   "id": "set-038",
+   "ok": true,
+   "score": 0.75,
+   "hit": [
+    true,
+    true,
+    false,
+    true
+   ],
+   "bad": [],
+   "seconds": 23.6,
+   "prompt_version": "mx-engineering-95",
+   "specs": 3,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 60345,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 729,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 61074
+   },
+   "text": "**Start with more room forward at the bars\u2014not a big set of risers.** Your 2022 CRF250R has four bar-mount positions: Honda provides mounting holes **26 mm (1.0 in) forward** of standard, and reversing the offset holders changes reach by **10 mm (0.4 in)**.\n\n1. **Bars first:** mark the current position and try the next available forward position. Keep the bar rotation neutral rather than rolling it way forward. Standing with bent knees, you should reach the grips without rounding your back or hanging off the bars.\n2. **Controls next:** reset the lever angles so your wrists stay straight standing and remain comfortable seated. Adjust reach so you can work them without shifting your hands. Honda specifies clutch free play of **10\u201320 mm (0.4\u20130.8 in)** at the lever end. Check pedal access wearing your riding boots.\n3. **Seat, then bar bend:** if your knees remain cramped seated, taller seat foam opens that space and makes standing up easier. If you're still stooping while standing after moving the mounts, choose a taller bar bend; height alone doesn't tell us how much rise you need.\n\nTest one change at a time, both seated and standing. Bar-holder upper bolts are **22 N\u00b7m (16 ft-lb)**; lower-holder nuts are **44 N\u00b7m (32 ft-lb)**\u2014follow Honda\u2019s installation sequence when relocating the mounts.\nStart by moving the bars forward, then reset the controls around your standing position. At 6'3\", taller seat foam is the next move if your knees still feel cramped\u2014not automatically tall bar risers.\n[{\"claim_id\": \"45900381-108c-56dc-b027-6af5d0295c6d\", \"value\": \"Chassis / Handlebar / Mount positions: 4 positions: holder can be moved to optional holes 26 mm (1.0 in) ahead of standard; lower holder offset 5 mm, turning 180 deg moves bar 10 mm (0.4 in) back. CRF250R\"}, {\"claim_id\": \"adb8c13a-c3dd-58d3-aebe-2867096d8897\", \"value\": \"Handlebar upper holder bolt: 22 N\\u00b7m. Use OEM installation procedure; torque alone is not a complete service instruction.\"}, {\"claim_id\": \"237fe56f-ca4c-5aca-a0d7-6d78bb8b5942\", \"value\": \"Handlebar lower holder nut: 44 N\\u00b7m. Self-lock nut Use OEM installation procedure; torque alone is not a complete service instruction.\"}]\n{\"action\": \"Mark the existing bar position and try the next available forward mount position, then check reach seated and standing.\", \"purpose\": \"Open the cockpit before buying bars, risers or seat foam.\", \"stop_conditions\": [\"Controls or cables bind at either steering stop.\", \"Bars cannot be installed securely following Honda\\u2019s mounting procedure.\"]}"
+  },
+  {
+   "id": "set-043",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 17.9,
+   "prompt_version": "mx-engineering-95",
+   "specs": 1,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 56259,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 470,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 56729
+   },
+   "text": "**Lock-on grips get clamped; glue-on grips need clean surfaces and proper grip adhesive.** Don\u2019t try to cure a slipping grip by simply overtightening it.\n\n- **Lock-ons:** remove old glue and dirt from the bar, seat the grip fully, and tighten its clamp to the grip maker\u2019s torque. For the stock KTM fixed-grip M4 screw, KTM specifies **5 Nm (3.7 ft-lb), with Loctite 243**\u2014that figure does not automatically apply to aftermarket clamps.\n- **Glue-ons \u2014 general practice:** remove all old adhesive, clean the bar and throttle tube with a material-compatible cleaner, and let them dry completely. Use motorcycle grip adhesive compatible with the grips, follow its application directions, and allow the full stated cure time before riding. Safety wire can supplement adhesive if the grip maker allows it; tuck the wire ends away.\n- **Throttle side:** keep adhesive out of the tube, housing and bar end. Leave clearance so the grip cannot rub the housing or handguard. With the engine off, check that the throttle snaps shut at straight ahead and both steering locks.\n\nTwist-test both grips firmly before riding. If either slips, or the throttle sticks, fix it before riding.\nUse the correct fitting method for your grips: clamp lock-ons correctly, or fit glue-on grips to clean, dry surfaces and let the adhesive fully cure.\n[{\"claim_id\": \"d99952d3-4e83-785d-6eae-1250687bc70d\", \"value\": \"Chassis tightening torques / Screw, fixed grip (M4): 5 Nm (3.7 lbf ft); Loctite 243\\u2122. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}]"
+  },
+  {
+   "id": "set-048",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 22.0,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 59483,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 601,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 60084
+   },
+   "text": "**A notch at center is worth checking\u2014not a clicker problem.** Most likely the steering-head bearing races have worn an indentation; cable drag or bearings adjusted too tight can mimic it.\n\nSecure the bike on a stand with the front wheel off the ground, engine off. Slowly sweep the bars through center, watching whether a cable or hose tightens or catches. A repeatable center detent with the routing free points strongly to damaged bearings/races; stiffness across the whole sweep points more toward excessive preload or dry bearings.\n\n**Don\u2019t ride until the steering is smooth.** Don\u2019t loosen the bearings just to hide the notch: damaged bearings and races need replacement, not adjustment alone. The exact steering-stem adjustment torque isn\u2019t confirmed here; Honda\u2019s service manual carries the adjustment procedure.\n\nI can walk you through **Check the swingarm, linkage, steering and wheel bearings**\u2014tap **Working on the bike?** above the message box.\nA notch at straight ahead most likely means worn steering-head bearings or races. Rule out cable drag before adjusting anything; don\u2019t ride until the steering moves smoothly.\n[{\"mechanism\": \"Indented or corroded steering-head bearing races\", \"explains\": \"A distinct detent at the straight-ahead position.\", \"confirm\": \"Center detent remains with the front unloaded and cable/hose interference excluded; inspection reveals race damage.\", \"reject\": \"Notch disappears when external cable or hose interference is corrected.\"}, {\"mechanism\": \"Cable interference or excessive bearing preload\", \"explains\": \"Routing can catch near center; excessive preload causes broader steering resistance.\", \"confirm\": \"Visible routing interference coincides with resistance, or correct bearing adjustment restores uniformly smooth movement.\", \"reject\": \"A localized center detent persists with free routing and correct adjustment.\"}]\n[\"Whether resistance is localized at center or present throughout steering travel.\", \"Bearing and race condition.\"]\n{\"action\": \"Securely lift the front wheel and slowly sweep the steering while watching cables and hoses.\", \"purpose\": \"Separate an internal bearing detent from external routing interference.\", \"stop_conditions\": [\"Bike cannot be supported securely.\", \"Steering catches, binds or has detectable play: do not ride until corrected.\"]}"
+  },
+  {
+   "id": "set-053",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 20.4,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 53779,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 544,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 54323
+   },
+   "text": "**Match the tire to the ground\u2014not the word \u201csoft\u201d as a rubber compound.** Terrain labels describe where the tread works best; compound naming varies between brands.\n\n| Terrain | Quick ground check | What the tire does |\n|---|---|---|\n| **Soft** | Your finger pushes into loose loam, sand or mud | Tall, widely spaced knobs dig in and clear dirt |\n| **Intermediate** | Dirt packs together but still has some give | Balances bite in loose dirt with support on firmer sections |\n| **Hard** | Your finger won\u2019t push in; surface is compacted or shiny | Lower, more closely spaced knobs put more rubber on the ground |\n\nChoose for **most of your laps**, including how the track dries out\u2014not its wettest corner. Soft-terrain knobs can squirm and tear on hardpack; hard-terrain tread won\u2019t dig as well in deep loose dirt. Mixing terrain types front and rear is fine.\n\n**My default pick for mixed practice tracks: Metzeler MC360 Mid Hard front and rear**, listed for your KTM and aimed at intermediate-to-hard ground, with tread reinforcement against tearing. If your usual track stays deep and loose, choose soft-to-intermediate instead.\n\nBefore buying, check the tire sizes against your current wheels and confirm year-specific fitment.\nChoose for the firmness of most of the track, not one muddy corner. Intermediate is the safest all-around choice for mixed dirt.\n{\"action\": \"Check your usual track\\u2019s surface firmness and confirm tire sizes before ordering.\", \"purpose\": \"Choose tread for the majority of the lap and ensure correct fit.\", \"stop_conditions\": []}"
+  },
+  {
+   "id": "set-058",
+   "ok": true,
+   "score": 0.8,
+   "hit": [
+    true,
+    true,
+    false,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 19.7,
+   "prompt_version": "mx-engineering-95",
+   "specs": 3,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 57106,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 534,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 57640
+   },
+   "text": "Check spokes with the **bike securely supported and the wheel off the ground**.\n\n1. **Inspect:** Look for broken or bent spokes, cracked rim holes and damaged nipples. Gently squeeze neighboring spokes together to find any noticeably looser than the others.\n2. **Tap:** Lightly tap each spoke with a spoke wrench. Compare spokes on the same side of the wheel: a loose one usually gives a dull thud instead of a clear ring. Sound is a screening check\u2014not a torque measurement.\n3. **Tighten:** Honda specifies **3.7 N\u00b7m (2.7 ft-lb) for front and rear spoke nipples**. Use a correctly fitting spoke wrench, ideally a spoke torque wrench. Bring loose nipples up gradually, working around the wheel rather than tightening one area heavily. A seized nipple can reach torque without tensioning the spoke\u2014don\u2019t force it.\n4. **Check straightness:** Spin the wheel against a fixed pointer near the rim, not the tire. Honda\u2019s radial and side-to-side runout service limit is **1.0 mm (0.04 in), both wheels**.\n\nCheck before riding and recheck after the first ride following adjustment. Don\u2019t ride with broken spokes, cracked spoke holes or several very loose spokes; those need repair and wheel truing.\nCheck for damaged or loose spokes, compare their sound, and use 3.7 N\u00b7m for both wheels\u2019 spoke nipples.\n[{\"claim_id\": \"54533da7-8186-560a-ae0d-88c7c83b57d9\", \"value\": \"Front spoke: 3.7 N\\u00b7m. Use OEM installation procedure; torque alone is not a complete service instruction.\"}, {\"claim_id\": \"84961df2-7906-57ba-a22d-c6d65a7d52c0\", \"value\": \"Rear spoke: 3.7 N\\u00b7m. Use OEM installation procedure; torque alone is not a complete service instruction.\"}, {\"claim_id\": \"d323d72e-b0f7-5af2-bcb8-4dabfacca5e0\", \"value\": \"Chassis / Wheels / Rim runout service limit: Front and rear: radial 1.0 mm (0.04 in), axial 1.0 mm (0.04 in). CRF250R\"}]"
+  },
+  {
+   "id": "set-063",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 18.3,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 54816,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 358,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 55174
+   },
+   "text": "**Usually no for motocross on your 450 SX-F.** Common practice is to run dirt-bike wheels unbalanced; mud buildup and tire wear can quickly change the balance anyway.\n\nBalancing is worthwhile for sustained high-speed desert riding, or if a wheel hops or vibrates consistently as speed rises\u2014especially after a tire, tube or rim-lock change.\n\nBefore adding weights, clean out packed mud and check tire seating, rim trueness, spoke tension and wheel-bearing play. Balancing won't fix a bent rim, loose spokes or a poorly seated tire. A new wobble or strong vibration needs checking before riding again.\n\nIf those checks pass but the vibration remains, static-balance the complete wheel with its tire, tube and rim lock fitted. Use securely retained weights intended for spoke wheels.\nUsually not for motocross. Balance the wheels if you feel a repeatable speed-related vibration or use the bike for sustained high-speed riding."
+  },
+  {
+   "id": "set-068",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 17.7,
+   "prompt_version": "mx-engineering-95",
+   "specs": 1,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 53890,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 435,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 54325
+   },
+   "text": "**Go sintered for your CRF250R**\u2014the better all-round choice for motocross, especially in mud, water and hard braking.\n\n- **Sintered:** consistent bite when hot or wet, generally longer wear in abrasive conditions; can be noisier and harder on the rotors.\n- **Organic:** softer initial bite and usually quieter, with less rotor wear; wears faster in mud and is less suited to sustained heat.\n\nMy common-choice pick is **EBC Double-H sintered**, with the exact front/rear listing checked for your 2022 before buying. Organic makes sense if you mainly ride dry, casually, and want gentler bite.\n\nHonda\u2019s pad wear limit is **1.0 mm (0.04 in) of lining**; replace both pads in the affected caliper together. Check rotor condition when fitting the new set.\nPick sintered pads for general motocross use; organic pads favor softer feel over wet-weather durability.\n[{\"claim_id\": \"30ec5f69-dc08-5a7c-9ff6-b2041bd9829a\", \"value\": \"Chassis / Brakes / Pad wear limit: 1.0 mm (0.04 in) lining thickness; replace both pads. CRF250R front and rear\"}]\n{\"action\": \"Check EBC\\u2019s exact 2022 CRF250R front/rear fitment before ordering sintered pads.\", \"purpose\": \"Get the correct pad shape for each caliper.\", \"stop_conditions\": []}"
+  },
+  {
+   "id": "set-073",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 24.2,
+   "prompt_version": "mx-engineering-95",
+   "specs": 7,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 57568,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 645,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 58213
+   },
+   "text": "**Start in second gear, leave the holeshot device disengaged, and feed the clutch out gently.** Concrete is about finding grip, not hitting it harder\u2014these are common-practice starting points.\n\n- Sweep your pad clean where allowed. Sit more upright than on a dirt start, with your weight centered over the rear\u2014not your chest over the bar pad. Keep elbows up and both feet down initially.\n- Use low, steady throttle\u2014roughly quarter throttle to start\u2014and stage the clutch just short of the bite point without creeping. Meter the drive with the clutch; don\u2019t dump it. Once the rear reaches dirt, move forward and roll on harder.\n- Leave suspension and gearing alone initially. KTM\u2019s cold tire baseline is **1.0 bar (14.5 psi) front and rear**; don\u2019t slash pressure just for the concrete pad.\n- For launch control: stationary, idling, in neutral, hold **TC + QS together**, then select your starting gear. It switches off shortly after the start; closing the throttle more than one-third after full throttle cancels it. Re-arming requires the engine off for at least **10 seconds**.\n\nPractise three launches in a clear, designated start area, allowing clutch cooling between them. If it spins, lower revs and release the clutch more gently before changing anything else.\nStart in second gear, leave the holeshot device disengaged, and use low, steady revs with a gentle clutch release until the rear tire reaches dirt.\n[{\"claim_id\": \"30c4702a-9cdc-e59c-2e2d-25c6deb0b962\", \"value\": \"Chassis / Offroad tire pressure / front: 1.0 bar. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"724b9824-b34b-5299-b50a-c44532aa7876\", \"value\": \"Chassis / Offroad tire pressure / rear: 1.0 bar. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"30521ba0-ccbb-c182-2c51-12026c20b103\", \"value\": \"Engine management / Launch control / activation: press and hold the TC button and the QS button together. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"ce72565f-95c6-66c4-d829-68bf5363f91c\", \"value\": \"Engine management / Launch control / activation conditions: motorcycle stationary, engine at idle speed, transmission in neutral. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"b60e43ab-d6c4-e53a-9316-b99874f7e09d\", \"value\": \"Engine management / Launch control / after the start: switches itself off a few seconds after the start. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"f911fca7-dc61-a1ee-f84b-f11cd1ad0e42\", \"value\": \"Engine management / Launch control / cancels when: throttle closed more than 1/3 of the way after full throttle. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"079b72bc-5f90-09db-9d58-1c013d2b5881\", \"value\": \"Engine management / Launch control / re-arming: engine switched off for at least 10 seconds before launch control can be activated again. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}]\n{\"action\": \"Practise three second-gear launches using low, steady throttle and a progressive clutch release.\", \"purpose\": \"Find repeatable traction before adding throttle.\", \"stop_conditions\": [\"Clutch engagement changes or a burning smell develops.\", \"The practice start area is not clear.\"]}"
+  },
+  {
+   "id": "set-078",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 28.3,
+   "prompt_version": "mx-engineering-95",
+   "specs": 1,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 58558,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 621,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 59179
+   },
+   "text": "For your 2023 450 SX-F, prep for **airflow, cooling and shedding weight** before chasing clickers.\n\n1. **Intake:** Fit a freshly oiled filter, check its sealing edge and secure the airbox cover. Keep drain paths clear\u2014don\u2019t tape everything shut. General race practice is a clean filter each day, or each moto in filthy conditions; KTM\u2019s scheduled cleaning interval is 15 hours, shortened for harsh conditions.\n2. **Cooling:** Clean radiator fins and check coolant with the engine fully cold. Mud screens can help in heavy roost, but remove packed mud between motos. Stop for steam or coolant loss; never open the cap hot.\n3. **Mud buildup:** Fit purpose-made mud foam in collection pockets without blocking cooling or controls. A light silicone coating under the fenders helps shedding\u2014keep it completely off brakes, tires, grips and seat.\n4. **Drivetrain and brakes:** Clean/lube the chain, check guide clearance and inspect pads between motos; gritty mud eats them quickly. Don\u2019t tighten the chain to stop it slapping: an overly tight chain restricts rear suspension movement.\n5. **Race kit:** Run prepared roll-off goggles, bring a fresh pair for each moto, and clean packed mud off the bike between races. Use soft/mud-terrain tires where the base suits them.\n\nKeep your baseline for practice. If accumulated mud makes it wallow or blow through travel, common practice is compression **two clicks firmer**, one end at a time, then retest.\nPrioritize a sealed air filter, clear radiators, mud-shedding prep and reliable vision. Keep the known suspension baseline until practice shows what the added mud weight does.\n[{\"claim_id\": \"4a15a202-9e10-172d-1dd6-7ad4078b4b67\", \"value\": \"Service schedule / Clean the air filter and air filter box: every 15 operating hours; every 45 operating hours; every 90 operating hours; every 24 months. From the manufacturer service schedule for the US standard model. \\\"once\\\" marks a one-time interval; the other entries repeat. The same manual says harsh conditions can call for shorter intervals.\"}]\n{\"action\": \"Prepare the filter and goggles, clear the radiators, then inspect mud buildup after first practice.\", \"purpose\": \"Protect the engine and vision while identifying where mud collects.\", \"stop_conditions\": [\"Steam or coolant loss\", \"Mud interfering with throttle, brakes or wheels\"]}"
+  },
+  {
+   "id": "set-083",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 28.4,
+   "prompt_version": "mx-engineering-95",
+   "specs": 15,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 59691,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 1059,
+    "output_tokens_details": {
+     "reasoning_tokens": 56
+    },
+    "total_tokens": 60750
+   },
+   "text": "Get your **2022 CRF250R on a known baseline** before chasing suspension changes.\n\n1. **Rear sag:** set **105 mm (4.1 in)** wearing your riding gear, with race fuel aboard. Measure from the left rear-fender bolt center to the chain-adjuster locknut center, unloaded versus rider aboard. Honda publishes no static-sag target; general guidance is roughly 30\u201340 mm. Very little static sag with correct rider sag suggests a spring too soft.\n2. **Tires:** both **100 kPa (15 psi), cold**.\n3. **Chain:** **65\u201370 mm (2 1/2\u20132 3/4 in)** with the rear wheel raised. Lift the chain and measure from the swingarm\u2019s top to the chain-pin center at the rear of the slider\u2014not ordinary up/down free play.\n4. **Stock clickers, counted out from lightly seated:** fork compression **12**, rebound **13**; shock low-speed compression **6**, rebound **11**, high-speed compression **2 1/6 turns**. Bleed built-up fork air with the front wheel raised.\n5. **Fit and safety:** adjust lever reach and bar position for comfortable standing. Check filter seating, oil, cold coolant, spokes and fasteners; brakes must feel firm and the throttle must snap shut at either steering lock. Fix leaks or control faults before riding.\n\nAfter the first break-in ride, replace engine oil, oil filter and fork oil; inspect valve clearances/decompressor and recheck sag.\n\nI can walk you through **Pre-ride check**: tap **\u201cWorking on the bike?\u201d** above the message box. Have a stand, tire gauge, ruler, spoke wrench and torque wrench ready.\nSet sag, tire pressures, chain slack and stock clickers before the first ride, then check the controls and fluids. Start with a known baseline rather than tuning around the Honda\u2019s firm fork immediately.\n[{\"claim_id\": \"bfed04d5-b5a4-54e0-bd3c-bf97c617ac04\", \"value\": \"Suspension / Shock / Race sag standard: 105 mm (4.1 in). CRF250R standard spring rider aboard, race weight (fuel to bottom of filler neck)\"}, {\"claim_id\": \"98e69dab-807a-5c08-95b4-3f2a707cb972\", \"value\": \"Suspension / Shock / Race sag measurement points: Center of left side rear fender bolt to center of drive chain adjuster lock nut, unloaded (rear wheel off ground) minus loaded with rider. CRF250R\"}, {\"claim_id\": \"97ee2e2d-7891-5c6a-906e-1ec07401d0b3\", \"value\": \"Chassis / Tires / Cold pressure front: 100 kPa (1.0 kgf/cm2, 15 psi). CRF250R cold\"}, {\"claim_id\": \"79ad181c-0802-5204-a09c-114d5e797895\", \"value\": \"Chassis / Tires / Cold pressure rear: 100 kPa (1.0 kgf/cm2, 15 psi). CRF250R cold\"}, {\"claim_id\": \"a62edfa6-b17f-5f3e-8429-a87c2a4919d4\", \"value\": \"Drive / Chain / Slack: 65 - 70 mm (2 1/2 - 2 3/4 in). CRF250R rear wheel off ground chain lifted; swingarm top surface to chain pin center\"}, {\"claim_id\": \"3449a18a-2503-5f19-9f7f-1a0ff6abe539\", \"value\": \"Suspension / Fork / Compression damping standard: 12 clicks out from stiffest (first click is position 1). CRF250R from full hard (clockwise until it stops) both legs same position\"}, {\"claim_id\": \"a06e51c8-9d2f-50ae-984a-5b4ea26c7315\", \"value\": \"Suspension / Fork / Rebound damping standard: 13 clicks out from stiffest (first click is position 1). CRF250R from full hard (clockwise until it stops) both legs same position\"}, {\"claim_id\": \"b101fbd6-9092-579c-89be-7548915704b9\", \"value\": \"Suspension / Shock / Low-speed compression standard: 6 clicks out from stiffest (first click is position 1). CRF250R from full hard (clockwise until it stops)\"}, {\"claim_id\": \"cd0e03ac-1724-5347-9efa-3cfecaf69662\", \"value\": \"Suspension / Shock / Rebound damping standard: 11 clicks out from stiffest (first click is position 1). CRF250R from full hard (clockwise until it stops)\"}, {\"claim_id\": \"ea94e8ac-68db-53d5-9058-40c615ee8d72\", \"value\": \"Suspension / Shock / High-speed compression standard: 2 1/6 turns out from stiffest. CRF250R from full hard (clockwise until it stops) align punch mark with adjuster body punch mark\"}, {\"claim_id\": \"cc0b4f55-9c1e-57c6-b528-277912a2d3d7\", \"value\": \"Suspension / Fork / Air pressure: Release built-up air to atmospheric pressure before riding, after practice and between motos (loosen fork plug bolt with fork fully extended, front wheel off ground). CRF250R\"}, {\"claim_id\": \"ce59c453-baf8-50c3-af2e-40e0c2d67db3\", \"value\": \"Maintenance Schedule / Engine oil / Break-in: Replace after the first break-in ride. CRF250R\"}, {\"claim_id\": \"61dcb640-3c43-5867-9a41-f03142327760\", \"value\": \"Maintenance Schedule / Engine oil filter / Break-in: Replace after the first break-in ride. CRF250R\"}, {\"claim_id\": \"9cf5f6d5-fc03-5a12-b85b-64b5c7489d69\", \"value\": \"Maintenance Schedule / Fork oil / Break-in: Replace after the first break-in ride. CRF250R\"}, {\"claim_id\": \"df0990c2-db95-541b-9f88-773db540aa05\", \"value\": \"Maintenance Schedule / Valve clearance and decompressor system / Break-in: Inspect after the first break-in ride. CRF250R\"}]\n{\"action\": \"Measure and set rider sag in full riding gear before the first ride.\", \"purpose\": \"Establish front-to-rear balance before judging the suspension.\", \"stop_conditions\": [\"Repair any leaks, loose parts, brake faults or sticking throttle before riding.\"]}"
+  },
+  {
+   "id": "set-088",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 24.2,
+   "prompt_version": "mx-engineering-95",
+   "specs": 5,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 58144,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 643,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 58787
+   },
+   "text": "For your 2023 450 SX-F, build the box around **pressures, wheels, controls and minor crash repairs**.\n\n- **Every ride:** accurate tire gauge, hand pump, dedicated high-pressure fork pump, metric sockets and combination wrenches, hex and Torx bits, screwdrivers and a small ratchet.\n- **Wheels and chain:** front-axle tool, rear-axle socket and breaker bar, chain-adjuster wrenches, spoke wrench and torque wrench. KTM specifies rear axle **80 Nm (59 ft-lb)**, front axle screw **35 Nm (25.8 ft-lb)** and front/rear spoke nipples **6 Nm (4.4 ft-lb)**\u2014one large torque wrench won't accurately cover all three.\n- **Flat repairs, if running tubes:** tire irons, bead lubricant, valve-core tool, spare tubes and a patch kit.\n- **Quick repairs:** pliers, side cutters, pick, tire-safe zip ties, electrical tape, safety wire, rags, gloves and a flashlight.\n- **Spares:** clutch/brake levers, correct chain master link, assorted matching fasteners, pre-oiled air filter sealed in a bag, and an **NGK LMAR9AI-10** plug with a fitting plug socket.\n\nExact axle, plug-socket and spoke-wrench sizes aren't confirmed here; test-fit those tools at home before packing. Add a bike stand, and keep everything in labeled pouches so you're not digging between motos.\nPack for pressure checks, loose fasteners, chain adjustments, flats and minor crash repairs\u2014not an engine rebuild.\n[{\"claim_id\": \"d96aaca9-962b-9bef-8600-f550bd2f45c8\", \"value\": \"Chassis tightening torques / Nut, rear wheel spindle (M22x1.5): 80 Nm (59 lbf ft). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"de1d9f8d-c70c-e668-2f20-750d963199f4\", \"value\": \"Chassis tightening torques / Screw, front wheel spindle (M20x1.5): 35 Nm (25.8 lbf ft). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"1271ea3b-9e21-71d2-cbae-54b5d88e2de2\", \"value\": \"Chassis tightening torques / Spoke nipple, front wheel (M4.5): 6 Nm (4.4 lbf ft). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"97eacffd-92c2-e768-6484-270a4642db19\", \"value\": \"Chassis tightening torques / Spoke nipple, rear wheel (M4.5): 6 Nm (4.4 lbf ft). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}, {\"claim_id\": \"22ec673f-69bf-df50-5e9b-4f70fb9480fe\", \"value\": \"Engine / Spark plug: NGK LMAR9AI-10. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.\"}]\n{\"action\": \"Test-fit every axle, spark-plug and spoke tool at home.\", \"purpose\": \"Make sure the toolbox can actually service your bike trackside.\", \"stop_conditions\": []}"
+  },
+  {
+   "id": "set-093",
+   "ok": true,
+   "score": 1.0,
+   "hit": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "bad": [],
+   "seconds": 20.5,
+   "prompt_version": "mx-engineering-95",
+   "specs": 0,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 51772,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 486,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 52258
+   },
+   "text": "**A baseline sheet plus a one-change-per-entry test log** is the most useful setup logbook. A pocket notebook or your phone works\u2014consistency matters more than the format.\n\nKeep this baseline for your CRF250R:\n- Fork and shock springs, any revalve or linkage changes, and suspension service hours.\n- Fork compression/rebound, shock low-speed compression/rebound in clicks out; shock high-speed compression in turns out, all from lightly seated.\n- Rider sag, free sag, fork height, cold tire pressures, tire model/condition, gearing and map.\n\nCopy this for each test:\n```text\nDate / track / bike hours:\nDirt / moisture / temperature:\nBaseline settings:\nProblem\u2014where, on/off gas, first hit or series:\nONE change\u2014exact before \u2192 after:\nTest section / laps:\nResult\u2014better / worse / no change:\nWhat felt different:\nKeep or revert:\n```\nRetest over the same section for a few laps at a similar pace. Write \u201crear stays higher through repeated bumps\u201d rather than just \u201cfeels better.\u201d If it gets worse, return to the baseline before testing another adjuster. Record when the track dries or gets rougher so you don\u2019t mistake changing dirt for a setup improvement.\nKeep a baseline sheet and a short entry for each test: one change, the same section, and a clear better/worse/no-change result.\n{\"action\": \"Write down the bike\\u2019s current settings as your baseline before the next ride.\", \"purpose\": \"Make every test repeatable and reversible.\", \"stop_conditions\": []}"
+  },
+  {
+   "id": "set-098",
+   "ok": true,
+   "score": 0.75,
+   "hit": [
+    true,
+    true,
+    false,
+    true
+   ],
+   "bad": [],
+   "seconds": 22.5,
+   "prompt_version": "mx-engineering-95",
+   "specs": 2,
+   "model": "gpt-6.1-sol",
+   "usage": {
+    "input_tokens": 57123,
+    "input_tokens_details": {
+     "cached_tokens": 45723,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_30m_tokens": 0,
+      "ttl_12h_tokens": 0
+     }
+    },
+    "output_tokens": 565,
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "total_tokens": 57688
+   },
+   "text": "**Suspension set for your weight and vet pace\u2014not more engine power\u2014makes the biggest difference.** On the 2023 450 SX-F, I\u2019d spend in this order:\n\n1. **Get the stock suspension balanced first.** KTM\u2019s targets are **105 mm rider sag and 35 mm static sag**. Set fork air for your weight, then tune damping; simply making everything softer can leave it riding deep and feeling harsher. Testers consistently describe the 2023 chassis as stiff, particularly before it settles in.\n2. **If it still beats up your hands, prioritize the fork.** A rider-specific revalve is the lower-cost route; a **WP 6500 coil-cartridge conversion** is a common comfort choice for more consistent action and better small-bump compliance. Confirm the kit\u2019s exact-year fit before buying. That\u2019s my bigger-budget pick over an exhaust or cosmetic parts.\n3. **Fit the cockpit.** Set bar position and lever reach so you can stand with relaxed hands and bent elbows. Don\u2019t automatically fit tall bars\u2014they can make weighting the front harder.\n\nWhat do you weigh in riding gear? That decides the fork-air direction and whether the shock spring needs changing before spending on valving.\nSuspension matched to your weight and vet pace makes the biggest comfort difference on this KTM. Controls that fit come next; a coil conversion is the bigger-money option if the stock air fork still beats you up.\n[{\"claim_id\": \"e4dbe12f-bf19-d79d-4104-19c390a23506\", \"value\": \"Shock absorber / Riding sag: 105 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.\"}, {\"claim_id\": \"f4a1ead9-cde7-b368-4629-5dc3ee40bc10\", \"value\": \"Shock absorber / Static sag: 35 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.\"}]\n{\"action\": \"Measure rider sag and static sag before buying comfort upgrades.\", \"purpose\": \"Establish rear balance and check whether the shock spring suits the rider.\", \"stop_conditions\": []}"
+  }
+ ]
+}
