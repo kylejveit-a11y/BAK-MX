@@ -22,4 +22,13 @@ Review before promotion, 2026-11-25:
 - every fastener that appears in both the torque table and a procedure in the same manual carries the same N.m (0 mismatches after the pairing rule);
 - every fastener's value was listed across the six years of each model: changes fall only on the generation breaks
   (KX250F 2016->2017, KX450F 2015->2016, KX450 2018->2019) plus the documented 2014->2015 axle clamp change;
-- the 2019 KX450 values equal the 2020 KX450 rows already on file from the page-image pass (same generation) for every shared fastener and specification.
+- 59 of the 60 torques the 2019 KX450 shares with the 2020 KX450 rows already on file (page-image pass, same generation) are equal; the one
+  difference (Air Cleaner Duct Clamp Bolt, 1.5 vs 2.2 N.m) is printed with all three units agreeing in the 2019 manual.
+
+## Service values (second pass, `service/1.json` .. `service/12.json`, 124 rows)
+
+Run with the `service` argument. Idle speed, valve clearance, clutch lever and throttle free play, chain slack (standard where it sits on the
+same page as its sentence, and the wet/mud figure), 20-link chain length and limit, tyre pressure range, spark plug gap, and for the KX450F
+2015-2018 air fork the standard inner / outer / balance chamber pressures with their ranges. Each value is anchored on its own sentence or a
+single-value box and every metric/imperial pair converts. The periodic maintenance chart is not taken: its marks are detached from the rows in
+the text layer. Clutch plate limits and shock preload ranges are not taken for the same reason.

@@ -12,7 +12,9 @@ when its shape and an independent check agree; anything else is skipped and repo
 - Inline "Tightening Torque <fastener>: n N.m (k kgf.m, x in.lb|ft.lb)": all three units must agree. A fastener printed with two
   different values in one manual is dropped, and so is a value whose label pairing is unclear (two labels ahead of two values).
 Locator: e-book page and the printed page (e-book page minus the two cover pages, confirmed against the page footer).
-usage: kawasaki_textlayer_specs.py <list.tsv: year model code file folder> <xml dir> <out dir>"""
+- Service values (mode 'service'): idle speed, valve clearance, free play, chain slack and length, tyre pressure, plug gap, air-fork chamber
+  pressures; each is anchored on its own sentence or single-value box and unit-checked.
+usage: kawasaki_textlayer_specs.py <list.tsv: year model code file folder> <xml dir> <out dir> [service]"""
 import re,sys,os,json,hashlib,itertools
 h=lambda s:hashlib.sha256(s.encode()).hexdigest()
 IN=25.4;LB=0.45359237;GAL=3.785411784;QT=0.946352946;OZ=29.5735296;KGF=9.80665
@@ -179,9 +181,54 @@ def inline(P,notes):
             if not kgok(nm,kg) or abs(float(nm)*f-float(im))>0.5*10**-dec(im)+0.02*float(im): notes.append(('inline torque units disagree',p,m.group(0))); continue
             out.append((int(p),printed(p,t,'MAINTENANCEANDADJUSTMENT'),'Tightening torque (procedure) / '+words(name),f'{nm} N·m ({kg} kgf·m, {im} {u}·lb)'))
     return out
-def rows(xml):
+KPA=98.0665;PSI=6.894757
+def service(P,notes):
+    """Service values printed in sentences or single-value boxes; each has its own anchor and unit check."""
+    out=[]
+    def add(p,t,path,val): out.append((int(p),printed(p,t,'MAINTENANCEANDADJUSTMENT'),path,val))
+    R=lambda a,b,c,d,f: conv(a,c,f) and conv(b,d,f)
+    for p,t0 in P.items():
+        if int(p)<20: continue
+        t=t0.replace('','~').replace('∼','~')
+        for m in re.finditer(r'adjusttheidlespeed(\d{4})~(\d{4})r/min\(rpm\)',t): add(p,t0,'Engine / Idle speed',f'{m[1]} ∼ {m[2]} r/min (rpm)')
+        if 'StandardValveClearance' in t:
+            v=list(re.finditer(r'(0\.\d\d)~(0\.\d\d)mm\((0\.\d{4})~(0\.\d{4})in\.\)',t))
+            if len(v)==2 and t[:v[0].start()].endswith('Exhaust') and (t[:v[1].start()].endswith('Intake') or t[v[1].end():].startswith('Intake')) and all(R(*x.groups(),IN) for x in v):
+                add(p,t0,'Valve clearance / Exhaust (standard)',f'{v[0][1]} ∼ {v[0][2]} mm ({v[0][3]} ∼ {v[0][4]} in.)'); add(p,t0,'Valve clearance / Intake (standard)',f'{v[1][1]} ∼ {v[1][2]} mm ({v[1][3]} ∼ {v[1][4]} in.)')
+            else: notes.append(('valve clearance not read',p))
+        for m in re.finditer(r'A\.ClutchLeverB\.AdjusterC\.(\d{1,2})~(\d{1,2})mm\((\d\.\d)~(\d\.\d)in\.\)',t):
+            if R(*m.groups(),IN): add(p,t0,'Clutch / Lever free play',f'{m[1]} ∼ {m[2]} mm ({m[3]} ∼ {m[4]} in.)')
+        for m in re.finditer(r'throttlegriphas(\d)~(\d)mm\((0\.\d\d)~(0\.\d\d)in\.\)ofplay',t):
+            if R(*m.groups(),IN): add(p,t0,'Throttle / Grip free play',f'{m[1]} ∼ {m[2]} mm ({m[3]} ∼ {m[4]} in.)')
+        for m in re.finditer(r'adjustthechainslack\(measuredbetweenthechainandtheswingarm\)to(\d\d)~(\d\d)mm\((\d\.\d)~(\d\.\d)in\.\)',t):
+            if R(*m.groups(),IN) and 'muddyconditions' in t[max(0,m.start()-300):m.start()]: add(p,t0,'Drive chain / Slack for wet and muddy conditions',f'{m[1]} ∼ {m[2]} mm ({m[3]} ∼ {m[4]} in.), measured between the chain and the swingarm')
+        if 'shouldbewithinthestandardvalue' in t and 'chainslack' in t:
+            v=list(re.finditer(r'(?<![\d.])(\d\d)~(\d\d)mm\((\d\.\d)~(\d\.\d)in\.\)',t))
+            if len(v)==1 and R(*v[0].groups(),IN): add(p,t0,'Drive chain / Slack (standard)',f'{v[0][1]} ∼ {v[0][2]} mm ({v[0][3]} ∼ {v[0][4]} in.), between the chain and the swingarm')
+            else: notes.append(('chain slack not read',p,len(v)))
+        for m in re.finditer(r'(\d{3}\.\d)~(\d{3}\.\d)mm\((\d\d\.\d\d)~(\d\d\.\d\d)in\.\)StandardServiceLimit(\d{3})mm\((\d\d\.\d)in\.\)',t):
+            if '20-link' in t.lower().replace('link','-link').replace('--','-') or '20link' in t.lower():
+                if R(m[1],m[2],m[3],m[4],IN) and conv(m[5],m[6],IN):
+                    add(p,t0,'Drive chain / 20-link length (standard)',f'{m[1]} ∼ {m[2]} mm ({m[3]} ∼ {m[4]} in.)'); add(p,t0,'Drive chain / 20-link length (service limit)',f'{m[5]} mm ({m[6]} in.)')
+        if 'TireAirPressure' in t:
+            v=list(re.finditer(r'(\d{2,3})~(\d{2,3})kPa\((\d\.\d)~(\d\.\d)kgf/cm²,(\d\d)~(\d\d)psi\)',t))
+            if len(v)==1 and R(v[0][1],v[0][2],v[0][3],v[0][4],KPA) and R(v[0][1],v[0][2],v[0][5],v[0][6],PSI): add(p,t0,'Tires / Air pressure adjustable range',f'{v[0][1]} ∼ {v[0][2]} kPa ({v[0][3]} ∼ {v[0][4]} kgf/cm², {v[0][5]} ∼ {v[0][6]} psi), checked cold')
+            else: notes.append(('tire pressure not read',p,len(v)))
+        if 'SparkPlugGap' in t:
+            v=list(re.finditer(r'(0\.\d)~(0\.\d)mm\((0\.0\d{1,2})~(0\.0\d{1,2})in\.\)',t))
+            if len(v)==1 and R(*v[0].groups(),IN): add(p,t0,'Engine / Spark plug gap',f'{v[0][1]} ∼ {v[0][2]} mm ({v[0][3]} ∼ {v[0][4]} in.)')
+            else: notes.append(('spark plug gap not read',p,len(v)))
+        ch=re.findall(r'(Inner|Outer|Balance)ChamberAirPressureAirPressure\(Standard[Ss]etting\)AdjustableRange',t)
+        if len(ch)==1:
+            std=list(re.finditer(r'(?<![~\d])(?<!\d\.)(\d{2,4})kPa\((\d{1,2}\.\d\d)kgf/cm²,(\d{2,3}(?:\.\d)?)psi\)',t)); rng=list(re.finditer(r'(?<![\d.])(\d{1,4})~(\d{3,4})kPa\(([\d.]+)~([\d.]+)kgf/cm²',t))
+            if len(std)==1 and conv(std[0][1],std[0][2],KPA) and conv(std[0][1],std[0][3],PSI):
+                add(p,t0,f'Fork / {ch[0]} chamber air pressure / Standard setting',f'{std[0][1]} kPa ({std[0][2]} kgf/cm², {std[0][3]} psi)')
+                if len(rng)==1 and R(*rng[0].groups(),KPA) and float(rng[0][1])<=float(std[0][1])<=float(rng[0][2]): add(p,t0,f'Fork / {ch[0]} chamber air pressure / Adjustable range',f'{rng[0][1]} ∼ {rng[0][2]} kPa ({rng[0][3]} ∼ {rng[0][4]} kgf/cm²)')
+            else: notes.append(('air chamber not read',p,ch,len(std)))
+    return out
+def rows(xml,mode='specs'):
     notes=[]; P=dict(re.findall(r'<text page="(\d+)"[^>]*><!\[CDATA\[(.*?)\]\]></text>',xml,re.S))
-    out=specs(P,notes)+table(P,notes)+inline(P,notes)
+    out=service(P,notes) if mode=='service' else specs(P,notes)+table(P,notes)+inline(P,notes)
     seen={}
     for o in out: seen.setdefault(o[2],set()).add(o[3])
     clash=sorted(k for k,v in seen.items() if len(v)>1)
@@ -191,11 +238,11 @@ def rows(xml):
         if o[2] not in clash and o[2] not in keep: keep[o[2]]=o
     return list(keep.values()),notes
 if __name__=='__main__':
-    lst,xd,od=sys.argv[1:4]; os.makedirs(od,exist_ok=True); i=0
+    lst,xd,od=sys.argv[1:4]; mode=sys.argv[4] if len(sys.argv)>4 else 'specs'; os.makedirs(od,exist_ok=True); i=0
     for l in open(lst):
         y,m,code,f,folder=l.rstrip('\n').split('\t')[:5]
         if not folder or not y.isdigit(): continue
-        raw=open(f'{xd}/{y}-{m}.xml','rb').read(); r,notes=rows(raw.decode('utf-8'))
+        raw=open(f'{xd}/{y}-{m}.xml','rb').read(); r,notes=rows(raw.decode('utf-8'),mode)
         model={'KX250F':'KX250','KX450F':'KX450'}.get(m,m)
         lines=sorted((f'{p}|{pr}|{a}|{v}|' for p,pr,a,v in r),key=lambda x:h(x.split('|')[2]))
         print(y,m,len(r),'unpaged',sum(1 for x in r if x[1]=='?'),notes)
