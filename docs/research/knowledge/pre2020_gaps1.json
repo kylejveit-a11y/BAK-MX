@@ -1,0 +1,2415 @@
+{
+ "slice": "Pre-2020 off-road and mini models that had no second-hand coverage: Honda CRF450RX/CRF450X/CRF250X/CRF250RX/CRF150R, Yamaha WR250F/WR450F, KTM 85 SX, XC, XC-W and XC-F, Husqvarna TE/TX/FE, from magazine tests (knowledge push 2026-11)",
+ "platform": {
+  "make": "Honda",
+  "models": [
+   "CRF450RX"
+  ],
+  "years": [
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ]
+ },
+ "records": [
+  {
+   "id": "o-gp-001",
+   "domain": "identity",
+   "topic": "CRF450RX: how it differs from the CRF450R",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2017,
+     2018
+    ],
+    "make": "Honda"
+   },
+   "statement": "The CRF450RX is the CRF450R motocross bike set up for closed-course off-road racing. It adds electric start, a 2.2-gallon plastic tank in place of the titanium one, an 18-inch rear wheel, a side stand on the footpeg bracket, three off-road ignition maps, a rear sprocket one tooth larger, off-road fork and shock valving with a shock spring one rate softer (fork springs the same) and less rigid upper engine hangers. The gearbox is the same five-speed close-ratio unit. It has no spark arrestor.",
+   "values": {
+    "tank_gal": 2.2,
+    "rear_wheel_in": 18,
+    "maps": 3,
+    "gearbox": "5-speed close ratio",
+    "rear_sprocket": "+1 tooth vs CRF450R"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 Honda CRF450RX",
+    "url": "https://dirtbiketest.com/bike-tests/2017-honda-crf450rx/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-002",
+   "domain": "power_feel",
+   "topic": "CRF450RX weight, range and engine feel (2017 test)",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2017,
+     2018
+    ],
+    "make": "Honda"
+   },
+   "statement": "A 2017 test bike weighed 261 lb with a full tank and listed at $9,249. It averaged about 30 mpg for roughly 65 miles per tank, with no low-fuel warning. The engine is a motocross engine: strong from low rpm, quick-revving with a light-flywheel feel and a long pull on top. It was usable from about 10 to 85 mph on stock gearing and first gear is tall for tight trail.",
+   "values": {
+    "weight_lb_full": 261,
+    "msrp_usd_2017": 9249,
+    "mpg": 30,
+    "range_mi": 65
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 Honda CRF450RX",
+    "url": "https://dirtbiketest.com/bike-tests/2017-honda-crf450rx/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-003",
+   "domain": "ecu_electronics",
+   "topic": "CRF450RX three maps",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2017,
+     2018
+    ],
+    "make": "Honda"
+   },
+   "statement": "The CRF450RX has three maps chosen with the small bar button (hold about three seconds at closed throttle). Smooth softens the first half of the throttle. Standard is strong and close to the motocross bike. Aggressive hits suddenly and spins the tyre: harder to ride in technical ground, better in deep sand.",
+   "values": {
+    "maps": "smooth / standard / aggressive",
+    "change": "3-second press at closed throttle"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 Honda CRF450RX",
+    "url": "https://dirtbiketest.com/bike-tests/2017-honda-crf450rx/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-004",
+   "domain": "setups",
+   "topic": "CRF450RX suspension direction from testing",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2017,
+     2018
+    ],
+    "make": "Honda"
+   },
+   "statement": "Testers ran 103-108 mm of race sag (105 mm recommended) on the CRF450RX. The best single change was backing the shock high-speed compression out 1/8 to 1/4 turn. Adding low-speed compression held the bike higher in the stroke and cut bottoming in whoops. It stays harsh at trail pace and clickers only partly cure that; it is happiest at race speed.",
+   "values": {
+    "sag_mm": "103-108 (105 recommended)",
+    "shock_hsc": "1/8 to 1/4 turn out from stock"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 Honda CRF450RX",
+    "url": "https://dirtbiketest.com/bike-tests/2017-honda-crf450rx/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-005",
+   "domain": "known_issues",
+   "topic": "CRF450RX weak points found in testing",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2017,
+     2018
+    ],
+    "make": "Honda"
+   },
+   "statement": "Found on a 2017 CRF450RX test bike: the non-sealed chain stretched quickly and wore the aluminium rear sprocket, the chain-guard tabs on the swingarm look easy to break, the lower skid-plate bolt sits where rocks hit it and the plate must come off for oil changes, the exhaust is loud and has no spark arrestor, and there is no fuel warning for a bike that goes about 65 miles on a tank.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 Honda CRF450RX",
+    "url": "https://dirtbiketest.com/bike-tests/2017-honda-crf450rx/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-006",
+   "domain": "chassis",
+   "topic": "CRF450RX what it is good at",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2017,
+     2018
+    ],
+    "make": "Honda"
+   },
+   "statement": "The CRF450RX is a race bike, not a trail bike: stable at desert speed, strong on a motocross track and suited to GP and GNCC-style racing and track days. It is not comfortable at slow trail pace.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 Honda CRF450RX",
+    "url": "https://dirtbiketest.com/bike-tests/2017-honda-crf450rx/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-007",
+   "domain": "identity",
+   "topic": "CRF450X 2019 redesign",
+   "applies_to": {
+    "models": [
+     "CRF450X"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "The CRF450X was all new for 2019. It has a six-speed gearbox, a frame narrower at the footpegs than the CRF450R's, the motocross bike's suspension components with off-road settings, a titanium fuel tank, a mechanical (non-catalyst) muffler, a sealed evaporative catch system, a clutch-lever starter safety switch and a digital meter with fuel-consumption readout. The engine differs from the R: a two-ring piston, slightly lower compression, some steel parts in place of titanium, a thermostat housing and plastic sound-damping covers.",
+   "values": {
+    "gearbox": "6-speed",
+    "tank": "titanium, just over 2 gal",
+    "piston_rings": 2
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2019 Honda CRF450X",
+    "url": "https://dirtbiketest.com/bike-tests/2019-honda-crf450x",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-008",
+   "domain": "power_feel",
+   "topic": "CRF450X 2019 weight, power, range and speed",
+   "applies_to": {
+    "models": [
+     "CRF450X"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "A 2019 CRF450X weighed 273 lb in testing and listed at $9,799. Peak power is roughly 43 hp. It averaged 34-40 mpg, about 70 miles per stock tank, and ran over 100 mph. Stock it is quiet and smooth and needs more throttle than an open bike before the low-end arrives. It has no radiator fan.",
+   "values": {
+    "weight_lb": 273,
+    "msrp_usd": 9799,
+    "peak_hp": "about 43",
+    "mpg": "34-40",
+    "range_mi": 70,
+    "top_speed_mph": "over 100"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2019 Honda CRF450X",
+    "url": "https://dirtbiketest.com/bike-tests/2019-honda-crf450x",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-009",
+   "domain": "engine_mods",
+   "topic": "CRF450X 2019: a pipe alone does not help",
+   "applies_to": {
+    "models": [
+     "CRF450X"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "On the 2019 CRF450X an exhaust on its own adds noise and throttle snap but no power, and the bike runs lean and flat on top. Removing the airbox lid also leaned it out for no gain. The stock fuelling has to be corrected with a fuel tuner or a programmable ECU at the same time as any intake or exhaust change. A quiet aftermarket exhaust with a fuel tuner was the tested combination.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2019 Honda CRF450X",
+    "url": "https://dirtbiketest.com/bike-tests/2019-honda-crf450x",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-010",
+   "domain": "setups",
+   "topic": "CRF450X 2019 suspension direction from testing",
+   "applies_to": {
+    "models": [
+     "CRF450X"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "Testers ran about 106 mm of sag on the 2019 CRF450X and found the stock springs right for riders of about 170-210 lb. For a plusher ride they went 4-6 clicks softer on compression at both ends. On the fork, bleeding the air to a slight negative pressure and opening rebound 1-2 clicks helped small-bump feel.",
+   "values": {
+    "sag_mm": 106,
+    "rider_lb": "170-210",
+    "plush": "4-6 clicks softer compression front and rear"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2019 Honda CRF450X",
+    "url": "https://dirtbiketest.com/bike-tests/2019-honda-crf450x",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-011",
+   "domain": "known_issues",
+   "topic": "CRF450X 2019 weak points found in testing",
+   "applies_to": {
+    "models": [
+     "CRF450X"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "Found on a 2019 CRF450X: a vague clutch with a long engagement that stalls the engine and gets worse hot (an aftermarket clutch pack fixed it), occasional hard starting, a headlight and trip meter that go dark the instant the engine stalls, chain side play that wore the aluminium sprocket and chain pads, a lower swingarm-mount bolt that backed out twice, and an evaporative catch that needs draining every couple of rides. First gear is a little tall for technical riding. A bigger tank (3.2 gal tested, over 100 miles) and a steering damper were the suggested additions.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2019 Honda CRF450X",
+    "url": "https://dirtbiketest.com/bike-tests/2019-honda-crf450x",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-012",
+   "domain": "identity",
+   "topic": "CRF450X carbureted model: layout",
+   "applies_to": {
+    "models": [
+     "CRF450X"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ],
+    "make": "Honda"
+   },
+   "statement": "The carbureted CRF450X is a 449 cc Unicam four-valve single (96 x 62 mm, 12.0:1) fed by a 40 mm Keihin flat-slide carburettor with a throttle position sensor. It has electric and kick start, a five-speed wide-ratio gearbox, a sealed 520 chain, a twin-spar aluminium frame, a 47 mm Showa cartridge fork and linkage Showa shock with 12.4 in of travel at each end, an 18-inch rear wheel and Honda's non-adjustable steering damper. Seat height 37.9 in, 1.9-gallon tank, 269 lb curb weight, $8,699 list in 2017.",
+   "values": {
+    "carb": "40 mm Keihin flat slide",
+    "gearbox": "5-speed wide ratio",
+    "travel_in": 12.4,
+    "seat_in": 37.9,
+    "tank_gal": 1.9,
+    "curb_weight_lb": 269,
+    "msrp_usd_2017": 8699
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2017 Honda CRF450X test",
+    "url": "https://ultimatemotorcycling.com/?p=210614",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2017; applied to the carbureted generation years in the garage."
+  },
+  {
+   "id": "o-gp-013",
+   "domain": "power_feel",
+   "topic": "CRF450X carbureted model: engine feel",
+   "applies_to": {
+    "models": [
+     "CRF450X"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ],
+    "make": "Honda"
+   },
+   "statement": "The carbureted CRF450X pulls from very low revs and is hard to stall thanks to a heavy flywheel. Throttle response is clean with no stumble when blipped over obstacles. It is smooth rather than fast and far milder than the CRF450RX. Cold starts need the choke and a long warm-up.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2017 Honda CRF450X test",
+    "url": "https://ultimatemotorcycling.com/?p=210614",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2017; applied to the carbureted generation years in the garage."
+  },
+  {
+   "id": "o-gp-014",
+   "domain": "chassis",
+   "topic": "CRF450X carbureted model: handling and first changes",
+   "applies_to": {
+    "models": [
+     "CRF450X"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ],
+    "make": "Honda"
+   },
+   "statement": "The carbureted CRF450X is plush without wallowing and is set up for trail pace, not racing. Its steering damper works well at speed on hardpack and rocks but brings head shake in sand. The stock tyres are budget fitment and worth replacing straight away, and it comes with no handguards.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2017 Honda CRF450X test",
+    "url": "https://ultimatemotorcycling.com/?p=210614",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2017; applied to the carbureted generation years in the garage."
+  },
+  {
+   "id": "o-gp-015",
+   "domain": "identity",
+   "topic": "CRF250X layout",
+   "applies_to": {
+    "models": [
+     "CRF250X"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ],
+    "make": "Honda"
+   },
+   "statement": "The CRF250X is a 249 cc Unicam four-valve single (78 x 52.2 mm) with a 37 mm Keihin flat-slide carburettor and throttle position sensor, electric and kick start, a five-speed wide-ratio gearbox, 14/53 gearing on a 520 chain, a twin-spar aluminium frame, a 47 mm Showa cartridge fork (12.4 in travel) and Pro-Link Showa shock (12.3 in), and an 18-inch rear wheel. The tank holds 1.9 gallons including a 0.4-gallon reserve. Seat height 37.7 in, 254 lb curb weight, $7,410 list in 2016.",
+   "values": {
+    "carb": "37 mm Keihin flat slide",
+    "gearbox": "5-speed wide ratio",
+    "gearing": "14/53",
+    "tank_gal": 1.9,
+    "seat_in": 37.7,
+    "curb_weight_lb": 254,
+    "msrp_usd_2016": 7410
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2016 Honda CRF250X first ride test",
+    "url": "https://ultimatemotorcycling.com/2015/06/03/2016-honda-crf250x-review-first-ride-test/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2016; applied to the same carbureted model years in the garage."
+  },
+  {
+   "id": "o-gp-016",
+   "domain": "power_feel",
+   "topic": "CRF250X engine feel",
+   "applies_to": {
+    "models": [
+     "CRF250X"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ],
+    "make": "Honda"
+   },
+   "statement": "The CRF250X makes about 28 hp with a wide spread for a short-stroke 250. It revs to 12,000 rpm but is best shifted near 10,000, and it will not stall at low speed even when the throttle is snapped. Cold starts can be balky and need the choke; the hot-start lever was not needed even in 90-degree heat.",
+   "values": {
+    "hp": "about 28",
+    "redline_rpm": 12000
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2016 Honda CRF250X first ride test",
+    "url": "https://ultimatemotorcycling.com/2015/06/03/2016-honda-crf250x-review-first-ride-test/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2016; applied to the same carbureted model years in the garage."
+  },
+  {
+   "id": "o-gp-017",
+   "domain": "chassis",
+   "topic": "CRF250X suspension limits",
+   "applies_to": {
+    "models": [
+     "CRF250X"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ],
+    "make": "Honda"
+   },
+   "statement": "The CRF250X is supple and tracks well on slow, bumpy climbs. Pushed hard the fork wallows through berms, the bike uses too much travel landing in whoops and the front washes unless the rider keeps weight forward. Fork compression and rebound have 16 positions each; the shock has preload, 17-position rebound and high- and low-speed compression. It suits technical single-track and casual enduro, not desert or motocross sections.",
+   "values": {
+    "fork_adjust": "16 positions comp and rebound",
+    "shock_rebound_positions": 17
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2016 Honda CRF250X first ride test",
+    "url": "https://ultimatemotorcycling.com/2015/06/03/2016-honda-crf250x-review-first-ride-test/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2016; applied to the same carbureted model years in the garage."
+  },
+  {
+   "id": "o-gp-018",
+   "domain": "known_issues",
+   "topic": "CRF250X common complaints",
+   "applies_to": {
+    "models": [
+     "CRF250X"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017
+    ],
+    "make": "Honda"
+   },
+   "statement": "The usual CRF250X complaints are the carburettor (no fuel injection), suspension that is soft at speed, the small tank, limited power and only five gears for open country, and a demanding maintenance schedule. Suggested first upgrades were better tyres (keeping the 18-inch rear), tapered bars and a skid plate.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2016 Honda CRF250X first ride test",
+    "url": "https://ultimatemotorcycling.com/2015/06/03/2016-honda-crf250x-review-first-ride-test/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2016; applied to the same carbureted model years in the garage."
+  },
+  {
+   "id": "o-gp-019",
+   "domain": "identity",
+   "topic": "CRF250RX: how it differs from the CRF250R",
+   "applies_to": {
+    "models": [
+     "CRF250RX"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "The 2019 CRF250RX is the CRF250R with a 2.2-gallon tank (1.6 on the R), an 18-inch rear wheel, a forged aluminium side stand on a redesigned left footpeg bracket, an O-ring chain, fork and shock springs one step softer with lighter valving, and its own off-road mapping. It is about 6 lb heavier than the 227 lb motocross bike, an inch wider at the shrouds and listed at $8,299. It keeps the five-speed gearbox and has no handguards, lights, meter or spark arrestor.",
+   "values": {
+    "tank_gal": 2.2,
+    "rear_wheel_in": 18,
+    "weight_vs_r_lb": "+6",
+    "msrp_usd": 8299,
+    "gearbox": "5-speed"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Honda CRF250RX race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2019-honda-crf250rx-cross-country",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-020",
+   "domain": "power_feel",
+   "topic": "CRF250RX dyno and power feel",
+   "applies_to": {
+    "models": [
+     "CRF250RX"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "On a magazine dyno the 2019 CRF250RX made 42.40 hp and 19.80 lb-ft, against 42.68 hp and 19.97 lb-ft for the CRF250R. Its mapping gives it better pickup low down and a torquier midrange than the motocross bike, so it drives out of corners without bogging; the R revs quicker once it is on the pipe.",
+   "values": {
+    "peak_hp": 42.4,
+    "torque_lbft": 19.8
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Honda CRF250RX race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2019-honda-crf250rx-cross-country",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-021",
+   "domain": "ecu_electronics",
+   "topic": "CRF250RX maps",
+   "applies_to": {
+    "models": [
+     "CRF250RX"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "The CRF250RX has three push-button maps. In dyno testing the stock map (one flash) made the most power everywhere; the mellow (two flashes) and aggressive (three flashes) maps made less. Launch control is awkward to switch on.",
+   "values": {
+    "best_map": "stock (one flash)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Honda CRF250RX race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2019-honda-crf250rx-cross-country",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-022",
+   "domain": "setups",
+   "topic": "CRF250RX tester fork and shock settings",
+   "applies_to": {
+    "models": [
+     "CRF250RX"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "A magazine crew's 2019 CRF250RX setup. Fork (4.5 N/mm springs): compression 7 clicks out (stock 9), rebound 13 out (stock 14), legs 3 mm up in the clamps (stock 5 mm). Shock (51 N/mm spring): race sag 107 mm (stock 105), high-speed compression 3-1/4 turns out (stock 3-1/2), low-speed compression 9 clicks out (stock 11), rebound 7 out (stock 8). If it oversteers, lower the fork 2 mm or drop the sag a couple of millimetres first; if the fork rides low, add compression.",
+   "values": {
+    "fork_spring": "4.5 N/mm",
+    "fork_comp": "7 out (stock 9)",
+    "fork_reb": "13 out (stock 14)",
+    "fork_height_mm": "3 (stock 5)",
+    "shock_spring": "51 N/mm",
+    "sag_mm": "107 (stock 105)",
+    "hsc": "3-1/4 turns (stock 3-1/2)",
+    "lsc": "9 out (stock 11)",
+    "shock_reb": "7 out (stock 8)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Honda CRF250RX race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2019-honda-crf250rx-cross-country",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-023",
+   "domain": "known_issues",
+   "topic": "CRF250RX complaints from testing",
+   "applies_to": {
+    "models": [
+     "CRF250RX"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "Complaints on the 2019 CRF250RX: five gears with no extra-low first or tall top for real off-road use, extra weight carried high in the bigger tank, and ignition and clutch covers that scratch easily. Riders who remove the side stand usually fit the standard CRF250R footpeg bracket.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Honda CRF250RX race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2019-honda-crf250rx-cross-country",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-024",
+   "domain": "identity",
+   "topic": "CRF150R layout and the 2012 update",
+   "applies_to": {
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "The CRF150R is a 149 cc liquid-cooled four-stroke with a carburettor, a light flywheel and a five-speed close-ratio gearbox; engine and gearbox oil are separate. It was introduced for 2007, got a needle change for 2008 and, for 2012, a new cylinder head, piston, camshaft and accelerator-pump circuit. The small-wheel bike runs 17/14-inch wheels with a 32.8 in seat and about 185 lb wet; the big-wheel (Expert) runs 19/16-inch wheels, a 34.1 in seat, about 187 lb and slightly firmer valving. Fork travel is 10.8 in and both ends are fully adjustable. The tank holds 1.11 gallons.",
+   "values": {
+    "displacement_cc": 149,
+    "gearbox": "5-speed close ratio",
+    "wheels": "17/14 small, 19/16 big",
+    "seat_in": "32.8 / 34.1",
+    "wet_weight_lb": "185 / 187",
+    "tank_gal": 1.11,
+    "update_2012": "head, piston, cam, accelerator pump"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "article",
+    "name": "Motocross Hideout - Honda CRF150R review",
+    "url": "https://motocrosshideout.com/honda-crf150r-review/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-025",
+   "domain": "power_feel",
+   "topic": "CRF150R power against an 85 two-stroke",
+   "applies_to": {
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "The CRF150R makes about 23.5 hp at the crank (roughly 21 at the wheel). It has more torque than an 85 cc two-stroke and a smoother curve, but it is heavier, revs up and down quickly and is a race engine, not a trail engine: little flywheel and easy to stall.",
+   "values": {
+    "crank_hp": 23.5,
+    "wheel_hp": "about 21"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "article",
+    "name": "Motocross Hideout - Honda CRF150R review",
+    "url": "https://motocrosshideout.com/honda-crf150r-review/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-026",
+   "domain": "known_issues",
+   "topic": "CRF150R common problems and fixes",
+   "applies_to": {
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "Common CRF150R problems: stalling (cured with flywheel weight, jetting work or an auto-clutch), hard kick-starting and a hanging idle after it has sat on pump fuel (clean the carburettor), and a harsh ride for trail use (springs for the rider, sag, then clickers one change at a time). Early valve and top-end failures are mostly put down to neglected maintenance.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "article",
+    "name": "Motocross Hideout - Honda CRF150R review",
+    "url": "https://motocrosshideout.com/honda-crf150r-review/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-027",
+   "domain": "maintenance",
+   "topic": "CRF150R service rhythm owners use",
+   "applies_to": {
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "Owner practice on the CRF150R: engine oil every 10-15 hours (the engine holds only about 0.62 US quarts), air filter whenever it is dirty, and valve checks more often the harder it is revved. Ridden gently a top end can go 50-100 hours or more; raced, plan on far less. Always confirm intervals against the owner's manual.",
+   "values": {
+    "oil_hours": "10-15",
+    "oil_capacity_qt": 0.62
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "article",
+    "name": "Motocross Hideout - Honda CRF150R review",
+    "url": "https://motocrosshideout.com/honda-crf150r-review/",
+    "date": "2023"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-028",
+   "domain": "setups",
+   "topic": "CRF150R rider size and springs",
+   "applies_to": {
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "The small-wheel CRF150R fits riders of about 4 ft 10 to 5 ft 2; the big-wheel fits about 5 ft 0 to 5 ft 6. Stock suspension suits roughly 80-120 lb. Riders over about 150 lb bottom it and need stiffer springs.",
+   "values": {
+    "small_wheel_height": "4ft10-5ft2",
+    "big_wheel_height": "5ft0-5ft6",
+    "stock_rider_lb": "80-120"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "article",
+    "name": "Motocross Hideout - Honda CRF150R review",
+    "url": "https://motocrosshideout.com/honda-crf150r-review/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-029",
+   "domain": "identity",
+   "topic": "WR250F 2015 redesign: how it differs from the YZ250F",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2015,
+     2016,
+     2017
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "The 2015 WR250F moved to the reversed-cylinder YZ250F engine and frame. Against the motocross bike it has a six-speed wide-ratio gearbox (first lower than the YZ's, sixth taller than the YZ's fifth), electric start with a kick backup, a 160-watt alternator with more flywheel mass, a lighter-pull clutch with different plates and springs, softer springs and off-road valving, thinner engine mounts for more flex, an 18-inch rear wheel, a side stand, a plastic skid plate, an automatic radiator fan (on at about 200 degrees F), lights run by the ECU, a meter with low-fuel and fault lights, a locked emissions ECU and a quiet chambered muffler.",
+   "values": {
+    "gearbox": "6-speed wide ratio",
+    "alternator_w": 160,
+    "starter": "electric plus kick",
+    "rear_wheel_in": 18
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 Yamaha WR250F",
+    "url": "https://dirtbiketest.com/bike-tests/2015-yamaha-wr250f/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2015; applied to the same generation through 2017."
+  },
+  {
+   "id": "o-gp-030",
+   "domain": "power_feel",
+   "topic": "WR250F weight, range and speed (2015 test)",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2015,
+     2016,
+     2017
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "A 2015 WR250F weighed 255 lb full and 245 lb empty on a magazine scale and listed at $7,990. The tank holds just under 2 gallons; it averaged 30 mpg and the low-fuel light came on with about 10-15 miles left. GPS top speed was 88 mph on a flat road.",
+   "values": {
+    "weight_lb_full": 255,
+    "weight_lb_empty": 245,
+    "msrp_usd_2015": 7990,
+    "mpg": 30,
+    "top_speed_mph": 88
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 Yamaha WR250F",
+    "url": "https://dirtbiketest.com/bike-tests/2015-yamaha-wr250f/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2015; applied to the same generation through 2017."
+  },
+  {
+   "id": "o-gp-031",
+   "domain": "engine_mods",
+   "topic": "WR250F uncorking and the competition kit",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2015,
+     2016,
+     2017
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "As delivered the 2015-generation WR250F is held back for sound and emissions and has a lean spot around one-third throttle that is annoying in technical riding. Closed-course uncorking is three parts: remove the throttle stop, the smallest muffler restrictor and the intake snorkel; it gains low and midrange and stays quiet. Yamaha's competition kit (about $110) unlocks the ECU for the Power Tuner. A YZ250FX ECU tried in testing removed the lean spot and added low and midrange, but the headlight did not work with it.",
+   "values": {
+    "uncork": "throttle stop, small muffler restrictor, intake snorkel",
+    "comp_kit_usd": 110
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 Yamaha WR250F",
+    "url": "https://dirtbiketest.com/bike-tests/2015-yamaha-wr250f/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2015; applied to the same generation through 2017."
+  },
+  {
+   "id": "o-gp-032",
+   "domain": "setups",
+   "topic": "WR250F suspension direction from testing",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2015,
+     2016,
+     2017
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "Testers ran about 110 mm of rider sag on the 2015 WR250F. The stock setting is soft and very good for trail; adding compression clicks firms it for faster riding. If it feels unstable or twitchy over chop, lowering the rear ride height usually settles it, and moving the bars back from the forward mount helps.",
+   "values": {
+    "sag_mm": 110
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 Yamaha WR250F",
+    "url": "https://dirtbiketest.com/bike-tests/2015-yamaha-wr250f/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2015; applied to the same generation through 2017."
+  },
+  {
+   "id": "o-gp-033",
+   "domain": "known_issues",
+   "topic": "WR250F complaints from testing",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2015,
+     2016,
+     2017
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "Complaints on the 2015-generation WR250F: the stock lean spot and corked power, weight that shows when lofting the front or pivot-turning, a twitchy feel with the bars in the forward mount, dated levers and no handguards. A less restrictive but still quiet muffler was the suggested next step after uncorking.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 Yamaha WR250F",
+    "url": "https://dirtbiketest.com/bike-tests/2015-yamaha-wr250f/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": "Test bike was a 2015; applied to the same generation through 2017."
+  },
+  {
+   "id": "o-gp-034",
+   "domain": "identity",
+   "topic": "WR450F 2019 redesign",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "The WR450F was all new for 2019 on the current YZ450F engine and frame: a more compact 449 cc engine with the starter moved above the gearbox to drive the clutch basket, no kickstarter, a stiffer frame 18 mm narrower at the knees, a seat 18 mm lower in the middle, a 22 mm front axle (was 20), a tank 0.18 gallon larger at 2.2 gallons, a lead-acid battery in place of lithium and a lighter side stand. It keeps a five-speed wide-ratio gearbox, 18-inch rear wheel, radiator fan, lights, enduro meter, spark arrestor and steel rear sprocket. Springs are softer than the YZ450F's: 4.6 against 5.0 N/mm in the fork, 56 against 58 N/mm on the shock. List price $9,599.",
+   "values": {
+    "tank_gal": 2.2,
+    "gearbox": "5-speed wide ratio",
+    "fork_spring": "4.6 N/mm (YZ 5.0)",
+    "shock_spring": "56 N/mm (YZ 58)",
+    "front_axle_mm": 22,
+    "msrp_usd": 9599
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2019 Yamaha WR450F review",
+    "url": "https://www.cyclenews.com/2019/08/article/2019-yamaha-wr450f-review",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-035",
+   "domain": "power_feel",
+   "topic": "WR450F 2019 weight and engine feel",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "The 2019 WR450F weighed 258 lb without fuel on a magazine scale (262 lb claimed wet), about 20 lb more than a KTM 450 XC-F. With the throttle stop and inner muffler out it is still very quiet, with strong, smooth low-end and far less intimidating power than the YZ450F or YZ450FX. It can be hard to start: it wants a small, exact amount of throttle, and long cranking should be avoided to protect the battery.",
+   "values": {
+    "weight_lb_no_fuel": 258,
+    "claimed_wet_lb": 262
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Yamaha WR450F full test",
+    "url": "https://dirtbikemagazine.com/amp/yamaha-wr450f-full-test/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-036",
+   "domain": "ecu_electronics",
+   "topic": "WR450F 2019 locked ECU and the tunable options",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "The 2019 WR450F ships with a throttle stop, an inner muffler insert and a sealed, non-tunable ECU with no phone connection (the YZ450FX has it). Yamaha sells a programmable replacement ECU (about $150) and a wireless communication unit (about $300) that allows phone mapping for closed-course use. A competition muffler is the next step for real power.",
+   "values": {
+    "tunable_ecu_usd": 150,
+    "wifi_unit_usd": 300
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Yamaha WR450F full test",
+    "url": "https://dirtbikemagazine.com/amp/yamaha-wr450f-full-test/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-037",
+   "domain": "setups",
+   "topic": "WR450F 2019 sag and spring range",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "Yamaha recommends 105 mm of sag on the 2019 WR450F; testers preferred 108 mm. The stock springs suit a rider of about 180 lb at moderate trail pace. Stiffer springs are worth fitting for riding above about 45 mph or through big whoops.",
+   "values": {
+    "sag_mm": "105 recommended, 108 preferred",
+    "rider_lb": "about 180"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2019 Yamaha WR450F review",
+    "url": "https://www.cyclenews.com/2019/08/article/2019-yamaha-wr450f-review",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-038",
+   "domain": "known_issues",
+   "topic": "WR450F 2019 complaints from testing",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "Complaints on the 2019 WR450F: fussy starting, weight and height, a rear tyre that spins easily on slick hardpack, no handguards, and no California green-sticker status at launch.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2019 Yamaha WR450F review",
+    "url": "https://www.cyclenews.com/2019/08/article/2019-yamaha-wr450f-review",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-039",
+   "domain": "identity",
+   "topic": "85 SX 2018 redesign",
+   "applies_to": {
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2018,
+     2019
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 85 SX was redone for 2018: a new cylinder with an adjustable power valve, a lighter crank with more inertia, a diaphragm-spring clutch, lighter gearbox parts, a chromoly frame nearly 1 lb lighter with 7% more torsional and 25% less longitudinal stiffness, a WP AER 43 mm air fork, a smaller subframe, twin radiators, a no-tools airbox and bodywork in the style of the full-size SX. Geometry did not change. List price $5,799 in 2018.",
+   "values": {
+    "fork": "WP AER 43 mm air",
+    "clutch": "diaphragm spring",
+    "msrp_usd_2018": 5799
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2018 KTM 85SX race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-ktm-85sx",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-040",
+   "domain": "power_feel",
+   "topic": "85 SX dyno and power feel",
+   "applies_to": {
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2018,
+     2019
+    ],
+    "make": "KTM"
+   },
+   "statement": "A 2018 85 SX made 21.5 hp on a magazine dyno, about the same peak as 2017 but with more midrange. There is little off the bottom, then a strong surge once it reaches the midrange.",
+   "values": {
+    "peak_hp": 21.5
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2018 KTM 85SX race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-ktm-85sx",
+    "date": "2018"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-041",
+   "domain": "setups",
+   "topic": "85 SX tester fork and shock settings",
+   "applies_to": {
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2018,
+     2019
+    ],
+    "make": "KTM"
+   },
+   "statement": "A magazine crew's race setup for the 2018 85 SX. Fork (AER 43): 73 psi, compression 12 clicks out, rebound 12 out, stock leg height. To size the air pressure, put a zip-tie on a fork leg and lower the pressure until the tie stops about 1 inch from bottoming. Shock: 40 N/mm spring, 120 mm race sag, high-speed compression 2 turns out, low-speed compression 15 out, rebound 15 out.",
+   "values": {
+    "fork_psi": 73,
+    "fork_comp": "12 out",
+    "fork_reb": "12 out",
+    "shock_spring": "40 N/mm",
+    "sag_mm": 120,
+    "hsc": "2 turns out",
+    "lsc": "15 out",
+    "shock_reb": "15 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2018 KTM 85SX race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-ktm-85sx",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-042",
+   "domain": "setups",
+   "topic": "85 SX jetting and power valve",
+   "applies_to": {
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2018,
+     2019
+    ],
+    "make": "KTM"
+   },
+   "statement": "Tested jetting for the 2018 85 SX (28 mm Keihin PWK): 142 main, 48 pilot, NRKC needle on the third clip, air screw 2 turns out and adjusted for the weather. The power-valve adjuster is on the right side of the engine; test in 1/8-turn steps either way from stock.",
+   "values": {
+    "main": 142,
+    "pilot": 48,
+    "needle": "NRKC clip 3",
+    "air_screw": "2 turns",
+    "pv_step": "1/8 turn"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2018 KTM 85SX race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-ktm-85sx",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-043",
+   "domain": "known_issues",
+   "topic": "85 SX small annoyances and workarounds",
+   "applies_to": {
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2018,
+     2019
+    ],
+    "make": "KTM"
+   },
+   "statement": "On the 2018-on 85 SX the plastic shock preload ring is fragile (never hit it; lever it round with a long flat screwdriver against the frame), the power-valve adjuster takes a square-drive tool (a flat screwdriver in the slot also works), the fork bleed screws are small Torx, the airbox cover is stiff to remove and the bar pad is small and hard. Brakes and the self-adjusting hydraulic clutch were rated the best in the class.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2018 KTM 85SX race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-ktm-85sx",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-044",
+   "domain": "identity",
+   "topic": "250 XC-W 2017 redesign",
+   "applies_to": {
+    "models": [
+     "250 XC-W"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 250 XC-W was new for 2017: a new engine with a gear-driven counterbalancer, the electric starter moved under the engine, a 38 mm Mikuni TMX carburettor, the WP Xplor 48 coil fork (compression on the left cap, rebound on the right, preload adjusters) and a redesigned no-linkage PDS shock with 12.2 in of travel. It weighed 218-219 lb without fuel, has a 2.5-gallon tank and listed at $8,899. It has no spark arrestor as delivered.",
+   "values": {
+    "weight_lb_no_fuel": "218-219",
+    "tank_gal": 2.5,
+    "carb": "Mikuni TMX 38",
+    "fork": "WP Xplor 48",
+    "msrp_usd": 8899
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - KTM 250XC-W two-stroke full test",
+    "url": "https://dirtbikemagazine.com/ktm-250xc-w-2-stroke-full-test/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-045",
+   "domain": "power_feel",
+   "topic": "250 XC-W 2017 engine feel",
+   "applies_to": {
+    "models": [
+     "250 XC-W"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "KTM"
+   },
+   "statement": "The counterbalanced 2017 250 XC-W is very smooth, with most two-stroke vibration gone. It has strong low-rpm torque, forgives a lazy gear choice and revs out cleanly. Testers noticed only a faint midrange hitch in the carburation. It uses fuel quickly.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - KTM 250XC-W two-stroke full test",
+    "url": "https://dirtbikemagazine.com/ktm-250xc-w-2-stroke-full-test/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-046",
+   "domain": "chassis",
+   "topic": "250 XC-W 2017 suspension character",
+   "applies_to": {
+    "models": [
+     "250 XC-W"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "KTM"
+   },
+   "statement": "Both ends of the 2017 250 XC-W are set soft for trail. They resist hard bottoming, but the fork dives heavily on a motocross track. Adding fork preload helps for natural-terrain motocross at a sportsman pace.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - KTM 250XC-W two-stroke full test",
+    "url": "https://dirtbikemagazine.com/ktm-250xc-w-2-stroke-full-test/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-047",
+   "domain": "known_issues",
+   "topic": "250 XC-W 2017 cracked pipes",
+   "applies_to": {
+    "models": [
+     "250 XC-W"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "KTM"
+   },
+   "statement": "Two stock exhaust pipes cracked in the same place on a 2017 250 XC-W test bike, at the joint between the last cone and the stinger. An aftermarket pipe was the suggested fix.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - KTM 250XC-W two-stroke full test",
+    "url": "https://dirtbikemagazine.com/ktm-250xc-w-2-stroke-full-test/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-048",
+   "domain": "identity",
+   "topic": "250 XC 2017 redesign",
+   "applies_to": {
+    "models": [
+     "250 XC"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2017 250 XC got the new counterbalanced engine with the starter moved inboard behind the cylinder, a revised frame, the WP AER 48 air fork (310 mm travel), a linkage shock (300 mm) and a Mikuni carburettor in place of the Keihin. It has a six-speed gearbox, 13/50 gearing and a 2.6-gallon tank. It weighed 236 lb fuelled and listed at $8,999. No skid plate is fitted.",
+   "values": {
+    "weight_lb_fuelled": 236,
+    "tank_gal": 2.6,
+    "gearing": "13/50",
+    "fork": "WP AER 48",
+    "msrp_usd": 8999
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2017 KTM 250 XC full test",
+    "url": "https://www.cyclenews.com/2017/04/article/2017-ktm-250xc-full-test",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-049",
+   "domain": "setups",
+   "topic": "250 XC 2017 Mikuni jetting fix",
+   "applies_to": {
+    "models": [
+     "250 XC"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "KTM"
+   },
+   "statement": "The Mikuni on the 2017 250 XC came rich and loaded up in slow, technical riding. A magazine crew's fix was the needle clip moved one position to the second groove from the top and the air screw at three turns out, on 60:1 premix. The Mikuni is more sensitive to altitude and weather than the earlier Keihin.",
+   "values": {
+    "needle_clip": "2nd from top",
+    "air_screw": "3 turns out",
+    "premix": "60:1"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2017 KTM 250 XC full test",
+    "url": "https://www.cyclenews.com/2017/04/article/2017-ktm-250xc-full-test",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-050",
+   "domain": "power_feel",
+   "topic": "250 XC 2017 engine feel",
+   "applies_to": {
+    "models": [
+     "250 XC"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2017 250 XC pulls cleanly off idle, is smoother off the bottom than the earlier engine and much mellower than the 250 SX. It vibrates less than a 450 four-stroke. The power-valve spring adjuster changes how hard it comes on. The air fork suits aggressive trail and most motocross riding but can feel harsh on flat slap-down landings.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2017 KTM 250 XC full test",
+    "url": "https://www.cyclenews.com/2017/04/article/2017-ktm-250xc-full-test",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-051",
+   "domain": "identity",
+   "topic": "300 XC 2015 changes and layout",
+   "applies_to": {
+    "models": [
+     "300 XC"
+    ],
+    "years": [
+     2015
+    ],
+    "make": "KTM"
+   },
+   "statement": "For 2015 the 300 XC got a WP 4CS fork with revised damping, a smaller front axle and 2 mm less offset, a longer shock on a different linkage (same travel), new valving at both ends, revised jetting and a power valve that opens 200 rpm later. The starter gearing was changed for more torque with a lighter battery. It is a 293 cc (72 x 72 mm) power-valve two-stroke with a 38 mm Keihin, six-speed gearbox and hydraulic clutch. It weighed 227 lb without fuel, has a 2.6-gallon tank and listed at $8,599. Against the XC-W it has firmer, linkage suspension, different gear ratios and no headlight or odometer.",
+   "values": {
+    "weight_lb_no_fuel": 227,
+    "tank_gal": 2.6,
+    "carb": "Keihin 38",
+    "fork": "WP 4CS",
+    "msrp_usd": 8599
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - KTM 300XC test",
+    "url": "https://dirtbikemagazine.com/is-this-the-ultimate-2-stroke-ktm-300xc-test",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-052",
+   "domain": "power_feel",
+   "topic": "300 XC 2015 engine feel",
+   "applies_to": {
+    "models": [
+     "300 XC"
+    ],
+    "years": [
+     2015
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2015 300 XC is torquey and smooth, pulls from idle, resists stalling and relights itself. It peaks around 8,000 rpm and then runs out quickly, so it is short-shifted. Swapping power-valve springs moves when the valve opens.",
+   "values": {
+    "peak_rpm": "about 8,000"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - KTM 300XC test",
+    "url": "https://dirtbikemagazine.com/is-this-the-ultimate-2-stroke-ktm-300xc-test",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-053",
+   "domain": "identity",
+   "topic": "350 XC-F 2014: how it differs from the 350 SX-F",
+   "applies_to": {
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2014
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2014 350 XC-F shares the 350 SX-F engine (44 mm Keihin throttle body, 13,000 rpm) but has a six-speed gearbox with a lower first and slightly taller gears, 13/50 gearing (14/50 on the SX-F), an O-ring chain, the new WP 4CS fork with the SX-F's spring rates, linkage rear suspension, a 2.4-gallon tank (1.9 on the SX-F), an 18-inch rear wheel and a side stand.",
+   "values": {
+    "gearbox": "6-speed",
+    "gearing": "13/50",
+    "tank_gal": 2.4,
+    "fork": "WP 4CS"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - 2014 KTM 350XC-F",
+    "url": "https://dirtbikemagazine.com/amp/2014-ktm-350xc-f/",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-054",
+   "domain": "setups",
+   "topic": "350 XC-F 2014 tester settings",
+   "applies_to": {
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2014
+    ],
+    "make": "KTM"
+   },
+   "statement": "Testers ran the 2014 350 XC-F's 4CS fork at 10-12 clicks out on both compression and rebound with 105 mm of rear sag. The fork is firm over rocks and roots and good on a motocross track; the shock spring is a little light for riders of 180 lb and up. A 52-tooth rear sprocket was tried and dropped: it made the engine lug and flame out, so stock 13/50 stayed.",
+   "values": {
+    "fork": "10-12 out comp and rebound",
+    "sag_mm": 105,
+    "gearing": "13/50 kept (52T rejected)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - 2014 KTM 350XC-F",
+    "url": "https://dirtbikemagazine.com/amp/2014-ktm-350xc-f/",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-055",
+   "domain": "known_issues",
+   "topic": "350 XC-F 2014 complaints",
+   "applies_to": {
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2014
+    ],
+    "make": "KTM"
+   },
+   "statement": "Complaints on the 2014 350 XC-F: loud for off-road use (the XC-W spark-arrestor muffler quietens it for a little less bottom-end), low bars (bar spacers), a seat that wears quickly and a fork that is stiff for technical trail.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - 2014 KTM 350XC-F",
+    "url": "https://dirtbikemagazine.com/amp/2014-ktm-350xc-f/",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-056",
+   "domain": "identity",
+   "topic": "350 XC-F 2016 redesign",
+   "applies_to": {
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2016 350 XC-F moved to the new-generation SX-F platform: a lighter chromoly frame, smaller aluminium subframe, a more compact engine with no kickstarter, a new engine management system with launch control built in, a new linkage ratio and a WP 4CS fork with softer springs than the motocross bike. It has a six-speed gearbox, a 2.25-gallon clear tank, an aluminium side stand and handguards. It weighed 229 lb empty and 242.2 lb full and listed at $9,899.",
+   "values": {
+    "weight_lb_empty": 229,
+    "weight_lb_full": 242.2,
+    "tank_gal": 2.25,
+    "gearbox": "6-speed",
+    "msrp_usd": 9899
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 KTM 350XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2016-ktm-350xc-f/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-057",
+   "domain": "power_feel",
+   "topic": "350 XC-F 2016 engine feel and top speed",
+   "applies_to": {
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2016 350 XC-F makes its power with revs: it peaks at about 12,500 rpm and pulls cleanly a further 1,000. It is not a low-rpm lugger. GPS top speed was 105.6 mph on a dry lake. Against the SX-F, first is slightly lower and the upper gears taller. One or two more rear teeth would suit tight racing.",
+   "values": {
+    "peak_rpm": 12500,
+    "top_speed_mph": 105.6
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 KTM 350XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2016-ktm-350xc-f/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-058",
+   "domain": "known_issues",
+   "topic": "350 XC-F 2016 stalling, cold starts and other findings",
+   "applies_to": {
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2016 350 XC-F stalls easily at closed throttle unless the idle is set carefully, and a correct idle also helps cold starting (it may need a first button push and a few seconds for the battery to wake up). The clutch overheats if it is slipped in too high a gear. A test bike leaked oil at the ignition-cover set screw until it was sealed. The fuel hose is exposed and the bike needs a skid plate.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 KTM 350XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2016-ktm-350xc-f/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-059",
+   "domain": "setups",
+   "topic": "350 XC-F 2016 suspension direction from testing",
+   "applies_to": {
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "On the 2016 350 XC-F testers left the 4CS fork clickers near standard and raised the fork oil level to cut bottoming. The shock went 1-4 clicks softer for trail and firmer for the track, with ride height settled at 103 mm of sag.",
+   "values": {
+    "sag_mm": 103,
+    "shock": "1-4 clicks softer for trail"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 KTM 350XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2016-ktm-350xc-f/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-060",
+   "domain": "identity",
+   "topic": "250 XC-F 2016 redesign",
+   "applies_to": {
+    "models": [
+     "250 XC-F"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2016 250 XC-F was completely new and shares most parts with the 250 SX-F apart from the off-road pieces: a six-speed semi-close gearbox, WP 4CS fork and WP shock with 300 mm of travel, an 18-inch rear wheel and a larger tank. It has the SX-F's engine tune (14.4:1 compression) but no map switch, so it runs the standard map only; a switch is an accessory. Final gearing is 13/50. Claimed weight is about 223.5 lb without fuel.",
+   "values": {
+    "gearbox": "6-speed",
+    "gearing": "13/50",
+    "compression": "14.4:1",
+    "weight_lb_no_fuel": 223.5
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 KTM 250XC-F first test",
+    "url": "https://dirtbiketest.com/fresh-dirt/2016-ktm-250xc-f-first-test-riding-impression/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-061",
+   "domain": "power_feel",
+   "topic": "250 XC-F 2016 engine feel",
+   "applies_to": {
+    "models": [
+     "250 XC-F"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2016 250 XC-F showed 45 hp at peak on the tester's dyno chart and pulls from about 4,000 to nearly 14,000 rpm in a straight line, with instant response, so it needs fewer shifts and less clutch than earlier 250s.",
+   "values": {
+    "peak_hp": 45,
+    "rev_range_rpm": "4,000-14,000"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 KTM 250XC-F first test",
+    "url": "https://dirtbiketest.com/fresh-dirt/2016-ktm-250xc-f-first-test-riding-impression/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-062",
+   "domain": "setups",
+   "topic": "250 XC-F 2016 4CS fork behaviour",
+   "applies_to": {
+    "models": [
+     "250 XC-F"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "Run about 100 mm of sag on the 2016 250 XC-F. The 4CS fork's clickers act more like a mid- and high-speed ride-height control than a low-speed adjuster: going stiffer can make it feel softer until the high-speed valving takes over, usually 5-8 clicks from standard. The setup favours control over comfort. If the fork turns harsh late in the day, re-check sag before chasing clickers.",
+   "values": {
+    "sag_mm": "about 100"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 KTM 250XC-F first test",
+    "url": "https://dirtbiketest.com/fresh-dirt/2016-ktm-250xc-f-first-test-riding-impression/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-063",
+   "domain": "identity",
+   "topic": "500 XC-W 2012-2016 platform",
+   "applies_to": {
+    "models": [
+     "500 XC-W"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2012-2016 500-class KTM off-road bikes use a 510 cc fuel-injected engine with a six-speed gearbox in a chassis derived from the 450 SX-F, with no-linkage PDS rear suspension and a 48 mm WP open-cartridge fork. The mechanical parts were essentially unchanged from the 2012 introduction through 2016.",
+   "values": {
+    "displacement_cc": 510,
+    "gearbox": "6-speed",
+    "rear": "PDS no linkage",
+    "fork": "WP 48 mm open cartridge"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 KTM 500 EXC",
+    "url": "https://dirtbiketest.com/bike-tests/2016-ktm-500exc/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "Source tested the street-legal 500 EXC, which shares this engine and chassis; only shared mechanical points are recorded here."
+  },
+  {
+   "id": "o-gp-064",
+   "domain": "setups",
+   "topic": "500 XC-W spring range and minimum sag",
+   "applies_to": {
+    "models": [
+     "500 XC-W"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "On the 2012-2016 500 platform the stock springs suit riders of about 165-200 lb. Do not run less than 100 mm of sag or the bike becomes unstable. A suspension service at around 20 hours noticeably improved a test bike.",
+   "values": {
+    "rider_lb": "165-200",
+    "min_sag_mm": 100
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 KTM 500 EXC",
+    "url": "https://dirtbiketest.com/bike-tests/2016-ktm-500exc/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "Source tested the street-legal 500 EXC, which shares this engine and chassis; only shared mechanical points are recorded here."
+  },
+  {
+   "id": "o-gp-065",
+   "domain": "maintenance",
+   "topic": "500 XC-W oil life and clutch dampers",
+   "applies_to": {
+    "models": [
+     "500 XC-W"
+    ],
+    "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "On the 2012-2016 500 engine, testers treated the oil as good for about 10 hours (it holds roughly 1.2 litres), and the rubber dampers in the clutch hub can wear in 15-20 hours of abusive riding. Long high-rpm runs can leave an oil mist from the breather. Confirm intervals against the owner's manual.",
+   "values": {
+    "oil_hours": "about 10",
+    "oil_l": 1.2,
+    "clutch_dampers_hours": "15-20 if abused"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 KTM 500 EXC",
+    "url": "https://dirtbiketest.com/bike-tests/2016-ktm-500exc/",
+    "date": "2016"
+   },
+   "confidence": "low",
+   "notes": "Source tested the street-legal 500 EXC, which shares this engine and chassis; only shared mechanical points are recorded here."
+  },
+  {
+   "id": "o-gp-066",
+   "domain": "identity",
+   "topic": "TE 300 2016 layout",
+   "applies_to": {
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The 2016 TE 300 is a 293.2 cc (72 x 72 mm) two-stroke with a 36 mm Keihin, Brembo hydraulic clutch and a two-mode map switch, in a chassis with linkage rear suspension, a WP 4CS fork with a 22 mm axle and a three-piece composite subframe. Travel is 300 mm at each end. It weighed 230.2 lb without fuel, has a 2.9-gallon tank and listed at $8,899. It is delivered without a spark arrestor.",
+   "values": {
+    "weight_lb_no_fuel": 230.2,
+    "tank_gal": 2.9,
+    "carb": "Keihin 36",
+    "fork": "WP 4CS",
+    "msrp_usd": 8899
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Husky TE300 two-stroke test",
+    "url": "https://dirtbikemagazine.com/husky-te300-2-stroke-test/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-067",
+   "domain": "setups",
+   "topic": "TE 300 2016 suspension notes",
+   "applies_to": {
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "On the 2016 TE 300 the 4CS fork is plush with good bottoming resistance; its clicker mostly changes high-speed damping and testers kept compression between 7 and 10. On the shock, low-speed compression firms the overall feel and high-speed changes are made a quarter turn at a time to stop it squatting. Riders over 185 lb should fit a stiffer shock spring.",
+   "values": {
+    "fork_comp": "7-10",
+    "shock_hsc_step": "1/4 turn",
+    "stiffer_spring_over_lb": 185
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Husky TE300 two-stroke test",
+    "url": "https://dirtbikemagazine.com/husky-te300-2-stroke-test/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-068",
+   "domain": "power_feel",
+   "topic": "TE 300 2016 engine and maps",
+   "applies_to": {
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The 2016 TE 300 pulls strongly and smoothly from the bottom with no sudden surge. The standard map suits trail, desert and enduro; the second, sharper map suits motocross and hill climbs. Stock jetting is crisp, if anything slightly lean. The power valve is tuned by changing springs.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Husky TE300 two-stroke test",
+    "url": "https://dirtbikemagazine.com/husky-te300-2-stroke-test/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-069",
+   "domain": "known_issues",
+   "topic": "TE 300 2016 complaints",
+   "applies_to": {
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "Complaints on the 2016 TE 300: poor fuel mileage, rear spokes that loosen near the rim lock (check them regularly), a wide-feeling tank with a sloping, slippery seat, and a plastic skid plate that is not enough for rocky desert.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Husky TE300 two-stroke test",
+    "url": "https://dirtbikemagazine.com/husky-te300-2-stroke-test/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-070",
+   "domain": "identity",
+   "topic": "TX 300 2017: built from the TC 250",
+   "applies_to": {
+    "models": [
+     "TX 300"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The 2017 TX 300 was a new model built from TC 250 motocross parts: a 300 cc engine on the same stroke with a heavier flywheel and a milder ignition map, electric start, a six-speed gearbox, a 2.65-gallon tank (1.85 on the TC 250), an 18-inch rear wheel, a side stand, WP AER air fork and a 38 mm Mikuni TMX in place of the Keihin. It is about 15 lb heavier than the TC 250.",
+   "values": {
+    "tank_gal": 2.65,
+    "rear_wheel_in": 18,
+    "carb": "Mikuni TMX 38",
+    "weight_vs_tc250_lb": "+15"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2017 Husqvarna TX300 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2017-husqvarna-tx300",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-071",
+   "domain": "setups",
+   "topic": "TX 300 2017 tester fork and shock settings",
+   "applies_to": {
+    "models": [
+     "TX 300"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "A magazine crew's 2017 TX 300 setup for a rough motocross track. Fork (AER 48): 150 psi (stock 139), compression 15 clicks out (stock 12), rebound 6 out (stock 12), legs at the second line. Shock (42 N/mm spring): race sag 105 mm (stock 110), high-speed compression 1-1/2 turns out (stock 2), low-speed compression 10 out (stock 15), rebound 8 out (stock 15). Stock it is soft on big hits and the shock squats in corners.",
+   "values": {
+    "fork_psi": "150 (stock 139)",
+    "fork_comp": "15 out (stock 12)",
+    "fork_reb": "6 out (stock 12)",
+    "shock_spring": "42 N/mm",
+    "sag_mm": "105 (stock 110)",
+    "hsc": "1-1/2 turns (stock 2)",
+    "lsc": "10 out (stock 15)",
+    "shock_reb": "8 out (stock 15)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2017 Husqvarna TX300 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2017-husqvarna-tx300",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-072",
+   "domain": "setups",
+   "topic": "TX 300 2017 jetting",
+   "applies_to": {
+    "models": [
+     "TX 300"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The 2017 TX 300 is rich as delivered. Stock Mikuni jetting: 430 main, 37.5 pilot, 44-73 needle on the third clip, air screw 1-1/2 turns out. Tested fix: 420 main, 35 pilot, 43-73 needle on the second clip, air screw 2 turns out, on 60:1 premix.",
+   "values": {
+    "stock": "430 / 37.5 / 44-73 clip 3 / 1.5 turns",
+    "recommended": "420 / 35 / 43-73 clip 2 / 2 turns",
+    "premix": "60:1"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2017 Husqvarna TX300 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2017-husqvarna-tx300",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-073",
+   "domain": "power_feel",
+   "topic": "TX 300 2017 power feel",
+   "applies_to": {
+    "models": [
+     "TX 300"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The 2017 TX 300 is smooth and linear with no hard hit and feels slower than it is; the heavy flywheel and mild map keep the rear tyre hooked up. Turning the power-valve adjuster in gives a harder hit but breaks the tyre loose sooner. It is stable at speed and turns without pushing; the 18-inch rear is plusher over bumps but bounces in whoops.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2017 Husqvarna TX300 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2017-husqvarna-tx300",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-gp-074",
+   "domain": "identity",
+   "topic": "FE 501 (pre-2017): how it differs from the KTM 500",
+   "applies_to": {
+    "models": [
+     "FE 501"
+    ],
+    "years": [
+     2015,
+     2016
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The pre-2017 FE 501 uses the KTM 500 engine in a linkage-suspension frame where KTM's off-road models use no-linkage PDS. It has a 48 mm WP 4CS closed-cartridge fork with both adjusters on top, a three-piece composite subframe, a diaphragm-spring clutch in place of KTM's six coil springs, a 2.38-gallon tank, a cooling fan and an optional map switch (standard, soft, hard). It weighed 251 lb in testing. The linkage adds about 5 lb.",
+   "values": {
+    "weight_lb": 251,
+    "tank_gal": 2.38,
+    "fork": "WP 4CS 48 mm",
+    "clutch": "diaphragm spring"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Husky FE501 test",
+    "url": "https://dirtbikemagazine.com/amp/husky-fe501-test/",
+    "date": "2014"
+   },
+   "confidence": "low",
+   "notes": "Article dated May 2014 on the first Austrian-built FE 501; applied to the 2015-2016 garage years of that generation."
+  },
+  {
+   "id": "o-gp-075",
+   "domain": "power_feel",
+   "topic": "FE 501 (pre-2017) engine feel and gearbox",
+   "applies_to": {
+    "models": [
+     "FE 501"
+    ],
+    "years": [
+     2015,
+     2016
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The pre-2017 FE 501 starts easily and makes immediate, smooth power with a very strong bottom and midrange; it is a short-shift engine and vibrates more than the 450. The six-speed has a very low first and an overdrive sixth for fast transfers.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Husky FE501 test",
+    "url": "https://dirtbikemagazine.com/amp/husky-fe501-test/",
+    "date": "2014"
+   },
+   "confidence": "low",
+   "notes": "Article dated May 2014 on the first Austrian-built FE 501; applied to the 2015-2016 garage years of that generation."
+  },
+  {
+   "id": "o-gp-076",
+   "domain": "chassis",
+   "topic": "FE 501 (pre-2017) suspension notes",
+   "applies_to": {
+    "models": [
+     "FE 501"
+    ],
+    "years": [
+     2015,
+     2016
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "On the pre-2017 FE 501, two clicks more compression on the 4CS fork made it plusher at speed because it rides higher in the stroke. The linkage rear is better than PDS in whoops, stacked bumps and jumps. Shock removal for service takes about 15 minutes against about one for a PDS bike. Riders over 6 ft 2 preferred the forward bar mounts and a taller seat.",
+   "values": {
+    "fork": "+2 clicks compression"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Husky FE501 test",
+    "url": "https://dirtbikemagazine.com/amp/husky-fe501-test/",
+    "date": "2014"
+   },
+   "confidence": "low",
+   "notes": "Article dated May 2014 on the first Austrian-built FE 501; applied to the 2015-2016 garage years of that generation."
+  },
+  {
+   "id": "o-gp-077",
+   "domain": "identity",
+   "topic": "FE 350 2019: how it differs from the KTM 350",
+   "applies_to": {
+    "models": [
+     "FE 350"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The 2019 FE 350 shares its engine with the KTM 350 but uses linkage rear suspension (KTM: PDS), a composite airbox and subframe, Magura brake and clutch hydraulics (KTM: Brembo) and its own bodywork, with a WP Xplor 48 coil fork. The street-legal version weighed 243 lb without fuel and listed at $10,899. Its six-speed has a lower first than the competition model, the same second and taller gears above.",
+   "values": {
+    "weight_lb_no_fuel": 243,
+    "msrp_usd": 10899,
+    "fork": "WP Xplor 48",
+    "gearbox": "6-speed"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Husqvarna FE350 dual-sport full test",
+    "url": "https://dirtbikemagazine.com/husqvarna-fe350-dual-sport-full-test/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Source tested the 2019 street-legal version; restriction details apply to that version."
+  },
+  {
+   "id": "o-gp-078",
+   "domain": "power_feel",
+   "topic": "FE 350 2019 street-legal engine restrictions",
+   "applies_to": {
+    "models": [
+     "FE 350"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The street-legal 2019 FE 350 makes about 35 hp. It is smooth, quiet and runs cleanly. Against the competition engine it has 12.3:1 compression in place of 14:1, a throttle body 2 mm smaller, a reed valve in the intake boot for noise, a restrictive airbox and muffler, air injection and a charcoal canister.",
+   "values": {
+    "hp": "about 35",
+    "compression": "12.3:1 (competition 14:1)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Husqvarna FE350 dual-sport full test",
+    "url": "https://dirtbikemagazine.com/husqvarna-fe350-dual-sport-full-test/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Source tested the 2019 street-legal version; restriction details apply to that version."
+  },
+  {
+   "id": "o-gp-079",
+   "domain": "engine_mods",
+   "topic": "FE 350 2019: uncork it as a set",
+   "applies_to": {
+    "models": [
+     "FE 350"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "On the street-legal 2019 FE 350 an exhaust alone makes it run worse: intake, mapping and exhaust have to be changed together, for closed-course use. Swapping the intake boot for the FX 350 part removes the reed valve, and a programmable ECU or piggyback fuel tuner was worth about 5 hp. Removing the air-injection system reduces decel popping but adds no power. Modifications can affect the warranty.",
+   "values": {
+    "gain_hp": "about 5 with ECU or tuner"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Husqvarna FE350 dual-sport full test",
+    "url": "https://dirtbikemagazine.com/husqvarna-fe350-dual-sport-full-test/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Source tested the 2019 street-legal version; restriction details apply to that version."
+  },
+  {
+   "id": "o-gp-080",
+   "domain": "chassis",
+   "topic": "FE 350 2019 suspension and tyres",
+   "applies_to": {
+    "models": [
+     "FE 350"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The 2019 FE 350 is sprung very soft and the fork dives under hard braking; stiffer springs are the first place to spend money. The stock dual-sport tyres limit handling, and the rim locks come uninstalled, so the wheels need balancing for road use.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Husqvarna FE350 dual-sport full test",
+    "url": "https://dirtbikemagazine.com/husqvarna-fe350-dual-sport-full-test/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Source tested the 2019 street-legal version; restriction details apply to that version."
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://dirtbikemagazine.com/amp/2014-ktm-350xc-f/",
+  "https://dirtbikemagazine.com/amp/husky-fe501-test/",
+  "https://dirtbikemagazine.com/amp/yamaha-wr450f-full-test/",
+  "https://dirtbikemagazine.com/husky-te300-2-stroke-test/",
+  "https://dirtbikemagazine.com/husqvarna-fe350-dual-sport-full-test/",
+  "https://dirtbikemagazine.com/is-this-the-ultimate-2-stroke-ktm-300xc-test",
+  "https://dirtbikemagazine.com/ktm-250xc-w-2-stroke-full-test/",
+  "https://dirtbiketest.com/bike-tests/2015-yamaha-wr250f/",
+  "https://dirtbiketest.com/bike-tests/2016-ktm-350xc-f/",
+  "https://dirtbiketest.com/bike-tests/2016-ktm-500exc/",
+  "https://dirtbiketest.com/bike-tests/2017-honda-crf450rx/",
+  "https://dirtbiketest.com/bike-tests/2019-honda-crf450x",
+  "https://dirtbiketest.com/fresh-dirt/2016-ktm-250xc-f-first-test-riding-impression/",
+  "https://motocrossactionmag.com/mxa-race-test-2017-husqvarna-tx300",
+  "https://motocrossactionmag.com/mxa-race-test-2018-ktm-85sx",
+  "https://motocrossactionmag.com/mxa-race-test-2019-honda-crf250rx-cross-country",
+  "https://motocrosshideout.com/honda-crf150r-review/",
+  "https://ultimatemotorcycling.com/2015/06/03/2016-honda-crf250x-review-first-ride-test/",
+  "https://ultimatemotorcycling.com/?p=210614",
+  "https://www.cyclenews.com/2017/04/article/2017-ktm-250xc-full-test",
+  "https://www.cyclenews.com/2019/08/article/2019-yamaha-wr450f-review"
+ ]
+}
