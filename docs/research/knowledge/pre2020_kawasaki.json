@@ -1,0 +1,1651 @@
+{
+ "slice": "Kawasaki KX450F 2014-2019 and KX250F 2014-2019 by generation: what changed, dyno and weight, power character, tester settings, maps, known problems and fixes (knowledge push 2026-11)",
+ "platform": {
+  "make": "Kawasaki",
+  "models": [
+   "KX450",
+   "KX250"
+  ],
+  "years": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ]
+ },
+ "records": [
+  {
+   "id": "o-kx-001",
+   "domain": "identity",
+   "topic": "2014 changes",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2014
+    ]
+   },
+   "statement": "For 2014 the KX450F engine was carried over. Kawasaki had fitted an intake cam with 0.4 mm more lift for 2012 and went back to the lower-lift cam for 2013; the 2014 keeps it. The grips went back to being 10 mm shorter after the longer 2013 grips. Fork is the Kayaba PSF air fork.",
+   "values": {
+    "intake_cam": "2011/2013 lift (0.4 mm less than 2012)",
+    "fork": "Kayaba PSF (air)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2014 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/ten-years-ago-today-mxas-2014-kawasaki-kx450f-race-test",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-002",
+   "domain": "power_feel",
+   "topic": "2014 dyno and character",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2014
+    ]
+   },
+   "statement": "On a magazine dyno the 2014 KX450F made 55.05 hp at 9,000 rpm, third in the 2014 class behind the YZ450F and 450 SX-F, but testers rated it the easiest 450 engine to race: smooth off the bottom with a long, even pull through the middle.",
+   "values": {
+    "peak_hp": 55.05,
+    "peak_rpm": 9000
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2014 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/ten-years-ago-today-mxas-2014-kawasaki-kx450f-race-test",
+    "date": "2013"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-003",
+   "domain": "ecu_electronics",
+   "topic": "2014 couplers and launch control",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2014
+    ]
+   },
+   "statement": "The 2014 KX450F comes with three plug-in couplers: green (stock), black (mellow) and white (aggressive). On the dyno the white coupler showed no peak gain over stock and the black one gave up about 1 hp. Launch control leaves power alone below 7,000 rpm and trims it progressively above, works in first and second and switches off in third. Testers used it on hard dirt and concrete, not in loam.",
+   "values": {
+    "green": "stock",
+    "black": "mellow, about 1 hp less",
+    "white": "aggressive, no peak gain",
+    "launch_control": "retards above 7,000 rpm, off in 3rd gear"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2014 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/ten-years-ago-today-mxas-2014-kawasaki-kx450f-race-test",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-004",
+   "domain": "setups",
+   "topic": "2014 gearing",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2014
+    ]
+   },
+   "statement": "Testers added one tooth to the rear sprocket on the 2014 KX450F so third gear could be used sooner out of corners.",
+   "values": {
+    "gearing": "+1 tooth rear"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2014 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/ten-years-ago-today-mxas-2014-kawasaki-kx450f-race-test",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-005",
+   "domain": "known_issues",
+   "topic": "2014 weak points",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2014
+    ]
+   },
+   "statement": "Tester complaints on the 2014 KX450F: the PSF air fork is borderline, the clutch is weak, shifting is notchy under load and the brakes are only average. The backfire screen in the airboot is restrictive and testers removed it. With the bars in the forward mounts the fork air valves are hard to reach, so crossover or rotating air valves were fitted.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2014 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/ten-years-ago-today-mxas-2014-kawasaki-kx450f-race-test",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-006",
+   "domain": "identity",
+   "topic": "2015 changes",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2015
+    ]
+   },
+   "statement": "2015 KX450F changes: bridged-box piston with shorter skirts and a new crown, compression up from 12.5:1 to 12.8:1, a front disc enlarged from 250 mm to 270 mm, Showa SFF-Air TAC (three-chamber) fork replacing the Kayaba PSF, a lighter subframe and a rear axle nut with no cotter pin. The fork is about 2 lb lighter and a 0-300 psi digital pump comes with the bike.",
+   "values": {
+    "compression": "12.8:1 (was 12.5:1)",
+    "front_disc": "270 mm (was 250 mm)",
+    "fork": "Showa SFF-Air TAC"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2015 Kawasaki KX450F test",
+    "url": "https://motocrossactionmag.com/2015-kawasaki-kx450f",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-007",
+   "domain": "power_feel",
+   "topic": "2015 character",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2015
+    ]
+   },
+   "statement": "The 2015 KX450F is smooth off the bottom and strong in the middle; testers felt the 2014 pulled harder down low and faster riders preferred the 2014 powerband. It ranked fourth in the class for peak power.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2015 Kawasaki KX450F test",
+    "url": "https://motocrossactionmag.com/2015-kawasaki-kx450f",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-008",
+   "domain": "setups",
+   "topic": "2015 tester fork settings (SFF-Air TAC)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2015
+    ]
+   },
+   "statement": "A magazine test crew's 2015 KX450F fork setup: inner chamber 160 psi (stock 145), outer 10 psi (stock 7.5), balance 170 psi (stock 135), compression 9 clicks out (stock 15), rebound 11 out (stock 13), fork legs 5 mm up. They kept the balance pressure above the inner pressure. Readings moved by up to 7 psi between checks with the supplied pump, so check with the same pump every time.",
+   "values": {
+    "inner_psi": 160,
+    "outer_psi": 10,
+    "balance_psi": 170,
+    "compression": "9 out (stock 15)",
+    "rebound": "11 out (stock 13)",
+    "fork_height": "5 mm up",
+    "stock_psi": "145 / 7.5 / 135"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2015 Kawasaki KX450F test",
+    "url": "https://motocrossactionmag.com/2015-kawasaki-kx450f",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-009",
+   "domain": "setups",
+   "topic": "2015 tester shock settings",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2015
+    ]
+   },
+   "statement": "A magazine test crew's 2015 KX450F shock setup: stock 5.5 kg/mm spring, 104 mm race sag, high-speed compression 2-1/2 turns out (stock 2), low-speed 9 clicks out (stock 5), rebound 11 out (stock 15).",
+   "values": {
+    "spring": "5.5 kg/mm",
+    "sag_mm": 104,
+    "hsc": "2-1/2 turns out (stock 2)",
+    "lsc": "9 out (stock 5)",
+    "rebound": "11 out (stock 15)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2015 Kawasaki KX450F test",
+    "url": "https://motocrossactionmag.com/2015-kawasaki-kx450f",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-010",
+   "domain": "ecu_electronics",
+   "topic": "2015 couplers and pinging",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2015
+    ]
+   },
+   "statement": "On the 2015 KX450F the stock green coupler pinged under load in testing; the black (mellow) coupler stopped it but cost power, and the white (aggressive) coupler, which testers otherwise preferred, made it worse. Launch control was used on concrete and hardpack starts only.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2015 Kawasaki KX450F test",
+    "url": "https://motocrossactionmag.com/2015-kawasaki-kx450f",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-011",
+   "domain": "known_issues",
+   "topic": "2015 weak points",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2015
+    ]
+   },
+   "statement": "Tester complaints on the 2015 KX450F: pinging and brief cut-outs under power on the stock map, a clutch pack that is marginal for riders who abuse it, a rear brake pedal that needs modifying to run low, and a tall, wide, heavy feel. It measured 120 dB on the AMA two-metre sound test while passing the 94 dB amateur test.",
+   "values": {
+    "sound_2m_db": 120
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2015 Kawasaki KX450F test",
+    "url": "https://motocrossactionmag.com/2015-kawasaki-kx450f",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-012",
+   "domain": "chassis",
+   "topic": "2015 handling character",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2014,
+     2015
+    ]
+   },
+   "statement": "The 2012-2015 KX450F chassis is a straight-line bike: tall, very stable at speed and unremarkable in tight turns.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2015 Kawasaki KX450F test",
+    "url": "https://motocrossactionmag.com/2015-kawasaki-kx450f",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-013",
+   "domain": "identity",
+   "topic": "2016 redesign",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2016,
+     2017,
+     2018
+    ]
+   },
+   "statement": "The 2016 KX450F was all new and 7.5 lb lighter (4.4 lb from the engine, 3.1 lb from the chassis): thinner cases, cylinder offset 8.5 mm forward, titanium intake valves, intake cam advanced 2 degrees, a direct-linked 43 mm throttle body, a lighter gearbox, a frame with spars 6 mm narrower, a lighter swingarm, a lower 1.66 gal tank, radiators tilted forward 10 degrees (shrouds 1.2 in narrower), Showa SFF-Air TAC fork with thinner inner tubes and a shock spring changed from 53 to 52 N/mm. This platform ran 2016-2018.",
+   "values": {
+    "weight_cut_lb": 7.5,
+    "throttle_body_mm": 43,
+    "tank_gal": 1.66,
+    "shock_spring": "52 N/mm (was 53)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/2016-mxa-race-test-everything-you-need-to-know-about-the-kawasaki-kx450f",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-014",
+   "domain": "power_feel",
+   "topic": "2016 dyno and weight",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2016
+    ]
+   },
+   "statement": "On a magazine dyno the 2016 KX450F made 55.43 hp (2015: 55.07) with more power from 5,500-7,000 rpm and more over-rev from 9,200-11,300 rpm. It trailed the 2016 450 SX-F by 2.6 hp at 6,000, 1.4 hp at 8,000 and 5.0 hp at 10,000 rpm. It weighed 231 lb on the magazine's scale (2015: about 239 lb).",
+   "values": {
+    "peak_hp": 55.43,
+    "weight_lb": 231
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/2016-mxa-race-test-everything-you-need-to-know-about-the-kawasaki-kx450f",
+    "date": "2015"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-015",
+   "domain": "setups",
+   "topic": "2016 tester fork settings (SFF-Air TAC)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2016
+    ]
+   },
+   "statement": "A magazine test crew's 2016 KX450F fork setup by rider speed: inner chamber 160 psi (vet), 174 (intermediate), 185 (pro); outer 14.5 psi; balance 175 psi (vet), 203 (intermediate and pro); compression 13 clicks out, rebound 13 out, fork legs 5 mm up. Keeping the balance chamber higher than the inner chamber let the fork ride lower and turn better.",
+   "values": {
+    "inner_psi": "160 vet / 174 int / 185 pro",
+    "outer_psi": 14.5,
+    "balance_psi": "175 vet / 203 int-pro",
+    "compression": "13 out",
+    "rebound": "13 out",
+    "fork_height": "5 mm up"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/2016-mxa-race-test-everything-you-need-to-know-about-the-kawasaki-kx450f",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-016",
+   "domain": "setups",
+   "topic": "2016 tester shock settings",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2016
+    ]
+   },
+   "statement": "A magazine test crew's 2016 KX450F shock setup: stock 52 N/mm spring, 105 mm race sag, high-speed compression 2-1/4 turns out (stock 1-3/4), low-speed 15 clicks out (stock 13), rebound 11 out (stock 12). Stock gearing was kept.",
+   "values": {
+    "spring": "52 N/mm",
+    "sag_mm": 105,
+    "hsc": "2-1/4 turns out (stock 1-3/4)",
+    "lsc": "15 out (stock 13)",
+    "rebound": "11 out (stock 12)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/2016-mxa-race-test-everything-you-need-to-know-about-the-kawasaki-kx450f",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-017",
+   "domain": "ecu_electronics",
+   "topic": "2016 mapping, couplers and calibration tool",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2016
+    ]
+   },
+   "statement": "The 2016 KX450F pinged and popped on deceleration on the stock map; the black (mellow) coupler was the only one that removed the decel pop in testing. Kawasaki's handheld calibration tool (about $700, stores up to 200 maps, seven presets, works on KX models back to 2009) did not cure it either. Launch control works in first and second and drops out in third.",
+   "values": {
+    "tool": "KX FI Calibration Kit, about $700, 200 maps"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/2016-mxa-race-test-everything-you-need-to-know-about-the-kawasaki-kx450f",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-018",
+   "domain": "known_issues",
+   "topic": "2016-2018 weak points and fixes",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2016,
+     2017,
+     2018
+    ]
+   },
+   "statement": "Repeated tester findings on the 2016-2018 KX450F: the stock clutch slips under hard use (fit stiffer clutch springs first), the chain guide and buffer wear fast (an aftermarket guide lasts much longer), the airbox side vents let in water and dirt (tape them when washing), the rear brake pedal is hard to set low without dragging (shorten the master cylinder pushrod thread), and on 2016 bikes the radiator shrouds cracked and the seat base flexed.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/2016-mxa-race-test-everything-you-need-to-know-about-the-kawasaki-kx450f",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-019",
+   "domain": "chassis",
+   "topic": "2016 handling",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2016
+    ]
+   },
+   "statement": "The 2016 KX450F turns far more willingly than the 2015 thanks to the lower weight, flatter seat and narrower tank, but testers found the front loose on corner entry. The footpegs can be lowered 5 mm.",
+   "values": {
+    "footpegs": "two positions, 5 mm apart"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/2016-mxa-race-test-everything-you-need-to-know-about-the-kawasaki-kx450f",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-020",
+   "domain": "identity",
+   "topic": "2017 changes",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2017
+    ]
+   },
+   "statement": "2017 KX450F changes: richer mapping at small throttle openings (removes the 2016 ping and decel pop), new triple clamps with a bottom clamp 2.5 mm thicker (49.5 mm), softer fork valving with lower recommended air pressures, the fork-cap air valves swapped over, linkage pull rods 0.5 mm longer, a lighter shock spring at the same rate, a stiffer seat base and in-mould shroud graphics. Engine hardware is unchanged.",
+   "values": {
+    "lower_clamp_mm": 49.5,
+    "pull_rods": "+0.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2017 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2017-kawasaki-kx450f",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-021",
+   "domain": "power_feel",
+   "topic": "2017 dyno and character",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2017,
+     2018
+    ]
+   },
+   "statement": "On a magazine dyno the 2017 KX450F made 55.76 hp at 9,000 rpm and weighed 231 lb. It has a strong middle and signs off past about 9,000 rpm, so it is best ridden a gear high and shifted early. At 10,000 rpm it is about 3 hp down on most rivals and by 11,000 rpm about 10 hp down on the Honda and Yamaha.",
+   "values": {
+    "peak_hp": 55.76,
+    "peak_rpm": 9000,
+    "weight_lb": 231,
+    "shift_rpm": "about 9,000"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2017 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2017-kawasaki-kx450f",
+    "date": "2016"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-022",
+   "domain": "setups",
+   "topic": "2017-2018 tester fork settings (SFF-Air TAC)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2017,
+     2018
+    ]
+   },
+   "statement": "A magazine test crew's 2017-2018 KX450F fork setup by rider speed: inner chamber 138 psi (vet), 152 (intermediate), 167 (pro); outer 16.5 psi; balance 160 psi (vet), 174 (intermediate), 189 (pro); compression 13 clicks out, rebound 12 out, fork legs 5 mm up. Balance pressure is kept above inner pressure so the fork rides lower and turns.",
+   "values": {
+    "inner_psi": "138 vet / 152 int / 167 pro",
+    "outer_psi": 16.5,
+    "balance_psi": "160 vet / 174 int / 189 pro",
+    "compression": "13 out",
+    "rebound": "12 out",
+    "fork_height": "5 mm up"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2017 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2017-kawasaki-kx450f",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-023",
+   "domain": "setups",
+   "topic": "2017-2018 tester shock settings",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2017,
+     2018
+    ]
+   },
+   "statement": "A magazine test crew's 2017-2018 KX450F shock setup: stock 52 N/mm spring, 105 mm race sag, high-speed compression 2-1/4 turns out (stock 2), low-speed 15 clicks out (stock 13), rebound 11 out (stock 13).",
+   "values": {
+    "spring": "52 N/mm",
+    "sag_mm": 105,
+    "hsc": "2-1/4 turns out (stock 2)",
+    "lsc": "15 out (stock 13)",
+    "rebound": "11 out (stock 13)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2017 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2017-kawasaki-kx450f",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-024",
+   "domain": "chassis",
+   "topic": "2017 steering fix",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2017,
+     2018
+    ]
+   },
+   "statement": "The 2016 KX450F pushed and wagged on corner entry; for 2017 the softer fork (more dive) and stiffer clamps made the steering noticeably more accurate. Stock tyres are Bridgestone 403/404 and testers rated them well.",
+   "values": {
+    "tyres": "Bridgestone M403 front / M404 rear"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2017 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2017-kawasaki-kx450f",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-025",
+   "domain": "identity",
+   "topic": "2018 changes",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "The 2018 KX450F is the 2017 bike with new graphics; nothing mechanical changed. It was the third year of the 2016 platform and the last KX450F with a kickstarter and the air fork.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2018 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-kawasaki-kx450f",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-026",
+   "domain": "power_feel",
+   "topic": "2018 weight against rivals",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "At 231 lb the 2018 KX450F was 8 lb lighter than the YZ450F and 9 lb lighter than the CRF450R on a magazine scale, and 9 lb heavier than the electric-start 450 SX-F. Its air fork is about 3 lb lighter than a comparable coil fork. A little decel pop remains, a sign it still runs slightly lean.",
+   "values": {
+    "weight_lb": 231
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2018 Kawasaki KX450F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-kawasaki-kx450f",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-027",
+   "domain": "identity",
+   "topic": "2019 redesign",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "The 2019 KX450 was all new: finger-follower valve train, intake valves 4 mm larger and exhaust valves 2 mm larger, a plain-bearing big end, a throttle body 1 mm larger with a 12-hole injector, a head pipe 105 mm longer, electric start with a lithium battery, a hydraulic clutch, a Showa coil-spring fork in place of the air fork, a 25 mm front axle (was 20 mm), a 250 mm rear disc (was 240 mm) and footpegs 5 mm wider and 3 mm further back.",
+   "values": {
+    "fork": "Showa coil spring",
+    "clutch": "hydraulic",
+    "starter": "electric",
+    "front_axle_mm": 25,
+    "rear_disc_mm": 250
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Kawasaki KX450 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2019-kawasaki-kx450",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-028",
+   "domain": "power_feel",
+   "topic": "2019 dyno and weight",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "On a magazine dyno the 2019 KX450 made 55.3 hp at 9,500 rpm against 56.4 hp at 8,800 rpm for the 2018. The 2018 made about 1 hp more from 6,000-9,000 rpm and about 1.5 lb-ft more torque from 5,000-9,400 rpm; the 2019 made about 3 hp more at 11,000 rpm. It weighed 233 lb, 2 lb more than the 2018, and feels quick-revving and very responsive off the bottom with its strongest pull above 9,400 rpm.",
+   "values": {
+    "peak_hp": 55.3,
+    "peak_rpm": 9500,
+    "weight_lb": 233
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Kawasaki KX450 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2019-kawasaki-kx450",
+    "date": "2018"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-029",
+   "domain": "setups",
+   "topic": "2019 tester fork settings",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "A magazine test crew's 2019 KX450 fork setup: stock 5.0 N/mm springs are soft for aggressive riders; vets ran an effective 5.1 (one 5.0 and one 5.2 spring), fast riders the optional 5.2, light riders stock. Compression 14 clicks out, rebound 12 out, fork legs up to 2 mm up. Light or slower riders added oil in 5 cc steps to both legs to stop bottoming.",
+   "values": {
+    "spring": "5.0 N/mm stock; 5.1 (mixed) vet; 5.2 fast",
+    "compression": "14 out",
+    "rebound": "12 out",
+    "fork_height": "0-2 mm up",
+    "oil": "+5 cc steps against bottoming"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Kawasaki KX450 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2019-kawasaki-kx450",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-030",
+   "domain": "setups",
+   "topic": "2019 tester shock settings",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "A magazine test crew's 2019 KX450 shock setup: stock 54 N/mm spring (52 N/mm for riders under 150 lb), 105 mm race sag, high-speed compression 1-1/4 turns out, low-speed 18 clicks out, rebound 12 out.",
+   "values": {
+    "spring": "54 N/mm (52 under 150 lb)",
+    "sag_mm": 105,
+    "hsc": "1-1/4 turns out",
+    "lsc": "18 out",
+    "rebound": "12 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Kawasaki KX450 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2019-kawasaki-kx450",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-031",
+   "domain": "ecu_electronics",
+   "topic": "2019 couplers",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "On the 2019 KX450 the green (stock) coupler was the strongest overall in dyno testing. Black softens response everywhere and gives up 1-2 hp from 6,000-11,500 rpm. White makes the same peak power as green with a crisper, more aggressive feel.",
+   "values": {
+    "green": "stock, strongest",
+    "black": "1-2 hp less 6,000-11,500 rpm",
+    "white": "same power, sharper response"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Kawasaki KX450 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2019-kawasaki-kx450",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-032",
+   "domain": "known_issues",
+   "topic": "2019 weak points and fixes",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "Tester findings on the 2019 KX450: the clutch slips and fades (fit stiffer springs; some crews remove the judder spring and narrow plate and run a full set of standard plates), the rear brake is grabby (grind a lead-in chamfer on the pads; shorten the pushrod thread for more pedal range), the bottom chain roller wears fast (the KX250 twin-bearing roller fits), the battery's thermal switch can refuse to crank a hot bike until it cools, and a 1.1 radiator cap boiled over in hot racing (a 1.8 or 2.0 cap cured it).",
+   "values": {
+    "radiator_cap": "1.8 or 2.0 in place of 1.1",
+    "chain_roller": "KX250 twin-bearing roller"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Kawasaki KX450 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2019-kawasaki-kx450",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-033",
+   "domain": "chassis",
+   "topic": "2019 handling and ergonomics",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "The 2019 KX450 turns sweetly once the fork is kept from diving through its mid-stroke. Testers preferred the footpegs in the lower (5 mm down) position. Stock tyres changed to Dunlop MX3S. The exhaust passes both the amateur and two-metre sound tests.",
+   "values": {
+    "tyres": "Dunlop MX3S"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Kawasaki KX450 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2019-kawasaki-kx450",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-034",
+   "domain": "identity",
+   "topic": "2014 changes",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2014
+    ]
+   },
+   "statement": "2014 KX250F changes: a handlebar launch-control button (retards ignition in first and second), gearbox dogs increased from three to four with new shift-fork grooves, a countershaft sprocket held by a nut and washer instead of a clip, engine mount plates thinned from 4.5 mm to 3.2 mm, revised fork and shock damping and grips 10 mm shorter. The 48 mm Showa SFF (single-spring) fork has been on the bike since 2011 and the dual-injector engine (second injector upstream, feeding from about 7,000 rpm) carries over.",
+   "values": {
+    "engine_mounts_mm": 3.2,
+    "fork": "Showa SFF 48 mm (one spring leg, one damping leg)",
+    "injectors": "two; upstream one comes in near 7,000 rpm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2014 Kawasaki KX250F test",
+    "url": "https://motocrossactionmag.com/mxas-2014-kawasaki-kx250f-motocross-test-sometimes-you-love-something-in-spite-of-its-flaws-2",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-035",
+   "domain": "power_feel",
+   "topic": "2014 dyno",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2014
+    ]
+   },
+   "statement": "On a magazine dyno the 2014 KX250F made 41.14 hp at 12,200 rpm and 20.36 lb-ft, the same as the 2013. It is quick-responding and broad; the 2014 250 SX-F made more peak power, and pros wanted more top end from the Kawasaki.",
+   "values": {
+    "peak_hp": 41.14,
+    "peak_rpm": 12200,
+    "peak_torque_lbft": 20.36
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2014 Kawasaki KX250F test",
+    "url": "https://motocrossactionmag.com/mxas-2014-kawasaki-kx250f-motocross-test-sometimes-you-love-something-in-spite-of-its-flaws-2",
+    "date": "2013"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-036",
+   "domain": "setups",
+   "topic": "2014 tester fork settings (SFF)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2014
+    ]
+   },
+   "statement": "A magazine test crew's 2014 KX250F fork setup: stock 0.97 kg/mm spring, preload 15 clicks in (stock 7; four clicks equal 1 mm), compression 8 clicks out (stock 9), rebound 11 out (stock 12), fork legs 5 mm up. Oil quantity 300 cc in the left leg and 223 cc in the right.",
+   "values": {
+    "spring": "0.97 kg/mm",
+    "preload": "15 clicks in (stock 7)",
+    "compression": "8 out (stock 9)",
+    "rebound": "11 out (stock 12)",
+    "fork_height": "5 mm up"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2014 Kawasaki KX250F test",
+    "url": "https://motocrossactionmag.com/mxas-2014-kawasaki-kx250f-motocross-test-sometimes-you-love-something-in-spite-of-its-flaws-2",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-037",
+   "domain": "setups",
+   "topic": "2014 tester shock settings",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2014
+    ]
+   },
+   "statement": "A magazine test crew's 2014 KX250F shock setup: stock 5.4 kg/mm spring (suits riders over about 170 lb), 100 mm race sag (stock recommendation 104), high-speed compression 1-1/2 turns out (stock 2), low-speed 10 clicks out (stock 12), rebound 10 out (stock 12).",
+   "values": {
+    "spring": "5.4 kg/mm",
+    "sag_mm": 100,
+    "hsc": "1-1/2 turns out (stock 2)",
+    "lsc": "10 out (stock 12)",
+    "rebound": "10 out (stock 12)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2014 Kawasaki KX250F test",
+    "url": "https://motocrossactionmag.com/mxas-2014-kawasaki-kx250f-motocross-test-sometimes-you-love-something-in-spite-of-its-flaws-2",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-038",
+   "domain": "ecu_electronics",
+   "topic": "2014-2016 couplers",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   "statement": "The 2014-2016 KX250F comes with three plug-in couplers by the head tube: green (standard), white (soft terrain, more ignition advance, sharper) and black (hard or slick terrain, less wheelspin). Magazine testers raced the white one. Launch control works in first and second and switches off in third; testers found it muted the 250 off the line and did not use it.",
+   "values": {
+    "green": "standard",
+    "white": "soft terrain, aggressive (testers' pick)",
+    "black": "hard terrain, mellow"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2014 Kawasaki KX250F test",
+    "url": "https://motocrossactionmag.com/mxas-2014-kawasaki-kx250f-motocross-test-sometimes-you-love-something-in-spite-of-its-flaws-2",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-039",
+   "domain": "known_issues",
+   "topic": "2014-2016 weak points and fixes",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   "statement": "Repeated tester findings on the 2014-2016 KX250F: it resists upshifting under full load (use the clutch or breathe the throttle), the clutch slips after a few hard rides (stiffer springs or an aftermarket clutch), the chain guide wears fast (an aftermarket guide lasts), the fork guards are fragile, the clutch-side grip is vulcanised to the bar, and the rear wallows under power (a longer link pull rod stiffens the first part of the stroke and lowers the rear).",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2014 Kawasaki KX250F test",
+    "url": "https://motocrossactionmag.com/mxas-2014-kawasaki-kx250f-motocross-test-sometimes-you-love-something-in-spite-of-its-flaws-2",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-040",
+   "domain": "chassis",
+   "topic": "2014-2016 handling and the usual fixes",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2014,
+     2015,
+     2016
+    ]
+   },
+   "statement": "The 2014-2016 KX250F understeers: the front pushes when it is ridden hard into turns and the bike feels upright. Raising the fork in the clamps helps a little. The two changes testers found that really worked were 22 mm offset triple clamps in place of the stock 22.5 mm and a longer shock link pull rod.",
+   "values": {
+    "stock_offset_mm": 22.5,
+    "preferred_offset_mm": 22
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2014 Kawasaki KX250F test",
+    "url": "https://motocrossactionmag.com/mxas-2014-kawasaki-kx250f-motocross-test-sometimes-you-love-something-in-spite-of-its-flaws-2",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-041",
+   "domain": "identity",
+   "topic": "2015 changes",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2015
+    ]
+   },
+   "statement": "2015 KX250F changes: bridged-box piston, a head pipe with a resonance chamber and the KX450F's larger muffler (to meet the 94 dB amateur limit), a heavier 9.5 kg-cm2 flywheel (8.5 and 9 optional), a 270 mm front disc (was 250 mm), revised SFF valving with coated inner tubes, firmer shock settings, lighter thin-wall axles, a self-locking rear axle nut, a four-position upper clamp (bars 25 mm forward, 15 mm forward, standard or 10 mm back) and footpeg brackets that can be lowered 5 mm.",
+   "values": {
+    "front_disc_mm": 270,
+    "flywheel": "9.5 kg-cm2 (8.5, 9 optional)",
+    "bar_positions": 4,
+    "footpegs": "standard or 5 mm lower"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2015 Kawasaki KX250F test",
+    "url": "https://motocrossactionmag.com/2015-test-ride-kawasaki-kx250f",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-042",
+   "domain": "setups",
+   "topic": "2015 tester fork settings (SFF)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2015
+    ]
+   },
+   "statement": "A magazine test crew's 2015 KX250F fork setup: stock 9.6 N/mm spring (9.2 and 10.0 optional), preload 25 clicks in (stock 8; the adjuster has 40), compression 6 clicks out (stock 7), rebound 11 out (stock 10), fork legs 5 mm up. Set preload and fork height to balance the bike against the shock before touching the clickers.",
+   "values": {
+    "spring": "9.6 N/mm (9.2, 10.0 optional)",
+    "preload": "25 clicks in (stock 8)",
+    "compression": "6 out (stock 7)",
+    "rebound": "11 out (stock 10)",
+    "fork_height": "5 mm up"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2015 Kawasaki KX250F test",
+    "url": "https://motocrossactionmag.com/2015-test-ride-kawasaki-kx250f",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-043",
+   "domain": "setups",
+   "topic": "2015 tester shock settings",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2015
+    ]
+   },
+   "statement": "A magazine test crew's 2015 KX250F shock setup: stock 53 N/mm spring (47, 49, 51 and 55 optional; stock suits riders over about 170 lb), 100 mm race sag, high-speed compression 2 turns out, low-speed 8 clicks out (stock 11), rebound 13 out (stock 14).",
+   "values": {
+    "spring": "53 N/mm",
+    "sag_mm": 100,
+    "hsc": "2 turns out",
+    "lsc": "8 out (stock 11)",
+    "rebound": "13 out (stock 14)",
+    "optional_springs": "47, 49, 51, 55 N/mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2015 Kawasaki KX250F test",
+    "url": "https://motocrossactionmag.com/2015-test-ride-kawasaki-kx250f",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-044",
+   "domain": "identity",
+   "topic": "2016 changes",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2016
+    ]
+   },
+   "statement": "The 2016 KX250F is the 2015 bike with a green rear fender, stronger bearing retainer screws and new graphics. It was the last year of this generation.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 Kawasaki KX250F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2016-kawasaki-kx250f",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-045",
+   "domain": "power_feel",
+   "topic": "2016 dyno and weight",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2016
+    ]
+   },
+   "statement": "On a magazine dyno the 2016 KX250F made 39.87 hp and weighed 226 lb, 5 lb more than the 250 SX-F and YZ250F of that year. The engine is broad and instant, about 40 hp across a usable range, against roughly 44 hp for the Austrian 250s.",
+   "values": {
+    "peak_hp": 39.87,
+    "weight_lb": 226
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 Kawasaki KX250F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2016-kawasaki-kx250f",
+    "date": "2015"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-046",
+   "domain": "setups",
+   "topic": "2016 tester settings",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2016
+    ]
+   },
+   "statement": "A magazine test crew's 2016 KX250F setup for a fast rider: fork 9.6 N/mm spring, preload backed fully out (stock 8 clicks in), compression 15 clicks out (stock 7), rebound 10 out, legs 5 mm up; vets and novices went fully out on compression and some took 10 cc of oil out of the left leg. Shock 53 N/mm spring, 100 mm sag, high-speed 2 turns out, low-speed 11 clicks out, rebound 14 out. The front brake went spongy in the first hour and was cured by fresh fluid.",
+   "values": {
+    "fork": "preload full out, comp 15 out, reb 10 out, 5 mm up",
+    "shock": "sag 100 mm, HSC 2 turns, LSC 11 out, reb 14 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 Kawasaki KX250F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2016-kawasaki-kx250f",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-047",
+   "domain": "identity",
+   "topic": "2017 redesign",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2017,
+     2018,
+     2019
+    ]
+   },
+   "statement": "The 2017 KX250F was all new and 5 lb lighter (221 lb without fuel, engine 1.75 lb lighter): cylinder leaned forward 7 degrees instead of 14 and offset, a plain-bearing big end, bridged-box piston 6 g lighter, titanium valves, a lighter flywheel, a frame 1.3 in narrower at the shrouds, a lighter swingarm, a link 1 mm longer, the KX450F's stiffer lower clamp, a 9.8 N/mm SFF fork spring (was 9.6) with thicker inner tubes, a flatter seat with the filler 20 mm lower and Dunlop MX3S tyres. Only one airbox vent is real; the right-hand one is blanked. This platform ran 2017-2019.",
+   "values": {
+    "weight_lb": 221,
+    "fork_spring": "9.8 N/mm",
+    "tyres": "Dunlop MX3S"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2017 Kawasaki KX250F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2017-kawasaki-kx250f",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-048",
+   "domain": "power_feel",
+   "topic": "2017 dyno",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2017
+    ]
+   },
+   "statement": "On a magazine dyno the 2017 KX250F peaked at 40.06 hp (2017 YZ250F 40.93, Austrian 250s about 44) and revved to 13,400 rpm. Against the 2016 it was equal or down from 6,000-9,300 rpm, about 1 hp up from 9,500-11,500 rpm and softer off the bottom, so it can lose a bike length out of a turn and needs clutch if shifted early.",
+   "values": {
+    "peak_hp": 40.06,
+    "sign_off_rpm": 13400
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2017 Kawasaki KX250F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2017-kawasaki-kx250f",
+    "date": "2016"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-049",
+   "domain": "setups",
+   "topic": "2017 tester settings",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2017
+    ]
+   },
+   "statement": "A magazine test crew's 2017 KX250F setup: fork 9.8 N/mm spring, preload 6 clicks in (stock 8), compression 16 clicks out (stock 8), rebound 15 out (stock 16), standard height; the stock compression setting is stiff, so keep going out until it works. Shock 52 N/mm spring, 105 mm sag, high-speed 2-1/2 turns out, low-speed 10 clicks out (stock 11), rebound 9 out (stock 10); riders over 185 lb add compression. A slight oversteer was tuned out with a few clicks of fork preload.",
+   "values": {
+    "fork": "preload 6 in, comp 16 out, reb 15 out",
+    "shock": "sag 105 mm, HSC 2-1/2 turns, LSC 10 out, reb 9 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2017 Kawasaki KX250F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2017-kawasaki-kx250f",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-050",
+   "domain": "ecu_electronics",
+   "topic": "2017 couplers",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2017
+    ]
+   },
+   "statement": "On the 2017 KX250F testers replaced the green (stock) coupler with the white one: slightly softer right off the bottom but stronger from the middle up. The black coupler was judged too mellow to be useful.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2017 Kawasaki KX250F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2017-kawasaki-kx250f",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-051",
+   "domain": "identity",
+   "topic": "2018 changes",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "2018 KX250F changes: the downstream injector re-angled from 45 to 30 degrees, fuel pressure up 17%, an intake 20 mm shorter, a longer intake port divider, a new cam with timing advanced from 110 to 106 degrees, a head pipe 3 mm larger and 30 mm longer, new ECU settings, a softer 9.4 N/mm fork spring (was 9.8) with more preload and new valving, and new shock valving. It gained about 3 hp from the bottom through the middle.",
+   "values": {
+    "fork_spring": "9.4 N/mm (was 9.8)",
+    "head_pipe": "+3 mm diameter, +30 mm length",
+    "cam_timing": "106 degrees (was 110)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2018 Kawasaki KX250F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-kawasaki-kx250f",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-052",
+   "domain": "setups",
+   "topic": "2018-2019 tester settings",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   "statement": "A magazine test crew's 2018-2019 KX250 setup: fork 9.4 N/mm spring, preload 6 clicks in (stock 11), compression 18 clicks out (stock 8), rebound 14 out (stock 16), standard height. Shock 52 N/mm spring (a 49 or 48 N/mm for riders around 130-150 lb), 105 mm sag, high-speed 2-1/2 turns out (stock 2-1/4), low-speed 10 clicks out (stock 11), rebound 9 out (stock 12); over 185 lb add compression. The fork has a harsh spot in the mid-stroke that clickers only partly hide; a revalve cures it.",
+   "values": {
+    "fork": "preload 6 in (stock 11), comp 18 out (stock 8), reb 14 out (stock 16)",
+    "shock": "sag 105 mm, HSC 2-1/2 turns, LSC 10 out, reb 9 out",
+    "light_rider_spring": "48-49 N/mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2018 Kawasaki KX250F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-kawasaki-kx250f",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-053",
+   "domain": "setups",
+   "topic": "2018-2019 gearing",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   "statement": "Stock rear sprocket on the 2018-2019 KX250 is 50 teeth. Racers went to 51 for more drive off turns at the cost of more shifting; play riders stay stock.",
+   "values": {
+    "stock_rear": 50,
+    "race_rear": 51
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2018 Kawasaki KX250F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-kawasaki-kx250f",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-054",
+   "domain": "ecu_electronics",
+   "topic": "2018-2019 maps",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   "statement": "On the 2018-2019 KX250 the green (stock) map is flat off the bottom with good top end, the white (lean) map adds low and mid but signs off sooner, and the black (rich) map is mellow for slick tracks. The best result in testing was a custom map from Kawasaki's calibration tool (about $700, or done by a dealer): leave the stock map alone above 40% throttle and add ignition advance and lean the fuel between 10% and 30% throttle. That also removed the decel pop many of these bikes have.",
+   "values": {
+    "green": "stock",
+    "white": "lean, more low-mid",
+    "black": "rich, mellow",
+    "custom": "advance and lean 10-30% throttle, stock above 40%"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2018 Kawasaki KX250F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-kawasaki-kx250f",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-055",
+   "domain": "identity",
+   "topic": "2019 changes",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "The 2019 KX250 (the F was dropped from the name) is the 2018 bike with new graphics. It is kickstart only, weighs 221 lb and listed at $7,749, the lowest price in the class. The all-new engine came for 2020.",
+   "values": {
+    "weight_lb": 221,
+    "msrp_usd": 7749
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Kawasaki KX250 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2019-kawasaki-kx250",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-056",
+   "domain": "power_feel",
+   "topic": "2018-2019 character",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   "statement": "The 2018-2019 KX250 makes about 40 hp, roughly 4 hp less than the Austrian 250s. It builds slowly off the bottom, has a bump in the middle and keeps pulling without falling off; riders often needed two downshifts into a corner where other 250s need one.",
+   "values": {
+    "peak_hp": "about 40"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Kawasaki KX250 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2019-kawasaki-kx250",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-057",
+   "domain": "known_issues",
+   "topic": "2017-2019 weak points and fixes",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2017,
+     2018,
+     2019
+    ]
+   },
+   "statement": "Repeated tester findings on the 2017-2019 KX250F/KX250: the clutch fades (stiffer springs first; a full aftermarket clutch for hard users), the chain guide wore out in about 15 hours (use an aftermarket guide rather than another stock one), the right radiator shroud can snap if a boot catches it, the rear brake pedal has little range for riders who run it low, and the blanked right airbox vent can be opened up.",
+   "values": {
+    "chain_guide_life_h": 15
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Kawasaki KX250 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2019-kawasaki-kx250",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-kx-058",
+   "domain": "chassis",
+   "topic": "2017-2019 handling",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2017,
+     2018,
+     2019
+    ]
+   },
+   "statement": "The 2017-2019 KX250F chassis is slim, light and balanced: it tracks straight, goes into corners precisely and holds a rut, a big step from the 2016. The 2018-2019 fork rides higher and is harsher in braking bumps than the 2017 setting. Bars and pegs adjust for taller riders; shorter riders found the seat tall.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2018 Kawasaki KX250F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-kawasaki-kx250f",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://motocrossactionmag.com/2015-kawasaki-kx450f",
+  "https://motocrossactionmag.com/2015-test-ride-kawasaki-kx250f",
+  "https://motocrossactionmag.com/2016-mxa-race-test-everything-you-need-to-know-about-the-kawasaki-kx450f",
+  "https://motocrossactionmag.com/mxa-race-test-2016-kawasaki-kx250f",
+  "https://motocrossactionmag.com/mxa-race-test-2017-kawasaki-kx250f",
+  "https://motocrossactionmag.com/mxa-race-test-2017-kawasaki-kx450f",
+  "https://motocrossactionmag.com/mxa-race-test-2018-kawasaki-kx250f",
+  "https://motocrossactionmag.com/mxa-race-test-2018-kawasaki-kx450f",
+  "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2019-kawasaki-kx250",
+  "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2019-kawasaki-kx450",
+  "https://motocrossactionmag.com/mxas-2014-kawasaki-kx250f-motocross-test-sometimes-you-love-something-in-spite-of-its-flaws-2",
+  "https://motocrossactionmag.com/ten-years-ago-today-mxas-2014-kawasaki-kx450f-race-test"
+ ]
+}
