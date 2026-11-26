@@ -2033,6 +2033,179 @@
   {
    "id": "w-y3-032",
    "domain": "ecu_electronics",
+   "topic": "Wiring diagram: components and wire colour code",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "The 2018 YZ450FX wiring diagram shows these parts: Joint connector, Joint connector, Joint connector, AC magneto, Rectifier/regulator, Main relay, Engine ground, Battery, Frame ground, Starter relay, Main fuse, Starter motor, Starter relay diode, Warning light, Engine trouble warning light, Fuel level warning light, Resistor, Fuel sender, Diode, Coupler for connecting optional part, ECU (Engine Control Unit), Ignition coil, Spark plug, Injector, Fuel pump, Radiator fan motor relay, Radiator fan motor fuse, Radiator fan motor (For JPN), Joint connector, Intake air temperature sensor, Coolant temperature sensor, Throttle position sensor, Intake air pressure sensor, Lean angle sensor, Engine stop switch, Neutral switch, Diode, Starting circuit cut-off relay, Clutch switch, Start switch, Frame ground, Ignition coil sub-lead, Negative battery lead, Engine ground sub-lead. Yamaha's wire colour letters: B black, Br brown, Ch chocolate, Dg dark green, G green, Gy gray, L blue, Lg light green, O orange, P pink, R red, Sb sky blue, W white, Y yellow. Two letters with a slash mean a base colour with a stripe (B/W is black with a white stripe).",
+   "values": {
+    "components": [
+     "Joint connector",
+     "Joint connector",
+     "Joint connector",
+     "AC magneto",
+     "Rectifier/regulator",
+     "Main relay",
+     "Engine ground",
+     "Battery",
+     "Frame ground",
+     "Starter relay",
+     "Main fuse",
+     "Starter motor",
+     "Starter relay diode",
+     "Warning light",
+     "Engine trouble warning light",
+     "Fuel level warning light",
+     "Resistor",
+     "Fuel sender",
+     "Diode",
+     "Coupler for connecting optional part",
+     "ECU (Engine Control Unit)",
+     "Ignition coil",
+     "Spark plug",
+     "Injector",
+     "Fuel pump",
+     "Radiator fan motor relay",
+     "Radiator fan motor fuse",
+     "Radiator fan motor (For JPN)",
+     "Joint connector",
+     "Intake air temperature sensor",
+     "Coolant temperature sensor",
+     "Throttle position sensor",
+     "Intake air pressure sensor",
+     "Lean angle sensor",
+     "Engine stop switch",
+     "Neutral switch",
+     "Diode",
+     "Starting circuit cut-off relay",
+     "Clutch switch",
+     "Start switch",
+     "Frame ground",
+     "Ignition coil sub-lead",
+     "Negative battery lead",
+     "Engine ground sub-lead"
+    ],
+    "colours": {
+     "B": "Black",
+     "Br": "Brown",
+     "Ch": "Chocolate",
+     "Dg": "Dark green",
+     "G": "Green",
+     "Gy": "Gray",
+     "L": "Blue",
+     "Lg": "Light green",
+     "O": "Orange",
+     "P": "Pink",
+     "R": "Red",
+     "Sb": "Sky blue",
+     "W": "White",
+     "Y": "Yellow",
+     "B/L": "Black/Blue",
+     "B/O": "Black/Orange",
+     "B/W": "Black/White",
+     "B/Y": "Black/Yellow",
+     "Br/W": "Brown/White",
+     "G/B": "Green/Black",
+     "G/W": "Green/White",
+     "G/Y": "Green/Yellow",
+     "L/B": "Blue/Black",
+     "L/G": "Blue/Green",
+     "L/R": "Blue/Red",
+     "L/W": "Blue/White",
+     "L/Y": "Blue/Yellow",
+     "P/L": "Pink/Blue",
+     "R/B": "Red/Black",
+     "R/L": "Red/Blue",
+     "R/W": "Red/White",
+     "R/Y": "Red/Yellow",
+     "W/B": "White/Black",
+     "Y/B": "Yellow/Black",
+     "Y/G": "Yellow/Green",
+     "Y/R": "Yellow/Red",
+     "Y/W": "Yellow/White"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2018 YZ450FX owner's service manual (B91-28199-12)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B91-28199-12_02.pdf",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the legend of the wiring diagram."
+  },
+  {
+   "id": "w-y3-033",
+   "domain": "ecu_electronics",
+   "topic": "Electrical test values",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "Electrical test values Yamaha prints for the 2018 YZ450FX: engine idling speed 1900–2100 r/min; lean angle sensor output voltage 0.4–1.4; minimum ignition spark gap 6.0 mm; primary coil resistance 2.16–2.64 ohms; secondary coil resistance 8.64–12.96 kilohms; crankshaft position sensor resistance 228–342 ohms; stator coil resistance 0.528–0.792 ohms; regulated voltage (DC) 14.1–14.9 V; resister resistance 64.6–71.4 ohms; coolant temperature sensor resistance 2512–2777 ohms at 20 C and 210–220 ohms at 100 C; intake air temperature sensor resistance 5400–6600 ohms at 0 C and 290–390 ohms at 80 C; throttle position sensor input voltage 4–6 V. Measure with the coupler unplugged unless the manual says otherwise, probing from the back of the coupler.",
+   "values": {
+    "Engine idling speed": [
+     "1900–2100 r/min"
+    ],
+    "Lean angle sensor output voltage": [
+     "0.4–1.4"
+    ],
+    "Minimum ignition spark gap": [
+     "6.0 mm"
+    ],
+    "Primary coil resistance": [
+     "2.16–2.64 ohms"
+    ],
+    "Secondary coil resistance": [
+     "8.64–12.96 kilohms"
+    ],
+    "Crankshaft position sensor resistance": [
+     "228–342 ohms"
+    ],
+    "Stator coil resistance": [
+     "0.528–0.792 ohms"
+    ],
+    "Regulated voltage (DC)": [
+     "14.1–14.9 V"
+    ],
+    "Resister resistance": [
+     "64.6–71.4 ohms"
+    ],
+    "Coolant temperature sensor resistance": [
+     "2512–2777 ohms at 20 C",
+     "210–220 ohms at 100 C"
+    ],
+    "Intake air temperature sensor resistance": [
+     "5400–6600 ohms at 0 C",
+     "290–390 ohms at 80 C"
+    ],
+    "Throttle position sensor input voltage": [
+     "4–6 V"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2018 YZ450FX owner's service manual (B91-28199-12)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B91-28199-12_02.pdf",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
+  },
+  {
+   "id": "w-y3-034",
+   "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
     "models": [
@@ -2065,7 +2238,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-033",
+   "id": "w-y3-035",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -2154,7 +2327,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-034",
+   "id": "w-y3-036",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -2210,7 +2383,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-035",
+   "id": "w-y3-037",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -2314,7 +2487,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-036",
+   "id": "w-y3-038",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -2380,7 +2553,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-037",
+   "id": "w-y3-039",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -2423,7 +2596,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-038",
+   "id": "w-y3-040",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -2460,7 +2633,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-039",
+   "id": "w-y3-041",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -2553,7 +2726,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-040",
+   "id": "w-y3-042",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -2612,7 +2785,170 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-041",
+   "id": "w-y3-043",
+   "domain": "ecu_electronics",
+   "topic": "Wiring diagram: components and wire colour code",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "The 2019 YZ450FX wiring diagram shows these parts: Crankshaft position sensor, AC magneto, Rectifier/regulator, Joint connector, Main relay, Engine ground, Battery, Frame ground, Main fuse, Starter relay, Starter motor, Diode 1, Diode 2, CCU (Communication Control Unit), Warning light, Fuel level warning light, Engine trouble warning light, Resistor, Fuel sender, Yamaha diagnostic tool cou- pler, ECU (Engine Control Unit), Ignition coil, Spark plug, Fuel injector, Fuel pump, Radiator fan motor fuse, Radiator fan motor (For JPN), Radiator fan motor relay, Intake air temperature sensor, Coolant temperature sensor, Throttle position sensor, Intake air pressure sensor, Engine stop switch, Gear position switch, Mode switch, Start switch, Diode 3. Yamaha's wire colour letters: B black, Br brown, Gy gray, L blue, Lg light green, O orange, P pink, R red, Sb sky blue, W white, Y yellow. Two letters with a slash mean a base colour with a stripe (B/W is black with a white stripe).",
+   "values": {
+    "components": [
+     "Crankshaft position sensor",
+     "AC magneto",
+     "Rectifier/regulator",
+     "Joint connector",
+     "Main relay",
+     "Engine ground",
+     "Battery",
+     "Frame ground",
+     "Main fuse",
+     "Starter relay",
+     "Starter motor",
+     "Diode 1",
+     "Diode 2",
+     "CCU (Communication Control Unit)",
+     "Warning light",
+     "Fuel level warning light",
+     "Engine trouble warning light",
+     "Resistor",
+     "Fuel sender",
+     "Yamaha diagnostic tool cou- pler",
+     "ECU (Engine Control Unit)",
+     "Ignition coil",
+     "Spark plug",
+     "Fuel injector",
+     "Fuel pump",
+     "Radiator fan motor fuse",
+     "Radiator fan motor (For JPN)",
+     "Radiator fan motor relay",
+     "Intake air temperature sensor",
+     "Coolant temperature sensor",
+     "Throttle position sensor",
+     "Intake air pressure sensor",
+     "Engine stop switch",
+     "Gear position switch",
+     "Mode switch",
+     "Start switch",
+     "Diode 3"
+    ],
+    "colours": {
+     "B": "Black",
+     "Br": "Brown",
+     "Gy": "Gray",
+     "L": "Blue",
+     "Lg": "Light green",
+     "O": "Orange",
+     "P": "Pink",
+     "R": "Red",
+     "Sb": "Sky blue",
+     "W": "White",
+     "Y": "Yellow",
+     "B/L": "Black/Blue",
+     "B/O": "Black/Orange",
+     "B/R": "Black/Red",
+     "B/W": "Black/White",
+     "B/Y": "Black/Yellow",
+     "Br/W": "Brown/White",
+     "G/W": "Green/White",
+     "G/Y": "Green/Yellow",
+     "L/B": "Blue/Black",
+     "L/G": "Blue/Green",
+     "L/R": "Blue/Red",
+     "L/W": "Blue/White",
+     "L/Y": "Blue/Yellow",
+     "P/B": "Pink/Black",
+     "P/L": "Pink/Blue",
+     "R/B": "Red/Black",
+     "R/L": "Red/Blue",
+     "R/W": "Red/White",
+     "R/Y": "Red/Yellow",
+     "W/B": "White/Black",
+     "W/G": "White/Green",
+     "Y/G": "Yellow/Green",
+     "Y/R": "Yellow/Red",
+     "Y/W": "Yellow/White"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2019 YZ450FX owner's service manual (B3J-28199-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B3J-28199-10_02.pdf",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the legend of the wiring diagram."
+  },
+  {
+   "id": "w-y3-044",
+   "domain": "ecu_electronics",
+   "topic": "Electrical test values",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "Electrical test values Yamaha prints for the 2019 YZ450FX: engine idling speed 1900–2100 r/min; minimum ignition spark gap 6.0 mm; secondary coil resistance 8.64–12.96 kilohms; primary coil resistance 2.16–2.64 ohms; crankshaft position sensor resistance 228–342 ohms; stator coil resistance 0.512–0.768 ohms; regulated voltage (DC) 14.0–14.8 V; resistor resistance 64.6–71.4 ohms; intake air temperature sensor resistance 5400–6600 ohms at the lower test temperature and 290–390 ohms at the higher one; throttle position sensor input voltage 4–6 V; spark plug cap resistance 7.50–12.50 kilohms; fuel injector resistance 12.0 ohms. Measure with the coupler unplugged unless the manual says otherwise, probing from the back of the coupler.",
+   "values": {
+    "Engine idling speed": [
+     "1900–2100 r/min"
+    ],
+    "Minimum ignition spark gap": [
+     "6.0 mm"
+    ],
+    "Secondary coil resistance": [
+     "8.64–12.96 kilohms"
+    ],
+    "Primary coil resistance": [
+     "2.16–2.64 ohms"
+    ],
+    "Crankshaft position sensor resistance": [
+     "228–342 ohms"
+    ],
+    "Stator coil resistance": [
+     "0.512–0.768 ohms"
+    ],
+    "Regulated voltage (DC)": [
+     "14.0–14.8 V"
+    ],
+    "Resistor resistance": [
+     "64.6–71.4 ohms"
+    ],
+    "Intake air temperature sensor resistance": [
+     "5400–6600 ohms at the lower test temperature",
+     "290–390 ohms at the higher one"
+    ],
+    "Throttle position sensor input voltage": [
+     "4–6 V"
+    ],
+    "Spark plug cap resistance": [
+     "7.50–12.50 kilohms"
+    ],
+    "Fuel injector resistance": [
+     "12.0 ohms"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2019 YZ450FX owner's service manual (B3J-28199-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B3J-28199-10_02.pdf",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
+  },
+  {
+   "id": "w-y3-045",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -2646,7 +2982,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-042",
+   "id": "w-y3-046",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -2735,7 +3071,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-043",
+   "id": "w-y3-047",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -2794,7 +3130,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-044",
+   "id": "w-y3-048",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -2837,7 +3173,7 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-045",
+   "id": "w-y3-049",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -2938,7 +3274,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-046",
+   "id": "w-y3-050",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -3004,7 +3340,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-047",
+   "id": "w-y3-051",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -3047,7 +3383,7 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-048",
+   "id": "w-y3-052",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -3090,7 +3426,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-049",
+   "id": "w-y3-053",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -3127,7 +3463,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-050",
+   "id": "w-y3-054",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -3220,7 +3556,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-051",
+   "id": "w-y3-055",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -3279,7 +3615,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-052",
+   "id": "w-y3-056",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -3322,7 +3658,217 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-053",
+   "id": "w-y3-057",
+   "domain": "ecu_electronics",
+   "topic": "Wiring diagram: components and wire colour code",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 2020 YZ450FX wiring diagram shows these parts: Crankshaft position sensor, AC magneto, Rectifier/regulator, Joint connector, Main relay, Engine ground, Battery, Frame ground, Main fuse, Starter relay, Starter motor, Diode 1, Diode 2, CCU (Communication Control Unit), Warning light, Fuel level warning light, Engine trouble warning light, Resistor, Fuel sender, Yamaha diagnostic tool cou- pler, ECU (Engine Control Unit), Ignition coil, Spark plug, Fuel injector, Fuel pump, Radiator fan motor fuse, Coupler (not used), Radiator fan motor relay, Intake air temperature sensor, Coolant temperature sensor, Throttle position sensor, Intake air pressure sensor, Engine stop switch, Gear position switch, Mode switch, Start switch, Diode 3. Yamaha's wire colour letters: B black, Br brown, Gy gray, L blue, Lg light green, O orange, P pink, R red, Sb sky blue, W white, Y yellow. Two letters with a slash mean a base colour with a stripe (B/W is black with a white stripe).",
+   "values": {
+    "components": [
+     "Crankshaft position sensor",
+     "AC magneto",
+     "Rectifier/regulator",
+     "Joint connector",
+     "Main relay",
+     "Engine ground",
+     "Battery",
+     "Frame ground",
+     "Main fuse",
+     "Starter relay",
+     "Starter motor",
+     "Diode 1",
+     "Diode 2",
+     "CCU (Communication Control Unit)",
+     "Warning light",
+     "Fuel level warning light",
+     "Engine trouble warning light",
+     "Resistor",
+     "Fuel sender",
+     "Yamaha diagnostic tool cou- pler",
+     "ECU (Engine Control Unit)",
+     "Ignition coil",
+     "Spark plug",
+     "Fuel injector",
+     "Fuel pump",
+     "Radiator fan motor fuse",
+     "Coupler (not used)",
+     "Radiator fan motor relay",
+     "Intake air temperature sensor",
+     "Coolant temperature sensor",
+     "Throttle position sensor",
+     "Intake air pressure sensor",
+     "Engine stop switch",
+     "Gear position switch",
+     "Mode switch",
+     "Start switch",
+     "Diode 3"
+    ],
+    "colours": {
+     "B": "Black",
+     "Br": "Brown",
+     "Gy": "Gray",
+     "L": "Blue",
+     "Lg": "Light green",
+     "O": "Orange",
+     "P": "Pink",
+     "R": "Red",
+     "Sb": "Sky blue",
+     "W": "White",
+     "Y": "Yellow",
+     "B/L": "Black/Blue",
+     "B/O": "Black/Orange",
+     "B/R": "Black/Red",
+     "B/W": "Black/White",
+     "B/Y": "Black/Yellow",
+     "Br/W": "Brown/White",
+     "G/W": "Green/White",
+     "G/Y": "Green/Yellow",
+     "L/B": "Blue/Black",
+     "L/G": "Blue/Green",
+     "L/R": "Blue/Red",
+     "L/W": "Blue/White",
+     "L/Y": "Blue/Yellow",
+     "P/B": "Pink/Black",
+     "P/L": "Pink/Blue",
+     "R/B": "Red/Black",
+     "R/L": "Red/Blue",
+     "R/W": "Red/White",
+     "R/Y": "Red/Yellow",
+     "W/B": "White/Black",
+     "W/G": "White/Green",
+     "Y/G": "Yellow/Green",
+     "Y/R": "Yellow/Red",
+     "Y/W": "Yellow/White"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2020 YZ450FX owner's service manual (B3J-28199-11)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B3J-28199-11_02.pdf",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the legend of the wiring diagram."
+  },
+  {
+   "id": "w-y3-058",
+   "domain": "ecu_electronics",
+   "topic": "Electrical test values",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Electrical test values Yamaha prints for the 2020 YZ450FX: engine idling speed 1900–2100 r/min; minimum ignition spark gap 6.0 mm; secondary coil resistance 8.64–12.96 kilohms; primary coil resistance 2.16–2.64 ohms; crankshaft position sensor resistance 228–342 ohms; stator coil resistance 0.512–0.768 ohms; regulated voltage (DC) 14.0–14.8 V; resistor resistance 64.6–71.4 ohms; coolant temperature sensor resistance 2513–2777 ohms at 20 C and 210–221 ohms at 100 C; intake air temperature sensor resistance 5400–6600 ohms at 0 C and 289–391 ohms at 80 C; throttle position sensor input voltage 4–6 V; spark plug cap resistance 7.50–12.50 kilohms; fuel injector resistance 12.0 ohms. Measure with the coupler unplugged unless the manual says otherwise, probing from the back of the coupler.",
+   "values": {
+    "Engine idling speed": [
+     "1900–2100 r/min"
+    ],
+    "Minimum ignition spark gap": [
+     "6.0 mm"
+    ],
+    "Secondary coil resistance": [
+     "8.64–12.96 kilohms"
+    ],
+    "Primary coil resistance": [
+     "2.16–2.64 ohms"
+    ],
+    "Crankshaft position sensor resistance": [
+     "228–342 ohms"
+    ],
+    "Stator coil resistance": [
+     "0.512–0.768 ohms"
+    ],
+    "Regulated voltage (DC)": [
+     "14.0–14.8 V"
+    ],
+    "Resistor resistance": [
+     "64.6–71.4 ohms"
+    ],
+    "Coolant temperature sensor resistance": [
+     "2513–2777 ohms at 20 C",
+     "210–221 ohms at 100 C"
+    ],
+    "Intake air temperature sensor resistance": [
+     "5400–6600 ohms at 0 C",
+     "289–391 ohms at 80 C"
+    ],
+    "Throttle position sensor input voltage": [
+     "4–6 V"
+    ],
+    "Spark plug cap resistance": [
+     "7.50–12.50 kilohms"
+    ],
+    "Fuel injector resistance": [
+     "12.0 ohms"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2020 YZ450FX owner's service manual (B3J-28199-11)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B3J-28199-11_02.pdf",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
+  },
+  {
+   "id": "w-y3-059",
+   "domain": "ecu_electronics",
+   "topic": "Fault codes",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Fault codes on the 2020 YZ450FX: 12 Crankshaft position sensor: no normal signals are received from the crankshaft position sensor; 13 Intake air pressure sensor: open or short circuit detected; 14 Intake air pressure sensor: hose system malfunction (clogged or detached hose); 15 Throttle position sensor: open or short circuit detected; 16 Throttle position sensor: stuck throttle position sensor is detected; 21 Coolant temperature sensor: open or short circuit detected; 22 Intake air temperature sensor: open or short circuit detected; 30 The vehicle has overturned; 33 Ignition coil: open or short circuit detected in the primary lead of the ignition coil; 39 Injector: open or short circuit detected; 41 ECU: built-in lean angle sensor malfunction; 43 Fuel system voltage: incorrect voltage supplied to the main relay and CCU; 44 EEPROM fault code number: an error is detected while reading or writing on EEPROM; 46 Vehicle system power supply: normal voltage is not supplied to the ECU; 50 ECU: faulty ECU memory; 70 Engine forcibly stops when the vehicle is left idling for a long period of time.",
+   "values": {
+    "codes": [
+     12,
+     13,
+     14,
+     15,
+     16,
+     21,
+     22,
+     30,
+     33,
+     39,
+     41,
+     43,
+     44,
+     46,
+     50,
+     70
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2020 YZ450FX owner's service manual (B3J-28199-11)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B3J-28199-11_02.pdf",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the self-diagnostic function table."
+  },
+  {
+   "id": "w-y3-060",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -3365,7 +3911,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-054",
+   "id": "w-y3-061",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -3402,7 +3948,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-055",
+   "id": "w-y3-062",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -3445,7 +3991,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-056",
+   "id": "w-y3-063",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -3482,7 +4028,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-057",
+   "id": "w-y3-064",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -3571,7 +4117,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-058",
+   "id": "w-y3-065",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -3630,7 +4176,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-059",
+   "id": "w-y3-066",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -3673,7 +4219,7 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-060",
+   "id": "w-y3-067",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -3774,7 +4320,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-061",
+   "id": "w-y3-068",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -3840,7 +4386,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-062",
+   "id": "w-y3-069",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -3883,7 +4429,7 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-063",
+   "id": "w-y3-070",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -3933,7 +4479,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-064",
+   "id": "w-y3-071",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -3979,7 +4525,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-065",
+   "id": "w-y3-072",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -4072,7 +4618,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-066",
+   "id": "w-y3-073",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -4131,7 +4677,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-067",
+   "id": "w-y3-074",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -4174,7 +4720,217 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-068",
+   "id": "w-y3-075",
+   "domain": "ecu_electronics",
+   "topic": "Wiring diagram: components and wire colour code",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The 2021 YZ450FX wiring diagram shows these parts: Crankshaft position sensor, AC magneto, Rectifier/regulator, Joint connector, Main relay, Engine ground, Battery, Frame ground, Main fuse, Starter relay, Starter motor, Diode 1, Diode 2, CCU (Communication Control Unit), Warning light, Fuel level warning light, Engine trouble warning light, Resistor, Yamaha diagnostic tool cou- pler, ECU (Engine Control Unit), Ignition coil, Spark plug, Fuel injector, Fuel sender, Fuel pump, Radiator fan motor fuse, Radiator fan motor lead coupler (OPTION), Radiator fan motor relay, Intake air temperature sensor, Coolant temperature sensor, Throttle position sensor, Intake air pressure sensor, Engine stop switch, Gear position switch, Mode switch, Start switch, Diode 3. Yamaha's wire colour letters: B black, Br brown, Gy gray, L blue, Lg light green, O orange, P pink, R red, Sb sky blue, W white, Y yellow. Two letters with a slash mean a base colour with a stripe (B/W is black with a white stripe).",
+   "values": {
+    "components": [
+     "Crankshaft position sensor",
+     "AC magneto",
+     "Rectifier/regulator",
+     "Joint connector",
+     "Main relay",
+     "Engine ground",
+     "Battery",
+     "Frame ground",
+     "Main fuse",
+     "Starter relay",
+     "Starter motor",
+     "Diode 1",
+     "Diode 2",
+     "CCU (Communication Control Unit)",
+     "Warning light",
+     "Fuel level warning light",
+     "Engine trouble warning light",
+     "Resistor",
+     "Yamaha diagnostic tool cou- pler",
+     "ECU (Engine Control Unit)",
+     "Ignition coil",
+     "Spark plug",
+     "Fuel injector",
+     "Fuel sender",
+     "Fuel pump",
+     "Radiator fan motor fuse",
+     "Radiator fan motor lead coupler (OPTION)",
+     "Radiator fan motor relay",
+     "Intake air temperature sensor",
+     "Coolant temperature sensor",
+     "Throttle position sensor",
+     "Intake air pressure sensor",
+     "Engine stop switch",
+     "Gear position switch",
+     "Mode switch",
+     "Start switch",
+     "Diode 3"
+    ],
+    "colours": {
+     "B": "Black",
+     "Br": "Brown",
+     "Gy": "Gray",
+     "L": "Blue",
+     "Lg": "Light green",
+     "O": "Orange",
+     "P": "Pink",
+     "R": "Red",
+     "Sb": "Sky blue",
+     "W": "White",
+     "Y": "Yellow",
+     "B/L": "Black/Blue",
+     "B/O": "Black/Orange",
+     "B/R": "Black/Red",
+     "B/W": "Black/White",
+     "B/Y": "Black/Yellow",
+     "Br/W": "Brown/White",
+     "G/W": "Green/White",
+     "G/Y": "Green/Yellow",
+     "L/B": "Blue/Black",
+     "L/G": "Blue/Green",
+     "L/R": "Blue/Red",
+     "L/W": "Blue/White",
+     "L/Y": "Blue/Yellow",
+     "P/B": "Pink/Black",
+     "P/L": "Pink/Blue",
+     "R/B": "Red/Black",
+     "R/L": "Red/Blue",
+     "R/W": "Red/White",
+     "R/Y": "Red/Yellow",
+     "W/B": "White/Black",
+     "W/G": "White/Green",
+     "Y/G": "Yellow/Green",
+     "Y/R": "Yellow/Red",
+     "Y/W": "Yellow/White"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2021 YZ450FX owner's service manual (BEX-2819U-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-10_02.pdf",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the legend of the wiring diagram."
+  },
+  {
+   "id": "w-y3-076",
+   "domain": "ecu_electronics",
+   "topic": "Electrical test values",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Electrical test values Yamaha prints for the 2021 YZ450FX: engine idling speed 1900–2100 r/min; minimum ignition spark gap 6.0 mm; secondary coil resistance 8.64–12.96 kilohms; primary coil resistance 2.16–2.64 ohms; crankshaft position sensor resistance 228–342 ohms; stator coil resistance 0.512–0.768 ohms; regulated voltage (DC) 14.0–14.8 V; resistor resistance 64.6–71.4 ohms; coolant temperature sensor resistance 2513–2777 ohms at 20 C and 210–221 ohms at 100 C; intake air temperature sensor resistance 5400–6600 ohms at 0 C and 289–391 ohms at 80 C; throttle position sensor input voltage 4–6 V; spark plug cap resistance 7.50–12.50 kilohms; fuel injector resistance 12.0 ohms. Measure with the coupler unplugged unless the manual says otherwise, probing from the back of the coupler.",
+   "values": {
+    "Engine idling speed": [
+     "1900–2100 r/min"
+    ],
+    "Minimum ignition spark gap": [
+     "6.0 mm"
+    ],
+    "Secondary coil resistance": [
+     "8.64–12.96 kilohms"
+    ],
+    "Primary coil resistance": [
+     "2.16–2.64 ohms"
+    ],
+    "Crankshaft position sensor resistance": [
+     "228–342 ohms"
+    ],
+    "Stator coil resistance": [
+     "0.512–0.768 ohms"
+    ],
+    "Regulated voltage (DC)": [
+     "14.0–14.8 V"
+    ],
+    "Resistor resistance": [
+     "64.6–71.4 ohms"
+    ],
+    "Coolant temperature sensor resistance": [
+     "2513–2777 ohms at 20 C",
+     "210–221 ohms at 100 C"
+    ],
+    "Intake air temperature sensor resistance": [
+     "5400–6600 ohms at 0 C",
+     "289–391 ohms at 80 C"
+    ],
+    "Throttle position sensor input voltage": [
+     "4–6 V"
+    ],
+    "Spark plug cap resistance": [
+     "7.50–12.50 kilohms"
+    ],
+    "Fuel injector resistance": [
+     "12.0 ohms"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2021 YZ450FX owner's service manual (BEX-2819U-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-10_02.pdf",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
+  },
+  {
+   "id": "w-y3-077",
+   "domain": "ecu_electronics",
+   "topic": "Fault codes",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Fault codes on the 2021 YZ450FX: 12 Crankshaft position sensor: no normal signals are received from the crankshaft position sensor; 13 Intake air pressure sensor: open or short circuit detected; 14 Intake air pressure sensor: hose system malfunction (clogged or detached hose); 15 Throttle position sensor: open or short circuit detected; 16 Throttle position sensor: stuck throttle position sensor is detected; 21 Coolant temperature sensor: open or short circuit detected; 22 Intake air temperature sensor: open or short circuit detected; 30 The vehicle has overturned; 33 Ignition coil: open or short circuit detected in the primary lead of the ignition coil; 39 Injector: open or short circuit detected; 41 ECU: built-in lean angle sensor malfunction; 43 Fuel system voltage: incorrect voltage supplied to the main relay and CCU; 44 EEPROM fault code number: an error is detected while reading or writing on EEPROM; 46 Vehicle system power supply: normal voltage is not supplied to the ECU; 50 ECU: faulty ECU memory; 70 Engine forcibly stops when the vehicle is left idling for a long period of time.",
+   "values": {
+    "codes": [
+     12,
+     13,
+     14,
+     15,
+     16,
+     21,
+     22,
+     30,
+     33,
+     39,
+     41,
+     43,
+     44,
+     46,
+     50,
+     70
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2021 YZ450FX owner's service manual (BEX-2819U-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-10_02.pdf",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the self-diagnostic function table."
+  },
+  {
+   "id": "w-y3-078",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -4223,7 +4979,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-069",
+   "id": "w-y3-079",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -4269,7 +5025,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-070",
+   "id": "w-y3-080",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -4312,7 +5068,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-071",
+   "id": "w-y3-081",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -4349,7 +5105,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-072",
+   "id": "w-y3-082",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -4399,7 +5155,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-073",
+   "id": "w-y3-083",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -4445,7 +5201,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-074",
+   "id": "w-y3-084",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -4534,7 +5290,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-075",
+   "id": "w-y3-085",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -4593,7 +5349,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-076",
+   "id": "w-y3-086",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -4636,7 +5392,7 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-077",
+   "id": "w-y3-087",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -4737,7 +5493,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-078",
+   "id": "w-y3-088",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -4803,7 +5559,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-079",
+   "id": "w-y3-089",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -4846,7 +5602,7 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-080",
+   "id": "w-y3-090",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -4896,7 +5652,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-081",
+   "id": "w-y3-091",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -4942,7 +5698,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-082",
+   "id": "w-y3-092",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -5036,7 +5792,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-083",
+   "id": "w-y3-093",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -5095,7 +5851,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-084",
+   "id": "w-y3-094",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -5138,7 +5894,217 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-085",
+   "id": "w-y3-095",
+   "domain": "ecu_electronics",
+   "topic": "Wiring diagram: components and wire colour code",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 YZ450FX wiring diagram shows these parts: Crankshaft position sensor, AC magneto, Rectifier/regulator, Joint connector, Main relay, Engine ground, Battery, Frame ground, Main fuse, Starter relay, Starter motor, Diode 1, Diode 2, CCU (Communication Control Unit), Warning light, Fuel level warning light, Engine trouble warning light, Resistor, Yamaha diagnostic tool cou- pler, ECU (Engine Control Unit), Ignition coil, Spark plug, Fuel injector, Fuel sender, Fuel pump, Radiator fan motor fuse, Radiator fan motor lead coupler (OPTION), Radiator fan motor relay, Intake air temperature sensor, Coolant temperature sensor, Throttle position sensor, Intake air pressure sensor, Engine stop switch, Gear position switch, Mode switch, Start switch, Diode 3. Yamaha's wire colour letters: B black, Br brown, Gy gray, L blue, Lg light green, O orange, P pink, R red, Sb sky blue, W white, Y yellow. Two letters with a slash mean a base colour with a stripe (B/W is black with a white stripe).",
+   "values": {
+    "components": [
+     "Crankshaft position sensor",
+     "AC magneto",
+     "Rectifier/regulator",
+     "Joint connector",
+     "Main relay",
+     "Engine ground",
+     "Battery",
+     "Frame ground",
+     "Main fuse",
+     "Starter relay",
+     "Starter motor",
+     "Diode 1",
+     "Diode 2",
+     "CCU (Communication Control Unit)",
+     "Warning light",
+     "Fuel level warning light",
+     "Engine trouble warning light",
+     "Resistor",
+     "Yamaha diagnostic tool cou- pler",
+     "ECU (Engine Control Unit)",
+     "Ignition coil",
+     "Spark plug",
+     "Fuel injector",
+     "Fuel sender",
+     "Fuel pump",
+     "Radiator fan motor fuse",
+     "Radiator fan motor lead coupler (OPTION)",
+     "Radiator fan motor relay",
+     "Intake air temperature sensor",
+     "Coolant temperature sensor",
+     "Throttle position sensor",
+     "Intake air pressure sensor",
+     "Engine stop switch",
+     "Gear position switch",
+     "Mode switch",
+     "Start switch",
+     "Diode 3"
+    ],
+    "colours": {
+     "B": "Black",
+     "Br": "Brown",
+     "Gy": "Gray",
+     "L": "Blue",
+     "Lg": "Light green",
+     "O": "Orange",
+     "P": "Pink",
+     "R": "Red",
+     "Sb": "Sky blue",
+     "W": "White",
+     "Y": "Yellow",
+     "B/L": "Black/Blue",
+     "B/O": "Black/Orange",
+     "B/R": "Black/Red",
+     "B/W": "Black/White",
+     "B/Y": "Black/Yellow",
+     "Br/W": "Brown/White",
+     "G/W": "Green/White",
+     "G/Y": "Green/Yellow",
+     "L/B": "Blue/Black",
+     "L/G": "Blue/Green",
+     "L/R": "Blue/Red",
+     "L/W": "Blue/White",
+     "L/Y": "Blue/Yellow",
+     "P/B": "Pink/Black",
+     "P/L": "Pink/Blue",
+     "R/B": "Red/Black",
+     "R/L": "Red/Blue",
+     "R/W": "Red/White",
+     "R/Y": "Red/Yellow",
+     "W/B": "White/Black",
+     "W/G": "White/Green",
+     "Y/G": "Yellow/Green",
+     "Y/R": "Yellow/Red",
+     "Y/W": "Yellow/White"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2022 YZ450FX owner's service manual (BEX-2819U-11)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-11_02.pdf",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the legend of the wiring diagram."
+  },
+  {
+   "id": "w-y3-096",
+   "domain": "ecu_electronics",
+   "topic": "Electrical test values",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Electrical test values Yamaha prints for the 2022 YZ450FX: engine idling speed 1900–2100 r/min; minimum ignition spark gap 6.0 mm; secondary coil resistance 8.64–12.96 kilohms; primary coil resistance 2.16–2.64 ohms; crankshaft position sensor resistance 228–342 ohms; stator coil resistance 0.512–0.768 ohms; regulated voltage (DC) 14.0–14.8 V; resistor resistance 64.6–71.4 ohms; coolant temperature sensor resistance 2513–2777 ohms at 20 C and 210–221 ohms at 100 C; intake air temperature sensor resistance 5400–6600 ohms at 0 C and 289–391 ohms at 80 C; throttle position sensor input voltage 4–6 V; spark plug cap resistance 7.50–12.50 kilohms; fuel injector resistance 12.0 ohms. Measure with the coupler unplugged unless the manual says otherwise, probing from the back of the coupler.",
+   "values": {
+    "Engine idling speed": [
+     "1900–2100 r/min"
+    ],
+    "Minimum ignition spark gap": [
+     "6.0 mm"
+    ],
+    "Secondary coil resistance": [
+     "8.64–12.96 kilohms"
+    ],
+    "Primary coil resistance": [
+     "2.16–2.64 ohms"
+    ],
+    "Crankshaft position sensor resistance": [
+     "228–342 ohms"
+    ],
+    "Stator coil resistance": [
+     "0.512–0.768 ohms"
+    ],
+    "Regulated voltage (DC)": [
+     "14.0–14.8 V"
+    ],
+    "Resistor resistance": [
+     "64.6–71.4 ohms"
+    ],
+    "Coolant temperature sensor resistance": [
+     "2513–2777 ohms at 20 C",
+     "210–221 ohms at 100 C"
+    ],
+    "Intake air temperature sensor resistance": [
+     "5400–6600 ohms at 0 C",
+     "289–391 ohms at 80 C"
+    ],
+    "Throttle position sensor input voltage": [
+     "4–6 V"
+    ],
+    "Spark plug cap resistance": [
+     "7.50–12.50 kilohms"
+    ],
+    "Fuel injector resistance": [
+     "12.0 ohms"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2022 YZ450FX owner's service manual (BEX-2819U-11)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-11_02.pdf",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
+  },
+  {
+   "id": "w-y3-097",
+   "domain": "ecu_electronics",
+   "topic": "Fault codes",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Fault codes on the 2022 YZ450FX: 12 Crankshaft position sensor: no normal signals are received from the crankshaft position sensor; 13 Intake air pressure sensor: open or short circuit detected; 14 Intake air pressure sensor: hose system malfunction (clogged or detached hose); 15 Throttle position sensor: open or short circuit detected; 16 Throttle position sensor: stuck throttle position sensor is detected; 21 Coolant temperature sensor: open or short circuit detected; 22 Intake air temperature sensor: open or short circuit detected; 30 The vehicle has overturned; 33 Ignition coil: open or short circuit detected in the primary lead of the ignition coil; 39 Injector: open or short circuit detected; 41 ECU: built-in lean angle sensor malfunction; 43 Fuel system voltage: incorrect voltage supplied to the main relay and CCU; 44 EEPROM fault code number: an error is detected while reading or writing on EEPROM; 46 Vehicle system power supply: normal voltage is not supplied to the ECU; 50 ECU: faulty ECU memory; 70 Engine forcibly stops when the vehicle is left idling for a long period of time.",
+   "values": {
+    "codes": [
+     12,
+     13,
+     14,
+     15,
+     16,
+     21,
+     22,
+     30,
+     33,
+     39,
+     41,
+     43,
+     44,
+     46,
+     50,
+     70
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2022 YZ450FX owner's service manual (BEX-2819U-11)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-11_02.pdf",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the self-diagnostic function table."
+  },
+  {
+   "id": "w-y3-098",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -5187,7 +6153,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-086",
+   "id": "w-y3-099",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -5233,7 +6199,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-087",
+   "id": "w-y3-100",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -5282,7 +6248,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-088",
+   "id": "w-y3-101",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -5328,7 +6294,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-089",
+   "id": "w-y3-102",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -5378,7 +6344,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-090",
+   "id": "w-y3-103",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -5424,7 +6390,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-091",
+   "id": "w-y3-104",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -5513,7 +6479,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-092",
+   "id": "w-y3-105",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -5572,7 +6538,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-093",
+   "id": "w-y3-106",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -5615,7 +6581,7 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-094",
+   "id": "w-y3-107",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -5716,7 +6682,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-095",
+   "id": "w-y3-108",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -5782,7 +6748,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-096",
+   "id": "w-y3-109",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -5825,7 +6791,7 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-097",
+   "id": "w-y3-110",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -5875,7 +6841,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-098",
+   "id": "w-y3-111",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -5921,7 +6887,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-099",
+   "id": "w-y3-112",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -6006,7 +6972,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-100",
+   "id": "w-y3-113",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -6069,7 +7035,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-101",
+   "id": "w-y3-114",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -6113,7 +7079,217 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-102",
+   "id": "w-y3-115",
+   "domain": "ecu_electronics",
+   "topic": "Wiring diagram: components and wire colour code",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 YZ450FX wiring diagram shows these parts: Crankshaft position sensor, AC magneto, Rectifier/regulator, Joint connector, Main relay, Engine ground, Battery, Frame ground, Main fuse, Starter relay, Starter motor, Diode 1, Diode 2, CCU (Communication Control Unit), Warning light, Fuel level warning light, Engine trouble warning light, Resistor, Yamaha diagnostic tool cou- pler, ECU (Engine Control Unit), Ignition coil, Spark plug, Fuel injector, Fuel sender, Fuel pump, Radiator fan motor fuse, Radiator fan motor lead coupler (OPTION), Radiator fan motor relay, Intake air temperature sensor, Coolant temperature sensor, Throttle position sensor, Intake air pressure sensor, Engine stop switch, Gear position switch, Mode switch, Start switch, Diode 3. Yamaha's wire colour letters: B black, Br brown, Gy gray, L blue, Lg light green, O orange, P pink, R red, Sb sky blue, W white, Y yellow. Two letters with a slash mean a base colour with a stripe (B/W is black with a white stripe).",
+   "values": {
+    "components": [
+     "Crankshaft position sensor",
+     "AC magneto",
+     "Rectifier/regulator",
+     "Joint connector",
+     "Main relay",
+     "Engine ground",
+     "Battery",
+     "Frame ground",
+     "Main fuse",
+     "Starter relay",
+     "Starter motor",
+     "Diode 1",
+     "Diode 2",
+     "CCU (Communication Control Unit)",
+     "Warning light",
+     "Fuel level warning light",
+     "Engine trouble warning light",
+     "Resistor",
+     "Yamaha diagnostic tool cou- pler",
+     "ECU (Engine Control Unit)",
+     "Ignition coil",
+     "Spark plug",
+     "Fuel injector",
+     "Fuel sender",
+     "Fuel pump",
+     "Radiator fan motor fuse",
+     "Radiator fan motor lead coupler (OPTION)",
+     "Radiator fan motor relay",
+     "Intake air temperature sensor",
+     "Coolant temperature sensor",
+     "Throttle position sensor",
+     "Intake air pressure sensor",
+     "Engine stop switch",
+     "Gear position switch",
+     "Mode switch",
+     "Start switch",
+     "Diode 3"
+    ],
+    "colours": {
+     "B": "Black",
+     "Br": "Brown",
+     "Gy": "Gray",
+     "L": "Blue",
+     "Lg": "Light green",
+     "O": "Orange",
+     "P": "Pink",
+     "R": "Red",
+     "Sb": "Sky blue",
+     "W": "White",
+     "Y": "Yellow",
+     "B/L": "Black/Blue",
+     "B/O": "Black/Orange",
+     "B/R": "Black/Red",
+     "B/W": "Black/White",
+     "B/Y": "Black/Yellow",
+     "Br/W": "Brown/White",
+     "G/W": "Green/White",
+     "G/Y": "Green/Yellow",
+     "L/B": "Blue/Black",
+     "L/G": "Blue/Green",
+     "L/R": "Blue/Red",
+     "L/W": "Blue/White",
+     "L/Y": "Blue/Yellow",
+     "P/B": "Pink/Black",
+     "P/L": "Pink/Blue",
+     "R/B": "Red/Black",
+     "R/L": "Red/Blue",
+     "R/W": "Red/White",
+     "R/Y": "Red/Yellow",
+     "W/B": "White/Black",
+     "W/G": "White/Green",
+     "Y/G": "Yellow/Green",
+     "Y/R": "Yellow/Red",
+     "Y/W": "Yellow/White"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2023 YZ450FX owner's service manual (BEX-2819U-12)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-12_02.pdf",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the legend of the wiring diagram."
+  },
+  {
+   "id": "w-y3-116",
+   "domain": "ecu_electronics",
+   "topic": "Electrical test values",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Electrical test values Yamaha prints for the 2023 YZ450FX: engine idling speed 1900–2100 r/min; minimum ignition spark gap 6.0 mm; secondary coil resistance 8.64–12.96 kilohms; primary coil resistance 2.16–2.64 ohms; crankshaft position sensor resistance 228–342 ohms; stator coil resistance 0.512–0.768 ohms; regulated voltage (DC) 14.0–14.8 V; resistor resistance 64.6–71.4 ohms; coolant temperature sensor resistance 2513–2777 ohms at 20 C and 210–221 ohms at 100 C; intake air temperature sensor resistance 5400–6600 ohms at 0 C and 290–390 ohms at 80 C; throttle position sensor input voltage 4–6 V; spark plug cap resistance 7.50–12.50 kilohms; fuel injector resistance 12.0 ohms. Measure with the coupler unplugged unless the manual says otherwise, probing from the back of the coupler.",
+   "values": {
+    "Engine idling speed": [
+     "1900–2100 r/min"
+    ],
+    "Minimum ignition spark gap": [
+     "6.0 mm"
+    ],
+    "Secondary coil resistance": [
+     "8.64–12.96 kilohms"
+    ],
+    "Primary coil resistance": [
+     "2.16–2.64 ohms"
+    ],
+    "Crankshaft position sensor resistance": [
+     "228–342 ohms"
+    ],
+    "Stator coil resistance": [
+     "0.512–0.768 ohms"
+    ],
+    "Regulated voltage (DC)": [
+     "14.0–14.8 V"
+    ],
+    "Resistor resistance": [
+     "64.6–71.4 ohms"
+    ],
+    "Coolant temperature sensor resistance": [
+     "2513–2777 ohms at 20 C",
+     "210–221 ohms at 100 C"
+    ],
+    "Intake air temperature sensor resistance": [
+     "5400–6600 ohms at 0 C",
+     "290–390 ohms at 80 C"
+    ],
+    "Throttle position sensor input voltage": [
+     "4–6 V"
+    ],
+    "Spark plug cap resistance": [
+     "7.50–12.50 kilohms"
+    ],
+    "Fuel injector resistance": [
+     "12.0 ohms"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2023 YZ450FX owner's service manual (BEX-2819U-12)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-12_02.pdf",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
+  },
+  {
+   "id": "w-y3-117",
+   "domain": "ecu_electronics",
+   "topic": "Fault codes",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Fault codes on the 2023 YZ450FX: 12 Crankshaft position sensor: no normal signals are received from the crankshaft position sensor; 13 Intake air pressure sensor: open or short circuit detected; 14 Intake air pressure sensor: hose system malfunction (clogged or detached hose); 15 Throttle position sensor: open or short circuit detected; 16 Throttle position sensor: stuck throttle position sensor is detected; 21 Coolant temperature sensor: open or short circuit detected; 22 Intake air temperature sensor: open or short circuit detected; 30 The vehicle has overturned; 33 Ignition coil: open or short circuit detected in the primary lead of the ignition coil; 39 Injector: open or short circuit detected; 41 ECU: built-in lean angle sensor malfunction; 43 Fuel system voltage: incorrect voltage supplied to the main relay and CCU; 44 EEPROM fault code number: an error is detected while reading or writing on EEPROM; 46 Vehicle system power supply: normal voltage is not supplied to the ECU; 50 ECU: faulty ECU memory; 70 Engine forcibly stops when the vehicle is left idling for a long period of time.",
+   "values": {
+    "codes": [
+     12,
+     13,
+     14,
+     15,
+     16,
+     21,
+     22,
+     30,
+     33,
+     39,
+     41,
+     43,
+     44,
+     46,
+     50,
+     70
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2023 YZ450FX owner's service manual (BEX-2819U-12)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-12_02.pdf",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the self-diagnostic function table."
+  },
+  {
+   "id": "w-y3-118",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -6162,7 +7338,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-103",
+   "id": "w-y3-119",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -6208,7 +7384,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-104",
+   "id": "w-y3-120",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -6257,7 +7433,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-105",
+   "id": "w-y3-121",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -6303,7 +7479,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-106",
+   "id": "w-y3-122",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -6353,7 +7529,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-107",
+   "id": "w-y3-123",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -6399,7 +7575,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-108",
+   "id": "w-y3-124",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -6500,7 +7676,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-109",
+   "id": "w-y3-125",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -6563,7 +7739,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-110",
+   "id": "w-y3-126",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -6606,7 +7782,7 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-111",
+   "id": "w-y3-127",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -6656,7 +7832,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-112",
+   "id": "w-y3-128",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -6702,7 +7878,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-113",
+   "id": "w-y3-129",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -6787,7 +7963,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-114",
+   "id": "w-y3-130",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -6847,7 +8023,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-115",
+   "id": "w-y3-131",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -6891,7 +8067,201 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-116",
+   "id": "w-y3-132",
+   "domain": "ecu_electronics",
+   "topic": "Wiring diagram: components and wire colour code",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 YZ450FX wiring diagram shows these parts: Crankshaft position sensor, AC magneto, Rectifier/regulator, Engine ground, Frame ground, Battery, Fuse, Starter relay, Starter motor, Diode 1, CCU (Communication Control Unit), Resistor, ECU (Engine Control Unit), Ignition coil, Spark plug, Fuel injector, Fuel sender, Fuel pump, Radiator fan motor (OPTION), Radiator fan motor fuse, Radiator fan motor relay, Intake air temperature sensor, Coolant temperature sensor, Throttle position sensor, Intake air pressure sensor, Gear position switch, Handlebar switch (left), Indicator light, Mode switch, Engine stop switch, Handlebar switch (right), Start switch. Yamaha's wire colour letters: B black, Br brown, Dl dark blue, G green, Gy gray, L blue, P pink, R red, Sb sky blue, W white, Y yellow. Two letters with a slash mean a base colour with a stripe (B/W is black with a white stripe).",
+   "values": {
+    "components": [
+     "Crankshaft position sensor",
+     "AC magneto",
+     "Rectifier/regulator",
+     "Engine ground",
+     "Frame ground",
+     "Battery",
+     "Fuse",
+     "Starter relay",
+     "Starter motor",
+     "Diode 1",
+     "CCU (Communication Control Unit)",
+     "Resistor",
+     "ECU (Engine Control Unit)",
+     "Ignition coil",
+     "Spark plug",
+     "Fuel injector",
+     "Fuel sender",
+     "Fuel pump",
+     "Radiator fan motor (OPTION)",
+     "Radiator fan motor fuse",
+     "Radiator fan motor relay",
+     "Intake air temperature sensor",
+     "Coolant temperature sensor",
+     "Throttle position sensor",
+     "Intake air pressure sensor",
+     "Gear position switch",
+     "Handlebar switch (left)",
+     "Indicator light",
+     "Mode switch",
+     "Engine stop switch",
+     "Handlebar switch (right)",
+     "Start switch"
+    ],
+    "colours": {
+     "B": "Black",
+     "Br": "Brown",
+     "Dl": "Dark blue",
+     "G": "Green",
+     "Gy": "Gray",
+     "L": "Blue",
+     "P": "Pink",
+     "R": "Red",
+     "Sb": "Sky blue",
+     "W": "White",
+     "Y": "Yellow",
+     "B/Br": "Black/Brown",
+     "B/L": "Black/Blue",
+     "B/R": "Black/Red",
+     "B/W": "Black/White",
+     "B/Y": "Black/Yellow",
+     "Br/W": "Brown/White",
+     "G/B": "Green/Black",
+     "G/Y": "Green/Yellow",
+     "L/B": "Blue/Black",
+     "Lg/L": "Light green/Blue",
+     "Lg/W": "Light green/White",
+     "R/B": "Red/Black",
+     "R/L": "Red/Blue",
+     "R/W": "Red/White",
+     "R/Y": "Red/Yellow",
+     "Y/B": "Yellow/Black",
+     "Y/G": "Yellow/Green",
+     "Y/W": "Yellow/White"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ450FX owner's service manual (BNL-2819U-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BNL-2819U-10_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the legend of the wiring diagram."
+  },
+  {
+   "id": "w-y3-133",
+   "domain": "ecu_electronics",
+   "topic": "Electrical test values",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Electrical test values Yamaha prints for the 2024 YZ450FX: engine idling speed 1900–2100 r/min; minimum ignition spark gap 6.0 mm; primary coil resistance 1.98–2.42 ohms; secondary coil resistance 14.64–21.96 kilohms; crankshaft position sensor resistance 228–342 ohms; regulated voltage (DC) 14.0–14.8 V; coolant temperature sensor resistance 2310–2590 ohms at the lower test temperature and 310–326 ohms at the higher one; resistor resistance 64.6–71.4 ohms; intake air temperature sensor resistance 5400–6600 ohms at the lower test temperature and 290–390 ohms at the higher one; throttle position sensor input voltage 4–6 V; fuel injector resistance 12.0 ohms. Measure with the coupler unplugged unless the manual says otherwise, probing from the back of the coupler.",
+   "values": {
+    "Engine idling speed": [
+     "1900–2100 r/min"
+    ],
+    "Minimum ignition spark gap": [
+     "6.0 mm"
+    ],
+    "Primary coil resistance": [
+     "1.98–2.42 ohms"
+    ],
+    "Secondary coil resistance": [
+     "14.64–21.96 kilohms"
+    ],
+    "Crankshaft position sensor resistance": [
+     "228–342 ohms"
+    ],
+    "Regulated voltage (DC)": [
+     "14.0–14.8 V"
+    ],
+    "Coolant temperature sensor resistance": [
+     "2310–2590 ohms at the lower test temperature",
+     "310–326 ohms at the higher one"
+    ],
+    "Resistor resistance": [
+     "64.6–71.4 ohms"
+    ],
+    "Intake air temperature sensor resistance": [
+     "5400–6600 ohms at the lower test temperature",
+     "290–390 ohms at the higher one"
+    ],
+    "Throttle position sensor input voltage": [
+     "4–6 V"
+    ],
+    "Fuel injector resistance": [
+     "12.0 ohms"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ450FX owner's service manual (BNL-2819U-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BNL-2819U-10_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
+  },
+  {
+   "id": "w-y3-134",
+   "domain": "ecu_electronics",
+   "topic": "Fault codes",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Fault codes on the 2024 YZ450FX: 8 Gear position switch: open or short circuit detected; 12 Crankshaft position sensor: no normal signals are received from the crankshaft position sensor; 13 Intake air pressure sensor: open or short circuit detected; 14 Intake air pressure sensor: hose system malfunction (clogged or detached hose); 15 Throttle position sensor: open or short circuit detected; 16 Throttle position sensor: stuck throttle position sensor is detected; 21 Coolant temperature sensor: open or short circuit detected; 22 Intake air temperature sensor: open or short circuit detected; 30 The vehicle has overturned; 33 Ignition coil: open or short circuit detected in the primary lead of the ignition coil; 39 Injector: open or short circuit detected; 41 ECU: built-in lean angle sensor malfunction; 43 Fuel system voltage: incorrect voltage supplied to the CCU, and incorrect recognition voltage of the motorcycle; 44 EEPROM read error: an error is detected while reading or writing on EEPROM; 46 Vehicle system power supply: normal voltage is not supplied to the ECU; 50 ECU: faulty ECU memory; 70 Engine forcibly stops when the vehicle is left idling for a long period of time.",
+   "values": {
+    "codes": [
+     8,
+     12,
+     13,
+     14,
+     15,
+     16,
+     21,
+     22,
+     30,
+     33,
+     39,
+     41,
+     43,
+     44,
+     46,
+     50,
+     70
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ450FX owner's service manual (BNL-2819U-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BNL-2819U-10_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the self-diagnostic function table."
+  },
+  {
+   "id": "w-y3-135",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -6940,7 +8310,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-117",
+   "id": "w-y3-136",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -6986,7 +8356,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-118",
+   "id": "w-y3-137",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -7035,7 +8405,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-119",
+   "id": "w-y3-138",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -7081,7 +8451,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-120",
+   "id": "w-y3-139",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -7131,7 +8501,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-121",
+   "id": "w-y3-140",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -7177,7 +8547,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-122",
+   "id": "w-y3-141",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -7261,7 +8631,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-123",
+   "id": "w-y3-142",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -7321,7 +8691,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-124",
+   "id": "w-y3-143",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -7365,7 +8735,7 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-125",
+   "id": "w-y3-144",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -7455,7 +8825,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-126",
+   "id": "w-y3-145",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -7515,7 +8885,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-127",
+   "id": "w-y3-146",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -7559,7 +8929,7 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-128",
+   "id": "w-y3-147",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -7609,7 +8979,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-129",
+   "id": "w-y3-148",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -7655,7 +9025,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-130",
+   "id": "w-y3-149",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -7739,7 +9109,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-131",
+   "id": "w-y3-150",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -7799,7 +9169,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-132",
+   "id": "w-y3-151",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -7843,7 +9213,201 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-133",
+   "id": "w-y3-152",
+   "domain": "ecu_electronics",
+   "topic": "Wiring diagram: components and wire colour code",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 YZ450FX wiring diagram shows these parts: Crankshaft position sensor, AC magneto, Rectifier/regulator, Engine ground, Frame ground, Battery, Fuse, Starter relay, Starter motor, Diode 1, CCU (Communication Control Unit), Resistor, ECU (Engine Control Unit), Ignition coil, Spark plug, Fuel injector, Fuel sender, Fuel pump, Radiator fan motor (OPTION), Radiator fan motor fuse, Radiator fan motor relay, Intake air temperature sensor, Coolant temperature sensor, Throttle position sensor, Intake air pressure sensor, Gear position switch, Handlebar switch (left), Indicator light, Mode switch, Engine stop switch, Handlebar switch (right), Start switch. Yamaha's wire colour letters: B black, Br brown, Dl dark blue, G green, Gy gray, L blue, P pink, R red, Sb sky blue, W white, Y yellow. Two letters with a slash mean a base colour with a stripe (B/W is black with a white stripe).",
+   "values": {
+    "components": [
+     "Crankshaft position sensor",
+     "AC magneto",
+     "Rectifier/regulator",
+     "Engine ground",
+     "Frame ground",
+     "Battery",
+     "Fuse",
+     "Starter relay",
+     "Starter motor",
+     "Diode 1",
+     "CCU (Communication Control Unit)",
+     "Resistor",
+     "ECU (Engine Control Unit)",
+     "Ignition coil",
+     "Spark plug",
+     "Fuel injector",
+     "Fuel sender",
+     "Fuel pump",
+     "Radiator fan motor (OPTION)",
+     "Radiator fan motor fuse",
+     "Radiator fan motor relay",
+     "Intake air temperature sensor",
+     "Coolant temperature sensor",
+     "Throttle position sensor",
+     "Intake air pressure sensor",
+     "Gear position switch",
+     "Handlebar switch (left)",
+     "Indicator light",
+     "Mode switch",
+     "Engine stop switch",
+     "Handlebar switch (right)",
+     "Start switch"
+    ],
+    "colours": {
+     "B": "Black",
+     "Br": "Brown",
+     "Dl": "Dark blue",
+     "G": "Green",
+     "Gy": "Gray",
+     "L": "Blue",
+     "P": "Pink",
+     "R": "Red",
+     "Sb": "Sky blue",
+     "W": "White",
+     "Y": "Yellow",
+     "B/Br": "Black/Brown",
+     "B/L": "Black/Blue",
+     "B/R": "Black/Red",
+     "B/W": "Black/White",
+     "B/Y": "Black/Yellow",
+     "Br/W": "Brown/White",
+     "G/B": "Green/Black",
+     "G/Y": "Green/Yellow",
+     "L/B": "Blue/Black",
+     "Lg/L": "Light green/Blue",
+     "Lg/W": "Light green/White",
+     "R/B": "Red/Black",
+     "R/L": "Red/Blue",
+     "R/W": "Red/White",
+     "R/Y": "Red/Yellow",
+     "Y/B": "Yellow/Black",
+     "Y/G": "Yellow/Green",
+     "Y/W": "Yellow/White"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2025 YZ450FX owner's service manual (BNL-2819U-11)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BNL-2819U-11_02.pdf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the legend of the wiring diagram."
+  },
+  {
+   "id": "w-y3-153",
+   "domain": "ecu_electronics",
+   "topic": "Electrical test values",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Electrical test values Yamaha prints for the 2025 YZ450FX: engine idling speed 1900–2100 r/min; minimum ignition spark gap 6.0 mm; primary coil resistance 1.98–2.42 ohms; secondary coil resistance 14.64–21.96 kilohms; crankshaft position sensor resistance 228–342 ohms; regulated voltage (DC) 14.0–14.8 V; coolant temperature sensor resistance 2310–2590 ohms at the lower test temperature and 310–326 ohms at the higher one; resistor resistance 64.6–71.4 ohms; intake air temperature sensor resistance 5400–6600 ohms at the lower test temperature and 290–390 ohms at the higher one; throttle position sensor input voltage 4–6 V; fuel injector resistance 12.0 ohms. Measure with the coupler unplugged unless the manual says otherwise, probing from the back of the coupler.",
+   "values": {
+    "Engine idling speed": [
+     "1900–2100 r/min"
+    ],
+    "Minimum ignition spark gap": [
+     "6.0 mm"
+    ],
+    "Primary coil resistance": [
+     "1.98–2.42 ohms"
+    ],
+    "Secondary coil resistance": [
+     "14.64–21.96 kilohms"
+    ],
+    "Crankshaft position sensor resistance": [
+     "228–342 ohms"
+    ],
+    "Regulated voltage (DC)": [
+     "14.0–14.8 V"
+    ],
+    "Coolant temperature sensor resistance": [
+     "2310–2590 ohms at the lower test temperature",
+     "310–326 ohms at the higher one"
+    ],
+    "Resistor resistance": [
+     "64.6–71.4 ohms"
+    ],
+    "Intake air temperature sensor resistance": [
+     "5400–6600 ohms at the lower test temperature",
+     "290–390 ohms at the higher one"
+    ],
+    "Throttle position sensor input voltage": [
+     "4–6 V"
+    ],
+    "Fuel injector resistance": [
+     "12.0 ohms"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2025 YZ450FX owner's service manual (BNL-2819U-11)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BNL-2819U-11_02.pdf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
+  },
+  {
+   "id": "w-y3-154",
+   "domain": "ecu_electronics",
+   "topic": "Fault codes",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Fault codes on the 2025 YZ450FX: 8 Gear position switch: open or short circuit detected; 12 Crankshaft position sensor: no normal signals are received from the crankshaft position sensor; 13 Intake air pressure sensor: open or short circuit detected; 14 Intake air pressure sensor: hose system malfunction (clogged or detached hose); 15 Throttle position sensor: open or short circuit detected; 16 Throttle position sensor: stuck throttle position sensor is detected; 21 Coolant temperature sensor: open or short circuit detected; 22 Intake air temperature sensor: open or short circuit detected; 30 The vehicle has overturned; 33 Ignition coil: open or short circuit detected in the primary lead of the ignition coil; 39 Injector: open or short circuit detected; 41 ECU: built-in lean angle sensor malfunction; 43 Fuel system voltage: incorrect voltage supplied to the CCU, and incorrect recognition voltage of the motorcycle; 44 EEPROM read error: an error is detected while reading or writing on EEPROM; 46 Vehicle system power supply: normal voltage is not supplied to the ECU; 50 ECU: faulty ECU memory; 70 Engine forcibly stops when the vehicle is left idling for a long period of time.",
+   "values": {
+    "codes": [
+     8,
+     12,
+     13,
+     14,
+     15,
+     16,
+     21,
+     22,
+     30,
+     33,
+     39,
+     41,
+     43,
+     44,
+     46,
+     50,
+     70
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2025 YZ450FX owner's service manual (BNL-2819U-11)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BNL-2819U-11_02.pdf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the self-diagnostic function table."
+  },
+  {
+   "id": "w-y3-155",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -7892,7 +9456,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-134",
+   "id": "w-y3-156",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -7938,7 +9502,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-135",
+   "id": "w-y3-157",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -7987,7 +9551,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-136",
+   "id": "w-y3-158",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -8033,7 +9597,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-137",
+   "id": "w-y3-159",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -8083,7 +9647,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-138",
+   "id": "w-y3-160",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -8129,7 +9693,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-139",
+   "id": "w-y3-161",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -8213,7 +9777,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-140",
+   "id": "w-y3-162",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -8273,7 +9837,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-141",
+   "id": "w-y3-163",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -8317,7 +9881,7 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-142",
+   "id": "w-y3-164",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -8407,7 +9971,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-143",
+   "id": "w-y3-165",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -8467,7 +10031,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-144",
+   "id": "w-y3-166",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -8511,7 +10075,7 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-145",
+   "id": "w-y3-167",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -8561,7 +10125,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-146",
+   "id": "w-y3-168",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -8607,7 +10171,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-147",
+   "id": "w-y3-169",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -8691,7 +10255,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-148",
+   "id": "w-y3-170",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -8751,7 +10315,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-149",
+   "id": "w-y3-171",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -8795,7 +10359,198 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-150",
+   "id": "w-y3-172",
+   "domain": "ecu_electronics",
+   "topic": "Wiring diagram: components and wire colour code",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 YZ450FX wiring diagram shows these parts: Crankshaft position sensor, AC magneto, Rectifier/regulator, Engine ground, Frame ground, Battery, Fuse, Starter relay, Starter motor, Diode 1, CCU (Communication Control Unit), Resistor, ECU (Engine Control Unit), Ignition coil, Spark plug, Fuel injector, Fuel sender, Fuel pump, Radiator fan motor (OPTION), Radiator fan motor fuse, Radiator fan motor relay, Intake air temperature sensor, Coolant temperature sensor, Throttle position sensor, Intake air pressure sensor, Gear position switch, Handlebar switch (left), Indicator light, Multi-function button, Engine stop switch, Handlebar switch (right), Starter switch. Yamaha's wire colour letters: B black, Br brown, Dl dark blue, G green, Gy gray, L blue, P pink, R red, Sb sky blue, W white, Y yellow. Two letters with a slash mean a base colour with a stripe (B/W is black with a white stripe).",
+   "values": {
+    "components": [
+     "Crankshaft position sensor",
+     "AC magneto",
+     "Rectifier/regulator",
+     "Engine ground",
+     "Frame ground",
+     "Battery",
+     "Fuse",
+     "Starter relay",
+     "Starter motor",
+     "Diode 1",
+     "CCU (Communication Control Unit)",
+     "Resistor",
+     "ECU (Engine Control Unit)",
+     "Ignition coil",
+     "Spark plug",
+     "Fuel injector",
+     "Fuel sender",
+     "Fuel pump",
+     "Radiator fan motor (OPTION)",
+     "Radiator fan motor fuse",
+     "Radiator fan motor relay",
+     "Intake air temperature sensor",
+     "Coolant temperature sensor",
+     "Throttle position sensor",
+     "Intake air pressure sensor",
+     "Gear position switch",
+     "Handlebar switch (left)",
+     "Indicator light",
+     "Multi-function button",
+     "Engine stop switch",
+     "Handlebar switch (right)",
+     "Starter switch"
+    ],
+    "colours": {
+     "B": "Black",
+     "Br": "Brown",
+     "Dl": "Dark blue",
+     "G": "Green",
+     "Gy": "Gray",
+     "L": "Blue",
+     "P": "Pink",
+     "R": "Red",
+     "Sb": "Sky blue",
+     "W": "White",
+     "Y": "Yellow",
+     "B/Br": "Black/Brown",
+     "B/L": "Black/Blue",
+     "B/R": "Black/Red",
+     "B/W": "Black/White",
+     "B/Y": "Black/Yellow",
+     "Br/W": "Brown/White",
+     "G/B": "Green/Black",
+     "G/Y": "Green/Yellow",
+     "L/B": "Blue/Black",
+     "Lg/L": "Light green/Blue",
+     "Lg/W": "Light green/White",
+     "R/B": "Red/Black",
+     "R/L": "Red/Blue",
+     "R/W": "Red/White",
+     "R/Y": "Red/Yellow",
+     "Y/B": "Yellow/Black",
+     "Y/G": "Yellow/Green",
+     "Y/W": "Yellow/White"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2026 YZ450FX owner's service manual (DP1-2819U-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DP1-2819U-10_02.pdf",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the legend of the wiring diagram."
+  },
+  {
+   "id": "w-y3-173",
+   "domain": "ecu_electronics",
+   "topic": "Electrical test values",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Electrical test values Yamaha prints for the 2026 YZ450FX: engine idling speed 1900–2100 r/min; minimum ignition spark gap 6.0 mm; primary coil resistance 1.98–2.42 ohms; secondary coil resistance 14.64–21.96 kilohms; crankshaft position sensor resistance 228–342 ohms; regulated voltage (DC) 14.0–14.8 V; coolant temperature sensor resistance 2310–2590 ohms at the lower test temperature and 310–326 ohms at the higher one; resistor resistance 64.6–71.4 ohms; intake air temperature sensor resistance 5400–6600 ohms at the lower test temperature and 290–390 ohms at the higher one; throttle position sensor input voltage 4–6 V. Measure with the coupler unplugged unless the manual says otherwise, probing from the back of the coupler.",
+   "values": {
+    "Engine idling speed": [
+     "1900–2100 r/min"
+    ],
+    "Minimum ignition spark gap": [
+     "6.0 mm"
+    ],
+    "Primary coil resistance": [
+     "1.98–2.42 ohms"
+    ],
+    "Secondary coil resistance": [
+     "14.64–21.96 kilohms"
+    ],
+    "Crankshaft position sensor resistance": [
+     "228–342 ohms"
+    ],
+    "Regulated voltage (DC)": [
+     "14.0–14.8 V"
+    ],
+    "Coolant temperature sensor resistance": [
+     "2310–2590 ohms at the lower test temperature",
+     "310–326 ohms at the higher one"
+    ],
+    "Resistor resistance": [
+     "64.6–71.4 ohms"
+    ],
+    "Intake air temperature sensor resistance": [
+     "5400–6600 ohms at the lower test temperature",
+     "290–390 ohms at the higher one"
+    ],
+    "Throttle position sensor input voltage": [
+     "4–6 V"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2026 YZ450FX owner's service manual (DP1-2819U-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DP1-2819U-10_02.pdf",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
+  },
+  {
+   "id": "w-y3-174",
+   "domain": "ecu_electronics",
+   "topic": "Fault codes",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Fault codes on the 2026 YZ450FX: 8 Gear position switch: open or short circuit detected; 12 Crankshaft position sensor: no normal signals are received from the crankshaft position sensor; 13 Intake air pressure sensor: open or short circuit detected; 14 Intake air pressure sensor: hose system malfunction (clogged or detached hose); 15 Throttle position sensor: open or short circuit detected; 16 Throttle position sensor: stuck throttle position sensor is detected; 21 Coolant temperature sensor: open or short circuit detected; 22 Intake air temperature sensor: open or short circuit detected; 30 The vehicle has overturned; 33 Ignition coil: open or short circuit detected in the primary lead of the ignition coil; 39 Injector: open or short circuit detected; 41 ECU: built-in lean angle sensor malfunction; 43 Fuel system voltage: incorrect voltage supplied to the CCU, and incorrect recognition voltage of the motorcycle; 44 EEPROM read error: an error is detected while reading or writing on EEPROM; 46 Vehicle system power supply: normal voltage is not supplied to the ECU; 50 ECU: faulty ECU memory; 70 Engine forcibly stops when the vehicle is left idling for a long period of time.",
+   "values": {
+    "codes": [
+     8,
+     12,
+     13,
+     14,
+     15,
+     16,
+     21,
+     22,
+     30,
+     33,
+     39,
+     41,
+     43,
+     44,
+     46,
+     50,
+     70
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2026 YZ450FX owner's service manual (DP1-2819U-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DP1-2819U-10_02.pdf",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the self-diagnostic function table."
+  },
+  {
+   "id": "w-y3-175",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -8844,7 +10599,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-151",
+   "id": "w-y3-176",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -8890,7 +10645,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-152",
+   "id": "w-y3-177",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -8939,7 +10694,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-153",
+   "id": "w-y3-178",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -8985,7 +10740,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-154",
+   "id": "w-y3-179",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -9035,7 +10790,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-155",
+   "id": "w-y3-180",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -9081,7 +10836,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-156",
+   "id": "w-y3-181",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -9165,7 +10920,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-157",
+   "id": "w-y3-182",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -9228,7 +10983,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-158",
+   "id": "w-y3-183",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -9272,7 +11027,7 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-159",
+   "id": "w-y3-184",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -9362,7 +11117,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-160",
+   "id": "w-y3-185",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -9422,7 +11177,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-161",
+   "id": "w-y3-186",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -9466,7 +11221,7 @@
    "notes": "Read automatically from the self-diagnostic function table."
   },
   {
-   "id": "w-y3-162",
+   "id": "w-y3-187",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -9516,7 +11271,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-163",
+   "id": "w-y3-188",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -9562,7 +11317,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-164",
+   "id": "w-y3-189",
    "domain": "ecu_electronics",
    "topic": "Wiring diagram: components and wire colour code",
    "applies_to": {
@@ -9646,7 +11401,7 @@
    "notes": "Read automatically from the legend of the wiring diagram."
   },
   {
-   "id": "w-y3-165",
+   "id": "w-y3-190",
    "domain": "ecu_electronics",
    "topic": "Electrical test values",
    "applies_to": {
@@ -9709,7 +11464,7 @@
    "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
   },
   {
-   "id": "w-y3-166",
+   "id": "w-y3-191",
    "domain": "ecu_electronics",
    "topic": "Fault codes",
    "applies_to": {
@@ -9751,6 +11506,200 @@
    },
    "confidence": "medium",
    "notes": "Read automatically from the self-diagnostic function table."
+  },
+  {
+   "id": "w-y3-192",
+   "domain": "ecu_electronics",
+   "topic": "Wiring diagram: components and wire colour code",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 YZ450FX wiring diagram shows these parts: Crankshaft position sensor, AC magneto, Rectifier/regulator, Engine ground, Frame ground, Battery, Fuse, Starter relay, Starter motor, Diode 1, CCU (Communication Control Unit), Resistor, ECU (Engine Control Unit), Ignition coil, Spark plug, Fuel injector, Fuel sender, Fuel pump, Radiator fan motor (OPTION), Radiator fan motor fuse, Radiator fan motor relay, Intake air temperature sensor, Coolant temperature sensor, Throttle position sensor, Intake air pressure sensor, Gear position switch, Handlebar switch (left), Indicator light, Multi-function button, Engine stop switch, Handlebar switch (right), Starter switch. Yamaha's wire colour letters: B black, Br brown, Dl dark blue, G green, Gy gray, L blue, P pink, R red, Sb sky blue, W white, Y yellow. Two letters with a slash mean a base colour with a stripe (B/W is black with a white stripe).",
+   "values": {
+    "components": [
+     "Crankshaft position sensor",
+     "AC magneto",
+     "Rectifier/regulator",
+     "Engine ground",
+     "Frame ground",
+     "Battery",
+     "Fuse",
+     "Starter relay",
+     "Starter motor",
+     "Diode 1",
+     "CCU (Communication Control Unit)",
+     "Resistor",
+     "ECU (Engine Control Unit)",
+     "Ignition coil",
+     "Spark plug",
+     "Fuel injector",
+     "Fuel sender",
+     "Fuel pump",
+     "Radiator fan motor (OPTION)",
+     "Radiator fan motor fuse",
+     "Radiator fan motor relay",
+     "Intake air temperature sensor",
+     "Coolant temperature sensor",
+     "Throttle position sensor",
+     "Intake air pressure sensor",
+     "Gear position switch",
+     "Handlebar switch (left)",
+     "Indicator light",
+     "Multi-function button",
+     "Engine stop switch",
+     "Handlebar switch (right)",
+     "Starter switch"
+    ],
+    "colours": {
+     "B": "Black",
+     "Br": "Brown",
+     "Dl": "Dark blue",
+     "G": "Green",
+     "Gy": "Gray",
+     "L": "Blue",
+     "P": "Pink",
+     "R": "Red",
+     "Sb": "Sky blue",
+     "W": "White",
+     "Y": "Yellow",
+     "B/Br": "Black/Brown",
+     "B/L": "Black/Blue",
+     "B/R": "Black/Red",
+     "B/W": "Black/White",
+     "B/Y": "Black/Yellow",
+     "Br/W": "Brown/White",
+     "G/B": "Green/Black",
+     "G/Y": "Green/Yellow",
+     "L/B": "Blue/Black",
+     "Lg/L": "Light green/Blue",
+     "Lg/W": "Light green/White",
+     "R/B": "Red/Black",
+     "R/L": "Red/Blue",
+     "R/W": "Red/White",
+     "R/Y": "Red/Yellow",
+     "Y/B": "Yellow/Black",
+     "Y/G": "Yellow/Green",
+     "Y/W": "Yellow/White"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2027 YZ450FX owner's service manual (DP5-2819U-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DP5-2819U-10_02.pdf",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the legend of the wiring diagram."
+  },
+  {
+   "id": "w-y3-193",
+   "domain": "ecu_electronics",
+   "topic": "Electrical test values",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Electrical test values Yamaha prints for the 2027 YZ450FX: intake air pressure sensor output voltage 228–342 W 5400–6600 W at 0 C; engine idling speed 1900–2100 r/min; minimum ignition spark gap 6.0 mm; primary coil resistance 1.98–2.42 ohms; secondary coil resistance 14.64–21.96 kilohms; crankshaft position sensor resistance 228–342 ohms; regulated voltage (DC) 14.0–14.8 V; coolant temperature sensor resistance 2310–2590 ohms at the lower test temperature and 310–326 ohms at the higher one; resistor resistance 64.6–71.4 ohms; intake air temperature sensor resistance 5400–6600 ohms at the lower test temperature and 290–390 ohms at the higher one; throttle position sensor input voltage 4–6 V. Measure with the coupler unplugged unless the manual says otherwise, probing from the back of the coupler.",
+   "values": {
+    "Intake air pressure sensor output voltage": [
+     "228–342 W 5400–6600 W at 0 C"
+    ],
+    "Engine idling speed": [
+     "1900–2100 r/min"
+    ],
+    "Minimum ignition spark gap": [
+     "6.0 mm"
+    ],
+    "Primary coil resistance": [
+     "1.98–2.42 ohms"
+    ],
+    "Secondary coil resistance": [
+     "14.64–21.96 kilohms"
+    ],
+    "Crankshaft position sensor resistance": [
+     "228–342 ohms"
+    ],
+    "Regulated voltage (DC)": [
+     "14.0–14.8 V"
+    ],
+    "Coolant temperature sensor resistance": [
+     "2310–2590 ohms at the lower test temperature",
+     "310–326 ohms at the higher one"
+    ],
+    "Resistor resistance": [
+     "64.6–71.4 ohms"
+    ],
+    "Intake air temperature sensor resistance": [
+     "5400–6600 ohms at the lower test temperature",
+     "290–390 ohms at the higher one"
+    ],
+    "Throttle position sensor input voltage": [
+     "4–6 V"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2027 YZ450FX owner's service manual (DP5-2819U-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DP5-2819U-10_02.pdf",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the labelled specification boxes in the electrical chapter; the probe wire colours are not included."
+  },
+  {
+   "id": "w-y3-194",
+   "domain": "ecu_electronics",
+   "topic": "Fault codes",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Fault codes on the 2027 YZ450FX: 8 Gear position switch: open or short circuit detected; 12 Crankshaft position sensor: no normal signals are received from the crankshaft position sensor; 13 Intake air pressure sensor: open or short circuit detected; 14 Intake air pressure sensor: hose system malfunction (clogged or detached hose); 15 Throttle position sensor: open or short circuit detected; 16 Throttle position sensor: stuck throttle position sensor is detected; 21 Coolant temperature sensor: open or short circuit detected; 22 Intake air temperature sensor: open or short circuit detected; 30 The vehicle has overturned; 33 Ignition coil: open or short circuit detected in the primary lead of the ignition coil; 39 Injector: open or short circuit detected; 41 ECU: built-in lean angle sensor malfunction; 43 Fuel system voltage: incorrect voltage supplied to the CCU, and incorrect recognition voltage of the motorcycle; 44 EEPROM read error: an error is detected while reading or writing on EEPROM; 46 Vehicle system power supply: normal voltage is not supplied to the ECU; 50 ECU: faulty ECU memory; 70 Engine forcibly stops when the vehicle is left idling for a long period of time.",
+   "values": {
+    "codes": [
+     8,
+     12,
+     13,
+     14,
+     15,
+     16,
+     21,
+     22,
+     30,
+     33,
+     39,
+     41,
+     43,
+     44,
+     46,
+     50,
+     70
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2027 YZ450FX owner's service manual (DP5-2819U-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DP5-2819U-10_02.pdf",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Read automatically from the self-diagnostic function table."
   }
  ],
  "conflicts": [],
@@ -9779,6 +11728,8 @@
   "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-28199-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+  "https://library.ymcapps.net/library/om/contents/pdf/10/B3J-28199-10_02.pdf",
+  "https://library.ymcapps.net/library/om/contents/pdf/10/B3J-28199-11_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/B4X-2819U-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/B4X-2819U-11_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/B4X-2819U-12_02.pdf",
@@ -9788,6 +11739,7 @@
   "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-13_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/B91-28199-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/B91-28199-11_02.pdf",
+  "https://library.ymcapps.net/library/om/contents/pdf/10/B91-28199-12_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-28199-10_02.pdf",
@@ -9798,10 +11750,15 @@
   "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-11_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-12_02.pdf",
+  "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-10_02.pdf",
+  "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-11_02.pdf",
+  "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-12_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BF1-2819U-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BF1-2819U-11_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf",
+  "https://library.ymcapps.net/library/om/contents/pdf/10/BNL-2819U-10_02.pdf",
+  "https://library.ymcapps.net/library/om/contents/pdf/10/BNL-2819U-11_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BR9-28199-11_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BRX-2819U-10_02.pdf",
@@ -9827,8 +11784,10 @@
   "https://library.ymcapps.net/library/om/contents/pdf/10/DF4-2819U-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/DF4-2819U-11_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/DF4-2819U-12_02.pdf",
+  "https://library.ymcapps.net/library/om/contents/pdf/10/DP1-2819U-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/DP3-2819U-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/DP3-2819U-11_02.pdf",
+  "https://library.ymcapps.net/library/om/contents/pdf/10/DP5-2819U-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/DR8-2819U-10_02.pdf"
  ]
 }
