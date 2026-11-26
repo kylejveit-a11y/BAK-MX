@@ -79,12 +79,12 @@ export async function bikeKnowledge(db:SupabaseClient,bike:Bike,message:string,l
  // Live since 2026-11-23 (docs/plans/ANSWER_COST.md): 12 rows ranked by the rider's subject words, 16,000 characters. The
  // earlier 28 rows / 36,000 filled up with rows that only shared a domain or a filler word; 180 exam questions scored the same without them.
  const ranked=rankKnowledge(rows,q,trial?.rows??LIVE_ROWS,trial?.lean!==false);
- return withinBudget((trial?.overview?withOverview(rows,ranked,message):ranked).map(k=>focusRow(k,q)),trial?.budget??LIVE_BUDGET);
+ return withinBudget((trial?.overview!==false?withOverview(rows,ranked,message):ranked).map(k=>focusRow(k,q)),trial?.budget??LIVE_BUDGET);
 }
 /** Open, conversational questions ("was my bike any good against the competition", "tell me about my bike", "I just bought
  *  this used, what should I know") often share no subject word with any row, so the word ranking hands the answer nothing.
  *  When the ranking comes back thin and the question reads as one of these, fill with the bike's core rows for that intent.
- *  Test-only until switched on live (trial.overview on the evaluation route); found by the 2026-11-26 casual-talk run. */
+ *  On for every rider since 2026-11-26 (owner approved); trial.overview:false on the evaluation route turns it off for comparison. Found by the casual-talk run. */
 const REPUTATION=/\b(competition|competitors?|rivals?|in (its|the|that) class|stack(ed|s)? up|compar\w+|shoot-?outs?|magazines?|reviews?|reviewed|testers?|test riders?|rank\w*|rated|any good|good (bike|year)|worth (it|buying|owning)|known for|reputation|bought (it|this|one)|picked (it|this|one) up|buy(ing)? (it|this|one)|used bike|(bought|got|picked) (it|this|one)( up)? used|up used|second-?hand)\b/i;
 const OVERVIEW=/\b(tell me about|run ?down|overview|teach me|what (it is|is it)|basics?|about (my|this) bike|new to (this|the|my)|first (bike|time)|should i know|line-?up|sister models?|related models?|sets? (it|my bike|this bike) apart)\b/i;
 const REPUTATION_TOPIC=/shootout|verdict|dyno|used-bike|against|ranking|weak points|findings|complaints|redesign|updates|changes/i;
