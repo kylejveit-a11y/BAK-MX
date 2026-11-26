@@ -1,0 +1,76 @@
+{
+ "slice": "Ducati Desmo450 MX 2026 wiring (wiring pass 2026-11)",
+ "platform": {
+  "make": "Ducati",
+  "models": [
+   "Desmo450 MX"
+  ],
+  "years": [
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "w-d1-001",
+   "domain": "ecu_electronics",
+   "topic": "Wiring diagram: components and wire colour code",
+   "applies_to": {
+    "models": [
+     "Desmo450 MX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Ducati's wiring diagram for the 2026 Desmo450 MX shows: ECU, start button, stop button, EFI light, map selector, ignition coil, gear sensor, injector, throttle position sensor, MAP sensor, air temperature sensor, coolant temperature sensor, pick-up sensor, ACG (alternator), voltage regulator, starter relay, main relay, remote control switch, battery, starter motor, fuel pump, diagnosis connector and ground points, plus optional connections and a BBS control unit with a speed sensor on bikes that have it. Ducati's wire colour letters: Y yellow, R red, Bk black, O orange, V purple, W white, Bn brown, G green, Gr gray, Lb light blue, B blue, P pink.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Ducati Desmo450 MX owner's manual, electric system section (wiring diagram and key)",
+    "url": "https://www.ducati.com/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "w-d1-002",
+   "domain": "ecu_electronics",
+   "topic": "Shared wires and connector colours",
+   "applies_to": {
+    "models": [
+     "Desmo450 MX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On the 2026 Desmo450 MX diagram the sensors share a red/blue supply wire and a black/purple ground: the gear sensor, throttle position sensor and MAP sensor each carry both, and the air and coolant temperature sensors use black/purple as their ground. Red/white is the switched power feed to the injector, EFI light, map selector and fuel pump. Red is battery positive and black is ground. The alternator sends three yellow wires to the voltage regulator. The map selector carries red/white, gray/black, gray/green and black. The 5-pin diagnosis connector carries blue/black, gray/black, black, red and gray/green.",
+   "values": {
+    "sensor_supply": "R/B",
+    "sensor_ground": "Bk/V",
+    "switched_power": "R/W",
+    "battery_positive": "R",
+    "ground": "Bk",
+    "alternator": "Y, Y, Y",
+    "map_selector": "R/W, Gr/Bk, Gr/G, Bk",
+    "diagnosis": "B/Bk, Gr/Bk, Bk, R, Gr/G"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Ducati Desmo450 MX owner's manual, electric system section (wiring diagram and key)",
+    "url": "https://www.ducati.com/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Read from the wiring diagram by eye; check the diagram on the bike before cutting, splicing or back-probing. ECU pin numbers are not legible on this copy and are not given."
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://www.ducati.com/"
+ ]
+}
