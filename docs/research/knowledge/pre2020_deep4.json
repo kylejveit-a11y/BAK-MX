@@ -1,0 +1,622 @@
+{
+ "slice": "Deepening pass 4 for pre-2020 motocross models: more shootout verdicts with tester fixes and settings, second-source dyno and wet weights (knowledge push 2026-11)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "450 SX-F"
+  ],
+  "years": [
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ]
+ },
+ "records": [
+  {
+   "id": "o-d4-001",
+   "domain": "chassis",
+   "topic": "YZ250F 2016 shootout verdict and fixes",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "A magazine crew named the 2016 YZ250F the winner of the 250 class: 221 lb, with excellent coil-spring suspension, a 270 mm front disc, the best Japanese clutch and strong reliability, despite being only fourth of six on peak power at 39.35 hp. The airbox is bulky and the balance sits slightly to the rear.",
+   "values": {
+    "rank": "1 of 6",
+    "weight_lb": 221,
+    "peak_hp": 39.35
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 250 shootout",
+    "url": "https://motocrossactionmag.com/2016-mxa-250-four-stroke-shootout",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-002",
+   "domain": "chassis",
+   "topic": "250 SX-F 2016 shootout verdict and fixes",
+   "applies_to": {
+    "models": [
+     "250 SX-F"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "In a magazine's 2016 250 shootout the 250 SX-F was the runner-up: 43.79 hp at 13,900 rpm, 221 lb and $8,399, with strong top-end power, electric start, a hydraulic clutch, strong brakes and balanced handling. The crew called it a pro-level engine with novice-level forks and a shock spring too stiff for the class: revalve the fork and fit the right shock spring.",
+   "values": {
+    "peak_hp": 43.79,
+    "weight_lb": 221,
+    "msrp_usd": 8399
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 250 shootout",
+    "url": "https://motocrossactionmag.com/2016-mxa-250-four-stroke-shootout",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-003",
+   "domain": "chassis",
+   "topic": "FC 250 2016 shootout verdict and fixes",
+   "applies_to": {
+    "models": [
+     "FC 250"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "In a magazine's 2016 250 shootout the FC 250 made the most power and torque, 44.38 hp at 13,900 rpm, at 223 lb, with broad power, strong brakes and an excellent hydraulic clutch. The plastic airbox dulls throttle response and slows how quickly it revs, and it is 2 lb heavier than the KTM.",
+   "values": {
+    "peak_hp": 44.38,
+    "weight_lb": 223
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 250 shootout",
+    "url": "https://motocrossactionmag.com/2016-mxa-250-four-stroke-shootout",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-004",
+   "domain": "chassis",
+   "topic": "KX250 2016 shootout verdict and fixes",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "In a magazine's 2016 250 shootout the KX250F had the best powerband, with strong pull and no hesitation, at 39.88 hp and 226 lb, but the crew faulted the suspension, handling, brakes (spongy from new), clutch, chain guide, shifting and weight. Bleed the brakes after break-in and fit stiffer clutch springs.",
+   "values": {
+    "peak_hp": 39.88,
+    "weight_lb": 226
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 250 shootout",
+    "url": "https://motocrossactionmag.com/2016-mxa-250-four-stroke-shootout",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-005",
+   "domain": "chassis",
+   "topic": "CRF250R 2016 shootout verdict and fixes",
+   "applies_to": {
+    "models": [
+     "CRF250R"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "Honda"
+   },
+   "statement": "In a magazine's 2016 250 shootout the CRF250R was rated a beginner and novice bike: light, precise handling, strong low-to-mid power and a large front disc at 224 lb, but fifth of six on power, twitchy when the suspension balance is off, with a complicated air fork, grabby brakes and a cable clutch. A single exhaust would bring it down to about 221 lb.",
+   "values": {
+    "peak_hp": 38.89,
+    "weight_lb": 224
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 250 shootout",
+    "url": "https://motocrossactionmag.com/2016-mxa-250-four-stroke-shootout",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-006",
+   "domain": "setups",
+   "topic": "450 SX-F 2019 shootout fixes and settings",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "KTM"
+   },
+   "statement": "A magazine crew ranked the 2019 450 SX-F first. Their fixes for its weak points: drill the airbox cover (the closed airbox dulls low-to-mid power), fit the quick-turn throttle cam and add a tooth at the rear. If the air fork feels harsh, lower the pressure, as far as 133 psi against the stock 154, and run compression 25 to 35 clicks out. Race sag 105 mm. Check sprocket bolts and spoke nipples often; the stiff frame is hardest on slower riders.",
+   "values": {
+    "rank": 1,
+    "fork_psi": "as low as 133 (stock 154)",
+    "fork_comp": "25-35 out",
+    "sag_mm": 105
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 450 shootout",
+    "url": "https://motocrossactionmag.com/2019-mxa-450-four-stroke-shootout/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-007",
+   "domain": "known_issues",
+   "topic": "FC 450 2019 shootout fixes and settings",
+   "applies_to": {
+    "models": [
+     "FC 450"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "A magazine crew ranked the 2019 FC 450 second: broad, smooth power, 224 lb and the quietest 450 at 111.4 dB. The muffler restrictor costs nearly a horsepower at peak and the airbox is choked (drill it, or fit a slip-on), the clutch slave-cylinder seal often fails (the crew replaced the slave piston with the other Austrian brand's part), and the frame is stiff: run softer settings and lower fork pressure than the year before.",
+   "values": {
+    "rank": 2,
+    "weight_lb": 224,
+    "sound_db": 111.4
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 450 shootout",
+    "url": "https://motocrossactionmag.com/2019-mxa-450-four-stroke-shootout/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-008",
+   "domain": "known_issues",
+   "topic": "YZ450F 2019 shootout fixes and settings",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "A magazine crew ranked the 2019 YZ450F third: the best suspension and the best Japanese clutch in the class, strong reliability and steering fixed by beefier fork lugs and wheel collars, but heavy at 238 lb and bulky. The seat foam broke down in about 10 hours and filter oil can foul the backfire screen. Their fixes: the 5 mm lower bar mounts from the 2017 bike, aftermarket seat foam, a tuner-developed map and an aftermarket air filter, with stiffer clutch springs for hard clutch users.",
+   "values": {
+    "rank": 3,
+    "weight_lb": 238,
+    "seat_foam_hours": 10
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 450 shootout",
+    "url": "https://motocrossactionmag.com/2019-mxa-450-four-stroke-shootout/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-009",
+   "domain": "known_issues",
+   "topic": "KX450 2019 shootout fixes and settings",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "A magazine crew ranked the new 2019 KX450 fourth: the most improved bike, the lightest Japanese 450 at 233 lb, with the green coupler the strongest map. The clutch burns plates and squeals (remove the judder spring, fit stiffer springs and polish the push-rod ends), the 250 mm rear brake locks too easily, the forks are soft and bottom, and the chain roller falls apart (the 2018-19 KX250F roller fits). They ran one 5.0 and one 5.2 N/mm fork spring for a 5.1 average, left the shock alone and fitted a 1.8 radiator cap.",
+   "values": {
+    "rank": 4,
+    "weight_lb": 233,
+    "fork_springs": "5.0 + 5.2 N/mm",
+    "radiator_cap": 1.8,
+    "best_coupler": "green"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 450 shootout",
+    "url": "https://motocrossactionmag.com/2019-mxa-450-four-stroke-shootout/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-010",
+   "domain": "known_issues",
+   "topic": "CRF450R 2019 shootout fixes and settings",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "A magazine crew ranked the 2019 CRF450R fifth despite the most powerful engine, 60.21 hp at 9,500 rpm with usable power from bottom to top. The clutch is weak (remove the judder spring and small plate, or fit a complete aftermarket clutch), the radiators overheat, the handling is busy, the fork lacks bottoming resistance, the exhaust measured 117.5 dB and it weighs 238 lb. Setup: 106-110 mm of sag with the forks slid down in the clamps, and keep the stock map.",
+   "values": {
+    "rank": 5,
+    "peak_hp": 60.21,
+    "peak_rpm": 9500,
+    "sag_mm": "106-110",
+    "sound_db": 117.5
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 450 shootout",
+    "url": "https://motocrossactionmag.com/2019-mxa-450-four-stroke-shootout/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-011",
+   "domain": "chassis",
+   "topic": "CRF450R 2018 second-opinion shootout notes and wet weight",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Honda"
+   },
+   "statement": "A second magazine's 2018 450 shootout ranked the CRF450R first: nimble and direct in tight sections with strong, free-revving power, good brakes and bar-switch mapping. It weighed 251 lb with a full tank; one tester found the stock settings a little soft.",
+   "values": {
+    "rank": "1 of 6",
+    "weight_lb_full": 251
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2018 450 motocross shootout",
+    "url": "https://www.cyclenews.com/2017/10/article/2018-450-motocross-shootout/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-012",
+   "domain": "chassis",
+   "topic": "450 SX-F 2018 second-opinion shootout notes and wet weight",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "KTM"
+   },
+   "statement": "A second magazine's 2018 450 shootout ranked the 450 SX-F second: snappy, broad power, useful traction control, quick cornering and a steel frame with good bump compliance, at 236 lb with a full tank. Testers' reservation was the air fork's small-bump compliance.",
+   "values": {
+    "rank": "2 of 6",
+    "weight_lb_full": 236
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2018 450 motocross shootout",
+    "url": "https://www.cyclenews.com/2017/10/article/2018-450-motocross-shootout/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-013",
+   "domain": "chassis",
+   "topic": "FC 450 2018 second-opinion shootout notes and wet weight",
+   "applies_to": {
+    "models": [
+     "FC 450"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "A second magazine's 2018 450 shootout ranked the FC 450 third: smoother and more controlled than the KTM while still very fast, at 237 lb with a full tank and $9,699, the dearest in the test. Launch control is clumsy to operate.",
+   "values": {
+    "rank": "3 of 6",
+    "weight_lb_full": 237,
+    "msrp_usd": 9699
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2018 450 motocross shootout",
+    "url": "https://www.cyclenews.com/2017/10/article/2018-450-motocross-shootout/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-014",
+   "domain": "chassis",
+   "topic": "YZ450F 2018 second-opinion shootout notes and wet weight",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "A second magazine's 2018 450 shootout ranked the redesigned YZ450F fourth: arguably the strongest engine and the best suspension straight from the crate, with the free phone tuning app, at 247 lb with a full tank. It is loud at the airbox, feels wide and does not turn as sharply as the top three.",
+   "values": {
+    "rank": "4 of 6",
+    "weight_lb_full": 247
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2018 450 motocross shootout",
+    "url": "https://www.cyclenews.com/2017/10/article/2018-450-motocross-shootout/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-015",
+   "domain": "chassis",
+   "topic": "KX450 2018 second-opinion shootout notes and wet weight",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "A second magazine's 2018 450 shootout ranked the KX450F last: a broad powerband that pulls well on top and stable handling, with footpegs that can be lowered 5 mm, at 241 lb with a full tank. The air fork drew heavy criticism, the front wanders in flat turns and it is kick-start only.",
+   "values": {
+    "rank": "6 of 6",
+    "weight_lb_full": 241
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2018 450 motocross shootout",
+    "url": "https://www.cyclenews.com/2017/10/article/2018-450-motocross-shootout/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-016",
+   "domain": "power_feel",
+   "topic": "250 SX-F 2018 second-source dyno",
+   "applies_to": {
+    "models": [
+     "250 SX-F"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "KTM"
+   },
+   "statement": "On a second magazine's dyno the 2018 250 SX-F made 37.9 hp and 18.06 lb-ft, the highest horsepower of the six 250s tested there.",
+   "values": {
+    "peak_hp": 37.9,
+    "torque_lbft": 18.06
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle World - 2018 250F motocross bikes on the dyno",
+    "url": "https://cycleworld.com/2018-250f-motocross-bikes-on-dyno",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": "Different dyno from the other magazine figures; compare only within this set."
+  },
+  {
+   "id": "o-d4-017",
+   "domain": "power_feel",
+   "topic": "FC 250 2018 second-source dyno",
+   "applies_to": {
+    "models": [
+     "FC 250"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "On a second magazine's dyno the 2018 FC 250 made 37.3 hp and 18.65 lb-ft, the most torque of the six 250s tested there.",
+   "values": {
+    "peak_hp": 37.3,
+    "torque_lbft": 18.65
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle World - 2018 250F motocross bikes on the dyno",
+    "url": "https://cycleworld.com/2018-250f-motocross-bikes-on-dyno",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": "Different dyno from the other magazine figures; compare only within this set."
+  },
+  {
+   "id": "o-d4-018",
+   "domain": "power_feel",
+   "topic": "CRF250R 2018 second-source dyno",
+   "applies_to": {
+    "models": [
+     "CRF250R"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Honda"
+   },
+   "statement": "On a second magazine's dyno the all-new 2018 CRF250R made 36.1 hp, third of the six 250s tested there.",
+   "values": {
+    "peak_hp": 36.1
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle World - 2018 250F motocross bikes on the dyno",
+    "url": "https://cycleworld.com/2018-250f-motocross-bikes-on-dyno",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": "Different dyno from the other magazine figures; compare only within this set."
+  },
+  {
+   "id": "o-d4-019",
+   "domain": "power_feel",
+   "topic": "KX250 2018 second-source dyno",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "On a second magazine's dyno the 2018 KX250F made 18.03 lb-ft of torque, third of the six 250s tested there.",
+   "values": {
+    "torque_lbft": 18.03
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle World - 2018 250F motocross bikes on the dyno",
+    "url": "https://cycleworld.com/2018-250f-motocross-bikes-on-dyno",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": "Different dyno from the other magazine figures; compare only within this set."
+  },
+  {
+   "id": "o-d4-020",
+   "domain": "identity",
+   "topic": "CRF450R 2013 redesign in brief",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2013
+    ],
+    "make": "Honda"
+   },
+   "statement": "The 2013 CRF450R was redesigned and restyled with twin mufflers, meant to move weight forward and centralise mass, an air fork and significant engine changes. It was briefly the lightest bike in the class and popular with amateur racers; critics faulted its handling and it later fell behind on horsepower.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Honda CRF450R history",
+    "url": "https://dirtbikemagazine.com/honda-crf450r-history",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d4-021",
+   "domain": "identity",
+   "topic": "CRF450R 2017 redesign in brief",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "Honda"
+   },
+   "statement": "The 2017 CRF450R was the most extensive remake since fuel injection arrived in 2009: a new-generation aluminium frame, a titanium fuel tank, a return to a coil-spring Showa fork, a reworked Unicam engine and a lowered shock so intake air can reach the engine from above. Electric start was a dealer-fitted option that year.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Honda CRF450R history",
+    "url": "https://dirtbikemagazine.com/honda-crf450r-history",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://cycleworld.com/2018-250f-motocross-bikes-on-dyno",
+  "https://dirtbikemagazine.com/honda-crf450r-history",
+  "https://motocrossactionmag.com/2016-mxa-250-four-stroke-shootout",
+  "https://motocrossactionmag.com/2019-mxa-450-four-stroke-shootout/",
+  "https://www.cyclenews.com/2017/10/article/2018-450-motocross-shootout/"
+ ]
+}
