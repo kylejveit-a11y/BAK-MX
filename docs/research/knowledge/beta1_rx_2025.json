@@ -1,0 +1,136 @@
+{
+ "slice": "Beta RX 300 and RX 450 2025 KYB settings (2026-11)",
+ "platform": {
+  "make": "Beta",
+  "models": [
+   "RX 300",
+   "RX 450"
+  ],
+  "years": [
+   2025
+  ]
+ },
+ "records": [
+  {
+   "id": "b-r1-001",
+   "domain": "suspension",
+   "topic": "KYB fork and shock settings: factory, racing, comfort and soft",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Beta's published KYB settings for the 2025 RX 300, all counted out from fully in. Fork compression: 12 clicks factory, 10 racing, 14 comfort, 16 soft. Fork rebound: 11 clicks factory, 12 racing, 14 comfort, 16 soft. Shock low-speed compression: 14 clicks factory, 8 racing, 12 comfort, 16 soft. Shock high-speed compression: 1.5 turns factory, 1.25 racing, 1.5 comfort, 1.75 soft. Shock rebound: 14 clicks factory, 12 racing, 14 comfort, 16 soft. Fork oil volume on the chart is 300 cc. Sag ranges: 95 to 110 mm rider sag and 25 to 45 mm static sag.",
+   "values": {
+    "fork_comp": [
+     12,
+     10,
+     14,
+     16
+    ],
+    "fork_reb": [
+     11,
+     12,
+     14,
+     16
+    ],
+    "shock_lsc": [
+     14,
+     8,
+     12,
+     16
+    ],
+    "shock_hsc": [
+     1.5,
+     1.25,
+     1.5,
+     1.75
+    ],
+    "shock_reb": [
+     14,
+     12,
+     14,
+     16
+    ],
+    "fork_oil_cc": 300,
+    "rider_sag_mm": "95-110",
+    "static_sag_mm": "25-45"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta USA 2025 KYB fork and shock suspension settings list",
+    "url": "https://betausa.com/content/2025%20KYB%20Fork%20%26%20Shock%20suspension%20settings%20list.pdf",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Recorded from Beta USA's settings list in a workbook the owner supplied; confirm against the sheet before relying on a click count."
+  },
+  {
+   "id": "b-r1-002",
+   "domain": "suspension",
+   "topic": "KYB fork and shock settings: factory, racing, comfort and soft",
+   "applies_to": {
+    "models": [
+     "RX 450"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Beta's published KYB settings for the 2025 RX 450, all counted out from fully in. Fork compression: 10 clicks factory, 7 racing, 14 comfort, 16 soft. Fork rebound: 14 clicks factory, 12 racing, 14 comfort, 16 soft. Shock low-speed compression: 12 clicks factory, 7 racing, 12 comfort, 15 soft. Shock high-speed compression: 1.5 turns factory, 1.25 racing, 1.5 comfort, 1.75 soft. Shock rebound: 12 clicks factory, 7 racing, 9 comfort, 12 soft. Fork oil volume on the chart is 350 cc. Sag ranges: 95 to 110 mm rider sag and 25 to 45 mm static sag.",
+   "values": {
+    "fork_comp": [
+     10,
+     7,
+     14,
+     16
+    ],
+    "fork_reb": [
+     14,
+     12,
+     14,
+     16
+    ],
+    "shock_lsc": [
+     12,
+     7,
+     12,
+     15
+    ],
+    "shock_hsc": [
+     1.5,
+     1.25,
+     1.5,
+     1.75
+    ],
+    "shock_reb": [
+     12,
+     7,
+     9,
+     12
+    ],
+    "fork_oil_cc": 350,
+    "rider_sag_mm": "95-110",
+    "static_sag_mm": "25-45"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta USA 2025 KYB fork and shock suspension settings list",
+    "url": "https://betausa.com/content/2025%20KYB%20Fork%20%26%20Shock%20suspension%20settings%20list.pdf",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Recorded from Beta USA's settings list in a workbook the owner supplied; confirm against the sheet before relying on a click count."
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://betausa.com/content/2025%20KYB%20Fork%20%26%20Shock%20suspension%20settings%20list.pdf"
+ ]
+}

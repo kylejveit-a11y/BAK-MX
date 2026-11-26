@@ -70,6 +70,16 @@ for key,y,cyc in [(('Suzuki','RM-Z450'),2017,'4-stroke'),(('Suzuki','RM-Z250'),2
 # model years was read (suzuki.pl, model codes L0, L1, L3, L4). Added at the owner's request 2026-11-26.
 for m in ('RM-Z250','RM-Z450'):
     years[('Suzuki',m)].update([2010,2011,2013,2014])
+# Beta RX, Ducati Desmo450 MX and Cobra CX: brought into scope at the owner's request 2026-11-26. Model-years are the
+# ones the maker's own US documents name (Beta USA support index; Ducati's 2026 owner's manual; Cobra's own parts
+# manuals on cobramoto.com). Gas models only: Cobra's electric CX3E and CX5E stay out. Identity only until data is loaded.
+NEW_MAKES={('Beta','RX 300'):([2021,2022,2023,2024,2025],'2-stroke'),('Beta','RX 450'):([2024,2025,2026,2027],'4-stroke'),
+ ('Beta','RX 250'):([2026,2027],'2-stroke'),('Beta','RX 350'):([2026,2027],'2-stroke'),('Ducati','Desmo450 MX'):([2026],'4-stroke'),
+ ('Cobra','CX50 JR'):(list(range(2010,2027)),'2-stroke'),('Cobra','CX50 SR'):(list(range(2010,2027)),'2-stroke'),
+ ('Cobra','CX50 FWE'):(list(range(2016,2027)),'2-stroke'),('Cobra','CX50 P3'):([2016,2017,2018,2019,2020,2021,2022],'2-stroke'),
+ ('Cobra','CX65'):(list(range(2010,2027)),'2-stroke')}
+for key,(ys,cyc) in NEW_MAKES.items():
+    years[key].update(ys);discipline.setdefault(key,'motocross');cycle.setdefault(key,cyc)
 order={'motocross':0,'cross-country':1,'enduro':2,'enduro-offroad':2}
 makes=defaultdict(list)
 for (make,model),ys in years.items(): makes[make].append(model)
