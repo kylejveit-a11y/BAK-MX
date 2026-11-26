@@ -70,7 +70,7 @@ export function withinBudget(rows:Knowledge[],budget=36000):Knowledge[]{
  for(const k of rows){const n=JSON.stringify(k).length;if(used+n>budget&&out.length)continue;used+=n;out.push(k);}
  return out;
 }
-export async function bikeKnowledge(db:SupabaseClient,bike:Bike,message:string,lookups:string[]=[],trial?:{budget?:number;lean?:boolean;rows?:number}):Promise<Knowledge[]>{
+export async function bikeKnowledge(db:SupabaseClient,bike:Bike,message:string,lookups:string[]=[],trial?:{budget?:number;lean?:boolean;rows?:number;overview?:boolean}):Promise<Knowledge[]>{
  const s=exactBikeScope(bike);
  const {data,error}=await db.from('bike_knowledge').select(KNOWLEDGE_COLUMNS).eq('manufacturer',s.manufacturer).eq('model',s.model).eq('model_year',s.model_year).eq('status','APPROVED').limit(600);
  if(error||!Array.isArray(data))return [];// Deep knowledge is additive; a read failure must not block the answer.
@@ -78,7 +78,28 @@ export async function bikeKnowledge(db:SupabaseClient,bike:Bike,message:string,l
  const q=[message,...lookups].join(' ');
  // Live since 2026-11-23 (docs/plans/ANSWER_COST.md): 12 rows ranked by the rider's subject words, 16,000 characters. The
  // earlier 28 rows / 36,000 filled up with rows that only shared a domain or a filler word; 180 exam questions scored the same without them.
- return withinBudget(rankKnowledge(rows,q,trial?.rows??LIVE_ROWS,trial?.lean!==false).map(k=>focusRow(k,q)),trial?.budget??LIVE_BUDGET);
+ const ranked=rankKnowledge(rows,q,trial?.rows??LIVE_ROWS,trial?.lean!==false);
+ return withinBudget((trial?.overview?withOverview(rows,ranked,message):ranked).map(k=>focusRow(k,q)),trial?.budget??LIVE_BUDGET);
+}
+/** Open, conversational questions ("was my bike any good against the competition", "tell me about my bike", "I just bought
+ *  this used, what should I know") often share no subject word with any row, so the word ranking hands the answer nothing.
+ *  When the ranking comes back thin and the question reads as one of these, fill with the bike's core rows for that intent.
+ *  Test-only until switched on live (trial.overview on the evaluation route); found by the 2026-11-26 casual-talk run. */
+const REPUTATION=/\b(competition|competitors?|rivals?|in (its|the|that) class|stack(ed|s)? up|compar\w+|shoot-?outs?|magazines?|reviews?|reviewed|testers?|test riders?|rank\w*|rated|any good|good (bike|year)|worth (it|buying|owning)|known for|reputation|bought (it|this|one)|picked (it|this|one) up|buy(ing)? (it|this|one)|used bike|(bought|got|picked) (it|this|one)( up)? used|up used|second-?hand)\b/i;
+const OVERVIEW=/\b(tell me about|run ?down|overview|teach me|what (it is|is it)|basics?|about (my|this) bike|new to (this|the|my)|first (bike|time)|should i know|line-?up|sister models?|related models?|sets? (it|my bike|this bike) apart)\b/i;
+const REPUTATION_TOPIC=/shootout|verdict|dyno|used-bike|against|ranking|weak points|findings|complaints|redesign|updates|changes/i;
+export function withOverview(rows:Knowledge[],ranked:Knowledge[],text:string,fill=6):Knowledge[]{
+ if(ranked.length>=4)return ranked;
+ const rep=REPUTATION.test(text),over=OVERVIEW.test(text);
+ if(!rep&&!over)return ranked;
+ const have=new Set(ranked.map(k=>k.id));
+ const weight=(k:Knowledge)=>{let s=0;
+  if(rep){if(REPUTATION_TOPIC.test(k.topic))s+=4;if(k.domain==='chassis'||k.domain==='power_feel'||k.domain==='known_issues')s+=2;}
+  if(over){if(k.domain==='identity')s+=4;if(k.domain==='power_feel'||k.domain==='known_issues')s+=2;}
+  if(k.tier==='MEASURED'||k.tier==='OEM')s+=1;return s;};
+ // Large tables (torque charts, schedules) are not overview material and would eat the briefing.
+ const extra=rows.filter(k=>!have.has(k.id)&&JSON.stringify(k).length<=3000).map(k=>({k,s:weight(k)})).filter(x=>x.s>=3).sort((a,b)=>b.s-a.s).slice(0,Math.max(0,fill-ranked.length)).map(x=>x.k);
+ return [...ranked,...extra];
 }
 /** Which answer tier each knowledge tier may support. */
 export const knowledgeClaimTier:Record<KnowledgeTier,'PUBLISHED'|'COMMUNITY'|'ENGINEERING'>={OEM:'PUBLISHED',MEASURED:'COMMUNITY',TUNER:'COMMUNITY',COMMUNITY:'COMMUNITY',DERIVED:'ENGINEERING'};

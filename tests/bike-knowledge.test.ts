@@ -61,3 +61,16 @@ test('big tables are cut to the rows the rider asked about',()=>{
  const flat=focusRow({...k('K-41','maintenance','chassis tightening torques','OEM','torques'),values:rows},'what is the rear axle torque');
  assert.deepEqual(Object.keys(flat.values),['Rear axle nut (M22)']);
 });
+
+// Casual, open questions share no subject word with any row; the overview fill gives the answer the bike's core rows.
+import {withOverview as _withOverview,rankKnowledge as _rank} from '../server/knowledge.ts';
+test('overview fill: reputation and rundown questions get core rows; specific questions are left alone',()=>{
+ const k=(id:string,domain:string,topic:string,tier='TUNER')=>({id,domain,topic,statement:topic,tier,values:{},notes:'',confidence:'medium'}) as never;
+ const rows=[k('a','chassis','KX450 2018 shootout verdict and fixes'),k('b','power_feel','2018 dyno','MEASURED'),k('c','identity','2018 updates','OEM'),k('d','maintenance','torque table'),k('e','known_issues','2018 weak points and fixes')];
+ const q1='Was my bike any good compared to the competition that year? What did the magazines think?';
+ const r1=_withOverview(rows,_rank(rows,q1,12,true),q1).map((x:{id:string})=>x.id);
+ assert.ok(r1.includes('a')&&r1.includes('b'));assert.ok(!r1.includes('d'));
+ const q2="I'm new to this bike. Give me the rundown on what it is.";
+ const r2=_withOverview(rows,[],q2).map((x:{id:string})=>x.id);assert.ok(r2.includes('c'));
+ const q3='What is the axle nut torque?';assert.deepEqual(_withOverview(rows,[],q3),[]);
+});
