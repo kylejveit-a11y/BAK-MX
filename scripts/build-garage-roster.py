@@ -66,6 +66,10 @@ years[('Kawasaki','KX450')].add(2013)
 # each read cover to cover for its own year): 2017 RM-Z450, 2017 RM-Z250 and 2022 RM85. Added at the owner's request.
 for key,y,cyc in [(('Suzuki','RM-Z450'),2017,'4-stroke'),(('Suzuki','RM-Z250'),2017,'4-stroke'),(('Suzuki','RM85'),2022,'2-stroke')]:
     years[key].add(y);discipline.setdefault(key,'motocross');cycle.setdefault(key,cyc)
+# Suzuki RM-Z250 and RM-Z450 for 2010, 2011, 2013 and 2014: Suzuki Motor Poland's own owner's manual for each of those
+# model years was read (suzuki.pl, model codes L0, L1, L3, L4). Added at the owner's request 2026-11-26.
+for m in ('RM-Z250','RM-Z450'):
+    years[('Suzuki',m)].update([2010,2011,2013,2014])
 order={'motocross':0,'cross-country':1,'enduro':2,'enduro-offroad':2}
 makes=defaultdict(list)
 for (make,model),ys in years.items(): makes[make].append(model)

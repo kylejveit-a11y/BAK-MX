@@ -1,0 +1,414 @@
+{
+ "slice": "Suzuki RM-Z250 and RM-Z450 2010-2014 from Suzuki Poland owner's manuals (2026-11)",
+ "platform": {
+  "make": "Suzuki",
+  "models": [
+   "RM-Z250",
+   "RM-Z450"
+  ],
+  "years": [
+   2010,
+   2011,
+   2013,
+   2014
+  ]
+ },
+ "records": [
+  {
+   "id": "s-z3-001",
+   "domain": "identity",
+   "topic": "RM-Z250 2010 engine, size and gearing",
+   "applies_to": {
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2010
+    ]
+   },
+   "statement": "The 2010 RM-Z250: 249 cc DOHC four-stroke, 77.0 x 53.6 mm, 13.5:1 compression, fuel injected, kick start, five-speed. Ready-to-ride weight 105 kg (231 lb), seat 955 mm, wheelbase 1,475 mm. Fuel tank 6.5 L. Gear ratios 2.153, 1.764, 1.470, 1.238, 1.090; final gearing 13/49.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2010 RM-Z250 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l0/RM-Z250L0.pdf",
+    "date": "2009"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  },
+  {
+   "id": "s-z3-002",
+   "domain": "maintenance",
+   "topic": "RM-Z250 2010 service values",
+   "applies_to": {
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2010
+    ]
+   },
+   "statement": "Service values for the 2010 RM-Z250. Valve clearance, engine cold: intake 0.09 to 0.16 mm, exhaust 0.17 to 0.24 mm. Idle 2,100 plus or minus 50 r/min. Spark plug NGK CR8EIA-10. Engine oil 850 ml at a change, 900 ml with the filter, 1,000 ml after an overhaul. Coolant 950 ml. Chain 114 links, slack 35 to 45 mm. Rear axle nut 90 Nm (66 lb-ft).",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2010 RM-Z250 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l0/RM-Z250L0.pdf",
+    "date": "2009"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  },
+  {
+   "id": "s-z3-003",
+   "domain": "identity",
+   "topic": "RM-Z450 2010 engine, size and gearing",
+   "applies_to": {
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2010
+    ]
+   },
+   "statement": "The 2010 RM-Z450: 449 cc DOHC four-stroke, 96.0 x 62.1 mm, 12.2:1 compression, fuel injected, kick start, five-speed. Ready-to-ride weight 112 kg (247 lb), seat 955 mm, wheelbase 1,480 mm. Tires 80/100-21 and 110/90-19. Fuel tank 6.2 L. Gear ratios 1.800, 1.471, 1.235, 1.050, 0.909; final gearing 13/50.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2010 RM-Z450 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l0/RM-Z450L0.pdf",
+    "date": "2009"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  },
+  {
+   "id": "s-z3-004",
+   "domain": "maintenance",
+   "topic": "RM-Z450 2010 service values",
+   "applies_to": {
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2010
+    ]
+   },
+   "statement": "Service values for the 2010 RM-Z450. Valve clearance, engine cold: intake 0.09 to 0.16 mm, exhaust 0.17 to 0.24 mm. Idle 2,000 plus or minus 100 r/min. Spark plug NGK DIMR8A10. Engine oil 1,050 ml at a change, 1,100 ml with the filter, 1,200 ml after an overhaul. Coolant 950 ml. Chain 114 links, slack 40 to 50 mm. Rear axle nut 100 Nm (74 lb-ft).",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2010 RM-Z450 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l0/RM-Z450L0.pdf",
+    "date": "2009"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  },
+  {
+   "id": "s-z3-005",
+   "domain": "identity",
+   "topic": "RM-Z250 2011 engine, size and gearing",
+   "applies_to": {
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2011
+    ]
+   },
+   "statement": "The 2011 RM-Z250: 249 cc DOHC four-stroke, 77.0 x 53.6 mm, 13.5:1 compression, fuel injected. Seat 955 mm, wheelbase 1,475 mm. Fuel tank 6.5 L. Chain DID 520DMA4, 114 links.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2011 RM-Z250 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l1/RM-Z250L1.pdf",
+    "date": "2010"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  },
+  {
+   "id": "s-z3-006",
+   "domain": "maintenance",
+   "topic": "RM-Z250 2011 service values",
+   "applies_to": {
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2011
+    ]
+   },
+   "statement": "Service values for the 2011 RM-Z250. Valve clearance, engine cold: intake 0.09 to 0.16 mm, exhaust 0.17 to 0.24 mm. Spark plug NGK CR8EIA-10. Coolant 950 ml. Chain slack 35 to 45 mm. Rear axle nut 100 Nm (74 lb-ft).",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2011 RM-Z250 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l1/RM-Z250L1.pdf",
+    "date": "2010"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  },
+  {
+   "id": "s-z3-007",
+   "domain": "identity",
+   "topic": "RM-Z450 2011 engine, size and gearing",
+   "applies_to": {
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2011
+    ]
+   },
+   "statement": "The 2011 RM-Z450: 449 cc DOHC four-stroke, 96.0 x 62.1 mm, 12.5:1 compression, fuel injected. Seat 955 mm, wheelbase 1,480 mm. Fuel tank 6.2 L. Chain DID 520MXV4, 114 links.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2011 RM-Z450 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l1/RM-Z450L1.pdf",
+    "date": "2010"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  },
+  {
+   "id": "s-z3-008",
+   "domain": "maintenance",
+   "topic": "RM-Z450 2011 service values",
+   "applies_to": {
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2011
+    ]
+   },
+   "statement": "Service values for the 2011 RM-Z450. Valve clearance, engine cold: intake 0.09 to 0.16 mm, exhaust 0.17 to 0.24 mm. Spark plug NGK DIMR8A10. Engine oil 1,050 ml at a change. Coolant 950 ml. Chain slack 40 to 50 mm. Rear axle nut 100 Nm (74 lb-ft). Tire pressure 70 to 110 kPa (10 to 16 psi) cold. Compression 400 kPa (58 psi) or more with the automatic decompressor working.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2011 RM-Z450 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l1/RM-Z450L1.pdf",
+    "date": "2010"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  },
+  {
+   "id": "s-z3-009",
+   "domain": "identity",
+   "topic": "RM-Z250 2013 engine, size and gearing",
+   "applies_to": {
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2013
+    ]
+   },
+   "statement": "The 2013 RM-Z250: 249 cc DOHC four-stroke, 77.0 x 53.6 mm, fuel injected, five-speed. Seat 955 mm, wheelbase 1,475 mm. Chain DID 520DMA4, 114 links. 310 mm of travel at both ends.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2013 RM-Z250 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l3/RM-Z250%20L3.pdf",
+    "date": "2012"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  },
+  {
+   "id": "s-z3-010",
+   "domain": "maintenance",
+   "topic": "RM-Z250 2013 service values",
+   "applies_to": {
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2013
+    ]
+   },
+   "statement": "Service values for the 2013 RM-Z250. Chain slack 35 to 45 mm. Rear axle nut 100 Nm (74 lb-ft). The valve clearance figure for this year is not confirmed here.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2013 RM-Z250 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l3/RM-Z250%20L3.pdf",
+    "date": "2012"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  },
+  {
+   "id": "s-z3-011",
+   "domain": "identity",
+   "topic": "RM-Z450 2013 engine, size and gearing",
+   "applies_to": {
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2013
+    ]
+   },
+   "statement": "The 2013 RM-Z450: 449 cc DOHC four-stroke, 96.0 x 62.1 mm, fuel injected, five-speed. Seat 955 mm, wheelbase 1,495 mm. Chain DID 520MXV4, 114 links. 310 mm of travel at both ends.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2013 RM-Z450 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l3/RM-Z450%20L3.pdf",
+    "date": "2012"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  },
+  {
+   "id": "s-z3-012",
+   "domain": "maintenance",
+   "topic": "RM-Z450 2013 service values",
+   "applies_to": {
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2013
+    ]
+   },
+   "statement": "Service values for the 2013 RM-Z450. Valve clearance, engine cold: intake 0.09 to 0.16 mm, exhaust 0.17 to 0.24 mm. Chain slack 40 to 50 mm. Rear axle nut 100 Nm (74 lb-ft). Tire pressure 70 to 110 kPa (10 to 16 psi) cold. Compression 300 kPa (43 psi) or more with the automatic decompressor working.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2013 RM-Z450 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l3/RM-Z450%20L3.pdf",
+    "date": "2012"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  },
+  {
+   "id": "s-z3-013",
+   "domain": "identity",
+   "topic": "RM-Z250 2014 engine, size and gearing",
+   "applies_to": {
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2014
+    ]
+   },
+   "statement": "The 2014 RM-Z250: 249 cc DOHC four-stroke, 77.0 x 53.6 mm, 13.5:1 compression, fuel injected, kick start, five-speed. Ready-to-ride weight 106.5 kg (235 lb), seat 955 mm, wheelbase 1,475 mm, steering head angle 29 degrees 20 minutes, trail 130 mm. Gear ratios 2.153, 1.764, 1.470, 1.238, 1.090; final gearing 13/49. Chain DID 520DMA4, 114 links.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2014 RM-Z250 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l4/RM-Z250%20L4.pdf",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  },
+  {
+   "id": "s-z3-014",
+   "domain": "maintenance",
+   "topic": "RM-Z250 2014 service values",
+   "applies_to": {
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2014
+    ]
+   },
+   "statement": "Service values for the 2014 RM-Z250. Valve clearance, engine cold: intake 0.09 to 0.16 mm, exhaust 0.17 to 0.24 mm. Idle 2,100 plus or minus 50 r/min. Chain slack 35 to 45 mm. Rear axle nut 100 Nm (74 lb-ft).",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2014 RM-Z250 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l4/RM-Z250%20L4.pdf",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  },
+  {
+   "id": "s-z3-015",
+   "domain": "identity",
+   "topic": "RM-Z450 2014 engine, size and gearing",
+   "applies_to": {
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2014
+    ]
+   },
+   "statement": "The 2014 RM-Z450: 449 cc DOHC four-stroke, 96.0 x 62.1 mm, 12.5:1 compression, fuel injected, kick start, five-speed. Ready-to-ride weight 112 kg (247 lb), seat 955 mm, wheelbase 1,495 mm, steering head angle 29 degrees 40 minutes, trail 125 mm. Gear ratios 1.800, 1.470, 1.235, 1.050, 0.909; final gearing 13/50. Chain DID 520MXV4, 114 links.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2014 RM-Z450 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l4/RM-Z450%20L4.pdf",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  },
+  {
+   "id": "s-z3-016",
+   "domain": "maintenance",
+   "topic": "RM-Z450 2014 service values",
+   "applies_to": {
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2014
+    ]
+   },
+   "statement": "Service values for the 2014 RM-Z450. Valve clearance, engine cold: intake 0.09 to 0.16 mm, exhaust 0.17 to 0.24 mm. Idle 2,100 plus or minus 50 r/min. Spark plug NGK DIMR8A10, tightened to 11 Nm. Engine oil SAE 10W-40 JASO MA: 1,050 ml at a change, 1,100 ml with the filter, 1,200 ml after an overhaul; drain plug 12 Nm. Coolant 1,100 ml. Chain slack 40 to 50 mm. Rear axle nut 100 Nm (74 lb-ft). Spoke nipples 6 Nm; rim lock 14 Nm front, 17 Nm rear. Tire pressure 70 to 110 kPa (10 to 16 psi) cold. Compression 300 kPa (43 psi) or more with the automatic decompressor working. Oil pressure 50 kPa at 4,000 r/min with oil at 50 C.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2014 RM-Z450 owner's manual, Suzuki Motor Poland edition",
+    "url": "https://suzuki.pl/old-pdf/moto/instrukcje/l4/RM-Z450%20L4.pdf",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": "Polish-market edition of the owner's manual; a US bike can differ in small details."
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://suzuki.pl/old-pdf/moto/instrukcje/l0/RM-Z250L0.pdf",
+  "https://suzuki.pl/old-pdf/moto/instrukcje/l0/RM-Z450L0.pdf",
+  "https://suzuki.pl/old-pdf/moto/instrukcje/l1/RM-Z250L1.pdf",
+  "https://suzuki.pl/old-pdf/moto/instrukcje/l1/RM-Z450L1.pdf",
+  "https://suzuki.pl/old-pdf/moto/instrukcje/l3/RM-Z250%20L3.pdf",
+  "https://suzuki.pl/old-pdf/moto/instrukcje/l3/RM-Z450%20L3.pdf",
+  "https://suzuki.pl/old-pdf/moto/instrukcje/l4/RM-Z250%20L4.pdf",
+  "https://suzuki.pl/old-pdf/moto/instrukcje/l4/RM-Z450%20L4.pdf"
+ ]
+}
