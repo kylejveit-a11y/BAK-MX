@@ -1,0 +1,450 @@
+{
+ "slice": "Deepening pass 6 for pre-2020 motocross models: 125 two-stroke shootouts 2015, 2016 and 2018, the 250 two-stroke shootout carried to 2016, and a second 2019 250 shootout with wet weights (knowledge push 2026-11)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "125 SX"
+  ],
+  "years": [
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ]
+ },
+ "records": [
+  {
+   "id": "o-d6-001",
+   "domain": "chassis",
+   "topic": "YZ125 2015 shootout verdict and fixes",
+   "applies_to": {
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2015
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "A magazine crew ranked the 2015 YZ125 first of three 125s: the best suspension in the class, a broad, easy powerband, a balanced chassis and a close-ratio six-speed. It gives up top-end power to the Austrian bikes, the front brake is modest and the clutch is cable-operated. An oversized front disc was their first purchase.",
+   "values": {
+    "rank": "1 of 3"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2015 125 two-stroke shootout",
+    "url": "https://motocrossactionmag.com/2015-125-shootout",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d6-002",
+   "domain": "chassis",
+   "topic": "125 SX 2015 shootout verdict and fixes",
+   "applies_to": {
+    "models": [
+     "125 SX"
+    ],
+    "years": [
+     2015
+    ],
+    "make": "KTM"
+   },
+   "statement": "A magazine crew ranked the 2015 125 SX second of three: the fastest engine, with strong high-rpm power, the 4CS fork, a new linkage and revised ignition mapping, and brakes and a hydraulic clutch tied for best. The engine is finicky and bogs if the throttle is shut, the suspension is harsh, the front pushes in tight corners and the chassis suffers at speed. It has to be ridden with a busy clutch hand and the throttle open.",
+   "values": {
+    "rank": "2 of 3"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2015 125 two-stroke shootout",
+    "url": "https://motocrossactionmag.com/2015-125-shootout",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d6-003",
+   "domain": "chassis",
+   "topic": "TC 125 2015 shootout verdict and fixes",
+   "applies_to": {
+    "models": [
+     "TC 125"
+    ],
+    "years": [
+     2015
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "A magazine crew ranked the 2015 TC 125 a close third of three. It shares the KTM's engine, brakes and hydraulic clutch, has a shock that takes heavy loads without bottoming and a forgiving composite subframe. The airbox and side-panel layout restrict airflow and hurt throttle response and midrange, the valving is stiff for lighter riders and the front pushes until the fork height is adjusted.",
+   "values": {
+    "rank": "3 of 3"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2015 125 two-stroke shootout",
+    "url": "https://motocrossactionmag.com/2015-125-shootout",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d6-004",
+   "domain": "chassis",
+   "topic": "125 SX 2016 shootout verdict and fixes",
+   "applies_to": {
+    "models": [
+     "125 SX"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "In a magazine's 2016 125 shootout the new 125 SX beat the YZ125 on power: 37.27 hp against 34.01, with about two more horsepower low down, from an engine 4 lb lighter than before. It has a self-adjusting hydraulic clutch and a tool-free air filter. The WP suspension has weak bottoming resistance and it stands up in corners as delivered; raising the fork legs 5 mm helps it settle at turn-in.",
+   "values": {
+    "peak_hp": 37.27,
+    "fork_height": "+5 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 125 shootout: KTM 125SX vs Yamaha YZ125",
+    "url": "https://motocrossactionmag.com/2016-mxa-125-two-stroke-shootout-ktm-125sx-vs-yamaha-yz125",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d6-005",
+   "domain": "chassis",
+   "topic": "YZ125 2016 shootout verdict and fixes",
+   "applies_to": {
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "In a magazine's 2016 125 shootout the YZ125 made 34.01 hp against the KTM's 37.27 and lost on power, while keeping the better suspension and costing about $400 less. Tester fixes: a 49-tooth rear sprocket in place of the 48, an aftermarket pipe and reed valve, fork legs raised 5 mm so it settles at turn-in, and a better front tyre than the stock one, which hurt front-end confidence.",
+   "values": {
+    "peak_hp": 34.01,
+    "rear_sprocket": "49 (stock 48)",
+    "fork_height": "+5 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2016 125 shootout: KTM 125SX vs Yamaha YZ125",
+    "url": "https://motocrossactionmag.com/2016-mxa-125-two-stroke-shootout-ktm-125sx-vs-yamaha-yz125",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d6-006",
+   "domain": "setups",
+   "topic": "TC 125 2018 shootout verdict and fixes",
+   "applies_to": {
+    "models": [
+     "TC 125"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "In a magazine's 2018 125 shootout the TC 125 weighed 195 lb without fuel and listed at $7,099. The engine is strong and easy to keep on the pipe, with peak power close to some 250 four-strokes. Stock jetting is rich: testers lowered the needle one position and fitted a 32.5 pilot jet. The composite airbox is more restrictive than the KTM's and the suspension takes time to set for lighter riders.",
+   "values": {
+    "weight_lb_no_fuel": 195,
+    "msrp_usd": 7099,
+    "jetting": "needle down one position, 32.5 pilot"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - 2018 125 MX shootout",
+    "url": "https://dirtbikemagazine.com/amp/2018-125-mx-shootout/",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d6-007",
+   "domain": "setups",
+   "topic": "125 SX 2018 shootout verdict and fixes",
+   "applies_to": {
+    "models": [
+     "125 SX"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "KTM"
+   },
+   "statement": "In a magazine's 2018 125 shootout the 125 SX weighed 195 lb without fuel and listed at $6,999, with slightly more peak power than the Husqvarna, strong brakes and a light clutch. Stock jetting is a little rich: testers settled on the needle one position leaner and the pilot one step leaner.",
+   "values": {
+    "weight_lb_no_fuel": 195,
+    "msrp_usd": 6999,
+    "jetting": "needle one position leaner, pilot one step leaner"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - 2018 125 MX shootout",
+    "url": "https://dirtbikemagazine.com/amp/2018-125-mx-shootout/",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d6-008",
+   "domain": "chassis",
+   "topic": "YZ125 2018 shootout verdict and fixes",
+   "applies_to": {
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "In a magazine's 2018 125 shootout the YZ125 weighed 201 lb without fuel and listed at $6,999. Testers still rated its handling the best of any motocross bike, with a friendly powerband, strong low-end for a 125 and stock jetting that is spot on. Its peak power no longer matches the Austrian 125s, whose brakes and clutch are also better.",
+   "values": {
+    "weight_lb_no_fuel": 201,
+    "msrp_usd": 6999
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - 2018 125 MX shootout",
+    "url": "https://dirtbikemagazine.com/amp/2018-125-mx-shootout/",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d6-009",
+   "domain": "chassis",
+   "topic": "250 SX 2016 two-stroke shootout notes",
+   "applies_to": {
+    "models": [
+     "250 SX"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "A magazine's 250 two-stroke comparison covered 2015 and 2016 together. The 250 SX was the fastest, with the hardest midrange hit and the best holeshot, peaking at 8,400 rpm. Power fades quickly after the peak, so shift before it. It ran rough on 91-octane pump fuel until rejetted, vibrates more than the others and is sensitive to shock sag and fork height. Testers noted the 2013 engine peaked at 8,600 rpm with about 2 hp more low down and better shift points.",
+   "values": {
+    "peak_rpm": 8400
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 250 two-stroke shootout: Husky, KTM and Yamaha",
+    "url": "https://motocrossactionmag.com/mxa-250-two-stroke-shootout-husky-ktm-yamaha",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "The source states the 2015 comparison also holds for the 2016 models."
+  },
+  {
+   "id": "o-d6-010",
+   "domain": "chassis",
+   "topic": "TC 250 2016 two-stroke shootout notes",
+   "applies_to": {
+    "models": [
+     "TC 250"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "A magazine's 250 two-stroke comparison covered 2015 and 2016 together. The TC 250 cornered best, helped by its supple composite subframe, and its sealed airbox gives smooth, manageable power that can feel breathless in the midrange. Use the aggressive map (setting two). Removing the airbox cover or drilling large holes gives KTM-like power at the cost of the smooth feel. Balance shock sag against fork height.",
+   "values": {
+    "best_map": "2 (aggressive)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 250 two-stroke shootout: Husky, KTM and Yamaha",
+    "url": "https://motocrossactionmag.com/mxa-250-two-stroke-shootout-husky-ktm-yamaha",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "The source states the 2015 comparison also holds for the 2016 models."
+  },
+  {
+   "id": "o-d6-011",
+   "domain": "chassis",
+   "topic": "250 SX-F 2019 second-opinion shootout notes and wet weight",
+   "applies_to": {
+    "models": [
+     "250 SX-F"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "KTM"
+   },
+   "statement": "A second magazine ranked the 2019 250 SX-F first of six: the complete package, with the smoothest gearbox in the group and an air fork that needed fewer changes than the Husqvarna's. Listed wet weight 232 lb, $8,999. Most testers preferred the aggressive map.",
+   "values": {
+    "rank": "1 of 6",
+    "wet_weight_lb": 232,
+    "msrp_usd": 8999
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2019 250cc motocross shootout",
+    "url": "https://www.cyclenews.com/2019/01/article/2019-250cc-motocross-shootout/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d6-012",
+   "domain": "chassis",
+   "topic": "FC 250 2019 second-opinion shootout notes and wet weight",
+   "applies_to": {
+    "models": [
+     "FC 250"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "A second magazine ranked the 2019 FC 250 second of six: nimble in tight corners and stable at speed, with the easiest map switch in the class. Its suspension needed more changes than the KTM's to find a setup, the clutch feel was a step behind, and some riders found the rear bodywork wide. Listed weight 233 lb, $9,099.",
+   "values": {
+    "rank": "2 of 6",
+    "wet_weight_lb": 233,
+    "msrp_usd": 9099
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2019 250cc motocross shootout",
+    "url": "https://www.cyclenews.com/2019/01/article/2019-250cc-motocross-shootout/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d6-013",
+   "domain": "chassis",
+   "topic": "YZ250F 2019 second-opinion shootout notes and wet weight",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "A second magazine ranked the 2019 YZ250F third of six: a fork with the best balance of small-bump comfort and bottoming resistance, an engine that suited the widest range of riders, and phone-app map changes. Most riders made minimal suspension changes. It is loud enough that testers recommended earplugs. Listed wet weight 238 lb, $8,199.",
+   "values": {
+    "rank": "3 of 6",
+    "wet_weight_lb": 238,
+    "msrp_usd": 8199
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2019 250cc motocross shootout",
+    "url": "https://www.cyclenews.com/2019/01/article/2019-250cc-motocross-shootout/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d6-014",
+   "domain": "chassis",
+   "topic": "CRF250R 2019 second-opinion shootout notes and wet weight",
+   "applies_to": {
+    "models": [
+     "CRF250R"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "A second magazine ranked the 2019 CRF250R fourth of six: a chassis that goes where the rider looks and a planted, very adjustable coil fork, but a lacklustre midrange that means riding it near the top of the revs. The three-mode map switch only works at idle and its lights are hard to read in sun. Listed wet weight 238 lb, $7,999.",
+   "values": {
+    "rank": "4 of 6",
+    "wet_weight_lb": 238,
+    "msrp_usd": 7999
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2019 250cc motocross shootout",
+    "url": "https://www.cyclenews.com/2019/01/article/2019-250cc-motocross-shootout/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d6-015",
+   "domain": "chassis",
+   "topic": "KX250 2019 second-opinion shootout notes and wet weight",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "A second magazine ranked the 2019 KX250 fifth of six: strong bottom-end and a slim, predictable chassis, but power that fades near the limiter, short gear ratios that force extra shifts and a fork that is harsh early in the stroke. The optional aggressive coupler added noticeable top-end, and compression and preload changes balanced the fork. Listed wet weight 234 lb, $7,749.",
+   "values": {
+    "rank": "5 of 6",
+    "wet_weight_lb": 234,
+    "msrp_usd": 7749
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2019 250cc motocross shootout",
+    "url": "https://www.cyclenews.com/2019/01/article/2019-250cc-motocross-shootout/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://dirtbikemagazine.com/amp/2018-125-mx-shootout/",
+  "https://motocrossactionmag.com/2015-125-shootout",
+  "https://motocrossactionmag.com/2016-mxa-125-two-stroke-shootout-ktm-125sx-vs-yamaha-yz125",
+  "https://motocrossactionmag.com/mxa-250-two-stroke-shootout-husky-ktm-yamaha",
+  "https://www.cyclenews.com/2019/01/article/2019-250cc-motocross-shootout/"
+ ]
+}
