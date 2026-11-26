@@ -1,0 +1,245 @@
+{
+ "slice": "Honda CRF250R/CRF450R 2010-2016 ECM pinouts (wiring pass 2026-11)",
+ "platform": {
+  "make": "Honda",
+  "models": [
+   "CRF250R",
+   "CRF450R"
+  ],
+  "years": [
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016
+  ]
+ },
+ "records": [
+  {
+   "id": "w-h4-001",
+   "domain": "ecu_electronics",
+   "topic": "ECM connector pinout",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF450R"
+    ],
+    "years": [
+     2010,
+     2011,
+     2012
+    ]
+   },
+   "statement": "ECM 33-pin connector on the 2010-2012 CRF250R and CRF450R, as pin, Honda's signal label and wire colour: 1 IG (ignition coil), yellow/blue; 2 PG (power ground), green; 5 INJ (fuel injector), black/blue; 6 LG (logic ground), green/pink; 7 PCP2 (No.2 crank position sensor), white/yellow; 9 TA (intake air temperature signal), gray/blue; 10 PCM (crank sensor ground), green/white; 11 PCP1 (No.1 crank position sensor), blue/yellow; 12 PG (power ground), green; 14 VCC (5 V sensor supply), red/yellow; 15 WARN (warning light (MIL)), white/blue; 19 ENG STOP (engine stop switch), black/white; 20 TW (coolant temperature signal), pink; 22 SG (sensor ground), green/red; 23 IGP (power in), black; 24 INJ-V (injector supply), pink/yellow; 25 K-LINE (diagnostic line), orange/black; 27 SCS (service check), brown; 32 PB (intake pressure (MAP) signal), light green/yellow; 33 TH (throttle position signal), yellow/green. Pins not listed are empty. Wire colours are base/stripe. The engine stop switch joins black/white to red/yellow when pushed.",
+   "values": {
+    "1": "IG Y/Bu",
+    "2": "PG G",
+    "5": "INJ Bl/Bu",
+    "6": "LG G/P",
+    "7": "PCP2 W/Y",
+    "9": "TA Gr/Bu",
+    "10": "PCM G/W",
+    "11": "PCP1 Bu/Y",
+    "12": "PG G",
+    "14": "VCC R/Y",
+    "15": "WARN W/Bu",
+    "19": "ENG STOP Bl/W",
+    "20": "TW P",
+    "22": "SG G/R",
+    "23": "IGP Bl",
+    "24": "INJ-V P/Y",
+    "25": "K-LINE O/Bl",
+    "27": "SCS Br",
+    "32": "PB Lg/Y",
+    "33": "TH Y/G"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda CRF250R and CRF450R owner's manuals 2010-2012, wiring diagram pages",
+    "url": "https://powersports.honda.com/downloads/owners-manuals",
+    "date": "2012"
+   },
+   "confidence": "medium",
+   "notes": "Read from the wiring diagram by eye; check the diagram on the bike before cutting, splicing or back-probing."
+  },
+  {
+   "id": "w-h4-002",
+   "domain": "ecu_electronics",
+   "topic": "Sensor and switch wire colours at the ECM",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF450R"
+    ],
+    "years": [
+     2010,
+     2011,
+     2012
+    ]
+   },
+   "statement": "Wire colours at the ECM on the 2010-2012 CRF250R and CRF450R: 5 V sensor supply red/yellow; sensor ground green/red; throttle position signal yellow/green; intake pressure signal light green/yellow; intake air temperature signal gray/blue; coolant temperature signal pink; No.1 crank sensor blue/yellow; No.2 crank sensor white/yellow; fuel injector black/blue with pink/yellow supply; ignition coil yellow/blue; engine stop switch black/white; warning light white/blue; diagnostic line orange/black. The throttle and intake pressure sensors share the 5 V supply and the sensor ground; the two temperature sensors return on the sensor ground. Honda's colour letters: Bl black, Y yellow, Bu blue, G green, R red, W white, Br brown, O orange, Lb light blue, Lg light green, P pink, Gr gray.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda CRF250R and CRF450R owner's manuals 2010-2012, wiring diagram pages",
+    "url": "https://powersports.honda.com/downloads/owners-manuals",
+    "date": "2012"
+   },
+   "confidence": "medium",
+   "notes": "Derived from the ECM pin labels on the wiring diagram."
+  },
+  {
+   "id": "w-h4-003",
+   "domain": "ecu_electronics",
+   "topic": "ECM connector pinout",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF450R"
+    ],
+    "years": [
+     2013,
+     2014
+    ]
+   },
+   "statement": "ECM 33-pin connector on the 2013-2014 CRF250R and CRF450R, as pin, Honda's signal label and wire colour: 1 IG (ignition coil), yellow/blue; 5 INJ (fuel injector), black/blue; 6 LG (logic ground), green/white; 9 TA (intake air temperature signal), gray/blue; 11 PCP1 (No.1 crank position sensor), blue/yellow; 12 PG (power ground), green/white; 14 VCC (5 V sensor supply), red/yellow; 18 WARN (warning light (MIL)), white/blue; 19 ENG STOP (engine stop switch), black/white; 20 TW (coolant temperature signal), pink; 22 SG (sensor ground), green/red; 23 IGP (power in), black; 24 INJ-V (injector supply), pink/yellow; 25 K-LINE (diagnostic line), orange/black; 27 SCS (service check), brown; 29 PCP2 (No.2 crank position sensor), white/yellow; 32 PB (intake pressure (MAP) signal), light green/yellow; 33 TH (throttle position signal), yellow/green. Pins not listed are empty. Wire colours are base/stripe. The engine stop switch joins black/white to red/yellow when pushed.",
+   "values": {
+    "1": "IG Y/Bu",
+    "5": "INJ Bl/Bu",
+    "6": "LG G/W",
+    "9": "TA Gr/Bu",
+    "11": "PCP1 Bu/Y",
+    "12": "PG G/W",
+    "14": "VCC R/Y",
+    "18": "WARN W/Bu",
+    "19": "ENG STOP Bl/W",
+    "20": "TW P",
+    "22": "SG G/R",
+    "23": "IGP Bl",
+    "24": "INJ-V P/Y",
+    "25": "K-LINE O/Bl",
+    "27": "SCS Br",
+    "29": "PCP2 W/Y",
+    "32": "PB Lg/Y",
+    "33": "TH Y/G"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda CRF250R and CRF450R owner's manuals 2013-2014, wiring diagram pages",
+    "url": "https://powersports.honda.com/downloads/owners-manuals",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": "Read from the wiring diagram by eye; check the diagram on the bike before cutting, splicing or back-probing."
+  },
+  {
+   "id": "w-h4-004",
+   "domain": "ecu_electronics",
+   "topic": "Sensor and switch wire colours at the ECM",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF450R"
+    ],
+    "years": [
+     2013,
+     2014
+    ]
+   },
+   "statement": "Wire colours at the ECM on the 2013-2014 CRF250R and CRF450R: 5 V sensor supply red/yellow; sensor ground green/red; throttle position signal yellow/green; intake pressure signal light green/yellow; intake air temperature signal gray/blue; coolant temperature signal pink; No.1 crank sensor blue/yellow; No.2 crank sensor white/yellow; fuel injector black/blue with pink/yellow supply; ignition coil yellow/blue; engine stop switch black/white; warning light white/blue; diagnostic line orange/black. The throttle and intake pressure sensors share the 5 V supply and the sensor ground; the two temperature sensors return on the sensor ground. Honda's colour letters: Bl black, Y yellow, Bu blue, G green, R red, W white, Br brown, O orange, Lb light blue, Lg light green, P pink, Gr gray.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda CRF250R and CRF450R owner's manuals 2013-2014, wiring diagram pages",
+    "url": "https://powersports.honda.com/downloads/owners-manuals",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": "Derived from the ECM pin labels on the wiring diagram."
+  },
+  {
+   "id": "w-h4-005",
+   "domain": "ecu_electronics",
+   "topic": "ECM connector pinout",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF450R"
+    ],
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   "statement": "ECM 33-pin connector on the 2015-2016 CRF250R and CRF450R, as pin, Honda's signal label and wire colour: 1 IG (ignition coil), yellow/blue; 5 INJ (fuel injector), black/blue; 6 LG (logic ground), green/white; 7 MODE LED (mode indicator light), white/green; 9 TA (intake air temperature signal), gray/blue; 11 PCP1 (No.1 crank position sensor), blue/yellow; 12 PG (power ground), green/white; 14 VCC (5 V sensor supply), red/yellow; 18 WARN (warning light (MIL)), white/blue; 19 ENG STOP (engine stop switch), black/white; 20 TW (coolant temperature signal), pink; 21 MODE SW (mode select button), light green; 22 SG (sensor ground), green/red; 23 IGP (power in), black; 24 INJ-V (injector supply), pink/yellow; 25 K-LINE (diagnostic line), orange/black; 27 SCS (service check), brown; 29 PCP2 (No.2 crank position sensor), white/yellow; 32 PB (intake pressure (MAP) signal), light green/yellow; 33 TH (throttle position signal), yellow/green. Pins not listed are empty. Wire colours are base/stripe. The engine stop switch joins black/white to red/yellow when pushed. The mode select button's own wires are red and light green; pushing it joins the two.",
+   "values": {
+    "1": "IG Y/Bu",
+    "5": "INJ Bl/Bu",
+    "6": "LG G/W",
+    "7": "MODE LED W/G",
+    "9": "TA Gr/Bu",
+    "11": "PCP1 Bu/Y",
+    "12": "PG G/W",
+    "14": "VCC R/Y",
+    "18": "WARN W/Bu",
+    "19": "ENG STOP Bl/W",
+    "20": "TW P",
+    "21": "MODE SW Lg",
+    "22": "SG G/R",
+    "23": "IGP Bl",
+    "24": "INJ-V P/Y",
+    "25": "K-LINE O/Bl",
+    "27": "SCS Br",
+    "29": "PCP2 W/Y",
+    "32": "PB Lg/Y",
+    "33": "TH Y/G"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda CRF250R and CRF450R owner's manuals 2015-2016, wiring diagram pages",
+    "url": "https://powersports.honda.com/downloads/owners-manuals",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "Read from the wiring diagram by eye; check the diagram on the bike before cutting, splicing or back-probing."
+  },
+  {
+   "id": "w-h4-006",
+   "domain": "ecu_electronics",
+   "topic": "Sensor and switch wire colours at the ECM",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF450R"
+    ],
+    "years": [
+     2015,
+     2016
+    ]
+   },
+   "statement": "Wire colours at the ECM on the 2015-2016 CRF250R and CRF450R: 5 V sensor supply red/yellow; sensor ground green/red; throttle position signal yellow/green; intake pressure signal light green/yellow; intake air temperature signal gray/blue; coolant temperature signal pink; No.1 crank sensor blue/yellow; No.2 crank sensor white/yellow; fuel injector black/blue with pink/yellow supply; ignition coil yellow/blue; engine stop switch black/white; warning light white/blue; diagnostic line orange/black. The throttle and intake pressure sensors share the 5 V supply and the sensor ground; the two temperature sensors return on the sensor ground. Honda's colour letters: Bl black, Y yellow, Bu blue, G green, R red, W white, Br brown, O orange, Lb light blue, Lg light green, P pink, Gr gray.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda CRF250R and CRF450R owner's manuals 2015-2016, wiring diagram pages",
+    "url": "https://powersports.honda.com/downloads/owners-manuals",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "Derived from the ECM pin labels on the wiring diagram."
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://powersports.honda.com/downloads/owners-manuals"
+ ]
+}

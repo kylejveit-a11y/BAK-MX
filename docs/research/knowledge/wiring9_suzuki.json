@@ -1,0 +1,89 @@
+{
+ "slice": "Suzuki 2017 RM-Z250 and 2022 RM85 wiring (wiring pass 2026-11)",
+ "platform": {
+  "make": "Suzuki",
+  "models": [
+   "RM-Z250",
+   "RM85"
+  ],
+  "years": [
+   2017,
+   2022
+  ]
+ },
+ "records": [
+  {
+   "id": "w-s2-001",
+   "domain": "ecu_electronics",
+   "topic": "Harness wire colours at every component",
+   "applies_to": {
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2017
+    ]
+   },
+   "statement": "Main-harness wire colours at each plug on the 2017 RM-Z250. Magneto: yellow, yellow (charging) plus green/white and blue (pickup). Regulator/rectifier: yellow, yellow, red, black/white. Condenser: red and black/white. Fuel pump: red/black and red. Injector: gray/white and red. Ignition coil: white/blue and black/white. Engine stop switch: black/yellow and black/white. Throttle position sensor: red/blue, yellow, black/brown. Intake air pressure sensor: red/blue, green/black, black/brown. Intake air temperature sensor: dark green and black/brown. Coolant temperature sensor: black/blue and black/brown. Tip-over sensor: red/blue, brown/white, black/brown. Gear position switch: blue/black, pink, black/white. S-HAC (launch) switch: red, blue/red, white/red, black/white. Optional battery lead: red and black/white. Red/blue is common to the throttle, intake pressure and tip-over sensors, black/brown is the shared sensor return, and black/white is the frame ground. Some parts have a short pigtail in different colours, so read the harness side of the plug. Suzuki's letters: B black, Bl blue, Br brown, Dg dark green, G green, Gr gray, Lg light green, O orange, P pink, R red, W white, Y yellow.",
+   "values": {
+    "magneto": "Y, Y, G/W, Bl",
+    "regulator_rectifier": "Y, Y, R, B/W",
+    "condenser": "R, B/W",
+    "fuel_pump": "R/B, R",
+    "injector": "Gr/W, R",
+    "ignition_coil": "W/Bl, B/W",
+    "stop_switch": "B/Y, B/W",
+    "tps": "R/Bl, Y, B/Br",
+    "iap": "R/Bl, G/B, B/Br",
+    "iat": "Dg, B/Br",
+    "ect": "B/Bl, B/Br",
+    "tip_over": "R/Bl, Br/W, B/Br",
+    "gear_position": "Bl/B, P, B/W",
+    "s_hac_switch": "R, Bl/R, W/R, B/W"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki RM-Z250 2017 owner's service manual, wiring diagram page 5-9",
+    "url": "https://www.suzukicycles.com",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "Read from the wiring diagram by eye; check the diagram on the bike before cutting, splicing or back-probing."
+  },
+  {
+   "id": "w-s2-002",
+   "domain": "ecu_electronics",
+   "topic": "Complete ignition wiring",
+   "applies_to": {
+    "models": [
+     "RM85"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 RM85 has no battery and one small circuit. The magneto feeds the CDI unit on three wires: black/red, red/white and black/white. The CDI fires the ignition coil on white/blue, and black/white is the ground shared by the CDI and the coil. The engine stop switch is on black/yellow from the CDI and grounds it to the frame when pressed. Suzuki's colour code: B/W black with white tracer, B/R black with red tracer, R/W red with white tracer, B/Y black with yellow tracer, W/Bl white with blue tracer.",
+   "values": {
+    "magneto_to_cdi": "B/R, R/W, B/W",
+    "cdi_to_coil": "W/Bl",
+    "ground": "B/W",
+    "stop_switch": "B/Y to ground"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki RM85 2022 owner's service manual, electrical circuit page 13-2",
+    "url": "https://www.suzukicycles.com",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Read from the circuit drawing by eye."
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://www.suzukicycles.com"
+ ]
+}

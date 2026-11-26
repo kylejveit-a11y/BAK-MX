@@ -1,11 +1,22 @@
 {
- "slice": "Honda CRF150R 2023-2026 wiring (wiring pass 2026-11)",
+ "slice": "Honda CRF150R 2012-2026 wiring (wiring pass 2026-11)",
  "platform": {
   "make": "Honda",
   "models": [
    "CRF150R"
   ],
   "years": [
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
    2023,
    2024,
    2025,
@@ -22,13 +33,24 @@
      "CRF150R"
     ],
     "years": [
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
      2023,
      2024,
      2025,
      2026
     ]
    },
-   "statement": "The 2023-2026 CRF150R has no battery and a very small harness: an ignition control module with a 6-pin and a 4-pin connector, an exciter coil and ignition pulse generator on the engine, a direct ignition coil on the plug, a throttle position sensor and the engine stop button. Exciter coil: white and blue. Ignition pulse generator: blue/yellow and green/white. Direct ignition coil: black/yellow from the module and green ground. Throttle position sensor: black/blue, yellow and black at the module (blue, yellow and black on the sensor's own pigtail). Engine stop button: black/white and black/green; pressing it joins the two, and black/green ties into the green ground. Module 6-pin connector wires: green, black, green/white, black/blue, yellow, blue/yellow. Module 4-pin connector wires: blue, black/white, white, black/yellow. Honda's colour letters: Bl black, Y yellow, Bu blue, G green, R red, W white, Br brown, O orange, Lb light blue, Lg light green, P pink, Gr gray.",
+   "statement": "The 2012-2026 CRF150R has no battery and a very small harness: an ignition control module with a 6-pin and a 4-pin connector, an exciter coil and ignition pulse generator on the engine, a direct ignition coil on the plug, a throttle position sensor and the engine stop button. Exciter coil: white and blue. Ignition pulse generator: blue/yellow and green/white. Direct ignition coil: black/yellow from the module and green ground. Throttle position sensor: black/blue, yellow and black at the module (blue, yellow and black on the sensor's own pigtail). Engine stop button: black/white and black/green; pressing it joins the two, and black/green ties into the green ground. Module 6-pin connector wires: green, black, green/white, black/blue, yellow, blue/yellow. Module 4-pin connector wires: blue, black/white, white, black/yellow. Honda's colour letters: Bl black, Y yellow, Bu blue, G green, R red, W white, Br brown, O orange, Lb light blue, Lg light green, P pink, Gr gray.",
    "values": {
     "exciter_coil": "W, Bu",
     "pulse_generator": "Bu/Y, G/W",
@@ -41,7 +63,7 @@
    "tier": "OEM",
    "source": {
     "type": "manufacturer",
-    "name": "Honda CRF150R competition handbook, wiring diagram page 3-44",
+    "name": "Honda CRF150R competition handbook, wiring diagram pages 2012-2026",
     "url": "https://powersports.honda.com/downloads/owners-manuals",
     "date": "2024"
    },
