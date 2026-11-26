@@ -1,0 +1,810 @@
+{
+ "slice": "Deepening pass 1 for pre-2020 KTM and Husqvarna off-road models: full tests with tester settings, dyno figures, known problems and fixes (knowledge push 2026-11)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "450 XC-F"
+  ],
+  "years": [
+   2015,
+   2016,
+   2017,
+   2018,
+   2019
+  ]
+ },
+ "records": [
+  {
+   "id": "o-d1-001",
+   "domain": "power_feel",
+   "topic": "450 XC-F 2017 weight, range, speed and engine feel",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "KTM"
+   },
+   "statement": "A 2017 450 XC-F weighed 241 lb with a full 2.2-gallon tank and 230 lb without fuel, and listed at $10,099. It goes about 50 miles on a tank and runs into the limiter at 91 mph on stock gearing. The engine is torque-heavy and hooks up, and still revs freely on top. It stalls easily at small throttle openings if the clutch work is sloppy.",
+   "values": {
+    "weight_lb_full": 241,
+    "weight_lb_no_fuel": 230,
+    "range_mi": 50,
+    "top_speed_mph": 91,
+    "msrp_usd": 10099
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 KTM 450XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2017-ktm-450xc-f/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-002",
+   "domain": "ecu_electronics",
+   "topic": "450 XC-F 2017 map switch and traction control",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2017 450 XC-F's bar switch gives four settings: two maps, each with traction control on or off, changeable while riding. The aggressive map suits good traction. The milder map with traction control on is easier when the throttle is opened fast, and traction control helps most for riders who spin the tyre or on loose ground.",
+   "values": {
+    "settings": 4
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 KTM 450XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2017-ktm-450xc-f/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-003",
+   "domain": "setups",
+   "topic": "450 XC-F 2017 suspension direction from testing",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "KTM"
+   },
+   "statement": "On the 2017 450 XC-F the air fork has more small-bump compliance than the 2016 4CS. Testers added 1 psi and a few clicks of fork compression for balance, added up to five clicks of shock low-speed compression for the motocross track, and ran 103-108 mm of rider sag.",
+   "values": {
+    "fork": "+1 psi, a few clicks more compression",
+    "shock_lsc_mx": "up to +5 clicks",
+    "sag_mm": "103-108"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 KTM 450XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2017-ktm-450xc-f/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-004",
+   "domain": "drivetrain",
+   "topic": "450 XC-F 2017 gearing",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2017 450 XC-F has a close-ratio five-speed. Stock gearing tops out at 91 mph, and testers recommended re-gearing either way for tight trails or for fast desert, and wished for a sixth gear or wider spacing.",
+   "values": {
+    "gearbox": "5-speed close ratio"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 KTM 450XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2017-ktm-450xc-f/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-005",
+   "domain": "known_issues",
+   "topic": "450 XC-F 2017 findings and fixes",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "KTM"
+   },
+   "statement": "Findings on a 2017 450 XC-F: it stalls unless the idle is set properly; slipping the clutch heats the engine and the clutch damping rubbers should be checked every 20 hours; the exhaust is loud for off-road use; there is no skid plate and the handguards are light; the lithium battery needs warming before it cranks well in cold weather; and the push-button fuel cap is stiff when cold.",
+   "values": {
+    "clutch_dampers_check_hours": 20
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2017 KTM 450XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2017-ktm-450xc-f/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-006",
+   "domain": "power_feel",
+   "topic": "250 XC-F 2015 weight, range, speed and engine feel",
+   "applies_to": {
+    "models": [
+     "250 XC-F"
+    ],
+    "years": [
+     2015
+    ],
+    "make": "KTM"
+   },
+   "statement": "A 2015 250 XC-F weighed 247 lb with a full 2.4-gallon tank (about 15 lb less empty) and listed at $8,599. It went nearly 70 miles on a tank at a conservative trail pace, or about an hour at race pace, and ran 89-90 mph (98.1 with a tailwind). The power is long, smooth and linear and builds with revs to nearly 14,000 rpm. The flywheel effect is light, so stalls come suddenly.",
+   "values": {
+    "weight_lb_full": 247,
+    "range_mi": "nearly 70",
+    "top_speed_mph": "89-90",
+    "msrp_usd": 8599
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 KTM 250 XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2015-ktm-250-xc-f/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-007",
+   "domain": "identity",
+   "topic": "250 XC-F 2015 against the 250 SX-F",
+   "applies_to": {
+    "models": [
+     "250 XC-F"
+    ],
+    "years": [
+     2015
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2015 250 XC-F has the same engine and chassis as the 250 SX-F, with only a side-stand tab added to the frame. It adds a larger tank, the side stand, an 18-inch rear wheel, handguards and off-road suspension valving, on a six-speed semi-wide-ratio gearbox. The engine has a plain big-end bearing.",
+   "values": {
+    "gearbox": "6-speed semi-wide"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 KTM 250 XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2015-ktm-250-xc-f/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-008",
+   "domain": "setups",
+   "topic": "250 XC-F 2015 clicker directions",
+   "applies_to": {
+    "models": [
+     "250 XC-F"
+    ],
+    "years": [
+     2015
+    ],
+    "make": "KTM"
+   },
+   "statement": "On the 2015 250 XC-F the 4CS fork's adjuster works mainly on mid-speed damping and needs 3-5 clicks before a change is felt, while 1-2 clicks on the shock are noticeable. For motocross, run it stock (riders under 165 lb may want softer springs). For off-road, go 3-5 clicks softer on fork compression and rebound, match the shock softer and take half a turn off the shock's high-speed compression. Sag is 100-105 mm. For tight racing add two rear teeth or drop one on the countershaft.",
+   "values": {
+    "offroad_fork": "3-5 clicks softer comp and rebound",
+    "shock_hsc": "-1/2 turn",
+    "sag_mm": "100-105",
+    "light_rider_lb": "under 165"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 KTM 250 XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2015-ktm-250-xc-f/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-009",
+   "domain": "known_issues",
+   "topic": "250 XC-F 2015 findings and fixes",
+   "applies_to": {
+    "models": [
+     "250 XC-F"
+    ],
+    "years": [
+     2015
+    ],
+    "make": "KTM"
+   },
+   "statement": "Findings on a 2015 250 XC-F: fork stiction on hard ground (oiling the seals and bleeding the air helped), a stock rear tyre that struggles on hard surfaces, fragile handguards that discolour, a touchy rear brake, no skid plate, and a loud muffler with no spark arrestor.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2015 KTM 250 XC-F",
+    "url": "https://dirtbiketest.com/bike-tests/2015-ktm-250-xc-f/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-010",
+   "domain": "ecu_electronics",
+   "topic": "TE 300 2019 fuel injection and oil injection",
+   "applies_to": {
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The 2019 TE 300 is transfer-port injected: two injectors spray fuel into the transfer ports, and a 39 mm throttle body meters air and is where the auto-lube oil enters. The engine management reads six sensors (rollover, crankcase pressure, engine speed, throttle position, coolant temperature and intake air temperature). Oil comes from a 700 cc tank under the fuel tank at a ratio between 70:1 and 100:1, enough for four to seven tanks of fuel, with a low-oil warning light. It runs straight pump fuel of 91 octane or better and must use injector-compatible two-stroke oil.",
+   "values": {
+    "throttle_body_mm": 39,
+    "oil_tank_cc": 700,
+    "oil_ratio": "70:1 to 100:1",
+    "oil_lasts": "4-7 fuel tanks",
+    "fuel": "91 octane, no premix"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Husqvarna TE300i race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2019-husqvarna-te300i",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-011",
+   "domain": "power_feel",
+   "topic": "TE 300 2019 dyno and power feel",
+   "applies_to": {
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "On a magazine dyno the 2019 TE 300 made 49.77 hp at 8,600 rpm and revved to 9,600. The low-to-mid transition is slow, with a dip from 7,000 to 7,800 rpm on the stock map, then it climbs from about 43 hp to nearly 50 hp in under 1,500 rpm. The stock map (one mark) is the one to use; testers found the mellow map (two marks) poor.",
+   "values": {
+    "peak_hp": 49.77,
+    "peak_rpm": 8600,
+    "limiter_rpm": 9600,
+    "dip_rpm": "7,000-7,800"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Husqvarna TE300i race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2019-husqvarna-te300i",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-012",
+   "domain": "setups",
+   "topic": "TE 300 2019 tester settings on a motocross track",
+   "applies_to": {
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "A magazine crew's 2019 TE 300 setup for motocross. Fork (WP Xplor 48): compression all the way in (stock 15 clicks out), rebound 15 out, preload fully clockwise, legs flush. Shock: race sag 110 mm (stock 105), high-speed compression 2 turns out, low-speed compression 15 clicks out, rebound 15 out. Even at its stiffest the fork dives and the chassis oversteers under braking, and the ends are out of balance; racing it needs a revalve.",
+   "values": {
+    "fork_comp": "full in (stock 15 out)",
+    "fork_reb": "15 out",
+    "fork_preload": "full",
+    "sag_mm": "110 (stock 105)",
+    "hsc": "2 turns out",
+    "lsc": "15 out",
+    "shock_reb": "15 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Husqvarna TE300i race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2019-husqvarna-te300i",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-013",
+   "domain": "engine_mods",
+   "topic": "TE 300 2019 fixes for the slow midrange",
+   "applies_to": {
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "Tested answers to the 2019 TE 300's slow low-to-mid power: a 51-tooth rear sprocket in place of the stock 50 (13/50 is the US gearing), holes drilled in the airbox, the stock map, the optional quick-turn throttle cam, and an aftermarket pipe, which filled the 7,000 rpm dip.",
+   "values": {
+    "gearing": "13/51 (stock 13/50)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Husqvarna TE300i race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2019-husqvarna-te300i",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-014",
+   "domain": "known_issues",
+   "topic": "TE 300 2018 oil tank leak",
+   "applies_to": {
+    "models": [
+     "TE 300"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The oil tank on the 2018 injected TE 300 could leak. Testers reported it fixed for 2019.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2019 Husqvarna TE300i race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2019-husqvarna-te300i",
+    "date": "2019"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-015",
+   "domain": "power_feel",
+   "topic": "TE 250 2019 dyno",
+   "applies_to": {
+    "models": [
+     "TE 250"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "On a rear-wheel dyno the 2019 injected TE 250 made 40.74 hp at 8,230 rpm and 27.49 lb-ft at 7,580 rpm. It is a 249 cc engine (66.4 x 72.0 mm, 13.2:1) with transfer-port injection, and holds low rpm well in second gear. List price $9,699.",
+   "values": {
+    "peak_hp": 40.74,
+    "peak_hp_rpm": 8230,
+    "torque_lbft": 27.49,
+    "torque_rpm": 7580,
+    "msrp_usd": 9699
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2019 Husqvarna TE 250i dyno test",
+    "url": "https://www.dirtrider.com/2019-husqvarna-te-250i-dyno-test/",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-016",
+   "domain": "power_feel",
+   "topic": "TE 250 against TE 300 (2016)",
+   "applies_to": {
+    "models": [
+     "TE 250",
+     "TE 300"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "Of the 2016 two-strokes, the TE 250 is the livelier, with smooth, predictable power, less vibration and a lighter feel. The TE 300 pulls harder from the bottom and needs less clutch in slow going. Both feel planted and are less likely to deflect off roots and rocks than the 125. Both have a two-map switch on the bar.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "TMX News - Husqvarna 2016 enduro test",
+    "url": "https://tmxnews.co.uk/news/motocross/husqvarna-enduro-test-in-full",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-017",
+   "domain": "power_feel",
+   "topic": "FE 350, FE 450 and FE 501 ride character (2016)",
+   "applies_to": {
+    "models": [
+     "FE 350",
+     "FE 450",
+     "FE 501"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "Of the 2016 FE four-strokes, the 350 is very usable and can be revved or lugged, though its weight shows when changing direction or slowing. The 450 has strong, usable power and finds traction well in tight going, with suspension that works best when pushed, but it is a lot of bike for a full day. The 501 is extremely powerful and limited by grip off-road: it is best left in third gear with a finger on the clutch, feels heavy in tight terrain, and an auto-clutch was suggested for it.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "TMX News - Husqvarna 2016 enduro test",
+    "url": "https://tmxnews.co.uk/news/motocross/husqvarna-enduro-test-in-full",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-018",
+   "domain": "chassis",
+   "topic": "FE 501 2016 street-legal version: test notes",
+   "applies_to": {
+    "models": [
+     "FE 501"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The street-legal 2016 FE 501 weighs 250 lb without fuel, holds 2.4 gallons and listed at $10,599. It has a heavier crankshaft than the off-road FE 501, 11.8:1 compression, a 42 mm throttle body and a quiet exhaust, with tall road gearing (first is good for over 30 mph). It has tractable torque at any speed and the suspension takes hard hits well. The front end feels light with no steering damper, the stock rims are unbalanced and bounce at highway speed, the tank is small for long rides and no handguards are fitted.",
+   "values": {
+    "weight_lb_no_fuel": 250,
+    "tank_gal": 2.4,
+    "compression": "11.8:1",
+    "msrp_usd": 10599
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2016 Husqvarna FE 501 S test",
+    "url": "https://ultimatemotorcycling.com/2015/12/29/2016-husqvarna-fe-501-s-test-dual-sport-review/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": "Source tested the street-legal S version."
+  },
+  {
+   "id": "o-d1-019",
+   "domain": "chassis",
+   "topic": "TE 250 and TE 300 2017 ride notes",
+   "applies_to": {
+    "models": [
+     "TE 250",
+     "TE 300"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "On the 2017 TE 250 and TE 300 the stock suspension is soft and at times short of control for a rider over about 90 kg. Gearing felt tall for tight going; two or three more teeth on the rear were suggested. The 300 is strong, linear and nearly vibration-free but snappy in the upper midrange when the rider is tired, and the 250 is more controllable and less tiring. Three power-valve springs are supplied for tuning the hit. Dry weights are 102.2 kg (250) and 102.4 kg (300).",
+   "values": {
+    "dry_weight_kg": "102.2 / 102.4",
+    "gearing": "+2 or 3 rear teeth for tight terrain",
+    "pv_springs": 3
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "BikeReview - 2017 Husqvarna TE 250 and TE 300 review",
+    "url": "https://bikereview.com.au/?p=17142",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-020",
+   "domain": "power_feel",
+   "topic": "FE 350 2018 dyno (competition tune)",
+   "applies_to": {
+    "models": [
+     "FE 350"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "In competition tune a 2018 FE 350 made 48 PS at 10,000 rpm and 39.7 Nm at 7,900 rpm on a magazine dyno, and weighed 114 kg with a full 8.5-litre tank. The bar switch changes throttle response between two settings and traction control can be switched on or off. The suspension responds well over bumps and has reserve for big jumps.",
+   "values": {
+    "peak_ps": 48,
+    "peak_rpm": 10000,
+    "torque_nm": 39.7,
+    "weight_kg_full": 114,
+    "tank_l": 8.5
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motorrad - Husqvarna FE 350 test 2018",
+    "url": "https://www.motorradonline.de/enduro/husqvarna-fe-350-im-test-2018-sportenduro-im-check/",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-021",
+   "domain": "identity",
+   "topic": "FE 350 against FX 350 (2019)",
+   "applies_to": {
+    "models": [
+     "FE 350",
+     "FX 350"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "In 2019 the FX 350 is a hybrid of motocross and enduro parts: about 6 kg lighter than the FE 350, with the WP AER 48 air fork and the 2019 motocross-range engine and chassis upgrades the FE did not yet have. The FE 350 has a sharp-steering chassis with forgiving power and suspension that suit tight, slippery terrain.",
+   "values": {
+    "fx_lighter_kg": "about 6"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Transmoto - 2019 FE350 vs FX350",
+    "url": "https://transmoto.com.au/?p=65483",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-022",
+   "domain": "chassis",
+   "topic": "450 XC-F 2016 ride character",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2016 450 XC-F took the new, smaller and lighter chassis and engine at the same time as the 450 SX-F and performs identically on power: smooth, torquey, able to chug at low revs and pull away on the throttle. Its off-road valving has less high-speed compression and rebound damping than the SX-F, so it is plusher without wallowing, the 4CS fork is less harsh at the top of the stroke than earlier versions, and it still copes with a motocross track. A rubber-mounted bar cuts vibration. It is a lot of bike in tight woods, resists turning more than the 350 XC-F, and suits open terrain, desert and GP-style racing.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2016 KTM 450XC-F riding impression",
+    "url": "https://dirtbiketest.com/fresh-dirt/2016-ktm-450xc-f-test-riding-impression",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-023",
+   "domain": "power_feel",
+   "topic": "250, 350 and 450 XC-F engine character (2016)",
+   "applies_to": {
+    "models": [
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2016
+    ],
+    "make": "KTM"
+   },
+   "statement": "The 2016 XC-F models share frame, engine and mapping with the SX-F motocross bikes and add an 18-inch rear wheel, handguards, off-road suspension settings, a 2.25-gallon tank (1.85 on the SX-F) and a side stand. The 250 XC-F gained torque and bottom-end with a smoother move into the midrange and is strong on tight, technical ground. The 350 XC-F has a wide powerband with a strong bottom but needs more shifting on a track. The 450 XC-F has heavy bottom-end torque and is best ridden a gear higher than usual; ridden like a motocross bike it wears the rider out.",
+   "values": {
+    "tank_gal": 2.25
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2016 KTM SX-F and XC-F first rides",
+    "url": "https://www.cyclenews.com/2015/06/article/first-rides-2016-ktm-sx-f-and-xc-f-four-strokes/",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-024",
+   "domain": "identity",
+   "topic": "500 XC-W 2013 updates and specs",
+   "applies_to": {
+    "models": [
+     "500 XC-W"
+    ],
+    "years": [
+     2013
+    ],
+    "make": "KTM"
+   },
+   "statement": "For 2013 the 500 XC-W got new fork oil for more consistent damping, a rear brake master cylinder with less seal wear, and black-coated spokes on new rims. It is a 510.4 cc (95 x 72 mm) four-stroke with a hydraulic clutch, a 48 mm WP open-cartridge fork (300 mm travel) and a PDS shock (335 mm), 13/50 gearing, a 2.25-gallon tank and a 970 mm seat, and weighs about 247 lb without fuel. US list price $9,649.",
+   "values": {
+    "bore_stroke_mm": "95 x 72",
+    "gearing": "13/50",
+    "tank_gal": 2.25,
+    "weight_lb_no_fuel": 247,
+    "seat_mm": 970,
+    "msrp_usd": 9649
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "article",
+    "name": "Total Motorcycle - 2013 KTM 500 XC-W",
+    "url": "https://www.totalmotorcycle.com/motorcycles/2013models/2013-KTM-500XCW",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-025",
+   "domain": "identity",
+   "topic": "500 XC-W 2015 updates",
+   "applies_to": {
+    "models": [
+     "500 XC-W"
+    ],
+    "years": [
+     2015
+    ],
+    "make": "KTM"
+   },
+   "statement": "For 2015 the 500 XC-W got a lighter DDS clutch basket and new O-rings on the oil-pump suction screen for durability.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Off-Road.com - 2015 KTM dual-sport and cross-country bikes",
+    "url": "https://www.off-road.com/dirtbike/feature/2015-ktm-dualsport-and-crosscountry-dirt-bikes-53992.html",
+    "date": "2014"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-026",
+   "domain": "identity",
+   "topic": "FX 350 and FX 450 2019 engine and chassis changes",
+   "applies_to": {
+    "models": [
+     "FX 350",
+     "FX 450"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "For 2019 the FX 350 and FX 450 got a stiffer frame and triple clamps, a two-piece subframe about 9 oz lighter, new damping in the AER 48 fork and a shock with a new main piston, radiators mounted nearly half an inch lower, slimmer bodywork, new header pipes with a resonance chamber that come off without disturbing the shock, a shorter muffler, new launch and traction control settings and skid-plate mounts. The FX 450 got a lower cylinder head nearly 18 oz lighter with a new camshaft. The FX 350 got a head 7 oz lighter, larger titanium valves and a diaphragm-spring steel clutch that saves nearly 7 oz; it revs to 13,400 rpm.",
+   "values": {
+    "fx350_limiter_rpm": 13400,
+    "subframe": "2-piece, ~9 oz lighter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2019 Husqvarna cross country line-up first look",
+    "url": "https://ultimatemotorcycling.com/2018/06/18/2019-husqvarna-fx-450-fx-350-and-tx-300-first-look-15-fast-facts/",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d1-027",
+   "domain": "ecu_electronics",
+   "topic": "FX 350 2018 map switch, traction control and launch control",
+   "applies_to": {
+    "models": [
+     "FX 350"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The 2018 FX 350's bar switch chooses between two maps, turns traction control on or off and arms launch control for starts. Traction control compares throttle position with how fast the revs are rising and trims power when they climb too quickly. The bike is a 349.7 cc DOHC six-speed (semi-close ratios) with a Magura hydraulic clutch, the WP AER 48 fork (310 mm travel), a linkage shock (300 mm), a 2.25-gallon tank and a 960 mm seat, and weighs 221.8 lb without fuel.",
+   "values": {
+    "maps": 2,
+    "gearbox": "6-speed semi-close",
+    "tank_gal": 2.25,
+    "weight_lb_no_fuel": 221.8,
+    "seat_mm": 960
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "article",
+    "name": "Total Motorcycle - 2018 Husqvarna FX 350",
+    "url": "https://www.totalmotorcycle.com/motorcycles/2018/2018-husqvarna-fx350-review",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://bikereview.com.au/?p=17142",
+  "https://dirtbiketest.com/bike-tests/2015-ktm-250-xc-f/",
+  "https://dirtbiketest.com/bike-tests/2017-ktm-450xc-f/",
+  "https://dirtbiketest.com/fresh-dirt/2016-ktm-450xc-f-test-riding-impression",
+  "https://motocrossactionmag.com/mxa-race-test-2019-husqvarna-te300i",
+  "https://tmxnews.co.uk/news/motocross/husqvarna-enduro-test-in-full",
+  "https://transmoto.com.au/?p=65483",
+  "https://ultimatemotorcycling.com/2015/12/29/2016-husqvarna-fe-501-s-test-dual-sport-review/",
+  "https://ultimatemotorcycling.com/2018/06/18/2019-husqvarna-fx-450-fx-350-and-tx-300-first-look-15-fast-facts/",
+  "https://www.cyclenews.com/2015/06/article/first-rides-2016-ktm-sx-f-and-xc-f-four-strokes/",
+  "https://www.dirtrider.com/2019-husqvarna-te-250i-dyno-test/",
+  "https://www.motorradonline.de/enduro/husqvarna-fe-350-im-test-2018-sportenduro-im-check/",
+  "https://www.off-road.com/dirtbike/feature/2015-ktm-dualsport-and-crosscountry-dirt-bikes-53992.html",
+  "https://www.totalmotorcycle.com/motorcycles/2013models/2013-KTM-500XCW",
+  "https://www.totalmotorcycle.com/motorcycles/2018/2018-husqvarna-fx350-review"
+ ]
+}
