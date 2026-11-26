@@ -966,7 +966,7 @@
     ],
     "make": "Yamaha"
    },
-   "statement": "As delivered the 2015-generation WR250F is held back for sound and emissions and has a lean spot around one-third throttle that is annoying in technical riding. Closed-course uncorking is three parts: remove the throttle stop, the smallest muffler restrictor and the intake snorkel; it gains low and midrange and stays quiet. Yamaha's competition kit (about $110) unlocks the ECU for the Power Tuner. A YZ250FX ECU tried in testing removed the lean spot and added low and midrange, but the headlight did not work with it.",
+   "statement": "As delivered the 2015-generation WR250F is held back for sound and emissions and has a lean spot around one-third throttle that is annoying in technical riding. Closed-course uncorking is three parts: remove the throttle stop, the smallest muffler restrictor and the intake snorkel; it gains low and midrange and stays quiet. Yamaha's competition kit (about $110) is a replacement competition ECU supplied with a full-travel throttle stop screw; it removes the lean spot and works with the Power Tuner, which is sold separately. A YZ250FX ECU tried in testing removed the lean spot and added low and midrange, but the headlight did not work with it.",
    "values": {
     "uncork": "throttle stop, small muffler restrictor, intake snorkel",
     "comp_kit_usd": 110
@@ -2116,7 +2116,7 @@
     ],
     "make": "Husqvarna"
    },
-   "statement": "A magazine crew's 2017 TX 300 setup for a rough motocross track. Fork (AER 48): 150 psi (stock 139), compression 15 clicks out (stock 12), rebound 6 out (stock 12), legs at the second line. Shock (42 N/mm spring): race sag 105 mm (stock 110), high-speed compression 1-1/2 turns out (stock 2), low-speed compression 10 out (stock 15), rebound 8 out (stock 15). Stock it is soft on big hits and the shock squats in corners.",
+   "statement": "A magazine crew's 2017 TX 300 setup for a rough motocross track. Fork (AER 48): 150 psi (stock 139), compression 15 clicks out (stock 12), rebound 6 out (stock 12), legs at the second line. Shock (42 N/mm spring): race sag 105 mm (the test listed stock as 110; the owner's manual gives 105), high-speed compression 1-1/2 turns out (stock 2), low-speed compression 10 out (stock 15), rebound 8 out (stock 15). Stock it is soft on big hits and the shock squats in corners.",
    "values": {
     "fork_psi": "150 (stock 139)",
     "fork_comp": "15 out (stock 12)",
