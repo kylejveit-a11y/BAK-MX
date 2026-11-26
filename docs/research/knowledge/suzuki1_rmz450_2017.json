@@ -397,6 +397,71 @@
    },
    "confidence": "high",
    "notes": ""
+  },
+  {
+   "id": "s-z1-013",
+   "domain": "ecu_electronics",
+   "topic": "Wiring diagram: sensor and component wire colours",
+   "applies_to": {
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2017
+    ]
+   },
+   "statement": "Harness-side wire colours on the 2017 RM-Z450 wiring diagram. Suzuki's colour letters: B black, Bl blue, Br brown, Dg dark green, G green, Gr gray, Lg light green, O orange, P pink, R red, W white, Y yellow; a slash means base colour with a stripe. Throttle position sensor: red/blue, yellow and black/brown. Intake air pressure sensor: black/brown, green/black and red/blue. Intake air temperature sensor: dark green and black/brown. Coolant temperature sensor: black/blue and black/brown. Tip-over sensor: black/brown, brown/white and red/blue. Gear position switch: blue/black, pink and black/white. Fuel injector: red and gray/white. Fuel pump: red and red/black. Ignition coil: white/blue and black/white. Black/brown is the shared sensor ground and red/blue the shared sensor supply.",
+   "values": {
+    "tps": "R/Bl, Y, B/Br",
+    "iap": "B/Br, G/B, R/Bl",
+    "iat": "Dg, B/Br",
+    "ect": "B/Bl, B/Br",
+    "tip_over": "B/Br, Br/W, R/Bl",
+    "gear_switch": "Bl/B, P, B/W",
+    "injector": "R, Gr/W",
+    "fuel_pump": "R, R/B",
+    "ignition_coil": "W/Bl, B/W"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2017 RM-Z450 owner's service manual 99011-28H59-01A",
+    "url": "https://motorrad.suzuki.de/cms/api/delivery/file/portal_1/page_686/widget_2249/de/RMZ-450_L7_99011-28H59-01A.original.pdf",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "Read from the wiring diagram by eye; check the diagram on the bike before cutting, splicing or back-probing."
+  },
+  {
+   "id": "s-z1-014",
+   "domain": "ecu_electronics",
+   "topic": "Wiring diagram: magneto, charging and switches",
+   "applies_to": {
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2017
+    ]
+   },
+   "statement": "On the 2017 RM-Z450 the magneto connector carries four wires: red and green from the crank position pickup (blue and green/white in the harness) and two yellow charge-coil wires (both black in the harness, running to the regulator/rectifier). The regulator/rectifier's harness wires are black, black, red and black/white. A condenser on red and black/white stores charge in place of a battery, and an optional battery lead plugs in on red and black/white for diagnostics. Black/white is the ground. The engine stop switch connects black/yellow to black/white when pressed. The S-HAC (holeshot) switch connector carries red, blue/red, white/red and black/white.",
+   "values": {
+    "magneto_pickup": "R, G (harness Bl, G/W)",
+    "charge_coil": "Y, Y (harness B, B)",
+    "regulator": "B, B, R, B/W",
+    "condenser": "R, B/W",
+    "stop_switch": "B/Y, B/W",
+    "shac_switch": "R, Bl/R, W/R, B/W"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki 2017 RM-Z450 owner's service manual 99011-28H59-01A",
+    "url": "https://motorrad.suzuki.de/cms/api/delivery/file/portal_1/page_686/widget_2249/de/RMZ-450_L7_99011-28H59-01A.original.pdf",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "Read from the wiring diagram by eye; check the diagram on the bike before cutting, splicing or back-probing."
   }
  ],
  "conflicts": [],
