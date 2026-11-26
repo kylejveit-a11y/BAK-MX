@@ -36,7 +36,7 @@ const body=z.object({
  race:z.object({track:z.string().trim().max(120).optional(),date:z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),setup:z.boolean().optional()}).strict().optional(),
  preferences:z.object({units:z.enum(['us','metric']),answer_length:z.enum(['quick','full']),tone:z.enum(['straight','encouraging'])}).strict().optional(),
  // Speed tests: try a lighter reasoning level for the answer or the lookup planning, or skip the planning call. Riders never send this.
- trial:z.object({answer_effort:z.enum(['none','minimal','low','medium']).optional(),plan_effort:z.enum(['none','minimal','low','medium']).optional(),skip_plan:z.boolean().optional(),workshops:z.boolean().optional(),model:z.enum(['gpt-6.1-sol','gpt-6.2-sol','gpt-6.1-terra','gpt-6-luna']).optional(),knowledge_budget:z.number().int().min(2000).max(36000).optional(),lean_rank:z.boolean().optional(),knowledge_rows:z.number().int().min(2).max(28).optional(),shape:z.boolean().optional(),overview:z.boolean().optional()}).strict().optional(),
+ trial:z.object({answer_effort:z.enum(['none','minimal','low','medium']).optional(),plan_effort:z.enum(['none','minimal','low','medium']).optional(),skip_plan:z.boolean().optional(),workshops:z.boolean().optional(),model:z.enum(['gpt-6.1-sol','gpt-6.2-sol','gpt-6.1-terra','gpt-6-luna']).optional(),knowledge_budget:z.number().int().min(2000).max(36000).optional(),lean_rank:z.boolean().optional(),knowledge_rows:z.number().int().min(2).max(28).optional(),shape:z.boolean().optional(),overview:z.boolean().optional(),bare:z.boolean().optional()}).strict().optional(),
  setup_history:z.array(z.object({recorded_at:z.string().default(()=>new Date().toISOString()),track:z.string().max(120).default(''),conditions:z.string().max(120).default(''),
   change_made:z.string().max(1000).default(''),result:z.enum(['better','no_change','worse','not_tested']),notes:z.string().max(1000).default('')})).max(8).default([]),
 });
@@ -76,11 +76,13 @@ export async function handleEval(req:Request):Promise<Response>{
   const claims=bike?(extra.length?mergeSearchResults([await searchBikeClaims(admin,bike,lookups),await searchBikeClaims(admin,bike,extra)]):await searchBikeClaims(admin,bike,lookups)):[];
   const compared=bike?await comparisonClaims(admin,bike,data.message,lookups):[];
   const knowledge=bike?[...await bikeKnowledge(admin,bike,data.message,lookups,{budget:data.trial?.knowledge_budget,lean:data.trial?.lean_rank,rows:data.trial?.knowledge_rows,overview:data.trial?.overview}),...await comparisonKnowledge(admin,bike,data.message)]:[];
+  // Side-by-side tests: the same model and instructions with none of our bike data, to measure what the data adds.
+  if(data.trial?.bare){claims.length=0;compared.length=0;knowledge.length=0;}
   const tracks=data.race?.track?await trackContext(admin,ID+'02',[data.race.track,data.message]):[];
   const race=data.race?{...data.race,...(data.race.date&&data.race.track?{forecast:await raceForecast(...raceTrackAt(tracks,data.race.track),data.race.date,new Date().toISOString().slice(0,10))}:{})}:null;
   // Same engineering numbers as the live route (chassis, gearing, air and jetting), so tests cover them too.
-  const physics=bike?await physicsFor(admin,bike,[data.message,...history.filter(m=>m.role==='user').slice(-2).map(m=>m.content??'')],{tracks,raceTrack:data.race?.track??null,forecastHighF:race?.forecast&&race.forecast.available?race.forecast.high_f:null,raceMode:!!data.race}):null;
-  const physicsEvidence=(physics as {evidence?:typeof claims}|null)?.evidence;
+  const physics=bike&&!data.trial?.bare?await physicsFor(admin,bike,[data.message,...history.filter(m=>m.role==='user').slice(-2).map(m=>m.content??'')],{tracks,raceTrack:data.race?.track??null,forecastHighF:race?.forecast&&race.forecast.available?race.forecast.high_f:null,raceMode:!!data.race}):null;
+  const physicsEvidence=data.trial?.bare?undefined:(physics as {evidence?:typeof claims}|null)?.evidence;
   if(physicsEvidence?.length)for(const c of physicsEvidence)if(!claims.some(x=>x.id===c.id))claims.push(c);
   const t2=Date.now();
   const {response,raw}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true,[],data.images,tracks,data.media??null,null,data.preferences??null,race,physics,data.app??null,compared,bike?await riderWearFor(admin,bike,[data.message,...history.filter(m=>m.role==='user').slice(-2).map(m=>m.content??'')]):null,data.trial?.answer_effort||data.trial?.workshops||data.trial?.model?{...(data.trial.answer_effort?{effort:data.trial.answer_effort}:{}),workshops:data.trial.workshops===true,...(data.trial.model?{model:data.trial.model}:{})}:null);
