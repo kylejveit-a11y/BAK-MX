@@ -1,0 +1,1354 @@
+{
+ "slice": "Beta RX owner-manual backfill (2026-11)",
+ "platform": {
+  "make": "Beta",
+  "models": [
+   "RX 300",
+   "RX 450",
+   "RX 250",
+   "RX 350"
+  ],
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "records": [
+  {
+   "id": "b-r2-001",
+   "domain": "identity",
+   "topic": "Specifications: engine, size and weight",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2021-2022 Beta RX 300 is a 293.1 cc liquid-cooled two-stroke single, 72 x 72 mm bore and stroke, 11.4:1 compression, carbureted, electric start, 6-speed, with a centrifugal exhaust valve. Weight ready to ride without fuel is 99.7 kg (47.7 front, 51 rear). Wheelbase 1490 mm, seat height 970 mm, ground clearance 350 mm, footpeg height 430 mm, length 2180 mm. Fuel tank 9.5 litres. Tyres 90/90-21 front and 120/80-19 rear at 1 bar; rims 21x1.6 and 19x1.85, 36 spokes. Brakes: 260 mm front disc with twin-piston floating caliper, 240 mm rear with single-piston caliper. Frame: molybdenum steel double cradle.",
+   "values": {
+    "displacement_cc": 293.1,
+    "bore_stroke_mm": "72 x 72",
+    "compression": "11.4:1",
+    "weight_no_fuel_kg": 99.7,
+    "wheelbase_mm": 1490,
+    "seat_height_mm": 970,
+    "ground_clearance_mm": 350,
+    "fuel_l": 9.5,
+    "front_tyre": "90/90-21",
+    "rear_tyre": "120/80-19"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2020-2022",
+    "url": "https://betausa.com",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-002",
+   "domain": "setups",
+   "topic": "Stock jetting and spark plug",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "Stock carburetor settings on the 2021-2022 RX 300: main jet 172, slow jet 40, start jet 85, needle N1EG in the 3rd position from the top, air screw 1 1/2 turns out from closed. Spark plug NGK BR8ECM.",
+   "values": {
+    "main_jet": 172,
+    "slow_jet": 40,
+    "start_jet": 85,
+    "needle": "N1EG",
+    "clip_from_top": 3,
+    "air_screw_turns": 1.5,
+    "spark_plug": "NGK BR8ECM"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2020-2022",
+    "url": "https://betausa.com",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-003",
+   "domain": "drivetrain",
+   "topic": "Gearing and chain",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "2021-2022 RX 300 gearing: final drive 14/48, primary 27/72. Gearbox ratios 1st 12/31, 2nd 15/28, 3rd 19/28, 4th 20/24, 5th 27/27, 6th 28/24. Chain: 30 mm of slack measured at the swingarm as shown in the manual; replace the chain when 18 links measure 272 mm or more with the top run pulled tight. Rear axle nut 130 Nm.",
+   "values": {
+    "final_drive": "14/48",
+    "primary": "27/72",
+    "chain_slack_mm": 30,
+    "chain_18_link_limit_mm": 272
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2020-2022",
+    "url": "https://betausa.com",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-004",
+   "domain": "maintenance",
+   "topic": "Premix, fluids and capacities",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "2021-2022 RX 300: mix fuel at 2% oil (50:1) for normal use and 2.5% (40:1) for the first tank during break-in; 95 RON petrol. Gearbox oil 800 ml at a normal change, 850 ml after a full engine rebuild. Coolant 1300 ml. Fork oil quantity 525 g per leg for a completely dry fork. Beta USA's listed products are Motul: 800 2T premix oil, Transoil Expert 10W-40 gearbox oil, RBF 600 brake fluid, Factory Line 5 wt fork oil and Motocool Expert coolant.",
+   "values": {
+    "premix_normal": "2% (50:1)",
+    "premix_break_in": "2.5% (40:1)",
+    "gear_oil_ml": 800,
+    "gear_oil_rebuild_ml": 850,
+    "coolant_ml": 1300,
+    "fork_oil_g": 525
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2020-2022",
+    "url": "https://betausa.com",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-005",
+   "domain": "maintenance",
+   "topic": "Break-in procedure",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "Beta's break-in for the 2021-2022 RX 300 lasts about 5 hours. First tank at 2.5% premix. For the first 3 hours use about 70% of the power and stay under 11,000 rpm; for the next 2 hours use about 90%. Warm the engine properly and avoid holding a constant speed. Change the gearbox oil after the first 3 hours or 15 litres of fuel. Repeat the procedure whenever the piston, rings, cylinder, crankshaft or crank bearings are replaced.",
+   "values": {
+    "hours": 5,
+    "rpm_limit_first_3h": 11000
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2020-2022",
+    "url": "https://betausa.com",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-006",
+   "domain": "maintenance",
+   "topic": "Service schedule by hours",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "Beta's schedule for the 2021-2022 RX 300 runs in 30-hour service steps up to 180 hours. Gear and clutch oil: replace at the end of break-in (3 hours) and every 30 hours. Spark plug: check at 3 hours, replace every 60 hours. Piston and rings: replace every 60 hours. Cylinder and reed valve: check every 60 hours. Clutch friction plates and springs: check every 30 hours, replace at 90 and 180 hours. Connecting rod, crankshaft bearings and seals: replace at 90 and 180 hours. Cylinder head bolts: retighten at the end of break-in. Engine mount bolts: check every service. These are Beta's intervals for normal use; hard racing shortens them.",
+   "values": {
+    "gear_oil_h": 30,
+    "spark_plug_h": 60,
+    "piston_rings_h": 60,
+    "clutch_plates_h": 90,
+    "con_rod_h": 90,
+    "crank_bearings_h": 90
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2020-2022",
+    "url": "https://betausa.com",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Read from the schedule table by column position."
+  },
+  {
+   "id": "b-r2-007",
+   "domain": "maintenance",
+   "topic": "Chassis torque values",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "2021-2022 RX 300. Chassis torque values: front axle 50 Nm; fork lug pinch bolts 10 Nm (tighten repeatedly until stable); front brake caliper 35 Nm with medium threadlock; lower triple clamp pinch bolts 12 Nm and upper 17 Nm (both tightened repeatedly until stable); steering stem bolt 20 Nm; lower handlebar clamp to triple clamp 40 Nm with medium threadlock; upper handlebar clamp 25 Nm; rear axle 130 Nm; shock top and bottom 50 Nm; linkage bolts (pull rod and rocker) 90 Nm; gearbox oil drain plug 15 Nm; engine to frame 45 Nm; head-stay brackets 35 Nm with medium threadlock.",
+   "values": {
+    "front_axle_nm": 50,
+    "rear_axle_nm": 130,
+    "caliper_nm": 35,
+    "lower_clamp_nm": 12,
+    "upper_clamp_nm": 17,
+    "shock_nm": 50,
+    "linkage_nm": 90,
+    "gear_drain_nm": 15,
+    "engine_mount_nm": 45
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2020-2022",
+    "url": "https://betausa.com",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-008",
+   "domain": "suspension",
+   "topic": "Stock fork and shock settings from the owner's manual",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "2021-2022 RX 300 standard settings as printed in the owner's manual. Fork (closed cartridge, 48 mm, 310 mm travel): 4.5 N/mm springs, compression 8 clicks out from fully closed, rebound 12 clicks. Shock (135 mm stroke, 305 mm wheel travel): 5.2 daN/mm (about 52 N/mm) spring, static sag 38 mm, low-speed compression 22 clicks out, high-speed compression 20, rebound 15 clicks out.",
+   "values": {
+    "fork_spring_n_mm": 4.5,
+    "fork_comp": 8,
+    "fork_reb": 12,
+    "shock_spring_n_mm": 52,
+    "static_sag_mm": 38,
+    "shock_lsc": 22,
+    "shock_hsc": 20,
+    "shock_reb": 15
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2020-2022",
+    "url": "https://betausa.com",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "The manual prints the fork rebound as counted from fully open and the others from fully closed. Beta USA's separate KYB settings list for 2025 gives different click counts; use that list for a 2025 bike."
+  },
+  {
+   "id": "b-r2-009",
+   "domain": "identity",
+   "topic": "Specifications: engine, size and weight",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The 2023-2025 Beta RX 300 is a 293.1 cc liquid-cooled two-stroke single, 72 x 72 mm bore and stroke, 11.4:1 compression, carbureted, electric start, 6-speed, with a centrifugal exhaust valve. Weight ready to ride without fuel is 99.7 kg (47.7 front, 51 rear). Wheelbase 1490 mm, seat height 970 mm, ground clearance 350 mm, footpeg height 430 mm, length 2180 mm. Fuel tank 9.5 litres. Tyres 90/90-21 front and 120/80-19 rear at 1 bar; rims 21x1.6 and 19x1.85, 36 spokes. Brakes: 260 mm front disc with twin-piston floating caliper, 240 mm rear with single-piston caliper. Frame: molybdenum steel double cradle.",
+   "values": {
+    "displacement_cc": 293.1,
+    "bore_stroke_mm": "72 x 72",
+    "compression": "11.4:1",
+    "weight_no_fuel_kg": 99.7,
+    "wheelbase_mm": 1490,
+    "seat_height_mm": 970,
+    "ground_clearance_mm": 350,
+    "fuel_l": 9.5,
+    "front_tyre": "90/90-21",
+    "rear_tyre": "120/80-19"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2023-2025",
+    "url": "https://betausa.com",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-010",
+   "domain": "setups",
+   "topic": "Stock jetting and spark plug",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Stock carburetor settings on the 2023-2025 RX 300: main jet 172, slow jet 40, start jet 85, needle N1EG in the 3rd position from the top, air screw 1 1/2 turns out from closed. Spark plug NGK BR8ECM.",
+   "values": {
+    "main_jet": 172,
+    "slow_jet": 40,
+    "start_jet": 85,
+    "needle": "N1EG",
+    "clip_from_top": 3,
+    "air_screw_turns": 1.5,
+    "spark_plug": "NGK BR8ECM"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2023-2025",
+    "url": "https://betausa.com",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-011",
+   "domain": "drivetrain",
+   "topic": "Gearing and chain",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "2023-2025 RX 300 gearing: final drive 14/48, primary 27/72. Gearbox ratios 1st 12/31, 2nd 15/28, 3rd 19/28, 4th 20/24, 5th 27/27, 6th 28/24. Chain: 30 mm of slack measured at the swingarm as shown in the manual; replace the chain when 18 links measure 272 mm or more with the top run pulled tight. Rear axle nut 130 Nm.",
+   "values": {
+    "final_drive": "14/48",
+    "primary": "27/72",
+    "chain_slack_mm": 30,
+    "chain_18_link_limit_mm": 272
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2023-2025",
+    "url": "https://betausa.com",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-012",
+   "domain": "maintenance",
+   "topic": "Premix, fluids and capacities",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "2023-2025 RX 300: mix fuel at 2% oil (50:1) for normal use and 2.5% (40:1) for the first tank during break-in; 95 RON petrol. Gearbox oil 800 ml at a normal change, 850 ml after a full engine rebuild. Coolant 1300 ml. Fork oil quantity 525 g per leg for a completely dry fork. Listed products are Liqui Moly: Motorbike 2T Synth Offroad Race premix oil, Racing 10W-50 gear and clutch oil, DOT 5.1 brake and clutch fluid, KHL 15-11 fork oil.",
+   "values": {
+    "premix_normal": "2% (50:1)",
+    "premix_break_in": "2.5% (40:1)",
+    "gear_oil_ml": 800,
+    "gear_oil_rebuild_ml": 850,
+    "coolant_ml": 1300,
+    "fork_oil_g": 525
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2023-2025",
+    "url": "https://betausa.com",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-013",
+   "domain": "maintenance",
+   "topic": "Break-in procedure",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Beta's break-in for the 2023-2025 RX 300 lasts about 5 hours. First tank at 2.5% premix. For the first 3 hours use about 70% of the power and stay under 11,000 rpm; for the next 2 hours use about 90%. Warm the engine properly and avoid holding a constant speed. Change the gearbox oil after the first 3 hours or 15 litres of fuel. Repeat the procedure whenever the piston, rings, cylinder, crankshaft or crank bearings are replaced.",
+   "values": {
+    "hours": 5,
+    "rpm_limit_first_3h": 11000
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2023-2025",
+    "url": "https://betausa.com",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-014",
+   "domain": "maintenance",
+   "topic": "Service schedule by hours",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Beta's schedule for the 2023-2025 RX 300 runs in 30-hour service steps up to 180 hours. Gear and clutch oil: replace at the end of break-in (3 hours) and every 30 hours. Spark plug: check at 3 hours, replace every 60 hours. Piston and rings: replace every 60 hours. Cylinder and reed valve: check every 60 hours. Clutch friction plates and springs: check every 30 hours, replace at 90 and 180 hours. Connecting rod, crankshaft bearings and seals: replace at 90 and 180 hours. Cylinder head bolts: retighten at the end of break-in. Engine mount bolts: check every service. These are Beta's intervals for normal use; hard racing shortens them.",
+   "values": {
+    "gear_oil_h": 30,
+    "spark_plug_h": 60,
+    "piston_rings_h": 60,
+    "clutch_plates_h": 90,
+    "con_rod_h": 90,
+    "crank_bearings_h": 90
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2023-2025",
+    "url": "https://betausa.com",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Read from the schedule table by column position."
+  },
+  {
+   "id": "b-r2-015",
+   "domain": "maintenance",
+   "topic": "Chassis torque values",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "2023-2025 RX 300. Chassis torque values: front axle 50 Nm; fork lug pinch bolts 10 Nm (tighten repeatedly until stable); front brake caliper 35 Nm with medium threadlock; lower triple clamp pinch bolts 12 Nm and upper 17 Nm (both tightened repeatedly until stable); steering stem bolt 20 Nm; lower handlebar clamp to triple clamp 40 Nm with medium threadlock; upper handlebar clamp 25 Nm; rear axle 130 Nm; shock top and bottom 50 Nm; linkage bolts (pull rod and rocker) 90 Nm; gearbox oil drain plug 15 Nm; engine to frame 45 Nm; head-stay brackets 35 Nm with medium threadlock.",
+   "values": {
+    "front_axle_nm": 50,
+    "rear_axle_nm": 130,
+    "caliper_nm": 35,
+    "lower_clamp_nm": 12,
+    "upper_clamp_nm": 17,
+    "shock_nm": 50,
+    "linkage_nm": 90,
+    "gear_drain_nm": 15,
+    "engine_mount_nm": 45
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2023-2025",
+    "url": "https://betausa.com",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-016",
+   "domain": "suspension",
+   "topic": "Stock fork and shock settings from the owner's manual",
+   "applies_to": {
+    "models": [
+     "RX 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "2023-2025 RX 300 standard settings as printed in the owner's manual. Fork (closed cartridge, 48 mm, 310 mm travel): 4.5 N/mm springs, compression 8 clicks out from fully closed, rebound 12 clicks. Shock (135 mm stroke, 305 mm wheel travel): 5.2 daN/mm (about 52 N/mm) spring, static sag 38 mm, low-speed compression 22 clicks out, high-speed compression 20, rebound 15 clicks out.",
+   "values": {
+    "fork_spring_n_mm": 4.5,
+    "fork_comp": 8,
+    "fork_reb": 12,
+    "shock_spring_n_mm": 52,
+    "static_sag_mm": 38,
+    "shock_lsc": 22,
+    "shock_hsc": 20,
+    "shock_reb": 15
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 300 owner's manual 2023-2025",
+    "url": "https://betausa.com",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "The manual prints the fork rebound as counted from fully open and the others from fully closed. Beta USA's separate KYB settings list for 2025 gives different click counts; use that list for a 2025 bike."
+  },
+  {
+   "id": "b-r2-017",
+   "domain": "identity",
+   "topic": "Specifications: engine, size and weight",
+   "applies_to": {
+    "models": [
+     "RX 450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024-2026 Beta RX 450 is a 449.3 cc liquid-cooled four-stroke single, 97 x 60.8 mm bore and stroke, 13.4:1 compression, fuel injected with two injectors, electric start, 5-speed. Weight ready to ride with a full tank is 104.5 kg (51.1 front, 53.4 rear). Wheelbase 1485 mm, seat height 935 mm, ground clearance 310 mm, footpeg height 413 mm, length 2170 mm, width 825 mm. Fuel tank 7 litres. Tyres 80/100-21 front and 110/90-19 rear at 1 bar; rims 21x1.6 and 19x2.15. Brakes: 260 mm front disc with twin-piston floating caliper, 240 mm rear with single-piston caliper. Battery: 12 V 2 Ah lithium. Fuses: two 10 A, one of them a spare.",
+   "values": {
+    "displacement_cc": 449.3,
+    "bore_stroke_mm": "97 x 60.8",
+    "compression": "13.4:1",
+    "weight_full_fuel_kg": 104.5,
+    "wheelbase_mm": 1485,
+    "seat_height_mm": 935,
+    "ground_clearance_mm": 310,
+    "fuel_l": 7,
+    "front_tyre": "80/100-21",
+    "rear_tyre": "110/90-19",
+    "fuse": "10 A"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 450 owner's manual 2024-2026",
+    "url": "https://betausa.com",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-018",
+   "domain": "drivetrain",
+   "topic": "Gearing and chain",
+   "applies_to": {
+    "models": [
+     "RX 450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "2024-2026 RX 450 gearing: final drive 13/50, primary 31/72. Gearbox ratios 1st 14/29, 2nd 16/27, 3rd 19/27, 4th 20/24, 5th 26/24. Chain: 35 mm of slack measured as shown in the manual; replace the chain when 18 links measure 272 mm or more with the top run pulled tight. Rear axle nut 130 Nm.",
+   "values": {
+    "final_drive": "13/50",
+    "primary": "31/72",
+    "fifth": "26/24",
+    "chain_slack_mm": 35,
+    "chain_18_link_limit_mm": 272
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 450 owner's manual 2024-2026",
+    "url": "https://betausa.com",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-019",
+   "domain": "maintenance",
+   "topic": "Oils, fluids and capacities",
+   "applies_to": {
+    "models": [
+     "RX 450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "2024-2026 RX 450 has separate engine oil and gearbox/clutch oil. Engine oil 750 ml at a normal change, 800 ml after a full engine rebuild. Gear and clutch oil 750 ml at a normal change, 800 ml after a rebuild. Both: Liqui Moly Motorbike 4T Synth 10W-50 Offroad Race. Coolant 1300 ml. Fuel 95 RON. Brake and clutch fluid DOT 5.1. Fork oil KYB 01M, 545 g per leg for a completely dry fork. Spark plug NGK LKAR8A-9, gap 0.5 to 0.6 mm. Throttle cable free play 3 to 5 mm. Idle speed is set by the control unit and is not adjustable.",
+   "values": {
+    "engine_oil_ml": 750,
+    "engine_oil_rebuild_ml": 800,
+    "gear_oil_ml": 750,
+    "gear_oil_rebuild_ml": 800,
+    "oil": "10W-50",
+    "coolant_ml": 1300,
+    "fork_oil_g": 545,
+    "spark_plug": "NGK LKAR8A-9",
+    "plug_gap_mm": "0.5-0.6"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 450 owner's manual 2024-2026",
+    "url": "https://betausa.com",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-020",
+   "domain": "maintenance",
+   "topic": "Break-in procedure",
+   "applies_to": {
+    "models": [
+     "RX 450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Beta's break-in for the 2024-2026 RX 450 lasts about 15 hours. For the first 3 hours use about 50% of the power and stay under 7,000 rpm, then change the engine oil and the gearbox oil. For the next 12 hours use about 75% of the power.",
+   "values": {
+    "hours": 15,
+    "rpm_limit_first_3h": 7000
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 450 owner's manual 2024-2026",
+    "url": "https://betausa.com",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-021",
+   "domain": "maintenance",
+   "topic": "Service schedule by hours",
+   "applies_to": {
+    "models": [
+     "RX 450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Beta's schedule for the 2024-2026 RX 450 runs in 10-hour service steps up to 80 hours. Engine oil and gear/clutch oil: replace after break-in and every 10 hours. Wire-mesh oil screen: clean every 10 hours. Paper oil filter: replace after break-in and every 20 hours. Valve clearance: check after break-in and every 20 hours. Spark plug: replace every 40 hours. Piston and rings: replace every 40 hours. Clutch plates: check at 20 and 60 hours, replace at 40 and 80. Cylinder head bolts: retighten after break-in. After the first 100 km check the sprocket, brake disc, caliper and brake pedal bolts. These are intervals for normal use; hard racing shortens them.",
+   "values": {
+    "engine_oil_h": 10,
+    "gear_oil_h": 10,
+    "oil_filter_h": 20,
+    "valve_check_h": 20,
+    "spark_plug_h": 40,
+    "piston_rings_h": 40,
+    "clutch_plates_h": 40
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 450 owner's manual 2024-2026",
+    "url": "https://betausa.com",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Read from the schedule table by column position. The owner's manual does not print valve clearance values."
+  },
+  {
+   "id": "b-r2-022",
+   "domain": "maintenance",
+   "topic": "Chassis and drain plug torque values",
+   "applies_to": {
+    "models": [
+     "RX 450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "2024-2026 RX 450. Chassis torque values: front axle 50 Nm; fork lug pinch bolts 10 Nm (tighten repeatedly until stable); front brake caliper 35 Nm with medium threadlock; lower triple clamp pinch bolts 12 Nm and upper 17 Nm (both tightened repeatedly until stable); steering stem bolt 20 Nm; lower handlebar clamp to triple clamp 40 Nm with medium threadlock; upper handlebar clamp 25 Nm; rear axle 130 Nm; shock top and bottom 50 Nm; linkage bolts (pull rod and rocker) 90 Nm; steering bearing adjuster nut 33 Nm; engine oil drain plug 15 Nm; paper oil filter cover 10 Nm; gearbox oil drain plug 20 Nm; subframe to frame 35 Nm with medium threadlock; fuel tank to frame 10 Nm.",
+   "values": {
+    "front_axle_nm": 50,
+    "rear_axle_nm": 130,
+    "caliper_nm": 35,
+    "lower_clamp_nm": 12,
+    "upper_clamp_nm": 17,
+    "shock_nm": 50,
+    "linkage_nm": 90,
+    "engine_drain_nm": 15,
+    "oil_filter_cover_nm": 10,
+    "gear_drain_nm": 20,
+    "subframe_nm": 35
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 450 owner's manual 2024-2026",
+    "url": "https://betausa.com",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-023",
+   "domain": "suspension",
+   "topic": "Stock fork and shock settings from the owner's manual",
+   "applies_to": {
+    "models": [
+     "RX 450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "2024-2026 RX 450 standard settings as printed in the owner's manual, counted out from fully closed. Fork (KYB closed cartridge, 300 mm travel): 4.9 N/mm springs, compression 10 clicks, rebound 14 clicks. Shock (135 mm stroke, 295 mm wheel travel): 5.4 daN/mm (about 54 N/mm) spring, static sag 35 mm, low-speed compression 26 clicks, high-speed compression 2, rebound 16 clicks.",
+   "values": {
+    "fork_spring_n_mm": 4.9,
+    "fork_comp": 10,
+    "fork_reb": 14,
+    "shock_spring_n_mm": 54,
+    "static_sag_mm": 35,
+    "shock_lsc": 26,
+    "shock_hsc": 2,
+    "shock_reb": 16
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 450 owner's manual 2024-2026",
+    "url": "https://betausa.com",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Beta USA's separate KYB settings list for 2025 gives different shock click counts; use that list for a 2025 bike."
+  },
+  {
+   "id": "b-r2-024",
+   "domain": "identity",
+   "topic": "Specifications: engine, size and weight",
+   "applies_to": {
+    "models": [
+     "RX 450"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 Beta RX 450 is a 449.3 cc liquid-cooled four-stroke single, 97 x 60.8 mm bore and stroke, 13.4:1 compression, fuel injected with two injectors, electric start, 5-speed. Weight ready to ride with a full tank is 104.5 kg (51.1 front, 53.4 rear). Wheelbase 1485 mm, seat height 935 mm, ground clearance 310 mm, footpeg height 413 mm, length 2170 mm, width 825 mm. Fuel tank 7 litres. Tyres 80/100-21 front and 110/90-19 rear at 1 bar; rims 21x1.6 and 19x2.15. Brakes: 260 mm front disc with twin-piston floating caliper, 240 mm rear with single-piston caliper. Battery: 12 V 2 Ah lithium. Fuses: two 10 A, one of them a spare.",
+   "values": {
+    "displacement_cc": 449.3,
+    "bore_stroke_mm": "97 x 60.8",
+    "compression": "13.4:1",
+    "weight_full_fuel_kg": 104.5,
+    "wheelbase_mm": 1485,
+    "seat_height_mm": 935,
+    "ground_clearance_mm": 310,
+    "fuel_l": 7,
+    "front_tyre": "80/100-21",
+    "rear_tyre": "110/90-19",
+    "fuse": "10 A"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 450 owner's manual 2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-025",
+   "domain": "drivetrain",
+   "topic": "Gearing and chain",
+   "applies_to": {
+    "models": [
+     "RX 450"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "2027 RX 450 gearing: final drive 13/51, primary 31/72. Gearbox ratios 1st 14/29, 2nd 16/27, 3rd 19/27, 4th 20/24, 5th 27/27. Chain: 35 mm of slack measured as shown in the manual; replace the chain when 18 links measure 272 mm or more with the top run pulled tight. Rear axle nut 130 Nm.",
+   "values": {
+    "final_drive": "13/51",
+    "primary": "31/72",
+    "fifth": "27/27",
+    "chain_slack_mm": 35,
+    "chain_18_link_limit_mm": 272
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 450 owner's manual 2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-026",
+   "domain": "maintenance",
+   "topic": "Oils, fluids and capacities",
+   "applies_to": {
+    "models": [
+     "RX 450"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "2027 RX 450 has separate engine oil and gearbox/clutch oil. Engine oil 750 ml at a normal change, 800 ml after a full engine rebuild. Gear and clutch oil 750 ml at a normal change, 800 ml after a rebuild. Both: Liqui Moly Motorbike 4T Synth 10W-50 Offroad Race. Coolant 1300 ml. Fuel 95 RON. Brake and clutch fluid DOT 5.1. Fork oil KYB 01M, 545 g per leg for a completely dry fork. Spark plug NGK LKAR8A-9, gap 0.5 to 0.6 mm. Throttle cable free play 3 to 5 mm. Idle speed is set by the control unit and is not adjustable.",
+   "values": {
+    "engine_oil_ml": 750,
+    "engine_oil_rebuild_ml": 800,
+    "gear_oil_ml": 750,
+    "gear_oil_rebuild_ml": 800,
+    "oil": "10W-50",
+    "coolant_ml": 1300,
+    "fork_oil_g": 545,
+    "spark_plug": "NGK LKAR8A-9",
+    "plug_gap_mm": "0.5-0.6"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 450 owner's manual 2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-027",
+   "domain": "maintenance",
+   "topic": "Break-in procedure",
+   "applies_to": {
+    "models": [
+     "RX 450"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Beta's break-in for the 2027 RX 450 lasts about 15 hours. For the first 3 hours use about 50% of the power and stay under 7,000 rpm, then change the engine oil and the gearbox oil. For the next 12 hours use about 75% of the power.",
+   "values": {
+    "hours": 15,
+    "rpm_limit_first_3h": 7000
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 450 owner's manual 2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-028",
+   "domain": "maintenance",
+   "topic": "Service schedule by hours",
+   "applies_to": {
+    "models": [
+     "RX 450"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Beta's schedule for the 2027 RX 450 runs in 10-hour service steps up to 80 hours. Engine oil and gear/clutch oil: replace after break-in and every 10 hours. Wire-mesh oil screen: clean every 10 hours. Paper oil filter: replace after break-in and every 20 hours. Valve clearance: check after break-in and every 20 hours. Spark plug: replace every 40 hours. Piston and rings: replace every 40 hours. Clutch plates: check at 20 and 60 hours, replace at 40 and 80. Cylinder head bolts: retighten after break-in. After the first 100 km check the sprocket, brake disc, caliper and brake pedal bolts. These are intervals for normal use; hard racing shortens them.",
+   "values": {
+    "engine_oil_h": 10,
+    "gear_oil_h": 10,
+    "oil_filter_h": 20,
+    "valve_check_h": 20,
+    "spark_plug_h": 40,
+    "piston_rings_h": 40,
+    "clutch_plates_h": 40
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 450 owner's manual 2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Read from the schedule table by column position. The owner's manual does not print valve clearance values."
+  },
+  {
+   "id": "b-r2-029",
+   "domain": "maintenance",
+   "topic": "Chassis and drain plug torque values",
+   "applies_to": {
+    "models": [
+     "RX 450"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "2027 RX 450. Chassis torque values: front axle 50 Nm; fork lug pinch bolts 10 Nm (tighten repeatedly until stable); front brake caliper 35 Nm with medium threadlock; lower triple clamp pinch bolts 12 Nm and upper 17 Nm (both tightened repeatedly until stable); steering stem bolt 20 Nm; lower handlebar clamp to triple clamp 40 Nm with medium threadlock; upper handlebar clamp 25 Nm; rear axle 130 Nm; shock top and bottom 50 Nm; linkage bolts (pull rod and rocker) 90 Nm; steering bearing adjuster nut 33 Nm; engine oil drain plug 15 Nm; paper oil filter cover 10 Nm; gearbox oil drain plug 20 Nm; subframe to frame 35 Nm with medium threadlock; fuel tank to frame 10 Nm.",
+   "values": {
+    "front_axle_nm": 50,
+    "rear_axle_nm": 130,
+    "caliper_nm": 35,
+    "lower_clamp_nm": 12,
+    "upper_clamp_nm": 17,
+    "shock_nm": 50,
+    "linkage_nm": 90,
+    "engine_drain_nm": 15,
+    "oil_filter_cover_nm": 10,
+    "gear_drain_nm": 20,
+    "subframe_nm": 35
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 450 owner's manual 2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-030",
+   "domain": "suspension",
+   "topic": "Stock fork and shock settings from the owner's manual",
+   "applies_to": {
+    "models": [
+     "RX 450"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "2027 RX 450 standard settings as printed in the owner's manual, counted out from fully closed. Fork (KYB closed cartridge, 300 mm travel): 4.9 N/mm springs, compression 12 clicks, rebound 14 clicks. Shock (135 mm stroke, 295 mm wheel travel): 5.4 daN/mm (about 54 N/mm) spring, static sag 35 mm, low-speed compression 26 clicks, high-speed compression 2, rebound 16 clicks.",
+   "values": {
+    "fork_spring_n_mm": 4.9,
+    "fork_comp": 12,
+    "fork_reb": 14,
+    "shock_spring_n_mm": 54,
+    "static_sag_mm": 35,
+    "shock_lsc": 26,
+    "shock_hsc": 2,
+    "shock_reb": 16
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 450 owner's manual 2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Beta USA's separate KYB settings list for 2025 gives different shock click counts; use that list for a 2025 bike."
+  },
+  {
+   "id": "b-r2-031",
+   "domain": "identity",
+   "topic": "Specifications: engine, size and weight",
+   "applies_to": {
+    "models": [
+     "RX 250"
+    ],
+    "years": [
+     2026,
+     2027
+    ]
+   },
+   "statement": "The 2026-2027 Beta RX 250 is a 249.3 cc liquid-cooled two-stroke single, 66.4 x 72 mm bore and stroke, 14.6:1 compression, carbureted, electric start, 5-speed, with a centrifugal exhaust valve. Weight ready to ride without fuel is 100 kg (48 front, 52 rear). Wheelbase 1482 mm, seat height 945 mm, ground clearance 340 mm, footpeg height 422 mm, length 2177 mm, width 830 mm. Fuel tank 7 litres. Tyres 80/100-21 front and 110/90-19 rear at 1 bar; rims 21x1.6 and 19x2.15, 36 spokes. Brakes: 260 mm front disc with twin-piston floating caliper, 240 mm rear with single-piston caliper.",
+   "values": {
+    "displacement_cc": 249.3,
+    "bore_stroke_mm": "66.4 x 72",
+    "compression": "14.6:1",
+    "weight_no_fuel_kg": 100,
+    "wheelbase_mm": 1482,
+    "seat_height_mm": 945,
+    "fuel_l": 7
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 2-stroke (RX 250 / RX 350) owner's manual 2026-2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-032",
+   "domain": "identity",
+   "topic": "Specifications: engine, size and weight",
+   "applies_to": {
+    "models": [
+     "RX 350"
+    ],
+    "years": [
+     2026,
+     2027
+    ]
+   },
+   "statement": "The 2026-2027 Beta RX 350 is a 351.7 cc liquid-cooled two-stroke single, 78 x 73.6 mm bore and stroke, 12.45:1 compression, carbureted, electric start, 5-speed, with a centrifugal exhaust valve and a twin-plug head. Weight ready to ride without fuel is 100 kg (48 front, 52 rear). Wheelbase 1482 mm, seat height 945 mm, ground clearance 340 mm, footpeg height 422 mm, length 2177 mm, width 830 mm. Fuel tank 7 litres. Tyres 80/100-21 front and 110/90-19 rear at 1 bar; rims 21x1.6 and 19x2.15, 36 spokes. Brakes: 260 mm front disc with twin-piston floating caliper, 240 mm rear with single-piston caliper.",
+   "values": {
+    "displacement_cc": 351.7,
+    "bore_stroke_mm": "78 x 73.6",
+    "compression": "12.45:1",
+    "weight_no_fuel_kg": 100,
+    "wheelbase_mm": 1482,
+    "seat_height_mm": 945,
+    "fuel_l": 7
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 2-stroke (RX 250 / RX 350) owner's manual 2026-2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-033",
+   "domain": "setups",
+   "topic": "Stock jetting and spark plug",
+   "applies_to": {
+    "models": [
+     "RX 250"
+    ],
+    "years": [
+     2026,
+     2027
+    ]
+   },
+   "statement": "Stock carburetor settings on the 2026-2027 RX 250: main jet 190, slow jet 48, start jet 85, needle N0ZI in the 3rd position from the top. Spark plug NGK BR8ECM. The air screw setting for the RX 250 is not clearly printed in the manual text.",
+   "values": {
+    "main_jet": 190,
+    "slow_jet": 48,
+    "start_jet": 85,
+    "needle": "N0ZI",
+    "clip_from_top": 3,
+    "spark_plug": "NGK BR8ECM"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 2-stroke (RX 250 / RX 350) owner's manual 2026-2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-034",
+   "domain": "setups",
+   "topic": "Stock jetting and spark plug",
+   "applies_to": {
+    "models": [
+     "RX 350"
+    ],
+    "years": [
+     2026,
+     2027
+    ]
+   },
+   "statement": "Stock carburetor settings on the 2026-2027 RX 350: main jet 180, slow jet 45, start jet 85, needle N0ZD in the 3rd position from the top, air screw 1 1/2 turns out from closed. Spark plug NGK MR7CI8.",
+   "values": {
+    "main_jet": 180,
+    "slow_jet": 45,
+    "start_jet": 85,
+    "needle": "N0ZD",
+    "clip_from_top": 3,
+    "air_screw_turns": 1.5,
+    "spark_plug": "NGK MR7CI8"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 2-stroke (RX 250 / RX 350) owner's manual 2026-2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-035",
+   "domain": "drivetrain",
+   "topic": "Gearing and chain",
+   "applies_to": {
+    "models": [
+     "RX 250"
+    ],
+    "years": [
+     2026,
+     2027
+    ]
+   },
+   "statement": "2026-2027 RX 250 gearing: final drive 13/50, primary 27/72. Gearbox ratios 1st 14/29, 2nd 16/27, 3rd 19/27, 4th 20/24, 5th 27/27. Chain: 30 mm of slack measured at the swingarm as shown in the manual; replace the chain when 18 links measure 272 mm or more with the top run pulled tight. Rear axle nut 130 Nm.",
+   "values": {
+    "final_drive": "13/50",
+    "primary": "27/72",
+    "chain_slack_mm": 30,
+    "chain_18_link_limit_mm": 272
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 2-stroke (RX 250 / RX 350) owner's manual 2026-2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-036",
+   "domain": "drivetrain",
+   "topic": "Gearing and chain",
+   "applies_to": {
+    "models": [
+     "RX 350"
+    ],
+    "years": [
+     2026,
+     2027
+    ]
+   },
+   "statement": "2026-2027 RX 350 gearing: final drive 14/47, primary 27/72. Gearbox ratios 1st 14/29, 2nd 16/27, 3rd 19/27, 4th 20/24, 5th 27/27. Chain: 30 mm of slack measured at the swingarm as shown in the manual; replace the chain when 18 links measure 272 mm or more with the top run pulled tight. Rear axle nut 130 Nm.",
+   "values": {
+    "final_drive": "14/47",
+    "primary": "27/72",
+    "chain_slack_mm": 30,
+    "chain_18_link_limit_mm": 272
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 2-stroke (RX 250 / RX 350) owner's manual 2026-2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-037",
+   "domain": "maintenance",
+   "topic": "Premix, fluids and capacities",
+   "applies_to": {
+    "models": [
+     "RX 250",
+     "RX 350"
+    ],
+    "years": [
+     2026,
+     2027
+    ]
+   },
+   "statement": "2026-2027 RX 250 and RX 350: mix fuel at 2.5% oil (40:1) for normal use and 2.8% (about 36:1) for the first tank during break-in; 95 RON petrol. Gearbox oil 800 ml at a normal change, 850 ml after a full engine rebuild. Coolant 1300 ml. Fork oil KHL 15-11, 495 g per leg (outer tube plus cartridge) for a completely dry fork. Listed products are Liqui Moly: Motorbike 2T Synth Offroad Race premix oil, Racing 10W-50 gear and clutch oil, DOT 5.1 brake and clutch fluid.",
+   "values": {
+    "premix_normal": "2.5% (40:1)",
+    "premix_break_in": "2.8%",
+    "gear_oil_ml": 800,
+    "gear_oil_rebuild_ml": 850,
+    "coolant_ml": 1300,
+    "fork_oil_g": 495
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 2-stroke (RX 250 / RX 350) owner's manual 2026-2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-038",
+   "domain": "maintenance",
+   "topic": "Service schedule by hours",
+   "applies_to": {
+    "models": [
+     "RX 250",
+     "RX 350"
+    ],
+    "years": [
+     2026,
+     2027
+    ]
+   },
+   "statement": "Beta's schedule for the 2026-2027 RX 250 and RX 350 runs in 20-hour service steps up to 80 hours. Gear and clutch oil: replace at the end of break-in and every 20 hours. Silencer packing: replace every 20 hours. Spark plug: check after break-in, replace every 40 hours. Piston and rings: replace every 40 hours. Clutch friction plates: check at 20 and 60 hours, replace at 40 and 80. Exhaust valve: check and clean every 40 hours. Water pump seal: replace every 40 hours. Reed valve: check at 40 hours, replace at 80. Connecting rod: replace at 80 hours. Cylinder head bolts: retighten at the end of break-in. After the first 3 hours check the sprocket, brake disc, caliper and brake pedal bolts. Break-in lasts about 5 hours; change the gearbox oil after the first 3 hours. These are intervals for normal use; hard racing shortens them.",
+   "values": {
+    "gear_oil_h": 20,
+    "spark_plug_h": 40,
+    "piston_rings_h": 40,
+    "clutch_plates_h": 40,
+    "con_rod_h": 80,
+    "silencer_packing_h": 20
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 2-stroke (RX 250 / RX 350) owner's manual 2026-2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Read from the schedule table by column position."
+  },
+  {
+   "id": "b-r2-039",
+   "domain": "maintenance",
+   "topic": "Chassis torque values",
+   "applies_to": {
+    "models": [
+     "RX 250",
+     "RX 350"
+    ],
+    "years": [
+     2026,
+     2027
+    ]
+   },
+   "statement": "2026-2027 RX 250 and RX 350. Chassis torque values: front axle 50 Nm; fork lug pinch bolts 10 Nm (tighten repeatedly until stable); front brake caliper 35 Nm with medium threadlock; lower triple clamp pinch bolts 12 Nm and upper 17 Nm (both tightened repeatedly until stable); steering stem bolt 20 Nm; lower handlebar clamp to triple clamp 40 Nm with medium threadlock; upper handlebar clamp 25 Nm; rear axle 130 Nm; shock top and bottom 50 Nm; linkage bolts (pull rod and rocker) 90 Nm; steering bearing adjuster nut 30 Nm; gearbox oil drain plug 15 Nm; engine to frame 45 Nm; head-stay brackets 35 Nm with medium threadlock.",
+   "values": {
+    "front_axle_nm": 50,
+    "rear_axle_nm": 130,
+    "caliper_nm": 35,
+    "lower_clamp_nm": 12,
+    "upper_clamp_nm": 17,
+    "shock_nm": 50,
+    "linkage_nm": 90,
+    "gear_drain_nm": 15,
+    "engine_mount_nm": 45
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 2-stroke (RX 250 / RX 350) owner's manual 2026-2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "b-r2-040",
+   "domain": "suspension",
+   "topic": "Stock fork and shock settings from the owner's manual",
+   "applies_to": {
+    "models": [
+     "RX 250",
+     "RX 350"
+    ],
+    "years": [
+     2026,
+     2027
+    ]
+   },
+   "statement": "2026-2027 RX 250 and RX 350 standard settings as printed in the owner's manual. Fork (closed cartridge, 48 mm, 310 mm travel): 4.4 N/mm springs, compression 12 clicks out from fully closed, rebound 14 clicks. Shock (133 mm stroke, 300 mm wheel travel): 5.2 daN/mm (about 52 N/mm) spring, static sag 38 mm, low-speed compression 14 clicks out (plus or minus half), high-speed compression 2, rebound 18 clicks out (plus or minus half).",
+   "values": {
+    "fork_spring_n_mm": 4.4,
+    "fork_comp": 12,
+    "fork_reb": 14,
+    "shock_spring_n_mm": 52,
+    "static_sag_mm": 38,
+    "shock_lsc": 14,
+    "shock_hsc": 2,
+    "shock_reb": 18
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Beta RX 2-stroke (RX 250 / RX 350) owner's manual 2026-2027",
+    "url": "https://betausa.com",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "The manual prints the fork rebound as counted from fully open and the others from fully closed."
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://betausa.com"
+ ]
+}
