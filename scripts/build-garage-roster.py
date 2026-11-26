@@ -59,6 +59,10 @@ for r in json.load(open('docs/research/parts-pass14/INVENTORY_STATUS.json',encod
     t=r['target']
     if r['catalog_inventory_complete'] and t.get('region','US')=='US' and t.get('variant','standard')=='standard' and (t['manufacturer'],t['model']) in discipline:
         years[(t['manufacturer'],t['model'])].add(t['model_year'])
+# Suzuki from the maker's own service manuals the owner supplied 2026-11-26 (Suzuki Germany archive and Suzuki Australia,
+# each read cover to cover for its own year): 2017 RM-Z450, 2017 RM-Z250 and 2022 RM85. Added at the owner's request.
+for key,y,cyc in [(('Suzuki','RM-Z450'),2017,'4-stroke'),(('Suzuki','RM-Z250'),2017,'4-stroke'),(('Suzuki','RM85'),2022,'2-stroke')]:
+    years[key].add(y);discipline.setdefault(key,'motocross');cycle.setdefault(key,cyc)
 order={'motocross':0,'cross-country':1,'enduro':2,'enduro-offroad':2}
 makes=defaultdict(list)
 for (make,model),ys in years.items(): makes[make].append(model)
