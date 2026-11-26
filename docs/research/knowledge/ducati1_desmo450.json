@@ -1,0 +1,175 @@
+{
+ "slice": "Ducati Desmo450 MX backfill (2026-11)",
+ "platform": {
+  "make": "Ducati",
+  "models": [
+   "Desmo450 MX"
+  ],
+  "years": [
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "d-m1-001",
+   "domain": "identity",
+   "topic": "Specifications: engine, size and weight",
+   "applies_to": {
+    "models": [
+     "Desmo450 MX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The Ducati Desmo450 MX is a 449.6 cc four-stroke single with desmodromic valve gear (the valves are closed mechanically, with no valve springs), chain-driven double overhead cams and four valves. Bore and stroke 96 x 62.1 mm, compression 13.5:1. Ducati quotes 63.5 hp at 9,400 rpm and 53.5 Nm (39.5 lb-ft) at 7,500 rpm, with the rev limiter at 11,900 rpm. Intake valves are 40 mm titanium; exhaust valves are 33 mm steel, hollow and sodium-filled. Throttle body: Mikuni 44 mm. Frame: aluminium perimeter. Wheelbase 1,496 mm, rake 27.3 degrees, trail 118.4 mm, seat height 970 mm. Fuel tank 7.2 litres (1.9 US gal). Weight ready to ride without fuel 104.8 kg. Tyres 80/100-21 front and 110/90-19 rear. Brakes: Brembo calipers with 260 mm front and 240 mm rear discs.",
+   "values": {
+    "displacement_cc": 449.6,
+    "bore_stroke_mm": "96 x 62.1",
+    "compression": "13.5:1",
+    "power_hp": 63.5,
+    "torque_nm": 53.5,
+    "rev_limit_rpm": 11900,
+    "wheelbase_mm": 1496,
+    "rake_deg": 27.3,
+    "trail_mm": 118.4,
+    "seat_height_mm": 970,
+    "fuel_l": 7.2,
+    "weight_no_fuel_kg": 104.8,
+    "throttle_body_mm": 44
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Ducati Desmo450 MX model page, technical specification",
+    "url": "https://www.ducati.com/ca/en/bikes/offroad/desmo450-mx/insights?tab=Tech+Spec",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "From Ducati's published specification for the Desmo450 MX; the page does not state a model year, so confirm against the owner's manual for the bike."
+  },
+  {
+   "id": "d-m1-002",
+   "domain": "drivetrain",
+   "topic": "Gearing, gearbox and clutch",
+   "applies_to": {
+    "models": [
+     "Desmo450 MX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Desmo450 MX drivetrain: 5-speed gearbox with an up-only quickshifter. Final drive 13-tooth front and 51-tooth rear on a DID DMS 520 chain. Primary drive is straight-cut gears at 2.45:1. Gear ratios as Ducati lists them: 1st 31/15, 2nd 30/18, 3rd 28/20, 4th 26/22, 5th 24/24. Clutch: wet multiplate with hydraulic control.",
+   "values": {
+    "final_drive": "13/51",
+    "chain": "DID DMS 520",
+    "primary_ratio": 2.45,
+    "gears": 5
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Ducati Desmo450 MX model page, technical specification",
+    "url": "https://www.ducati.com/ca/en/bikes/offroad/desmo450-mx/insights?tab=Tech+Spec",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "From Ducati's published specification for the Desmo450 MX; the page does not state a model year, so confirm against the owner's manual for the bike."
+  },
+  {
+   "id": "d-m1-003",
+   "domain": "suspension",
+   "topic": "Stock suspension hardware and travel",
+   "applies_to": {
+    "models": [
+     "Desmo450 MX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Desmo450 MX suspension: Showa 49 mm upside-down closed-cartridge fork with 310 mm of travel, and a Showa shock with a 16 mm shaft and 129 mm of stroke giving 301 mm of rear wheel travel. For North America Ducati lists a 50 N/mm shock spring and a 22 mm triple clamp offset. Ducati's page does not give click settings or sag figures; those are not confirmed here.",
+   "values": {
+    "fork": "Showa 49 mm closed cartridge",
+    "fork_travel_mm": 310,
+    "shock_stroke_mm": 129,
+    "rear_wheel_travel_mm": 301,
+    "shock_spring_n_mm_na": 50,
+    "offset_mm_na": 22
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Ducati Desmo450 MX model page, technical specification",
+    "url": "https://www.ducati.com/ca/en/bikes/offroad/desmo450-mx/insights?tab=Tech+Spec",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "From Ducati's published specification for the Desmo450 MX; the page does not state a model year, so confirm against the owner's manual for the bike."
+  },
+  {
+   "id": "d-m1-004",
+   "domain": "maintenance",
+   "topic": "Service intervals",
+   "applies_to": {
+    "models": [
+     "Desmo450 MX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Ducati's published intervals for the Desmo450 MX: engine oil and oil filter every 15 hours; piston replacement and valve clearance check every 45 hours; full engine service every 90 hours. Factory warranty is 3 months or 20 hours of use. Oil capacity and valve clearance values are not on Ducati's page and are not confirmed here.",
+   "values": {
+    "oil_h": 15,
+    "piston_h": 45,
+    "valve_check_h": 45,
+    "engine_service_h": 90
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Ducati Desmo450 MX model page, technical specification",
+    "url": "https://www.ducati.com/ca/en/bikes/offroad/desmo450-mx/insights?tab=Tech+Spec",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "From Ducati's published specification for the Desmo450 MX; the page does not state a model year, so confirm against the owner's manual for the bike."
+  },
+  {
+   "id": "d-m1-005",
+   "domain": "ecu_electronics",
+   "topic": "Rider aids: traction control, launch control, maps and quickshifter",
+   "applies_to": {
+    "models": [
+     "Desmo450 MX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Desmo450 MX electronics: traction control (DTC) with four levels that can also be switched off; launch control with three levels, which switches itself off in fourth gear or when the throttle is closed; engine brake control with two levels; two throttle response maps, Smooth and Dynamic; an up-only quickshifter; and two riding modes that can be configured from Ducati's X-Link app with the optional WiFi module.",
+   "values": {
+    "traction_control_levels": 4,
+    "launch_control_levels": 3,
+    "engine_brake_levels": 2,
+    "maps": "Smooth, Dynamic"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Ducati Desmo450 MX model page, technical specification",
+    "url": "https://www.ducati.com/ca/en/bikes/offroad/desmo450-mx/insights?tab=Tech+Spec",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "From Ducati's published specification for the Desmo450 MX; the page does not state a model year, so confirm against the owner's manual for the bike."
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://www.ducati.com/ca/en/bikes/offroad/desmo450-mx/insights?tab=Tech+Spec"
+ ]
+}
