@@ -1,0 +1,537 @@
+{
+ "slice": "WP factory setting sheets: 2025 KTM 450 SX-F US fork and shock (2026-11)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "450 SX-F"
+  ],
+  "years": [
+   2025
+  ]
+ },
+ "records": [
+  {
+   "id": "wp-a-001",
+   "domain": "suspension",
+   "topic": "Fork setting sheet A460C159Y406000: clickers, air pressure by rider weight, oil",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "WP's setting sheet for the 2025 450 SX-F US fork (article A460C159Y406000, shared with the Factory Edition): compression 12 clicks out standard (17 comfort, 7 sport); rebound 18 clicks out standard (23 comfort, 13 sport). Air pressure by rider weight: 10.3 bar (149 psi) for 143-165 lb, 10.5 bar (152 psi) standard for 165-187 lb, 10.7 bar (155 psi) for 187-209 lb. Service fill: 380 ml in the right damper cartridge, 240 ml in each outer tube (190 to 250 ml allowed), 5 g of grease in the left air cartridge, SAE 4 oil. Fork travel 310 mm, fork length 950 mm.",
+   "values": {
+    "article": "A460C159Y406000",
+    "comp_clicks": [
+     "17",
+     "12",
+     "7"
+    ],
+    "reb_clicks": [
+     "23",
+     "18",
+     "13"
+    ],
+    "air_bar": [
+     "10.3",
+     "10.5",
+     "10.7"
+    ],
+    "rider_kg": [
+     "65-75",
+     "75-85",
+     "85-95"
+    ],
+    "cartridge_oil_ml": "380",
+    "outer_tube_ml": "240",
+    "oil_sae": "4"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "WP setting list A460C159Y406000",
+    "url": "https://www.ktmshop.se/documents/SL_A460C159Y406000_-_de-en.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "wp-a-002",
+   "domain": "suspension",
+   "topic": "Fork factory shim stacks, article A460C159Y406000",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Factory valve stacks for the 2025 450 SX-F US fork (WP article A460C159Y406000). Mid-valve compression: 8x12x0.20 (3 of them), 8x24x0.20 (2 of them), 8x22x0.20, 8x20x0.20, 8x18x0.20, 8x16x0.20, 8x14x0.20, 8x11x0.20, 8x12x0.15, 8x13x0.15, 8x14x0.15, 8x16x0.15, 8x18x0.15, 8x20x0.15, 8x22x0.15, 8x24x0.15, 8x26x0.15 (2 of them), 8x28x0.15 (2 of them), 8x30x0.15 (8 of them), 6x9x0.20 (5 of them). Mid-valve rebound: 6x18x4, 6x18x0.40 (4 of them), 6x10x0.15, 6x11x0.15, 6x16x0.10, 6x18x0.10, 6x20x0.10, 6x22x0.10, 6x24x0.10, 6x26x0.10, 6x28x0.10 (2 of them), 6x26x0.10, 6x24x0.10. Base valve compression: 6x25x4, 6x16x0.20, 6x18x0.15, 6x20x0.15, 6x22x0.15, 6x24x0.15, 6x26x0.15, 6x28x0.15, 6x30x0.15 (2 of them), 6x23x0.10, 6x30x0.15 (10 of them). Base valve rebound: 6x18x4, 6x10x0.20, 48601841. Sizes are inner x outer diameter x thickness in mm, in the order printed; an 8-digit number is a KTM part. Match the article number on the component and record the stack you find before changing it.",
+   "values": {
+    "article": "A460C159Y406000",
+    "stacks": {
+     "shims piston midvalve / compression": [
+      [
+       3,
+       "8x12x0.20"
+      ],
+      [
+       2,
+       "8x24x0.20"
+      ],
+      [
+       1,
+       "8x22x0.20"
+      ],
+      [
+       1,
+       "8x20x0.20"
+      ],
+      [
+       1,
+       "8x18x0.20"
+      ],
+      [
+       1,
+       "8x16x0.20"
+      ],
+      [
+       1,
+       "8x14x0.20"
+      ],
+      [
+       1,
+       "8x11x0.20"
+      ],
+      [
+       1,
+       "8x12x0.15"
+      ],
+      [
+       1,
+       "8x13x0.15"
+      ],
+      [
+       1,
+       "8x14x0.15"
+      ],
+      [
+       1,
+       "8x16x0.15"
+      ],
+      [
+       1,
+       "8x18x0.15"
+      ],
+      [
+       1,
+       "8x20x0.15"
+      ],
+      [
+       1,
+       "8x22x0.15"
+      ],
+      [
+       1,
+       "8x24x0.15"
+      ],
+      [
+       2,
+       "8x26x0.15"
+      ],
+      [
+       2,
+       "8x28x0.15"
+      ],
+      [
+       8,
+       "8x30x0.15"
+      ],
+      [
+       5,
+       "6x9x0.20"
+      ]
+     ],
+     "shims piston midvalve / rebound": [
+      [
+       1,
+       "6x18x4"
+      ],
+      [
+       4,
+       "6x18x0.40"
+      ],
+      [
+       1,
+       "6x10x0.15"
+      ],
+      [
+       1,
+       "6x11x0.15"
+      ],
+      [
+       1,
+       "6x16x0.10"
+      ],
+      [
+       1,
+       "6x18x0.10"
+      ],
+      [
+       1,
+       "6x20x0.10"
+      ],
+      [
+       1,
+       "6x22x0.10"
+      ],
+      [
+       1,
+       "6x24x0.10"
+      ],
+      [
+       1,
+       "6x26x0.10"
+      ],
+      [
+       2,
+       "6x28x0.10"
+      ],
+      [
+       1,
+       "6x26x0.10"
+      ],
+      [
+       1,
+       "6x24x0.10"
+      ]
+     ],
+     "shims piston basevalve / compression": [
+      [
+       1,
+       "6x25x4"
+      ],
+      [
+       1,
+       "6x16x0.20"
+      ],
+      [
+       1,
+       "6x18x0.15"
+      ],
+      [
+       1,
+       "6x20x0.15"
+      ],
+      [
+       1,
+       "6x22x0.15"
+      ],
+      [
+       1,
+       "6x24x0.15"
+      ],
+      [
+       1,
+       "6x26x0.15"
+      ],
+      [
+       1,
+       "6x28x0.15"
+      ],
+      [
+       2,
+       "6x30x0.15"
+      ],
+      [
+       1,
+       "6x23x0.10"
+      ],
+      [
+       10,
+       "6x30x0.15"
+      ]
+     ],
+     "shims piston basevalve / rebound": [
+      [
+       1,
+       "6x18x4"
+      ],
+      [
+       1,
+       "6x10x0.20"
+      ],
+      [
+       1,
+       "48601841"
+      ]
+     ]
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "WP setting list A460C159Y406000",
+    "url": "https://www.ktmshop.se/documents/SL_A460C159Y406000_-_de-en.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "wp-a-003",
+   "domain": "suspension",
+   "topic": "Shock setting sheet A460C459Y408000: clickers, sag, springs by rider weight, gas pressure",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "WP's setting sheet for the 2025 450 SX-F US shock (article A460C459Y408000, shared with the Factory Edition): low-speed compression 15 clicks out standard (17 comfort, 13 sport); high-speed compression 1.5 turns out standard (2 comfort, 1 sport); rebound 15 clicks out standard (17 comfort, 13 sport). Static sag 35 mm, rider sag 105 mm, spring preload 8 mm. Springs by rider weight: 42 N/mm for 143-165 lb (KTM 91210132), 45 N/mm standard for 165-187 lb (KTM 91210133), 48 N/mm for 187-209 lb (KTM 91210134); all 240 mm long. Gas pressure 10 bar (145 psi), SAE 2.5 oil. Shock length 456.3 mm, stroke 140.1 mm.",
+   "values": {
+    "article": "A460C459Y408000",
+    "lsc_clicks": [
+     "17",
+     "15",
+     "13"
+    ],
+    "hsc_turns": [
+     "2",
+     "1.5",
+     "1"
+    ],
+    "reb_clicks": [
+     "17",
+     "15",
+     "13"
+    ],
+    "static_sag_mm": "35",
+    "rider_sag_mm": "105",
+    "springs": [
+     [
+      "42",
+      "240",
+      "91210132"
+     ],
+     [
+      "45",
+      "240",
+      "91210133"
+     ],
+     [
+      "48",
+      "240",
+      "91210134"
+     ]
+    ],
+    "gas_bar": "10",
+    "oil_sae": "2.5"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "WP setting list A460C459Y408000",
+    "url": "https://www.ktmshop.se/documents/SL_A460C459Y408000_-_de-en.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "wp-a-004",
+   "domain": "suspension",
+   "topic": "Shock factory shim stacks, article A460C459Y408000",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Factory valve stacks for the 2025 450 SX-F US shock (WP article A460C459Y408000). Main piston compression: 12x30x0.30 (3 of them), 12x22x0.30, 12x24x0.25, 12x26x0.25, 12x28x0.25, 12x30x0.25, 12x32x0.25, 12x34x0.25, 12x36x0.25, 12x38x0.25, 12x40x0.25, 12x42x0.25, 12x44x0.25, 12x32x0.10, 12x44x0.20 (12 of them). Main piston rebound: 12x22x0.30, 12x24x0.30, 12x26x0.30, 12x28x0.30, 12x30x0.30, 12x32x0.30, 12x34x0.25, 12x38x0.25, 12x22x0.15, 12x38x0.20 (3 of them). Compression adjuster unit: 6x9x0.30 (3 of them), 6x10x0.15, 6x11x0.15, 6x12x0.15, 6x13x0.15, 6x14x0.15, 6x15x0.15, 6x16x0.15, 6x17x0.15, 6x18x0.15, 6x20x0.15, 6x22x0.15 (6 of them). Sizes are inner x outer diameter x thickness in mm, in the order printed; an 8-digit number is a KTM part. Match the article number on the component and record the stack you find before changing it.",
+   "values": {
+    "article": "A460C459Y408000",
+    "stacks": {
+     "shims piston 1 / compression": [
+      [
+       3,
+       "12x30x0.30"
+      ],
+      [
+       1,
+       "12x22x0.30"
+      ],
+      [
+       1,
+       "12x24x0.25"
+      ],
+      [
+       1,
+       "12x26x0.25"
+      ],
+      [
+       1,
+       "12x28x0.25"
+      ],
+      [
+       1,
+       "12x30x0.25"
+      ],
+      [
+       1,
+       "12x32x0.25"
+      ],
+      [
+       1,
+       "12x34x0.25"
+      ],
+      [
+       1,
+       "12x36x0.25"
+      ],
+      [
+       1,
+       "12x38x0.25"
+      ],
+      [
+       1,
+       "12x40x0.25"
+      ],
+      [
+       1,
+       "12x42x0.25"
+      ],
+      [
+       1,
+       "12x44x0.25"
+      ],
+      [
+       1,
+       "12x32x0.10"
+      ],
+      [
+       12,
+       "12x44x0.20"
+      ]
+     ],
+     "shims piston 1 / rebound": [
+      [
+       1,
+       "12x22x0.30"
+      ],
+      [
+       1,
+       "12x24x0.30"
+      ],
+      [
+       1,
+       "12x26x0.30"
+      ],
+      [
+       1,
+       "12x28x0.30"
+      ],
+      [
+       1,
+       "12x30x0.30"
+      ],
+      [
+       1,
+       "12x32x0.30"
+      ],
+      [
+       1,
+       "12x34x0.25"
+      ],
+      [
+       1,
+       "12x38x0.25"
+      ],
+      [
+       1,
+       "12x22x0.15"
+      ],
+      [
+       3,
+       "12x38x0.20"
+      ]
+     ],
+     "details compression unit / description": [
+      [
+       3,
+       "6x9x0.30"
+      ],
+      [
+       1,
+       "6x10x0.15"
+      ],
+      [
+       1,
+       "6x11x0.15"
+      ],
+      [
+       1,
+       "6x12x0.15"
+      ],
+      [
+       1,
+       "6x13x0.15"
+      ],
+      [
+       1,
+       "6x14x0.15"
+      ],
+      [
+       1,
+       "6x15x0.15"
+      ],
+      [
+       1,
+       "6x16x0.15"
+      ],
+      [
+       1,
+       "6x17x0.15"
+      ],
+      [
+       1,
+       "6x18x0.15"
+      ],
+      [
+       1,
+       "6x20x0.15"
+      ],
+      [
+       6,
+       "6x22x0.15"
+      ]
+     ]
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "WP setting list A460C459Y408000",
+    "url": "https://www.ktmshop.se/documents/SL_A460C459Y408000_-_de-en.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://www.ktmshop.se/documents/SL_A460C159Y406000_-_de-en.pdf",
+  "https://www.ktmshop.se/documents/SL_A460C459Y408000_-_de-en.pdf"
+ ]
+}
