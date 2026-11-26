@@ -32,6 +32,11 @@ manual_confirmed={('Yamaha','YZ450F'):[2018,2019],('Yamaha','YZ250F'):[2019],
 for key,ys in manual_confirmed.items():
     years[key].update(ys)
     discipline.setdefault(key,'motocross');cycle.setdefault(key,'4-stroke')
+# 2019 fuel-injected two-strokes (sold as TE 250i / TE 300i and 250 / 300 XC-W TPI): US sale confirmed by the makers'
+# 2019 US model announcements (Husqvarna 2019 enduro lineup release; KTM 2019 XC-W unveiling). Added at the owner's
+# request 2026-11-26 so the 2019 test records can load. Identity only; no owner's manual is on file for these years.
+for key in [('Husqvarna','TE 250'),('Husqvarna','TE 300'),('KTM','250 XC-W'),('KTM','300 XC-W')]:
+    years[key].add(2019)
 # 2010-2019 bikes: model-years whose own owner's manual was read and loaded (docs/research/older/<batch>/<i>.json, cover checked).
 import glob
 # Families sold only before 2020 (their own owner's manual is on file); not in the launch roster.
