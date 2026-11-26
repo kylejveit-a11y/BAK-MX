@@ -144,7 +144,7 @@
      2025
     ]
    },
-   "statement": "Sensor wiring on the 2025 CRF450R. The three-wire sensors share the red/yellow 5 V supply and the green/red sensor ground. Throttle position sensor: red/yellow, green/red and a yellow signal wire. Intake pressure (MAP) sensor: red/yellow, green/red and a light blue signal wire. Intake air temperature sensor: gray signal and green/red ground. Coolant temperature sensor: pink signal and green/red ground. Crank position sensor: blue/yellow and white/yellow. Gear position switch: brown to the ECM, grounded through the switch. Fuel injector: black power feed and a pink wire switched by the ECM. Ignition coil: black power feed and a yellow/blue wire switched by the ECM. Fuel pump: black power feed and a white wire switched by the ECM.",
+   "statement": "Sensor wiring on the 2025 CRF450R. The three-wire sensors share the red/yellow 5 V supply and the green/red sensor ground. Throttle position sensor: red/yellow, green/red and a yellow signal wire. Intake pressure (MAP) sensor: red/yellow, green/red and a light blue signal wire. Intake air temperature sensor: gray signal and green/red ground. Coolant temperature sensor: pink signal and green/red ground. Crank position sensor: blue/yellow and white/yellow. Gear position switch: brown to the ECM, grounded through the switch. Fuel injector: black power feed and a pink wire switched by the ECM. Ignition coil: yellow/blue from the ECM on the coil's black (+) terminal and a green ground wire on its green (-) terminal. Fuel pump: black power feed and a white wire switched by the ECM.",
    "values": {
     "tps": "R/Y, G/R, Y",
     "map": "R/Y, G/R, Lb",
@@ -153,7 +153,7 @@
     "ckp": "Bu/Y, W/Y",
     "gear_switch": "Br",
     "injector": "Bl, P",
-    "coil": "Bl, Y/Bu",
+    "coil": "Y/Bu (+ terminal), G (- terminal)",
     "fuel_pump": "Bl, W"
    },
    "tier": "OEM",
@@ -212,7 +212,7 @@
      2025
     ]
    },
-   "statement": "Charging and starting on the 2025 CRF450R: the alternator feeds the regulator/rectifier through three yellow wires, and the regulator's output charges a 12 V 2.3 Ah battery. A 10 A fuse sits at the starter relay switch. A combined starter/main relay unit with a diode powers the bike: the main relay feeds the black power wires to the ECM, injector, ignition coil and fuel pump. The starter switch signals the ECM on blue/black, and the ECM drives the starter relay on yellow/black. Battery negative and the engine ground wires are green.",
+   "statement": "Charging and starting on the 2025 CRF450R: the alternator feeds the regulator/rectifier through three yellow wires, and the regulator's output charges a 12 V 2.3 Ah battery. A 10 A fuse sits at the starter relay switch. A combined starter/main relay unit with a diode powers the bike: the main relay feeds the black power wires to the ECM, injector and fuel pump. The starter switch signals the ECM on blue/black, and the ECM drives the starter relay on yellow/black. Battery negative and the engine ground wires are green.",
    "values": {
     "alternator_leads": "Y, Y, Y",
     "fuse_a": 10,
