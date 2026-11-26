@@ -1,0 +1,477 @@
+{
+ "slice": "Deepening pass 9: second-source 2018 and 2019 250F shootouts and Husqvarna TC 125 / TC 250 tests for 2017 and 2019 (knowledge push 2026-11)",
+ "platform": {
+  "make": "Husqvarna",
+  "models": [
+   "TC 125"
+  ],
+  "years": [
+   2017,
+   2018,
+   2019
+  ]
+ },
+ "records": [
+  {
+   "id": "o-d9-001",
+   "domain": "chassis",
+   "topic": "FC 250 2018 second-opinion shootout notes and wet weight",
+   "applies_to": {
+    "models": [
+     "FC 250"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "A second magazine ranked the 2018 FC 250 first of its 250F test: ready to race as delivered, with smoother initial throttle response than the KTM, an easy-to-find fork setting, a seat that locks the rider in, and traction control, launch control and on-the-fly maps. It needs momentum to stay in its best rpm, weighs about 233 lb fuelled and listed at $8,799. For 2018 it got Magura brake calipers and a lithium-ion battery.",
+   "values": {
+    "rank": 1,
+    "weight_lb": "about 233",
+    "msrp_usd": 8799
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2018 250F motocross shootout",
+    "url": "https://www.cyclenews.com/2017/12/article/2018-250f-motocross-shootout/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d9-002",
+   "domain": "chassis",
+   "topic": "250 SX-F 2018 second-opinion shootout notes and wet weight",
+   "applies_to": {
+    "models": [
+     "250 SX-F"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "KTM"
+   },
+   "statement": "A second magazine ranked the 2018 250 SX-F second: the lightest in the test at 232 lb fuelled, with aggressive low-end response, strong top-end pull and improved fork feel from the revised air-fork damping. Its seat is flatter than the Husqvarna's, it needs momentum to stay in the power and it is less friendly for novices.",
+   "values": {
+    "rank": 2,
+    "weight_lb": 232
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2018 250F motocross shootout",
+    "url": "https://www.cyclenews.com/2017/12/article/2018-250f-motocross-shootout/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d9-003",
+   "domain": "chassis",
+   "topic": "CRF250R 2018 second-opinion shootout notes and wet weight",
+   "applies_to": {
+    "models": [
+     "CRF250R"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Honda"
+   },
+   "statement": "A second magazine ranked the new 2018 CRF250R third: nimble, confident cornering, strong brake feel and a much-improved engine, but almost no low-end grunt and a map system of flashing lights that is hard to follow. It weighed 238 lb fuelled.",
+   "values": {
+    "rank": 3,
+    "weight_lb": 238
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2018 250F motocross shootout",
+    "url": "https://www.cyclenews.com/2017/12/article/2018-250f-motocross-shootout/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d9-004",
+   "domain": "chassis",
+   "topic": "YZ250F 2018 second-opinion shootout notes and wet weight",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "A second magazine ranked the 2018 YZ250F fourth: plush fork action early in the stroke, balanced power across the revs and a planted feel into corners, but no electric start, mapping that needs the separate handheld tuner (about $299) with the engine off, and loud intake and exhaust. Blue rims and graphics were its only 2018 changes.",
+   "values": {
+    "rank": 4,
+    "tuner_usd": 298.99
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2018 250F motocross shootout",
+    "url": "https://www.cyclenews.com/2017/12/article/2018-250f-motocross-shootout/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d9-005",
+   "domain": "chassis",
+   "topic": "KX250 2018 second-opinion shootout notes and wet weight",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2018
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "A second magazine ranked the 2018 KX250F fifth: crisp power off the bottom, quick side-to-side transitions, 35 mm of bar adjustment and footpegs that drop 5 mm, at 233 lb fuelled. Braking and mid-corner steering trail the others, and stiffness at the top of the fork stroke brings some headshake. For 2018 it got a new head, throttle body, intake cam and header, with a softer fork spring and more preload. Swapping the map coupler at the track boosted low-end.",
+   "values": {
+    "rank": 5,
+    "weight_lb": 233
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2018 250F motocross shootout",
+    "url": "https://www.cyclenews.com/2017/12/article/2018-250f-motocross-shootout/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d9-006",
+   "domain": "chassis",
+   "topic": "YZ250F 2019 third-opinion shootout notes and settings",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Yamaha"
+   },
+   "statement": "A third magazine named the 2019 YZ250F its clear 250F winner, top in every scored category: strong power, electric start, a slimmer frame, strong brakes and an easy cable clutch. Testers found the stock suspension firm and replaced the half-waffle grips quickly.",
+   "values": {
+    "rank": 1
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine - 2019 250F motocross shootout",
+    "url": "https://adbmag.com.au/editorial/2019-250f-motocross-shootout/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d9-007",
+   "domain": "setups",
+   "topic": "CRF250R 2019 third-opinion shootout notes and settings",
+   "applies_to": {
+    "models": [
+     "CRF250R"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Honda"
+   },
+   "statement": "A third magazine ranked the 2019 CRF250R second, up from fourth the year before, on the best handling of the group and improved bottom-end. Riders still wanted more power and a stronger front brake. Settings used: 104 mm of rider sag and shock high-speed compression one full turn out. For 2019 it got a new cam profile, ports and a 44 mm throttle body.",
+   "values": {
+    "rank": 2,
+    "sag_mm": 104,
+    "hsc": "1 turn out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine - 2019 250F motocross shootout",
+    "url": "https://adbmag.com.au/editorial/2019-250f-motocross-shootout/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d9-008",
+   "domain": "chassis",
+   "topic": "250 SX-F 2019 third-opinion shootout notes and settings",
+   "applies_to": {
+    "models": [
+     "250 SX-F"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "KTM"
+   },
+   "statement": "A third magazine ranked the 2019 250 SX-F third: slimmer between the knees with smoother power that responds to over-revving, but mellower than the 2018 engine, twitchy at the front and with a fork too active for heavier riders. Testers lowered the fork pressure to soften the first part of the stroke and suggested a couple more teeth on the rear sprocket.",
+   "values": {
+    "rank": 3,
+    "gearing": "+2 rear teeth"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine - 2019 250F motocross shootout",
+    "url": "https://adbmag.com.au/editorial/2019-250f-motocross-shootout/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d9-009",
+   "domain": "chassis",
+   "topic": "FC 250 2019 third-opinion shootout notes and settings",
+   "applies_to": {
+    "models": [
+     "FC 250"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "A third magazine ranked the 2019 FC 250 fourth: a slimmer, more rigid chassis that some riders preferred to the KTM at high revs, but a mellower engine, wide gear spacing and a fork that struggled with small bumps. Much lower fork air pressure helped, and one to two teeth more on the rear sprocket was recommended.",
+   "values": {
+    "rank": 4,
+    "gearing": "+1 to 2 rear teeth"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine - 2019 250F motocross shootout",
+    "url": "https://adbmag.com.au/editorial/2019-250f-motocross-shootout/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d9-010",
+   "domain": "setups",
+   "topic": "KX250 2019 third-opinion shootout notes and settings",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "A third magazine's 2019 250F test found the KX250 suited bigger riders, with a good front brake and good cornering, but a twitchy fork with mid-stroke harshness and an exhaust that holds it back. Settings used: 105 mm of rider sag, minimal fork preload and the leaner coupler for more aggressive power.",
+   "values": {
+    "sag_mm": 105,
+    "coupler": "lean"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine - 2019 250F motocross shootout",
+    "url": "https://adbmag.com.au/editorial/2019-250f-motocross-shootout/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d9-011",
+   "domain": "identity",
+   "topic": "TC 125 2019 updates",
+   "applies_to": {
+    "models": [
+     "TC 125"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "For 2019 the TC 125 got the stiffer frame shared across the motocross line, new air-fork and shock settings, a new muffler, a machined upper edge on the exhaust port, new Mikuni settings, a new six-speed gearbox and a diaphragm-spring clutch. Claimed dry weight is 192.9 lb, the engine weighs 37.9 lb and it listed at $7,299.",
+   "values": {
+    "claimed_dry_weight_lb": 192.9,
+    "engine_lb": 37.9,
+    "msrp_usd": 7299
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2019 Husqvarna TC 125 first test",
+    "url": "https://cyclenews.com/2018/08/article/2019-husqvarna-tc-125-first-test",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d9-012",
+   "domain": "setups",
+   "topic": "TC 125 2019 first-test setup notes",
+   "applies_to": {
+    "models": [
+     "TC 125"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "On the 2019 TC 125 the power is strong and long for a 125, with adequate but not torquey bottom-end, and how fast it goes depends on shift timing and clutch use. The air fork is predictable and controlled on big hits. If the front pushes in turns, reduce rider sag by 1-2 mm. A 180 lb tester wanted a stiffer shock spring.",
+   "values": {
+    "push_fix": "1-2 mm less sag"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2019 Husqvarna TC 125 first test",
+    "url": "https://cyclenews.com/2018/08/article/2019-husqvarna-tc-125-first-test",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d9-013",
+   "domain": "power_feel",
+   "topic": "TC 125 and TC 250 2019 launch-test notes",
+   "applies_to": {
+    "models": [
+     "TC 125",
+     "TC 250"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "At the 2019 launch test both two-strokes had the new diaphragm-steel clutch, more than 300 g lighter than the six-spring unit, and a smoother-shifting gearbox. The TC 125 got a revised airbox, inlet tract, pipe and jetting and its power is meatier and broader. The TC 250 got a more compact pipe with an oval section that tucks in to the frame, and more power at lower revs with a smooth, linear delivery. Suspension at both ends is plusher and more progressive with slightly better bottoming resistance; the tester started at standard fork pressure and stiffened both ends for bigger holes and braking bumps.",
+   "values": {
+    "clutch_saving_g": "over 300"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Transmoto - 2019 Husqvarna TC125 and TC250 tested",
+    "url": "https://transmoto.com.au/tested-2019-husqvarna-tc125-tc250",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d9-014",
+   "domain": "engine_mods",
+   "topic": "TC 250 2019 power-valve springs",
+   "applies_to": {
+    "models": [
+     "TC 250"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "The 2019 TC 250 is delivered with a power-valve spring that makes the power smooth, which some testers found a little too smooth. A snappier spring comes with the bike and swaps in about two minutes.",
+   "values": {
+    "swap_minutes": 2
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "TMX News - 2019 Husqvarna MX range on test",
+    "url": "https://tmxnews.co.uk/news/motocross/on-test-2019-husqvarna-mx-range",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d9-015",
+   "domain": "power_feel",
+   "topic": "FC 250, FC 350 and FC 450 2019 launch-test character",
+   "applies_to": {
+    "models": [
+     "FC 250",
+     "FC 350",
+     "FC 450"
+    ],
+    "years": [
+     2019
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "At the 2019 launch test the FC 450 was milder and less snappy than before and pulls high gears easily, with suspension plush at the top and firm in the mid-stroke. The FC 350 needs revving, holds gears well and turns slightly easier than the 450. The FC 250's new cam timing gives better bottom-end and throttle response than 2018, though it lacked midrange in sand. All three have a seat 10 mm lower by the maker's claim, 22 mm offset clamps and a two-piece subframe 250 g lighter.",
+   "values": {
+    "offset_mm": 22
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "TMX News - 2019 Husqvarna MX range on test",
+    "url": "https://tmxnews.co.uk/news/motocross/on-test-2019-husqvarna-mx-range",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "o-d9-016",
+   "domain": "setups",
+   "topic": "TC 125 2017 air fork and jetting notes",
+   "applies_to": {
+    "models": [
+     "TC 125"
+    ],
+    "years": [
+     2017
+    ],
+    "make": "Husqvarna"
+   },
+   "statement": "For 2017 the TC 125 got the WP AER 48 air fork and a 38 mm Mikuni, with a rear brake pedal 10 mm longer. It weighs 87.4 kg without fuel. A test setup: 130 psi in the fork with compression 16 clicks out, more shock compression to match, and a stiffer shock spring for the long term. Check fork pressure before every moto, since temperature changes it noticeably. Jetting on the Australian-market test bike was a 470 main, 42.5 pilot and 44-74 needle on the second clip, and it ran well on pump fuel. Final drive is 13/50; one or two more rear teeth were suggested for racing.",
+   "values": {
+    "weight_kg_no_fuel": 87.4,
+    "fork_psi": 130,
+    "fork_comp": "16 out",
+    "gearing": "13/50, +1 or 2 rear for racing"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Action - 2017 Husqvarna TC125 test",
+    "url": "https://www.dirtaction.com.au/?p=28256",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": "Jetting quoted is the Australian-market specification of the test bike; confirm against the US manual."
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://adbmag.com.au/editorial/2019-250f-motocross-shootout/",
+  "https://cyclenews.com/2018/08/article/2019-husqvarna-tc-125-first-test",
+  "https://tmxnews.co.uk/news/motocross/on-test-2019-husqvarna-mx-range",
+  "https://transmoto.com.au/tested-2019-husqvarna-tc125-tc250",
+  "https://www.cyclenews.com/2017/12/article/2018-250f-motocross-shootout/",
+  "https://www.dirtaction.com.au/?p=28256"
+ ]
+}
