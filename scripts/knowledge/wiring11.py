@@ -1,0 +1,38 @@
+"""KTM four-stroke SX-F wiring 2011-2015, read by eye from KTM's wiring diagram sheets (owner-supplied 2026-11-26):
+250 SX-F 2011 (kick start), 250 SX-F 2012 and 350 SX-F 2012 (the two 2012 sets are pixel-identical),
+350 SX-F 2014-2015 (range printed in the title block) and the carbureted 450 SX-F 2012.
+The 2016 250 SX-F copy is too low-resolution to read wire colours and is not used.
+Facts only; pages are not stored. Medium confidence. usage: python3 scripts/knowledge/wiring11.py"""
+import sys,os
+sys.path.insert(0,os.path.join(os.path.dirname(os.path.abspath(__file__)),'pre2020'))
+from _lib import File
+F=File('wiring11_ktm_sxf_2011_2015','w-k3','KTM SX-F 2011-2015 wiring (wiring pass 2026-11)','KTM',['250 SX-F','350 SX-F','450 SX-F'],[2011,2012,2014,2015])
+s=F.src('manufacturer','KTM repair manual wiring diagram sheets, SX-F models 2011-2015','https://www.ktm.com','2014')
+COL={'bl':'black','br':'brown','bu':'blue','gn':'green','gr':'gray','lbu':'light blue','or':'orange','pk':'pink','pu':'violet','rd':'red','wh':'white','ye':'yellow'}
+def c(x): return '/'.join(COL[p] for p in x.split('-'))
+NOTE='Read from the wiring diagram by eye; check the diagram on the bike before cutting, splicing or back-probing.'
+LEG=" KTM's colour letters: bl black, br brown, bu blue, gn green, gr gray, lbu light blue, or orange, pu violet, rd red, wh white, ye yellow."
+BASE={1:('or','switched power in'),2:('ye-rd','rollover sensor signal'),3:('wh-ye','crankshaft position sensor'),4:('bl-br','map-select switch (optional)'),5:('ye','throttle position signal'),6:('pu','manifold pressure signal'),8:('br-pu','ground'),9:('ye-bu','crankshaft position sensor'),10:('lbu','diagnostics connector pin 4'),13:('bu','sensor supply'),14:('wh-rd','battery positive'),15:('bu-gr','fuel pump'),16:('bl-gr','injector'),18:('wh-pu','ignition coil'),21:('wh','FI warning lamp'),22:('rd-pu','coolant temperature signal'),24:('bl','sensor ground'),25:('rd','intake air temperature signal'),30:('wh-bl','power relay control'),31:('bl-bu','CAN line, diagnostics pin 2'),32:('wh-bu','CAN line, diagnostics pin 3'),34:('bl-ye','kill switch'),35:('br','ground'),36:('br','ground')}
+P14=dict(BASE);P14.update({34:('wh-gr','kill switch'),10:('bl-rd','diagnostics connector pin 4'),22:('bl-ye','coolant temperature signal'),2:('ye-gn','rollover sensor signal'),4:('bl-br','map-select switch and launch control switch')})
+P11=dict(BASE);P11[30]=('wh-bl','to voltage regulator and diagnostics pin 5')
+def pin(models,years,P,tail):
+    parts='; '.join(f"{n} {c(w)}, {m}" for n,(w,m) in sorted(P.items()))
+    F.R('ecu_electronics','EFI control unit connector pinout',models,years,f"EFI control unit 36-pin plug on the {'-'.join(str(y) for y in (years[0],years[-1])) if len(years)>1 else years[0]} {' and '.join(models)}, as pin, wire colour and where it goes: {parts}.{tail}",
+        {str(n):f"{w} {m}" for n,(w,m) in P.items()},'OEM',s,'medium',NOTE)
+SENS=" Each three-wire sensor (throttle, manifold pressure, rollover) has its signal wire plus blue sensor supply and black sensor ground; the temperature sensors return on black."
+pin(['250 SX-F'],[2011],P11,SENS)
+pin(['250 SX-F','350 SX-F'],[2012],BASE,SENS)
+pin(['350 SX-F'],[2014,2015],P14,SENS)
+F.R('ecu_electronics','Starting, charging and power wiring',['250 SX-F','350 SX-F'],[2012],
+ "Power side of the 2012 250 SX-F and 350 SX-F. White/red is battery positive after the 10 A main fuse, which sits in the starter relay; it feeds the capacitor, the voltage regulator, the power relay and EFI pin 14. Orange is power switched by the power relay and feeds the EFI unit (pin 1), injector, FI warning lamp and diagnostics connector. White/black is the power relay control line: EFI pin 30, power relay, voltage regulator pin 1 and diagnostics pin 5. Brown is ground. Starter button: brown in, red/blue out to the starter relay. Voltage regulator plug: brown, white/red, white/black, with two single-wire plugs to the alternator. Kill switch: black/yellow from EFI pin 34, black to frame ground. Fuel pump: blue/gray and brown. Heavy black cables run battery to starter relay to starter motor and battery negative to ground."+LEG,
+ {'main_fuse':'10 A in starter relay','battery_positive':'wh-rd','switched_power':'or','relay_control':'wh-bl','ground':'br','start_button':'br, rd-bu','regulator':'br, wh-rd, wh-bl'},'OEM',s,'medium',NOTE)
+F.R('ecu_electronics','Starting, charging and power wiring',['350 SX-F'],[2014,2015],
+ "Power side of the 2014-2015 350 SX-F. White/red is battery positive after the 10 A main fuse, which sits in the starter relay; it feeds the capacitor, the voltage regulator, the power relay and EFI pin 14. Orange is power switched by the power relay and feeds the EFI unit (pin 1), injector, FI warning lamp and diagnostics connector pin 1. White/black is the power relay control line: EFI pin 30, power relay, voltage regulator pin 1 and diagnostics pin 5. Brown is ground (diagnostics pin 6). Starter button: brown in, red/blue out to the starter relay. Voltage regulator plug: brown, white/red, white/black, with two single-wire plugs to the alternator. Kill switch: white/gray from EFI pin 34, black to frame ground. Fuel pump (3-pin plug): blue/gray and brown. The map-select switch plugs into the launch control switch, which sits on black/brown from EFI pin 4 and black sensor ground."+LEG,
+ {'main_fuse':'10 A in starter relay','battery_positive':'wh-rd','switched_power':'or','relay_control':'wh-bl','ground':'br','start_button':'br, rd-bu','regulator':'br, wh-rd, wh-bl','kill_switch':'wh-gr'},'OEM',s,'medium',NOTE)
+F.R('ecu_electronics','Charging and power wiring (kick start, no battery)',['250 SX-F'],[2011],
+ "The 2011 250 SX-F is kick start with no battery, starter or power relay. The voltage regulator plug is brown (ground), white/red (power out) and white/black, with two single-wire plugs to the alternator. White/red feeds the capacitor and EFI pin 14, and becomes orange at a 4-pin plug to feed the EFI unit (pin 1), injector, FI warning lamp and diagnostics connector. White/black links the regulator, EFI pin 30 and diagnostics pin 5. Capacitor: white/red and brown. Kill switch: black/yellow from EFI pin 34, black to frame ground. Fuel pump: blue/gray and brown."+LEG,
+ {'regulator':'br, wh-rd, wh-bl','capacitor':'wh-rd, br','kill_switch':'bl-ye'},'OEM',s,'medium',NOTE)
+F.R('ecu_electronics','Complete wiring: CDI, starter and charging (carbureted)',['450 SX-F'],[2012],
+ "The 2012 450 SX-F is carbureted with a CDI controller on an 18-pin plug. Pin 1 white/blue: ignition coil. Pin 2 brown: ground. Pin 3 white: voltage regulator pin 1. Pin 6 white/red: battery positive. Pin 9 black/yellow: kill switch, which grounds it. Pins 10 and 11, red and green: crankshaft position sensor. Pins 12, 13, 14, blue, yellow, black: throttle position sensor. Pin 7 black/gray and pin 5 gray: ignition curve connector (a single-pin plug pair; joined or separated selects the curve). Voltage regulator plug: white, white/black (to the starter relay) and white/brown (ground), with two single-wire plugs to the alternator. Starter relay with 10 A main fuse: white/red, white/black, and black to the starter button; the button's other wire is brown to ground."+LEG,
+ {'cdi_1':'wh-bu coil','cdi_2':'br ground','cdi_3':'wh regulator','cdi_6':'wh-rd battery','cdi_9':'bl-ye kill switch','cdi_10_11':'rd, gn crank sensor','cdi_12_13_14':'bu, ye, bl throttle sensor','cdi_7_5':'bl-gr, gr ignition curve connector','main_fuse':'10 A'},'OEM',s,'medium',NOTE+' Which curve the joined and separated positions select is not shown on the diagram.')
+F.write()
