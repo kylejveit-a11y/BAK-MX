@@ -1,0 +1,508 @@
+{
+ "slice": "2025 KTM 450 SX-F replacement-part options and setting shims (owner-supplied catalog review, 2026-11)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "450 SX-F"
+  ],
+  "years": [
+   2025
+  ]
+ },
+ "records": [
+  {
+   "id": "x-e1-001",
+   "domain": "maintenance",
+   "topic": "Engine and chassis parts with no aftermarket replacement (dealer only)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "For the 2025 450 SX-F a November 2026 review of maker and retailer catalogs found no aftermarket replacement for these, so they come from a KTM dealer: the complete crankshaft, the matched engine case set, the balancer shaft, the shift drum, shift forks and shafts, the gearbox mainshaft, countershaft and gears, the oil pump rotors and drive, the main frame and subframe, and the main wiring harness. Protective covers and guards exist for the cases and frame but do not replace them. That is a finding from one search, not proof that nothing exists.",
+   "values": {
+    "ktm_numbers": {
+     "crankshaft_complete": "A48030018000",
+     "engine_case_complete": "A48030000044",
+     "balancer_shaft": "A48030057000 / 79430057101",
+     "shift_drum_5_speed": "A47034012000",
+     "main_shaft_complete": "A47033001000",
+     "countershaft": "79333010000",
+     "frame": "A46003001200C1",
+     "subframe": "A46003002000",
+     "main_harness": "A46011075100"
+    }
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "dealer",
+    "name": "Parts catalog review supplied by the owner",
+    "url": "https://www.bunburyktm.com.au/partFinder/fiche/ktm/2025/450-sx-f-us/crankshaft-piston",
+    "date": "2026-11-26"
+   },
+   "confidence": "low",
+   "notes": "KTM numbers match the factory parts list BAK holds for this bike."
+  },
+  {
+   "id": "x-e1-002",
+   "domain": "maintenance",
+   "topic": "Crank, water pump and cam chain tensioner service parts",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Aftermarket service options listed for the 2025 450 SX-F: a connecting rod kit (ProX 03.6436) that rebuilds the existing crank rather than replacing it; a water pump rebuild kit (Vertex 821011), whose listing does not show a new pump shaft; and a manual cam chain tensioner (Tokyomods 15-014) in place of the automatic one. A manual tensioner has to be set and re-checked by hand. No aftermarket valve guide or valve spring was found listed for this year; the nearest guide kit stops at 2018.",
+   "values": {
+    "conrod_kit": "ProX 03.6436",
+    "ktm_conrod_repair_kit": "79530015044",
+    "water_pump_kit": "Vertex 821011",
+    "ktm_water_pump_kit": "79435055015",
+    "ktm_pump_shaft_seal": "0760123073",
+    "ktm_pump_rotor": "81235055020",
+    "manual_tensioner": "Tokyomods 15-014",
+    "ktm_tensioner": "59036003000",
+    "ktm_valve_spring": "78936028000"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "dealer",
+    "name": "Parts catalog review supplied by the owner",
+    "url": "https://www.cyclegear.com/parts/pro-x-connecting-rod-kit-ktm-husqvarna-gas-gas-450cc-2016-2025",
+    "date": "2026-11-26"
+   },
+   "confidence": "low",
+   "notes": "Listing as recorded in a November 2026 catalog review; confirm fitment on the seller page before ordering."
+  },
+  {
+   "id": "x-e1-003",
+   "domain": "engine_mods",
+   "topic": "Big-bore kits: 470, 480 and 500 cc",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Three big-bore routes are listed for the 450 SX-F engine. A 470 cc piston, cam and gasket kit uses a 97 mm piston and needs your own cylinder machined and re-plated. A 480 cc kit comes with a new 98 mm cylinder, piston and gaskets, and its maker says no case work is needed. A 500 cc kit comes with a 100 mm cylinder and needs the cases bored, and its maker recommends a larger injector. All three need mapping to suit, and none is legal for 450-class racing.",
+   "values": {
+    "470_kit": "Daniel Crower Racing KTM-SXF-BBK, 97 mm piston, customer cylinder machined and plated",
+    "480_kit": "Geisick Performance, 98 mm cylinder included, no case modification stated",
+    "500_kit": "Geisick Performance, 100 mm cylinder included, case boring required",
+    "ktm_cylinder_and_piston": "A48030038000"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "Parts catalog review supplied by the owner",
+    "url": "https://www.geisickperformance.com/product-page/ktm-gas-gas-husqvarna-500cc-big-bore-kit",
+    "date": "2026-11-26"
+   },
+   "confidence": "low",
+   "notes": "Listing as recorded in a November 2026 catalog review; confirm fitment on the seller page before ordering. The 480 and 500 kits are published for the KTM 450 family from 2016 on, not for this year by name."
+  },
+  {
+   "id": "x-e1-004",
+   "domain": "engine_mods",
+   "topic": "Race cylinder head, second injector and throttle body options",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Listed engine-top and fuelling upgrades for this engine: a CNC race-prepared cylinder head sold head-only for 2022.5 to 2025 (you supply or buy valves, springs, retainers and seals, and it needs an ECU setup to match); a second-injector kit sold with a modified airbox, fuel feed and a mapped aftermarket ECU; a 700 cc/min primary injector for modified engines; an insert-and-valve kit that modifies the stock throttle body; and an aluminium fuel rail that reuses the stock hose and hardware. A billet twin-injector throttle body is marketed for 2019 to 2025 KTM 450s, but the listing does not confirm the standard SX-F or its wiring. No ready-to-fit complete aftermarket head was found.",
+   "values": {
+    "ktm_cylinder_head_complete": "A48036020044",
+    "ktm_injector": "79041023144",
+    "ktm_fuel_pipe": "79041013044",
+    "ktm_throttle_body": "A46041001000"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "Parts catalog review supplied by the owner",
+    "url": "https://www.td-racing.com/products/2023-24-ktm-450sxf-race-head-head-only",
+    "date": "2026-11-26"
+   },
+   "confidence": "low",
+   "notes": "Listing as recorded in a November 2026 catalog review; confirm fitment on the seller page before ordering."
+  },
+  {
+   "id": "x-e1-005",
+   "domain": "ecu_electronics",
+   "topic": "Charging and ignition replacement parts",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Aftermarket electrical replacements listed for the 2025 450 SX-F: stators cross-referenced to the factory stator (a 110 W unit, an 85 W lighting stator supplied with a new pickup coil, and an 80 W stator with pickup); a rectifier/regulator listed for this exact model and year; and an external ignition coil cross-referenced to the factory coil number, reusing the original plug cap. A separately sold pickup coil with confirmed 2025 fitment was not found. A replacement throttle position sensor is cross-referenced to the factory number, but its seller lists years only to 2023, so treat it as unconfirmed for 2025.",
+   "values": {
+    "ktm_stator": "79239004200",
+    "stator_110w": "Rick's Motorsport Electrics 21-0092H",
+    "stator_85w_with_pickup": "Steahly Off Road L-RSKTM350",
+    "stator_80w_with_pickup": "RMSTATOR RMS010-107562",
+    "ktm_regulator": "77211034000",
+    "regulator": "Rick's Motorsport Electrics 10-043",
+    "ktm_ignition_coil": "58439006000",
+    "ignition_coil": "RMSTATOR RMS060-109051",
+    "ktm_tps": "79041077044"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "dealer",
+    "name": "Parts catalog review supplied by the owner",
+    "url": "https://ricksmotorsportelectrics.com/OEM-Style-KTM-Rectifier-Regulator-10_043",
+    "date": "2026-11-26"
+   },
+   "confidence": "low",
+   "notes": "Listing as recorded in a November 2026 catalog review; confirm fitment on the seller page before ordering. Higher-output stators change charging load; check regulator suitability."
+  },
+  {
+   "id": "x-e1-006",
+   "domain": "chassis",
+   "topic": "Throttle tube and supermoto front brake options",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "An aluminium throttle tube is listed for the 2025 450 SX-F (some handlebars and wrap-around handguards need an extra insert), and a stock-ratio aluminium tube is listed for 2017 to 2026 KTM four-strokes. A 320 mm supermoto front brake kit (rotor, four-piston caliper, adapter, line and radial master cylinder) is listed for this bike, but it needs a supermoto front wheel, and hub width and spoke clearance decide whether it fits. Its radial master cylinder is not confirmed for use with the stock motocross brake.",
+   "values": {
+    "ktm_throttle_housing": "A46002010025",
+    "ktm_front_master_cylinder": "77713001044",
+    "supermoto_master_cylinder": "Moto-Master 213012"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "dealer",
+    "name": "Parts catalog review supplied by the owner",
+    "url": "https://www.g2ergo.com/model/4-stroke-250-350-450-500-all-models-17-26/",
+    "date": "2026-11-26"
+   },
+   "confidence": "low",
+   "notes": "Listing as recorded in a November 2026 catalog review; confirm fitment on the seller page before ordering."
+  },
+  {
+   "id": "x-e1-007",
+   "domain": "suspension",
+   "topic": "How to read the setting-shim size lists",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's parts list for the 2025 450 SX-F carries a page of setting shims: every round shim size KTM offers for re-valving the fork and shock, not the stack fitted to the bike. Many of those sizes can also be bought as aftermarket 10-packs matched by inner diameter, outer diameter and thickness. The packs are coded SH, then inner diameter, then thickness in hundredths of a millimetre, then outer diameter, then 10 for the pack size, so a 6 x 28 x 0.20 shim is SH06 2028 10. A dimension match is not a fitment guarantee: shim shape and the stack it goes into still have to suit, and a stack should only be changed by someone who has recorded the original.",
+   "values": {
+    "pack_maker": "Race Tech",
+    "code_pattern": "SH<inner dia 2 digits> <thickness x100, 2 digits><outer dia 2 digits> 10"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "dealer",
+    "name": "Parts catalog review supplied by the owner",
+    "url": "https://www.bunburyktm.com.au/partFinder/fiche/ktm/2025/450-sx-f-us/wp-shims-for-setting",
+    "date": "2026-11-26"
+   },
+   "confidence": "low",
+   "notes": "Pack codes follow the pattern recorded in the review and were not checked on the pack maker's chart."
+  },
+  {
+   "id": "x-e1-008",
+   "domain": "suspension",
+   "topic": "Setting shims, 6 mm inner diameter: sizes sold in aftermarket 10-packs",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Setting shims for the 2025 450 SX-F with a 6 mm inner diameter that match an aftermarket 10-pack, as thickness then outer diameters in mm: 0.10: 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 30; 0.15: 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 22, 24, 26, 28, 30; 0.20: 17, 22, 24, 26, 28; 0.30: 8, 9, 10, 11, 12, 14, 16. 29 other 6 mm sizes on KTM's list had no matching pack and come from KTM.",
+   "values": {
+    "inner_diameter_mm": 6.0,
+    "matched_sizes": 50,
+    "pack_maker": "Race Tech",
+    "sizes_without_pack": [
+     "8 x 0.20",
+     "8.5 x 0.10",
+     "8.5 x 0.15",
+     "8.5 x 0.20",
+     "8.5 x 0.30",
+     "9 x 0.20",
+     "9.5 x 0.10",
+     "9.5 x 0.15",
+     "9.5 x 0.20",
+     "9.5 x 0.30",
+     "10 x 0.20",
+     "10 x 0.25",
+     "11 x 0.20",
+     "11 x 0.25",
+     "12 x 0.20",
+     "12 x 0.25",
+     "13 x 0.25",
+     "14 x 0.20",
+     "14 x 0.25",
+     "16 x 0.20",
+     "16 x 0.25",
+     "17 x 1.50",
+     "18 x 0.20",
+     "18 x 0.25",
+     "18 x 0.40",
+     "20 x 0.20",
+     "20 x 0.25",
+     "22 x 0.25",
+     "24 x 0.25"
+    ]
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "dealer",
+    "name": "Parts catalog review supplied by the owner",
+    "url": "https://www.bunburyktm.com.au/partFinder/fiche/ktm/2025/450-sx-f-us/wp-shims-for-setting",
+    "date": "2026-11-26"
+   },
+   "confidence": "low",
+   "notes": "Shim sizes are on the factory parts list BAK holds; pack matches were not checked on the pack maker's chart."
+  },
+  {
+   "id": "x-e1-009",
+   "domain": "suspension",
+   "topic": "Setting shims, 8 mm inner diameter: sizes sold in aftermarket 10-packs",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Setting shims for the 2025 450 SX-F with a 8 mm inner diameter that match an aftermarket 10-pack, as thickness then outer diameters in mm: 0.10: 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 22, 26, 28, 30; 0.15: 10, 13, 14, 15, 16, 18, 20, 22, 24, 26, 28, 30; 0.20: 12, 14, 16, 18, 20, 22, 24; 0.30: 16. 10 other 8 mm sizes on KTM's list had no matching pack and come from KTM.",
+   "values": {
+    "inner_diameter_mm": 8.0,
+    "matched_sizes": 34,
+    "pack_maker": "Race Tech",
+    "sizes_without_pack": [
+     "10 x 0.20",
+     "11 x 0.20",
+     "11 x 0.40",
+     "12 x 0.25",
+     "14 x 0.25",
+     "18 x 0.40",
+     "20 x 0.40",
+     "22 x 0.30",
+     "24 x 0.40",
+     "26 x 0.40"
+    ]
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "dealer",
+    "name": "Parts catalog review supplied by the owner",
+    "url": "https://www.bunburyktm.com.au/partFinder/fiche/ktm/2025/450-sx-f-us/wp-shims-for-setting",
+    "date": "2026-11-26"
+   },
+   "confidence": "low",
+   "notes": "Shim sizes are on the factory parts list BAK holds; pack matches were not checked on the pack maker's chart."
+  },
+  {
+   "id": "x-e1-010",
+   "domain": "suspension",
+   "topic": "Setting shims, 10 mm inner diameter: sizes sold in aftermarket 10-packs",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Setting shims for the 2025 450 SX-F with a 10 mm inner diameter that match an aftermarket 10-pack, as thickness then outer diameters in mm: 0.25: 21, 25. 41 other 10 mm sizes on KTM's list had no matching pack and come from KTM.",
+   "values": {
+    "inner_diameter_mm": 10.0,
+    "matched_sizes": 2,
+    "pack_maker": "Race Tech",
+    "sizes_without_pack": [
+     "13 x 0.30",
+     "15 x 0.30",
+     "16 x 0.10",
+     "16 x 0.15",
+     "16 x 0.20",
+     "16 x 0.30",
+     "17 x 0.15",
+     "17 x 0.20",
+     "17 x 0.30",
+     "18 x 0.10",
+     "18 x 0.30",
+     "19 x 0.15",
+     "19 x 0.20",
+     "19 x 0.30",
+     "21 x 0.15",
+     "21 x 0.20",
+     "21 x 0.30",
+     "23 x 0.15",
+     "23 x 0.20",
+     "23 x 0.25",
+     "23 x 0.30",
+     "25 x 0.15",
+     "25 x 0.20",
+     "25 x 0.30",
+     "27 x 0.15",
+     "27 x 0.20",
+     "27 x 0.25",
+     "27 x 0.30",
+     "29 x 0.15",
+     "29 x 0.20",
+     "29 x 0.25",
+     "29 x 0.30",
+     "30 x 0.40",
+     "31 x 0.15",
+     "31 x 0.20",
+     "31 x 0.25",
+     "31 x 0.30",
+     "33 x 0.15",
+     "33 x 0.20",
+     "33 x 0.25",
+     "33 x 0.30"
+    ]
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "dealer",
+    "name": "Parts catalog review supplied by the owner",
+    "url": "https://www.bunburyktm.com.au/partFinder/fiche/ktm/2025/450-sx-f-us/wp-shims-for-setting",
+    "date": "2026-11-26"
+   },
+   "confidence": "low",
+   "notes": "Shim sizes are on the factory parts list BAK holds; pack matches were not checked on the pack maker's chart."
+  },
+  {
+   "id": "x-e1-011",
+   "domain": "suspension",
+   "topic": "Setting shims, 12 mm inner diameter: sizes sold in aftermarket 10-packs",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Setting shims for the 2025 450 SX-F with a 12 mm inner diameter that match an aftermarket 10-pack, as thickness then outer diameters in mm: 0.10: 18, 19, 20, 22, 23, 24, 26, 28, 30, 32, 34, 36; 0.15: 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 30, 32, 34, 36, 38, 40; 0.20: 18, 20, 22, 23, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44; 0.25: 16, 17, 20, 21, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44; 0.30: 18, 20, 21, 22, 26, 28, 30, 32, 34, 36, 38, 40. 6 other 12 mm sizes on KTM's list had no matching pack and come from KTM.",
+   "values": {
+    "inner_diameter_mm": 12.0,
+    "matched_sizes": 72,
+    "pack_maker": "Race Tech",
+    "sizes_without_pack": [
+     "17 x 0.30",
+     "19 x 0.30",
+     "21 x 0.20",
+     "23 x 0.30",
+     "24 x 0.30",
+     "45 x 0.20"
+    ]
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "dealer",
+    "name": "Parts catalog review supplied by the owner",
+    "url": "https://www.bunburyktm.com.au/partFinder/fiche/ktm/2025/450-sx-f-us/wp-shims-for-setting",
+    "date": "2026-11-26"
+   },
+   "confidence": "low",
+   "notes": "Shim sizes are on the factory parts list BAK holds; pack matches were not checked on the pack maker's chart."
+  },
+  {
+   "id": "x-e1-012",
+   "domain": "suspension",
+   "topic": "Setting shims, 16 mm inner diameter: sizes sold in aftermarket 10-packs",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Setting shims for the 2025 450 SX-F with a 16 mm inner diameter that match an aftermarket 10-pack, as thickness then outer diameters in mm: 0.10: 20, 22, 24, 26, 28, 32, 34; 0.15: 20, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44; 0.20: 22, 23, 24, 26, 28, 30, 32, 36, 38, 40, 42, 44; 0.25: 20, 21, 23, 24, 25, 26, 28, 30, 32, 34, 36, 38, 40, 44; 0.30: 21, 22, 23, 24, 25, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44. 6 other 16 mm sizes on KTM's list had no matching pack and come from KTM.",
+   "values": {
+    "inner_diameter_mm": 16.0,
+    "matched_sizes": 60,
+    "pack_maker": "Race Tech",
+    "sizes_without_pack": [
+     "20 x 0.30",
+     "21 x 0.10",
+     "21 x 0.20",
+     "23 x 0.15",
+     "25 x 0.20",
+     "42 x 0.25"
+    ]
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "dealer",
+    "name": "Parts catalog review supplied by the owner",
+    "url": "https://www.bunburyktm.com.au/partFinder/fiche/ktm/2025/450-sx-f-us/wp-shims-for-setting",
+    "date": "2026-11-26"
+   },
+   "confidence": "low",
+   "notes": "Shim sizes are on the factory parts list BAK holds; pack matches were not checked on the pack maker's chart."
+  },
+  {
+   "id": "x-e1-013",
+   "domain": "suspension",
+   "topic": "Setting shims with no aftermarket pack found",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Some shims on KTM's setting list for the 2025 450 SX-F had no matching aftermarket pack in a November 2026 review and are ordered from KTM by size. Count by inner diameter: 14 mm: 1, 20 mm: 11, 20.2 mm: 1, 28.25 mm: 2, 28.5 mm: 1, 32.25 mm: 1. Most 10 mm shims are in this group.",
+   "values": {},
+   "tier": "DERIVED",
+   "source": {
+    "type": "dealer",
+    "name": "Parts catalog review supplied by the owner",
+    "url": "https://www.bunburyktm.com.au/partFinder/fiche/ktm/2025/450-sx-f-us/wp-shims-for-setting",
+    "date": "2026-11-26"
+   },
+   "confidence": "low",
+   "notes": ""
+  }
+ ],
+ "conflicts": [],
+ "not_found": [],
+ "sources": [
+  "https://ricksmotorsportelectrics.com/OEM-Style-KTM-Rectifier-Regulator-10_043",
+  "https://www.bunburyktm.com.au/partFinder/fiche/ktm/2025/450-sx-f-us/crankshaft-piston",
+  "https://www.bunburyktm.com.au/partFinder/fiche/ktm/2025/450-sx-f-us/wp-shims-for-setting",
+  "https://www.cyclegear.com/parts/pro-x-connecting-rod-kit-ktm-husqvarna-gas-gas-450cc-2016-2025",
+  "https://www.g2ergo.com/model/4-stroke-250-350-450-500-all-models-17-26/",
+  "https://www.geisickperformance.com/product-page/ktm-gas-gas-husqvarna-500cc-big-bore-kit",
+  "https://www.td-racing.com/products/2023-24-ktm-450sxf-race-head-head-only"
+ ]
+}
