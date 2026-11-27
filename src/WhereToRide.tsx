@@ -4,7 +4,7 @@
 import {useEffect,useMemo,useState} from 'react';
 import {ArrowLeft,ArrowUpRight,CalendarDays,ChevronRight,Heart,LocateFixed,MapPin,MessageSquare,Phone,Search,X} from 'lucide-react';
 import {api} from './client';
-import {WHERE_COPY as W,WIDTHS,isClosed,byDistance,directionsLink,eventsAt,filterPlaces,fmtDay,fmtMiles,forecastLine,mapSeason,onxLink,partialNote,placeSummary,statesOf,toggleSaved,trailName,widthColor,widthLabel,type DayForecast,type PlaceDetail,type PlaceKind,type PlaceRow,type PlaceWeather,type TrailLine} from '../shared/where-to-ride';
+import {SUGGEST_COPY as SG,suggestionProblem,alreadyListed,type PlaceSuggestion,WHERE_COPY as W,WIDTHS,isClosed,byDistance,directionsLink,eventsAt,filterPlaces,fmtDay,fmtMiles,forecastLine,mapSeason,onxLink,partialNote,placeSummary,statesOf,toggleSaved,trailName,widthColor,widthLabel,type DayForecast,type PlaceDetail,type PlaceKind,type PlaceRow,type PlaceWeather,type TrailLine} from '../shared/where-to-ride';
 import './where.css';
 
 const SAVED_KEY='bakmx:where-saved';
@@ -18,14 +18,16 @@ const errorText=(e:unknown)=>e instanceof Error?e.message:'Could not load this. 
 
 export function WhereToRide({signedIn,onSignIn,onAsk}:{signedIn:boolean;onSignIn:()=>void;onAsk:(text:string)=>void}){
  const [view,setView]=useState<{id:string;map:boolean;miles:number|null}|null>(null);
+ const [suggest,setSuggest]=useState(false);
  useEffect(()=>{window.scrollTo({top:0});},[view?.id,view?.map]);
  if(!signedIn)return <section className="panel"><div className="empty"><div className="empty-icon"><MapPin size={27}/></div><h3>Tracks and trails, in one list.</h3><p>Sign in to see what you can ride at each place, the forecast and Forest Service trail maps.</p><button type="button" className="button" onClick={onSignIn}>Sign in or create an account</button></div></section>;
  if(view?.map)return <TrailMapView id={view.id} totalMiles={view.miles} onBack={()=>setView({...view,map:false})}/>;
  if(view)return <PlaceView id={view.id} onBack={()=>setView(null)} onMap={miles=>setView({id:view.id,map:true,miles})} onAsk={onAsk}/>;
- return <PlaceList onOpen={id=>setView({id,map:false,miles:null})}/>;
+ if(suggest)return <SuggestPlace onBack={()=>setSuggest(false)}/>;
+ return <PlaceList onOpen={id=>setView({id,map:false,miles:null})} onSuggest={()=>setSuggest(true)}/>;
 }
 
-function PlaceList({onOpen}:{onOpen:(id:string)=>void}){
+function PlaceList({onOpen,onSuggest}:{onOpen:(id:string)=>void;onSuggest:()=>void}){
  const [rows,setRows]=useState<PlaceRow[]|null>(null),[error,setError]=useState(''),[saved]=useSaved();
  const [query,setQuery]=useState(''),[kind,setKind]=useState<'all'|PlaceKind|'saved'>('all'),[state,setState]=useState('');
  const [from,setFrom]=useState<{lat:number;lng:number}|null>(null),[locNote,setLocNote]=useState('');
@@ -56,6 +58,7 @@ function PlaceList({onOpen}:{onOpen:(id:string)=>void}){
     <small className="wr-where">{[p.city?`${p.city}, ${p.state}`:p.state,p.miles!=null?`${Math.round(p.miles)} mi away`:''].filter(Boolean).join(' · ')}</small></span>
    {!!p.widths.length&&<span className="wr-bars" aria-hidden="true">{p.widths.map(w=><i key={w} style={{background:widthColor(w)}}/>)}</span>}
    <ChevronRight size={17} aria-hidden="true"/></button></li>)}</ul>}
+  {rows&&kind!=='saved'&&<button type="button" className="wr-chip wr-suggest" onClick={onSuggest}>{SG.open}<ChevronRight size={15} aria-hidden="true"/></button>}
  </div>;
 }
 
@@ -175,5 +178,37 @@ function TrailMapView({id,totalMiles,onBack}:{id:string;totalMiles:number|null;o
     <ul>{trails.map(t=><li key={t.key}><button type="button" aria-pressed={selected===t.name} className={selected===t.name?'on':''} onClick={()=>pick(t.name)}><i style={{background:widthColor(t.width)}} aria-hidden="true"/><span><b>{t.name}</b><small>{meta(t)}</small></span></button></li>)}</ul>
    </section>
   </div>}
+ </div>;
+}
+
+/** Suggest a place: goes to review; nothing shows to other riders until the place is added. */
+function SuggestPlace({onBack}:{onBack:()=>void}){
+ const [rows,setRows]=useState<PlaceRow[]>([]),[mine,setMine]=useState<PlaceSuggestion[]>([]);
+ const [name,setName]=useState(''),[kind,setKind]=useState<PlaceKind>('track'),[city,setCity]=useState(''),[state,setState]=useState(''),[note,setNote]=useState('');
+ const [busy,setBusy]=useState(false),[msg,setMsg]=useState(''),[warn,setWarn]=useState(false);
+ useEffect(()=>{let live=true;api<PlaceRow[]>('/where-to-ride').then(r=>{if(live)setRows(r);}).catch(()=>{});api<PlaceSuggestion[]>('/place-suggestions').then(r=>{if(live)setMine(r);}).catch(()=>{});return()=>{live=false;};},[]);
+ async function send(e:React.FormEvent){
+  e.preventDefault();if(busy)return;const problem=suggestionProblem({name,state});
+  if(problem){setWarn(true);setMsg(problem);return;}
+  setBusy(true);setMsg('');
+  try{const saved=await api<PlaceSuggestion>('/place-suggestions','POST',{name:name.trim(),kind,city:city.trim(),state:state.trim(),lat:null,lng:null,note:note.trim()});
+   setMine(m=>[saved,...m]);setName('');setCity('');setNote('');setWarn(false);setMsg(SG.sent);}
+  catch(err){setWarn(true);setMsg(errorText(err));}
+  finally{setBusy(false);}
+ }
+ return <div className="wr">
+  <button type="button" className="wr-back" onClick={onBack}><ArrowLeft size={16} aria-hidden="true"/>{W.title}</button>
+  <div><h2>{SG.title}</h2><p className="subtle">{SG.intro}</p></div>
+  <form className="wr-suggest-form" onSubmit={e=>void send(e)}>
+   <label className="field"><span>{SG.name}</span><input value={name} onChange={e=>setName(e.target.value)} maxLength={120} required minLength={2}/></label>
+   {alreadyListed(rows,name,state)&&<p className="subtle" role="status">A place with that name is already listed in that state. Search for it before sending.</p>}
+   <div className="wr-chips" role="group" aria-label="Kind of place">{(['track','riding_area'] as PlaceKind[]).map(k=><button key={k} type="button" className={'wr-chip'+(kind===k?' on':'')} aria-pressed={kind===k} onClick={()=>setKind(k)}>{W.filters[k]}</button>)}</div>
+   <label className="field"><span>{SG.city}</span><input value={city} onChange={e=>setCity(e.target.value)} maxLength={80}/></label>
+   <label className="field"><span>{SG.state}</span><input value={state} onChange={e=>setState(e.target.value)} maxLength={40} required minLength={2}/></label>
+   <label className="field"><span>{SG.note}</span><textarea value={note} onChange={e=>setNote(e.target.value)} maxLength={600} rows={3}/></label>
+   {msg&&<p className={warn?'error':'subtle'} role={warn?'alert':'status'}>{msg}</p>}
+   <button type="submit" className="button" disabled={busy}>{busy?'Sending…':SG.send}</button>
+  </form>
+  {!!mine.length&&<div><h3>{SG.mine}</h3><ul className="wr-mine">{mine.map(m=><li key={m.id}><span>{m.name}{m.state?`, ${m.state}`:''}</span><small>{SG.status[m.status]}</small></li>)}</ul></div>}
  </div>;
 }

@@ -3,14 +3,14 @@
 import React,{useEffect,useMemo,useState} from 'react';
 import {Linking,Platform,ScrollView,Text,TextInput,View} from 'react-native';
 import * as Location from 'expo-location';
-import {WHERE_COPY as W,WIDTHS,isClosed,mapSeason,byDistance,directionsLink,eventsAt,filterPlaces,fmtDay,fmtMiles,forecastLine,onxLink,partialNote,placeSummary,statesOf,toggleSaved,trailName,widthColor,widthLabel,type DayForecast,type PlaceDetail,type PlaceKind,type PlaceRow,type PlaceWeather,type TrailLine} from '../../../shared/where-to-ride';
+import {SUGGEST_COPY as SG,suggestionProblem,alreadyListed,type PlaceSuggestion,WHERE_COPY as W,WIDTHS,isClosed,mapSeason,byDistance,directionsLink,eventsAt,filterPlaces,fmtDay,fmtMiles,forecastLine,onxLink,partialNote,placeSummary,statesOf,toggleSaved,trailName,widthColor,widthLabel,type DayForecast,type PlaceDetail,type PlaceKind,type PlaceRow,type PlaceWeather,type TrailLine} from '../../../shared/where-to-ride';
 import {today} from '../../../shared/race-day';
 import type {RideEvent} from '../../../shared/rider-types';
 import {api} from './api';
 import {readProgress,writeProgress} from './localProgress';
 import {Pressable} from './Touch';
 import {Raised,RaisedFace,raisedLift,well} from './Raised';
-import {BackLink,Button,Card,Copy,Eyebrow,Icon,LinkAction,Notice,PageTitle,PickChip,colors} from './ui';
+import {BackLink,Button,Card,Copy,Eyebrow,Field,Icon,LinkAction,Notice,PageTitle,PickChip,colors} from './ui';
 import {LiveConditionsCard} from './LiveConditions';
 import {TrackHistoryCard} from './TrackHistory';
 import {useTrackDirectory} from './TrackReport';
@@ -50,12 +50,14 @@ function useLocationAllowed(){
 export function WhereToRide({initialId,initialMap=false,onAsk,onRideToday,onClose}:{initialId?:string;initialMap?:boolean;onAsk:(text:string)=>void;onRideToday:(name:string)=>void;onClose?:()=>void}){
  const [view,setView]=useState<{id:string;map:boolean;miles?:number|null}|null>(initialId?{id:initialId,map:initialMap}:null);
  useEffect(()=>{if(initialId)setView({id:initialId,map:initialMap});},[initialId,initialMap]);
+ const [suggest,setSuggest]=useState(false);
+ if(suggest)return <SuggestPlace onBack={()=>setSuggest(false)}/>;
  if(view?.map)return <TrailMapView id={view.id} totalMiles={view.miles??null} onBack={()=>setView({id:view.id,map:false})}/>;
  if(view)return <PlaceView id={view.id} onBack={()=>setView(null)} onMap={miles=>setView({id:view.id,map:true,miles})} onAsk={onAsk} onRideToday={onRideToday}/>;
- return <PlaceList onOpen={id=>setView({id,map:false})} onClose={onClose}/>;
+ return <PlaceList onOpen={id=>setView({id,map:false})} onClose={onClose} onSuggest={()=>setSuggest(true)}/>;
 }
 
-function PlaceList({onOpen,onClose}:{onOpen:(id:string)=>void;onClose?:()=>void}){
+function PlaceList({onOpen,onClose,onSuggest}:{onOpen:(id:string)=>void;onClose?:()=>void;onSuggest:()=>void}){
  const {rows,error}=usePlaces(),[saved]=useSaved();
  const [query,setQuery]=useState(''),[kind,setKind]=useState<Filter>(()=>{try{return readProgress<Filter>('device','where-kind','all');}catch{return 'all';}});
  const [state,setState]=useState(()=>{try{return readProgress<string>('device','where-state','');}catch{return '';}});
@@ -95,8 +97,10 @@ function PlaceList({onOpen,onClose}:{onOpen:(id:string)=>void;onClose?:()=>void}
   <Notice text={locNote}/>
   <Notice text={error}/>
   {!shown.length&&!!rows.length&&<Copy>{kind==='saved'&&!saved.length?W.savedNone:W.none}</Copy>}
+  {!shown.length&&!!rows.length&&kind!=='saved'&&<LinkAction title={SG.open} onPress={onSuggest}/>}
   {/* Raised panels of eight places each: the list reads as objects on the page like the menu, and no single finish has to cover two hundred rows. */}
   <View style={{gap:14}}>{Array.from({length:Math.ceil(Math.min(shown.length,200)/8)},(_,g)=>shown.slice(g*8,Math.min(g*8+8,200))).map((group,g)=><Raised key={g} radius={18}><View style={{paddingHorizontal:16}}>{group.map((p,i)=><PlaceRowView key={p.id} p={p} saved={saved.includes(p.id)} first={i===0} onPress={()=>onOpen(p.id)}/>)}</View></Raised>)}</View>
+  {!!shown.length&&<LinkAction title={SG.open} onPress={onSuggest}/>}
  </View>;
 }
 
@@ -260,5 +264,49 @@ function TrailMapView({id,totalMiles,onBack}:{id:string;totalMiles:number|null;o
     </Pressable>)}
    </Card>
   </>}
+ </View>;
+}
+
+/** Suggest a place: a short form that goes to review. Nothing here shows to other riders until the place is added. */
+function SuggestPlace({onBack}:{onBack:()=>void}){
+ const {rows}=usePlaces();
+ const [name,setName]=useState(''),[kind,setKind]=useState<PlaceKind>('track'),[city,setCity]=useState(''),[state,setState]=useState(''),[note,setNote]=useState('');
+ const [pin,setPin]=useState<{lat:number;lng:number}|null>(null),[busy,setBusy]=useState(false),[msg,setMsg]=useState(''),[warn,setWarn]=useState(false),[mine,setMine]=useState<PlaceSuggestion[]>([]);
+ useEffect(()=>{let live=true;api<PlaceSuggestion[]>('/api/place-suggestions').then(r=>{if(live)setMine(r);}).catch(()=>{});return()=>{live=false;};},[]);
+ const listed=alreadyListed(rows,name,state);
+ async function addPin(){
+  if(pin){setPin(null);return;}
+  try{const p=await Location.requestForegroundPermissionsAsync();
+   if(p.status!=='granted'){setWarn(true);setMsg('Location is off for BAK MX. You can still send it with the town and state.');return;}
+   const at=await Location.getCurrentPositionAsync({accuracy:Location.Accuracy.Balanced});
+   setPin({lat:Math.round(at.coords.latitude*1e5)/1e5,lng:Math.round(at.coords.longitude*1e5)/1e5});setMsg('');}
+  catch{setWarn(true);setMsg('Couldn’t get your location. You can still send it with the town and state.');}
+ }
+ async function send(){
+  if(busy)return;const problem=suggestionProblem({name,state});
+  if(problem){setWarn(true);setMsg(problem);return;}
+  setBusy(true);setMsg('');
+  try{const saved=await api<PlaceSuggestion>('/api/place-suggestions','POST',{name:name.trim(),kind,city:city.trim(),state:state.trim(),lat:pin?.lat??null,lng:pin?.lng??null,note:note.trim()});
+   setMine(m=>[saved,...m]);setName('');setCity('');setNote('');setPin(null);setWarn(false);setMsg(SG.sent);}
+  catch(e){setWarn(true);setMsg(errorText(e));}
+  finally{setBusy(false);}
+ }
+ return <View style={{gap:16}}>
+  <BackLink title={W.title} onPress={onBack}/>
+  <PageTitle>{SG.title}</PageTitle>
+  <Copy>{SG.intro}</Copy>
+  <Card>
+   <Field label={SG.name} value={name} onChangeText={setName} maxLength={120} autoCapitalize="words" returnKeyType="next"/>
+   {listed&&<Notice text="A place with that name is already listed in that state. Search for it before sending."/>}
+   <View style={{flexDirection:'row',gap:8}}><PickChip radio label={W.filters.track} on={kind==='track'} onPress={()=>setKind('track')}/><PickChip radio label={W.filters.riding_area} on={kind==='riding_area'} onPress={()=>setKind('riding_area')}/></View>
+   <Field label={SG.city} value={city} onChangeText={setCity} maxLength={80} autoCapitalize="words" returnKeyType="next"/>
+   <Field label={SG.state} value={state} onChangeText={setState} maxLength={40} autoCapitalize="words" returnKeyType="next"/>
+   <Field label={SG.note} value={note} onChangeText={setNote} maxLength={600} multiline/>
+   <View style={{gap:4}}><PickChip label={pin?SG.pinOn:SG.pin} on={!!pin} onPress={()=>void addPin()}/><Text style={{color:colors.muted,fontSize:13}}>{SG.pinHelp}</Text></View>
+   <Notice text={msg} tone={warn?'warn':undefined}/>
+   <Button title={busy?'Sending…':SG.send} onPress={()=>void send()} disabled={busy}/>
+  </Card>
+  {!!mine.length&&<Card><Eyebrow>{SG.mine}</Eyebrow>{mine.map(m=><View key={m.id} style={{flexDirection:'row',justifyContent:'space-between',gap:12,paddingVertical:6}}>
+   <Text style={{color:colors.text,fontSize:15,flex:1}}>{m.name}{m.state?`, ${m.state}`:''}</Text><Text style={{color:colors.muted,fontSize:14}}>{SG.status[m.status]}</Text></View>)}</Card>}
  </View>;
 }

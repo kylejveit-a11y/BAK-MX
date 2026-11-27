@@ -222,7 +222,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
  {const surface=await handleRiderSurfaces(req,url,path,method,db,owner);if(surface)return surface;}
  {const reports=await handleTrackReports(req,url,path,method,db,owner);if(reports)return reports;}
  {const checkins=await handleTrackCheckins(req,url,path,method,db,owner);if(checkins)return checkins;}
- {const places=await handleWhereToRide(url,path,method,db);if(places)return places;}
+ {const places=await handleWhereToRide(url,path,method,db,req,owner);if(places)return places;}
  {const history=await handleTrackHistory(url,path,method,db,owner);if(history)return history;}
  {const share=await handleRideShares(req,path,method,db,owner);if(share)return share;}
  // Ride time into the Garage: adds a day's time on track to the bike's engine hours (from logged sessions). Bounded so a slip

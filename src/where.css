@@ -55,3 +55,10 @@
 .wr-trails span{display:flex;flex-direction:column;gap:2px}.wr-trails b{font-size:15px;color:#f1f3f7}.wr-trails small{font-size:12.5px;color:#8b93a0}
 .wr-trails button.on b{color:var(--bike-accent,#8cb6ee)}
 @media(max-width:760px){.wr h2{font-size:25px}.wr-grid,.wr-links,.wr-map-layout{grid-template-columns:1fr}.wr-trails{max-height:none}.wr-tools select{flex:1}.wr-head{flex-direction:column}.wr-actions .button{flex:1}}
+
+/* Suggest a place */
+.wr-suggest{align-self:flex-start}
+.wr-suggest-form{display:flex;flex-direction:column;gap:14px;max-width:560px}
+.wr-mine{list-style:none;margin:8px 0 0;padding:0;max-width:560px}
+.wr-mine li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-top:1px solid #262b34;font-size:14.5px}
+.wr-mine small{color:#a9b0bc}

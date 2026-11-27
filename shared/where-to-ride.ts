@@ -175,3 +175,31 @@ export function toggleSaved(saved:readonly string[],id:string):string[]{
 export function eventsAt<E extends {location_name:string;title:string;canceled_at?:string|null}>(events:E[],place:{id:string;name:string;city?:string|null},all:{id:string;name:string;aliases:string[];city?:string|null}[]):E[]{
  return events.filter(e=>!e.canceled_at&&matchTracks(`${e.location_name} ${e.title}`,all,3).some(t=>t.id===place.id));
 }
+
+// ---------- Suggest a place: a rider proposes a track or riding area; it is reviewed before anyone else sees it.
+export type PlaceSuggestionInput={name:string;kind:PlaceKind;city:string;state:string;lat:number|null;lng:number|null;note:string};
+export type PlaceSuggestion=PlaceSuggestionInput&{id:string;status:'pending'|'approved'|'rejected'|'duplicate';created_at:string};
+export const SUGGEST_COPY={
+ open:'Know a place that’s missing? Suggest it',
+ title:'Suggest a place',
+ intro:'Tell us about a track or riding area that should be here. We check every suggestion before it shows to other riders, so only places that are open and legal to ride get listed.',
+ name:'Name of the place',city:'Town or nearest town',state:'State',
+ note:'Anything that helps us check it: website, who runs it, what you can ride there',
+ pin:'Add my current location',pinOn:'Location added',pinHelp:'Only if you are at the place right now.',
+ send:'Send suggestion',sent:'Sent. We’ll check it and add it if it’s open to riders.',
+ mine:'Your suggestions',
+ status:{pending:'Being checked',approved:'Added',rejected:'Not added',duplicate:'Already listed'} as Record<PlaceSuggestion['status'],string>,
+ limit:'You have 5 suggestions being checked. Send more once we’ve been through those.',
+};
+export const MAX_PENDING_SUGGESTIONS=5;
+/** What is wrong with a suggestion before it is sent, in the rider's words, or '' when it can go. */
+export function suggestionProblem(x:Pick<PlaceSuggestionInput,'name'|'state'>):string{
+ if(x.name.trim().length<2)return 'Add the name of the place.';
+ if(x.state.trim().length<2)return 'Add the state it is in.';
+ return '';
+}
+/** A listed place with the same name in the same state, so a rider is told it is already here before sending. */
+export function alreadyListed(rows:Pick<PlaceRow,'name'|'state'>[],name:string,state:string):boolean{
+ const n=(t:string)=>t.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+ const want=n(name),st=n(state);return want.length>=2&&rows.some(r=>n(r.name)===want&&(!st||n(r.state)===st));
+}

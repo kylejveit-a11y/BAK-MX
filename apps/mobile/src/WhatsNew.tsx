@@ -1,5 +1,5 @@
 // One-time "new in this version" card on Home. It closes with one tap and retires itself after a few app opens,
-// so it is never a nag. 1.0.13's features work on iPhone and Android, so it shows on both.
+// so it is never a nag. 1.0.14: ride recording, Suggest a place, log exports and the new makes.
 import React,{useEffect,useState} from 'react';
 import {Platform,Text,View} from 'react-native';
 import {Pressable} from './Touch';
@@ -8,17 +8,17 @@ import {Disclosure} from './RichText';
 import {MetalMark,Button,Card,colors} from './ui';
 import {useProgress} from './localProgress';
 
-const KEY='whats-new-2026-11-talk-to-bak',MAX_OPENS=4;
+const KEY='whats-new-2026-11-rides-and-places',MAX_OPENS=4;
 /** First-login setup retires this card: everything is new to a rider who joined today. */
 export const WHATS_NEW_KEY=KEY;
-const TITLE='Talk to BAK';
+const TITLE='Record your rides';
 let countedThisLaunch=false;
 
 const items:[IconName,string,string][]=[
- ['voice','Talk to BAK','On Pro: tap the blue button beside any Ask BAK box and ask out loud. BAK checks your bike’s data, answers by voice, and saves the conversation in your chats.'],
- ['check','Say yes to save','When BAK suggests a change while you’re talking, say yes and it’s saved to your Garage. Say no and nothing changes.'],
- ['tools','Hands-free in the Workshop','In a guided job, talk your way through it: say next, go back or repeat, or ask about the step you’re on.'],
- ['chat','Answers wait for you','Leave the app while BAK is working and the answer is there when you come back.'],
+ ['clock','Record a ride','Tap Start recording at the track or on the trail. Your laps count themselves and each ride is saved with its route and lap times.'],
+ ['location','Suggest a place','Know a track or riding area that’s missing from Where to Ride? Send it in. We check each one before it’s listed.'],
+ ['export','Keep your logs','Export your service log and setup log as spreadsheet files you can save or share.'],
+ ['moto','More bikes','Beta RX, Ducati Desmo450 MX and Cobra CX50 and CX65 are in the Garage, with more Suzuki, Kawasaki and KTM years.'],
 ];
 
 export function WhatsNewCard({account,show=Platform.OS!=='web'}:{account:string;show?:boolean}){

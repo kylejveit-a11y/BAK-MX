@@ -3,6 +3,10 @@ import {z} from 'zod';
 import {checked} from './database.ts';
 import {HttpError} from './validation.ts';
 import {raceForecast,type RaceForecast} from './weather.ts';
+import {objectionable} from './content-rules.ts';
+import {readJson} from './validation.ts';
+import {MAX_PENDING_SUGGESTIONS,SUGGEST_COPY,type PlaceSuggestion} from '../shared/where-to-ride.ts';
+import {adminDb} from './database.ts';
 import {areaWidths,decodePolyline,type DayForecast,type PlaceDetail,type PlaceWeather,type PlaceRow,type RidingArea,type TrailLine,type TrailWidth} from '../shared/where-to-ride.ts';
 
 /** Where to Ride (docs/plans/riding-areas-plan.md): the list of tracks and riding areas, one place's page, and its trail
@@ -66,7 +70,29 @@ export async function placeWeather(db:SupabaseClient,id:string,day:string,foreca
  return {today:dayOf(today),tomorrow:dayOf(tomorrow)};
 }
 
-export async function handleWhereToRide(url:URL,path:string,method:string,db:SupabaseClient):Promise<Response|null>{
+export const suggestionSchema=z.object({name:z.string().trim().min(2).max(120),kind:z.enum(['track','riding_area']),city:z.string().trim().max(80).default(''),
+ state:z.string().trim().min(2).max(40),lat:z.number().min(-90).max(90).nullable().default(null),lng:z.number().min(-180).max(180).nullable().default(null),
+ note:z.string().trim().max(600).default('')}).strict().refine(v=>(v.lat==null)===(v.lng==null),'A location needs both numbers.');
+const SUGGESTION_FIELDS='id,name,kind,city,state,lat,lng,note,status,created_at';
+/** A rider's own suggestions, newest first. */
+export async function mySuggestions(db:SupabaseClient,owner:string):Promise<PlaceSuggestion[]>{
+ return (checked(await db.from('place_suggestions').select(SUGGESTION_FIELDS).eq('user_id',owner).order('created_at',{ascending:false}).limit(30))??[]) as PlaceSuggestion[];
+}
+/** Save a suggestion for review. Nothing is listed here: review adds the place to tracks. At most five waiting per rider. */
+export async function suggestPlace(db:SupabaseClient,owner:string,input:unknown,admin:SupabaseClient=adminDb()):Promise<PlaceSuggestion>{
+ const data=suggestionSchema.parse(input);
+ if([data.name,data.city,data.state,data.note].some(t=>t&&objectionable(t)))throw new HttpError(422,'That wording isn’t allowed here. Edit it and try again.');
+ const waiting=(await mySuggestions(db,owner)).filter(s=>s.status==='pending');
+ if(waiting.length>=MAX_PENDING_SUGGESTIONS)throw new HttpError(429,SUGGEST_COPY.limit);
+ if(waiting.some(s=>s.name.toLowerCase()===data.name.toLowerCase()&&s.state.toLowerCase()===data.state.toLowerCase()))throw new HttpError(409,'You already sent that one. It’s being checked.');
+ return checked(await admin.from('place_suggestions').insert({...data,user_id:owner}).select(SUGGESTION_FIELDS).single()) as PlaceSuggestion;
+}
+
+export async function handleWhereToRide(url:URL,path:string,method:string,db:SupabaseClient,req?:Request,owner?:string):Promise<Response|null>{
+ if(path==='/api/place-suggestions'&&req&&owner){
+  if(method==='GET')return new Response(JSON.stringify(await mySuggestions(db,owner)),{headers:{'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
+  if(method==='POST')return new Response(JSON.stringify(await suggestPlace(db,owner,await readJson(req))),{status:201,headers:{'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
+ }
  if(method!=='GET')return null;
  if(path==='/api/where-to-ride')return json(await placeList(db));
  if(path==='/api/riding-area')return json(await placeDetail(db,idSchema.parse(url.searchParams.get('id'))));
