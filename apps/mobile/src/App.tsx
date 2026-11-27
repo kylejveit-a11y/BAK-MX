@@ -258,6 +258,8 @@ function CommunityTab({navigation,route}:BottomTabScreenProps<Tabs,'Community'>)
 function EventsTab({navigation}:BottomTabScreenProps<Tabs,'Events'>){return <EventsScreen onMessage={rider=>navigation.navigate('Messages',{rider})}/>;}
 function MessagesTab({navigation,route}:BottomTabScreenProps<Tabs,'Messages'>){return <MessagesScreen startWith={route.params?.rider} onStarted={()=>navigation.setParams({rider:undefined})}/>;}
 function WorkshopJob({navigation}:BottomTabScreenProps<Tabs,'Workshop'>){const{bike,session}=useContext(Ctx);return <WorkshopScreen bike={bike} ownerId={session.user.id} onAddBike={()=>navigation.navigate('Garage')} onPhotoCheck={check=>navigation.navigate('Ask BAK',{mode:'ask',photoCheck:check,photoCheckToken:randomUUID()})} onAsk={context=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',context:`Help me with this workshop step on my ${bike.model_year} ${bike.manufacturer} ${bike.model}, ${bike.variant}, ${bike.region}.\n\n${context}`,contextToken:randomUUID(),contextBikeId:bike.id});}}/>;}
+/** The team's own account: app_metadata is set only by us with the service key and arrives signed in the session. */
+const isStaff=(session:{user:{app_metadata?:Record<string,unknown>}})=>session.user.app_metadata?.staff===true;
 /** First-login setup, shown once to an account with no bike (see Welcome.tsx). Lives on Home because Home is where a new
  *  rider lands; it covers the whole screen until they finish or skip. */
 function WelcomeGate({toGarage}:{toGarage:()=>void}){
@@ -265,7 +267,8 @@ function WelcomeGate({toGarage}:{toGarage:()=>void}){
  const [done,setDone]=useProgress(account,'welcome-v1',false),[name,setNameState]=useProgress(account,'rider-name',readProgress<string>(DEVICE,'apple-name','').trim().split(/\s+/)[0]??''),[started,setStarted]=useState(false);
  // The name also pre-fills the rider profile form later (it reads the same key Sign in with Apple fills).
  const setName=(n:string)=>{setNameState(n);if(n&&!readProgress<string>(DEVICE,'apple-name',''))try{writeProgress(DEVICE,'apple-name',n);}catch{}};
- const show=shouldShowWelcome({done,bikesLoaded,bikeCount:bikes.length,started});
+ // The BAK MX team account (marked by us on the server, never by the rider) has no bike and skips first-login setup.
+ const show=!isStaff(session)&&shouldShowWelcome({done,bikesLoaded,bikeCount:bikes.length,started});
  useEffect(()=>{if(show&&!started)setStarted(true);},[show,started]);
  if(!show)return null;
  const finish=(how:'tour'|'app'|'skipped')=>{setDone(true);try{writeProgress(account,'tour-offer-v1',{answered:true});writeProgress(account,WHATS_NEW_KEY,{dismissed:true,opens:0});}catch{}if(how==='tour')setTimeout(startTour,350);};
@@ -519,7 +522,7 @@ function Garage({navigation,route}:BottomTabScreenProps<Tabs,'Garage'>){const [f
 function Chat(props:BottomTabScreenProps<Tabs,'Ask BAK'>){const{bike}=useContext(Ctx);return <ChatForBike key={chatScope(bike)} {...props}/>;}
 function useAlive(){const alive=useRef(true);useEffect(()=>{alive.current=true;return()=>{alive.current=false;};},[]);return alive;}
 function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
- const{bike,session,reload,bikes,select,setColorMode}=useContext(Ctx),[aiOk,setAiOk]=useState(()=>readProgress<boolean>(session.user.id,'ai-consent-'+AI_CONSENT_VERSION,false)===true),[triage,setTriage]=useState(false),[rideLogs,setRideLogs]=useState<SetupLog[]>([]),[threads,setThreads]=useState<Conversation[]>([]),[id,setId]=useProgress(session.user.id,`chat-thread-${bike?.id??'none'}`,''),[messages,setMessages]=useState<Message[]>([]),[draft,setDraft,draftError]=useProgress(session.user.id,`chat-draft-${bike?.id??'none'}`,''),[mode,setModeState]=useState<Conversation['mode']>('ask'),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false);
+ const{bike,session,reload,bikes,select,setColorMode}=useContext(Ctx),[aiOk,setAiOk]=useState(()=>isStaff(session)||readProgress<boolean>(session.user.id,'ai-consent-'+AI_CONSENT_VERSION,false)===true),[triage,setTriage]=useState(false),[rideLogs,setRideLogs]=useState<SetupLog[]>([]),[threads,setThreads]=useState<Conversation[]>([]),[id,setId]=useProgress(session.user.id,`chat-thread-${bike?.id??'none'}`,''),[messages,setMessages]=useState<Message[]>([]),[draft,setDraft,draftError]=useProgress(session.user.id,`chat-draft-${bike?.id??'none'}`,''),[mode,setModeState]=useState<Conversation['mode']>('ask'),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false);
  // The used-up moment and the quiet nudge (shared/pro-flow.ts): the card sits where the answer would be; the nudge is one line under the composer, dismissed for the session by its key.
  const[limit,setLimit]=useState<LimitState|null>(null),[usage,setUsage]=useState<UsageView|null>(null),[nudgeHidden,setNudgeHidden]=useState('');
  const openPro=()=>navigation.navigate('Pro');const refreshUsage=()=>api<UsageView>('/api/usage').then(u=>{if(alive.current)setUsage(u);return u;});
