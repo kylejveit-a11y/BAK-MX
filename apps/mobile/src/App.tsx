@@ -1,3 +1,4 @@
+import * as Application from 'expo-application';
 import {endShareOnSignOut,endRide,readActive} from './RideShare';
 import {RideSafetyBanner,RideSafetyHost,RideSafetyOffer,SafetyContactsCard} from './RideSafety';
 import {HEADING_OUT} from '../../../shared/ride-share';
@@ -872,6 +873,8 @@ function Account(){const{session,bike,colorMode}=useContext(Ctx),plan=usePlanSum
  </AccountGroup>
  <AccountGroup><AccountRow title="Sign out" plain onPress={()=>{if(!busy)void task(async()=>{await unregisterPush();await endShareOnSignOut();const r=await supabase!.auth.signOut();if(r.error)throw r.error;});}}/></AccountGroup>
  <Pressable accessibilityRole="button" onPress={()=>setPage('delete')} hitSlop={10} style={{alignSelf:'center',paddingVertical:6}}><Text style={{color:'#8b93a0',fontSize:13.5}}>Delete account</Text></Pressable>
+ {/* Which build a rider is on, for support: "BAK MX 1.0.14 (209)". */}
+ {!!Application.nativeApplicationVersion&&<Text selectable accessibilityLabel={`BAK MX version ${Application.nativeApplicationVersion}, build ${Application.nativeBuildVersion??''}`} style={{alignSelf:'center',color:'#6f7783',fontSize:12.5,paddingBottom:4}}>BAK MX {Application.nativeApplicationVersion}{Application.nativeBuildVersion?` (${Application.nativeBuildVersion})`:''}</Text>}
  <PageSheet visible={!!page} animationType="slide" onRequestClose={()=>setPage('')}>
   <View style={{flex:1,backgroundColor:colors.bg,paddingTop:18}}>
    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:22,paddingBottom:8}}>
