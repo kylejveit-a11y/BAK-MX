@@ -1,0 +1,8 @@
+-- Launch promo (Kyle 2026-11-27), applied to the MX project the same day. Runs through Nov 30, 2026 Eastern, then
+-- switches itself off (the sweep unschedules its own job; the post trigger stops granting).
+--  1. Every 6 hours (pg_cron job bakmx-welcome-sweep) each rider who signed up in the last 3 days, has no Pro and has
+--     not heard from the official BAK MX account gets one welcome message from it.
+--  2. A rider's first Community post turns on complimentary Pro and sends a thank-you from the same account.
+-- bakmx.com team accounts are skipped. The trigger swallows its own errors so it can never stop a post saving.
+-- Functions: bakmx_promo_open(), bakmx_official_message(uuid,text), bakmx_welcome_sweep(), bakmx_pro_on_first_post().
+-- The exact SQL is in the Supabase migration history under launch_promo_welcome_and_pro_on_post.
