@@ -1,6 +1,6 @@
 # BAK MX Privacy Policy
 
-Effective date: November 24, 2026
+Effective date: November 27, 2026
 
 BAK MX is operated by Kyle Veit, Tarpon Springs, Florida, USA ("BAK MX", "we", "us"). This policy explains what we collect
 when you use the BAK MX app for iPhone and Android and the website at bakmx.com, how we use it, and the choices you have.
@@ -33,6 +33,9 @@ speech recognition (Apple or Google).
 **Location.** If you allow it, the app uses your location to put the tracks and riding areas nearest you first. When you turn
 on Ride safety, the app saves where you were last seen and shares it by link with the people you choose, on iPhone including
 while the phone is in your pocket, until you tap I'm back or the timer ends. That position is erased shortly after the ride ends.
+When you tap Start recording, the app saves that ride's route and lap times to your account, on iPhone including while the
+phone is in your pocket, until you delete the ride or your account. If you add your current location to a place suggestion,
+we keep it with that suggestion so we can check the place.
 
 **Community and messages.** Your profile (handle, display name, bio, location and riding class you choose to enter), posts,
 comments, likes, events you create and RSVPs, direct messages with other riders, riders you block, and reports you file.
