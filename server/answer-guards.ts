@@ -106,8 +106,12 @@ export function proSupercross(message:string,bike:Pick<Bike,'configuration'>|nul
  return SX.test(message)&&(PRO.test(message)||/pro|expert/.test(level));
 }
 /** Extra published-fact searches a pro supercross plan needs beyond what the planner asked for. */
+/** A rider who states their weight ("220 lb in gear", "I weigh 95 kg") needs the maker's spring-by-rider-weight chart
+ *  in front of the model every time, so the answer can say which row they are in or that they are off the chart. */
+const STATED_WEIGHT=/\b\d{2,3}\s?(?:lbs?|pounds?|kgs?|kilos?)\b|\bI\s+weigh\b|\bmy weight\b/i;
 export function supplementalLookups(message:string,bike:Pick<Bike,'configuration'>|null):string[]{
- return proSupercross(message,bike)?['fork oil level outer tube adjustment range','optional fork spring shock spring rider weight','shock high speed compression rebound standard setting']:[];
+ return [...(proSupercross(message,bike)?['fork oil level outer tube adjustment range','optional fork spring shock spring rider weight','shock high speed compression rebound standard setting']:[]),
+  ...(STATED_WEIGHT.test(message)?['spring rate weight of rider']:[])];
 }
 
 // ---------- Setup card and prose ----------

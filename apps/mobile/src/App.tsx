@@ -567,6 +567,8 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  async function send(spoken?:string,photos?:Photo[]){
   const photosNow=photos??(spoken===undefined?attached:[]),clipNow=spoken===undefined?clip:null;
   const text=(spoken??draft).trim()||(clipNow?'Coach me on this clip.':photosNow.length?'What do you see in these photos?':'');
+  // A starter line from the Garage ("About my 2025 Yamaha YZ250X as it’s built now:") is not a question yet: keep it in the box and ask for the rest.
+  if(spoken===undefined&&!clipNow&&!photosNow.length&&/^About my .{3,80}:$/.test(text)){setNotice('Add your question after the colon, then send.');return;}
   if(!bike||!text.trim()||sending.current)return;
   sending.current=true;refreshVersion.current.invalidate();setBusy(true);setNotice('');setLimit(null);
   try{

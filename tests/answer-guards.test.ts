@@ -134,6 +134,7 @@ test('engineering input carries the recall, VIN and pro supercross guards',()=>{
  assert.ok(proSupercross('pro-level SX setup, clicker by clicker',null));assert.ok(!proSupercross('supercross for my kid',null));
  assert.ok(proSupercross('whoops setup',{configuration:{skill_level:'Pro'}}));
  assert.ok(supplementalLookups('pro supercross',null).some(q=>/fork oil level/.test(q)));assert.deepEqual(supplementalLookups('sag?',null),[]);
+ assert.deepEqual(supplementalLookups("I'm an expert rider, 220 lb in gear",null),['spring rate weight of rider']);assert.deepEqual(supplementalLookups('torque for the 220 mm rotor bolts',null),[]);
 });
 
 test('every setup change is stated in the prose, so a screenshot without the card is complete',()=>{
