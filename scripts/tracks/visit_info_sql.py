@@ -10,7 +10,7 @@ Usage: python3 -I scripts/tracks/visit_info_sql.py > /tmp/visit.sql
 import json, glob, os
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 q = lambda s: "'" + str(s).replace("'", "''") + "'"
-for f in sorted(glob.glob(os.path.join(ROOT, 'docs', 'research', 'tracks', 'visit-info-*.json'))):
+for f in sorted(glob.glob(os.path.join(ROOT, 'docs', 'research', 'tracks', (__import__('sys').argv[1] if len(__import__('sys').argv)>1 else 'visit-info-*.json')))):
     d = json.load(open(f))
     for p in d['places']:
         area = {'land': 'private', 'managed_by': None, 'near': None, 'address': p.get('address'),
