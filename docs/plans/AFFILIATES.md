@@ -53,3 +53,14 @@ contact Kyle Veit; email admin@bakmx.com; site bakmx.com.
 - Rocky Mountain ATV/MC: still not confirmed. The Awin profile 58491 is Kemimoto, not Rocky Mountain.
 - One Impact partner account covers both. First screen needs the terms box ticked and the account created: Kyle's steps.
   After that Claude fills company profile and promotion answers; Kyle types tax and bank details and submits.
+
+## Submitted 2026-11-28
+
+- Business email is now Google Workspace: support@bakmx.com (admin@bakmx.com is an alias). Namecheap Private Email lapsed
+  and is not renewed. Mail records point at Google.
+- Impact partner account created with support@bakmx.com (Google sign-in), contact Kyle Veit. Profile: publisher, company,
+  mobile apps, editorial content; website bakmx.com connected (verified by matching email domain).
+- MotoSport application submitted. Impact shows it as "Backcountry application: In Review" (MotoSport's program sits
+  under Backcountry on Impact). Tax and payout details not entered yet: Kyle enters those when Impact asks.
+- RevZilla: its apply link opens the same Backcountry/MotoSport flow while this account is in review, and the account has
+  no brand marketplace yet. Retry after approval, or write to affiliates@revzilla.com.
