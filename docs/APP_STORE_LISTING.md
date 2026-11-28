@@ -1,4 +1,4 @@
-# BAK MX App Store listing (version 1.0.13)
+# BAK MX App Store listing (version 1.0.14)
 
 Text Kyle approved for App Store Connect. Keep in sync with what is entered there.
 
@@ -10,12 +10,12 @@ Text Kyle approved for App Store Connect. Keep in sync with what is entered ther
 - Price: Free (in-app purchases: Premium, Pro, credit packs)
 
 ## Promotional text (170)
-New: Talk to BAK. Ask about your bike out loud and get the answer by voice, hands on the bike. Plus Find a part, Race day and Where to Ride trail maps.
+New: record your rides with automatic lap times, suggest your local tracks for Where to Ride, and export your service and setup logs. Beta, Ducati and Cobra added.
 
 ## Description (4000)
 BAK MX is a setup and tuning partner for motocross and off-road riders. Tell it what the bike is doing, the way you'd tell your buddy at the track, and BAK answers for your exact bike, year and settings.
 
-Covers most Honda and Yamaha bikes from 2010, KTM from 2011, Husqvarna and Kawasaki from 2014, Suzuki from 2020, GasGas from 2021 and Triumph from 2024. Not listed? Add it yourself and BAK still helps.
+Covers most Honda, Yamaha and Suzuki bikes from 2010, KTM from 2011, Husqvarna and Kawasaki from 2014, GasGas from 2021, Triumph from 2024, plus Beta RX, Ducati Desmo450 MX and Cobra minis. Not listed? Add it yourself and BAK still helps.
 
 ASK BAK
 - Describe a problem in plain words: "front pushes in flat corners", "rear kicks on braking bumps", "bogs out of turns".
@@ -46,6 +46,7 @@ SPECS IN RIDER WORDS
 KEEP IT RUNNING
 - Service log with the maker's schedule: what's due and how many hours are left.
 - Setup log: what you changed, where, the conditions, and how it rode.
+- Export both logs as spreadsheet files.
 - Step-by-step guided workshop jobs, hands-free.
 - Know-how: what every clicker, spring and setting does, softer versus stiffer.
 
@@ -58,8 +59,10 @@ WHERE TO RIDE
 - Tracks and riding areas in one list, nearest first, with what you can ride, passes and rules from the official pages.
 - Forest Service trail maps for national forest riding areas.
 - Today's forecast, rider check-ins and events at each place. Save the ones you ride.
+- Know a place that's missing? Suggest it and we check it before it's listed.
 
 RIDE DAY AND RIDE SAFETY
+- Record a ride: tap Start recording and your laps count themselves. Each ride is saved with its route and lap times.
 - Ride Day mode: one tap to log sessions, setup changes and how the track is riding.
 - Ride safety: set a back-by time and share a link to where you were last seen with the people you choose, until you tap I'm back.
 
@@ -73,7 +76,7 @@ ON YOUR PHONE
 - Reminders when service is due or an event is coming up.
 
 PLANS
-BAK MX is free to download with a Garage, logs, specs, community, 7 starter sets of 20 Ask BAK questions and 3 Action photo edits to try. Premium adds 100 Ask BAK questions a day and 5 photo edits a month. Pro adds unlimited questions (fair use), Talk to BAK (60 minutes a month), coaching from riding clips and 15 photo edits a month. Question packs add extra questions that never expire. Prices are shown in the app from the App Store. Subscriptions renew automatically unless cancelled at least 24 hours before the period ends; manage or cancel them in your Apple ID settings.
+BAK MX is free to download with a Garage, logs, specs, community, 7 starter sets of 20 Ask BAK questions and 3 Action photo edits to try. Premium adds 100 Ask BAK questions a day, 5 photo edits a month and a preview of Talk to BAK (15 minutes a month) and riding-clip coaching (3 clips a month). Pro adds unlimited questions (fair use), Talk to BAK (60 minutes a month), coaching from riding clips and 15 photo edits a month. Question packs add extra questions that never expire. Prices are shown in the app from the App Store. Subscriptions renew automatically unless cancelled at least 24 hours before the period ends; manage or cancel them in your Apple ID settings.
 
 Always double-check torque values and anything safety-critical before you ride. BAK MX gives guidance; you make the call on your bike.
 
@@ -83,8 +86,8 @@ Privacy Policy: https://bakmx.com/privacy
 ## Keywords (100)
 motocross,dirt bike,suspension,sag,clickers,fork,shock,jetting,trails,ohv,specs,enduro,honda,yamaha
 
-## What's New (1.0.13)
-See `docs/release/1.0.13-review-notes.md`.
+## What's New (1.0.14)
+See `docs/release/1.0.14-review-notes.md`.
 
 ## Screenshots (1.0.13)
 Nine 1206x2622 images made on 2026-11-24 with `scripts/marketing/store_shots.py`: chat, Talk to BAK, garage build sheet, find a part, specs, service log, race day, where to ride, events.
@@ -108,4 +111,4 @@ Account deletion: Account > Delete account > Permanently delete account.
 
 Community content: riders can report posts, comments and messages and block other riders from the ... menu on any post or profile. Reports are reviewed by us and content is removed within 24 hours.
 
-The app does not use location, contacts, tracking or advertising. Camera and photos are only used when the rider chooses to add a photo.
+The app uses location only as described in the 1.0.14 review notes (nearest places, ride recording, Ride safety). It does not use contacts, tracking or advertising. Camera and photos are only used when the rider chooses to add a photo.
