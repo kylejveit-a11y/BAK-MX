@@ -50,7 +50,7 @@ def recs(o):
     # C codes
     pairs=[(n,prob(p)) for c in o['codes'] for n,p in zip(c['nums'],c['probs']) if len(c['nums'])==len(c['probs'])]
     if pairs and all(p for _,p in pairs):
-        R['codes']=('DFI fault codes (blink codes)','When the fuel injection system has a fault, the warning indicator light flashes a two-digit service code as long and short blinks: read the tens digit, then the ones digit. The manual's self-diagnosis section shows the steps for this model year. Several stored codes play lowest number first. Codes: '+'; '.join(f"{n} {p}" for n,p in pairs)+'. If the part and its wiring check good, check the ECU power and ground before blaming the ECU.')
+        R['codes']=('DFI fault codes (blink codes)','When the fuel injection system has a fault, the warning indicator light flashes a two-digit service code as long and short blinks: read the tens digit, then the ones digit. The self-diagnosis section of the manual shows the steps for this model year. Several stored codes play lowest number first. Codes: '+'; '.join(f"{n} {p}" for n,p in pairs)+'. If the part and its wiring check good, check the ECU power and ground before blaming the ECU.')
     # D maps / launch
     d=[]
     if o.get('dfi_couplers'):
