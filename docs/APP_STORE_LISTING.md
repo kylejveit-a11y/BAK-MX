@@ -22,7 +22,7 @@ ASK BAK
 - Get one change to try, with what you should feel and when to go back.
 - Answers use your bike's published stock settings and what's on your bike now, and say so plainly when a number isn't published.
 
-TALK TO BAK (PRO)
+TALK TO BAK
 - Tap the blue button beside any Ask BAK box and ask out loud, hands on the bike.
 - BAK checks your bike's data before it answers, then says it in plain words.
 - Talk your way through a guided Workshop job: next, go back, repeat.
