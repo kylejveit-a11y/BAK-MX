@@ -37,3 +37,19 @@ Draft answers every application asks for (to be checked by Kyle): what BAK MX is
 parts on file as fitting the rider's exact bike), how links are shown (only when the rider opens Find a part or an
 answer says a part needs replacing; ranked by fit, never by payout), audience (US motocross and off-road riders),
 platforms (iOS app live, Android in testing, bakmx.com).
+
+## Go given 2026-11-28: what the sign-up pages actually are
+
+Kyle said go. LLC (BAK Motorsports LLC) and EIN are back. Contact on applications: Isabella Cortes (owner); day-to-day
+contact Kyle Veit; email admin@bakmx.com; site bakmx.com.
+
+- MotoSport: runs on Impact (impact.com). Apply link is on motosport.com/about/affiliate ("Apply to Impact").
+  Offer as shown on the Impact page 2026-11-28: 5% of the order amount; nothing on gift cards, fees, or orders using
+  unauthorized coupon or rider codes; last click wins; 14-day window; payout about 2.5 months after the month of the sale
+  (locks 1 month 26 days after month end, invoiced on the 28th, paid 15 days later); terms can change with 1 day's notice;
+  MotoSport can reverse any sale. Product feed promised on MotoSport's own page.
+- RevZilla: also on Impact. Apply link on revzilla.com/customer-service-affiliates-and-partnerships. Their page: up to 7%,
+  cookie up to 14 days. Contact affiliates@revzilla.com. Cycle Gear is the same company; check inside Impact.
+- Rocky Mountain ATV/MC: still not confirmed. The Awin profile 58491 is Kemimoto, not Rocky Mountain.
+- One Impact partner account covers both. First screen needs the terms box ticked and the account created: Kyle's steps.
+  After that Claude fills company profile and promotion answers; Kyle types tax and bank details and submits.
