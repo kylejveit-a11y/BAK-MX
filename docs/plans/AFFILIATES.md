@@ -64,3 +64,15 @@ contact Kyle Veit; email admin@bakmx.com; site bakmx.com.
   under Backcountry on Impact). Tax and payout details not entered yet: Kyle enters those when Impact asks.
 - RevZilla: its apply link opens the same Backcountry/MotoSport flow while this account is in review, and the account has
   no brand marketplace yet. Retry after approval, or write to affiliates@revzilla.com.
+
+## Later on 2026-11-28: other programs looked at
+
+- RevZilla confirmed blocked: Impact shows only "Backcountry application: In Review" until MotoSport decides. Offer seen
+  on Impact: 2%, 2-day window. Apply the day the first application is decided.
+- Rocky Mountain ATV/MC: run in-house, not on a network. A partner channel's links are plain rockymountainatvmc.com links
+  ending in ?ref=number, with a commission disclosure. No public sign-up form found; their site blocks automated readers.
+  Route in: email them. Draft is written. Kyle: skip for now and see what happens with MotoSport.
+- AvantLink: Troy Lee Designs is there (5%, 30 days). Kyle: not a fit for the app. No AvantLink account made.
+- eBay Partner Network: not looked into. Amazon Associates: wait until tagged links ship.
+- Partzilla, Dennis Kirk, KTM Twins: no program page found.
+- The running log of every sign-up and its status is the Sign-ups tab of the Tracker in Kyle's BAK Motorsports folder.
