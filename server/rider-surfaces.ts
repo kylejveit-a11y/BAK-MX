@@ -408,7 +408,7 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
   // The shop view (website, and app builds from 1.0.15) asks with shop=1 and gets filters, sorting and paging; older app builds get the plain list.
   if(browsing&&q('shop')){const sort=q('sort')??'',pos=q('position')??'';
    const b=list?shopSystem(list,system,{type:q('type')||undefined,brand:q('brand')||undefined,position:pos==='front'||pos==='rear'?pos:undefined,sort:(['type','price_low','price_high','brand'].includes(sort)?sort:'type') as ShopSort,offset:Number(q('offset'))||0,limit:60}):{parts:[],types:[],brands:[],total:0};
-   return json({query:'',system,types:b.types,brands:b.brands,total:b.total,factory,aftermarket:b.parts,has_factory_list:catalogs.length>0,has_aftermarket_list:!!list});}
+   return json({query:'',system,types:b.types,brands:b.brands,total:b.total,...('guide' in b&&b.guide?{guide:b.guide}:{}),factory,aftermarket:b.parts,has_factory_list:catalogs.length>0,has_aftermarket_list:!!list});}
   if(browsing){const b=list?browseSystem(list,system):{parts:[],types:[]};return json({query:'',system,types:b.types,factory,aftermarket:b.parts,has_factory_list:catalogs.length>0,has_aftermarket_list:!!list});}
   return json({query,factory,aftermarket:list?findAftermarket(list,query):[],has_factory_list:catalogs.length>0,has_aftermarket_list:!!list});
  }

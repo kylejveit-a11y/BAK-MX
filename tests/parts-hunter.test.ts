@@ -76,3 +76,14 @@ test('shop view: prices, filters and sorting run on the whole list',()=>{
  const front=shopSystem(list,'brakes' as never,{position:'front',brand:'EBC'});assert.equal(front.total,1);
  const over=partsOverview(list);assert.deepEqual(over.map(s=>[s.key,s.count]),[['brakes',3],['controls',2]]);
 });
+
+import {partGuide,kindOf} from '../shared/part-plain.ts';
+import {partTypes as allTypes} from '../shared/part-types.ts';
+test('plain words: every kind of part has a guide, and versions are read from the name',()=>{
+ for(const [system,types] of Object.entries(allTypes))for(const t of types!)assert.ok(partGuide(system,t.label),`${system} / ${t.label} has no plain-words guide`);
+ assert.equal(kindOf('brakes','Pads','FA368R Sintered Rear Brake Pads')?.name,'Sintered (metal)');
+ assert.equal(kindOf('brakes','Pads','SM1 Semi-Metallic Brake Pads')?.name,'Semi-metallic');
+ assert.equal(kindOf('gearing','Chain','520 ERV7 X-Ring Chain')?.name,'Sealed (O-ring or X-ring)');
+ assert.equal(kindOf('brakes','Pads','Brake Pads'),undefined);
+ for(const g of [partGuide('brakes','Pads')!,partGuide('exhaust','Slip-on muffler')!])for(const text of [g.what,...g.kinds.map(k=>k.plain)])assert.ok(!/—|\d{3,}/.test(text));
+});

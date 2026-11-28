@@ -4,6 +4,7 @@
 import type {CatalogPart} from './parts-picker.ts';
 import {partSystems,type PartSystem} from './installed-parts.ts';
 import {partTypes,typeOf} from './part-types.ts';
+import {partGuide,kindOf} from './part-plain.ts';
 
 const STOP=new Set(['the','and','for','with','my','bike','a','an','of','to','new','need','some','i','on','in','set','kit','part','parts','oem','stock','factory','replacement','replace','find','buy','where','get']);
 /** Words riders use and the short forms factory parts lists print. */
@@ -28,7 +29,9 @@ export type FoundPart={kind:'factory'|'aftermarket';brand:string;name:string;par
  /** lowest price seen at the stores on file, in US dollars, when one is on file (as last checked, not live) */
  price_from?:number;
  /** colours or sizes the maker lists for this product */
- options?:string[]};
+ options?:string[];
+ /** which version of this kind of part it is, in plain words (Sintered: the hardest-wearing pad…) */
+ variant?:{name:string;plain:string}};
 /** Front or rear, read from the part's own name. */
 export function positionOf(name:string):'front'|'rear'|undefined{
  const front=/\b(front|fr\.?)\b/i.test(name),rear=/\b(rear|rr\.?)\b/i.test(name);return front===rear?undefined:front?'front':'rear';
@@ -69,7 +72,8 @@ function productCard(p:CatalogPart,type?:string):FoundPart{
  const numbers=splitNumbers(p.pn),position=positionOf(p.name),note=(p.desc||p.what||'').trim();
  const stores=storeLinks({kind:'aftermarket',brand:p.brand,name:p.name,part_number:p.pn,links:p.links});
  const prices=stores.map(s=>s.price).filter((n):n is number=>!!n),options=[...new Set((p.opts??[]).map(o=>o.label.replace(/^[A-Z0-9][A-Z0-9.-]{4,}\s*=\s*/,'').replace(/:\s*[A-Z0-9][A-Z0-9.-]{5,}$/,'').trim()).filter(Boolean))].slice(0,12);
- return {kind:'aftermarket',brand:p.brand,name:p.name,part_number:numbers[0]??'',where:p.system,numbers,stores,...(type?{type}:{}),...(position?{position}:{}),...(note?{note:note.length>140?note.slice(0,137).trimEnd()+'…':note}:{}),...(prices.length?{price_from:Math.min(...prices)}:{}),...(options.length>1?{options}:{})};
+ const variant=kindOf(p.system==='brakes'&&/\bbar pads?\b|cross ?bar/i.test(p.name)?'controls':p.system,type,p.name);
+ return {kind:'aftermarket',brand:p.brand,name:p.name,part_number:numbers[0]??'',where:p.system,numbers,stores,...(type?{type}:{}),...(variant?{variant}:{}),...(position?{position}:{}),...(note?{note:note.length>140?note.slice(0,137).trimEnd()+'…':note}:{}),...(prices.length?{price_from:Math.min(...prices)}:{}),...(options.length>1?{options}:{})};
 }
 /** Aftermarket parts on this bike's list that match the rider's words, best match first. Payout is never an input. */
 export function findAftermarket(parts:CatalogPart[],query:string,limit=60):FoundPart[]{
@@ -150,7 +154,7 @@ const FIDDLY=/\b(retaining pins?|pin kit|pad pins?|bolts?|banjo|bleeder|hardware
 /** One system's products for this bike, filtered and sorted on the whole list before the page is cut, so "cheapest first"
  *  is the cheapest of everything on file and not of the first screenful. Open-box and previously-installed listings are
  *  left out: they are one-off items a store may no longer have. */
-export function shopSystem(parts:CatalogPart[],system:PartSystem,f:ShopFilters={}):{parts:FoundPart[];types:{label:string;count:number}[];brands:{name:string;count:number}[];total:number}{
+export function shopSystem(parts:CatalogPart[],system:PartSystem,f:ShopFilters={}):{parts:FoundPart[];types:{label:string;count:number}[];brands:{name:string;count:number}[];total:number;guide?:{what:string;kinds:{name:string;plain:string}[]}}{
  const order=[...(partTypes[system]??[]).map(t=>t.label),OTHER];
  const byProduct=new Map<string,FoundPart>();
  for(const p of parts){if(shopSystemOf(p)!==system||p.service||SECOND_HAND.test(p.name))continue;const key=`${p.brand}|${p.name}`.toLowerCase();
@@ -170,7 +174,9 @@ export function shopSystem(parts:CatalogPart[],system:PartSystem,f:ShopFilters={
  else if(f.sort==='brand')list.sort(byName);
  else list.sort((a,b)=>order.indexOf(a.type!)-order.indexOf(b.type!)||byName(a,b));
  const offset=Math.max(0,f.offset??0),limit=Math.min(120,Math.max(1,f.limit??60));
- return {parts:list.slice(offset,offset+limit),types,brands,total:list.length};
+ // The plain-words guide for the chosen kind of part, listing only the versions this bike's list actually has.
+ const g=f.type?partGuide(system,f.type):null,present=new Set(all.filter(p=>p.type===f.type).map(p=>p.variant?.name));
+ return {parts:list.slice(offset,offset+limit),types,brands,total:list.length,...(g?{guide:{what:g.what,kinds:g.kinds.filter(k=>k.always||present.has(k.name)).map(({name,plain})=>({name,plain}))}}:{})};
 }
 /** The shop's front page for one bike: each system with how many products are on file and its main kinds of part. */
 export function partsOverview(parts:CatalogPart[]):{key:PartSystem;label:string;hint:string;count:number;types:string[]}[]{

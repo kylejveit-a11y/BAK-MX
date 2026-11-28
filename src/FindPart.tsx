@@ -38,7 +38,8 @@ function Product({p,saved,onSave,busy}:{p:FoundPart;saved:boolean;onSave:()=>voi
   <div className="ps-card-top"><span className="ps-brand">{p.brand}</span>{p.price_from!==undefined&&<span className="ps-price">{p.stores.filter(s=>s.price).length>1?'From ':''}{money(p.price_from)}</span>}</div>
   <h3>{p.name}</h3>
   {(p.type||p.position)&&<div className="ps-tags">{p.type&&p.type!=='Small parts and accessories'&&<span>{p.type}</span>}{p.position&&<span>{p.position==='front'?'Front':'Rear'}</span>}</div>}
-  {p.note&&<p className="ps-note">{p.note}</p>}
+  {p.variant&&<p className="ps-kind"><b>{p.variant.name}.</b> {p.variant.plain}</p>}
+  {p.note&&!p.variant&&<p className="ps-note">{p.note}</p>}
   {p.options&&<p className="ps-opts">Comes in: {p.options.slice(0,4).join(', ')}{p.options.length>4?` and ${p.options.length-4} more`:''}</p>}
   <Buy stores={p.stores}/>
   <div className="ps-card-foot">{n?<span className="ps-pn">Part no. {n}{more?' and others':''} <Copy text={n}/></span>:<span/>}<button type="button" className="ps-save" disabled={saved||busy} onClick={onSave}>{saved?<><Check size={14} aria-hidden/> On my list</>:'Save'}</button></div>
@@ -50,7 +51,7 @@ function FactoryRow({p,saved,onSave,busy}:{p:FoundPart;saved:boolean;onSave:()=>
 }
 
 type Overview={systems:{key:string;label:string;hint:string;count:number;types:string[]}[];has_aftermarket_list:boolean};
-type Shop=Found&{system?:string;types?:{label:string;count:number}[];brands?:{name:string;count:number}[];total?:number};
+type Shop=Found&{system?:string;types?:{label:string;count:number}[];brands?:{name:string;count:number}[];total?:number;guide?:{what:string;kinds:{name:string;plain:string}[]}};
 const SORTS:[string,string][]=[['type','Kind of part'],['price_low','Price: low to high'],['price_high','Price: high to low'],['brand','Brand A to Z']];
 
 export function FindPart({bike}:{bike?:Bike}){
@@ -108,6 +109,7 @@ export function FindPart({bike}:{bike?:Bike}){
 
   {system&&found&&<>
    {!!found.types?.length&&<div className="ps-types" role="group" aria-label="Kind of part"><button type="button" className={!type?'on':''} aria-pressed={!type} onClick={()=>refine({type:''})}>All <small>{found.types.reduce((n,t)=>n+t.count,0)}</small></button>{found.types.map(t=><button type="button" key={t.label} className={type===t.label?'on':''} aria-pressed={type===t.label} onClick={()=>refine({type:t.label})}>{t.label} <small>{t.count}</small></button>)}</div>}
+   {found.guide&&<aside className="ps-guide" aria-label={`${type} in plain words`}><h3>{type}, in plain words</h3><p>{found.guide.what}</p>{!!found.guide.kinds.length&&<dl>{found.guide.kinds.map(k=><div key={k.name}><dt>{k.name}</dt><dd>{k.plain}</dd></div>)}</dl>}</aside>}
    <div className="ps-filters">
     <label><span>Brand</span><select value={brand} onChange={e=>refine({brand:e.target.value})}><option value="">All brands</option>{found.brands?.map(b=><option key={b.name} value={b.name}>{b.name} ({b.count})</option>)}</select></label>
     <label><span>Front or rear</span><select value={position} onChange={e=>refine({position:e.target.value})}><option value="">Either</option><option value="front">Front</option><option value="rear">Rear</option></select></label>
