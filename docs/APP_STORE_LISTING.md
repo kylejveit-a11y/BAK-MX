@@ -21,13 +21,10 @@ ASK BAK
 - Describe a problem in plain words: "front pushes in flat corners", "rear kicks on braking bumps", "bogs out of turns".
 - Get one change to try, with what you should feel and when to go back.
 - Answers use your bike's published stock settings and what's on your bike now, and say so plainly when a number isn't published.
-- Is something normal? Ask, and BAK tells you, explains why, and lists the signs that would mean it isn't.
-- Race mode gives short, fast answers between motos.
 
 TALK TO BAK (PRO)
 - Tap the blue button beside any Ask BAK box and ask out loud, hands on the bike.
 - BAK checks your bike's data before it answers, then says it in plain words.
-- Say yes to save a change it suggests. The conversation is saved in your chats.
 - Talk your way through a guided Workshop job: next, go back, repeat.
 
 YOUR GARAGE
@@ -48,7 +45,6 @@ KEEP IT RUNNING
 - Setup log: what you changed, where, the conditions, and how it rode.
 - Export both logs as spreadsheet files.
 - Step-by-step guided workshop jobs, hands-free.
-- Know-how: what every clicker, spring and setting does, softer versus stiffer.
 
 RACE DAY
 - Race prep checklist from the week before to the ride home.
@@ -73,7 +69,6 @@ RIDERS AND EVENTS
 ON YOUR PHONE
 - Home Screen and Lock Screen widgets with hours, next service and your next event.
 - "Hey Siri, ask BAK."
-- Reminders when service is due or an event is coming up.
 
 PLANS
 BAK MX is free to download with a Garage, logs, specs, community, 7 starter sets of 20 Ask BAK questions and 3 Action photo edits to try. Premium adds 100 Ask BAK questions a day, 5 photo edits a month and a preview of Talk to BAK (15 minutes a month) and riding-clip coaching (3 clips a month). Pro adds unlimited questions (fair use), Talk to BAK (60 minutes a month), coaching from riding clips and 15 photo edits a month. Question packs add extra questions that never expire. Prices are shown in the app from the App Store. Subscriptions renew automatically unless cancelled at least 24 hours before the period ends; manage or cancel them in your Apple ID settings.
