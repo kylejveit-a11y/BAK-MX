@@ -108,3 +108,39 @@
  .lp-foot{padding:24px 20px}
 }
 @media(max-width:520px){.lp-cost table{min-width:0;font-size:12.5px}.lp-cost th,.lp-cost td{padding:12px 5px}.lp-cost thead th{font-size:14px;width:auto}.lp-cost thead th small{font-size:10.5px}.lp-cost th[scope=row]{width:32%}.lp-cards,.lp-cols{grid-template-columns:1fr}.lp-card-shot{height:260px}.lp-hero-actions{flex-direction:column;align-items:stretch;max-width:320px;margin:0 auto}.lp-btn{justify-content:center}.lp p{font-size:16px}}
+
+/* Finish pass (2026-11-28): metal on the type, depth on the glass, the app's blue dash under section titles. */
+.lp h1,.lp h2{font-weight:600;background:linear-gradient(180deg,#ffffff 30%,#b9c0cd 100%);-webkit-background-clip:text;background-clip:text;color:transparent;padding-bottom:.08em}
+.lp-hero h1{letter-spacing:-.05em}
+.lp-chapter-text h2::after,.lp-bikes-text h2::after{content:"";display:block;width:44px;height:3px;margin-top:22px;border-radius:2px;background:linear-gradient(90deg,#5b8df0 0 70%,transparent 70% 78%,#5b8df066 78%)}
+.lp-rest h2::after,.lp-answers h2::after,.lp-cost h2::after{content:"";display:block;width:44px;height:3px;margin:22px auto 0;border-radius:2px;background:linear-gradient(90deg,#5b8df0 0 70%,transparent 70% 78%,#5b8df066 78%)}
+.lp-top{border-bottom-color:#ffffff0f}
+.lp-btn{border-radius:12px;box-shadow:inset 0 1px 0 #ffffff14;background:linear-gradient(180deg,#17181d,#0f1014)}
+.lp-btn:hover{background:linear-gradient(180deg,#1d1f25,#131419)}
+.lp-btn.solid{background:linear-gradient(180deg,#5a8af0,#3562cc);border-color:#6b97f5;box-shadow:inset 0 1px 0 #ffffff59,0 10px 30px -12px #3f6fd8cc}
+.lp-btn.solid:hover{background:linear-gradient(180deg,#6896f6,#3d6bd8);border-color:#7da5f8}
+.lp-hero{background:radial-gradient(60% 38% at 50% 0%,#24407a40,transparent 70%),radial-gradient(46% 30% at 50% 78%,#2a55b02e,transparent 72%)}
+.lp-hero::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;background:repeating-linear-gradient(90deg,#ffffff05 0 1px,transparent 1px 3px)}
+.lp-hero>*{position:relative}
+.lp-phone{background:linear-gradient(150deg,#6a6e79 0%,#24262c 14%,#0c0d10 55%,#191b20 82%,#565a65 100%);box-shadow:0 0 0 1px #000,0 50px 90px -34px #000,0 0 70px -24px #3f6fd859,inset 0 1px 0 #ffffff40,inset 0 0 0 1px #ffffff12}
+.lp-phone img{box-shadow:0 0 0 1px #000}
+.lp-facts{border-color:transparent;border-image:linear-gradient(90deg,transparent,#2b2e37 18%,#2b2e37 82%,transparent) 1;padding:64px 28px}
+.lp-facts strong{font-weight:600;background:linear-gradient(180deg,#fff 25%,#9fa7b6);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lp-chapter{position:relative}
+.lp-chapter .lp-phone{position:relative}
+.lp-chapter .lp-phone::before{content:"";position:absolute;inset:-18% -30%;z-index:-1;background:radial-gradient(closest-side,#2f5fc433,transparent);pointer-events:none}
+.lp-rest,.lp-answers{background:linear-gradient(180deg,#0e0f13,#0b0c0f)}
+.lp-cards article{background:linear-gradient(180deg,#15161b,#0f1014);border-color:#262830;box-shadow:inset 0 1px 0 #ffffff14,0 30px 60px -40px #000;transition:transform .25s cubic-bezier(.2,.7,.2,1),border-color .25s}
+.lp-cards article:hover{transform:translateY(-4px);border-color:#3a3e4a}
+.lp-cols div{border-top:0;position:relative}
+.lp-cols div::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,#5b8df0,#2b2e37 30%)}
+.lp .lp-bikes section.support-picker{background:linear-gradient(180deg,#15161b,#0f1014)!important;border:1px solid #262830!important;border-radius:18px!important;padding:26px!important;box-shadow:inset 0 1px 0 #ffffff14,0 30px 60px -40px #000!important}
+.lp .lp-bikes .support-picker .panel-title{display:none}
+.lp-table{background:linear-gradient(180deg,#121317,#0d0e11);border:1px solid #23252c;border-radius:18px;padding:10px 22px 6px;box-shadow:inset 0 1px 0 #ffffff12}
+.lp-cost tbody tr:first-child th,.lp-cost tbody tr:first-child td{border-top-color:#2b2e37}
+.lp-cost thead th:last-child{color:#a9c6f7}
+.lp-end{background:radial-gradient(50% 70% at 50% 100%,#1c3a7a40,transparent 70%),#000}
+.lp-end img{height:34px}
+@media(prefers-reduced-motion:reduce){.lp-cards article{transition:none}.lp-cards article:hover{transform:none}}
+@media(max-width:900px){.lp-facts{padding:44px 20px}.lp-table{padding:6px 10px 2px}.lp .lp-bikes section.support-picker{padding:18px!important}}
+@media(max-width:520px){.lp-hero h1{font-size:8.4vw}}
