@@ -24,13 +24,21 @@ export type FoundPart={kind:'factory'|'aftermarket';brand:string;name:string;par
  /** one line on what it is or changes, when on file */
  note?:string;
  /** the kind of part inside its system (Auto clutch, Plates, Fork springs…), for the browse filters */
- type?:string};
+ type?:string;
+ /** lowest price seen at the stores on file, in US dollars, when one is on file (as last checked, not live) */
+ price_from?:number;
+ /** colours or sizes the maker lists for this product */
+ options?:string[]};
 /** Front or rear, read from the part's own name. */
 export function positionOf(name:string):'front'|'rear'|undefined{
  const front=/\b(front|fr\.?)\b/i.test(name),rear=/\b(rear|rr\.?)\b/i.test(name);return front===rear?undefined:front?'front':'rear';
 }
 const splitNumbers=(pn:string)=>[...new Set(pn.split(/[,;]\s*/).map(x=>x.trim()).filter(x=>x.length>=3&&!/-$/.test(x)))];
-export type StoreLink={store:string;url:string;how:'listing'|'search'};
+export type StoreLink={store:string;url:string;how:'listing'|'search';
+ /** the store's price for this product in US dollars as last checked, when on file */
+ price?:number};
+/** '429.00 USD' -> 429. Only plain US-dollar prices; anything else is left out rather than guessed. */
+export function usd(price?:string):number|undefined{const m=/^\s*\$?(\d{1,5}(?:\.\d{1,2})?)\s*(USD)?\s*$/i.exec(price??'');if(!m)return undefined;const n=Number(m[1]);return n>0?n:undefined;}
 /** Where to buy. Checked by hand on 2026-11-21 with real part numbers from the parts lists on file, because a store
  *  that cannot look a part up by the maker's number is no use (Kyle: "just pulling the store with a part number they
  *  can't identify isn't really a tool"):
@@ -41,9 +49,9 @@ export type StoreLink={store:string;url:string;how:'listing'|'search'};
 const MOTOSPORT_OEM=new Set(['honda','yamaha','kawasaki','ktm','husqvarna','gasgas']);
 const PARTZILLA_OEM=new Set(['honda','yamaha','kawasaki','suzuki']);
 const NOT_A_STORE=/scene7|cloudfront|cdn\.|\.(png|jpe?g|webp|pdf)(\?|$)/i;
-export function storeLinks(p:{kind:'factory'|'aftermarket';brand:string;name:string;part_number:string;links?:{seller:string;url:string}[]}):StoreLink[]{
+export function storeLinks(p:{kind:'factory'|'aftermarket';brand:string;name:string;part_number:string;links?:{seller:string;url:string;price?:string}[]}):StoreLink[]{
  const out:StoreLink[]=[];const seen=new Set<string>();
- for(const l of p.links??[]){if(!/^https:\/\//.test(l.url)||NOT_A_STORE.test(l.url)||NOT_A_STORE.test(l.seller)||seen.has(l.seller))continue;seen.add(l.seller);out.push({store:l.seller,url:l.url,how:'listing'});if(out.length>=4)break;}
+ for(const l of p.links??[]){if(!/^https:\/\//.test(l.url)||NOT_A_STORE.test(l.url)||NOT_A_STORE.test(l.seller)||seen.has(l.seller))continue;seen.add(l.seller);const price=usd(l.price);out.push({store:l.seller,url:l.url,how:'listing',...(price?{price}:{})});if(out.length>=4)break;}
  const pn=p.part_number.trim();
  if(p.kind==='factory'){
   if(!pn)return out;const make=p.brand.toLowerCase().replace(/[^a-z]/g,'');
@@ -55,11 +63,19 @@ export function storeLinks(p:{kind:'factory'|'aftermarket';brand:string;name:str
  if(!out.length){const q=encodeURIComponent(`${p.brand} ${p.name}`.trim().slice(0,80));if(q)out.push({store:'MotoSport',url:`https://www.motosport.com/search?textsearch=${q}`,how:'search'});}
  return out;
 }
+
+/** One aftermarket product as a card: brand, name, what it is, options, store pages and the lowest price on file. */
+function productCard(p:CatalogPart,type?:string):FoundPart{
+ const numbers=splitNumbers(p.pn),position=positionOf(p.name),note=(p.desc||p.what||'').trim();
+ const stores=storeLinks({kind:'aftermarket',brand:p.brand,name:p.name,part_number:p.pn,links:p.links});
+ const prices=stores.map(s=>s.price).filter((n):n is number=>!!n),options=[...new Set((p.opts??[]).map(o=>o.label.replace(/^[A-Z0-9][A-Z0-9.-]{4,}\s*=\s*/,'').replace(/:\s*[A-Z0-9][A-Z0-9.-]{5,}$/,'').trim()).filter(Boolean))].slice(0,12);
+ return {kind:'aftermarket',brand:p.brand,name:p.name,part_number:numbers[0]??'',where:p.system,numbers,stores,...(type?{type}:{}),...(position?{position}:{}),...(note?{note:note.length>140?note.slice(0,137).trimEnd()+'…':note}:{}),...(prices.length?{price_from:Math.min(...prices)}:{}),...(options.length>1?{options}:{})};
+}
 /** Aftermarket parts on this bike's list that match the rider's words, best match first. Payout is never an input. */
-export function findAftermarket(parts:CatalogPart[],query:string,limit=30):FoundPart[]{
+export function findAftermarket(parts:CatalogPart[],query:string,limit=60):FoundPart[]{
  const patterns=termPatterns(query);if(!patterns.length)return [];
  const scored:{p:CatalogPart;s:number}[]=[];
- for(const p of parts){const name=`${p.brand} ${p.name}`;if(!hits(`${name} ${p.system}`,patterns))continue;
+ for(const p of parts){if(/\[(open box|previously installed|blemished)[^\]]*\]/i.test(p.name))continue;const name=`${p.brand} ${p.name}`;if(!hits(`${name} ${p.system}`,patterns))continue;
   scored.push({p,s:(hits(p.name,patterns)?4:0)+(p.verified?2:0)+(p.pn?1:0)+(p.links.length?1:0)});}
  scored.sort((a,b)=>b.s-a.s||a.p.brand.localeCompare(b.p.brand)||a.p.name.localeCompare(b.p.name));
  // One card per product: the same brand and name listed under several part numbers (versions, front and rear sets)
@@ -69,8 +85,7 @@ export function findAftermarket(parts:CatalogPart[],query:string,limit=30):Found
   const have=byProduct.get(key);
   if(have){for(const n of numbers)if(!have.numbers!.includes(n))have.numbers!.push(n);if(!have.stores.length)have.stores=storeLinks({kind:'aftermarket',brand:p.brand,name:p.name,part_number:p.pn,links:p.links});continue;}
   if(out.length>=limit)continue;
-  const position=positionOf(p.name),note=(p.desc||p.what||'').trim();
-  const part:FoundPart={kind:'aftermarket',brand:p.brand,name:p.name,part_number:numbers[0]??'',where:p.system,numbers,stores:storeLinks({kind:'aftermarket',brand:p.brand,name:p.name,part_number:p.pn,links:p.links}),...(position?{position}:{}),...(note?{note:note.length>140?note.slice(0,137).trimEnd()+'…':note}:{})};
+  const part=productCard(p,typeOf(p.system,p.name)??undefined);
   byProduct.set(key,part);out.push(part);}
  return out;
 }
@@ -115,9 +130,49 @@ export function browseSystem(parts:CatalogPart[],system:PartSystem,limit=240):{p
  const byProduct=new Map<string,FoundPart>();
  for(const p of parts){if(p.system!==system||p.service)continue;const key=`${p.brand}|${p.name}`.toLowerCase();const numbers=splitNumbers(p.pn);
   const have=byProduct.get(key);if(have){for(const n of numbers)if(!have.numbers!.includes(n))have.numbers!.push(n);continue;}
-  const position=positionOf(p.name),note=(p.desc||p.what||'').trim(),type=typeOf(system,p.name)??OTHER;
-  byProduct.set(key,{kind:'aftermarket',brand:p.brand,name:p.name,part_number:numbers[0]??'',where:p.system,numbers,type,stores:storeLinks({kind:'aftermarket',brand:p.brand,name:p.name,part_number:p.pn,links:p.links}),...(position?{position}:{}),...(note?{note:note.length>140?note.slice(0,137).trimEnd()+'…':note}:{})});}
+  byProduct.set(key,productCard(p,typeOf(system,p.name)??OTHER));}
  const all=[...byProduct.values()].sort((a,b)=>order.indexOf(a.type!)-order.indexOf(b.type!)||a.brand.localeCompare(b.brand)||a.name.localeCompare(b.name));
  const types=order.map(label=>({label,count:all.filter(p=>p.type===label).length})).filter(t=>t.count>0);
  return {parts:all.slice(0,limit),types};
+}
+
+/* ------------------------------------------------------------------ Shop view (2026-11-28 overhaul) */
+export type ShopSort='type'|'price_low'|'price_high'|'brand';
+export type ShopFilters={type?:string;brand?:string;position?:'front'|'rear';sort?:ShopSort;limit?:number;offset?:number};
+const SECOND_HAND=/\[(open box|previously installed|blemished)[^\]]*\]/i;
+/** A few products sit under the wrong system in the lists (handlebar pads filed under brakes because of the word "pad").
+ *  The shop reads the system through this so they show where a rider would look. */
+export function shopSystemOf(p:{system:PartSystem;name:string}):PartSystem{
+ if(p.system==='brakes'&&/\b(cross ?bar|bar) pads?\b|\bhandlebar pad\b/i.test(p.name))return 'controls';
+ return p.system;
+}
+const FIDDLY=/\b(retaining pins?|pin kit|pad pins?|bolts?|banjo|bleeder|hardware)\b/i;
+/** One system's products for this bike, filtered and sorted on the whole list before the page is cut, so "cheapest first"
+ *  is the cheapest of everything on file and not of the first screenful. Open-box and previously-installed listings are
+ *  left out: they are one-off items a store may no longer have. */
+export function shopSystem(parts:CatalogPart[],system:PartSystem,f:ShopFilters={}):{parts:FoundPart[];types:{label:string;count:number}[];brands:{name:string;count:number}[];total:number}{
+ const order=[...(partTypes[system]??[]).map(t=>t.label),OTHER];
+ const byProduct=new Map<string,FoundPart>();
+ for(const p of parts){if(shopSystemOf(p)!==system||p.service||SECOND_HAND.test(p.name))continue;const key=`${p.brand}|${p.name}`.toLowerCase();
+  const have=byProduct.get(key);if(have){for(const n of splitNumbers(p.pn))if(!have.numbers!.includes(n))have.numbers!.push(n);continue;}
+  byProduct.set(key,productCard(p,FIDDLY.test(p.name)?OTHER:typeOf(system,p.name)??OTHER));}
+ const all=[...byProduct.values()];
+ const types=order.map(label=>({label,count:all.filter(p=>p.type===label).length})).filter(t=>t.count>0);
+ let list=f.type?all.filter(p=>p.type===f.type):all;
+ const brandCount=new Map<string,number>();for(const p of list)brandCount.set(p.brand,(brandCount.get(p.brand)??0)+1);
+ const brands=[...brandCount].map(([name,count])=>({name,count})).sort((a,b)=>a.name.localeCompare(b.name));
+ if(f.brand)list=list.filter(p=>p.brand===f.brand);
+ if(f.position)list=list.filter(p=>p.position===f.position);
+ const byName=(a:FoundPart,b:FoundPart)=>a.brand.localeCompare(b.brand)||a.name.localeCompare(b.name);
+ const priced=(p:FoundPart)=>p.price_from!==undefined;
+ if(f.sort==='price_low')list.sort((a,b)=>Number(priced(b))-Number(priced(a))||(a.price_from??0)-(b.price_from??0)||byName(a,b));
+ else if(f.sort==='price_high')list.sort((a,b)=>Number(priced(b))-Number(priced(a))||(b.price_from??0)-(a.price_from??0)||byName(a,b));
+ else if(f.sort==='brand')list.sort(byName);
+ else list.sort((a,b)=>order.indexOf(a.type!)-order.indexOf(b.type!)||byName(a,b));
+ const offset=Math.max(0,f.offset??0),limit=Math.min(120,Math.max(1,f.limit??60));
+ return {parts:list.slice(offset,offset+limit),types,brands,total:list.length};
+}
+/** The shop's front page for one bike: each system with how many products are on file and its main kinds of part. */
+export function partsOverview(parts:CatalogPart[]):{key:PartSystem;label:string;hint:string;count:number;types:string[]}[]{
+ return partSystems.map(s=>{const r=shopSystem(parts,s.key,{limit:1});return {key:s.key,label:s.label,hint:s.hint,count:r.types.reduce((n,t)=>n+t.count,0),types:r.types.filter(t=>t.label!==OTHER).slice(0,4).map(t=>t.label)};}).filter(s=>s.count>0);
 }

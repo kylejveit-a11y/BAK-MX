@@ -63,3 +63,16 @@ test('browse by system: every product in the system, grouped by kind of part',()
  assert.deepEqual(b.types,[{label:'Auto clutch',count:1},{label:'Plates',count:1},{label:'Basket or hub',count:1}]);
  assert.equal(isPartSystem('clutch'),true);assert.equal(isPartSystem('nope'),false);
 });
+
+import {shopSystem,partsOverview,usd,shopSystemOf} from '../shared/parts-hunter.ts';
+test('shop view: prices, filters and sorting run on the whole list',()=>{
+ const mk=(brand:string,name:string,system:string,price:string,pn='X1')=>({brand,name,system,pn,verified:false,what:'',caution:'',testers:[],service:false,links:[{seller:'MotoSport',url:'https://www.motosport.com/x',price}]}) as never;
+ const list=[mk('EBC','Sintered Front Brake Pads','brakes','32.50 USD'),mk('Galfer','Rear Brake Pads','brakes','27.00 USD'),mk('Galfer','Wave Rotor Front','brakes','129.99 USD'),mk('Renthal','SX Crossbar Pad','brakes','24.26 USD'),mk('EBC','Brake Pads [Open Box]','brakes','9.00 USD'),mk('ODI','Grips','controls','12.00 USD')];
+ assert.equal(usd('429.00 USD'),429);assert.equal(usd('call'),undefined);
+ assert.equal(shopSystemOf({system:'brakes',name:'SX Crossbar Pad'} as never),'controls');
+ const all=shopSystem(list,'brakes' as never,{sort:'price_low'});
+ assert.equal(all.total,3);assert.deepEqual(all.parts.map(p=>p.price_from),[27,32.5,129.99]);
+ assert.equal(all.parts[0].stores[0].price,27);
+ const front=shopSystem(list,'brakes' as never,{position:'front',brand:'EBC'});assert.equal(front.total,1);
+ const over=partsOverview(list);assert.deepEqual(over.map(s=>[s.key,s.count]),[['brakes',3],['controls',2]]);
+});

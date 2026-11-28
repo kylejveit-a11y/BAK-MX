@@ -10,7 +10,7 @@ import {readInstalled,systemLabel,partLabel} from '../shared/installed-parts.ts'
 import {canonBrand,cleanName} from '../shared/parts-picker.ts';
 import {collectPages} from './pagination.ts';
 import {HttpError,readJson,uuid} from './validation.ts';
-import {termPatterns,storeLinks,findAftermarket,positionOf,isPartSystem,factorySystemPatterns,browseSystem,type FoundPart} from '../shared/parts-hunter.ts';
+import {termPatterns,storeLinks,findAftermarket,positionOf,isPartSystem,factorySystemPatterns,browseSystem,shopSystem,partsOverview,type FoundPart,type ShopSort} from '../shared/parts-hunter.ts';
 import {decodeFamily,familyOf,type CatalogPart} from '../shared/parts-picker.ts';
 import {loadFamily} from './part-options.ts';
 import {objectionable} from './content-rules.ts';
@@ -405,8 +405,20 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
   const [rows,list]=await Promise.all([catalogs.length?db.rpc('part_search',{p_catalog:catalogs[0].id,p_patterns:patterns}).then(r=>(checked(r)??[]) as Row[]):Promise.resolve([] as Row[]),family?loadFamily(family).then(f=>decodeFamily(f,make,String(bike.model),Number(bike.model_year))):Promise.resolve(null)]);
   const seen=new Set<string>();const factory:FoundPart[]=[];
   for(const r of rows){const pn=String(r.part_number);if(seen.has(pn))continue;seen.add(pn);{const name=String(r.description),where=String(r.assembly),position=positionOf(name)??positionOf(where);factory.push({kind:'factory',brand:make,name,part_number:pn,numbers:[pn],where,stores:storeLinks({kind:'factory',brand:make,name,part_number:pn}),...(position?{position}:{})});}if(factory.length>=20)break;}
+  // The shop view (website, and app builds from 1.0.15) asks with shop=1 and gets filters, sorting and paging; older app builds get the plain list.
+  if(browsing&&q('shop')){const sort=q('sort')??'',pos=q('position')??'';
+   const b=list?shopSystem(list,system,{type:q('type')||undefined,brand:q('brand')||undefined,position:pos==='front'||pos==='rear'?pos:undefined,sort:(['type','price_low','price_high','brand'].includes(sort)?sort:'type') as ShopSort,offset:Number(q('offset'))||0,limit:60}):{parts:[],types:[],brands:[],total:0};
+   return json({query:'',system,types:b.types,brands:b.brands,total:b.total,factory,aftermarket:b.parts,has_factory_list:catalogs.length>0,has_aftermarket_list:!!list});}
   if(browsing){const b=list?browseSystem(list,system):{parts:[],types:[]};return json({query:'',system,types:b.types,factory,aftermarket:b.parts,has_factory_list:catalogs.length>0,has_aftermarket_list:!!list});}
   return json({query,factory,aftermarket:list?findAftermarket(list,query):[],has_factory_list:catalogs.length>0,has_aftermarket_list:!!list});
+ }
+ // ---- The parts shop's front page: every system with a count of products on file for this exact bike.
+ if(path==='/api/parts/overview'&&method==='GET'){
+  const bike=checked(await db.from('bikes').select('manufacturer,model,model_year').eq('id',id('bike_id')).eq('user_id',owner).maybeSingle()) as Row|null;
+  if(!bike)throw new HttpError(404,'Bike not found');
+  const make=String(bike.manufacturer),family=familyOf(make);
+  const list=family?await loadFamily(family).then(f=>decodeFamily(f,make,String(bike.model),Number(bike.model_year))).catch(()=>null):null;
+  return json({systems:list?partsOverview(list):[],has_aftermarket_list:!!list});
  }
  if(path==='/api/saved-parts'){
   if(method==='GET'){const rows=checked(await db.from('saved_parts').select('id,bike_id,kind,brand,name,part_number,created_at').eq('user_id',owner).eq('bike_id',id('bike_id')).order('created_at',{ascending:false}).limit(200)) as Row[]|null;
