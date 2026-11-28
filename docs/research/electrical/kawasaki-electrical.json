@@ -1,0 +1,2700 @@
+[
+ {
+  "file": "99803-0029-o5kx85clf-us-en-2.xml",
+  "code": "KX85C",
+  "year": 2020,
+  "names": [],
+  "ignition": "CDI",
+  "timing": [
+   "12°BTDC@11320r/min(rpm)",
+   "12°BTDC@12640r/min(rpm)"
+  ],
+  "plug": "NGK R6252K-105",
+  "terminal": "Solid-post",
+  "plug_torque": "25.5N·m(2.60kgf·m,18.8ft·lb)",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": false,
+  "estart": false
+ },
+ {
+  "file": "99803-0030-o5kx65alf-us-en-9.xml",
+  "code": "KX65A",
+  "year": 2020,
+  "names": [],
+  "plug": "NGK BR10EG",
+  "terminal": "Solid-",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99803-0044-o5kx450jlf-us-en-.xml",
+  "code": "KX450J",
+  "year": 2020,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "11°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "colder_plug": "NGKCPR9EB-952",
+  "main_fuse_a": [
+   15
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseandsparefusearemountedbehindtherightsidecover.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "46"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort",
+     "Fuelpumpmalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "51",
+     "7F"
+    ],
+    "probs": [
+     "ProblemsIgnitioncoilmalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99803-0080-o5kx252blf-us-en-.xml",
+  "code": "KX252B",
+  "year": 2020,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "2°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CR9EIB-9",
+  "terminal": "Solid-post",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "42"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort",
+     "Upstreaminjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51"
+    ],
+    "probs": [
+     "ProblemsFuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99803-0128-o5kx85cmf-us-en-c.xml",
+  "code": "KX85C",
+  "year": 2021,
+  "names": [],
+  "ignition": "CDI",
+  "timing": [
+   "12°BTDC@11320r/min(rpm)",
+   "12°BTDC@12640r/min(rpm)"
+  ],
+  "plug": "NGK R6252K-105",
+  "terminal": "Solid-post",
+  "plug_torque": "25.5N·m(2.60kgf·m,18.8ft·lb)",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": false,
+  "estart": false
+ },
+ {
+  "file": "99803-0129-o5kx65cmf-us-en-5.xml",
+  "code": "KX65C",
+  "year": 2021,
+  "names": [],
+  "plug": "NGK BR10EG",
+  "terminal": "Solid-",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99803-0181-o5kx450jmf-us-en-.xml",
+  "code": "KX450J",
+  "year": 2021,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "11°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "colder_plug": "NGKCPR9EB-9",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseandsparefusearemountedbehindtherightsidecover.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "46"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort",
+     "Fuelpumpmalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "51",
+     "7F"
+    ],
+    "probs": [
+     "ProblemsIgnitioncoilmalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99803-0182-o5kx450kmf-us-en-.xml",
+  "code": "KX450K",
+  "year": 2021,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "11°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "colder_plug": "NGKCPR9EB-954",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseisplacedinthestarterrelaybehindtherightsidecover.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "46"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort",
+     "Fuelpumpmalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "51",
+     "7F"
+    ],
+    "probs": [
+     "ProblemsIgnitioncoilmalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": true,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99803-0183-o5kx252cmf-us-en-.xml",
+  "code": "KX252C",
+  "year": 2021,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "2°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CR9EIB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseandsparefusearemountedbehindtherightsidecover.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "42"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort",
+     "Upstreaminjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51",
+     "7F"
+    ],
+    "probs": [
+     "ProblemsFuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99803-0184-o5kx252dmf-us-en-.xml",
+  "code": "KX252D",
+  "year": 2021,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "2°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CR9EIB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseandsparefusearemountedbehindtherightsidecover.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "42"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort",
+     "Upstreaminjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51",
+     "7F"
+    ],
+    "probs": [
+     "FProblemsFuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": true,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99803-0213-o5kx112anf-us-en-.xml",
+  "code": "KX112A",
+  "year": 2022,
+  "names": [],
+  "plug": "NGK R6252K-105",
+  "terminal": "Solid-post",
+  "plug_torque": "25.5N·m(2.60kgf·m,18.8ft·lb)",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": false,
+  "estart": false
+ },
+ {
+  "file": "99803-0214-o5kx252cnf-us-en-.xml",
+  "code": "KX252C",
+  "year": 2022,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "2°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CR9EIB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseandsparefusearemountedbehindtherightsidecover.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "42",
+     "46"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort",
+     "Upstreaminjectormalfunction,wiringopenorshort",
+     "Fuelpumpmalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "51",
+     "7F"
+    ],
+    "probs": [
+     "FProblemsIgnitioncoilmalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [
+   "KX252D"
+  ],
+  "acc_conn": true,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99803-0216-o5kx450jnf-us-en-.xml",
+  "code": "KX450J",
+  "year": 2022,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "11°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "colder_plug": "NGKCPR9EB-9",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseisplacedinthestarterrelaybehindtherightsidecover.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "46"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort",
+     "Fuelpumpmalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "51",
+     "7F"
+    ],
+    "probs": [
+     "FProblemsIgnitioncoilmalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [
+   "KX450K"
+  ],
+  "acc_conn": true,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99803-0217-o5kx85cnf-us-en-e.xml",
+  "code": "KX85C",
+  "year": 2022,
+  "names": [],
+  "ignition": "CDI",
+  "timing": [
+   "12°BTDC@11320r/min(rpm)"
+  ],
+  "plug": "NGK R6252K-105",
+  "terminal": "Solid-post",
+  "plug_torque": "25.5N·m(2.60kgf·m,18.8ft·lb)",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": false,
+  "estart": false
+ },
+ {
+  "file": "99803-0218-o5kx65cnf-us-en-0.xml",
+  "code": "KX65C",
+  "year": 2022,
+  "names": [],
+  "plug": "NGK BR10EG",
+  "terminal": "Solid-",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99803-0303-o5kx65cpf-us-en-a.xml",
+  "code": "KX65C",
+  "year": 2023,
+  "names": [],
+  "plug": "NGK BR10EG",
+  "terminal": "Solid-",
+  "gaps": [
+   "0.5-0.6 mm (0.020-0.024 in)"
+  ],
+  "gap_plugs": null,
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99803-0304-o5kx85cpf-us-en-3.xml",
+  "code": "KX85C",
+  "year": 2023,
+  "names": [],
+  "ignition": "CDI",
+  "timing": [
+   "12°BTDC@11320r/min(rpm)"
+  ],
+  "plug": "NGK R6252K-105",
+  "terminal": "Solid-post",
+  "gaps": [
+   "0.7-0.8 mm (0.028-0.031 in)",
+   "0.6-0.7 mm (0.024-0.028 in)"
+  ],
+  "gap_plugs": "NGKR6252K-105NGKBR9EVX",
+  "plug_torque": "25.5N·m(2.60kgf·m,18.8ft·lb)",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [
+   "KX112A"
+  ],
+  "acc_conn": false,
+  "kick": false,
+  "estart": false
+ },
+ {
+  "file": "99803-0306-o5kx252cpf-us-en-.xml",
+  "code": "KX252C",
+  "year": 2023,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "2°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CR9EIB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "gaps": [
+   "0.8-0.9 mm (0.031-0.035 in)"
+  ],
+  "gap_plugs": "CR9EIB-9CPR9EB-9",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "colder_plug": "NGKCPR9EB-9",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseandsparefusearemountedbehindtherightsidecover.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "42",
+     "46"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort",
+     "Upstreaminjectormalfunction,wiringopenorshort",
+     "Fuelpumpmalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "51",
+     "7F"
+    ],
+    "probs": [
+     "ProblemsIgnitioncoilmalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [
+   "KX252D"
+  ],
+  "acc_conn": true,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99803-0308-o5kx450jpf-us-en-.xml",
+  "code": "KX450J",
+  "year": 2023,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "11°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "gaps": [
+   "0.8-0.9 mm (0.03-0.04 in)"
+  ],
+  "gap_plugs": "CPR8EB-9CPR9EB-9",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "colder_plug": "NGKCPR9EB-9",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseisplacedinthestarterrelaybehindtherightsidecover.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "46"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort",
+     "Fuelpumpmalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "51",
+     "7F"
+    ],
+    "probs": [
+     "FProblemsIgnitioncoilmalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [
+   "KX450K"
+  ],
+  "acc_conn": true,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99803-0398-o5kx65crf-us-en-2.xml",
+  "code": "KX65C",
+  "year": 2024,
+  "names": [],
+  "plug": "NGK BR10EG",
+  "terminal": "Solid-",
+  "gaps": [
+   "0.5-0.6 mm (0.020-0.024 in)"
+  ],
+  "gap_plugs": null,
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99803-0399-o5kx85crf-us-en-5.xml",
+  "code": "KX85C",
+  "year": 2024,
+  "names": [],
+  "ignition": "CDI",
+  "timing": [
+   "12°BTDC@11320r/min(rpm)"
+  ],
+  "plug": "NGK R6252K-105",
+  "terminal": "Solid-post",
+  "gaps": [
+   "0.7-0.8 mm (0.028-0.031 in)",
+   "0.6-0.7 mm (0.024-0.028 in)"
+  ],
+  "gap_plugs": "NGKR6252K-105",
+  "plug_torque": "25.5N·m(2.60kgf·m,18.8ft·lb)",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [
+   "KX112A"
+  ],
+  "acc_conn": false,
+  "kick": false,
+  "estart": false
+ },
+ {
+  "file": "99803-0400-o5kx252crf-us-en-.xml",
+  "code": "KX252C",
+  "year": 2024,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "2°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CR9EIB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "gaps": [
+   "0.8-0.9 mm (0.031-0.035 in)"
+  ],
+  "gap_plugs": "CR9EIB-9CPR9EB-9",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "colder_plug": "NGKCPR9EB-956",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseandsparefusearemountedbehindtherightsidecover.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "42",
+     "46"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort",
+     "Upstreaminjectormalfunction,wiringopenorshort",
+     "Fuelpumpmalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "51",
+     "7F"
+    ],
+    "probs": [
+     "ProblemsIgnitioncoilmalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [
+   "KX252D"
+  ],
+  "acc_conn": true,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99803-0401-01-o5kx450mrf-us-.xml",
+  "code": "KX450M",
+  "year": 2024,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "10°BTDC@2300r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "gaps": [
+   "0.8-0.9 mm (0.03-0.04 in)"
+  ],
+  "gap_plugs": "CPR8EB-9CPR9EB-9",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "colder_plug": "NGKCPR9EB-956",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseisplacedinthestarterrelaybehindtherightradiatorshroud.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "46",
+     "51"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort",
+     "Fuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "75",
+     "7F"
+    ],
+    "probs": [
+     "ProblemsMainrelaymalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "launch": [
+   "6000",
+   "9500",
+   "9500"
+  ],
+  "has_launch": true,
+  "has_ktrc": true,
+  "has_app": true,
+  "has_powermode": true,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99803-0402-01-o5kx450nrf-us-.xml",
+  "code": "KX450N",
+  "year": 2024,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "10°BTDC@2300r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "gaps": [
+   "0.8-0.9 mm (0.03-0.04 in)"
+  ],
+  "gap_plugs": "CPR8EB-9CPR9EB-9",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "colder_plug": "NGKCPR9EB-956",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseisplacedinthestarterrelaybehindtherightradiatorshroud.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "46"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort",
+     "Fuelpumpmalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "51",
+     "75",
+     "7F"
+    ],
+    "probs": [
+     "FProblemsIgnitioncoilmalfunction,wiringopenorshort",
+     "Mainrelaymalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "launch": [
+   "6000",
+   "9500",
+   "9500"
+  ],
+  "has_launch": true,
+  "has_ktrc": true,
+  "has_app": true,
+  "has_powermode": true,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": true,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99814-0003-o5kx450msf-us-en_.xml",
+  "code": "KX450M",
+  "year": 2025,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "10°BTDC@2300r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "gaps": [
+   "0.8-0.9 mm (0.03-0.04 in)"
+  ],
+  "gap_plugs": "CPR8EB-9CPR9EB-9",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "colder_plug": "NGKCPR9EB-9",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseisplacedinthestarterrelaybe-hindtherightradiatorshroud.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51",
+     "75",
+     "7F"
+    ],
+    "probs": [
+     "FProblemsFuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort",
+     "Mainrelaymalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "launch": [
+   "6000",
+   "9500",
+   "9500"
+  ],
+  "has_launch": true,
+  "has_ktrc": true,
+  "has_app": true,
+  "has_powermode": true,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [
+   "KX450N"
+  ],
+  "acc_conn": true,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99814-0012-o5kx65csf-us-en_e.xml",
+  "code": "KX65C",
+  "year": 2025,
+  "names": [],
+  "plug": "NGK BR10EG",
+  "terminal": "Solid-",
+  "gaps": [
+   "0.5-0.6 mm (0.020-0.024 in)"
+  ],
+  "gap_plugs": "NGKBR10EG",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99814-0013-o5kx85csf-us-en_e.xml",
+  "code": "KX85C",
+  "year": 2025,
+  "names": [],
+  "ignition": "CDI",
+  "timing": [
+   "12°BTDC@11320r/min(rpm)"
+  ],
+  "plug": "NGK R6252K-105",
+  "terminal": "Solid-post",
+  "gaps": [
+   "0.7-0.8 mm (0.028-0.031 in)",
+   "0.6-0.7 mm (0.024-0.028 in)"
+  ],
+  "gap_plugs": null,
+  "plug_torque": "25.5N·m(2.60kgf·m,18.8ft·lb)",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [
+   "KX112A"
+  ],
+  "acc_conn": false,
+  "kick": false,
+  "estart": false
+ },
+ {
+  "file": "99814-0061-o5kx252esf-us-en_.xml",
+  "code": "KX252E",
+  "year": 2025,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "12°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK SILMAR9F9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "gaps": [
+   "0.8-0.9 mm (0.031-0.035 in)"
+  ],
+  "gap_plugs": null,
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseandsparefusearemountedbe-hindtherightradiatorshroud.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "42"
+    ],
+    "probs": [
+     "Throttlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort",
+     "Upstreaminjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51",
+     "75",
+     "7F"
+    ],
+    "probs": [
+     "Fuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort",
+     "Mainrelaymalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "launch": [
+   "10000",
+   "13000",
+   "13000"
+  ],
+  "has_launch": true,
+  "has_ktrc": true,
+  "has_app": true,
+  "has_powermode": true,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99814-0062-o5kx252fsf-us-en_.xml",
+  "code": "KX252F",
+  "year": 2025,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "12°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK SILMAR9F9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "gaps": [
+   "0.8-0.9 mm (0.031-0.035 in)"
+  ],
+  "gap_plugs": null,
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseandsparefusearemountedbe-hindtherightradiatorshroud.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "42"
+    ],
+    "probs": [
+     "Throttlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort",
+     "Upstreaminjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51",
+     "75",
+     "7F"
+    ],
+    "probs": [
+     "Fuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort",
+     "Mainrelaymalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "launch": [
+   "10000",
+   "13000",
+   "13000"
+  ],
+  "has_launch": true,
+  "has_ktrc": true,
+  "has_app": true,
+  "has_powermode": true,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [
+   "KX252F"
+  ],
+  "acc_conn": true,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99814-0119-o5kx252etf-us-en_.xml",
+  "code": "KX252E",
+  "year": 2026,
+  "names": [],
+  "plug": "NGK SILMAR9F9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "gaps": [
+   "0.8-0.9 mm (0.031-0.035 in)"
+  ],
+  "gap_plugs": null,
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseandsparefusearemountedbe-hindtherightradiatorshroud.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "42"
+    ],
+    "probs": [
+     "Throttlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort",
+     "Upstreaminjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51",
+     "75",
+     "7F"
+    ],
+    "probs": [
+     "Fuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort",
+     "Mainrelaymalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "launch": [
+   "10000",
+   "13000",
+   "13000"
+  ],
+  "has_launch": true,
+  "has_ktrc": true,
+  "has_app": true,
+  "has_powermode": true,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [
+   "KX252F"
+  ],
+  "acc_conn": true,
+  "kick": false,
+  "estart": false
+ },
+ {
+  "file": "99814-0120-o5kx65ctf-us-en_e.xml",
+  "code": "KX65C",
+  "year": 2026,
+  "names": [],
+  "plug": "NGK BR10EG",
+  "terminal": "Solid-",
+  "gaps": [
+   "0.5-0.6 mm (0.020-0.024 in)"
+  ],
+  "gap_plugs": "NGKBR10EG",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99814-0121-o5kx450mtf-us-en_.xml",
+  "code": "KX450M",
+  "year": 2026,
+  "names": [],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "gaps": [
+   "0.8-0.9 mm (0.03-0.04 in)"
+  ],
+  "gap_plugs": "CPR8EB-9CPR9EB-9",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "colder_plug": "NGKCPR9EB-9",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseisplacedinthestarterrelaybe-hindtherightradiatorshroud.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41"
+    ],
+    "probs": [
+     "Throttlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51",
+     "75",
+     "7F"
+    ],
+    "probs": [
+     "Fuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort",
+     "Mainrelaymalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "launch": [
+   "6000",
+   "9500",
+   "9500"
+  ],
+  "has_launch": true,
+  "has_ktrc": true,
+  "has_app": true,
+  "has_powermode": true,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [
+   "KX450N"
+  ],
+  "acc_conn": true,
+  "kick": false,
+  "estart": false
+ },
+ {
+  "file": "99814-0181-o5kx112btf-us-en_.xml",
+  "code": "KX112B",
+  "year": 2026,
+  "names": [],
+  "plug": "NGK R6252K-105",
+  "terminal": "Solid-post",
+  "gaps": [
+   "0.7-0.8 mm (0.028-0.031 in)",
+   "0.6-0.7 mm (0.024-0.028 in)"
+  ],
+  "gap_plugs": "NGKR6252K-105",
+  "plug_torque": "25.5N·m(2.60kgf·m,18.8ft·lb)",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [
+   "KX112B"
+  ],
+  "acc_conn": false,
+  "kick": false,
+  "estart": false
+ },
+ {
+  "file": "99814-0182-o5kx85etf-us-en_e.xml",
+  "code": "KX85E",
+  "year": 2026,
+  "names": [],
+  "plug": "NGK R6252K-105",
+  "terminal": "Solid-post",
+  "gaps": [
+   "0.7-0.8 mm (0.028-0.031 in)",
+   "0.6-0.7 mm (0.024-0.028 in)"
+  ],
+  "gap_plugs": "NGKR6252K-105",
+  "plug_torque": "25.5N·m(2.60kgf·m,18.8ft·lb)",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": false,
+  "estart": false
+ },
+ {
+  "file": "99814-0231-o5kx65cv-us-en_eb.xml",
+  "code": "KX65C",
+  "year": 2027,
+  "names": [],
+  "plug": "NGK BR10EG",
+  "terminal": "Solid-",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [],
+  "has_launch": false,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99814-0239-o5kx252ev-us-en_e.xml",
+  "code": "KX252E",
+  "year": 2027,
+  "names": [],
+  "plug": "NGK SILMAR9F9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "gaps": [
+   "0.8-0.9 mm (0.031-0.035 in)"
+  ],
+  "gap_plugs": null,
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseandsparefusearemountedbe-hindtherightradiatorshroud.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "42"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort",
+     "Upstreaminjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51",
+     "75",
+     "7F"
+    ],
+    "probs": [
+     "ProblemsFuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort",
+     "Mainrelaymalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "launch": [
+   "10000",
+   "13000",
+   "13000"
+  ],
+  "has_launch": true,
+  "has_ktrc": true,
+  "has_app": true,
+  "has_powermode": true,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [
+   "KX252F"
+  ],
+  "acc_conn": false,
+  "kick": false,
+  "estart": false
+ },
+ {
+  "file": "99987-0054-o5kx252akf-us-en-.xml",
+  "code": "KX252A",
+  "year": 2019,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "4°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "colder_plug": "NGKCPR9EB-948",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "42"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort",
+     "Upstreaminjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51"
+    ],
+    "probs": [
+     "ProblemsFuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99987-0114-o5kx450jkf-us-en-.xml",
+  "code": "KX450J",
+  "year": 2019,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "11°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "colder_plug": "NGKCPR9EB-952",
+  "main_fuse_a": [
+   15
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseandsparefusearemountedbehindtherightsidecover.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "46"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort",
+     "Fuelpumpmalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "51",
+     "7F"
+    ],
+    "probs": [
+     "ProblemsIgnitioncoilmalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": false,
+  "estart": true
+ },
+ {
+  "file": "99987-1770-o5kx250zef-us-en-.xml",
+  "code": "KX250Z",
+  "year": 2014,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "4°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "42",
+     "46",
+     "51"
+    ],
+    "probs": [
+     "ProblemsUpstreaminjectormalfunction,wiringopenorshort",
+     "Fuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99987-1795-o5kx450fef-us-en-.xml",
+  "code": "KX450F",
+  "year": 2014,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "10°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51"
+    ],
+    "probs": [
+     "ProblemsFuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99987-1838-01-o5kx250zff-us-.xml",
+  "code": "KX250Z",
+  "year": 2015,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "4°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "42"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort",
+     "Upstreaminjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51"
+    ],
+    "probs": [
+     "ProblemsFuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99987-1839-04-o5kx450fff-us-.xml",
+  "code": "KX450F",
+  "year": 2015,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "10°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51"
+    ],
+    "probs": [
+     "ProblemsFuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99987-1865-01-o5kx450hgf-us-.xml",
+  "code": "KX450H",
+  "year": 2016,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "10°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "colder_plug": "NGKCPR9EB-9",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51"
+    ],
+    "probs": [
+     "ProblemsFuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99987-1874-o5kx250zgf-us-en-.xml",
+  "code": "KX250Z",
+  "year": 2016,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "4°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "42"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort",
+     "Upstreaminjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51"
+    ],
+    "probs": [
+     "ProblemsFuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99987-1917-o5kx252ahf-us-en-.xml",
+  "code": "KX252A",
+  "year": 2017,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "4°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "colder_plug": "NGKCPR9EB-9",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "42"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort",
+     "Upstreaminjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51"
+    ],
+    "probs": [
+     "ProblemsFuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99987-1922-o5kx450hhf-us-en-.xml",
+  "code": "KX450H",
+  "year": 2017,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "10°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "colder_plug": "NGKCPR9EB-9",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51"
+    ],
+    "probs": [
+     "ProblemsFuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99987-1988-o5kx450hjf-us-en-.xml",
+  "code": "KX450H",
+  "year": 2018,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "10°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "colder_plug": "NGKCPR9EB-9",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51"
+    ],
+    "probs": [
+     "ProblemsFuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "99987-1996-o5kx252ajf-us-en-.xml",
+  "code": "KX252A",
+  "year": 2018,
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "4°BTDC@2000r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "colder_plug": "NGKCPR9EB-9",
+  "main_fuse_a": [],
+  "acc_fuse_a": [],
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "42"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Downstreaminjectormalfunction,wiringopenorshort",
+     "Upstreaminjectormalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "46",
+     "51"
+    ],
+    "probs": [
+     "ProblemsFuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort"
+    ]
+   }
+  ],
+  "has_launch": true,
+  "has_ktrc": false,
+  "has_app": false,
+  "has_powermode": false,
+  "dfi_couplers": true,
+  "coupler_where": "ontherightfrontoftheframe",
+  "fi_cal_kit": true,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": true,
+  "estart": false
+ },
+ {
+  "file": "kx450-2024.xml",
+  "names": [],
+  "ignition": "DigitalDC-CDI",
+  "timing": [
+   "10°BTDC@2300r/min(rpm)"
+  ],
+  "plug": "NGK CPR8EB-9",
+  "terminal": "Solid-post",
+  "battery": "12.8V2.0Ah(10HR),Lithium-ionbattery",
+  "gaps": [
+   "0.8-0.9 mm (0.03-0.04 in)"
+  ],
+  "gap_plugs": "CPR8EB-9CPR9EB-9",
+  "plug_torque": "13N·m(1.3kgf·m,115in·lb)",
+  "colder_plug": "NGKCPR9EB-956",
+  "main_fuse_a": [
+   10
+  ],
+  "acc_fuse_a": [],
+  "fuse_where": "Themainfuseisplacedinthestarterrelaybehindtherightradiatorshroud.",
+  "charge_v": "13.9Vto14.9V",
+  "charge_a": "1A",
+  "codes": [
+   {
+    "nums": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "21",
+     "25",
+     "31",
+     "41",
+     "46",
+     "51"
+    ],
+    "probs": [
+     "ProblemsThrottlesensormalfunction,wiringopenorshort",
+     "Intakeairpressuresensormalfunction,wiringopenorshort",
+     "Intakeairtemperaturesensormalfunction,wiringopenorshort",
+     "Watertemperaturesensormalfunction,wiringopenorshort",
+     "Crankshaftsensormalfunction,wiringopenorshort",
+     "Gearpositionswitchmalfunction,wiringopenorshort",
+     "Vehicle-downsensormalfunction,wiringopenorshort",
+     "Fuelinjectormalfunction,wiringopenorshort",
+     "Fuelpumpmalfunction,wiringopenorshort",
+     "Ignitioncoilmalfunction,wiringopenorshort"
+    ]
+   },
+   {
+    "nums": [
+     "75",
+     "7F"
+    ],
+    "probs": [
+     "ProblemsMainrelaymalfunction,wiringopenorshort",
+     "Batteryvoltageabnormal"
+    ]
+   }
+  ],
+  "launch": [
+   "6000",
+   "9500",
+   "9500"
+  ],
+  "has_launch": true,
+  "has_ktrc": true,
+  "has_app": true,
+  "has_powermode": true,
+  "dfi_couplers": false,
+  "coupler_where": null,
+  "fi_cal_kit": false,
+  "siblings": [],
+  "acc_conn": false,
+  "kick": false,
+  "estart": true
+ }
+]
